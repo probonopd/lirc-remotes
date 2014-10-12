@@ -1,0 +1,74 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.1 on Thu Sep  7 16:12:58 2000
+#
+# contributed by
+#
+# brand:             Onkyo
+# model:             RC-295S
+# supported devices:
+#
+
+begin remote
+
+  name  Onkyo
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9095  4430
+  one           624  1625
+  zero          624   498
+  ptrail        628
+  repeat       9098  2177
+  pre_data_bits   16
+  pre_data       0x4BB6
+  gap          107960
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x00000000000020DF        #  Was: power
+          tape1                    0x00000000000010EF
+          tape2                    0x000000000000E01F
+          KEY_TUNER                0x000000000000D02F        #  Was: tuner
+          phono                    0x00000000000050AF
+          KEY_CD                   0x000000000000906F        #  Was: cd
+          KEY_VIDEO                0x000000000000F00F        #  Was: video1
+          KEY_VIDEO                0x000000000000708F        #  Was: video2
+          group                    0x00000000000052AD
+          preset<                  0x000000000000807F
+          preset>                  0x00000000000000FF
+          decka<                   0x000000000000F20D
+          decka>                   0x000000000000728D
+          deckapause               0x0000000000000AF5
+          deckastop                0x000000000000B24D
+          decka<<                  0x0000000000004AB5
+          decka>>                  0x0000000000008A75
+          deckb<                   0x0000000000006897
+          deckb>                   0x000000000000A857
+          deckbpause               0x00000000000018E7
+          deckbstop                0x000000000000C837
+          deckb<<                  0x00000000000058A7
+          deckb>>                  0x0000000000009867
+          delaytime                0x000000000000CA35
+          test                     0x00000000000059A6
+          muting                   0x000000000000A05F
+          cddisc                   0x0000000000003AC5
+          cd>                      0x000000000000D827
+          cdpause                  0x000000000000F807
+          cdstop                   0x00000000000038C7
+          cd<<                     0x0000000000007887
+          cd>>                     0x000000000000B847
+          centerlevelup            0x00000000000001FE
+          centerleveldown          0x000000000000817E
+          rearlevelup              0x00000000000042BD
+          rearleveldown            0x000000000000C23D
+          KEY_VOLUMEUP             0x00000000000040BF        #  Was: volumeup
+          KEY_VOLUMEDOWN           0x000000000000C03F        #  Was: volumedown
+      end codes
+
+end remote
+
+

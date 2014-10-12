@@ -1,0 +1,66 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.5(serial) on Sun Jul 21 16:38:30 2002
+#
+# contributed by S.Kranz (schmude@foni.net)
+#
+# brand:                                   Tevion
+# model no. of remote control:             ???
+# devices being controlled by this remote: DVD-Player DVD2001
+#
+
+begin remote
+
+  name  DVD2001
+  bits           11
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           239  7360
+  zero          239  4843
+  ptrail        239
+  gap          121704
+  toggle_bit      2
+
+
+      begin codes
+          KEY_POWER                0x000000000000055E        #  Was: power
+          KEY_EJECTCD              0x0000000000000566        #  Was: eject
+          KEY_MUTE                 0x0000000000000558        #  Was: mute
+          KEY_1                    0x0000000000000575        #  Was: 1
+          KEY_2                    0x000000000000056D        #  Was: 2
+          KEY_3                    0x0000000000000565        #  Was: 3
+          KEY_4                    0x000000000000055D        #  Was: 4
+          KEY_5                    0x0000000000000574        #  Was: 5
+          KEY_6                    0x000000000000056C        #  Was: 6
+          KEY_7                    0x0000000000000564        #  Was: 7
+          KEY_8                    0x000000000000055C        #  Was: 8
+          KEY_9                    0x0000000000000573        #  Was: 9
+          KEY_0                    0x000000000000056B        #  Was: 0
+          KEY_AUDIO                0x0000000000000560        #  Was: audio
+          [...]                    0x0000000000000563        #  Was: [...]
+          KEY_CAMERA               0x000000000000056E        #  Was: camera
+          KEY_MENU                 0x0000000000000567        #  Was: menu
+          KEY_TITLE                0x0000000000000576        #  Was: title
+          [-]                      0x000000000000056F        #  Was: [-]
+          KEY_EXIT                 0x0000000000000570        #  Was: exit
+          KEY_NEXT                 0x0000000000000572        #  Was: >>|
+          KEY_PREVIOUS             0x0000000000000577        #  Was: |<<
+          <                        0x0000000000000571
+          >                        0x0000000000000561
+          KEY_FORWARD              0x0000000000000568        #  Was: >>
+          KEY_REWIND               0x000000000000056A        #  Was: <<
+          OK>                      0x0000000000000569
+          KEY_PAUSE                0x0000000000000562        #  Was: pause
+          KEY_STOP                 0x0000000000000562        #  Was: stop
+          KEY_PAUSE                0x0000000000000559        #  Was: pause
+          index                    0x000000000000055A
+          a-b                      0x000000000000055F
+      end codes
+
+end remote
+
+
+
+

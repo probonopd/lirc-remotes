@@ -1,0 +1,81 @@
+#bezieht sich nur auf W‰hlschalter "VTR"; "TV" war recht
+#unzuverl‰ssig, #nur RAW Codes, ohnehin nur sehr wenige Tasten.
+#Ansonsten hochwertige, extrem zuverl‰ssige FB (Empfehlung).
+#Es gibt so weit ich weiﬂ nur einen H‰ndler in Irland, der die FB noch
+#liefert; Preis « 75,90.
+#
+# this config file was automatically generated
+# using lirc-WinLIRC 0.6.1pre2 (LIRC 0.6.1pre2) on Fri Jan 04 14:03:41 2002
+#
+# contributed by
+#
+# brand:             Sony
+# model:             RMT-V117
+# supported devices: use VTR Mode
+#
+
+begin remote
+
+  name  Sony
+  bits           11
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  header       2473   609
+  one           619   609
+  zero         1215   609
+  ptrail        619
+  gap          24163
+  toggle_bit      0
+
+
+      begin codes
+          TV/VTR                   0x0000000000000552
+          KEY_POWER                0x00000000000002B2        #  Was: power
+          KEY_MENU                 0x0000000000000262        #  Was: menu
+          timer                    0x0000000000000622
+          check                    0x00000000000006C2
+          KEY_CLEAR                0x00000000000001C2        #  Was: clear
+          KEY_POWER                0x00000000000002C2        #  Was: on/off
+          KEY_UP                   0x00000000000005E2        #  Was: up
+          KEY_DOWN                 0x00000000000001E2        #  Was: down
+          KEY_LEFT                 0x00000000000005C2        #  Was: left
+          KEY_RIGHT                0x00000000000003C2        #  Was: right
+          execute                  0x00000000000003A2
+          clock/counter            0x00000000000003E2
+          input                    0x0000000000000062
+          reset                    0x00000000000004E2
+          datascreen               0x0000000000000522
+          frameback                0x0000000000000792
+          framefore                0x0000000000000392
+          KEY_SLOW                 0x00000000000001D2        #  Was: slow
+          x2                       0x00000000000006B2
+          KEY_RECORD               0x0000000000000232        #  Was: record
+          hispeedrew               0x0000000000000202
+          searchback               0x0000000000000752
+          searchfore               0x0000000000000352
+          KEY_PLAY                 0x0000000000000532        #  Was: play
+          KEY_PAUSE                0x0000000000000332        #  Was: pause
+          KEY_REWIND               0x0000000000000132        #  Was: rew
+          KEY_STOP                 0x0000000000000732        #  Was: stop
+          KEY_FASTFORWARD          0x0000000000000632        #  Was: ffwd
+          KEY_1                    0x00000000000007F2        #  Was: 1
+          KEY_2                    0x00000000000003F2        #  Was: 2
+          KEY_3                    0x00000000000005F2        #  Was: 3
+          KEY_4                    0x00000000000001F2        #  Was: 4
+          KEY_5                    0x00000000000006F2        #  Was: 5
+          KEY_6                    0x00000000000002F2        #  Was: 6
+          KEY_7                    0x00000000000004F2        #  Was: 7
+          KEY_8                    0x00000000000000F2        #  Was: 8
+          KEY_9                    0x0000000000000772        #  Was: 9
+          KEY_0                    0x0000000000000372        #  Was: 0
+          KEY_102ND                0x0000000000000572        #  Was: -/--
+          KEY_CHANNELUP            0x00000000000007B2        #  Was: prog+
+          KEY_CHANNELDOWN          0x00000000000003B2        #  Was: prog-
+          KEY_VOLUMEUP             0x00000000000005B7        #  Was: vol+
+          KEY_VOLUMEDOWN           0x00000000000001B7        #  Was: vol-
+      end codes
+
+end remote
+

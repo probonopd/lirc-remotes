@@ -1,0 +1,40 @@
+#
+# this config file was automatically generated
+# using lirc-0.7.0-CVS(serial) on Mon Aug 30 20:13:22 2004
+#
+# contributed by Andrej v. Schilling <mowses AT gmx DOT net>
+#
+# brand: ONKYO
+# model no. of remote control: RC-184s
+# devices being controlled by this remote: Tuner Amplifier TX-7820
+#
+
+begin remote
+
+  name Onkyo_RC-184s
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9118  4375
+  one           675  1571
+  zero          675   450
+  ptrail        679
+  repeat       9118  2126
+  pre_data_bits   16
+  pre_data       0x4BB6
+  gap          107911
+  toggle_bit      0
+
+
+      begin codes
+          KEY_PLAY                 0x000000000000728D        #  Was: play
+          KEY_STOP                 0x000000000000B24D        #  Was: stop
+          KEY_FASTFORWARD          0x0000000000008A75        #  Was: ffw
+          KEY_REWIND               0x0000000000004AB5        #  Was: rew
+      end codes
+
+end remote
+
+

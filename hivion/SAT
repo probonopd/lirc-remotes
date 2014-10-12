@@ -1,0 +1,77 @@
+#####################  Added by moh on nov, 23 2009  ####################
+#
+# this config file was automatically generated
+# using lirc-0.8.3(default) on Mon Nov 23 18:20:55 2009
+#
+# contributed by : mohdadyg|gmail.com
+#
+# brand:                       Hivion
+# model no. of remote control: ? (taiwan)
+# Model name of remote control: ASTRA HIVION
+# devices being controlled by this remote: satellite receivers and my
+skystar2 PCI under Debian GNU/Linux
+#
+#===>>  NOTE: A/B == volume_up  , TV/RADIO == volume_down  , BACK == exit
+
+begin remote
+
+  name  Hivion_SAT
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9010  4358
+  one           615  1583
+  zero          615   432
+  ptrail        605
+  repeat       9013  2105
+  pre_data_bits   16
+  pre_data       0x202
+  gap          113072
+  toggle_bit_mask 0x0
+
+      begin codes
+          KEY_POWER                0x50AF                    #  Was: POWER
+          KEY_MUTE                 0x30CF                    #  Was: MUTE
+          tv/sat                 0xF00F
+          KEY_1                    0x807F                    #  Was: 1
+          KEY_2                    0x40BF                    #  Was: 2
+          KEY_3                    0xC03F                    #  Was: 3
+          KEY_4                    0x20DF                    #  Was: 4
+          KEY_5                    0xA05F                    #  Was: 5
+          KEY_6                    0x609F                    #  Was: 6
+          KEY_7                    0xE01F                    #  Was: 7
+          KEY_8                    0x10EF                    #  Was: 8
+          KEY_9                    0x906F                    #  Was: 9
+          KEY_0                    0x00FF                    #  Was: 0
+          KEY_SAT                  0xA25D                    #  Was: sat
+          KEY_AUDIO                0xB847                    #  Was: music
+          KEY_MENU                 0x02FD                    #  Was: MENU
+          KEY_EPG                  0x58A7                    #  Was: EPG
+          KEY_INFO                 0x42BD                    #  Was: INFO
+          KEY_BACK                 0x827D                    #  Was: BACK
+          KEY_OK                   0xB04F                    #  Was: OK
+          KEY_UP                   0xD02F                    #  Was: UP
+          KEY_DOWN                 0x708F                    #  Was: DOWN
+          KEY_LEFT                 0x08F7                    #  Was: LEFT
+          KEY_RIGHT                0x8877                    #  Was: RIGHT
+          TV/RADIO          0x38C7
+          A/B                    0xA857
+          KEY_CHANNELDOWN          0x7887                    #  Was: chdown
+          KEY_CHANNELUP            0xF807                    #  Was: chup
+          KEY_RED                  0x6897                    #  Was: RED
+          KEY_GREEN                0xE817                    #  Was: GREEN
+          KEY_YELLOW               0x18E7                    #  Was: YELLOW
+          KEY_BLUE                 0x9867                    #  Was: BLUE
+          KEY_FAVORITES            0xE21D                    #  Was: fav
+          KEY_AGAIN                0xC23D                    #  Was: rcl
+          func                   0x629D
+          timer                  0x48B7
+          KEY_AUDIO                0xC837                    #  Was: audio
+          KEY_LANGUAGE             0xD827                    #  Was: lang
+          KEY_TEXT                 0x28D7                    #  Was: TXT
+          a-z                     0x22DD
+      end codes
+
+end remote

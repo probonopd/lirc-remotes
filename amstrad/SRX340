@@ -1,0 +1,57 @@
+#
+# this config file was automatically generated
+# using lirc-0.5.4pre9 on Thu Feb 18 15:27:42 1999
+#
+# contributed by Heinrich Langos
+#
+# brand:             AMSTRAD
+# model:             SRX340
+# supported devices: SAT
+#
+
+begin remote
+
+  name  AMSTRAD_SRX340
+  bits           13
+  flags SPACE_ENC|CONST_LENGTH
+  eps            20
+  aeps           0
+
+  header       9115  4384
+  one           647   476
+  zero          647  1610
+  ptrail        647
+  repeat       9125  2150
+  pre_data_bits   16
+  pre_data       0xFE69
+  post_data_bits  3
+  post_data      0x0
+  gap          95980
+  repeat_bit      0
+
+      begin codes
+          KEY_SLEEP                0x0000000000001EE1        #  Was: STANDBY
+          STATUS                   0x0000000000000EF1
+          KEY_1                    0x0000000000001FE0        #  Was: 1
+          KEY_2                    0x0000000000000FF0        #  Was: 2
+          KEY_3                    0x00000000000017E8        #  Was: 3
+          KEY_4                    0x00000000000007F8        #  Was: 4
+          KEY_5                    0x0000000000001BE4        #  Was: 5
+          KEY_6                    0x0000000000000BF4        #  Was: 6
+          KEY_7                    0x00000000000013EC        #  Was: 7
+          KEY_8                    0x00000000000003FC        #  Was: 8
+          KEY_9                    0x0000000000001DE2        #  Was: 9
+          KEY_0                    0x0000000000000DF2        #  Was: 0
+          KEY_CHANNELDOWN          0x00000000000015EA        #  Was: CHANNEL_DOWN
+          KEY_CHANNELUP            0x00000000000005FA        #  Was: CHANNEL_UP
+          AUTHORISE                0x00000000000019E6
+          KEY_OK                   0x00000000000009F6        #  Was: OK
+          KEY_EXIT                 0x00000000000011EE        #  Was: EXIT
+          TIMER                    0x00000000000001FE
+          KEY_SETUP                0x0000000000001AE5        #  Was: SET-UP
+          SIS                      0x00000000000016E9
+      end codes
+
+end remote
+
+

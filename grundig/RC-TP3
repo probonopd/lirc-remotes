@@ -1,0 +1,72 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.3(default) on Sat Jul 24 02:41:38 2010
+#
+# contributed by Fof Hotz <fof|promotec.lu>
+#
+# brand:                       Grundig RC-TP3
+# model no. of remote control: RC-TP3
+# devices being controlled by this remote: VDR(DVB-mode)/TV
+#
+
+begin remote
+
+  name  Grundig_RC-TP3
+  bits           13
+  flags RC5|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           843   830
+  zero          843   830
+  plead         859
+  gap          108170
+  toggle_bit_mask 0x800
+
+      begin codes
+          KEY_0                    0x1200                    #  Was: 0
+          KEY_1                    0x1201                    #  Was: 1
+          KEY_2                    0x1202                    #  Was: 2
+          KEY_3                    0x1203                    #  Was: 3
+          KEY_4                    0x1204                    #  Was: 4
+          KEY_5                    0x1205                    #  Was: 5
+          KEY_6                    0x1206                    #  Was: 6
+          KEY_7                    0x1207                    #  Was: 7
+          KEY_8                    0x1208                    #  Was: 8
+          KEY_9                    0x1209                    #  Was: 9
+          KEY_LEFT                 0x0215                    #  Was: LEFT
+          KEY_RIGHT                0x0216                    #  Was: RIGHT
+          KEY_UP                   0x0210                    #  Was: UP
+          KEY_DOWN                 0x0211                    #  Was: DOWN
+          KEY_VOLUMEUP             0x1210                    #  Was: VOL+
+          KEY_VOLUMEDOWN           0x1211                    #  Was: VOL-
+          KEY_CHANNELUP            0x1220                    #  Was: CHANNEL+
+          KEY_CHANNELDOWN          0x1221                    #  Was: CHANNEL-
+          KEY_PLAY                 0x1235                    #  Was: PLAY
+          KEY_PAUSE                0x1230                    #  Was: PAUSE
+          KEY_FASTFORWARD          0x122E                    #  Was: FF
+          KEY_REWIND               0x122C                    #  Was: REW
+          KEY_STOP                 0x1236                    #  Was: STOP
+          KEY_RECORD               0x120E                    #  Was: REC
+          KEY_GREEN                0x022C                    #  Was: GREEN
+          KEY_RED                  0x022B                    #  Was: RED
+          YEL                      0x022D
+          BLU                      0x022E
+          KEY_MENU                 0x123C                    #  Was: MENU
+          KEY_BACK                 0x020F                    #  Was: BACK
+          KEY_OK                   0x0217                    #  Was: OK
+          KEY_INFO                 0x0206                    #  Was: INFO
+          KEY_MUTE                 0x120D                    #  Was: MUTE
+          CEC                      0x1222
+          KEY_PREVIOUS             0x121F                    #  Was: PREV
+          KEY_NEXT                 0x121E                    #  Was: NEXT
+          USR1                     0x023E
+          USR2                     0x0235
+          USR3                     0x1223
+          USR4                     0x0205
+
+      end codes
+
+end remote
+
+

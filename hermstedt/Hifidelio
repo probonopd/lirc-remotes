@@ -1,0 +1,81 @@
+#
+# this config file was automatically generated
+# using lirc-0.7.2(serial) on Thu Oct  6 09:21:43 2005
+#
+# contributed by:
+#	Aurelius Robert BAIER
+#	aurelius.baier|gmail.com
+#
+# brand:                       Hermstedt
+# model no. of remote control: Hifidelio
+# devices being controlled by this remote:
+#	Hifidelio by Hermstedt
+#	   - one of the first
+#	     Hifidelios, it ist possible that newer
+#	     ones have another remote
+#	   - in the USA Hermstedt is known as Olive
+#
+#
+
+begin remote
+
+  name  Hermstedt_Hifidelio
+  bits           13
+  flags RC5|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           905   870
+  zero          905   870
+  plead         936
+  gap          116001
+  min_repeat      1
+  toggle_bit      0
+
+
+      begin codes
+          KEY_RECORD               0x1438                    #  Was: record
+          operate                  0x1C1A
+          KEY_EJECTCD              0x140C                    #  Was: eject
+          KEY_1                    0x1C01                    #  Was: 1
+          KEY_2                    0x1402                    #  Was: 2
+          KEY_3                    0x1C03                    #  Was: 3
+          KEY_4                    0x1404                    #  Was: 4
+          KEY_5                    0x1C05                    #  Was: 5
+          KEY_6                    0x1406                    #  Was: 6
+          KEY_7                    0x1C07                    #  Was: 7
+          KEY_8                    0x1408                    #  Was: 8
+          KEY_9                    0x1C09                    #  Was: 9
+          KEY_MENU                 0x1426                    #  Was: menu
+          KEY_0                    0x1C00                    #  Was: 0
+          KEY_MUTE                 0x140A                    #  Was: mute
+          KEY_BACK                 0x1C22                    #  Was: back
+          KEY_STOP                 0x140F                    #  Was: stop
+          KEY_PLAY                 0x1C0E                    #  Was: play
+          KEY_NEXT                 0x1429                    #  Was: next
+          KEY_LEFT                 0x1C2C                    #  Was: left
+          KEY_UP                   0x141C                    #  Was: up
+          KEY_RIGHT                0x1C2B                    #  Was: right
+          KEY_DOWN                 0x141D                    #  Was: down
+          KEY_OK                   0x1C2E                    #  Was: ok
+          KEY_VOLUMEUP             0x1411                    #  Was: volume_up
+          KEY_VOLUMEDOWN           0x1C10                    #  Was: volume_down
+          KEY_LIGHTS_TOGGLE        0x1421                    #  Was: light_down
+          KEY_LIGHTS_TOGGLE        0x1C20                    #  Was: light_up
+          f1                       0x1412
+          f2                       0x1C14
+          f3                       0x143C
+          f4                       0x1C25
+          artist                   0x1413
+          album                    0x1C15
+          songs                    0x142F
+          genre                    0x1C24
+          lists                    0x143B
+          KEY_CD                   0x1C2A                    #  Was: cd
+          KEY_CYCLEWINDOWS         0x140B                    #  Was: source
+          KEY_INFO                 0x1C23                    #  Was: info
+      end codes
+
+end remote
+
+

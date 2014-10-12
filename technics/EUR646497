@@ -1,0 +1,76 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.6(serial) on Fri Apr  2 16:47:34 2004
+#
+# contributed by
+#
+# brand:                       Technics
+# model no. of remote control: EUR646497
+# devices being controlled by this remote: DVD
+#
+
+begin remote
+
+  name  Technics_EUR646497
+  bits           32
+  flags SPACE_ENC
+  eps            30
+  aeps          100
+
+  header       3549  1698
+  one           471  1260
+  zero          471   409
+  ptrail        487
+  pre_data_bits   16
+  pre_data       0x4004
+  gap          75297
+  min_repeat      1
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x000000000D00BCB1        #  Was: power
+          KEY_PLAY                 0x000000000D00505D        #  Was: play
+          KEY_REWIND               0x000000000D00929F        #  Was: rewind
+          KEY_STOP                 0x000000000D00000D        #  Was: stop
+          KEY_FORWARD              0x000000000D00525F        #  Was: forward
+          KEY_TITLE                0x000000000D00D9D4        #  Was: title
+          KEY_UP                   0x000000000D00A1AC        #  Was: up
+          KEY_DVD                  0x000000000500C5C0        #  Was: dvd
+          KEY_LEFT                 0x000000000D00E1EC        #  Was: left
+          KEY_RIGHT                0x000000000D00111C        #  Was: right
+          KEY_DOWN                 0x000000000D00616C        #  Was: down
+          KEY_SELECT               0x000000000D00414C        #  Was: select
+          display                  0x000000000D004944
+          KEY_MENU                 0x000000000D00010C        #  Was: menu
+          stereo                   0x0000000005280C21
+          surround                 0x0000000005004D48
+          test                     0x0000000005286F42
+          delay                    0x000000000528FDD0
+          level                    0x0000000005287D50
+          KEY_KPMINUS              0x000000000528BD90        #  Was: -
+          KEY_KPPLUS               0x0000000005283D10        #  Was: +
+          KEY_1                    0x000000000D000805        #  Was: 1
+          KEY_2                    0x000000000D008885        #  Was: 2
+          KEY_3                    0x000000000D004845        #  Was: 3
+          KEY_4                    0x000000000D00C8C5        #  Was: 4
+          KEY_5                    0x000000000D002825        #  Was: 5
+          KEY_6                    0x000000000D00A8A5        #  Was: 6
+          KEY_7                    0x000000000D006865        #  Was: 7
+          KEY_8                    0x000000000D00E8E5        #  Was: 8
+          KEY_9                    0x000000000D001815        #  Was: 9
+          KEY_0                    0x000000000D009895        #  Was: 0
+          KEY_0                    0x000000000D00919C        #  Was: 10
+          tvvol-                   0x0000000001008485
+          tvvol+                   0x0000000001000405
+          tv/av                    0x000000000100A0A1
+          disc/deck                0x000000000510A9BC
+          muting                   0x0000000005004C49
+          KEY_VOLUMEDOWN           0x0000000005008481        #  Was: vol-
+          KEY_VOLUMEUP             0x0000000005000401        #  Was: vol+
+          processor                0x000000000548BCF1
+      end codes
+
+end remote
+
+

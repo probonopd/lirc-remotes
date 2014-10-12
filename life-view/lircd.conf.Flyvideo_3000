@@ -1,0 +1,60 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.6(serial) on Sun Oct 19 21:13:12 2003
+#
+# contributed by Paul Wilkinson (paulw at wilko dot com)
+#
+# brand:                        Lifeview
+# model no. of remote control:  Flyvideo 3000
+# devices being controlled by this remote: 
+#
+
+begin remote
+
+  name  Flyvideo_3000
+  bits           16
+  flags SPACE_ENC
+  eps            30
+  aeps          100
+
+  header       8944  4417
+  one           588  1655
+  zero          588   548
+  ptrail        588
+  repeat       8954  4348
+  pre_data_bits   26
+  pre_data       0x1A1F2F
+  gap          93934
+  toggle_bit      0
+
+
+      begin codes
+          KEY_AGAIN                0x000000000000609F        #  Was: recall
+          KEY_0                    0x000000000000F00F        #  Was: 0
+          KEY_ENTER                0x00000000000008F7        #  Was: enter
+          KEY_7                    0x000000000000D02F        #  Was: 7
+          KEY_8                    0x00000000000030CF        #  Was: 8
+          KEY_9                    0x000000000000B04F        #  Was: 9
+          KEY_4                    0x000000000000E01F        #  Was: 4
+          KEY_5                    0x00000000000010EF        #  Was: 5
+          KEY_6                    0x000000000000906F        #  Was: 6
+          KEY_1                    0x000000000000C03F        #  Was: 1
+          KEY_2                    0x00000000000020DF        #  Was: 2
+          KEY_3                    0x000000000000A05F        #  Was: 3
+          KEY_VOLUMEUP             0x00000000000028D7        #  Was: vol+
+          KEY_VOLUMEDOWN           0x000000000000E817        #  Was: vol-
+          KEY_CHANNELUP            0x00000000000048B7        #  Was: ch+
+          KEY_CHANNELDOWN          0x000000000000C837        #  Was: ch-
+          av_source                0x00000000000018E7
+          KEY_F11                  0x00000000000040BF        #  Was: full_screen
+          stereo                   0x00000000000058A7
+          KEY_MUTE                 0x000000000000D827        #  Was: Mute
+          air/catv                 0x000000000000708F
+          KEY_VIDEO                0x0000000000008877        #  Was: video
+          KEY_AUDIO                0x000000000000A857        #  Was: audio
+          KEY_POWER                0x00000000000000FF        #  Was: power
+      end codes
+
+end remote
+
+

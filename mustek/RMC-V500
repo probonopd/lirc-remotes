@@ -1,0 +1,85 @@
+#
+# this config file was automatically generated
+# using WinLIRC 0.6.4 (LIRC 0.6.1pre3) on Thu Sep 12 13:26:32 2002
+#
+# contributed by Soma
+#
+# brand:             Mustek
+# model:             RMC-V500
+# supported devices:
+#
+
+begin remote
+
+  name  MustekDVD
+  bits           16
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  header       9045  4424
+  one           620   499
+  zero          620  1622
+  ptrail        620
+  repeat       9019  2197
+  pre_data_bits   16
+  pre_data       0xF748
+  gap          40983
+  toggle_bit      0
+
+
+      begin codes
+          KEY_1                    0x000000000000C53A        #  Was: 1
+          KEY_2                    0x0000000000008778        #  Was: 2
+          KEY_3                    0x000000000000857A        #  Was: 3
+          KEY_4                    0x000000000000E51A        #  Was: 4
+          KEY_5                    0x000000000000A758        #  Was: 5
+          KEY_6                    0x00000000000025DA        #  Was: 6
+          KEY_7                    0x00000000000027D8        #  Was: 7
+          KEY_8                    0x000000000000659A        #  Was: 8
+          KEY_9                    0x000000000000A55A        #  Was: 9
+          KEY_0                    0x000000000000E718        #  Was: 0
+          KEY_POWER                0x00000000000007F8        #  Was: power
+          KEY_EJECTCD              0x000000000000C738        #  Was: eject
+          KEY_SETUP                0x00000000000005FA        #  Was: setup
+          tv_sys                   0x00000000000045BA
+          KEY_INFO                 0x000000000000F50A        #  Was: info
+          repeat_A-B               0x0000000000003FC0
+          repeat_1-all             0x000000000000BF40
+          goto                     0x0000000000003DC2
+          program                  0x00000000000047B8
+          KEY_CLEAR                0x0000000000006798        #  Was: clear
+          KEY_SLOW                 0x000000000000ED12        #  Was: slow
+          KEY_PAUSE                0x000000000000AF50        #  Was: pause
+          KEY_UP                   0x000000000000AD52        #  Was: up
+          KEY_LEFT                 0x0000000000002FD0        #  Was: left
+          KEY_PLAY                 0x0000000000006D92        #  Was: play
+          KEY_RIGHT                0x000000000000EF10        #  Was: right
+          KEY_DOWN                 0x0000000000002DD2        #  Was: down
+          KEY_PREVIOUS             0x0000000000001FE0        #  Was: prev
+          KEY_NEXT                 0x0000000000005DA2        #  Was: next
+          fbwd                     0x0000000000001DE2
+          KEY_STOP                 0x0000000000006F90        #  Was: stop
+          KEY_FASTFORWARD          0x0000000000005FA0        #  Was: ffwd
+          pbc                      0x000000000000FD02
+          KEY_MENU                 0x0000000000007D82        #  Was: menu
+          KEY_TITLE                0x000000000000BD42        #  Was: title
+          KEY_VOLUMEUP             0x000000000000FF00        #  Was: vol_up
+          KEY_VOLUMEDOWN           0x000000000000DF20        #  Was: vol_down
+          KEY_AUDIO                0x0000000000009F60        #  Was: audio
+          KEY_ANGLE                0x0000000000009D62        #  Was: angle
+          KEY_SUBTITLE             0x000000000000DD22        #  Was: subtitle
+          KEY_ZOOM                 0x00000000000037C8        #  Was: zoom
+          KEY_NUMERIC_POUND        0x000000000000758A        #  Was: #
+          KEY_KPPLUS               0x00000000000035CA        #  Was: +
+          KEY_MUTE                 0x0000000000007F80        #  Was: mute
+          vocal                    0x0000000000007788
+          key                      0x000000000000B748
+          echo                     0x000000000000B54A
+          surround                 0x000000000000F708
+      end codes
+
+end remote
+
+
+

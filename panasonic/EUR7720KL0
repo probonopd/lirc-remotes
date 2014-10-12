@@ -1,0 +1,87 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.0(serial) on Thu Oct 12 19:21:20 2006
+#
+# contributed by
+#
+# brand:                       Panasonic
+# model no. of remote control: EUR7720KL0
+# devices being controlled by this remote:
+#
+
+begin remote
+
+  name  Panasonic_EUR7720KL0
+  bits           32
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       3560  1769
+  one           467  1269
+  zero          467   406
+  ptrail        476
+  pre_data_bits   16
+  pre_data       0x4004
+  gap          134545
+  toggle_bit      0
+
+
+      begin codes
+          KEY_DVD                  0x0D00BCB1                #  Was: dvd
+          KEY_TV                   0x0100BCBD                #  Was: tv
+          KEY_CHANNELUP            0x01002C2D                #  Was: channelup
+          KEY_VOLUMEUP             0x01000405                #  Was: volumeup
+          directtvrec              0x0D009A97
+          av                       0x0100A0A1
+          KEY_CHANNELDOWN          0x0100ACAD                #  Was: channeldown
+          KEY_VOLUMEDOWN           0x01008485                #  Was: volumedown
+          KEY_1                    0x0D000805                #  Was: 1
+          KEY_2                    0x0D008885                #  Was: 2
+          KEY_3                    0x0D004845                #  Was: 3
+          KEY_CHANNELUP            0x0D002C21                #  Was: channel2up
+          KEY_4                    0x0D00C8C5                #  Was: 4
+          KEY_5                    0x0D002825                #  Was: 5
+          KEY_6                    0x0D00A8A5                #  Was: 6
+          KEY_CHANNELDOWN          0x0D00ACA1                #  Was: channel2down
+          KEY_7                    0x0D006865                #  Was: 7
+          KEY_8                    0x0D00E8E5                #  Was: 8
+          KEY_9                    0x0D001815                #  Was: 9
+          showview                 0x0D00FEF3
+          KEY_KPASTERISK           0x0D00C1CC                #  Was: asterisk
+          KEY_0                    0x0D009895                #  Was: 0
+          inputselect              0x0D00919C
+          manualskip               0x0D00323F
+          skipleft                 0x0D00929F
+          skipright                0x0D00525F
+          slowsearchleft           0x0D00202D
+          slowsearchright          0x0D00A0AD
+          KEY_STOP                 0x0D00000D                #  Was: stop
+          KEY_PAUSE                0x0D00606D                #  Was: pause
+          KEY_PLAY                 0x0D00505D                #  Was: play
+          directnavigator          0x0D00D9D4
+          functions                0x0D00EAE7
+          KEY_SUBTITLE             0x0D00010C                #  Was: submenu
+          KEY_ENTER                0x0D00818C                #  Was: return
+          KEY_ENTER                0x0D00414C                #  Was: enter
+          KEY_UP                   0x0D00A1AC                #  Was: up
+          KEY_DOWN                 0x0D00616C                #  Was: down
+          KEY_LEFT                 0x0D00E1EC                #  Was: left
+          KEY_RIGHT                0x0D00111C                #  Was: right
+          progcheck                0x0D003E33
+          display                  0x0D004944
+          status                   0x0D00FAF7
+          timeslip                 0x0D00D2DF
+          KEY_RECORD               0x0D00101D                #  Was: rec
+          KEY_RECORD               0x0D008A87                #  Was: recmode
+          extlink                  0x0D00C4C9
+          timer                    0x0D001E13
+          KEY_AUDIO                0x0D00CCC1                #  Was: audio
+          createchapter            0x0D001A17
+          erase                    0x0D00222F
+          frec                     0x0D00E3EE
+      end codes
+
+end remote
+
+

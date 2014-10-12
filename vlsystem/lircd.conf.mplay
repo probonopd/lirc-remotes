@@ -1,0 +1,72 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.2(mplay) on Fri Dec  7 20:04:59 2007
+#
+# contributed by
+#
+# brand:                       VLSystem
+# model no. of remote control: MPlay Blast
+# devices being controlled by this remote:
+#
+
+begin remote
+
+  name  VLSystem_MPlay_Blast
+  bits            8
+  eps            30
+  aeps          100
+
+  one             0     0
+  zero            0     0
+  gap          211938
+  toggle_bit_mask 0x0
+
+      begin codes
+          PwrOff                   0x41
+          PwrOn                    0x55
+          Movies                   0x40
+          Television               0x46
+          Photos                   0x45
+          KEY_AUDIO                0x56                      #  Was: Music
+          KEY_1                    0x4d                      #  Was: 1
+          KEY_2                    0x4e                      #  Was: 2
+          KEY_3                    0x4f                      #  Was: 3
+          KEY_4                    0x50                      #  Was: 4
+          KEY_5                    0x51                      #  Was: 5
+          KEY_6                    0x52                      #  Was: 6
+          KEY_7                    0x53                      #  Was: 7
+          KEY_8                    0x03                      #  Was: 8
+          KEY_9                    0x07                      #  Was: 9
+          KEY_0                    0x4c                      #  Was: 0
+          KEY_VOLUMEUP             0x0a                      #  Was: Vol+
+          KEY_VOLUMEDOWN           0x0e                      #  Was: Vol-
+          Ch+_Lang                 0x12
+          Ch-_Page                 0x16
+          KEY_INFO                 0x0f                      #  Was: Guide
+          KEY_BACK                 0x0b                      #  Was: Back
+          KEY_TV                   0x13                      #  Was: Tv
+          KEY_OK                   0x42                      #  Was: Ok
+          KEY_UP                   0x19                      #  Was: Up
+          KEY_LEFT                 0x54                      #  Was: Left
+          KEY_RIGHT                0x43                      #  Was: Right
+          KEY_DOWN                 0x1d                      #  Was: Down
+          Exit_Click               0x1f
+          Task_Quick               0x17
+          Run_DClick               0x1b
+          KEY_REWIND               0x0d                      #  Was: Rew
+          KEY_PLAY                 0x09                      #  Was: Play
+          KEY_FASTFORWARD          0x15                      #  Was: Ffwd
+          KEY_PREVIOUS             0x1a                      #  Was: Prev
+          KEY_STOP                 0x01                      #  Was: Stop
+          KEY_NEXT                 0x1e                      #  Was: Next
+          KEY_PAUSE                0x05                      #  Was: Pause
+          KEY_MUTE                 0x4a                      #  Was: Mute
+          Warp_Mouse               0x47
+          KEY_RECORD               0x11                      #  Was: Rec
+          KEY_DVD                  0x14                      #  Was: DVD_Zoom
+          Detail                   0x4b
+      end codes
+
+end remote
+
+

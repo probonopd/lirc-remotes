@@ -1,0 +1,72 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.4(serial) on Wed Dec 19 17:43:06 2001
+#
+# contributed by
+#
+# brand:                       Kenwood
+# model no. of remote control: RC-F2
+# supported devices:        
+#
+
+begin remote
+
+  name  RC-F2
+  bits           24
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9083  4452
+  one           614  1639
+  zero          614   513
+  ptrail        613
+  repeat       9086  2200
+  pre_data_bits   8
+  pre_data       0x1D
+  gap          108194
+  toggle_bit      0
+
+
+      begin codes
+          KEY_PREVIOUS             0x000000000000FB04        #  Was: pre
+          eq                       0x000000000000F00F
+          nb                       0x000000000080D22D
+          KEY_POWER                0x000000000000B946        #  Was: power
+          KEY_AUX                  0x000000000000C936        #  Was: aux
+          KEY_TAPE                 0x000000000040A05F        #  Was: tape
+          KEY_TUNER                0x000000000040609F        #  Was: tuner
+          KEY_CD                   0x000000000040E01F        #  Was: cd
+          rwd                      0x00000000004040BF
+          KEY_FASTFORWARD          0x000000000040C03F        #  Was: ff
+          KEY_BACK                 0x00000000004000FF        #  Was: back
+          KEY_NEXT                 0x000000000040807F        #  Was: next
+          disc                     0x00000000000010EF
+          ab                       0x00000000004010EF
+          KEY_RECORD               0x0000000000007B84        #  Was: rec
+          auto                     0x00000000004020DF
+          pm                       0x00000000000023DC
+          KEY_1                    0x000000000000817E        #  Was: one
+          KEY_2                    0x00000000000041BE        #  Was: two
+          KEY_3                    0x000000000000C13E        #  Was: three
+          KEY_4                    0x00000000000021DE        #  Was: four
+          KEY_5                    0x000000000000A15E        #  Was: five
+          KEY_6                    0x000000000000619E        #  Was: six
+          KEY_7                    0x000000000000E11E        #  Was: seven
+          KEY_8                    0x00000000000011EE        #  Was: eight
+          KEY_9                    0x000000000000916E        #  Was: nine
+          KEY_0                    0x00000000000001FE        #  Was: zero
+          ten+                     0x000000000000B04F
+          random                   0x0000000000802BD4
+          KEY_EDIT                 0x000000000000B34C        #  Was: edit
+          ote                      0x000000000040906F
+          llc                      0x000000000040F807
+          KEY_SLEEP                0x000000000000E916        #  Was: sleep
+          KEY_MUTE                 0x00000000000039C6        #  Was: mute
+          KEY_VOLUMEDOWN           0x00000000000059A6        #  Was: voldown
+          KEY_VOLUMEUP             0x000000000000D926        #  Was: volup
+      end codes
+
+end remote
+
+

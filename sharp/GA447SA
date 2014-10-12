@@ -1,0 +1,62 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.3(iguanaIR) on Mon Jun 16 17:59:12 2008
+#
+# contributed by Walter Schoenly
+#
+# brand:                       Sharp
+# model no. of remote control: GA447SA
+# devices being controlled by this remote: TV/DVD
+#
+
+begin remote
+
+  name  Sharp_GA447SA
+  bits           15
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           263  1776
+  zero          263   750
+  ptrail        266
+  gap          66494
+  toggle_bit_mask 0x0
+  toggle_mask 0x3ff
+
+      begin codes
+          KEY_POWER                0x41A2                    #  Was: power
+          input                    0x4322
+          KEY_1                    0x4202                    #  Was: 1
+          KEY_2                    0x4102                    #  Was: 2
+          KEY_3                    0x4302                    #  Was: 3
+          KEY_4                    0x4082                    #  Was: 4
+          KEY_5                    0x4282                    #  Was: 5
+          KEY_6                    0x4182                    #  Was: 6
+          KEY_7                    0x4382                    #  Was: 7
+          KEY_8                    0x4042                    #  Was: 8
+          KEY_9                    0x4242                    #  Was: 9
+          KEY_0                    0x4142                    #  Was: 0
+          KEY_ENTER                0x4342                    #  Was: enter
+          KEY_DOT                  0x43D2                    #  Was: .
+          display                  0x4362
+          KEY_DVD                  0x61A2                    #  Was: dvd/vcr
+          KEY_MUTE                 0x43A2                    #  Was: mute
+          KEY_MENU                 0x4012                    #  Was: menu
+          KEY_CHANNELUP            0x4222                    #  Was: channel+
+          KEY_CHANNELDOWN          0x4122                    #  Was: channel-
+          KEY_VOLUMEUP             0x40A2                    #  Was: vol+
+          KEY_VOLUMEDOWN           0x42A2                    #  Was: vol-
+          KEY_REWIND               0x6312                    #  Was: rew
+          KEY_PLAY                 0x41F6                    #  Was: play
+          KEY_FASTFORWARD          0x6212                    #  Was: ff
+          KEY_PAUSE                0x6292                    #  Was: pause
+          KEY_STOP                 0x6392                    #  Was: stop
+          KEY_RECORD               0x6052                    #  Was: rec
+          ch/skip+                 0x6222
+          ch/skip-                 0x6122
+      end codes
+
+end remote
+
+

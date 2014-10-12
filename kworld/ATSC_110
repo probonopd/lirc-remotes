@@ -1,0 +1,84 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.1-CVS(default) on Sun Jan 14 20:53:40 2007
+#
+# contributed by Craig Courtney <craig at dawnsedge.com>
+#
+# brand: Kworld
+# model no. of remote control: ATSC 110 Remote
+# devices being controlled by this remote: ATSC 110 HDTV Tuner Card
+#
+# Generated with homebrew serial circuit connect to reciever that came
+# with the card.
+#
+
+begin remote
+
+  name  Kworld_ATSC_110
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9084  4466
+  one           604  1650
+  zero          604   526
+  ptrail        603
+  repeat       9082  2218
+  pre_data_bits   16
+  pre_data       0xDF
+  gap          108354
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x30CF                    #  Was: power
+          KEY_CHANNELUP            0x7887                    #  Was: ch+
+          KEY_CHANNELDOWN          0xF807                    #  Was: ch-
+          KEY_VOLUMEUP             0x38C7                    #  Was: vol+
+          KEY_VOLUMEDOWN           0xB847                    #  Was: vol-
+          KEY_1                    0x00FF                    #  Was: 1
+          KEY_2                    0x807F                    #  Was: 2
+          KEY_3                    0x40BF                    #  Was: 3
+          KEY_4                    0xC03F                    #  Was: 4
+          KEY_5                    0x20DF                    #  Was: 5
+          KEY_6                    0xA05F                    #  Was: 6
+          KEY_7                    0x609F                    #  Was: 7
+          KEY_8                    0xE01F                    #  Was: 8
+          KEY_9                    0x10EF                    #  Was: 9
+          KEY_0                    0x50AF                    #  Was: 0
+          numpad_up                0x906F
+          numpad_enter             0xD02F
+          KEY_SLEEP                0xB04F                    #  Was: standby
+          KEY_MUTE                 0x28D7                    #  Was: mute
+          stereo                   0xA857
+          KEY_CYCLEWINDOWS         0x6897                    #  Was: source
+          KEY_ZOOM                 0xE817                    #  Was: zoom
+          shut_down                0x18E7
+          KEY_UP                   0x08F7                    #  Was: up
+          KEY_LEFT                 0x48B7                    #  Was: left
+          KEY_RIGHT                0xC837                    #  Was: right
+          KEY_DOWN                 0x8877                    #  Was: down
+          KEY_SELECT               0x708F                    #  Was: select
+          timeshift                0x9867
+          KEY_STOP                 0x58A7                    #  Was: stop
+          KEY_RECORD               0xD827                    #  Was: rec
+          scan_rev                 0x02FD
+          scan_fwd                 0x827D
+          KEY_PLAYPAUSE            0x22DD                    #  Was: play_pause
+          KEY_PLAY                 0xA25D                    #  Was: play_stop
+          chapter_rev              0x42BD
+          chatper_fwd              0xC23D
+          KEY_A                    0x12ED                    #  Was: a
+          KEY_B                    0x926D                    #  Was: b
+          KEY_C                    0x52AD                    #  Was: c
+          KEY_D                    0xD22D                    #  Was: d
+          KEY_E                    0x32CD                    #  Was: e
+          KEY_F                    0xB24D                    #  Was: f
+          KEY_G                    0x728D                    #  Was: g
+          KEY_H                    0xF20D                    #  Was: h
+      end codes
+
+end remote
+
+

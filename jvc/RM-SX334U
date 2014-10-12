@@ -1,0 +1,73 @@
+#
+# this config file was automatically generated
+# using lirc-WinLIRC 0.6 (LIRC 0.5.4pre9) on Thu Oct 05 07:54:47 2000
+#
+# contributed by
+#
+# brand:             JVC
+# model:             RM-SX334U
+# supported devices: CD player XL-MC334
+#
+
+begin remote
+
+  name  JVC-CD
+  bits           24
+  flags SPACE_ENC
+  eps            45
+  aeps          100
+
+  header       4072  1896
+  one           570  1372
+  zero          595   395
+  ptrail        555
+  pre_data_bits   24
+  pre_data       0xC08044
+  gap          25646
+  repeat_bit      0
+
+      begin codes
+          KEY_PLAY                 0x00000000000CD49C        #  Was: play
+          KEY_NEXT                 0x00000000000C98D0        #  Was: next
+          KEY_PREVIOUS             0x00000000000C1850        #  Was: prev
+          KEY_STOP                 0x00000000000CC088        #  Was: stop
+          KEY_REWIND               0x00000000000C0C44        #  Was: rew
+          KEY_FASTFORWARD          0x00000000000C6C24        #  Was: ff
+          KEY_ENTER                0x00000000008430F0        #  Was: enter
+          KEY_CANCEL               0x00000000008418D8        #  Was: cancel
+          -1disc                   0x00000000000CE2AA
+          +1disc                   0x00000000000C622A
+          -10disc                  0x00000000000CC189
+          +10disc                  0x00000000000C4109
+          userfile                 0x00000000000C91D9
+          discsearch               0x00000000000CA9E1
+          titleinput               0x000000000084C808
+          character                0x000000000084C000
+          display                  0x00000000000C2961
+          random                   0x00000000000C4C04
+          intro                    0x00000000000C1058
+          KEY_AGAIN                0x00000000000CD890        #  Was: repeat
+          KEY_7                    0x00000000000CE4AC        #  Was: 7
+          KEY_8                    0x00000000000C145C        #  Was: 8
+          KEY_9                    0x00000000000C94DC        #  Was: 9
+          KEY_0                    0x00000000000C044C        #  Was: 0
+          KEY_3                    0x00000000000CC48C        #  Was: 3
+          KEY_4                    0x00000000000C246C        #  Was: 4
+          KEY_5                    0x00000000000CA4EC        #  Was: 5
+          KEY_6                    0x00000000000C642C        #  Was: 6
+          KEY_2                    0x00000000000C440C        #  Was: 2
+          KEY_1                    0x00000000000C84CC        #  Was: 1
+          track                    0x00000000000C81C9
+          disc                     0x00000000000C0149
+          KEY_OPEN                 0x00000000000C2068        #  Was: open/close
+          call                     0x00000000000CA8E0
+          KEY_CLEAR                0x00000000000C347C        #  Was: clear
+          continue                 0x00000000000CECA4
+          KEY_POWER                0x00000000000C2169        #  Was: onedisc
+          program                  0x00000000000C8CC4
+          KEY_POWER                0x00000000000C0048        #  Was: power
+      end codes
+
+end remote
+
+

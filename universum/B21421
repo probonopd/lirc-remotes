@@ -1,0 +1,78 @@
+#
+# this config file was automatically generated
+# using WinLIRC 0.6.4 (LIRC 0.6.1pre3) on Sun Jan 11 10:25:17 2004
+#
+# contributed by     Heiko Müller
+#
+# brand:             Universum
+# model:             B21421
+# supported devices: VCR
+#
+
+begin remote
+
+  name  B21421
+  bits           16
+  flags SPACE_ENC
+  eps            30
+  aeps          100
+
+  header       9017  4452
+  one           599  1645
+  zero          599   519
+  ptrail        599
+  repeat       8992  2231
+  pre_data_bits   16
+  pre_data       0x8C73
+  gap          39879
+  toggle_bit      0
+
+
+      begin codes
+          input                    0x0000000000007887
+          preset                   0x0000000000007986
+          KEY_CLEAR                0x00000000000052AD        #  Was: clear
+          KEY_1                    0x00000000000020DF        #  Was: 1
+          KEY_2                    0x000000000000A05F        #  Was: 2
+          KEY_3                    0x000000000000609F        #  Was: 3
+          KEY_4                    0x000000000000E01F        #  Was: 4
+          KEY_5                    0x00000000000030CF        #  Was: 5
+          KEY_6                    0x000000000000B04F        #  Was: 6
+          KEY_7                    0x000000000000708F        #  Was: 7
+          KEY_8                    0x000000000000F00F        #  Was: 8
+          KEY_9                    0x00000000000038C7        #  Was: 9
+          KEY_0                    0x000000000000B847        #  Was: 0
+          KEY_OK                   0x000000000000D22D        #  Was: ok
+          index                    0x0000000000009867
+          KEY_POWER                0x000000000000DA25        #  Was: power
+          KEY_RECORD               0x000000000000A857        #  Was: rec
+          ch/track_-               0x00000000000040BF
+          ch/track_+               0x000000000000807F
+          pause/still              0x0000000000008877
+          KEY_REWIND               0x00000000000048B7        #  Was: rew<<
+          f.f>>                    0x000000000000C837
+          KEY_PLAY                 0x00000000000028D7        #  Was: play
+          KEY_STOP                 0x00000000000008F7        #  Was: stop
+          showview                 0x00000000000031CE
+          KEY_SLOW                 0x00000000000058A7        #  Was: slow
+          menu/tv                  0x00000000000053AC
+          type                     0x00000000000018E7
+          tv/vcr                   0x00000000000010EF
+          display                  0x00000000000032CD
+          sp/lp                    0x0000000000007A85
+          remain                   0x000000000000EA15
+          reset                    0x00000000000022DD
+          >0</m                    0x000000000000C23D
+          dpc_plus/vps/pdc         0x000000000000F20D
+          surround                 0x000000000000AB54
+          a-dub                    0x000000000000926D
+          KEY_AUDIO                0x000000000000C03F        #  Was: audio
+          m-index                  0x0000000000003BC4
+          strobe                   0x00000000000059A6
+          tv-scan                  0x0000000000005BA4
+          pip                      0x000000000000B14E
+      end codes
+
+end remote
+
+

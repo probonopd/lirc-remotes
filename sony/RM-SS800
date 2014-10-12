@@ -1,0 +1,73 @@
+#
+# this config file was automatically generated
+# using WinLIRC 0.6.5 (LIRC 0.6.1pre3) on Tue Mar 25 17:01:08 2008
+#
+# contributed by Daniele Verducci
+#
+# brand:             Sony
+# model:             RM-SS800
+# supported devices: DVD, 5.1 Amplifier
+# NOTE: Some function keys and volume keys not working.
+# ATTENZIONE: Alcuni tasti funzione e tasti volume non funzionano.
+#
+
+begin remote
+
+  name  Sony_RM-SS800
+  bits           19
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  header       2490   456
+  one           702   456
+  zero         1298   456
+  ptrail        702
+  gap          12967
+  toggle_bit      0
+
+
+      begin codes
+          KEY_OPEN                 0x000000000004BA36        #  Was: open/close
+          KEY_1                    0x000000000007FF7B        #  Was: 1
+          KEY_2                    0x000000000003FF7B        #  Was: 2
+          KEY_3                    0x000000000005FF7B        #  Was: 3
+          KEY_4                    0x000000000001FF7B        #  Was: 4
+          KEY_5                    0x000000000006FF7B        #  Was: 5
+          KEY_6                    0x000000000002FF7B        #  Was: 6
+          KEY_7                    0x000000000004FF7B        #  Was: 7
+          KEY_8                    0x000000000000FF7B        #  Was: 8
+          KEY_9                    0x0000000000077F7B        #  Was: 9
+          KEY_PLAY                 0x0000000000015A36        #  Was: playmode
+          KEY_AUDIO                0x000000000006CA36        #  Was: audio
+          KEY_ANGLE                0x000000000002CA36        #  Was: angle
+          KEY_SUBTITLE             0x000000000001CA36        #  Was: subtitle
+          KEY_TIME                 0x0000000000075A36        #  Was: time
+          KEY_CLEAR                0x0000000000007A36        #  Was: clear
+          KEY_AGAIN                0x0000000000065A36        #  Was: repeat
+          name                     0x0000000000012F7B
+          >10                      0x0000000000027F7B
+          KEY_0                    0x0000000000037F7B        #  Was: 10/0
+          KEY_ENTER                0x0000000000067F7B        #  Was: enter
+          tvch+                    0x0000000000039F7B
+          tvch-                    0x0000000000079F7B
+          tuning+                  0x0000000000069F7B
+          tuning-                  0x0000000000019F7B
+          KEY_PLAY                 0x0000000000059A36        #  Was: play
+          KEY_PAUSE                0x0000000000031A36        #  Was: pause
+          KEY_STOP                 0x0000000000071A36        #  Was: stop
+          KEY_DVD                  0x000000000006AA36        #  Was: dvddisplay
+          KEY_TITLE                0x0000000000053A36        #  Was: title
+          KEY_MENU                 0x0000000000013A36        #  Was: dvdmenu
+          KEY_ENTER                0x0000000000047A36        #  Was: return
+          KEY_UP                   0x0000000000070F7B        #  Was: up
+          KEY_DOWN                 0x0000000000030F7B        #  Was: down
+          KEY_LEFT                 0x0000000000050F7B        #  Was: left
+          KEY_RIGHT                0x0000000000010F7B        #  Was: right
+          KEY_OK                   0x0000000000060F7B        #  Was: ok
+          KEY_DVD                  0x000000000001AA36        #  Was: dvdsetup
+      end codes
+
+end remote
+
+

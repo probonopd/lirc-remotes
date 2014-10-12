@@ -1,0 +1,60 @@
+
+begin remote
+
+  name  tv 
+# Televison  - Grundig TP 715
+  flags SHIFT_ENC|CONST_LENGTH
+  bits           10
+  eps            10
+  aeps           250
+
+  header          512    2560
+  one             512    512
+  zero            512    512
+  gap             131000
+  repeat_bit      0
+
+      begin codes
+# you must send emptily (leer) between every program switchover once.
+        leer    0x0000000000000000
+# empty
+          KEY_POWER                0x000000000000017f        #  Was: POWER
+          KEY_1                    0x00000000000000ef        #  Was: 1
+          KEY_2                    0x000000000000016f        #  Was: 2
+          KEY_3                    0x000000000000006f        #  Was: 3
+          KEY_4                    0x00000000000001af        #  Was: 4
+          KEY_5                    0x00000000000000af        #  Was: 5
+          KEY_6                    0x000000000000012f        #  Was: 6
+          KEY_7                    0x000000000000002f        #  Was: 7
+          KEY_8                    0x00000000000001cf        #  Was: 8
+          KEY_9                    0x00000000000000cf        #  Was: 9
+          KEY_0                    0x00000000000001ef        #  Was: 0
+        BR+             0x000000000000015f
+# Brightness+
+        AUX2            0x000000000000014f
+        BR-             0x000000000000005f
+# Brightness-
+        COLOR+  0x000000000000019f
+        COLOR-  0x000000000000009f
+          KEY_AUX                  0x000000000000003f        #  Was: AUX
+          KEY_I                    0x0000000000000097        #  Was: I
+#Info
+          KEY_TEXT                 0x00000000000001e7        #  Was: TXT
+        Pp              0x0000000000000157
+# P+
+        VOLm            0x00000000000000df
+# Vol+
+          KEY_OK                   0x00000000000001ff        #  Was: OK
+        VOLp            0x00000000000001df
+# Vol-
+        Pm              0x0000000000000057
+# P-
+          KEY_MUTE                 0x00000000000000ff        #  Was: MUTE
+          KEY_BLUE                 0x0000000000000117        #  Was: BLUE
+          KEY_YELLOW               0x0000000000000047        #  Was: YELLOW
+          KEY_GREEN                0x0000000000000107        #  Was: GREEN
+          KEY_RED                  0x0000000000000147        #  Was: RED
+
+      end codes
+end remote
+

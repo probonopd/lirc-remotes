@@ -1,0 +1,85 @@
+# this config file was automatically generated
+# using lirc-0.6.3(serial) on Mon Jul 16 03:18:50 2001
+#
+# contributed by Manuel Bessler <m.bessler@gmx.net>
+#
+# brand:             Orion
+# model:             RC-08
+# supported devices: VCR
+#
+
+begin remote
+
+  name  orion
+  bits           15
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9065  4433
+  one           624  1622
+  zero          624   499
+  ptrail        624
+  repeat       9064  2187
+  pre_data_bits   16
+  pre_data       0x1DE
+  post_data_bits  1
+  post_data      0x1
+  gap          107861
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x000000000000641B        #  Was: POWER
+          CLOCKCOUNTER             0x000000000000453A
+	  MEMORY                   0x0000000000006916
+          RESET                    0x0000000000001966
+          CH1                      0x000000000000403F
+          CH2                      0x000000000000205F
+          CH3                      0x000000000000601F
+          CH4                      0x000000000000106F
+          CH5                      0x000000000000502F
+          CH6                      0x000000000000304F
+          CH7                      0x000000000000700F
+          CH8                      0x0000000000000877
+          CH9                      0x0000000000004837
+	  CH0                      0x000000000000007F
+	  CHDN                     0x0000000000006817
+          KEY_CHANNELUP            0x0000000000002857        #  Was: CHUP
+	  PROGRAM                  0x0000000000000976
+          SET-                     0x000000000000215E
+          SET+                     0x000000000000413E
+	  CLOCKSET                 0x0000000000001C63
+          KEY_CANCEL               0x0000000000002956        #  Was: CANCEL
+          KEY_ENTER                0x000000000000512E        #  Was: ENTER
+#The "hidden keys" are not used on this remote
+#But if you cut holes at some locations you can
+#press these keys using a screwdriver or long
+#fingernails ;-)
+
+#HIDDEN1 is on the same row as POWER and the same
+#column as CH4
+          HIDDEN1                  0x000000000000245B
+#HIDDEN2 is right next to RESET
+          HIDDEN2                  0x0000000000003C43
+#HIDDEN3 is right underneath the REC/QTR Label,
+#above REW
+          HIDDEN3                  0x000000000000146B
+#HIDDEN4 is right next to STOP, below FFWD
+          HIDDEN4                  0x0000000000007C03
+          KEY_RECORD               0x000000000000542B        #  Was: RECOTR
+          KEY_REWIND               0x0000000000004C33        #  Was: REW
+          KEY_PLAY                 0x000000000000344B        #  Was: PLAY
+          KEY_FASTFORWARD          0x0000000000000C73        #  Was: FFWD
+	  PAUSESTILL               0x0000000000002C53
+          KEY_STOP                 0x000000000000740B        #  Was: STOP
+	  AFT                      0x000000000000314E
+          PRESET                   0x000000000000017E
+          FINETUNEDN               0x000000000000116E
+          FINETUNEUP               0x000000000000611E
+      end codes
+
+end remote
+
+
+

@@ -1,0 +1,72 @@
+begin remote
+	name LG_MKJ39170805_TV
+	bits 16
+	flags SPACE_ENC|REVERSE|NO_HEAD_REP|CONST_LENGTH
+	eps 30
+	aeps 100
+	header 9000 4500
+	one 560 1680
+	zero 560 560
+	ptrail 550
+	repeat 9000 2250
+	pre_data_bits 16
+	pre_data 0xfb04
+	gap 108000
+	frequency 37917
+	duty_cycle 33
+	begin codes
+          KEY_TV                   0xf00f                    #  Was: TV
+		INPUT 0xf40b
+          KEY_POWER                0xf708                    #  Was: POWER
+		SIMPLINK 0x817e
+          KEY_SLEEP                0xf10e                    #  Was: SLEEP
+          KEY_TEXT                 0xdf20                    #  Was: TEXT
+		I/II 0xf50a
+          KEY_MENU                 0xbc43                    #  Was: MENU
+		RATIO 0x8679
+          KEY_EXIT                 0xa45b                    #  Was: EXIT
+		< 0xf807
+		> 0xf906
+		^ 0xbf40
+          KEY_V                    0xbe41                    #  Was: v
+          KEY_OK                   0xbb44                    #  Was: OK
+          KEY_FAVORITES            0xe11e                    #  Was: FAV
+		UPDATE 0x9d62
+		HOLD 0x9a65
+          KEY_RED                  0x8d72                    #  Was: RED
+		GREED 0x8e71
+          KEY_YELLOW               0x9c63                    #  Was: YELLOW
+          KEY_BLUE                 0x9e61                    #  Was: BLUE
+          KEY_VOLUMEUP             0xfd02                    #  Was: VOL+
+          KEY_VOLUMEDOWN           0xfc03                    #  Was: VOL-
+          KEY_CHANNELUP            0xff00                    #  Was: PR+
+          KEY_CHANNELDOWN          0xfe01                    #  Was: PR-
+          KEY_MUTE                 0xf609                    #  Was: MUTE
+          KEY_LIST                 0xac53                    #  Was: LIST
+          KEY_0                    0xef10                    #  Was: 0
+          KEY_1                    0xee11                    #  Was: 1
+          KEY_2                    0xed12                    #  Was: 2
+          KEY_3                    0xec13                    #  Was: 3
+          KEY_4                    0xeb14                    #  Was: 4
+          KEY_5                    0xea15                    #  Was: 5
+          KEY_6                    0xe916                    #  Was: 6
+          KEY_7                    0xe817                    #  Was: 7
+          KEY_8                    0xe718                    #  Was: 8
+          KEY_9                    0xe619                    #  Was: 9
+		Q.VIEW 0xe51a
+		SIZE 0x9b64
+		INDEX 0x8f70
+          KEY_TIME                 0xd926                    #  Was: TIME
+		REVEAL 0xd52a
+		BRIGHTNESS+ 0x1fe0
+		BRIGHTNESS- 0x1ee1
+          KEY_PLAY                 0x4fb0                    #  Was: play
+          KEY_STOP                 0x4eb1                    #  Was: stop
+          KEY_PREVIOUS             0x4db2                    #  Was: |<<
+          KEY_NEXT                 0x4cb3                    #  Was: >>|
+          KEY_RECORD               0x42bd                    #  Was: record
+          KEY_REWIND               0x708f                    #  Was: <<
+          KEY_FORWARD              0x718e                    #  Was: >>
+		|| 0x45ba
+	end codes
+end remote

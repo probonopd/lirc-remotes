@@ -1,0 +1,76 @@
+#
+# contributed by Jens Granseuer <jensgr@gmx.net>
+#
+# brand: Kenwood
+# model: RC-H7R
+#
+
+begin remote
+
+  name  RC-H7R
+  bits           32
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9056  4415
+  one           623  1617
+  zero          623   498
+  ptrail        621
+  repeat       9054  2179
+  gap          107617
+  toggle_bit      0
+
+      begin codes
+          KEY_POWER                0x000000001D00B946        #  Was: POWER
+          KEY_SLEEP                0x000000001D00E916        #  Was: SLEEP
+          KEY_1                    0x000000001D00817E        #  Was: 1
+          KEY_2                    0x000000001D0041BE        #  Was: 2
+          KEY_3                    0x000000001D00C13E        #  Was: 3
+          KEY_4                    0x000000001D0021DE        #  Was: 4
+          KEY_5                    0x000000001D00A15E        #  Was: 5
+          KEY_6                    0x000000001D00619E        #  Was: 6
+          KEY_7                    0x000000001D00E11E        #  Was: 7
+          KEY_8                    0x000000001D0011EE        #  Was: 8
+          KEY_9                    0x000000001D00916E        #  Was: 9
+          KEY_0                    0x000000001D0001FE        #  Was: 0
+          KEY_10CHANNELSUP         0x000000001D00B04F        #  Was: +10
+          KEY_PLAYPAUSE            0x000000001D00D32C        #  Was: PLAY-PAUSE
+          KEY_NEXT                 0x000000001D40807F        #  Was: NEXT
+          KEY_PREVIOUS             0x000000001D4000FF        #  Was: PREV
+          KEY_STOP                 0x000000001D4020DF        #  Was: STOP
+          TUNE-DOWN                0x000000001D4040BF
+          TUNE-UP                  0x000000001D40C03F
+          EX-BASS                  0x000000001D40EA15
+          SRS-3D                   0x000000001D40AA55
+          A-B                      0x000000001D4010EF
+          TA-NEWS-INFO             0x000000001D4003FC
+          CD-TAPE                  0x000000001D40906F
+          MD-TAPE                  0x000000001D405AA5
+          N.B.                     0x000000001D80D22D
+          RANDOM                   0x000000001D802BD4
+          INPUT                    0x000000001D8033CC
+          PTY                      0x000000001D8039C6
+          KEY_SPACE                0x000000001D80F20D        #  Was: SPACE
+          KEY_ENTER                0x000000001D805AA5        #  Was: ENTER
+          KEY_MUTE                 0x000000001D0039C6        #  Was: MUTE
+          KEY_VOLUMEUP             0x000000001D00D926        #  Was: VOL-UP
+          KEY_VOLUMEDOWN           0x000000001D0059A6        #  Was: VOL-DOWN
+          EQ                       0x000000001D00F00F
+          P.MODE                   0x000000001D0023DC
+          KEY_CLEAR                0x000000001D0053AC        #  Was: CLEAR
+          CHECK                    0x000000001D0013EC
+          KEY_EDIT                 0x000000001D00B34C        #  Was: EDIT
+          KEY_AGAIN                0x000000001D0033CC        #  Was: REPEAT
+          DISC-SKIP                0x000000001D0010EF
+          BAND                     0x000000001D00F10E
+          SOURCE-DIRECT            0x000000001D002AD5
+          KEY_TIME                 0x000000001D00708F        #  Was: TIME
+          RDS-DISPLAY              0x000000001D001AE5
+          KEY_RECORD               0x000000001D007B84        #  Was: REC-ARM
+          TAPE-REVERSE             0x000000001D009B64
+          TAPE-FORWARD             0x000000001D001BE4
+      end codes
+
+end remote
+

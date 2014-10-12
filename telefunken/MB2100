@@ -1,0 +1,56 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.6(any) on Wed Oct  8 09:12:53 2003
+#
+# contributed by
+#
+# brand:                       Telefunken
+# model no. of remote control: MB2100 in VCR-Mode
+# devices being controlled by this remote:
+#
+
+begin remote
+
+  name  MB2100
+  bits           12
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           549  1967
+  zero          549  4462
+  ptrail        549
+  gap          80541
+  toggle_bit      0
+
+
+      begin codes
+          KEY_0                    0x0000000000000F71        #  Was: 0
+          KEY_1                    0x0000000000000FFF        #  Was: 1
+          KEY_2                    0x0000000000000F77        #  Was: 2
+          KEY_3                    0x0000000000000FEF        #  Was: 3
+          KEY_4                    0x0000000000000F7E        #  Was: 4
+          KEY_5                    0x0000000000000FF6        #  Was: 5
+          KEY_6                    0x0000000000000F6E        #  Was: 6
+          KEY_7                    0x0000000000000FFD        #  Was: 7
+          KEY_8                    0x0000000000000F75        #  Was: 8
+          KEY_9                    0x0000000000000FED        #  Was: 9
+          KEY_OK                   0x0000000000000F4C        #  Was: Ok
+          KEY_BACK                 0x0000000000000F41        #  Was: Back
+          KEY_RED                  0x0000000000000FC6        #  Was: Red
+          KEY_GREEN                0x0000000000000F44        #  Was: Green
+          KEY_YELLOW               0x0000000000000FC7        #  Was: Yellow
+          KEY_BLUE                 0x0000000000000F6A        #  Was: Blue
+          KEY_UP                   0x0000000000000FCB        #  Was: Up
+          KEY_DOWN                 0x0000000000000F4A        #  Was: Down
+          KEY_MENU                 0x0000000000000FCE        #  Was: Menu
+          KEY_LEFT                 0x0000000000000F49        #  Was: Left
+          KEY_RIGHT                0x0000000000000FC8        #  Was: Right
+          KEY_VOLUMEUP             0x0000000000000C56        #  Was: Volume+
+          KEY_VOLUMEDOWN           0x0000000000000CD5        #  Was: Volume-
+          KEY_MUTE                 0x0000000000000C7A        #  Was: Mute
+      end codes
+
+end remote
+
+

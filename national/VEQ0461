@@ -1,0 +1,62 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.6(serial) on Sat Jul 26 13:42:13 2003
+#
+# contributed by Daniel Foote (freefoote@dview.net)
+#
+# brand: National
+# model no. of remote control: VEQ0461
+# devices being controlled by this remote: VCR? We think. We don't have the
+#                                          original device, only the remote...
+
+begin remote
+
+  name  VEQ0461
+  bits           22
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       3740  3596
+  one           969  2687
+  zero          969   860
+  ptrail        969
+  gap          109737
+  toggle_bit      0
+
+
+      begin codes
+          VTR                      0x0000000000100DFE
+          VTR-TV                   0x000000000010ADEA
+          KEY_1                    0x00000000001015FD        #  Was: 1
+          KEY_2                    0x00000000001115DD        #  Was: 2
+          KEY_3                    0x00000000001095ED        #  Was: 3
+          KEY_4                    0x00000000001195CD        #  Was: 4
+          KEY_5                    0x00000000001055F5        #  Was: 5
+          KEY_6                    0x00000000001155D5        #  Was: 6
+          KEY_7                    0x000000000010D5E5        #  Was: 7
+          KEY_8                    0x000000000011D5C5        #  Was: 8
+          KEY_9                    0x00000000001035F9        #  Was: 9
+          KEY_0                    0x00000000001135D9        #  Was: 10
+          KEY_1                    0x000000000010B5E9        #  Was: 11
+          KEY_2                    0x000000000011B5C9        #  Was: 12
+          KEY_3                    0x00000000001075F1        #  Was: 13
+          KEY_4                    0x00000000001175D1        #  Was: 14
+          KEY_5                    0x000000000010F5E1        #  Was: 15
+          KEY_6                    0x000000000011F5C1        #  Was: 16
+          KEY_RECORD               0x00000000001025FB        #  Was: rec
+          KEY_REWIND               0x00000000001085EF        #  Was: rew
+          KEY_FASTFORWARD          0x00000000001185CF        #  Was: ffw
+          KEY_PAUSE                0x000000000010C5E7        #  Was: pause
+          still                    0x00000000001065F3
+          KEY_PLAY                 0x000000000010A5EB        #  Was: play
+          KEY_STOP                 0x00000000001005FF        #  Was: stop
+          x2                       0x000000000010E5E3
+          slow-                    0x000000000011EDC2
+          KEY_SLOW                 0x000000000011E5C3        #  Was: slow
+          slow+                    0x000000000010EDE2
+      end codes
+
+end remote
+
+

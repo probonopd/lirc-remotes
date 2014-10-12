@@ -1,0 +1,98 @@
+#
+# This config file has been automatically converted from a device file
+# found in the 06/26/00 release of the Windows Slink-e software
+# package.
+#
+# Many thanks to Colby Boles of Nirvis Systems Inc. for allowing us to
+# use these files.
+#
+# The original filename was: "kenwood rc-v85ool surround amplifier.cde"
+#
+# The original description for this device was:
+#
+# kenwood rc-v85ool surround amplifier
+#
+
+
+begin remote
+
+  name  RC-V8500L
+  bits           32
+  flags SPACE_ENC
+  eps            20
+  aeps          200
+
+  header       8800  4400
+  one           550  1650
+  zero          550   550
+  ptrail        550
+  repeat       8800  2200
+  gap          38500
+  toggle_bit      0
+
+  frequency    38000
+
+      begin codes
+          KEY_POWER                0x000000001DE2B946        #  Was: POWER
+          X_KEY_0/J                0x000000001DE201FE        #  Was: KEY_0/J
+          X_KEY_1/A                0x000000001DE2817E        #  Was: KEY_1/A
+          X_KEY_2/B                0x000000001DE241BE        #  Was: KEY_2/B
+          X_KEY_3/C                0x000000001DE2C13E        #  Was: KEY_3/C
+          X_KEY_4/D                0x000000001DE221DE        #  Was: KEY_4/D
+          X_KEY_5/E                0x000000001DE2A15E        #  Was: KEY_5/E
+          X_KEY_6/F                0x000000001DE2619E        #  Was: KEY_6/F
+          X_KEY_7/G                0x000000001DE2E11E        #  Was: KEY_7/G
+          X_KEY_8/H                0x000000001DE211EE        #  Was: KEY_8/H
+          X_KEY_9/I                0x000000001DE2916E        #  Was: KEY_9/I
+          KEY_10CHANNELSUP         0x000000001DE2B04F        #  Was: +10
+          MASTER_VOLUME_UP         0x000000001DE2D926
+          MASTER_VOLUME_DOWN       0x000000001DE259A6
+          MUTING                   0x000000001DE239C6
+          KEY_VIDEO                0x000000001DE26996        #  Was: VIDEO_1
+          KEY_VIDEO                0x000000001DE240BF        #  Was: VIDEO_2
+          KEY_VIDEO                0x000000001DE251AE        #  Was: VIDEO_3
+          KEY_TAPE                 0x000000001DE229D6        #  Was: TAPE
+          KEY_CD                   0x000000001DE249B6        #  Was: CD
+          KEY_TUNER                0x000000001DE28976        #  Was: TUNER
+          PHONO                    0x000000001DE209F6
+          KEY_AUX                  0x000000001DE2C936        #  Was: AUX
+          DAT                      0x000000001DE200FF
+          DBS_V                    0x000000001DE26897
+          AV_AUX                   0x000000001DE2A857
+          VDP                      0x000000001DE228D7
+          MULTI_CONTROL_UP         0x000000001D80AA55
+          MULTI_CONTROL_DOWN       0x000000001D802AD5
+          MULTI_CONTROL_LEFT       0x000000001D806A95
+          MULTI_CONTROL_RIGHT      0x000000001D80EA15
+          CINAMA_SCREEN            0x000000001D8031CE
+          KEY_POWER                0x000000001DE2B847        #  Was: ON_SCREEN_MENU
+          SOURCE_DIRECT            0x000000001DE22AD5
+          TITLE_EDIT               0x000000001D80E11E
+          SW_PWR                   0x000000001DE26A95
+          KEY_POWER                0x000000001DE2EA15        #  Was: ONOFF_TEST_MODE
+          CH_MODE_(TURNOVER)       0x000000001D80B04F
+          DSP_LOGIC                0x000000001D80A15E
+          MOVIE_1                  0x000000001D80926D
+          MOVIE_2                  0x000000001D80C13E
+          MOVIE_3                  0x000000001D8021DE
+          DSP                      0x000000001D8030CF
+          ARENA_                   0x000000001D8022DD
+          OPERA                    0x000000001D80619E
+          CATHEDRAL                0x000000001D8012ED
+          DOLBY                    0x000000001D8000FF
+          JAZZ_CLUB                0x000000001D80A25D
+          STADIUM                  0x000000001D80629D
+          BYPASS                   0x000000001DE2EB14
+          CENTER_MODE              0x000000001DE2AA55
+          CENTER                   0x000000001DE2D02F
+          REAR                     0x000000001DE2E31C
+          DELAY                    0x000000001DE2B24D
+          ROOM                     0x000000001D80916E
+          WALL                     0x000000001D80D12E
+          SEAT                     0x000000001D80B24D
+          EFFECT                   0x000000001D80A05F
+          M/I_REC                  0x000000001DE222DD
+          M/O_<                    0x000000001DE28A75
+      end codes
+
+end remote

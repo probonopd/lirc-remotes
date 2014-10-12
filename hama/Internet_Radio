@@ -1,0 +1,59 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.3(iguanaIR) on Thu May  6 20:47:56 2010
+#
+# contributed by Reinhard Prix <Reinhard.Prix|aei.mpg.de>
+#
+# brand:                       Hama
+# model no. of remote control:
+# devices being controlled by this remote: WLAN Internet Radio
+#
+
+begin remote
+
+  name  Hama_Internet_Radio
+  bits           32
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9038  4445
+  one           578  1637
+  zero          578   502
+  ptrail        576
+  gap          108105
+  toggle_bit_mask 0x0
+
+      begin codes
+          KEY_POWER                0x00FFB24D                #  Was: Power
+          KEY_MUTE                 0x00FFF00F                #  Was: Mute
+          KEY_1                    0x00FF08F7                #  Was: 1
+          KEY_2                    0x00FFC03F                #  Was: 2
+          KEY_3                    0x00FF807F                #  Was: 3
+          KEY_4                    0x00FF906F                #  Was: 4
+          KEY_5                    0x00FFB847                #  Was: 5
+          KEY_6                    0x00FFF807                #  Was: 6
+          KEY_7                    0x00FF9867                #  Was: 7
+          KEY_8                    0x00FFD827                #  Was: 8
+          KEY_9                    0x00FF8877                #  Was: 9
+          KEY_0                    0x00FFE817                #  Was: 0
+          Reply                    0x00FF609F
+          Store                    0x00FFB04F
+          KEY_102ND                0x00FF02FD                #  Was: --/-
+          KEY_AGAIN                0x00FF6897                #  Was: Recall
+          KEY_VOLUMEUP             0x00FF32CD                #  Was: Vol+
+          KEY_VOLUMEDOWN           0x00FF12ED                #  Was: Vol-
+          KEY_BACK                 0x00FF48B7                #  Was: Back
+          KEY_UP                   0x00FF708F                #  Was: Up
+          KEY_DOWN                 0x00FF58A7                #  Was: Down
+          KEY_SELECT               0x00FF2AD5                #  Was: Select
+          KEY_FORWARD              0x00FF7887                #  Was: Forward
+          KEY_MODE                 0x00FF00FF                #  Was: Mode
+          Browse                   0x00FF38C7
+          KEY_PLAYPAUSE            0x00FF20DF                #  Was: PlayPause
+          KEY_STOP                 0x00FFA05F                #  Was: Stop
+      end codes
+
+end remote
+
+

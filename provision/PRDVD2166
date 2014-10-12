@@ -1,0 +1,79 @@
+#
+# this config file was automatically generated
+# using WinLIRC 0.6.5 (LIRC 0.6.1pre3) on Sat Feb 05 15:32:50 2005
+#
+# contributed by
+#
+# brand:             Provision
+# model:             PRDVD2166
+# supported devices:
+#
+
+begin remote
+
+  name  Provision_PRDVD2166
+  bits           16
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  header       9113  4365
+  one           663  1580
+  zero          663   456
+  ptrail        663
+  repeat       9132  2102
+  pre_data_bits   16
+  pre_data       0x99
+  gap          44300
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0xCA35                    #  Was: power
+          KEY_OPEN                 0xE21D                    #  Was: open/close
+          KEY_UP                   0xD22D                    #  Was: up
+          KEY_DOWN                 0x926D                    #  Was: down
+          KEY_LEFT                 0x4AB5                    #  Was: left
+          KEY_RIGHT                0x629D                    #  Was: right
+          KEY_ENTER                0x52AD                    #  Was: enter
+          KEY_STOP                 0x8A75                    #  Was: stop
+          KEY_PAUSE                0xA25D                    #  Was: pause
+          KEY_PREVIOUS             0x0AF5                    #  Was: skip-
+          KEY_NEXT                 0xF20D                    #  Was: skip+
+          FastRWD                  0x12ED
+          KEY_FASTFORWARD          0x22DD                    #  Was: FastFWD
+          KEY_MENU                 0xC837                    #  Was: menu
+          KEY_SETUP                0xE01F                    #  Was: setup
+          pal/ntsc                 0x609F
+          goto                     0xA05F
+          KEY_SLOW                 0x20DF                    #  Was: slow
+          KEY_TITLE                0xC03F                    #  Was: title
+          KEY_ENTER                0x2AD5                    #  Was: return
+          a-b                      0x32CD
+          KEY_AGAIN                0x3AC5                    #  Was: repeat
+          KEY_ANGLE                0x02FD                    #  Was: angle
+          program                  0xAA55
+          random                   0xB24D
+          KEY_ZOOM                 0xBA45                    #  Was: zoom
+          KEY_SUBTITLE             0x827D                    #  Was: subtitle
+          KEY_VOLUMEDOWN           0x6A95                    #  Was: vol-
+          KEY_VOLUMEUP             0x5AA5                    #  Was: vol+
+          display                  0x7A85
+          KEY_AUDIO                0x42BD                    #  Was: audio
+          KEY_1                    0x48B7                    #  Was: one
+          KEY_2                    0x708F                    #  Was: two
+          KEY_3                    0x50AF                    #  Was: three
+          KEY_4                    0x8877                    #  Was: four
+          KEY_5                    0xB04F                    #  Was: five
+          KEY_6                    0x906F                    #  Was: six
+          KEY_7                    0x08F7                    #  Was: seven
+          KEY_8                    0x30CF                    #  Was: eight
+          KEY_9                    0x10EF                    #  Was: nine
+          KEY_0                    0xE817                    #  Was: zero
+          KEY_10CHANNELSUP         0xF00F                    #  Was: +10
+          KEY_CLEAR                0xF807                    #  Was: clear
+      end codes
+
+end remote
+
+

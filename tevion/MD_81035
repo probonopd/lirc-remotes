@@ -1,0 +1,91 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.3-CVS(default) on Sun Nov 18 09:49:15 2007
+#
+# contributed by Steffen Kaiser
+#
+# brand:                       Tevion / Medion
+# model no. of remote control: MD81035
+# devices being controlled by this remote: many, ASAT Code 0905
+#
+# overlapping keys:
+# + Sleep & magenta
+#
+# missing/inactive keys:
+# none
+#
+# Text: enter Teletext mode (key above red)
+# TextOff: leave Teletext mode (key below magenta)
+# OSD: key left of Sleep
+# TVMix: key below AV
+# hold: key below 0 (zero)
+#
+
+begin remote
+
+  name  Tevion-MD81035-ASAT-Code-0905
+  bits           16
+  flags SPACE_ENC
+  eps            30
+  aeps          100
+
+  header       9056  4414
+  one           651  1596
+  zero          651   469
+  ptrail        651
+  repeat       9056  2182
+  pre_data_bits   16
+  pre_data       0xE896
+  gap          42301
+  repeat_gap   263456
+  toggle_bit_mask 0x0
+
+      begin codes
+          KEY_1                    0xC837                    #  Was: 1
+          KEY_2                    0x08F7                    #  Was: 2
+          KEY_3                    0x8877                    #  Was: 3
+          KEY_4                    0xF00F                    #  Was: 4
+          KEY_5                    0x30CF                    #  Was: 5
+          KEY_6                    0xB04F                    #  Was: 6
+          KEY_7                    0xD02F                    #  Was: 7
+          KEY_8                    0x10EF                    #  Was: 8
+          KEY_9                    0x906F                    #  Was: 9
+          AV                       0xF807
+          KEY_0                    0xE21D                    #  Was: 0
+          KEY_102ND                0x0AF5                    #  Was: -/--
+          KEY_TEXT                 0x20DF                    #  Was: Text
+          KEY_RED                  0xE817                    #  Was: red
+          KEY_GREEN                0xA857                    #  Was: green
+          KEY_YELLOW               0xAA55                    #  Was: yellow
+          KEY_BLUE                 0x18E7                    #  Was: blue
+          magenta                  0x32CD
+          TextOff                  0xFF00
+          KEY_MENU                 0x2AD5                    #  Was: Menu
+          KEY_EXIT                 0x42BD                    #  Was: Exit
+          KEY_VOLUMEDOWN           0xC23D                    #  Was: Vol-
+          KEY_VOLUMEUP             0x926D                    #  Was: Vol+
+          KEY_MUTE                 0x6897                    #  Was: mute
+          KEY_RIGHT                0x12ED                    #  Was: right
+          KEY_OK                   0x3AC5                    #  Was: OK
+          KEY_DOWN                 0xB847                    #  Was: down
+          KEY_LEFT                 0x38C7                    #  Was: left
+          KEY_UP                   0x22DD                    #  Was: up
+          KEY_EPG                  0x48B7                    #  Was: EPG
+          KEY_CHANNELUP            0x8A75                    #  Was: P+
+          KEY_CHANNELDOWN          0xB24D                    #  Was: P-
+          KEY_RECORD               0x40BF                    #  Was: record
+          KEY_PAUSE                0x9867                    #  Was: pause
+          KEY_STOP                 0x9A65                    #  Was: stop
+          KEY_REWIND               0x4AB5                    #  Was: rewind
+          KEY_PLAY                 0xD827                    #  Was: play
+          KEY_FORWARD              0xCA35                    #  Was: forward
+          KEY_SLEEP                0x32CD                    #  Was: Sleep
+          KEY_POWER                0x708F                    #  Was: Power
+          KEY_MENU                 0x5AA5                    #  Was: OSD
+          TVMix                    0xC03F
+          hold                     0x28D7
+      end codes
+
+end remote
+
+

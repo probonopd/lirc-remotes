@@ -1,0 +1,87 @@
+#
+# this config file was automatically generated
+# using WinLIRC 0.6.5 (LIRC 0.6.1pre3) on Sat Oct 15 23:06:37 2005
+#
+# contributed by:    Geert Mulders
+#
+# brand:             SEG
+# model:             E6900-X020A
+# supported devices:
+#
+
+begin remote
+
+  name  SEG_E6900-X020A
+  bits           16
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  header       9073  4404
+  one           621  1625
+  zero          621   495
+  ptrail        621
+  repeat       9103  2140
+  pre_data_bits   16
+  pre_data       0x40BF
+  gap          39781
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x08F7                    #  Was: power
+          KEY_OPEN                 0xD22D                    #  Was: openclose
+          function                 0x6897
+          KEY_SETUP                0x58A7                    #  Was: setup
+          KEY_TITLE                0x708F                    #  Was: title
+          KEY_1                    0x807F                    #  Was: 1
+          KEY_2                    0x40BF                    #  Was: 2
+          KEY_3                    0xC03F                    #  Was: 3
+          KEY_4                    0x20DF                    #  Was: 4
+          KEY_5                    0xA05F                    #  Was: 5
+          KEY_6                    0x609F                    #  Was: 6
+          KEY_7                    0xE01F                    #  Was: 7
+          KEY_8                    0x10EF                    #  Was: 8
+          KEY_9                    0x906F                    #  Was: 9
+          KEY_10CHANNELSUP         0x8877                    #  Was: +10
+          KEY_0                    0x00FF                    #  Was: 0
+          memory                   0x827D
+          KEY_MENU                 0x9867                    #  Was: menu
+          KEY_SEARCH               0x18E7                    #  Was: search
+          display                  0xCA35
+          KEY_UP                   0x7887                    #  Was: up
+          KEY_LEFT                 0x50AF                    #  Was: left
+          KEY_RIGHT                0xA25D                    #  Was: right
+          KEY_DOWN                 0xF807                    #  Was: down
+          KEY_AUDIO                0x728D                    #  Was: audio
+          KEY_ENTER                0xD827                    #  Was: enter
+          KEY_SUBTITLE             0xB24D                    #  Was: subtitle
+          fastback                 0x22DD
+          KEY_FASTFORWARD          0xE21D                    #  Was: fastforward
+          KEY_PAUSE                0xF00F                    #  Was: pause
+          KEY_STOP                 0xD02F                    #  Was: stop
+          KEY_PREVIOUS             0x12ED                    #  Was: previous
+          KEY_PLAY                 0xB04F                    #  Was: play
+          KEY_NEXT                 0x52AD                    #  Was: next
+          KEY_MUTE                 0x48B7                    #  Was: mute
+          KEY_VOLUMEDOWN           0x42BD                    #  Was: volumedown
+          KEY_VOLUMEUP             0x02FD                    #  Was: volumeup
+          KEY_CLEAR                0x30CF                    #  Was: clear
+          KEY_ZOOM                 0x4AB5                    #  Was: zoom
+          rds                      0x38C7
+          KEY_SLOW                 0xF20D                    #  Was: slow
+          pbc                      0xC837
+          l/r/st                   0x28D7
+          KEY_ANGLE                0x8A75                    #  Was: angle
+          step                     0xA857
+          KEY_AGAIN                0xE817                    #  Was: repeat
+          ch-level                 0xB847
+          surrmode                 0x629D
+          fmmode                   0x2AD5
+          KEY_SLEEP                0x32CD                    #  Was: sleep
+          dimmer                   0x0AF5
+      end codes
+
+end remote
+
+

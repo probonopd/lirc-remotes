@@ -1,0 +1,58 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.0(serial) on Tue May 23 17:48:34 2006
+#
+# contributed by blogs.sun.com/Ananda
+#
+# brand   : Linksys
+# model no. of remote control: WMA11B-R
+# devices being controlled by this remote : 2.4 GHz Wireless-B Media Adapter
+# Company : www.linksys.com
+# Product : WMA11-B (Wireless-B Media Adapter)
+
+begin remote
+
+  name  Linksys_WMA11B-R
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9045  4458
+  one           596  1650
+  zero          596   526
+  ptrail        596
+  pre_data_bits   16
+  pre_data       0x61D6
+  gap          107822
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x00FF                    #  Was: POWER
+          KEY_MENU                 0xA05F                    #  Was: MENU
+          KEY_AUDIO                0x609F                    #  Was: MUSIC
+          KEY_IMAGES               0xE01F                    #  Was: PICTURES
+          KEY_SETUP                0x20DF                    #  Was: SETUP
+          KEY_PAGEUP               0xC837                    #  Was: PAGEUP
+          KEY_PAGEDOWN             0x9867                    #  Was: PAGEDOWN
+          ZOOMUP                   0xA857
+          ZOOMDOWN                 0xD827
+          KEY_UP                   0x10EF                    #  Was: UP
+          KEY_DOWN                 0x30CF                    #  Was: DOWN
+          KEY_LEFT                 0x906F                    #  Was: LEFT
+          KEY_RIGHT                0xD02F                    #  Was: RIGHT
+          KEY_SELECT               0x50AF                    #  Was: SELECT
+          KEY_PREVIOUS             0xB04F                    #  Was: PREVIOUS
+          KEY_OPTION               0x708F                    #  Was: OPTIONS
+          KEY_VOLUMEUP             0x28D7                    #  Was: VOLUP
+          KEY_VOLUMEDOWN           0x58A7                    #  Was: VOLDOWN
+          KEY_BACK                 0x48B7                    #  Was: BACK
+          KEY_NEXT                 0x08F7                    #  Was: NEXT
+          KEY_PLAYPAUSE            0x8877                    #  Was: PLAYPAUSE
+          KEY_STOP                 0xF00F                    #  Was: STOP
+      end codes
+
+end remote
+
+

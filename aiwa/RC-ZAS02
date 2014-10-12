@@ -1,0 +1,58 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.1-CVS(default) on Thu Nov  2 13:57:51 2006
+#
+# contributed by Carlos Fdez Manteiga <churlyATgmail.com>
+#
+# brand:                       AIWA
+# model no. of remote control: RC-ZAS02
+# devices being controlled by this remote: AIWA NSX-DR5
+#
+
+begin remote
+
+  name  AIWA_RC-ZAS02
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9082  4401
+  one           662  1584
+  zero          662   462
+  ptrail        660
+  pre_data_bits   26
+  pre_data       0x1D8113F
+  gap          109023
+  toggle_bit      0
+
+
+      begin codes
+          CD1                      0x8A75
+          CD2                      0x4AB5
+          CD3                      0xCA35
+          KEY_1                    0x807F                    #  Was: 1
+          KEY_2                    0x40BF                    #  Was: 2
+          KEY_3                    0xC03F                    #  Was: 3
+          KEY_4                    0x20DF                    #  Was: 4
+          KEY_5                    0xA05F                    #  Was: 5
+          KEY_6                    0x609F                    #  Was: 6
+          KEY_7                    0xE01F                    #  Was: 7
+          KEY_8                    0x10EF                    #  Was: 8
+          KEY_9                    0x906F                    #  Was: 9
+          KEY_0                    0x50AF                    #  Was: 0
+          KEY_10CHANNELSUP         0xD02F                    #  Was: +10
+          FUNCTION                 0x7887
+          KEY_PAUSE                0x22DD                    #  Was: PAUSE
+          KEY_PLAY                 0x02FD                    #  Was: PLAY
+          KEY_PREVIOUS             0xC23D                    #  Was: PREV
+          KEY_NEXT                 0x42BD                    #  Was: NEXT
+          KEY_STOP                 0x827D                    #  Was: STOP
+          KEY_VOLUMEUP             0xB24D                    #  Was: VOL+
+          KEY_VOLUMEDOWN           0x728D                    #  Was: VOL-
+          KEY_POWER                0x00FF                    #  Was: POWER
+      end codes
+
+end remote
+
+

@@ -1,0 +1,59 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.6(tekram) on Sun Aug  4 10:33:00 2002
+#
+# contributed by
+#
+# brand:                       Hauppauge
+# model no. of remote control:
+# devices being controlled by this remote: DEC3000-s
+#
+
+begin remote
+
+  name  hauppauge-stb
+  bits           13
+  flags RC5|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           889   889
+  zero          889   889
+  plead         889
+  gap          114301
+  min_repeat      3
+  toggle_bit      2
+
+
+      begin codes
+          KEY_POWER                0x0000000000001141        #  Was: Power
+          KEY_MUTE                 0x0000000000001142        #  Was: Mute
+          KEY_1                    0x0000000000001143        #  Was: 1
+          KEY_2                    0x0000000000001144        #  Was: 2
+          KEY_3                    0x0000000000001145        #  Was: 3
+          KEY_4                    0x0000000000001146        #  Was: 4
+          KEY_5                    0x0000000000001147        #  Was: 5
+          KEY_6                    0x0000000000001148        #  Was: 6
+          KEY_7                    0x0000000000001149        #  Was: 7
+          KEY_8                    0x000000000000114A        #  Was: 8
+          KEY_9                    0x000000000000114B        #  Was: 9
+          KEY_0                    0x000000000000114C        #  Was: 0
+          KEY_UP                   0x000000000000114D        #  Was: Up
+          KEY_DOWN                 0x0000000000001151        #  Was: Down
+          KEY_LEFT                 0x000000000000114E        #  Was: Left
+          KEY_RIGHT                0x0000000000001150        #  Was: Right
+          KEY_OK                   0x000000000000114F        #  Was: Ok
+          Zap                      0x0000000000001152
+          KEY_ESC                  0x0000000000001153        #  Was: Esc
+          KEY_RED                  0x0000000000001154        #  Was: Red
+          KEY_GREEN                0x0000000000001155        #  Was: Green
+          KEY_YELLOW               0x0000000000001156        #  Was: Yellow
+          KEY_BLUE                 0x0000000000001157        #  Was: Blue
+          KEY_SETUP                0x0000000000001158        #  Was: Setup
+          KEY_M                    0x0000000000001159        #  Was: M
+          TV/Radio                 0x000000000000115A
+      end codes
+
+end remote
+
+

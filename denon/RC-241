@@ -1,0 +1,59 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.3(serial) on Wed Aug  8 00:10:30 2001
+#
+# contributed by Tobias Pfaff
+#
+# brand:             Denon
+# model:             RC-241
+# supported devices:
+#
+
+begin remote
+
+  name  RC-241
+  bits           15
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           336   717
+  zero          336  1773
+  ptrail        336
+  gap          67458
+  toggle_bit      0
+
+
+      begin codes
+          KEY_OPEN                 0x00000000000077D7        #  Was: open_close
+          call                     0x00000000000076D7
+          prog                     0x00000000000074F7
+          direct                   0x0000000000007457
+          KEY_1                    0x00000000000076F7        #  Was: 1
+          KEY_2                    0x00000000000074F7        #  Was: 2
+          KEY_3                    0x0000000000007777        #  Was: 3
+          KEY_4                    0x0000000000007577        #  Was: 4
+          KEY_5                    0x0000000000007677        #  Was: 5
+          KEY_6                    0x0000000000007477        #  Was: 6
+          KEY_7                    0x00000000000077B7        #  Was: 7
+          KEY_8                    0x00000000000075B7        #  Was: 8
+          KEY_9                    0x00000000000076B7        #  Was: 9
+          KEY_0                    0x00000000000074B7        #  Was: 10
+          KEY_10CHANNELSUP         0x0000000000007737        #  Was: +10
+          KEY_PLAY                 0x0000000000007717        #  Was: play
+          KEY_VOLUMEUP             0x0000000000007637        #  Was: vol_up
+          KEY_VOLUMEDOWN           0x0000000000007437        #  Was: vol_down
+          KEY_PAUSE                0x0000000000007517        #  Was: pause
+          KEY_STOP                 0x0000000000007617        #  Was: stop
+          a_space                  0x00000000000075E7
+          all                      0x0000000000007757
+          a-b                      0x0000000000007557
+          KEY_REWIND               0x0000000000007497        #  Was: rewind
+          wind                     0x0000000000007697
+          KEY_PREVIOUS             0x0000000000007597        #  Was: prev
+          KEY_NEXT                 0x0000000000007797        #  Was: next
+      end codes
+
+end remote
+
+

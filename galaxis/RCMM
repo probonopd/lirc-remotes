@@ -1,0 +1,86 @@
+# lirc 0.6.x configuration file
+#
+# brand: Galaxis
+# model: RCMM
+#
+# contributed by Convergence GmbH
+#
+# generated and tested November/December 2003 by developers at
+#  Galaxis AG, Luebeck, Germany      - http://www.galaxis.de/
+#  Convergence GmbH, Berlin, Germany - http://www.convergence.de/
+#
+# the configured names are matched to corresponding input events for
+#  DirectFB     - http://www.directfb.org/
+#  LinuxTV      - http://www.linuxtv.org/
+#  MHP for free - http://www.mhp4free.de/
+#
+
+begin remote
+
+  name Galaxis-RCMM
+  bits            8
+  flags RCMM
+  eps             2
+  aeps           75
+
+  header        417   278
+  three         167   778
+  two           167   611
+  one           167   444
+  zero          167   278
+  ptrail        167
+  pre_data_bits   24
+  pre_data       0xD5008
+  gap          89912
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x000000000000000C        #  Was: POWER
+          KEY_TV                   0x000000000000003F        #  Was: TV
+          KEY_AUDIO                0x0000000000000050        #  Was: AUDIO
+          KEY_TEXT                 0x000000000000003C        #  Was: TEXT
+          KEY_VCR                  0x00000000000000FF        #  Was: VCR
+          KEY_RED                  0x000000000000006D        #  Was: RED
+          KEY_GREEN                0x000000000000006E        #  Was: GREEN
+          KEY_YELLOW               0x000000000000006F        #  Was: YELLOW
+          KEY_BLUE                 0x0000000000000070        #  Was: BLUE
+          KEY_UP                   0x0000000000000058        #  Was: UP
+          UP_RIGHT                 0x00000000000000C4
+          KEY_RIGHT                0x000000000000005B        #  Was: RIGHT
+          DOWN_RIGHT               0x00000000000000C6
+          KEY_DOWN                 0x0000000000000059        #  Was: DOWN
+          LEFT_DOWN                0x00000000000000C7
+          KEY_LEFT                 0x000000000000005A        #  Was: LEFT
+          LEFT_UP                  0x00000000000000C5
+          KEY_OK                   0x000000000000005C        #  Was: OK
+          KEY_EXIT                 0x0000000000000055        #  Was: EXIT
+          KEY_1                    0x0000000000000001        #  Was: 1
+          KEY_2                    0x0000000000000002        #  Was: 2
+          KEY_3                    0x0000000000000003        #  Was: 3
+          KEY_4                    0x0000000000000004        #  Was: 4
+          KEY_5                    0x0000000000000005        #  Was: 5
+          KEY_6                    0x0000000000000006        #  Was: 6
+          KEY_7                    0x0000000000000007        #  Was: 7
+          KEY_8                    0x0000000000000008        #  Was: 8
+          KEY_9                    0x0000000000000009        #  Was: 9
+          KEY_BACK                 0x000000000000000A        #  Was: BACK
+          KEY_0                    0x0000000000000000        #  Was: 0
+          KEY_MENU                 0x0000000000000078        #  Was: MENU
+          KEY_VOLUMEUP             0x0000000000000010        #  Was: VOLUME_UP
+          KEY_VOLUMEDOWN           0x0000000000000011        #  Was: VOLUME_DOWN
+          KEY_MUTE                 0x000000000000000D        #  Was: MUTE
+          KEY_CHANNELUP            0x0000000000000020        #  Was: CHANNEL_UP
+          KEY_CHANNELDOWN          0x0000000000000021        #  Was: CHANNEL_DOWN
+          KEY_EPG                  0x00000000000000CC        #  Was: EPG
+          KEY_LIST                 0x0000000000000079        #  Was: LIST
+          KEY_INFO                 0x000000000000000F        #  Was: INFO
+          KEY_SUBTITLE             0x000000000000004B        #  Was: SUBTITLE
+          KEY_SETUP                0x0000000000000045        #  Was: SETUP
+          KEY_LANGUAGE             0x000000000000004E        #  Was: LANGUAGE
+          ALT                      0x0000000000000061
+      end codes
+
+end remote
+
+

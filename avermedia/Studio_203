@@ -1,0 +1,68 @@
+#
+# this config file was automatically generated
+# using lirc-0.7.2(avermedia98) on Sat Oct  1 17:09:43 2005
+#
+# contributed by Antonio J. Triana  tritri24|gmail.com
+#
+# brand:    Avermedia
+# model no. of remote control:  AverTV Studio 203
+# devices being controlled by this remote:
+#
+
+begin remote
+
+  name  AVerTV_Studio_203
+  bits           32
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9078  4437
+  one           615  1631
+  zero          615   515
+  ptrail        620
+  repeat       9080  2189
+  gap          108056
+  repeat_bit      0
+
+
+      begin codes
+          TV/FM                    0x40BF807F
+          KEY_POWER                0x40BF00FF                #  Was: POWER
+          KEY_1                    0x40BFA05F                #  Was: 1
+          KEY_2                    0x40BF609F                #  Was: 2
+          KEY_3                    0x40BFE01F                #  Was: 3
+          KEY_4                    0x40BF906F                #  Was: 4
+          KEY_5                    0x40BF50AF                #  Was: 5
+          KEY_6                    0x40BFD02F                #  Was: 6
+          KEY_7                    0x40BFB04F                #  Was: 7
+          KEY_8                    0x40BF708F                #  Was: 8
+          KEY_9                    0x40BFF00F                #  Was: 9
+          KEY_0                    0x40BF8877                #  Was: 0
+          KEY_L                    0x40BF48B7                #  Was: L
+          KEY_R                    0x40BFC837                #  Was: R
+          SNAPSHOT                 0x40BFE817
+          X_KEY_6-CH-PREV          0x40BF08F7                #  Was: KEY_6-CH-PREV
+          KEY_CHANNELUP            0xC03FC03F                #  Was: ChannelUP
+          KEY_CHANNELDOWN          0xC03F40BF                #  Was: ChannelDOWN
+          KEY_VOLUMEUP             0x40BFF807                #  Was: VolumeUP
+          KEY_VOLUMEDOWN           0x40BF7887                #  Was: VolumeDOWN
+          KEY_F11                  0x40BF30CF                #  Was: FULLSCREEN
+          KEY_MUTE                 0x40BF28D7                #  Was: MUTE
+          KEY_AUDIO                0x40BF10EF                #  Was: AUDIO
+          KEY_RECORD               0x40BF9867                #  Was: REC
+          KEY_PLAY                 0x40BF18E7                #  Was: PLAY
+          KEY_STOP                 0x40BFD827                #  Was: STOP
+          KEY_PAUSE                0x40BF58A7                #  Was: PAUSE
+          KEY_REWIND               0x40BFB847                #  Was: REW
+          KEY_FASTFORWARD          0x40BF38C7                #  Was: FF
+          KEY_TEXT                 0x40BFC03F                #  Was: TELETEXT
+          SLOW-REW                 0xC03F807F
+          SLOW-FF                  0xC03F00FF
+          KEY_CYCLEWINDOWS         0x40BF20DF                #  Was: SOURCE
+          AUTOSCAN                 0x40BFA857
+      end codes
+
+end remote
+
+

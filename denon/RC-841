@@ -1,0 +1,66 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.6(serial) on Sat May 17 18:12:29 2003
+#
+# contributed by
+#
+# brand: Denon
+# model no. of remote control: RC-841
+# devices being controlled by this remote: Master-System, CD, Tape, Tuner, TV, VCR, VDP
+#
+
+begin remote
+
+  name  denon_rc841
+  bits           15
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           347  1773
+  zero          347   704
+  ptrail        354
+  gap          67624
+  min_repeat      2
+  toggle_bit      0
+
+  toggle_mask    0x3FF
+
+      begin codes
+          KEY_POWER                0x000000000000220C        #  Was: power
+          master_volume_up         0x000000000000223C
+          master_volume_down       0x000000000000213C
+          cd_pause                 0x0000000000000AE8
+          cd_track_back            0x0000000000000A68
+          cd_stop                  0x00000000000009E8
+          cd_play                  0x00000000000008E8
+          cd_track_forward         0x0000000000000868
+          phono                    0x000000000000230C
+          KEY_CD                   0x000000000000208C        #  Was: cd
+          KEY_DVD                  0x000000000000214C        #  Was: dvd_tv
+          KEY_VCR                  0x00000000000022CC        #  Was: vcr
+          KEY_TUNER                0x000000000000228C        #  Was: tuner
+          shift                    0x0000000000001ACC
+          dat_tape                 0x000000000000212C
+          preset_down              0x0000000000001AAC
+          preset_up                0x00000000000019AC
+          KEY_MODE                 0x000000000000219C        #  Was: mode
+          stereo                   0x000000000000239C
+          delay                    0x000000000000225C
+          panel                    0x00000000000021EC
+          muting                   0x00000000000023C3
+          t_tone                   0x00000000000022A3
+          KEY_CHANNELDOWN          0x0000000000001BD4        #  Was: channel_select
+          KEY_CHANNELUP            0x0000000000001834        #  Was: channel_volume_up
+          KEY_CHANNELDOWN          0x0000000000001A34        #  Was: channel_volume_down
+          deck_play_left           0x00000000000013A8
+          deck_stop                0x00000000000011E8
+          deck_play_right          0x00000000000010E8
+          deck_fast_rewind         0x0000000000001368
+          deck_side_change         0x0000000000001328
+          deck_fast_forward        0x0000000000001168
+      end codes
+
+end remote
+
+

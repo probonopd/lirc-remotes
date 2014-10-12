@@ -1,0 +1,87 @@
+# this config file was automatically generated
+# using lirc-0.7.0(irdeo) on Fri Nov 19 18:42:30 2004
+#
+# contributed by Olaf Tauber
+#
+# brand:                                   Xoro by MAS Elektronik AG
+# model no. of remote control:            
+# devices being controlled by this remote: Xoro HSD-400 plus
+#
+
+begin remote
+
+  name  HSD-400
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9109  4457
+  one           623  1638
+  zero          623   506
+  ptrail        626
+  repeat       9116  2190
+  pre_data_bits   16
+  pre_data       0xFF
+  gap          108528
+  toggle_bit      0
+
+
+      begin codes
+          KEY_SLEEP                0xD827                    #  Was: STANDBY
+          KEY_MENU                 0x58A7                    #  Was: OSD
+          A-B                      0x9A65
+          KEY_SUBTITLE             0x22DD                    #  Was: SUBTITLE
+          KEY_ANGLE                0x38C7                    #  Was: ANGLE
+          KEY_VOLUMEDOWN           0x08F7                    #  Was: VOL-
+          SLOW-RIGHT               0x0AF5
+          KEY_AUDIO                0x12ED                    #  Was: AUDIO
+          KEY_10CHANNELSUP         0x926D                    #  Was: +10
+          KEY_7                    0x6897                    #  Was: 7
+          SLOW-LEFT                0x2AD5
+          KEY_9                    0x629D                    #  Was: 9
+          KEY_0                    0xB24D                    #  Was: 0
+          KEY_PLAY                 0x3AC5                    #  Was: PLAY
+          KEY_PAUSE                0xBA45                    #  Was: PAUSE
+          ITEM                     0xB847
+          PROGRAM                  0x7A85
+          KEY_UP                   0xE01F                    #  Was: UP
+          KEY_LEFT                 0x708F                    #  Was: LEFT
+          KEY_ENTER                0x609F                    #  Was: ENTER
+          KEY_RIGHT                0x50AF                    #  Was: RIGHT
+          KEY_DOWN                 0xD02F                    #  Was: DOWN
+          KEY_MENU                 0xF00F                    #  Was: MENU
+          KEY_1                    0xB04F                    #  Was: 1
+          KEY_ZOOMOUT              0x28D7                    #  Was: ZOOM-
+          KEY_AGAIN                0x5AA5                    #  Was: REPEAT
+          KEY_ZOOMIN               0xEA15                    #  Was: ZOOM+
+          KEY_VOLUMEUP             0xCA35                    #  Was: VOL+
+          KEY_POWER                0x30CF                    #  Was: POWER
+          KEY_7                    0x728D                    #  Was: 7
+          KEY_4                    0xF20D                    #  Was: 4
+          KEY_2                    0x906F                    #  Was: 2
+          KEY_MUTE                 0x10EF                    #  Was: MUTE
+          KEY_8                    0x52AD                    #  Was: 8
+          KEY_5                    0xD22D                    #  Was: 5
+          KEY_3                    0xA05F                    #  Was: 3
+          KEY_STOP                 0xF807                    #  Was: STOP
+          KEY_6                    0xE21D                    #  Was: 6
+          KEY_SETUP                0x807F                    #  Was: SETUP
+          KEY_OPEN                 0x00FF                    #  Was: OPEN/CLOSE
+          NTSC/PAL                 0x42BD
+          PBC                      0xC23D
+          KEY_CLEAR                0xA25D                    #  Was: CLEAR
+          KEY_SEARCH               0x827D                    #  Was: SEARCH
+          KEY_TITLE                0x32CD                    #  Was: TITLE
+	  PHOTO-MODE               0x02FD
+          KEY_ENTER                0xC03F                    #  Was: RETURN
+	  DISPLAY                  0xC837
+          KEY_REWIND               0xAA55                    #  Was: <<
+          KEY_FORWARD              0x8A75                    #  Was: >>
+          KEY_PREVIOUS             0x6A95                    #  Was: |<<
+          KEY_NEXT                 0x4AB5                    #  Was: >>|
+	  SHUFFLE                  0x18E7
+      end codes
+
+end remote
+

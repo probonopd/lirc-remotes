@@ -1,0 +1,50 @@
+#
+# this config file was automatically generated
+# using lirc-WinLIRC 0.6.1pre2 (LIRC 0.6.1pre2) on Wed Mar 28 13:56:53 2007
+#
+# contributed by Schrad
+#
+# brand:             Toshiba
+# model:             CT-90205
+# supported devices: Toshiba TLP T-50 Beamer
+#
+
+begin remote
+
+  name  Toshiba_CT-90205
+  bits           15
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  header       8998  4546
+  one           530  1709
+  zero          530   592
+  ptrail        530
+  repeat       9076  2237
+  pre_data_bits   16
+  pre_data       0xE750
+  post_data_bits  1
+  post_data      0x1
+  gap          39810
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x000000000000245B        #  Was: on/standby
+          input                    0x000000000000146B
+          KEY_SETUP                0x000000000000542B        #  Was: setup
+          KEY_MENU                 0x0000000000006C13        #  Was: menu
+          KEY_MUTE                 0x000000000000443B        #  Was: mute
+          freeze                   0x000000000000512E
+          KEY_ENTER                0x0000000000005C23        #  Was: return
+          KEY_VOLUMEDOWN           0x000000000000215E        #  Was: vol-
+          KEY_VOLUMEUP             0x000000000000611E        #  Was: vol+
+          KEY_UP                   0x000000000000017E        #  Was: up
+          KEY_DOWN                 0x000000000000413E        #  Was: down
+          KEY_ENTER                0x000000000000641B        #  Was: enter
+      end codes
+
+end remote
+
+

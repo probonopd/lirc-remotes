@@ -1,0 +1,85 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.4(ipaq) on Fri Aug 30 02:19:01 2002
+#
+# contributed by Brian Stanback <brian@stanback.net>
+#
+# brand: Toshiba
+# model no. of remote control: SE-R0058
+# supported devices: Toshiba DVD Video Player model no. SD-3750
+#
+
+begin remote
+
+  name  SE-R0058
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       8931  4492
+  one           506  1725
+  zero          506   608
+  ptrail        507
+  repeat       8931  2244
+  pre_data_bits   16
+  pre_data       0xA25D
+  gap          107629
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x00000000000048B7        #  Was: pwr
+          KEY_SETUP                0x00000000000004FB        #  Was: setup
+          fldimmer                 0x000000000000827D
+          KEY_OPEN                 0x000000000000AF50        #  Was: open/close
+          KEY_ZOOM                 0x00000000000002FD        #  Was: zoom
+          KEY_ZOOMOUT              0x0000000000000FF0        #  Was: zoom-
+          KEY_ZOOMIN               0x0000000000008F70        #  Was: zoom+
+          e.a.m                    0x000000000000C23D
+          quick                    0x000000000000D02F
+          v.remote                 0x00000000000008F7
+          navi                     0x0000000000006897
+          topmenu                  0x0000000000007B84
+          KEY_UP                   0x00000000000001FE        #  Was: up
+          KEY_MENU                 0x00000000000021DE        #  Was: menu
+          KEY_LEFT                 0x0000000000008A75        #  Was: left
+          KEY_ENTER                0x000000000000847B        #  Was: enter
+          KEY_RIGHT                0x000000000000B24D        #  Was: right
+          KEY_DOWN                 0x000000000000817E        #  Was: down
+          KEY_CLEAR                0x000000000000F708        #  Was: clear
+          KEY_ENTER                0x00000000000044BB        #  Was: return
+          KEY_PAUSE                0x00000000000000FF        #  Was: pause
+          KEY_PLAY                 0x000000000000A857        #  Was: play
+          KEY_STOP                 0x00000000000028D7        #  Was: stop
+          KEY_PREVIOUS             0x000000000000C43B        #  Was: skip-
+          KEY_NEXT                 0x00000000000024DB        #  Was: skip+
+          KEY_REWIND               0x0000000000009867        #  Was: rew
+          KEY_FORWARD              0x000000000000C837        #  Was: fwd
+          KEY_1                    0x000000000000807F        #  Was: 1
+          KEY_2                    0x00000000000040BF        #  Was: 2
+          KEY_3                    0x000000000000C03F        #  Was: 3
+          KEY_SEARCH               0x000000000000649B        #  Was: search
+          KEY_4                    0x00000000000020DF        #  Was: 4
+          KEY_5                    0x000000000000A05F        #  Was: 5
+          KEY_6                    0x000000000000609F        #  Was: 6
+          KEY_10CHANNELSUP         0x000000000000A45B        #  Was: +10
+          KEY_7                    0x000000000000E01F        #  Was: 7
+          KEY_8                    0x00000000000010EF        #  Was: 8
+          KEY_9                    0x000000000000906F        #  Was: 9
+          KEY_0                    0x00000000000050AF        #  Was: 0
+          slow-                    0x000000000000708F
+          slow+                    0x000000000000B04F
+          KEY_ANGLE                0x000000000000946B        #  Was: angle
+          KEY_SUBTITLE             0x00000000000014EB        #  Was: subtitle
+          KEY_AUDIO                0x000000000000E41B        #  Was: audio
+          colorstream              0x000000000000728D
+          random                   0x000000000000748B
+          memory                   0x00000000000054AB
+          KEY_AGAIN                0x000000000000D42B        #  Was: repeat
+          abrpt                    0x00000000000034CB
+      end codes
+
+end remote
+
+

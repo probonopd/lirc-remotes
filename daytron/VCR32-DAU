@@ -1,0 +1,46 @@
+# this config file was automatically generated
+# using lirc-0.5.4 on Thu Aug 19 21:04:17 1999
+#
+# contributed by John Wohlers (jwohlers@mail.wcc.cc.il.us)
+#
+# brand:             Daytron
+# model:             VCR32-DAU
+# supported devices: VCR
+#
+
+begin remote
+
+  name  daytron
+  bits           13
+  flags SPACE_ENC
+  eps            30
+  aeps          100
+
+  header      18101  8929
+  one          1208  1044
+  zero         1208  3293
+  ptrail       1208
+  pre_data_bits   16
+  pre_data       0xDF20
+  post_data_bits  3
+  post_data      0x0
+  gap          79836
+  repeat_bit      0
+
+      begin codes
+          KEY_POWER                0x0000000000001DE2        #  Was: power
+          tvvcr                    0x00000000000009F6
+          KEY_SLOW                 0x00000000000013EC        #  Was: slow
+          KEY_DOWN                 0x0000000000000FF0        #  Was: down
+          KEY_UP                   0x0000000000001FE0        #  Was: up
+          KEY_RECORD               0x00000000000010EF        #  Was: record
+          KEY_PAUSE                0x00000000000011EE        #  Was: pause
+          KEY_STOP                 0x00000000000019E6        #  Was: stop
+          KEY_REWIND               0x00000000000003FC        #  Was: rew
+          KEY_PLAY                 0x0000000000001BE4        #  Was: play
+          KEY_FASTFORWARD          0x0000000000000BF4        #  Was: ff
+      end codes
+
+end remote
+
+

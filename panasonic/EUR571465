@@ -1,0 +1,49 @@
+#
+# this config file was automatically generated
+# using lirc-0.7.0pre7(serial) on Tue Oct 26 09:56:23 2004
+#
+# contributed by
+#
+# brand:                       Panasonic
+# model no. of remote control: EUR571465
+# devices being controlled by this remote:
+#
+
+begin remote
+
+  name  Panasonic_EUR571465
+  bits           24
+  flags SPACE_ENC
+  eps            30
+  aeps          100
+
+  header       3494  1769
+  one           369  1372
+  zero          369   504
+  ptrail        382
+  pre_data_bits   24
+  pre_data       0x400409
+  gap          74796
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x000000000000BCB5        #  Was: POWER
+          SPEED                    0x00000000008050D9
+          VCR/TV                   0x0000000000006C65
+          TRACK-                   0x0000000000004D44
+          TRACK+                   0x0000000000008D84
+          KEY_PLAY                 0x0000000000005059        #  Was: PLAY
+          KEY_STOP                 0x0000000000000009        #  Was: STOP
+          KEY_FASTFORWARD          0x000000000000C0C9        #  Was: FF
+          KEY_REWIND               0x0000000000004049        #  Was: REW
+          INDEXL                   0x000000000000929B
+          INDEXR                   0x000000000000525B
+          KEY_PAUSE                0x0000000000006069        #  Was: PAUSE
+          KEY_RECORD               0x0000000000001019        #  Was: REC
+          ADV                      0x0000000000003039
+      end codes
+
+end remote
+
+

@@ -1,0 +1,142 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.3(sir) on Mon Jul 16 09:55:50 2001
+#
+# contributed by Panajotis Karajannis
+#
+# brand:             Panasonic
+# model:             EUR571756
+# supported devices: Panasonic TV's and VCR's (?)
+#
+
+###########################################
+##             Common buttons            ##
+###########################################
+
+begin remote
+
+  name  EUR571756
+  bits           28
+  flags SPACE_ENC
+  eps            30
+  aeps          100
+
+  header       3454  1749
+  one           445  1289
+  zero          445   421
+  ptrail        445
+  pre_data_bits   20
+  pre_data       0x40040
+  gap          74141
+  min_repeat      1
+  toggle_bit      0
+
+
+      begin codes
+          INPUT_SELECT             0x000000000900030A
+          KEY_VOLUMEUP             0x0000000001000405        #  Was: VOL_UP
+          AV                       0x000000000100A0A1
+          KEY_VOLUMEDOWN           0x0000000001008485        #  Was: VOL_DOWN
+          KEY_SEARCH               0x000000000980B930        #  Was: SEARCH
+          KEY_MENU                 0x000000000900EAE3        #  Was: OSD
+          DISPLAY                  0x000000000980FA73
+          RESET                    0x0000000009002A23
+          INDEX_START              0x000000000900929B
+          INDEX_END                0x000000000900525B
+          KEY_RECORD               0x0000000009001019        #  Was: REC
+          KEY_PAUSE                0x0000000009006069        #  Was: PAUSE
+          KEY_MENU                 0x0000000009806AE3        #  Was: MENU
+          KEY_ENTER                0x0000000009801A93        #  Was: ENTER
+          KEY_AGAIN                0x0000000009009F96        #  Was: REPEAT
+          KEY_PLAY                 0x0000000009005059        #  Was: PLAY
+          KEY_REWIND               0x0000000009004049        #  Was: REW
+          KEY_FASTFORWARD          0x000000000900C0C9        #  Was: FF
+          KEY_STOP                 0x0000000009000009        #  Was: STOP
+      end codes
+
+end remote
+
+###########################################
+##         VCR specific buttons          ##
+###########################################
+
+begin remote
+
+  name  EUR571756-VCR
+  bits           28
+  flags SPACE_ENC
+  eps            30
+  aeps          100
+
+  header       3454  1749
+  one           445  1289
+  zero          445   421
+  ptrail        445
+  pre_data_bits   20
+  pre_data       0x40040
+  gap          74141
+  min_repeat      1
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x000000000900BCB5        #  Was: POWER
+          KEY_1                    0x0000000009000801        #  Was: 1
+          KEY_2                    0x0000000009008881        #  Was: 2
+          KEY_3                    0x0000000009004841        #  Was: 3
+          KEY_CHANNELUP            0x0000000009002C25        #  Was: CH_UP
+          KEY_4                    0x000000000900C8C1        #  Was: 4
+          KEY_5                    0x0000000009002821        #  Was: 5
+          KEY_6                    0x000000000900A8A1        #  Was: 6
+          KEY_CHANNELDOWN          0x000000000900ACA5        #  Was: CH_DOWN
+          KEY_7                    0x0000000009006861        #  Was: 7
+          KEY_8                    0x000000000900E8E1        #  Was: 8
+          KEY_9                    0x0000000009001811        #  Was: 9
+          KEY_0                    0x0000000009009891        #  Was: 0
+          X_KEY_2_DIGIT            0x000000000900DCD5        #  Was: KEY_2_DIGIT
+          G_CODE                   0x000000000980BA33
+      end codes
+
+end remote
+
+############################################
+##        TV specific buttons             ##
+############################################
+
+begin remote
+
+  name  EUR571756-TV
+  bits           28
+  flags SPACE_ENC
+  eps            30
+  aeps          100
+
+  header       3454  1749
+  one           445  1289
+  zero          445   421
+  ptrail        445
+  pre_data_bits   20
+  pre_data       0x40040
+  gap          74142
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x000000000100BCBD        #  Was: POWER
+          KEY_1                    0x0000000001000809        #  Was: 1
+          KEY_2                    0x0000000001008889        #  Was: 2
+          KEY_3                    0x0000000001004849        #  Was: 3
+          KEY_CHANNELUP            0x0000000001002C2D        #  Was: CH_UP
+          KEY_CHANNELDOWN          0x000000000100ACAD        #  Was: CH_DOWN
+          KEY_4                    0x000000000100C8C9        #  Was: 4
+          KEY_5                    0x0000000001002829        #  Was: 5
+          KEY_6                    0x000000000100A8A9        #  Was: 6
+          KEY_7                    0x0000000001006869        #  Was: 7
+          KEY_8                    0x000000000100E8E9        #  Was: 8
+          KEY_9                    0x0000000001001819        #  Was: 9
+          KEY_0                    0x0000000001009899        #  Was: 0
+          X_KEY_2_DIGIT            0x000000000100DCDD        #  Was: KEY_2_DIGIT
+      end codes
+
+end remote
+

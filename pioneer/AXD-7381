@@ -1,0 +1,78 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.0(serial) on Tue Jun  6 22:55:06 2006
+#
+# contributed by
+#
+# brand:                       Pioneer
+# model no. of remote control: AXD-7381
+# devices being controlled by this remote: surround sound system
+#
+
+begin remote
+
+  name  Pioneer_AXD-7381
+  bits           32
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       8560  4180
+  one           594  1504
+  zero          594   456
+  ptrail        593
+  gap          91143
+  min_repeat      2
+  toggle_bit      0
+
+
+      begin codes
+          KEY_1                    0xD52A34CB                #  Was: 1
+          KEY_2                    0xD52A34CB                #  Was: 2
+          KEY_3                    0xD52A34CB                #  Was: 3
+          KEY_4                    0xD52A34CB                #  Was: 4
+          KEY_5                    0xD52A34CB                #  Was: 5
+          KEY_6                    0xD52A34CB                #  Was: 6
+          KEY_7                    0xD52A34CB                #  Was: 7
+          KEY_8                    0xD52A34CB                #  Was: 8
+          KEY_9                    0xD52A34CB                #  Was: 9
+          KEY_0                    0xD52A34CB                #  Was: 0
+	Dot                      0xD52A54AB 0xF50A6699
+          KEY_ENTER                0xD52A34CB                #  Was: Enter
+          KEY_UP                   0xD52A34CB                #  Was: Up
+          KEY_DOWN                 0xD52A34CB                #  Was: Down
+          KEY_RIGHT                0xD52A34CB                #  Was: Right
+          KEY_LEFT                 0xD52A34CB                #  Was: Left
+          KEY_OK                   0xD52A34CB                #  Was: OK
+	TopMenu			 0xD52A34CB 0xF50A2DD2
+          KEY_MENU                 0xD52A34CB                #  Was: Menu
+          KEY_INFO                 0xD52A34CB                #  Was: Guide
+          KEY_ENTER                0xD52A34CB                #  Was: Return
+          KEY_CHANNELDOWN          0xD52A54AB                #  Was: CH-
+          KEY_CHANNELUP            0xD52A54AB                #  Was: CH+
+          KEY_REWIND               0xD52AA45B                #  Was: SkipBack
+	SkipForw                 0xD52A24DB
+          KEY_PLAY                 0xD52A44BB                #  Was: Play
+          KEY_PAUSE                0xD52AC43B                #  Was: Pause
+          KEY_STOP                 0xD52A04FB                #  Was: Stop
+          KEY_RECORD               0xD52A14EB                #  Was: Record
+          KEY_RECORD               0xD52A847B                #  Was: RecordStop
+        TrackPrev                0xD52AE41B
+ 	TrackNext                0xD52A649B
+          KEY_AUDIO                0xD52A34CB                #  Was: Audio
+          KEY_SUBTITLE             0xD52A34CB                #  Was: Subtitle
+          KEY_GREEN                0xF50AC639                #  Was: Green
+
+# The following codes are commented out, as they control
+# The surround sound receiver as well. If you want to have it
+# control the myth-sound, uncomment.
+          KEY_MUTE                 0xA55A48B7                #  Was: Mute
+          KEY_VOLUMEUP             0xA55A50AF                #  Was: VOL+
+          KEY_VOLUMEDOWN           0xA55AD02F                #  Was: VOL-
+HDD                      0xF50A26D9
+          KEY_DVD                  0xF50AA659                #  Was: DVD
+      end codes
+
+end remote
+
+

@@ -1,0 +1,60 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.6(serial) on Tue Feb  4 04:28:25 2003
+#
+# contributed by
+#
+# brand:                       Pioneer
+# model no. of remote control: CU-SX091
+# devices being controlled by this remote:
+#
+
+begin remote
+
+  name  kal
+  bits           32
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       8595  4205
+  one           583  1548
+  zero          583   482
+  ptrail        589
+  gap          89940
+  min_repeat      3
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x00000000857A38C7        #  Was: power
+          tapeleft                 0x00000000857ADA25
+          tapestop                 0x00000000857A3AC5
+          taperight                0x00000000857ABA45
+          tapeseekl                0x00000000857AEA15
+          tapeseekr                0x00000000857A6A95
+          cdseekl                  0x0000000045BA8877
+          cdseekr                  0x0000000045BA08F7
+          cdstop                   0x0000000045BA6897
+          cdplay                   0x0000000045BAE817
+          cdpower                  0x0000000045BA38C7
+          disc-                    0x0000000045BA837C
+          disc+                    0x0000000045BAB847
+          scan                     0x0000000025DAB24D
+          ld                       0x00000000A55AB04F
+          KEY_CD                   0x00000000A55A32CD        #  Was: cd
+          stat-                    0x0000000025DA8877
+          stat+                    0x0000000025DA08F7
+          tape1                    0x00000000A55A728D
+          tape2                    0x00000000A55AB847
+          phono                    0x00000000A55AB24D
+          KEY_TUNER                0x00000000A55AE21D        #  Was: tuner
+          KEY_RECORD               0x00000000A55A38C7        #  Was: reciv
+          KEY_SLEEP                0x00000000A55A12ED        #  Was: sleep
+          KEY_VOLUMEDOWN           0x00000000A55AD02F        #  Was: volume-
+          KEY_VOLUMEUP             0x00000000A55A50AF        #  Was: volume+
+      end codes
+
+end remote
+
+

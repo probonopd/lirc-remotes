@@ -1,0 +1,69 @@
+#
+# this config file was automatically generated
+# using WinLIRC 0.6.5 (LIRC 0.6.1pre3) on Fri Oct 29 23:24:27 2004
+#
+# contributed by Marko Kukovec
+#
+# brand:             Sony
+# model:             RM-W100
+# supported devices: Sony FD Trinitron TV KV-21CL10K/KV-21FQ10K
+#
+
+begin remote
+
+  name  RM-W100
+  bits           11
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  header       2474   544
+  one           623   544
+  zero         1222   544
+  ptrail        623
+  gap          26599
+  toggle_bit      0
+
+
+      begin codes
+          ch1                      0x00000000000007F7
+          ch2                      0x00000000000003F7
+          ch3                      0x00000000000005F7
+          ch4                      0x00000000000001F7
+          ch5                      0x00000000000006F7
+          ch6                      0x00000000000002F7
+          ch7                      0x00000000000004F7
+          ch8                      0x00000000000000F7
+          ch9                      0x0000000000000777
+          ch0                      0x0000000000000377
+          numbering                0x0000000000000237
+          switch_ch                0x0000000000000117
+          KEY_VOLUMEUP             0x00000000000005B7        #  Was: vol+
+          KEY_VOLUMEDOWN           0x00000000000001B7        #  Was: vol-
+          KEY_CHANNELUP            0x00000000000007B7        #  Was: prog+
+          KEY_CHANNELDOWN          0x00000000000003B7        #  Was: prog-
+          KEY_MUTE                 0x00000000000006B7        #  Was: mute
+          KEY_INFO                 0x0000000000000517        #  Was: info
+          KEY_POWER                0x00000000000002B7        #  Was: on_off
+          a_b                      0x00000000000000B7
+          av                       0x00000000000002D7
+          KEY_TV                   0x0000000000000717        #  Was: tv
+          KEY_POWER                0x0000000000000617        #  Was: on_timer
+          off_timer                0x0000000000000497
+          sound_effect             0x0000000000000357
+          KEY_MENU                 0x00000000000007C7        #  Was: menu
+          KEY_UP                   0x0000000000000687        #  Was: menu_up
+          KEY_RIGHT                0x0000000000000197        #  Was: menu_right
+          KEY_DOWN                 0x0000000000000287        #  Was: menu_down
+          KEY_LEFT                 0x0000000000000697        #  Was: menu_left
+          menu_center              0x00000000000002C7
+          KEY_TEXT                 0x0000000000000017        #  Was: teletext
+          sound_teletext_r         0x0000000000000663
+          picture_teletext_g       0x0000000000000263
+          teletext_y               0x0000000000000463
+          format_teletext_b        0x0000000000000063
+      end codes
+
+end remote
+
+

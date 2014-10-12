@@ -1,0 +1,68 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.2-CVS(default) on Fri Oct 26 11:01:33 2007
+#
+# contributed by Chris Lewis
+#
+# brand:					Samsung
+# model no. of remote control:			MF59-00242B
+# devices being controlled by this remote:	Samsung DTB-9401V
+#
+
+begin remote
+
+  name  Samsung_MF59-00242B
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       4370  4401
+  one           511  1697
+  zero          511   565
+  ptrail        510
+  pre_data_bits   16
+  pre_data       0x9090
+  gap          102815
+  toggle_bit_mask 0x0
+
+      begin codes
+          KEY_POWER                0x40BF                    #  Was: POWER
+          KEY_1                    0x20DF                    #  Was: 1
+          KEY_2                    0xA05F                    #  Was: 2
+          KEY_3                    0x609F                    #  Was: 3
+          KEY_4                    0x10EF                    #  Was: 4
+          KEY_5                    0x906F                    #  Was: 5
+          KEY_6                    0x50AF                    #  Was: 6
+          KEY_7                    0x30CF                    #  Was: 7
+          KEY_8                    0xB04F                    #  Was: 8
+          KEY_9                    0x708F                    #  Was: 9
+          KEY_0                    0x8877                    #  Was: 0
+          KEY_FAVORITES            0x7C83                    #  Was: FAV
+          KEY_LAST                 0xC837                    #  Was: LAST
+          KEY_MUTE                 0xF00F                    #  Was: MUTE
+          KEY_VOLUMEUP             0xE01F                    #  Was: VOL+
+          KEY_VOLUMEDOWN           0xD02F                    #  Was: VOL-
+          KEY_CHANNELUP            0x48B7                    #  Was: CH+
+          KEY_CHANNELDOWN          0x08F7                    #  Was: CH-
+          TV/RADIO                 0x9C63
+          KEY_MENU                 0x58A7                    #  Was: MENU
+          KEY_CHANNELUP            0xA45B                    #  Was: PG+
+          KEY_CHANNELDOWN          0xAC53                    #  Was: PG-
+          KEY_EXIT                 0xB44B                    #  Was: EXIT
+          KEY_LEFT                 0xA659                    #  Was: LEFT
+          KEY_RIGHT                0x46B9                    #  Was: RIGHT
+          KEY_UP                   0x06F9                    #  Was: UP
+          KEY_DOWN                 0x8679                    #  Was: DOWN
+          KEY_OK                   0x16E9                    #  Was: OK
+          KEY_TEXT                 0x28D7                    #  Was: TEXT
+          ALT                      0xA857
+          KEY_AUDIO                0x6897                    #  Was: AUDIO
+          KEY_INFO                 0x26D9                    #  Was: INFO
+          KEY_EPG                  0xF20D                    #  Was: EPG
+          TIMER                    0x34CB
+      end codes
+
+end remote
+
+

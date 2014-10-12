@@ -1,0 +1,56 @@
+#
+# this config file was automatically generated
+# using lirc-WinLIRC 0.6.2 (LIRC 0.6.1pre3) on Fri May 31 14:05:52 2002
+#
+# contributed by
+#
+# brand:             pioneer
+# model:             CU-A002
+# supported devices:
+#
+
+begin remote
+
+  name  pioneer
+  bits           31
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  header       8603  4164
+  one           575  1535
+  zero          575   462
+  ptrail        575
+  post_data_bits  1
+  post_data      0x1
+  gap          25426
+  toggle_bit      0
+
+
+      begin codes
+          tapesel                  0x0000000042BD1966
+          KEY_REWIND               0x0000000042BD750A        #  Was: <<
+          KEY_FORWARD              0x0000000042BD354A        #  Was: >>
+          <                        0x0000000042BD6D12
+          square                   0x0000000042BD1D62
+          >                        0x0000000042BD5D22
+          discsel                  0x0000000022DD5C23
+          KEY_PREVIOUS             0x0000000022DD443B        #  Was: |<<
+          KEY_NEXT                 0x0000000022DD047B        #  Was: >>|
+          cdpower                  0x0000000022DD1C63
+          squarecd                 0x0000000022DD344B
+          >cd                      0x0000000022DD740B
+          tunerpower               0x0000000012ED1C63
+          tuner-                   0x0000000012ED443B
+          tuner+                   0x0000000012ED047B
+          amppower                 0x0000000052AD1C63
+          tape2                    0x0000000052AD5C23
+          function                 0x0000000052AD552A
+          KEY_VOLUMEDOWN           0x0000000052AD6817        #  Was: vol-
+          KEY_VOLUMEUP             0x0000000052AD2857        #  Was: vol+
+      end codes
+
+end remote
+
+
+

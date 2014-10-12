@@ -1,0 +1,43 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.6(default) on Tue May 18 15:32:50 2010
+#
+# contributed by: Tony Lancaster
+#
+# brand:                       Sony
+# model no. of remote control: RMT-DSC2
+# devices being controlled by this remote:
+#  Sony DSC-H50
+
+begin remote
+
+  name  Sony_RMT-DSC2
+  bits           12
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       2461   525
+  one          1266   525
+  zero          668   525
+  post_data_bits  8
+  post_data      0x8F
+  gap          44752
+  min_repeat      4
+  toggle_bit_mask 0x0
+
+      begin codes
+          BTN_TRIGGER              0xB4B
+          KEY_HOME                 0x64B
+          BTN_EXTRA                0xE2B
+          KEY_MENU                 0x1CB
+          BTN_SELECT               0x9CB
+          BTN_LEFT                 0x7CB
+          BTN_RIGHT                0xFCB
+          KEY_UP                   0x5CB
+          KEY_DOWN                 0xDCB
+          KEY_T                    0x52B
+          KEY_W                    0xD2B
+      end codes
+
+end remote

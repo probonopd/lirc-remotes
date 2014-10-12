@@ -1,0 +1,77 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.6(default) on Thu Aug 12 05:08:43 2004
+#
+# contributed by Juan Ignacio Saitua
+#
+# brand:                                    LG
+# model no. of remote control:              MKJ61842704
+# devices being controlled by this remote:  TV LG SL80
+#
+
+begin remote
+
+  name  LG_MKJ61842704_TV
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9069  4455
+  one           597  1651
+  zero          597   531
+  ptrail        591
+  repeat       9055  2222
+  pre_data_bits   16
+  pre_data       0x20DF
+  gap          108123
+  toggle_bit_mask 0x0
+
+      begin codes
+          KEY_POWER                0x10EF
+          KEY_TV                   0xF00F
+          X_KEY_ENERGYSAVING       0xA956                    #  Was: KEY_ENERGYSAVING
+          X_KEY_AVMODE             0x0CF3                    #  Was: KEY_AVMODE
+          X_KEY_INPUTSOURCE        0xD02F                    #  Was: KEY_INPUTSOURCE
+          KEY_1                    0x8877
+          KEY_2                    0x48B7
+          KEY_3                    0xC837
+          KEY_4                    0x28D7
+          KEY_5                    0xA857
+          KEY_6                    0x6897
+          KEY_7                    0xE817
+          KEY_8                    0x18E7
+          KEY_9                    0x9867
+          KEY_LIST                 0xCA35
+          KEY_0                    0x08F7
+          X_KEY_QUICKVIEW          0x58A7                    #  Was: KEY_QUICKVIEW
+          KEY_VOLUMEUP             0x40BF
+          KEY_VOLUMEDOWN           0xC03F
+          KEY_FAVORITES            0x7887
+          KEY_MUTE                 0x906F
+          KEY_CHANNELUP            0x00FF
+          KEY_CHANNELDOWN          0x807F
+          KEY_MENU                 0xC23D
+          X_KEY_QUICKMENU          0xA25D                    #  Was: KEY_QUICKMENU
+          KEY_UP                   0x02FD
+          KEY_DOWN                 0x827D
+          KEY_LEFT                 0xE01F
+          KEY_RIGHT                0x609F
+          KEY_ENTER                0x22DD
+          X_KEY_XSTUDIO            0x3EC1                    #  Was: KEY_XSTUDIO
+          X_KEY_RETURN             0x14EB                    #  Was: KEY_RETURN
+          KEY_RED                  0x4EB1
+          KEY_GREEN                0x8E71
+          KEY_YELLOW               0xC639
+          KEY_BLUE                 0x8679
+          KEY_STOP                 0x8D72
+          KEY_PLAY                 0x0DF2
+          KEY_PAUSE                0x5DA2
+          KEY_REWIND               0xF10E
+          KEY_FORWARD              0x718E
+          X_KEY_SMPLINK            0x7E81                    #  Was: KEY_SMPLINK
+      end codes
+
+end remote
+
+

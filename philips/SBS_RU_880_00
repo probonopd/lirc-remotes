@@ -1,0 +1,65 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.6pre1(serial) on Thu Aug  8 00:05:57 2002
+#
+# contributed by marcel lilienthal <marcel@m-lilienthal.de>
+#
+# brand: Philips
+# model no. of remote control: SBS RU 880/00
+# devices of rc: 8 - but this file is only 4 tv codec 001!!!
+#
+
+begin remote
+
+  name  PHILIPS
+  bits           13
+  flags RC5|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           898   872
+  zero          898   872
+  plead         921
+  gap          112261
+  toggle_bit      2
+
+
+      begin codes
+          KEY_POWER                0x000000000000100C        #  Was: power
+          KEY_MENU                 0x0000000000000812        #  Was: menu
+          KEY_OK                   0x0000000000000017        #  Was: ok
+          KEY_UP                   0x0000000000000810        #  Was: up
+          KEY_DOWN                 0x0000000000000011        #  Was: down
+          KEY_LEFT                 0x0000000000000815        #  Was: left
+          KEY_RIGHT                0x0000000000000016        #  Was: right
+          KEY_VOLUMEUP             0x0000000000001810        #  Was: vol+
+          KEY_VOLUMEDOWN           0x0000000000001011        #  Was: vol-
+          KEY_MUTE                 0x000000000000180D        #  Was: mute
+          KEY_CHANNELUP            0x0000000000001020        #  Was: prog+
+          KEY_CHANNELDOWN          0x0000000000001821        #  Was: prog-
+          KEY_1                    0x0000000000001001        #  Was: 1
+          KEY_2                    0x0000000000001802        #  Was: 2
+          KEY_3                    0x0000000000001003        #  Was: 3
+          KEY_4                    0x0000000000001804        #  Was: 4
+          KEY_5                    0x0000000000001005        #  Was: 5
+          KEY_6                    0x0000000000001806        #  Was: 6
+          KEY_7                    0x0000000000001007        #  Was: 7
+          KEY_8                    0x0000000000001808        #  Was: 8
+          KEY_9                    0x0000000000001009        #  Was: 9
+          KEY_0                    0x0000000000001800        #  Was: 0
+          KEY_SELECT               0x0000000000001022        #  Was: select
+          KEY_PLAY                 0x000000000000082D        #  Was: play
+          KEY_STOP                 0x000000000000002C        #  Was: stop
+          KEY_REWIND               0x000000000000082B        #  Was: rewind
+          KEY_FORWARD              0x000000000000002E        #  Was: forward
+          KEY_PAUSE                0x000000000000082F        #  Was: pause
+          KEY_TEXT                 0x000000000000103C        #  Was: teletext
+          blankscreen              0x000000000000183F
+          wideup                   0x000000000000102B
+          widedown                 0x0000000000001829
+      end codes
+
+end remote
+
+
+

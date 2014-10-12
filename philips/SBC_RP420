@@ -1,0 +1,151 @@
+# Copyright (C) 1999 Christoph Bartelmus
+#
+# this config file was automatically generated
+# using lirc-0.6.3pre3 on Mon Apr 16 13:59:29 2001
+#
+# brand:             Philips
+# model:             SBC RP xxx
+# supported devices: TV, VCR
+# contributed by:    Thomas Betker
+#
+# This remote control came with my Philips TV set in 1996. I don't
+# know the exact model number, but it is similar to the models
+# SBC RP 420/00 and SBC RP 421/00 which I have found on www.philips.de.
+#
+# The control works either in TV mode or in VCR mode; the latter is
+# selected by keeping the "VCR" button on the left side pressed (which
+# does not generate a signal by itself).
+#
+# The first eleven keys (ext, tt.*, pp, stereo, 16:9) are hidden
+# under a flap, and tt.stop and tt.time combine to the menu signal:
+#
+#     ext         info        tt.enlarge  tt.suspend
+#     tt.stop     tt.solve    tt.overlay  tt.time
+#     pp          stereo      16:9
+#
+# In VCR mode, these keys have the following functions (they don't
+# have any labels, so I got their names from other config files):
+#
+#     ext1        display     scanindx    eject
+#     still       scanback    scanforw    fastplay
+#                 audio
+#
+# The layout of the other keys looks about as follows (TV and VCR mode):
+#
+#     ----------------------standby---   ----------------------standby---
+#          up                                 up
+#     left    right                      left    right
+#         down                               down
+#    
+#     red       (-  program  +)          record    (-   step    +)
+#     green     (-  volume   +)          backward
+#     yellow    1     2     3            forward   1     2     3
+#     blue      4     5     6            stop      4     5     6
+#     grey      7     8     9            play      7     8     9
+#     text      mute  0     program<     timer           0     digits       
+#    
+#     picture               +
+#     sound                 -
+#     --------------------------------   --------------------------------
+#
+# The VCR mode does not affect the keys volume-, volume-, mute or pp.
+# Also, the following signals are disabled in VCR mode: picture, sound
+# (smart controls), +, - (programmable keys), menu, 16:9.
+#
+
+begin remote
+
+  name         Philips/SBC-RP
+  bits         13
+  flags        RC5|CONST_LENGTH
+  eps          30
+  aeps         100
+
+  one          932  847
+  zero         932  847
+  plead        976
+  gap          113935
+  toggle_bit   2
+
+      begin codes
+          tv/ext                   0x0000000000001038
+          tv/info                  0x000000000000100F
+          tv/tt.enlarge            0x000000000000102B
+          tv/tt.suspend            0x000000000000102D
+          tv/tt.stop               0x0000000000001029
+          tv/tt.solve              0x000000000000102C
+          tv/tt.overlay            0x000000000000102E
+          tv/tt.time               0x000000000000102A
+          tv/menu                  0x000000000000003A
+          tv/pp                    0x000000000000100E
+          tv/stereo                0x0000000000001023
+          tv/16:9                  0x000000000000003E
+          tv/standby               0x000000000000100C
+          tv/left                  0x0000000000000015
+          tv/right                 0x0000000000000016
+          tv/up                    0x0000000000000010
+          tv/down                  0x0000000000000011
+          tv/red                   0x000000000000002B
+          tv/green                 0x000000000000002C
+          tv/yellow                0x000000000000002D
+          tv/blue                  0x000000000000002E
+          tv/grey                  0x000000000000002F
+          tv/text                  0x000000000000103C
+          tv/program-              0x0000000000001021
+          tv/program+              0x0000000000001020
+          tv/volume-               0x0000000000001011
+          tv/volume+               0x0000000000001010
+          tv/1                     0x0000000000001001
+          tv/2                     0x0000000000001002
+          tv/3                     0x0000000000001003
+          tv/4                     0x0000000000001004
+          tv/5                     0x0000000000001005
+          tv/6                     0x0000000000001006
+          tv/7                     0x0000000000001007
+          tv/8                     0x0000000000001008
+          tv/9                     0x0000000000001009
+          tv/mute                  0x000000000000100D
+          tv/0                     0x0000000000001000
+          tv/program<              0x0000000000001022
+          tv/picture               0x00000000000010CA
+          tv/sound                 0x00000000000010CB
+          tv/+                     0x0000000000000032
+          tv/-                     0x0000000000000033
+          vcr/ext1                 0x0000000000001178
+          vcr/display              0x000000000000114F
+          vcr/scanindx             0x000000000000116B
+          vcr/eject                0x000000000000116D
+          vcr/still                0x0000000000001169
+          vcr/scanback             0x000000000000116C
+          vcr/scanforw             0x000000000000116E
+          vcr/fastplay             0x000000000000116A
+          vcr/audio                0x0000000000001163
+          vcr/standby              0x000000000000114C
+          vcr/left                 0x0000000000000155
+          vcr/right                0x0000000000000156
+          vcr/up                   0x0000000000000150
+          vcr/down                 0x0000000000000151
+          vcr/record               0x0000000000001177
+          vcr/backward             0x0000000000001172
+          vcr/forward              0x0000000000001174
+          vcr/stop                 0x0000000000001176
+          vcr/play                 0x0000000000001175
+          vcr/timer                0x000000000000115D
+          vcr/step-                0x0000000000001161
+          vcr/step+                0x0000000000001160
+          vcr/1                    0x0000000000001141
+          vcr/2                    0x0000000000001142
+          vcr/3                    0x0000000000001143
+          vcr/4                    0x0000000000001144
+          vcr/5                    0x0000000000001145
+          vcr/6                    0x0000000000001146
+          vcr/7                    0x0000000000001147
+          vcr/8                    0x0000000000001148
+          vcr/9                    0x0000000000001149
+          vcr/0                    0x0000000000001140
+          vcr/digits               0x000000000000114A
+      end codes
+
+end remote
+
+

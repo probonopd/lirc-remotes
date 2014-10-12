@@ -1,0 +1,73 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.1pre2(iguanaIR) on Thu Feb 22 17:35:38 2007
+#
+# contributed by florent
+#
+# brand:                       JVC
+# model no. of remote control: RM-SUXS57R
+# devices being controlled by this remote: HIFI
+#
+
+begin remote
+
+  name  JVC_RM-SUXS57R
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       8454  4158
+  one           511  1553
+  zero          511   492
+  ptrail        512
+  gap          45806
+  min_repeat      2
+  toggle_bit      9
+
+
+      begin codes
+          STANDBY/ON               0xC5E8
+          KEY_1                    0xF587                    #  Was: 1
+          KEY_2                    0xF547                    #  Was: 2
+          KEY_3                    0xF5C7                    #  Was: 3
+          KEY_4                    0xF527                    #  Was: 4
+          KEY_5                    0xF5A7                    #  Was: 5
+          KEY_6                    0xF567                    #  Was: 6
+          KEY_7                    0xF5E7                    #  Was: 7
+          KEY_8                    0xF517                    #  Was: 8
+          KEY_9                    0xF597                    #  Was: 9
+          KEY_0                    0xF557                    #  Was: 10
+          KEY_10CHANNELSUP         0xF5F7                    #  Was: +10
+          DISPLAY                  0xC50E
+          CLOCK/TIMER              0xF509
+          KEY_SLEEP                0xC5C0                    #  Was: SLEEP
+          BASS                     0xC58C
+          DISC_UP                  0xF503
+          KEY_REWIND               0xF560                    #  Was: REW
+          KEY_STOP                 0xCDC2                    #  Was: STOP
+          AV                       0xF5A0
+          SET                      0xF50D
+          DISC_DOWN                0xF583
+          KEY_CANCEL               0xF58D                    #  Was: CANCEL
+          KEY_PLAYPAUSE            0xCDD6                    #  Was: PLAY/PAUSE
+          FM/AM                    0xC5D0
+          KEY_AUX                  0xC57C                    #  Was: AUX
+          KEY_PLAY                 0xF505                    #  Was: PLAY_MODE
+          KEY_AGAIN                0xCDDA                    #  Was: REPEAT
+          FM_MODE                  0xC55A
+          PTY_SEARCH               0xF541
+          A.STANDBY                0xF586
+          DIMMER                   0xCD4A
+          AHB_PRO                  0xC5AE
+          PTY+                     0xF501
+          PTY-                     0xF581
+          KEY_VOLUMEUP             0xC578                    #  Was: VOL+
+          KEY_VOLUMEDOWN           0xC5F8                    #  Was: VOL-
+          RDS_DISPLAY              0xF5C1
+          TA/NEWS/INFO             0xF5A1
+      end codes
+
+end remote
+
+

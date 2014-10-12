@@ -1,0 +1,55 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.2(default) on Tue Sep 25 08:05:40 2007
+#
+# contributed by Christoph Bartelmus
+#
+# brand:                       Samsung
+# model no. of remote control: 10107N
+# devices being controlled by this remote: TV
+#
+
+begin remote
+
+  name  Samsung_10107N
+  bits           13
+  flags RC5|CONST_LENGTH
+  eps            30
+  aeps          256
+
+  one           929   862
+  zero          929   862
+  plead         986
+  gap          111979
+  toggle_bit_mask 0x800
+
+      begin codes
+          KEY_1                    0x1001                    #  Was: 1
+          KEY_2                    0x1002                    #  Was: 2
+          KEY_3                    0x1003                    #  Was: 3
+          KEY_4                    0x1004                    #  Was: 4
+          KEY_5                    0x1005                    #  Was: 5
+          KEY_6                    0x1006                    #  Was: 6
+          KEY_7                    0x1007                    #  Was: 7
+          KEY_8                    0x1008                    #  Was: 8
+          KEY_9                    0x1009                    #  Was: 9
+          KEY_0                    0x1000                    #  Was: 0
+          KEY_TV                   0x103F                    #  Was: TV
+          KEY_POWER                0x100C                    #  Was: Power
+          KEY_VIDEO                0x1038                    #  Was: Video
+          Display                  0x100F
+          KEY_SLEEP                0x1026                    #  Was: Sleep
+          KEY_102ND                0x100A                    #  Was: -/--
+          P.STD                    0x100E
+          KEY_MUTE                 0x100D                    #  Was: Mute
+          P.Size                   0x1016
+          KEY_VOLUMEDOWN           0x0015                    #  Was: Vol-
+          KEY_VOLUMEUP             0x0016                    #  Was: Vol+
+          KEY_CHANNELUP            0x0010                    #  Was: CH/P_UP
+          KEY_CHANNELDOWN          0x0011                    #  Was: CH/P_DOWN
+          KEY_MENU                 0x0012                    #  Was: Menu
+      end codes
+
+end remote
+
+

@@ -1,0 +1,59 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.6(any) on Fri Jul 23 17:06:05 2004
+#
+# contributed by Michael Wojciechowski, wojci|wojci.dk
+#
+# brand: Medion
+# model no. of remote control: JX-2006B
+# devices being controlled by this remote: PC with mplayer, DVD player
+#
+
+begin remote
+
+  name  Medion_JX-2006B
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            50
+  aeps          300
+
+  header       9010  4558
+  one           555  1653
+  zero          555   622
+  ptrail        555
+  pre_data_bits   16
+  pre_data       0xFF
+  gap          107716
+  toggle_bit      0
+
+
+      begin codes
+          KEY_STOP                 0x000000000000C837        #  Was: STOP
+          KEY_PAUSE                0x000000000000C03F        #  Was: PAUSE
+          KEY_PLAY                 0x000000000000609F        #  Was: PLAY
+          KEY_POWER                0x00000000000000FF        #  Was: POWER
+          KEY_FASTFORWARD          0x0000000000000AF5        #  Was: FFWD
+          FREV                     0x0000000000002AD5
+          KEY_SETUP                0x000000000000F00F        #  Was: SETUP
+          KEY_EJECTCD              0x00000000000030CF        #  Was: EJECT
+          KEY_1                    0x000000000000D22D        #  Was: 1
+          KEY_2                    0x000000000000E21D        #  Was: 2
+          KEY_3                    0x000000000000C23D        #  Was: 3
+          KEY_4                    0x00000000000052AD        #  Was: 4
+          KEY_5                    0x000000000000629D        #  Was: 5
+          KEY_6                    0x00000000000042BD        #  Was: 6
+          KEY_7                    0x000000000000926D        #  Was: 7
+          KEY_8                    0x000000000000A25D        #  Was: 8
+          KEY_9                    0x000000000000827D        #  Was: 9
+          KEY_0                    0x00000000000022DD        #  Was: 0
+          KEY_NEXT                 0x0000000000008A75        #  Was: NEXT
+          KEY_PREVIOUS             0x000000000000AA55        #  Was: PREV
+          KEY_VOLUMEUP             0x0000000000004AB5        #  Was: VOLPLUS
+          KEY_VOLUMEDOWN           0x0000000000006A95        #  Was: VOLMINUS
+          KEY_MUTE                 0x000000000000CA35        #  Was: MUTE
+          KEY_SUBTITLE             0x0000000000007A85        #  Was: SUBTITLE
+      end codes
+
+end remote
+
+

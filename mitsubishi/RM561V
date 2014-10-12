@@ -1,0 +1,70 @@
+#
+# this config file was automatically generated
+# using WinLIRC 0.6.4 (LIRC 0.6.1pre3) on Tue Apr 01 21:39:23 2003
+#
+# contributed by
+#
+# brand:             MITSUBISHI
+# model:             RM561V
+# supported devices: VCR 561
+#
+
+begin remote
+
+  name  MITSUBISHI_RM561V
+  bits           16
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  one           300  2302
+  zero          300  1119
+  ptrail        300
+  gap          27440
+  toggle_bit      0
+
+
+      begin codes
+          MONITOR                  0x000000000000EAC0
+          ENCORE                   0x000000000000EAA0
+          KEY_1                    0x000000000000EA00        #  Was: 1
+          KEY_2                    0x000000000000EA10        #  Was: 2
+          KEY_3                    0x000000000000EA08        #  Was: 3
+          KEY_4                    0x000000000000EA18        #  Was: 4
+          KEY_5                    0x000000000000EA04        #  Was: 5
+          KEY_6                    0x000000000000EA14        #  Was: 6
+          KEY_7                    0x000000000000EA0C        #  Was: 7
+          KEY_8                    0x000000000000EA1C        #  Was: 8
+          KEY_9                    0x000000000000EA80        #  Was: 9
+          KEY_0                    0x000000000000EA88        #  Was: 10-60
+          KEY_0                    0x000000000000EA90        #  Was: 0
+          SHOWVIEW                 0x000000000000EAD8
+          KEY_CANCEL               0x000000000000EA60        #  Was: CANCEL
+          SP/LP                    0x000000000000EA7C
+          DAILY/WEEKLY             0x000000000000EAF2
+          OK_PROG                  0x000000000000EACC
+          KEY_VOLUMEUP             0x000000000000E244        #  Was: VOL+
+          KEY_VOLUMEDOWN           0x000000000000E254        #  Was: VOL-
+          AV                       0x000000000000E25C
+          TV_POWER                 0x000000000000E240
+          TV_CH+                   0x000000000000E250
+          TV_CN-                   0x000000000000E248
+          <|SHUTTLE                0x000000000000EAD0
+          SHUTTLE|>                0x000000000000EAAC
+          JOG+                     0x000000000000EA50
+          JOG-                     0x000000000000EA48
+          KEY_MENU                 0x000000000000EA4A        #  Was: MENU
+          KEY_PAUSE                0x000000000000EA38        #  Was: PAUSE
+          COUNT_RES                0x000000000000EADC
+          DATA_SCRN                0x000000000000EAE4
+          KEY_RECORD               0x000000000000EA30        #  Was: REC
+          KEY_STOP                 0x000000000000EA28        #  Was: STOP
+          KEY_REWIND               0x000000000000EA34        #  Was: REW
+          KEY_PLAY                 0x000000000000EA20        #  Was: PLAY
+          KEY_FASTFORWARD          0x000000000000EA24        #  Was: FF
+          VCR_POWER                0x000000000000EA40
+      end codes
+
+end remote
+
+

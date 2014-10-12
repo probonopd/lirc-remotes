@@ -1,0 +1,70 @@
+#
+# this config file was automatically generated
+# using WinLIRC 0.6.5 (LIRC 0.6.1pre3) on Sun Nov 30 15:32:18 2003
+#
+# contributed by
+#
+# brand:             SHARP
+# model:             G1084PESA
+# supported devices:
+#
+
+begin remote
+
+  name  Sharp_G1084PESA
+  bits           15
+  flags SPACE_ENC
+  eps            25
+  aeps          200
+
+  one           547  1539
+  zero          547   531
+  ptrail        547
+  gap          44991
+  toggle_bit      0
+  toggle_mask     0x3FF
+
+
+      begin codes
+          PW                       0x00000000000041A2
+          NR                       0x0000000000004022
+          TV_VIDEO                 0x0000000000004322
+          KEY_0+                   0x00000000000043D2        #  Was: 10+
+          KEY_1                    0x0000000000004202        #  Was: 1
+          KEY_2                    0x0000000000004102        #  Was: 2
+          KEY_3                    0x0000000000004302        #  Was: 3
+          KEY_0+                   0x0000000000004032        #  Was: 20+
+          KEY_4                    0x0000000000004082        #  Was: 4
+          KEY_5                    0x0000000000004282        #  Was: 5
+          KEY_6                    0x0000000000004182        #  Was: 6
+          KEY_0+                   0x0000000000004232        #  Was: 30+
+          KEY_7                    0x0000000000004382        #  Was: 7
+          KEY_8                    0x0000000000004042        #  Was: 8
+          KEY_9                    0x0000000000004242        #  Was: 9
+          KEY_0+                   0x00000000000043C2        #  Was: 40+
+          KEY_AGAIN                0x0000000000004392        #  Was: RECALL
+          KEY_0                    0x0000000000004142        #  Was: 0
+          DISPLAY                  0x0000000000004362
+          P-NORM                   0x0000000000004212
+          P-MODE                   0x00000000000042CA
+          S-MODE                   0x00000000000041CA
+          S-NORM                   0x0000000000004192
+          FINE_TUNING              0x00000000000041C2
+          KEY_UP                   0x00000000000043CA        #  Was: UP
+          TIMER                    0x000000000000432A
+          BLUE_BACK                0x0000000000004372
+          KEY_DOWN                 0x000000000000402A        #  Was: DOWN
+          KEY_NEXT                 0x000000000000438A        #  Was: SKIP
+          SURROUND                 0x00000000000041DA
+          VOLUME_KILL              0x00000000000043A2
+          KEY_VOLUMEUP             0x00000000000040A2        #  Was: VOLUME_UP
+          KEY_CHANNELUP            0x0000000000004222        #  Was: CH_UP
+          KEY_CHANNELDOWN          0x0000000000004122        #  Was: CH_DOWN
+          KEY_VOLUMEDOWN           0x00000000000042A2        #  Was: VOLUME_DOWN
+          SYSTEM_SOUND             0x00000000000043DA
+          SYSTEM_COLOUR            0x000000000000423A
+      end codes
+
+end remote
+
+

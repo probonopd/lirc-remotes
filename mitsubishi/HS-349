@@ -1,0 +1,56 @@
+# this config file was automatically generated
+# using lirc-0.8.3pre1(default) on Sun May 18 14:28:17 2008
+#
+# contributed by Alfredo Pironti
+#
+# brand:                       Mitsubishi
+# model no. of remote control: ???
+# devices being controlled by this remote: HS-349 Video Cassette Recorder
+
+begin remote
+
+  name  Mitsubishi_HS-349
+  bits            8
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           360  2085
+  zero          360   863
+  ptrail        360
+  pre_data_bits   8
+  pre_data       0xEA
+  gap          53815
+  min_repeat      1
+  toggle_bit_mask 0x0
+
+      begin codes
+          KEY_POWER                0x40                      #  Was: POWER
+          KEY_CHANNELDOWN          0x48                      #  Was: CH-
+          KEY_CHANNELUP            0x50                      #  Was: CH+
+          PROG_ON-OFF              0xD8
+          PROG_REC                 0xF8
+          PROG_NBR                 0xD4
+          KEY_SELECT               0xCC                      #  Was: SELECT
+          SET                      0xC8
+          KEY_CLEAR                0xD0                      #  Was: CLEAR
+          INDEX_ENTER              0xF0
+          FAST_PLAY                0xA4
+          COUNTER_RESET            0xA8
+          COUNTER_MEMORY           0xB0
+          KEY_RECORD               0x30                      #  Was: REC
+          KEY_PAUSE                0x38                      #  Was: PAUSE
+          KEY_STOP                 0x28                      #  Was: STOP
+          KEY_SLOW                 0x2C                      #  Was: SLOW
+          KEY_REWIND               0x34                      #  Was: REW
+          KEY_PLAY                 0x20                      #  Was: PLAY
+          KEY_FASTFORWARD          0x24                      #  Was: FF
+          KEY_AGAIN                0xE8                      #  Was: REPEAT
+          SKIP_SEARCH              0xBC
+          INDEX_SEARCH-            0x68
+          INDEX_SEARCH+            0x70
+      end codes
+
+end remote
+
+

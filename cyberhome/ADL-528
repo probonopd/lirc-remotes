@@ -1,0 +1,80 @@
+#
+# this config file was automatically generated
+# using WinLIRC 0.6.5 (LIRC 0.6.1pre3) on Mon Sep 22 22:03:34 2003
+#
+# contributed by
+#
+# brand:             Cyberhome_ADL-528
+# model:           
+# supported devices:
+#
+
+begin remote
+
+  name  Cyberhome_ADL-528
+  bits           16
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  header       9020  4428
+  one           615   502
+  zero          615  1625
+  ptrail        615
+  repeat       9065  2145
+  pre_data_bits   16
+  pre_data       0xB14C
+  gap          38658
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x0000000000008F70        #  Was: Power
+          KEY_SETUP                0x0000000000007D82        #  Was: Setup
+          KEY_OPEN                 0x000000000000A758        #  Was: Open_Close
+          KEY_TITLE                0x000000000000FD02        #  Was: Title
+          KEY_MENU                 0x000000000000BF40        #  Was: Menu
+          KEY_MUTE                 0x000000000000B748        #  Was: Mute
+          KEY_SUBTITLE             0x000000000000F50A        #  Was: Subtitle
+          Bookmark                 0x0000000000001FE0
+          Display                  0x000000000000E51A
+          KEY_AUDIO                0x0000000000009768        #  Was: Audio
+          KEY_ANGLE                0x000000000000D52A        #  Was: Angle
+          KEY_REWIND               0x0000000000009F60        #  Was: Rewind
+          KEY_FORWARD              0x0000000000008778        #  Was: Forward
+          KEY_UP                   0x000000000000DD22        #  Was: Up
+          KEY_LEFT                 0x000000000000C738        #  Was: Left
+          KEY_RIGHT                0x000000000000ED12        #  Was: Right
+          KEY_DOWN                 0x00000000000047B8        #  Was: Down
+          KEY_ENTER                0x000000000000C53A        #  Was: Enter
+          KEY_PREVIOUS             0x00000000000007F8        #  Was: Previous
+          KEY_NEXT                 0x00000000000045BA        #  Was: Next
+          KEY_PLAY                 0x000000000000E718        #  Was: Play
+          KEY_SLOW                 0x00000000000027D8        #  Was: Slow
+          KEY_PAUSE                0x000000000000659A        #  Was: Pause
+          KEY_STOP                 0x0000000000006798        #  Was: Stop
+          Program                  0x00000000000017E8
+          Repeat_1                 0x00000000000057A8
+          Repeat_A-B               0x00000000000055AA
+          KEY_ENTER                0x000000000000AF50        #  Was: Return
+          Goto                     0x0000000000003FC0
+          KEY_ZOOM                 0x000000000000DF20        #  Was: Zoom
+          Effect                   0x0000000000005FA0
+          Intro                    0x0000000000005DA2
+          KEY_1                    0x00000000000037C8        #  Was: One
+          KEY_2                    0x000000000000F708        #  Was: Two
+          KEY_3                    0x0000000000007788        #  Was: Three
+          KEY_4                    0x0000000000000FF0        #  Was: Four
+          KEY_5                    0x000000000000CF30        #  Was: Five
+          KEY_6                    0x0000000000004FB0        #  Was: Six
+          KEY_7                    0x0000000000002FD0        #  Was: Seven
+          KEY_8                    0x000000000000EF10        #  Was: Eight
+          KEY_9                    0x0000000000006F90        #  Was: Nine
+          KEY_0                    0x0000000000006D92        #  Was: Zero
+          +Ten                     0x0000000000004DB2
+          KEY_CLEAR                0x000000000000758A        #  Was: Clear
+      end codes
+
+end remote
+
+

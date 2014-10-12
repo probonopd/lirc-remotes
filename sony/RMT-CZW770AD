@@ -1,0 +1,63 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.6(sir) on Sun May 25 20:14:39 2003
+#
+# contributed by
+#
+# brand:                       sony
+# model no. of remote control: RMT-CZW770AD
+# devices being controlled by this remote:
+#
+
+begin remote
+
+  name  rmt-czw770ad
+  bits           14
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       2384   604
+  one          1190   605
+  zero          588   605
+  ptrail        589
+  gap          44848
+  min_repeat      2
+  toggle_bit      0
+
+
+      begin codes
+          Operate                  0x0000000000002A11
+          KEY_SLEEP                0x0000000000000191        #  Was: Sleep
+          KEY_SLEEP                0x0000000000002191        #  Was: Standby
+          KEY_1                    0x0000000000000013        #  Was: 1
+          KEY_2                    0x0000000000002013        #  Was: 2
+          KEY_3                    0x0000000000001013        #  Was: 3
+          KEY_4                    0x0000000000003013        #  Was: 4
+          KEY_5                    0x0000000000000813        #  Was: 5
+          KEY_6                    0x0000000000002813        #  Was: 6
+          KEY_7                    0x0000000000001813        #  Was: 7
+          KEY_8                    0x0000000000003813        #  Was: 8
+          KEY_9                    0x0000000000000413        #  Was: 9
+          KEY_MODE                 0x0000000000002211        #  Was: mode
+          KEY_0                    0x0000000000000C13        #  Was: 0/10
+          >10                      0x0000000000002C13
+          band                     0x0000000000003D93
+          tune+                    0x0000000000003393
+          KEY_VOLUMEUP             0x0000000000001211        #  Was: vol+
+          function                 0x0000000000003891
+          tune-                    0x0000000000000B93
+          KEY_VOLUMEDOWN           0x0000000000003211        #  Was: vol-
+          KEY_PLAY                 0x0000000000001313        #  Was: play
+          KEY_PAUSE                0x0000000000002713        #  Was: pause
+          KEY_STOP                 0x0000000000000713        #  Was: stop
+          loop                     0x0000000000000B13
+          KEY_BACK                 0x0000000000000313        #  Was: back
+          KEY_FORWARD              0x0000000000002313        #  Was: forward
+          flash                    0x0000000000003B13
+          sound                    0x0000000000000311
+      end codes
+
+end remote
+
+

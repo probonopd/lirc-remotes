@@ -1,0 +1,1858 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.0(serial) on Sun Oct 22 23:14:05 2006
+#
+# contributed by ilpo
+#
+# brand: Philips
+# model no. of remote control: RC4302
+# devices being controlled by this remote: plasma-tv models 42PF9966 and 50PF9966
+# RC model marking is printed on a sticked located in the btm of battery box
+# NOTE: RC IS A MULTI-MODE DEVICE SUPPORTING FOLLOWING MODES:
+# - AMP
+# - DVD
+# - TV
+# - SAT
+# - AUX
+#
+# Ambilight control buttons work only in TV mode
+# - ambi_on
+# - ambi_mode
+#
+# Buttons are shown twice because of different send codes
+#
+# RC4302 mode TV
+#
+begin remote
+
+  name   RC4302-TV
+  flags RAW_CODES|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  ptrail          0
+  repeat     0     0
+  gap    106587
+
+      begin raw_codes
+
+          name onoff0
+          KEY_1                    844                       #  Was: 2761
+          KEY_0                    396                       #  Was: 500
+          KEY_7                    396                       #  Was: 497
+          KEY_8                    396                       #  Was: 498
+          KEY_7                    399                       #  Was: 497
+          KEY_6                    399                       #  Was: 496
+          KEY_9                    843                       #  Was: 499
+
+          name onoff1
+          KEY_4                    820                       #  Was: 2784
+          KEY_8                    397                       #  Was: 498
+          KEY_7                    396                       #  Was: 497
+          KEY_8                    396                       #  Was: 498
+          KEY_7                    396                       #  Was: 497
+          KEY_6                    397                       #  Was: 496
+          KEY_8                    396                       #  Was: 498
+
+          name selectsource0
+          KEY_9                    844                       #  Was: 2759
+          KEY_9                    396                       #  Was: 499
+          KEY_0                    396                       #  Was: 500
+          KEY_9                    397                       #  Was: 499
+          KEY_9                    396                       #  Was: 499
+          KEY_5                    398                       #  Was: 945
+          KEY_7                    397                       #  Was: 497
+
+          name selectsource1
+          KEY_0                    822                       #  Was: 2780
+          KEY_2                    374                       #  Was: 522
+          KEY_9                    374                       #  Was: 519
+          KEY_2                    374                       #  Was: 522
+          KEY_1                    375                       #  Was: 521
+          KEY_2                    374                       #  Was: 522
+          KEY_1                    374                       #  Was: 521
+
+          name pixelplus0
+          KEY_2                    844                       #  Was: 2762
+          KEY_4                    402                       #  Was: 494
+          KEY_5                    401                       #  Was: 495
+          KEY_6                    400                       #  Was: 496
+          KEY_5                    401                       #  Was: 495
+          KEY_4                    847                       #  Was: 494
+          KEY_3                     #  Was: 943             
+
+          name pixelplus1
+          KEY_0                    870                       #  Was: 2760
+          KEY_2                    401                       #  Was: 492
+          KEY_2                    403                       #  Was: 492
+          KEY_3                    425                       #  Was: 493
+          KEY_4                    401                       #  Was: 494
+          KEY_0                    425                       #  Was: 470
+          KEY_0                    426                       #  Was: 470
+
+          name record0
+          KEY_2                    872                       #  Was: 2762
+          KEY_8                    428                       #  Was: 468
+          KEY_0                    426                       #  Was: 470
+          KEY_0                    425                       #  Was: 470
+          KEY_0                    426                       #  Was: 470
+          KEY_6                    428                       #  Was: 916
+
+          name record1
+          KEY_3                    871                       #  Was: 2763
+          KEY_8                    424                       #  Was: 468
+          KEY_1                    425                       #  Was: 471
+          KEY_1                    425                       #  Was: 471
+          KEY_0                    426                       #  Was: 470
+          KEY_8                    873                       #  Was: 468
+          KEY_6                     #  Was: 916             
+
+          name showtime0
+          KEY_0                    844                       #  Was: 2760
+          KEY_9                    397                       #  Was: 499
+          KEY_6                    397                       #  Was: 496
+          KEY_7                    396                       #  Was: 497
+          KEY_7                    397                       #  Was: 497
+          KEY_7                    398                       #  Was: 947
+          KEY_9                     #  Was: 499             
+
+          name showtime1
+          KEY_9                    822                       #  Was: 2779
+          KEY_0                    375                       #  Was: 520
+          KEY_2                    373                       #  Was: 522
+          KEY_2                    374                       #  Was: 522
+          KEY_9                    376                       #  Was: 519
+          KEY_0                    822                       #  Was: 520
+          KEY_5                    844                       #  Was: 495
+
+          name surroundmode0
+          KEY_9                    844                       #  Was: 2759
+          KEY_7                    399                       #  Was: 497
+          KEY_7                    396                       #  Was: 497
+          KEY_7                    396                       #  Was: 497
+          KEY_8                    396                       #  Was: 498
+          KEY_5                    399                       #  Was: 945
+          KEY_7                     #  Was: 497             
+
+          name surroundmode1
+          KEY_4                    820                       #  Was: 2784
+          KEY_1                    372                       #  Was: 521
+          KEY_1                    374                       #  Was: 521
+          KEY_3                    372                       #  Was: 523
+          KEY_2                    372                       #  Was: 522
+          KEY_2                    819                       #  Was: 522
+          KEY_2                    371                       #  Was: 522
+
+          name cinemago0
+          KEY_9                    844                       #  Was: 2759
+          KEY_0                    396                       #  Was: 500
+          KEY_7                    398                       #  Was: 497
+          KEY_7                    399                       #  Was: 497
+          KEY_7                    398                       #  Was: 497
+          KEY_0                    841                       #  Was: 500
+          KEY_7                    396                       #  Was: 497
+
+          name cinemago1
+          KEY_2                    820                       #  Was: 2782
+          KEY_2                    374                       #  Was: 522
+          KEY_2                    371                       #  Was: 522
+          KEY_2                    371                       #  Was: 522
+          KEY_1                    372                       #  Was: 521
+          KEY_2                    374                       #  Was: 522
+          KEY_1                    375                       #  Was: 521
+
+          name nexTView0
+          KEY_2                    844                       #  Was: 2762
+          KEY_9                    397                       #  Was: 499
+          KEY_7                    396                       #  Was: 497
+          KEY_7                    396                       #  Was: 497
+          KEY_5                    399                       #  Was: 945
+          KEY_5                    401                       #  Was: 945
+          KEY_7                     #  Was: 497             
+
+          name nexTView1
+          KEY_7                    844                       #  Was: 2757
+          KEY_7                    397                       #  Was: 497
+          KEY_7                    396                       #  Was: 497
+          KEY_8                    397                       #  Was: 498
+          KEY_7                    396                       #  Was: 497
+          KEY_9                    397                       #  Was: 499
+          KEY_7                    398                       #  Was: 497
+
+          name teletext0
+          KEY_2                    842                       #  Was: 2762
+          KEY_7                    396                       #  Was: 497
+          KEY_9                    396                       #  Was: 499
+          KEY_0                    396                       #  Was: 500
+          KEY_9                    397                       #  Was: 499
+          KEY_8                    396                       #  Was: 498
+          KEY_6                    399                       #  Was: 496
+
+          name teletext1
+          KEY_0                    842                       #  Was: 2760
+          KEY_7                    396                       #  Was: 497
+          KEY_9                    397                       #  Was: 499
+          KEY_7                    396                       #  Was: 497
+          KEY_7                    397                       #  Was: 497
+          KEY_4                    399                       #  Was: 944
+          KEY_7                    844                       #  Was: 497
+
+          name cur_up0
+          KEY_4                    820                       #  Was: 2784
+          KEY_4                    372                       #  Was: 524
+          KEY_2                    371                       #  Was: 522
+          KEY_2                    372                       #  Was: 522
+          KEY_1                    375                       #  Was: 521
+          KEY_2                    819                       #  Was: 522
+          KEY_2                     #  Was: 522             
+
+          name cur_up1
+          KEY_3                    819                       #  Was: 2783
+          KEY_2                    374                       #  Was: 522
+          KEY_9                    374                       #  Was: 519
+          KEY_9                    374                       #  Was: 519
+          KEY_1                    373                       #  Was: 521
+          KEY_0                    376                       #  Was: 970
+          KEY_2                    374                       #  Was: 522
+
+          name cur_down0
+          KEY_2                    844                       #  Was: 2762
+          KEY_0                    396                       #  Was: 500
+          KEY_7                    398                       #  Was: 497
+          KEY_8                    396                       #  Was: 498
+          KEY_7                    399                       #  Was: 497
+          KEY_7                    844                       #  Was: 497
+
+          name cur_down1
+          KEY_0                    845                       #  Was: 2760
+          KEY_0                    396                       #  Was: 500
+          KEY_9                    396                       #  Was: 499
+          KEY_0                    396                       #  Was: 500
+          KEY_9                    397                       #  Was: 499
+          KEY_5                    398                       #  Was: 945
+          KEY_6                     #  Was: 946             
+
+          name cur_left0
+          KEY_0                    844                       #  Was: 2760
+          KEY_9                    396                       #  Was: 499
+          KEY_7                    397                       #  Was: 497
+          KEY_8                    396                       #  Was: 498
+          KEY_8                    396                       #  Was: 498
+          KEY_7                    844                       #  Was: 497
+
+          name cur_left1
+          KEY_0                    844                       #  Was: 2760
+          KEY_0                    396                       #  Was: 500
+          KEY_6                    397                       #  Was: 496
+          KEY_7                    396                       #  Was: 497
+          KEY_8                    396                       #  Was: 498
+          KEY_7                    398                       #  Was: 947
+          KEY_8                     #  Was: 498             
+
+          name cur_right0
+          KEY_5                    819                       #  Was: 2785
+          KEY_1                    375                       #  Was: 521
+          KEY_1                    374                       #  Was: 521
+          KEY_2                    374                       #  Was: 522
+          KEY_2                    374                       #  Was: 522
+          KEY_2                    819                       #  Was: 522
+
+          name cur_right1
+          KEY_0                    844                       #  Was: 2760
+          KEY_9                    397                       #  Was: 499
+          KEY_9                    396                       #  Was: 499
+          KEY_9                    397                       #  Was: 499
+          KEY_0                    396                       #  Was: 500
+          KEY_5                    399                       #  Was: 945
+          KEY_6                     #  Was: 496             
+
+          name ok0
+          KEY_4                    844                       #  Was: 2764
+          KEY_7                    399                       #  Was: 497
+          KEY_7                    396                       #  Was: 497
+          KEY_7                    396                       #  Was: 497
+          KEY_7                    396                       #  Was: 497
+          KEY_7                    397                       #  Was: 497
+          KEY_7                     #  Was: 497             
+
+          name ok1
+          KEY_3                    844                       #  Was: 2763
+          KEY_9                    397                       #  Was: 499
+          KEY_0                    396                       #  Was: 500
+          KEY_9                    397                       #  Was: 499
+          KEY_9                    397                       #  Was: 499
+          KEY_6                    398                       #  Was: 946
+          KEY_6                    397                       #  Was: 496
+
+          name freeze0
+          KEY_3                    846                       #  Was: 2763
+          KEY_4                    399                       #  Was: 494
+          KEY_5                    401                       #  Was: 495
+          KEY_6                    400                       #  Was: 496
+          KEY_5                    401                       #  Was: 495
+          KEY_7                    399                       #  Was: 497
+          KEY_5                     #  Was: 495             
+
+          name freeze1
+          KEY_2                    844                       #  Was: 2762
+          KEY_8                    398                       #  Was: 498
+          KEY_6                    397                       #  Was: 496
+          KEY_7                    398                       #  Was: 497
+          KEY_8                    396                       #  Was: 498
+          KEY_9                    842                       #  Was: 499
+          KEY_7                    398                       #  Was: 497
+
+          name menu0
+          KEY_1                    845                       #  Was: 2761
+          KEY_9                    396                       #  Was: 499
+          KEY_8                    396                       #  Was: 498
+          KEY_7                    397                       #  Was: 497
+          KEY_7                    396                       #  Was: 497
+          KEY_6                    844                       #  Was: 946
+
+          name menu1
+          KEY_9                    844                       #  Was: 2759
+          KEY_9                    396                       #  Was: 499
+          KEY_0                    396                       #  Was: 500
+          KEY_9                    397                       #  Was: 499
+          KEY_9                    396                       #  Was: 499
+          KEY_4                    844                       #  Was: 944
+          KEY_9                     #  Was: 499             
+
+          name vol_up0
+          KEY_2                    842                       #  Was: 2762
+          KEY_8                    396                       #  Was: 498
+          KEY_9                    396                       #  Was: 499
+          KEY_8                    397                       #  Was: 498
+          KEY_9                    396                       #  Was: 499
+          KEY_5                    847                       #  Was: 945
+          KEY_7                    398                       #  Was: 497
+
+          name vol_up1
+          KEY_0                    844                       #  Was: 2760
+          KEY_9                    396                       #  Was: 499
+          KEY_9                    396                       #  Was: 499
+          KEY_0                    396                       #  Was: 500
+          KEY_0                    395                       #  Was: 500
+          KEY_0                    396                       #  Was: 500
+          KEY_7                    396                       #  Was: 497
+
+          name vol_down0
+          KEY_2                    842                       #  Was: 2762
+          KEY_7                    398                       #  Was: 497
+          KEY_9                    396                       #  Was: 499
+          KEY_0                    396                       #  Was: 500
+          KEY_9                    397                       #  Was: 499
+          KEY_4                    846                       #  Was: 944
+          KEY_5                     #  Was: 945             
+
+          name vol_down1
+          KEY_0                    844                       #  Was: 2760
+          KEY_0                    396                       #  Was: 500
+          KEY_9                    396                       #  Was: 499
+          KEY_9                    397                       #  Was: 499
+          KEY_0                    396                       #  Was: 500
+          KEY_0                    396                       #  Was: 500
+          KEY_8                    398                       #  Was: 498
+
+          name mute0
+          KEY_7                    844                       #  Was: 2757
+          KEY_7                    396                       #  Was: 497
+          KEY_8                    398                       #  Was: 498
+          KEY_7                    398                       #  Was: 497
+          KEY_6                    399                       #  Was: 496
+          KEY_0                    396                       #  Was: 500
+          KEY_5                     #  Was: 945             
+
+          name mute1
+          KEY_0                    843                       #  Was: 2760
+          KEY_0                    396                       #  Was: 500
+          KEY_0                    396                       #  Was: 500
+          KEY_7                    396                       #  Was: 497
+          KEY_6                    397                       #  Was: 496
+          KEY_7                    397                       #  Was: 497
+          KEY_9                    842                       #  Was: 499
+
+          name prog_up0
+          KEY_1                    845                       #  Was: 2761
+          KEY_0                    396                       #  Was: 500
+          KEY_7                    397                       #  Was: 497
+          KEY_6                    396                       #  Was: 496
+          KEY_8                    396                       #  Was: 498
+          KEY_9                    396                       #  Was: 499
+          KEY_9                    396                       #  Was: 499
+
+          name prog_up1
+          KEY_2                    844                       #  Was: 2762
+          KEY_9                    396                       #  Was: 499
+          KEY_0                    396                       #  Was: 500
+          KEY_9                    397                       #  Was: 499
+          KEY_7                    399                       #  Was: 497
+          KEY_5                    844                       #  Was: 945
+          KEY_7                    396                       #  Was: 497
+
+          name prog_down0
+          KEY_9                    842                       #  Was: 2759
+          KEY_7                    396                       #  Was: 497
+          KEY_9                    397                       #  Was: 499
+          KEY_0                    397                       #  Was: 500
+          KEY_9                    396                       #  Was: 499
+          KEY_7                    399                       #  Was: 497
+          KEY_5                     #  Was: 945             
+
+          name prog_down1
+          KEY_2                    844                       #  Was: 2762
+          KEY_0                    396                       #  Was: 500
+          KEY_7                    396                       #  Was: 497
+          KEY_7                    399                       #  Was: 497
+          KEY_8                    398                       #  Was: 498
+          KEY_6                    844                       #  Was: 946
+          KEY_7                    396                       #  Was: 497
+
+          name num1-0
+          KEY_8                    844                       #  Was: 2758
+          KEY_7                    396                       #  Was: 497
+          KEY_0                    396                       #  Was: 500
+          KEY_8                    397                       #  Was: 498
+          KEY_9                    396                       #  Was: 499
+          KEY_0                    396                       #  Was: 500
+          KEY_0                    396                       #  Was: 500
+
+          name num1-1
+          KEY_0                    844                       #  Was: 2760
+          KEY_6                    397                       #  Was: 496
+          KEY_7                    399                       #  Was: 497
+          KEY_8                    398                       #  Was: 498
+          KEY_8                    398                       #  Was: 498
+          KEY_6                    399                       #  Was: 496
+          KEY_7                    399                       #  Was: 497
+
+          name num2-0
+          KEY_2                    844                       #  Was: 2762
+          KEY_8                    397                       #  Was: 498
+          KEY_7                    396                       #  Was: 497
+          KEY_7                    396                       #  Was: 497
+          KEY_7                    396                       #  Was: 497
+          KEY_7                    397                       #  Was: 497
+          KEY_6                    844                       #  Was: 946
+
+          name num2-1
+          KEY_7                    845                       #  Was: 2757
+          KEY_7                    399                       #  Was: 497
+          KEY_7                    396                       #  Was: 497
+          KEY_8                    396                       #  Was: 498
+          KEY_7                    397                       #  Was: 497
+          KEY_7                    396                       #  Was: 497
+          KEY_7                    396                       #  Was: 497
+
+          name num3-0
+          KEY_2                    819                       #  Was: 2782
+          KEY_2                    373                       #  Was: 522
+          KEY_2                    374                       #  Was: 522
+          KEY_1                    375                       #  Was: 521
+          KEY_7                    398                       #  Was: 497
+          KEY_1                    374                       #  Was: 521
+          KEY_5                    399                       #  Was: 945
+
+          name num3-1
+          KEY_8                    843                       #  Was: 2758
+          KEY_7                    396                       #  Was: 497
+          KEY_9                    397                       #  Was: 499
+          KEY_0                    396                       #  Was: 500
+          KEY_9                    396                       #  Was: 499
+          KEY_9                    396                       #  Was: 499
+          KEY_9                    396                       #  Was: 499
+
+          name num4-0
+          KEY_9                    847                       #  Was: 2759
+          KEY_7                    398                       #  Was: 497
+          KEY_5                    401                       #  Was: 495
+          KEY_5                    399                       #  Was: 495
+          KEY_4                    398                       #  Was: 494
+          KEY_5                    400                       #  Was: 495
+          KEY_5                    398                       #  Was: 495
+
+          name num4-1
+          KEY_9                    845                       #  Was: 2759
+          KEY_0                    396                       #  Was: 500
+          KEY_8                    395                       #  Was: 498
+          KEY_6                    399                       #  Was: 496
+          KEY_6                    399                       #  Was: 496
+          KEY_8                    398                       #  Was: 498
+          KEY_5                    844                       #  Was: 945
+
+          name num5-0
+          KEY_0                    842                       #  Was: 2760
+          KEY_8                    396                       #  Was: 498
+          KEY_9                    396                       #  Was: 499
+          KEY_0                    396                       #  Was: 500
+          KEY_9                    397                       #  Was: 499
+          KEY_0                    396                       #  Was: 500
+          KEY_4                     #  Was: 944             
+
+          name num5-1
+          KEY_7                    845                       #  Was: 2757
+          KEY_7                    397                       #  Was: 497
+          KEY_0                    396                       #  Was: 500
+          KEY_8                    397                       #  Was: 498
+          KEY_9                    397                       #  Was: 499
+          KEY_0                    396                       #  Was: 500
+          KEY_5                    846                       #  Was: 945
+
+          name num6-0
+          KEY_0                    843                       #  Was: 2760
+          KEY_8                    397                       #  Was: 498
+          KEY_6                    397                       #  Was: 496
+          KEY_7                    396                       #  Was: 497
+          KEY_8                    396                       #  Was: 498
+          KEY_7                    397                       #  Was: 497
+          KEY_7                    843                       #  Was: 497
+
+          name num6-1
+          KEY_0                    844                       #  Was: 2760
+          KEY_9                    397                       #  Was: 499
+          KEY_2                    374                       #  Was: 522
+          KEY_7                    399                       #  Was: 497
+          KEY_7                    398                       #  Was: 497
+          KEY_8                    398                       #  Was: 498
+          KEY_5                    398                       #  Was: 945
+
+          name num7-0
+          KEY_0                    844                       #  Was: 2760
+          KEY_8                    396                       #  Was: 498
+          KEY_7                    398                       #  Was: 497
+          KEY_7                    399                       #  Was: 497
+          KEY_7                    398                       #  Was: 497
+          KEY_8                    398                       #  Was: 498
+          KEY_8                    397                       #  Was: 498
+
+          name num7-1
+          KEY_0                    844                       #  Was: 2760
+          KEY_8                    396                       #  Was: 498
+          KEY_0                    396                       #  Was: 500
+          KEY_8                    397                       #  Was: 498
+          KEY_9                    398                       #  Was: 499
+          KEY_9                    396                       #  Was: 499
+          KEY_5                    399                       #  Was: 945
+
+          name num8-0
+          KEY_0                    842                       #  Was: 2760
+          KEY_7                    397                       #  Was: 497
+          KEY_0                    396                       #  Was: 500
+          KEY_9                    397                       #  Was: 499
+          KEY_8                    397                       #  Was: 498
+          KEY_0                    396                       #  Was: 500
+          KEY_7                    396                       #  Was: 497
+
+          name num8-1
+          KEY_7                    844                       #  Was: 2757
+          KEY_7                    398                       #  Was: 497
+          KEY_7                    396                       #  Was: 497
+          KEY_8                    396                       #  Was: 498
+          KEY_7                    396                       #  Was: 497
+          KEY_6                    397                       #  Was: 496
+          KEY_7                    399                       #  Was: 497
+
+          name num9-0
+          KEY_7                    844                       #  Was: 2757
+          KEY_7                    399                       #  Was: 497
+          KEY_9                    397                       #  Was: 499
+          KEY_7                    398                       #  Was: 497
+          KEY_0                    396                       #  Was: 500
+          KEY_9                    396                       #  Was: 499
+          KEY_4                     #  Was: 944             
+
+          name num9-1
+          KEY_9                    844                       #  Was: 2759
+          KEY_7                    398                       #  Was: 497
+          KEY_7                    396                       #  Was: 497
+          KEY_8                    395                       #  Was: 498
+          KEY_7                    396                       #  Was: 497
+          KEY_6                    397                       #  Was: 496
+          KEY_0                    396                       #  Was: 500
+
+          name num0-0
+          KEY_7                    842                       #  Was: 2757
+          KEY_7                    399                       #  Was: 497
+          KEY_9                    396                       #  Was: 499
+          KEY_9                    398                       #  Was: 499
+          KEY_0                    396                       #  Was: 500
+          KEY_9                    397                       #  Was: 499
+          KEY_0                    396                       #  Was: 500
+
+          name num0-1
+          KEY_9                    822                       #  Was: 2779
+          KEY_2                    374                       #  Was: 522
+          KEY_2                    371                       #  Was: 522
+          KEY_2                    371                       #  Was: 522
+          KEY_1                    372                       #  Was: 521
+          KEY_2                    372                       #  Was: 522
+          KEY_2                    371                       #  Was: 522
+          KEY_2                     #  Was: 522             
+
+          name info0
+          KEY_7                    842                       #  Was: 2757
+          KEY_7                    396                       #  Was: 497
+          KEY_9                    397                       #  Was: 499
+          KEY_9                    396                       #  Was: 499
+          KEY_9                    396                       #  Was: 499
+          KEY_0                    396                       #  Was: 500
+          KEY_7                    396                       #  Was: 497
+
+          name info1
+          KEY_0                    844                       #  Was: 2760
+          KEY_7                    399                       #  Was: 497
+          KEY_8                    396                       #  Was: 498
+          KEY_6                    397                       #  Was: 496
+          KEY_7                    398                       #  Was: 497
+          KEY_8                    396                       #  Was: 498
+          KEY_7                    399                       #  Was: 497
+
+          name ptop0
+          KEY_1                    842                       #  Was: 2761
+          KEY_9                    397                       #  Was: 499
+          KEY_9                    396                       #  Was: 499
+          KEY_9                    396                       #  Was: 499
+          KEY_0                    396                       #  Was: 500
+          KEY_9                    397                       #  Was: 499
+          KEY_6                     #  Was: 496             
+
+          name ptop1
+          KEY_2                    845                       #  Was: 2762
+          KEY_9                    397                       #  Was: 499
+          KEY_7                    399                       #  Was: 497
+          KEY_7                    396                       #  Was: 497
+          KEY_7                    399                       #  Was: 497
+          KEY_7                    397                       #  Was: 497
+          KEY_5                    844                       #  Was: 945
+
+          name dualscreen0
+          KEY_2                    820                       #  Was: 2782
+          KEY_0                    374                       #  Was: 520
+          KEY_2                    373                       #  Was: 522
+          KEY_1                    374                       #  Was: 521
+          KEY_1                    375                       #  Was: 521
+          KEY_1                    375                       #  Was: 521
+
+          name dualscreen1
+          KEY_0                    845                       #  Was: 2760
+          KEY_7                    398                       #  Was: 497
+          KEY_1                    372                       #  Was: 521
+          KEY_8                    395                       #  Was: 498
+          KEY_7                    396                       #  Was: 497
+          KEY_8                    398                       #  Was: 948
+          KEY_6                     #  Was: 946             
+
+          name actcontr0
+          KEY_0                    844                       #  Was: 2760
+          KEY_9                    396                       #  Was: 499
+          KEY_8                    396                       #  Was: 498
+          KEY_7                    397                       #  Was: 497
+          KEY_5                    843                       #  Was: 945
+          KEY_5                    398                       #  Was: 945
+
+          name actcontr1
+          KEY_3                    821                       #  Was: 2783
+          KEY_2                    374                       #  Was: 522
+          KEY_1                    372                       #  Was: 521
+          KEY_2                    371                       #  Was: 522
+          KEY_2                    371                       #  Was: 522
+          KEY_0                    822                       #  Was: 970
+          KEY_2                     #  Was: 522             
+
+          name screenview0
+          KEY_2                    819                       #  Was: 2782
+          KEY_2                    372                       #  Was: 522
+          KEY_1                    375                       #  Was: 521
+          KEY_2                    373                       #  Was: 522
+          KEY_0                    374                       #  Was: 970
+          KEY_9                    820                       #  Was: 519
+
+          name screenview1
+          KEY_2                    819                       #  Was: 2782
+          KEY_9                    377                       #  Was: 519
+          KEY_1                    374                       #  Was: 521
+          KEY_2                    374                       #  Was: 522
+          KEY_1                    375                       #  Was: 521
+          KEY_2                    374                       #  Was: 522
+          KEY_7                     #  Was: 947             
+
+          name ambi_on0
+          KEY_3                    822                       #  Was: 2783
+          KEY_2                    374                       #  Was: 522
+          KEY_0                    375                       #  Was: 520
+          KEY_1                    372                       #  Was: 521
+          KEY_2                    839                       #  Was: 952
+          KEY_0                    373                       #  Was: 970
+          KEY_6                     #  Was: 506             
+
+          name ambi_on1
+          KEY_2                    819                       #  Was: 2782
+          KEY_2                    373                       #  Was: 522
+          KEY_8                    374                       #  Was: 518
+          KEY_0                    374                       #  Was: 520
+          KEY_0                    374                       #  Was: 520
+          KEY_2                    373                       #  Was: 522
+          KEY_8                    375                       #  Was: 518
+
+          name ambi_mode0
+          KEY_0                    842                       #  Was: 2760
+          KEY_8                    396                       #  Was: 498
+          KEY_9                    397                       #  Was: 499
+          KEY_8                    397                       #  Was: 498
+          KEY_6                    844                       #  Was: 946
+          KEY_0                    396                       #  Was: 500
+          KEY_9                     #  Was: 499             
+
+          name ambi_mode1
+          KEY_0                    844                       #  Was: 2760
+          KEY_9                    396                       #  Was: 499
+          KEY_8                    396                       #  Was: 498
+          KEY_7                    397                       #  Was: 497
+          KEY_6                    396                       #  Was: 496
+          KEY_4                    847                       #  Was: 944
+          KEY_7                    399                       #  Was: 497
+
+      end raw_codes
+
+end remote
+
+#
+# RC4302 Mode AMP
+# cur_left 	= AMP mode showtime
+# cur_right	= AMP mode pixelplus
+#
+# Following buttons are not working in AMP mode:
+# - selectsource
+# - record
+# - surroundmode
+# - cinemago
+# - freeze
+# - info
+# - dualscreen
+# - activecontol
+# - screenview
+#
+begin remote
+
+  name  RC4302-AMP
+  bits           13
+  flags RC5|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           937   851
+  zero          937   851
+  plead         983
+  gap          113614
+  min_repeat      1
+  toggle_bit      2
+
+      begin codes
+          KEY_POWER                0x1C4C                    #  Was: onoff
+          pixelplus                0x145E
+          showtime                 0x145F
+          KEY_NEXT                 0x041A                    #  Was: nexTView
+          KEY_TEXT                 0x144F                    #  Was: teletext
+          KEY_OK                   0x0457                    #  Was: ok
+          KEY_MENU                 0x0452                    #  Was: menu
+          cur_up                   0x0450
+          cur_down                 0x0C51
+          cur_left                 0x145F
+          cur_right                0x1C5E
+          KEY_VOLUMEUP             0x1410                    #  Was: vol_up
+          KEY_VOLUMEDOWN           0x1C11                    #  Was: vol_down
+          KEY_MUTE                 0x140D                    #  Was: mute
+          KEY_CHANNELUP            0x1C60                    #  Was: prog_up
+          KEY_CHANNELDOWN          0x1461                    #  Was: prog_down
+          KEY_1                    0x1C41                    #  Was: 1
+          KEY_2                    0x1442                    #  Was: 2
+          KEY_3                    0x1C43                    #  Was: 3
+          KEY_4                    0x1444                    #  Was: 4
+          KEY_5                    0x1C45                    #  Was: 5
+          KEY_6                    0x1446                    #  Was: 6
+          KEY_7                    0x1C47                    #  Was: 7
+          KEY_8                    0x1448                    #  Was: 8
+          KEY_9                    0x1C49                    #  Was: 9
+          KEY_0                    0x1440                    #  Was: 0
+      end codes
+
+end remote
+
+#
+# RC4302 Mode AUX
+# cur_left      = prog_down
+# cur_right	= prog_up
+# vol_up	= AMP mode vol_up
+# vol_down	= AMP mode vol_down
+# mute		= AMP mode mute
+#
+# Following buttons are not working in AUX mode:
+# - selectsource
+# - record
+# - teletext
+# - ok
+# - freeze
+# - menu
+# - dualscreen
+# - activecontol
+# - screenview
+#
+begin remote
+
+  name  RC4302-AUX
+  bits           13
+  flags RC5|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           931   857
+  zero          931   857
+  plead         973
+  gap          113617
+  toggle_bit      2
+
+     begin codes
+          KEY_POWER                0x150C                    #  Was: onoff
+          pixelplus                0x1534
+          showtime                 0x1532
+          surroundmode             0x1536
+          cinemago                 0x1535
+          KEY_NEXT                 0x1530                    #  Was: nexTView
+          KEY_VOLUMEUP             0x1410                    #  Was: vol_up
+          KEY_VOLUMEDOWN           0x1411                    #  Was: vol_down
+          KEY_MUTE                 0x140D                    #  Was: mute
+          KEY_CHANNELUP            0x1520                    #  Was: prog_up
+          KEY_CHANNELDOWN          0x1521                    #  Was: prog_down
+          KEY_1                    0x1501                    #  Was: 1
+          KEY_2                    0x1502                    #  Was: 2
+          KEY_3                    0x1503                    #  Was: 3
+          KEY_4                    0x1504                    #  Was: 4
+          KEY_5                    0x1505                    #  Was: 5
+          KEY_6                    0x1506                    #  Was: 6
+          KEY_7                    0x1507                    #  Was: 7
+          KEY_8                    0x1508                    #  Was: 8
+          KEY_9                    0x1509                    #  Was: 9
+          KEY_0                    0x1500                    #  Was: 0
+          KEY_INFO                 0x150B                    #  Was: info
+          ptop                     0x153B
+          cur_up                   0x0532
+          cur_down                 0x0D33
+          cur_left                 0x1521
+          cur_right                0x1D20
+      end codes
+
+end remote
+
+#
+# RC4302 Mode DVD
+# dualscreen	= TV mode dualscreen
+# actcontrol    = TV mode actcontrol
+# screenview	= TV mode screenview
+#
+# Following buttons are not working in DVD mode:
+# - record
+# - freeze
+#
+# Buttons are shown twice because of different send codes
+#
+begin remote
+
+  name   RC4302-DVD
+  flags RAW_CODES|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  ptrail          0
+  repeat     0     0
+  gap    106576
+
+      begin raw_codes
+
+          name onoff0
+          KEY_6                    849                       #  Was: 2756
+          KEY_5                    400                       #  Was: 495
+          KEY_3                    400                       #  Was: 493
+          KEY_6                    378                       #  Was: 516
+          KEY_0                    376                       #  Was: 520
+          KEY_8                    398                       #  Was: 498
+          KEY_5                    401                       #  Was: 495
+
+          name onoff1
+          KEY_3                    846                       #  Was: 2753
+          KEY_4                    379                       #  Was: 514
+          KEY_3                    403                       #  Was: 493
+          KEY_6                    824                       #  Was: 966
+          KEY_4                    401                       #  Was: 494
+          KEY_5                    378                       #  Was: 965
+          KEY_3                     #  Was: 493             
+
+          name pixelplus0
+          KEY_0                    822                       #  Was: 2780
+          KEY_2                    373                       #  Was: 522
+          KEY_9                    377                       #  Was: 519
+          KEY_0                    374                       #  Was: 520
+          KEY_9                    376                       #  Was: 519
+          KEY_7                    822                       #  Was: 967
+          KEY_4                     #  Was: 494             
+
+          name pixelplus1
+          KEY_2                    846                       #  Was: 2762
+          KEY_5                    399                       #  Was: 495
+          KEY_4                    401                       #  Was: 494
+          KEY_3                    848                       #  Was: 943
+          KEY_7                    399                       #  Was: 497
+          KEY_4                    399                       #  Was: 494
+
+          name showtime0
+          KEY_1                    833                       #  Was: 2771
+          KEY_0                    375                       #  Was: 520
+          KEY_9                    394                       #  Was: 499
+          KEY_8                    378                       #  Was: 518
+          KEY_0                    376                       #  Was: 520
+          KEY_0                    848                       #  Was: 940
+
+          name showtime1
+          KEY_4                    848                       #  Was: 2754
+          KEY_8                    377                       #  Was: 518
+          KEY_4                    401                       #  Was: 494
+          KEY_3                    826                       #  Was: 963
+          KEY_8                    376                       #  Was: 518
+          KEY_7                    376                       #  Was: 517
+
+          name surroundmode0
+          KEY_5                    826                       #  Was: 2775
+          KEY_8                    398                       #  Was: 498
+          KEY_5                    401                       #  Was: 495
+          KEY_9                    374                       #  Was: 519
+          KEY_4                    390                       #  Was: 504
+          KEY_9                    822                       #  Was: 519
+          KEY_0                     #  Was: 940             
+
+          name surroundmode1
+          KEY_0                    822                       #  Was: 2780
+          KEY_7                    396                       #  Was: 497
+          KEY_0                    374                       #  Was: 520
+          KEY_0                    849                       #  Was: 940
+          KEY_0                    376                       #  Was: 520
+          KEY_9                    374                       #  Was: 519
+
+          name cinemago0
+          KEY_7                    822                       #  Was: 2777
+          KEY_9                    374                       #  Was: 519
+          KEY_9                    376                       #  Was: 519
+          KEY_9                    377                       #  Was: 519
+          KEY_7                    396                       #  Was: 497
+          KEY_2                    401                       #  Was: 942
+          KEY_9                     #  Was: 519             
+
+          name cinemago1
+          KEY_9                    822                       #  Was: 2779
+          KEY_0                    375                       #  Was: 520
+          KEY_9                    374                       #  Was: 519
+          KEY_5                    824                       #  Was: 965
+          KEY_4                    391                       #  Was: 504
+          KEY_5                    847                       #  Was: 495
+
+          name nexTView0
+          KEY_0                    824                       #  Was: 2780
+          KEY_9                    376                       #  Was: 519
+          KEY_4                    399                       #  Was: 494
+          KEY_7                    377                       #  Was: 517
+          KEY_4                    402                       #  Was: 494
+          KEY_5                    846                       #  Was: 495
+          KEY_0                    376                       #  Was: 520
+
+          name nexTView1
+          KEY_0                    822                       #  Was: 2780
+          KEY_0                    374                       #  Was: 520
+          KEY_4                    399                       #  Was: 494
+          KEY_3                    846                       #  Was: 943
+          KEY_4                    402                       #  Was: 494
+          KEY_1                    383                       #  Was: 511
+          KEY_3                     #  Was: 503             
+
+          name teletext0
+          KEY_4                    847                       #  Was: 2754
+          KEY_8                    397                       #  Was: 498
+          KEY_0                    376                       #  Was: 520
+          KEY_7                    378                       #  Was: 517
+          KEY_8                    376                       #  Was: 518
+          KEY_2                    847                       #  Was: 942
+
+          name teletext1
+          KEY_8                    837                       #  Was: 2768
+          KEY_9                    376                       #  Was: 519
+          KEY_9                    377                       #  Was: 519
+          KEY_2                    840                       #  Was: 952
+          KEY_9                    839                       #  Was: 949
+          KEY_5                    378                       #  Was: 965
+
+          name cur_up0
+          KEY_1                    831                       #  Was: 2771
+          KEY_6                    377                       #  Was: 516
+          KEY_5                    401                       #  Was: 495
+          KEY_2                    848                       #  Was: 942
+          KEY_1                    849                       #  Was: 941
+          KEY_5                    399                       #  Was: 495
+
+          name cur_up1
+          KEY_8                    824                       #  Was: 2778
+          KEY_5                    401                       #  Was: 495
+          KEY_5                    401                       #  Was: 495
+          KEY_5                    398                       #  Was: 495
+          KEY_1                    395                       #  Was: 501
+          KEY_4                    847                       #  Was: 494
+          KEY_6                     #  Was: 496             
+
+          name cur_down0
+          KEY_0                    823                       #  Was: 2780
+          KEY_5                    401                       #  Was: 495
+          KEY_5                    401                       #  Was: 495
+          KEY_2                    849                       #  Was: 942
+          KEY_7                    842                       #  Was: 947
+          KEY_3                    403                       #  Was: 493
+
+          name cur_down1
+          KEY_4                    838                       #  Was: 2764
+          KEY_7                    377                       #  Was: 517
+          KEY_4                    402                       #  Was: 494
+          KEY_4                    401                       #  Was: 494
+          KEY_3                    401                       #  Was: 493
+          KEY_2                    847                       #  Was: 492
+
+          name cur_left0
+          KEY_0                    822                       #  Was: 2780
+          KEY_3                    401                       #  Was: 493
+          KEY_0                    373                       #  Was: 520
+          KEY_0                    848                       #  Was: 940
+          KEY_6                    834                       #  Was: 956
+          KEY_2                    849                       #  Was: 942
+
+          name cur_left1
+          KEY_0                    824                       #  Was: 2780
+          KEY_5                    401                       #  Was: 495
+          KEY_9                    376                       #  Was: 519
+          KEY_1                    395                       #  Was: 501
+          KEY_3                    400                       #  Was: 493
+          KEY_3                    848                       #  Was: 493
+
+          name cur_right0
+          KEY_8                    824                       #  Was: 2778
+          KEY_9                    376                       #  Was: 519
+          KEY_0                    376                       #  Was: 520
+          KEY_2                    849                       #  Was: 942
+          KEY_0                    849                       #  Was: 940
+          KEY_3                    401                       #  Was: 943
+
+          name cur_right1
+          KEY_7                    824                       #  Was: 2777
+          KEY_5                    401                       #  Was: 495
+          KEY_4                    398                       #  Was: 494
+          KEY_9                    376                       #  Was: 519
+          KEY_0                    376                       #  Was: 520
+          KEY_7                    834                       #  Was: 507
+
+          name ok0
+          KEY_5                    845                       #  Was: 2755
+          KEY_0                    375                       #  Was: 520
+          KEY_5                    401                       #  Was: 495
+          KEY_0                    849                       #  Was: 940
+          KEY_2                    849                       #  Was: 942
+          KEY_2                    847                       #  Was: 492
+
+          name ok1
+          KEY_8                    824                       #  Was: 2778
+          KEY_9                    376                       #  Was: 519
+          KEY_4                    392                       #  Was: 504
+          KEY_3                    400                       #  Was: 493
+          KEY_4                    402                       #  Was: 494
+          KEY_4                    401                       #  Was: 494
+          KEY_2                     #  Was: 502             
+
+          name selectsource0
+          KEY_0                    844                       #  Was: 2760
+          KEY_7                    396                       #  Was: 497
+          KEY_7                    399                       #  Was: 497
+          KEY_8                    398                       #  Was: 498
+          KEY_6                    400                       #  Was: 496
+          KEY_8                    398                       #  Was: 498
+          KEY_7                    398                       #  Was: 497
+
+          name selectsource1
+          KEY_8                    844                       #  Was: 2758
+          KEY_7                    396                       #  Was: 497
+          KEY_7                    399                       #  Was: 497
+          KEY_6                    397                       #  Was: 496
+          KEY_3                    846                       #  Was: 943
+          KEY_5                    844                       #  Was: 945
+          KEY_7                     #  Was: 497             
+
+          name menu0
+          KEY_7                    822                       #  Was: 2777
+          KEY_3                    374                       #  Was: 523
+          KEY_0                    373                       #  Was: 520
+          KEY_9                    375                       #  Was: 519
+          KEY_0                    376                       #  Was: 520
+          KEY_4                    838                       #  Was: 954
+
+          name menu1
+          KEY_0                    822                       #  Was: 2780
+          KEY_6                    400                       #  Was: 496
+          KEY_6                    400                       #  Was: 496
+          KEY_3                    846                       #  Was: 943
+          KEY_6                    823                       #  Was: 966
+          KEY_5                    401                       #  Was: 495
+
+          name vol_up0
+          KEY_9                    844                       #  Was: 2759
+          KEY_7                    398                       #  Was: 497
+          KEY_8                    398                       #  Was: 498
+          KEY_7                    397                       #  Was: 497
+          KEY_7                    396                       #  Was: 497
+          KEY_4                    399                       #  Was: 494
+          KEY_8                    398                       #  Was: 498
+
+          name vol_up1
+          KEY_0                    841                       #  Was: 2760
+          KEY_5                    398                       #  Was: 495
+          KEY_0                    374                       #  Was: 520
+          KEY_0                    374                       #  Was: 520
+          KEY_6                    377                       #  Was: 516
+          KEY_9                    831                       #  Was: 959
+          KEY_5                    401                       #  Was: 495
+
+          name vol_down0
+          KEY_0                    822                       #  Was: 2780
+          KEY_0                    394                       #  Was: 500
+          KEY_6                    399                       #  Was: 496
+          KEY_6                    400                       #  Was: 496
+          KEY_0                    376                       #  Was: 520
+          KEY_9                    374                       #  Was: 519
+          KEY_0                    376                       #  Was: 520
+
+          name vol_down1
+          KEY_0                    844                       #  Was: 2760
+          KEY_8                    396                       #  Was: 498
+          KEY_7                    396                       #  Was: 497
+          KEY_8                    396                       #  Was: 498
+          KEY_7                    397                       #  Was: 497
+          KEY_5                    846                       #  Was: 945
+          KEY_4                     #  Was: 944             
+
+          name mute0
+          KEY_0                    844                       #  Was: 2760
+          KEY_7                    396                       #  Was: 497
+          KEY_7                    399                       #  Was: 497
+          KEY_7                    398                       #  Was: 497
+          KEY_7                    396                       #  Was: 497
+          KEY_7                    396                       #  Was: 497
+          KEY_7                    844                       #  Was: 497
+
+          name mute1
+          KEY_0                    844                       #  Was: 2760
+          KEY_0                    396                       #  Was: 500
+          KEY_7                    396                       #  Was: 497
+          KEY_8                    397                       #  Was: 498
+          KEY_7                    399                       #  Was: 497
+          KEY_8                    398                       #  Was: 498
+          KEY_3                     #  Was: 943             
+
+          name prog_up0
+          KEY_3                    828                       #  Was: 2773
+          KEY_9                    377                       #  Was: 519
+          KEY_9                    396                       #  Was: 499
+          KEY_9                    377                       #  Was: 519
+          KEY_3                    399                       #  Was: 493
+          KEY_5                    400                       #  Was: 495
+          KEY_5                    401                       #  Was: 495
+
+          name prog_up1
+          KEY_8                    824                       #  Was: 2778
+          KEY_0                    376                       #  Was: 520
+          KEY_9                    376                       #  Was: 519
+          KEY_1                    828                       #  Was: 961
+          KEY_2                    402                       #  Was: 492
+          KEY_9                    376                       #  Was: 519
+          KEY_9                     #  Was: 519             
+
+          name prog_down0
+          KEY_6                    835                       #  Was: 2766
+          KEY_9                    376                       #  Was: 519
+          KEY_7                    396                       #  Was: 497
+          KEY_0                    375                       #  Was: 520
+          KEY_3                    392                       #  Was: 503
+          KEY_3                    401                       #  Was: 493
+          KEY_3                     #  Was: 943             
+
+          name prog_down1
+          KEY_5                    846                       #  Was: 2755
+          KEY_4                    399                       #  Was: 494
+          KEY_5                    401                       #  Was: 495
+          KEY_3                    847                       #  Was: 943
+          KEY_4                    401                       #  Was: 494
+          KEY_7                    376                       #  Was: 517
+
+          name num1-0
+          KEY_0                    845                       #  Was: 2760
+          KEY_8                    396                       #  Was: 498
+          KEY_7                    398                       #  Was: 497
+          KEY_8                    398                       #  Was: 498
+          KEY_8                    397                       #  Was: 498
+          KEY_7                    396                       #  Was: 497
+          KEY_9                    397                       #  Was: 499
+
+          name num1-1
+          KEY_6                    821                       #  Was: 2756
+          KEY_7                    376                       #  Was: 517
+          KEY_0                    376                       #  Was: 520
+          KEY_5                    824                       #  Was: 965
+          KEY_0                    376                       #  Was: 520
+          KEY_0                    376                       #  Was: 520
+          KEY_1                     #  Was: 941             
+
+          name num2-0
+          KEY_8                    844                       #  Was: 2758
+          KEY_8                    398                       #  Was: 498
+          KEY_8                    396                       #  Was: 498
+          KEY_7                    396                       #  Was: 497
+          KEY_8                    398                       #  Was: 498
+          KEY_7                    399                       #  Was: 497
+          KEY_5                    844                       #  Was: 945
+
+          name num2-1
+          KEY_5                    837                       #  Was: 2765
+          KEY_0                    376                       #  Was: 520
+          KEY_9                    374                       #  Was: 519
+          KEY_7                    825                       #  Was: 967
+          KEY_0                    375                       #  Was: 520
+          KEY_9                    374                       #  Was: 519
+          KEY_2                     #  Was: 522             
+
+          name num3-0
+          KEY_8                    844                       #  Was: 2758
+          KEY_7                    396                       #  Was: 497
+          KEY_7                    398                       #  Was: 497
+          KEY_6                    399                       #  Was: 496
+          KEY_7                    397                       #  Was: 497
+          KEY_7                    396                       #  Was: 497
+          KEY_3                    400                       #  Was: 943
+
+          name num3-1
+          KEY_2                    820                       #  Was: 2782
+          KEY_0                    373                       #  Was: 520
+          KEY_0                    374                       #  Was: 520
+          KEY_8                    822                       #  Was: 968
+          KEY_9                    376                       #  Was: 519
+          KEY_1                    375                       #  Was: 521
+          KEY_2                     #  Was: 522             
+
+          name mun4-0
+          KEY_2                    841                       #  Was: 2762
+          KEY_7                    397                       #  Was: 497
+          KEY_7                    398                       #  Was: 497
+          KEY_7                    399                       #  Was: 497
+          KEY_8                    396                       #  Was: 498
+          KEY_9                    397                       #  Was: 499
+          KEY_7                    398                       #  Was: 497
+
+          name num4-1
+          KEY_2                    819                       #  Was: 2782
+          KEY_7                    398                       #  Was: 497
+          KEY_7                    399                       #  Was: 497
+          KEY_6                    844                       #  Was: 946
+          KEY_9                    396                       #  Was: 499
+          KEY_7                    398                       #  Was: 497
+          KEY_7                     #  Was: 497             
+
+          name num5-0
+          KEY_0                    844                       #  Was: 2760
+          KEY_7                    398                       #  Was: 497
+          KEY_7                    397                       #  Was: 497
+          KEY_7                    399                       #  Was: 497
+          KEY_6                    397                       #  Was: 496
+          KEY_7                    396                       #  Was: 497
+          KEY_4                     #  Was: 944             
+
+          name num5-1
+          KEY_0                    834                       #  Was: 2770
+          KEY_8                    398                       #  Was: 498
+          KEY_7                    399                       #  Was: 497
+          KEY_4                    844                       #  Was: 944
+          KEY_7                    399                       #  Was: 497
+          KEY_7                    399                       #  Was: 497
+
+          name num6-0
+          KEY_5                    826                       #  Was: 2775
+          KEY_9                    396                       #  Was: 499
+          KEY_8                    398                       #  Was: 498
+          KEY_7                    399                       #  Was: 497
+          KEY_8                    398                       #  Was: 498
+          KEY_7                    399                       #  Was: 497
+          KEY_7                    842                       #  Was: 497
+
+          name num6-1
+          KEY_7                    819                       #  Was: 2787
+          KEY_7                    397                       #  Was: 497
+          KEY_6                    397                       #  Was: 496
+          KEY_3                    846                       #  Was: 943
+          KEY_7                    398                       #  Was: 497
+          KEY_7                    398                       #  Was: 497
+          KEY_7                     #  Was: 497             
+
+          name num7-0
+          KEY_5                    846                       #  Was: 2755
+          KEY_7                    399                       #  Was: 497
+          KEY_4                    399                       #  Was: 494
+          KEY_7                    399                       #  Was: 497
+          KEY_7                    399                       #  Was: 497
+          KEY_7                    396                       #  Was: 497
+          KEY_7                    398                       #  Was: 497
+
+          name num7-1
+          KEY_9                    845                       #  Was: 2759
+          KEY_1                    385                       #  Was: 511
+          KEY_0                    396                       #  Was: 500
+          KEY_4                    846                       #  Was: 944
+          KEY_7                    396                       #  Was: 497
+          KEY_7                    397                       #  Was: 497
+          KEY_7                     #  Was: 497             
+
+          name num8-0
+          KEY_6                    828                       #  Was: 2776
+          KEY_9                    394                       #  Was: 499
+          KEY_6                    399                       #  Was: 496
+          KEY_7                    398                       #  Was: 497
+          KEY_7                    396                       #  Was: 497
+          KEY_8                    396                       #  Was: 498
+          KEY_7                    400                       #  Was: 497
+
+          name num8-1
+          KEY_8                    844                       #  Was: 2758
+          KEY_6                    399                       #  Was: 496
+          KEY_7                    398                       #  Was: 497
+          KEY_5                    845                       #  Was: 945
+          KEY_7                    398                       #  Was: 497
+          KEY_5                    848                       #  Was: 945
+          KEY_8                     #  Was: 498             
+
+          name num9-0
+          KEY_2                    842                       #  Was: 2762
+          KEY_7                    398                       #  Was: 497
+          KEY_7                    396                       #  Was: 497
+          KEY_8                    396                       #  Was: 498
+          KEY_6                    399                       #  Was: 496
+          KEY_7                    398                       #  Was: 497
+          KEY_3                     #  Was: 943             
+
+          name num9-1
+          KEY_8                    836                       #  Was: 2768
+          KEY_7                    396                       #  Was: 497
+          KEY_8                    396                       #  Was: 498
+          KEY_5                    846                       #  Was: 945
+          KEY_7                    398                       #  Was: 497
+          KEY_5                    844                       #  Was: 945
+
+          name num0-0
+          KEY_0                    844                       #  Was: 2760
+          KEY_9                    397                       #  Was: 499
+          KEY_7                    399                       #  Was: 497
+          KEY_7                    396                       #  Was: 497
+          KEY_7                    397                       #  Was: 497
+          KEY_7                    398                       #  Was: 497
+          KEY_8                    398                       #  Was: 498
+
+          name num0-1
+          KEY_7                    844                       #  Was: 2757
+          KEY_7                    396                       #  Was: 497
+          KEY_8                    399                       #  Was: 498
+          KEY_5                    844                       #  Was: 945
+          KEY_7                    398                       #  Was: 497
+          KEY_8                    398                       #  Was: 498
+          KEY_7                    398                       #  Was: 497
+
+          name info0
+          KEY_8                    834                       #  Was: 2768
+          KEY_9                    396                       #  Was: 499
+          KEY_7                    399                       #  Was: 497
+          KEY_7                    396                       #  Was: 497
+          KEY_7                    399                       #  Was: 497
+          KEY_7                    398                       #  Was: 497
+          KEY_9                    397                       #  Was: 499
+
+          name info1
+          KEY_2                    842                       #  Was: 2762
+          KEY_8                    396                       #  Was: 498
+          KEY_6                    399                       #  Was: 496
+          KEY_3                    846                       #  Was: 943
+          KEY_7                    399                       #  Was: 497
+          KEY_4                    398                       #  Was: 944
+          KEY_7                     #  Was: 497             
+
+          name ptop0
+          KEY_9                    844                       #  Was: 2759
+          KEY_8                    398                       #  Was: 498
+          KEY_8                    396                       #  Was: 498
+          KEY_8                    396                       #  Was: 498
+          KEY_5                    398                       #  Was: 945
+          KEY_2                    847                       #  Was: 942
+          KEY_7                     #  Was: 497             
+
+          name ptop1
+          KEY_4                    820                       #  Was: 2784
+          KEY_6                    397                       #  Was: 496
+          KEY_7                    396                       #  Was: 497
+          KEY_6                    846                       #  Was: 946
+          KEY_9                    842                       #  Was: 499
+          KEY_6                    399                       #  Was: 496
+
+          name dualscreen0
+          KEY_0                    843                       #  Was: 2760
+          KEY_7                    399                       #  Was: 497
+          KEY_7                    397                       #  Was: 497
+          KEY_6                    399                       #  Was: 496
+          KEY_7                    398                       #  Was: 497
+          KEY_3                    400                       #  Was: 943
+          KEY_4                     #  Was: 944             
+
+          name dualscreen1
+          KEY_3                    844                       #  Was: 2763
+          KEY_7                    399                       #  Was: 497
+          KEY_8                    398                       #  Was: 498
+          KEY_7                    398                       #  Was: 497
+          KEY_6                    399                       #  Was: 496
+          KEY_7                    398                       #  Was: 497
+
+          name actcontr0
+          KEY_8                    846                       #  Was: 2758
+          KEY_8                    396                       #  Was: 498
+          KEY_4                    399                       #  Was: 494
+          KEY_8                    398                       #  Was: 498
+          KEY_7                    399                       #  Was: 497
+          KEY_2                    847                       #  Was: 942
+          KEY_8                     #  Was: 498             
+
+          name actcontr1
+          KEY_8                    845                       #  Was: 2758
+          KEY_4                    396                       #  Was: 494
+          KEY_7                    396                       #  Was: 497
+          KEY_9                    397                       #  Was: 499
+          KEY_6                    846                       #  Was: 946
+          KEY_3                    400                       #  Was: 943
+
+          name screenview0
+          KEY_3                    844                       #  Was: 2733
+          KEY_7                    396                       #  Was: 497
+          KEY_8                    398                       #  Was: 498
+          KEY_7                    399                       #  Was: 497
+          KEY_6                    399                       #  Was: 496
+          KEY_8                    398                       #  Was: 498
+          KEY_2                     #  Was: 942             
+
+          name screenview1
+          KEY_2                    844                       #  Was: 2762
+          KEY_7                    399                       #  Was: 497
+          KEY_8                    398                       #  Was: 498
+          KEY_7                    399                       #  Was: 497
+          KEY_4                    399                       #  Was: 944
+          KEY_7                    844                       #  Was: 497
+
+      end raw_codes
+
+end remote
+
+
+#
+# RC4302 Mode SAT
+# vol_up	= TV mode vol_up
+# vol_down	= TV mode vol_down
+# mute		= TV mode mute
+# dualscreen	= TV mode dualscreen
+# actcontrol	= TV mode actcontrol
+# screenview	= TV mode screenview
+#
+# Following buttons are not working in SAT mode:
+# - nexTView
+# - teletext
+#
+# Buttons are shown twice because of different send codes
+#
+begin remote
+
+  name   RC4302-SAT
+  flags RAW_CODES|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  ptrail          0
+  repeat     0     0
+  gap    113614
+
+      begin raw_codes
+
+          name onoff0
+          KEY_8                    846                       #  Was: 968
+          KEY_8                    847                       #  Was: 1838
+          KEY_6                    844                       #  Was: 946
+          KEY_8                    846                       #  Was: 1838
+
+          name onoff1
+          KEY_3                    823                       #  Was: 993
+          KEY_1                    824                       #  Was: 1861
+          KEY_7                    824                       #  Was: 967
+          KEY_1                    824                       #  Was: 1861
+
+          name selectsource0
+          KEY_5                    846                       #  Was: 2755
+          KEY_5                    400                       #  Was: 495
+          KEY_4                    391                       #  Was: 504
+          KEY_3                    403                       #  Was: 493
+          KEY_5                    844                       #  Was: 945
+          KEY_5                    400                       #  Was: 495
+          KEY_4                     #  Was: 494             
+
+          name selectsource1
+          KEY_9                    823                       #  Was: 2779
+          KEY_8                    398                       #  Was: 498
+          KEY_8                    398                       #  Was: 498
+          KEY_5                    400                       #  Was: 495
+          KEY_5                    401                       #  Was: 495
+          KEY_3                    401                       #  Was: 493
+          KEY_7                    398                       #  Was: 497
+
+          name pixelplus0
+          KEY_9                    849                       #  Was: 1859
+          KEY_3                    831                       #  Was: 1853
+          KEY_1                    1719                      #  Was: 1861
+          KEY_7                    822                       #  Was: 967
+
+          name pixelplus1
+          KEY_7                    1720                      #  Was: 1887
+          KEY_7                    824                       #  Was: 967
+          KEY_1                    849                       #  Was: 941
+          KEY_3                     #  Was: 943             
+
+          name record0
+          KEY_4                    824                       #  Was: 1884
+          KEY_4                    848                       #  Was: 1834
+          KEY_6                    1744                      #  Was: 1836
+          KEY_0                     #  Was: 940             
+
+          name record1
+          KEY_3                    1720                      #  Was: 1883
+          KEY_6                    824                       #  Was: 966
+          KEY_9                    1720                      #  Was: 1859
+
+          name showtime0
+          KEY_2                    848                       #  Was: 1862
+          KEY_1                    824                       #  Was: 1861
+          KEY_6                    1742                      #  Was: 1836
+          KEY_1                     #  Was: 941             
+
+          name showtime1
+          KEY_5                    1719                      #  Was: 1885
+          KEY_0                    848                       #  Was: 940
+          KEY_0                    849                       #  Was: 940
+
+          name surroundmode0
+          KEY_4                    827                       #  Was: 1884
+          KEY_0                    826                       #  Was: 1860
+          KEY_0                    1719                      #  Was: 1860
+          KEY_7                     #  Was: 947             
+
+          name surroundmode1
+          KEY_4                    1717                      #  Was: 1884
+          KEY_5                    824                       #  Was: 965
+          KEY_2                    849                       #  Was: 942
+
+          name cinemago0
+          KEY_4                    826                       #  Was: 1884
+          KEY_1                    824                       #  Was: 1861
+          KEY_8                    1742                      #  Was: 1838
+          KEY_6                     #  Was: 1836            
+
+          name cinemago1
+          KEY_5                    1719                      #  Was: 1885
+          KEY_2                    848                       #  Was: 942
+          KEY_0                    848                       #  Was: 940
+
+          name cur_up0
+          KEY_0                    849                       #  Was: 1860
+          KEY_4                    850                       #  Was: 1834
+          KEY_5                    1739                      #  Was: 945
+          KEY_3                    848                       #  Was: 943
+
+          name cur_up1
+          KEY_3                    1719                      #  Was: 1883
+          KEY_0                    848                       #  Was: 940
+          KEY_6                    848                       #  Was: 1836
+          KEY_0                     #  Was: 940             
+
+          name cur_down0
+          KEY_6                    824                       #  Was: 1886
+          KEY_0                    824                       #  Was: 1860
+          KEY_7                    1736                      #  Was: 947
+          KEY_8                    1737                      #  Was: 948
+
+          name cur_down1
+          KEY_7                    1719                      #  Was: 1887
+          KEY_1                    849                       #  Was: 941
+          KEY_4                    850                       #  Was: 1834
+          KEY_0                     #  Was: 940             
+
+          name cur_left0
+          KEY_2                    849                       #  Was: 1862
+          KEY_5                    850                       #  Was: 1835
+          KEY_0                    1742                      #  Was: 940
+          KEY_1                     #  Was: 941             
+
+          name cur_left1
+          KEY_8                    1744                      #  Was: 1858
+          KEY_8                    850                       #  Was: 938
+          KEY_1                    1720                      #  Was: 1861
+
+          name cur_right0
+          KEY_0                    850                       #  Was: 1860
+          KEY_8                    827                       #  Was: 1858
+          KEY_2                    1742                      #  Was: 942
+          KEY_8                     #  Was: 1858            
+
+          name cur_right1
+          KEY_4                    1720                      #  Was: 1884
+          KEY_1                    848                       #  Was: 941
+          KEY_4                    1747                      #  Was: 1834
+
+          name ok0
+          KEY_1                    849                       #  Was: 1861
+          KEY_5                    850                       #  Was: 1835
+          KEY_5                    1720                      #  Was: 965
+          KEY_3                    848                       #  Was: 943
+
+          name ok1
+          KEY_5                    1719                      #  Was: 1885
+          KEY_3                    849                       #  Was: 943
+          KEY_8                    1720                      #  Was: 1858
+          KEY_1                     #  Was: 941             
+
+          name menu0
+          KEY_2                    848                       #  Was: 1862
+          KEY_4                    851                       #  Was: 1834
+          KEY_8                    1717                      #  Was: 968
+          KEY_3                     #  Was: 1833            
+
+          name menu1
+          KEY_5                    1696                      #  Was: 1885
+          KEY_5                    804                       #  Was: 985
+          KEY_5                    830                       #  Was: 1855
+
+          name prog_up0
+          KEY_6                    848                       #  Was: 966
+          KEY_8                    826                       #  Was: 1858
+          KEY_4                    850                       #  Was: 1834
+          KEY_1                    848                       #  Was: 941
+
+          name prog_up1
+          KEY_8                    827                       #  Was: 988
+          KEY_7                    828                       #  Was: 1857
+          KEY_2                    842                       #  Was: 1842
+          KEY_4                    826                       #  Was: 964
+
+          name prog_down0
+          KEY_6                    804                       #  Was: 986
+          KEY_1                    830                       #  Was: 1881
+          KEY_8                    807                       #  Was: 1878
+          KEY_9                    1724                      #  Was: 959
+
+          name prog_down1
+          KEY_7                    828                       #  Was: 987
+          KEY_6                    828                       #  Was: 1856
+          KEY_1                    805                       #  Was: 1881
+          KEY_1                    1724                      #  Was: 961
+
+          name num1-0
+          KEY_0                    825                       #  Was: 990
+          KEY_1                    824                       #  Was: 1861
+          KEY_4                    825                       #  Was: 964
+          KEY_1                    849                       #  Was: 941
+
+          name num1-1
+          KEY_1                    824                       #  Was: 991
+          KEY_7                    838                       #  Was: 1847
+          KEY_8                    823                       #  Was: 968
+          KEY_3                    846                       #  Was: 943
+
+          name num2-0
+          KEY_5                    822                       #  Was: 995
+          KEY_0                    824                       #  Was: 1860
+          KEY_2                    850                       #  Was: 942
+          KEY_7                    1717                      #  Was: 967
+
+          name num2-1
+          KEY_8                    849                       #  Was: 968
+          KEY_1                    826                       #  Was: 1861
+          KEY_2                    846                       #  Was: 942
+          KEY_0                    1742                      #  Was: 940
+
+          name num3-0
+          KEY_1                    824                       #  Was: 991
+          KEY_6                    848                       #  Was: 1836
+          KEY_8                    821                       #  Was: 968
+          KEY_1                    1742                      #  Was: 941
+
+          name num3-1
+          KEY_2                    824                       #  Was: 992
+          KEY_5                    850                       #  Was: 1835
+          KEY_4                    824                       #  Was: 964
+          KEY_3                    1741                      #  Was: 943
+
+          name num4-0
+          KEY_3                    821                       #  Was: 993
+          KEY_1                    824                       #  Was: 1861
+          KEY_5                    824                       #  Was: 965
+          KEY_1                    824                       #  Was: 1861
+
+          name num4-1
+          KEY_1                    844                       #  Was: 971
+          KEY_5                    850                       #  Was: 1835
+          KEY_2                    849                       #  Was: 942
+          KEY_6                    849                       #  Was: 1836
+
+          name num5-0
+          KEY_1                    824                       #  Was: 991
+          KEY_1                    823                       #  Was: 1861
+          KEY_6                    846                       #  Was: 946
+          KEY_8                    1721                      #  Was: 1858
+
+          name num5-1
+          KEY_6                    831                       #  Was: 986
+          KEY_1                    824                       #  Was: 1861
+          KEY_5                    823                       #  Was: 965
+          KEY_1                    1717                      #  Was: 1861
+
+          name num6-0
+          KEY_1                    824                       #  Was: 991
+          KEY_6                    826                       #  Was: 1856
+          KEY_1                    848                       #  Was: 941
+          KEY_3                    846                       #  Was: 943
+
+          name num6-1
+          KEY_9                    847                       #  Was: 969
+          KEY_1                    824                       #  Was: 1861
+          KEY_9                    840                       #  Was: 949
+          KEY_3                    846                       #  Was: 943
+
+          name num7-0
+          KEY_3                    824                       #  Was: 993
+          KEY_5                    849                       #  Was: 1835
+          KEY_0                    849                       #  Was: 940
+          KEY_0                    839                       #  Was: 950
+
+          name num7-1
+          KEY_4                    824                       #  Was: 994
+          KEY_6                    849                       #  Was: 1836
+          KEY_1                    849                       #  Was: 941
+          KEY_1                    849                       #  Was: 941
+
+          name num8-0
+          KEY_1                    825                       #  Was: 991
+          KEY_0                    824                       #  Was: 1860
+          KEY_2                    847                       #  Was: 942
+          KEY_1                    849                       #  Was: 941
+
+          name num8-1
+          KEY_7                    848                       #  Was: 967
+          KEY_6                    848                       #  Was: 1836
+          KEY_6                    823                       #  Was: 966
+          KEY_0                    849                       #  Was: 940
+
+          name num9-0
+          KEY_1                    822                       #  Was: 991
+          KEY_0                    824                       #  Was: 1860
+          KEY_0                    850                       #  Was: 940
+          KEY_7                    1718                      #  Was: 967
+
+          name num9-1
+          KEY_6                    829                       #  Was: 986
+          KEY_8                    826                       #  Was: 1858
+          KEY_3                    848                       #  Was: 943
+          KEY_3                    1741                      #  Was: 943
+
+          name info0
+          KEY_0                    824                       #  Was: 990
+          KEY_0                    825                       #  Was: 1860
+          KEY_4                    824                       #  Was: 964
+          KEY_5                    846                       #  Was: 945
+
+          name info1
+          KEY_1                    824                       #  Was: 991
+          KEY_1                    824                       #  Was: 1861
+          KEY_8                    821                       #  Was: 968
+          KEY_7                    824                       #  Was: 967
+
+          name ptop0
+          KEY_2                    823                       #  Was: 992
+          KEY_0                    825                       #  Was: 1860
+          KEY_6                    848                       #  Was: 1836
+          KEY_6                     #  Was: 1836            
+
+          name ptop1
+          KEY_1                    844                       #  Was: 971
+          KEY_1                    824                       #  Was: 1861
+          KEY_1                    824                       #  Was: 1861
+          KEY_9                     #  Was: 1859            
+
+          name dualscreen0
+          KEY_7                    824                       #  Was: 2777
+          KEY_9                    376                       #  Was: 519
+          KEY_9                    377                       #  Was: 519
+          KEY_0                    376                       #  Was: 520
+          KEY_0                    376                       #  Was: 520
+          KEY_9                    376                       #  Was: 519
+
+          name dualscreen1
+          KEY_0                    822                       #  Was: 2780
+          KEY_7                    376                       #  Was: 517
+          KEY_0                    376                       #  Was: 520
+          KEY_5                    401                       #  Was: 495
+          KEY_0                    373                       #  Was: 520
+          KEY_7                    377                       #  Was: 967
+          KEY_0                     #  Was: 940             
+
+          name actcontr0
+          KEY_7                    835                       #  Was: 2767
+          KEY_9                    374                       #  Was: 519
+          KEY_2                    401                       #  Was: 492
+          KEY_7                    376                       #  Was: 517
+          KEY_8                    824                       #  Was: 968
+          KEY_1                    402                       #  Was: 941
+
+          name actcontr1
+          KEY_8                    823                       #  Was: 2778
+          KEY_0                    376                       #  Was: 520
+          KEY_5                    399                       #  Was: 495
+          KEY_3                    400                       #  Was: 493
+          KEY_0                    376                       #  Was: 520
+          KEY_4                    824                       #  Was: 964
+          KEY_9                     #  Was: 519             
+
+          name screenview0
+          KEY_0                    822                       #  Was: 2780
+          KEY_5                    400                       #  Was: 495
+          KEY_3                    401                       #  Was: 493
+          KEY_5                    401                       #  Was: 495
+          KEY_3                    403                       #  Was: 943
+          KEY_6                    844                       #  Was: 496
+
+          name screenview1
+          KEY_1                    848                       #  Was: 2751
+          KEY_0                    376                       #  Was: 520
+          KEY_4                    398                       #  Was: 494
+          KEY_9                    376                       #  Was: 519
+          KEY_2                    401                       #  Was: 492
+          KEY_6                    398                       #  Was: 496
+          KEY_3                     #  Was: 943             
+
+      end raw_codes
+
+end remote
+

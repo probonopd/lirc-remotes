@@ -1,0 +1,54 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.6(any) on Mon Mar  8 12:31:04 2004
+#
+# contributed by Velko Lazarov <velkothebest|yahoo.com>
+#
+# brand:                       SAMSUNG
+# model no. of remote control: ARH-700
+# devices being controlled by this remote: Window-type Room Air Conditioners:
+# AZ09FASEA   AZ09AASEA
+# AZ09FAJEA   AZ09AAJEA
+# AZ12FAJEA   AZ12AAJEA
+# AZ18FAMEA   AZ18AAMEA
+# AZ22FAMEA   AZ22AAMEA
+# AZT18FAMEA  AZT18AAMEA
+# AZT24FAMEA  AZT24AAMEA
+
+begin remote
+
+  name  ARH-700
+  bits            8
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       4576  4377
+  one           647  1595
+  zero          647   475
+  ptrail        651
+  pre_data_bits   12
+  pre_data       0x804
+  gap          59834
+  min_repeat      1
+  toggle_bit      0
+
+
+      begin codes
+          TIMER                    0x00000000000000A4
+          KEY_SLEEP                0x00000000000000E4        #  Was: SLEEP
+          TEMP+                    0x000000000000004C
+          TEMP-                    0x000000000000008C
+          FAN                      0x000000000000009C
+          COOL                     0x000000000000003C
+          HEAT                     0x000000000000005C
+          FAN_HIGH                 0x00000000000000EC
+          FAN_MED                  0x000000000000006C
+          FAN_LOW                  0x00000000000000AC
+          SWING                    0x0000000000000094
+          KEY_POWER                0x00000000000000FC        #  Was: POWER
+      end codes
+
+end remote
+
+

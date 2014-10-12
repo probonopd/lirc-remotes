@@ -1,0 +1,145 @@
+#
+# this config file was automatically generated
+# using WinLIRC 0.6.5 (LIRC 0.6.1pre3) on Mon May 09 10:49:02 2005
+#
+# contributed by toonces
+#
+# brand: MTS TV or Quest Choice TV
+# model: NextLevel or Motorolla RG2200           
+# supported devices: RG2000 RG2200 RG2400
+#
+# Remote is SRC-200A (should work with other similar models)
+#
+# Programmed using factory defaults (will work without setting gateway id):
+# Infared, stream 1
+#
+
+begin remote
+
+  name  SRC-200A_1
+  bits            8
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  header       5041  2901
+  one          1049   911
+  zero         1049  2901
+  ptrail       1049
+  post_data_bits  8
+  post_data      0xFF
+  gap          52610
+  toggle_bit      0
+
+
+      begin codes
+          KEY_SELECT               0x00000000000000CD        #  Was: select
+          KEY_1                    0x000000000000000D        #  Was: 1
+          KEY_2                    0x0000000000000075        #  Was: 2
+          KEY_3                    0x00000000000000B5        #  Was: 3
+          KEY_4                    0x0000000000000015        #  Was: 4
+          KEY_5                    0x0000000000000065        #  Was: 5
+          KEY_6                    0x0000000000000025        #  Was: 6
+          KEY_7                    0x00000000000000AD        #  Was: 7
+          KEY_8                    0x000000000000006D        #  Was: 8
+          KEY_9                    0x000000000000008D        #  Was: 9
+          KEY_0                    0x00000000000000D9        #  Was: 0
+          KEY_CHANNELUP            0x000000000000002D        #  Was: chan_up
+          KEY_CHANNELDOWN          0x00000000000000F5        #  Was: chan_down
+          KEY_B                    0x00000000000000A9        #  Was: b
+          KEY_EXIT                 0x00000000000000A5        #  Was: exit
+          last_chan                0x00000000000000E5
+          call_id                  0x00000000000000D5
+      end codes
+
+end remote
+
+#
+# Infared, stream 2
+#
+
+begin remote
+
+  name  SRC-200A_2
+  bits            8
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  header       5030  2908
+  one          1039   919
+  zero         1039  2908
+  ptrail       1039
+  post_data_bits  8
+  post_data      0xFF
+  gap          48701
+  toggle_bit      0
+
+
+      begin codes
+          KEY_SELECT               0x00000000000000CE        #  Was: select
+          KEY_1                    0x000000000000000E        #  Was: 1
+          KEY_2                    0x0000000000000076        #  Was: 2
+          KEY_3                    0x00000000000000B6        #  Was: 3
+          KEY_4                    0x0000000000000016        #  Was: 4
+          KEY_5                    0x0000000000000066        #  Was: 5
+          KEY_6                    0x0000000000000026        #  Was: 6
+          KEY_7                    0x00000000000000AE        #  Was: 7
+          KEY_8                    0x000000000000006E        #  Was: 8
+          KEY_9                    0x000000000000008E        #  Was: 9
+          KEY_0                    0x00000000000000DA        #  Was: 0
+          KEY_CHANNELUP            0x000000000000002E        #  Was: chan_up
+          KEY_CHANNELDOWN          0x00000000000000F6        #  Was: chan_down
+          KEY_B                    0x00000000000000AA        #  Was: b
+          KEY_EXIT                 0x00000000000000A6        #  Was: exit
+          last_chan                0x00000000000000E6
+          call_id                  0x00000000000000D6
+      end codes
+
+end remote
+
+#
+# Infared, stream 3
+#
+
+begin remote
+
+  name  SRC-200A_3
+  bits            8
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  header       5057  2889
+  one          1065   902
+  zero         1065  2889
+  ptrail       1065
+  post_data_bits  8
+  post_data      0xFF
+  gap          46655
+  toggle_bit      0
+
+
+      begin codes
+          KEY_SELECT               0x00000000000000CC        #  Was: select
+          KEY_1                    0x000000000000000C        #  Was: 1
+          KEY_2                    0x0000000000000074        #  Was: 2
+          KEY_3                    0x00000000000000B4        #  Was: 3
+          KEY_4                    0x0000000000000014        #  Was: 4
+          KEY_5                    0x0000000000000064        #  Was: 5
+          KEY_6                    0x0000000000000024        #  Was: 6
+          KEY_7                    0x00000000000000AC        #  Was: 7
+          KEY_8                    0x000000000000006C        #  Was: 8
+          KEY_9                    0x000000000000008C        #  Was: 9
+          KEY_0                    0x00000000000000D8        #  Was: 0
+          KEY_CHANNELUP            0x000000000000002C        #  Was: chan_up
+          KEY_CHANNELDOWN          0x00000000000000F4        #  Was: chan_down
+          KEY_B                    0x00000000000000A8        #  Was: b
+          KEY_EXIT                 0x00000000000000A4        #  Was: exit
+          last_chan                0x00000000000000E4
+          call_id                  0x00000000000000D4
+      end codes
+
+end remote
+
+

@@ -1,0 +1,53 @@
+#
+# LIRCD configuration file for Xbox DVD Kit
+#
+# Marko Friedemann <mfr|bmx-chemnitz.de>
+#
+#
+# brand:             Microsoft
+# model:             Xbox DVD Remote
+# supported devices: Xbox DVD Remote via xpad-ir driver
+#
+# comment:           EXPERIMENTAL
+#
+
+begin remote
+
+    name  XboxDVDDongle
+    bits           8
+
+    begin codes
+
+          KEY_SELECT               0x0b                      #  Was: SELECT
+          KEY_UP                   0xa6                      #  Was: UP
+          KEY_DOWN                 0xa7                      #  Was: DOWN
+          KEY_RIGHT                0xa8                      #  Was: RIGHT
+          KEY_LEFT                 0xa9                      #  Was: LEFT
+          KEY_INFO                 0xc3                      #  Was: INFO
+
+          KEY_9                    0xc6                      #  Was: 9
+          KEY_8                    0xc7                      #  Was: 8
+          KEY_7                    0xc8                      #  Was: 7
+          KEY_6                    0xc9                      #  Was: 6
+          KEY_5                    0xca                      #  Was: 5
+          KEY_4                    0xcb                      #  Was: 4
+          KEY_3                    0xcc                      #  Was: 3
+          KEY_2                    0xcd                      #  Was: 2
+          KEY_1                    0xce                      #  Was: 1
+          KEY_0                    0xcf                      #  Was: 0
+
+        DISPLAY                0xd5
+          KEY_BACK                 0xd8                      #  Was: BACK
+          KEY_PREVIOUS             0xdd                      #  Was: SKIP-
+          KEY_NEXT                 0xdf                      #  Was: SKIP+
+          KEY_STOP                 0xe0                      #  Was: STOP
+       REVERSE         0xe2
+          KEY_FORWARD              0xe3                      #  Was: FORWARD
+          KEY_TITLE                0xe5                      #  Was: TITLE
+          KEY_PAUSE                0xe6                      #  Was: PAUSE
+          KEY_PLAY                 0xea                      #  Was: PLAY
+          KEY_MENU                 0xf7                      #  Was: MENU
+
+      end codes
+
+end remote

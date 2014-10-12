@@ -1,0 +1,288 @@
+# 
+# lircmd config file for the mouseremote control
+# 
+
+# ACCELERATOR start max multiplier
+
+ACCELERATOR 1 3 2
+
+#ACTIVATE * MENU
+
+
+MOVE_N    mouseremote   MOUSE_SLOW_N
+MOVE_N    mouseremote   MOUSE_SLOW_N
+
+MOVE_N    mouseremote   MOUSE_MEDIUM_N
+MOVE_N    mouseremote   MOUSE_MEDIUM_N
+MOVE_N    mouseremote   MOUSE_MEDIUM_N
+MOVE_N    mouseremote   MOUSE_MEDIUM_N
+
+MOVE_N    mouseremote   MOUSE_FAST_N
+MOVE_N    mouseremote   MOUSE_FAST_N
+MOVE_N    mouseremote   MOUSE_FAST_N
+MOVE_N    mouseremote   MOUSE_FAST_N
+MOVE_N    mouseremote   MOUSE_FAST_N
+MOVE_N    mouseremote   MOUSE_FAST_N
+MOVE_N    mouseremote   MOUSE_FAST_N
+MOVE_N    mouseremote   MOUSE_FAST_N
+
+MOVE_N    mouseremote   MOUSE_SLOW_NNE
+MOVE_NE   mouseremote   MOUSE_SLOW_NNE
+
+MOVE_N    mouseremote   MOUSE_MEDIUM_NNE
+MOVE_NE   mouseremote   MOUSE_MEDIUM_NNE
+MOVE_N    mouseremote   MOUSE_MEDIUM_NNE
+MOVE_NE   mouseremote   MOUSE_MEDIUM_NNE
+
+MOVE_N    mouseremote   MOUSE_FAST_NNE
+MOVE_NE   mouseremote   MOUSE_FAST_NNE
+MOVE_N    mouseremote   MOUSE_FAST_NNE
+MOVE_NE   mouseremote   MOUSE_FAST_NNE
+MOVE_N    mouseremote   MOUSE_FAST_NNE
+MOVE_NE   mouseremote   MOUSE_FAST_NNE
+MOVE_N    mouseremote   MOUSE_FAST_NNE
+MOVE_NE   mouseremote   MOUSE_FAST_NNE
+
+MOVE_NE   mouseremote   MOUSE_SLOW_NE
+MOVE_NE   mouseremote   MOUSE_SLOW_NE
+
+MOVE_NE   mouseremote   MOUSE_MEDIUM_NE
+MOVE_NE   mouseremote   MOUSE_MEDIUM_NE
+MOVE_NE   mouseremote   MOUSE_MEDIUM_NE
+MOVE_NE   mouseremote   MOUSE_MEDIUM_NE
+
+MOVE_NE   mouseremote   MOUSE_FAST_NE
+MOVE_NE   mouseremote   MOUSE_FAST_NE
+MOVE_NE   mouseremote   MOUSE_FAST_NE
+MOVE_NE   mouseremote   MOUSE_FAST_NE
+MOVE_NE   mouseremote   MOUSE_FAST_NE
+MOVE_NE   mouseremote   MOUSE_FAST_NE
+MOVE_NE   mouseremote   MOUSE_FAST_NE
+MOVE_NE   mouseremote   MOUSE_FAST_NE
+
+MOVE_E    mouseremote   MOUSE_SLOW_ENE
+MOVE_NE   mouseremote   MOUSE_SLOW_ENE
+
+MOVE_E    mouseremote   MOUSE_MEDIUM_ENE
+MOVE_NE   mouseremote   MOUSE_MEDIUM_ENE
+MOVE_E    mouseremote   MOUSE_MEDIUM_ENE
+MOVE_NE   mouseremote   MOUSE_MEDIUM_ENE
+
+MOVE_E    mouseremote   MOUSE_FAST_ENE
+MOVE_NE   mouseremote   MOUSE_FAST_ENE
+MOVE_E    mouseremote   MOUSE_FAST_ENE
+MOVE_NE   mouseremote   MOUSE_FAST_ENE
+MOVE_E    mouseremote   MOUSE_FAST_ENE
+MOVE_NE   mouseremote   MOUSE_FAST_ENE
+MOVE_E    mouseremote   MOUSE_FAST_ENE
+MOVE_NE   mouseremote   MOUSE_FAST_ENE
+
+MOVE_E    mouseremote   MOUSE_SLOW_E
+MOVE_E    mouseremote   MOUSE_SLOW_E
+
+MOVE_E    mouseremote   MOUSE_MEDIUM_E
+MOVE_E    mouseremote   MOUSE_MEDIUM_E
+MOVE_E    mouseremote   MOUSE_MEDIUM_E
+MOVE_E    mouseremote   MOUSE_MEDIUM_E
+
+MOVE_E    mouseremote   MOUSE_FAST_E
+MOVE_E    mouseremote   MOUSE_FAST_E
+MOVE_E    mouseremote   MOUSE_FAST_E
+MOVE_E    mouseremote   MOUSE_FAST_E
+MOVE_E    mouseremote   MOUSE_FAST_E
+MOVE_E    mouseremote   MOUSE_FAST_E
+MOVE_E    mouseremote   MOUSE_FAST_E
+MOVE_E    mouseremote   MOUSE_FAST_E
+
+MOVE_E    mouseremote   MOUSE_SLOW_ESE
+MOVE_SE   mouseremote   MOUSE_SLOW_ESE
+
+MOVE_E    mouseremote   MOUSE_MEDIUM_ESE
+MOVE_SE   mouseremote   MOUSE_MEDIUM_ESE
+MOVE_E    mouseremote   MOUSE_MEDIUM_ESE
+MOVE_SE   mouseremote   MOUSE_MEDIUM_ESE
+
+MOVE_E    mouseremote   MOUSE_FAST_ESE
+MOVE_SE   mouseremote   MOUSE_FAST_ESE
+MOVE_E    mouseremote   MOUSE_FAST_ESE
+MOVE_SE   mouseremote   MOUSE_FAST_ESE
+MOVE_E    mouseremote   MOUSE_FAST_ESE
+MOVE_SE   mouseremote   MOUSE_FAST_ESE
+MOVE_E    mouseremote   MOUSE_FAST_ESE
+MOVE_SE   mouseremote   MOUSE_FAST_ESE
+
+MOVE_SE   mouseremote   MOUSE_SLOW_SE
+MOVE_SE   mouseremote   MOUSE_SLOW_SE
+
+MOVE_SE   mouseremote   MOUSE_MEDIUM_SE
+MOVE_SE   mouseremote   MOUSE_MEDIUM_SE
+MOVE_SE   mouseremote   MOUSE_MEDIUM_SE
+MOVE_SE   mouseremote   MOUSE_MEDIUM_SE
+
+MOVE_SE   mouseremote   MOUSE_FAST_SE
+MOVE_SE   mouseremote   MOUSE_FAST_SE
+MOVE_SE   mouseremote   MOUSE_FAST_SE
+MOVE_SE   mouseremote   MOUSE_FAST_SE
+MOVE_SE   mouseremote   MOUSE_FAST_SE
+MOVE_SE   mouseremote   MOUSE_FAST_SE
+MOVE_SE   mouseremote   MOUSE_FAST_SE
+MOVE_SE   mouseremote   MOUSE_FAST_SE
+
+MOVE_S    mouseremote   MOUSE_SLOW_SSE
+MOVE_SE   mouseremote   MOUSE_SLOW_SSE
+
+MOVE_S    mouseremote   MOUSE_MEDIUM_SSE
+MOVE_SE   mouseremote   MOUSE_MEDIUM_SSE
+MOVE_S    mouseremote   MOUSE_MEDIUM_SSE
+MOVE_SE   mouseremote   MOUSE_MEDIUM_SSE
+
+MOVE_S    mouseremote   MOUSE_FAST_SSE
+MOVE_SE   mouseremote   MOUSE_FAST_SSE
+MOVE_S    mouseremote   MOUSE_FAST_SSE
+MOVE_SE   mouseremote   MOUSE_FAST_SSE
+MOVE_S    mouseremote   MOUSE_FAST_SSE
+MOVE_SE   mouseremote   MOUSE_FAST_SSE
+MOVE_S    mouseremote   MOUSE_FAST_SSE
+MOVE_SE   mouseremote   MOUSE_FAST_SSE
+
+MOVE_S    mouseremote   MOUSE_SLOW_S
+MOVE_S    mouseremote   MOUSE_SLOW_S
+
+MOVE_S    mouseremote   MOUSE_MEDIUM_S
+MOVE_S    mouseremote   MOUSE_MEDIUM_S
+MOVE_S    mouseremote   MOUSE_MEDIUM_S
+MOVE_S    mouseremote   MOUSE_MEDIUM_S
+
+MOVE_S    mouseremote   MOUSE_FAST_S
+MOVE_S    mouseremote   MOUSE_FAST_S
+MOVE_S    mouseremote   MOUSE_FAST_S
+MOVE_S    mouseremote   MOUSE_FAST_S
+MOVE_S    mouseremote   MOUSE_FAST_S
+MOVE_S    mouseremote   MOUSE_FAST_S
+MOVE_S    mouseremote   MOUSE_FAST_S
+MOVE_S    mouseremote   MOUSE_FAST_S
+
+MOVE_S    mouseremote   MOUSE_SLOW_SSW
+MOVE_SW   mouseremote   MOUSE_SLOW_SSW
+
+MOVE_S    mouseremote   MOUSE_MEDIUM_SSW
+MOVE_SW   mouseremote   MOUSE_MEDIUM_SSW
+MOVE_S    mouseremote   MOUSE_MEDIUM_SSW
+MOVE_SW   mouseremote   MOUSE_MEDIUM_SSW
+
+MOVE_S    mouseremote   MOUSE_FAST_SSW
+MOVE_SW   mouseremote   MOUSE_FAST_SSW
+MOVE_S    mouseremote   MOUSE_FAST_SSW
+MOVE_SW   mouseremote   MOUSE_FAST_SSW
+MOVE_S    mouseremote   MOUSE_FAST_SSW
+MOVE_SW   mouseremote   MOUSE_FAST_SSW
+MOVE_S    mouseremote   MOUSE_FAST_SSW
+MOVE_SW   mouseremote   MOUSE_FAST_SSW
+
+MOVE_SW   mouseremote   MOUSE_SLOW_SW
+MOVE_SW   mouseremote   MOUSE_SLOW_SW
+
+MOVE_SW   mouseremote   MOUSE_MEDIUM_SW
+MOVE_SW   mouseremote   MOUSE_MEDIUM_SW
+MOVE_SW   mouseremote   MOUSE_MEDIUM_SW
+MOVE_SW   mouseremote   MOUSE_MEDIUM_SW
+
+MOVE_SW   mouseremote   MOUSE_FAST_SW
+MOVE_SW   mouseremote   MOUSE_FAST_SW
+MOVE_SW   mouseremote   MOUSE_FAST_SW
+MOVE_SW   mouseremote   MOUSE_FAST_SW
+MOVE_SW   mouseremote   MOUSE_FAST_SW
+MOVE_SW   mouseremote   MOUSE_FAST_SW
+MOVE_SW   mouseremote   MOUSE_FAST_SW
+MOVE_SW   mouseremote   MOUSE_FAST_SW
+
+MOVE_W    mouseremote   MOUSE_SLOW_WSW
+MOVE_SW   mouseremote   MOUSE_SLOW_WSW
+
+MOVE_W    mouseremote   MOUSE_MEDIUM_WSW
+MOVE_SW   mouseremote   MOUSE_MEDIUM_WSW
+MOVE_W    mouseremote   MOUSE_MEDIUM_WSW
+MOVE_SW   mouseremote   MOUSE_MEDIUM_WSW
+
+MOVE_W    mouseremote   MOUSE_FAST_WSW
+MOVE_SW   mouseremote   MOUSE_FAST_WSW
+MOVE_W    mouseremote   MOUSE_FAST_WSW
+MOVE_SW   mouseremote   MOUSE_FAST_WSW
+MOVE_W    mouseremote   MOUSE_FAST_WSW
+MOVE_SW   mouseremote   MOUSE_FAST_WSW
+MOVE_W    mouseremote   MOUSE_FAST_WSW
+MOVE_SW   mouseremote   MOUSE_FAST_WSW
+
+MOVE_W    mouseremote   MOUSE_SLOW_W
+MOVE_W    mouseremote   MOUSE_SLOW_W
+
+MOVE_W    mouseremote   MOUSE_MEDIUM_W
+MOVE_W    mouseremote   MOUSE_MEDIUM_W
+MOVE_W    mouseremote   MOUSE_MEDIUM_W
+MOVE_W    mouseremote   MOUSE_MEDIUM_W
+
+MOVE_W    mouseremote   MOUSE_FAST_W
+MOVE_W    mouseremote   MOUSE_FAST_W
+MOVE_W    mouseremote   MOUSE_FAST_W
+MOVE_W    mouseremote   MOUSE_FAST_W
+MOVE_W    mouseremote   MOUSE_FAST_W
+MOVE_W    mouseremote   MOUSE_FAST_W
+MOVE_W    mouseremote   MOUSE_FAST_W
+MOVE_W    mouseremote   MOUSE_FAST_W
+
+MOVE_W    mouseremote   MOUSE_SLOW_WNW
+MOVE_NW   mouseremote   MOUSE_SLOW_WNW
+
+MOVE_W    mouseremote   MOUSE_MEDIUM_WNW
+MOVE_NW   mouseremote   MOUSE_MEDIUM_WNW
+MOVE_W    mouseremote   MOUSE_MEDIUM_WNW
+MOVE_NW   mouseremote   MOUSE_MEDIUM_WNW
+
+MOVE_W    mouseremote   MOUSE_FAST_WNW
+MOVE_NW   mouseremote   MOUSE_FAST_WNW
+MOVE_W    mouseremote   MOUSE_FAST_WNW
+MOVE_NW   mouseremote   MOUSE_FAST_WNW
+MOVE_W    mouseremote   MOUSE_FAST_WNW
+MOVE_NW   mouseremote   MOUSE_FAST_WNW
+MOVE_W    mouseremote   MOUSE_FAST_WNW
+MOVE_NW   mouseremote   MOUSE_FAST_WNW
+
+MOVE_NW   mouseremote   MOUSE_SLOW_NW
+MOVE_NW   mouseremote   MOUSE_SLOW_NW
+
+MOVE_NW   mouseremote   MOUSE_MEDIUM_NW
+MOVE_NW   mouseremote   MOUSE_MEDIUM_NW
+MOVE_NW   mouseremote   MOUSE_MEDIUM_NW
+MOVE_NW   mouseremote   MOUSE_MEDIUM_NW
+
+MOVE_NW   mouseremote   MOUSE_FAST_NW
+MOVE_NW   mouseremote   MOUSE_FAST_NW
+MOVE_NW   mouseremote   MOUSE_FAST_NW
+MOVE_NW   mouseremote   MOUSE_FAST_NW
+MOVE_NW   mouseremote   MOUSE_FAST_NW
+MOVE_NW   mouseremote   MOUSE_FAST_NW
+MOVE_NW   mouseremote   MOUSE_FAST_NW
+MOVE_NW   mouseremote   MOUSE_FAST_NW
+
+MOVE_N    mouseremote   MOUSE_SLOW_NNW
+MOVE_NW   mouseremote   MOUSE_SLOW_NNW
+
+MOVE_N    mouseremote   MOUSE_MEDIUM_NNW
+MOVE_NW   mouseremote   MOUSE_MEDIUM_NNW
+MOVE_N    mouseremote   MOUSE_MEDIUM_NNW
+MOVE_NW   mouseremote   MOUSE_MEDIUM_NNW
+
+MOVE_N    mouseremote   MOUSE_FAST_NNW
+MOVE_NW   mouseremote   MOUSE_FAST_NNW
+MOVE_N    mouseremote   MOUSE_FAST_NNW
+MOVE_NW   mouseremote   MOUSE_FAST_NNW
+MOVE_N    mouseremote   MOUSE_FAST_NNW
+MOVE_NW   mouseremote   MOUSE_FAST_NNW
+MOVE_N    mouseremote   MOUSE_FAST_NNW
+MOVE_NW   mouseremote   MOUSE_FAST_NNW
+  
+BUTTON1_DOWN   mouseremote   BUTTONL_DOWN
+BUTTON2_DOWN   mouseremote   BUTTONR_DOWN
+
+BUTTON1_UP   mouseremote   BUTTON_UP
+BUTTON2_UP   mouseremote   BUTTON_UP

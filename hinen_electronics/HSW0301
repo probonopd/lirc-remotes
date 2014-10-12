@@ -1,0 +1,32 @@
+#
+# Contributed by Marcin Marszalek <azzie|astronet.pl>
+#
+
+# Brand:             Hinen Electronics
+# Model:             HSW0301
+# Controlled device: HDMI switch 3x1
+
+begin remote
+    name	Hinen_Electronics_HSW0301
+    bits	16
+    flags	SPACE_ENC|CONST_LENGTH
+    eps		30
+    aeps	100
+    frequency	38000
+    duty_cycle	33
+
+    header	9000	4500
+    one		563	1687
+    zero	563	562
+    ptrail	563
+    gap		108000
+
+    pre_data_bits	16
+    pre_data		0xFF
+
+    begin codes
+          KEY_1                    0x20DF                    #  Was: 1
+          KEY_2                    0x10EF                    #  Was: 2
+          KEY_3                    0x50AF                    #  Was: 3
+    end codes
+end remote

@@ -1,0 +1,91 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.6(serial) on Mon Apr 28 19:10:06 2003
+#
+# contributed by Shamim Mohamed www.drones.com
+#
+# brand:                       Sony
+# model no. of remote control: RMT-V202
+# devices being controlled by this remote: TV and VCR
+#
+
+begin remote
+
+  name  RMT-V202
+  bits           11
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       2453   562
+  one          1232   559
+  zero          635   559
+  ptrail        640
+  gap          44747
+  min_repeat      3
+  toggle_bit      0
+
+
+      begin codes
+          T:POWER                  0x0000000000000548
+          V:POWER                  0x000000000000054D
+          KEY_EJECTCD              0x000000000000034D        #  Was: Eject
+          T:Display                0x00000000000002E8
+          V:Display                0x00000000000002DD
+          CounterReset             0x000000000000031D
+          T:AudioMonitor           0x0000000000000748
+          V:AudioMonitor           0x000000000000074D
+          TimerClear               0x000000000000063D
+          CounterRemain            0x000000000000041D
+          V:TV/VTR                 0x00000000000002AD
+          T:TV/VTR                 0x0000000000000528
+          QuickTimer               0x000000000000025D
+          T:1                      0x0000000000000008
+          T:2                      0x0000000000000408
+          T:3                      0x0000000000000208
+          T:4                      0x0000000000000608
+          T:5                      0x0000000000000108
+          T:6                      0x0000000000000508
+          T:7                      0x0000000000000308
+          T:8                      0x0000000000000708
+          T:9                      0x0000000000000088
+          T:0                      0x0000000000000488
+          V:1                      0x000000000000000D
+          V:2                      0x000000000000040D
+          V:3                      0x000000000000020D
+          V:4                      0x000000000000060D
+          V:5                      0x000000000000010D
+          V:6                      0x000000000000050D
+          V:7                      0x000000000000030D
+          V:8                      0x000000000000070D
+          V:9                      0x000000000000008D
+          V:0                      0x000000000000048D
+          InputSelect              0x000000000000079D
+          TapeSpeed                0x00000000000000DD
+          x2                       0x000000000000014D
+          T:Enter                  0x0000000000000688
+          V:Enter                  0x000000000000068D
+          KEY_RECORD               0x00000000000005CD        #  Was: Rec
+          KEY_SLOW                 0x000000000000062D        #  Was: Slow
+          T:Vol+                   0x0000000000000248
+          T:Vol-                   0x0000000000000648
+          T:Ch+                    0x0000000000000048
+          T:Ch-                    0x0000000000000448
+          Index<<                  0x000000000000075D
+          Index>>                  0x000000000000035D
+          T:Menu                   0x0000000000000038
+          V:Menu                   0x000000000000059D
+          SmartCue                 0x00000000000005DD
+          T:Pause                  0x0000000000000178
+          T:Stop                   0x0000000000000578
+          T:Rew                    0x0000000000000168
+          T:FF                     0x0000000000000668
+          T:Execute                0x0000000000000538
+          V:Pause                  0x00000000000004CD
+          V:Stop                   0x00000000000000CD
+          V:Rew                    0x00000000000006CD
+          V:FF                     0x00000000000001CD
+          V:Execute                0x000000000000045D
+      end codes
+
+end remote

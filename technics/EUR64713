@@ -1,0 +1,77 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.3(serial) on Sun Mar 25 20:22:34 2001
+#
+# contributed by camilo@mesias.co.uk
+#
+# brand:  Technics
+# model:  EUR64713
+# supported devices: ?
+#
+
+begin remote
+
+  name  EUR64713
+  bits           17
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       3674  3666
+  one           908  2750
+  zero          908   920
+  ptrail        908
+  pre_data_bits   5
+  pre_data       0x6
+  gap          109752
+  toggle_bit      0
+
+
+      begin codes
+          KEY_PLAY                 0x000000000000A66B        #  Was: play
+          KEY_PAUSE                0x000000000000C667        #  Was: pause
+          KEY_STOP                 0x000000000000067F        #  Was: stop
+          searchL                  0x0000000000004677
+          searchR                  0x0000000000014657
+          skipL                    0x000000000000866F
+          skipR                    0x000000000001864F
+          kp1                      0x000000000000167D
+          kp2                      0x000000000001165D
+          kp3                      0x000000000000966D
+          kp4                      0x000000000001964D
+          kp5                      0x0000000000005675
+          kp6                      0x0000000000015655
+          kp7                      0x000000000000D665
+          kp8                      0x000000000001D645
+          kp9                      0x0000000000003679
+          kp10                     0x0000000000001E7C
+          kp11                     0x0000000000011E5C
+          kp12                     0x0000000000009E6C
+          kp13                     0x0000000000019E4C
+          kp14                     0x0000000000005E74
+          kp15                     0x0000000000015E54
+          kp16                     0x000000000000DE64
+          kp17                     0x000000000001DE44
+          kp18                     0x0000000000003E78
+          kp19                     0x0000000000013E58
+          kp20                     0x000000000000BE68
+          kpdecade                 0x000000000000B669
+          kp0                      0x0000000000013659
+          program                  0x0000000000017651
+          KEY_CLEAR                0x000000000001A64B        #  Was: clear
+          KEY_AGAIN                0x000000000001265B        #  Was: recall
+          abrepeat                 0x000000000000267B
+          KEY_AGAIN                0x000000000001C647        #  Was: repeat
+          indexL                   0x0000000000006673
+          indexR                   0x0000000000016653
+          random                   0x000000000001F641
+          scan                     0x000000000001E643
+          cue                      0x0000000000018E4E
+          display                  0x000000000001EE42
+          KEY_TIME                 0x0000000000012E5A        #  Was: time
+      end codes
+
+end remote
+
+
+

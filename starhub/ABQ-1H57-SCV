@@ -1,0 +1,79 @@
+#
+# this config file was automatically generated
+# using remote-0.7.2(act200l) on Thu Oct 20 11:27:18 2005
+#
+# contributed by Chris Hamilton <chris|ambigc.com>
+#
+# brand: Advanced Digital Broadcast DVB STB OEM for Starhub
+# model no. of remote control: Starhub ABQ-1H57-SCV remote
+# devices being controlled by this remote: Starhub ABQ-1H57-SCV STB
+#
+# This is the remote that comes with the standard DVB STB/tuner that
+# Starhub rents to subscribers.
+
+begin remote
+
+  name  starhub
+  bits            8
+  flags RCMM
+  eps             2
+  aeps          100
+
+  header        368   320
+  three         122   820
+  two           122   650
+  one           122   485
+  zero          122   320
+  ptrail        122
+  pre_data_bits   24
+  pre_data       0x219026
+  gap          90000
+  toggle_bit      17
+
+      begin codes
+          KEY_POWER                0x0C                      #  Was: power
+          KEY_TV                   0x43                      #  Was: tv
+          KEY_MUTE                 0x0D                      #  Was: mute
+          KEY_AUDIO                0x4E                      #  Was: audio
+          KEY_1                    0x01                      #  Was: 1
+          KEY_2                    0x02                      #  Was: 2
+          KEY_3                    0x03                      #  Was: 3
+          KEY_4                    0x04                      #  Was: 4
+          KEY_5                    0x05                      #  Was: 5
+          KEY_6                    0x06                      #  Was: 6
+          KEY_7                    0x07                      #  Was: 7
+          KEY_8                    0x08                      #  Was: 8
+          KEY_9                    0x09                      #  Was: 9
+          KEY_0                    0x00                      #  Was: 0
+          KEY_NUMERIC_STAR         0xF6                      #  Was: star
+          pound                    0xF7
+          KEY_RED                  0x6D                      #  Was: red
+          KEY_GREEN                0x6E                      #  Was: green
+          KEY_YELLOW               0x6F                      #  Was: yellow
+          KEY_BLUE                 0x70                      #  Was: blue
+          KEY_INFO                 0x0F                      #  Was: info
+          KEY_INFO                 0xCC                      #  Was: guide
+          KEY_UP                   0x58                      #  Was: up
+          KEY_LEFT                 0x5A                      #  Was: left
+          KEY_RIGHT                0x5B                      #  Was: right
+          KEY_DOWN                 0x59                      #  Was: down
+          KEY_OK                   0x5C                      #  Was: ok
+          KEY_BACK                 0x83                      #  Was: back
+          KEY_EXIT                 0xE0                      #  Was: exit
+          KEY_CHANNELUP            0x20                      #  Was: channel_up
+          KEY_CHANNELDOWN          0x21                      #  Was: channel_down
+          KEY_VOLUMEUP             0x10                      #  Was: volume_up
+          KEY_VOLUMEDOWN           0x11                      #  Was: volume_down
+          KEY_MENU                 0x54                      #  Was: menu
+          KEY_FAVORITES            0x84                      #  Was: favorite
+          ppv-vod                  0xFD
+          KEY_HELP                 0x81                      #  Was: help
+          mosaic                   0x66
+          messaging                0xF3
+          games                    0xF5
+          KEY_OPTION               0xDB                      #  Was: option
+      end codes
+
+end remote
+
+

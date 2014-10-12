@@ -1,0 +1,93 @@
+
+# this config file was automatically generated
+# using lirc-0.6.6(serial) on Fri May 23 23:19:03 2003
+#
+# contributed by michael kuemmel
+#
+# brand: Sony
+# model no. of remote control: RM-U33AV
+# devices being controlled by this remote: MHC-901AV
+#
+
+begin remote
+
+  name RM-U33AV
+  bits           12
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       2464   553
+  one          1245   553
+  zero          648   553
+  gap          45026
+  min_repeat      2
+  toggle_bit      0
+
+
+      begin codes
+          Surround_Theater         0x0000000000000BA9
+          Surround_Hall            0x00000000000005A9
+          Surround_Live            0x00000000000003A9
+          Pro_Logic                0x00000000000001A9
+          Test_Tone                0x0000000000000529
+          Center_Vol+              0x00000000000002A9
+          Center_Vol-              0x0000000000000AA9
+          Rear_Vol+                0x0000000000000729
+          Rear_Vol-                0x0000000000000F29
+          System_Power             0x0000000000000A81
+          TV_Power                 0x0000000000000A90
+          VCR_1_Power              0x0000000000000A88
+          VCR_2_Power              0x0000000000000A9C
+          VCR_3_Power              0x0000000000000A9A
+          KEY_SLEEP                0x0000000000000061        #  Was: Sleep
+          Function                 0x0000000000000966
+          TV_Ch+                   0x0000000000000090
+          TV_Ch-                   0x0000000000000890
+          TV_Vol+                  0x0000000000000490
+          TV_Vol-                  0x0000000000000C90
+          TV_VCR_Switch            0x0000000000000A50
+          VCR_1_Play               0x0000000000000588
+          VCR_1_Pause              0x0000000000000988
+          VCR_1_Stop               0x0000000000000188
+          VCR_1_<<                 0x0000000000000D88
+          VCR_1_>>                 0x0000000000000388
+          VCR_2_Play               0x000000000000059C
+          VCR_2_Pause              0x000000000000099C
+          VCR_2_Stop               0x000000000000019C
+          VCR_2_<<                 0x0000000000000D9C
+          VCR_2_>>                 0x000000000000039C
+          VCR_3_Play               0x000000000000059A
+          VCR_3_Pause              0x000000000000099A
+          VCR_3_Stop               0x000000000000019A
+          VCR_3_<<                 0x0000000000000D9A
+          VCR_3_>>                 0x000000000000039A
+          CD_Play                  0x00000000000004D1
+          CD_Pause                 0x00000000000009D1
+          CD_Stop                  0x00000000000001D1
+          CD_Track-                0x00000000000000D1
+          CD_Track+                0x00000000000008D1
+          CD_Repeat                0x0000000000000351
+          CD_<<                    0x0000000000000CD1
+          CD_>>                    0x00000000000002D1
+          CD_Edit                  0x0000000000000571
+          CD_Check                 0x0000000000000B11
+          CD_Clear                 0x0000000000000F11
+          Tuner_Band               0x0000000000000F16
+          Tuner_Station+           0x0000000000000096
+          Tuner_Station-           0x0000000000000896
+          Tape_Direction_<         0x0000000000000EC1
+          Tape_Direction_>         0x00000000000004C1
+          Tape_Stop                0x00000000000001C1
+          Tape_<<                  0x0000000000000CC1
+          Tape_>>                  0x00000000000002C1
+          Main_Vol+                0x0000000000000481
+          Main_Vol-                0x0000000000000C81
+          MD_Play                  0x000000000000055E
+          MD_Pause                 0x000000000000095E
+          MD_Stop                  0x000000000000015E
+
+      end codes
+
+end remote
+

@@ -1,0 +1,65 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.0 on Tue May  9 21:31:42 2000
+#
+# contributed by Detlef Sanchen <detlef.sanchen@gmx.net>
+#
+# brand:             Pioneer
+# model:             CU-SX070
+# supported devices: Receiver SX-302
+#
+
+begin remote
+
+  name  CU-SX070
+  bits           31
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       8679  4122
+  one           694  1437
+  zero          694   372
+  ptrail        701
+  post_data_bits  1
+  post_data      0x1
+  gap          90034
+  repeat_bit      0
+
+      begin codes
+          Tape_Select              0x0000000042BD1966
+          Tape_Reverse_Play        0x0000000042BD542B
+          Tape_Stop                0x0000000042BD344B
+          Tape_Play                0x0000000042BD740B
+          Tape_Deck_I              0x0000000042BD1867
+          Tape_Deck_II             0x0000000042BD5827
+          Tape_Fast_Rewind         0x0000000042BD443B
+          Tape_Fast_Forewind       0x0000000042BD047B
+          Disc_Select              0x0000000022DD5C23
+          CD_Pause                 0x0000000022DD0C73
+          CD_Stop                  0x0000000022DD344B
+          CD_Play                  0x0000000022DD740B
+          CD_Track_-               0x0000000022DD443B
+          CD_Track_+               0x0000000022DD047B
+          Tuning_-                 0x0000000012ED750A
+          Tuning_+                 0x0000000012ED354A
+          Station_+                0x0000000012ED047B
+          Station_-                0x0000000012ED443B
+          BAND                     0x0000000012ED641B
+          SCAN                     0x0000000012ED5926
+          HITS                     0x0000000012ED3946
+          Tape_2_Monitor           0x0000000052AD5C23
+          Tape_1_Dat               0x0000000052AD3946
+          VCR_LD                   0x0000000052AD7807
+          KEY_CD                   0x0000000052AD1966        #  Was: CD
+          KEY_TUNER                0x0000000052AD710E        #  Was: TUNER
+          PHONO                    0x0000000052AD5926
+          KEY_VOLUMEDOWN           0x0000000052AD6817        #  Was: Volume_-
+          KEY_VOLUMEUP             0x0000000052AD2857        #  Was: Volume_+
+          KEY_POWER                0x0000000052AD1C63        #  Was: Power
+          KEY_SLEEP                0x0000000052AD0976        #  Was: Sleep
+      end codes
+
+end remote
+
+

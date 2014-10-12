@@ -1,0 +1,154 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.3(default) on Sun Jul 20 01:02:48 2008
+#
+# contributed by Cigy Cyriac
+#
+# brand: Avex
+# model no. of remote control: URC-R6
+# devices being controlled by this remote: AUX (001)
+
+# Based on HP_Pavilion_m7682.fr
+#
+
+begin remote
+
+  name  Avex_URC-R6_AUX
+  bits           13
+  flags RC6|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       2667   889
+  one           444   444
+  zero          444   444
+  pre_data_bits   24
+  pre_data       0x1BFF83
+  gap          105000
+  toggle_bit_mask 0x8000
+  rc6_mask    0x100000000
+
+      begin codes
+          KEY_INFO                 0x1BD9                    #  Was: guide
+          input                    0x1BDA
+          KEY_LAST                 0x1BDC                    #  Was: last
+          sel                      0x1BDD
+          KEY_RIGHT                0x1BDE                    #  Was: right
+          KEY_LEFT                 0x1BDF                    #  Was: left
+          KEY_DOWN                 0x1BE0                    #  Was: down
+          KEY_UP                   0x1BE1                    #  Was: up
+          KEY_PREVIOUS             0x1BE4
+          KEY_NEXT                 0x1BE5
+          KEY_STOP                 0x1BE6                    #  Was: stop
+          KEY_PAUSE                0x1BE7                    #  Was: pause
+          KEY_RECORD               0x1BE8                    #  Was: rec
+          KEY_PLAY                 0x1BE9                    #  Was: play
+          KEY_REWIND               0x1BEA                    #  Was: rew
+          KEY_FASTFORWARD          0x1BEB                    #  Was: ff
+          KEY_CHANNELDOWN          0x1BEC
+          KEY_CHANNELUP            0x1BED                    #  Was: chup
+          KEY_VOLUMEDOWN           0x1BEE
+          KEY_VOLUMEUP             0x1BEF                    #  Was: volup
+          KEY_INFO                 0x1BF0                    #  Was: info
+          KEY_MUTE                 0x1BF1                    #  Was: mute
+          KEY_MENU                 0x1BF2                    #  Was: menu
+          KEY_POWER                0x1BF3                    #  Was: power
+          KEY_ENTER                0x1BF4                    #  Was: enter
+          KEY_EXIT                 0x1BF5                    #  Was: exit
+          KEY_9                    0x1BF6                    #  Was: 9
+          KEY_8                    0x1BF7                    #  Was: 8
+          KEY_7                    0x1BF8                    #  Was: 7
+          KEY_6                    0x1BF9                    #  Was: 6
+          KEY_5                    0x1BFA                    #  Was: 5
+          KEY_4                    0x1BFB                    #  Was: 4
+          KEY_3                    0x1BFC                    #  Was: 3
+          KEY_2                    0x1BFD                    #  Was: 2
+          KEY_1                    0x1BFE                    #  Was: 1
+          KEY_0                    0x1BFF                    #  Was: 0
+          KEY_A                    0x1BB9                    #  Was: a
+          KEY_B                    0x1BB8                    #  Was: b
+          KEY_C                    0x1BB6                    #  Was: c
+          KEY_D                    0x1BB5                    #  Was: d
+      end codes
+
+end remote
+
+
+#
+# this config file was automatically generated
+# using lirc-0.8.3(default) on Fri Jul 18 21:05:45 2008
+#
+# contributed by Cigy Cyriac
+#
+# brand: Avex
+# model no. of remote control: URC-R6
+# devices being controlled by this remote: DVR/VCR (001)
+#
+
+begin remote
+
+  name  Avex_URC-R6_PVR
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9018  4447
+  one           621  1622
+  zero          621   488
+  ptrail        621
+  repeat       9020  2203
+  pre_data_bits   16
+  pre_data       0xA10C
+  gap          107663
+  toggle_bit_mask 0x0
+
+      begin codes
+          KEY_POWER                0xF00F                    #  Was: power
+          KEY_UP                   0x2807                    #  Was: up
+          KEY_DOWN                 0x6807                    #  Was: down
+          KEY_LEFT                 0xE807                    #  Was: left
+          KEY_RIGHT                0xA807                    #  Was: right
+          KEY_SELECT               0x9807                    #  Was: sel
+          KEY_MENU                 0x4807                    #  Was: menu
+          KEY_INFO                 0x6C03                    #  Was: guide
+          KEY_INFO                 0xC807                    #  Was: info
+          KEY_EXIT                 0xA20D                    #  Was: exit
+          KEY_CHANNELUP            0x7807                    #  Was: chup
+          KEY_CHANNELDOWN          0xF807
+          KEY_A                    0xE00F                    #  Was: a
+          KEY_B                    0x220D                    #  Was: b
+          KEY_C                    0x620D                    #  Was: c
+          KEY_D                    0xE40B                    #  Was: d
+          KEY_PREVIOUS             0x1807
+          KEY_NEXT                 0x5807
+          KEY_REWIND               0x440B                    #  Was: rew
+          KEY_PLAY                 0x840B                    #  Was: play
+          KEY_FASTFORWARD          0x240B                    #  Was: ff
+          KEY_STOP                 0xA40B                    #  Was: stop
+          KEY_PAUSE                0xC40B                    #  Was: pause
+          KEY_RECORD               0x040B                    #  Was: rec
+          KEY_1                    0x140B                    #  Was: 1
+          KEY_2                    0x940B                    #  Was: 2
+          KEY_3                    0x540B                    #  Was: 3
+          KEY_4                    0xD40B                    #  Was: 4
+          KEY_5                    0x340B                    #  Was: 5
+          KEY_6                    0xB40B                    #  Was: 6
+          KEY_7                    0x740B                    #  Was: 7
+          KEY_8                    0xF40B                    #  Was: 8
+          KEY_9                    0x0C03                    #  Was: 9
+          X_KEY_0+                 0x4C03                    #  Was: KEY_0+
+          KEY_0                    0x8C03                    #  Was: 0
+          KEY_ENTER                0xCC03                    #  Was: enter
+# Mapped to panasonic_vcr codes
+#         input                    vcr-tv
+#         last                     zero
+#         pip                      play
+#         swap                     stop
+#         move                     rew
+#         freeze                   ff
+      end codes
+
+end remote
+
+

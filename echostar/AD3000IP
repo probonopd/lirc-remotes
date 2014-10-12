@@ -1,0 +1,63 @@
+# This file was created manually using a Pronto ccf file and the Echostar
+# SAT301 file. I have added all the buttons I could from the original file
+# even though some of them probably aren't interesting for PVR software.
+# Thanks to I Hewitt for the Pronto file that was the source of these codes.
+#
+# contributed by: chris (at) candu (dot) co (dot) uk
+# brand:   Echostar AD3000IP
+# model no. of remote control:  Don't know
+# devices being controlled by this remote: AD3000IP (Viaccess version too?)
+#
+
+begin remote
+
+  name Echostar_AD3000IP
+  bits           16
+  flags SPACE_ENC
+  eps            30
+  aeps          100
+
+  header        400  6100
+  one           400  1700
+  zero          400  2800
+  ptrail        400
+  gap          6200
+  min_repeat      4
+  toggle_bit      0
+
+  frequency    56000
+
+      begin codes
+          KEY_POWER                0x0000000000000804        #  Was: power
+          KEY_0                    0x0000000000004404        #  Was: 0
+          KEY_1                    0x0000000000001004        #  Was: 1
+          KEY_2                    0x0000000000001404        #  Was: 2
+          KEY_3                    0x0000000000001804        #  Was: 3
+          KEY_4                    0x0000000000002004        #  Was: 4
+          KEY_5                    0x0000000000002404        #  Was: 5
+          KEY_6                    0x0000000000002804        #  Was: 6
+          KEY_7                    0x0000000000003004        #  Was: 7
+          KEY_8                    0x0000000000003404        #  Was: 8
+          KEY_9                    0x0000000000003804        #  Was: 9
+          KEY_FAVORITES            0x0000000000006C04        #  Was: fav
+          KEY_SELECT               0x0000000000004004        #  Was: select
+          KEY_UP                   0x0000000000006804        #  Was: up
+          KEY_DOWN                 0x0000000000007804        #  Was: down
+          KEY_LEFT                 0x0000000000007004        #  Was: left
+          KEY_RIGHT                0x0000000000006004        #  Was: right
+          KEY_MENU                 0x0000000000002C04        #  Was: menu
+          KEY_EXIT                 0x0000000000004804        #  Was: exit
+          KEY_SAT                  0x0000000000005804        #  Was: sat
+          KEY_AUDIO                0x000000000000D404        #  Was: audio
+          KEY_SUBTITLE             0x0000000000004C04        #  Was: subtitles
+          KEY_EPG                  0x0000000000005C04        #  Was: epg
+          KEY_INFO                 0x0000000000000004        #  Was: info
+          switch                   0x0000000000005004
+          KEY_RED                  0x000000000000B804        #  Was: red
+          KEY_GREEN                0x000000000000C004        #  Was: green
+          KEY_YELLOW               0x000000000000C404        #  Was: yellow
+          KEY_BLUE                 0x000000000000C804        #  Was: blue
+      end codes
+
+end remote
+

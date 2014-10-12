@@ -1,0 +1,58 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.2(default) on Sat Sep  1 14:51:11 2007
+#
+# contributed by Thomas Eckhardt
+#
+# brand:                       Thomson Scenium
+# model no. of remote control: RCS615TCLM1
+# devices being controlled by this remote: TV/VDR
+#
+
+begin remote
+
+   name  Thomson_RCS615TCLM1
+   bits           12
+   flags SPACE_ENC|CONST_LENGTH
+   eps            30
+   aeps          100
+
+   one           552  4501
+   zero          552  1929
+   ptrail        550
+   gap          80367
+   toggle_bit_mask 0x80
+
+       begin codes
+          KEY_UP                   0xA34                     #  Was: Up
+          KEY_DOWN                 0xA35                     #  Was: Down
+          KEY_LEFT                 0xA36                     #  Was: Left
+          KEY_RIGHT                0xA37                     #  Was: Right
+          KEY_OK                   0xA33                     #  Was: Ok
+          KEY_MENU                 0xA19                     #  Was: Menu
+          KEY_EXIT                 0xA3D                     #  Was: Exit
+          KEY_ENTER                0xA28                     #  Was: Return
+          KEY_RED                  0xA0D                     #  Was: Red
+          KEY_GREEN                0xA1A                     #  Was: Green
+          KEY_YELLOW               0xA32                     #  Was: Yellow
+          KEY_BLUE                 0xA1C                     #  Was: Blue
+           Purple                   0xA1E
+          KEY_1                    0xA00                     #  Was: 1
+          KEY_2                    0xA08                     #  Was: 2
+          KEY_3                    0xA10                     #  Was: 3
+          KEY_4                    0xA01                     #  Was: 4
+          KEY_5                    0xA09                     #  Was: 5
+          KEY_6                    0xA11                     #  Was: 6
+          KEY_7                    0xA02                     #  Was: 7
+          KEY_8                    0xA0A                     #  Was: 8
+          KEY_9                    0xA12                     #  Was: 9
+          KEY_0                    0xA0E                     #  Was: 0
+           Rev                      0xA1F
+          KEY_PLAY                 0xA20                     #  Was: Play
+          KEY_FORWARD              0xA21                     #  Was: Fwd
+          KEY_RECORD               0xA23                     #  Was: Rec
+          KEY_STOP                 0xA24                     #  Was: Stop
+          KEY_PAUSE                0xA22                     #  Was: Pause
+       end codes
+
+end remote

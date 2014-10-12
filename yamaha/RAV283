@@ -1,0 +1,68 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.5pre2(iguanaIR) on Mon Jun 15 23:29:19 2009
+#
+# contributed by Dave Hayes <dwhayes|gmail.com>
+#
+# brand:                       Yamaha
+# model no. of remote control: rav283
+# devices being controlled by this remote:
+#
+
+begin remote
+
+  name  Yamaha_RAV283
+  bits           32
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       8993  4432
+  one           567  1632
+  zero          567   504
+  ptrail        563
+  gap          107782
+  min_repeat      3
+  toggle_bit_mask 0x0
+
+      begin codes
+          KEY_TITLE                0x3EC18D72                #  Was: title
+          KEY_MENU                 0x3EC14DB2                #  Was: menu
+          KEY_UP                   0x3EC12DD2                #  Was: up
+          KEY_DOWN                 0x3EC1CD32                #  Was: down
+          KEY_LEFT                 0x3EC1AD52                #  Was: left
+          KEY_RIGHT                0x3EC16D92                #  Was: right
+          KEY_ENTER                0x3EC11DE2                #  Was: enter
+          KEY_ENTER                0x3EC1ED12                #  Was: return
+          display                  0x3EC1659A
+          KEY_VOLUMEUP             0x5EA158A7                #  Was: volume_up
+          KEY_VOLUMEDOWN           0x5EA1D827                #  Was: volume_down
+          KEY_RECORD               0x3EC1D12E                #  Was: record
+          KEY_STOP                 0x3EC1A15E                #  Was: stop
+          KEY_PAUSE                0x3EC1C13E                #  Was: pause
+          KEY_PLAY                 0x3EC141BE                #  Was: play
+          KEY_REWIND               0x3EC1619E                #  Was: rewind
+          KEY_FASTFORWARD          0x3EC1E11E                #  Was: fast_forward
+          KEY_PREVIOUS             0x3EC19D62                #  Was: previous
+          KEY_NEXT                 0x3EC15DA2                #  Was: next
+          KEY_1                    0x3EC129D6                #  Was: 1
+          KEY_2                    0x3EC1A956                #  Was: 2
+          KEY_3                    0x3EC16996                #  Was: 3
+          KEY_4                    0x3EC1E916                #  Was: 4
+          KEY_5                    0x3EC119E6                #  Was: 5
+          KEY_6                    0x3EC19966                #  Was: 6
+          KEY_7                    0x3EC159A6                #  Was: 7
+          KEY_8                    0x3EC1D926                #  Was: 8
+          KEY_9                    0x3EC139C6                #  Was: 9
+          KEY_0                    0x3EC1C936                #  Was: 0
+          KEY_10CHANNELSUP         0x3EC1B946                #  Was: +10
+          ent                      0x3EC17986
+          KEY_A                    0xFE80FC03                #  Was: a
+          KEY_B                    0x5EA12DD2                #  Was: b
+          KEY_C                    0x5EA19C63                #  Was: c
+          KEY_MUTE                 0x5EA138C7                #  Was: mute
+          KEY_POWER                0x3EC101FE                #  Was: power_av
+      end codes
+
+end remote
+

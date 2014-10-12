@@ -1,0 +1,57 @@
+#
+# This config file has been automatically converted from a device file
+# found in the 06/26/00 release of the Windows Slink-e software
+# package.
+#
+# Many thanks to Colby Boles of Nirvis Systems Inc. for allowing us to
+# use these files.
+#
+# The original filename was: "yamaha yamaha rcx cassette player.cde"
+#
+# The original description for this device was:
+#
+# yamaha yamaha rcx cassette player
+#
+
+
+begin remote
+
+  name  RCX
+  bits           32
+  flags SPACE_ENC
+  eps            20
+  aeps          200
+
+  header       8800  4400
+  one           550  1650
+  zero          550   550
+  ptrail        550
+  repeat       8800  2200
+  gap          38500
+  toggle_bit      0
+
+  frequency    38000
+
+      begin codes
+          KEY_POWER                0x000000005EA1F807        #  Was: POWER
+          SKIP-FFWD                0x000000005EA150AF
+          SKIP-REWIND              0x000000005EA1D02F
+          DISC-SCAN                0x000000005EA1F20D
+          SEARCH_FFWD              0x000000005EA130CF
+          SEARCH_REWIND            0x000000005EA1B04F
+          PAUSE_STOP               0x000000005EA1906F
+          KEY_PLAY                 0x000000005EA110EF        #  Was: PLAY
+          KEY_VOLUMEUP             0x000000005EA158A7        #  Was: VOLUME_UP
+          KEY_VOLUMEDOWN           0x000000005EA1D827        #  Was: VOLUME_DOWN
+          DECK_A/B                 0x000000005EA1609F
+          KEY_RECORD               0x000000005EA120DF        #  Was: REC/PAUSE
+          DIR_A                    0x000000005EA1E01F
+          KEY_PLAY                 0x000000005EA100FF        #  Was: PLAY
+          DIR_B                    0x000000005EA102FD
+          KEY_RECORD               0x000000005EA1A05F        #  Was: REC/MUTE
+          KEY_REWIND               0x000000005EA1807F        #  Was: REWIND
+          KEY_STOP                 0x000000005EA1C03F        #  Was: STOP
+          KEY_FASTFORWARD          0x000000005EA140BF        #  Was: FFWD
+      end codes
+
+end remote

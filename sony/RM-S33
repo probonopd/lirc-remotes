@@ -1,0 +1,59 @@
+# this config file was automatically generated
+# using lirc-0.7.1(irdeo) on Sun Jul 31 23:58:01 2005
+#
+# contributed by Jaak Ristioja
+#
+# brand:      Sony
+# model:      RM-S33
+# devices being controlled by this remote:
+#     Sony Mini Hi-Fi Component System MHC-801
+#
+# Notice:
+#     The "Tape-A" and "Tape-B" keys did not work
+#     on my remote.
+
+
+begin remote
+
+   name  irr
+   bits           12
+   flags SPACE_ENC|CONST_LENGTH
+   eps            30
+   aeps          100
+
+   header       2462   550
+   one          1240   558
+   zero          639   558
+   gap          44940
+   toggle_bit      0
+
+
+       begin codes
+          KEY_POWER                0xA81                     #  Was: Power
+          KEY_SLEEP                0x061                     #  Was: Sleep
+           Function                 0x966
+           MD_Play                  0x55E
+           MD_Pause                 0x95E
+           MD_Stop                  0x15E
+           CD_Play                  0x4D1
+           CD_Pause                 0x9D1
+           CD_Stop                  0x1D1
+           CD_Previous              0x0D1
+           CD_Next                  0x8D1
+           CD_Rewind                0xCD1
+           CD_Forward               0x2D1
+           CD_Repeat                0x351
+           CD_Edit                  0x571
+           CD_Check                 0xB11
+           CD_Clear                 0xF11
+           Tuner_Band               0xF16
+           Tuner_Preset+            0x096
+           Tuner_Preset-            0x896
+           Tape_PlayBackward        0xEC1
+           Tape_PlayForward         0x4C1
+           Tape_Stop                0x1C1
+           Tape_Rewind              0xCC1
+           Tape_Forward             0x2C1
+       end codes
+
+end remote

@@ -1,0 +1,53 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.5(serial) on Tue Feb 19 12:50:26 2002
+#
+# contributed by
+#
+# brand:                       DENON
+# model no. of remote control: RC-195
+# devices being controlled by this remote: DENON AVR-600 RD (Receiver)
+#
+
+begin remote
+
+  name  DENON_RC-195
+  bits           15
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           561   489
+  zero          561  1543
+  ptrail        561
+  gap          67329
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x0000000000005DF3        #  Was: POWER
+          KEY_UP                   0x0000000000006653        #  Was: UP
+          KEY_DOWN                 0x0000000000006553        #  Was: DOWN
+          KEY_TUNER                0x0000000000005D73        #  Was: TUNER
+          KEY_CD                   0x0000000000005F73        #  Was: CD
+          PHONO                    0x0000000000005CF3
+          KEY_VCR                  0x0000000000005D33        #  Was: VCR
+          KEY_TV                   0x0000000000005EB3        #  Was: TV
+          KEY_TAPE                 0x0000000000005ED3        #  Was: TAPE
+          STEREO                   0x0000000000005C63
+          KEY_MODE                 0x0000000000005E63        #  Was: MODE
+          TESTTONE                 0x0000000000005EA3
+          DELAY                    0x0000000000005DA3
+          KEY_MUTE                 0x0000000000005FC3        #  Was: MUTE
+          PANEL                    0x0000000000005E13
+          CENTER_UP                0x0000000000005D43
+          CENTER_DOWN              0x0000000000005E43
+          REAR_UP                  0x0000000000005CC3
+          REAR_DOWN                0x0000000000005F43
+          KEY_VOLUMEUP             0x0000000000005DC3        #  Was: VOL_UP
+          KEY_VOLUMEDOWN           0x0000000000005EC3        #  Was: VOL_DOWN
+      end codes
+
+end remote
+
+

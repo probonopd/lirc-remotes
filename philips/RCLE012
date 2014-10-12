@@ -1,0 +1,58 @@
+#
+# this config file was automatically generated
+# using lirc-0.7.1(serial) on Thu Aug 11 13:03:45 2005
+#
+# contributed by R. Pit <remote|remmelt.com>
+#
+# brand: Philips
+# model no. of remote control: RCLE 012
+# devices being controlled by this remote: TV (14 PT 1356/01)
+#
+
+begin remote
+
+  name  Philips_RCLE012
+  bits           13
+  flags RC5|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           988   786
+  zero          988   786
+  plead        1018
+  gap          113613
+  toggle_bit      2
+
+
+      begin codes
+          KEY_POWER                0x100C                    #  Was: Power
+          KEY_UP                   0x0010                    #  Was: Up
+          KEY_DOWN                 0x0011                    #  Was: Down
+          KEY_LEFT                 0x0015                    #  Was: Left
+          KEY_RIGHT                0x0016                    #  Was: Right
+          KEY_1                    0x1001                    #  Was: 1
+          KEY_2                    0x1002                    #  Was: 2
+          KEY_3                    0x1003                    #  Was: 3
+          KEY_4                    0x1004                    #  Was: 4
+          KEY_5                    0x1005                    #  Was: 5
+          KEY_6                    0x1006                    #  Was: 6
+          KEY_7                    0x1007                    #  Was: 7
+          KEY_8                    0x1008                    #  Was: 8
+          KEY_9                    0x1009                    #  Was: 9
+          KEY_0                    0x1000                    #  Was: 0
+          KEY_VOLUMEUP             0x1010                    #  Was: Vol+
+          KEY_VOLUMEDOWN           0x1011                    #  Was: Vol-
+          KEY_MUTE                 0x100D                    #  Was: Mute
+          KEY_CHANNELUP            0x1020                    #  Was: Prog+
+          KEY_CHANNELDOWN          0x1021                    #  Was: Prog-
+          Sound                    0x1014
+          P<P                      0x1022
+          Screen                   0x1015
+          KEY_MENU                 0x0012                    #  Was: Menu
+          i+                       0x100F
+          KEY_TIME                 0x1026                    #  Was: Clock
+          KEY_LAST                 0x1038                    #  Was: Last
+      end codes
+
+end remote
+

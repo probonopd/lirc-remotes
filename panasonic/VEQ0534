@@ -1,0 +1,61 @@
+#
+# this config file was automatically generated
+# using WinLIRC 0.6.5 (LIRC 0.6.1pre3) on Tue Mar 25 16:01:38 2008
+#
+# contributed by Daniele Verducci
+#
+# brand:             Panasonic_VEQ0534
+# model:             VEQ0534
+# supported devices: VCR
+#
+# NOTE: Red and black record buttons not recognized by WinLirc!
+# ATTENZIONE: I pulsanti Record (rosso e nero) non sono riconosciuti da WinLirc.
+#
+
+begin remote
+
+  name  Panasonic_VEQ0534
+  bits           22
+  flags SPACE_ENC
+  eps            30
+  aeps          100
+
+  header       3769  3543
+  one          1020   800
+  zero         1020  2631
+  ptrail       1020
+  gap          41069
+  toggle_bit      0
+
+
+      begin codes
+          vtr                      0x00000000002FF201
+          timer_rec                0x00000000002F221B
+          KEY_1                    0x00000000002FEA02        #  Was: 1
+          KEY_2                    0x00000000002EEA22        #  Was: 2
+          KEY_3                    0x00000000002F6A12        #  Was: 3
+          KEY_4                    0x00000000002E6A32        #  Was: 4
+          KEY_5                    0x00000000002FAA0A        #  Was: 5
+          KEY_6                    0x00000000002EAA2A        #  Was: 6
+          KEY_7                    0x00000000002F2A1A        #  Was: 7
+          KEY_8                    0x00000000002E2A3A        #  Was: 8
+          KEY_9                    0x00000000002FCA06        #  Was: 9
+          KEY_0                    0x00000000002ECA26        #  Was: 0
+          KEY_102ND                0x00000000002FB209        #  Was: -/--
+          prog                     0x00000000000F960D
+          KEY_NEXT                 0x00000000000F4617        #  Was: next
+          KEY_PAUSE                0x00000000002F3A18        #  Was: pause
+          KEY_STOP                 0x00000000002FFA00        #  Was: stop
+          still_adv                0x00000000002F9A0C
+          KEY_REWIND               0x00000000002F7A10        #  Was: rew
+          KEY_PLAY                 0x00000000002F5A14        #  Was: play
+          KEY_FASTFORWARD          0x00000000002E7A30        #  Was: ff
+          slow_-                   0x00000000002E123D
+          KEY_SLOW                 0x00000000002E1A3C        #  Was: slow
+          slow_+                   0x00000000002F121D
+          x2                       0x00000000002F1A1C
+      end codes
+
+end remote
+
+

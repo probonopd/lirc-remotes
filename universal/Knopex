@@ -1,0 +1,65 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.5(any) on Wed Nov 13 17:23:28 2002
+#
+# contributed by
+#
+# brand:                       Knopex
+# model no. of remote control: Universal Remote Control (mode 030)
+# devices being controlled by this remote: TV, VCR, AUX, CAB, SAT
+#
+# Important:
+# Use must set your Knopex RC to mode 030. There may be several usable modes,
+# but mode 030 seems to work perfectly with home-made serial receiver.
+
+begin remote
+
+  name  Knopex
+  bits           11
+  flags SPACE_ENC
+  eps            30
+  aeps          100
+
+  one           164  7478
+  zero          164  4962
+  ptrail        165
+  gap          43367
+  toggle_bit      2
+
+
+      begin codes
+          KEY_POWER                0x00000000000005FC        #  Was: power
+          KEY_1                    0x00000000000005D1        #  Was: 1
+          KEY_2                    0x00000000000005D2        #  Was: 2
+          KEY_3                    0x00000000000005D3        #  Was: 3
+          KEY_4                    0x00000000000005D4        #  Was: 4
+          KEY_5                    0x00000000000005D5        #  Was: 5
+          KEY_6                    0x00000000000005D6        #  Was: 6
+          KEY_7                    0x00000000000005D7        #  Was: 7
+          KEY_8                    0x00000000000005D8        #  Was: 8
+          KEY_9                    0x00000000000005D9        #  Was: 9
+          KEY_0                    0x00000000000005DA        #  Was: 10
+          KEY_1                    0x00000000000005DB        #  Was: 11
+          KEY_2                    0x00000000000005DC        #  Was: 12
+          KEY_CHANNELUP            0x00000000000005E0        #  Was: ch_up
+          KEY_CHANNELDOWN          0x00000000000005E1        #  Was: ch_down
+          KEY_VOLUMEUP             0x00000000000005EC        #  Was: vol_up
+          KEY_VOLUMEDOWN           0x00000000000005ED        #  Was: vol_down
+          KEY_MUTE                 0x00000000000005EA        #  Was: mute
+          KEY_PLAY                 0x00000000000005CC        #  Was: play
+          KEY_STOP                 0x00000000000005C5        #  Was: stop
+          KEY_PAUSE                0x00000000000005FF        #  Was: pause
+          KEY_RECORD               0x00000000000005C6        #  Was: rec
+          KEY_TV                   0x00000000000005E7        #  Was: tv
+          KEY_RED                  0x00000000000005DD        #  Was: red
+          KEY_GREEN                0x00000000000005DE        #  Was: green
+          KEY_YELLOW               0x00000000000005DF        #  Was: yellow
+          KEY_BLUE                 0x00000000000005E9        #  Was: blue
+          KEY_PREVIOUS             0x00000000000005CE        #  Was: prev
+          KEY_NEXT                 0x00000000000005E6        #  Was: next
+          KEY_3play                0x00000000000005EB        #  Was: 3play
+      end codes
+
+end remote
+
+

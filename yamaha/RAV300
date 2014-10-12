@@ -1,0 +1,49 @@
+#
+# based on an automatically generated file
+# using lirc-0.6.4(ipaq) on Thu Aug 12 00:34:53 2004
+#
+# contributed by
+#
+# brand:              Yamaha     
+# model no. of remote control: RAV300
+# supported devices:  Receiver RX-V440        
+#
+
+begin remote
+  name  receiver
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       8853  4532
+  one           533  1714
+  zero          533   589
+  ptrail        533
+  pre_data_bits   16
+  pre_data       0x5EA1
+  gap          107903
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x000000000000B847        #  Was: poweron
+          KEY_POWER                0x0000000000007887        #  Was: poweroff
+          KEY_VOLUMEUP             0x00000000000058A7        #  Was: volume+
+          KEY_VOLUMEDOWN           0x000000000000D827        #  Was: volume-
+          KEY_MUTE                 0x00000000000038C7        #  Was: mute
+          d-tv/cbl                 0x000000000000E817
+          d-tv/cbl_alternative     0x0000000000002AD5
+          v-aux                    0x000000000000AA55
+          KEY_CD                   0x000000000000A857        #  Was: cd
+          KEY_DVD                  0x000000000000837C        #  Was: dvd
+          KEY_TUNER                0x0000000000006897        #  Was: tuner
+          KEY_VCR                  0x000000000000F00F        #  Was: vcr
+          md/cd-r                  0x00000000000018E7
+          KEY_6ch_input            0x000000000000E11E        #  Was: 6ch_input
+          tuner+                   0x00000000000008F7
+          tuner-                   0x0000000000008877
+          tuner-toggle             0x00000000000048B7
+      end codes
+
+end remote

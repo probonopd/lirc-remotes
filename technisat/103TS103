@@ -1,0 +1,177 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.5(any) on Mon May 31 19:21:47 2004
+#
+# contributed by
+#
+# brand:                       Technisat
+# model no. of remote control: 103TS103
+# devices being controlled by this remote:
+#
+
+begin remote
+
+  name  Technisat_103TS103
+  bits           13
+  flags RC5|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           852   915
+  zero          852   915
+  plead         836
+  gap          113756
+  toggle_bit      2
+
+
+      begin codes
+          SAT1-1                     0x0000000000001201
+          SAT1-2                     0x0000000000001202
+          SAT1-3                     0x0000000000001203
+          SAT1-4                     0x0000000000001204
+          SAT1-5                     0x0000000000001205
+          SAT1-6                     0x0000000000001206
+          SAT1-7                     0x0000000000001207
+          SAT1-8                     0x0000000000001208
+          SAT1-9                     0x0000000000001209
+          SAT1-0                     0x0000000000001200
+          SAT1-MUTE                  0x000000000000120D
+          SAT1-POWER                 0x000000000000120C
+          SAT1-OPTION                0x000000000000120A
+          SAT1-A/B                   0x0000000000001223
+          SAT1-RED                   0x000000000000022B
+          SAT1-GREEN                 0x000000000000022C
+          SAT1-YELLOW                0x000000000000022D
+          SAT1-BLUE                  0x000000000000022E
+          SAT1-UP                    0x0000000000000210
+          SAT1-LEFT                  0x0000000000000215
+          SAT1-RIGTH                 0x0000000000000216
+          SAT1-DOWN                  0x0000000000000211
+          SAT1-OK                    0x0000000000000217
+          SAT1-SFI                   0x000000000000122F
+          KEY_EXIT                 0x0000000000001222        #  Was: SAT1-EXIT
+          SAT1-INFO                  0x000000000000020F
+          SAT1-PLUS-PROG             0x0000000000001220
+          SAT1-MINUS-PROG            0x0000000000001221
+          SAT1-TV/RADIO              0x0000000000000213
+          SAT1-PLUS-VOLUME           0x0000000000001210
+          SAT1-MINUS-VOLUME          0x0000000000001211
+          SAT1-MENU                  0x0000000000000212
+          SAT1-TV/SAT                0x0000000000000200
+          SAT1-TXT                   0x000000000000123C
+          SAT1-STOP                  0x0000000000001229
+          SAT1-EXT                   0x0000000000001238
+     
+          SAT2-MUTE                  0x000000000000128D
+          SAT2-POWER                 0x000000000000128C
+          SAT2-1                     0x0000000000001281
+          SAT2-2                     0x0000000000001282
+          SAT2-3                     0x0000000000001283
+          SAT2-4                     0x0000000000001284
+          SAT2-5                     0x0000000000001285
+          SAT2-6                     0x0000000000001286
+          SAT2-7                     0x0000000000001287
+          SAT2-8                     0x0000000000001288
+          SAT2-9                     0x0000000000001289
+          SAT2-OPTION                0x000000000000128A
+          SAT2-0                     0x0000000000001280
+          SAT2-A/B                   0x00000000000012A3
+          SAT2-RED                   0x00000000000002AB
+          SAT2-GREEN                 0x00000000000002AC
+          SAT2-YELLOW                0x00000000000002AD
+          SAT2-BLUE                  0x00000000000002AE
+          SAT2-UP                    0x0000000000000290
+          SAT2-RIGHT                 0x0000000000000296
+          SAT2-OK                    0x0000000000000297
+          SAT2-LEFT                  0x0000000000000295
+          SAT2-DOWN                  0x0000000000000291
+          SAT2-SFI                   0x00000000000012AF
+          KEY_EXIT                 0x00000000000012A2        #  Was: SAT2-EXIT
+          SAT2-INFO                  0x000000000000028F
+          SAT2-PLUS-PROG             0x00000000000012A0
+          SAT2-MINUS-PROG            0x00000000000012A1
+          SAT2-TV/RADIO              0x0000000000000293
+          SAT2-MENU                  0x0000000000000292
+          SAT2-PLUS-VOLUME           0x0000000000001290
+          SAT2-MINUS-VOLUME          0x0000000000001291
+          SAT2-TV/SAT                0x0000000000000280
+          SAT2-TXT                   0x00000000000012BC
+          SAT2-STOP                  0x00000000000012A9
+          SAT2-EXT                   0x00000000000012B8
+     
+          TV-MUTE                    0x000000000000100D
+          TV-POWER                   0x000000000000100C
+          TV-1                       0x0000000000001001
+          TV-2                       0x0000000000001002
+          TV-3                       0x0000000000001003
+          TV-4                       0x0000000000001004
+          TV-5                       0x0000000000001005
+          TV-6                       0x0000000000001006
+          TV-7                       0x0000000000001007
+          TV-8                       0x0000000000001008
+          TV-9                       0x0000000000001009
+          TV-OPTION                  0x000000000000100A
+          TV-0                       0x0000000000001000
+          TV-A/B                     0x0000000000001023
+          TV-RED                     0x000000000000002B
+          TV-GREEN                   0x000000000000002C
+          TV-YELLOW                  0x000000000000002D
+          TV-BLUE                    0x000000000000002E
+          TV-UP                      0x0000000000001020
+          TV-RIGHT                   0x0000000000001010
+          TV-LEFT                    0x0000000000001011
+          TV-OK                      0x0000000000000017
+          TV-DOWN                    0x0000000000001021
+          TV-SFI                     0x000000000000102F
+          KEY_EXIT                 0x0000000000001022        #  Was: TV-EXIT
+          TV-INFO                    0x000000000000000F
+          TV-PLUS-PROG               0x0000000000001020
+          TV-MINUS-PROG              0x0000000000001021
+          TV-TV/RADIO                0x0000000000000013
+          TV-MENU                    0x0000000000000012
+          TV-PLUS-VOLUME             0x0000000000001010
+          TV-MINUS-VOLUME            0x0000000000001011
+          TV-TV/SAT                  0x0000000000000000
+          TV-TXT                     0x000000000000103C
+          TV-STOP                    0x0000000000001029
+          TV-EXT                     0x0000000000001038
+
+          VCR-MUTE                   0x000000000000114D
+          VCR-POWER                  0x000000000000114C
+          VCR-1                      0x0000000000001141
+          VCR-2                      0x0000000000001142
+          VCR-3                      0x0000000000001143
+          VCR-4                      0x0000000000001144
+          VCR-5                      0x0000000000001145
+          VCR-6                      0x0000000000001146
+          VCR-7                      0x0000000000001147
+          VCR-8                      0x0000000000001148
+          VCR-9                      0x0000000000001149
+          VCR-OPTION                 0x000000000000114A
+          VCR-0                      0x0000000000001140
+          VCR-A/B                    0x0000000000001163
+          VCR-RED                    0x0000000000001165
+          VCR-GREEN                  0x0000000000001176
+          VCR-YELLOW                 0x0000000000001175
+          VCR-BLUE                   0x0000000000001166
+          VCR-UP                     0x0000000000001160
+          VCR-RIGHT                  0x0000000000001150
+          VCR-LEFT                   0x0000000000001151
+          VCR-OK                     0x0000000000000157
+          VCR-DOWN                   0x0000000000001161
+          VCR-SFI                    0x000000000000116F
+          KEY_EXIT                 0x0000000000001162        #  Was: VCR-EXIT
+          VCR-INFO                   0x000000000000014F
+          VCR-PLUS-PROG              0x0000000000001160
+          VCR-MINUS-PROG             0x0000000000001161
+          VCR-TV/RADIO               0x0000000000000153
+          VCR-MENU                   0x0000000000000152
+          VCR-PLUS-VOLUME            0x0000000000001150
+          VCR-MINUS-VOLUME           0x0000000000001151
+          VCR-TV/SAT                 0x0000000000000140
+          VCR-TXT                    0x000000000000117C
+          VCR-STOP                   0x0000000000001170
+          VCR-EXT                    0x0000000000001178
+      end codes
+
+end remote

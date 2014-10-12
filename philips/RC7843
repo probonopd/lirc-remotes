@@ -1,0 +1,60 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.3pre1(default) on Wed Nov 14 19:43:48 2007
+#
+# contributed by
+#
+# brand:                       Philips
+# model no. of remote control: RC7843
+# devices being controlled by this remote:
+#
+
+begin remote
+
+  name  Philips_RC7843
+  bits           13
+  flags RC5|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           857   917
+  zero          857   917
+  plead         848
+  gap          113685
+  toggle_bit_mask 0x800
+
+      begin codes
+          KEY_POWER                0x100C                    #  Was: Power
+          PP                       0x100E
+          KEY_SLEEP                0x1026                    #  Was: Sleep
+          KEY_MENU                 0x100F                    #  Was: OSD
+          KEY_MUTE                 0x100D                    #  Was: Mute
+          Spatial                  0x1024
+          Stereo                   0x1023
+          Arriba                   0x0010
+          Abajo                    0x0011
+          Izquierda                0x0015
+          Derecha                  0x0016
+          KEY_MENU                 0x0012                    #  Was: Menu
+          Out                      0x0013
+          Cero                     0x1000
+          Uno                      0x1001
+          Dos                      0x1002
+          Tres                     0x1003
+          Cuatro                   0x1004
+          Cinco                    0x1005
+          Seis                     0x1006
+          Siete                    0x1007
+          Ocho                     0x1008
+          Nueve                    0x1009
+          DBB                      0x1016
+          AV                       0x1038
+          KEY_VOLUMEDOWN           0x1011                    #  Was: VolumeDown
+          KEY_VOLUMEUP             0x1010                    #  Was: VolumeUp
+          KEY_CHANNELDOWN          0x1021                    #  Was: ChannelDown
+          KEY_CHANNELUP            0x1020                    #  Was: ChannelUp
+      end codes
+
+end remote
+
+

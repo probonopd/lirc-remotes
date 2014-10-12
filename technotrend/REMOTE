@@ -1,0 +1,65 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.0(serial) on Sat Mar  4 22:27:43 2006
+#
+# contributed by
+#
+# brand:                       Technotrend
+# model no. of remote control:
+# devices being controlled by this remote:
+#
+
+begin remote
+
+  name  Technotrend_remote
+  bits           13
+  flags RC5|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           910   766
+  zero          910   766
+  plead         953
+  gap          107394
+  min_repeat      2
+  toggle_bit      2
+
+
+      begin codes
+          KEY_SETUP                0x1D67                    #  Was: setup
+          KEY_AUDIO                0x155A                    #  Was: music
+          shutdown                 0x1D41
+          KEY_OPTION               0x1561                    #  Was: options
+          information              0x1D52
+          KEY_EPG                  0x1562                    #  Was: epg
+          button_red               0x1554
+          button_green             0x1D55
+          button_yellow            0x1556
+          button_blue              0x1D57
+          button_up                0x154D
+          button_left              0x1D4E
+          button_ok                0x154F
+          button_down              0x1551
+          button_right             0x1550
+          KEY_CHANNELUP            0x1563                    #  Was: ch_up
+          KEY_CHANNELDOWN          0x1D64                    #  Was: ch_down
+          KEY_VOLUMEUP             0x1565                    #  Was: vol_up
+          KEY_VOLUMEDOWN           0x1D66                    #  Was: vol_down
+          KEY_TEXT                 0x1559                    #  Was: text
+          button_1                 0x1D43
+          button_2                 0x1544
+          button_3                 0x1D45
+          button_4                 0x1546
+          button_5                 0x1D47
+          button_6                 0x1548
+          button_7                 0x1D49
+          button_8                 0x154A
+          button_9                 0x1D4B
+          button_tab               0x1542
+          button_0                 0x1D4C
+          button_mute              0x1D58
+      end codes
+
+end remote
+
+

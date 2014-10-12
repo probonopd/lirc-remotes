@@ -1,0 +1,69 @@
+# contributed by RazboiniK
+#
+# brand: Telefonica
+# model no. of remote control: ECHOSTAR DSB-636CO (Telefonica)
+# devices being controlled by this remote: ECHOSTAR DSB-636CO
+#
+
+#
+# The remote sends a 6000 500 signal at the very end of the stream which
+# is not considered in this config file.
+#
+
+begin remote
+
+  name  Echostar_DSB-636
+  bits            8
+  flags SPACE_ENC|NO_HEAD_REP
+  eps            30
+  aeps          100
+
+  header        567  5982
+  one           462  1588
+  zero          462  2777
+  ptrail        449
+  post_data_bits  8
+  post_data      0x4
+  gap          6083
+  min_repeat      4
+  toggle_bit_mask 0x0
+  frequency    56000
+
+      begin codes
+          KEY_BLUE                 0xC8                      #  Was: Blue
+          KEY_YELLOW               0xC4                      #  Was: Yellow
+          KEY_GREEN                0xC0                      #  Was: Green
+          KEY_RED                  0xB8                      #  Was: Red
+          TvSat                    0xDC
+          KEY_INFO                 0x5C                      #  Was: Guide
+          More                     0x00
+          KEY_MENU                 0x2C                      #  Was: Menu
+          KEY_EXIT                 0x48                      #  Was: Exit
+          KEY_OK                   0x40                      #  Was: OK
+          KEY_ENTER                0x40                      #  Was: Enter
+          KEY_CHANNELUP            0x68                      #  Was: ChanUp
+          KEY_CHANNELDOWN          0x78                      #  Was: ChanDown
+          KEY_VOLUMEUP             0x60                      #  Was: VolUp
+          KEY_VOLUMEDOWN           0x70                      #  Was: VolDown
+          KEY_UP                   0x68                      #  Was: Up
+          KEY_DOWN                 0x78                      #  Was: Down
+          KEY_LEFT                 0x70                      #  Was: Left
+          KEY_RIGHT                0x60                      #  Was: Right
+          KEY_MUTE                 0x54                      #  Was: Mute
+          KEY_POWER                0x08                      #  Was: Power
+          PrevChan                 0x50
+          KEY_9                    0x38                      #  Was: Nine
+          KEY_8                    0x34                      #  Was: Eight
+          KEY_7                    0x30                      #  Was: Seven
+          KEY_6                    0x28                      #  Was: Six
+          KEY_5                    0x24                      #  Was: Five
+          KEY_4                    0x20                      #  Was: Four
+          KEY_3                    0x18                      #  Was: Three
+          KEY_2                    0x14                      #  Was: Two
+          KEY_1                    0x10                      #  Was: One
+          KEY_0                    0x44                      #  Was: Zero
+      end codes
+
+end remote
+
+

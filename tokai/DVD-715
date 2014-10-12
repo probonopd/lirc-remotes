@@ -1,0 +1,79 @@
+#
+# this config file was automatically generated
+# using lirc-0.7.2(sir) on Mon Aug 29 16:26:30 2005
+#
+# contributed by
+#
+# brand:                       Tokai
+# model no. of remote control: DVD-715
+# devices being controlled by this remote:
+#
+
+begin remote
+
+  name  Tokai_DVD-715
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       8964  4519
+  one           563  1683
+  zero          563   560
+  ptrail        565
+  repeat       8961  2276
+  pre_data_bits   16
+  pre_data       0x4FB
+  gap          107871
+  toggle_bit      0
+
+
+      begin codes
+          KEY_ANGLE                0x2AD5                    #  Was: angle
+          display                  0x1AE5
+          KEY_DOWN                 0xB847                    #  Was: down
+          KEY_FASTFORWARD          0x18E7                    #  Was: ff
+          kp_0                     0x926D
+          kp_1                     0xC837
+          kp_2                     0x08F7
+          kp_3                     0x8877
+          kp_4                     0xF00F
+          kp_5                     0x30CF
+          kp_6                     0xB04F
+          kp_7                     0xD02F
+          kp_8                     0x10EF
+          kp_9                     0x906F
+          kp_plus10                0xB24D
+          KEY_LANGUAGE             0x6897                    #  Was: lang
+          KEY_LEFT                 0x38C7                    #  Was: left
+          KEY_MENU                 0x609F                    #  Was: menu
+          KEY_MUTE                 0xC03F                    #  Was: mute
+          KEY_OPEN                 0x58A7                    #  Was: open_close
+          KEY_PAUSE                0xBA45                    #  Was: pause
+          pbc                      0x32CD
+          KEY_PLAY                 0x3AC5                    #  Was: play
+          KEY_POWER                0x708F                    #  Was: power
+          program                  0x827D
+          resume                   0x50AF
+          KEY_REWIND               0xD827                    #  Was: rew
+          KEY_RIGHT                0x12ED                    #  Was: right
+          rpt_1all                 0x28D7
+          rpt_ab                   0xE817
+          KEY_SETUP                0x40BF                    #  Was: setup
+          skip_b                   0x9867
+          skip_f                   0x9A65
+          KEY_SLOW                 0xF807                    #  Was: slow
+          KEY_STOP                 0x8A75                    #  Was: stop
+          KEY_SUBTITLE             0x48B7                    #  Was: subtitle
+          tc_search                0x0AF5
+          KEY_TITLE                0x02FD                    #  Was: title
+          KEY_UP                   0x22DD                    #  Was: up
+          vocal_assist             0x807F
+          KEY_VOLUMEDOWN           0xA857                    #  Was: vol_down
+          KEY_VOLUMEUP             0xAA55                    #  Was: vol_up
+          KEY_ZOOM                 0x7887                    #  Was: zoom
+      end codes
+
+end remote
+
+

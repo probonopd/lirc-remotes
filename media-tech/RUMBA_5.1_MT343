@@ -1,0 +1,55 @@
+#
+# this config file was automatically generated
+# using lirc-0.7.2(serial) on Wed Nov 16 18:42:13 2005
+#
+# contributed by januzi
+#
+# brand:                       media-tech
+# model no. of remote control: RUMBA 5.1 MT343
+# devices being controlled by this remote: Irman
+#
+
+begin remote
+
+  name  media-tech_RUMBA_5.1_MT343
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9091  4429
+  one           631  1617
+  zero          631   492
+  ptrail        630
+  repeat       9091  2182
+  pre_data_bits   16
+  pre_data       0x1FE
+  gap          107955
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x00FF                    #  Was: power
+          KEY_MUTE                 0x38C7                    #  Was: mute
+          surround                 0x906F
+          input                    0xB847
+          preset                   0xF807
+          KEY_L                    0xB04F                    #  Was: l
+          KEY_R                    0x9867                    #  Was: r
+          sl+                      0x8877
+          sl-                      0x48B7
+          c+                       0xA857
+          c-                       0x6897
+          sr+                      0xE817
+          sr-                      0x08F7
+          bass+                    0xC03F
+          bass-                    0xA05F
+          KEY_VOLUMEUP             0x807F                    #  Was: volume+
+          KEY_VOLUMEDOWN           0x40BF                    #  Was: volume-
+          treble+                  0x58A7
+          treble-                  0x7887
+      end codes
+
+end remote
+
+

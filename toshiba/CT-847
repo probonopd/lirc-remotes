@@ -1,0 +1,104 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.3(default) on Sun Dec 13 11:05:33 2009
+#
+# contributed by
+#
+# brand:                       Toshiba
+# model no. of remote control: CT-847
+# devices being controlled by this remote:
+#  ToshibaTV; DVD Mode codes with remote in default config
+#	      VCR and Cable modes not recorded
+
+begin remote
+
+  name   Toshiba_CT-847
+  bits		32
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       8945  4436
+  one           601  1654
+  zero          601   527
+  ptrail        597
+  repeat       8936  2208
+  gap          107218
+  toggle_bit_mask 0x0
+
+      begin codes
+#TV Mode and non-variant
+          KEY_POWER                0x02FD48B7                #  Was: power
+          KEY_1                    0x02FD807F                #  Was: 1
+          KEY_2                    0x02FD40BF                #  Was: 2
+          KEY_3                    0x02FDC03F                #  Was: 3
+          KEY_4                    0x02FD20DF                #  Was: 4
+          KEY_5                    0x02FDA05F                #  Was: 5
+          KEY_6                    0x02FD609F                #  Was: 6
+          KEY_7                    0x02FDE01F                #  Was: 7
+          KEY_8                    0x02FD10EF                #  Was: 8
+          KEY_9                    0x02FD906F                #  Was: 9
+          KEY_0                    0x02FD00FF                #  Was: 0
+          KEY_0                    0x02FD50AF                #  Was: 100
+          KEY_CHANNELUP            0x02FDD827                #  Was: ch+
+          KEY_CHANNELDOWN          0x02FDF807                #  Was: ch-
+          KEY_VOLUMEUP             0x02FD58A7                #  Was: vol+
+          KEY_VOLUMEDOWN           0x02FD7887                #  Was: vol-
+          KEY_ENTER                0x02FD01FE                #  Was: enter
+          KEY_EXIT                 0x02FD1AE5                #  Was: exit
+          KEY_AGAIN                0x02FD38C7                #  Was: recall
+          tv/video                 0x02FDF00F
+          KEY_FAVORITES            0x02FD9867                #  Was: fav+
+          ch_rtn                   0x02FDE817
+          KEY_FAVORITES            0x02FDB847                #  Was: fav-
+          reset                    0x02FD30CF
+          cap/text                 0x02FDEA15
+          cap1/cap2                0x02FDC639
+          KEY_9                    0x02FD2AD5                #  Was: 16:9
+          mts                      0x02FDC837
+          KEY_SLEEP                0x02FDA857                #  Was: sleep
+          KEY_MUTE                 0x02FD08F7                #  Was: mute
+          KEY_REWIND               0x22DD9867                #  Was: rew
+          KEY_PLAY                 0x22DDA857                #  Was: play
+          KEY_FASTFORWARD          0x22DDC837                #  Was: ff
+          tv/vcr                   0x22DD8877
+          KEY_STOP                 0x22DD28D7                #  Was: stop
+          KEY_PAUSE                0x22DD08F7                #  Was: pause
+          vcr_ch+                  0x22DDD827
+          vcr_ch-                  0x22DDF807
+          display                  0xA25D6897
+          KEY_DVD                  0xA25DF708                #  Was: dvd_clear
+          top_menu                 0xA25D7B84
+          KEY_MENU                 0xA25D21DE                #  Was: dvd_menu
+          KEY_RECORD               0x22DD18E7                #  Was: record
+
+#DVD Mode variations
+          KEY_DVD                  0xA25D48B7                #  Was: dvd_power
+          KEY_DVD                  0xA25D807F                #  Was: dvd_1
+          KEY_DVD                  0xA25D40BF                #  Was: dvd_2
+          KEY_DVD                  0xA25DC03F                #  Was: dvd_3
+          KEY_DVD                  0xA25D20DF                #  Was: dvd_4
+          KEY_DVD                  0xA25DA05F                #  Was: dvd_5
+          KEY_DVD                  0xA25D609F                #  Was: dvd_6
+          KEY_DVD                  0xA25DE01F                #  Was: dvd_7
+          KEY_DVD                  0xA25D10EF                #  Was: dvd_8
+          KEY_DVD                  0xA25D906F                #  Was: dvd_9
+          KEY_DVD                  0xA25D50AF                #  Was: dvd_0
+          KEY_DVD                  0xA25DA45B                #  Was: dvd_+10
+          KEY_DVD                  0xA25D8A75                #  Was: dvd_vol-
+          KEY_DVD                  0xA25DB24D                #  Was: dvd_vol+
+          KEY_DVD                  0xA25D01FE                #  Was: dvd_ch+
+          KEY_DVD                  0xA25D817E                #  Was: dvd_ch-
+          KEY_DVD                  0xA25D847B                #  Was: dvd_enter
+          KEY_DVD                  0xA25D9867                #  Was: dvd_rew
+          KEY_DVD                  0xA25DA857                #  Was: dvd_play
+          KEY_DVD                  0xA25DC837                #  Was: dvd_ff
+          KEY_DVD                  0xA25D28D7                #  Was: dvd_stop
+          KEY_DVD                  0xA25D00FF                #  Was: dvd_pause
+          KEY_DVD                  0xA25DC43B                #  Was: dvd_skip-
+          KEY_DVD                  0xA25D24DB                #  Was: dvd_skip+
+      end codes
+
+end remote
+
+

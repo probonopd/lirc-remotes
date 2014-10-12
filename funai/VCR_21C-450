@@ -1,0 +1,62 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.5(sir) on Sat Sep 28 13:20:45 2002
+#
+# contributed by alain.roos@6sens.com
+#
+# brand:                       			FUNAI
+# model no. of remote control: 			?
+# devices being controlled by this remote:	21C-450
+#
+
+begin remote
+
+  name  VCR
+  bits           24
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       3495  3506
+  one           859  2629
+  zero          859   884
+  ptrail        858
+  gap          104640
+  toggle_bit      0
+
+
+      begin codes
+          FONCTION                 0x0000000000141EBE
+          KEY_EJECTCD              0x000000000016FE90        #  Was: EJECT
+          KEY_1                    0x000000000017EE81        #  Was: 1
+          KEY_2                    0x0000000000161E9E        #  Was: 2
+          KEY_3                    0x0000000000151EAE        #  Was: 3
+          SYSTEME                  0x000000000014BEB4
+          KEY_4                    0x0000000000171E8E        #  Was: 4
+          KEY_5                    0x0000000000149EB6        #  Was: 5
+          KEY_6                    0x0000000000169E96        #  Was: 6
+          CAN+                     0x0000000000144EBB
+          CAN-                     0x0000000000142EBD
+          KEY_7                    0x0000000000159EA6        #  Was: 7
+          KEY_8                    0x0000000000179E86        #  Was: 8
+          KEY_9                    0x0000000000145EBA        #  Was: 9
+          RALENTI                  0x000000000016CE93
+          KEY_MENU                 0x000000000016AE95        #  Was: MENU
+          AFFICHAGE                0x0000000000158EA7
+          RETOUR_0                 0x000000000017CE83
+          MEMOIRE                  0x000000000014AEB5
+          GAUCHE                   0x000000000014CEB3
+          HAUT                     0x0000000000154EAB
+          DROITE                   0x0000000000148EB7
+          BAS                      0x000000000014EEB1
+          ENR                      0x0000000000156EA9
+          VITESSE                  0x0000000000377C88
+          KEY_PAUSE                0x0000000000174E8B        #  Was: PAUSE
+          KEY_RECORD               0x0000000000167E98        #  Was: RECH_RAP
+          KEY_RECORD               0x000000000015CEA3        #  Was: RECH_TEMPS
+          KEY_RECORD               0x0000000000178E87        #  Was: RECH_INDEX
+      end codes
+
+end remote
+
+

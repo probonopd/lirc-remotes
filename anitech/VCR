@@ -1,0 +1,59 @@
+#
+# this config file was automatically generated
+# using lirc-0.5.4pre9 on Thu Feb 18 14:29:15 1999
+#
+# contributed by Heinrich Langos
+#
+# brand:             ANITECH
+# model:             dunno
+# supported devices: VCR
+#
+
+begin remote
+
+  name  ANITECH
+  bits           13
+  flags SHIFT_ENC
+  eps            40
+  aeps          100
+
+  one          1040  640
+  zero         980   800
+  plead        1200
+  gap          90177
+  repeat_bit      2
+
+      begin codes
+          KEY_POWER                0x000000000000114C        #  Was: POWER
+          KEY_M                    0x000000000000117B        #  Was: M
+          KEY                      0x000000000000017F
+          KEY_1                    0x0000000000001141        #  Was: 1
+          KEY_2                    0x0000000000001142        #  Was: 2
+          KEY_KPPLUS               0x0000000000001160        #  Was: +
+          KEY_3                    0x0000000000001143        #  Was: 3
+          KEY_4                    0x0000000000001144        #  Was: 4
+          KEY_5                    0x0000000000001145        #  Was: 5
+          KEY_6                    0x0000000000001146        #  Was: 6
+          KEY_KPMINUS              0x0000000000001161        #  Was: -
+          KEY_7                    0x0000000000001147        #  Was: 7
+          KEY_8                    0x0000000000001148        #  Was: 8
+          KEY_9                    0x0000000000001149        #  Was: 9
+          KEY_102ND                0x000000000000114A        #  Was: -/--
+          KEY_0                    0x0000000000001140        #  Was: 0
+          KEY_X                    0x0000000000001171        #  Was: X
+          KEY_TIME                 0x000000000000115D        #  Was: CLOCK
+          KEY_RECORD               0x0000000000001177        #  Was: REC
+          TREC                     0x0000000000001167
+          REV_PLAY                 0x000000000000116F
+          KEY_REWIND               0x000000000000116C        #  Was: REWIND
+          KEY_PLAY                 0x0000000000001175        #  Was: PLAY
+          KEY_FORWARD              0x000000000000116E        #  Was: FWD
+          KEY_SLOW                 0x000000000000114E        #  Was: SLOW
+          KEY_N                    0x000000000000116A        #  Was: N
+          KEY_STOP                 0x0000000000001176        #  Was: STOP
+          KEY_PAUSE                0x0000000000001169        #  Was: PAUSE
+      end codes
+
+end remote
+
+

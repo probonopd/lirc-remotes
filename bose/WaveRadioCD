@@ -1,0 +1,50 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.1(default) on Tue Feb 27 04:46:58 2007
+#
+# contributed by
+# kamagurka
+# brand:                       Bose
+# model no. of remote control:
+# devices being controlled by this remote: Wave Radio/CD
+#
+
+begin remote
+
+  name  Bose_Wave
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       1006  1487
+  one           501  1489
+  zero          501   492
+  ptrail        519
+  gap          77499
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x00FF                    #  Was: on/off
+          KEY_SLEEP                0x05FA                    #  Was: sleep
+          KEY_VOLUMEUP             0x02FD                    #  Was: volup
+          KEY_PLAYPAUSE            0x09F6
+          KEY_STOP                 0x0AF5
+          KEY_VOLUMEDOWN           0x03FC                    #  Was: voldown
+          KEY_RADIO                0x06F9                    #  Was: fm
+          am                       0x08F7
+          KEY_AUX                  0x07F8                    #  Was: aux
+          KEY_PREVIOUS             0x0CF3
+          KEY_NEXT                 0x0BF4
+          KEY_MUTE                 0x01FE                    #  Was: mute
+          KEY_1                    0x0DF2                    #  Was: 1
+          KEY_2                    0x0EF1                    #  Was: 2
+          KEY_3                    0x0FF0                    #  Was: 3
+          KEY_4                    0x10EF                    #  Was: 4
+          KEY_5                    0x11EE                    #  Was: 5
+          KEY_6                    0x04FB                    #  Was: 6
+      end codes
+
+end remote
+

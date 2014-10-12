@@ -1,0 +1,34 @@
+#
+# contributed by Nathan Hand <nathanh@chirp.com.au>
+#
+# brand:             Pixelview
+# model:          
+# supported devices: Pixelview PlayTV PRO
+#
+
+begin remote
+  name  Pixelview
+  bits  8
+
+  begin codes
+    TV/FM                    0x00000000000000e7
+          KEY_F11                  0x00000000000000bf        #  Was: FULL_SCREEN
+          KEY_CHANNELUP            0x0000000000000049        #  Was: CH+
+          KEY_CHANNELDOWN          0x00000000000000c1        #  Was: CH-
+          KEY_VOLUMEDOWN           0x000000000000006a        #  Was: VOL-
+          KEY_VOLUMEUP             0x000000000000004a        #  Was: VOL+
+          KEY_MUTE                 0x0000000000000047        #  Was: MUTE
+          KEY_CYCLEWINDOWS         0x00000000000000e1        #  Was: SOURCE
+          KEY_1                    0x00000000000000e0        #  Was: 1
+          KEY_2                    0x00000000000000c8        #  Was: 2
+          KEY_3                    0x00000000000000e8        #  Was: 3
+          KEY_4                    0x0000000000000060        #  Was: 4
+          KEY_5                    0x0000000000000062        #  Was: 5
+          KEY_6                    0x00000000000000c9        #  Was: 6
+          KEY_7                    0x00000000000000c0        #  Was: 7
+          KEY_8                    0x00000000000000c2        #  Was: 8
+          KEY_9                    0x0000000000000061        #  Was: 9
+          KEY_0                    0x0000000000000040        #  Was: 0
+  end codes
+end remote
+

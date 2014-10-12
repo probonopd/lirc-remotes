@@ -1,0 +1,63 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.3(default) on Mon Feb 22 17:05:53 2010
+#
+# contributed by
+#
+# brand:                       Panasonic
+# model no. of remote control: EUR642162
+# devices being controlled by this remote: RX-DS25 "Ghettoblaster"
+#
+
+begin remote
+
+  name  EUR642162
+  bits           16
+  flags SPACE_ENC
+  eps            30
+  aeps          100
+
+  header       3581  1655
+  one           516  1220
+  zero          516   358
+  ptrail        524
+  pre_data_bits   32
+  pre_data       0x40040543
+  gap          83895
+  min_repeat      1
+  toggle_bit_mask 0x0
+
+      begin codes
+          KEY_POWER                0xFDBB                    #  Was: power
+          KEY_TAPE                 0x3573                    #  Was: tape
+          KEY_1                    0x094F                    #  Was: 1
+          KEY_2                    0x89CF                    #  Was: 2
+          KEY_3                    0x490F                    #  Was: 3
+          KEY_4                    0xC98F                    #  Was: 4
+          KEY_5                    0x296F                    #  Was: 5
+          KEY_6                    0xA9EF                    #  Was: 6
+          KEY_7                    0x692F                    #  Was: 7
+          KEY_8                    0xE9AF                    #  Was: 8
+          KEY_9                    0x195F                    #  Was: 9
+          KEY_10CHANNELSUP         0xF9BF                    #  Was: +10
+          KEY_0                    0x99DF                    #  Was: 10/0
+          KEY_CANCEL               0xB1F7                    #  Was: cancel
+          program                  0xD197
+          tuner-band               0x1D5B
+          tuning-                  0x5711
+          tuning+                  0x97D1
+          fm-mode                  0x2761
+          KEY_CD                   0x6D2B                    #  Was: cd
+          KEY_PREVIOUS             0x2167                    #  Was: prev
+          KEY_NEXT                 0xA1E7                    #  Was: next
+          stop-clear               0x0147
+          KEY_PLAYPAUSE            0xE1A7                    #  Was: play-pause
+          KEY_AGAIN                0x81C7                    #  Was: repeat
+          xbs                      0x6B2D
+          KEY_VOLUMEDOWN           0x8DCB                    #  Was: vol-
+          KEY_VOLUMEUP             0x0D4B                    #  Was: vol+
+      end codes
+
+end remote
+
+

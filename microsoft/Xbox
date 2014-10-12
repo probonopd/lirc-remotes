@@ -1,0 +1,60 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.0(serial) on Fri Jun  9 23:24:26 2006
+#
+# contributed by Jak Spalding 10 July 2006
+#
+# brand:                       Microsoft
+# model no. of remote control: Xbox
+# devices being controlled by this remote: Original Xbox
+#
+
+begin remote
+
+  name  Microsoft_Xbox
+  bits           24
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       4095  3916
+  one           591  1909
+  zero          591   905
+  ptrail        591
+  gap          64590
+  toggle_bit      0
+
+
+      begin codes
+          DISPLAY                  0x52AAD5
+          REVERSE                  0x51DAE2
+          KEY_PLAY                 0x515AEA                  #  Was: PLAY
+          KEY_FORWARD              0x51CAE3                  #  Was: FORWARD
+          KEY_PREVIOUS             0x522ADD                  #  Was: SKIP-
+          KEY_STOP                 0x51FAE0                  #  Was: STOP
+          KEY_PAUSE                0x519AE6                  #  Was: PAUSE
+          KEY_NEXT                 0x520ADF                  #  Was: SKIP+
+          KEY_TITLE                0x51AAE5                  #  Was: TITLE
+          KEY_INFO                 0x53CAC3                  #  Was: INFO
+          KEY_MENU                 0x508AF7                  #  Was: MENU
+          KEY_BACK                 0x527AD8                  #  Was: BACK
+          KEY_UP                   0x559AA6                  #  Was: UP
+          KEY_DOWN                 0x558AA7                  #  Was: DOWN
+          KEY_LEFT                 0x556AA9                  #  Was: LEFT
+          KEY_RIGHT                0x557AA8                  #  Was: RIGHT
+          KEY_SELECT               0x5F4A0B                  #  Was: SELECT
+          KEY_1                    0x531ACE                  #  Was: 1
+          KEY_2                    0x532ACD                  #  Was: 2
+          KEY_3                    0x533ACC                  #  Was: 3
+          KEY_4                    0x534ACB                  #  Was: 4
+          KEY_5                    0x535ACA                  #  Was: 5
+          KEY_6                    0x536AC9                  #  Was: 6
+          KEY_7                    0x537AC8                  #  Was: 7
+          KEY_8                    0x538AC7                  #  Was: 8
+          KEY_9                    0x539AC6                  #  Was: 9
+          KEY_0                    0x530ACF                  #  Was: 0
+      end codes
+
+end remote
+
+

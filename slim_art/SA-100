@@ -1,0 +1,85 @@
+#
+# this config file was automatically generated
+# using WinLIRC 0.6.5 (LIRC 0.6.1pre3) on Tue Dec 18 12:18:03 2007
+#
+# contributed by
+#
+# brand:             Slim Art
+# model:             SA-100
+# supported devices: SA-100 DVD player
+#
+
+begin remote
+
+  name  SA-100
+  bits           16
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  header       9105  4455
+  one           574   540
+  zero          574  1683
+  ptrail        574
+  repeat       9025  2270
+  pre_data_bits   16
+  pre_data       0xFF00
+  gap          39985
+  toggle_bit      0
+
+
+      begin codes
+          KEY_MUTE                 0x000000000000CF30        #  Was: Mute
+          KEY_OPEN                 0x000000000000FF00        #  Was: Open/Close
+          KEY_1                    0x0000000000006F90        #  Was: 1
+          KEY_2                    0x0000000000005FA0        #  Was: 2
+          KEY_3                    0x0000000000007F80        #  Was: 3
+          KEY_4                    0x0000000000002DD2        #  Was: 4
+          KEY_5                    0x0000000000001DE2        #  Was: 5
+          KEY_6                    0x0000000000003DC2        #  Was: 6
+          KEY_7                    0x000000000000AD52        #  Was: 7
+          KEY_8                    0x0000000000009D62        #  Was: 8
+          KEY_9                    0x000000000000BD42        #  Was: 9
+          KEY_0+                   0x0000000000005DA2        #  Was: 10+
+          KEY_0                    0x0000000000007D82        #  Was: 0/10
+          KEY_MENU                 0x0000000000004FB0        #  Was: OSD
+          KEY_SUBTITLE             0x0000000000000DF2        #  Was: Subtitle
+          KEY_ANGLE                0x0000000000008D72        #  Was: Angle
+          KEY_SETUP                0x0000000000004DB2        #  Was: Setup
+          V-Mode                   0x0000000000006D92
+          KEY_TITLE                0x0000000000000FF0        #  Was: Title
+          Intro                    0x0000000000003FC0
+          Up_Arrow                 0x000000000000DD22
+          Down_Arrow               0x000000000000ED12
+          Left_Arrow               0x000000000000CD32
+          Right_Arrow              0x000000000000FD02
+          KEY_PLAY                 0x0000000000009F60        #  Was: Play
+          PBC                      0x0000000000002FD0
+          KEY_AGAIN                0x0000000000001FE0        #  Was: Repeat
+          KEY_ENTER                0x0000000000008F70        #  Was: Return
+          KEY_MENU                 0x000000000000AF50        #  Was: Menu
+          A-B                      0x000000000000BF40
+          Step                     0x000000000000C53A
+          Program                  0x000000000000E51A
+          KEY_ZOOM                 0x000000000000D52A        #  Was: Zoom
+          KEY_VOLUMEUP             0x000000000000F50A        #  Was: Vol+
+          KEY_VOLUMEDOWN           0x000000000000758A        #  Was: Vol-
+          KEY_SLOW                 0x00000000000045BA        #  Was: Slow
+          A-Time                   0x000000000000659A
+          Memory                   0x00000000000055AA
+          KEY_CHANNELDOWN          0x000000000000857A        #  Was: Channel
+          KEY_LANGUAGE             0x00000000000005FA        #  Was: Language
+          Still                    0x00000000000025DA
+          KEY_STOP                 0x00000000000015EA        #  Was: Stop
+          KEY_REWIND               0x000000000000C738        #  Was: <<
+          KEY_FORWARD              0x000000000000E718        #  Was: >>
+          KEY_PREVIOUS             0x000000000000D728        #  Was: |<<
+          KEY_NEXT                 0x000000000000F708        #  Was: >>|
+          #_Treble                 0x000000000000B54A
+          b_Bass                   0x000000000000A55A
+          Flat_Tone_Control        0x000000000000956A
+      end codes
+
+end remote
+
+

@@ -1,0 +1,80 @@
+#
+# this config file was automatically generated
+# using lirc-0.7.1pre2(any) on Sun Oct  1 03:39:07 2006
+#
+# contributed by Long Sing 'Sam' Wong
+#
+# brand: NOW Broadband TV
+# model no. of remote control: N/A
+# devices being controlled by this remote:
+#     Hong Kong PCCW NOW Broadband TV
+
+begin remote
+
+  name  NOW_Broadband_TV
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9048  4481
+  one           578  1671
+  zero          578   547
+  ptrail        585
+  repeat       9047  2230
+  pre_data_bits   16
+  pre_data       0x176
+  gap          108196
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0xC03F                    #  Was: Power
+          KEY_BACK                 0x00FF                    #  Was: Back
+          KEY_UP                   0x40BF                    #  Was: Up
+          KEY_DOWN                 0xA05F                    #  Was: Down
+          KEY_LEFT                 0x609F                    #  Was: Left
+          KEY_RIGHT                0x807F                    #  Was: Right
+          KEY_ENTER                0xE01F                    #  Was: Enter
+          KEY_EXIT                 0x20DF                    #  Was: Exit
+          KEY_RED                  0xD02F                    #  Was: Red
+          KEY_GREEN                0x50AF                    #  Was: Green
+          KEY_BLUE                 0x906F                    #  Was: Blue
+          KEY_YELLOW               0x10EF                    #  Was: Yellow
+          KEY_EPG                  0xF00F                    #  Was: TVGuide
+          KEY_POWER                0x708F                    #  Was: OnDemand
+          KEY_POWER                0xB04F                    #  Was: OneLink
+          KEY_MENU                 0x30CF                    #  Was: Menu
+          KEY_1                    0x48B7                    #  Was: 1
+          KEY_2                    0x8877                    #  Was: 2
+          KEY_3                    0x08F7                    #  Was: 3
+          KEY_4                    0x6897                    #  Was: 4
+          KEY_5                    0xA857                    #  Was: 5
+          KEY_6                    0x28D7                    #  Was: 6
+          KEY_7                    0x58A7                    #  Was: 7
+          KEY_8                    0x9867                    #  Was: 8
+          KEY_9                    0x18E7                    #  Was: 9
+          KEY_0                    0xB847                    #  Was: 0
+          Display                  0x7887
+          KEY_CLEAR                0x38C7                    #  Was: Clear
+          KEY_AUDIO                0xCA35                    #  Was: Audio
+          AB                       0x4AB5
+          KEY_MUTE                 0x8A75                    #  Was: Mute
+          KEY_MODE                 0x0AF5                    #  Was: Mode
+          KEY_MENU                 0xEA15                    #  Was: DVDMenu
+          KEY_TITLE                0x6A95                    #  Was: Title
+          KEY_PREVIOUS             0xAA55                    #  Was: Prev
+          KEY_NEXT                 0x2AD5                    #  Was: Next
+          SoundMode                0xDA25
+          KEY_SUBTITLE             0x5AA5                    #  Was: Subtitle
+          KEY_ANGLE                0x9A65                    #  Was: Angle
+          KEY_ZOOM                 0x1AE5                    #  Was: Zoom
+          KEY_SLOW                 0xFA05                    #  Was: Slow
+          Goto                     0x7A85
+          TVSystem                 0xBA45
+          KEY_EJECTCD              0x3AC5                    #  Was: Eject
+      end codes
+
+end remote
+
+

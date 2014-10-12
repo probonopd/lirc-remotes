@@ -1,0 +1,44 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.6(default) on Sat May  8 19:39:25 2010
+#
+# contributed by
+# Sebastien Lemieux
+#
+# brand:
+# model no. of remote control:
+# devices being controlled by this remote:
+# PACE DC551P
+
+begin remote
+
+  name  Pace_DC551P
+  bits           22
+  flags SPACE_ENC
+  eps            30
+  aeps          256
+
+  header       3697  3456
+  one           982  2495
+  zero          982   872
+  ptrail        966
+  gap          38009
+  toggle_bit_mask 0x0
+
+      begin codes
+          KEY_1                    0x36113D                  #  Was: 1
+          KEY_2                    0x37111D                  #  Was: 2
+          KEY_3                    0x36912D                  #  Was: 3
+          KEY_4                    0x37910D                  #  Was: 4
+          KEY_5                    0x365135                  #  Was: 5
+          KEY_6                    0x375115                  #  Was: 6
+          KEY_7                    0x36D125                  #  Was: 7
+          KEY_8                    0x37D105                  #  Was: 8
+          KEY_9                    0x363139                  #  Was: 9
+          KEY_0                    0x373119                  #  Was: 0
+          KEY_OK                   0x366133                  #  Was: ok
+      end codes
+
+end remote
+
+

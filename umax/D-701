@@ -1,0 +1,62 @@
+#
+# this config file was automatically generated
+# using WinLIRC 0.6.4 (LIRC 0.6.1pre3) on Sat Jan 10 21:07:21 2004
+#
+# contributed by     Heiko Müller
+#
+# brand:             Umax
+# model:             D-701
+# supported devices: Dolby Digital 5.1 Decoder
+#
+
+begin remote
+
+  name  D-701
+  bits           16
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  header       9052  4393
+  one           649  1591
+  zero          649   468
+  ptrail        649
+  repeat       9060  2141
+  pre_data_bits   16
+  pre_data       0xF
+  gap          44248
+  toggle_bit      0
+
+
+      begin codes
+          KEY_MUTE                 0x00000000000020DF        #  Was: mute
+          KEY_POWER                0x00000000000008F7        #  Was: power
+          balance                  0x000000000000D02F
+          KEY_CANCEL               0x000000000000E01F        #  Was: cancel
+          KEY_VOLUMEUP             0x000000000000C837        #  Was: volume+
+          KEY_VOLUMEDOWN           0x000000000000F00F        #  Was: volume-
+          KEY_SETUP                0x00000000000038C7        #  Was: setup
+          KEY_ENTER                0x00000000000030CF        #  Was: enter
+          KEY_MAX                  0x00000000000050AF        #  Was: maximum
+          standard                 0x0000000000007887
+          night                    0x000000000000708F
+          pro-logic                0x000000000000807F
+          KEY_2ch-out              0x0000000000006897        #  Was: 2ch-out
+          spk-status               0x000000000000E817
+          front_deytime            0x0000000000009867
+          center_deytime           0x0000000000008877
+          surround_deytime         0x000000000000D827
+          test                     0x00000000000048B7
+          front_spsetup            0x0000000000002AD5
+          center-spsetup           0x0000000000003AC5
+          surround-spsetup         0x000000000000609F
+          woofer                   0x00000000000058A7
+          optical                  0x000000000000B847
+          coaxial1                 0x000000000000F807
+          coaxial2                 0x000000000000B04F
+          KEY_AUX                  0x000000000000906F        #  Was: aux
+      end codes
+
+end remote
+
+

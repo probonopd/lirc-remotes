@@ -1,0 +1,63 @@
+#
+# this config file was automatically generated
+# using WinLIRC 0.6.5 (LIRC 0.6.1pre3) on Thu Nov 10 10:36:32 2005
+#
+# contributed by
+#
+# brand:             Salora
+# model:             SV6700
+# supported devices: Salora 6700 VCR (from 1989)
+#
+
+begin remote
+
+  name  Salora_SV6700
+  bits           16
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  header       9040  4410
+  one           614  1622
+  zero          614   501
+  ptrail        614
+  repeat       9037  2172
+  pre_data_bits   16
+  pre_data       0x8C73
+  gap          39706
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x00000000000000FF        #  Was: ON/STANDBY
+          KEY_1                    0x00000000000020DF        #  Was: 1
+          KEY_2                    0x000000000000A05F        #  Was: 2
+          KEY_3                    0x000000000000609F        #  Was: 3
+          KEY_4                    0x000000000000E01F        #  Was: 4
+          KEY_5                    0x00000000000030CF        #  Was: 5
+          KEY_6                    0x000000000000B04F        #  Was: 6
+          KEY_7                    0x000000000000708F        #  Was: 7
+          KEY_8                    0x000000000000F00F        #  Was: 8
+          KEY_9                    0x00000000000038C7        #  Was: 9
+          KEY_0                    0x000000000000B847        #  Was: 0
+          KEY_REWIND               0x00000000000040BF        #  Was: <<
+          KEY_FORWARD              0x000000000000807F        #  Was: >>
+          A/V                      0x0000000000007887
+          PROG                     0x00000000000042BD
+          VPS                      0x000000000000F20D
+          SOUND                    0x00000000000050AF
+          RESET                    0x00000000000022DD
+          REPEAT/MEMORY            0x000000000000F807
+          KEY_REWIND               0x00000000000048B7        #  Was: REWIND
+          KEY_PLAY                 0x00000000000028D7        #  Was: PLAY
+          KEY_FORWARD              0x000000000000C837        #  Was: FORWARD
+          KEY_REWIND               0x0000000000006897        #  Was: REW-PLAY
+          KEY_STOP                 0x00000000000008F7        #  Was: STOP
+          KEY_PAUSE                0x0000000000008877        #  Was: PAUSE
+          STILL                    0x000000000000E817
+          KEY_RECORD               0x000000000000A857        #  Was: REC
+      end codes
+
+end remote
+
+

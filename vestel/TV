@@ -1,0 +1,70 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.4a(default) on Wed Jun 10 22:25:48 2009
+#
+# contributed by
+#
+# brand:                       Vestel
+# model no. of remote control:
+# devices being controlled by this remote: TV
+#
+
+begin remote
+
+  name  Vestel_TV
+  bits           13
+  flags RC5|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           881   794
+  zero          881   794
+  plead         907
+  gap          107283
+  toggle_bit_mask 0x800
+
+      begin codes
+          KEY_1                    0x1001                    #  Was: 1
+          KEY_2                    0x1002                    #  Was: 2
+          KEY_3                    0x1003                    #  Was: 3
+          KEY_4                    0x1004                    #  Was: 4
+          KEY_5                    0x1005                    #  Was: 5
+          KEY_6                    0x1006                    #  Was: 6
+          KEY_7                    0x1007                    #  Was: 7
+          KEY_8                    0x1008                    #  Was: 8
+          KEY_9                    0x1009                    #  Was: 9
+          KEY_0                    0x1000                    #  Was: 0
+          PlP                      0x1022
+          KEY_102ND                0x100A                    #  Was: --
+          OFF                      0x100C
+          PP                       0x100E
+          KEY_MENU                 0x1030                    #  Was: MENU
+          KEY_INFO                 0x1012                    #  Was: info
+          i-ii                     0x1023
+          KEY_MUTE                 0x100D                    #  Was: mute
+          KEY_UP                   0x1020                    #  Was: up
+          KEY_DOWN                 0x1021                    #  Was: down
+          KEY_LEFT                 0x1015                    #  Was: left
+          KEY_RIGHT                0x1016                    #  Was: right
+          KEY_OK                   0x1035                    #  Was: OK
+          VOL_p                    0x1010
+          VOL+m                    0x1011
+          sound                    0x1037
+          picture                  0x1036
+          feature                  0x1032
+          install                  0x1034
+          KEY_A                    0x103C                    #  Was: a
+          KEY_B                    0x102A                    #  Was: b
+          KEY_C                    0x1029                    #  Was: c
+          KEY_D                    0x102D                    #  Was: d
+          KEY_E                    0x102E                    #  Was: e
+          KEY_F                    0x102B                    #  Was: f
+          KEY_G                    0x102C                    #  Was: g
+          KEY_H                    0x102F                    #  Was: h
+          KEY_X                    0x103F                    #  Was: x
+          KEY_Y                    0x1038                    #  Was: y
+      end codes
+
+end remote
+
+

@@ -1,0 +1,67 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.0(userspace) on Fri Jul 28 14:15:16 2006
+#
+# contributed by Lloyd Williams <binary_frog|chatcircuit.com>
+#
+# brand:                       Panasonic
+# model no. of remote control: unknown, possibly UR64EC2337-7
+# devices being controlled by this remote: Panasonic TU-CT20 DVB-T receiver
+#
+
+begin remote
+
+  name  PANASONIC_TU-CT20
+  bits           24
+  flags SPACE_ENC
+  eps            30
+  aeps          100
+
+  header       3523  1728
+  one           425  1309
+  zero          425   449
+  ptrail        422
+  pre_data_bits   24
+  pre_data       0x400401
+  gap          74759
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x40BDFC                  #  Was: POWER
+          KEY_1                    0x400544                  #  Was: 1
+          KEY_2                    0x4085C4                  #  Was: 2
+          KEY_3                    0x404504                  #  Was: 3
+          KEY_4                    0x40C584                  #  Was: 4
+          KEY_5                    0x402564                  #  Was: 5
+          KEY_6                    0x40A5E4                  #  Was: 6
+          KEY_7                    0x406524                  #  Was: 7
+          KEY_8                    0x40E5A4                  #  Was: 8
+          KEY_9                    0x401554                  #  Was: 9
+          KEY_0                    0x4095D4                  #  Was: 0
+          KEY_SETUP                0x402362                  #  Was: SETUP
+          KEY_TEXT                 0x407B3A                  #  Was: TXT
+          STTL                     0x40FBBA
+          KEY_INFO                 0x409DDC                  #  Was: INFO
+          KEY_INFO                 0x40CB8A                  #  Was: GUIDE
+          KEY_EXIT                 0x40F3B2                  #  Was: EXIT
+          KEY_UP                   0x405312                  #  Was: UP
+          KEY_LEFT                 0x40B3F2                  #  Was: LEFT
+          KEY_RIGHT                0x407332                  #  Was: RIGHT
+          KEY_DOWN                 0x40D392                  #  Was: DOWN
+          KEY_OK                   0x40C382                  #  Was: OK
+          KEY_CHANNELUP            0x404D0C                  #  Was: CH+
+          KEY_CHANNELDOWN          0x40CD8C                  #  Was: CH-
+          KEY_RED                  0x403776                  #  Was: RED
+          KEY_GREEN                0x40B7F6                  #  Was: GREEN
+          KEY_YELLOW               0x40F7B6                  #  Was: YELLOW
+          KEY_BLUE                 0x407736                  #  Was: BLUE
+          TV_POWER                 0x00BCBD
+          TV_MUTE                  0x004C4D
+          TV_VOL-                  0x008485
+          TV_VOL+                  0x000405
+      end codes
+
+end remote
+
+

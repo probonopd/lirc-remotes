@@ -1,0 +1,64 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.3(serial) on Wed Aug 22 13:40:33 2001
+#
+# contributed by
+#
+# brand:             Fuba
+# model:            
+# supported devices: ODE 520
+#
+
+begin remote
+
+  name  FUBA
+  bits           13
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9074  4391
+  one           655  1589
+  zero          655   466
+  ptrail        656
+  repeat       9075  2147
+  pre_data_bits   16
+  pre_data       0x61D2
+  post_data_bits  3
+  post_data      0x7
+  gap          107727
+  min_repeat      1
+  toggle_bit      0
+
+
+      begin codes
+          KEY_1                    0x000000000000100F        #  Was: 1
+          KEY_2                    0x0000000000000817        #  Was: 2
+          KEY_3                    0x0000000000001807        #  Was: 3
+          KEY_4                    0x000000000000140B        #  Was: 4
+          KEY_5                    0x0000000000000C13        #  Was: 5
+          KEY_6                    0x0000000000001C03        #  Was: 6
+          KEY_7                    0x000000000000120D        #  Was: 7
+          KEY_8                    0x0000000000000A15        #  Was: 8
+          KEY_9                    0x0000000000001A05        #  Was: 9
+          KEY_0                    0x0000000000000E11        #  Was: 0
+          KEY_POWER                0x000000000000051A        #  Was: power
+          KEY_MUTE                 0x000000000000011E        #  Was: mute
+          KEY_MODE                 0x0000000000000619        #  Was: mode
+          KEY_CHANNELUP            0x000000000000001F        #  Was: ch+
+          KEY_CHANNELDOWN          0x000000000000021D        #  Was: ch-
+          KEY_VOLUMEUP             0x000000000000110E        #  Was: vol+
+          KEY_VOLUMEDOWN           0x000000000000150A        #  Was: vol-
+          sel+                     0x0000000000000916
+          sel-                     0x0000000000000D12
+          tune+                    0x0000000000001906
+          tune-                    0x0000000000001D02
+          copy                     0x000000000000041B
+          store                    0x0000000000001609
+          erase                    0x0000000000001E01
+      end codes
+
+end remote
+
+
+

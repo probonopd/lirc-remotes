@@ -1,0 +1,69 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.0(serial) on Fri Feb 10 18:19:08 2006
+#
+# contributed by 		aPaCz
+#
+# brand:                      SANYO RB-DA300
+# model no. of remote control: RB-DA300
+# devices being controlled by this remote:
+#
+
+begin remote
+
+  name  Sanyo_RB-DA300
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       8959  4515
+  one           564  1680
+  zero          564   558
+  ptrail        566
+  repeat       8960  2286
+  pre_data_bits   16
+  pre_data       0x3CC3
+  gap          107793
+  toggle_bit      0
+
+
+      begin codes
+          KEY_1                    0x01FE                    #  Was: 1
+          KEY_2                    0x817E                    #  Was: 2
+          KEY_3                    0x41BE                    #  Was: 3
+          KEY_4                    0xC13E                    #  Was: 4
+          KEY_5                    0x21DE                    #  Was: 5
+          KEY_6                    0xA15E                    #  Was: 6
+          KEY_7                    0x619E                    #  Was: 7
+          KEY_8                    0xE11E                    #  Was: 8
+          KEY_9                    0x11EE                    #  Was: 9
+          KEY_SLEEP                0x12ED                    #  Was: sleep
+          KEY_0                    0x916E                    #  Was: 0
+          memory                   0xA05F
+          KEY_POWER                0x02FD                    #  Was: power
+          stop_recording           0x4AB5
+          start_recording          0xEA15
+          KEY_VIDEO                0x629D                    #  Was: video
+          KEY_REWIND               0x6A95                    #  Was: rewind
+          KEY_FASTFORWARD          0xAA55                    #  Was: fastforward
+          KEY_PLAY                 0xF807                    #  Was: play_a
+          stop_tape                0x8A75
+          KEY_PLAY                 0x2AD5                    #  Was: play_b
+          tune-                    0x10EF
+          KEY_PLAY                 0x609F                    #  Was: play_cd
+          tune+                    0xE01F
+          fm_mode                  0xD22D
+          stop_cd                  0x20DF
+          random                   0x50AF
+          preset                   0xB24D
+          KEY_VOLUMEUP             0x827D                    #  Was: volume+
+          KEY_AGAIN                0x807F                    #  Was: repeat
+          tuner-band               0x728D
+          KEY_VOLUMEDOWN           0x42BD                    #  Was: volume-
+          sound_preset             0x22DD
+      end codes
+
+end remote
+
+

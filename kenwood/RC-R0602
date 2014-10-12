@@ -1,0 +1,84 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.5(any) on Wed Aug 28 09:30:43 2002
+#
+# contributed by Christian von Petery 17knochen@freenet.de
+#
+# brand:                       Kenwood
+# model no. of remote control: RC-R0602
+# devices being controlled by this remote: tuner, cd, tape, surround
+#
+
+begin remote
+
+  name  Kenwood
+  bits           24
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9070  4454
+  one           608  1642
+  zero          608   516
+  ptrail        607
+  repeat       9070  2204
+  pre_data_bits   8
+  pre_data       0x1D
+  gap          108049
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x0000000000E2B946        #  Was: power
+          pty                      0x00000000008039C6
+          af                       0x000000000080B946
+          display                  0x0000000000E21AE5
+          band                     0x0000000000E2F10E
+          direct                   0x0000000000E27986
+          p_call_down              0x0000000000E231CE
+          p_call_up                0x0000000000E29966
+          KEY_1                    0x0000000000E2817E        #  Was: 1
+          KEY_2                    0x0000000000E241BE        #  Was: 2
+          KEY_3                    0x0000000000E2C13E        #  Was: 3
+          KEY_4                    0x0000000000E221DE        #  Was: 4
+          KEY_5                    0x0000000000E2A15E        #  Was: 5
+          KEY_6                    0x0000000000E2619E        #  Was: 6
+          KEY_7                    0x0000000000E2E11E        #  Was: 7
+          KEY_8                    0x0000000000E211EE        #  Was: 8
+          KEY_9                    0x0000000000E2916E        #  Was: 9
+          KEY_0                    0x0000000000E201FE        #  Was: 0
+          KEY_10CHANNELSUP         0x0000000000E2B04F        #  Was: +10
+          disc                     0x0000000000E210EF
+          disc_prev                0x0000000000E2738C
+          disc_next                0x0000000000E2F30C
+          disc_stop                0x0000000000E2936C
+          disc_play                0x0000000000E2D32C
+          tape_a_left              0x0000000000E20BF4
+          tape_a_right             0x0000000000E28B74
+          tape_b_left              0x0000000000E21BE4
+          tape_b_right             0x0000000000E29B64
+          tape_a_rew               0x0000000000E24BB4
+          tape_a_ffw               0x0000000000E2CB34
+          tape_b_rew               0x0000000000E25BA4
+          tape_b_ffw               0x0000000000E2DB24
+          tape2                    0x0000000000E2A956
+          tape_a_stop              0x0000000000E2AB54
+          tape_b_record            0x0000000000E27B84
+          tape_b_stop              0x0000000000E2BB44
+          input                    0x00000000008033CC
+          test_tone                0x0000000000E26A95
+          surround                 0x0000000000E2EB14
+          KEY_MUTE                 0x0000000000E239C6        #  Was: mute
+          multi_lvl_up             0x00000000008049B6
+          rear                     0x0000000000E2E31C
+          center                   0x0000000000E2D02F
+          KEY_VOLUMEUP             0x0000000000E2D926        #  Was: vol_up
+          multi_lvl_down           0x0000000000808976
+          delay                    0x0000000000E2B24D
+          KEY_VOLUMEDOWN           0x0000000000E259A6        #  Was: vol_down
+      end codes
+
+end remote
+
+
+

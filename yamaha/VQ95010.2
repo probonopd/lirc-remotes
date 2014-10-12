@@ -1,0 +1,69 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.0pre4 on Sat Mar  4 21:58:14 2000
+#
+# contributed by Christian Motschke <christian@motschke.de>
+#
+# brand:             YAMAHA
+# model:             VQ95010
+# supported devices:
+#
+
+begin remote
+
+  name  YAMAHA
+  bits           15
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9033  4485
+  one           574  1679
+  zero          574   552
+  ptrail        574
+  repeat       9022  2244
+  pre_data_bits   16
+  pre_data       0x9E61
+  post_data_bits  1
+  post_data      0x1
+  gap          108138
+  repeat_bit      0
+
+      begin codes
+          KEY_OPEN                 0x000000000000403F        #  Was: OPEN
+          DIMMER                   0x0000000000003C43
+          KEY_TIME                 0x0000000000002857        #  Was: TIME
+          PROG                     0x0000000000001867
+          KEY_TAPE                 0x000000000000750A        #  Was: TAPE
+          KEY_CLEAR                0x0000000000005827        #  Was: CLEAR
+          PEAK                     0x0000000000005D22
+          KEY_SPACE                0x0000000000007807        #  Was: SPACE
+          S/F                      0x0000000000000877
+          RANDOM                   0x0000000000006C13
+          CD_1                     0x000000000000443B
+          CD_2                     0x000000000000245B
+          CD_3                     0x000000000000641B
+          CD_4                     0x000000000000146B
+          CD_5                     0x000000000000542B
+          CD_6                     0x000000000000344B
+          CD_7                     0x000000000000740B
+          CD_8                     0x0000000000000C73
+          CD_9                     0x0000000000004C33
+          CD_0                     0x000000000000047B
+          CD_10+                   0x0000000000002C53
+          SKIP_<<                  0x000000000000106F
+          SKIP_>>                  0x000000000000700F
+          KEY_PAUSE                0x000000000000552A        #  Was: PAUSE
+          KEY_PLAY                 0x000000000000205F        #  Was: PLAY
+          SEARCH_<<                0x000000000000502F
+          SEARCH_>>                0x000000000000304F
+          INDEX                    0x0000000000006817
+          KEY_STOP                 0x000000000000354A        #  Was: STOP
+          SYNCHRO                  0x0000000000000D72
+          KEY_VOLUMEDOWN           0x0000000000001C63        #  Was: VOL-
+          KEY_VOLUMEUP             0x0000000000005C23        #  Was: VOL+
+      end codes
+
+end remote
+
+

@@ -1,0 +1,60 @@
+
+# this config file was automatically generated
+# using lirc-0.6.6(any) on Sat Jun 18 14:11:27 2005
+#
+# contributed by Ryan Hewitt (rghewitt|gmail.com)
+#
+# brand:                       NEC
+# model no. of remote control: RD-1083E
+# devices being controlled by this remote: VARIOUS NEC TVS
+#
+
+begin remote
+
+  name  NEC_RD-1083E
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9174  4368
+  one           703  1549
+  zero          703   424
+  ptrail        703
+  pre_data_bits   16
+  pre_data       0x18E7
+  gap          108125
+  toggle_bit      0
+
+
+      begin codes
+          STANDARD                 0x000000000000A05F
+          OPERATE                  0x00000000000010EF
+          PICTURE                  0x00000000000020DF
+          CONTROL_DOWN             0x000000000000B04F
+          CONTROL_UP               0x00000000000030CF
+          TIMER                    0x0000000000007887
+          TV/VIDEO                 0x00000000000050AF
+          KEY_1                    0x00000000000008F7        #  Was: 1
+          KEY_2                    0x0000000000008877        #  Was: 2
+          KEY_3                    0x00000000000048B7        #  Was: 3
+          KEY_4                    0x000000000000C837        #  Was: 4
+          KEY_5                    0x00000000000028D7        #  Was: 5
+          KEY_6                    0x000000000000A857        #  Was: 6
+          KEY_7                    0x0000000000006897        #  Was: 7
+          KEY_8                    0x000000000000E817        #  Was: 8
+          KEY_9                    0x00000000000018E7        #  Was: 9
+          KEY_CLEAR                0x0000000000009867        #  Was: CLEAR
+          KEY_0                    0x00000000000058A7        #  Was: 0
+          KEY_102ND                0x000000000000D827        #  Was: -/--
+          POSITION_CALL            0x000000000000F00F
+          KEY_MUTE                 0x000000000000906F        #  Was: MUTE
+          KEY_CHANNELUP            0x00000000000000FF        #  Was: CHANNEL_UP
+          KEY_CHANNELDOWN          0x000000000000807F        #  Was: CHANNEL_DOWN
+          KEY_VOLUMEUP             0x00000000000040BF        #  Was: VOLUME_UP
+          KEY_VOLUMEDOWN           0x000000000000C03F        #  Was: VOLUME_DOWN
+      end codes
+
+end remote
+
+

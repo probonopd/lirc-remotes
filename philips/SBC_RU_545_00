@@ -1,0 +1,509 @@
+#
+# remote: Philips SBC RU 545/00
+#
+# Author:  Rene Broichmann
+# EMail:   rene.broichmann@gmx.de
+# Web:     http://www.broichmann.net
+#
+# This is the global LIRC configuration file for the
+# Philips `SBC RU 545/00` universal remote control.
+#
+# This remote control can handle TV, VCR, SAT and DVD.
+# I left it programed by the default settings.
+#
+
+###################
+### Global keys ###
+###################
+begin remote
+
+  name   SBCRU545-GLOBAL
+  flags CONST_LENGTH|RAW_CODES
+  eps            30
+  aeps          100
+
+  ptrail          0
+  repeat     0     0
+  gap    111729
+
+      begin raw_codes
+
+          name VOL-
+          KEY_7                    2909                      #  Was: 597
+          KEY_4                    9890                      #  Was: 614
+          KEY_8                    2896                      #  Was: 598
+          KEY_8                    6337                      #  Was: 678
+          KEY_0                    6366                      #  Was: 650
+
+          name VOL+
+          KEY_1                    2899                      #  Was: 611
+          KEY_3                    9918                      #  Was: 603
+          KEY_3                    2881                      #  Was: 623
+          KEY_2                    2897                      #  Was: 612
+          KEY_8                    6402                      #  Was: 618
+
+          name MUTE
+          KEY_8                    2914                      #  Was: 568
+          KEY_4                    9882                      #  Was: 624
+          KEY_6                    2911                      #  Was: 606
+          KEY_6                    6367                      #  Was: 606
+          KEY_4                    2923                      #  Was: 604
+          KEY_4                    2931                      #  Was: 564
+
+      end raw_codes
+
+end remote
+
+
+
+
+
+###############
+### TV mode ###
+###############
+begin remote
+
+  name   SBCRU545-TV
+  flags CONST_LENGTH|RAW_CODES
+  eps            30
+  aeps          100
+
+  ptrail          0
+  repeat     0     0
+  gap    111732
+
+      begin raw_codes
+
+          name TV-OFF
+          KEY_5                    2888                      #  Was: 595
+          KEY_9                    9923                      #  Was: 569
+          KEY_4                    2941                      #  Was: 564
+          KEY_3                    2923                      #  Was: 573
+          KEY_0                    2963                      #  Was: 570
+          KEY_1                    6440                      #  Was: 541
+
+          name TV-TT-ON
+          KEY_4                    2886                      #  Was: 634
+          KEY_2                    9882                      #  Was: 622
+          KEY_1                    2869                      #  Was: 651
+          KEY_4                    6412                      #  Was: 584
+          KEY_6                    2928                      #  Was: 566
+          KEY_9                    2908                      #  Was: 589
+
+          name TV-TT-STOPRUN
+          KEY_0                    2884                      #  Was: 620
+          KEY_6                    9894                      #  Was: 616
+          KEY_7                    2897                      #  Was: 607
+          KEY_1                    2901                      #  Was: 591
+          KEY_0                    2936                      #  Was: 560
+          KEY_3                    2946                      #  Was: 563
+
+          name TV-TT-ENLARGE
+          KEY_2                    2861                      #  Was: 662
+          KEY_2                    9842                      #  Was: 652
+          KEY_9                    2923                      #  Was: 599
+          KEY_1                    2924                      #  Was: 581
+          KEY_3                    2902                      #  Was: 593
+          KEY_2                    2926                      #  Was: 592
+
+          name TV-TT-OFF
+          KEY_8                    2889                      #  Was: 608
+          KEY_2                    9927                      #  Was: 592
+          KEY_6                    2880                      #  Was: 626
+          KEY_6                    2857                      #  Was: 636
+          KEY_7                    2899                      #  Was: 597
+          KEY_5                     #  Was: 625             
+
+          name TV-AV
+          KEY_7                    2909                      #  Was: 597
+          KEY_5                    9893                      #  Was: 625
+          KEY_9                    2883                      #  Was: 639
+          KEY_5                    6416                      #  Was: 605
+          KEY_4                    2916                      #  Was: 594
+
+          name TV-SHIFT-CH+
+          KEY_3                    2902                      #  Was: 593
+          KEY_7                    9906                      #  Was: 637
+          KEY_6                    2911                      #  Was: 596
+          KEY_0                    2882                      #  Was: 640
+          KEY_2                    2938                      #  Was: 582
+          KEY_1                     #  Was: 581             
+
+          name TV-SHIFT-CH-
+          KEY_8                    2884                      #  Was: 618
+          KEY_6                    9881                      #  Was: 626
+          KEY_5                    2922                      #  Was: 585
+          KEY_5                    6422                      #  Was: 585
+          KEY_0                    6463                      #  Was: 550
+
+          name TV-CHANNELSWITCH
+          KEY_9                    2915                      #  Was: 589
+          KEY_8                    9922                      #  Was: 568
+          KEY_1                    2874                      #  Was: 621
+          KEY_9                    6386                      #  Was: 609
+          KEY_6                    2936                      #  Was: 596
+
+          name TV-1
+          KEY_7                    2884                      #  Was: 587
+          KEY_3                    9921                      #  Was: 583
+          KEY_4                    2914                      #  Was: 594
+          KEY_6                    2893                      #  Was: 616
+          KEY_5                    2912                      #  Was: 605
+
+          name TV-2
+          KEY_2                    2857                      #  Was: 652
+          KEY_0                    9907                      #  Was: 610
+          KEY_6                    2884                      #  Was: 626
+          KEY_5                    6369                      #  Was: 635
+          KEY_9                    6412                      #  Was: 609
+
+          name TV-3
+          KEY_2                    2927                      #  Was: 592
+          KEY_6                    9908                      #  Was: 596
+          KEY_7                    2915                      #  Was: 597
+          KEY_1                    2893                      #  Was: 621
+          KEY_1                    6400                      #  Was: 621
+
+          name TV-4
+          KEY_7                    2887                      #  Was: 607
+          KEY_8                    9892                      #  Was: 648
+          KEY_4                    2910                      #  Was: 604
+          KEY_2                    6382                      #  Was: 612
+          KEY_6                     #  Was: 596             
+
+          name TV-5
+          KEY_2                    2916                      #  Was: 592
+          KEY_4                    9904                      #  Was: 614
+          KEY_6                    2876                      #  Was: 626
+          KEY_1                    2881                      #  Was: 651
+          KEY_5                    2909                      #  Was: 605
+          KEY_0                     #  Was: 570             
+
+          name TV-6
+          KEY_9                    2920                      #  Was: 579
+          KEY_7                    9872                      #  Was: 647
+          KEY_0                    2852                      #  Was: 650
+          KEY_7                    2898                      #  Was: 607
+          KEY_0                    2896                      #  Was: 610
+
+          name TV-7
+          KEY_1                    2884                      #  Was: 621
+          KEY_8                    9871                      #  Was: 638
+          KEY_5                    2890                      #  Was: 605
+          KEY_0                    2912                      #  Was: 610
+          KEY_1                    6435                      #  Was: 571
+
+          name TV-8
+          KEY_5                    2884                      #  Was: 635
+          KEY_1                    9896                      #  Was: 611
+          KEY_8                    2907                      #  Was: 608
+          KEY_4                    2925                      #  Was: 574
+          KEY_3                    6406                      #  Was: 603
+
+          name TV-9
+          KEY_1                    2887                      #  Was: 621
+          KEY_2                    9852                      #  Was: 642
+          KEY_7                    2900                      #  Was: 607
+          KEY_0                    2900                      #  Was: 610
+          KEY_7                    2927                      #  Was: 577
+          KEY_8                     #  Was: 568             
+
+          name TV-0
+          KEY_4                    2884                      #  Was: 614
+          KEY_5                    9899                      #  Was: 595
+          KEY_3                    2882                      #  Was: 633
+          KEY_2                    6383                      #  Was: 622
+          KEY_7                    2920                      #  Was: 587
+
+      end raw_codes
+
+end remote
+
+
+
+
+
+################
+### VCR mode ###
+################
+begin remote
+
+  name  SBCRU545-VCR
+  bits           13
+  flags RC5|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           890   878
+  zero          890   878
+  plead         975
+  gap          113558
+  min_repeat      4
+  toggle_bit      2
+
+
+      begin codes
+          VCR-OFF                  0x000000000000114C
+          VCR-TT-ON                0x000000000000117C
+          VCR-TT-STOPRUN           0x000000000000115D
+          VCR-TT-ENLARGE           0x0000000000001171
+          VCR-TT-OFF               0x000000000000114B
+          VCR-AV                   0x0000000000001178
+          VCR-CH+                  0x0000000000001160
+          VCR-CH-                  0x0000000000001161
+          VCR-MENU                 0x0000000000000152
+          VCR-OK                   0x0000000000000157
+          VCR-1                    0x0000000000001141
+          VCR-2                    0x0000000000001142
+          VCR-3                    0x0000000000001143
+          VCR-4                    0x0000000000001144
+          VCR-5                    0x0000000000001145
+          VCR-6                    0x0000000000001146
+          VCR-7                    0x0000000000001147
+          VCR-8                    0x0000000000001148
+          VCR-9                    0x0000000000001149
+          VCR-0                    0x0000000000001140
+          VCR-CHANNELSWITCH        0x000000000000114A
+          VCR-PLAY                 0x0000000000001175
+          VCR-STOP                 0x0000000000001176
+          VCR-PAUSE                0x0000000000001170
+          VCR-RECORD               0x0000000000001177
+          VCR-REWIND               0x0000000000001172
+          VCR-FORWARD              0x0000000000001174
+      end codes
+
+end remote
+
+
+
+
+
+################
+### SAT mode ###
+################
+begin remote
+
+  name  SBCRU545-SAT
+  bits            8
+  flags RC6|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       2721   859
+  one           456   424
+  zero          456   424
+  pre_data_bits   13
+  pre_data       0xED8
+  gap          106433
+  min_repeat      1
+  toggle_bit      5
+
+
+      begin codes
+          SAT-OFF                  0x00000000000000F3
+          SAT-AV                   0x00000000000000BC
+          SAT-MENU                 0x0000000000000033
+          SAT-OK                   0x00000000000000A3
+          SAT-CH+                  0x00000000000000DF
+          SAT-CH-                  0x00000000000000DE
+          SAT-TT-ON                0x00000000000000C3
+          SAT-TT-STOPRUN           0x000000000000007B
+          SAT-TT-ENLARGE           0x000000000000007C
+          SAT?TT-OFF               0x00000000000000B4
+          SAT-1                    0x00000000000000FE
+          SAT-2                    0x00000000000000FD
+          SAT-3                    0x00000000000000FC
+          SAT-4                    0x00000000000000FB
+          SAT-5                    0x00000000000000FA
+          SAT-6                    0x00000000000000F9
+          SAT-7                    0x00000000000000F8
+          SAT-8                    0x00000000000000F7
+          SAT-9                    0x00000000000000F6
+          SAT-0                    0x00000000000000FF
+          SAT-PLAY                 0x0000000000000090
+          SAT-STOP                 0x0000000000000093
+          SAT-PAUSE                0x0000000000000092
+          SAT-RECORD               0x00000000000000BA
+          SAT-REWIND               0x0000000000000094
+          SAT-FORWARD              0x0000000000000091
+      end codes
+
+end remote
+
+
+
+
+
+################
+### DVD Mode ###
+################
+begin remote
+
+  name  SBCRU545-DVD
+  bits            8
+  flags RC6|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       2695   888
+  one           437   443
+  zero          437   443
+  pre_data_bits   13
+  pre_data       0xEFB
+  gap          106432
+  min_repeat      1
+  toggle_bit      5
+
+
+      begin codes
+          KEY_DVD                  0x00000000000000F3        #  Was: DVD-OFF
+          KEY_DVD                  0x000000000000008E        #  Was: DVD-TT-ON
+          KEY_DVD                  0x00000000000000B1        #  Was: DVD-TT-STOPRUN
+          KEY_DVD                  0x000000000000007A        #  Was: DVD-TT-ENLARGE
+          KEY_DVD                  0x00000000000000B4        #  Was: DVD-TT-OFF
+          KEY_DVD                  0x00000000000000BC        #  Was: DVD-AV
+          KEY_MENU                 0x00000000000000AB        #  Was: DVD-MENU
+          KEY_DVD                  0x00000000000000A3        #  Was: DVD-OK
+          KEY_DVD                  0x00000000000000DF        #  Was: DVD-CH+
+          KEY_DVD                  0x00000000000000DE        #  Was: DVD-CH-
+          KEY_DVD                  0x00000000000000BD        #  Was: DVD-CHANNELSWITCH
+          KEY_DVD                  0x00000000000000D3        #  Was: DVD-PLAY
+          KEY_DVD                  0x00000000000000CE        #  Was: DVD-STOP
+          KEY_DVD                  0x00000000000000CF        #  Was: DVD-PAUSE
+          KEY_DVD                  0x000000000000007C        #  Was: DVD-RECORD
+          KEY_DVD                  0x0000000000000022        #  Was: DVD-REWIND
+          KEY_DVD                  0x000000000000001F        #  Was: DVD-FORWARD
+          KEY_DVD                  0x00000000000000FE        #  Was: DVD-1
+          KEY_DVD                  0x00000000000000FD        #  Was: DVD-2
+          KEY_DVD                  0x00000000000000FC        #  Was: DVD-3
+          KEY_DVD                  0x00000000000000FB        #  Was: DVD-4
+          KEY_DVD                  0x00000000000000FA        #  Was: DVD-5
+          KEY_DVD                  0x00000000000000F9        #  Was: DVD-6
+          KEY_DVD                  0x00000000000000F8        #  Was: DVD-7
+          KEY_DVD                  0x00000000000000F7        #  Was: DVD-8
+          KEY_DVD                  0x00000000000000F6        #  Was: DVD-9
+          KEY_DVD                  0x00000000000000FF        #  Was: DVD-0
+      end codes
+
+end remote
+
+
+##############################
+### End of /etc/lircd.conf ###
+##############################
+#
+# this config file was automatically generated
+# using lirc-0.6.6(any) on Tue Dec 23 18:59:45 2003
+#
+# contributed by mikrosaft@yahoo.de
+#
+# brand:                       Philips
+# model no. of remote control: Philips SBC RU 545/00 (TV: 0680, VCR: 0039)
+# devices being controlled by this remote: vdr
+#
+
+begin remote
+
+  name  Philips-SBC_RU_545_00
+  bits           16
+  flags SPACE_ENC|NO_HEAD_REP|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       8454  4111
+  one           614  1476
+  zero          614   431
+  ptrail        614
+  gap          46744
+  min_repeat      1
+  toggle_bit      0
+
+
+      begin codes
+          KEY_0                    0x000000000000C004        #  Was: 0
+          KEY_1                    0x000000000000C084        #  Was: 1
+          KEY_2                    0x000000000000C044        #  Was: 2
+          KEY_3                    0x000000000000C0C4        #  Was: 3
+          KEY_4                    0x000000000000C024        #  Was: 4
+          KEY_5                    0x000000000000C0A4        #  Was: 5
+          KEY_6                    0x000000000000C064        #  Was: 6
+          KEY_7                    0x000000000000C0E4        #  Was: 7
+          KEY_8                    0x000000000000C014        #  Was: 8
+          KEY_9                    0x000000000000C094        #  Was: 9
+          KEY_LEFT                 0x000000000000C448        #  Was: Left
+          KEY_RIGHT                0x000000000000C4C8        #  Was: Right
+          KEY_DOWN                 0x000000000000C488        #  Was: Down
+          KEY_UP                   0x000000000000C40C        #  Was: Up
+          KEY_VOLUMEUP             0x000000000000C078        #  Was: Volume+
+          KEY_VOLUMEDOWN           0x000000000000C0F8        #  Was: Volume-
+          KEY_CHANNELUP            0x000000000000C098        #  Was: Channel+
+          KEY_CHANNELDOWN          0x000000000000C018        #  Was: Channel-
+          KEY_RED                  0x000000000000C43C        #  Was: Red
+          KEY_GREEN                0x000000000000C4BC        #  Was: Green
+          KEY_YELLOW               0x000000000000C47C        #  Was: Yellow
+          KEY_BLUE                 0x000000000000C4FC        #  Was: Blue
+          KEY_MUTE                 0x000000000000C038        #  Was: Mute
+          KEY_MENU                 0x000000000000C05E        #  Was: Menu
+          KEY_OK                   0x000000000000C050        #  Was: Ok
+      end codes
+
+end remote
+
+begin remote
+
+  name  Philips-SBC_RU_545_00
+  bits            5
+  flags RC5|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           958   803
+  zero          958   803
+  plead         977
+  pre_data_bits   8
+  pre_data       0x8B
+  gap          113307
+  min_repeat      2
+  toggle_bit      2
+
+
+      begin codes
+          FastRew                  0x0000000000000012
+          KEY_FASTFORWARD          0x0000000000000014        #  Was: FastFwd
+          KEY_PLAY                 0x0000000000000015        #  Was: Play
+          KEY_STOP                 0x0000000000000016        #  Was: Stop
+          KEY_RECORD               0x0000000000000017        #  Was: Record
+          KEY_PAUSE                0x0000000000000009        #  Was: Pause
+      end codes
+
+end remote
+
+begin remote
+
+  name  Philips-SBC_RU_545_00
+  bits            8
+  flags SPACE_ENC|NO_HEAD_REP|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       8449  4115
+  one           617  1474
+  zero          617   429
+  ptrail        616
+  pre_data_bits   8
+  pre_data       0xC0
+  gap          46747
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x00000000000000E8        #  Was: Power
+          KEY_BACK                 0x00000000000000B9        #  Was: Back
+          KEY_RECORD               0x00000000000000C8        #  Was: Recordings
+      end codes
+
+end remote
+
+
+
+

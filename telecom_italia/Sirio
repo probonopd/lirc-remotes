@@ -1,0 +1,137 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.6(any) on Sat Nov  1 14:07:26 2003
+#
+# contributed by Claudio Chimera (cladix_it|yahoo.it)
+#
+# brand:                       Telecom Italia
+# model no. of remote control: sirio
+# devices being controlled by this remote: sirio
+#
+
+begin remote
+
+  name  sirio
+  bits           11
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           157  7433
+  zero          157  4903
+  ptrail        157
+  gap          121450
+  toggle_bit      2
+
+
+      begin codes
+          KEY_UP                   0x00000000000005F1        #  Was: up
+          KEY_DOWN                 0x00000000000007F2        #  Was: down
+          KEY_LEFT                 0x00000000000005F0        #  Was: left
+          KEY_RIGHT                0x00000000000007EF        #  Was: right
+          caps                     0x00000000000005F4
+          KEY_SPACE                0x00000000000007EE        #  Was: space
+          KEY_1                    0x00000000000005C1        #  Was: 1
+          KEY_2                    0x00000000000007C2        #  Was: 2
+          KEY_3                    0x00000000000005C3        #  Was: 3
+          KEY_4                    0x00000000000007C4        #  Was: 4
+          KEY_5                    0x00000000000005C5        #  Was: 5
+          KEY_6                    0x00000000000007C6        #  Was: 6
+          KEY_7                    0x00000000000005C7        #  Was: 7
+          KEY_8                    0x00000000000007C8        #  Was: 8
+          KEY_9                    0x00000000000005C9        #  Was: 9
+          KEY_0                    0x00000000000007C0        #  Was: 0
+          '                        0x00000000000005E9
+          ì                        0x00000000000007E6
+          <                        0x00000000000005EA
+          KEY_Q                    0x00000000000007DA        #  Was: q
+          KEY_W                    0x00000000000005E0        #  Was: w
+          KEY_E                    0x00000000000007CE        #  Was: e
+          KEY_R                    0x00000000000005DB        #  Was: r
+          KEY_T                    0x00000000000007DD        #  Was: t
+          KEY_Y                    0x00000000000005E2        #  Was: y
+          KEY_U                    0x00000000000007DE        #  Was: u
+          KEY_I                    0x00000000000005D2        #  Was: i
+          KEY_O                    0x00000000000007D8        #  Was: o
+          KEY_P                    0x00000000000005D9        #  Was: p
+          è                        0x00000000000007E5
+          à                        0x00000000000005E4
+          KEY_A                    0x00000000000007CA        #  Was: a
+          KEY_S                    0x00000000000005DC        #  Was: s
+          KEY_D                    0x00000000000007CD        #  Was: d
+          KEY_F                    0x00000000000005CF        #  Was: f
+          KEY_G                    0x00000000000007D0        #  Was: g
+          KEY_H                    0x00000000000005D1        #  Was: h
+          KEY_J                    0x00000000000007D3        #  Was: j
+          KEY_K                    0x00000000000005D4        #  Was: k
+          KEY_L                    0x00000000000007D5        #  Was: l
+          ò                        0x00000000000005E7
+          ù                        0x00000000000007E8
+          KEY_Z                    0x00000000000005E3        #  Was: z
+          KEY_X                    0x00000000000007E1        #  Was: x
+          KEY_C                    0x00000000000005CC        #  Was: c
+          KEY_V                    0x00000000000007DF        #  Was: v
+          KEY_B                    0x00000000000005CB        #  Was: b
+          KEY_N                    0x00000000000007D7        #  Was: n
+          KEY_M                    0x00000000000005D6        #  Was: m
+          ,                        0x00000000000007EB
+          KEY_DOT                  0x00000000000005EC        #  Was: .
+          KEY_KPMINUS              0x00000000000007ED        #  Was: -
+          !                        0x0000000000000501
+          "                        0x0000000000000702
+          KEY_NUMERIC_POUND        0x0000000000000503        #  Was: #
+          $                        0x0000000000000704
+          %                        0x0000000000000505
+          &                        0x0000000000000706
+          /                        0x0000000000000507
+          (                        0x0000000000000708
+          )                        0x0000000000000509
+          =                        0x0000000000000700
+          ?                        0x0000000000000529
+          ?                        0x0000000000000726
+          >                        0x000000000000052A
+          KEY_Q                    0x000000000000071A        #  Was: Q
+          KEY_W                    0x0000000000000520        #  Was: W
+          KEY_R                    0x000000000000071B        #  Was: R
+          KEY_T                    0x000000000000051D        #  Was: T
+          KEY_Y                    0x0000000000000722        #  Was: Y
+          KEY_U                    0x000000000000051E        #  Was: U
+          KEY_I                    0x0000000000000712        #  Was: I
+          KEY_O                    0x0000000000000518        #  Was: O
+          KEY_P                    0x0000000000000719        #  Was: P
+          é                        0x0000000000000525
+          KEY_NUMERIC_STAR         0x0000000000000724        #  Was: \*
+          KEY_A                    0x000000000000050A        #  Was: A
+          KEY_S                    0x000000000000071C        #  Was: S
+          KEY_D                    0x000000000000050D        #  Was: D
+          KEY_F                    0x000000000000070F        #  Was: F
+          KEY_G                    0x0000000000000510        #  Was: G
+          KEY_H                    0x0000000000000711        #  Was: H
+          KEY_J                    0x0000000000000513        #  Was: J
+          KEY_K                    0x0000000000000714        #  Was: K
+          KEY_L                    0x0000000000000515        #  Was: L
+          @                        0x0000000000000727
+          KEY_KPPLUS               0x0000000000000528        #  Was: +
+          KEY_Z                    0x0000000000000723        #  Was: Z
+          KEY_X                    0x0000000000000521        #  Was: X
+          KEY_C                    0x000000000000070C        #  Was: C
+          KEY_V                    0x000000000000051F        #  Was: V
+          KEY_B                    0x000000000000070B        #  Was: B
+          KEY_N                    0x0000000000000517        #  Was: N
+          KEY_M                    0x0000000000000716        #  Was: M
+          ;                        0x000000000000052B
+          :                        0x000000000000072C
+          _                        0x000000000000052D
+          shift-up                 0x0000000000000531
+          shift-down               0x0000000000000732
+          shift-left               0x0000000000000530
+          shift-right              0x000000000000072F
+          KEY_CANCEL               0x00000000000005F3        #  Was: cancel
+          shift-caps               0x0000000000000534
+          shift-cancel             0x0000000000000533
+          shift-space              0x000000000000052E
+      end codes
+
+end remote
+
+

@@ -1,0 +1,63 @@
+#
+# this config file was automatically generated
+# using WinLIRC 0.6.5 (LIRC 0.6.1pre3) on Fri Apr 21 13:14:10 2006
+#
+# contributed by
+#
+# brand:             NEC
+# model:             RD-409E
+# supported devices: LCD projectors NEC VT-670
+#
+
+begin remote
+
+  name  NEC_RD-409E
+  bits           16
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  header       9040  4420
+  one           622  1605
+  zero          622   491
+  ptrail        622
+  repeat       9075  2152
+  pre_data_bits   16
+  pre_data       0x1897
+  gap          41141
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x28D7                    #  Was: power_off
+          KEY_POWER                0x10EF                    #  Was: power_on
+          magnify_plus             0x916E
+          magnify_minus            0x51AE
+          pic-mute                 0xE21D
+          KEY_PAGEUP               0x54AB                    #  Was: page_up
+          KEY_PAGEDOWN             0xD42B                    #  Was: page_down
+          KEY_MENU                 0x629D                    #  Was: menu
+          KEY_UP                   0x1DE2                    #  Was: up
+          KEY_DOWN                 0x3DC2                    #  Was: down
+          KEY_LEFT                 0x7D82                    #  Was: left
+          KEY_RIGHT                0x5DA2                    #  Was: right
+          KEY_ENTER                0xE817                    #  Was: enter
+          KEY_EXIT                 0xA45B                    #  Was: exit
+          l_click                  0x34CB
+          r_click                  0xB44B
+          KEY_VIDEO                0xC03F                    #  Was: video
+          computer_1               0x20DF
+          auto_adj                 0x609F
+          s-video                  0x639C
+          computer_2               0xA05F
+          KEY_VOLUMEUP             0x12ED                    #  Was: vol_up
+          KEY_VOLUMEDOWN           0x926D                    #  Was: vol_down
+          aspect                   0x08F7
+          picture                  0xB04F
+          KEY_HELP                 0x728D                    #  Was: help
+          freeze                   0x32CD
+      end codes
+
+end remote
+
+

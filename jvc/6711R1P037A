@@ -1,0 +1,69 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.2(default) on Tue Dec 25 13:35:39 2007
+#
+# contributed by Eduard DRUSA <ventyl86|netkosice.sk>
+#
+# brand:                                   JVC
+# model no. of remote control:             6711R1P037A
+# devices being controlled by this remote: VCR/TV
+#
+
+begin remote
+
+  name  JVC_6711R1P037A
+  bits           16
+  flags SPACE_ENC
+  eps            30
+  aeps          100
+
+  one           511  1589
+  zero          511   539
+  ptrail        512
+  gap          22347
+  toggle_bit_mask 0x0
+
+      begin codes
+          KEY_POWER                0xC2D0                    #  Was: power
+          KEY_PLAY                 0xC230                    #  Was: play
+          KEY_FORWARD              0xC260                    #  Was: forward
+          KEY_REWIND               0xC2E0                    #  Was: backward
+          KEY_STOP                 0xC2C0                    #  Was: stop
+          KEY_PAUSE                0xC2B0                    #  Was: pause
+          KEY_MENU                 0xC2EC                    #  Was: menu
+          KEY_OK                   0xC23C                    #  Was: ok
+          zero4x                   0xC26C
+          itr                      0xC233
+          pr_up                    0xC298
+          pr_dn                    0xC218
+          KEY_RIGHT                0xC228                    #  Was: right
+          KEY_LEFT                 0xC2A8                    #  Was: left
+          KEY_EJECTCD              0xC220                    #  Was: eject
+          no_1                     0xC284
+          no_2                     0xC244
+          no_3                     0xC2C4
+          no_4                     0xC224
+          no_5                     0xC2A4
+          no_6                     0xC264
+          no_7                     0xC2E4
+          no_8                     0xC214
+          no_9                     0xC294
+          no_0                     0xC2CC
+          KEY_VOLUMEUP             0xC078                    #  Was: vol_up
+          KEY_VOLUMEDOWN           0xC0F8                    #  Was: vol_dn
+          tvpr_up                  0xC098
+          tvpr_dn                  0xC018
+          tv_vcr                   0xC2C8
+          av                       0xC280
+          ff_30sec                 0xC269
+          die                      0xC25F
+          KEY_PLAY                 0xC219                    #  Was: start
+          tv_power                 0xC0E8
+          lock                     0xC20F
+          showview                 0xC283
+          KEY_VIDEO                0xC0C8                    #  Was: video_plus
+      end codes
+
+end remote
+
+

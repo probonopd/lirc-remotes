@@ -1,0 +1,69 @@
+#
+# This config file has been automatically converted from a device file
+# found in the 06/26/00 release of the Windows Slink-e software
+# package.
+#
+# Many thanks to Colby Boles of Nirvis Systems Inc. for allowing us to
+# use these files.
+#
+# The original filename was: "tivo.cde"
+#
+# The original description for this device was:
+#
+# tivo tx file
+#
+
+
+begin remote
+
+  name  TIVO
+  bits           32
+  flags SPACE_ENC
+  eps            20
+  aeps          200
+
+  header       9000  4500
+  one           562   562
+  zero          562  1687
+  ptrail        562
+  repeat       9000  2250
+  gap          46000
+  toggle_bit      0
+
+  frequency    40000
+
+      begin codes
+          TIVO                     0x000000005EF3FFF0
+          KEY_TV                   0x000000005EF377F8        #  Was: LIVETV
+          KEY_UP                   0x000000005EF3D7F8        #  Was: UP
+          KEY_DOWN                 0x000000005EF397F8        #  Was: DOWN
+          KEY_RIGHT                0x000000005EF357F8        #  Was: RIGHT
+          KEY_LEFT                 0x000000005EF317F8        #  Was: LEFT
+          THUMBSDOWN               0x000000005EF3E7F8
+          THUMBSUP                 0x000000005EF3A7F8
+          KEY_SELECT               0x000000005EF367F8        #  Was: SELECT
+          KEY_RECORD               0x000000005EF3FBF4        #  Was: RECORD
+          KEY_PLAY                 0x000000005EF37BF4        #  Was: PLAY
+          KEY_CHANNELUP            0x000000005EF387F8        #  Was: CH+
+          KEY_CHANNELDOWN          0x000000005EF307F8        #  Was: CH-
+          REV                      0x000000005EF3BBF4
+          KEY_FORWARD              0x000000005EF3DBF4        #  Was: FWD
+          KEY_PAUSE                0x000000005EF33BF4        #  Was: PAUSE
+          KEY_SLOW                 0x000000005EF35BF4        #  Was: SLOW
+          KEY_AGAIN                0x000000005EF39BF4        #  Was: REPLAY
+          JUMPTOEND                0x000000005EF31BF4
+          KEY_1                    0x000000005EF3EBF4        #  Was: 1
+          KEY_2                    0x000000005EF36BF4        #  Was: 2
+          KEY_3                    0x000000005EF3ABF4        #  Was: 3
+          KEY_4                    0x000000005EF32BF4        #  Was: 4
+          KEY_5                    0x000000005EF3CBF4        #  Was: 5
+          KEY_6                    0x000000005EF34BF4        #  Was: 6
+          KEY_7                    0x000000005EF38BF4        #  Was: 7
+          KEY_8                    0x000000005EF30BF4        #  Was: 8
+          KEY_9                    0x000000005EF3F3FC        #  Was: 9
+          KEY_CLEAR                0x000000005EF3B3FC        #  Was: CLEAR
+          KEY_0                    0x000000005EF373FC        #  Was: 0
+          KEY_ENTER                0x000000005EF333FC        #  Was: ENTER
+      end codes
+
+end remote

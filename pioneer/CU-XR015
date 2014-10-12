@@ -1,0 +1,69 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.4(serial) on Wed Jan 30 21:04:31 2002
+#
+# contributed by
+#
+# brand:                       Pioneer
+# model no. of remote control: CU-XR015
+# supported devices:          
+#
+
+begin remote
+
+  name PIONEER_CU-XR015
+  bits           32
+  flags SPACE_ENC
+  eps            30
+  aeps          100
+
+  header       8726  4059
+  one           723  1404
+  zero          723   344
+  ptrail        729
+  gap          25400
+  toggle_bit      0
+
+
+      begin codes
+          SFC                      0x00000000659A5BA4
+          FUNC                     0x00000000659A9966
+          KEY_SLEEP                0x00000000659A9867        #  Was: SLEEP
+          KEY_1                    0x00000000659A00FF        #  Was: 1
+          KEY_2                    0x00000000659A807F        #  Was: 2
+          KEY_3                    0x00000000659A40BF        #  Was: 3
+          DISPLAY                  0x00000000659AB946
+          KEY_4                    0x00000000659AC03F        #  Was: 4
+          KEY_5                    0x00000000659A20DF        #  Was: 5
+          KEY_6                    0x00000000659AA05F        #  Was: 6
+          KEY_AGAIN                0x0000000045BA30CF        #  Was: REPEAT
+          KEY_7                    0x00000000659A609F        #  Was: 7
+          KEY_8                    0x00000000659AE01F        #  Was: 8
+          KEY_9                    0x00000000659A10EF        #  Was: 9
+          PGM                      0x0000000045BAB04F
+          KEY_0                    0x00000000659A906F        #  Was: 10/0
+          KEY_0                    0x00000000659A02FD        #  Was: 11/>10
+          KEY_2/CLR                0x00000000659A827D        #  Was: 12/CLR
+          CD_PREV                  0x0000000045BA8877
+          CD_NEXT                  0x0000000045BA08F7
+          CD_STOP                  0x0000000045BA6897
+          CD_PLAY                  0x00000000659A22DD
+          TAPE1_RWD                0x00000000857AEA15
+          TAPE1_FWD                0x00000000857A6A95
+          TAPE1_STOP               0x00000000857A3AC5
+          TAPE1_PLAY               0x00000000659A5AA5
+          TAPE2_RWD                0x00000000857A8877
+          TAPE2_FWD                0x00000000857A08F7
+          TAPE2_STOP               0x00000000857A6897
+          TAPE2_PLAY               0x00000000659AE817
+          STATION_MINUS            0x0000000025DA8877
+          STATION_PLUS             0x0000000025DA08F7
+          FM/AM                    0x00000000659A926D
+          KEY_POWER                0x00000000659A38C7        #  Was: POWER
+          KEY_VOLUMEUP             0x00000000659A50AF        #  Was: VOLUME_PLUS
+          KEY_VOLUMEDOWN           0x00000000659AD02F        #  Was: VOLUME_MINUS
+      end codes
+
+end remote
+
+

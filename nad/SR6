@@ -1,0 +1,104 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.3(default) on Wed Nov 26 13:31:18 2008
+#
+# contributed by Amigac
+#
+# brand: NAD
+# model no. of remote control: SR6
+# devices being controlled by this remote: Amplifiers/CD Players/DVD Players/Tuners
+#
+
+begin remote
+
+  name  NAD_SR6
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9038  4332
+  one           675  1556
+  zero          675   454
+  ptrail        662
+  repeat       9064  2113
+  pre_data_bits   16
+  pre_data       0xE13E
+  gap          107932
+  toggle_bit_mask 0x0
+
+      begin codes
+          KEY_POWER                0xA45B                    #  Was: on
+          off                      0x13EC
+
+          KEY_CD                   0xA15E                    #  Was: cd
+          KEY_TUNER                0xBB44                    #  Was: tuner
+          KEY_AUX                  0xD926                    #  Was: aux
+          disc                     0x916E
+          tape-mon                 0xB14E
+          tape2                    0x8976
+          KEY_VIDEO                0x43BC                    #  Was: video-1
+          KEY_VIDEO                0x03FC                    #  Was: video-2
+          KEY_VIDEO                0x837C                    #  Was: video-3
+
+          KEY_MUTE                 0x29D6                    #  Was: mute
+          KEY_VOLUMEUP             0x11EE                    #  Was: vol+
+          KEY_VOLUMEDOWN           0x31CE                    #  Was: vol-
+          disp-info                0x10EF
+          rpt                      0x50AF
+          spk-a                    0x738C
+          spk-b                    0xF30C
+# cd
+          cd-1                     0x30CF
+          cd-2                     0xB04F
+          cd-3                     0x708F
+          cd-4                     0xF00F
+          cd-5                     0x08F7
+          cd-6                     0x8877
+          cd-7                     0x48B7
+          cd-8                     0xC837
+          cd-9                     0xA857
+          cd-10                    0x32CD
+          cd-0                     0x6897
+          cd-+10                   0xB24D
+
+          cd-scan-fwd              0xE01F
+          cd-scan-rev              0x20DF
+
+          cd-disp-info             0x10EF
+          cd-rpt                   0x50AF
+
+          cd-eject                 0x12ED
+          cd-stop                  0x40BF
+          cd-pause                 0x52AD
+          cd-prev                  0xA05F
+          cd-play                  0x807F
+          cd-next                  0x609F
+# tuner
+          tuner-1                  0x51AE
+          tuner-2                  0x718E
+          tuner-3                  0x49B6
+          tuner-4                  0x6996
+          tuner-5                  0xD12E
+          tuner-6                  0xF10E
+          tuner-7                  0xC936
+          tuner-8                  0xE916
+          tuner-9                  0x19E6
+          tuner-10                 0x4FB0
+          tuner-0                  0xE31C
+          tuner-+10                0xCF30
+
+          tuner-disp-info          0x649B
+
+          tuner-preset-up          0x4BB4
+          tuner-tune-left          0xCB34
+          tuner-enter              0xA35C
+          tuner-tune-right         0x2BD4
+          tuner-preset-down        0x8B74
+
+          tuner-fm-mute            0xEC13
+          tuner-blend              0xAC53
+          tuner-am-fm-dab          0xBB44
+      end codes
+
+end remote

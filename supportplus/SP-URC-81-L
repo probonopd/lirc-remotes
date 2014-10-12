@@ -1,0 +1,264 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.1-CVS(serial) on Sun Jan 29 02:37:03 2006
+#
+# contributed by
+#
+# brand: SupportPlus Universal 8in1 (SP-URC-81-L)
+# model no. of remote control: DVD, Code 019
+# All Keys working, "AB" and "TV/VCR" the same
+#
+
+begin remote
+
+  name  SP-URC-81-L
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9017  4449
+  one           576  1642
+  zero          576   558
+  ptrail        573
+  repeat       9015  2210
+  pre_data_bits   16
+  pre_data       0x20DF
+  gap          104809
+  toggle_bit      0
+
+
+      begin codes
+          KEY_1                    0x8877                    #  Was: 1
+          KEY_2                    0x708F                    #  Was: 2
+          KEY_3                    0xF00F                    #  Was: 3
+          KEY_4                    0xA857                    #  Was: 4
+          KEY_5                    0x48B7                    #  Was: 5
+          KEY_6                    0xC837                    #  Was: 6
+          KEY_7                    0x9867                    #  Was: 7
+          KEY_8                    0x6897                    #  Was: 8
+          KEY_9                    0xE817                    #  Was: 9
+          KEY_0                    0x58A7                    #  Was: 0
+          ab                       0x32CD
+          KEY_BACK                 0xAA55                    #  Was: back
+          KEY_OK                   0xB847                    #  Was: ok
+          KEY_UP                   0x2AD5                    #  Was: up
+          KEY_DOWN                 0xBA45                    #  Was: down
+          KEY_LEFT                 0x9A65                    #  Was: left
+          KEY_RIGHT                0x3AC5                    #  Was: right
+          KEY_VOLUMEUP             0x10EF                    #  Was: vol+
+          KEY_VOLUMEDOWN           0x50AF                    #  Was: vol-
+          KEY_CHANNELDOWN          0x38C7                    #  Was: ch-
+          KEY_CHANNELUP            0x18E7                    #  Was: ch+
+          KEY_MENU                 0x00FF                    #  Was: menu
+          pic                      0x807F
+          tvvcr                    0x32CD
+          KEY_RECORD               0x40BF                    #  Was: rec
+          KEY_PAUSE                0xF807                    #  Was: pause
+          vpwr                     0x30CF
+          KEY_RED                  0x08F7                    #  Was: red
+          KEY_YELLOW               0xA05F                    #  Was: yellow
+          KEY_BLUE                 0x28D7                    #  Was: blue
+          KEY_GREEN                0xE01F                    #  Was: green
+          KEY_TEXT                 0x728D                    #  Was: text
+          KEY_CLEAR                0x926D                    #  Was: clear
+          full                     0xD827
+          mix                      0xA25D
+      end codes
+
+end remote
+
+
+#
+# this config file was automatically generated
+# using lirc-0.7.0pre4(serial) on Sat Aug  6 10:16:55 2005
+#
+# contributed by "lsv.info at web.de"
+#
+# brand: 			Universal 8 in 1
+# model no. of remote control: 	Support Plus  SP-URC-81-L
+# devices being controlled by this remote: VDR, Version 1.3.6
+#
+
+begin remote
+
+  name   Support_Plus_SP-URC-81-L
+  flags CONST_LENGTH|RAW_CODES
+  eps            30
+  aeps          100
+
+  ptrail          0
+  repeat     0     0
+  gap    111243
+
+      begin raw_codes
+
+          name Up
+          KEY_4                    777                       #  Was: 1854
+          KEY_4                    778                       #  Was: 964
+          KEY_3                    779                       #  Was: 963
+          KEY_4                    777                       #  Was: 964
+
+          name Down
+          KEY_2                    1635                      #  Was: 1852
+          KEY_8                    774                       #  Was: 968
+          KEY_3                    1636                      #  Was: 963
+          KEY_3                    1635                      #  Was: 963
+
+          name Menu
+          KEY_2                    779                       #  Was: 1852
+          KEY_4                    779                       #  Was: 964
+          KEY_3                    778                       #  Was: 963
+          KEY_1                    1636                      #  Was: 961
+
+          name Ok
+          KEY_2                    851                       #  Was: 892
+          KEY_4                    779                       #  Was: 964
+          KEY_4                    1634                      #  Was: 964
+          KEY_4                    1636                      #  Was: 964
+
+          name Back
+          KEY_1                    802                       #  Was: 941
+          KEY_3                    778                       #  Was: 963
+          KEY_3                    1636                      #  Was: 963
+          KEY_4                    1636                      #  Was: 964
+
+          name Left
+          KEY_4                    777                       #  Was: 1854
+          KEY_3                    779                       #  Was: 963
+          KEY_3                    779                       #  Was: 963
+          KEY_1                    1634                      #  Was: 1851
+
+          name Right
+          KEY_5                    1633                      #  Was: 1855
+          KEY_3                    778                       #  Was: 963
+          KEY_4                    1636                      #  Was: 964
+          KEY_3                     #  Was: 1853            
+
+          name Red
+          KEY_9                    781                       #  Was: 1849
+          KEY_2                    780                       #  Was: 962
+          KEY_3                    1636                      #  Was: 963
+          KEY_9                    804                       #  Was: 939
+
+          name Green
+          KEY_0                    1637                      #  Was: 1850
+          KEY_0                    781                       #  Was: 960
+          KEY_0                    1626                      #  Was: 1860
+          KEY_0                     #  Was: 960             
+
+          name Yellow
+          KEY_4                    776                       #  Was: 1854
+          KEY_4                    778                       #  Was: 964
+          KEY_4                    1636                      #  Was: 964
+          KEY_2                    1634                      #  Was: 1852
+
+          name Blue
+          KEY_2                    1634                      #  Was: 1852
+          KEY_3                    778                       #  Was: 963
+          KEY_1                    1634                      #  Was: 1851
+          KEY_3                     #  Was: 1853            
+
+          name 0
+          KEY_3                    850                       #  Was: 893
+          KEY_3                    778                       #  Was: 963
+          KEY_4                    778                       #  Was: 964
+          KEY_4                    778                       #  Was: 964
+          KEY_9                     #  Was: 939             
+
+          name 1
+          KEY_3                    850                       #  Was: 893
+          KEY_5                    778                       #  Was: 965
+          KEY_4                    779                       #  Was: 964
+          KEY_4                    777                       #  Was: 964
+          KEY_7                     #  Was: 967             
+
+          name 2
+          KEY_3                    851                       #  Was: 893
+          KEY_4                    778                       #  Was: 964
+          KEY_4                    779                       #  Was: 964
+          KEY_5                    778                       #  Was: 965
+
+          name 3
+          KEY_7                    828                       #  Was: 917
+          KEY_4                    779                       #  Was: 964
+          KEY_2                    779                       #  Was: 962
+          KEY_3                    780                       #  Was: 963
+          KEY_6                     #  Was: 966             
+
+          name 4
+          KEY_3                    852                       #  Was: 893
+          KEY_3                    779                       #  Was: 963
+          KEY_8                    804                       #  Was: 938
+          KEY_3                    1636                      #  Was: 963
+
+          name 5
+          KEY_2                    852                       #  Was: 892
+          KEY_8                    804                       #  Was: 938
+          KEY_8                    804                       #  Was: 938
+          KEY_4                    1634                      #  Was: 964
+
+          name 6
+          KEY_3                    852                       #  Was: 893
+          KEY_3                    779                       #  Was: 963
+          KEY_4                    778                       #  Was: 964
+          KEY_4                    1634                      #  Was: 964
+
+          name 7
+          KEY_6                    838                       #  Was: 906
+          KEY_5                    777                       #  Was: 965
+          KEY_3                    779                       #  Was: 963
+          KEY_4                    1634                      #  Was: 964
+          KEY_7                     #  Was: 967             
+
+          name 8
+          KEY_3                    851                       #  Was: 893
+          KEY_4                    779                       #  Was: 964
+          KEY_3                    779                       #  Was: 963
+          KEY_2                    778                       #  Was: 1852
+
+          name 9
+          KEY_3                    852                       #  Was: 893
+          KEY_3                    779                       #  Was: 963
+          KEY_3                    779                       #  Was: 963
+          KEY_2                    778                       #  Was: 1852
+
+          name Volume+
+          KEY_3                    850                       #  Was: 893
+          KEY_4                    778                       #  Was: 964
+          KEY_4                    778                       #  Was: 964
+          KEY_4                    779                       #  Was: 964
+
+          name Volume-
+          KEY_3                    850                       #  Was: 893
+          KEY_3                    779                       #  Was: 963
+          KEY_4                    778                       #  Was: 964
+          KEY_4                    778                       #  Was: 964
+
+          name Mute
+          KEY_6                    828                       #  Was: 916
+          KEY_4                    778                       #  Was: 964
+          KEY_3                    779                       #  Was: 963
+          KEY_6                    829                       #  Was: 916
+
+          name Channel+
+          KEY_2                    802                       #  Was: 942
+          KEY_2                    780                       #  Was: 962
+          KEY_3                    1635                      #  Was: 963
+          KEY_1                    780                       #  Was: 961
+
+          name Channel-
+          KEY_5                    828                       #  Was: 915
+          KEY_4                    767                       #  Was: 974
+          KEY_4                    1636                      #  Was: 964
+          KEY_2                    780                       #  Was: 962
+
+          name Power
+          KEY_4                    850                       #  Was: 894
+          KEY_5                    779                       #  Was: 965
+          KEY_5                    778                       #  Was: 965
+          KEY_2                    852                       #  Was: 892
+
+      end raw_codes
+
+end remote

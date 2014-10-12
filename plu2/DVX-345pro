@@ -1,0 +1,86 @@
+#
+# this config file was automatically generated
+# using lirc-WinLIRC 0.6.1pre2 (LIRC 0.6.1pre2) on Thu Mar 10 18:00:50 2005
+#
+# contributed by http://www.paradiso-design.net
+#
+# brand:             PLU2
+# model:             PLU2 DVD DVX 345pro
+# supported devices:
+#
+
+begin remote
+
+  name  PLU2_DVX-345pro
+  bits           16
+  flags SPACE_ENC
+  eps            30
+  aeps          400
+
+  header       9051  4414
+  one           631  1609
+  zero          631   487
+  ptrail        631
+  repeat       9049  2175
+  pre_data_bits   16
+  pre_data       0xFF
+  gap          39795
+  toggle_bit      0
+
+
+      begin codes
+          KEY_OPEN                 0xB04F                    #  Was: open
+          KEY_MODE                 0x906F                    #  Was: mode
+          KEY_MUTE                 0xA05F                    #  Was: mute
+          KEY_SLEEP                0x807F                    #  Was: standby
+          KEY_MENU                 0xF20D                    #  Was: osd
+          KEY_SUBTITLE             0xD22D                    #  Was: subtitle
+          KEY_TITLE                0xE21D                    #  Was: title
+          KEY_MENU                 0xC23D                    #  Was: menu
+          KEY_AGAIN                0x42BD                    #  Was: repeat
+          abrpt                    0x827D
+          prog                     0x02FD
+          intro                    0x00FF
+          KEY_1                    0x728D                    #  Was: 1
+          KEY_2                    0x52AD                    #  Was: 2
+          KEY_3                    0x629D                    #  Was: 3
+          KEY_4                    0xB24D                    #  Was: 4
+          KEY_5                    0x926D                    #  Was: 5
+          KEY_6                    0xA25D                    #  Was: 6
+          KEY_7                    0x32CD                    #  Was: 7
+          KEY_8                    0x12ED                    #  Was: 8
+          KEY_9                    0x22DD                    #  Was: 9
+          KEY_0                    0x30CF                    #  Was: 0
+          KEY_0+                   0x10EF                    #  Was: 10+
+          KEY_SEARCH               0x20DF                    #  Was: search
+          KEY_SETUP                0xF00F                    #  Was: setup
+          step                     0x609F
+          KEY_ZOOM                 0xF807                    #  Was: zoom
+          KEY_ENTER                0xC837                    #  Was: enter
+          KEY_UP                   0xE01F                    #  Was: up
+          KEY_DOWN                 0xD02F                    #  Was: down
+          KEY_LEFT                 0x708F                    #  Was: left
+          KEY_RIGHT                0x50AF                    #  Was: right
+          f.rev                    0x1AE5
+          f.fwd                    0x2AD5
+          KEY_PAUSE                0x3AC5                    #  Was: pause
+          KEY_PLAY                 0x9A65                    #  Was: play
+          KEY_STOP                 0xBA45                    #  Was: stop
+          KEY_PREVIOUS             0x5AA5                    #  Was: prev
+          KEY_NEXT                 0x6A95                    #  Was: next
+          slow.rev                 0x0AF5
+          slow.fwd                 0x8A75
+          KEY_ENTER                0x7A85                    #  Was: return
+          pbc                      0xEA15
+          KEY_VOLUMEUP             0x4AB5                    #  Was: vol.up
+          KEY_VOLUMEDOWN           0xCA35                    #  Was: vol.down
+          shuffle                  0xFA05
+          ntsc.pal                 0xDA25
+          KEY_ANGLE                0x38C7                    #  Was: angle
+          track                    0x18E7
+          KEY_AUDIO                0x08F7                    #  Was: audio
+      end codes
+
+end remote
+
+

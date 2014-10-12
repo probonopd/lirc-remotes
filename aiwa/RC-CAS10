@@ -1,0 +1,65 @@
+#
+# this config file was automatically generated
+# using WinLIRC 0.6.5 (LIRC 0.6.1pre3) on Sun Jun 14 03:58:31 2009
+#
+# contributed by Aare Torim
+#
+# brand:             Aiwa
+# model:             RC-CAS10
+# supported devices:
+#
+
+begin remote
+
+  name  Aiwa_RC-CAS10
+  bits           16
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  header       9100  4381
+  one           670   452
+  zero          670  1571
+  ptrail        670
+  repeat       9089  4386
+  pre_data_bits   26
+  pre_data       0x227EEC0
+  gap          22947
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x000000000000FF00        #  Was: Power
+          Bass                     0x0000000000001DE2
+          Treble                   0x00000000000015EA
+          KEY_ENTER                0x00000000000031CE        #  Was: Enter
+          KEY_RECORD               0x00000000000005FA        #  Was: Rec
+          KEY_RECORD               0x0000000000009D62        #  Was: Rec_Mute
+          KEY_CHANNELUP            0x0000000000009E61        #  Was: ChUp
+          KEY_CHANNELDOWN          0x0000000000005EA1        #  Was: ChDown
+          KEY_VOLUMEUP             0x0000000000004DB2        #  Was: VolUp
+          KEY_VOLUMEDOWN           0x0000000000008D72        #  Was: VolDown
+          KEY_1                    0x0000000000007F80        #  Was: 1
+          KEY_2                    0x000000000000BF40        #  Was: 2
+          KEY_3                    0x0000000000003FC0        #  Was: 3
+          KEY_4                    0x000000000000DF20        #  Was: 4
+          KEY_5                    0x0000000000005FA0        #  Was: 5
+          KEY_6                    0x0000000000009F60        #  Was: 6
+          KEY_7                    0x0000000000001FE0        #  Was: 7
+          KEY_8                    0x000000000000EF10        #  Was: 8
+          KEY_9                    0x0000000000006F90        #  Was: 9
+          KEY_0                    0x000000000000AF50        #  Was: 0
+          Plus10                   0x0000000000002FD0
+          Deck                     0x00000000000027D8
+          Band                     0x000000000000C738
+          KEY_PLAY                 0x000000000000FD02        #  Was: Play
+          KEY_REWIND               0x0000000000003DC2        #  Was: Rewind
+          KEY_PAUSE                0x000000000000DD22        #  Was: Pause
+          KEY_FORWARD              0x000000000000BD42        #  Was: Forward
+          KEY_STOP                 0x0000000000007D82        #  Was: Stop
+          Function                 0x0000000000008778
+      end codes
+
+end remote
+
+

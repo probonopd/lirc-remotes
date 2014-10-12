@@ -1,0 +1,143 @@
+#This is a lirc configuration file that understands the IR codes for
+# the XM Radio universal remote.  I use these codes to power on/off
+# and set the channel on my OmyX.  These codes are common to many xmradios.
+#
+#Terry Klarich
+#Terry|klarich.net
+#
+# Please make this file available to others
+# by sending it to <lirc@bartelmus.de>
+#
+# this config file was automatically generated
+# using lirc-0.8.6(commandir) on Sun Jan 10 12:58:58 2010
+#
+# contributed by: "Terry Klarich" <terry|klarich.net>
+#
+# brand:                       belkin
+# model no. of remote control: F5X019
+# devices being controlled by this remote:  xmradio universal remote
+#
+
+begin remote
+
+  name  Belkin_F5X019
+  flags RAW_CODES|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  gap          112694
+
+      begin raw_codes
+
+          name KEY_POWER
+          KEY_0                    754                       #  Was: 1940
+          KEY_3                    1653                      #  Was: 1893
+          KEY_3                    1659                      #  Was: 993
+          KEY_3                     #  Was: 993             
+
+          name KEY_1
+          KEY_7                    1630                      #  Was: 1937
+          KEY_0                    1656                      #  Was: 1890
+          KEY_0                    788                       #  Was: 990
+          KEY_1                    1662                      #  Was: 991
+
+          name key_2
+          KEY_7                    752                       #  Was: 2197
+          KEY_6                    1650                      #  Was: 1896
+          KEY_8                    781                       #  Was: 998
+          KEY_4                     #  Was: 1904            
+
+          name KEY_3
+          KEY_0                    1628                      #  Was: 1940
+          KEY_3                    1653                      #  Was: 1893
+          KEY_1                    787                       #  Was: 991
+          KEY_1                    789                       #  Was: 991
+
+          name KEY_4
+          KEY_9                    755                       #  Was: 1939
+          KEY_2                    1654                      #  Was: 1892
+          KEY_3                    785                       #  Was: 993
+          KEY_2                     #  Was: 992             
+
+          name KEY_5
+          KEY_9                    1630                      #  Was: 1939
+          KEY_1                    1655                      #  Was: 1891
+          KEY_0                    788                       #  Was: 990
+          KEY_8                     #  Was: 988             
+
+          name KEY_6
+          KEY_6                    757                       #  Was: 1936
+          KEY_3                    1640                      #  Was: 1913
+          KEY_4                    764                       #  Was: 1014
+          KEY_2                     #  Was: 1922            
+
+          name KEY_7
+          KEY_9                    1629                      #  Was: 1939
+          KEY_1                    1655                      #  Was: 1891
+          KEY_2                    787                       #  Was: 992
+          KEY_2                    795                       #  Was: 992
+
+          name KEY_8
+          KEY_3                    751                       #  Was: 1943
+          KEY_6                    1649                      #  Was: 1896
+          KEY_6                    1658                      #  Was: 996
+          KEY_6                     #  Was: 996             
+
+          name KEY_9
+          KEY_3                    1625                      #  Was: 1943
+          KEY_7                    1649                      #  Was: 1897
+          KEY_5                    1662                      #  Was: 995
+          KEY_4                     #  Was: 994             
+
+          name KEY_0
+          KEY_9                    755                       #  Was: 1939
+          KEY_3                    1653                      #  Was: 1893
+          KEY_3                    785                       #  Was: 993
+          KEY_7                    786                       #  Was: 737
+
+          name KEY_MUTE
+          KEY_1                    752                       #  Was: 1941
+          KEY_5                    1651                      #  Was: 1895
+          KEY_4                    1659                      #  Was: 994
+          KEY_3                     #  Was: 993             
+
+          name KEY_SELECT
+          KEY_2                    1589                      #  Was: 2202
+          KEY_2                    1586                      #  Was: 1952
+          KEY_0                    719                       #  Was: 1930
+          KEY_0                    723                       #  Was: 1050
+
+          name KEY_UP
+          KEY_8                    874                       #  Was: 1788
+          KEY_5                    1798                      #  Was: 1765
+          KEY_8                    905                       #  Was: 1818
+          KEY_2                    876                       #  Was: 852
+
+          name KEY_DOWN
+          KEY_9                    754                       #  Was: 1929
+          KEY_9                    1632                      #  Was: 1909
+          KEY_4                    765                       #  Was: 1904
+          KEY_3                    1656                      #  Was: 1003
+
+          name KEY_LEFT
+          KEY_0                    1585                      #  Was: 1950
+          KEY_4                    1565                      #  Was: 1974
+          KEY_1                    719                       #  Was: 1051
+          KEY_0                    1589                      #  Was: 1070
+
+          name KEY_RIGHT
+          KEY_1                    732                       #  Was: 1951
+          KEY_5                    1633                      #  Was: 1905
+          KEY_7                    745                       #  Was: 1027
+          KEY_6                    758                       #  Was: 1026
+
+          name KEY_DIRECT
+          KEY_6                    1588                      #  Was: 1946
+          KEY_9                    1609                      #  Was: 1929
+          KEY_9                    741                       #  Was: 1929
+          KEY_5                     #  Was: 1925            
+
+      end raw_codes
+
+end remote
+

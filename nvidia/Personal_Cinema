@@ -1,0 +1,70 @@
+#
+# this config file was automatically generated
+# using lirc-0.7.2(serial) on Mon Dec 12 18:26:37 2005
+#
+# contributed by (C)DMP trash|cdmp.it
+#
+# brand: NVIDIA/CREATIVE
+# model no. of remote control: REMOTE CONTROL PERSONAL CINEMA
+# devices being controlled by this remote: NVIDIA/CREATIVE PERSONAL CINEMA
+#
+
+begin remote
+
+  name  NVIDIA_Personal_Cinema
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9056  4499
+  one           573  1683
+  zero          573   555
+  ptrail        576
+  repeat       9069  2234
+  pre_data_bits   16
+  pre_data       0x17E
+  gap          108375
+  toggle_bit      0
+
+
+      begin codes
+          KEY_DVD                  0x807F                    #  Was: DVD-CD
+          DVR-TV                   0x00FF
+          KEY_MENU                 0xC03F                    #  Was: MENU
+          TV-VIDEO                 0xA05F
+          KEY_PLAY                 0x8877                    #  Was: PLAYLIST
+          KEY_REWIND               0x50AF                    #  Was: REW
+          KEY_PLAY                 0x10EF                    #  Was: PLAY
+          KEY_FASTFORWARD          0xF00F                    #  Was: FFW
+          KEY_PREVIOUS             0x40BF                    #  Was: PREV
+          KEY_STOP                 0xE01F                    #  Was: STOP
+          KEY_NEXT                 0x609F                    #  Was: NEXT
+          KEY_MUTE                 0x28D7                    #  Was: MUTE
+          STEP                     0x906F
+          KEY_UP                   0x30CF                    #  Was: UP
+          KEY_DOWN                 0x708F                    #  Was: DOWN
+          KEY_LEFT                 0xD02F                    #  Was: LEFT
+          KEY_RIGHT                0xB04F                    #  Was: RIGHT
+          KEY_VOLUMEUP             0x48B7                    #  Was: VOL+
+          KEY_VOLUMEDOWN           0xA857                    #  Was: VOL-
+          KEY_VOLUMEDOWN           0xA857                    #  Was: VOL-
+          KEY_OK                   0x8877                    #  Was: OK
+          KEY_CHANNELUP            0x08F7                    #  Was: CH+
+          KEY_CHANNELDOWN          0xC837                    #  Was: CH-
+          KEY_RECORD               0x20DF                    #  Was: REC
+          KEY_1                    0x6897                    #  Was: 1
+          KEY_2                    0xE817                    #  Was: 2
+          KEY_3                    0x18E7                    #  Was: 3
+          KEY_4                    0x9867                    #  Was: 4
+          KEY_5                    0x58A7                    #  Was: 5
+          KEY_6                    0xD827                    #  Was: 6
+          KEY_7                    0x38C7                    #  Was: 7
+          KEY_8                    0xB847                    #  Was: 8
+          KEY_9                    0x7887                    #  Was: 9
+          KEY_0                    0xF807                    #  Was: 0
+      end codes
+
+end remote
+
+

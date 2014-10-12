@@ -1,0 +1,70 @@
+#
+# this config file was automatically generated
+# using lirc-WinLIRC 0.6.1pre2 (LIRC 0.6.1pre2) on Sat Oct 05 16:42:47 2002
+#
+# contributed by
+#
+# brand:             Medion
+# model:             07660DK030
+# supported devices: VCR MD 9025
+#
+
+begin remote
+
+  name  medion
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9193  4334
+  one           734  1517
+  zero          734   390
+  ptrail        733
+  pre_data_bits   16
+  pre_data       0x1DE
+  gap          108008
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x000000000000C837        #  Was: PowerOff
+          KEY_EJECTCD              0x000000000000728D        #  Was: Eject
+          TimerRec                 0x000000000000B04F
+          KEY_1                    0x000000000000807F        #  Was: 1
+          KEY_2                    0x00000000000040BF        #  Was: 2
+          KEY_3                    0x000000000000C03F        #  Was: 3
+          KEY_4                    0x00000000000020DF        #  Was: 4
+          KEY_5                    0x000000000000A05F        #  Was: 5
+          KEY_6                    0x000000000000609F        #  Was: 6
+          KEY_7                    0x000000000000E01F        #  Was: 7
+          KEY_8                    0x00000000000010EF        #  Was: 8
+          KEY_9                    0x000000000000906F        #  Was: 9
+          KEY_0                    0x00000000000000FF        #  Was: 0
+          TV/VCR                   0x00000000000048B7
+          CannelTracking+          0x00000000000050AF
+          KEY_CHANNELDOWN          0x000000000000D02F        #  Was: ChannelTracking-
+          SpeedSP/LP               0x0000000000007887
+          KEY_RECORD               0x000000000000E21D        #  Was: Rec-EndSearch
+          Call                     0x000000000000FA05
+          KEY_RECORD               0x000000000000A857        #  Was: REC/OTR
+          Pause/Still              0x00000000000058A7
+          KEY_PLAY                 0x0000000000006897        #  Was: Play
+          FastReturn               0x0000000000009867
+          KEY_FASTFORWARD          0x00000000000018E7        #  Was: FastForward
+          KEY_STOP                 0x000000000000E817        #  Was: Stop
+          ShowView/Program         0x000000000000B847
+          KEY_ENTER                0x000000000000A25D        #  Was: Enter
+          KEY_MENU                 0x0000000000000AF5        #  Was: Menu
+          KEY_CANCEL               0x00000000000052AD        #  Was: Cancel
+          Index                    0x00000000000028D7
+          ATR                      0x0000000000004AB5
+          Clock/Counter            0x0000000000008A75
+          ZeroReturn               0x000000000000D22D
+          CounterReset             0x00000000000032CD
+          AudioSelect              0x000000000000708F
+      end codes
+
+end remote
+
+

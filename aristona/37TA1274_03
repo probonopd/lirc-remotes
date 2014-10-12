@@ -1,0 +1,175 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.6(any) on Tue Mar  9 19:22:51 2004
+#
+# contributed by Meilof Veeningen <meilof|wanadoo.nl>
+#
+# brand: Aristona              37TA127403
+# model no. of remote control: ?
+# devices being controlled by this remote:
+# Aristona 37TA1274/03
+
+begin remote
+
+  name   37TA1274_03
+  flags CONST_LENGTH|RAW_CODES
+  eps            30
+  aeps          100
+
+  ptrail          0
+  repeat     0     0
+  gap    113367
+
+      begin raw_codes
+
+          name POWER
+          KEY_0                    782                       #  Was: 990
+          KEY_1                    810                       #  Was: 961
+          KEY_1                    810                       #  Was: 961
+          KEY_9                    983                       #  Was: 989
+
+          name 1
+          KEY_8                    783                       #  Was: 988
+          KEY_1                    782                       #  Was: 991
+          KEY_1                    780                       #  Was: 991
+          KEY_2                    779                       #  Was: 992
+          KEY_4                     #  Was: 964             
+
+          name 2
+          KEY_4                    860                       #  Was: 934
+          KEY_1                    860                       #  Was: 911
+          KEY_3                    861                       #  Was: 913
+          KEY_6                    837                       #  Was: 936
+
+          name 3
+          KEY_7                    892                       #  Was: 907
+          KEY_7                    864                       #  Was: 907
+          KEY_1                    867                       #  Was: 901
+          KEY_6                    842                       #  Was: 906
+          KEY_7                     #  Was: 877             
+
+          name 4
+          KEY_7                    867                       #  Was: 907
+          KEY_6                    892                       #  Was: 906
+          KEY_2                    842                       #  Was: 932
+          KEY_4                    1752                      #  Was: 904
+
+          name 5
+          KEY_0                    812                       #  Was: 960
+          KEY_1                    865                       #  Was: 881
+          KEY_1                    894                       #  Was: 881
+          KEY_4                    1755                      #  Was: 904
+
+          name 6
+          KEY_7                    893                       #  Was: 907
+          KEY_9                    895                       #  Was: 879
+          KEY_1                    865                       #  Was: 881
+          KEY_1                    1751                      #  Was: 881
+
+          name 7
+          KEY_7                    893                       #  Was: 907
+          KEY_2                    892                       #  Was: 882
+          KEY_9                    894                       #  Was: 879
+          KEY_2                    1778                      #  Was: 882
+          KEY_1                     #  Was: 851             
+
+          name 8
+          KEY_6                    840                       #  Was: 936
+          KEY_6                    868                       #  Was: 906
+          KEY_2                    842                       #  Was: 932
+          KEY_0                    866                       #  Was: 1790
+
+          name 9
+          KEY_2                    895                       #  Was: 902
+          KEY_6                    895                       #  Was: 876
+          KEY_6                    895                       #  Was: 876
+          KEY_4                    923                       #  Was: 1764
+
+          name MENU
+          KEY_3                    1750                      #  Was: 1793
+          KEY_6                    868                       #  Was: 906
+          KEY_3                    1723                      #  Was: 933
+          KEY_9                     #  Was: 1819            
+
+          name PP
+          KEY_4                    838                       #  Was: 934
+          KEY_9                    812                       #  Was: 959
+          KEY_9                    839                       #  Was: 929
+          KEY_1                    867                       #  Was: 881
+
+          name 0
+          KEY_1                    893                       #  Was: 881
+          KEY_6                    865                       #  Was: 906
+          KEY_5                    867                       #  Was: 905
+          KEY_6                    865                       #  Was: 906
+          KEY_6                     #  Was: 856             
+
+          name EXT
+          KEY_4                    893                       #  Was: 904
+          KEY_6                    867                       #  Was: 906
+          KEY_6                    1778                      #  Was: 906
+          KEY_9                    918                       #  Was: 1739
+
+          name TIMER
+          KEY_7                    867                       #  Was: 907
+          KEY_8                    893                       #  Was: 878
+          KEY_6                    1750                      #  Was: 906
+          KEY_6                    865                       #  Was: 906
+
+          name UP
+          KEY_2                    920                       #  Was: 1762
+          KEY_7                    924                       #  Was: 847
+          KEY_6                    945                       #  Was: 826
+          KEY_6                    922                       #  Was: 876
+
+          name DOWN
+          KEY_8                    1835                      #  Was: 1788
+          KEY_9                    979                       #  Was: 819
+          KEY_7                    1782                      #  Was: 907
+          KEY_2                    1727                      #  Was: 932
+
+          name LEFT
+          KEY_7                    863                       #  Was: 1817
+          KEY_4                    837                       #  Was: 934
+          KEY_4                    837                       #  Was: 934
+          KEY_9                    1723                      #  Was: 1819
+
+          name RIGHT
+          KEY_5                    1748                      #  Was: 1795
+          KEY_8                    863                       #  Was: 908
+          KEY_7                    1750                      #  Was: 907
+          KEY_2                     #  Was: 1792            
+
+          name VOL_UP
+          KEY_7                    890                       #  Was: 907
+          KEY_6                    895                       #  Was: 876
+          KEY_5                    948                       #  Was: 825
+          KEY_4                    865                       #  Was: 874
+
+          name VOL_DOWN
+          KEY_0                    869                       #  Was: 930
+          KEY_9                    922                       #  Was: 849
+          KEY_3                    920                       #  Was: 823
+          KEY_7                    922                       #  Was: 877
+
+          name MUTE
+          KEY_5                    892                       #  Was: 905
+          KEY_9                    892                       #  Was: 879
+          KEY_6                    895                       #  Was: 876
+          KEY_6                    895                       #  Was: 876
+
+          name CH_UP
+          KEY_2                    896                       #  Was: 902
+          KEY_8                    890                       #  Was: 878
+          KEY_9                    1780                      #  Was: 879
+          KEY_5                    920                       #  Was: 825
+
+          name CH_DOWN
+          KEY_5                    892                       #  Was: 905
+          KEY_6                    865                       #  Was: 906
+          KEY_2                    1750                      #  Was: 932
+          KEY_9                    869                       #  Was: 879
+
+      end raw_codes
+
+end remote

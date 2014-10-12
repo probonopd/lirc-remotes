@@ -1,0 +1,51 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.5(serial) on Tue Jun 25 13:02:44 2002
+#
+# contributed by Erik Dooper (erik@dooper.com)
+#
+# brand: Philips RD6834
+# model no. of remote control: RD6834
+# devices being controlled by this remote: CD player CD931
+#
+
+begin remote
+
+  name  RD6834
+  bits           13
+  flags RC5|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           881   894
+  zero          881   894
+  plead         870
+  gap          113652
+  toggle_bit      2
+
+
+      begin codes
+          KEY_1                    0x0000000000001501        #  Was: 1
+          KEY_2                    0x0000000000001502        #  Was: 2
+          KEY_3                    0x0000000000001503        #  Was: 3
+          KEY_4                    0x0000000000001504        #  Was: 4
+          KEY_5                    0x0000000000001505        #  Was: 5
+          KEY_6                    0x0000000000001506        #  Was: 6
+          KEY_7                    0x0000000000001507        #  Was: 7
+          KEY_8                    0x0000000000001508        #  Was: 8
+          KEY_9                    0x0000000000001509        #  Was: 9
+          KEY_0                    0x0000000000001500        #  Was: 0
+          SCAN                     0x000000000000152B
+          KEY_PAUSE                0x0000000000001530        #  Was: PAUSE
+          KEY_AGAIN                0x000000000000151D        #  Was: REPEAT
+          VOL_DWN                  0x0000000000001511
+          KEY_VOLUMEUP             0x0000000000001510        #  Was: VOL_UP
+          KEY_STOP                 0x0000000000001536        #  Was: STOP
+          KEY_PLAY                 0x0000000000001535        #  Was: PLAY
+          KEY_PREVIOUS             0x0000000000001521        #  Was: PREV
+          SHUFFLE                  0x000000000000151C
+          KEY_NEXT                 0x0000000000001520        #  Was: NEXT
+      end codes
+
+end remote
+

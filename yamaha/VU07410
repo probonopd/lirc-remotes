@@ -1,0 +1,67 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.4(serial) on Fri Jan 18 01:49:33 2002
+#
+# contributed by Tijmen Stam <tijmen@stamadvies.nl>
+#
+# brand:                       	Yamaha-RAX1-VU07410
+# model no. of remote control: 	RAX-1 VU07410
+# supported devices:           	Natural Sound Stereo Amplifier AX-492
+# 				It also could support AX-592 and 892,
+#				but i'm not sure...
+#
+# on the IR is printed: Yamaha, RAX1 and vu07410 with the note that the 0's
+# could be O's and the 1 an I...
+
+begin remote
+
+  name  YAMAHA-RAX1
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9091  4407
+  one           629  1618
+  zero          629   497
+  ptrail        630
+  repeat       9089  2172
+  pre_data_bits   16
+  pre_data       0x5EA1
+  gap          107953
+  toggle_bit      0
+
+
+      begin codes
+          SELECT-AUX               0x000000000000E817
+          SELECT-TAPE2             0x0000000000009867
+          SELECT-TAPE1             0x00000000000018E7
+          SELECT-TUNER             0x0000000000006897
+          SELECT-CD                0x000000000000A857
+          SELECT-PHONO             0x00000000000028D7
+          KEY_VOLUMEUP             0x00000000000058A7        #  Was: VOL+
+          KEY_VOLUMEDOWN           0x000000000000D827        #  Was: VOL-
+          KEY_POWER                0x000000000000F807        #  Was: POWER
+          TAPE-DIRA                0x000000000000E01F
+          TAPE-DIRB                0x00000000000002FD
+          TAPE-REC/PAUSE           0x00000000000020DF
+          TAPE-PLAY                0x00000000000000FF
+          TAPE-<<                  0x000000000000807F
+          TAPE->>                  0x00000000000040BF
+          TAPE-STOP                0x000000000000C03F
+          TAPE-A/B                 0x000000000000609F
+          TUNER-PRESET+            0x00000000000008F7
+          TUNER-PRESET-            0x0000000000008877
+          TUNER-ABCDE              0x00000000000048B7
+          CD-<<                    0x000000000000B04F
+          CD->>                    0x00000000000030CF
+          CD-|<<                   0x000000000000D02F
+          CD->>|                   0x00000000000050AF
+          CD-DISC                  0x000000000000F20D
+          CD-PLAY                  0x00000000000010EF
+          CD-STOP/PAUSE            0x000000000000906F
+      end codes
+
+end remote
+
+

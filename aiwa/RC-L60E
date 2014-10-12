@@ -1,0 +1,68 @@
+#
+# this config file was automatically generated
+# using lirc-0.7.2(serial) on Wed Sep  7 21:55:23 2005
+#
+# contributed by jcpyatt|yahoo.co.uk
+#
+# brand:  Aiwa
+# model no. of remote control: RC-L60E
+# devices being controlled by this remote: LCX50 compact hifi
+#
+
+begin remote
+
+  name  Aiwa_RC-L60E
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9119  4475
+  one           627  1637
+  zero          627   504
+  ptrail        625
+  repeat       9124  4471
+  pre_data_bits   26
+  pre_data       0x1D8113F
+  gap          108739
+  toggle_bit      0
+
+
+      begin codes
+          KEY_1                    0x807F                    #  Was: 1
+          KEY_2                    0x40BF                    #  Was: 2
+          KEY_3                    0xC03F                    #  Was: 3
+          KEY_4                    0x20DF                    #  Was: 4
+          KEY_5                    0xA05F                    #  Was: 5
+          KEY_6                    0x609F                    #  Was: 6
+          KEY_7                    0xE01F                    #  Was: 7
+          KEY_8                    0x10EF                    #  Was: 8
+          KEY_9                    0x906F                    #  Was: 9
+          KEY_10CHANNELSUP         0xD02F                    #  Was: +10
+          KEY_0                    0x50AF                    #  Was: 0
+          band                     0x38C7
+          geq                      0x926D
+          phrase_repeat             0x5AA5
+          set                      0x22DD
+          KEY_DOWN                 0xC23D                    #  Was: down
+          KEY_UP                   0x42BD                    #  Was: up
+          set                      0xA25D
+          KEY_CLEAR                0x827D                    #  Was: clear
+          preset                   0x02FD
+          function                 0x7887
+          KEY_VOLUMEDOWN           0x728D
+          KEY_VOLUMEUP             0xB24D
+          random                   0xA857
+          KEY_AGAIN                0x6897                    #  Was: repeat
+          cd_edit/remain           0xE817
+          prgm                     0x9867
+          timer                    0x30CF
+          KEY_SLEEP                0x708F                    #  Was: sleep
+          KEY_TIME                 0x8877                    #  Was: clock
+          vocal_fader              0x0AF5
+          mode_tuner               0x48B7
+      end codes
+
+end remote
+
+

@@ -1,0 +1,76 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.0(irman) on Sat Jan  5 02:27:25 2008
+#
+# contributed by Marc Skarshinski, Atlantis Consulting LLC Virginia Beach
+#
+# brand:                       DirecTV
+# model no. of remote control: RC16
+# devices being controlled by this remote: mythtv
+#
+
+begin remote
+
+  name  DirecTV_RC16
+  bits           48
+  eps            30
+  aeps          100
+
+  one             0     0
+  zero            0     0
+  pre_data_bits   16
+  pre_data       0xFFFF
+  gap          195982
+  min_repeat      9
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0xE0AD02000000            #  Was: Power
+          Off                      0xBC6B02000000
+          KEY_STOP                 0x9EA102000000            #  Was: Stop
+          Undo                     0xA6A002000000
+          Redo                     0xC0A002000000
+          KEY_REWIND               0x52A102000000            #  Was: Rew
+          KEY_FASTFORWARD          0x72A002000000            #  Was: FF
+          KEY_PLAY                 0xDCA102000000            #  Was: Play
+          KEY_PAUSE                0x38A102000000            #  Was: Pause
+          KEY_R                    0x14A002000000            #  Was: R
+          KEY_INFO                 0xFEA402000000            #  Was: Guide
+          Active                   0x98A402000000
+          KEY_LIST                 0x32A402000000            #  Was: List
+          KEY_EXIT                 0x9CA602000000            #  Was: Exit
+          KEY_LEFT                 0x70A702000000            #  Was: Left
+          KEY_UP                   0xA4A702000000            #  Was: Up
+          KEY_RIGHT                0x50A602000000            #  Was: Right
+          KEY_DOWN                 0x16A702000000            #  Was: Down
+          KEY_SELECT               0x3AA602000000            #  Was: Select
+          KEY_BACK                 0xDEA602000000            #  Was: Back
+          KEY_MENU                 0xC2A702000000            #  Was: Menu
+          KEY_INFO                 0xA0A502000000            #  Was: Info
+          KEY_RED                  0xAE9B02000000            #  Was: Red
+          KEY_GREEN                0x629B02000000            #  Was: Green
+          KEY_YELLOW               0x089B02000000            #  Was: Yellow
+          KEY_BLUE                 0x429A02000000            #  Was: Blue
+          KEY_VOLUMEUP             0x238C7DDD5D55            #  Was: Vol+
+          KEY_VOLUMEDOWN           0x23847DD55D55            #  Was: Vol-
+          KEY_CHANNELUP            0x22A902000000            #  Was: Chan+
+          KEY_CHANNELDOWN          0x84A902000000            #  Was: Chan-
+          KEY_MUTE                 0x23AE7DFF5D55            #  Was: Mute
+          KEY_PREVIOUS             0xF6A902000000            #  Was: Prev
+          KEY_1                    0x98AB02000000            #  Was: 1
+          KEY_2                    0x32AB02000000            #  Was: 2
+          KEY_3                    0x54AB02000000            #  Was: 3
+          KEY_4                    0x74AA02000000            #  Was: 4
+          KEY_5                    0x06AA02000000            #  Was: 5
+          KEY_6                    0xA0AA02000000            #  Was: 6
+          KEY_7                    0xCAAA02000000            #  Was: 7
+          KEY_8                    0xEAA802000000            #  Was: 8
+          KEY_9                    0x8CA802000000            #  Was: 9
+          KEY_KPMINUS              0x2CAD02000000            #  Was: -
+          KEY_0                    0x8AAD02000000            #  Was: 0
+          KEY_ENTER                0x6EAD02000000            #  Was: Enter
+      end codes
+
+end remote
+

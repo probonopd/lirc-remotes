@@ -1,0 +1,84 @@
+#
+# This config file has been automatically converted from a device file
+# found in the 06/26/00 release of the Windows Slink-e software
+# package.
+#
+# Many thanks to Colby Boles of Nirvis Systems Inc. for allowing us to
+# use these files.
+#
+# The original filename was: "yamaha rcx660 rx-v660 receiver amp.cde"
+#
+# The original description for this device was:
+#
+# yamaha rcx660 rx-v660 receiver amp
+#
+
+
+begin remote
+
+  name  RCX660
+  bits           32
+  flags SPACE_ENC
+  eps            20
+  aeps          200
+
+  header       8800  4400
+  one           550  1650
+  zero          550   550
+  ptrail        550
+  repeat       8800  2200
+  gap          38500
+  toggle_bit      0
+
+  frequency    38000
+
+      begin codes
+          PHONO_SELECT             0x000000005EA128D7
+          CD_SELECT                0x000000005EA1A857
+          TUNER_SELECT             0x000000005EA16897
+          TAPE_1_MON_SELECT        0x000000005EA118E7
+          LD_V_SELECT              0x000000005EA1E817
+          VCR_1_MON_SELECT         0x000000005EA1F00F
+          VCR_2_APE_2_SELECT       0x000000005EA1C837
+          CD_PLAY                  0x000000005EA110EF
+          CD_STOP/PAUSE            0x000000005EA1906F
+          CD_SEARCH_FWD            0x000000005EA130CF
+          CD_SEARCH_REV            0x000000005EA1B04F
+          CD_SKIP_FWD              0x000000005EA150AF
+          CD_SKIP_REV              0x000000005EA1D02F
+          CD_DISC_SKIP             0x000000005EA1F20D
+          TUNER_PRESET_+           0x000000005EA108F7
+          TUNER_PRESET_-           0x000000005EA18877
+          TUNER_A/B/C/D/E          0x000000005EA148B7
+          TAPE_PLAY                0x000000005EA100FF
+          TAPE_STOP                0x000000005EA1C03F
+          TAPE_FFWD                0x000000005EA140BF
+          TAPE_REWIND              0x000000005EA1807F
+          TAPE_DIR_A               0x000000005EA1E01F
+          TAPE_DIR_B               0x000000005EA102FD
+          DECK_A/B                 0x000000005EA1609F
+          TAPE_REC/PAUSE           0x000000005EA120DF
+          TAPE_REC_MUTE            0x000000005EA1A05F
+          PRO_LOGIC_SURROUND       0x000000005EA111EE
+          PRO_LOGIC_ENHANCED       0x000000005EA1916E
+          CNCT_VIDEO               0x000000005EA151AE
+          MONO_MOVIE               0x000000005EA1D12E
+          ROCK                     0x000000005EA131CE
+          HALL                     0x000000005EA1B14E
+          EFFECT_ON/OFF            0x000000005EA16A95
+          TEST                     0x000000005EA1A15E
+          CENTRE_MODE              0x000000005EA121DE
+          DELAY_TIME_+             0x000000005EA14AB5
+          DELAY_TIME_-             0x000000005EA1CA35
+          FRONT_EFFECT_LEVEL_+     0x000000005EA101FE
+          FRONT_EFFECT_LEVEL_-     0x000000005EA1817E
+          CENTRE_LEVEL_+           0x000000005EA141BE
+          CENTRE_LEVEL_-           0x000000005EA1C13E
+          REAR_LEVEL_+             0x000000005EA17A85
+          REAR_LEVEL_-             0x000000005EA1FA05
+          MASTER_VOLUME_+          0x000000005EA158A7
+          MASTER_VOLUME_-          0x000000005EA1D827
+          MASTER_MUTE              0x000000005EA138C7
+      end codes
+
+end remote

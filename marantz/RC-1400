@@ -1,0 +1,70 @@
+#contributed by -TRiSS-
+#brand:                        Marantz
+#model no. of remote control: RC-1400, DVD mode, setting 00001
+#
+
+begin remote
+  name  Marantz_RC-1400_DVD
+  bits            8
+  flags RC6|CONST_LENGTH
+  eps            30
+  aeps          100
+  header       2617   931
+  one           444   439
+  zero          444   439
+  pre_data_bits   13
+  pre_data       0xEFB
+  gap          113574
+  toggle_bit      5
+      begin codes
+#normal keys
+          KEY_INFO                 0x000000000000002E        #  Was: GUIDE
+          KEY_OK                   0x00000000000000A3        #  Was: OK
+          KEY_RIGHT                0x00000000000000A4        #  Was: RIGHT
+          KEY_LEFT                 0x00000000000000A5        #  Was: LEFT
+          KEY_DOWN                 0x00000000000000A6        #  Was: DOWN
+          KEY_UP                   0x00000000000000A7        #  Was: UP
+        MEMO            0x00000000000000BA
+          KEY_CLEAR                0x00000000000000C5        #  Was: CLEAR
+          KEY_STOP                 0x00000000000000CE        #  Was: STOP
+          KEY_PAUSE                0x00000000000000CF        #  Was: PAUSE
+          KEY_PLAY                 0x00000000000000D3        #  Was: PLAY
+        SKIP-BACK       0x00000000000000DE
+        SKIP-FORWARD    0x00000000000000DF
+          KEY_9                    0x00000000000000F6        #  Was: 9
+          KEY_8                    0x00000000000000F7        #  Was: 8
+          KEY_7                    0x00000000000000F8        #  Was: 7
+          KEY_6                    0x00000000000000F9        #  Was: 6
+          KEY_5                    0x00000000000000FA        #  Was: 5
+          KEY_4                    0x00000000000000FB        #  Was: 4
+          KEY_3                    0x00000000000000FC        #  Was: 3
+          KEY_2                    0x00000000000000FD        #  Was: 2
+          KEY_1                    0x00000000000000FE        #  Was: 1
+          KEY_0                    0x00000000000000FF        #  Was: 0
+#digital keys menu 1
+          KEY_MENU                 0x00000000000000AB        #  Was: MENU
+          KEY_AUDIO                0x00000000000000B1        #  Was: AUDIO
+          KEY_SUBTITLE             0x00000000000000B4        #  Was: SUB-T
+          KEY_0+                   0x0000000000000087        #  Was: 10+
+        TRAY            0x00000000000000BD
+#digital keys menu 2
+          KEY_SETUP                0x000000000000007D        #  Was: SETUP
+          KEY_ANGLE                0x000000000000007A        #  Was: ANGLE
+          KEY_MENU                 0x00000000000000F0        #  Was: OSD
+          KEY_FASTFORWARD          0x00000000000000D7        #  Was: FF
+          KEY_REWIND               0x00000000000000D6        #  Was: REW
+#digital keys menu 3
+          KEY_BACK                 0x00000000000000DD        #  Was: BACK
+        L-PLAY          0x0000000000000028
+        SHUFFLE         0x00000000000000E3
+          KEY_AGAIN                0x00000000000000E2        #  Was: REPEAT
+        A/B             0x00000000000000C4
+#digital keys menu 4
+          KEY_ENTER                0x000000000000007C        #  Was: RETURN
+        T/C             0x0000000000000037
+          KEY_3-D                  0x00000000000000AD        #  Was: 3-D
+          KEY_TITLE                0x000000000000008E        #  Was: TITLE
+          KEY_ZOOM                 0x0000000000000008        #  Was: ZOOM
+      end codes
+end remote
+

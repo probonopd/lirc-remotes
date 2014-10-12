@@ -1,0 +1,63 @@
+#
+# this config file was automatically generated
+# using lirc-WinLIRC 0.6 (LIRC 0.5.4pre9) on Thu Aug 16 13:30:37 2001
+#
+# contributed by BoB
+#
+# brand:             Sony
+# model:             RM-D597
+# supported devices:
+#
+
+begin remote
+
+  name  Sony_RM-D597
+  bits            7
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  header       2460   530
+  one           643   530
+  zero         1248   530
+  ptrail       1248
+  post_data_bits  4
+  post_data      0x7
+  gap          27126
+  repeat_bit      0
+
+      begin codes
+          KEY_PLAY                 0x0000000000000059        #  Was: play
+          KEY_PAUSE                0x0000000000000031        #  Was: pause
+          KEY_STOP                 0x0000000000000071        #  Was: stop
+          KEY_BACK                 0x0000000000000079        #  Was: back
+          foward                   0x0000000000000039
+          sec-back                 0x0000000000000019
+          sec-fow                  0x0000000000000069
+          Line_out_level_"+"       0x000000000000005B
+          Line_out_level"-"        0x000000000000001B
+          KEY_TIME                 0x0000000000000075        #  Was: time
+          KEY_AGAIN                0x0000000000000065        #  Was: repeat
+          fader                    0x0000000000000002
+          KEY_CLEAR                0x0000000000000007        #  Was: clear
+          A.Space/A.Cue            0x0000000000000046
+          music_Scan               0x0000000000000061
+          KEY_PLAY                 0x0000000000000023        #  Was: PlayMode_continue
+          KEY_PLAY                 0x0000000000000029        #  Was: PlayMode_shuffle
+          KEY_PLAY                 0x0000000000000003        #  Was: PlayMode_program
+          KEY_1                    0x000000000000007F        #  Was: 1
+          KEY_2                    0x000000000000003F        #  Was: 2
+          KEY_3                    0x000000000000005F        #  Was: 3
+          KEY_4                    0x000000000000001F        #  Was: 4
+          KEY_5                    0x000000000000006F        #  Was: 5
+          KEY_6                    0x000000000000002F        #  Was: 6
+          KEY_7                    0x000000000000004F        #  Was: 7
+          KEY_8                    0x000000000000000F        #  Was: 8
+          KEY_9                    0x0000000000000077        #  Was: 9
+          KEY_0                    0x000000000000007D        #  Was: 10
+          >10                      0x000000000000000D
+      end codes
+
+end remote
+
+

@@ -1,0 +1,455 @@
+# contributed by Cory Sharp <cssharp@mail.com>
+# date 28 Jan 2007
+#
+# brand: DirecTV
+# model no. of remote control: RC24
+# devices being controlled by this remote: DirecTV H20 receiver
+#
+# Manufacturer code used for DirecTV: 00001 (DirecTV model D-10)
+# Manufacturer code used for TV: 10000 (Supreme)
+#
+# To configure manufacturer codes for the remote, slide the switch to DirecTV
+# or TV as appropriate, then hold mute and select until the LED blinks twice.
+# Enter the five digit code -- success is indicated by two blinks after
+# pressing the 5th digit.  Note: I could not find a TV code that enabled the
+# tv-input button.
+#
+# The DirecTV RC24 RF protocol is currently unsupported by lirc.  If I
+# understand it correctly: a zero bit is encoded a single 600us pulse or space,
+# and a one bit is encoded as single 1200us pulse or space.  The initial button
+# press has a 6000us pulse 1200us space header, and repeats have a 3000us pulse
+# 1200us space header.  Buttons end in a 600us tail and have a 30000us gap.  A
+# subset of the buttons emit a different code if held for about 42 repetitions,
+# configured here as button names ending in -long.  Buttons specialized for the
+# TV first triply emit a prelude button code in the DirecTV protocol, then the
+# button code for the relevant TV.
+#
+# If LIRC supported this particular bit encoding, and if I understand the
+# lircd.conf format correctly, this configuration would look something like:
+#
+# begin remote
+#   gap 30000
+#   header 6000 1200
+#   repeat 3000 1200
+#   ptrail 600
+#   flags TIME_ENC
+#   zero_duration 600
+#   one_duration 1200
+#   pre_data_bits 4
+#   pre_data 0x0c
+#   bits 12
+#   begin codes
+#     format 0x739
+#     format-long 0x75a
+#     ...
+#   end codes
+# end remote
+#
+# Note: I couldn't get lirc (version 0.8.1) to understand the 6000us header on
+# the first button press, so the first button press is dropped, only repeats
+# are recorded.
+
+begin remote
+
+  name  DirecTV_RC24
+  flags RAW_CODES
+  eps 30
+  aeps 100
+
+  gap 30000
+
+      begin raw_codes
+
+          name format
+          KEY_0                    1200                      #  Was: 3000
+          KEY_0                    1200                      #  Was: 600
+          KEY_0                    1200                      #  Was: 1200
+          KEY_0                     #  Was: 600             
+
+          name format-long
+          KEY_0                    1200                      #  Was: 3000
+          KEY_0                    1200                      #  Was: 600
+          KEY_0                    1200                      #  Was: 600
+          KEY_0                     #  Was: 600             
+
+          name power
+          KEY_0                    1200                      #  Was: 3000
+          KEY_0                    600                       #  Was: 600
+          KEY_0                    600                       #  Was: 600
+          KEY_0                     #  Was: 600             
+
+          name tv-power-on
+          KEY_0                    1200                      #  Was: 3000
+          KEY_0                    600                       #  Was: 1200
+          KEY_0                    600                       #  Was: 600
+          KEY_0                     #  Was: 600             
+
+          name tv-power-on-special
+          KEY_0                    600                       #  Was: 2400
+          KEY_0                    600                       #  Was: 1200
+          KEY_0                    600                       #  Was: 1200
+          KEY_0                    600                       #  Was: 600
+          KEY_0                     #  Was: 600             
+
+          name tv-power-off
+          KEY_0                    1200                      #  Was: 3000
+          KEY_0                    600                       #  Was: 1200
+          KEY_0                    1200                      #  Was: 600
+          KEY_0                     #  Was: 600             
+
+          name tv-power-off-special
+          KEY_0                    600                       #  Was: 2400
+          KEY_0                    600                       #  Was: 1200
+          KEY_0                    600                       #  Was: 1200
+          KEY_0                    600                       #  Was: 600
+          KEY_0                     #  Was: 600             
+
+          name rewind
+          KEY_0                    1200                      #  Was: 3000
+          KEY_0                    600                       #  Was: 600
+          KEY_0                    1200                      #  Was: 1200
+          KEY_0                     #  Was: 600             
+
+          name rewind-long
+          KEY_0                    1200                      #  Was: 3000
+          KEY_0                    600                       #  Was: 600
+          KEY_0                    600                       #  Was: 600
+          KEY_0                     #  Was: 600             
+
+          name play
+          KEY_0                    1200                      #  Was: 3000
+          KEY_0                    600                       #  Was: 600
+          KEY_0                    600                       #  Was: 600
+          KEY_0                     #  Was: 600             
+
+          name play-long
+          KEY_0                    1200                      #  Was: 3000
+          KEY_0                    600                       #  Was: 600
+          KEY_0                    600                       #  Was: 1200
+          KEY_0                     #  Was: 600             
+
+          name forward
+          KEY_0                    1200                      #  Was: 3000
+          KEY_0                    600                       #  Was: 600
+          KEY_0                    600                       #  Was: 600
+          KEY_0                     #  Was: 600             
+
+          name forward-long
+          KEY_0                    1200                      #  Was: 3000
+          KEY_0                    600                       #  Was: 600
+          KEY_0                    1200                      #  Was: 600
+          KEY_0                     #  Was: 600             
+
+          name stop
+          KEY_0                    1200                      #  Was: 3000
+          KEY_0                    600                       #  Was: 600
+          KEY_0                    1200                      #  Was: 600
+          KEY_0                     #  Was: 600             
+
+          name skip-back
+          KEY_0                    1200                      #  Was: 3000
+          KEY_0                    600                       #  Was: 600
+          KEY_0                    600                       #  Was: 1200
+          KEY_0                     #  Was: 600             
+
+          name skip-back-long
+          KEY_0                    1200                      #  Was: 3000
+          KEY_0                    600                       #  Was: 600
+          KEY_0                    1200                      #  Was: 1200
+          KEY_0                     #  Was: 600             
+
+          name skip-forward
+          KEY_0                    1200                      #  Was: 3000
+          KEY_0                    600                       #  Was: 600
+          KEY_0                    1200                      #  Was: 1200
+          KEY_0                     #  Was: 600             
+
+          name skip-forward-long
+          KEY_0                    1200                      #  Was: 3000
+          KEY_0                    600                       #  Was: 600
+          KEY_0                    600                       #  Was: 600
+          KEY_0                     #  Was: 600             
+
+          name pause
+          KEY_0                    1200                      #  Was: 3000
+          KEY_0                    600                       #  Was: 600
+          KEY_0                    600                       #  Was: 1200
+          KEY_0                     #  Was: 600             
+
+          name pause-long
+          KEY_0                    1200                      #  Was: 3000
+          KEY_0                    600                       #  Was: 600
+          KEY_0                    1200                      #  Was: 1200
+          KEY_0                     #  Was: 600             
+
+          name record
+          KEY_0                    1200                      #  Was: 3000
+          KEY_0                    600                       #  Was: 600
+          KEY_0                    1200                      #  Was: 600
+          KEY_0                     #  Was: 600             
+
+          name record-long
+          KEY_0                    1200                      #  Was: 3000
+          KEY_0                    600                       #  Was: 600
+          KEY_0                    600                       #  Was: 1200
+          KEY_0                     #  Was: 600             
+
+          name guide
+          KEY_0                    1200                      #  Was: 3000
+          KEY_0                    600                       #  Was: 600
+          KEY_0                    600                       #  Was: 600
+          KEY_0                     #  Was: 600             
+
+          name guide-long
+          KEY_0                    1200                      #  Was: 3000
+          KEY_0                    600                       #  Was: 600
+          KEY_0                    1200                      #  Was: 600
+          KEY_0                     #  Was: 600             
+
+          name active
+          KEY_0                    1200                      #  Was: 3000
+          KEY_0                    600                       #  Was: 600
+          KEY_0                    1200                      #  Was: 600
+          KEY_0                     #  Was: 600             
+
+          name list
+          KEY_0                    1200                      #  Was: 3000
+          KEY_0                    600                       #  Was: 600
+          KEY_0                    600                       #  Was: 1200
+          KEY_0                     #  Was: 600             
+
+          name list-long
+          KEY_0                    1200                      #  Was: 3000
+          KEY_0                    600                       #  Was: 600
+          KEY_0                    1200                      #  Was: 1200
+          KEY_0                     #  Was: 600             
+
+          name exit
+          KEY_0                    1200                      #  Was: 3000
+          KEY_0                    600                       #  Was: 600
+          KEY_0                    600                       #  Was: 1200
+          KEY_0                     #  Was: 600             
+
+          name up
+          KEY_0                    1200                      #  Was: 3000
+          KEY_0                    600                       #  Was: 600
+          KEY_0                    1200                      #  Was: 600
+          KEY_0                     #  Was: 600             
+
+          name down
+          KEY_0                    1200                      #  Was: 3000
+          KEY_0                    600                       #  Was: 600
+          KEY_0                    600                       #  Was: 1200
+          KEY_0                     #  Was: 600             
+
+          name left
+          KEY_0                    1200                      #  Was: 3000
+          KEY_0                    600                       #  Was: 600
+          KEY_0                    1200                      #  Was: 1200
+          KEY_0                     #  Was: 600             
+
+          name right
+          KEY_0                    1200                      #  Was: 3000
+          KEY_0                    600                       #  Was: 600
+          KEY_0                    600                       #  Was: 600
+          KEY_0                     #  Was: 600             
+
+          name select
+          KEY_0                    1200                      #  Was: 3000
+          KEY_0                    600                       #  Was: 600
+          KEY_0                    1200                      #  Was: 600
+          KEY_0                     #  Was: 600             
+
+          name back
+          KEY_0                    1200                      #  Was: 3000
+          KEY_0                    600                       #  Was: 600
+          KEY_0                    1200                      #  Was: 1200
+          KEY_0                     #  Was: 600             
+
+          name menu
+          KEY_0                    1200                      #  Was: 3000
+          KEY_0                    600                       #  Was: 600
+          KEY_0                    600                       #  Was: 600
+          KEY_0                     #  Was: 600             
+
+          name info
+          KEY_0                    1200                      #  Was: 3000
+          KEY_0                    600                       #  Was: 600
+          KEY_0                    600                       #  Was: 1200
+          KEY_0                     #  Was: 600             
+
+          name info-long
+          KEY_0                    1200                      #  Was: 3000
+          KEY_0                    600                       #  Was: 600
+          KEY_0                    600                       #  Was: 600
+          KEY_0                     #  Was: 600             
+
+          name red
+          KEY_0                    1200                      #  Was: 3000
+          KEY_0                    1200                      #  Was: 600
+          KEY_0                    1200                      #  Was: 600
+          KEY_0                     #  Was: 600             
+
+          name red-long
+          KEY_0                    1200                      #  Was: 3000
+          KEY_0                    1200                      #  Was: 600
+          KEY_0                    600                       #  Was: 1200
+          KEY_0                     #  Was: 600             
+
+          name green
+          KEY_0                    1200                      #  Was: 3000
+          KEY_0                    1200                      #  Was: 600
+          KEY_0                    1200                      #  Was: 1200
+          KEY_0                     #  Was: 600             
+
+          name green-long
+          KEY_0                    1200                      #  Was: 3000
+          KEY_0                    1200                      #  Was: 600
+          KEY_0                    600                       #  Was: 600
+          KEY_0                     #  Was: 600             
+
+          name yellow
+          KEY_0                    1200                      #  Was: 3000
+          KEY_0                    1200                      #  Was: 600
+          KEY_0                    600                       #  Was: 1200
+          KEY_0                     #  Was: 600             
+
+          name yellow-long
+          KEY_0                    1200                      #  Was: 3000
+          KEY_0                    1200                      #  Was: 600
+          KEY_0                    1200                      #  Was: 1200
+          KEY_0                     #  Was: 600             
+
+          name blue
+          KEY_0                    1200                      #  Was: 3000
+          KEY_0                    1200                      #  Was: 600
+          KEY_0                    600                       #  Was: 600
+          KEY_0                     #  Was: 600             
+
+          name blue-long
+          KEY_0                    1200                      #  Was: 3000
+          KEY_0                    1200                      #  Was: 600
+          KEY_0                    1200                      #  Was: 600
+          KEY_0                     #  Was: 600             
+
+          name volume-prelude
+          KEY_0                    1200                      #  Was: 3000
+          KEY_0                    1200                      #  Was: 600
+          KEY_0                    1200                      #  Was: 600
+          KEY_0                     #  Was: 600             
+
+          name volume-up
+          KEY_0                    600                       #  Was: 2400
+          KEY_0                    600                       #  Was: 600
+          KEY_0                    600                       #  Was: 600
+          KEY_0                    600                       #  Was: 600
+          KEY_0                     #  Was: 600             
+
+          name volume-down
+          KEY_0                    600                       #  Was: 2400
+          KEY_0                    600                       #  Was: 600
+          KEY_0                    600                       #  Was: 600
+          KEY_0                    600                       #  Was: 600
+          KEY_0                     #  Was: 600             
+
+          name mute
+          KEY_0                    600                       #  Was: 2400
+          KEY_0                    600                       #  Was: 1200
+          KEY_0                    600                       #  Was: 600
+          KEY_0                    600                       #  Was: 600
+          KEY_0                     #  Was: 600             
+
+          name channel-up
+          KEY_0                    1200                      #  Was: 3000
+          KEY_0                    600                       #  Was: 600
+          KEY_0                    1200                      #  Was: 600
+          KEY_0                     #  Was: 600             
+
+          name channel-down
+          KEY_0                    1200                      #  Was: 3000
+          KEY_0                    600                       #  Was: 600
+          KEY_0                    600                       #  Was: 1200
+          KEY_0                     #  Was: 600             
+
+          name prev
+          KEY_0                    1200                      #  Was: 3000
+          KEY_0                    600                       #  Was: 600
+          KEY_0                    1200                      #  Was: 1200
+          KEY_0                     #  Was: 600             
+
+          name 1
+          KEY_0                    1200                      #  Was: 3000
+          KEY_0                    600                       #  Was: 600
+          KEY_0                    1200                      #  Was: 600
+          KEY_0                     #  Was: 600             
+
+          name 2
+          KEY_0                    1200                      #  Was: 3000
+          KEY_0                    600                       #  Was: 600
+          KEY_0                    600                       #  Was: 1200
+          KEY_0                     #  Was: 600             
+
+          name 3
+          KEY_0                    1200                      #  Was: 3000
+          KEY_0                    600                       #  Was: 600
+          KEY_0                    1200                      #  Was: 1200
+          KEY_0                     #  Was: 600             
+
+          name 4
+          KEY_0                    1200                      #  Was: 3000
+          KEY_0                    600                       #  Was: 600
+          KEY_0                    600                       #  Was: 600
+          KEY_0                     #  Was: 600             
+
+          name 5
+          KEY_0                    1200                      #  Was: 3000
+          KEY_0                    600                       #  Was: 600
+          KEY_0                    1200                      #  Was: 600
+          KEY_0                     #  Was: 600             
+
+          name 6
+          KEY_0                    1200                      #  Was: 3000
+          KEY_0                    600                       #  Was: 600
+          KEY_0                    600                       #  Was: 1200
+          KEY_0                     #  Was: 600             
+
+          name 7
+          KEY_0                    1200                      #  Was: 3000
+          KEY_0                    600                       #  Was: 600
+          KEY_0                    1200                      #  Was: 1200
+          KEY_0                     #  Was: 600             
+
+          name 8
+          KEY_0                    1200                      #  Was: 3000
+          KEY_0                    600                       #  Was: 600
+          KEY_0                    600                       #  Was: 600
+          KEY_0                     #  Was: 600             
+
+          name 9
+          KEY_0                    1200                      #  Was: 3000
+          KEY_0                    600                       #  Was: 600
+          KEY_0                    1200                      #  Was: 600
+          KEY_0                     #  Was: 600             
+
+          name dash
+          KEY_0                    1200                      #  Was: 3000
+          KEY_0                    600                       #  Was: 600
+          KEY_0                    600                       #  Was: 1200
+          KEY_0                     #  Was: 600             
+
+          name 0
+          KEY_0                    1200                      #  Was: 3000
+          KEY_0                    600                       #  Was: 600
+          KEY_0                    1200                      #  Was: 600
+          KEY_0                     #  Was: 600             
+
+          name enter
+          KEY_0                    1200                      #  Was: 3000
+          KEY_0                    600                       #  Was: 600
+          KEY_0                    1200                      #  Was: 1200
+          KEY_0                     #  Was: 600             
+
+      end raw_codes
+
+end remote
+

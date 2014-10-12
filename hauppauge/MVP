@@ -1,0 +1,65 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.5(default) on Wed Dec 30 21:52:35 2009
+#
+# contributed by
+#
+# brand:                       Hauppauge
+# model no. of remote control:
+# devices being controlled by this remote: MVP
+#
+
+begin remote
+
+  name  Hauppauge_MVP
+  bits           13
+  flags RC5|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           912   857
+  zero          912   857
+  plead         937
+  gap          113935
+  toggle_bit_mask 0x800
+
+      begin codes
+          KEY_1                    0x10C1
+          KEY_2                    0x10C2
+          KEY_3                    0x10C3
+          KEY_4                    0x10C4
+          KEY_5                    0x10C5
+          KEY_6                    0x10C6
+          KEY_7                    0x10C7
+          KEY_8                    0x10C8
+          KEY_9                    0x10C9
+          KEY_0                    0x10C0
+          KEY_POWER                0x10FD
+          KEY_GOTO                 0x10FB
+          KEY_BACK                 0x10DF
+          KEY_MENU                 0x10CD
+          KEY_RED                  0x10CB
+          KEY_GREEN                0x10EE
+          KEY_YELLOW               0x10F8
+          KEY_BLUE                 0x10E9
+          KEY_UP                   0x10E0
+          KEY_DOWN                 0x10E1
+          KEY_LEFT                 0x10D1
+          KEY_RIGHT                0x10D0
+          KEY_MUTE                 0x10CF
+          KEY_FN_1                 0x10CC
+          KEY_FN_2                 0x10FC
+          KEY_OK                   0x10E5
+          KEY_REWIND               0x10F2
+          KEY_FASTFORWARD          0x10F4
+          KEY_PLAY                 0x10F5
+          KEY_RECORD               0x10F7
+          KEY_STOP                 0x10F6
+          KEY_PAUSE                0x10F0
+          KEY_PREVIOUS             0x10E4
+          KEY_NEXT                 0x10DE
+      end codes
+
+end remote
+
+

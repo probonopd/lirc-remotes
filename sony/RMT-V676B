@@ -1,0 +1,82 @@
+#
+# this config file was automatically generated
+# using lirc-0.5.4pre9 on Wed Feb 10 20:23:23 1999
+#
+# contributed by Joseph Mesterhazy
+#
+# brand:             SONY
+# model:             RMT-V676B
+# supported devices: Commercial SONY equipment set on remote type VTR1
+#
+
+begin remote
+
+  name  RMT-V676B
+  bits            9
+  flags SPACE_ENC
+  eps            20
+  aeps          100
+
+  header       2587   466
+  one           728   466
+  zero         1325   466
+  ptrail        728
+  post_data_bits  2
+  post_data      0x3
+  gap          25615
+  repeat_bit      0
+  min_repeat      2
+
+      begin codes
+          KEY_1                    0x00000000000001FE        #  Was: 001
+          KEY_2                    0x00000000000000FE        #  Was: 002
+          KEY_3                    0x000000000000017E        #  Was: 003
+          ant                      0x0000000000000156
+          pow                      0x00000000000000AE
+          KEY_4                    0x000000000000007E        #  Was: 004
+          KEY_5                    0x00000000000001BE        #  Was: 005
+          KEY_6                    0x00000000000000BE        #  Was: 006
+          sel                      0x000000000000001A
+          vl+                      0x000000000000016D
+          KEY_CHANNELUP            0x00000000000001EE        #  Was: ch+
+          KEY_7                    0x000000000000013E        #  Was: 007
+          KEY_8                    0x000000000000003E        #  Was: 008
+          KEY_9                    0x00000000000001DE        #  Was: 009
+          rcm                      0x00000000000001CA
+          vl-                      0x000000000000006D
+          KEY_CHANNELDOWN          0x00000000000000EE        #  Was: ch-
+          KEY_0                    0x00000000000000DE        #  Was: 000
+          ent                      0x000000000000005E
+          dex                      0x000000000000006A
+          mnu                      0x000000000000009A
+          aup                      0x000000000000017A
+          mon                      0x000000000000002E
+          rst                      0x000000000000013A
+          dta                      0x000000000000014A
+          alf                      0x0000000000000172
+          exe                      0x00000000000000EA
+          art                      0x00000000000000F2
+          tme                      0x0000000000000072
+          mrk                      0x00000000000001DA
+          ers                      0x00000000000000DA
+          mem                      0x00000000000001FA
+          adn                      0x000000000000007A
+          trc                      0x00000000000000B2
+          dub                      0x00000000000001D2
+          lft                      0x00000000000001E6
+          rgt                      0x00000000000000E6
+          pse                      0x00000000000000CE
+          KEY_RECORD               0x000000000000008E        #  Was: rec
+          sl-                      0x0000000000000106
+          sl+                      0x0000000000000086
+          sx2                      0x00000000000001AE
+          hrw                      0x0000000000000082
+          slt                      0x00000000000001D6
+          KEY_REWIND               0x000000000000004E        #  Was: rew
+          ply                      0x000000000000014E
+          faf                      0x000000000000018E
+          srt                      0x00000000000000D6
+          stp                      0x00000000000001CE
+      end codes
+
+end remote

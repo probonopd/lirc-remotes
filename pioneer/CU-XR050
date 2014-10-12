@@ -1,0 +1,75 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.3pre4(serial) on Wed Feb 14 00:38:17 2001
+#
+# contributed by
+#
+# brand:             Pioneer
+# model:             CU-XR050
+# supported devices: Stereo Deck (A880)
+#
+
+begin remote
+
+  name  CU-XR050
+  bits           32
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       8462  4264
+  one           536  1584
+  zero          536   524
+  ptrail        537
+  gap          89504
+  toggle_bit      0
+
+
+      begin codes
+          KEY_OPEN                 0x0000000045BA8A75        #  Was: OPEN
+          PRO_LOGIC                0x00000000659A2BD4
+          TONE_TEST                0x00000000659AAB54
+          KEY_POWER                0x00000000659A38C7        #  Was: POWER
+          DISC_CHANGE              0x0000000045BAB847
+          DISC_1                   0x0000000045BA7887
+          DISC_2                   0x0000000045BAF807
+          DISC_3                   0x0000000045BA0AF5
+          KEY_1                    0x00000000659A00FF        #  Was: 1
+          KEY_2                    0x00000000659A807F        #  Was: 2
+          KEY_3                    0x00000000659A40BF        #  Was: 3
+          KEY_CLEAR                0x00000000659A827D        #  Was: CLEAR
+          KEY_4                    0x00000000659AC03F        #  Was: 4
+          KEY_5                    0x00000000659A20DF        #  Was: 5
+          KEY_6                    0x00000000659AA05F        #  Was: 6
+          >10                      0x00000000659A02FD
+          KEY_7                    0x00000000659A609F        #  Was: 7
+          KEY_8                    0x00000000659AE01F        #  Was: 8
+          KEY_9                    0x00000000659A10EF        #  Was: 9
+          KEY_0                    0x00000000659A906F        #  Was: 10/0
+          KEY_SLEEP                0x00000000659A9867        #  Was: SLEEP
+          PGM                      0x0000000045BAB04F
+          KEY_AGAIN                0x0000000045BA30CF        #  Was: REPEAT
+          RANDOM                   0x0000000045BA52AD
+          KEY_AUX                  0x00000000659A32CD        #  Was: AUX
+          KEY_TAPE                 0x00000000659AF00F        #  Was: TAPE
+          BAND                     0x00000000659A926D
+          KEY_CD                   0x00000000659A708F        #  Was: CD
+          MONO                     0x0000000025DA7887
+          TRACK-                   0x00000000659A49B6
+          TRACK+                   0x00000000659A8976
+          KEY_PAUSE                0x00000000659AAE51        #  Was: PAUSE
+          LEVEL                    0x00000000659A4EB1
+          SEEK-                    0x00000000659A29D6
+          SEEK+                    0x00000000659AC936
+          KEY_STOP                 0x00000000659A09F6        #  Was: STOP
+          MORPHING                 0x00000000659A5BA4
+          DISPLAY                  0x00000000659AB946
+          TURN_ACW                 0x00000000659A1BE4
+          TURN_CW                  0x00000000659AEB14
+          KEY_VOLUMEDOWN           0x00000000659AD02F        #  Was: VOL-
+          KEY_VOLUMEUP             0x00000000659A50AF        #  Was: VOL+
+      end codes
+
+end remote
+
+

@@ -1,0 +1,256 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.4(any) on Tue Apr 23 17:58:21 2002
+#
+# contributed by Jan Grell <jan@grell-netz.de>
+#
+# brand:                       Skymaster 7 in 1 Universal remote control
+# model no. of remote control: Item No. 2416
+# supported devices:           misc.
+# Code: 		       VCR 822
+
+begin remote
+
+  name   lircd.conf
+  flags CONST_LENGTH|RAW_CODES
+  eps            30
+  aeps          100
+
+  ptrail       1797
+  repeat     0     0
+  gap    114169
+
+      begin raw_codes
+
+          name power
+          KEY_9                    881                       #  Was: 929
+          KEY_6                    1763                      #  Was: 896
+          KEY_8                    1763                      #  Was: 898
+          KEY_9                     #  Was: 899             
+
+          name red
+          KEY_5                    883                       #  Was: 925
+          KEY_8                    1765                      #  Was: 898
+          KEY_6                    1762                      #  Was: 896
+          KEY_5                     #  Was: 1795            
+
+          name green
+          KEY_2                    880                       #  Was: 932
+          KEY_7                    1764                      #  Was: 897
+          KEY_8                    1760                      #  Was: 1798
+          KEY_0                    879                       #  Was: 900
+
+          name yellow
+          KEY_6                    882                       #  Was: 926
+          KEY_7                    1762                      #  Was: 897
+          KEY_9                    877                       #  Was: 899
+          KEY_8                    881                       #  Was: 898
+
+          name blue
+          KEY_5                    881                       #  Was: 925
+          KEY_6                    1763                      #  Was: 896
+          KEY_9                    879                       #  Was: 899
+          KEY_7                    878                       #  Was: 1797
+
+          name 1
+          KEY_6                    881                       #  Was: 926
+          KEY_0                    1764                      #  Was: 900
+          KEY_5                    882                       #  Was: 895
+          KEY_7                    1765                      #  Was: 897
+
+          name 2
+          KEY_6                    878                       #  Was: 926
+          KEY_9                    1764                      #  Was: 899
+          KEY_0                    878                       #  Was: 900
+          KEY_5                     #  Was: 1795            
+
+          name 3
+          KEY_8                    880                       #  Was: 928
+          KEY_0                    1763                      #  Was: 900
+          KEY_0                    881                       #  Was: 890
+          KEY_6                    886                       #  Was: 896
+
+          name 4
+          KEY_0                    882                       #  Was: 930
+          KEY_4                    1762                      #  Was: 894
+          KEY_2                    877                       #  Was: 902
+          KEY_0                     #  Was: 900             
+
+          name 5
+          KEY_8                    881                       #  Was: 928
+          KEY_0                    1768                      #  Was: 900
+          KEY_9                    879                       #  Was: 899
+          KEY_1                     #  Was: 901             
+
+          name 6
+          KEY_6                    883                       #  Was: 926
+          KEY_7                    1768                      #  Was: 897
+          KEY_8                    877                       #  Was: 928
+          KEY_7                     #  Was: 1797            
+
+          name 7
+          KEY_6                    881                       #  Was: 926
+          KEY_7                    1763                      #  Was: 897
+          KEY_1                    877                       #  Was: 901
+          KEY_0                    881                       #  Was: 900
+
+          name 8
+          KEY_8                    880                       #  Was: 928
+          KEY_5                    1762                      #  Was: 895
+          KEY_5                    1765                      #  Was: 895
+          KEY_6                     #  Was: 896             
+
+          name 9
+          KEY_8                    882                       #  Was: 928
+          KEY_0                    1760                      #  Was: 900
+          KEY_8                    1761                      #  Was: 898
+          KEY_5                     #  Was: 895             
+
+          name 0
+          KEY_7                    879                       #  Was: 927
+          KEY_1                    1762                      #  Was: 901
+          KEY_5                    881                       #  Was: 895
+          KEY_0                    877                       #  Was: 900
+
+          name menu
+          KEY_5                    881                       #  Was: 925
+          KEY_9                    1763                      #  Was: 899
+          KEY_0                    881                       #  Was: 900
+          KEY_9                     #  Was: 899             
+
+          name back
+          KEY_6                    882                       #  Was: 926
+          KEY_9                    1765                      #  Was: 899
+          KEY_1                    884                       #  Was: 901
+          KEY_6                     #  Was: 1796            
+
+          name up
+          KEY_5                    881                       #  Was: 925
+          KEY_0                    1761                      #  Was: 900
+          KEY_8                    877                       #  Was: 1798
+          KEY_7                    877                       #  Was: 897
+
+          name down
+          KEY_7                    883                       #  Was: 927
+          KEY_5                    1768                      #  Was: 895
+          KEY_5                    879                       #  Was: 1795
+          KEY_8                    1770                      #  Was: 898
+
+          name left
+          KEY_6                    883                       #  Was: 926
+          KEY_2                    1742                      #  Was: 922
+          KEY_4                    881                       #  Was: 1794
+          KEY_7                     #  Was: 897             
+
+          name right
+          KEY_0                    881                       #  Was: 930
+          KEY_5                    1765                      #  Was: 895
+          KEY_7                    881                       #  Was: 1797
+          KEY_9                     #  Was: 899             
+
+          name ok
+          KEY_4                    884                       #  Was: 924
+          KEY_6                    1763                      #  Was: 896
+          KEY_5                    1765                      #  Was: 895
+          KEY_2                    879                       #  Was: 902
+
+          name volume-
+          KEY_5                    879                       #  Was: 925
+          KEY_7                    1762                      #  Was: 897
+          KEY_1                    881                       #  Was: 901
+          KEY_7                    879                       #  Was: 897
+
+          name volume+
+          KEY_0                    875                       #  Was: 930
+          KEY_8                    1763                      #  Was: 898
+          KEY_6                    1763                      #  Was: 1796
+          KEY_8                     #  Was: 898             
+
+          name mute
+          KEY_7                    881                       #  Was: 927
+          KEY_3                    854                       #  Was: 923
+          KEY_5                    909                       #  Was: 895
+          KEY_9                    882                       #  Was: 899
+
+          name 11
+          KEY_5                    885                       #  Was: 895
+          KEY_8                    1763                      #  Was: 898
+          KEY_6                    1763                      #  Was: 896
+
+          name 12
+          KEY_7                    881                       #  Was: 927
+          KEY_4                    1770                      #  Was: 894
+          KEY_9                    879                       #  Was: 1799
+          KEY_9                    884                       #  Was: 899
+
+      end raw_codes
+
+end remote
+#
+# this config file was automatically generated
+# using lirc-0.6.6(any) on Thu Apr  1 19:01:21 2004
+#
+# contributed by
+#
+# brand:                       Skymaster
+# model no. of remote control: 2416 (Code 128)
+# devices being controlled by this remote: VDR
+#
+
+begin remote
+
+  name  Skymaster_2416
+  bits           11
+  flags SPACE_ENC
+  eps            30
+  aeps          100
+
+  header       2513   536
+  one          1313   529
+  zero          689   529
+  ptrail        690
+  gap          25199
+  toggle_bit      0
+
+
+      begin codes
+          KEY_1                    0x0000000000000008        #  Was: 1
+          KEY_2                    0x0000000000000408        #  Was: 2
+          KEY_3                    0x0000000000000208        #  Was: 3
+          KEY_4                    0x0000000000000608        #  Was: 4
+          KEY_5                    0x0000000000000108        #  Was: 5
+          KEY_6                    0x0000000000000508        #  Was: 6
+          KEY_7                    0x0000000000000308        #  Was: 7
+          KEY_8                    0x0000000000000708        #  Was: 8
+          KEY_9                    0x0000000000000088        #  Was: 9
+          KEY_0                    0x0000000000000488        #  Was: 0
+          KEY_POWER                0x0000000000000548        #  Was: Power
+          KEY_BACK                 0x000000000000029C        #  Was: Back
+
+          KEY_VOLUMEDOWN           0x0000000000000648        #  Was: Volume-
+          KEY_VOLUMEUP             0x0000000000000248        #  Was: Volume+
+
+          KEY_VOLUMEDOWN           0x00000000000007E8        #  Was: Volume-
+          KEY_VOLUMEUP             0x00000000000006A8        #  Was: Volume+
+
+          KEY_UP                   0x0000000000000048        #  Was: Up
+          KEY_DOWN                 0x0000000000000448        #  Was: Down
+          KEY_LEFT                 0x0000000000000648        #  Was: Left
+          KEY_RIGHT                0x0000000000000248        #  Was: Right
+          KEY_OK                   0x00000000000001F8        #  Was: Ok
+
+          KEY_RED                  0x000000000000019C        #  Was: Red
+          KEY_GREEN                0x000000000000059C        #  Was: Green
+          KEY_YELLOW               0x000000000000039C        #  Was: Yellow
+          KEY_BLUE                 0x000000000000079C        #  Was: Blue
+
+          KEY_RED                  0x00000000000000A8        #  Was: Red
+          KEY_GREEN                0x00000000000004A8        #  Was: Green
+          KEY_YELLOW               0x0000000000000748        #  Was: Yellow
+          KEY_BLUE                 0x000000000000069C        #  Was: Blue
+
+          KEY_MENU                 0x000000000000049C        #  Was: Menu
+          KEY_MUTE                 0x0000000000000148        #  Was: Mute
+      end codes
+
+end remote

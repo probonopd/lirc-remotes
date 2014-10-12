@@ -1,0 +1,76 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.5(serial) on Wed Jan  1 18:03:40 2003
+#
+# contributed by Maximilian Ronniger
+#
+# brand:                       NEC
+# model no. of remote control: RB-D1G
+# devices being controlled by this remote: VCR
+#
+
+begin remote
+
+  name  NEC_RB-D1G
+  bits           32
+  flags SPACE_ENC
+  eps            20
+  aeps          200
+
+  header       8800  4400
+  one           550  1650
+  zero          550   550
+  ptrail        550
+  repeat       8800  2200
+  gap          38500
+  toggle_bit      0
+
+  frequency    38000
+
+      begin codes
+          OPERATE                  0x00000000986710EF
+          KEY_EJECTCD              0x000000009867F00F        #  Was: EJECT
+          KEY_1                    0x00000000986708F7        #  Was: 1
+          KEY_2                    0x0000000098678877        #  Was: 2
+          KEY_3                    0x00000000986748B7        #  Was: 3
+          KEY_4                    0x000000009867C837        #  Was: 4
+          KEY_5                    0x00000000986728D7        #  Was: 5
+          KEY_6                    0x000000009867A857        #  Was: 6
+          KEY_7                    0x0000000098676897        #  Was: 7
+          KEY_8                    0x000000009867E817        #  Was: 8
+          KEY_9                    0x00000000986718E7        #  Was: 9
+          KEY_0                    0x00000000986758A7        #  Was: 0
+          KEY_CHANNELDOWN          0x000000009867807F        #  Was: CHANEL_DOWN
+          KEY_CHANNELUP            0x00000000986700FF        #  Was: CHANEL_UP
+          KEY_POWER                0x00000000986721DE        #  Was: ON_SCREEN
+          TIMER_MODE               0x00000000986741BE
+          -_SET/-_SHIFT            0x00000000986711EE
+          +_SET/+_SHIFT            0x0000000098677887
+          TIMER/COUNTER            0x000000009867A15E
+          RESET                    0x000000009867906F
+          COUNT._MEM.              0x000000009867D02F
+          VPS                      0x000000009867A956
+          KEY_RECORD               0x000000009867609F        #  Was: REC
+          TIMER_REC                0x000000009867C13E
+          KEY_STOP                 0x00000000986720DF        #  Was: STOP
+          KEY_REWIND               0x000000009867B04F        #  Was: REW
+          KEY_PLAY                 0x000000009867A05F        #  Was: PLAY
+          KEY_FASTFORWARD          0x00000000986730CF        #  Was: FF
+          DIGITAL_MEM.             0x00000000986709F6
+          KEY_SLOW                 0x000000009867C03F        #  Was: SLOW
+          STROBE                   0x00000000986759A6
+          PAUSE/STILL              0x000000009867708F
+          DIGITAL_NR               0x00000000986739C6
+          TV_CH_CALL               0x0000000018E7F00F
+          TV_TV/VIDEO              0x0000000018E750AF
+          TV_OFF_TIMER             0x0000000018E77887
+          TV_ON_TIMER              0x0000000018E7F807
+          TV_MUTE                  0x0000000018E7906F
+          TV_-_VOL                 0x0000000018E7C03F
+          TV_+_VOL                 0x0000000018E740BF
+
+      end codes
+
+end remote
+
+

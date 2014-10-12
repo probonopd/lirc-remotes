@@ -1,0 +1,72 @@
+#
+# this config file was automatically generated
+# using lirc-0.5.5pre8 on Tue Apr 27 05:52:37 1999
+#
+# contributed by Mike Wood <mike@oa.net>
+#
+# brand:             Toshiba
+# model:             VC-222T
+# supported devices: Toshiba VCR Model M-222
+#
+
+begin remote
+
+  name  toshiba
+  bits           16
+  flags SPACE_ENC
+  eps            30
+  aeps          100
+
+  header       9094  4432
+  one           580   549
+  zero          580  1679
+  ptrail        580
+  pre_data_bits   16
+  pre_data       0xDD22
+  gap          39456
+  repeat_bit      0
+
+      begin codes
+          KEY_POWER                0x000000000000B748        #  Was: power
+          KEY_EJECTCD              0x00000000000050AF        #  Was: eject
+          KEY_1                    0x0000000000007F80        #  Was: 1
+          KEY_2                    0x000000000000BF40        #  Was: 2
+          KEY_3                    0x0000000000003FC0        #  Was: 3
+          KEY_4                    0x000000000000DF20        #  Was: 4
+          KEY_5                    0x0000000000005FA0        #  Was: 5
+          KEY_6                    0x0000000000009F60        #  Was: 6
+          KEY_6                    0x0000000000001FE0        #  Was: 6
+          KEY_8                    0x000000000000EF10        #  Was: 8
+          KEY_9                    0x0000000000006F90        #  Was: 9
+          KEY_0                    0x000000000000AF50        #  Was: 0
+          KEY_CHANNELUP            0x00000000000007F8        #  Was: chan_up
+          KEY_CHANNELDOWN          0x00000000000027D8        #  Was: chan_down
+          KEY_RECORD               0x000000000000E718        #  Was: record1
+          timer_record             0x0000000000000DF2
+          KEY_REWIND               0x0000000000006798        #  Was: rewind
+          KEY_PLAY                 0x00000000000057A8        #  Was: play
+          KEY_FASTFORWARD          0x00000000000037C8        #  Was: ffw
+          KEY_STOP                 0x000000000000D728        #  Was: stop
+          KEY_PAUSE                0x000000000000F708        #  Was: pause
+          tape_speed               0x00000000000045BA
+          track_up                 0x0000000000000FF0
+          track_down               0x0000000000008F70
+          tv/line                  0x00000000000005FA
+          tv/catv                  0x00000000000017E8
+          tv/vcr                   0x0000000000007788
+          index                    0x0000000000009D62
+          counter_reset            0x0000000000009669
+          zero_return              0x0000000000001EE1
+          KEY_CHANNELDOWN          0x000000000000FA05        #  Was: channel_memory
+          KEY_CHANNELDOWN          0x0000000000007A85        #  Was: channel_add
+          KEY_CHANNELDOWN          0x000000000000BA45        #  Was: channel_erase
+          shift_left               0x000000000000758A
+          shift_right              0x0000000000004DB2
+          program                  0x000000000000C53A
+          display                  0x0000000000003EC1
+          otr_left                 0x000000000000CA35
+          otr_right                0x00000000000025DA
+      end codes
+
+end remote
+

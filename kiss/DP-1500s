@@ -1,0 +1,70 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.0(serial) on Wed Feb  7 18:43:41 2007
+#
+# contributed by L.H.Carsten
+#
+# brand:                       Kiss
+# model no. of remote control: unknown
+# devices being controlled by this remote: Kiss DP-1500s
+#
+
+begin remote
+
+  name  Kiss_DP-1500s
+  bits           13
+  flags RC5|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           965   821
+  zero          965   821
+  plead         991
+  gap          113479
+  toggle_bit      2
+
+
+      begin codes
+          KEY_POWER                0x164C                    #  Was: power
+          KEY_1                    0x1641                    #  Was: 1
+          KEY_2                    0x1642                    #  Was: 2
+          KEY_3                    0x1643                    #  Was: 3
+          KEY_4                    0x1644                    #  Was: 4
+          KEY_5                    0x1645                    #  Was: 5
+          KEY_6                    0x1646                    #  Was: 6
+          KEY_7                    0x1647                    #  Was: 7
+          KEY_8                    0x1648                    #  Was: 8
+          KEY_9                    0x1649                    #  Was: 9
+          KEY_0                    0x1640                    #  Was: 0
+          KEY_EJECTCD              0x166D                    #  Was: eject
+          KEY_TITLE                0x0642                    #  Was: title
+          KEY_MENU                 0x0643                    #  Was: menu
+          KEY_BACK                 0x0648                    #  Was: back
+          KEY_UP                   0x0656                    #  Was: up
+          KEY_DOWN                 0x0655                    #  Was: down
+          KEY_LEFT                 0x0651                    #  Was: left
+          KEY_RIGHT                0x0650                    #  Was: right
+          KEY_ENTER                0x0657                    #  Was: enter
+          KEY_REWIND               0x1672                    #  Was: rewind
+          KEY_PLAY                 0x1675                    #  Was: play
+          KEY_FASTFORWARD          0x1674                    #  Was: fforward
+          chap-                    0x1661
+          chap+                    0x1660
+          KEY_STOP                 0x1676                    #  Was: stop
+          step                     0x1670
+          KEY_AUDIO                0x0645                    #  Was: audio
+          KEY_SUBTITLE             0x0641                    #  Was: subpic
+          KEY_ANGLE                0x0649                    #  Was: angle
+          KEY_ZOOM                 0x0644                    #  Was: zoom
+          KEY_AGAIN                0x0640                    #  Was: repeat
+          mark                     0x0646
+          KEY_SETUP                0x064A                    #  Was: setup
+          del                      0x1669
+          KEY_SEARCH               0x064C                    #  Was: search
+          KEY_VOLUMEDOWN           0x1651                    #  Was: vol-
+          KEY_VOLUMEUP             0x1650                    #  Was: vol+
+      end codes
+
+end remote
+
+

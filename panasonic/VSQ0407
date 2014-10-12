@@ -1,0 +1,58 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.1-CVS(default) on Thu Mar 15 19:15:40 2007
+#
+# contributed by
+#
+# brand:                       Panasonic
+# model no. of remote control: VSQ0407
+# devices being controlled by this remote:
+#
+
+begin remote
+
+  name  Panasonic_VSQ0407
+  bits           22
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       3731  3604
+  one           962  2696
+  zero          962   866
+  ptrail        961
+  gap          109750
+  min_repeat      1
+  toggle_bit      0
+
+
+      begin codes
+          VTR                      0x100DFE
+          KEY_1                    0x1015FD                  #  Was: 1
+          KEY_2                    0x1115DD                  #  Was: 2
+          KEY_3                    0x1095ED                  #  Was: 3
+          KEY_4                    0x1195CD                  #  Was: 4
+          KEY_5                    0x1055F5                  #  Was: 5
+          KEY_6                    0x1155D5                  #  Was: 6
+          KEY_7                    0x10D5E5                  #  Was: 7
+          KEY_8                    0x11D5C5                  #  Was: 8
+          KEY_9                    0x1035F9                  #  Was: 9
+          KEY_0                    0x1135D9                  #  Was: 10
+          KEY_1                    0x10B5E9                  #  Was: 11
+          KEY_2                    0x11B5C9                  #  Was: 12
+          KEY_3                    0x1075F1                  #  Was: 13
+          KEY_4                    0x1175D1                  #  Was: 14
+          KEY_5                    0x10F5E1                  #  Was: 15
+          KEY_6                    0x11F5C1                  #  Was: 16
+          KEY_RECORD               0x1025FB                  #  Was: REC
+          KEY_REWIND               0x1085EF                  #  Was: REW
+          KEY_FASTFORWARD          0x1185CF                  #  Was: FF
+          PAUSE/STILL              0x10C5E7
+          STILL_ADV                0x1065F3
+          KEY_PLAY                 0x10A5EB                  #  Was: PLAY
+          KEY_STOP                 0x1005FF                  #  Was: STOP
+      end codes
+
+end remote
+
+

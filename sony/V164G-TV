@@ -1,0 +1,78 @@
+#
+# this config file was automatically generated
+# using WinLIRC 0.6.4 (LIRC 0.6.1pre3) on Wed Feb 19 13:23:09 2003
+#
+# contributed by
+#
+# brand:             Sony
+# model:             V164G/TV
+# supported devices:
+#
+
+begin remote
+
+  name  SONY_V164G/TV
+  bits           12
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  header       2474   530
+  one          1251   530
+  zero          652   530
+  gap          25732
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0xA90                     #  Was: POWER
+          KEY_EJECTCD              0x69A                     #  Was: EJECT
+          TV/VTR                   0xA50
+          TIMER_CLEAR              0xC7A
+          KEY_MENU                 0xB3A                     #  Was: MENU
+          COUNTER_RESET            0x63A
+          ARROW_UP                 0x43A
+          ARROW_DOWN               0xC3A
+          ARROW_LEFT               0x47A
+          ARROW_RIGHT              0x87A
+          EXECUTE                  0x8BA
+          AUDIO_MONITOR            0xE90
+          KEY_1                    0x010                     #  Was: 1
+          KEY_2                    0x810                     #  Was: 2
+          KEY_3                    0x410                     #  Was: 3
+          KEY_4                    0xC10                     #  Was: 4
+          KEY_5                    0x210                     #  Was: 5
+          KEY_6                    0xA10                     #  Was: 6
+          KEY_7                    0x610                     #  Was: 7
+          KEY_8                    0xE10                     #  Was: 8
+          KEY_9                    0x110                     #  Was: 9
+          KEY_0                    0x910                     #  Was: 0
+          KEY_NEXT                 0xBBA                     #  Was: SKIP
+          KEY_ENTER                0xD10                     #  Was: ENTER
+          DISPLAY                  0x5D0
+          TRACKIG_AUTO/MANUAL      0xE5A
+          TRACKIG_DOWN             0xA3A
+          TRACKIG_UP               0x23A
+          SLOW_-                   0x7DA
+          SLOW_+                   0xBDA
+          TAPE_SPEED               0x1BA
+          FRAME_PREVIOUS           0x0DA
+          FRAME_NEXT               0x8DA
+          INDEX_SEARCH_PREVIOUS    0xEBA
+          INDEX_SEARCH_NEXT        0x6BA
+          INPUT_SELECT             0xF3A
+          KEY_RECORD               0xB9A                     #  Was: REC
+          KEY_VOLUMEUP             0x490                     #  Was: VOL_+
+          KEY_VOLUMEDOWN           0xC90                     #  Was: VOL_-
+          CH_+                     0x090
+          CH_-                     0x890
+          SEARCH_RW                0x15A
+          SEARCH_FF                0x95A
+          KEY_PAUSE                0x99A                     #  Was: PAUSE
+          KEY_PLAY                 0x59A                     #  Was: PLAY
+          KEY_STOP                 0x19A                     #  Was: STOP
+      end codes
+
+end remote
+
+

@@ -1,0 +1,93 @@
+#
+# This config file has been automatically converted from a device file
+# found in the 06/26/00 release of the Windows Slink-e software
+# package.
+#
+# Many thanks to Colby Boles of Nirvis Systems Inc. for allowing us to
+# use these files.
+#
+# The original filename was: "yamaha_vt97430_dsp-a3090.cde"
+#
+# The original description for this device was:
+#
+# yamaha vt97430 dsp-a3090
+#
+
+
+begin remote
+
+  name  VT97430
+  bits           32
+  flags SPACE_ENC
+  eps            20
+  aeps          200
+
+  header       8800  4400
+  one           550  1650
+  zero          550   550
+  ptrail        550
+  repeat       8800  2200
+  gap          38500
+  toggle_bit      0
+
+  frequency    38000
+
+      begin codes
+          TAPE-VCR,PLAY'>'         0x000000005EA100FF
+          TAPE-VCR,STOP'__'        0x000000005EA1C03F
+          TAPE-VCR,'>>'            0x000000005EA140BF
+          TAPE-VCR,'<<'            0x000000005EA1807F
+          KEY_POWER                0x00000000BE41F10E        #  Was: POWER
+          MOVIE_THEATER_1'10'      0x00000000BE419B64
+          HALL_1'1'                0x00000000BE410BF4
+          HALL_2'2'                0x00000000BE418B74
+          HALL_3'3'                0x00000000BE414BB4
+          CHURCH'4'                0x00000000BE41CB34
+          ROCK_CONCERT'5'          0x00000000BE412BD4
+          JAZZ_CLUB'6'             0x00000000BE41AB54
+          CONCERT_VIDEO_1'7'       0x00000000BE416B94
+          CONCERT_VIDEO_2'8'       0x00000000BE41EB14
+          TV_THEATER'9'            0x00000000BE411BE4
+          MOVIE_THEATER_2'11'      0x00000000BE415BA4
+          DOLBYAC-3/PROLOG1'12     0x00000000BE41DB24
+          PRESET/CH'+'             0x000000005EA108F7
+          PRESET/CH'-'             0x000000005EA18877
+          MASTER_VOLUME'+'         0x00000000BE41B14E
+          MASTER_VOLUME'-'         0x00000000BE41718E
+          MUTING                   0x00000000BE4129D6
+          TV/DBS                   0x00000000BE4121DE
+          VCR_1                    0x00000000BE41817E
+          VCR_2                    0x00000000BE4141BE
+          VCR_3/DVD                0x00000000BE41A15E
+          TAPE_1                   0x00000000BE41D12E
+          KEY_CD                   0x00000000BE41E11E        #  Was: CD
+          KEY_TUNER                0x00000000BE41916E        #  Was: TUNER
+          PHONO                    0x00000000BE4111EE
+          V-AUX                    0x00000000BE4151AE
+          LD                       0x00000000BE41C13E
+          DECK_A/B                 0x000000005EA1609F
+          TAPE_2_MON               0x00000000BE4131CE
+          DISPLAY                  0x000000009E6150AF
+          CHAPTER_+'>>|'           0x000000005EA150AF
+          CHAPTER_-'|<<'           0x000000005EA1D02F
+          PAUSE/STOP'||/__'        0x000000005EA1906F
+          KEY_PLAY                 0x000000005EA110EF        #  Was: PLAY'>'
+          SEARCH'>>'               0x000000005EA130CF
+          SEARCH'<<'               0x000000005EA1B04F
+          TEST                     0x00000000BE4153AC
+          TUNERVCRTV,A/B/C/D/E     0x000000005EA148B7
+          FRONT_LEVEL'+'           0x00000000BE41B34C
+          FRONT_LEVEL'-'           0x00000000BE41738C
+          CENTER_LEVEL'+'          0x00000000BE41D32C
+          CENTER_LEVEL'-'          0x00000000BE4133CC
+          REAR_LEVEL'+'            0x00000000BE4113EC
+          REAR_LEVEL'-'            0x00000000BE41936C
+          KEY_POWER                0x00000000BE4143BC        #  Was: ON_SCREEN
+          EFFECT'ON/OFF'           0x00000000BE41837C
+          '+'                      0x00000000BE41639C
+          '-'                      0x00000000BE41E31C
+          '/'                     0x00000000BE41A35C
+          '/'                     0x00000000BE4123DC
+      end codes
+
+end remote

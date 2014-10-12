@@ -1,0 +1,67 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.5(any) on Thu Dec 25 12:17:53 2003
+#
+# contributed by Amit Shirodkar<amits|myrealbox.com>
+#
+# brand:Onida   
+# model no. of remote control: RM-C459
+# devices being controlled by this remote:Onida TVE-21 color TV
+#
+# note:this remote comes with a TV sold in India
+#      under the brand name "Onida" model:TVE 21
+#
+# CB: probably rebranded JVC
+#
+
+
+begin remote
+
+  name  ONIDA_TVE_21
+  bits            8
+  flags SPACE_ENC|NO_HEAD_REP|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       8505  4153
+  one           576  1527
+  zero          576   477
+  ptrail        577
+  pre_data_bits   8
+  pre_data       0xC0
+  gap          46357
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x00000000000000E8        #  Was: power
+          tv-video                 0x00000000000000C8
+          color-system             0x0000000000000049
+          display                  0x0000000000000020
+          KEY_MENU                 0x000000000000005E        #  Was: menu
+          sleep-timer              0x00000000000000C0
+          surround                 0x0000000000000042
+          vsm                      0x000000000000009E
+          ssm                      0x0000000000000009
+          chdn                     0x0000000000000018
+          KEY_CHANNELUP            0x0000000000000098        #  Was: chup
+          KEY_VOLUMEDOWN           0x00000000000000F8        #  Was: voldn
+          KEY_VOLUMEUP             0x0000000000000078        #  Was: volup
+          KEY_MUTE                 0x0000000000000038        #  Was: mute
+          picture-sound            0x00000000000000DE
+          picsnd-up                0x000000000000005A
+          picsnd-dn                0x00000000000000DA
+          digits                   0x00000000000000B9
+          KEY_1                    0x0000000000000084        #  Was: 1
+          KEY_2                    0x0000000000000044        #  Was: 2
+          KEY_3                    0x00000000000000C4        #  Was: 3
+          KEY_4                    0x0000000000000024        #  Was: 4
+          KEY_5                    0x00000000000000A4        #  Was: 5
+          KEY_6                    0x0000000000000064        #  Was: 6
+          KEY_7                    0x00000000000000E4        #  Was: 7
+          KEY_8                    0x0000000000000014        #  Was: 8
+          KEY_9                    0x0000000000000094        #  Was: 9
+          KEY_0                    0x0000000000000004        #  Was: 0
+      end codes
+
+end remote

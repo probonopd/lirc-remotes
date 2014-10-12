@@ -1,0 +1,66 @@
+#
+# this config file was automatically generated
+# using WinLIRC 0.6.5 (LIRC 0.6.1pre3) on Thu Sep 25 00:15:38 2003
+#
+# contributed by
+#
+# brand:             SONY
+# model:             RM-U265
+# supported devices: Amplifier (STR-DE205), CD-Player (CDP-XE200), Minidisc-player, Cassette decks
+#
+
+begin remote
+
+  name  RM-U265
+  bits           12
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  one           300  1084
+  zero          300  1682
+  ptrail        300
+  gap          28714
+  toggle_bit      0
+
+
+      begin codes
+          KEY_VIDEO                0x0000000000000BBE        #  Was: video
+          KEY_TV                   0x0000000000000A9E        #  Was: tv
+          tape/md                  0x00000000000003BE
+          KEY_CD                   0x00000000000005BE        #  Was: cd
+          KEY_TUNER                0x00000000000007BE        #  Was: tuner
+          phono                    0x0000000000000FBE
+          tuner-preset_down        0x0000000000000769
+          tuner-preset_up          0x0000000000000F69
+          tuner-shift              0x0000000000000329
+          cd-play                  0x0000000000000B2E
+          cd-pause                 0x000000000000062E
+          cd-stop                  0x0000000000000E2E
+          cd-previous_track        0x0000000000000F2E
+          cd-next_track            0x000000000000072E
+          cd-d.skip                0x000000000000082E
+          md-play                  0x0000000000000AA1
+          md-pause                 0x00000000000006A1
+          md-stop                  0x0000000000000EA1
+          md-previous_track        0x0000000000000FA1
+          md-next_track            0x00000000000007A1
+          tape.a-left              0x000000000000013E
+          tape.a-right             0x0000000000000B3E
+          tape.a-stop              0x0000000000000E3E
+          tape.a-rew               0x000000000000033E
+          tape.a-ff                0x0000000000000D3E
+          tape.b-left              0x0000000000000FB1
+          tape.b-right             0x0000000000000A71
+          tape.b-stop              0x0000000000000E71
+          tape.b-rew               0x0000000000000271
+          tape.b-ff                0x0000000000000C71
+          bass.boost               0x0000000000000739
+          muting                   0x0000000000000D7E
+          KEY_VOLUMEUP             0x0000000000000B7E        #  Was: volume-up
+          KEY_VOLUMEDOWN           0x000000000000037E        #  Was: volume-down
+      end codes
+
+end remote
+
+

@@ -1,0 +1,284 @@
+#
+# this config file was derived from BN59-00516A
+#
+# contributed by Matt Hirsch (matthew dot hirsch at gmail dot com)
+#
+# brand: Samsung
+# model no. of remote control: BN59-00599A
+# devices being controlled by this remote: LN4065F LCD TV
+#
+
+# Codes generated when in "TV" mode
+begin remote
+
+  name  Samsung_BN59-00599A_TV
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       4633  4321
+  one           712  1520
+  zero          712   398
+  ptrail        704
+  pre_data_bits   16
+  pre_data       0xE0E0
+  gap          108193
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x40BF                    #  Was: POWER
+          KEY_CYCLEWINDOWS         0x807F                    #  Was: SOURCE
+          KEY_1                    0x20DF                    #  Was: 1
+          KEY_2                    0xA05F                    #  Was: 2
+          KEY_3                    0x609F                    #  Was: 3
+          KEY_4                    0x10EF                    #  Was: 4
+          KEY_5                    0x906F                    #  Was: 5
+          KEY_6                    0x50AF                    #  Was: 6
+          KEY_7                    0x30CF                    #  Was: 7
+          KEY_8                    0xB04F                    #  Was: 8
+          KEY_9                    0x708F                    #  Was: 9
+          DASH                     0xC43B
+          KEY_0                    0x8877                    #  Was: 0
+          KEY_CHANNELDOWN          0xC837                    #  Was: PREV_CH
+          CH_LIST                  0xD629
+          KEY_SLEEP                0xC03F                    #  Was: SLEEP
+          KEY_REWIND               0xA25D                    #  Was: REW
+          KEY_STOP                 0x629D                    #  Was: STOP
+          KEY_PLAYPAUSE            0xE21D                    #  Was: PLAY_PAUSE
+          KEY_FASTFORWARD          0x12ED                    #  Was: FF
+          KEY_VOLUMEUP             0xE01F                    #  Was: VOL_UP
+          KEY_CHANNELUP            0x48B7                    #  Was: CH_UP
+          KEY_MUTE                 0xF00F                    #  Was: MUTE
+          KEY_VOLUMEDOWN           0xD02F                    #  Was: VOL_DOWN
+          KEY_CHANNELDOWN          0x08F7                    #  Was: CH_DOWN
+          KEY_MENU                 0x58A7                    #  Was: MENU
+          KEY_EXIT                 0xB44B                    #  Was: EXIT
+          KEY_UP                   0x06F9                    #  Was: UP
+          KEY_LEFT                 0xA659                    #  Was: LEFT
+          KEY_ENTER                0x16E9                    #  Was: ENTER
+          KEY_RIGHT                0x46B9                    #  Was: RIGHT
+          KEY_DOWN                 0x8679                    #  Was: DOWN
+          KEY_INFO                 0xF807                    #  Was: INFO
+          PIP                      0x04FB
+          P.MODE                   0x14EB
+          S.MODE                   0xD42B
+          P.SIZE                   0x7C83
+          STILL                    0x42BD
+          MTS                      0x00FF
+          SRS                      0x7689
+          CAPTION                  0xA45B
+          ANTENNA                  0x6C93
+          WISELINK                 0x31CE
+          KEY_RECORD               0x926D                    #  Was: REC
+          ANYNET                   0xE916
+          KEY_FAVORITES            0x22DD                    #  Was: FAV-CH
+          AUDCH_UP                 0x4CB3
+          AUDCH_DOWN               0xCC33
+          KEY_ENTER                0x1AE5                    #  Was: RETURN
+# the following buttons are the mode change buttons at the
+# top of the remote, but they have the same pre data as the
+# TV codes
+          STB_MODE                 0xFE01
+          CABLE_MODE               0xDE21
+          VCR_MODE                 0x5EA1
+          KEY_DVD                  0x7E81                    #  Was: DVD_MODE
+          TV_MODE                  0xBE41
+      end codes
+
+end remote
+
+# Codes generated when in "DVD" mode
+begin remote
+
+  name  Samsung_BN59-00599A_DVD
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9113  4348
+  one           689  1550
+  zero          689   434
+  ptrail        690
+  repeat       9112  4339
+  pre_data_bits   26
+  pre_data       0x198133F
+  gap          108204
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x8976                    #  Was: POWER
+          KEY_1                    0x817E                    #  Was: 1
+          KEY_2                    0x41BE                    #  Was: 2
+          KEY_3                    0xC13E                    #  Was: 3
+          KEY_4                    0x21DE                    #  Was: 4
+          KEY_5                    0xA15E                    #  Was: 5
+          KEY_6                    0x619E                    #  Was: 6
+          KEY_7                    0xE11E                    #  Was: 7
+          KEY_8                    0x11EE                    #  Was: 8
+          KEY_9                    0x916E                    #  Was: 9
+          KEY_0                    0x01FE                    #  Was: 0
+          KEY_REWIND               0xF906                    #  Was: REW
+          KEY_STOP                 0x45BA                    #  Was: STOP
+          KEY_PLAYPAUSE            0x05FA                    #  Was: PLAY_PAUSE
+          KEY_FASTFORWARD          0x857A                    #  Was: FF
+          KEY_MENU                 0xD12E                    #  Was: MENU
+          KEY_EXIT                 0x25DA                    #  Was: EXIT
+          KEY_UP                   0xE916                    #  Was: UP
+          KEY_LEFT                 0x59A6                    #  Was: LEFT
+          KEY_ENTER                0xD926                    #  Was: ENTER
+          KEY_RIGHT                0x9966                    #  Was: RIGHT
+          KEY_DOWN                 0x19E6                    #  Was: DOWN
+          KEY_INFO                 0xF10E                    #  Was: INFO
+      end codes
+
+end remote
+
+
+# Code generated when in "STB" mode
+begin remote
+
+  name  Samsung_BN59-00599A_STB
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       4598  4358
+  one           657  1574
+  zero          657   454
+  ptrail        652
+  pre_data_bits   16
+  pre_data       0x9090
+  gap          108178
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x40BF                    #  Was: POWER
+          KEY_CYCLEWINDOWS         0x807F                    #  Was: SOURCE
+          KEY_1                    0x20DF                    #  Was: 1
+          KEY_2                    0xA05F                    #  Was: 2
+          KEY_3                    0x609F                    #  Was: 3
+          KEY_4                    0x10EF                    #  Was: 4
+          KEY_5                    0x906F                    #  Was: 5
+          KEY_6                    0x50AF                    #  Was: 6
+          KEY_7                    0x30CF                    #  Was: 7
+          KEY_8                    0xB04F                    #  Was: 8
+          KEY_9                    0x708F                    #  Was: 9
+          KEY_0                    0x8877                    #  Was: 0
+          KEY_CHANNELDOWN          0xC837                    #  Was: PREV_CH
+          KEY_SLEEP                0xC03F                    #  Was: SLEEP
+          KEY_REWIND               0xA25D                    #  Was: REW
+          KEY_STOP                 0x629D                    #  Was: STOP
+          KEY_PLAYPAUSE            0xE21D                    #  Was: PLAY_PAUSE
+          KEY_FASTFORWARD          0x12ED                    #  Was: FF
+          KEY_CHANNELUP            0x48B7                    #  Was: CH_UP
+          KEY_CHANNELDOWN          0x08F7                    #  Was: CH_DOWN
+          KEY_MENU                 0x58A7                    #  Was: MENU
+          KEY_EXIT                 0xB44B                    #  Was: EXIT
+          KEY_UP                   0x06F9                    #  Was: UP
+          KEY_LEFT                 0xA659                    #  Was: LEFT
+          KEY_ENTER                0x16E9                    #  Was: ENTER
+          KEY_RIGHT                0x46B9                    #  Was: RIGHT
+          KEY_DOWN                 0x8679                    #  Was: DOWN
+          KEY_INFO                 0xF807                    #  Was: INFO
+          KEY_BLUE                 0x7C83                    #  Was: BLUE
+          KEY_FAVORITES            0x22DD                    #  Was: FAV_CH
+          KEY_RECORD               0x926D                    #  Was: REC
+      end codes
+
+end remote
+
+
+# Code generated when in "CABLE" mode
+begin remote
+
+  name  Samsung_BN59-00599A_CABLE
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9078  4380
+  one           651  1587
+  zero          651   460
+  ptrail        663
+  repeat       9077  2167
+  pre_data_bits   16
+  pre_data       0xFF
+  gap          107165
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0xF00F                    #  Was: POWER
+          KEY_1                    0x8877                    #  Was: 1
+          KEY_2                    0x48B7                    #  Was: 2
+          KEY_3                    0xC837                    #  Was: 3
+          KEY_4                    0x28D7                    #  Was: 4
+          KEY_5                    0xA857                    #  Was: 5
+          KEY_6                    0x6897                    #  Was: 6
+          KEY_7                    0xE817                    #  Was: 7
+          KEY_8                    0x18E7                    #  Was: 8
+          KEY_9                    0x9867                    #  Was: 9
+          KEY_0                    0x08F7                    #  Was: 0
+          KEY_CHANNELUP            0x20DF                    #  Was: CH_UP
+          KEY_CHANNELDOWN          0xA05F                    #  Was: CH_DOWN
+      end codes
+
+end remote
+
+
+# Code generated when in "VCR" mode
+begin remote
+
+  name  Samsung_BN59-00599A_VCR
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       4601  4357
+  one           659  1576
+  zero          659   452
+  ptrail        651
+  pre_data_bits   16
+  pre_data       0xA0A0
+  gap          108199
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x40BF                    #  Was: POWER
+          KEY_1                    0x20DF                    #  Was: 1
+          KEY_2                    0xA05F                    #  Was: 2
+          KEY_3                    0x609F                    #  Was: 3
+          KEY_4                    0x10EF                    #  Was: 4
+          KEY_5                    0x906F                    #  Was: 5
+          KEY_6                    0x50AF                    #  Was: 6
+          KEY_7                    0x30CF                    #  Was: 7
+          KEY_8                    0xB04F                    #  Was: 8
+          KEY_9                    0x708F                    #  Was: 9
+          KEY_0                    0x8877                    #  Was: 0
+          KEY_REWIND               0x18E7                    #  Was: REW
+          KEY_STOP                 0xA857                    #  Was: STOP
+          KEY_PLAYPAUSE            0x9867                    #  Was: PLAY_PAUSE
+          KEY_FASTFORWARD          0x58A7                    #  Was: FF
+          KEY_CHANNELUP            0x48B7                    #  Was: CH_UP
+          KEY_CHANNELDOWN          0x08F7                    #  Was: CH_DOWN
+          KEY_MENU                 0xF807                    #  Was: MENU
+          KEY_EXIT                 0xB847                    #  Was: EXIT
+          KEY_UP                   0x1EE1                    #  Was: UP
+          KEY_LEFT                 0x42BD                    #  Was: LEFT
+          KEY_ENTER                0x827D                    #  Was: ENTER
+          KEY_RIGHT                0xC23D                    #  Was: RIGHT
+          KEY_DOWN                 0xAE51                    #  Was: DOWN
+          KEY_INFO                 0x7887                    #  Was: INFO
+          KEY_RECORD               0x28D7                    #  Was: REC
+      end codes
+
+end remote

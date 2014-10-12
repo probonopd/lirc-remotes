@@ -1,0 +1,100 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.5(serial) on Sat Jul  6 20:35:44 2002
+#
+# contributed by  Christian Vogel <chris@hedonism.cx>
+#
+# brand:                       HUTH Communication GmbH
+# model no. of remote control: RC7011-08-0001 (Text on PCB)
+#
+# IC on PCB: LC7461
+#
+# devices being controlled by this remote:
+#  HUTH Carat professional 200  (Satellite Receiver)
+#
+# Layout of remote:
+# +---------------------------------+
+# |                                 |
+# |  VIDEO   AUDIO   MUTE   (POWER) |
+# |                                 |
+# |  LNB     RADIO   MONO/   EXT    |
+# |                   ST            |
+# | (  1  ) (  2  ) (  3  )  STATUS |
+# |                                 |
+# | (  4  ) (  5  ) (  6  )  STORE  |
+# |                                 |
+# | (  7  ) (  8  ) (  9  )  RECALL |
+# |                                 |
+# |         (  0  ) (+100 )  LIST   |
+# |                                 |
+# |  SLEEP   AFC     1_UP    10_UP  |
+# |                                 |
+# |  TIMER   HEAD    1_DN    10_DN  |
+# |          PHONE                  |
+# |                                 |
+# +---------------------------------+
+#
+
+begin remote
+
+  name  huth_prof_200
+#  bits           42  (switched to pre_data_bits on 2nd attempt...)
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       8980  4524
+  one           568  1682
+  zero          568   556
+  ptrail        525
+  repeat       8980  4524
+  gap          108042
+  pre_data_bits   26
+  pre_data       0x3C201EF
+  toggle_bit      0
+
+
+      begin codes
+          KEY_VIDEO                0x000000000000D827        #  Was: VIDEO
+          KEY_AUDIO                0x00000000000010EF        #  Was: AUDIO
+          KEY_MUTE                 0x000000000000F807        #  Was: MUTE
+          KEY_POWER                0x00000000000038C7        #  Was: POWER
+
+          LNB                      0x000000000000E817
+          KEY_RADIO                0x000000000000C837        #  Was: RADIO
+          STEREO                   0x000000000000B847
+          EXT                      0x000000000000807F
+
+          KEY_1                    0x000000000000F00F        #  Was: 1
+          KEY_2                    0x000000000000708F        #  Was: 2
+          KEY_3                    0x000000000000B04F        #  Was: 3
+          KEY_4                    0x000000000000D02F        #  Was: 4
+          KEY_5                    0x00000000000050AF        #  Was: 5
+          KEY_6                    0x000000000000906F        #  Was: 6
+          KEY_7                    0x000000000000E01F        #  Was: 7
+          KEY_8                    0x000000000000609F        #  Was: 8
+          KEY_9                    0x000000000000A05F        #  Was: 9
+          KEY_0                    0x00000000000040BF        #  Was: 0
+          KEY_0                    0x00000000000030CF        #  Was: 100
+
+          STATUS                   0x00000000000018E7
+          STORE                    0x00000000000028D7
+          KEY_AGAIN                0x00000000000008F7        #  Was: RECALL
+          KEY_LIST                 0x0000000000008877        #  Was: LIST
+
+          KEY_SLEEP                0x00000000000020DF        #  Was: SLEEP
+          AFC                      0x0000000000007887
+
+          TIMER                    0x00000000000000FF
+          HEADP                    0x00000000000048B7
+
+          X_KEY_1_UP               0x00000000000058A7        #  Was: KEY_1_UP
+          X_KEY_1_DN               0x0000000000006897        #  Was: KEY_1_DN
+          X_KEY_0_UP               0x0000000000009867        #  Was: KEY_0_UP
+          X_KEY_0_DN               0x000000000000A857        #  Was: KEY_0_DN
+
+      end codes
+
+end remote
+

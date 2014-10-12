@@ -1,0 +1,80 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.5(serial) on Mon Feb 11 17:57:17 2002
+#
+# contributed by Markus Schaber
+#
+# brand: PEARL
+# model no. of remote control: AV7-RZ-506 (code 026)
+# devices being controlled by this remote:
+# Computer lircd :)
+
+begin remote
+
+  name  testrecord.config
+  bits           13
+  flags RC5|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           907   854
+  zero          907   854
+  plead         941
+  gap          115098
+  toggle_bit      2
+
+
+      begin codes
+          KEY_POWER                0x000000000000100C        #  Was: power
+          KEY_1                    0x0000000000001001        #  Was: 1
+          KEY_2                    0x0000000000001002        #  Was: 2
+          KEY_3                    0x0000000000001003        #  Was: 3
+          KEY_4                    0x0000000000001004        #  Was: 4
+          KEY_5                    0x0000000000001005        #  Was: 5
+          KEY_6                    0x0000000000001006        #  Was: 6
+          KEY_7                    0x0000000000001007        #  Was: 7
+          KEY_8                    0x0000000000001008        #  Was: 8
+          KEY_9                    0x0000000000001009        #  Was: 9
+          KEY_0                    0x0000000000001000        #  Was: 0
+          KEY_1                    0x000000000000100A        #  Was: 11
+          KEY_2                    0x0000000000001028        #  Was: 12
+          KEY_MUTE                 0x000000000000100D        #  Was: mute
+          bash                     0x000000000000100F
+          KEY_CHANNELUP            0x0000000000001020        #  Was: ch+
+          KEY_CHANNELDOWN          0x0000000000001021        #  Was: ch-
+          KEY_BACK                 0x0000000000001023        #  Was: back
+          backto                   0x000000000000100E
+          p/c                      0x000000000000100B
+          pr                       0x0000000000001026
+          a+                       0x0000000000001014
+          a-                       0x0000000000001015
+          b+                       0x0000000000001012
+          b-                       0x0000000000001013
+          c+                       0x000000000000101A
+          c-                       0x000000000000101B
+          KEY_VOLUMEUP             0x0000000000001010        #  Was: vol+
+          KEY_VOLUMEDOWN           0x0000000000001011        #  Was: vol-
+          KEY_A                    0x0000000000001019        #  Was: a
+          KEY_B                    0x0000000000001018        #  Was: b
+          KEY_C                    0x0000000000001017        #  Was: c
+          KEY_D                    0x0000000000001016        #  Was: d
+          KEY_E                    0x0000000000001037        #  Was: e
+          KEY_F                    0x0000000000001036        #  Was: f
+          KEY_G                    0x0000000000001032        #  Was: g
+          KEY_H                    0x0000000000001034        #  Was: h
+          KEY_REWIND               0x0000000000001022        #  Was: rew
+          KEY_PLAY                 0x000000000000102B        #  Was: play
+          KEY_FASTFORWARD          0x0000000000001038        #  Was: ff
+          memo                     0x0000000000001024
+          KEY_RECORD               0x000000000000102C        #  Was: rec
+          KEY_STOP                 0x0000000000001029        #  Was: stop
+          KEY_PAUSE                0x000000000000103C        #  Was: pause
+          KEY_EJECTCD              0x000000000000102D        #  Was: eject
+          KEY_PREVIOUS             0x0000000000001035        #  Was: prev
+          KEY_NEXT                 0x000000000000102A        #  Was: next
+          KEY_3next                0x000000000000103F        #  Was: 3next
+      end codes
+
+end remote
+
+

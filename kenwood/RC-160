@@ -1,0 +1,88 @@
+#
+# This config file has been automatically converted from a device file
+# found in the 06/26/00 release of the Windows Slink-e software
+# package.
+#
+# Many thanks to Colby Boles of Nirvis Systems Inc. for allowing us to
+# use these files.
+#
+# The original filename was: "kenwood rc-160 uni programmable rem.cde"
+#
+# The original description for this device was:
+#
+# kenwood rc-160 uni programmable rem
+#
+
+
+begin remote
+
+  name  RC-160
+  bits           32
+  flags SPACE_ENC
+  eps            20
+  aeps          200
+
+  header       8800  4400
+  one           550  1650
+  zero          550   550
+  ptrail        550
+  repeat       8800  2200
+  gap          38500
+  toggle_bit      0
+
+  frequency    38000
+
+      begin codes
+          SELECT_CD                0x000000001DE249B6
+          .......TUNER             0x000000001DE28976
+          .......TAPE_A            0x000000001DE229D6
+          .......TAPE_B            0x000000001DE2A956
+          .......VIDEO_1           0x000000001DE26996
+          .......VIDEO_2           0x000000001DE2C936
+          KEY_POWER                0x000000001DE2B946        #  Was: POWER_AUDIO
+          KEY_MUTE                 0x000000001DE239C6        #  Was: MUTE
+          KEY_VOLUMEUP             0x000000001DE2D926        #  Was: VOL_UP
+          KEY_VOLUMEDOWN           0x000000001DE259A6        #  Was: VOL_DOWN
+          KEY_VOLUMEUP             0x000000001DE2D02F        #  Was: VOL_CENTRE_UP
+          KEY_VOLUMEDOWN           0x000000001DE250AF        #  Was: VOL_CENTRE_DOWN
+          KEY_VOLUMEUP             0x000000001DE2E31C        #  Was: VOL_REAR_UP
+          KEY_VOLUMEDOWN           0x000000001DE2639C        #  Was: VOL_REAR_DOWN
+          TAPE_A_FWD_PLAY          0x000000001DE28B74
+          -------REV_PLAY          0x000000001DE20BF4
+          -------PAUSE             0x000000001DE22BD4
+          -------FFWD              0x000000001DE2CB34
+          -------REWIND            0x000000001DE24BB4
+          -------STOP              0x000000001DE2AB54
+          -------RECORD            0x000000001DE26B94
+          TAPE_B_FWD_PLAY          0x000000001DE29B64
+          .......REV_PLAY          0x000000001DE21BE4
+          .......PAUSE             0x000000001DE23BC4
+          .......FFWD              0x000000001DE2DB24
+          .......REWIND            0x000000001DE25BA4
+          .......STOP              0x000000001DE2BB44
+          .......RECORD            0x000000001DE27B84
+          TUNER/CD_1               0x000000001DE2817E
+          .........2               0x000000001DE241BE
+          .........3               0x000000001DE2C13E
+          .........4               0x000000001DE221DE
+          .........5               0x000000001DE2A15E
+          .........6               0x000000001DE2619E
+          .........7               0x000000001DE2E11E
+          .........8               0x000000001DE211EE
+          .........9               0x000000001DE2916E
+          .........0               0x000000001DE201FE
+          .........10              0x000000001DE2B04F
+          CD_PLAY/PAUSE            0x000000001DE2D32C
+          ...SEARCH_FWD            0x000000001DE2F30C
+          ...SEARCH_REW            0x000000001DE2738C
+          ...STOP                  0x000000001DE2936C
+          ...FWD                   0x000000001DE2E01F
+          ...REW                   0x000000001DE2609F
+          ...DISC                  0x000000001DE210EF
+          TUNER_BAND               0x000000001DE2F10E
+          ......UP                 0x000000001DE29966
+          ......DOWN               0x000000001DE231CE
+          ......DIRECT             0x000000001DE27986
+      end codes
+
+end remote

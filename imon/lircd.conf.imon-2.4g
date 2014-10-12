@@ -1,0 +1,88 @@
+#
+# contributed by               Morten Bogeskov <morten@bogeskov.dk>
+#
+# brand:                       SoundGraph
+# model no. of remote control: iMON 2.4G LT
+# devices being controlled by this remote:
+#
+
+begin remote
+
+  name  lircd.conf.imon-2.4g-lt
+  bits           32
+  eps            30
+  aeps          100
+
+  one             0     0
+  zero            0     0
+  gap          115986
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0xBB4403FC                #  Was: Power
+
+          KEY_EXIT                 0xBB4431CE                #  Was: RAppExit
+          REject                   0xBB4432CD
+          RAppLauncher             0xBB4437C8
+          RTaskSwitcher            0xBB4439C6
+          RBack                    0xBB443DC2
+          RSelect                  0xBB443FC0
+          RChannelUp               0xBB443EC1
+          RChannelDown             0xBB4443BC
+          RVolumeUp                0xBB4445BA
+          RVolumeDown              0xBB4444BB
+          RNext                    0xBB444CB3
+          RPrev                    0xBB444DB2
+          RFf                      0xBB444FB0
+          RRew                     0xBB444EB1
+          RI                       0xBB4450AF
+          RMute                    0xBB4449B6
+          RTv                      0xBB444AB5
+          RMenu                    0xBB444BB4
+          R1                       0xBB4434CB
+          R2                       0xBB4435CA
+          R3                       0xBB4436C9
+          R4                       0xBB443AC5
+          R5                       0xBB443BC4
+          R6                       0xBB443CC3
+          R7                       0xBB4440BF
+          R8                       0xBB4441BE
+          R9                       0xBB4442BD
+          RSkipBack                0xBB4446B9
+          R0                       0xBB4447B8
+          RSkipFwd                 0xBB4448B7
+
+          KEY_EXIT                 0xBB4401FE                #  Was: GAppExit
+          GEject                   0xBB4402FD
+          GAppLauncher             0xBB4407F8
+          GTaskSwitcher            0xBB4409F6
+          GBack                    0xBB440DF2
+          GSelect                  0xBB440FF0
+          GChannelUp               0xBB440EF1
+          GChannelDown             0xBB4413EC
+          GVolumeUp                0xBB4415EA
+          GVolumeDown              0xBB4414EB
+          GNext                    0xBB441CE3
+          GPrev                    0xBB441DE2
+          GFf                      0xBB441FE0
+          GRew                     0xBB441EE1
+          GI                       0xBB4420DF
+          GMute                    0xBB4419E6
+          GTv                      0xBB441AE5
+          GMenu                    0xBB441BE4
+          G1                       0xBB4404FB
+          G2                       0xBB4405FA
+          G3                       0xBB4406F9
+          G4                       0xBB440AF5
+          G5                       0xBB440BF4
+          G6                       0xBB440CF3
+          G7                       0xBB4410EF
+          G8                       0xBB4411EE
+          G9                       0xBB4412ED
+          GSkipBack                0xBB4416E9
+          G0                       0xBB4417E8
+          GSkipFwd                 0xBB4418E7
+      end codes
+
+end remote

@@ -1,0 +1,88 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.3(sir) on Mon May 28 13:38:57 2001
+#
+# contributed by  Adam Todd lirc@todd.inoz.com http://adamtodd.ah.net/
+#
+# brand:             Sony
+# model:             RMTV145A
+# supported devices:
+#
+
+begin remote
+
+  name  sony.rmtv145a
+  bits           11
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       2379   620
+  one          1176   620
+  zero          581   620
+  ptrail        579
+  gap          44987
+  toggle_bit      0
+
+
+      begin codes
+          KEY_EJECTCD              0x000000000000034D        #  Was: eject
+          KEY_POWER                0x000000000000054D        #  Was: power
+          KEY_CLEAR                0x000000000000063D        #  Was: clear
+          KEY_POWER                0x000000000000053D        #  Was: onoff
+          tvvtr                    0x00000000000002AD
+          KEY_MENU                 0x000000000000059D        #  Was: menu
+          KEY_UP                   0x000000000000021D        #  Was: up
+          KEY_LEFT                 0x000000000000023D        #  Was: left
+          KEY_RIGHT                0x000000000000043D        #  Was: right
+          KEY_DOWN                 0x000000000000061D        #  Was: down
+          display                  0x00000000000002DD
+          execute                  0x000000000000045D
+          KEY_1                    0x000000000000000D        #  Was: 1
+          KEY_2                    0x000000000000040D        #  Was: 2
+          KEY_3                    0x000000000000020D        #  Was: 3
+          KEY_4                    0x000000000000060D        #  Was: 4
+          KEY_5                    0x000000000000010D        #  Was: 5
+          KEY_6                    0x000000000000050D        #  Was: 6
+          KEY_7                    0x000000000000030D        #  Was: 7
+          KEY_8                    0x000000000000070D        #  Was: 8
+          KEY_9                    0x000000000000008D        #  Was: 9
+          tens                     0x000000000000028D
+          KEY_0                    0x000000000000048D        #  Was: 0
+          input                    0x000000000000079D
+          tapespd                  0x00000000000000DD
+          audmon                   0x000000000000074D
+          quicktimer               0x000000000000025D
+          auddub                   0x00000000000000BD
+          trkmanauto               0x000000000000072D
+          trkdw                    0x000000000000051D
+          trkup                    0x000000000000011D
+          KEY_AGAIN                0x000000000000004D        #  Was: replay
+          stillslow                0x00000000000003ED
+          stillfast                0x00000000000005ED
+          hirew                    0x00000000000005FD
+          framedw                  0x000000000000006D
+          frameup                  0x000000000000046D
+          indexrew                 0x000000000000075D
+          indexfwd                 0x000000000000035D
+          KEY_RECORD               0x00000000000005CD        #  Was: rec
+          KEY_VOLUMEUP             0x0000000000000248        #  Was: volup
+          voldw                    0x0000000000000648
+          KEY_CHANNELUP            0x000000000000004D        #  Was: progup
+          progdw                   0x000000000000044D
+          srchrew                  0x00000000000000AD
+          srchfwd                  0x00000000000004AD
+          KEY_PAUSE                0x00000000000004CD        #  Was: pause
+          KEY_PLAY                 0x00000000000002CD        #  Was: play
+          KEY_STOP                 0x00000000000000CD        #  Was: stop
+          jogfwdhalf               0x000000000000062D
+          jogfwdnorm               0x000000000000046D
+          jogfwdtwice              0x000000000000000E
+          jogrewhalf               0x0000000000000031
+          jogrewnorm               0x0000000000000031
+          jogrewtwice              0x0000000000000036
+      end codes
+
+end remote
+
+

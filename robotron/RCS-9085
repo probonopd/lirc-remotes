@@ -1,0 +1,64 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.5(any) on Sun Mar  9 20:13:56 2003
+#
+# contributed by Terence Fiegler <mail@terence-fiegler.de>
+#
+# brand:                                   Daas Color
+# model no. of remote control:             RCS 9085
+# devices being controlled by this remote: VEB Robotron-Elektronik/RFT Color-Vision RC9140
+#
+
+begin remote
+
+  name  Daas_Color_RCS_9085
+  bits           11
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           254  7337
+  zero          254  4807
+  ptrail        250
+  gap          121464
+  toggle_bit      2
+
+
+      begin codes
+          KEY_1                    0x00000000000005D1        #  Was: 1
+          KEY_2                    0x00000000000005D2        #  Was: 2
+          KEY_3                    0x00000000000005D3        #  Was: 3
+          KEY_4                    0x00000000000005D4        #  Was: 4
+          KEY_5                    0x00000000000005D5        #  Was: 5
+          KEY_6                    0x00000000000005D6        #  Was: 6
+          KEY_7                    0x00000000000005D7        #  Was: 7
+          KEY_8                    0x00000000000005D8        #  Was: 8
+          KEY_9                    0x00000000000005D9        #  Was: 9
+          KEY_0                    0x00000000000005D0        #  Was: 0
+          SATURATION+              0x00000000000005E6
+          SATURATION-              0x00000000000005E7
+          HUE+                     0x00000000000005E4
+          HUE-                     0x00000000000005E5
+          f+                       0x00000000000005E0
+          f-                       0x00000000000005E1
+          CONTRAST+                0x00000000000005E8
+          CONTRAST-                0x00000000000005E9
+          KEY_VOLUMEUP             0x00000000000005E2        #  Was: VOL+
+          KEY_VOLUMEDOWN           0x00000000000005E3        #  Was: VOL-
+          KEY_102ND                0x00000000000005F8        #  Was: -/--
+          AV                       0x00000000000005F4
+          >f<                      0x00000000000005F0
+          SU                       0x00000000000005DA
+          LOE                      0x00000000000005DE
+          SP                       0x00000000000005DF
+          KEY_CHANNELUP            0x00000000000005DB        #  Was: PROG+
+          KEY_CHANNELDOWN          0x00000000000005DC        #  Was: PROG-
+          KANAL                    0x00000000000005DD
+          KEY_POWER                0x00000000000005F2        #  Was: POWER
+          RESTORE                  0x00000000000005F3
+          KEY_MUTE                 0x00000000000005F1        #  Was: MUTE
+      end codes
+
+end remote
+
+

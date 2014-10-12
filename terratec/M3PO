@@ -1,0 +1,148 @@
+# Codes for m3po remote.  Just a subset of RC-5-a:
+#------------------------------------------------------------------------------
+# contributed by     Claas Langbehn (claas@bigfoot.com)         05-May-2000
+#------------------------------------------------------------------------------
+#
+# filename:          RC-5-a
+# encoding:          shift encoded, RC-5 with startbits 0x03
+# brand:             Philips (and others)
+# model:             all
+# supported devices: all
+#
+# Attention!!
+#
+# This is a modified version of RC-5. You should only use this, if you have
+# tried the normal RC-5 first and that did not work.
+#
+# I don't know what the name of this is. Does anybody know? Is this RC-6 ?
+#
+# There are 32 different systems with 64 commands each.
+#
+# For known system adresses and other documentation see the RC-5 file.
+#------------------------------------------------------------------------------
+
+#------------------------------------------------------------------------------
+# contributed by     E.Vidal         Feb-2001
+#
+# brand:             Terratec        www.terratec.net
+# model:             M3PO            www.m3po.net
+# supported devices: M3PO            HI-FI MP3 player and jukebox
+#
+# Terratec posts in its m3po manual the "decimal codes" for this remote,
+# intended to help programming "universal remotes" (see www.m3po.net):
+#
+# """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+# Decimal Codes (decCod).
+# ^^^^^^^^^^^^^^^^^^^^^^^
+# Friends of alternative remote controls will be looking for the decimal
+# codes in order to program their own remote controls. For handheld devices
+# utilizing Palm OS and IR interface can down-load the necessary software:
+# PalmRemote: http://hp.vector.co.jp/authors/VA005810/remocon/premocce.htm
+# OmniRemote: http://www.pacificneotek.com
+#
+# decCode element    signature Function
+# ^^^^^^^ ^^^^^^^^^^ ^^^^^^^^^ ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+#  112    Info         info    Show MP3 Info on display
+#  111    Mute         mute    Mutes the complete playback volume ...
+#   82    Previous     symbol  Skip to previous track
+#  113    Play         symbol  Start playback of track(s)
+#   83    Next         symbol  Skip to next track
+#   97    Rewind       symbol  Search in playing track (rewind)
+#   79    Pause        symbol  Pause playback
+#  106    Forward      symbol  Search in playing track (forward)
+#   80    Speed -      Speed - decreases playback speed of MP3 Playback
+#   86    Speed normal normal  resets the speed of MP3 Playback to 100%
+#  107    Speed +      Speed + increases playback speed of MP3 Playback
+#  108    Stop         symbol  Stop playback
+#  109    Up           symbol  same function like `up' button
+#  110    Menu         menu    same function like `menu' button
+#   81    Left         symbol  same function like turning the wheel left
+#   85    Enter        enter   same function like `enter' button
+#   70    Right        symbol  same function like turning the wheel left
+#   87    Down         down    down for navigation in menu, enter in wheel mode
+# """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+#
+# The RC-5-a system adresses for this remote is 0x0a, with generic RC-5-a
+# identifier: "sys_0a_".  The corresponding comand identifiers are thus
+# "sys_0a_command_xx", where xx = decCode - 64 (in exadecimal), and the
+# lircd codes are computed as:  lircdCode = decCode + 576 (in exadecimal)
+
+begin remote
+  name  M3PO
+  bits           11
+  flags SHIFT_ENC
+  eps            20
+  aeps            0
+  header          0     0
+  one           940   840
+  zero          940   840
+  ptrail          0
+  plead         940
+  foot            0     0
+  repeat          0     0
+  pre_data_bits   2
+  pre_data       0x01
+  post_data_bits  0
+  post_data      0x0
+  pre             0     0
+  post            0     0
+  gap          90000
+  repeat_bit      2
+
+  begin codes
+#   sys_0a_command_06 0x0000000000000286   decCode=70
+          KEY_RIGHT                0x0000000000000286        #  Was: Right
+  
+#   sys_0a_command_0f 0x000000000000028f   decCode=79
+          KEY_PAUSE                0x000000000000028f        #  Was: Pause
+  
+#   sys_0a_command_10 0x0000000000000290   decCode=80
+    Speed-            0x0000000000000290
+  
+#   sys_0a_command_11 0x0000000000000291   decCode=81
+          KEY_LEFT                 0x0000000000000291        #  Was: Left
+  
+#   sys_0a_command_12 0x0000000000000292   decCode=82
+          KEY_PREVIOUS             0x0000000000000292        #  Was: Previous
+  
+#   sys_0a_command_13 0x0000000000000293   decCode=83
+          KEY_NEXT                 0x0000000000000293        #  Was: Next
+  
+#   sys_0a_command_15 0x0000000000000295   decCode=85
+          KEY_ENTER                0x0000000000000295        #  Was: Enter
+  
+#   sys_0a_command_16 0x0000000000000296   decCode=86
+    Speed_Normal      0x0000000000000296
+  
+#   sys_0a_command_17 0x0000000000000297   decCode=87
+          KEY_DOWN                 0x0000000000000297        #  Was: Down
+  
+#   sys_0a_command_21 0x00000000000002a1   decCode=97
+          KEY_REWIND               0x00000000000002a1        #  Was: Rewind
+  
+#   sys_0a_command_2a 0x00000000000002aa   decCode=106
+          KEY_FORWARD              0x00000000000002aa        #  Was: Forward
+  
+#   sys_0a_command_2b 0x00000000000002ab   decCode=107
+    Speed+            0x00000000000002ab
+  
+#   sys_0a_command_2c 0x00000000000002ac   decCode=108
+          KEY_STOP                 0x00000000000002ac        #  Was: Stop
+  
+#   sys_0a_command_2d 0x00000000000002ad   decCode=109
+          KEY_UP                   0x00000000000002ad        #  Was: Up
+  
+#   sys_0a_command_2e 0x00000000000002ae   decCode=110
+          KEY_MENU                 0x00000000000002ae        #  Was: Menu
+  
+#   sys_0a_command_2f 0x00000000000002af   decCode=111
+          KEY_MUTE                 0x00000000000002af        #  Was: Mute
+  
+#   sys_0a_command_30 0x00000000000002b0   decCode=112
+          KEY_INFO                 0x00000000000002b0        #  Was: Info
+
+#   sys_0a_command_30 0x00000000000002b1   decCode=113
+          KEY_PLAY                 0x00000000000002b1        #  Was: Play
+
+  end codes
+end remote

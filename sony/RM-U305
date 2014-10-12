@@ -1,0 +1,218 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.5(serial) on Tue Aug  6 01:45:22 2002
+#
+# contributed by Indrek Kruusa
+#
+# brand:                       SONY
+# model no. of remote control: RM-U305
+# devices being controlled by this remote: audio/video system
+#
+
+begin remote
+
+  name  RM-U305_func
+  bits           12
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       2392   593
+  one          1202   575
+  zero          609   575
+  gap          45164
+  min_repeat      3
+  toggle_bit      0
+
+
+      begin codes
+          KEY_SLEEP                0x0000000000000061        #  Was: SLEEP
+          AV_i/o                   0x0000000000000A90
+          KEY_VIDEO                0x0000000000000441        #  Was: VIDEO
+          KEY_DVD                  0x0000000000000BE1        #  Was: DVD
+          TV/SAT                   0x0000000000000561
+          KEY_AUX                  0x0000000000000B81        #  Was: AUX
+          KEY_CD                   0x0000000000000A41        #  Was: CD
+          KEY_TUNER                0x0000000000000841        #  Was: TUNER
+          KEY_POWER                0x0000000000000A81        #  Was: ON/OFF
+      end codes
+
+end remote
+
+#
+#  CHANNEL BUTTONS
+#
+
+begin remote
+
+  name  RM-U305_channel
+  bits           11
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       2411   572
+  one          1223   557
+  zero          628   557
+  ptrail        631
+  gap          45354
+  min_repeat      2
+  toggle_bit      0
+
+
+      begin codes
+          KEY_1                    0x000000000000000B        #  Was: 1
+          KEY_2                    0x000000000000040B        #  Was: 2
+          KEY_3                    0x000000000000020B        #  Was: 3
+          KEY_4                    0x000000000000060B        #  Was: 4
+          KEY_5                    0x000000000000010B        #  Was: 5
+          KEY_6                    0x000000000000050B        #  Was: 6
+          KEY_7                    0x000000000000030B        #  Was: 7
+          KEY_8                    0x000000000000070B        #  Was: 8
+          KEY_9                    0x000000000000008B        #  Was: 9
+          KEY_0                    0x000000000000048B        #  Was: 0
+          SHIFT                    0x000000000000066B
+          KEY_ENTER                0x000000000000065B        #  Was: ENTER
+          KEY_CHANNELUP            0x000000000000004B        #  Was: CH+
+          KEY_CHANNELDOWN          0x000000000000044B        #  Was: CH-
+      end codes
+
+end remote
+
+#
+#  DISC PLAYERS
+#
+
+begin remote
+
+  name  RM-U305_player
+  bits           11
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       2391   595
+  one          1202   576
+  zero          607   576
+  ptrail        611
+  post_data_bits  8
+  post_data      0xC9
+  gap          45359
+  min_repeat      2
+  toggle_bit      0
+
+
+      begin codes
+          RREW                     0x0000000000000065
+          FFRW                     0x0000000000000465
+          KEY_REWIND               0x0000000000000665        #  Was: REW
+          FRW                      0x0000000000000165
+          REVERS                   0x0000000000000155
+          KEY_PLAY                 0x0000000000000265        #  Was: PLAY
+          KEY_PAUSE                0x00000000000004E5        #  Was: PAUSE
+          KEY_STOP                 0x00000000000000E5        #  Was: STOP
+      end codes
+
+end remote
+
+#
+#  SOUND FIELD AND MENU
+#
+
+begin remote
+
+  name  RM-U305_menu
+  bits            6
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       2368   618
+  one          1171   606
+  zero          578   606
+  ptrail       1171
+  post_data_bits  8
+  post_data      0x84
+  gap          45042
+  min_repeat      3
+  toggle_bit      0
+
+
+      begin codes
+          A.F.D.                   0x0000000000000038
+          KEY_2CH/OFF              0x0000000000000020        #  Was: 2CH/OFF
+          MODE-                    0x000000000000003D
+          MODE+                    0x000000000000001D
+          TEST_TONE                0x0000000000000014
+          MAIN_MENU                0x000000000000003B
+          KEY_LEFT                 0x0000000000000013        #  Was: MENU_LEFT
+          KEY_RIGHT                0x0000000000000033        #  Was: MENU_RIGHT
+          MENU-                    0x000000000000000B
+          MENU+                    0x000000000000002B
+      end codes
+
+end remote
+
+
+
+#
+#  TV/VTR/DISC/CH
+#
+
+begin remote
+
+  name  RM-U305_ext
+  bits           12
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       2397   587
+  one          1208   569
+  zero          616   569
+  gap          45346
+  min_repeat      2
+  toggle_bit      0
+
+
+      begin codes
+          DISC                     0x0000000000000531
+          TV/VIDEO                 0x0000000000000A50
+          MULTICH/2CH              0x0000000000000921
+      end codes
+
+end remote
+
+
+
+#
+# VOLUME
+#
+
+begin remote
+
+  name  RM-U305_volume
+  bits            3
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       2383   602
+  one          1201   573
+  zero          611   573
+  ptrail       1200
+  post_data_bits  8
+  post_data      0x40
+  gap          45044
+  min_repeat      3
+  toggle_bit      0
+
+
+      begin codes
+          MUTING                   0x0000000000000001
+          KEY_VOLUMEUP             0x0000000000000002        #  Was: VOL+
+          KEY_VOLUMEDOWN           0x0000000000000006        #  Was: VOL-
+      end codes
+
+end remote
+

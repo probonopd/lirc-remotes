@@ -1,0 +1,105 @@
+#
+# this config file was automatically generated
+# using WinLIRC 0.6.5 (LIRC 0.6.1pre3) on Wed May 21 21:14:00 2008
+#
+# contributed by Julien CAUVIN (JUTE)
+#
+# brand:             SONY
+# model:             RMT-V767 (Swing Shuttle)
+# supported devices: Commercial SONY equipment (Supports VTR and TV modes for orange doted buttons)
+#
+
+begin remote
+
+  name  Sony_RMT-V767
+  bits           11
+  flags SPACE_ENC
+  eps            50
+  aeps          100
+
+  header       2456   558
+  one           595   558
+  zero         1202   558
+  ptrail        595
+  gap          27526
+  toggle_bit      0
+
+
+      begin codes
+          tv_1                     0x00000000000007F7
+          tv_2                     0x00000000000003F7
+          tv_3                     0x00000000000005F7
+          tv_4                     0x00000000000001F7
+          tv_5                     0x00000000000006F7
+          tv_6                     0x00000000000002F7
+          tv_7                     0x00000000000004F7
+          tv_8                     0x00000000000000F7
+          tv_9                     0x0000000000000777
+          tv_0                     0x0000000000000377
+          tv_0-10                  0x0000000000000237
+          tv_vol+                  0x00000000000005B7
+          tv_vol-                  0x00000000000001B7
+          tv_prog+                 0x00000000000007B7
+          tv_prog-                 0x00000000000003B7
+          tv_tv-vtr                0x00000000000002D7
+          tv_data-screen           0x0000000000000517
+          vtr_1                    0x00000000000007FB
+          vtr_2                    0x00000000000003FB
+          vtr_3                    0x00000000000005FB
+          vtr_4                    0x00000000000001FB
+          vtr_5                    0x00000000000006FB
+          vtr_6                    0x00000000000002FB
+          vtr_7                    0x00000000000004FB
+          vtr_8                    0x00000000000000FB
+          vtr_9                    0x000000000000077B
+          vtr_0                    0x000000000000037B
+          vtr_dizaines             0x000000000000057B
+          vtr_vol+                 0x00000000000005B7
+          vtr_vol-                 0x00000000000001B7
+          vtr_prog+                0x00000000000005B7
+          vtr_prog-                0x00000000000003BB
+          vtr_tv-vtr               0x000000000000055B
+          vtr_data-screen          0x000000000000052B
+          KEY_RECORD               0x000000000000072B        #  Was: rec-mode
+          input-select             0x000000000000006B
+          timer-on-screen          0x000000000000062B
+          counter-reset            0x00000000000004EB
+          index                    0x00000000000001AB
+          p-in-p                   0x000000000000008B
+          shift                    0x000000000000004B
+          digital-off              0x000000000000044B
+          timerrec_check           0x00000000000006CB
+          timerrec_clear           0x00000000000001CB
+          timerrec_on-off          0x00000000000002CB
+          KEY_MENU                 0x000000000000026B        #  Was: menu
+          KEY_UP                   0x00000000000005EB        #  Was: up
+          KEY_DOWN                 0x00000000000001EB        #  Was: down
+          KEY_LEFT                 0x00000000000005CB        #  Was: left
+          KEY_RIGHT                0x00000000000003CB        #  Was: right
+          execute                  0x00000000000003AB
+          insert-audio             0x000000000000074B
+          insert-video             0x000000000000034B
+          index-mark               0x000000000000076B
+          index-erase              0x000000000000036B
+          frame-left               0x000000000000079B
+          frame-center             0x00000000000007DB
+          frame-right              0x000000000000039B
+          KEY_PAUSE                0x000000000000033B        #  Was: pause
+          KEY_RECORD               0x000000000000023B        #  Was: rec
+          slow-                    0x000000000000041B
+          slow+                    0x000000000000021B
+          edit-monitor             0x00000000000002AB
+          KEY_PLAY                 0x000000000000053B        #  Was: play
+          KEY_STOP                 0x000000000000073B        #  Was: stop
+          KEY_REWIND               0x000000000000013B        #  Was: rewind
+          KEY_REWIND               0x000000000000075B        #  Was: rewind-search
+          high-speed-rewind        0x000000000000020B
+          KEY_FORWARD              0x000000000000063B        #  Was: forward
+          forward-search           0x000000000000035B
+          tv_on-off                0x00000000000002B7
+          vtr_on-off               0x00000000000002BB
+      end codes
+
+end remote
+
+

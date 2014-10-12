@@ -1,0 +1,136 @@
+#
+# contributed by Olaf Liebe
+#
+# brand:      Grundig
+# model:      TP 820 SAT
+#
+# notes:
+# - the v/*, s1/* and s2/* buttons are available by pressing
+#   the "VIDEO", "SAT 1/TV" or "SAT 2" buttons and another
+#   button on the remote control at the same time.
+# - "VIDEO + power" and "VIDEO + -" are recognized as being
+#   the same.
+# - "VIDEO + txt" is recognized as s2/1, s2/0 and s2/8
+
+begin remote
+	name   tp820sat
+	flags  RC5
+
+	aeps   100
+
+	header 530 2650
+	bits   10
+	gap    120500
+
+	one    530 530
+	zero   530 530
+
+	begin codes
+          KEY_0                    0x1eb                     #  Was: 0
+          KEY_1                    0x0eb                     #  Was: 1
+          KEY_2                    0x16b                     #  Was: 2
+          KEY_3                    0x06b                     #  Was: 3
+          KEY_4                    0x1ab                     #  Was: 4
+          KEY_5                    0x0ab                     #  Was: 5
+          KEY_6                    0x12b                     #  Was: 6
+          KEY_7                    0x02b                     #  Was: 7
+          KEY_8                    0x1cb                     #  Was: 8
+          KEY_9                    0x0cb                     #  Was: 9
+          KEY_OK                   0x1fb                     #  Was: ok
+          KEY_POWER                0x17b                     #  Was: power
+          KEY_KPPLUS               0x1db                     #  Was: +
+          KEY_KPMINUS              0x0db                     #  Was: -
+		?         0x0bb
+		a/b       0x03b
+		c-        0x09b
+		c+        0x19b
+		b-        0x05b
+		b+        0x15b
+		akt       0x1bb
+		peri      0x08b
+          KEY_MUTE                 0x0fb                     #  Was: mute
+          KEY_CHANNELUP            0x153                     #  Was: p+
+          KEY_CHANNELDOWN          0x053                     #  Was: p-
+          KEY_I                    0x093                     #  Was: i
+          KEY_TEXT                 0x1e3                     #  Was: txt
+          KEY_RED                  0x143                     #  Was: red
+          KEY_GREEN                0x103                     #  Was: green
+          KEY_YELLOW               0x043                     #  Was: yellow
+          KEY_BLUE                 0x113                     #  Was: blue
+
+		s1/0        0x1ef
+		s1/1        0x0ef
+		s1/2        0x16f
+		s1/3        0x06f
+		s1/4        0x1af
+		s1/5        0x0af
+		s1/6        0x12f
+		s1/7        0x02f
+		s1/8        0x1cf
+		s1/9        0x0cf
+		s1/ok       0x1ff
+		s1/power    0x17f
+		s1/+        0x1df
+		s1/-        0x0df
+		s1/?        0x0bf
+		s1/a/b      0x03f
+		s1/c-       0x09f
+		s1/c+       0x19f
+		s1/b-       0x05f
+		s1/b+       0x15f
+		s1/akt      0x1bf
+		s1/peri     0x14f
+		s1/mute     0x0ff
+		s1/p+       0x157
+		s1/p-       0x057
+		s1/i        0x097
+		s1/txt      0x1e7
+		s1/red      0x147
+		s1/green    0x107
+		s1/yellow   0x047
+		s1/blue     0x117
+
+		s2/0        0x1ee
+		s2/1        0x0ee
+		s2/2        0x16e
+		s2/3        0x06e
+		s2/4        0x1ae
+		s2/5        0x0ae
+		s2/6        0x12e
+		s2/7        0x02e
+		s2/8        0x1ce
+		s2/9        0x0ce
+		s2/ok       0x1fe
+		s2/power    0x17e
+		s2/+        0x1de
+		s2/-        0x0de
+		s2/?        0x0be
+		s2/a/b      0x03e
+		s2/c-       0x09e
+		s2/c+       0x19e
+		s2/b-       0x05e
+		s2/b+       0x15e
+		s2/akt      0x1be
+		s2/peri     0x08e
+		s2/mute     0x0fe
+		s2/p+       0x156
+		s2/p-       0x056
+		s2/i        0x096
+		s2/txt      0x1e6
+		s2/red      0x146
+		s2/green    0x106
+		s2/yellow   0x046
+		s2/blue     0x116
+
+		v/pwr/-     0x19d
+		v/+         0x15d
+		v/p+        0x0ad
+		v/p-        0x1ad
+		v/i         0x09d
+		v/?         0x05d
+		v/c-        0x0ed
+		v/c+        0x16d
+		v/b-        0x02d
+		v/b+        0x1cd
+	end codes
+end remote

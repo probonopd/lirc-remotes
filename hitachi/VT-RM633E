@@ -1,0 +1,121 @@
+# this config file was automatically generated
+# using lirc-0.6.5(serial) on Sun May 12 12:31:51 2002
+# contributed by comcute <comcute@windows-sucks.com>
+#
+# brand:                       hitachi
+# model no. of remote control: VT-RM633E
+
+#VTR 1
+begin remote
+
+  name  hitachi
+  bits           32
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9018  4624
+  one           518  1755
+  zero          518   620
+  ptrail        520
+  repeat       9014  2358
+  gap          108602
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x0000000006F9E817        #  Was: power
+          KEY_1                    0x0000000006F9B04F        #  Was: 1
+          KEY_2                    0x0000000006F9708F        #  Was: 2
+          KEY_3                    0x0000000006F9F00F        #  Was: 3
+          KEY_4                    0x0000000006F938C7        #  Was: 4
+          KEY_5                    0x0000000006F9B847        #  Was: 5
+          KEY_6                    0x0000000006F97887        #  Was: 6
+          KEY_7                    0x0000000006F9F807        #  Was: 7
+          KEY_8                    0x0000000006F920DF        #  Was: 8
+          KEY_9                    0x0000000006F9A05F        #  Was: 9
+          KEY_0                    0x0000000006F930CF        #  Was: 0
+          KEY_MENU                 0x0000000006F902FD        #  Was: menu
+          disp                     0x0000000006F942BD
+          count                    0x0000000006F9629D
+          reset                    0x0000000006F9827D
+          memo                     0x0000000006F922DD
+          KEY_PREVIOUS             0x0000000006F918E7        #  Was: prev
+          KEY_NEXT                 0x0000000006F99867        #  Was: next
+          KEY_RECORD               0x00000000867928D7        #  Was: rec
+          KEY_PLAY                 0x0000000006F928D7        #  Was: play
+          KEY_STOP                 0x0000000006F9D02F        #  Was: stop
+          KEY_REWIND               0x0000000006F950AF        #  Was: rew
+          f.fwd                    0x0000000006F9906F
+          KEY_PAUSE                0x0000000006F958A7        #  Was: pause
+          KEY_NEXT                 0x0000000006F908F7        #  Was: skip
+          KEY_SLOW                 0x0000000006F98877        #  Was: slow
+          t1                       0x0000000006F9807F
+          t2                       0x0000000006F900FF
+          KEY_KPMINUS              0x0000000006F9C03F        #  Was: -
+          KEY_KPPLUS               0x0000000006F940BF        #  Was: +
+          index                    0x0000000006F9A25D
+          KEY_AGAIN                0x0000000006F9E21D        #  Was: repeat
+          sp/lp                    0x0000000006F90CF3
+      end codes
+
+end remote
+
+#VTR 2
+begin remote
+
+  name  hitachi2
+  bits           32
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9058  4588
+  one           532  1739
+  zero          532   605
+  ptrail        533
+  repeat       9054  2317
+  gap          108599
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x000000000679E817        #  Was: power
+          KEY_1                    0x000000000679B04F        #  Was: 1
+          KEY_2                    0x000000000679708F        #  Was: 2
+          KEY_3                    0x000000000679F00F        #  Was: 3
+          KEY_4                    0x00000000067938C7        #  Was: 4
+          KEY_5                    0x000000000679B847        #  Was: 5
+          KEY_6                    0x0000000006797887        #  Was: 6
+          KEY_7                    0x000000000679F807        #  Was: 7
+          KEY_8                    0x00000000067920DF        #  Was: 8
+          KEY_9                    0x000000000679A05F        #  Was: 9
+          KEY_0                    0x00000000067930CF        #  Was: 0
+          KEY_MENU                 0x00000000067902FD        #  Was: menu
+          disp                     0x00000000067942BD
+          count                    0x000000000679629D
+          reset                    0x000000000679827D
+          memo                     0x00000000067922DD
+          KEY_PREVIOUS             0x00000000067918E7        #  Was: prev
+          KEY_NEXT                 0x0000000006799867        #  Was: next
+          KEY_RECORD               0x0000000086F928D7        #  Was: rec
+          KEY_PLAY                 0x00000000067928D7        #  Was: play
+          KEY_STOP                 0x000000000679D02F        #  Was: stop
+          KEY_REWIND               0x00000000067950AF        #  Was: rew
+          f.fwd                    0x000000000679906F
+          KEY_PAUSE                0x00000000067958A7        #  Was: pause
+          KEY_NEXT                 0x00000000067908F7        #  Was: skip
+          KEY_SLOW                 0x0000000006798877        #  Was: slow
+          t1                       0x000000000679807F
+          t2                       0x00000000067900FF
+          KEY_KPMINUS              0x000000000679C03F        #  Was: -
+          KEY_KPPLUS               0x00000000067940BF        #  Was: +
+          index                    0x000000000679A25D
+          KEY_AGAIN                0x000000000679E21D        #  Was: repeat
+          sp/lp                    0x0000000006790CF3
+      end codes
+
+end remote
+
+
+

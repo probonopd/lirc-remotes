@@ -1,0 +1,74 @@
+# This config file was automatically generated
+# using lirc-0.7.2(irman) on Wed Dec  7 16:17:11 2005
+#
+# contributed by Daniel Scarberry
+#
+# brand: Universal
+# Website: http://universalremote.com/urc/index.html
+# model no. of remote control: URC-R5
+# devices being controlled by this remote: SAT/CABLE
+#
+
+begin remote
+
+  name  lircd.conf
+  bits           24
+  eps            30
+  aeps          100
+
+  one             0     0
+  zero            0     0
+  pre_data_bits   16
+  pre_data       0xFFFF
+  post_data_bits  24
+  post_data      0x0
+  gap          297985
+  min_repeat      36
+  toggle_bit      0
+
+
+      begin codes
+          CBL-VOL-UP               0xD824F8
+          CBL-VOL-DOWN             0xDC2478
+          CBL-CH-UP                0xDDC444
+          CBL-CH-DOWN              0xDBC484
+          CBL-STOP                 0xD964D0
+          CBL-PLAY                 0xDE6430
+          CBL-FORWARD              0xD8A4E8
+          CBL-REWIND               0xDCA468
+          CBL-POWER                0xDF041C
+          CBL-MENU                 0xDBE480
+          CBL-GUIDE                0xDB049C
+          CBL-INFO                 0xD884EC
+          KEY_EXIT                 0xD9A4C8                  #  Was: CBL-EXIT
+          CBL-SKIP-FORWARD         0xDB6490
+          CBL-SKIP-BACKWARD        0xDF6410
+          CBL-RECORD               0xDD6450
+          CBL-PAUSE                0xDD045C
+          CBL-1                    0xD844F4
+          CBL-2                    0xDC4474
+          CBL-3                    0xDA44B4
+          CBL-4                    0xDE4434
+          CBL-5                    0xD944D4
+          CBL-6                    0xDD4454
+          CBL-7                    0xDB4494
+          CBL-8                    0xDF4414
+          CBL-9                    0xD8C4E4
+          CBL-0                    0xDCC464
+          CBL-SEL                  0xD984CC
+          CBL-MUTE                 0xDA24B8
+          CBL-PREV-CHANNEL         0xDB848C
+          CBL-FAV                  0xDFC404
+          CBL-INPUT                0xDD844C
+          CBL-SEL-FORWARD          0xD904DC
+          CBL-SEL-BACKWARD         0xDE043C
+          CBL-SEL-UP               0xDA04BC
+          CBL-SEL-DOWN             0xDE842C
+          CBL-CH-ENT               0xDAE4A0
+          CBL-OFF                  0xDF041C
+          CBL-CH-+10               0xDF840C
+      end codes
+
+end remote
+
+

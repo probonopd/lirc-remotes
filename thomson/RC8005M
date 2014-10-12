@@ -1,0 +1,70 @@
+#
+# this config file was automatically generated
+# using WinLIRC 0.6.5 (LIRC 0.6.1pre3) on Wed Jan 13 14:30:35 2010
+#
+# contributed by Hermann Meier
+#
+# brand:             Thomson
+# model:             RC8005M (VCR)
+# supported devices:
+#
+
+begin remote
+
+  name  Thomson_RC8005M
+  bits           12
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  one           526  1965
+  zero          526  4493
+  ptrail        526
+  gap          40597
+  toggle_bit      0
+
+
+      begin codes
+          program+                 0x0000000000000FD6
+          program-                 0x0000000000000F55
+          KEY_VOLUMEUP             0x0000000000000CD6        #  Was: volume+
+          KEY_VOLUMEDOWN           0x0000000000000C55        #  Was: volume-
+          KEY_MUTE                 0x0000000000000CFA        #  Was: mute
+          KEY_1                    0x0000000000000FFF        #  Was: 1
+          KEY_2                    0x0000000000000F77        #  Was: 2
+          KEY_3                    0x0000000000000FEF        #  Was: 3
+          KEY_4                    0x0000000000000F7E        #  Was: 4
+          KEY_5                    0x0000000000000FF6        #  Was: 5
+          KEY_6                    0x0000000000000F6E        #  Was: 6
+          KEY_7                    0x0000000000000FFD        #  Was: 7
+          KEY_8                    0x0000000000000F75        #  Was: 8
+          KEY_9                    0x0000000000000F6D        #  Was: 9
+          av                       0x0000000000000FE7
+          KEY_0                    0x0000000000000F71        #  Was: 0
+          KEY_REWIND               0x0000000000000FE0        #  Was: rewind
+          KEY_PLAY                 0x0000000000000F5F        #  Was: play
+          KEY_FASTFORWARD          0x0000000000000FDE        #  Was: fast_forward
+          KEY_RECORD               0x0000000000000F5C        #  Was: rec
+          KEY_STOP                 0x0000000000000FDB        #  Was: stop
+          KEY_PAUSE                0x0000000000000F5D        #  Was: pause
+          index                    0x0000000000000FC3
+          KEY_0                    0x0000000000000F42        #  Was: 0000
+          sp_lp                    0x0000000000000FFA
+          KEY_EXIT                 0x0000000000000F41        #  Was: exit
+          KEY_LEFT                 0x0000000000000FC9        #  Was: left
+          KEY_OK                   0x0000000000000F4C        #  Was: ok
+          KEY_RIGHT                0x0000000000000FC8        #  Was: right
+          KEY_DOWN                 0x0000000000000F4A        #  Was: down
+          KEY_UP                   0x0000000000000FCB        #  Was: up
+          KEY_MENU                 0x0000000000000F4E        #  Was: menu
+          KEY_RED                  0x0000000000000FC6        #  Was: red
+          KEY_GREEN                0x0000000000000F44        #  Was: green
+          KEY_YELLOW               0x0000000000000FC7        #  Was: yellow
+          KEY_BLUE                 0x0000000000000F6A        #  Was: blue
+          magenta                  0x0000000000000FE1
+          KEY_POWER                0x0000000000000F62        #  Was: power
+      end codes
+
+end remote
+
+

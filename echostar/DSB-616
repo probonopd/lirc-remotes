@@ -1,0 +1,63 @@
+# contributed by <tangens>
+#
+# brand: Cyfrowy Polsat
+# model no. of remote control: ECHOSTAR DSB-616    
+# devices being controlled by this remote: ECHOSTAR DSB-616
+#
+
+begin remote
+
+  name  Echostar_DSB-616
+  bits           11
+  flags SPACE_ENC
+  eps            30
+  aeps          100
+
+  one           197  7372
+  zero          197  4834
+  ptrail        197
+  gap          49359
+  min_repeat      1
+  toggle_bit_mask 0x200
+
+      begin codes
+          KEY_OK                   0x569                     #  Was: ok
+          KEY_MUTE                 0x558                     #  Was: mute
+          KEY_POWER                0x55E                     #  Was: power
+          KEY_TV                   0x566                     #  Was: tv
+          KEY_SAT                  0x56E                     #  Was: sat
+          vol?                     0x576
+          KEY_EPG                  0x56F                     #  Was: epg
+          screen                   0x556
+          KEY_MENU                 0x567                     #  Was: menu
+          KEY_INFO                 0x554                     #  Was: info
+          KEY_EXIT                 0x570                     #  Was: exit
+          KEY_VOLUMEUP             0x561                     #  Was: vol+
+          KEY_VOLUMEDOWN           0x571                     #  Was: vol-
+          KEY_CHANNELUP            0x568                     #  Was: ch+
+          KEY_CHANNELDOWN          0x56A                     #  Was: ch-
+          freeze                   0x560
+          KEY_PAGEUP               0x55A                     #  Was: page+
+          KEY_PAGEDOWN             0x55F                     #  Was: page-
+          KEY_AGAIN                0x555                     #  Was: repeat
+          KEY_1                    0x575                     #  Was: 1
+          KEY_2                    0x56D                     #  Was: 2
+          KEY_3                    0x565                     #  Was: 3
+          KEY_4                    0x55D                     #  Was: 4
+          KEY_5                    0x574                     #  Was: 5
+          KEY_6                    0x56C                     #  Was: 6
+          KEY_7                    0x564                     #  Was: 7
+          KEY_8                    0x55C                     #  Was: 8
+          KEY_9                    0x573                     #  Was: 9
+          KEY_0                    0x56B                     #  Was: 0
+          KEY_TEXT                 0x563                     #  Was: teletext
+          white                    0x55B
+          KEY_RED                  0x559                     #  Was: red
+          KEY_GREEN                0x572                     #  Was: green
+          KEY_YELLOW               0x562                     #  Was: yellow
+          KEY_BLUE                 0x577                     #  Was: blue
+      end codes
+
+end remote
+
+

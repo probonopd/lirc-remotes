@@ -1,0 +1,231 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.5(any) on Thu Apr  4 16:31:16 2002
+#
+# contributed by
+#   daniel poelzleithner <publicum AT poelzi DOT org>
+#
+# brand: Philips RH6640/01
+# model no. of remote control:
+# devices being controlled by this remote:
+# tuner, tape, vcr, cd, tv, dcc, dbs, ld of 900 series
+
+
+begin remote
+
+  name  RH6640b
+  bits           13
+  flags RC5|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           953   829
+  zero          953   829
+  plead         982
+  gap          114192
+  toggle_bit      2
+
+
+      begin codes
+          KEY_VOLUMEUP             0x0000000000001410        #  Was: vol_up
+          KEY_VOLUMEDOWN           0x0000000000001411        #  Was: vol_down
+          tv_-                     0x0000000000001011
+          tv_+                     0x0000000000001010
+          ap_+                     0x0000000000001C20
+          ap_-                     0x0000000000001421
+          KEY_MUTE                 0x000000000000140D        #  Was: mute
+          speaker_a                0x0000000000001423
+          speaker_b                0x0000000000001427
+          KEY_TUNER                0x000000000000147F        #  Was: tuner
+          tuner_1                  0x0000000000001441
+          tuner_2                  0x0000000000001442
+          tuner_3                  0x0000000000001443
+          tuner_4                  0x0000000000001444
+          tuner_5                  0x0000000000001445
+          tuner_6                  0x0000000000001446
+          tuner_7                  0x0000000000001447
+          tuner_8                  0x0000000000001448
+          tuner_9                  0x0000000000001449
+          tuner_0                  0x0000000000001440
+          tuner_scan               0x000000000000146B
+          tuner_track_up           0x0000000000001460
+          tuner_track_down         0x0000000000001461
+          tuner_left               0x000000000000145F
+          tuner_right              0x000000000000145E
+          tuner_mode               0x0000000000001465
+          tuner_pause              0x000000000000145E
+          tuner_standby            0x000000000000144C
+          KEY_TAPE                 0x00000000000014BF        #  Was: tape
+          tape_1                   0x0000000000001481
+          tape_2                   0x0000000000001482
+          tape_3                   0x0000000000001483
+          tape_4                   0x0000000000001484
+          tape_5                   0x0000000000001485
+          tape_6                   0x0000000000001486
+          tape_7                   0x0000000000001487
+          tape_8                   0x0000000000001488
+          tape_9                   0x0000000000001489
+          tape_0                   0x0000000000001480
+          tape_scan                0x00000000000014AB
+          tape_deck_a              0x00000000000014AC
+          tape_deck_b              0x00000000000014AE
+          tape_track_up            0x00000000000014A0
+          tape_track_down          0x00000000000014A1
+          tape_stop                0x00000000000014B6
+          tape_start               0x00000000000014B5
+          tape_left                0x00000000000014B2
+          tape_right               0x00000000000014B4
+          tape_pause               0x00000000000014B0
+          tape_record              0x00000000000014B7
+          tape_mode                0x00000000000014AF
+          tape_open                0x00000000000014AD
+          tape_standby             0x000000000000148C
+          KEY_VCR                  0x000000000000117F        #  Was: vcr
+          vcr_1                    0x0000000000001141
+          vcr_2                    0x0000000000001142
+          vcr_3                    0x0000000000001143
+          vcr_4                    0x0000000000001144
+          vcr_5                    0x0000000000001145
+          vcr_6                    0x0000000000001146
+          vcr_7                    0x0000000000001147
+          vcr_8                    0x0000000000001148
+          vcr_9                    0x0000000000001149
+          vcr_0                    0x0000000000001140
+          vcr_scan                 0x000000000000116A
+          vcr_track_up             0x0000000000001160
+          vcr_track_down           0x0000000000001161
+          vcr_stop                 0x0000000000001176
+          vcr_start                0x0000000000001175
+          vcr_left                 0x0000000000001172
+          vcr_right                0x0000000000001174
+          vcr_pause                0x0000000000001170
+          vcr_record               0x0000000000001177
+          vcr_mode                 0x0000000000001163
+          vcr_open                 0x000000000000116D
+          vcr_standby              0x000000000000117F
+          KEY_CD                   0x000000000000153F        #  Was: cd
+          cd_1                     0x0000000000001501
+          cd_2                     0x0000000000001502
+          cd_3                     0x0000000000001503
+          cd_4                     0x0000000000001504
+          cd_5                     0x0000000000001505
+          cd_6                     0x0000000000001506
+          cd_7                     0x0000000000001507
+          cd_8                     0x0000000000001508
+          cd_9                     0x0000000000001509
+          cd_0                     0x0000000000001500
+          cd_scan                  0x0000000000001D2B
+          cd_standby               0x000000000000100C
+          cd_track_up              0x0000000000001520
+          cd_track_down            0x0000000000001521
+          cd_stop                  0x0000000000001536
+          cd_start                 0x0000000000001535
+          cd_left                  0x0000000000001532
+          cd_right                 0x0000000000001534
+          cd_pause                 0x0000000000001530
+          cd_mode                  0x000000000000151C
+          cd_open                  0x000000000000152D
+          cd_standby               0x000000000000153F
+          KEY_TV                   0x000000000000103F        #  Was: tv
+          tv_1                     0x0000000000001001
+          tv_1                     0x0000000000001001
+          tv_2                     0x0000000000001002
+          tv_3                     0x0000000000001003
+          tv_4                     0x0000000000001004
+          tv_5                     0x0000000000001005
+          tv_6                     0x0000000000001006
+          tv_7                     0x0000000000001007
+          tv_8                     0x0000000000001008
+          tv_9                     0x0000000000001009
+          tv_0                     0x0000000000001000
+          tv_scan                  0x000000000000102B
+          tv_deck_a                0x000000000000102B
+          tv_track_up              0x0000000000001020
+          tv_track_down            0x0000000000001021
+          tv_stop                  0x0000000000001029
+          tv_start                 0x000000000000101D
+          tv_left                  0x000000000000102C
+          tv_right                 0x000000000000102A
+          tv_pause                 0x000000000000102D
+          tv_open                  0x000000000000102B
+          tv_txt                   0x000000000000103C
+          tv_standby               0x000000000000103F
+          tv_mute                  0x000000000000100D
+          dcc                      0x00000000000015FF
+          dcc_1                    0x00000000000015C1
+          dcc_2                    0x00000000000015C2
+          dcc_3                    0x00000000000015C3
+          dcc_4                    0x00000000000015C4
+          dcc_5                    0x00000000000015C5
+          dcc_6                    0x00000000000015C6
+          dcc_7                    0x00000000000015C7
+          dcc_8                    0x00000000000015C8
+          dcc_9                    0x00000000000015C9
+          dcc_0                    0x00000000000015C0
+          dcc_scan                 0x00000000000015EB
+          dcc_standby              0x000000000000150C
+          dcc_deck_a               0x00000000000015EC
+          dcc_deck_b               0x00000000000015EE
+          dcc_tack_up              0x00000000000015E0
+          dcc_track_down           0x00000000000015E1
+          dcc_stop                 0x00000000000015F6
+          dcc_start                0x00000000000015F5
+          dcc_left                 0x00000000000015F2
+          dcc_right                0x00000000000015F4
+          dcc_pause                0x00000000000015F0
+          dcc_mode                 0x00000000000015EF
+          dcc_record               0x00000000000015F7
+          dcc_open                 0x00000000000015ED
+          dcc_standby              0x00000000000015CC
+          dbs                      0x00000000000015BF
+          dbs_1                    0x0000000000001581
+          dbs_2                    0x0000000000001582
+          dbs_3                    0x0000000000001583
+          dbs_4                    0x0000000000001584
+          dbs_5                    0x0000000000001585
+          dbs_6                    0x0000000000001586
+          dbs_7                    0x0000000000001587
+          dbs_8                    0x0000000000001588
+          dbs_9                    0x0000000000001589
+          dbs_0                    0x0000000000001580
+          dbs_scan                 0x00000000000015AB
+          dbs_deck_a               0x000000000000159E
+          dbs_deck_b               0x000000000000159F
+          dbs_track_up             0x00000000000015A0
+          dbs_track_down           0x00000000000015A1
+          dbs_left                 0x0000000000001520
+          dbs_open                 0x0000000000001521
+          dbs_stop                 0x00000000000015AB
+          dbs_mode                 0x00000000000005B8
+          dbs_standby              0x000000000000158C
+          ld                       0x000000000000133F
+          ld_1                     0x0000000000001301
+          ld_1                     0x0000000000001301
+          ld_2                     0x0000000000001302
+          ld_3                     0x0000000000001303
+          ld_4                     0x0000000000001304
+          ld_5                     0x0000000000001305
+          ld_6                     0x0000000000001306
+          ld_7                     0x0000000000001307
+          ld_8                     0x0000000000001308
+          ld_9                     0x0000000000001309
+          ld_0                     0x0000000000001300
+          ld_scan                  0x0000000000001300
+          ld_deck_a                0x0000000000001332
+          ld_deck_b                0x0000000000001333
+          ld_track_up              0x000000000000131E
+          ld_track_down            0x0000000000001324
+          ld_stop                  0x0000000000001336
+          ld_start                 0x0000000000001335
+          ld_left                  0x000000000000132C
+          ld_right                 0x000000000000132E
+          ld_pause                 0x0000000000001330
+          ld_mode                  0x000000000000131C
+          ld_open                  0x000000000000132D
+          ld_scan                  0x0000000000001307
+          ld_standby               0x000000000000130C
+      end codes
+
+
+
+end remote

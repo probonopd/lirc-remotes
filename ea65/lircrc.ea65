@@ -1,0 +1,381 @@
+#
+# Max Krasnyanskiy <maxk@qualcomm.com>
+#
+
+#
+# Xine key bindings.
+#
+
+# start playback
+begin
+	button = dvd/vcd
+	prog   = xine
+	repeat = 1
+	config = Play
+end
+
+# playback pause toggle
+begin
+	button = play/pause
+	prog   = xine
+	repeat = 1
+	config = Pause
+end
+
+# stop playback
+begin
+	button = stop
+	prog   = xine
+	repeat = 1
+	config = Stop
+end
+
+# eject the current medium
+begin
+	button = eject
+	prog   = xine
+	repeat = 1
+	config = Eject
+end
+
+# scan playlist to grab stream infos
+begin
+	button = mem
+	prog   = xine
+	repeat = 1
+	config = ScanPlaylistInfo
+end
+
+# set position to -60 seconds in current stream
+begin
+	button = rwnd
+	prog   = xine
+	repeat = 1
+	config = SeekRelative-60
+end
+
+# set position to +60 seconds in current stream
+begin
+	button = ffwd
+	prog   = xine
+	repeat = 1
+	config = SeekRelative+60
+end
+
+# increment playback speed
+begin
+	button = tune+
+	prog   = xine
+	repeat = 1
+	config = SpeedFaster
+end
+
+# decrement playback speed
+begin
+	button = tune-
+	prog   = xine
+	repeat = 1
+	config = SpeedSlower
+end
+
+# increment audio volume
+begin
+	button = vol+
+	prog   = xine
+	repeat = 1
+	config = Volume+
+end
+
+# decrement audio volume
+begin
+	button = vol-
+	prog   = xine
+	repeat = 1
+	config = Volume-
+end
+
+# audio muting toggle
+begin
+	button = mute
+	prog   = xine
+	repeat = 1
+	config = Mute
+end
+
+# select next audio channel
+begin
+	button = ch+
+	prog   = xine
+	repeat = 1
+	config = AudioChannelNext
+end
+
+# select previous audio channel
+begin
+	button = ch-
+	prog   = xine
+	repeat = 1
+	config = AudioChannelPrior
+end
+
+# interlaced mode toggle
+begin
+	button = scan
+	prog   = xine
+	repeat = 1
+	config = ToggleInterleave
+end
+
+# cycle aspect ratio values
+begin
+	button = display
+	prog   = xine
+	repeat = 1
+	config = ToggleAspectRatio
+end
+
+# jump to Title Menu
+begin
+	button = menu
+	prog   = xine
+	repeat = 1
+	config = TitleMenu
+end
+
+# menu navigate up
+begin
+	button = up
+	prog   = xine
+	repeat = 1
+	config = EventUp
+end
+
+# menu navigate down
+begin
+	button = down
+	prog   = xine
+	repeat = 1
+	config = EventDown
+end
+
+# menu navigate left
+begin
+	button = left
+	prog   = xine
+	repeat = 1
+	config = EventLeft
+end
+
+# menu navigate right
+begin
+	button = right
+	prog   = xine
+	repeat = 1
+	config = EventRight
+end
+
+# menu select
+begin
+	button = enter
+	prog   = xine
+	repeat = 1
+	config = EventSelect
+end
+
+# jump to next chapter
+begin
+	button = next
+	prog   = xine
+	repeat = 1
+	config = EventNext
+end
+
+# jump to previous chapter
+begin
+	button = prev
+	prog   = xine
+	repeat = 1
+	config = EventPrior
+end
+
+# select a subtitle file
+begin
+	button = repeat
+	prog   = xine
+	repeat = 1
+	config = SubSelector
+end
+
+# enter the number 0
+begin
+	button = 0
+	prog   = xine
+	repeat = 1
+	config = Number0
+end
+
+# enter the number 1
+begin
+	button = 1
+	prog   = xine
+	repeat = 1
+	config = Number1
+end
+
+# enter the number 2
+begin
+	button = 2
+	prog   = xine
+	repeat = 1
+	config = Number2
+end
+
+# enter the number 3
+begin
+	button = 3
+	prog   = xine
+	repeat = 1
+	config = Number3
+end
+
+# enter the number 4
+begin
+	button = 4
+	prog   = xine
+	repeat = 1
+	config = Number4
+end
+
+# enter the number 5
+begin
+	button = 5
+	prog   = xine
+	repeat = 1
+	config = Number5
+end
+
+# enter the number 6
+begin
+	button = 6
+	prog   = xine
+	repeat = 1
+	config = Number6
+end
+
+# enter the number 7
+begin
+	button = 7
+	prog   = xine
+	repeat = 1
+	config = Number7
+end
+
+# enter the number 8
+begin
+	button = 8
+	prog   = xine
+	repeat = 1
+	config = Number8
+end
+
+# enter the number 9
+begin
+	button = 9
+	prog   = xine
+	repeat = 1
+	config = Number9
+end
+
+# quit the program
+begin
+	button = exit
+	prog   = xine
+	repeat = 1
+	config = Quit
+end
+
+##
+# End of xine key bindings.
+##
+
+## MPlayer lirc setup
+
+# Show OSD
+begin
+	prog = mplayer
+	button = menu
+	repeat = 1
+	config = osd
+end
+
+# Pause playback
+begin
+	prog = mplayer
+	button = play/pause
+	repeat = 1
+	config = pause
+end
+
+# Stop playback and exit
+begin
+	prog = mplayer
+	button = stop
+	repeat = 1
+	config = stop #quit
+end
+
+# Mute
+begin
+	prog = mplayer
+	button = mute
+	repeat = 1
+	config = mute
+end
+
+# Seek back 10 seconds
+begin
+	prog = mplayer
+	button = rwnd
+	repeat = 1
+	config = seek -10
+end
+
+# Seek forward 30 seconds
+begin
+	prog = mplayer
+	button = ffwd
+	repeat = 1
+	config = seek +10
+end
+
+# Quit
+begin
+	prog = mplayer
+	button = exit
+	repeat = 1
+	config = quit
+end
+
+# Seek forward 10 minutes
+begin
+	prog = mplayer
+	button = next
+	repeat = 1
+	config = seek +600
+end
+
+# Seek backward 10 minutes
+begin
+	prog = mplayer
+	button = prev
+	repeat = 1
+	config = seek -600
+end
+
+# Toggle full-screen
+begin
+	prog = mplayer
+	button = display
+	repeat = 1
+	config = vo_fullscreen
+end

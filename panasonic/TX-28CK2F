@@ -1,0 +1,77 @@
+#
+# this config file was automatically generated
+# using WinLIRC 0.6.5 (LIRC 0.6.1pre3) on Mon Jun 15 04:48:33 2009
+#
+# contributed by Aare Torim
+#
+# brand:             Panasonic
+# model:             TX-28CK2F
+# supported devices:
+#
+
+begin remote
+
+  name  Panasonic_TX-28CK2F
+  bits           32
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  header       3554  1637
+  one           513   340
+  zero          513  1209
+  ptrail        513
+  pre_data_bits   16
+  pre_data       0xBFFB
+  gap          74188
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x00000000FEFF4342        #  Was: Power
+          Screen                   0x00000000FEFF6362
+          KEY_MUTE                 0x00000000FEFFB3B2        #  Was: Mute
+          TvAv                     0x00000000FEFF5F5E
+          KEY_LEFT                 0x00000000FEFF7B7A        #  Was: Left
+          KEY_RIGHT                0x00000000FEFFFBFA        #  Was: Right
+          KEY_UP                   0x00000000FEFFD3D2        #  Was: Up
+          KEY_DOWN                 0x00000000FEFF5352        #  Was: Down
+          Function                 0x00000000FEFF9F9E
+          Navy                     0x00000000FEFFCFCE
+          Timer                    0x00000000FEFF0F0E
+          KEY_1                    0x00000000FEFFF7F6        #  Was: 1
+          KEY_2                    0x00000000FEFF7776        #  Was: 2
+          KEY_3                    0x00000000FEFFB7B6        #  Was: 3
+          KEY_4                    0x00000000FEFF3736        #  Was: 4
+          KEY_5                    0x00000000FEFFD7D6        #  Was: 5
+          KEY_6                    0x00000000FEFF5756        #  Was: 6
+          KEY_7                    0x00000000FEFF9796        #  Was: 7
+          KEY_8                    0x00000000FEFF1716        #  Was: 8
+          KEY_9                    0x00000000FEFFE7E6        #  Was: 9
+          KEY_0                    0x00000000FEFF6766        #  Was: 0
+          KEY_C                    0x00000000FEFFA3A2        #  Was: C
+          Backslash                0x00000000FEFF2322
+          KEY_RED                  0x00000000FEFFF1F0        #  Was: Red
+          KEY_GREEN                0x00000000FEFF7170        #  Was: Green
+          KEY_YELLOW               0x00000000FEFFB1B0        #  Was: Yellow
+          KEY_BLUE                 0x00000000FEFF3130        #  Was: Blue
+          TvText                   0x00000000FE7F3FBE
+          Index                    0x00000000FE7FEF6E
+          Hold                     0x00000000FE7F6FEE
+          TimeText                 0x00000000FE7F2FAE
+          Reveal                   0x00000000FE7FC746
+          Ftb                      0x00000000FE7FCF4E
+          VrcPower                 0x00000000F6FF434A
+          KEY_PLAY                 0x00000000F6FFAFA6        #  Was: Play
+          KEY_PAUSE                0x00000000F6FF9F96        #  Was: Pause
+          KEY_STOP                 0x00000000F6FFFFF6        #  Was: Stop
+          KEY_REWIND               0x00000000F6FFBFB6        #  Was: Rewind
+          KEY_FORWARD              0x00000000F6FF3F36        #  Was: Forward
+          KEY_RECORD               0x00000000F6FFEFE6        #  Was: Rec
+          ProgLeft                 0x00000000F6FF535A
+          ProgRight                0x00000000F6FFD3DA
+      end codes
+
+end remote
+
+

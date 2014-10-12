@@ -1,0 +1,88 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.5(default) on Wed Sep  9 00:12:20 2009
+#
+# contributed by 				Adel Megahed (amegahed|yalla.com)
+#
+# brand:                       			Unknown
+# model no. of remote control: 			Unknown
+# devices being controlled by this remote: 	Azurewave AD-SP200 (Twinhan VP-1027)
+#
+
+begin remote
+
+  name  Azurewave_AD-SP200
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       8960  4507
+  one           549  1696
+  zero          549   572
+  ptrail        550
+  repeat       8960  2257
+  pre_data_bits   16
+  pre_data       0xFF
+  gap          107779
+  toggle_bit_mask 0x0
+
+      begin codes
+          KEY_POWER                0x6897                    #  Was: Power
+          KEY_FAVORITES            0xE817                    #  Was: Favorite
+          KEY_TEXT                 0xF00F                    #  Was: Teletext
+          KEY_PREVIOUS             0x12ED                    #  Was: Preview
+          Info/EPG                 0x38C7
+          KEY_RECORD               0x20DF                    #  Was: RecList
+          KEY_1                    0xC03F                    #  Was: 1
+          KEY_2                    0x807F                    #  Was: 2
+          KEY_3                    0x609F                    #  Was: 3
+          KEY_4                    0x906F                    #  Was: 4
+          KEY_5                    0xB847                    #  Was: 5
+          KEY_6                    0xF807                    #  Was: 6
+          KEY_7                    0xB04F                    #  Was: 7
+          KEY_8                    0x9867                    #  Was: 8
+          KEY_9                    0xD827                    #  Was: 9
+          KEY_0                    0xA857                    #  Was: 0
+          KEY_CANCEL               0x30CF                    #  Was: Cancel
+          KEY_CLEAR                0x52AD                    #  Was: Clear
+          KEY_BACK                 0xC837                    #  Was: Back
+          KEY_TAB                  0x00FF                    #  Was: Tab
+          KEY_UP                   0xD22D                    #  Was: Up
+          KEY_DOWN                 0x8A75                    #  Was: Down
+          KEY_RIGHT                0x4AB5                    #  Was: Right
+          KEY_LEFT                 0x728D                    #  Was: Left
+          Enter/OK                 0xF20D
+          KEY_VOLUMEUP             0x7887                    #  Was: Vol+
+          KEY_VOLUMEDOWN           0x50AF                    #  Was: Vol-
+          KEY_CHANNELUP            0xA05F                    #  Was: Ch+
+          KEY_CHANNELDOWN          0x40BF                    #  Was: Ch-
+          KEY_STOP                 0x58A7                    #  Was: Stop
+          KEY_PAUSE                0x32CD                    #  Was: Pause
+          KEY_PLAY                 0x28D7                    #  Was: Play
+          KEY_RECORD               0x8877                    #  Was: Rec
+          KEY_NEXT                 0x42BD                    #  Was: Skip
+          KEY_AGAIN                0x827D                    #  Was: Replay
+          KEY_FASTFORWARD          0x48B7                    #  Was: FF
+          FR                       0x02FD
+          KEY_F11                  0xB24D                    #  Was: FullScreen
+          PIP                      0xE21D
+          SAP                      0x0AF5
+          Capture                  0x2AD5
+          Hibernate                0xE01F
+          L/R                      0x926D
+          KEY_MUTE                 0x08F7                    #  Was: Mute
+          KEY_SUBTITLE             0xC23D                    #  Was: Subtitle/CC
+          KEY_ZOOMIN               0xA25D                    #  Was: Zoom+
+          KEY_ZOOMOUT              0x629D                    #  Was: Zoom-
+          KEY_AGAIN                0x708F                    #  Was: Recall
+          A/V                      0x10EF
+          KEY_RED                  0x18E7                    #  Was: Red
+          KEY_GREEN                0xCA35                    #  Was: Green
+          KEY_YELLOW               0x7A85                    #  Was: Yellow
+          KEY_BLUE                 0xFA05                    #  Was: Blue
+      end codes
+
+end remote
+
+

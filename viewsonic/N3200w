@@ -1,0 +1,78 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.2pre3(iguanaIR) on Wed Dec 12 14:14:47 2007
+#
+# contributed by
+#
+# brand:                       Viewsonic
+# model no. of remote control:
+# devices being controlled by this remote: N3200w LCD TV
+#
+
+begin remote
+
+  name  Viewsonic_N3200w
+  bits           24
+  flags SPACE_ENC
+  eps            30
+  aeps          100
+
+  header       3402  3318
+  one           861  2476
+  zero          861   787
+  ptrail        846
+  gap          32941
+  toggle_bit_mask 0x0
+
+      begin codes
+          KEY_POWER                0x514AEB                  #  Was: power
+          KEY_MUTE                 0x500AFF                  #  Was: mute
+          display                  0x52CAD3
+          KEY_TV                   0x52EAD1                  #  Was: tv
+          av                       0x520ADF
+          s-video                  0x536AC9
+          KEY_SLEEP                0x534ACB                  #  Was: sleep
+          KEY_1                    0x502AFD                  #  Was: 1
+          KEY_2                    0x522ADD                  #  Was: 2
+          KEY_3                    0x512AED                  #  Was: 3
+          KEY_4                    0x532ACD                  #  Was: 4
+          KEY_5                    0x50AAF5                  #  Was: 5
+          KEY_6                    0x52AAD5                  #  Was: 6
+          KEY_7                    0x51AAE5                  #  Was: 7
+          KEY_8                    0x53AAC5                  #  Was: 8
+          KEY_9                    0x506AF9                  #  Was: 9
+          KEY_0                    0x526AD9                  #  Was: 0
+          KEY_102ND                0x516AE9                  #  Was: -/--
+          KEY_CHANNELUP            0x504AFB                  #  Was: ch_up
+          KEY_CHANNELDOWN          0x524ADB                  #  Was: ch_down
+          KEY_VOLUMEUP             0x518AE7                  #  Was: vol_up
+          KEY_VOLUMEDOWN           0x538AC7                  #  Was: vol_down
+          KEY_RED                  0x521ADE                  #  Was: red
+          KEY_GREEN                0x511AEE                  #  Was: green
+          KEY_YELLOW               0x53FAC0                  #  Was: yellow
+          KEY_BLUE                 0x501AFE                  #  Was: blue
+          KEY_TEXT                 0x50CAF3                  #  Was: teletext
+          KEY_SUBTITLE             0x53CAC3                  #  Was: sub_page
+          index                    0x50FAF0
+          KEY_PAGEUP               0x50BAF4                  #  Was: page_up
+          KEY_PAGEDOWN             0x533ACC                  #  Was: page_down
+          KEY_ZOOM                 0x510AEF                  #  Was: zoom
+          hold                     0x530ACF
+          surround                 0x508AF7
+          KEY_VIDEO                0x528AD7                  #  Was: video_mute
+          KEY_MENU                 0x50EAF1                  #  Was: menu
+          navi_up                  0x539AC6
+          navi_down                0x505AFA
+          navi_right               0x515AEA
+          navi_left                0x525ADA
+          sound                    0x51CAE3
+          audio_ai                 0x51EAE1
+          scart                    0x509AF6
+          component                0x529AD6
+          pc/dvi                   0x503AFC
+          wide                     0x513AEC
+      end codes
+
+end remote
+
+

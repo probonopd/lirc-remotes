@@ -1,0 +1,426 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.1(default) on Sun Apr 29 14:48:54 2007
+#
+# contributed by Joshua Watt
+#
+# brand: ATI
+# model no. of remote control: 5000024400
+# devices being controlled by this remote:
+#	ATI Remote Wonder II
+#
+#	Full use of all buttons except the
+#	Aux 1-4, ATI, and PC buttons
+#
+#	Mouse Pad works as well
+#
+#	use atilibusb driver
+
+begin remote
+
+  name  ATI_Remote_Wonder_II
+  bits           24
+  eps            30
+  aeps          100
+
+  one             0     0
+  zero            0     0
+  gap          203970
+  toggle_bit      0
+
+
+      begin codes
+          KEY_STOP                 0x000231                  #  Was: stop
+          KEY_PAUSE                0x000230                  #  Was: pause
+          KEY_FASTFORWARD          0x000228                  #  Was: fforward
+          KEY_RECORD               0x000237                  #  Was: rec
+          KEY_REWIND               0x000229                  #  Was: rewind
+          KEY_PLAY                 0x00022C                  #  Was: play
+          KEY_D                    0x00027B                  #  Was: d
+          KEY_C                    0x00027A                  #  Was: c
+          KEY_E                    0x00027C                  #  Was: e
+          KEY_F                    0x00027D                  #  Was: f
+          KEY_RIGHT                0x00025B                  #  Was: right
+          KEY_LEFT                 0x00025A                  #  Was: left
+          KEY_UP                   0x000258                  #  Was: up
+          KEY_DOWN                 0x000259                  #  Was: down
+          KEY_OK                   0x00025C                  #  Was: ok
+          KEY_INFO                 0x0002F9                  #  Was: info
+          timer                    0x000296
+          KEY_MENU                 0x000254                  #  Was: menu
+          check                    0x000282
+          KEY_0                    0x000200                  #  Was: 0
+          KEY_1                    0x000201                  #  Was: 1
+          KEY_2                    0x000202                  #  Was: 2
+          KEY_3                    0x000203                  #  Was: 3
+          KEY_4                    0x000204                  #  Was: 4
+          KEY_5                    0x000205                  #  Was: 5
+          KEY_6                    0x000206                  #  Was: 6
+          KEY_7                    0x000207                  #  Was: 7
+          KEY_8                    0x000208                  #  Was: 8
+          KEY_9                    0x000209                  #  Was: 9
+          KEY_VOLUMEUP             0x000210                  #  Was: volup
+          KEY_VOLUMEDOWN           0x000211                  #  Was: voldown
+          KEY_MUTE                 0x00020D                  #  Was: mute
+          KEY_CHANNELUP            0x000220                  #  Was: chup
+          KEY_CHANNELDOWN          0x000221                  #  Was: chdown
+          MOUSE_NORTH              0x0001FF                  #  Was: mouse_up
+          MOUSE_NORTH              0x0002FF                  #  Was: mouse_down
+          MOUSE_WEST               0x0020FF                  #  Was: mouse_left
+          MOUSE_EAST               0x0010FF                  #  Was: mouse_right
+          MOUSE_NORTHEAST          0x0011FF                  #  Was: mouse_up_right
+          MOUSE_SOUTHEAST          0x0012FF                  #  Was: mouse_down_right
+          MOUSE_NORTHWEST          0x0021FF                  #  Was: mouse_up_left
+          MOUSE_SOUTHWEST          0x0022FF                  #  Was: mouse_down_left
+          BTN_RIGHT                0x0002AA                  #  Was: right_click
+          BTN_LEFT                 0x0002A9                  #  Was: left_click
+          hand                     0x0002D0
+          shrink_resize            0x0002D5
+          ?                        0x0002BE
+          KEY_DVD                  0x000238                  #  Was: dvd
+          KEY_TV                   0x000239                  #  Was: tv
+          KEY_A                    0x000278                  #  Was: a
+          KEY_B                    0x000279                  #  Was: b
+          KEY_POWER                0x00020C                  #  Was: power
+      end codes
+
+end remote
+#
+# this config file was automatically generated
+# using lirc-0.8.2(atilibusb) on Sat Jun 30 23:20:59 2007
+#
+# contributed by
+#
+# brand:                       Medion
+# model no. of remote control: MD8800
+# devices being controlled by this remote: Medion X10 MD8800
+#
+
+begin remote
+
+  name  Medion_MD8800
+  bits           16
+  eps            30
+  aeps          100
+
+  one             0     0
+  zero            0     0
+  pre_data_bits   8
+  pre_data       0x14
+  post_data_bits  16
+  post_data      0x0
+  gap          139995
+  min_repeat      2
+  toggle_bit_mask 0x80800000
+
+      begin codes
+          KEY_TV                   0xF11C                    #  Was: Live_TV
+          KEY_IMAGES               0x5A85                    #  Was: Photo
+          KEY_MENU                 0xD904                    #  Was: DVD_Menu
+          KEY_RECORD               0x6D98                    #  Was: Rec_TV
+          KEY_AUDIO                0xDB06                    #  Was: Music
+          KEY_VIDEO                0x82AD                    #  Was: Video
+          KEY_AUDIO                0x0732                    #  Was: Audio
+          KEY_TITLE                0x8AB5                    #  Was: Title
+          KEY_ANGLE                0x0934                    #  Was: Angle
+          KEY_SUBTITLE             0x88B3                    #  Was: Subtitle
+          KEY_POWER                0xD702                    #  Was: Power
+          KEY_INFO                 0x86B1                    #  Was: Guide
+          KEY_TEXT                 0xEB16                    #  Was: Text
+          KEY_UP                   0x6F9A                    #  Was: Up
+          KEY_DOWN                 0xF722                    #  Was: Down
+          KEY_LEFT                 0x729D                    #  Was: Left
+          KEY_RIGHT                0xF41F                    #  Was: Right
+          KEY_VOLUMEUP             0x5E89                    #  Was: Vol_Up
+          KEY_VOLUMEDOWN           0xDD08                    #  Was: Vol_Down
+          KEY_OK                   0x739E                    #  Was: OK
+          KEY_MUTE                 0xD500                    #  Was: Mute
+          KEY_CHANNELUP            0x608B                    #  Was: Prog_Up
+          KEY_CHANNELDOWN          0xE10C                    #  Was: Prog_Down
+          KEY_1                    0x628D                    #  Was: 1
+          KEY_2                    0xE30E                    #  Was: 2
+          KEY_3                    0x648F                    #  Was: 3
+          KEY_4                    0xE510                    #  Was: 4
+          KEY_5                    0x6691                    #  Was: 5
+          KEY_6                    0xE712                    #  Was: 6
+          KEY_7                    0x6893                    #  Was: 7
+          KEY_8                    0xE914                    #  Was: 8
+          KEY_9                    0x6A95                    #  Was: 9
+          KEY_0                    0xEC17                    #  Was: 0
+          D\*                      0x8CB7                    #  Was: D\*
+          D#                       0x0D38
+          World                    0x709B
+          KEY_BACK                 0xF520                    #  Was: Back
+          KEY_INFO                 0x84AF                    #  Was: Info
+          KEY_REWIND               0xF924                    #  Was: Rewind
+          KEY_PLAY                 0x7AA5                    #  Was: Play
+          KEY_FORWARD              0xFB26                    #  Was: Forward
+          KEY_PAUSE                0x7EA9                    #  Was: Pause
+          KEY_PREVIOUS             0xF621                    #  Was: Prev
+          KEY_NEXT                 0x78A3                    #  Was: Next
+          KEY_STOP                 0xFD28                    #  Was: Stop
+          KEY_RECORD               0x7CA7                    #  Was: Rec
+      end codes
+
+end remote
+
+
+#
+# this config file was automatically generated
+# using lirc-0.8.2(atilibusb) on Tue Aug 28 13:18:03 2007
+#
+# contributed by Michael Haas
+#
+# brand: ATI "RF Remote Control" (first generation)                 
+# model no. of remote control: Part #: 5000023600
+# FCC ID: B4SUR84A
+# picture: http://www.mythtv.org/wiki/index.php/Image:Remotewonder1.jpg
+# receiver: http://www.mythtv.org/wiki/index.php/Image:Remotewonder2.jpg
+#
+# I created this new config file because the one for the ati remote wonder II
+# did not work for me.
+
+begin remote
+
+  name ati_remote_wonder_rf
+  bits           40
+  eps            30
+  aeps          100
+
+  one             0     0
+  zero            0     0
+  gap          147991
+  toggle_bit	0
+
+      begin codes
+          KEY_0                    0x14DC170000              #  Was: 0
+          KEY_1                    0x14D20D0000              #  Was: 1
+          KEY_2                    0x14D30E0000              #  Was: 2
+          KEY_3                    0x14D40F0000              #  Was: 3
+          KEY_4                    0x14D5100000              #  Was: 4
+          KEY_5                    0x14D6110000              #  Was: 5
+          KEY_6                    0x14D7120000              #  Was: 6
+          KEY_7                    0x14D8130000              #  Was: 7
+          KEY_8                    0x14D9140000              #  Was: 8
+          KEY_9                    0x14DA150000              #  Was: 9
+          KEY_VOLUMEUP             0x14CD080000              #  Was: volup
+          KEY_VOLUMEDOWN           0x14CE090000              #  Was: voldown
+          KEY_MUTE                 0x14CF0A0000              #  Was: mute
+          KEY_CHANNELUP            0x14D00B0000              #  Was: chup
+          KEY_CHANNELDOWN          0x14D10C0000              #  Was: chdown
+          MOUSE_NORTH              0x1437720000              #  Was: mouse_up
+          MOUSE_NORTH              0x1438730000              #  Was: mouse_down
+          MOUSE_WEST               0x1435700000              #  Was: mouse_left
+          MOUSE_EAST               0x1436710000              #  Was: mouse_right
+          MOUSE_NORTHEAST          0x143A750000              #  Was: mouse_up_right
+          MOUSE_SOUTHEAST          0x143B760000              #  Was: mouse_down_right
+          MOUSE_NORTHWEST          0x1439740000              #  Was: mouse_up_left
+          MOUSE_SOUTHWEST          0x143C770000              #  Was: mouse_down_left
+          BTN_RIGHT                0x14417C0000              #  Was: right_click
+          BTN_LEFT                 0x143D780000              #  Was: left_click
+          hand                     0x14CC070000
+          book                     0x14CB060000
+          ?                        0x14CA050000
+          KEY_DVD                  0x14C9040000              #  Was: dvd
+          KEY_TV                   0x14C8030000              #  Was: tv
+          KEY_A                    0x14C5000000              #  Was: a
+          KEY_B                    0x14C6010000              #  Was: b
+          KEY_POWER                0x14C7020000              #  Was: power
+          KEY_STOP                 0x14ED280000              #  Was: stop
+          KEY_PAUSE                0x14EE290000              #  Was: pause
+          KEY_FASTFORWARD          0x14EB260000              #  Was: fforward
+          KEY_RECORD               0x14EC270000              #  Was: rec
+          KEY_REWIND               0x14E9240000              #  Was: rewind
+          KEY_PLAY                 0x14EA250000              #  Was: play
+          KEY_D                    0x14E01B0000              #  Was: d
+          KEY_C                    0x14DE190000              #  Was: c
+          KEY_E                    0x14E6210000              #  Was: e
+          KEY_F                    0x14E8230000              #  Was: f
+          KEY_RIGHT                0x14E41F0000              #  Was: right
+          KEY_LEFT                 0x14E21D0000              #  Was: left
+          KEY_UP                   0x14DF1A0000              #  Was: up
+          KEY_DOWN                 0x14E7220000              #  Was: down
+          KEY_OK                   0x14E31E0000              #  Was: ok
+          timer                    0x14E11C0000
+          shrink_resize            0x14E5200000
+          KEY_MENU                 0x14DB160000              #  Was: menu
+          check                    0x14DD180000
+      end codes
+
+end remote
+
+# this config file was automatically generated
+# using lirc-0.8.2(atilibusb) on Sat Jun 30 23:20:59 2007
+#
+# contributed by Nizar Souissi
+#
+# brand:                       nVidia
+# model no. of remote control: UR88A
+# devices being controlled by this remote: CM21A USB RF Receiver
+#
+# This file is based on an already existing file for the Medion MD8800
+
+begin remote
+
+  name  nVidia_UR88A
+  bits           16
+  eps            30
+  aeps          100
+
+  one             0     0
+  zero            0     0
+  pre_data_bits   8
+  pre_data       0x14
+  post_data_bits  16
+  post_data      0x0
+  gap          139995
+  min_repeat      2
+  toggle_bit_mask 0x80800000
+
+      begin codes
+
+          KEY_PLAY                 0xD601                    #  Was: PLAYLIST
+          CH.SURF                  0xD702
+          KEY_TV                   0xF11C                    #  Was: Live_TV
+          KEY_IMAGES               0x5A85                    #  Was: Photo
+          KEY_AUDIO                0xDB06                    #  Was: MUSIC
+          KEY_DVD                  0xD904                    #  Was: DVD
+          DVR                      0xD803
+          KEY_IMAGES               0xDA05                    #  Was: PHOTO
+          KEY_WWW                  0xDC07                    #  Was: WEB
+          KEY_ZOOM                 0xFF2A                    #  Was: ZOOM
+          KEY_RECORD               0x6D98                    #  Was: Rec_TV
+          KEY_VIDEO                0x82AD                    #  Was: Video
+          KEY_AUDIO                0x0732                    #  Was: Audio
+          KEY_TITLE                0x8AB5                    #  Was: Title
+          KEY_ANGLE                0x0934                    #  Was: Angle
+          KEY_SUBTITLE             0x88B3                    #  Was: Subtitle
+          KEY_POWER                0xD702                    #  Was: Power
+          KEY_INFO                 0x86B1                    #  Was: Guide
+          KEY_TEXT                 0xEB16                    #  Was: Text
+          KEY_UP                   0x6F9A                    #  Was: Up
+          KEY_DOWN                 0xF722                    #  Was: Down
+          KEY_LEFT                 0x729D                    #  Was: Left
+          KEY_RIGHT                0xF41F                    #  Was: Right
+          KEY_VOLUMEUP             0x5E89                    #  Was: Vol_Up
+          KEY_VOLUMEDOWN           0xDD08                    #  Was: Vol_Down
+          KEY_OK                   0x739E                    #  Was: OK
+          KEY_MUTE                 0xD500                    #  Was: Mute
+          KEY_CHANNELUP            0x608B                    #  Was: Prog_Up
+          KEY_CHANNELDOWN          0xE10C                    #  Was: Prog_Down
+          KEY_1                    0x628D                    #  Was: 1
+          KEY_2                    0xE30E                    #  Was: 2
+          KEY_3                    0x648F                    #  Was: 3
+          KEY_4                    0xE510                    #  Was: 4
+          KEY_5                    0x6691                    #  Was: 5
+          KEY_6                    0xE712                    #  Was: 6
+          KEY_7                    0x6893                    #  Was: 7
+          KEY_8                    0xE914                    #  Was: 8
+          KEY_9                    0x6A95                    #  Was: 9
+          KEY_0                    0xEC17                    #  Was: 0
+          KEY_SETUP                0x709B                    #  Was: Setup
+          KEY_BACK                 0xF520                    #  Was: Back
+          KEY_INFO                 0x84AF                    #  Was: Info
+          KEY_REWIND               0xF924                    #  Was: Rewind
+          KEY_PLAY                 0x7AA5                    #  Was: Play
+          KEY_FORWARD              0xFB26                    #  Was: Forward
+          KEY_PAUSE                0x7EA9                    #  Was: Pause
+          KEY_PREVIOUS             0xF621                    #  Was: Prev
+          KEY_NEXT                 0x78A3                    #  Was: Next
+          KEY_STOP                 0xFD28                    #  Was: Stop
+          KEY_RECORD               0x7CA7                    #  Was: Rec
+          MOUSE_NORTH              0x4772                    #  Was: MOUSEUP
+          MOUSE_NORTH              0x4873                    #  Was: MOUSEDOWN
+          MOUSE_EAST               0x4671                    #  Was: MOUSERIGHT
+          MOUSE_WEST               0x4570                    #  Was: MOUSELEFT
+          BTN_LEFT                 0x4E79                    #  Was: LCLICK
+          BTN_RIGHT                0x527D                    #  Was: RCLICK
+          KEY_X                    0xDF0A                    #  Was: X
+          KEY_ANGLE                0x002B                    #  Was: ANGLE
+          SNAPSHOT                 0xED18
+          KEY_SETUP                0xF01B                    #  Was: SETUP
+          KEY_MENU                 0xEE19                    #  Was: DVDMENU
+          KEY_SLOW                 0xF520                    #  Was: SLOW
+      end codes
+end remote
+
+#
+# this config file was automatically generated
+# using lirc-0.8.4a(atilibusb) on Thu Jan  1 22:00:59 2009
+#
+# contributed by Tomas Aronsson, d0malaga|gmail.com
+#
+# brand: X10 WTI MCE Remote control
+# url: http://www.x10europe.com/pdf/OR22E-23E.pdf
+# model no. of remote control: OR22V
+# devices being controlled by this remote: mythtv
+#
+
+begin remote
+
+  name          X10_OR22V
+  bits           16
+  eps            30
+  aeps          100
+
+  one             0     0
+  zero            0     0
+  pre_data_bits   8
+  pre_data       0x14
+  post_data_bits  16
+  post_data      0x0
+  gap          139984
+  min_repeat      2
+  toggle_bit_mask 0x80800000
+
+      begin codes
+          KEY_POWER                0xD702
+          KEY_RED                  0x0732
+          KEY_YELLOW               0x89B4
+          KEY_GREEN                0x0833
+          KEY_TEXT                 0x6B96
+          KEY_BLUE                 0x0A35
+          KEY_BACK                 0x75A0
+          KEY_INFO                 0x042F
+          KEY_UP                   0x6F9A
+          KEY_LEFT                 0xF21D
+          KEY_OK                   0x739E
+          KEY_RIGHT                0xF41F
+          KEY_DOWN                 0x77A2
+          X_KEY_TIMESHIFTING       0xED18                    #  Was: KEY_TIMESHIFTING
+          KEY_EPG                  0x86B1
+          X_KEY_DVDMENU            0xD904                    #  Was: KEY_DVDMENU
+          X_KEY_LIVETV             0x719C                    #  Was: KEY_LIVETV
+          KEY_VOLUMEUP             0xDE09
+          X_KEY_WINDOWS            0x709B                    #  Was: KEY_WINDOWS
+          KEY_CHANNELUP            0xE00B
+          KEY_VOLUMEDOWN           0x5D88
+          KEY_CHANNELDOWN          0xE10C
+          KEY_MUTE                 0x5580
+          KEY_PREVIOUS             0xF621
+          KEY_NEXT                 0x78A3
+          KEY_REWIND               0xF924
+          KEY_PLAY                 0x7AA5
+          KEY_FASTFORWARD          0xFB26
+          KEY_RECORD               0x7CA7
+          KEY_STOP                 0xFD28
+          KEY_PAUSE                0x7EA9
+          KEY_1                    0xE20D
+          KEY_2                    0x638E
+          KEY_3                    0x648F
+          KEY_4                    0xE510
+          KEY_5                    0x6691
+          KEY_6                    0xE712
+          KEY_7                    0x6893
+          KEY_8                    0xE914
+          KEY_9                    0x6A95
+          X_KEY_\*                 0x0C37                    #  Was: X_KEY_\*
+          KEY_0                    0x6C97
+          X_KEY_#                  0x0D38                    #  Was: KEY_#
+          KEY_CLEAR                0x85B0
+          KEY_ENTER                0x0B36
+      end codes
+
+end remote
+
+

@@ -1,0 +1,360 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.6(serial) on Fri Oct 31 18:33:55 2003
+#
+# contributed by Pedro Werneck <pedro.werneck bol.com.br>
+#
+# brand:                       CCE
+# model no. of remote control:
+# devices being controlled by this remote: VCR 88X
+#
+
+begin remote
+
+  name   VCR-CCE
+  flags CONST_LENGTH|RAW_CODES
+  eps            30
+  aeps          100
+
+  ptrail          0
+  repeat     0     0
+  gap    59685
+
+      begin raw_codes
+
+          name POWER
+          KEY_8                    3875                      #  Was: 8128
+          KEY_6                    1383                      #  Was: 626
+          KEY_1                    363                       #  Was: 591
+          KEY_5                    3909                      #  Was: 615
+          KEY_4                    1397                      #  Was: 614
+          KEY_8                    372                       #  Was: 578
+          KEY_9                     #  Was: 609             
+
+          name TV/VCR
+          KEY_3                    3875                      #  Was: 8123
+          KEY_5                    1382                      #  Was: 625
+          KEY_9                    360                       #  Was: 589
+          KEY_4                    3903                      #  Was: 614
+          KEY_3                    1391                      #  Was: 583
+          KEY_3                    370                       #  Was: 583
+          KEY_6                     #  Was: 616             
+
+          name CH_UP
+          KEY_5                    3876                      #  Was: 8125
+          KEY_1                    1383                      #  Was: 621
+          KEY_2                    364                       #  Was: 592
+          KEY_4                    3902                      #  Was: 614
+          KEY_7                    1403                      #  Was: 587
+          KEY_6                    370                       #  Was: 586
+          KEY_0                     #  Was: 610             
+
+          name CH_DOWN
+          KEY_3                    3871                      #  Was: 8123
+          KEY_6                    1381                      #  Was: 626
+          KEY_0                    363                       #  Was: 590
+          KEY_2                    3901                      #  Was: 612
+          KEY_3                    369                       #  Was: 613
+          KEY_6                    370                       #  Was: 586
+          KEY_0                     #  Was: 610             
+
+          name PLAY
+          KEY_3                    3866                      #  Was: 8133
+          KEY_0                    1378                      #  Was: 630
+          KEY_3                    364                       #  Was: 593
+          KEY_4                    3905                      #  Was: 614
+          KEY_6                    1395                      #  Was: 586
+          KEY_6                    369                       #  Was: 616
+          KEY_0                     #  Was: 610             
+
+          name STOP
+          KEY_9                    3867                      #  Was: 8129
+          KEY_9                    1382                      #  Was: 629
+          KEY_3                    363                       #  Was: 593
+          KEY_3                    3907                      #  Was: 613
+          KEY_3                    1394                      #  Was: 613
+          KEY_8                    370                       #  Was: 618
+          KEY_9                     #  Was: 609             
+
+          name REW
+          KEY_2                    3873                      #  Was: 8132
+          KEY_5                    1383                      #  Was: 625
+          KEY_2                    364                       #  Was: 592
+          KEY_2                    3902                      #  Was: 612
+          KEY_3                    369                       #  Was: 613
+          KEY_0                    367                       #  Was: 580
+          KEY_7                     #  Was: 607             
+
+          name FF
+          KEY_2                    3868                      #  Was: 8132
+          KEY_5                    1383                      #  Was: 625
+          KEY_1                    365                       #  Was: 591
+          KEY_4                    3910                      #  Was: 614
+          KEY_8                    1394                      #  Was: 588
+          KEY_2                    369                       #  Was: 612
+          KEY_0                     #  Was: 610             
+
+          name PAUSE
+          KEY_8                    3873                      #  Was: 8128
+          KEY_6                    1381                      #  Was: 626
+          KEY_9                    361                       #  Was: 599
+          KEY_4                    3901                      #  Was: 614
+          KEY_3                    369                       #  Was: 613
+          KEY_6                    370                       #  Was: 586
+          KEY_8                     #  Was: 608             
+
+          name 3S
+          KEY_4                    3880                      #  Was: 8124
+          KEY_5                    1383                      #  Was: 625
+          KEY_4                    362                       #  Was: 584
+          KEY_4                    3903                      #  Was: 614
+          KEY_6                    368                       #  Was: 586
+          KEY_5                    370                       #  Was: 585
+          KEY_3                     #  Was: 613             
+
+          name START_UP
+          KEY_7                    3872                      #  Was: 8137
+          KEY_5                    1382                      #  Was: 625
+          KEY_2                    363                       #  Was: 592
+          KEY_3                    3912                      #  Was: 613
+          KEY_4                    1397                      #  Was: 614
+          KEY_5                    369                       #  Was: 585
+          KEY_0                     #  Was: 610             
+
+          name START_DOWN
+          KEY_4                    3876                      #  Was: 8124
+          KEY_2                    1382                      #  Was: 632
+          KEY_8                    364                       #  Was: 588
+          KEY_4                    3910                      #  Was: 614
+          KEY_6                    369                       #  Was: 586
+          KEY_7                    366                       #  Was: 587
+          KEY_9                     #  Was: 609             
+
+          name END_UP
+          KEY_1                    3871                      #  Was: 8131
+          KEY_5                    1388                      #  Was: 625
+          KEY_2                    362                       #  Was: 592
+          KEY_4                    3909                      #  Was: 614
+          KEY_3                    369                       #  Was: 613
+          KEY_6                    363                       #  Was: 586
+          KEY_1                     #  Was: 611             
+
+          name END_DOWN
+          KEY_1                    3869                      #  Was: 8131
+          KEY_3                    1382                      #  Was: 623
+          KEY_0                    364                       #  Was: 590
+          KEY_6                    3904                      #  Was: 616
+          KEY_2                    1396                      #  Was: 612
+          KEY_7                    370                       #  Was: 577
+          KEY_8                     #  Was: 608             
+
+          name 1
+          KEY_0                    3869                      #  Was: 8130
+          KEY_7                    1385                      #  Was: 627
+          KEY_1                    364                       #  Was: 591
+          KEY_3                    3909                      #  Was: 613
+          KEY_4                    368                       #  Was: 614
+          KEY_1                    371                       #  Was: 611
+          KEY_0                     #  Was: 610             
+
+          name 2
+          KEY_9                    3869                      #  Was: 8129
+          KEY_5                    1383                      #  Was: 625
+          KEY_1                    365                       #  Was: 591
+          KEY_9                    3901                      #  Was: 619
+          KEY_6                    369                       #  Was: 586
+          KEY_3                    367                       #  Was: 613
+          KEY_6                     #  Was: 606             
+
+          name 3
+          KEY_3                    3876                      #  Was: 8133
+          KEY_6                    1382                      #  Was: 626
+          KEY_9                    356                       #  Was: 599
+          KEY_3                    3903                      #  Was: 613
+          KEY_5                    365                       #  Was: 585
+          KEY_3                    370                       #  Was: 613
+          KEY_8                     #  Was: 608             
+
+          name 4
+          KEY_6                    3883                      #  Was: 8126
+          KEY_5                    1383                      #  Was: 625
+          KEY_2                    364                       #  Was: 592
+          KEY_4                    3904                      #  Was: 614
+          KEY_2                    1403                      #  Was: 612
+          KEY_1                    371                       #  Was: 611
+          KEY_6                     #  Was: 606             
+
+          name 5
+          KEY_1                    3875                      #  Was: 8131
+          KEY_6                    1383                      #  Was: 626
+          KEY_6                    364                       #  Was: 586
+          KEY_4                    3902                      #  Was: 614
+          KEY_5                    1397                      #  Was: 615
+          KEY_1                    370                       #  Was: 611
+          KEY_0                     #  Was: 610             
+
+          name 6
+          KEY_4                    3876                      #  Was: 8134
+          KEY_4                    1385                      #  Was: 624
+          KEY_6                    362                       #  Was: 596
+          KEY_4                    3903                      #  Was: 614
+          KEY_8                    1401                      #  Was: 588
+          KEY_0                    371                       #  Was: 610
+          KEY_8                     #  Was: 608             
+
+          name 7
+          KEY_4                    3883                      #  Was: 8124
+          KEY_5                    1385                      #  Was: 625
+          KEY_9                    373                       #  Was: 589
+          KEY_4                    3906                      #  Was: 614
+          KEY_2                    1400                      #  Was: 582
+          KEY_2                    371                       #  Was: 612
+          KEY_9                     #  Was: 609             
+
+          name 8
+          KEY_4                    3878                      #  Was: 8134
+          KEY_5                    1385                      #  Was: 625
+          KEY_9                    365                       #  Was: 589
+          KEY_0                    3905                      #  Was: 610
+          KEY_2                    370                       #  Was: 612
+          KEY_3                    370                       #  Was: 613
+          KEY_6                     #  Was: 606             
+
+          name 9
+          KEY_2                    3873                      #  Was: 8132
+          KEY_4                    1385                      #  Was: 624
+          KEY_4                    364                       #  Was: 594
+          KEY_3                    3905                      #  Was: 613
+          KEY_5                    366                       #  Was: 615
+          KEY_2                    371                       #  Was: 612
+          KEY_8                     #  Was: 608             
+
+          name 0
+          KEY_6                    3878                      #  Was: 8126
+          KEY_1                    1385                      #  Was: 631
+          KEY_1                    363                       #  Was: 591
+          KEY_2                    3911                      #  Was: 612
+          KEY_2                    371                       #  Was: 612
+          KEY_0                    373                       #  Was: 610
+          KEY_0                     #  Was: 610             
+
+          name 00
+          KEY_5                    3875                      #  Was: 8135
+          KEY_5                    1385                      #  Was: 625
+          KEY_9                    365                       #  Was: 589
+          KEY_4                    3911                      #  Was: 614
+          KEY_5                    369                       #  Was: 585
+          KEY_1                    371                       #  Was: 611
+          KEY_7                     #  Was: 607             
+
+          name INPUT
+          KEY_4                    3876                      #  Was: 8134
+          KEY_0                    1389                      #  Was: 630
+          KEY_8                    363                       #  Was: 588
+          KEY_3                    3910                      #  Was: 613
+          KEY_2                    1398                      #  Was: 612
+          KEY_2                    371                       #  Was: 612
+          KEY_6                     #  Was: 606             
+
+          name REC
+          KEY_9                    3876                      #  Was: 8129
+          KEY_4                    1386                      #  Was: 624
+          KEY_8                    365                       #  Was: 588
+          KEY_4                    3905                      #  Was: 614
+          KEY_2                    369                       #  Was: 582
+          KEY_2                    371                       #  Was: 582
+          KEY_2                     #  Was: 612             
+
+          name SPEED
+          KEY_3                    3875                      #  Was: 8133
+          KEY_5                    1386                      #  Was: 625
+          KEY_9                    365                       #  Was: 589
+          KEY_7                    3909                      #  Was: 617
+          KEY_5                    368                       #  Was: 585
+          KEY_0                    370                       #  Was: 580
+          KEY_0                     #  Was: 610             
+
+          name MENU
+          KEY_4                    3872                      #  Was: 8134
+          KEY_4                    1387                      #  Was: 624
+          KEY_0                    364                       #  Was: 590
+          KEY_3                    3913                      #  Was: 613
+          KEY_5                    369                       #  Was: 585
+          KEY_2                    370                       #  Was: 612
+          KEY_9                     #  Was: 609             
+
+          name LEFT
+          KEY_4                    3839                      #  Was: 8164
+          KEY_6                    1394                      #  Was: 626
+          KEY_1                    363                       #  Was: 591
+          KEY_6                    3903                      #  Was: 616
+          KEY_3                    1397                      #  Was: 613
+          KEY_0                    369                       #  Was: 580
+          KEY_8                     #  Was: 608             
+
+          name RIGHT
+          KEY_3                    3871                      #  Was: 8133
+          KEY_6                    1385                      #  Was: 626
+          KEY_9                    364                       #  Was: 589
+          KEY_1                    3903                      #  Was: 621
+          KEY_5                    1400                      #  Was: 585
+          KEY_4                    370                       #  Was: 584
+          KEY_2                     #  Was: 612             
+
+          name RESET
+          KEY_2                    3878                      #  Was: 8132
+          KEY_6                    1385                      #  Was: 626
+          KEY_1                    366                       #  Was: 591
+          KEY_2                    3904                      #  Was: 612
+          KEY_7                    369                       #  Was: 617
+          KEY_1                    1400                      #  Was: 611
+          KEY_8                     #  Was: 608             
+
+          name REW_STOP
+          KEY_7                    3876                      #  Was: 8127
+          KEY_4                    1394                      #  Was: 624
+          KEY_7                    360                       #  Was: 587
+          KEY_3                    3905                      #  Was: 613
+          KEY_3                    1398                      #  Was: 613
+          KEY_1                    1400                      #  Was: 611
+          KEY_8                     #  Was: 608             
+
+          name MINUS
+          KEY_4                    3872                      #  Was: 8134
+          KEY_7                    1385                      #  Was: 627
+          KEY_8                    363                       #  Was: 588
+          KEY_3                    3905                      #  Was: 613
+          KEY_3                    369                       #  Was: 613
+          KEY_9                    1400                      #  Was: 579
+          KEY_0                     #  Was: 610             
+
+          name SLOW
+          KEY_6                    3877                      #  Was: 8126
+          KEY_5                    1386                      #  Was: 625
+          KEY_9                    364                       #  Was: 589
+          KEY_0                    3904                      #  Was: 620
+          KEY_3                    370                       #  Was: 613
+          KEY_8                    1398                      #  Was: 578
+          KEY_0                     #  Was: 610             
+
+          name PLUS
+          KEY_3                    3873                      #  Was: 8133
+          KEY_7                    1387                      #  Was: 627
+          KEY_6                    365                       #  Was: 586
+          KEY_3                    3912                      #  Was: 613
+          KEY_3                    1398                      #  Was: 613
+          KEY_7                    1399                      #  Was: 577
+          KEY_0                     #  Was: 610             
+
+          name HI-REW
+          KEY_9                    3872                      #  Was: 8129
+          KEY_9                    1388                      #  Was: 629
+          KEY_9                    364                       #  Was: 589
+          KEY_3                    3911                      #  Was: 613
+          KEY_4                    1398                      #  Was: 584
+          KEY_8                    370                       #  Was: 578
+          KEY_9                     #  Was: 609             
+
+      end raw_codes
+
+end remote

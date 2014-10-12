@@ -1,0 +1,79 @@
+#
+# this config file was automatically generated
+# using lirc-0.7.0(irdeo) on Thu Nov 11 22:54:49 2004
+#
+# contributed by Olaf Tauber
+#
+# brand:                      Fisher
+# model no. of remote control: RCA-9050
+# devices being controlled by this remote:
+# Fisher Studio Standard System (RS-9040 or CA-9050)
+
+begin remote
+
+  name  RCA-9050
+  bits           32
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9107  4417
+  one           648  1605
+  zero          648   478
+  ptrail        650
+  repeat       9111  2160
+  gap          108163
+  toggle_bit      0
+
+
+      begin codes
+# Receiver/Main
+          KEY_POWER                0x000000006C939867        #  Was: power
+          KEY_VOLUMEUP             0x000000006C9358A7        #  Was: vol+
+          KEY_VOLUMEDOWN           0x000000006C93D827        #  Was: vol-
+          KEY_MUTE                 0x000000006C9338C7        #  Was: mute
+          timer                    0x000000006C93F807
+          phono                    0x000000006C938A75
+          KEY_AUX                  0x000000006C93B847        #  Was: aux
+          tape-1                   0x000000006C937A85
+          tape-2                   0x000000006C93FA05
+# CD
+	  cd-|<<                   0x000000006C93F20D
+          cd->>|                   0x000000006C93728D
+          cd-stop                  0x000000006C9302FD
+          cd-play                  0x000000006C93827D
+          cd-intro                 0x000000006C93926D
+          cd-random                0x000000006C9352AD
+          cd-pause                 0x000000006C9342BD
+          cd-memory                0x000000006C93B24D
+          cd-1                     0x000000006C93C23D
+          cd-repeat                0x000000006C9312ED
+          cd-clear                 0x000000006C93D22D
+          cd-check                 0x000000006C9332CD
+          cd-2                     0x000000006C9322DD
+          cd-3                     0x000000006C93A25D
+          cd-4                     0x000000006C93629D
+          cd-5                     0x000000006C93E21D
+# Tuner
+          KEY_RADIO                0x000000006C93807F        #  Was: fm
+          am                       0x000000006C9340BF
+          KEY_CHANNELDOWN          0x000000006C93F00F        #  Was: channel-dn
+          KEY_CHANNELUP            0x000000006C93708F        #  Was: channel-up
+          tuner-1                  0x000000006C9320DF
+          tuner-2                  0x000000006C93A05F
+          tuner-3                  0x000000006C93609F
+          tuner-4                  0x000000006C93E01F
+          tuner-5                  0x000000006C9310EF
+          tuner-6                  0x000000006C93906F
+# Tape
+          deck1/2                  0x000000006C93E817
+          KEY_RECORD               0x000000006C9328D7        #  Was: rec
+          KEY_PLAY                 0x000000006C93A857        #  Was: play-fw
+          KEY_PLAY                 0x000000006C936897        #  Was: play-rev
+          KEY_REWIND               0x000000006C9348B7        #  Was: rew
+          KEY_FASTFORWARD          0x000000006C938877        #  Was: ffwd
+          KEY_PAUSE                0x000000006C93C837        #  Was: pause
+          KEY_STOP                 0x000000006C9308F7        #  Was: stop
+      end codes
+
+end remote

@@ -1,0 +1,54 @@
+#
+# this is a space encoded remote control from Grundig
+#
+# contributed by Andreas Neuhaus (andy@fasta.fh-dortmund.de)
+#
+# brand:             Grundig
+# model:             remote control 8300 ac
+# supported devices: cd changer
+#
+
+begin remote
+
+  name  Grundig
+  bits           13
+  flags SPACE_ENC
+  eps            30
+  aeps            0
+
+  header       9142  4327
+  one           708   412
+  zero          708  1533
+  ptrail        708
+  plead           0
+  foot            0     0
+  repeat          0     0
+  pre_data_bits   16
+  pre_data       0xC33C
+  post_data_bits  3
+  post_data      0x0
+  pre             0     0
+  post            0     0
+  gap          39617
+  repeat_bit      0
+
+      begin codes
+          KEY_1                    0x0000000000000EF1        #  Was: 1
+          KEY_2                    0x00000000000016E9        #  Was: 2
+          KEY_3                    0x00000000000006F9        #  Was: 3
+          KEY_4                    0x0000000000001AE5        #  Was: 4
+          KEY_5                    0x0000000000000AF5        #  Was: 5
+          KEY_6                    0x00000000000012ED        #  Was: 6
+          KEY_7                    0x00000000000002FD        #  Was: 7
+          KEY_8                    0x0000000000001CE3        #  Was: 8
+          KEY_9                    0x0000000000000CF3        #  Was: 9
+          KEY_0                    0x00000000000014EB        #  Was: 10
+          <                        0x0000000000001DE2
+          >                        0x00000000000003FC
+          KEY_PLAY                 0x00000000000013EC        #  Was: PLAY
+          KEY_STOP                 0x0000000000001BE4        #  Was: STOP
+      end codes
+
+end remote
+
+

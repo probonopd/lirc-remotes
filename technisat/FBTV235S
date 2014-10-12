@@ -1,0 +1,190 @@
+#
+# this config file was automatically generated
+# using lirc-0.7.1pre2(any) on Sun Jan  2 12:16:29 2006
+#
+# contributed by   Karl-Heinz Vilser
+#
+# brand:             Technisat
+# model:             FBTV235S
+# supported devices: HD-Vision 32
+#
+# mode:  TV (standard)
+#
+begin remote
+
+  name  FBTV235S-TV
+  bits           13
+  flags RC5|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           944   832
+  zero          944   832
+  plead         961
+  gap          113767
+  min_repeat      1
+  toggle_bit      2
+
+
+      begin codes
+          KEY_I                    0x000F                    #  Was: I
+          KEY_UP                   0x0010                    #  Was: UP
+          KEY_DOWN                 0x0011                    #  Was: DOWN
+          KEY_MENU                 0x0012                    #  Was: MENU
+          TV/RADIO                 0x0013
+          KEY_LEFT                 0x0015                    #  Was: LEFT
+          KEY_RIGHT                0x0016                    #  Was: RIGHT
+          KEY_OK                   0x0017                    #  Was: OK
+          PIP                      0x0018
+          KEY_RED                  0x002B                    #  Was: RED
+          KEY_GREEN                0x002C                    #  Was: GREEN
+          KEY_YELLOW               0x002D                    #  Was: YELLOW
+          KEY_BLUE                 0x002E                    #  Was: BLUE
+          KEY_0                    0x1000                    #  Was: 0
+          KEY_1                    0x1001                    #  Was: 1
+          KEY_2                    0x1002                    #  Was: 2
+          KEY_3                    0x1003                    #  Was: 3
+          KEY_4                    0x1004                    #  Was: 4
+          KEY_5                    0x1005                    #  Was: 5
+          KEY_6                    0x1006                    #  Was: 6
+          KEY_7                    0x1007                    #  Was: 7
+          KEY_8                    0x1008                    #  Was: 8
+          KEY_9                    0x1009                    #  Was: 9
+          OPT                      0x100A
+          KEY_POWER                0x100C                    #  Was: POWER
+          KEY_MUTE                 0x100D                    #  Was: MUTE
+          KEY_VOLUMEUP             0x1010                    #  Was: VOLUME+
+          KEY_VOLUMEDOWN           0x1011                    #  Was: VOLUME-
+          PROGRAM+                 0x1020
+          PROGRAM-                 0x1021
+          KEY_EXIT                 0x1022                    #  Was: EXIT
+          SOUND                    0x1023
+          KEY_SLEEP                0x1026                    #  Was: SLEEP
+          STILL                    0x1029
+          SFI/EPG                  0x102F
+          KEY_RECORD               0x1037                    #  Was: REC
+          KEY_TEXT                 0x103C                    #  Was: TXT
+      end codes
+
+end remote
+
+
+#
+#mode:   SAT1
+#
+begin remote
+
+  name  FBTV235S-SAT1
+  bits           13
+  flags RC5|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           944   832
+  zero          944   832
+  plead         961
+  gap          113767
+  min_repeat      1
+  toggle_bit      2
+
+      begin codes
+          KEY_I                    0x020F                    #  Was: I
+          KEY_UP                   0x0210                    #  Was: UP
+          KEY_DOWN                 0x0211                    #  Was: DOWN
+          KEY_MENU                 0x0212                    #  Was: MENU
+          TV/RADIO                 0x0213
+          KEY_LEFT                 0x0215                    #  Was: LEFT
+          KEY_RIGHT                0x0216                    #  Was: RIGHT
+          KEY_OK                   0x0217                    #  Was: OK
+          PIP                      0x0218
+          KEY_RED                  0x022B                    #  Was: RED
+          KEY_GREEN                0x022C                    #  Was: GREEN
+          KEY_YELLOW               0x022D                    #  Was: YELLOW
+          KEY_BLUE                 0x022E                    #  Was: BLUE
+          KEY_0                    0x1200                    #  Was: 0
+          KEY_1                    0x1201                    #  Was: 1
+          KEY_2                    0x1202                    #  Was: 2
+          KEY_3                    0x1203                    #  Was: 3
+          KEY_4                    0x1204                    #  Was: 4
+          KEY_5                    0x1205                    #  Was: 5
+          KEY_6                    0x1206                    #  Was: 6
+          KEY_7                    0x1207                    #  Was: 7
+          KEY_8                    0x1208                    #  Was: 8
+          KEY_9                    0x1209                    #  Was: 9
+          OPT                      0x120A
+          KEY_POWER                0x120C                    #  Was: POWER
+          KEY_MUTE                 0x120D                    #  Was: MUTE
+          KEY_VOLUMEUP             0x1210                    #  Was: Volume+
+          KEY_VOLUMEDOWN           0x1211                    #  Was: Volume-
+          PROGRAM+                 0x1220
+          PROGRAM-                 0x1221
+          KEY_EXIT                 0x1222                    #  Was: EXIT
+          SOUND                    0x1223
+          KEY_SLEEP                0x1226                    #  Was: SLEEP
+          STILL                    0x1229
+          SFI                      0x122F
+          KEY_RECORD               0x1237                    #  Was: REC
+          KEY_TEXT                 0x123C                    #  Was: TXT
+      end codes
+
+end remote
+
+#
+#mode:   SAT2
+#
+begin remote
+
+  name  FBTV235S_SAT2
+  bits           13
+  flags RC5|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           944   832
+  zero          944   832
+  plead         961
+  gap          113767
+  min_repeat      1
+  toggle_bit      2
+
+      begin codes
+          KEY_I                    0x028F                    #  Was: I
+          KEY_UP                   0x0290                    #  Was: UP
+          KEY_DOWN                 0x0291                    #  Was: DOWN
+          KEY_MENU                 0x0292                    #  Was: MENU
+          TV/RADIO                 0x0293
+          KEY_LEFT                 0x0295                    #  Was: LEFT
+          KEY_RIGHT                0x0296                    #  Was: RIGHT
+          KEY_OK                   0x0297                    #  Was: OK
+          PIP                      0x0298
+          KEY_RED                  0x02AB                    #  Was: RED
+          KEY_GREEN                0x02AC                    #  Was: GREEN
+          KEY_YELLOW               0x02AD                    #  Was: YELLOW
+          KEY_BLUE                 0x02AE                    #  Was: BLUE
+          KEY_0                    0x1280                    #  Was: 0
+          KEY_1                    0x1281                    #  Was: 1
+          KEY_2                    0x1282                    #  Was: 2
+          KEY_3                    0x1283                    #  Was: 3
+          KEY_4                    0x1284                    #  Was: 4
+          KEY_5                    0x1285                    #  Was: 5
+          KEY_6                    0x1286                    #  Was: 6
+          KEY_7                    0x1287                    #  Was: 7
+          KEY_8                    0x1288                    #  Was: 8
+          KEY_9                    0x1289                    #  Was: 9
+          OPT                      0x128A
+          KEY_POWER                0x128C                    #  Was: POWER
+          KEY_MUTE                 0x128D                    #  Was: MUTE
+          KEY_VOLUMEUP             0x1290                    #  Was: Volume+
+          KEY_VOLUMEDOWN           0x1291                    #  Was: VOLUME-
+          KEY_EXIT                 0x12A2                    #  Was: EXIT
+          PROGRAM+                 0x12A0
+          PROGRAM-                 0x12A1
+          SOUND                    0x12A3
+          KEY_SLEEP                0x12A6                    #  Was: SLEEP
+          STILL                    0x12A9
+          SFI/EPG                  0x12AF
+          KEY_RECORD               0x12B7                    #  Was: REC
+          KEY_TEXT                 0x12BC                    #  Was: TXT
+      end codes
+
+end remote

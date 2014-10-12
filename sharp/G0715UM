@@ -1,0 +1,59 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.5(any) on Wed Jul  7 19:18:35 2004
+#
+# contributed by Matthias Merz
+#
+# brand:                       Sharp
+# model no. of remote control: G0715UM
+# devices being controlled by this remote: VCR (old), german model
+#
+
+begin remote
+
+  name  Sharp_G0715UM
+  bits           15
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           355  1750
+  zero          355   697
+  ptrail        355
+  gap          67702
+  min_repeat      3
+  toggle_bit      0
+
+
+      begin codes
+          Betrieb                  0x00000000000061A2
+          VPS                      0x00000000000060C2
+          Zeit                     0x00000000000061C2
+          KEY_SLEEP                0x00000000000063C2        #  Was: Sleep
+          Anzeige                  0x00000000000060C6
+          Löschen                  0x0000000000006012
+          NullStop                 0x0000000000006306
+          Spur-                    0x0000000000006186
+          Spur+                    0x0000000000006286
+          Timer                    0x0000000000006262
+          Prog                     0x000000000000611D
+          Kanal-                   0x0000000000006122
+          Kanal+                   0x0000000000006222
+          Aufnahme                 0x0000000000006052
+          KEY_STOP                 0x0000000000006392        #  Was: Stop
+          Wiedergabe               0x0000000000006112
+          KEY_PAUSE                0x0000000000006292        #  Was: Pause
+          x2                       0x0000000000006232
+          Wiederh                  0x0000000000006022
+          Einzelb                  0x0000000000006092
+          Rückl                    0x0000000000006312
+          Vorl                     0x0000000000006212
+          Kindersich               0x00000000000062C2
+          Zeitlupe                 0x0000000000006252
+          DPSS-                    0x0000000000006032
+          DPSS+                    0x00000000000063D2
+      end codes
+
+end remote
+
+

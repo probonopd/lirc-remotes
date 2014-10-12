@@ -1,0 +1,97 @@
+#
+# this config file was automatically generated
+# using lirc-0.5.4 on Thu Mar 25 02:52:08 1999
+#
+# contributed by     Rolf Bleher <dk7in@qsl.net>
+#
+# brand:             Panasonic
+# model:             TNQ8E0437
+# supported devices: TV: TX-28A1DT    (from 1990)
+#                        TX-24A1DT
+
+begin remote
+
+  name  TNQ8E0437
+  bits           21
+  flags SPACE_ENC
+  eps            30
+  aeps          100
+
+  header       3726  3578
+  one           987   838
+  zero          987  2665
+  ptrail        987
+  pre_data_bits   1
+  pre_data       0x1
+  gap          41045
+  repeat_bit      0
+
+      begin codes
+          KEY_MUTE                 0x00000000001E5834        #  Was: MUTE
+          TV/AV                    0x00000000001F5015
+          KEY_POWER                0x00000000001FF001        #  Was: PWR
+          KEY_CHANNELUP            0x00000000001F7011        #  Was: P+
+          KEY_CHANNELDOWN          0x00000000001E7031        #  Was: P-
+          KEY_VOLUMEUP             0x00000000001EF820        #  Was: Vol+
+          KEY_VOLUMEDOWN           0x00000000001E982C        #  Was: Vol-
+          KEY_1                    0x00000000001FE802        #  Was: 1
+          KEY_2                    0x00000000001EE822        #  Was: 2
+          KEY_3                    0x00000000001F6812        #  Was: 3
+          KEY_4                    0x00000000001E6832        #  Was: 4
+          KEY_5                    0x00000000001FA80A        #  Was: 5
+          KEY_6                    0x00000000001EA82A        #  Was: 6
+          KEY_7                    0x00000000001F281A        #  Was: 7
+          KEY_8                    0x00000000001E283A        #  Was: 8
+          KEY_9                    0x00000000001FC806        #  Was: 9
+          KEY_C                    0x00000000001EF021        #  Was: C
+          KEY_0                    0x00000000001EC826        #  Was: 0
+          KEY_102ND                0x00000000001FB009        #  Was: -/--
+          KEY_TV                   0x00000000001F4017        #  Was: TV
+          KEY_TEXT                 0x00000000001E4037        #  Was: TEXT
+          rot                      0x00000000001F4816
+          gruen                    0x00000000001E4836
+          gelb                     0x00000000001F201B
+          blau                     0x00000000001F001F
+          BAL-L                    0x00000000001FB808
+          BAL-R                    0x00000000001EB828
+          ADJ-                     0x00000000001F900D
+          ADJ+                     0x00000000001E5035
+          Contr-                   0x00000000001F101D
+          Contr+                   0x00000000001FD005
+          Bright-                  0x00000000001E183C
+          Bright+                  0x00000000001F3818
+          Color-                   0x00000000001F181C
+          Color+                   0x00000000001F980C
+          KEY_AUDIO                0x00000000001F6013        #  Was: Music
+          Base                     0x00000000001E6033
+          I/II                     0x00000000001E7830
+          Status                   0x00000000001F3019
+          KEY_N                    0x00000000001E3838        #  Was: N
+          Trebble-                 0x00000000001F880E
+          Trebble+                 0x00000000001E3039
+          Bass-                    0x00000000001E882E
+          Bass+                    0x00000000001E103D
+          KEY_DOWN                 0x00000000000E7231        #  Was: Down
+          KEY_UP                   0x00000000000F7211        #  Was: Up
+          VTR                      0x00000000000FF201
+          KEY_STOP                 0x00000000000FFA00        #  Was: Stop
+          KEY_PAUSE                0x00000000000F3A18        #  Was: Pause
+          KEY_SLOW                 0x00000000000F9A0C        #  Was: Slow
+          KEY_REWIND               0x00000000000F7A10        #  Was: Rew
+          KEY_PLAY                 0x00000000000F5A14        #  Was: Play
+          KEY_FASTFORWARD          0x00000000000E7A30        #  Was: FF
+          KEY_RECORD               0x00000000000FDA04        #  Was: REC
+          MIX                      0x00000000001F800F
+          RESET                    0x00000000001F081E
+          REVEAL                   0x00000000001F880E
+          LIST-STORE               0x00000000001E3039
+          HOLD                     0x00000000001FA00B
+          TIME-TEXT                0x00000000001E203B
+          DISPLAY-CANCEL           0x00000000001EA02B
+          F/T/B                    0x00000000001EC027
+          LIST-TOP                 0x00000000001E882E
+          INDEX                    0x00000000001E103D
+      end codes
+
+end remote
+

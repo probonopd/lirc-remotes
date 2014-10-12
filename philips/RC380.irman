@@ -1,0 +1,216 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.6(irman) on Tue Nov  4 20:10:17 2003
+#
+# contributed by warp   http://www.eekie.net/
+#
+# brand:                       Philips
+# model no. of remote control: RC-380
+# devices being controlled by this remote:
+#
+
+begin remote
+
+  name  Philips_RC-380
+  bits           16
+  eps            30
+  aeps          100
+
+  one             0     0
+  zero            0     0
+  pre_data_bits   16
+  pre_data       0xFFFF
+  post_data_bits  32
+  post_data      0x0
+  gap          209965
+  min_repeat      23
+  toggle_bit      0
+
+
+      begin codes
+          tv-volume-plus           0x0000000000005450
+          tv-volume-min            0x0000000000005440
+          KEY_VOLUMEUP             0x0000000000001450        #  Was: volume-plus
+          volume-min               0x0000000000001440
+	  speakers                 0x0000000000001480
+#tuner        
+          KEY_TUNER                0x00000000000012A0        #  Was: tuner
+          KEY_1-tuner              0x0000000000001140        #  Was: 1-tuner
+          KEY_2-tuner              0x0000000000001170        #  Was: 2-tuner
+          KEY_3-tuner              0x0000000000001160        #  Was: 3-tuner
+          standby-tuner            0x0000000000001190
+          KEY_4-tuner              0x0000000000001110        #  Was: 4-tuner
+          KEY_5-tuner              0x0000000000001100        #  Was: 5-tuner
+          KEY_6-tuner              0x0000000000001130        #  Was: 6-tuner
+          KEY_7-tuner              0x0000000000001120        #  Was: 7-tuner
+          KEY_8-tuner              0x00000000000011D0        #  Was: 8-tuner
+          KEY_9-tuner              0x00000000000011C0        #  Was: 9-tuner
+          -/---tuner               0x00000000000011F0
+          KEY_0-tuner              0x0000000000001150        #  Was: 0-tuner
+          I-II-tuner               0x0000000000001300
+          osd-tuner                0x00000000000011A0
+          preset-track-plus-tuner  0x0000000000001350
+          preset-track-min-tuner   0x0000000000001340
+          KEY_REWIND               0x00000000000010A0        #  Was: rewind-tuner
+          wind-tuner               0x00000000000010B0
+          scan-tuner               0x00000000000013E0
+#tape
+          KEY_TAPE                 0x0000000000001EA0        #  Was: tape
+          KEY_1-tape               0x0000000000001D40        #  Was: 1-tape
+          KEY_2-tape               0x0000000000001D70        #  Was: 2-tape
+          KEY_3-tape               0x0000000000001D60        #  Was: 3-tape
+          standby-tape             0x0000000000001D90
+          KEY_4-tape               0x0000000000001D10        #  Was: 4-tape
+          KEY_5-tape               0x0000000000001D00        #  Was: 5-tape
+          KEY_6-tape               0x0000000000001D30        #  Was: 6-tape
+          KEY_7-tape               0x0000000000001D20        #  Was: 7-tape
+          KEY_8-tape               0x0000000000001DD0        #  Was: 8-tape
+          KEY_9-tape               0x0000000000001DC0        #  Was: 9-tape
+          KEY_0-tape               0x0000000000001D50        #  Was: 0-tape
+          I-II-tape                0x0000000000001F10
+          osd-tape                 0x0000000000001DA0
+          deck-a-tape              0x0000000000001F90
+          deck-b-tape              0x0000000000001FB0
+          preset-track-plus-tape   0x0000000000001F50
+          preset-track-min-tape    0x0000000000001F40
+          stop-tape                0x0000000000001E30
+          KEY_PLAY                 0x0000000000001E00        #  Was: play-tape
+          KEY_REWIND               0x0000000000001E70        #  Was: rewind-tape
+          pause-tape               0x0000000000001E50
+          KEY_RECORD               0x0000000000001E20        #  Was: rec-tape
+          wind-tape                0x0000000000001E10
+          scan-tape                0x0000000000001FE0
+          open-tape                0x0000000000001FA0
+#vcr
+          KEY_VCR                  0x00000000000042A0        #  Was: vcr
+          KEY_1-vcr                0x0000000000004140        #  Was: 1-vcr
+          KEY_2-vcr                0x0000000000004170        #  Was: 2-vcr
+          KEY_3-vcr                0x0000000000004160        #  Was: 3-vcr
+          standby-vcr              0x0000000000004190
+          KEY_4-vcr                0x0000000000004110        #  Was: 4-vcr
+          KEY_5-vcr                0x0000000000004100        #  Was: 5-vcr
+          KEY_6-vcr                0x0000000000004130        #  Was: 6-vcr
+          KEY_7-vcr                0x0000000000004120        #  Was: 7-vcr
+          KEY_8-vcr                0x00000000000041D0        #  Was: 8-vcr
+          KEY_9-vcr                0x00000000000041C0        #  Was: 9-vcr
+          -/---vcr                 0x00000000000041F0
+          KEY_0-vcr                0x0000000000004150        #  Was: 0-vcr
+          I-II-vcr                 0x0000000000004360
+          osd-vcr                  0x00000000000041A0
+          preset-track-plus-vcr    0x0000000000004350
+          preset-track-min-vcr     0x0000000000004348
+          stop-vcr                 0x0000000000004230
+          KEY_PLAY                 0x0000000000004200        #  Was: play-vcr
+          KEY_REWIND               0x0000000000004270        #  Was: rewind-vcr
+          pause-vcr                0x0000000000004250
+          KEY_RECORD               0x0000000000004220        #  Was: rec-vcr
+          wind-vcr                 0x0000000000004210
+          scan-vcr                 0x00000000000043E0
+#cd
+          KEY_CD                   0x00000000000006A0        #  Was: cd
+          KEY_1-cd                 0x0000000000000540        #  Was: 1-cd
+          KEY_2-cd                 0x0000000000000570        #  Was: 2-cd
+          KEY_3-cd                 0x0000000000000560        #  Was: 3-cd
+          standby-cd               0x0000000000000590
+          KEY_4-cd                 0x0000000000000510        #  Was: 4-cd
+          KEY_5-cd                 0x0000000000000500        #  Was: 5-cd
+          KEY_6-cd                 0x0000000000000530        #  Was: 6-cd
+          KEY_7-cd                 0x0000000000000520        #  Was: 7-cd
+          KEY_8-cd                 0x00000000000005D0        #  Was: 8-cd
+          KEY_9-cd                 0x00000000000005C0        #  Was: 9-cd
+          KEY_0-cd                 0x0000000000000550        #  Was: 0-cd
+          osd-cd                   0x00000000000005A0
+          deck-a-cd                0x00000000000004B0
+          deck-b-cd                0x00000000000004A0
+          preset-track-plus-cd     0x0000000000000750
+          preset-track-min-cd      0x0000000000000740
+          stop-cd                  0x0000000000000630
+          KEY_PLAY                 0x0000000000000600        #  Was: play-cd
+          KEY_REWIND               0x0000000000000670        #  Was: rewind-cd
+          pause-cd                 0x0000000000000650
+          wind-cd                  0x0000000000000610
+          scan-cd                  0x00000000000007E0
+          shuffle-cd               0x0000000000000490
+          prog-cd                  0x00000000000007C0
+          open-cd                  0x0000000000000780
+#tv
+          KEY_TV                   0x00000000000056A0        #  Was: tv
+          KEY_1-tv                 0x0000000000005540        #  Was: 1-tv
+          KEY_2-tv                 0x0000000000005570        #  Was: 2-tv
+          KEY_3-tv                 0x0000000000005560        #  Was: 3-tv
+          standby-tv               0x0000000000005590
+          KEY_4-tv                 0x0000000000005510        #  Was: 4-tv
+          KEY_5-tv                 0x0000000000005500        #  Was: 5-tv
+          KEY_6-tv                 0x0000000000005530        #  Was: 6-tv
+          KEY_7-tv                 0x0000000000005520        #  Was: 7-tv
+          KEY_8-tv                 0x00000000000055D0        #  Was: 8-tv
+          KEY_9-tv                 0x00000000000055C0        #  Was: 9-tv
+          txt-tv                   0x0000000000005690
+          -/---tv                  0x00000000000055F0
+          KEY_0-tv                 0x0000000000005550        #  Was: 0-tv
+          I-II-tv                  0x0000000000005760
+          osd-tv                   0x00000000000055A0
+          preset-track-plus-tv     0x0000000000005750
+          preset-track-min-tv      0x0000000000005740
+          stop-tv                  0x00000000000057C0
+          KEY_PLAY                 0x0000000000005480        #  Was: play-tv
+          KEY_REWIND               0x0000000000005790        #  Was: rewind-tv
+          pause-tv                 0x0000000000005780
+          wind-tv                  0x00000000000057F0
+          scan-tv                  0x00000000000057E0
+#dcc
+	  dcc                      0x0000000000000AA0
+          KEY_1-dcc                0x0000000000000940        #  Was: 1-dcc
+          KEY_2-dcc                0x0000000000000970        #  Was: 2-dcc
+          KEY_3-dcc                0x0000000000000960        #  Was: 3-dcc
+          standby-dcc              0x0000000000000990
+          KEY_4-dcc                0x0000000000000910        #  Was: 4-dcc
+          KEY_5-dcc                0x0000000000000900        #  Was: 5-dcc
+          KEY_6-dcc                0x0000000000000930        #  Was: 6-dcc
+          KEY_7-dcc                0x0000000000000920        #  Was: 7-dcc
+          KEY_8-dcc                0x00000000000009D0        #  Was: 8-dcc
+          KEY_9-dcc                0x00000000000009C0        #  Was: 9-dcc
+          KEY_0-dcc                0x0000000000000950        #  Was: 0-dcc
+          I-II-dcc                 0x0000000000000B10
+          osd-dcc                  0x00000000000009A0
+          deck-a-dcc               0x0000000000000B90
+          deck-b-dcc               0x0000000000000BB0
+          preset-track-plus-dcc    0x0000000000000B50
+          preset-track-min-dcc     0x0000000000000B40
+          stop-dcc                 0x0000000000000A30
+          KEY_PLAY                 0x0000000000000A00        #  Was: play-dcc
+          KEY_REWIND               0x0000000000000A70        #  Was: rewind-dcc
+          pause-dcc                0x0000000000000A50
+          KEY_RECORD               0x0000000000000A20        #  Was: rec-dcc
+          wind-dcc                 0x0000000000000A10
+          scan-dcc                 0x0000000000000BE0
+          open-dcc                 0x0000000000000BA0
+#ld
+	  ld                       0x00000000000066A0
+          KEY_1-ld                 0x0000000000006540        #  Was: 1-ld
+          KEY_2-ld                 0x0000000000006570        #  Was: 2-ld
+          KEY_3-ld                 0x0000000000006560        #  Was: 3-ld
+          standby-ld               0x0000000000006590
+          KEY_4-ld                 0x0000000000006510        #  Was: 4-ld
+          KEY_5-ld                 0x0000000000006500        #  Was: 5-ld
+          KEY_6-ld                 0x0000000000006530        #  Was: 6-ld
+          KEY_7-ld                 0x0000000000006520        #  Was: 7-ld
+          KEY_8-ld                 0x00000000000065D0        #  Was: 8-ld
+          KEY_9-ld                 0x00000000000065C0        #  Was: 9-ld
+          KEY_0-ld                 0x0000000000006550        #  Was: 0-ld
+          I-II-ld                  0x0000000000006760
+          osd-ld                   0x00000000000065A0
+          deck-a-ld                0x0000000000001980
+          deck-b-ld                0x0000000000001990
+          preset-track-plus-ld     0x00000000000064B0
+          preset-track-min-ld      0x0000000000006710
+          stop-ld                  0x0000000000006630
+          KEY_PLAY                 0x0000000000006600        #  Was: play-ld
+          KEY_REWIND               0x0000000000006790        #  Was: rewind-ld
+          pause-ld                 0x0000000000006650
+          wind-ld                  0x00000000000067B0
+          shuffle-ld               0x0000000000006490
+          open-ld                  0x0000000000006780
+      end codes
+
+end remote

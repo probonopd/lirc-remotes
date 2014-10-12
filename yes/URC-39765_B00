@@ -1,0 +1,73 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.6(serial) on Tue Nov 25 12:19:39 2003
+#
+# contributed by
+#
+# brand:                       Yes
+# model no. of remote control: URC-39765 B00
+# devices being controlled by this remote: DSR ABS-6642
+#
+
+begin remote
+
+  name  YES
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9042  4558
+  one           555  1682
+  zero          555   570
+  ptrail        544
+  repeat       9041  2296
+  pre_data_bits   16
+  pre_data       0x213C
+  gap          108556
+  min_repeat      0
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x000000000000847B        #  Was: power
+          KEY_1                    0x0000000000000CF3        #  Was: 1
+          KEY_2                    0x000000000000946B        #  Was: 2
+          KEY_3                    0x0000000000009C63        #  Was: 3
+          KEY_4                    0x00000000000014EB        #  Was: 4
+          KEY_5                    0x00000000000004FB        #  Was: 5
+          KEY_6                    0x0000000000001CE3        #  Was: 6
+          KEY_7                    0x0000000000004CB3        #  Was: 7
+          KEY_8                    0x00000000000054AB        #  Was: 8
+          KEY_9                    0x00000000000044BB        #  Was: 9
+          KEY_EXIT                 0x0000000000008C73        #  Was: exit
+          KEY_0                    0x000000000000CC33        #  Was: 0
+          KEY_0                    0x000000000000F40B        #  Was: 10
+          KEY_MUTE                 0x000000000000A45B        #  Was: mute
+          KEY_ENTER                0x0000000000005CA3        #  Was: return
+          KEY_VOLUMEUP             0x000000000000649B        #  Was: vol+
+          KEY_VOLUMEDOWN           0x000000000000E41B        #  Was: vol-
+          KEY_CHANNELUP            0x000000000000AC53        #  Was: channel+
+          KEY_CHANNELDOWN          0x000000000000EC13        #  Was: channel-
+          KEY_INFO                 0x000000000000748B        #  Was: guide
+          mosaic                   0x0000000000006C93
+          yes                      0x000000000000C43B
+          KEY_UP                   0x000000000000D42B        #  Was: up
+          KEY_DOWN                 0x00000000000024DB        #  Was: down
+          KEY_LEFT                 0x0000000000002CD3        #  Was: left
+          KEY_RIGHT                0x000000000000DC23        #  Was: right
+          ?                        0x00000000000034CB
+          KEY_KPPLUS               0x0000000000003CC3        #  Was: +
+          orange                   0x0000000000007C83
+          KEY_GREEN                0x000000000000B44B        #  Was: green
+          KEY_YELLOW               0x000000000000BC43        #  Was: yellow
+          KEY_BLUE                 0x000000000000FC03        #  Was: blue
+          envelope                 0x000000000000C23D
+          KEY_B                    0x00000000000042BD        #  Was: B
+          KEY_A                    0x000000000000827D        #  Was: A
+          KEY_I                    0x00000000000002FD        #  Was: i
+      end codes
+
+end remote
+
+

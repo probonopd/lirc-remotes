@@ -1,0 +1,66 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.3(serial) on Sat May 12 17:46:26 2001
+#
+# contributed by Michael Dupras
+#
+# brand:             JVC
+# model:             RM-C678
+# supported devices:
+#
+
+begin remote
+
+  name  JVC_RM-C678
+  bits            7
+  flags SPACE_ENC|NO_HEAD_REP|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       8537  4069
+  one           603  1499
+  zero          603   443
+  ptrail        594
+  pre_data_bits   8
+  pre_data       0xC0
+  post_data_bits  1
+  post_data      0x0
+  gap          45255
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x0000000000000074        #  Was: Power
+          KEY_MENU                 0x000000000000002F        #  Was: Menu
+          KEY_1                    0x0000000000000042        #  Was: 1
+          KEY_2                    0x0000000000000022        #  Was: 2
+          KEY_3                    0x0000000000000062        #  Was: 3
+          KEY_4                    0x0000000000000012        #  Was: 4
+          KEY_5                    0x0000000000000052        #  Was: 5
+          KEY_6                    0x0000000000000032        #  Was: 6
+          KEY_7                    0x0000000000000072        #  Was: 7
+          KEY_8                    0x000000000000000A        #  Was: 8
+          KEY_9                    0x000000000000004A        #  Was: 9
+          KEY_0                    0x0000000000000002        #  Was: 0
+          X_KEY_0+                 0x0000000000000077        #  Was: KEY_0+
+          KEY_ENTER                0x0000000000000050        #  Was: Return
+          KEY_AGAIN                0x000000000000001E        #  Was: Recall
+          KEY_MUTE                 0x000000000000001C        #  Was: Mute
+          AVStatus                 0x0000000000000058
+          KEY_CHANNELUP            0x000000000000004C        #  Was: Ch+
+          KEY_CHANNELDOWN          0x000000000000000C        #  Was: Ch-
+          KEY_VOLUMEUP             0x000000000000003C        #  Was: Volume+
+          KEY_VOLUMEDOWN           0x000000000000007C        #  Was: Volume-
+          KEY_CLOSE                0x0000000000000038        #  Was: ClosedCaption
+          FunctionUp               0x000000000000001F
+          FunctionDown             0x000000000000006F
+          Function-                0x000000000000006D
+          Function+                0x000000000000002D
+          Display                  0x0000000000000010
+          Main/Sap                 0x0000000000000000
+      end codes
+
+end remote
+
+
+

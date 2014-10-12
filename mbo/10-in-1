@@ -1,0 +1,67 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.6(serial) on Tue Oct 14 22:10:43 2003
+#
+# contributed by Frank Lienhard (frank@mclien.de)
+#
+# brand:                       MBO
+# model no. of remote control: Universal Fernbedienung 10-in-1
+#				(useing Device Button "VCR1")
+				Art.Nr. 81095
+# devices being controlled by this remote:today: none
+#					soon: VDR (hopefully)
+#
+
+begin remote
+
+  name  MBO_10-in-1
+  bits           13
+  flags RC5|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           889   889
+  zero          889   889
+  plead         889
+  gap          113792
+  toggle_bit      0
+
+  frequency    36000
+  duty_cycle   50
+
+      begin codes
+          KEY_1                    0x0000000000001941        #  Was: 1
+          KEY_2                    0x0000000000001142        #  Was: 2
+          KEY_3                    0x0000000000001943        #  Was: 3
+          KEY_4                    0x0000000000001144        #  Was: 4
+          KEY_5                    0x0000000000001945        #  Was: 5
+          KEY_6                    0x0000000000001146        #  Was: 6
+          KEY_7                    0x0000000000001947        #  Was: 7
+          KEY_8                    0x0000000000001148        #  Was: 8
+          KEY_9                    0x0000000000001949        #  Was: 9
+          KEY_0                    0x0000000000001140        #  Was: 10
+          KEY_1                    0x000000000000194A        #  Was: 11
+          KEY_POWER                0x000000000000114C        #  Was: power
+          KEY_MUTE                 0x000000000000180D        #  Was: mute
+          ch\*p/c                  0x000000000000114B        #  Was: ch\*p/c
+          I-II                     0x0000000000001963
+          KEY_CHANNELUP            0x0000000000001160        #  Was: ch+
+          KEY_CHANNELDOWN          0x0000000000001961        #  Was: ch-
+          KEY_VOLUMEDOWN           0x0000000000001151        #  Was: vol-
+          KEY_VOLUMEUP             0x0000000000001150        #  Was: vol+
+          tv|tv/vcr_menu           0x0000000000001967
+          rot                      0x0000000000001154
+          gruen                    0x0000000000001955
+          gelb                     0x0000000000001153
+          blau                     0x0000000000001952
+          KEY_REWIND               0x0000000000001172        #  Was: rew
+          KEY_PLAY                 0x0000000000001975        #  Was: play
+          KEY_FASTFORWARD          0x0000000000001174        #  Was: ff
+          KEY_RECORD               0x0000000000001977        #  Was: rec
+          KEY_STOP                 0x0000000000001176        #  Was: stop
+          KEY_PAUSE                0x0000000000001970        #  Was: pause
+      end codes
+
+end remote
+
+

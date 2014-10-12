@@ -1,0 +1,99 @@
+#
+# This config file has been automatically converted from a device file
+# found in the 06/26/00 release of the Windows Slink-e software
+# package.
+#
+# Many thanks to Colby Boles of Nirvis Systems Inc. for allowing us to
+# use these files.
+#
+# The original filename was: "yamaha_vp37310_vcr_tv_tuner.cde"
+#
+# The original description for this device was:
+#
+# yamaha vp37310 vcr/tv/tuner
+#
+
+
+begin remote
+
+  name  VP37310
+  bits           32
+  flags SPACE_ENC
+  eps            20
+  aeps          200
+
+  header       8800  4400
+  one           550  1650
+  zero          550   550
+  ptrail        550
+  repeat       8800  2200
+  gap          38500
+  toggle_bit      0
+
+  frequency    38000
+
+      begin codes
+          KEY_PLAY                 0x000000005EA110EF        #  Was: PLAY
+          PAUSE/STOP               0x000000005EA1906F
+          KEY_POWER                0x00000000BE41F10E        #  Was: POWER
+          '1'                      0x00000000BE410BF4
+          '2'                      0x00000000BE418B74
+          '3'                      0x00000000BE414BB4
+          '4'                      0x00000000BE41CB34
+          '5'                      0x00000000BE412BD4
+          '6'                      0x00000000BE41AB54
+          '7'                      0x00000000BE416B94
+          '8'                      0x00000000BE41EB14
+          '9'                      0x00000000BE411BE4
+          '10'                     0x00000000BE419B64
+          '11'                     0x00000000BE415BA4
+          '12'                     0x00000000BE41DB24
+          MASTER_VOL+              0x00000000BE41B14E
+          MASTER_VOL-              0x00000000BE41718E
+          MUTING                   0x00000000BE4129D6
+          VCR1                     0x00000000BE41817E
+          VCR2                     0x00000000BE4141BE
+          VCR3                     0x00000000BE41A15E
+          TAPE1                    0x00000000BE41D12E
+          KEY_CD                   0x00000000BE41E11E        #  Was: CD
+          KEY_TUNER                0x00000000BE41916E        #  Was: TUNER
+          KEY_AUX                  0x00000000BE4151AE        #  Was: AUX
+          PHONO                    0x00000000BE4111EE
+          TV/DBS                   0x00000000BE4121DE
+          LD                       0x00000000BE41C13E
+          TAPE2_MON                0x00000000BE4131CE
+          CHAPTER>>                0x000000005EA150AF
+          CHAPTER<<                0x000000005EA1D02F
+          DISPLAY                  0x000000009E6150AF
+          SEARCH>>                 0x000000005EA130CF
+          SEARCH<<                 0x000000005EA1B04F
+          DIR_A                    0x000000005EA1E01F
+          KEY_PLAY                 0x000000005EA100FF        #  Was: PLAY_TAPE/VCR
+          DIR_B                    0x000000005EA102FD
+          STOP_TAPE/VCR            0x000000005EA1C03F
+          DECK_A_B                 0x000000005EA1609F
+          >>_TAPE/VCR              0x000000005EA140BF
+          <<_TAPE/VCR              0x000000005EA1807F
+          TEST                     0x00000000BE4153AC
+          A/B/C/D/E                0x000000005EA148B7
+          PRESET_CH+               0x000000005EA108F7
+          PRESET_CH-               0x000000005EA18877
+          FRONT_LEVEL+             0x00000000BE41B34C
+          FRONT_LEVEL-             0x00000000BE41738C
+          CENTER_LEVEL+            0x00000000BE41D32C
+          CENTER_LEVEL-            0x00000000BE4133CC
+          KEY_POWER                0x00000000BE4143BC        #  Was: ON_SCREEN
+          REAR_LEVEL+              0x00000000BE4113EC
+          REAR_LEVEL-              0x00000000BE41936C
+          EFFECT_ON/OFF            0x00000000BE41837C
+          KEY_KPPLUS               0x00000000BE417986        #  Was: +
+          KEY_KPMINUS              0x00000000BE41F906        #  Was: -
+          ARROW_UP                 0x00000000BE41B946
+          ARROW_DWN                0x00000000BE4139C6
+          +_PARAMETER              0x00000000BE41639C
+          -_PARAMETER              0x00000000BE41E31C
+          ARROW_UP_PARAMETER       0x00000000BE41A35C
+          ARROW_DWN_PARAMETER      0x00000000BE4123DC
+      end codes
+
+end remote

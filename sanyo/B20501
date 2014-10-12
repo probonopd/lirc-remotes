@@ -1,0 +1,74 @@
+#
+# this config file was automatically generated
+# using WinLIRC 0.6.4 (LIRC 0.6.1pre3) on Wed Nov 27 20:07:22 2002
+#
+# contributed by Martin Wallgren
+#
+# brand:             Sanyo
+# model:             B20501
+# supported devices: TV 28LN4-C
+#
+
+begin remote
+
+  name  B20501
+  bits           32
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  header       8987  4538
+  one           557   566
+  zero          557  1694
+  ptrail        557
+  repeat       8986  2282
+  gap          40025
+  toggle_bit      0
+
+
+      begin codes
+          KEY_TV                   0x00000000E31CD728        #  Was: TV
+          WIDE                     0x00000000E31C3DC2
+          KEY_POWER                0x00000000E31CC738        #  Was: POWER
+          KEY_1                    0x00000000E31C7F80        #  Was: 1
+          KEY_2                    0x00000000E31CBF40        #  Was: 2
+          KEY_3                    0x00000000E31C3FC0        #  Was: 3
+          KEY_4                    0x00000000E31CDF20        #  Was: 4
+          KEY_5                    0x00000000E31C5FA0        #  Was: 5
+          KEY_6                    0x00000000E31C9F60        #  Was: 6
+          KEY_7                    0x00000000E31C1FE0        #  Was: 7
+          KEY_8                    0x00000000E31CEF10        #  Was: 8
+          KEY_9                    0x00000000E31C6F90        #  Was: 9
+          KEY_0                    0x00000000E31CFF00        #  Was: 0
+          KEY_102ND                0x00000000E31CAF50        #  Was: -/--
+          CS                       0x00000000E31C2FD0
+          SYMBOL_1                 0x00000000E31CE718
+          SYMBOL_2                 0x00000000E31C7788
+          KEY_MUTE                 0x00000000E31C57A8        #  Was: MUTE
+          P--P                     0x00000000E31C47B8
+          F/OK                     0x00000000E31CA758
+          KEY_MENU                 0x00000000E31C758A        #  Was: MENU
+          KEY_VOLUMEDOWN           0x00000000E31C17E8        #  Was: VOL-
+          KEY_VOLUMEUP             0x00000000E31C9768        #  Was: VOL+
+          KEY_CHANNELUP            0x00000000E31CCF30        #  Was: P+
+          KEY_CHANNELDOWN          0x00000000E31C4FB0        #  Was: P-
+          KEY_RED                  0x00000000E31C6D92        #  Was: RED
+          KEY_GREEN                0x00000000E31CAD52        #  Was: GREEN
+          KEY_YELLOW               0x00000000E31C2DD2        #  Was: YELLOW
+          KEY_BLUE                 0x00000000E31CCD32        #  Was: BLUE
+          SYMBOL_3                 0x00000000E31C6798
+          SYMBOL_4                 0x00000000E31C956A
+          SYMBOL_5                 0x00000000E31C8D72
+          TXT/TV                   0x00000000E31C9D62
+          A-B                      0x00000000E31CFD02
+          VCR_POWER                0x00000000738C25DA
+          VCR_REC                  0x00000000738C57A8
+          VCR_STOP                 0x00000000738CF708
+          VCR_REW                  0x00000000738CB748
+          VCR_PLAY                 0x00000000738CD728
+          VCR_FWD                  0x00000000738C37C8
+      end codes
+
+end remote
+
+

@@ -1,0 +1,58 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.6(any) on Sat Apr 17 11:13:20 2004
+#
+# contributed by
+#
+# brand:                       Tensai
+# model no. of remote control: 5340fb
+# devices being controlled by this remote: PVR 606-VS
+#
+
+begin remote
+
+  name  Tensai_5340fb
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9100  4435
+  one           614  1629
+  zero          614   493
+  ptrail        614
+  pre_data_bits   16
+  pre_data       0x613E
+  gap          108066
+  toggle_bit      0
+
+
+      begin codes
+          KEY_0                    0x00000000000008F7        #  Was: 0
+          KEY_1                    0x0000000000008877        #  Was: 1
+          KEY_2                    0x00000000000048B7        #  Was: 2
+          KEY_3                    0x000000000000C837        #  Was: 3
+          KEY_4                    0x00000000000028D7        #  Was: 4
+          KEY_5                    0x000000000000A857        #  Was: 5
+          KEY_6                    0x0000000000006897        #  Was: 6
+          KEY_7                    0x000000000000E817        #  Was: 7
+          KEY_8                    0x00000000000018E7        #  Was: 8
+          KEY_9                    0x0000000000009867        #  Was: 9
+          KEY_OK                   0x00000000000042BD        #  Was: Ok
+          KEY_BACK                 0x000000000000906F        #  Was: Back
+          KEY_RED                  0x00000000000030CF        #  Was: Red
+          KEY_GREEN                0x0000000000007887        #  Was: Green
+          KEY_YELLOW               0x00000000000038C7        #  Was: Yellow
+          KEY_BLUE                 0x000000000000708F        #  Was: Blue
+          KEY_UP                   0x000000000000E01F        #  Was: Up
+          KEY_DOWN                 0x000000000000807F        #  Was: Down
+          KEY_LEFT                 0x000000000000B04F        #  Was: Left
+          KEY_RIGHT                0x000000000000D02F        #  Was: Right
+          KEY_VOLUMEUP             0x00000000000010EF        #  Was: Volume+
+          KEY_VOLUMEDOWN           0x00000000000040BF        #  Was: Volume-
+          KEY_MUTE                 0x000000000000C03F        #  Was: Mute
+      end codes
+
+end remote
+
+

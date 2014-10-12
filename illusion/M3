@@ -1,0 +1,70 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.2(default) on Sat Mar 22 19:16:33 2008
+#
+# contributed by Aleix Mercader
+#
+# brand:  Illusion
+# model no. of remote control:  -
+# devices being controlled by this remote:  Illusion M3 digital satellite/terrestrial receiver
+#
+
+begin remote
+
+  name  Illusion_M3
+  bits           13
+  flags RC5|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           940   825
+  zero          940   825
+  plead         980
+  gap          113036
+  toggle_bit_mask 0x800
+
+      begin codes
+          KEY_POWER                0x158C                    #  Was: power
+          KEY_MUTE                 0x15A6                    #  Was: mute
+          KEY_A                    0x1596                    #  Was: a
+          KEY_B                    0x1597                    #  Was: b
+          KEY_C                    0x1598                    #  Was: c
+          KEY_D                    0x1599                    #  Was: d
+          game                     0x159A
+          KEY_AUX                  0x15AA                    #  Was: aux
+          KEY_INFO                 0x159B                    #  Was: info
+          KEY_TEXT                 0x15BC                    #  Was: txt
+          tv/r                     0x1594
+          KEY_MENU                 0x15A4                    #  Was: menu
+          KEY_INFO                 0x1592                    #  Was: guide
+          KEY_PAUSE                0x15A9                    #  Was: pause
+          KEY_RED                  0x15B7                    #  Was: red
+          KEY_GREEN                0x15B6                    #  Was: green
+          KEY_YELLOW               0x15B2                    #  Was: yellow
+          KEY_BLUE                 0x15B4                    #  Was: blue
+          KEY_UP                   0x15A0                    #  Was: up
+          KEY_LEFT                 0x15B9                    #  Was: left
+          KEY_OK                   0x15BB                    #  Was: ok
+          KEY_RIGHT                0x15BA                    #  Was: right
+          KEY_DOWN                 0x15A1                    #  Was: down
+          KEY_ESC                  0x15A7                    #  Was: esc
+          f_left                   0x158F
+          f_right                  0x15A3
+          tick/audio               0x1593
+          KEY_1                    0x1581                    #  Was: 1
+          KEY_2                    0x1582                    #  Was: 2
+          KEY_3                    0x1583                    #  Was: 3
+          KEY_4                    0x1584                    #  Was: 4
+          KEY_5                    0x1585                    #  Was: 5
+          KEY_6                    0x1586                    #  Was: 6
+          KEY_7                    0x1587                    #  Was: 7
+          KEY_8                    0x1588                    #  Was: 8
+          KEY_9                    0x1589                    #  Was: 9
+          KEY_PREVIOUS             0x158A                    #  Was: previous
+          KEY_0                    0x1580                    #  Was: 0
+          KEY_SLEEP                0x15B8                    #  Was: sleep
+      end codes
+
+end remote
+
+

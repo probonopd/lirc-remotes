@@ -1,0 +1,118 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.6(default) on Tue Nov 24 12:28:35 2009
+#
+# contributed by
+#
+# brand:                       JVC
+# model no. of remote control: RM-SEEXA1R
+# devices being controlled by this remote:
+#
+
+begin remote
+
+  name  JVC_RM-SEEXA1R
+  bits           16
+  flags SPACE_ENC|NO_HEAD_REP|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       8465  4165
+  one           528  1573
+  zero          528   529
+  ptrail        532
+  gap          46305
+  min_repeat      7
+  toggle_bit_mask 0x0
+
+      begin codes
+          DIMMER                   0xF52D
+          UPPER                    0xC50E
+          LOWER                    0xC54E
+          KEY_OPEN                 0xF722                    #  Was: OPEN/CLOSE
+          KEY_SLEEP                0xC5C0                    #  Was: SLEEP
+          FM/AM                    0xC5D0
+          KEY_AUX                  0xC57C                    #  Was: AUX
+          KEY_POWER                0xC5E8                    #  Was: POWER_AUDIO
+          KEY_POWER                0xC0E8                    #  Was: POWER_TV
+          TV/VIDEO                 0xC0C8
+          KEY_REWIND               0xF593                    #  Was: <<
+          KEY_FORWARD              0xF513                    #  Was: >>
+          RET                      0xF792
+          MUTING                   0xC538
+          CHAN_UP_TV               0xC098
+          CHAN_DOWN_TV             0xC018
+          VOL_UP_TV                0xC078
+          VOL_DOWN_TV              0xC0F8
+          VOL_UP_AUD               0xC578
+          VOL_DOWN_AUD             0xC5F8
+          TUNING-                  0xF5B3
+          TUNING+                  0xF533
+          KEY_PLAY                 0xF772                    #  Was: PLAY
+          SLOW-                    0xF5F3
+          SLOW+                    0xF573
+          KEY_STOP                 0xF545                    #  Was: STOP
+          KEY_PAUSE                0xF7B2                    #  Was: PAUSE
+          TOP_MENU                 0xF743
+          KEY_MENU                 0xF783                    #  Was: MENU
+          KEY_POWER                0xF703                    #  Was: ON_SCREEN
+          KEY_CANCEL               0xF58D                    #  Was: CANCEL
+          KEY_UP                   0xF503                    #  Was: UP
+          KEY_DOWN                 0xF583                    #  Was: DOWN
+          KEY_LEFT                 0xF5C3                    #  Was: LEFT
+          KEY_RIGHT                0xF543                    #  Was: RIGHT
+          KEY_ENTER                0xF54D                    #  Was: ENTER
+          CHOICE                   0xF7FE
+          KEY_AUDIO                0xF713                    #  Was: AUDIO
+          KEY_SUBTITLE             0xF7B3                    #  Was: SUBTITLE
+          KEY_ANGLE                0xF7D3                    #  Was: ANGLE
+          KEY_0                    0xF507                    #  Was: 0
+          KEY_1                    0xF587                    #  Was: 1
+          KEY_2                    0xF547                    #  Was: 2
+          KEY_3                    0xF5C7                    #  Was: 3
+          KEY_4                    0xF527                    #  Was: 4
+          KEY_5                    0xF5A7                    #  Was: 5
+          KEY_6                    0xF567                    #  Was: 6
+          KEY_7                    0xF5E7                    #  Was: 7
+          KEY_8                    0xF517                    #  Was: 8
+          KEY_9                    0xF597                    #  Was: 9
+          KEY_0                    0xF557                    #  Was: 10
+          KEY_10CHANNELSUP         0xF5F7                    #  Was: +10
+          KEY_ENTER                0xF7AB                    #  Was: RETURN
+          VFP                      0xF77D
+          PAGE                     0xF7DB
+          KEY_ZOOM                 0xF73D                    #  Was: ZOOM
+          KEY_PLAY                 0xF505                    #  Was: PLAY_MODE
+          KEY_AGAIN                0xF585                    #  Was: REPEAT
+          FM_MODE                  0xC55A
+          MEMORY                   0xC5EE
+          S.WFROUT                 0xC56E
+          VIRT_SUR                 0xF7BD
+          KEY_DVD                  0xF738                    #  Was: DVD_LEVEL
+          A.STANDBY                0xF586
+          PTY+                     0xF501
+          PTY-                     0xF581
+          RDS_DISPLAY              0xF5C1
+          KEY_SEARCH               0xF541                    #  Was: SEARCH
+          TA/NEWS/INFO             0xF5A1
+          BASS+                    0xC5C1
+          BASS-                    0xC5C9
+          TREBLE+                  0xC5B1
+          TREBLE-                  0xC5B9
+          TV0                      0xC004
+          TV1                      0xC084
+          TV2                      0xC044
+          TV3                      0xC0C4
+          TV4                      0xC024
+          TV5                      0xC0A4
+          TV6                      0xC064
+          TV7                      0xC0E4
+          TV8                      0xC014
+          TV9                      0xC094
+          TV10                     0xC0A0
+          TV+10                    0xC0EE
+      end codes
+
+end remote
+
+

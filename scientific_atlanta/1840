@@ -1,0 +1,75 @@
+# this config file was automatically generated
+# using lirc-0.8.1(default) on Sun Apr 15 01:59:37 2007
+#
+# contributed by Calvin Walton
+#
+# brand:                       Rogers
+# model no. of remote control: Unknown
+# devices being controlled by this remote: Scientific Atlanta 1840, possibly
+# other (all?) Rogers set-top boxes.
+#
+
+begin remote
+
+  name  Scientific_Atlanta-1840
+  bits           22
+  flags SPACE_ENC
+  eps            30
+  aeps          100
+
+  header       3385  3277
+  one           871  2479
+  zero          871   793
+  ptrail        865
+  gap          37261
+  toggle_bit      0
+
+
+      begin codes
+          NUM_1                    0x36113D
+          NUM_2                    0x37111D
+          NUM_3                    0x36912D
+          NUM_4                    0x37910D
+          NUM_5                    0x365135
+          NUM_6                    0x375115
+          NUM_7                    0x36D125
+          NUM_8                    0x37D105
+          NUM_9                    0x363139
+          NUM_0                    0x373119
+          KEY_SELECT               0x366133                  #  Was: SELECT
+          ARROW_UP                 0x36812F
+          ARROW_DOWN               0x37A10B
+          ARROW_LEFT               0x37810F
+          ARROW_RIGHT              0x364137
+          KEY_CHANNELUP            0x377111                  #  Was: CH_UP
+          KEY_CHANNELDOWN          0x36F121                  #  Was: CH_DOWN
+          KEY_VOLUMEUP             0x36093E                  #  Was: VOL_UP
+          KEY_VOLUMEDOWN           0x37091E                  #  Was: VOL_DOWN
+          KEY_NUMERIC_STAR         0x37E103                  #  Was: STAR
+          KEY_NUMERIC_POUND        0x36B928                  #  Was: HASH
+          KEY_MUTE                 0x36892E                  #  Was: MUTE
+          KEY_NEXT                 0x36D924                  #  Was: NEXT
+          KEY_PREVIOUS             0x37D904                  #  Was: PREV
+          KEY_EXIT                 0x366932                  #  Was: EXIT
+          KEY_FAVORITES            0x37F101                  #  Was: FAV
+          KEY_LAST                 0x36E123                  #  Was: LAST
+          KEY_INFO                 0x36213B                  #  Was: INFO
+          KEY_INFO                 0x36C127                  #  Was: GUIDE
+          KEY_MENU                 0x373918                  #  Was: MENU
+          KEY_POWER                0x37C107                  #  Was: POWER
+          KEY_LAST                 0x36E123                  #  Was: LAST
+          KEY_A                    0x37E902                  #  Was: A
+          KEY_B                    0x36193C                  #  Was: B
+          KEY_C                    0x37191C                  #  Was: C
+          KEY_REWIND               0x37291A                  #  Was: REWIND
+          KEY_PLAY                 0x37990C                  #  Was: PLAY
+          KEY_FASTFORWARD          0x36293A                  #  Was: FASTFORWARD
+          KEY_PAUSE                0x374117                  #  Was: PAUSE
+          KEY_STOP                 0x365934                  #  Was: STOP
+          KEY_RECORD               0x375914                  #  Was: RECORD
+          BYPASS                   0x376113
+      end codes
+
+end remote
+
+

@@ -1,0 +1,63 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.3pre1(default) on Wed Jul  9 00:02:08 2008
+#
+# contributed by
+#
+# brand:      JVC
+# model:      RM-RXUV5R
+# devices being controlled by this remote:
+#
+
+begin remote
+
+  name  JVC_RM-RXUV5R
+  bits           16
+  flags SPACE_ENC|NO_HEAD_REP|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       8458  4198
+  one           558  1556
+  zero          558   497
+  ptrail        547
+  gap          46353
+  min_repeat      1
+  toggle_bit_mask 0x0
+
+      begin codes
+          KEY_POWER                0xC5E8                    #  Was: POWER
+          KEY_SLEEP                0xC5C0                    #  Was: SLEEP
+          DIMMER                   0xCD4A
+          DISPLAY                  0xC50E
+          FM-MODE                  0xC55A
+          MD-AUX                   0xC57C
+          AHB-PRO                  0xC5AE
+          AUTO-PRESET              0xC5EE
+          CD-EJECT                 0xCD22
+          PROGRAM                  0xCD56
+          RANDOM                   0xCD4E
+          KEY_AGAIN                0xCDDA                    #  Was: REPEAT
+          BASS                     0xF578
+          TREBLE                   0xF574
+          KEY_CANCEL               0xCDB6                    #  Was: CANCEL
+          KEY_UP                   0xF500                    #  Was: UP
+          KEY_DOWN                 0xF580                    #  Was: DOWN
+          KEY_LEFT                 0xF5C0                    #  Was: LEFT
+          KEY_RIGHT                0xF540                    #  Was: RIGHT
+          PTY-EON                  0xF5A1
+          DISPLAY-MODE             0xF5C1
+          SET                      0xF589
+          KEY_TAPE                 0xC5FC                    #  Was: TAPE
+          TUNER-BAND               0xC5DA
+          CD-PLAY-PAUSE            0xC5BC
+          KEY_PREVIOUS             0xF560                    #  Was: PREV
+          KEY_STOP                 0xCDC2                    #  Was: STOP
+          KEY_NEXT                 0xF5A0                    #  Was: NEXT
+          KEY_VOLUMEUP             0xC578                    #  Was: VOL-UP
+          KEY_VOLUMEDOWN           0xC5F8                    #  Was: VOL-DOWN
+      end codes
+
+end remote
+
+

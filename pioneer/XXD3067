@@ -1,0 +1,82 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.5(default) on Sun Nov 29 17:56:33 2009
+#
+# contributed by
+#
+# brand:                       Pioneer
+# model no. of remote control: XXD3067
+# devices being controlled by this remote:
+#
+
+begin remote
+
+  name  Pioneer_XXD3067
+  bits           32
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       8596  4157
+  one           614  1511
+  zero          614   459
+  ptrail        613
+  gap          91774
+  toggle_bit_mask 0x0
+
+      begin codes
+          KEY_POWER                0xA55A38C7                #  Was: POWER
+          KEY_SLEEP                0xA55A12ED                #  Was: SLEEP
+          FL_DIMMER                0xA55A6A95
+          INPUT_ATT                0xA55A7A85
+          KEY_DVD                  0xA55AA15E                #  Was: DVD_LD
+          KEY_DVD                  0xA55A7A85                #  Was: DVD_51
+          TV_SAT                   0xA55A30CF
+          DVR_VCR                  0xA55A916E
+          KEY_CD                   0xA55A32CD                #  Was: CD
+          TAPE_MD                  0xA55A11EE
+          KEY_RADIO                0xA55A51AE                #  Was: FM
+          AM                       0xA55AD12E
+          STANDARD_SOUND           0xA55A7A85
+          ADVANCED_SURROUND        0xA55AF906
+          STEREO                   0xA55AF906
+          MIDNIGHT_LOUDNESS        0xA55AF906
+          TOP_MENU                 0x25DA1AE5
+          KEY_MENU                 0xA55A5AA5                #  Was: MENU
+          TUNER_EDIT               0x25DA1AE5
+          KEY_UP                   0xA55A01FE                #  Was: UP
+          KEY_ENTER                0xA55A21DE                #  Was: ENTER
+          KEY_LEFT                 0xA55AC13E                #  Was: LEFT
+          KEY_RIGHT                0xA55A41BE                #  Was: RIGHT
+          KEY_DOWN                 0xA55A817E                #  Was: DOWN
+          KEY_VOLUMEUP             0xA55A50AF                #  Was: VOL_+
+          KEY_VOLUMEDOWN           0xA55AD02F                #  Was: VOL_-
+          CH_SELECT                0xA55A6A95
+          TEST_TONE                0xA55A6A95
+          LEVEL+                   0xA55A42BD
+          LEVEL-                   0xA55A827D
+          EFFECT+                  0xA55A827D
+          EFFECT-                  0xA55A42BD
+          KEY_MUTE                 0xA55A48B7                #  Was: MUTE
+          CLASS                    0x25DA02FD
+          TUNING+                  0x25DA6A95
+          TUNING-                  0x25DAEA15
+          STATION+                 0x25DA08F7
+          STATION-                 0x25DA8877
+          MPX                      0x25DA7887
+          DISPLAY                  0x25DA52AD
+          KEY_DVD                  0xC53A9966                #  Was: DVD_POWER
+          KEY_DVD                  0xC53A9966                #  Was: DVD_AUDIO
+          KEY_DVD                  0xC53A9966                #  Was: DVD_SUBTITLE
+          KEY_DVD                  0xC53AD926                #  Was: DVD_BACK
+          KEY_DVD                  0xC53A59A6                #  Was: DVD_FORWARD
+          KEY_DVD                  0xC53A7986                #  Was: DVD_PLAY
+          KEY_DVD                  0xC53AB946                #  Was: DVD_PREV
+          KEY_DVD                  0xC53AF906                #  Was: DVD_PAUSE
+          KEY_DVD                  0xC53A19E6                #  Was: DVD_STOP
+          KEY_DVD                  0xC53A39C6                #  Was: DVD_NEXT
+      end codes
+
+end remote
+
+

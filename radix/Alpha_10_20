@@ -1,0 +1,54 @@
+#
+# this config file was automatically generated
+# using WinLIRC 0.6.4 (LIRC 0.6.1pre3) on Wed Oct 15 21:17:50 2003
+#
+# contributed by
+#
+# brand:    Radix
+# model:    Alpha 10/20        
+# supported devices:
+#
+
+begin remote
+
+  name  Radix_Alpha_10_20
+  bits           16
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  header       9101  4365
+  one           679   438
+  zero          679  1564
+  ptrail        679
+  repeat       9080  2135
+  pre_data_bits   16
+  pre_data       0xAE50
+  gap          38664
+  toggle_bit      0
+
+
+      begin codes
+          KEY_2                    0x000000000000BF40        #  Was: 2
+          KEY_1                    0x0000000000003FC0        #  Was: 1
+          KEY_3                    0x0000000000007F80        #  Was: 3
+          KEY_4                    0x0000000000001FE0        #  Was: 4
+          KEY_5                    0x0000000000009F60        #  Was: 5
+          KEY_6                    0x0000000000005FA0        #  Was: 6
+          KEY_7                    0x0000000000002FD0        #  Was: 7
+          KEY_8                    0x000000000000AF50        #  Was: 8
+          KEY_9                    0x0000000000006F90        #  Was: 9
+          KEY_0                    0x0000000000008F70        #  Was: 0
+          KEY_POWER                0x000000000000FF00        #  Was: POWER
+          KEY_MUTE                 0x0000000000008778        #  Was: MUTE
+          ---                      0x00000000000047B8
+          CH/LIST                  0x000000000000C738
+          KEY_MENU                 0x000000000000D728        #  Was: MENU
+          DOWN/CH-                 0x00000000000027D8
+          UP/CH+                   0x000000000000A758
+          LEFT/LOUD-               0x0000000000007788
+          RIGHT/LOUD+              0x0000000000004FB0
+      end codes
+
+end remote
+

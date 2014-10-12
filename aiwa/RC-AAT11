@@ -1,0 +1,61 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.5(sir) on Mon Sep 30 20:46:41 2002
+#
+# contributed by 		alain.roos@6sens.com
+#
+# brand:                       			AIWA
+# model no. of remote control: 			RC-AAT11
+# devices being controlled by this remote: 	XR-M201
+#
+
+begin remote
+
+  name  HIFI
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            60
+  aeps            0
+
+  header       9175  4432
+  one           625  1650
+  zero          625   500
+  ptrail        625
+  repeat       9175  4432
+  pre_data_bits   26
+  pre_data       0x381E3F
+  gap          108765
+  toggle_bit      0
+
+
+      begin codes
+          KEY_1                    0x000000000000807F        #  Was: 1
+          KEY_2                    0x00000000000040BF        #  Was: 2
+          KEY_3                    0x000000000000C03F        #  Was: 3
+          KEY_4                    0x00000000000020DF        #  Was: 4
+          KEY_5                    0x000000000000A05F        #  Was: 5
+          KEY_6                    0x000000000000609F        #  Was: 6
+          KEY_7                    0x000000000000E01F        #  Was: 7
+          KEY_8                    0x00000000000010EF        #  Was: 8
+          KEY_9                    0x000000000000906F        #  Was: 9
+          KEY_0                    0x00000000000050AF        #  Was: 0
+          KEY_10CHANNELSUP         0x000000000000D02F        #  Was: +10
+          KEY_AGAIN                0x0000000000008A75        #  Was: REPEAT
+          DISPLAY                  0x00000000000001FE
+          EQ                       0x00000000000053AC
+          KEY_MODE                 0x000000000000F10E        #  Was: MODE
+          BAND                     0x000000000000C837
+          FUNCTION                 0x000000000000BB44
+          KEY_VOLUMEDOWN           0x00000000000048B7        #  Was: VOL-
+          KEY_VOLUMEUP             0x0000000000008877        #  Was: VOL+
+          KEY_POWER                0x00000000000000FF        #  Was: POWER
+          KEY_PAUSE                0x000000000000936C        #  Was: PAUSE
+          KEY_UP                   0x00000000000023DC        #  Was: UP
+          KEY_DOWN                 0x000000000000A35C        #  Was: DOWN
+          KEY_LEFT                 0x000000000000E31C        #  Was: LEFT
+          KEY_RIGHT                0x000000000000639C        #  Was: RIGHT
+      end codes
+
+end remote
+
+

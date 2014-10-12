@@ -1,0 +1,62 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.5(irdeo) on Tue Jun 18 19:54:36 2002
+#
+# contributed by
+#
+# brand:                       TechniSat
+# model no. of remote control: ST3002S
+# devices being controlled by this remote: Sattelite Receiver
+#
+
+begin remote
+
+  name  ST3002S
+  bits           11
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           201  7390
+  zero          201  4859
+  ptrail        210
+  gap          121450
+  toggle_bit      2
+
+
+      begin codes
+          KEY_POWER                0x0000000000000441        #  Was: power
+          KEY_MUTE                 0x0000000000000446        #  Was: mute
+          KEY_1                    0x0000000000000450        #  Was: 1
+          KEY_2                    0x0000000000000451        #  Was: 2
+          KEY_3                    0x0000000000000452        #  Was: 3
+          KEY_4                    0x0000000000000453        #  Was: 4
+          KEY_5                    0x0000000000000454        #  Was: 5
+          KEY_6                    0x0000000000000455        #  Was: 6
+          KEY_7                    0x0000000000000456        #  Was: 7
+          KEY_8                    0x0000000000000457        #  Was: 8
+          KEY_9                    0x0000000000000458        #  Was: 9
+          KEY_0                    0x000000000000044F        #  Was: 0
+          KEY_VOLUMEUP             0x000000000000046E        #  Was: volume_plus
+          KEY_VOLUMEDOWN           0x000000000000046F        #  Was: volume_minus
+          program_plus             0x0000000000000447
+          program_minus            0x0000000000000448
+          KEY_RADIO                0x0000000000000442        #  Was: radio
+          audio_plus               0x0000000000000468
+          audio_minus              0x0000000000000469
+          deem                     0x000000000000045E
+          dek                      0x0000000000000444
+          a-b                      0x0000000000000464
+          lnb                      0x000000000000044E
+          KEY_VIDEO                0x000000000000046C        #  Was: video_plus
+          KEY_VIDEO                0x000000000000046D        #  Was: video_minus
+          KEY_SAT                  0x0000000000000449        #  Was: sat
+          KEY_TAB                  0x0000000000000445        #  Was: tab
+          save                     0x0000000000000466
+          KEY_DELETE               0x0000000000000461        #  Was: delete
+      end codes
+
+end remote
+
+
+

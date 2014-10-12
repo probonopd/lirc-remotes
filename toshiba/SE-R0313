@@ -1,0 +1,79 @@
+# this config file was automatically generated
+# using lirc-0.8.6(emulation) on Sat May  8 00:26:03 2010
+#
+# contributed by
+#
+# brand: TOSHIBA
+# model no. of remote control: SE-R0313
+# devices being controlled by this remote: TOSHIBA DVD-Player SD7200
+#
+
+begin remote
+
+  name  TOSHIBA_SE-R0313
+  bits           16
+  flags SPACE_ENC
+  eps            30
+  aeps          100
+
+  one           593  1656
+  zero          593   525
+  ptrail        593
+  pre_data_bits   16
+  pre_data       0xA25D
+  gap          42600
+  toggle_bit_mask 0x0
+
+      begin codes
+          KEY_POWER                0x48B7                    #  Was: power
+          KEY_OPEN                 0xAF50                    #  Was: open
+          KEY_1                    0x807F                    #  Was: one
+          KEY_2                    0x40BF                    #  Was: two
+          KEY_3                    0xC03F                    #  Was: three
+          KEY_4                    0x20DF                    #  Was: four
+          KEY_5                    0xA05F                    #  Was: five
+          KEY_6                    0x609F                    #  Was: six
+          KEY_7                    0xE01F                    #  Was: seven
+          KEY_8                    0x10EF                    #  Was: eight
+          KEY_9                    0x906F                    #  Was: nine
+          plusten                  0xA45B
+          KEY_0                    0x50AF                    #  Was: zero
+          KEY_SEARCH               0x649B                    #  Was: search
+          epm                      0x7788
+          eam                      0xC23D
+          slowleft                 0x629D
+          slowright                0xB04F
+          KEY_ANGLE                0x946B                    #  Was: angle
+          KEY_SUBTITLE             0x14EB                    #  Was: subtitle
+          KEY_AUDIO                0xE41B                    #  Was: audio
+          KEY_PAUSE                0x00FF                    #  Was: pause
+          KEY_PLAY                 0xA857                    #  Was: play
+          KEY_STOP                 0x28D7                    #  Was: stop
+          KEY_PREVIOUS             0xC43B                    #  Was: previous
+          KEY_REWIND               0x9867                    #  Was: rewind
+          KEY_FASTFORWARD          0xC837                    #  Was: fastforward
+          KEY_NEXT                 0x24DB                    #  Was: next
+          KEY_UP                   0x01FE                    #  Was: up
+          KEY_DOWN                 0x817E                    #  Was: down
+          KEY_LEFT                 0x8A75                    #  Was: left
+          KEY_RIGHT                0xB24D                    #  Was: right
+          KEY_ENTER                0x847B                    #  Was: enter
+          topmenu                  0x7B84
+          KEY_MENU                 0x21DE                    #  Was: menu
+          KEY_CLEAR                0xF708                    #  Was: clear
+          display                  0x6897
+          navi                     0xE51A
+          KEY_ENTER                0x44BB                    #  Was: return
+          memory                   0x54AB
+          KEY_PLAY                 0xD42B                    #  Was: playmode
+          abrpt                    0x34CB
+          pbc                      0xEB14
+          KEY_SETUP                0x04FB                    #  Was: setup
+          progressive              0x728D
+          hdmi                     0xD02F
+          KEY_ZOOM                 0x02FD                    #  Was: zoom
+      end codes
+
+end remote
+
+

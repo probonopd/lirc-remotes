@@ -1,0 +1,56 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.6(sir) on Tue Jul 22 13:51:22 2003
+#
+# contributed by Mirko Petkovic <mirko@email.hinet.hr>
+#
+# brand:                       SHARP
+# model no. of remote control: G0412GE
+# devices being controlled by this remote: SHARP VCR VC-A105
+
+
+begin remote
+
+  name  G0412GE
+  bits           15
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           281  1826
+  zero          281   772
+  ptrail        281
+  gap          67790
+  min_repeat      2
+  toggle_bit      0
+
+
+      begin codes
+          OPERATE                  0x00000000000061A2
+          KEY_EJECTCD              0x0000000000006332        #  Was: EJECT
+          DISPLAY                  0x00000000000060C6
+          MEMORY                   0x0000000000006306
+          KEY_MUTE                 0x00000000000063A2        #  Was: MUTE
+          KEY_CLEAR                0x0000000000006012        #  Was: CLEAR
+          TRACKING_DOWN            0x0000000000006186
+          TRACKING_UP              0x0000000000006286
+          KEY_TIME                 0x00000000000060D2        #  Was: CLOCK
+          PROG                     0x00000000000062E2
+          KEY_CHANNELDOWN          0x0000000000006122        #  Was: CHANNEL_DOWN
+          KEY_CHANNELUP            0x0000000000006222        #  Was: CHANNEL_UP
+          TIMER_ON_OFF             0x0000000000006262
+          KEY_SEARCH               0x00000000000063B2        #  Was: SEARCH
+          KEY_TIME                 0x00000000000061C2        #  Was: TIME
+          KEY_RECORD               0x00000000000063C2        #  Was: REC_TIME
+          KEY_RECORD               0x0000000000006052        #  Was: REC
+          KEY_STOP                 0x0000000000006392        #  Was: STOP
+          PAUSE_STILL              0x0000000000006292
+          KEY_PLAY                 0x0000000000006112        #  Was: PLAY
+          REV                      0x0000000000006312
+          KEY_FASTFORWARD          0x0000000000006212        #  Was: FF
+          C-LOCK                   0x00000000000062C2
+      end codes
+
+end remote
+
+

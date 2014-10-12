@@ -1,0 +1,145 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.5(serial) on Mon Aug 26 12:19:55 2002
+#
+# contributed by Nicholas Bayle / reddeno@muddypuddle.org
+#
+# brand:										Panasonic
+# model no. of remote control:					EUR7702KE0
+# devices being controlled by this remote:		SA-HE70 Receiver
+#
+
+begin remote
+
+  name  EUR7702KE0
+  bits           32
+  flags SPACE_ENC
+  eps            30
+  aeps          100
+
+  header       3496  1760
+  one           447  1304
+  zero          447   432
+  ptrail        447
+  pre_data_bits   16
+  pre_data       0x4004
+  gap          74586
+  toggle_bit      0
+
+
+      begin codes
+          Main-Power               0x000000000D00BCB1
+          KEY_DVD                  0x000000000500C5C0        #  Was: DVD-Power
+          KEY_DVD                  0x000000000D000805        #  Was: DVD-1
+          KEY_DVD                  0x000000000D008885        #  Was: DVD-2
+          KEY_DVD                  0x000000000D004845        #  Was: DVD-3
+          KEY_DVD                  0x000000000D00C8C5        #  Was: DVD-4
+          KEY_DVD                  0x000000000D002825        #  Was: DVD-5
+          KEY_DVD                  0x000000000D00A8A5        #  Was: DVD-6
+          KEY_DVD                  0x000000000D006865        #  Was: DVD-7
+          KEY_DVD                  0x000000000D00E8E5        #  Was: DVD-8
+          KEY_DVD                  0x000000000D001815        #  Was: DVD-9
+          KEY_DVD                  0x000000000D009895        #  Was: DVD-0
+          KEY_DVD                  0x000000000D00919C        #  Was: DVD-10+
+          KEY_MENU                 0x000000000D00D9D4        #  Was: DVD-TopMenu
+          KEY_MENU                 0x000000000D00010C        #  Was: DVD-Menu
+          KEY_DVD                  0x000000000D004944        #  Was: DVD-Display
+          KEY_DVD                  0x000000000D00A1AC        #  Was: DVD-Up
+          KEY_DVD                  0x000000000D00616C        #  Was: DVD-Down
+          KEY_DVD                  0x000000000D00E1EC        #  Was: DVD-Left
+          KEY_DVD                  0x000000000D00111C        #  Was: DVD-Right
+          KEY_DVD                  0x000000000D00414C        #  Was: DVD-Enter
+          KEY_DVD                  0x000000000D00929F        #  Was: DVD-Prev
+          KEY_DVD                  0x000000000D00525F        #  Was: DVD-Next
+          KEY_DVD                  0x000000000D00000D        #  Was: DVD-Stop
+          KEY_DVD                  0x000000000D00505D        #  Was: DVD-Play
+          VCR-Power                0x000000000500797C
+          VCR-1                    0x0000000009000801
+          VCR-2                    0x0000000009008881
+          VCR-3                    0x0000000009004841
+          VCR-4                    0x000000000900C8C1
+          VCR-5                    0x0000000009002821
+          VCR-6                    0x000000000900A8A1
+          VCR-7                    0x0000000009006861
+          VCR-8                    0x000000000900E8E1
+          VCR-9                    0x0000000009001811
+          VCR-0                    0x0000000009009891
+          VCR-Prev                 0x0000000009004049
+          VCR-Next                 0x000000000900C0C9
+          VCR-Stop                 0x0000000009000009
+          VCR-Play                 0x0000000009005059
+          VCR-ChUp                 0x0000000009002C25
+          VCR-ChDown               0x000000000900ACA5
+          VCR-TV/Video             0x000000000100A0A1
+          TV-Power                 0x000000000500F9FC
+          TV-TV/Video              0x000000000100A0A1
+          TV-ChUp                  0x0000000001002C2D
+          TV-ChDown                0x000000000100ACAD
+          TV-1                     0x0000000001000809
+          TV-2                     0x0000000001008889
+          TV-3                     0x0000000001004849
+          TV-4                     0x000000000100C8C9
+          TV-5                     0x0000000001002829
+          TV-6                     0x000000000100A8A9
+          TV-7                     0x0000000001006869
+          TV-8                     0x000000000100E8E9
+          TV-9                     0x0000000001001819
+          TV-0                     0x0000000001009899
+          CD-Power                 0x000000000500292C
+          CD-1                     0x000000000550085D
+          CD-2                     0x00000000055088DD
+          CD-3                     0x000000000550481D
+          CD-4                     0x000000000550C89D
+          CD-5                     0x000000000550287D
+          CD-6                     0x000000000550A8FD
+          CD-7                     0x000000000550683D
+          CD-8                     0x000000000550E8BD
+          CD-9                     0x000000000550184D
+          CD-0                     0x00000000055098CD
+          CD-10+                   0x0000000005502174
+          CD-Prev                  0x00000000055092C7
+          CD-Next                  0x0000000005505207
+          CD-Stop                  0x0000000005500055
+          CD-Play                  0x0000000005505005
+          CD-DiscChange            0x0000000005502570
+          CD-DiscEnter             0x0000000005507722
+          Radio-Power/Band         0x000000000500494C
+          Radio-ChUp               0x0000000005202C09
+          Radio-ChDown             0x000000000520AC89
+          Radio-1                  0x000000000520082D
+          Radio-2                  0x00000000052088AD
+          Radio-3                  0x000000000520486D
+          Radio-4                  0x000000000520C8ED
+          Radio-5                  0x000000000520280D
+          Radio-6                  0x000000000520A88D
+          Radio-7                  0x000000000520684D
+          Radio-8                  0x000000000520E8CD
+          Radio-9                  0x000000000520183D
+          Radio-0                  0x00000000052098BD
+          Radio-Enter              0x0000000005202104
+          Radio-DirectTuning       0x0000000005201134
+          Tape-Power               0x000000000500696C
+          Tape-Prev                0x0000000005104055
+          Tape-Next                0x000000000510C0D5
+          Tape-Stop                0x0000000005100015
+          Tape-Play                0x0000000005105045
+          Tape-DeckSelect          0x000000000510A9BC
+          Audio-Power              0x000000000538FCC1
+          Audio-SoundMode          0x0000000005280D20
+          Audio-Subwoofer          0x000000000500ABAE
+          Audio-Test               0x0000000005286F42
+          Audio-Level              0x0000000005287D50
+          Audio-LevelUp            0x0000000005283D10
+          Audio-LevelDown          0x000000000528BD90
+          Audio-Effect             0x000000000528FDD0
+          Audio-EffectUp           0x0000000005283D10
+          Audio-EffectDown         0x000000000528BD90
+          Audio-SFC                0x0000000005288CA1
+          Audio-Muting             0x0000000005004C49
+          Audio-VolDown            0x0000000005008481
+          Audio-VolUp              0x0000000005000401
+      end codes
+
+end remote
+
+

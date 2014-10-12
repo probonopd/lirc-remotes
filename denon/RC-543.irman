@@ -1,0 +1,75 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.5(any) on Fri Nov 22 17:09:30 2002
+#
+# contributed by peter zwettler <peter@zwettler.net>
+#
+# brand: DENON                     RC-543.irman
+# model no. of remote control: RC-543
+# devices being controlled by this remote: DVD player
+#
+# irman !!!
+
+begin remote
+
+  name  RC-543.irman
+  bits           16
+  eps            30
+  aeps          100
+
+  one             0     0
+  zero            0     0
+  pre_data_bits   16
+  pre_data       0xFFFF
+  post_data_bits  32
+  post_data      0x0
+  gap          229748
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x00000000000028D0        #  Was: power
+          ntsc/pal                 0x0000000000002ED0
+          KEY_OPEN                 0x0000000000002090        #  Was: open/close
+          KEY_1                    0x0000000000002410        #  Was: 1
+          KEY_2                    0x0000000000002C10        #  Was: 2
+          KEY_3                    0x0000000000002210        #  Was: 3
+          KEY_4                    0x0000000000002A10        #  Was: 4
+          KEY_5                    0x0000000000002610        #  Was: 5
+          KEY_6                    0x0000000000002E10        #  Was: 6
+          KEY_7                    0x0000000000002110        #  Was: 7
+          KEY_8                    0x0000000000002910        #  Was: 8
+          KEY_9                    0x0000000000002510        #  Was: 9
+          KEY_0                    0x0000000000002810        #  Was: 0
+          KEY_10CHANNELSUP         0x0000000000002310        #  Was: +10
+          KEY_CLEAR                0x0000000000002C50        #  Was: clear
+          KEY_PREVIOUS             0x0000000000002990        #  Was: prev
+          KEY_NEXT                 0x0000000000002190        #  Was: next
+          KEY_REWIND               0x0000000000002D90        #  Was: rew
+          KEY_FORWARD              0x0000000000002590        #  Was: fwd
+          KEY_STOP                 0x0000000000002850        #  Was: stop
+          KEY_PAUSE                0x0000000000002B90        #  Was: pause
+          KEY_PLAY                 0x0000000000002050        #  Was: play
+          KEY_TITLE                0x0000000000002BD0        #  Was: title
+          KEY_MENU                 0x0000000000002890        #  Was: menu
+          display                  0x0000000000002E50
+          KEY_ENTER                0x0000000000002490        #  Was: return
+          KEY_UP                   0x0000000000002350        #  Was: up
+          KEY_DOWN                 0x0000000000002B50        #  Was: down
+          KEY_LEFT                 0x0000000000002F50        #  Was: left
+          KEY_RIGHT                0x0000000000002750        #  Was: right
+          KEY_SELECT               0x0000000000002DD0        #  Was: select
+          KEY_SUBTITLE             0x0000000000002B10        #  Was: subtitle
+          KEY_AUDIO                0x0000000000002710        #  Was: audio
+          KEY_ANGLE                0x0000000000002F10        #  Was: angle
+          prog/direct              0x0000000000002450
+          call                     0x00000000000027D0
+          KEY_SETUP                0x00000000000023D0        #  Was: setup
+          KEY_AGAIN                0x0000000000002290        #  Was: repeat
+          a-b_repeat               0x00000000000025D0
+          random                   0x0000000000002550
+      end codes
+
+end remote
+
+

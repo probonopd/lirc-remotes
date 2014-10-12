@@ -1,0 +1,50 @@
+#
+# contributed by Matthew Daubenspeck http://oddprocess.org
+#
+# brand: Audiovox Sirius PNP2
+#
+
+begin remote
+
+  name  Audiovox_Sirius_PNP2
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9060  4440
+  one           617  1634
+  zero          617   507
+  ptrail        617
+  repeat       9069  2185
+  pre_data_bits   16
+  pre_data       0x8F7
+  gap          107999
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x20DF                    #  Was: POWER
+          KEY_MUTE                 0x00FF                    #  Was: MUTE
+          KEY_0                    0x8877                    #  Was: 0
+          KEY_1                    0x906F                    #  Was: 1
+          KEY_2                    0x18E7                    #  Was: 2
+          KEY_3                    0xD827                    #  Was: 3
+          KEY_4                    0x58A7                    #  Was: 4
+          KEY_5                    0x10EF                    #  Was: 5
+          KEY_6                    0x30CF                    #  Was: 6
+          KEY_7                    0x38C7                    #  Was: 7
+          KEY_8                    0x50AF                    #  Was: 8
+          KEY_9                    0xC03F                    #  Was: 9
+          DISPLAY                  0xB04F
+          KEY_MENU                 0x08F7                    #  Was: MENU
+          BAND                     0xE01F
+          MEMO                     0x609F
+          KEY_CHANNELUP            0x48B7                    #  Was: CH+
+          KEY_CHANNELDOWN          0xC837                    #  Was: CH-
+          CAT-                     0x28D7
+          CAT+                     0x6897
+          KEY_SELECT               0xA857                    #  Was: SELECT
+      end codes
+
+end remote

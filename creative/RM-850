@@ -1,0 +1,61 @@
+
+# this config file was automatically generated
+# using lirc-0.8.6(default) on Sat Dec 12 01:00:36 2009
+#
+# contributed by	Netdive	<netdive|gmx.de>
+#
+# brand:                      	Creative
+# model no. of remote control:	RM-850
+# devices being controlled by this remote: Creative X-Fi Surround 5.1 (USB-Sound-Device)
+#
+
+begin remote
+
+  name  Creative_RM-850
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          300
+
+  header       9054  4642
+  one           613  1627
+  zero          613   505
+  ptrail        612
+  repeat       9056  2199
+  pre_data_bits   16
+  pre_data       0x8322
+  gap          108036
+  toggle_bit_mask 0x0
+  min_repeat 1
+  min_code_repeat 1
+
+      begin codes
+          KEY_POWER                0x619E                    #  Was: power
+          x-fi_crystal_on          0x916E
+          x-fi_crystal+            0x926D
+          x-fi_crystal-            0x936C
+          x-fi_cmss_on             0x718E
+          x-fi_cmss+               0x946B
+          x-fi_cmss-               0x956A
+          vol_off                  0x6E91
+          KEY_VOLUMEUP             0x629D                    #  Was: vol+
+          KEY_VOLUMEDOWN           0x639C                    #  Was: vol-
+          KEY_ENTER                0x8E71                    #  Was: return
+          KEY_PLAY                 0x8877                    #  Was: start
+          KEY_CANCEL               0x7C83                    #  Was: cancel
+          KEY_UP                   0x7B84                    #  Was: up
+          KEY_DOWN                 0x8D72                    #  Was: down
+          KEY_LEFT                 0x6B94                    #  Was: left
+          KEY_RIGHT                0x728D                    #  Was: right
+          KEY_OK                   0x817E                    #  Was: OK
+          KEY_RECORD               0x738C                    #  Was: rec
+          stop_eject               0x857A
+          KEY_OPTION               0x827D                    #  Was: option
+          KEY_PREVIOUS             0x7F80                    #  Was: prev
+          KEY_PLAYPAUSE            0x7986                    #  Was: play_pause
+          KEY_NEXT                 0x7A85                    #  Was: next
+      end codes
+
+end remote
+
+

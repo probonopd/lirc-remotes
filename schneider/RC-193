@@ -1,0 +1,79 @@
+#
+# this config file was automatically generated
+# using lirc-0.7.2(serial) on Thu Nov 10 15:12:12 2005
+#
+# contributed by
+#
+# brand:                      			schneider
+# model no. of remote control: 			RC 193
+# devices being controlled by this remote:	Hifi Center
+#
+
+begin remote
+
+  name  Schneider_RC-193
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9060  4401
+  one           638  1606
+  zero          638   483
+  ptrail        639
+  repeat       9059  2165
+  pre_data_bits   16
+  pre_data       0x59A6
+  gap          107724
+  toggle_bit      0
+
+
+      begin codes
+          KEY_1                    0x5AA5                    #  Was: 1
+          KEY_2                    0x7A85                    #  Was: 2
+          KEY_3                    0x728D                    #  Was: 3
+          KEY_4                    0xBA45                    #  Was: 4
+          KEY_5                    0x8A75                    #  Was: 5
+          KEY_6                    0x926D                    #  Was: 6
+          KEY_7                    0x9A65                    #  Was: 7
+          KEY_8                    0xAA55                    #  Was: 8
+          KEY_9                    0xB24D                    #  Was: 9
+          KEY_0                    0x0AF5                    #  Was: 0
+          KEY_10CHANNELSUP         0x12ED                    #  Was: +10
+          KEY_UP                   0xF20D                    #  Was: up
+          KEY_RIGHT                0x629D                    #  Was: right
+          KEY_LEFT                 0xDA25                    #  Was: left
+          KEY_DOWN                 0x6A95                    #  Was: down
+          ent                      0x4AB5
+          KEY_POWER                0xEA15                    #  Was: power
+          sound                    0xD02F
+          KEY_VOLUMEUP             0x42BD                    #  Was: vol+
+          KEY_VOLUMEDOWN           0x52AD                    #  Was: vol-
+          function                 0x6897
+          KEY_ENTER                0x1AE5                    #  Was: return
+          slow+                    0xC837
+          slow-                    0xF807
+          KEY_PAUSE                0xD827                    #  Was: pause
+          KEY_STOP                 0xF00F                    #  Was: stop
+          KEY_NEXT                 0x40BF                    #  Was: next
+          KEY_PREVIOUS             0x609F                    #  Was: prev
+          KEY_PLAY                 0xC03F                    #  Was: play
+          tuning+                  0xE01F
+          tuning-                  0xE817
+          KEY_ANGLE                0xD22D                    #  Was: angle
+          KEY_AUDIO                0x02FD                    #  Was: audio
+          KEY_CLEAR                0x3AC5                    #  Was: clear
+          memory                   0xCA35
+          disp                     0xC23D
+          KEY_MENU                 0xFA05                    #  Was: menu
+          goto                     0x22DD
+          KEY_SETUP                0x2AD5                    #  Was: setup
+          KEY_ZOOM                 0x32CD                    #  Was: zoom
+          KEY_SUBTITLE             0xE21D                    #  Was: subtitle
+          fmmode                   0xA25D
+          band                     0x827D
+      end codes
+
+end remote
+
+

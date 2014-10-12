@@ -1,0 +1,79 @@
+#
+# this config file was automatically generated
+# using lirc-0.7.0pre2(lirc_parallel) on Sun Nov  2 15:40:24 CET 2003
+#
+# contributed by Christoph Bartelmus
+#
+# brand:             SEG
+# model:             VR-F2PA / 97P1R2PAA4
+# supported devices: VCR 302 / VCR 306
+#
+#
+# Remark:
+# manually derived this from the very similar 97P1R2CCF0 config file
+#
+#   Christoph
+
+begin remote
+
+  name  SEG_VCR_2200
+  bits            8
+  flags SPACE_ENC
+  eps            30
+  aeps          100
+
+  header       8100  3933
+  one           555  1450
+  zero          555   450
+  ptrail        555
+  pre_data_bits   8
+  pre_data       0xA8
+  pre           555  3960
+  gap          20892
+  repeat_bit      0
+
+      begin codes
+          PROG                     0x000000000000009c
+          KEY_SLEEP                0x00000000000000A8        #  Was: STANDBY
+          KEY_1                    0x0000000000000080        #  Was: 1
+          KEY_2                    0x0000000000000040        #  Was: 2
+          KEY_3                    0x00000000000000C0        #  Was: 3
+          TV_VCR                   0x0000000000000068
+          KEY_4                    0x0000000000000020        #  Was: 4
+          KEY_5                    0x00000000000000A0        #  Was: 5
+          KEY_6                    0x0000000000000060        #  Was: 6
+          AV                       0x000000000000006C
+          KEY_7                    0x00000000000000E0        #  Was: 7
+          KEY_8                    0x0000000000000010        #  Was: 8
+          KEY_9                    0x0000000000000090        #  Was: 9
+          COUNT                    0x00000000000000B8
+          >>30                     0x0000000000000078
+          KEY_0                    0x0000000000000000        #  Was: 0
+          unlabeled_1              0x0000000000000098
+          unlabeled_2              0x00000000000000e4
+
+          KEY_PAUSE                0x0000000000000088        #  Was: PAUSE
+          KEY_REWIND               0x0000000000000008        #  Was: REW
+          KEY_PLAY                 0x0000000000000070        #  Was: PLAY
+          KEY_FASTFORWARD          0x00000000000000F0        #  Was: FFW
+          KEY_STOP                 0x00000000000000B0        #  Was: STOP
+          KEY_RECORD               0x0000000000000048        #  Was: RECORD
+          KEY_EJECTCD              0x0000000000000084        #  Was: EJECT
+
+          SP_LP                    0x00000000000000D8
+          KEY_SLOW                 0x00000000000000C8        #  Was: SLOW
+          KEY_CHANNELUP            0x00000000000000E8        #  Was: PR+
+          KEY_MENU                 0x0000000000000044        #  Was: MENU
+          PAL_SEC                  0x00000000000000F8
+          TUNE_LEFT                0x000000000000008C
+          KEY_OK                   0x0000000000000094        #  Was: OK
+          TUNE_RIGHT               0x00000000000000AC
+          INDEX-                   0x00000000000000FC
+          INDEX+                   0x00000000000000CC
+          KEY_CHANNELDOWN          0x0000000000000018        #  Was: PR-
+          ASEL                     0x0000000000000058
+      end codes
+
+end remote
+
+

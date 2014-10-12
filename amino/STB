@@ -1,0 +1,274 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.2(default) on Mon May  5 00:05:43 2008
+#
+# contributed by
+#
+# brand:                       AMINO
+# model no. of remote control:
+# devices being controlled by this remote:Set top box
+#
+
+begin remote
+
+  name   Amino_STB
+  flags RAW_CODES|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  ptrail          0
+  repeat     0     0
+  gap    98683
+
+      begin raw_codes
+
+          name 1
+          KEY_0                    1500                      #  Was: 2000
+          KEY_0                    150                       #  Was: 400
+          KEY_0                    450                       #  Was: 400
+          KEY_0                    150                       #  Was: 400
+          KEY_0                    150                       #  Was: 400
+          KEY_0                    150                       #  Was: 350
+          KEY_0                    200                       #  Was: 350
+          KEY_0                    500                       #  Was: 600
+          KEY_0                    200                       #  Was: 350
+          KEY_0                    200                       #  Was: 300
+
+          name 2
+          KEY_0                    1500                      #  Was: 2000
+          KEY_0                    150                       #  Was: 400
+          KEY_0                    500                       #  Was: 350
+          KEY_0                    150                       #  Was: 400
+          KEY_0                    150                       #  Was: 400
+          KEY_0                    150                       #  Was: 350
+          KEY_0                    200                       #  Was: 350
+          KEY_0                    200                       #  Was: 600
+          KEY_0                    200                       #  Was: 300
+          KEY_0                    200                       #  Was: 300
+          KEY_0                     #  Was: 300             
+
+          name 3
+          KEY_0                    1500                      #  Was: 2000
+          KEY_0                    150                       #  Was: 400
+          KEY_0                    450                       #  Was: 400
+          KEY_0                    150                       #  Was: 400
+          KEY_0                    150                       #  Was: 350
+          KEY_0                    200                       #  Was: 350
+          KEY_0                    200                       #  Was: 350
+          KEY_0                    200                       #  Was: 350
+          KEY_0                    200                       #  Was: 300
+          KEY_0                    200                       #  Was: 350
+
+          name 4
+          KEY_0                    1500                      #  Was: 2000
+          KEY_0                    150                       #  Was: 400
+          KEY_0                    450                       #  Was: 400
+          KEY_0                    150                       #  Was: 400
+          KEY_0                    150                       #  Was: 400
+          KEY_0                    150                       #  Was: 350
+          KEY_0                    200                       #  Was: 350
+          KEY_0                    200                       #  Was: 600
+          KEY_0                    200                       #  Was: 350
+          KEY_0                    200                       #  Was: 350
+
+          name 5
+          KEY_0                    1450                      #  Was: 2000
+          KEY_0                    100                       #  Was: 400
+          KEY_0                    450                       #  Was: 350
+          KEY_0                    150                       #  Was: 400
+          KEY_0                    150                       #  Was: 400
+          KEY_0                    150                       #  Was: 400
+          KEY_0                    150                       #  Was: 350
+          KEY_0                    500                       #  Was: 350
+          KEY_0                    200                       #  Was: 350
+          KEY_0                    450                       #  Was: 600
+
+          name 6
+          KEY_0                    1500                      #  Was: 1950
+          KEY_0                    100                       #  Was: 400
+          KEY_0                    450                       #  Was: 350
+          KEY_0                    150                       #  Was: 350
+          KEY_0                    200                       #  Was: 350
+          KEY_0                    200                       #  Was: 350
+          KEY_0                    150                       #  Was: 350
+          KEY_0                    200                       #  Was: 350
+          KEY_0                    200                       #  Was: 350
+          KEY_0                    200                       #  Was: 350
+
+          name 7
+          KEY_0                    1500                      #  Was: 2000
+          KEY_0                    100                       #  Was: 450
+          KEY_0                    450                       #  Was: 400
+          KEY_0                    150                       #  Was: 400
+          KEY_0                    150                       #  Was: 350
+          KEY_0                    200                       #  Was: 350
+          KEY_0                    200                       #  Was: 350
+          KEY_0                    200                       #  Was: 350
+          KEY_0                    150                       #  Was: 350
+          KEY_0                    150                       #  Was: 350
+
+          name 8
+          KEY_0                    1500                      #  Was: 2000
+          KEY_0                    150                       #  Was: 400
+          KEY_0                    500                       #  Was: 350
+          KEY_0                    150                       #  Was: 400
+          KEY_0                    150                       #  Was: 400
+          KEY_0                    150                       #  Was: 350
+          KEY_0                    200                       #  Was: 350
+          KEY_0                    200                       #  Was: 600
+          KEY_0                    200                       #  Was: 350
+          KEY_0                     #  Was: 550             
+
+          name 9
+          KEY_0                    1500                      #  Was: 1950
+          KEY_0                    100                       #  Was: 400
+          KEY_0                    450                       #  Was: 350
+          KEY_0                    200                       #  Was: 350
+          KEY_0                    200                       #  Was: 350
+          KEY_0                    200                       #  Was: 350
+          KEY_0                    150                       #  Was: 350
+          KEY_0                    200                       #  Was: 600
+          KEY_0                    500                       #  Was: 300
+          KEY_0                     #  Was: 350             
+
+          name 0
+          KEY_0                    1500                      #  Was: 2000
+          KEY_0                    150                       #  Was: 400
+          KEY_0                    450                       #  Was: 400
+          KEY_0                    150                       #  Was: 400
+          KEY_0                    150                       #  Was: 350
+          KEY_0                    200                       #  Was: 350
+          KEY_0                    200                       #  Was: 350
+          KEY_0                    200                       #  Was: 350
+          KEY_0                    150                       #  Was: 350
+          KEY_0                    200                       #  Was: 300
+
+          name vol+
+          KEY_0                    4600                      #  Was: 8850
+          KEY_0                    1650                      #  Was: 600
+          KEY_0                    500                       #  Was: 650
+          KEY_0                    500                       #  Was: 650
+          KEY_0                    500                       #  Was: 650
+          KEY_0                    500                       #  Was: 650
+          KEY_0                    550                       #  Was: 600
+          KEY_0                    550                       #  Was: 600
+          KEY_0                    500                       #  Was: 650
+          KEY_0                    550                       #  Was: 600
+          KEY_0                    1650                      #  Was: 600
+          KEY_0                     #  Was: 600             
+
+          name vol-
+          KEY_0                    4600                      #  Was: 8850
+          KEY_0                    1650                      #  Was: 650
+          KEY_0                    500                       #  Was: 650
+          KEY_0                    550                       #  Was: 600
+          KEY_0                    550                       #  Was: 600
+          KEY_0                    550                       #  Was: 600
+          KEY_0                    550                       #  Was: 600
+          KEY_0                    500                       #  Was: 600
+          KEY_0                    550                       #  Was: 600
+          KEY_0                    500                       #  Was: 600
+          KEY_0                    1650                      #  Was: 600
+          KEY_0                     #  Was: 600             
+
+          name ch+
+          KEY_0                    1450                      #  Was: 2000
+          KEY_0                    100                       #  Was: 450
+          KEY_0                    450                       #  Was: 400
+          KEY_0                    100                       #  Was: 400
+          KEY_0                    150                       #  Was: 400
+          KEY_0                    150                       #  Was: 400
+          KEY_0                    450                       #  Was: 650
+          KEY_0                    250                       #  Was: 600
+          KEY_0                    200                       #  Was: 350
+          KEY_0                    200                       #  Was: 350
+
+          name ch-
+          KEY_0                    1450                      #  Was: 2000
+          KEY_0                    100                       #  Was: 400
+          KEY_0                    450                       #  Was: 350
+          KEY_0                    100                       #  Was: 400
+          KEY_0                    150                       #  Was: 400
+          KEY_0                    150                       #  Was: 400
+          KEY_0                    450                       #  Was: 650
+          KEY_0                    250                       #  Was: 600
+          KEY_0                    450                       #  Was: 350
+          KEY_0                     #  Was: 600             
+
+          name guide
+          KEY_0                    1500                      #  Was: 2000
+          KEY_0                    100                       #  Was: 450
+          KEY_0                    450                       #  Was: 400
+          KEY_0                    150                       #  Was: 400
+          KEY_0                    150                       #  Was: 350
+          KEY_0                    200                       #  Was: 350
+          KEY_0                    250                       #  Was: 600
+          KEY_0                    200                       #  Was: 300
+          KEY_0                    200                       #  Was: 350
+          KEY_0                    200                       #  Was: 300
+
+          name lastch
+          KEY_0                    1450                      #  Was: 2000
+          KEY_0                    100                       #  Was: 400
+          KEY_0                    450                       #  Was: 350
+          KEY_0                    100                       #  Was: 400
+          KEY_0                    150                       #  Was: 400
+          KEY_0                    150                       #  Was: 400
+          KEY_0                    150                       #  Was: 400
+          KEY_0                    150                       #  Was: 350
+          KEY_0                    200                       #  Was: 350
+          KEY_0                    200                       #  Was: 350
+
+          name mute
+          KEY_0                    4600                      #  Was: 8850
+          KEY_0                    1650                      #  Was: 650
+          KEY_0                    500                       #  Was: 650
+          KEY_0                    550                       #  Was: 600
+          KEY_0                    550                       #  Was: 600
+          KEY_0                    550                       #  Was: 600
+          KEY_0                    500                       #  Was: 650
+          KEY_0                    500                       #  Was: 600
+          KEY_0                    500                       #  Was: 650
+          KEY_0                    1700                      #  Was: 600
+          KEY_0                    1700                      #  Was: 600
+          KEY_0                     #  Was: 600             
+
+          name exit
+          KEY_0                    1450                      #  Was: 2000
+          KEY_0                    100                       #  Was: 450
+          KEY_0                    450                       #  Was: 350
+          KEY_0                    100                       #  Was: 400
+          KEY_0                    150                       #  Was: 400
+          KEY_0                    150                       #  Was: 400
+          KEY_0                    200                       #  Was: 650
+          KEY_0                    200                       #  Was: 600
+          KEY_0                    200                       #  Was: 350
+          KEY_0                    450                       #  Was: 600
+
+          name info
+          KEY_0                    1450                      #  Was: 2000
+          KEY_0                    100                       #  Was: 450
+          KEY_0                    450                       #  Was: 400
+          KEY_0                    100                       #  Was: 400
+          KEY_0                    100                       #  Was: 400
+          KEY_0                    150                       #  Was: 400
+          KEY_0                    200                       #  Was: 650
+          KEY_0                    250                       #  Was: 550
+          KEY_0                    450                       #  Was: 350
+          KEY_0                     #  Was: 350             
+
+          name tools
+          KEY_0                    1500                      #  Was: 2000
+          KEY_0                    150                       #  Was: 400
+          KEY_0                    450                       #  Was: 400
+          KEY_0                    150                       #  Was: 400
+          KEY_0                    150                       #  Was: 350
+          KEY_0                    200                       #  Was: 350
+          KEY_0                    250                       #  Was: 600
+          KEY_0                    150                       #  Was: 350
+          KEY_0                    200                       #  Was: 350
+          KEY_0                    200                       #  Was: 300
+
+      end raw_codes
+
+end remote

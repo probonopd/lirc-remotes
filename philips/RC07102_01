@@ -1,0 +1,103 @@
+# this config file was generated with the help of
+# xmode2-0.7.0 on 2004-11-11
+#
+# contributed by Adrien Beau <adrien.put_my_name_here@free.fr>
+#
+# brand:                       Philips
+# model no. of remote control: RC07102/01
+# device being controlled by this remote: AS680C sound system, many others
+#
+# This remote is sold as part of many Philips sound systems. There
+# are some variations depending on which features the sound system
+# offers. For example, this particular remote supports selecting
+# one of the three available CD slots, when another remote offers
+# some TV controls instead. Anyway, all codes sent by the keys are
+# the appropriate standard Philips codes, so you can use your
+# remote to have basic control over many Philips devices.
+#
+# The timings and protocol information were obtained from
+# http://www.ustr.net/infrared/index.shtml
+# This helped me ensure that the information below is accurate and
+# can be used as a basis for other Philips/RC5 remotes. I tuned
+# the "gap" a little bit so I would get better key repeats.
+
+begin remote
+
+  name  Philips-RC07102/01
+  bits           13
+  flags RC5|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           864   864
+  zero          864   864
+  plead         864
+  gap          125000
+  toggle_bit      2
+  frequency    37037
+
+#	Descriptive Key Name		Code		Real Function
+      begin codes
+#         These are the "System Select" keys. They change which
+#         mode the AS680C system and the remote are in. Most keys
+#         on the remote emit a different code for each of the four
+#         possible modes.
+          KEY_TUNER                0x000000000000147F        #  Was: Tuner
+          Tape_1/2                 0x00000000000014BF	# also Switch Decks
+          KEY_CD                   0x000000000000153F        #  Was: CD
+          KEY_AUX                  0x000000000000157F        #  Was: Aux
+
+#         These keys always send the same code. These are
+#         Amplifier (Amp) codes.
+          DBB                      0x0000000000000406	# Dynamic Bass Boost
+          DSC                      0x000000000000040F	# Digital Sound Control
+          Inc_Surr                 0x0000000000000400	# Incredible Surround
+          KEY_VOLUMEDOWN           0x0000000000001411        #  Was: Volume_Down
+          KEY_VOLUMEUP             0x0000000000001410        #  Was: Volume_Up
+
+#         These are the codes sent by the keys in Tuner mode. The
+#         Select_CD_1, Select_CD_2, Select_CD_3, Repeat, Shuffle,
+#         Pause, Play, and Stop keys send no codes in Tuner mode.
+          Tuner_Power              0x000000000000144C	# Standby
+          Tuner_Program            0x000000000000047A	# Create Preset
+          Tuner_Fast_Backward      0x000000000000145F	# Search Previous
+          Tuner_Fast_Forward       0x000000000000145E	# Search Next
+          Tuner_Previous_Track     0x0000000000001461	# Previous Preset
+          Tuner_Next_Track         0x0000000000001460	# Next Preset
+
+#         These are the codes sent by the keys in Tape mode.
+#         The Select_CD_1, Select_CD_2, Select_CD_3, Repeat,
+#         Shuffle, and Program keys send no codes in Tape mode.
+          Tape_Power               0x000000000000148C	# Standby
+          Tape_Rewind              0x00000000000014B2
+          Tape_Pause               0x00000000000014B0
+          Tape_Fast_Forward        0x00000000000014B4
+          Tape_Previous_Track      0x00000000000014A1	# Find Previous Track
+          Tape_Next_Track          0x00000000000014A0	# Find Next Track
+          Tape_Play                0x00000000000014B5
+          Tape_Stop                0x00000000000014B6
+
+#         These are the codes sent by the keys in CD mode.
+          CD_Power                 0x000000000000150C	# Standby
+          CD_Select_CD_1           0x0000000000001537	# (CD_Record)
+          CD_Select_CD_2           0x0000000000001538	# (CD_External1)
+          CD_Select_CD_3           0x0000000000001539	# (CD_External2)
+          CD_Repeat                0x000000000000151D	# Continuous Repeat
+          CD_Shuffle               0x000000000000151C
+          CD_Program               0x0000000000001524
+          CD_Fast_Backward         0x0000000000001532
+          CD_Pause                 0x0000000000001530
+          CD_Fast_Forward          0x0000000000001534
+          CD_Previous_Track        0x0000000000001521
+          CD_Next_Track            0x0000000000001520
+          CD_Play                  0x0000000000001535
+          CD_Stop                  0x0000000000001536
+
+#         This is the code sent by the only key in Aux & Phono
+#         mode. The other keys (except the Amp keys, listed above)
+#         do not send any code.
+          Aux_Power                0x000000000000154C	# Standby
+      end codes
+
+end remote
+

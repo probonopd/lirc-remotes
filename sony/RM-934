@@ -1,0 +1,135 @@
+# this config file was automatically generated
+# using lirc-0.7.0pre1(any) on Wed Mar 10 21:31:35 2004
+#
+# contributed by Yury Konovalov <yurix at bigfoot.com>
+#
+# brand:                       SONY
+# model no. of remote control: RM-934
+# devices being controlled by this remote: TV/VCR/DVD
+#
+
+begin remote
+
+  name  SONY_RM-934_TV_and_VCR_mode
+  bits           11
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       2499   517
+  one          1301   517
+  zero          703   517
+  ptrail        703
+  gap          45239
+  min_repeat      2
+  toggle_bit      0
+
+      begin codes
+          tv-pwon                  0x0000000000000548
+
+          tv-image-size            0x00000000000007D8
+          tv-image-center          0x00000000000006D8
+          tv-input-select          0x0000000000000528
+
+          tv-1                     0x0000000000000008
+          tv-2                     0x0000000000000408
+          tv-3                     0x0000000000000208
+
+          tv-4                     0x0000000000000608
+          tv-5                     0x0000000000000108
+          tv-6                     0x0000000000000508
+
+          tv-7                     0x0000000000000308
+          tv-8                     0x0000000000000708
+          tv-9                     0x0000000000000088
+
+          tv-inc                   0x00000000000002E8
+          tv-0                     0x0000000000000488
+          tv-jump                  0x00000000000006E8
+
+          tv-red                   0x000000000000019C
+          tv-green                 0x000000000000059C
+          tv-yellow                0x000000000000039C
+          tv-blue                  0x000000000000079C
+
+          tv-cleanscreen           0x00000000000000E8
+          tv-teletext              0x00000000000007E8
+
+          tv-up                    0x0000000000000178
+          tv-down                  0x0000000000000578
+          tv-right                 0x0000000000000668
+          tv-left                  0x0000000000000168
+          tv-ok                    0x0000000000000538
+
+          tv-menu                  0x0000000000000038
+
+          tv-vol-up                0x0000000000000248
+          tv-vol-down              0x0000000000000648
+          tv-mute                  0x0000000000000148
+          tv-prog-next             0x0000000000000048
+          tv-prog-prev             0x0000000000000448
+	 
+          vcr-video-pwon           0x000000000000054D
+
+          vcr-1                    0x000000000000000D
+          vcr-2                    0x000000000000040D
+          vcr-3                    0x000000000000020D
+
+          vcr-4                    0x000000000000060D
+          vcr-5                    0x000000000000010D
+          vcr-6                    0x000000000000050D
+
+          vcr-7                    0x000000000000030D
+          vcr-8                    0x000000000000070D
+          vcr-9                    0x000000000000008D
+
+          vcr-0                    0x000000000000048D
+          vcr-jump                 0x000000000000028D
+
+          vcr-red                  0x000000000000019C
+          vcr-green                0x000000000000059C
+          vcr-blue                 0x000000000000079C
+
+          vcr-rec                  0x00000000000005CD
+
+          vcr-up                   0x00000000000004CD
+          vcr-down                 0x00000000000000CD
+          vcr-left                 0x00000000000006CD
+          vcr-right                0x00000000000001CD
+          vcr-ok                   0x00000000000002CD
+
+          vcr-prog-next            0x000000000000004D
+          vcr-prog-prev            0x000000000000044D
+      end codes
+
+end remote
+
+begin remote
+
+  name  SONY_RM-934_DVD_mode
+  bits           11
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       2434   584
+  one          1226   591
+  zero          630   591
+  ptrail        624
+  post_data_bits  8
+  post_data      0xC9
+  gap          44988
+  min_repeat      2
+  toggle_bit      0
+
+
+      begin codes
+          KEY_DVD                  0x0000000000000545        #  Was: dvd-video-pwon
+          KEY_DVD                  0x00000000000004E5        #  Was: dvd-up
+          KEY_DVD                  0x00000000000000E5        #  Was: dvd-down
+          KEY_DVD                  0x0000000000000665        #  Was: dvd-left
+          KEY_DVD                  0x0000000000000165        #  Was: dvd-right
+          KEY_DVD                  0x0000000000000265        #  Was: dvd-ok
+      end codes
+
+end remote

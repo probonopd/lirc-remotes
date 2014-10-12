@@ -1,0 +1,56 @@
+#
+# contributed by Martin Mares <mj@ucw.cz>
+#
+# brand:                       	Sony
+# model no. of remote control: 	RM-S702
+# supported devices:
+#
+
+begin remote
+
+  name		RM-S702
+  bits		   12
+  flags		SPACE_ENC
+  eps		   30
+  aeps		  100
+
+  header	 2500   590
+  one		 1210   590
+  zero		  610   590
+  gap		25000
+  min_repeat	    2
+  toggle_bit	    0
+
+  begin codes
+	TUNER_PRESET_+    0x096
+	TUNER_PRESET_-    0x896
+	TUNER_SHIFT       0xCD6
+	CD_DISK_SKIP      0x7D1
+	CD_PREV_TRACK     0x0D1
+	CD_NEXT_TRACK     0x8D1
+	CD_PLAY           0x4D1
+	CD_STOP           0x1D1
+	DECK_A_REW        0xCC1
+	DECK_A_FFWD       0x2C1
+	DECK_A_STOP       0x1C1
+	DECK_A_REV        0xEC1
+	DECK_A_PLAY       0x4C1
+	DECK_A_REC        0x6C1
+	DECK_B_REW        0xD8E
+	DECK_B_FFWD       0x38E
+	DECK_B_PAUSE      0x98E
+	DECK_B_REV        0x04E
+	DECK_B_PLAY       0x58E
+	DECK_B_STOP       0x18E
+	DECK_B_REC        0x78E
+          KEY_TUNER                0x846                     #  Was: TUNER
+	PHONO             0x046
+          KEY_AUX                  0x386                     #  Was: AUX
+          KEY_CD                   0xA46                     #  Was: CD
+	DAT/TAPE1         0xC46
+	TAPE2             0x246
+	AMP_VOL_UP        0x486
+	AMP_VOL_DOWN      0xC86
+  end codes
+
+end remote

@@ -1,0 +1,79 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.3(default) on Tue Oct 21 22:54:58 2008
+#
+# contributed by Wout van Heeswijk
+#
+# brand:  Pioneer                    
+# model no. of remote control:  unknown
+# devices being controlled by this remote: xv-dv303
+#
+
+begin remote
+
+  name  Pioneer_XV-DV303
+  bits           32
+  flags SPACE_ENC
+  eps            30
+  aeps          100
+
+  header       8460  4192
+  one           550  1553
+  zero          550   508
+  ptrail        546
+  gap          25141
+  toggle_bit_mask 0x0
+
+      begin codes
+          KEY_POWER                0x659A857A                #  Was: Power
+          KEY_DVD                  0xF50AA45B                #  Was: DVD/CD
+          FM/AM                    0x659A05FA
+          KEY_TV                   0x659A05FA                #  Was: TV
+          Line                     0x659A05FA
+          KEY_AUDIO                0x659A857A                #  Was: Audio
+          KEY_SUBTITLE             0x659A857A                #  Was: Subtitle
+          KEY_ANGLE                0x659A857A                #  Was: Angle
+          KEY_ZOOM                 0x659A857A                #  Was: Zoom
+          Auto                     0x659A05FA
+          Surround                 0x659A2BD4
+          Advanced                 0x659A7A85
+          Quit/Midnight            0x659A53AC
+          Room-Setup               0x659A05FA
+          Bass-mode                0x659ABB44
+          System-disp              0x659AB946
+          KEY_MUTE                 0x659A7887                #  Was: Mute
+          KEY_VOLUMEDOWN           0x659AD02F                #  Was: Vol-
+          KEY_VOLUMEUP             0x659A50AF                #  Was: Vol+
+          KEY_DVD                  0x659A857A                #  Was: DVD-Setup
+          KEY_UP                   0xF50A27D8                #  Was: Up
+          KEY_MENU                 0x659A857A                #  Was: dvd-menu
+          KEY_LEFT                 0xF50A6798                #  Was: Left
+          KEY_ENTER                0x659A2ED1                #  Was: Enter
+          KEY_RIGHT                0x659A05FA                #  Was: Right
+          Sound-mode               0x659A5BA4
+          KEY_DOWN                 0x659A05FA                #  Was: Down
+          KEY_ENTER                0x659A857A                #  Was: Return
+          KEY_REWIND               0x659A29D6                #  Was: rew
+          KEY_PLAY                 0xF50A956A                #  Was: play
+          KEY_FORWARD              0x659AC936                #  Was: forward
+          KEY_PREVIOUS             0x659A49B6                #  Was: prev
+          KEY_PAUSE                0x659A05FA                #  Was: pause
+          KEY_STOP                 0x659A09F6                #  Was: stop
+          KEY_NEXT                 0x659A8976                #  Was: next
+          KEY_1                    0x659A00FF                #  Was: 1
+          KEY_2                    0x659A807F                #  Was: 2
+          KEY_3                    0x659A40BF                #  Was: 3
+          KEY_4                    0x659AC03F                #  Was: 4
+          KEY_5                    0x659A20DF                #  Was: 5
+          KEY_6                    0x659AA05F                #  Was: 6
+          KEY_7                    0x659A609F                #  Was: 7
+          KEY_8                    0x659AE01F                #  Was: 8
+          KEY_9                    0x659A10EF                #  Was: 9
+          KEY_0                    0x659A906F                #  Was: 0
+          KEY_CLEAR                0x659A827D                #  Was: clear
+          KEY_ENTER                0x659A2ED1                #  Was: enter
+      end codes
+
+end remote
+
+

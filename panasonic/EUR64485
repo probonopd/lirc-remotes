@@ -1,0 +1,72 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.3(sir) on Tue Apr  3 18:42:27 2001
+#
+# contributed by  phil.b@cableinet.co.uk
+#
+# brand:             Panasonic
+# model:             EUR644851
+# supported devices: SA-PM15 (mini-stereo)
+#
+
+begin remote
+
+  name  EUR644851
+  bits           23
+  flags SPACE_ENC
+  eps            30
+  aeps          100
+
+  header       3469  1765
+  one           448  1293
+  zero          448   422
+  ptrail        448
+  pre_data_bits   25
+  pre_data       0x80080A
+  gap          74552
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x000000000038BC81        #  Was: power
+          KEY_SLEEP                0x0000000000386954        #  Was: sleep
+          KEY_OPEN                 0x0000000000008085        #  Was: open_close
+          KEY_AUX                  0x000000000000595C        #  Was: aux
+          KEY_1                    0x0000000000380835        #  Was: 1
+          KEY_2                    0x00000000003888B5        #  Was: 2
+          KEY_3                    0x0000000000384875        #  Was: 3
+          display                  0x000000000038AA97
+          KEY_4                    0x000000000038C8F5        #  Was: 4
+          KEY_5                    0x0000000000382815        #  Was: 5
+          KEY_6                    0x000000000038A895        #  Was: 6
+          >10                      0x000000000038211C
+          KEY_7                    0x0000000000386855        #  Was: 7
+          KEY_8                    0x000000000038E8D5        #  Was: 8
+          KEY_9                    0x0000000000381825        #  Was: 9
+          KEY_0                    0x00000000003898A5        #  Was: 0
+          cd_program               0x0000000000505104
+          cd_cancel                0x000000000050C590
+          cd_repeat                0x000000000050E2B7
+          cd_random                0x000000000050B2E7
+          cd_|<<                   0x00000000005092C7
+          cd_>>|                   0x0000000000505207
+          cd_stop                  0x0000000000500055
+          cd_>/||                  0x0000000000505005
+          tuner_fm_mode/bp         0x000000000020CCE9
+          tuner_tuner/band         0x0000000000202500
+          tape_rew                 0x0000000000104055
+          tape_ff                  0x000000000010C0D5
+          tape_stop                0x0000000000100015
+          tape_<>                  0x000000000010796C
+          muting                   0x0000000000004C49
+          sound_virtualizer        0x0000000000000C09
+          tape_counter_reset       0x0000000000102A3F
+          tape_rev_mode            0x000000000010C5D0
+          KEY_VOLUMEUP             0x0000000000000401        #  Was: vol+
+          KEY_VOLUMEDOWN           0x0000000000008481        #  Was: vol-
+      end codes
+
+end remote
+
+
+

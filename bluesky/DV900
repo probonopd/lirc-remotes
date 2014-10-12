@@ -1,0 +1,65 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.1-CVS(default) on Sat Sep 30 00:22:36 2006
+#
+# contributed by
+#
+# brand: Bluesky
+# model no. of remote control: DV900
+# devices being controlled by this remote: Bluesky dvd player
+#
+
+begin remote
+
+  name  Bluesky_DV900
+  bits           11
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           246  7290
+  zero          246  4769
+  ptrail        244
+  gap          120513
+  toggle_bit      2
+
+
+      begin codes
+          KEY_POWER                0x55E                     #  Was: power
+          KEY_EJECTCD              0x566                     #  Was: eject
+          KEY_MUTE                 0x558                     #  Was: mute
+          KEY_1                    0x575                     #  Was: one
+          KEY_2                    0x56D                     #  Was: two
+          KEY_3                    0x565                     #  Was: three
+          KEY_4                    0x55D                     #  Was: four
+          KEY_5                    0x574                     #  Was: five
+          KEY_6                    0x56C                     #  Was: six
+          KEY_7                    0x564                     #  Was: seven
+          KEY_8                    0x55C                     #  Was: eight
+          KEY_9                    0x573                     #  Was: nine
+          KEY_0                    0x56B                     #  Was: zero
+          KEY_INFO                 0x560                     #  Was: info
+          KEY_CLEAR                0x563                     #  Was: clear
+          KEY_CAMERA               0x56E                     #  Was: camera
+          KEY_MENU                 0x557                     #  Was: menu
+          KEY_TITLE                0x567                     #  Was: title
+          KEY_EXIT                 0x570                     #  Was: exit
+          KEY_REWIND               0x577                     #  Was: rwd
+          KEY_FORWARD              0x572                     #  Was: fwd
+          KEY_ZOOM                 0x552                     #  Was: zoom
+          KEY_UP                   0x568                     #  Was: up
+          KEY_DOWN                 0x56A                     #  Was: down
+          KEY_LEFT                 0x571                     #  Was: left
+          KEY_RIGHT                0x561                     #  Was: right
+          KEY_OK                   0x569                     #  Was: ok
+          KEY_NEXT                 0x556                     #  Was: next
+          KEY_PREVIOUS             0x555                     #  Was: previous
+          KEY_STOP                 0x562                     #  Was: stop
+          KEY_PLAY                 0x559                     #  Was: play
+          KEY_PAUSE                0x55A                     #  Was: pause
+          KEY_DIRECTORY            0x55F                     #  Was: folder
+      end codes
+
+end remote
+
+

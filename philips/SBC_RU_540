@@ -1,0 +1,136 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.5(any) on Sat Feb  1 20:19:52 2003
+#
+# contributed by Artur Bartnicki <archie @ dziupla,eu,org>
+#
+# brand:                       Phillips
+# model no. of remote control: Universal SBC RU 540
+# devices being controlled by this remote: universal remote for TV/VCR/Sat/Cable
+#
+# Note: "Cable" selection and Shift usage omitted
+
+begin remote
+
+  name  SBC_RU_540
+  bits           13
+  flags RC5|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           927   844
+  zero          927   844
+  plead         945
+  gap          113234
+  min_repeat      6
+  toggle_bit      2
+
+
+      begin codes
+          KEY_VOLUMEUP             0x0000000000001010        #  Was: Vol+
+          KEY_VOLUMEDOWN           0x0000000000001811        #  Was: Vol-
+          KEY_MUTE                 0x000000000000100D        #  Was: Mute
+
+          TV-Power                 0x000000000000180C
+
+          TV-TT-On                 0x000000000000103C
+          TV-TT-Enlarge            0x0000000000001829
+          TV-TT-Stop               0x000000000000102B
+          TV-TT-Off                0x000000000000183F
+
+          TV-AV                    0x0000000000001838
+          TV-Prog+                 0x0000000000001020
+          TV-Prog-                 0x0000000000001821
+
+          TV-Menu                  0x0000000000000012
+          TV-OK                    0x0000000000000817
+
+          TV-1                     0x0000000000001001
+          TV-2                     0x0000000000001802
+          TV-3                     0x0000000000001003
+          TV-4                     0x0000000000001804
+          TV-5                     0x0000000000001005
+          TV-6                     0x0000000000001806
+          TV-7                     0x0000000000001007
+          TV-8                     0x0000000000001808
+          TV-9                     0x0000000000001009
+          TV-0                     0x0000000000001800
+
+          TV-Dash                  0x000000000000100A
+          TV-Rew                   0x000000000000082B
+          TV-Play                  0x000000000000002F
+          TV-FF                    0x000000000000082E
+          TV-Stop                  0x000000000000002C
+          TV-Pause                 0x000000000000082D
+
+
+          VCR-Power                0x000000000000194C
+
+          VCR-TT-On                0x000000000000117C
+          VCR-TT-Enlarge           0x000000000000195D
+          VCR-TT-Stop              0x0000000000000145
+          VCR-TT-Off               0x000000000000194F
+
+          VCR-AV                   0x0000000000001978
+          VCR-Prog+                0x0000000000001160
+          VCR-Prog-                0x0000000000001961
+
+          VCR-Menu                 0x0000000000000152
+          VCR-OK                   0x0000000000000957
+
+          VCR-1                    0x0000000000001141
+          VCR-2                    0x0000000000001942
+          VCR-3                    0x0000000000001143
+          VCR-4                    0x0000000000001944
+          VCR-5                    0x0000000000001145
+          VCR-6                    0x0000000000001946
+          VCR-7                    0x0000000000001147
+          VCR-8                    0x0000000000001948
+          VCR-9                    0x0000000000001149
+          VCR-0                    0x0000000000001940
+          VCR-Dash                 0x000000000000114A
+
+          VCR-Rew                  0x0000000000001972
+          VCR-Play                 0x0000000000001175
+          VCR-FF                   0x0000000000001974
+          VCR-Stop                 0x0000000000001176
+          VCR-Pause                0x0000000000001970
+          VCR-Rec                  0x0000000000001177
+
+
+          Sat-Power                0x000000000000120C
+
+          Sat-TT-On                0x0000000000001A3C
+          Sat-TT-Enlarge           0x0000000000000201
+          Sat-TT-Stop              0x0000000000000A21
+          Sat-TT-Off               0x000000000000120F
+
+          Sat-AV                   0x0000000000001228
+          Sat-Prog+                0x0000000000001A20
+          Sat-Prog-                0x0000000000001221
+
+          Sat-Menu                 0x0000000000000A12
+          Sat-OK                   0x0000000000000217
+
+          Sat-1                    0x0000000000001A01
+          Sat-2                    0x0000000000001202
+          Sat-3                    0x0000000000001A03
+          Sat-4                    0x0000000000001204
+          Sat-5                    0x0000000000001A05
+          Sat-6                    0x0000000000001206
+          Sat-7                    0x0000000000001A07
+          Sat-8                    0x0000000000001208
+          Sat-9                    0x0000000000001A09
+          Sat-0                    0x0000000000001200
+          Sat-Dash                 0x0000000000001A0A
+
+          Sat-Rew                  0x0000000000000A2B
+          Sat-Play                 0x000000000000022F
+          Sat-FF                   0x0000000000000A2E
+          Sat-Stop                 0x000000000000022C
+          Sat-Pause                0x0000000000000A2D
+          Sat-Rec                  0x000000000000023A
+      end codes
+
+end remote
+

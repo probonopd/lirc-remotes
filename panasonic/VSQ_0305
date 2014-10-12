@@ -1,0 +1,46 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.6(serial) on Tue Feb 25 03:16:52 2003
+#
+# contributed by Andrew Morgan <fromlirc@ziltro.net>
+#
+# brand:                       Panasonic
+# model no. of remote control: VSQ 0305
+# devices being controlled by this remote: Old VCR (early 1990s?)
+#
+# This is a tiny (and cute!) remote with basic buttons for a VCR
+# Strange how it has no power button!
+# Seems to have the same buttons as TNQ8E0437 (which appears to be for TV)
+#
+
+begin remote
+
+  name  Panasonic_VSQ_0305
+  bits           22
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       3697  3620
+  one           929  2725
+  zero          929   898
+  ptrail        928
+  gap          109637
+  toggle_bit      0
+
+
+      begin codes
+          KEY_CHANNELUP            0x0000000000108DEE        #  Was: Channel+
+          KEY_CHANNELDOWN          0x0000000000118DCE        #  Was: Channel-
+          KEY_REWIND               0x00000000001085EF        #  Was: Rew
+          KEY_FASTFORWARD          0x00000000001185CF        #  Was: FF
+          KEY_STOP                 0x00000000001005FF        #  Was: Stop
+          KEY_PLAY                 0x000000000010A5EB        #  Was: Play
+          KEY_PAUSE                0x000000000010C5E7        #  Was: Pause
+          Still_Adv                0x00000000001065F3
+          KEY_RECORD               0x00000000001025FB        #  Was: Rec
+      end codes
+
+end remote
+
+

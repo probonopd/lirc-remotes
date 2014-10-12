@@ -1,0 +1,70 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.6(any) on Sun Mar 14 22:29:15 2004
+#
+# contributed by
+#
+# brand:                       Imex
+# model no. of remote control: IM-1313
+# devices being controlled by this remote:
+#
+
+begin remote
+
+  name  im-1313
+  bits           13
+  flags RC5|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           939   851
+  zero          939   851
+  plead         961
+  gap          113484
+  toggle_bit      0
+
+
+      begin codes
+          memo                     0x000000000000114F
+          KEY_MUTE                 0x000000000000180D        #  Was: mute
+          KEY_POWER                0x000000000000114C        #  Was: power
+          k1                       0x0000000000001941
+          k2                       0x0000000000001142
+          k3                       0x0000000000001943
+          k4                       0x0000000000001144
+          k5                       0x0000000000001945
+          k6                       0x0000000000001146
+          k7                       0x0000000000001947
+          k8                       0x0000000000001148
+          k9                       0x0000000000001949
+          k10                      0x0000000000001140
+          k11                      0x000000000000194A
+          k12                      0x0000000000001163
+          ch_pc                    0x000000000000194B
+          pr                       0x000000000000115D
+          arr_point                0x0000000000001973
+          arr_point_arr            0x0000000000001171
+          KEY_SLEEP                0x000000000000196D        #  Was: sleep
+          tv_sat                   0x000000000000116A
+          txt_tv                   0x0000000000001970
+          KEY_PLAY                 0x0000000000001175        #  Was: play
+          stream_next              0x000000000000102A
+          stream_down              0x000000000000180B
+          stream_up                0x000000000000100A
+          KEY_A                    0x0000000000001818        #  Was: a
+          KEY_B                    0x0000000000001016        #  Was: b
+          KEY_C                    0x000000000000181A        #  Was: c
+          KEY_D                    0x0000000000001023        #  Was: d
+          wh_bl_down               0x0000000000001227
+          wh_bl_up                 0x0000000000001A3A
+          bright_down              0x0000000000001213
+          bright_up                0x0000000000001A12
+          contr_down               0x000000000000121F
+          contr_up                 0x0000000000001A3B
+          k_up                     0x0000000000001520
+          k_down                   0x0000000000001D21
+          KEY_VOLUMEUP             0x0000000000001510        #  Was: vol_up
+          KEY_VOLUMEDOWN           0x0000000000001D11        #  Was: vol_down
+      end codes
+
+end remote

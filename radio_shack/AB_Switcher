@@ -1,0 +1,36 @@
+# this config file was manually generated
+# using lirc-0.6.1 on Sat Jun 24
+# and hw_slinke.
+#
+# contributed by Max Spring <mspring@employees.org>
+#
+# brand:             Radio Shack
+# model:
+# supported devices: A/B Switcher        
+#
+
+begin remote
+
+  name  RadioShack
+  bits            2
+  flags SPACE_ENC
+  eps            30
+  aeps            0
+
+  header       1500   200
+  one          1400   300
+  zero          600  1100
+  ptrail        550
+  pre_data_bits   8
+  pre_data       0xA0
+  gap          34000
+  repeat_bit      0
+
+      begin codes
+          KEY_A                    0x0000000000000002        #  Was: A
+          KEY_B                    0x0000000000000001        #  Was: B
+      end codes
+
+end remote
+
+

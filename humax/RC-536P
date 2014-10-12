@@ -1,0 +1,85 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.6(default) on Sat Dec 26 13:24:08 2009
+#
+# contributed by
+#
+# brand:                       Humax
+# model no. of remote control: RC-536P
+# devices being controlled by this remote: PDR-9700C
+#
+
+begin remote
+
+  name  Humax-RC-536P
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9063  4403
+  one           660  1577
+  zero          660   458
+  ptrail        660
+  repeat       9063  2152
+  pre_data_bits   16
+  pre_data       0x40E8
+  gap          107817
+  toggle_bit_mask 0x0
+
+      begin codes
+          KEY_1                    0xC03F                    #  Was: 1
+          KEY_2                    0x20DF                    #  Was: 2
+          KEY_3                    0xA05F                    #  Was: 3
+          KEY_4                    0x609F                    #  Was: 4
+          KEY_5                    0xE01F                    #  Was: 5
+          KEY_6                    0x10EF                    #  Was: 6
+          KEY_7                    0x906F                    #  Was: 7
+          KEY_8                    0x50AF                    #  Was: 8
+          KEY_9                    0xD02F                    #  Was: 9
+          KEY_0                    0x30CF                    #  Was: 0
+          KEY_POWER                0x00FF                    #  Was: power
+          KEY_RED                  0x38C7                    #  Was: red
+          KEY_GREEN                0xB847                    #  Was: green
+          KEY_YELLOW               0x58A7                    #  Was: yellow
+          KEY_BLUE                 0x7887                    #  Was: blue
+          KEY_OK                   0xC837                    #  Was: ok
+          KEY_BACK                 0x6897                    #  Was: back
+          KEY_UP                   0x8877                    #  Was: up
+          KEY_RIGHT                0x28D7                    #  Was: right
+          KEY_DOWN                 0xA857                    #  Was: down
+          KEY_LEFT                 0x48B7                    #  Was: left
+          KEY_INFO                 0xC23D                    #  Was: info
+          directory                0xF20D
+          KEY_MUTE                 0x18E7                    #  Was: mute
+          KEY_LAST                 0x827D                    #  Was: last
+          KEY_SLEEP                0x728D                    #  Was: sleep
+          tv/radio                 0xB04F
+          KEY_CYCLEWINDOWS         0x40BF                    #  Was: source
+          KEY_LIST                 0xB24D                    #  Was: list
+          KEY_MENU                 0x708F                    #  Was: menu
+          KEY_EPG                  0xD827                    #  Was: epg
+          KEY_CHANNELDOWN          0x52AD                    #  Was: p-
+          KEY_CHANNELUP            0x926D                    #  Was: p+
+          KEY_VOLUMEDOWN           0x02FD                    #  Was: vol-
+          KEY_VOLUMEUP             0xF807                    #  Was: vol+
+          KEY_REWIND               0xA659                    #  Was: rewind
+          KEY_PLAY                 0x06F9                    #  Was: play
+          KEY_FASTFORWARD          0x26D9                    #  Was: ffwd
+          KEY_RECORD               0x8679                    #  Was: rec
+          KEY_PAUSE                0x16E9                    #  Was: pause
+          KEY_STOP                 0xC639                    #  Was: stop
+          KEY_SLOW                 0x46B9                    #  Was: slow
+          instreplay               0x6699
+          goto                     0xE619
+          pipch                    0x9669
+          setbookmark              0x56A9
+          listbookmarks            0xD629
+          pip                      0x629D
+          movepip                  0x12ED
+          swappip                  0xE21D
+      end codes
+
+end remote
+
+

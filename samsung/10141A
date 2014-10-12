@@ -1,0 +1,113 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.6(serial) on Tue Oct 21 20:53:24 2003
+#
+# contributed by Cory Papenfuss
+#
+# brand: Samsung
+# model no. of remote control: 10141A
+# devices being controlled by this remote:Samsung DVD-711
+#
+# IMPORTANT NOTE:
+# This remote (says Samsung 10141A on the front) is a partial
+# universal remote for controlling different TV functions
+#
+
+begin remote
+
+  name  Samsung_10141A
+  bits           42
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9045  4393
+  one           622  1615
+  zero          622   495
+  ptrail        639
+  repeat       9020  4411
+  gap          107548
+  toggle_bit      0
+
+
+      begin codes
+          KEY_DVD                  0x00000198133F8976        #  Was: DVD_Power
+          KEY_OPEN                 0x00000198133F31CE        #  Was: Open_Close
+          KEY_1                    0x00000198133F817E        #  Was: 1
+          KEY_2                    0x00000198133F41BE        #  Was: 2
+          KEY_3                    0x00000198133FC13E        #  Was: 3
+          KEY_4                    0x00000198133F21DE        #  Was: 4
+          KEY_5                    0x00000198133FA15E        #  Was: 5
+          KEY_6                    0x00000198133F619E        #  Was: 6
+          KEY_7                    0x00000198133FE11E        #  Was: 7
+          KEY_8                    0x00000198133F11EE        #  Was: 8
+          KEY_9                    0x00000198133F916E        #  Was: 9
+          KEY_0                    0x00000198133F01FE        #  Was: 0
+          KEY_SETUP                0x00000198133FD12E        #  Was: Setup
+          Volume_Con               0x00000198133F35CA
+          KEY_PLAY                 0x00000198133F05FA        #  Was: Play
+          KEY_STOP                 0x00000198133F45BA        #  Was: Stop
+          KEY_REWIND               0x00000198133F39C6        #  Was: Rew
+          KEY_FASTFORWARD          0x00000198133F7986        #  Was: FF
+          KEY_PREVIOUS             0x00000198133FF906        #  Was: Skip-
+          KEY_NEXT                 0x00000198133F857A        #  Was: Skip+
+          KEY_ENTER                0x00000198133FA956        #  Was: Return
+          Step                     0x00000198133F659A
+          KEY_CLEAR                0x00000198133F25DA        #  Was: Clear
+          KEY_MODE                 0x00000198133FE51A        #  Was: Mode
+          Top_Menu                 0x00000198133FC936
+          Display                  0x00000198133FF10E
+          KEY_MENU                 0x00000198133F29D6        #  Was: Menu
+          KEY_UP                   0x00000198133FE916        #  Was: Up
+          KEY_DOWN                 0x00000198133F19E6        #  Was: Down
+          KEY_LEFT                 0x00000198133F59A6        #  Was: Left
+          KEY_RIGHT                0x00000198133F9966        #  Was: Right
+          KEY_ENTER                0x00000198133FD926        #  Was: Enter
+          KEY_AUDIO                0x00000198133F718E        #  Was: Audio
+          KEY_SUBTITLE             0x00000198133F09F6        #  Was: Sub_Title
+          KEY_ANGLE                0x00000198133F49B6        #  Was: Angle
+          KEY_AGAIN                0x00000198133FB946        #  Was: Repeat
+          Repeat_AB                0x00000198133F15EA
+          KEY_ZOOM                 0x00000198133F55AA        #  Was: Zoom
+          KEY_3D_Sound             0x00000198133FD52A        #  Was: 3D_Sound
+          Bookmark                 0x00000198133F956A
+      end codes
+
+end remote
+
+# NOTE:  This is the remaining set of buttons for the DVD-711 remote
+# that are supposed to operate a TV.  These are the buttons that are
+# "universal", and have been programmed to be "Samsung D".  This is
+# set up by holding the 'TV_POWER' button and pressing '0'.
+
+begin remote
+
+  name  test
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       4485  4464
+  one           619  1613
+  zero          619   498
+  ptrail        619
+  repeat        647  1596
+  pre_data_bits   16
+  pre_data       0xE0E0
+  gap          107570
+  toggle_bit      0
+
+
+      begin codes
+          KEY_CHANNELUP            0x00000000000048B7        #  Was: Chan+
+          KEY_CHANNELDOWN          0x00000000000008F7        #  Was: Chan-
+          TV_Video                 0x000000000000807F
+          KEY_VOLUMEUP             0x000000000000E01F        #  Was: Vol+
+          KEY_VOLUMEDOWN           0x000000000000D02F        #  Was: Vol-
+          TV_Power                 0x00000000000040BF
+      end codes
+
+end remote
+
+

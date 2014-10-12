@@ -1,0 +1,95 @@
+begin remote
+# Radio- Stereo set - Fisher Remote Contrl REM S3
+  name  ra
+  bits           15
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  header       9117  4338
+  one           665   446
+  zero          665  1574
+  ptrail        665
+  repeat       9068  2124
+  pre_data_bits   16
+  pre_data       0xC33C
+  post_data_bits  1
+  post_data      0x0
+  gap          39682
+  toggle_bit      0
+
+
+      begin codes
+          KEY_1                    0x0000000000003BC4        #  Was: 1
+          KEY_2                    0x0000000000005BA4        #  Was: 2
+          KEY_3                    0x0000000000001BE4        #  Was: 3
+          KEY_4                    0x0000000000006B94        #  Was: 4
+          KEY_5                    0x0000000000002BD4        #  Was: 5
+          KEY_6                    0x0000000000004BB4        #  Was: 6
+          KEY_7                    0x0000000000000BF4        #  Was: 7
+          KEY_8                    0x000000000000738C        #  Was: 8
+          KEY_9                    0x00000000000033CC        #  Was: 9
+          KEY_0                    0x00000000000053AC        #  Was: 0
+          KEY_1                    0x00000000000043BC        #  Was: 11
+          KEY_2                    0x000000000000629D        #  Was: 12
+          KEY_POWER                0x0000000000007E81        #  Was: Power
+          AV		0x0000000000002ED1
+# Tape left
+          TpLi		0x0000000000004AB5
+# Tape right
+          TpRe		0x0000000000002AD5
+# Tape Record Break
+          TPRecPause	0x0000000000000AF5
+# Tape Record left
+          TpAufnLi		0x00000000000003FC
+# Tape Record right
+          TpAufnRe		0x0000000000006A95
+# Eject Tape
+          TpEject		0x0000000000001AE5
+# Tape Record Mute
+          TpRecMute		0x0000000000005AA5
+# Tape Stop
+          TpStop		0x0000000000003AC5
+          KEY_CD                   0x00000000000032CD        #  Was: CD
+          CDPlay            	0x0000000000004FB0
+# CD right
+          CDRe              	0x00000000000036C9
+# CD left
+          CDLi                	0x00000000000056A9
+# CD Eject
+          CDEject           	0x00000000000027D8
+# CD Intro
+          CdIntro             	0x00000000000037C8
+# CD Memory
+          CdMemo          	0x0000000000002FD0
+# CD Repeat
+          CdRep              	0x00000000000036C9
+# CD Stop
+          CdStop              	0x0000000000006F90
+# CD Random
+          CdRandom         	0x00000000000057A8
+# direction
+          dir                     	0x0000000000007F80
+# dynamic Bass
+          Bass               	0x000000000000639C
+# loud
+          laut	 	0x0000000000003EC1
+# quiet
+          leise	 	0x0000000000005EA1
+          KEY_MODE                 0x00000000000016E9        #  Was: mode
+          KEY_MUTE                 0x0000000000001EE1        #  Was: Mute
+          phono	 	0x0000000000004EB1 
+          scan		0x00000000000026D9
+          KEY_SLEEP                0x0000000000007689        #  Was: Sleep
+          sound		0x0000000000006E91
+# surround
+          surr	 	0x0000000000006798
+          KEY_TAPE                 0x00000000000052AD        #  Was: tape
+# TimeDisplay
+          Display	 	0x00000000000017E8
+          KEY_TUNER                0x00000000000046B9        #  Was: TUNER
+      end codes
+
+end remote
+
+

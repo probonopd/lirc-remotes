@@ -1,0 +1,56 @@
+# contributed by:
+#	Kipp Cannon <kipp|gravity.phys.uwm.edu>
+#
+# brand:
+#	Game Factory
+# model no. of remote control:
+#	Unknown
+# devices being controlled by this remote:
+#	Sony PlayStation 2 DVD
+#
+# Notes:
+# This is a third-party DVD remote control for the early Sony Playstation 2
+# that does not have the built-in IR receiver.  It comes as a transmitter,
+# and a receiver that you plug into a controller port on the front of the
+# console.  The receiver has a pass-through plug allowing a controller to
+# be plugged into it.  The "GAME/REMOTE" button on the transmitter causes
+# the receiver to toggle between pass-through, and IR remote modes.
+
+begin remote
+	name	GAMEFACTORY_PS2DVD
+	flags	SPACE_ENC|CONST_LENGTH
+	eps	30
+
+	frequency	38000
+	header	9100	4402
+	one	660	1605
+	zero	660	475
+	ptrail	660
+	repeat	9100	2160
+	gap	108000
+
+	bits	16
+	pre_data_bits	16
+	pre_data	0x006F
+
+	begin codes
+		GAME/REMOTE        0x08F7
+		SPECIAL            0x8877
+          KEY_STOP                 0xC03F                    #  Was: STOP
+          KEY_UP                   0x906F                    #  Was: UP
+          KEY_LEFT                 0x30CF                    #  Was: LEFT
+          KEY_RIGHT                0x708F                    #  Was: RIGHT
+          KEY_DOWN                 0xB04F                    #  Was: DOWN
+          KEY_SELECT               0x00FF                    #  Was: SELECT
+		CHANGE_SUBTITLE    0x50AF
+		PREVIOUS_CHAPTER   0x10EF
+          KEY_PLAYPAUSE            0x20DF                    #  Was: PLAY/PAUSE
+          KEY_NEXT                 0xA05F                    #  Was: NEXT
+          KEY_REWIND               0x609F                    #  Was: REWIND_SEARCH
+          KEY_ENTER                0xE01F                    #  Was: ENTER
+		FORWARD_SEARCH     0xD02F
+		CHANGE_SOUND/MUSIC 0xF00F
+          KEY_TITLE                0x40BF                    #  Was: TITLE
+          KEY_MENU                 0x807F                    #  Was: DVD_MENU
+	end codes
+end remote

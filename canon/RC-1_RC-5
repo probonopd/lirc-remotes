@@ -1,0 +1,32 @@
+#
+# Canon RC-1/RC-5 Camera Remote control
+#
+# For many types of DSLRs including 300D, 350D
+#
+# Contributed by Lennart Poettering
+#
+# Please note that it might be possible that the carrier frequency is actually
+# 32KHz instead of 38Khz. However, this fragment works perfectly nonetheless.
+#
+
+begin remote
+
+    name CANON-RC1/RC5
+    flags SPACE_ENC
+
+    bits 1
+    one 550 5250
+    zero 550 7143
+    ptrail 550
+# arbitrary gap value, real value unknown
+    gap 100000
+
+    eps 30
+    aeps 50
+
+    begin codes
+          KEY_S                    0x0                       #  Was: S
+          X_KEY_2S                 0x1                       #  Was: KEY_2S
+    end codes
+
+end remote

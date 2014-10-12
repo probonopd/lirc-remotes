@@ -1,0 +1,6 @@
+#!/bin/bash
+# Remove all fresh backup files from update -uc.
+
+prefix=$(  date +'%y%m' )
+find . -name \*.$prefix\* -delete
+

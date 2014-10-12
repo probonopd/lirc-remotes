@@ -1,0 +1,35 @@
+begin remote
+
+  name  Panasonic_EUR571451
+  bits           16
+  flags SPACE_ENC
+  eps            40
+  aeps          100
+
+  header       3556  1666
+  one           491   355
+  zero          491  1225
+  ptrail        491
+  pre_data_bits   32
+  pre_data       0xBFFBF6FF
+  gap          74369
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x000000000000434A        #  Was: Power
+          vcr/tv                   0x000000000000939A
+          tracking/v-lock_-        0x000000000000B2BB
+          tracking/v-lock_+        0x000000000000727B
+          KEY_PLAY                 0x000000000000AFA6        #  Was: Play
+          KEY_FASTFORWARD          0x0000000000003F36        #  Was: FF
+          KEY_REWIND               0x000000000000BFB6        #  Was: Rew
+          KEY_STOP                 0x000000000000FFF6        #  Was: Stop
+          <Index                   0x0000000000006D64
+          Index>                   0x000000000000ADA4
+          Pause/still              0x0000000000009F96
+          Still_adv                0x000000000000CFC6
+      end codes
+
+end remote
+

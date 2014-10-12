@@ -1,0 +1,80 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.6-CVS(default) on Thu Aug 20 01:15:04 2009
+#
+# contributed by Giuseppe Bilotta
+#
+# brand: HP Pavilion dv5
+# model no. of remote control: HSTNN-PRO7
+# devices being controlled by this remote: HP Pavilion dv5
+#
+
+begin remote
+
+  name  HP_Pavilion
+  bits            8
+  flags RC6|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       2740   860
+  one           482   420
+  zero          482   420
+  pre_data_bits   29
+  pre_data       0x37FF07B
+  gap          110890
+  toggle_bit_mask 0x8000
+  rc6_mask    0x100000000
+
+      begin codes
+          KEY_POWER                0xF3
+# DVD MENU
+          KEY_DVD                  0xDB
+# 'Q' key
+          KEY_MEDIA                0x7F
+# MONITOR SWITCH
+          KEY_DISPLAYTOGGLE        0x7E
+# Windows Media Center
+          KEY_PROG2                0xF2
+# PAGE DOWN
+          KEY_PAGEUP               0xED
+# PAGE UP
+          KEY_PAGEDOWN             0xEC
+# STOP
+          KEY_STOPCD               0xE6
+# REWIND
+          KEY_REWIND               0xEA
+# PLAY / PAUSE
+          KEY_PLAYPAUSE            0x91
+# FF
+          KEY_FASTFORWARD          0xEB
+# SKIP BACK
+          KEY_PREVIOUSSONG         0xE4
+# (up)
+          KEY_UP                   0xE1
+# SKIP FWD
+          KEY_NEXTSONG             0xE5
+# (left)
+          KEY_LEFT                 0xDF
+# OK / ENTER
+          KEY_ENTER                0xDD
+# (right)
+          KEY_RIGHT                0xDE
+# BACK / UNDO
+          KEY_ESC                  0xDC
+# (down)
+          KEY_DOWN                 0xE0
+# 'i'
+          KEY_INFO                 0xF0
+# VOL +
+          KEY_VOLUMEDOWN           0xEE
+# MUTE
+          KEY_MUTE                 0xF1
+# VOL -
+          KEY_VOLUMEUP             0xEF
+      end codes
+
+end remote
+
+
+

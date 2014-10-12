@@ -1,0 +1,73 @@
+#
+# this config file was automatically generated
+# using WinLIRC 0.6.5 (LIRC 0.6.1pre3) on Wed Aug 08 14:28:29 2007
+#
+# contributed by
+#
+# brand:             Pioneer
+# model:             CU-CLD115
+# supported devices: CLD-D925 Laserdisc player
+
+
+begin remote
+
+  name  Pioneer_CU-CLD115
+  bits           16
+  flags SPACE_ENC
+  eps            30
+  aeps          100
+
+  header       8579  4215
+  one           560   482
+  zero          560  1549
+  ptrail        560
+  pre_data_bits   16
+  pre_data       0xEA15
+  gap          35459
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x000000000000C738        #  Was: Power
+          Display                  0x0000000000003DC2
+          PGM                      0x000000000000CD32
+          CHP/TM                   0x00000000000037C8
+          Audio_D/A                0x0000000000008778
+          KEY_AGAIN                0x000000000000DD22        #  Was: Repeat
+          Repeat_A-B               0x000000000000ED12
+          KEY_1                    0x0000000000007F80        #  Was: 1
+          KEY_2                    0x000000000000BF40        #  Was: 2
+          KEY_3                    0x0000000000003FC0        #  Was: 3
+          KEY_4                    0x000000000000DF20        #  Was: 4
+          KEY_5                    0x0000000000005FA0        #  Was: 5
+          KEY_6                    0x0000000000009F60        #  Was: 6
+          KEY_7                    0x0000000000001FE0        #  Was: 7
+          KEY_8                    0x000000000000EF10        #  Was: 8
+          KEY_9                    0x0000000000006F90        #  Was: 9
+          KEY_0                    0x000000000000FF00        #  Was: 0
+          Clear(C)                 0x0000000000005DA2
+          KEY_10CHANNELSUP         0x00000000000007F8        #  Was: +10
+          Multi-speed_<            0x00000000000055AA
+          Multi-speed_>            0x000000000000E51A
+          Step_<                   0x000000000000F50A
+          Step_>                   0x000000000000D52A
+          Random                   0x000000000000857A
+          Hilite/Intro             0x000000000000A55A
+          Skip_|<<                 0x00000000000035CA
+          Skip_>>|                 0x000000000000B54A
+          Scan_<<                  0x0000000000007788
+          Scan_>>                  0x000000000000F708
+          KEY_PLAY                 0x00000000000017E8        #  Was: PLAY
+          Disc_Side_A              0x0000000000004DB2
+          Disc_Side_B              0x0000000000008D72
+          KEY_STOP                 0x0000000000009768        #  Was: STOP
+          KEY_PAUSE                0x000000000000E718        #  Was: PAUSE
+          Jog_Reverse              0x0000000000000BF4
+          Jog_Forward              0x0000000000002BD4
+          Jog_slow<-               0x000000000000DB24
+          Jog_slow->               0x000000000000FB04
+      end codes
+
+end remote
+
+

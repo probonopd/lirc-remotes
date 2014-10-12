@@ -1,0 +1,74 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.5(irdeo) on Sat Mar  9 11:48:38 2002
+#
+# contributed by Nils Hammar (m4341@abc.se)
+#
+# brand:                       DENON
+# model no. of remote control: RC-541
+# devices being controlled by this remote: Denon DVD-2500
+#
+
+begin remote
+
+  name  RC-541
+  bits           16
+  flags SPACE_ENC
+  eps            30
+  aeps          100
+
+  header       3500  1800
+  one           400  1400
+  zero          400   500
+  ptrail        400
+  pre_data_bits   32
+  pre_data       0x40040D00
+  gap          43000
+  toggle_bit      0
+
+  frequency    38000
+
+      begin codes
+          KEY_POWER                0x000000000000BCB1        #  Was: Power
+          KEY_OPEN                 0x000000000000808D        #  Was: Open/Close
+          KEY_STOP                 0x000000000000000D        #  Was: Stop
+          KEY_PAUSE                0x000000000000606D        #  Was: Pause
+          KEY_PLAY                 0x000000000000505D        #  Was: Play
+          KEY_REWIND               0x000000000000929F        #  Was: SkipBack
+          KEY_FASTFORWARD          0x000000000000525F        #  Was: SkipFwd
+          Rev                      0x000000000000202D
+          KEY_FORWARD              0x000000000000A0AD        #  Was: Fwd
+          KEY_TITLE                0x000000000000D9D4        #  Was: Title
+          KEY_MENU                 0x000000000000010C        #  Was: Menu
+          Display                  0x0000000000004944
+          KEY_ENTER                0x000000000000818C        #  Was: Return
+          KEY_UP                   0x000000000000A1AC        #  Was: Up
+          KEY_DOWN                 0x000000000000616C        #  Was: Down
+          KEY_RIGHT                0x000000000000111C        #  Was: Right
+          KEY_LEFT                 0x000000000000E1EC        #  Was: Left
+          KEY_SELECT               0x000000000000414C        #  Was: Select
+          KEY_SUBTITLE             0x0000000000008984        #  Was: Subtitle
+          KEY_AUDIO                0x000000000000CCC1        #  Was: Audio
+          KEY_ANGLE                0x0000000000000904        #  Was: Angle
+          Marker                   0x000000000000717C
+          KEY_PLAY                 0x000000000000B1BC        #  Was: PlayMode
+          RepeatMode               0x000000000000313C
+          A-B_Repeat               0x000000000000121F
+          KEY_SETUP                0x0000000000002924        #  Was: Setup
+          KEY_CLEAR                0x000000000000C1CC        #  Was: Clear
+          VSS                      0x0000000000007974
+          KEY_1                    0x0000000000000805        #  Was: 1
+          KEY_2                    0x0000000000008885        #  Was: 2
+          KEY_3                    0x0000000000004845        #  Was: 3
+          KEY_4                    0x000000000000C8C5        #  Was: 4
+          KEY_5                    0x0000000000002825        #  Was: 5
+          KEY_6                    0x000000000000A8A5        #  Was: 6
+          KEY_7                    0x0000000000006865        #  Was: 7
+          KEY_8                    0x000000000000E8E5        #  Was: 8
+          KEY_9                    0x0000000000001815        #  Was: 9
+          KEY_0                    0x0000000000009895        #  Was: 0
+          >=10                     0x000000000000919C
+      end codes
+
+end remote
+

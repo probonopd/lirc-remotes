@@ -1,0 +1,60 @@
+#
+# this config file was automatically generated
+# using lirc-0.7.1(any) on Wed May 16 21:18:27 2007
+#
+# contributed by Harry Zehmke <harry|zehmke.org>
+#
+# brand: OneForAll
+# model no. of remote control: URC-3440
+# devices being controlled by this remote:
+# VCR-Code: 0625 (used for VDR)
+
+begin remote
+
+  name  OneForAll_URC-3440_VDR
+  bits           13
+  flags RC5|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           921   844
+  zero          921   844
+  plead         928
+  gap          113208
+  min_repeat      1
+  toggle_bit      2
+
+
+      begin codes
+          KEY_MENU                 0x115D                    #  Was: MENU
+          KEY_POWER                0x114C                    #  Was: POWER
+          KEY_1                    0x1141                    #  Was: 1
+          KEY_2                    0x1142                    #  Was: 2
+          KEY_3                    0x1143                    #  Was: 3
+          KEY_4                    0x1144                    #  Was: 4
+          KEY_5                    0x1145                    #  Was: 5
+          KEY_6                    0x1146                    #  Was: 6
+          KEY_7                    0x1147                    #  Was: 7
+          KEY_8                    0x1148                    #  Was: 8
+          KEY_9                    0x1149                    #  Was: 9
+          KEY_0                    0x114A                    #  Was: 10
+          KEY_0                    0x1140                    #  Was: 0
+          AV                       0x117E
+          KEY_CHANNELUP            0x1160                    #  Was: CH+
+          KEY_CHANNELDOWN          0x1161                    #  Was: CH-
+          KEY_VOLUMEUP             0x1150                    #  Was: VOL+
+          KEY_VOLUMEDOWN           0x1151                    #  Was: VOL-
+          KEY_MUTE                 0x114D                    #  Was: MUTE
+          KEY_REWIND               0x1172                    #  Was: REW
+          KEY_PLAY                 0x1175                    #  Was: PLAY
+          KEY_STOP                 0x1169                    #  Was: STOP
+          FORW                     0x1174
+          KEY_RED                  0x117A                    #  Was: RED
+          GRE                      0x1176
+          YEL                      0x1177
+          BLU                      0x114E
+      end codes
+
+end remote
+
+

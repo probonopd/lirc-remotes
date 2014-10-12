@@ -1,0 +1,76 @@
+#
+# this config file was cloned from Samsung T-59 file
+# on 2004.06.04 @ 23:50
+#
+# contributed by
+#
+# brand: NSE
+# model no. of remote control: URC22B-7
+# supported devices: brand code 175          
+#
+
+begin remote
+
+  name  URC22B-7
+  bits           13
+  flags RC5|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           855   857
+  zero          855   857
+  plead         897
+  gap          110710
+  toggle_bit      2
+
+
+      begin codes
+          KEY_0                    0x0000000000001000        #  Was: 10/0
+          KEY_1                    0x0000000000001001        #  Was: 1
+          KEY_2                    0x0000000000001002        #  Was: 2
+          KEY_3                    0x0000000000001003        #  Was: 3
+          KEY_4                    0x0000000000001004        #  Was: 4
+          KEY_5                    0x0000000000001005        #  Was: 5
+          KEY_6                    0x0000000000001006        #  Was: 6
+          KEY_7                    0x0000000000001007        #  Was: 7
+          KEY_8                    0x0000000000001008        #  Was: 8
+          KEY_9                    0x0000000000001009        #  Was: 9
+          KEY_1                    0x000000000000100A        #  Was: 1-/11
+          FastRWND                 0x000000000000100B
+          KEY_POWER                0x000000000000100C        #  Was: Power
+          KEY_MUTE                 0x000000000000100D        #  Was: Mute
+          Presets                  0x000000000000100E
+          KEY_2                    0x000000000000100F        #  Was: 2-/12
+          KEY_VOLUMEUP             0x0000000000001010        #  Was: Volume+
+          KEY_VOLUMEDOWN           0x0000000000001011        #  Was: Volume-
+          Brightness+              0x0000000000001012
+          Brightness-              0x0000000000001013
+          Color+                   0x0000000000001014
+          Color-                   0x0000000000001015
+          Contrast+                0x000000000000101A
+          Contrast-                0x000000000000101B
+          Memo                     0x000000000000101E
+          KEY_CHANNELUP            0x0000000000001020        #  Was: CH+
+          KEY_CHANNELDOWN          0x0000000000001021        #  Was: CH-
+          Ch\*P/C                  0x0000000000001024        #  Was: Ch\*P/C
+          Screen                   0x0000000000001026
+          KEY_STOP                 0x0000000000001029        #  Was: Stop
+          RWND                     0x0000000000001029
+          KEY_FORWARD              0x000000000000102A        #  Was: FWD
+          KEY_PLAY                 0x000000000000102B        #  Was: Play
+          TXT/Help                 0x000000000000102C
+          TXT/Clock                0x000000000000102D
+          KEY_FASTFORWARD          0x000000000000102E        #  Was: FastFWD
+          KEY_YELLOW               0x0000000000001032        #  Was: Yellow
+          KEY_BLUE                 0x0000000000001034        #  Was: Blue
+          KEY_GREEN                0x0000000000001036        #  Was: Green
+          KEY_RED                  0x0000000000001037        #  Was: Red
+          Pr<>                     0x000000000000103B
+          KEY_PAUSE                0x000000000000103C        #  Was: Pause
+          TV/SAT                   0x000000000000103F
+      end codes
+
+end remote
+
+
+

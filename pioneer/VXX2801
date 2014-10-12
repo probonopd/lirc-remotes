@@ -1,0 +1,74 @@
+#
+# this config file was manually generated
+# using lirc-0.7.0-CVS(serial) on Sun Sep 21 12:15:17 2003
+# this config file will not work with versions older than this!
+#
+# contributed by Christoph Bartelmus
+#
+# brand:                       Pioneer
+# model no. of remote control: VXX2801
+# devices being controlled by this remote: DVD player
+#
+
+begin remote
+
+  name  Pioneer_VXX2801
+  bits           32
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       8603  4212
+  one           589  1543
+  zero          589   490
+  ptrail        585
+  gap          90253
+  min_repeat      0
+  toggle_bit      0
+
+
+      begin codes
+#          PRE                      0x00000000C53A9966
+          KEY_PLAY                 0x00000000C53A7986        #  Was: PLAY
+          KEY_PREVIOUS             0x00000000C53AB946        #  Was: PREV
+          KEY_PAUSE                0x00000000C53AF906        #  Was: PAUSE
+          KEY_STOP                 0x00000000C53A19E6        #  Was: STOP
+          KEY_NEXT                 0x00000000C53A39C6        #  Was: NEXT
+
+          STANDBY/ON               0x00000000C53A9966 0x00000000F50A3DC2
+          KEY_OPEN                 0x00000000C53A9966        #  Was: OPEN/CLOSE
+          KEY_AUDIO                0x00000000C53A9966        #  Was: AUDIO
+          KEY_SUBTITLE             0x00000000C53A9966        #  Was: SUBTITLE
+          KEY_ANGLE                0x00000000C53A9966        #  Was: ANGLE
+          KEY_1                    0x00000000C53A9966        #  Was: 1
+          KEY_2                    0x00000000C53A9966        #  Was: 2
+          KEY_3                    0x00000000C53A9966        #  Was: 3
+          KEY_CLEAR                0x00000000C53A9966        #  Was: CLEAR
+          KEY_4                    0x00000000C53A9966        #  Was: 4
+          KEY_5                    0x00000000C53A9966        #  Was: 5
+          KEY_6                    0x00000000C53A9966        #  Was: 6
+          KEY_ENTER                0x00000000C53A9966        #  Was: ENTER
+          KEY_7                    0x00000000C53A9966        #  Was: 7
+          KEY_8                    0x00000000C53A9966        #  Was: 8
+          KEY_9                    0x00000000C53A9966        #  Was: 9
+          KEY_0                    0x00000000C53A9966        #  Was: 0
+          TOP_MENU                 0x00000000C53A9966 0x00000000F50A2DD2
+          KEY_MENU                 0x00000000C53A9966        #  Was: MENU
+          KEY_UP                   0x00000000C53A9966        #  Was: UP
+          KEY_LEFT                 0x00000000C53A9966        #  Was: LEFT
+          KEY_ENTER                0x00000000C53A9966        #  Was: ENTER
+          KEY_RIGHT                0x00000000C53A9966        #  Was: RIGHT
+          KEY_DOWN                 0x00000000C53A9966        #  Was: DOWN
+          KEY_SETUP                0x00000000C53A9966        #  Was: SETUP
+          KEY_ENTER                0x00000000C53A9966        #  Was: RETURN
+          BWD                      0x00000000C53A9966 0x00000000F50A57A8
+          KEY_FORWARD              0x00000000C53A9966        #  Was: FWD
+          KEY_PLAY                 0x00000000C53A9966        #  Was: PLAY_MODE
+          SURROUND                 0x00000000C53A9966 0x00000000F50A8679
+          KEY_ZOOM                 0x00000000C53A9966        #  Was: ZOOM
+          DISPLAY                  0x00000000C53A9966 0x00000000F50AC738
+      end codes
+
+end remote
+
+

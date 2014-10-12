@@ -1,0 +1,45 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.3pre1(default) on Sun Oct 18 19:02:40 2009
+#
+# contributed by Philip Labahn
+#
+# brand:                       Onkyo
+# model no. of remote control: RC-146T
+# devices being controlled by this remote: TapeDeck TA-2640
+#
+
+begin remote
+
+  name  Onkyo_RC-146T
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9032  4445
+  one           604  1641
+  zero          604   517
+  ptrail        604
+  repeat       9035  2200
+  pre_data_bits   16
+  pre_data       0x4BB0
+  gap          107821
+  repeat_gap   9033
+  toggle_bit_mask 0x0
+
+      begin codes
+          Autospace                0xD827
+          Pause-Record             0x18E7
+          KEY_REWIND               0x58A7                    #  Was: Rewind
+          KEY_FASTFORWARD          0x9867                    #  Was: FastFwd
+          KEY_PLAY                 0x6897                    #  Was: PlayReverse
+          KEY_PLAY                 0xA857                    #  Was: PlayForward
+          SkipForward              0xB847
+          KEY_STOP                 0xC837                    #  Was: Stop
+          Reset                    0xBA45
+      end codes
+
+end remote
+
+

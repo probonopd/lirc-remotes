@@ -1,0 +1,65 @@
+#
+# this config file was automatically generated
+# using WinLIRC 0.6.5 (LIRC 0.6.1pre3) on Tue Aug 07 18:26:35 2007
+#
+# contributed by Eyjolfur Runar Stefansson - eyfi|eyfi.com
+#
+# brand:             Kaon
+# model:             KTF-100CO
+# supported devices:
+#
+
+begin remote
+
+  name  Kaon_KTF-100CO
+  bits           16
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  header       9066  4430
+  one           612  1612
+  zero          612   492
+  ptrail        612
+  repeat       9065  2188
+  pre_data_bits   16
+  pre_data       0x410
+  gap          47223
+  toggle_bit_mask 0x0
+
+      begin codes
+          KEY_1                    0x38C7                    #  Was: 1
+          KEY_2                    0xB847                    #  Was: 2
+          KEY_3                    0x7887                    #  Was: 3
+          KEY_4                    0x02FD                    #  Was: 4
+          KEY_5                    0x827D                    #  Was: 5
+          KEY_6                    0x42BD                    #  Was: 6
+          KEY_7                    0x22DD                    #  Was: 7
+          KEY_8                    0xA25D                    #  Was: 8
+          KEY_9                    0x629D                    #  Was: 9
+          KEY_0                    0xE21D                    #  Was: 0
+          KEY_UP                   0x48B7                    #  Was: UP
+          KEY_DOWN                 0xC837                    #  Was: DOWN
+          KEY_LEFT                 0x28D7                    #  Was: LEFT
+          KEY_RIGHT                0x6897                    #  Was: RIGHT
+          KEY_OK                   0xA857                    #  Was: OK
+          KEY_EXIT                 0x08F7                    #  Was: EXIT
+          KEY_MENU                 0x8877                    #  Was: MENU
+          KEY_SLEEP                0x00FF                    #  Was: STANDBY
+          TV/RADIO                 0xA05F
+          KEY_RED                  0x18E7                    #  Was: RED
+          KEY_GREEN                0x9867                    #  Was: GREEN
+          KEY_YELLOW               0x58A7                    #  Was: YELLOW
+          KEY_BLUE                 0xD827                    #  Was: BLUE
+          KEY_MUTE                 0x20DF                    #  Was: MUTE
+          KEY_VOLUMEUP             0x40BF                    #  Was: VOLUP
+          KEY_VOLUMEDOWN           0xC03F                    #  Was: VOLDOWN
+          KEY_CHANNELUP            0x609F                    #  Was: CHUP
+          KEY_CHANNELDOWN          0xE01F                    #  Was: CHDOWN
+          TV/STB                   0x10EF
+          P.SIZE                   0x807F
+      end codes
+
+end remote
+
+

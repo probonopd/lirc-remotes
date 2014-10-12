@@ -1,0 +1,42 @@
+# WinLirc 0.6.5
+# contributed by bevice (mail|bevice.ru)
+# brand:             SVEN
+# model:             IHOO MT 5.1R
+
+
+begin remote
+
+  name  SVEN_IHOO_MT_5.1R
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9027  4531
+  one           548  1711
+  zero          548   581
+  ptrail        551
+  repeat       9025  2268
+  pre_data_bits   16
+  pre_data       0x18E7
+  gap          108458
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x00000000000038C7        #  Was: POWER
+          KEY_MUTE                 0x00000000000018E7        #  Was: MUTE
+          INPUT                    0x00000000000028D7
+          SOUND                    0x0000000000009867
+          PRESET                   0x00000000000030CF
+          SV.VOL-                  0x0000000000008877
+          SV.VOL+                  0x00000000000000FF
+          C.VOL-                   0x000000000000A857
+          C.VOL+                   0x00000000000020DF
+          S.VOL-                   0x000000000000B847
+          S.VOL+                   0x00000000000010EF
+          M.VOL-                   0x000000000000B04F
+          M.VOL+                   0x00000000000008F7
+      end codes
+
+end remote

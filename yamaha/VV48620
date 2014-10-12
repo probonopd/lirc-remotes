@@ -1,0 +1,72 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.0(serial) on Fri Aug 25 05:07:20 2006
+#
+# contributed by William Burnett
+#
+# brand:                       Yamaha
+# model no. of remote control: VV48620
+# devices being controlled by this remote: Receiver
+#
+
+begin remote
+
+  name  Yamaha_VV48620
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9047  4482
+  one           579  1671
+  zero          579   545
+  ptrail        577
+  repeat       9051  2229
+  pre_data_bits   16
+  pre_data       0x5EA1
+  gap          108033
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0xF807                    #  Was: Power
+          KEY_SLEEP                0xEA15                    #  Was: sleep
+          KEY_VOLUMEDOWN           0xD827                    #  Was: vol-
+          KEY_VOLUMEUP             0x58A7                    #  Was: vol+
+          delaly-                  0xCA35
+          delay+                   0x4AB5
+          test                     0xA15E
+          effect                   0x6A95
+          program<                 0x9A65
+          program>                 0x1AE5
+          prologic                 0x11EE
+          enhanced                 0x916E
+          KEY_VCR                  0xF00F                    #  Was: vcr
+          KEY_VIDEO                0xE817                    #  Was: video
+          KEY_TAPE                 0x18E7                    #  Was: tape
+          KEY_TUNER                0x6897                    #  Was: tuner
+          KEY_CD                   0xA857                    #  Was: cd
+          phono                    0x28D7
+          dir_a                    0xE01F
+          dir_b                    0x02FD
+          KEY_RECORD               0x20DF                    #  Was: rec/pause
+          KEY_PLAY                 0x00FF                    #  Was: play
+          KEY_REWIND               0x807F                    #  Was: <<
+          KEY_FORWARD              0x40BF                    #  Was: >>
+          KEY_STOP                 0xC03F                    #  Was: stop
+          a/b                      0x609F
+          preset-                  0x807F
+          preset+                  0x08F7
+          a/b/c/d/e                0x48B7
+          cd_<<                    0xB04F
+          cd_>>                    0x30CF
+          disk                     0xF20D
+          cd_play                  0x10EF
+          KEY_PREVIOUS             0xD02F                    #  Was: |<<
+          KEY_NEXT                 0x50AF                    #  Was: >>|
+          cd_stop                  0x906F
+      end codes
+
+end remote
+
+

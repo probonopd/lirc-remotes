@@ -1,0 +1,74 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.4a(default) on Wed Aug  5 19:28:16 2009
+#
+# contributed by
+#
+# brand: Compro Technology
+# model no. of remote control: Came with VideoMate DVB-T200
+# devices being controlled by this remote: Compro VideoMate DVB-T200 tv-card
+# The tv-card comes with an IR-eye but I'm using a simple serial reciever
+# now since I don't have the tv-card in the machine.
+#
+
+begin remote
+
+  name  Compro_DVB-T200
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9113  4389
+  one           639  1602
+  zero          639   485
+  ptrail        656
+  repeat       9110  2146
+  pre_data_bits   16
+  pre_data       0x17E
+  gap          107753
+  toggle_bit_mask 0x0
+
+      begin codes
+          KEY_MUTE                 0x28D7                    #  Was: MUTE
+          KEY_ZOOM                 0x22DD                    #  Was: ZOOM
+          KEY_DVD                  0x807F                    #  Was: DVD_VCD
+          KEY_RADIO                0xC23D                    #  Was: FM
+          PVR_TV                   0x00FF
+          KEY_REWIND               0x50AF                    #  Was: REWIND
+          KEY_PLAYPAUSE            0x10EF                    #  Was: PLAY_PAUSE
+          KEY_FORWARD              0xF00F                    #  Was: FORWARD
+          KEY_PREVIOUS             0x40BF                    #  Was: PREVIOUS
+          KEY_STOP                 0xE01F                    #  Was: STOP
+          KEY_NEXT                 0x609F                    #  Was: NEXT
+          KEY_INFO                 0xC03F                    #  Was: GUIDE
+          KEY_SETUP                0x906F                    #  Was: SETUP
+          KEY_UP                   0x30CF                    #  Was: UP
+          KEY_DOWN                 0x708F                    #  Was: DOWN
+          KEY_LEFT                 0xD02F                    #  Was: LEFT
+          KEY_RIGHT                0xB04F                    #  Was: RIGHT
+          TV_VIDEO                 0xA05F
+          CH_SURF                  0x42BD
+          KEY_VOLUMEUP             0x48B7                    #  Was: VOL+
+          KEY_VOLUMEDOWN           0xA857                    #  Was: VOL-
+          KEY_OK                   0x8877                    #  Was: OK
+          KEY_ANGLE                0x08F7                    #  Was: ANGLE
+          KEY_SUBTITLE             0xC837                    #  Was: SUBTITLE
+          KEY_RECORD               0x20DF                    #  Was: REC
+          KEY_1                    0x6897                    #  Was: 1
+          KEY_2                    0xE817                    #  Was: 2
+          KEY_3                    0x18E7                    #  Was: 3
+          KEY_4                    0x9867                    #  Was: 4
+          KEY_5                    0x58A7                    #  Was: 5
+          KEY_6                    0xD827                    #  Was: 6
+          KEY_7                    0x38C7                    #  Was: 7
+          KEY_8                    0xB847                    #  Was: 8
+          KEY_9                    0x7887                    #  Was: 9
+          KEY_LANGUAGE             0x02FD                    #  Was: LANGUAGE
+          KEY_0                    0xF807                    #  Was: 0
+          KEY_SLEEP                0x827D                    #  Was: SLEEP
+      end codes
+
+end remote
+
+

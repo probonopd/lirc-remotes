@@ -1,0 +1,79 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.2(default) on Wed Dec  9 15:28:42 2009
+#
+# contributed by Jörg Jenderek <joerg.jen.der.ek at gmx.net>
+#
+# brand:                       Philips
+# model no. of remote control: 242254902314
+# devices being controlled by this remote: TV 26PFL5604H
+#
+
+begin remote
+
+  name  PHILIPS_26PFL5604H
+  bits            8
+  flags RC6|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       2718   844
+  one           478   408
+  zero          478   408
+  pre_data_bits   13
+  pre_data       0xEFF
+  gap          106540
+  min_repeat      1
+  toggle_bit_mask 0x10000
+  rc6_mask    0x10000
+
+      begin codes
+          KEY_POWER                0xF3                      #  Was: Power
+          KEY_TV                   0x60                      #  Was: TV
+          KEY_SUBTITLE             0xB4                      #  Was: SUBTITLE
+          KEY_TEXT                 0xC3                      #  Was: TELETEXT
+          KEY_CYCLEWINDOWS         0xC7                      #  Was: SOURCE
+#red
+          DEMO                     0x92
+#green
+          SCENEA                   0x91
+#help
+          KEY_YELLOW               0x90                      #  Was: yellow
+#blue AudioDescriptor
+          AD                       0x8F
+          KEY_HOME                 0xAB                      #  Was: Home
+          KEY_INFO                 0x33                      #  Was: GUIDE
+          KEY_OPTION               0xBF                      #  Was: OPTIONS
+          KEY_UP                   0xA7                      #  Was: up
+          KEY_LEFT                 0xA5                      #  Was: left
+          KEY_OK                   0xA3                      #  Was: OK
+          KEY_RIGHT                0xA4                      #  Was: right
+          KEY_DOWN                 0xA6                      #  Was: down
+          KEY_BACK                 0xF5                      #  Was: BACK
+          KEY_INFO                 0xF0                      #  Was: INFO
+          KEY_REWIND               0xD4                      #  Was: <<
+          KEY_PLAY                 0xD3                      #  Was: Play
+          KEY_FORWARD              0xD7                      #  Was: >>
+          KEY_STOP                 0xCE                      #  Was: Stop
+          KEY_RECORD               0xC8                      #  Was: Record
+          KEY_VOLUMEUP             0xEF                      #  Was: Vol+
+          KEY_VOLUMEDOWN           0xEE                      #  Was: Vol-
+          KEY_MUTE                 0xF2                      #  Was: Mute
+          FORMAT                   0x0A
+          KEY_CHANNELUP            0xDF                      #  Was: P+
+          KEY_CHANNELDOWN          0xDE                      #  Was: P-
+          KEY_1                    0xFE                      #  Was: 1
+          KEY_2                    0xFD                      #  Was: 2
+          KEY_3                    0xFC                      #  Was: 3
+          KEY_4                    0xFB                      #  Was: 4
+          KEY_5                    0xFA                      #  Was: 5
+          KEY_6                    0xF9                      #  Was: 6
+          KEY_7                    0xF8                      #  Was: 7
+          KEY_8                    0xF7                      #  Was: 8
+          KEY_9                    0xF6                      #  Was: 9
+          SOUND                    0x0B
+          KEY_0                    0xFF                      #  Was: 0
+          PICTURE                  0x0C
+      end codes
+
+end remote

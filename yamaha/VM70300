@@ -1,0 +1,88 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.6(serial) on Thu Dec 26 14:30:37 2002
+#
+# contributed by Dan_Williams@sunshine.net
+#
+# brand:                                   YAMAHA_VM70300
+# model no. of remote control:             VM70300 (RCX)
+# devices being controlled by this remote: For various resons its gone
+#
+
+begin remote
+
+  name  YAMAHA_VM70300
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9236  4316
+  one           741  1518
+  zero          741   388
+  ptrail        747
+  repeat       9245  2052
+  pre_data_bits   16
+  pre_data       0x5EA1
+  gap          108470
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x000000000000F807        #  Was: power
+          KEY_SLEEP                0x000000000000EA15        #  Was: sleep
+          cdSkipBck                0x000000000000D02F
+          cdSkipFwd                0x00000000000050AF
+          cdDiskSkip               0x000000000000F20D
+          phonoPlayCut             0x000000000000708F
+          phono                    0x00000000000028D7
+          cdSearchBck              0x000000000000B04F
+          cdSearchFwd              0x00000000000030CF
+          cdPauseStop              0x000000000000906F
+          cdPlay                   0x00000000000010EF
+          KEY_CD                   0x000000000000A857        #  Was: cd
+          tunerPresetMinus         0x0000000000008877
+          tunerPresetPlus          0x00000000000008F7
+          tunerABCDE               0x00000000000048B7
+          KEY_TUNER                0x0000000000006897        #  Was: tuner
+          eqOnFlat                 0x0000000000005AA5
+          tapeDirA                 0x000000000000E01F
+          tapeDeckAB               0x000000000000609F
+          tapeDirB                 0x00000000000002FD
+          tape1                    0x00000000000018E7
+          presetUp                 0x000000000000DA25
+          tapeSearchBck            0x000000000000807F
+          tapePlay                 0x00000000000000FF
+          tapeSearchFwd            0x00000000000040BF
+          ldtv                     0x000000000000E817
+          presetDown               0x0000000000003AC5
+          tapeRecPause             0x00000000000020DF
+          tapeStop                 0x000000000000C03F
+          tapeRecMute              0x000000000000A05F
+          vcr1mon                  0x000000000000F00F
+          test                     0x000000000000A15E
+          prologic                 0x00000000000011EE
+          enhanced                 0x000000000000916E
+          cnctVideo                0x00000000000051AE
+          centerMode               0x00000000000021DE
+          monoMovie                0x000000000000D12E
+          rock                     0x00000000000031CE
+          hall                     0x000000000000B14E
+          vcr2                     0x000000000000C837
+          delayUp                  0x0000000000004AB5
+          FELdn                    0x000000000000817E
+          FELup                    0x00000000000001FE
+          effect                   0x0000000000006A95
+          masterUp                 0x00000000000058A7
+          CLdn                     0x000000000000C13E
+          CLup                     0x00000000000041BE
+          delayDn                  0x000000000000CA35
+          RLdn                     0x000000000000FA05
+          RLup                     0x0000000000007A85
+          muting                   0x00000000000038C7
+          masterDn                 0x000000000000D827
+      end codes
+
+end remote
+
+

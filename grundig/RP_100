@@ -1,0 +1,61 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.2-CVS(default) on Fri Oct 19 23:53:38 2007
+#
+# contributed by
+#
+# brand:                                       GRUNDIG
+# model no. of remote control:                 RP 100
+# devices being controlled by this remote:     VCR GV 437
+#
+
+begin remote
+
+  name  Grundig_RP_100
+  bits           13
+  flags RC5|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           932   841
+  zero          932   841
+  plead         962
+  gap          113623
+  min_repeat      1
+  toggle_bit_mask 0x800
+
+      begin codes
+          KEY_SLEEP                0x114C                    #  Was: standby
+          cass                     0x017E
+          timer                    0x115D
+          c1                       0x1141
+          c2                       0x1142
+          c3                       0x1143
+          c4                       0x1144
+          c5                       0x1145
+          c6                       0x1146
+          c7                       0x1147
+          c8                       0x1148
+          c9                       0x1149
+          c0                       0x1140
+          KEY_KPPLUS               0x1160                    #  Was: plus
+          KEY_KPMINUS              0x1161                    #  Was: minus
+          selvps                   0x114B
+          KEY_CLEAR                0x1171                    #  Was: clear
+          arecordotr               0x1177
+          still                    0x1169
+          rev                      0x1165
+          KEY_PLAY                 0x1175                    #  Was: play
+          KEY_FORWARD              0x1166                    #  Was: fwd
+          KEY_PREVIOUS             0x0171                    #  Was: previous
+          pausestop                0x1176
+          KEY_NEXT                 0x0170                    #  Was: next
+          monitor                  0x017A
+          KEY_TUNER                0x017D                    #  Was: tuner
+          tracking                 0x114E
+          splp                     0x117A
+      end codes
+
+end remote
+
+

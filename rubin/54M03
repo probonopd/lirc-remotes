@@ -1,0 +1,74 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.4(sir) on Sat Oct 27 13:47:09 2001
+#
+# contributed by Anatoly Kirsanov (kiav@land.ru)
+#
+# brand:                       rubin
+# model no. of remote control:
+# supported devices:           Remote Control bundled with Rubin 54M03 TV
+#
+
+begin remote
+
+  name  rubin
+  bits           13
+  flags RC5|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           889   889
+  zero          889   889
+  plead         889
+  gap          113792
+  min_repeat      1
+  toggle_bit      2
+
+  frequency    36000
+  duty_cycle   50
+
+      begin codes
+          TIMER                    0x0000000000001026
+          KEY_INFO                 0x000000000000100F        #  Was: INFO
+          KEY_POWER                0x000000000000100C        #  Was: POWER
+          KEY_1                    0x0000000000001001        #  Was: 1
+          KEY_2                    0x0000000000001002        #  Was: 2
+          KEY_3                    0x0000000000001003        #  Was: 3
+          KEY_TV                   0x000000000000103F        #  Was: TV
+          KEY_4                    0x0000000000001004        #  Was: 4
+          KEY_5                    0x0000000000001005        #  Was: 5
+          KEY_6                    0x0000000000001006        #  Was: 6
+          AV                       0x0000000000001038
+          KEY_7                    0x0000000000001007        #  Was: 7
+          KEY_8                    0x0000000000001008        #  Was: 8
+          KEY_9                    0x0000000000001009        #  Was: 9
+          KEY_TEXT                 0x000000000000103C        #  Was: TXT
+          KEY_2                    0x000000000000100A        #  Was: 1-2
+          KEY_0                    0x0000000000001000        #  Was: 0
+          PP                       0x000000000000100E
+          KEY_MUTE                 0x000000000000100D        #  Was: MUTE
+          b6_1                     0x0000000000001022
+          b7_1                     0x0000000000001023
+          b8_1                     0x0000000000001024
+          KEY_TIME                 0x000000000000102A        #  Was: CLOCK
+          KEY_X                    0x000000000000102D        #  Was: X
+          MIX                      0x000000000000102E
+#          TXT+                     0x000000000000100A
+          HOLD                     0x0000000000001029
+          ?                        0x000000000000102C
+          b10_3                    0x000000000000102B
+          TXT-                     0x000000000000100B
+          Pon                      0x0000000000001037
+          Pst                      0x0000000000001036
+          Psz                      0x0000000000001032
+          b11_4                    0x0000000000001034
+          KEY_UP                   0x0000000000001020        #  Was: UP
+          KEY_DOWN                 0x0000000000001021        #  Was: DOWN
+          KEY_LEFT                 0x0000000000001011        #  Was: LEFT
+          KEY_RIGHT                0x0000000000001010        #  Was: RIGHT
+          SEL                      0x000000000000103B
+      end codes
+
+end remote
+
+

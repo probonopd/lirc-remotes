@@ -1,0 +1,77 @@
+#
+# this config file was automatically generated
+# using WinLIRC 0.6.5 (LIRC 0.6.1pre3) on Sun Oct 16 04:58:37 2005
+#
+# contributed by
+#
+# brand:             StarSat
+# model:             120
+# supported devices:
+#
+
+begin remote
+
+  name  Starsat_120
+  bits           16
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  header       9040  4397
+  one           641  1595
+  zero          641   469
+  ptrail        641
+  repeat       9023  2161
+  pre_data_bits   16
+  pre_data       0x202
+  gap          46721
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x50AF                    #  Was: Power
+          KEY_MUTE                 0x30CF                    #  Was: Mute
+          TV/SAT                   0xF00F
+          Read                     0x6897
+          Sabz                     0xE817
+          Yellowe                  0x18E7
+          Bule                     0x9867
+          KEY_1                    0x807F                    #  Was: 1
+          KEY_2                    0x40BF                    #  Was: 2
+          KEY_3                    0xC03F                    #  Was: 3
+          KEY_AUDIO                0xC837                    #  Was: Audio
+          KEY_4                    0x20DF                    #  Was: 4
+          KEY_5                    0xA05F                    #  Was: 5
+          KEY_6                    0x609F                    #  Was: 6
+          KEY_TEXT                 0x28D7                    #  Was: Text
+          KEY_7                    0xE01F                    #  Was: 7
+          KEY_8                    0x10EF                    #  Was: 8
+          KEY_9                    0x906F                    #  Was: 9
+          KEY_EPG                  0x58A7                    #  Was: EPG
+          KEY_TIME                 0x48B7                    #  Was: Time
+          KEY_0                    0x00FF                    #  Was: 0
+          Media                    0xB847
+          LAN                      0xD827
+          KEY_UP                   0xD02F                    #  Was: UP
+          KEY_DOWN                 0x708F                    #  Was: Down
+          KEY_LEFT                 0x08F7                    #  Was: Left
+          Ritgh                    0x8877
+          KEY_OK                   0xB04F                    #  Was: OK
+          KEY_VOLUMEUP             0xA857                    #  Was: VOL+
+          KEY_VOLUMEDOWN           0x38C7                    #  Was: VOL-
+          KEY_CHANNELDOWN          0x7887                    #  Was: CH-
+          KEY_CHANNELUP            0xF807                    #  Was: CH+
+          KEY_MENU                 0x02FD                    #  Was: MENU
+          KEY_EXIT                 0x827D                    #  Was: Exit
+          KEY_I                    0x42BD                    #  Was: i
+          KEY_AGAIN                0xC23D                    #  Was: RCL
+          A-Z                      0x22DD
+          KEY_SAT                  0xA25D                    #  Was: Sat
+          FUNC                     0x629D
+          KEY_FAVORITES            0xE21D                    #  Was: FAV
+          >^                       0xD02F
+      end codes
+
+end remote
+
+

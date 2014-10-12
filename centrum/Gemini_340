@@ -1,0 +1,68 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.2-CVS(default) on Sun Apr 29 01:21:13 2007
+#
+# contributed by Dieter Fauth
+#
+# brand: DVD Player Centrum Gemini 340 (330 and 332 are probably the same)
+# model no. of remote control: Nothing written on it
+# devices being controlled by this remote: DVD Player Centrum Gemmini 340
+(330 and 332 are probably the same)
+# The code for the "One For All" URC-7780 is Y0713
+
+begin remote
+
+   name  Centrum_Gemini_340
+   bits           13
+   flags RC5|CONST_LENGTH
+   eps            30
+   aeps          100
+
+   one           865   911
+   zero          865   911
+   plead         860
+   gap          113809
+   toggle_bit_mask 0x800
+
+       begin codes
+# URC-7780 keys
+          KEY_POWER                0x174D                    #  Was: POWER
+           PROGRAM                  0x1774	# Green
+          KEY_OPEN                  0x174C                   #  Was: OPEN/CLOSE
+          KEY_1                    0x1752                    #  Was: 1
+          KEY_2                    0x1743                    #  Was: 2
+          KEY_3                    0x1742                    #  Was: 3
+          KEY_4                    0x174A                    #  Was: 4
+          KEY_5                    0x1746                    #  Was: 5
+          KEY_6                    0x1745                    #  Was: 6
+          KEY_7                    0x1740                    #  Was: 7
+          KEY_8                    0x1749                    #  Was: 8
+          KEY_9                    0x1748                    #  Was: 9
+          KEY_C                    0x1741                    #  Was: C
+          KEY_0                    0x1747                    #  Was: 0
+          KEY_10CHANNELSUP         0x1744                    #  Was: +10
+          KEY_PREVIOUS             0x176C
+          KEY_NEXT                 0x176D
+          KEY_REWIND               0x1756                    #  Was: REW
+          KEY_FASTFORWARD          0x1755                    #  Was: FF
+          KEY_PLAYPAUSE            0x176E                    #  Was: PLAY/PAUSE
+          KEY_STOP                 0x176F                    #  Was: STOP
+          KEY_TITLE                0x177C                    #  Was: TITLE
+          KEY_MENU                 0x174E                    #  Was: MENU
+          KEY_UP                   0x1761                    #  Was: UP
+          KEY_DOWN                 0x1760                    #  Was: DOWN
+          KEY_LEFT                 0x1750                    #  Was: LEFT
+          KEY_RIGHT                0x1751                    #  Was: RIGHT
+           DISPLAY                  0x177F	# Red
+           SEARCHMODE               0x1763
+          KEY_ZOOM                 0x1778                    #  Was: ZOOM
+          KEY_ENTER                0x176A                    #  Was: RETURN
+          KEY_SUBTITLE             0x1772                    #  Was: SUBTITLE
+          KEY_AUDIO                0x1776                    #  Was: AUDIO
+          KEY_ANGLE                0x1769                    #  Was: ANGLE
+          KEY_TIME                 0x1777                    #  Was: TIME
+          KEY_AGAIN                0x176B                    #  Was: REPEAT
+           A-B                      0x1770
+       end codes
+
+end remote

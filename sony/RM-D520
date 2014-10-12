@@ -1,0 +1,64 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.6 on Mon Oct  6 15:04:31 2003
+#
+# contributed by
+#
+# brand: 	                        Sony
+# model no. of remote control: 		RM-D520
+# devices being controlled by this remote:	CD-Player
+#
+
+begin remote
+
+  name  Sony_RM-D520
+  bits           11
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       2538   485
+  one          1279   531
+  zero          670   531
+  ptrail       1249
+  gap          45653
+  min_repeat      2
+  toggle_bit      0
+
+
+      begin codes
+          continue                 0x00000000000005C8
+          shuffle                  0x0000000000000568
+          program                  0x00000000000007C8
+          KEY_1                    0x0000000000000008        #  Was: 1
+          KEY_2                    0x0000000000000408        #  Was: 2
+          KEY_3                    0x0000000000000208        #  Was: 3
+          KEY_4                    0x0000000000000608        #  Was: 4
+          KEY_5                    0x0000000000000108        #  Was: 5
+          KEY_6                    0x0000000000000508        #  Was: 6
+          KEY_7                    0x0000000000000308        #  Was: 7
+          KEY_8                    0x0000000000000708        #  Was: 8
+          KEY_9                    0x0000000000000088        #  Was: 9
+          KEY_0                    0x0000000000000028        #  Was: 10
+          >10                      0x0000000000000728
+          KEY_CLEAR                0x0000000000000788        #  Was: clear
+          m.scan                   0x00000000000001E8
+          fader                    0x00000000000007D8
+          dsp.select               0x00000000000005D8
+          KEY_TIME                 0x00000000000000A8        #  Was: time
+          KEY_AGAIN                0x00000000000001A8        #  Was: repeat
+          direct                   0x00000000000003D8
+          KEY_PLAY                 0x0000000000000268        #  Was: play
+          KEY_PAUSE                0x00000000000004E8        #  Was: pause
+          KEY_STOP                 0x00000000000000E8        #  Was: stop
+          KEY_REWIND               0x0000000000000068        #  Was: backward
+          KEY_FORWARD              0x0000000000000468        #  Was: forward
+          rw                       0x0000000000000668
+          KEY_FASTFORWARD          0x0000000000000168        #  Was: ff
+          KEY_KPPLUS               0x0000000000000248        #  Was: +
+          KEY_KPMINUS              0x0000000000000648        #  Was: -
+      end codes
+
+end remote
+
+

@@ -1,0 +1,53 @@
+
+#
+# this config file was automatically generated
+# using lirc-0.6.6(sir) on Fri Nov 22 19:14:32 2002
+#
+# contributed by Graham Swallow
+#
+# brand:                       L+S
+# model no. of remote control:
+# devices being controlled by this remote:
+#
+# L+S CD/Radio/Tape Model Number 20101
+#
+
+begin remote
+
+  name  LS
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH|REPEAT_HEADER
+  eps            30
+  aeps          100
+
+  header       4521  4522
+  one           561  1694
+  zero          561   568
+  ptrail        519
+  repeat        590  1681
+  pre_data_bits   16
+  pre_data       0x2525
+  gap          108518
+  toggle_bit      0
+
+
+      begin codes
+          tune_down                0x00000000000020DF
+          tune_up                  0x00000000000030CF
+          scan_up                  0x000000000000609F
+          mem_prog                 0x00000000000028D7
+          mem_up                   0x00000000000038C7
+          intro                    0x000000000000A857
+          random                   0x000000000000B04F
+          KEY_MODE                 0x000000000000A05F        #  Was: mode
+          KEY_MUTE                 0x00000000000005FA        #  Was: mute
+          KEY_POWER                0x0000000000006897        #  Was: power
+          KEY_VOLUMEUP             0x00000000000004FB        #  Was: vol_up
+          KEY_VOLUMEDOWN           0x00000000000006F9        #  Was: vol_down
+          KEY_PLAYPAUSE            0x000000000000C837        #  Was: play_pause
+          KEY_STOP                 0x000000000000D827        #  Was: stop
+      end codes
+
+end remote
+
+

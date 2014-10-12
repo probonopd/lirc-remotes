@@ -1,0 +1,70 @@
+#
+# this is a space encoded remote control with special repeat code
+# from Yamaha
+#
+# contributed by Pablo d'Angelo
+#
+# brand:             Yamaha
+# model:             unknown
+# supported devices: cd player CDX-570
+#
+
+begin remote
+
+  name  YAMAHA_CD
+  bits           16
+  flags SPACE_ENC|REVERSE
+  eps            50
+  aeps            0
+
+  header       9050  4500
+  one           600  1650
+  zero          600   550
+  ptrail        600
+  plead           0
+  foot            0     0
+  repeat       9100  2300
+  pre_data_bits   16
+  pre_data       0x8679
+  post_data_bits  0
+  post_data      0x0
+  pre             0     0
+  post            0     0
+  gap          50000
+  repeat_bit      0
+
+
+      begin codes
+          CD_PLAY                  0x000000000000FD02
+          CD_PAUSE                 0x000000000000AA55
+          CD_STOP                  0x000000000000A956
+          CD_SEARCH_>              0x000000000000F906
+          CD_SEARCH_<              0x000000000000FA05
+          CD_TRACK_+               0x000000000000F807
+          CD_TRACK_-               0x000000000000FB04
+          CD_OPEN/CLOSE            0x000000000000FE01
+          CD_DIMMER                0x000000000000E11E
+          CD_TIME                  0x000000000000F50A
+          CD_PROG                  0x000000000000F30C
+          CD_CLEAR                 0x000000000000F20D
+          CD_TAPE                  0x000000000000A857
+          CD_RANDOM                0x000000000000E41B
+          CD_REPEAT                0x000000000000F708
+          CD_INDEX                 0x000000000000F40B
+          CD_VOL_UP                0x000000000000E21D
+          CD_VOL_DOWN              0x000000000000E31C
+          CD_0                     0x000000000000EF10
+          CD_1                     0x000000000000EE11
+          CD_2                     0x000000000000ED12
+          CD_3                     0x000000000000EC13
+          CD_4                     0x000000000000EB14
+          CD_5                     0x000000000000EA15
+          CD_6                     0x000000000000E916
+          CD_7                     0x000000000000E817
+          CD_8                     0x000000000000E718
+          CD_9                     0x000000000000E619
+          CD_+10                   0x000000000000E51A
+      end codes
+
+end remote
+

@@ -1,0 +1,47 @@
+# this config file was automatically generated
+# using lirc-0.8.6(default) on Sat Jul 31 16:36:24 2010
+#
+# contributed by Kyle Anderson <kyle|xkyle.com
+#
+# brand: Comcast
+# model no. of remote control: 3067BC2-R
+# devices being controlled by this remote: Comcast DTA
+#
+
+begin remote
+
+  name  Comcast_3067BC2-R
+  bits           24
+  flags XMP
+  eps            20
+  aeps          300
+
+  one             0   137
+  zero          250   710
+  ptrail        250
+  pre_data_bits   32
+  pre_data       0x170F443E
+  post_data_bits  8
+  post_data      0x0
+  pre           250 12921
+  gap          81698
+  toggle_bit_mask 0x0
+
+      begin codes
+          KEY_INFO                 0x170026
+          KEY_1                    0x1E0001
+          KEY_2                    0x1D0002
+          KEY_3                    0x1C0003
+          KEY_4                    0x1B0004
+          KEY_5                    0x1A0005
+          KEY_6                    0x190006
+          KEY_7                    0x180007
+          KEY_8                    0x170008
+          KEY_9                    0x160009
+          KEY_0                    0x1F0000
+          KEY_ENTER                0x180025
+          KEY_LANGUAGE             0x150082
+      end codes
+
+end remote
+

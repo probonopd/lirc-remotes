@@ -1,0 +1,70 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.3-CVS(audio) on Wed Mar 19 12:14:02 2008
+#
+# contributed by alexbgreat
+#
+# brand:RCA
+# model no. of remote control: Unknown
+# devices being controlled by this remote:
+# Rca VCR VR637HF
+
+begin remote
+
+  name  RCA_VR637HF
+  bits           24
+  flags SPACE_ENC
+  eps            30
+  aeps          100
+
+  header       4041  4030
+  one           524  1991
+  zero          524   983
+  ptrail        524
+  gap          17902
+  toggle_bit_mask 0x0
+
+      begin codes
+          KEY_POWER                0xE2A1D5                  #  Was: power
+          KEY_CLEAR                0xE061F9                  #  Was: clear
+          speed                    0xE461B9
+          KEY_INFO                 0xE3C1C3                  #  Was: info
+          KEY_INFO                 0xE1A1E5                  #  Was: guide
+          KEY_SEARCH               0xE531AC                  #  Was: search
+          KEY_MENU                 0xE081F7                  #  Was: menu
+          go_back                  0xE271D8
+          KEY_UP                   0xE591A6                  #  Was: up
+          KEY_DOWN                 0xE581A7                  #  Was: down
+          KEY_LEFT                 0xE561A9                  #  Was: left
+          KEY_RIGHT                0xE571A8                  #  Was: right
+          KEY_SELECT               0xEF410B                  #  Was: select
+          KEY_VOLUMEUP             0xF2F0D0                  #  Was: volup
+          KEY_VOLUMEDOWN           0xF2E0D1                  #  Was: voldn
+          KEY_CHANNELUP            0xE2D1D2                  #  Was: chup
+          chdn                     0xE2C1D3
+          KEY_MUTE                 0xF3F0C0                  #  Was: mute
+          KEY_1                    0xE311CE                  #  Was: 1
+          KEY_2                    0xE321CD                  #  Was: 2
+          KEY_3                    0xE331CC                  #  Was: 3
+          KEY_4                    0xE341CB                  #  Was: 4
+          KEY_5                    0xE351CA                  #  Was: 5
+          KEY_6                    0xE361C9                  #  Was: 6
+          KEY_7                    0xE371C8                  #  Was: 7
+          KEY_8                    0xE381C7                  #  Was: 8
+          KEY_9                    0xE391C6                  #  Was: 9
+          trackplus                0xE0B1F4
+          trackminus               0xE0A1F5
+          antenna                  0xE051FA
+          input                    0xE471B8
+          KEY_0                    0xE301CF                  #  Was: 0
+          rev                      0xE1D1E2
+          KEY_PLAY                 0xE151EA                  #  Was: play
+          KEY_FORWARD              0xE1C1E3                  #  Was: fwd
+          KEY_RECORD               0xE171E8                  #  Was: rec
+          KEY_STOP                 0xE1F1E0                  #  Was: stop
+          KEY_PAUSE                0xE191E6                  #  Was: pause
+      end codes
+
+end remote
+
+

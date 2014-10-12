@@ -1,0 +1,111 @@
+#
+# this config file was automatically generated
+# using WinLIRC 0.6.4 (LIRC 0.6.1pre3) on Sat Apr 12 10:25:57 2003
+#
+# contributed by Marcus Bouchain <Bouchi@gmx.net>
+#
+# brand:             SONY
+# model:             RM-D921 (and many other)
+# supported devices: cd player
+#
+# Hint: When scanning a Sony-Remote the 'one' and 'zero' signal will
+#       be switched and you will get a 'ptrail' instead of bit12.
+#       -ptrail 1200 == ONE,  -ptrail 600 == ZERO as the last bit
+#
+# ToDo: a) invert the 7 code-bits
+#       b) strip the last 4 bits  --> post_data
+#       c) covert ptrail to 1 bit --> post_data
+#
+# Example:
+#      play 0x0000000000000597 [bits 11] [ptrail 1260] [one  663 512]
+#  is  play 0x0000000000000268 [bits 11] [ptrail 1200] [one 1200 600]
+#  is  play 0x0000000000000026 [bits  7] [ptrail 1200] [one 1200 600] [4bit post_data 0x8]
+#  is  play 0x0000000000000026 [bits  7]               [one 1200 600] [5bit post_data 0x11]
+#  (== play 0x00000000000004D1 [bits 12]               [one 1200 600])
+#
+#
+# The frequency and duty_cycle options where taken from
+# the generic template file 'SONY12.conf'
+#
+
+begin remote
+  name  SONY_RM-D921
+  bits            7
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  header       2400   600
+  one          1200   600
+  zero          600   600
+
+  post_data_bits  5
+  post_data      0x11
+  gap          25000
+  toggle_bit      0
+
+  frequency    40000
+  duty_cycle   33
+
+      begin codes
+          KEY_PLAY                 0x0000000000000026        #  Was: PLAY
+          KEY_PAUSE                0x000000000000004E        #  Was: PAUSE
+          KEY_STOP                 0x000000000000000E        #  Was: STOP
+          KEY_PREVIOUS             0x0000000000000006        #  Was: PREV
+          KEY_NEXT                 0x0000000000000046        #  Was: NEXT
+          KEY_REWIND               0x0000000000000066        #  Was: REW
+          KEY_FASTFORWARD          0x0000000000000016        #  Was: FF
+          SLOWREW                  0x000000000000002E
+          SLOWFF                   0x000000000000006E
+          INDEX-                   0x0000000000000036
+          INDEX+                   0x0000000000000076
+          FADER                    0x000000000000007D
+          KEY_VOLUMEUP             0x0000000000000024        #  Was: VOL+
+          KEY_VOLUMEDOWN           0x0000000000000064        #  Was: VOL-
+          KEY_OPEN                 0x0000000000000034        #  Was: OPEN/CLOSE
+          DISPLAY_MODE             0x0000000000000035
+          CONTINUE                 0x000000000000005C
+          SHUFFLE                  0x0000000000000056
+          PROGRAM                  0x000000000000007C
+          C.INDEX                  0x000000000000000C
+          MUSIC_SCAN               0x000000000000001E
+          KEY_1                    0x0000000000000000        #  Was: 1
+          KEY_2                    0x0000000000000040        #  Was: 2
+          KEY_3                    0x0000000000000020        #  Was: 3
+          KEY_4                    0x0000000000000060        #  Was: 4
+          KEY_5                    0x0000000000000010        #  Was: 5
+          KEY_6                    0x0000000000000050        #  Was: 6
+          KEY_7                    0x0000000000000030        #  Was: 7
+          KEY_8                    0x0000000000000070        #  Was: 8
+          KEY_9                    0x0000000000000008        #  Was: 9
+          KEY_0                    0x0000000000000002        #  Was: 10
+          KEY_1                    0x0000000000000042        #  Was: 11
+          KEY_2                    0x0000000000000022        #  Was: 12
+          KEY_3                    0x0000000000000062        #  Was: 13
+          KEY_4                    0x0000000000000012        #  Was: 14
+          KEY_5                    0x0000000000000052        #  Was: 15
+          KEY_6                    0x0000000000000032        #  Was: 16
+          KEY_7                    0x0000000000000004        #  Was: 17
+          KEY_8                    0x0000000000000044        #  Was: 18
+          KEY_9                    0x0000000000000074        #  Was: 19
+          KEY_0                    0x000000000000004A        #  Was: 20
+          >20                      0x0000000000000072
+          CHECK                    0x0000000000000058
+          KEY_CLEAR                0x0000000000000078        #  Was: CLEAR
+          KEY_TIME                 0x000000000000000A        #  Was: TIME
+          KEY_AGAIN                0x000000000000001A        #  Was: REPEAT
+          A-B                      0x000000000000002A
+          A.SPACE                  0x0000000000000039
+          FILE                     0x000000000000004C
+          ERASE                    0x000000000000006C
+          PEAK_SEARCH              0x0000000000000079
+# The following Codes are not on the RM-D921
+          LEVEL_FILE               0x000000000000000B
+          FILE_RECALL              0x000000000000002C
+          MEMO_INPUT               0x000000000000004B
+          >10                      0x0000000000000072
+      end codes
+
+end remote
+
+

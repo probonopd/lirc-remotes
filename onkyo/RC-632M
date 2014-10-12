@@ -1,0 +1,90 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.0(serial) on Wed Mar 29 11:47:36 2006
+#
+# contributed by L. Reed (crunchyfrog|charter.net)
+#
+# brand: Onkyo
+# model no. of remote control: RC-632M
+# devices being controlled by this remote: Onkyo TX-SR573 Audio/Visual Receiver
+# Note: These are the codes as sent in the default "RECEIVER" mode.
+#
+
+begin remote
+
+  name  Onkyo_RC-632M
+  bits           24
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  header       9047  4369
+  one           655   459
+  zero          655  1579
+  ptrail        655
+  repeat       9060  2115
+  pre_data_bits   8
+  pre_data       0xB4
+  gap          38601
+  toggle_bit      0
+
+
+     begin codes
+          KEY_POWER                0x49DF20                  #  Was: POWER-ON
+          KEY_SLEEP                0xC91DE2                  #  Was: STANDBY
+          V1                       0x490FF0
+          V2                       0x498F70
+          V3                       0x494FB0
+# '4' doesn't transmit in this mode
+          MULTI-CH                 0xC9DF20
+          KEY_DVD                  0xC9CE31                  #  Was: DVD
+          KEY_CD                   0x496F90                  #  Was: CD
+          KEY_TAPE                 0x49EF10                  #  Was: TAPE
+          KEY_TUNER                0x492FD0                  #  Was: TUNER
+# +10, 0, CLEAR don't trasnmit in this mode
+          DIMMER                   0x4956A9
+          TOP-MENU                 0xBFCD32
+          KEY_MENU                 0xBF4DB2                  #  Was: MENU
+          KEY_SLEEP                0x4945BA                  #  Was: SLEEP
+          KEY_CHANNELUP            0x49FF00                  #  Was: CH+
+          KEY_CHANNELDOWN          0x497F80                  #  Was: CH-
+          KEY_UP                   0x49BE41                  #  Was: UP
+          KEY_DOWN                 0x493EC1                  #  Was: DOWN
+          KEY_LEFT                 0x49DE21                  #  Was: LEFT
+          KEY_RIGHT                0x495EA1                  #  Was: RIGHT
+          KEY_ENTER                0x4916E9                  #  Was: ENTER
+          KEY_VOLUMEUP             0x49BF40                  #  Was: VOL+
+          KEY_VOLUMEDOWN           0x493FC0                  #  Was: VOL-
+          KEY_CHANNELDOWN          0xC955AA                  #  Was: PREV-CH
+          KEY_ENTER                0xC9D52A                  #  Was: RETURN
+          KEY_SETUP                0xC935CA                  #  Was: SETUP
+          MUTING                   0x495FA0
+          KEY_PREVIOUS             0x4936C9                  #  Was: |<<
+          KEY_PLAY                 0x4957A8                  #  Was: PLAY
+          KEY_NEXT                 0x49D629                  #  Was: >>|
+          KEY_REWIND               0x49A758                  #  Was: <<
+          KEY_PAUSE                0x499768                  #  Was: PAUSE
+          KEY_STOP                 0x4937C8                  #  Was: STOP
+          KEY_FORWARD              0x496798                  #  Was: >>
+          KEY_RECORD               0x49E718                  #  Was: REC
+          KEY_PLAY                 0x49659A                  #  Was: PLAYLIST-SPA
+          KEY_PLAY                 0x49A55A                  #  Was: PLAYLIST-SPB
+# RANDOM doesn't transmit in this mode
+          STEREO                   0xC9CD32
+          SURR                     0xC94DB2
+          <                        0xC95DA2
+          >                        0x49CD32
+# REPEAT doesn't trasnit in this mode
+          DIRECT                   0x49DD22
+# SUBTITLE doesn't transmit in this mode
+          ALL-ST                   0xC9B54A
+          TEST-TONE                0x49A659
+          CH-SEL                   0xC9DD22
+          LEVEL+                   0xC9BD42
+          LEVEL-                   0xC93DC2
+          KEY_OPEN                 0xC9E41B                  #  Was: OPEN/CLOSE
+# VIDEO-OFF doesn't trasnmit in this mode
+          L-NIGHT                  0xC914EB
+          KEY_POWER                0xC9946B                  #  Was: ONE-FLTR
+     end codes
+end remote

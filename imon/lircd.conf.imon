@@ -1,0 +1,79 @@
+#
+# contributed by Venky Raju (dev@venky.ws)
+#
+# brand: Soundgraph
+# model no. of remote control: iMON MultiMedian
+#
+# devices being controlled by this remote: HTPC
+#
+
+begin remote
+
+  name           IMON_MultiMedian
+  bits           16
+  flags          SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps           130
+
+  header         9000  4500
+  one            625   1625
+  zero           625   375
+  ptrail         625
+  repeat         8875  2125
+  pre_data_bits  16
+  pre_data       0x609F
+  gap            100000
+  toggle_bit     0
+
+  frequency    38000
+  duty_cycle   33
+
+      begin codes
+          KEY_EXIT                 0x00000000000000FF        #  Was: App.Exit
+          KEY_POWER                0x000000000000807F        #  Was: Power
+          KEY_1                    0x00000000000040BF        #  Was: 1
+          KEY_2                    0x000000000000C03F        #  Was: 2
+          KEY_3                    0x00000000000020DF        #  Was: 3
+          KEY_4                    0x000000000000A05F        #  Was: 4
+          KEY_5                    0x000000000000609F        #  Was: 5
+          KEY_6                    0x000000000000E01F        #  Was: 6
+          KEY_7                    0x00000000000010EF        #  Was: 7
+          KEY_8                    0x000000000000906F        #  Was: 8
+          KEY_9                    0x00000000000050AF        #  Was: 9
+          KEY_0                    0x000000000000D02F        #  Was: 0
+          Windows                  0x00000000000030CF
+          KEY_MENU                 0x000000000000B04F        #  Was: Menu
+          App.Launcher             0x000000000000708F
+          Function                 0x000000000000F00F
+          Task.Switcher            0x00000000000008F7
+          KEY_BACK                 0x0000000000008877        #  Was: Back
+          KEY_SELECT               0x00000000000048B7        #  Was: Select
+          KEY_EJECTCD              0x0000000000009867        #  Was: Eject
+          KEY_DELETE               0x00000000000018E7        #  Was: Delete
+          KEY_UP                   0x000000000000C837        #  Was: Up
+          KEY_RIGHT                0x0000000000006897        #  Was: Right
+          KEY_DOWN                 0x000000000000E817        #  Was: Down
+          KEY_LEFT                 0x00000000000028D7        #  Was: Left
+          KEY_ENTER                0x000000000000A857        #  Was: Enter
+          KEY_VOLUMEDOWN           0x00000000000058A7        #  Was: Vol-
+          KEY_VOLUMEUP             0x000000000000D827        #  Was: Vol+
+          KEY_MUTE                 0x00000000000038C7        #  Was: Mute
+          KEY_PLAY                 0x000000000000B847        #  Was: Play
+          KEY_PAUSE                0x0000000000007887        #  Was: Pause
+          KEY_PREVIOUS             0x000000000000F807        #  Was: Prev
+          KEY_NEXT                 0x00000000000002FD        #  Was: Next
+          KEY_REWIND               0x000000000000827D        #  Was: Rew
+          KEY_FORWARD              0x00000000000042BD        #  Was: Fwd
+          KEY_STOP                 0x000000000000C23D        #  Was: Stop
+          KEY_OPEN                 0x00000000000022DD        #  Was: Open
+          KEY_RECORD               0x000000000000A25D        #  Was: Rec
+          Bookmark                 0x000000000000629D
+          Thumbnail                0x000000000000E21D
+          Aspect                   0x00000000000012ED
+          KEY_MENU                 0x000000000000926D        #  Was: DVD.Menu
+          KEY_DVD                  0x00000000000052AD        #  Was: DVD.Caption
+          KEY_DVD                  0x000000000000D22D        #  Was: DVD.Language
+          KEY_F11                  0x00000000000032CD        #  Was: Full.Screen
+      end codes
+
+end remote

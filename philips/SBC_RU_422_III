@@ -1,0 +1,84 @@
+#
+# brand:             Philips
+# model:             SBC RU 422 III
+# supported devices: TV, VCR
+# contributed by:    Reto Huber, me@retohuber.ch
+#
+# This remote is reprogrammable. The configuration below is for code 0108 in VCR mode
+
+begin remote
+
+  name         Philips/SBC-RU-422-III
+  bits         13
+  flags        RC5|CONST_LENGTH
+  eps          30
+  aeps         100
+
+  one          932  847
+  zero         932  847
+  plead        976
+  gap          113935
+  toggle_bit   2
+
+      begin codes
+     
+# regular codes
+          KEY_POWER                0x000000000000114C        #  Was: power
+
+          program+             0x0000000000001160
+          program-             0x0000000000001161
+          KEY_MENU                 0x0000000000000152        #  Was: menu
+          KEY_OK                   0x0000000000000157        #  Was: ok
+          tt.suspend           0x000000000000115D
+          KEY_1                    0x0000000000001141        #  Was: 1
+          KEY_2                    0x0000000000001142        #  Was: 2
+          KEY_3                    0x0000000000001143        #  Was: 3
+          KEY_4                    0x0000000000001144        #  Was: 4
+          KEY_5                    0x0000000000001145        #  Was: 5
+          KEY_6                    0x0000000000001146        #  Was: 6
+          KEY_7                    0x0000000000001147        #  Was: 7
+          KEY_8                    0x0000000000001148        #  Was: 8
+          KEY_9                    0x0000000000001149        #  Was: 9
+          KEY_0                    0x0000000000001140        #  Was: 0
+          KEY_102ND                0x000000000000117A        #  Was: -/--
+          KEY_REWIND               0x0000000000001172        #  Was: backward
+          KEY_STOP                 0x0000000000001176        #  Was: stop
+          KEY_PAUSE                0x0000000000001169        #  Was: pause
+          KEY_FORWARD              0x0000000000001174        #  Was: forward
+          KEY_PLAY                 0x0000000000001175        #  Was: play
+          KEY_RECORD               0x0000000000001177        #  Was: record
+        
+# shift codes:
+          sprogram+            0x0000000000000150
+          sprogram-            0x0000000000000151
+
+      end codes
+
+end remote
+
+
+begin remote
+
+  name  Philips/SBC-RU-422-III-VOLUME
+  bits          3
+  flags SPACE_ENC
+  eps           25
+  aeps          100
+
+  header        2451   545
+  one           633   545
+  zero          1236   545
+  ptrail        632
+  post_data_bits  8
+  post_data     0xB7
+  gap           26525
+  toggle_bit    0
+
+      begin codes
+          KEY_VOLUMEUP             0x0000000000000005        #  Was: volume+
+          KEY_VOLUMEDOWN           0x0000000000000001        #  Was: volume-
+          KEY_MUTE                 0x0000000000000006        #  Was: mute
+      end codes
+
+end remote
+

@@ -1,0 +1,56 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.4(any) on Wed May 29 12:03:22 2002
+#
+# contributed by Kenneth Vermeirsch (kenneth.vermeirsch@rug.ac.be)
+#
+# brand:             		Philips (RC-5)
+# model no. of remote control:  RC 07104/01
+# supported devices:            CD723 (and similar) CD deck
+#
+
+begin remote
+
+  name  CD723
+  bits           13
+  flags RC5|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one          930   847
+  zero         930   847
+  plead         966
+  gap          113837
+  toggle_bit      2
+
+      begin codes
+	  fade				 0x0000000000000538
+          KEY_0                    0x0000000000001500        #  Was: 0
+          KEY_1                    0x0000000000001501        #  Was: 1
+          KEY_2                    0x0000000000001502        #  Was: 2
+          KEY_3                    0x0000000000001503        #  Was: 3
+          KEY_4                    0x0000000000001504        #  Was: 4
+          KEY_5                    0x0000000000001505        #  Was: 5
+          KEY_6                    0x0000000000001506        #  Was: 6
+          KEY_7                    0x0000000000001507        #  Was: 7
+          KEY_8                    0x0000000000001508        #  Was: 8
+          KEY_9                    0x0000000000001509        #  Was: 9
+          KEY_TIME                 0x000000000000150B        #  Was: time
+          KEY_SLEEP                0x000000000000150C        #  Was: standby
+          KEY_VOLUMEUP             0x0000000000001510        #  Was: volume+
+          KEY_VOLUMEDOWN           0x0000000000001511        #  Was: volume-
+          shuffle		         0x000000000000151C
+          KEY_AGAIN                0x000000000000151D        #  Was: repeat
+          KEY_NEXT                 0x0000000000001520        #  Was: next
+          KEY_PREVIOUS             0x0000000000001521        #  Was: previous
+          program	                 0x0000000000001524
+          highlight	                 0x000000000000152B
+          KEY_PAUSE                0x0000000000001530        #  Was: pause
+          KEY_REWIND               0x0000000000001532        #  Was: rewind
+          wind                           0x0000000000001534
+          KEY_PLAY                 0x0000000000001535        #  Was: play
+          KEY_STOP                 0x0000000000001536        #  Was: stop
+      end codes
+
+end remote
+

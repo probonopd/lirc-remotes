@@ -1,0 +1,159 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.5(irdeo) on Fri Mar  8 19:26:35 2002
+#
+# contributed by Nils Hammar (m4341@abc.se)
+#
+# brand:                       Hitachi
+# model no. of remote control: RM-466E
+# devices being controlled by this remote: VCR (Secondary VCR)
+#
+#- Actually the RM-466E supports two VCRS and one TV. The TV codes
+#- are user-configureable in the VCR, and are therefore not entered here.
+#- The RM-466E is an intelligent remote control that also can send data
+#- sequences to program recording times, setting the date/time etc.
+
+
+begin remote
+
+  name  RM-466E-2
+  bits           32
+  flags SPACE_ENC
+  eps            30
+  aeps          100
+
+  header       9000  4600
+  one           570  1700
+  zero          570   550
+  ptrail        570
+  repeat       9000  2300
+  gap          0
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x000000000679E817        #  Was: Power
+          KEY_EJECTCD              0x0000000006799C63        #  Was: Eject
+          VCR/TV                   0x0000000006796897
+          KEY_CHANNELUP            0x0000000006799867        #  Was: P+
+          KEY_CHANNELDOWN          0x00000000067918E7        #  Was: P-
+          KEY_RECORD               0x0000000086F928D7        #  Was: Rec
+          TitleIndex               0x0000000086F9B847
+          SelectUp                 0x0000000086F940BF
+          SelectDown               0x0000000086F9C03F
+          KEY_PLAY                 0x00000000067928D7        #  Was: Play
+          KEY_FASTFORWARD          0x000000000679906F        #  Was: FF
+          KEY_REWIND               0x00000000067950AF        #  Was: Rew
+          KEY_STOP                 0x000000000679D02F        #  Was: Stop
+          KEY_PAUSE                0x00000000067958A7        #  Was: Pause
+          Step                     0x00000000067908F7
+          SpinRight                0x000000000679FE01
+          SpinLeft                 0x0000000006797E81
+          KEY_ENTER                0x00000000067922DD        #  Was: Enter
+          TransAux                 0x0000000006792CD3
+          KEY_1                    0x000000000679B04F        #  Was: 1
+          KEY_2                    0x000000000679708F        #  Was: 2
+          KEY_3                    0x000000000679F00F        #  Was: 3
+          KEY_4                    0x00000000067938C7        #  Was: 4
+          KEY_5                    0x000000000679B847        #  Was: 5
+          KEY_6                    0x0000000006797887        #  Was: 6
+          KEY_7                    0x000000000679F807        #  Was: 7
+          KEY_8                    0x00000000067920DF        #  Was: 8
+          KEY_9                    0x000000000679A05F        #  Was: 9
+          KEY_0                    0x00000000067930CF        #  Was: 0
+          KEY_MENU                 0x00000000067902FD        #  Was: Menu
+          Disp                     0x00000000067942BD
+          Index                    0x000000000679A25D
+          SP/LP                    0x0000000006790CF3
+          Count/Clock              0x000000000679629D
+          KEY_0                    0x000000000679827D        #  Was: 0000
+          KEY_SLOW                 0x0000000006798877        #  Was: Slow
+          Ch1/2                    0x000000000679A857
+          A.DUB                    0x00000000067934CB
+          V.DUB                    0x0000000006795CA3
+          Tracking+                0x00000000067900FF
+          Tracking-                0x000000000679807F
+      end codes
+
+end remote
+
+
+
+#
+# this config file was automatically generated
+# using lirc-0.6.5(irdeo) on Fri Mar  8 18:24:11 2002
+#
+# contributed by Nils Hammar (m4341@abc.se)
+#
+# brand:                       Hitachi
+# model no. of remote control: RM-466E
+# devices being controlled by this remote: VCR (Primary VCR)
+#
+#- Actually the RM-466E supports two VCRS and one TV. The TV codes
+#- are user-configureable in the VCR, and are therefore not entered here.
+#- The RM-466E is an intelligent remote control that also can send data
+#- sequences to program recording times, setting the date/time etc.
+
+begin remote
+
+  name  RM-466E
+  bits           32
+  flags SPACE_ENC
+  eps            30
+  aeps          100
+
+  header       9000  4600
+  one           570  1700
+  zero          570   550
+  ptrail        570
+  repeat       9000  2300
+  gap          0
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x0000000006F9E817        #  Was: Power
+          KEY_EJECTCD              0x0000000006F99C63        #  Was: Eject
+          VCR/TV                   0x0000000006F96897
+          KEY_CHANNELUP            0x0000000006F99867        #  Was: P+
+          KEY_CHANNELDOWN          0x0000000006F918E7        #  Was: P-
+          KEY_RECORD               0x00000000867928D7        #  Was: Rec
+          TitleIndex               0x000000008679B847
+          SelectUp                 0x00000000867940BF
+          SelectDown               0x000000008679C03F
+          KEY_PLAY                 0x0000000006F928D7        #  Was: Play
+          KEY_FASTFORWARD          0x0000000006F9906F        #  Was: FF
+          KEY_REWIND               0x0000000006F950AF        #  Was: Rew
+          KEY_STOP                 0x0000000006F9D02F        #  Was: Stop
+          KEY_PAUSE                0x0000000006F958A7        #  Was: Pause
+          Step                     0x0000000006F908F7
+          SpinRight                0x0000000006F9FE01
+          SpinLeft                 0x0000000006F97E81
+          KEY_ENTER                0x0000000006F922DD        #  Was: Enter
+          TransAux                 0x0000000006F92CD3
+          KEY_1                    0x0000000006F9B04F        #  Was: 1
+          KEY_2                    0x0000000006F9708F        #  Was: 2
+          KEY_3                    0x0000000006F9F00F        #  Was: 3
+          KEY_4                    0x0000000006F938C7        #  Was: 4
+          KEY_5                    0x0000000006F9B847        #  Was: 5
+          KEY_6                    0x0000000006F97887        #  Was: 6
+          KEY_7                    0x0000000006F9F807        #  Was: 7
+          KEY_8                    0x0000000006F920DF        #  Was: 8
+          KEY_9                    0x0000000006F9A05F        #  Was: 9
+          KEY_0                    0x0000000006F930CF        #  Was: 0
+          KEY_MENU                 0x0000000006F902FD        #  Was: Menu
+          Disp                     0x0000000006F942BD
+          Index                    0x0000000006F9A25D
+          SP/LP                    0x0000000006F90CF3
+          Count/Clock              0x0000000006F9629D
+          KEY_0                    0x0000000006F9827D        #  Was: 0000
+          KEY_SLOW                 0x0000000006F98877        #  Was: Slow
+          Ch1/2                    0x0000000006F9A857
+          A.DUB                    0x0000000006F934CB
+          V.DUB                    0x0000000006F95CA3
+          Tracking+                0x0000000006F900FF
+          Tracking-                0x0000000006F9807F
+      end codes
+
+end remote
+

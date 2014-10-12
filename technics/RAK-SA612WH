@@ -1,0 +1,162 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.4(any) on Tue Jan 22 20:11:46 2002
+#
+# contributed by Thomas Schmid <t.schmid@gmx.net>
+#
+# brand:                       Technics
+# model no. of remote control: RAK-SA612WH
+# supported devices:           SA-EX700, SL-PG580A
+#
+
+begin remote
+
+  name  RAK-SA612WH
+  bits           32
+  flags SPACE_ENC
+  eps            30
+  aeps          100
+
+  header       3532  1699
+  one           446  1290
+  zero          446   414
+  ptrail        447
+  pre_data_bits   16
+  pre_data       0x4004
+  gap          74237
+  toggle_bit      0
+
+
+      begin codes
+          VCR_1                    0x000000000500797C
+          VDP                      0x0000000005004540
+          TV/VCR_2                 0x000000000500F9FC
+          KEY_TUNER                0x000000000500494C        #  Was: TUNER
+          KEY_CD                   0x000000000500292C        #  Was: CD
+          TAPE_MONITOR             0x0000000005005550
+          TEST                     0x0000000005006F6A
+          KEY_HELP                 0x0000000005009C99        #  Was: HELP
+          SURROUND                 0x0000000005000C09
+          KEY_3_STEREO             0x000000000500CDC8        #  Was: 3_STEREO
+
+          KEY_RECORD               0x000000000500BCB9        #  Was: RECEIVER_POWER
+          AUDIO_POWER              0x000000000538FCC1
+          TV_POWER                 0x000000000100BCBD
+          CD_POWER                 0x000000000550BCE9
+          VCR_POWER                0x000000000900BCB5
+          VDP_POWER                0x000000000902BCB7
+
+          CHLEVEL-                 0x000000000548BDF0
+          CHLEVEL+                 0x0000000005483D70
+          CH_SELECT                0x000000000548DD90
+          DISC                     0x0000000005502570
+          DISC_ENTER               0x0000000005507722
+          TV_AV                    0x000000000100A0A1
+          TV_VOL+                  0x0000000001000405
+          TV_VOL-                  0x0000000001008485
+
+          TUNERDIRECT_TUNING       0x0000000005201134
+          TUNER1                   0x000000000520082D
+          TUNER2                   0x00000000052088AD
+          TUNER3                   0x000000000520486D
+          TUNER4                   0x000000000520C8ED
+          TUNER5                   0x000000000520280D
+          TUNER6                   0x000000000520A88D
+          TUNER7                   0x000000000520684D
+          TUNER8                   0x000000000520E8CD
+          TUNER9                   0x000000000520183D
+          TUNER0                   0x00000000052098BD
+          TUNER>10                 0x0000000005202104
+          TUNER|<<                 0x000000000520292C
+          TUNER>>|                 0x0000000005225259
+          TUNER<<                  0x000000000522202B
+          TUNER>>                  0x000000000522A0AB
+          TUNER<                   0x000000000520D0C5
+          TUNER||                  0x0000000005206075
+          TUNER[]                  0x0000000005200015
+          TUNER>                   0x0000000005205045
+
+          VCR1                     0x0000000009000801
+          VCR2                     0x0000000009008881
+          VCR3                     0x0000000009004841
+          VCR4                     0x000000000900C8C1
+          VCR5                     0x0000000009002821
+          VCR6                     0x000000000900A8A1
+          VCR7                     0x0000000009006861
+          VCR8                     0x000000000900E8E1
+          VCR9                     0x0000000009001811
+          VCR0                     0x0000000009009891
+          VAR>10                   0x000000000900DCD5
+          VCR<<                    0x0000000009004049
+          VCR>>                    0x000000000900C0C9
+          VCR||                    0x0000000009006069
+          VCR[]                    0x0000000009000009
+          VCR>                     0x0000000009005059
+
+          VDP1                     0x0000000009020803
+          VDP2                     0x0000000009028883
+          VDP3                     0x0000000009024843
+          VDP4                     0x000000000902C8C3
+          VDP5                     0x0000000009022823
+          VDP6                     0x000000000902A8A3
+          VDP7                     0x0000000009026863
+          VDP8                     0x000000000902E8E3
+          VDP9                     0x0000000009021813
+          VDP0                     0x0000000009029893
+          VDP>10                   0x000000000902252E
+          VDP|<<                   0x0000000009029299
+          VDP>>|                   0x0000000009025259
+          VDP<<                    0x000000000902202B
+          VDP>>                    0x000000000902A0AB
+          VDP||                    0x000000000902606B
+          VDP[]                    0x000000000902000B
+          VDP>                     0x000000000902505B
+
+          CD1                      0x000000000550085D
+          CD2                      0x00000000055088DD
+          CD3                      0x000000000550481D
+          CD4                      0x000000000550C89D
+          CD5                      0x000000000550287D
+          CD6                      0x000000000550A8FD
+          CD7                      0x000000000550683D
+          CD8                      0x000000000550E8BD
+          CD9                      0x000000000550184D
+          CD0                      0x00000000055098CD
+          CD>10                    0x0000000005502174
+          CD|<<                    0x00000000055092C7
+          CD>>|                    0x0000000005505207
+          CD<<                     0x0000000005504015
+          CD>>                     0x000000000550C095
+          CD||                     0x0000000005506035
+          CD[]                     0x0000000005500055
+          CD>                      0x0000000005505005
+
+          TV1                      0x0000000001000809
+          TV2                      0x0000000001008889
+          TV3                      0x0000000001004849
+          TV4                      0x000000000100C8C9
+          TV5                      0x0000000001002829
+          TV6                      0x000000000100A8A9
+          TV7                      0x0000000001006869
+          TV8                      0x000000000100E8E9
+          TV9                      0x0000000001001819
+          TV0                      0x0000000001009899
+          TV>10                    0x000000000100DCDD
+
+          TAPE|<<                  0x0000000005104055
+          TAPE<<                   0x0000000005104055
+          TAPE>>                   0x000000000510C0D5
+          TAPE<                    0x000000000510D0C5
+          TAPE||                   0x0000000005106075
+          TAPE[]                   0x0000000005100015
+          TAPE>                    0x0000000005105045
+          TAPEDECK1/2              0x000000000510A9BC
+
+          MUTING                   0x0000000005004C49
+          KEY_VOLUMEDOWN           0x0000000005008481        #  Was: VOL-
+          KEY_VOLUMEUP             0x0000000005000401        #  Was: VOL+
+      end codes
+
+end remote
+
+

@@ -1,0 +1,61 @@
+#
+# this config file was automatically generated
+# using WinLIRC 0.6.4 (LIRC 0.6.1pre3) on Sun Oct 06 07:28:36 2002
+#
+# contributed by
+#
+# brand:             AVerMedia
+# model:           
+# supported devices: VDOMATE (ID 0x3001461)
+#
+
+begin remote
+
+  name  hanircd
+  bits           32
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9086  4425
+  one           625  1624
+  zero          625   500
+  ptrail        624
+  repeat       9087  2185
+  gap          107977
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x0000000040BF00FF        #  Was: power
+          KEY_1                    0x0000000040BFA05F        #  Was: one
+          KEY_2                    0x0000000040BF609F        #  Was: two
+          KEY_3                    0x0000000040BFE01F        #  Was: three
+          KEY_4                    0x0000000040BF906F        #  Was: four
+          KEY_5                    0x0000000040BF50AF        #  Was: five
+          KEY_6                    0x0000000040BFD02F        #  Was: six
+          KEY_7                    0x0000000040BFB04F        #  Was: seven
+          KEY_8                    0x0000000040BF708F        #  Was: eight
+          KEY_9                    0x0000000040BFF00F        #  Was: nine
+          KEY_0                    0x0000000040BF8877        #  Was: zero
+          KEY_VIDEO                0x0000000040BF20DF        #  Was: video
+          KEY_F11                  0x0000000040BF30CF        #  Was: fullscreen
+          display                  0x0000000040BF48B7
+          color                    0x0000000040BFC837
+          loop                     0x0000000040BF08F7
+          coloup                   0x0000000040BF6897
+          colordn                  0x0000000040BFE817
+          KEY_PREVIOUS             0x0000000040BF28D7        #  Was: preview
+          autoscan                 0x0000000040BF9867
+          freeze                   0x0000000040BF58A7
+          capture                  0x0000000040BFD827
+          KEY_MUTE                 0x0000000040BF18E7        #  Was: mute
+          KEY_VOLUMEUP             0x0000000040BF7887        #  Was: volumeup
+          KEY_VOLUMEDOWN           0x0000000040BFF807        #  Was: volumedown
+          KEY_CHANNELDOWN          0x00000000C03F40BF        #  Was: chnldown
+          KEY_CHANNELUP            0x00000000C03FC03F        #  Was: chnlup
+      end codes
+
+end remote
+
+

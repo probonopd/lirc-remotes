@@ -1,0 +1,75 @@
+#
+# this config file was automatically generated
+# using lirc-0.7.0(serial) on Thu Jan 20 19:48:41 2005
+#
+# contributed by Arto Niskanen
+#
+# brand:                       Sanyo
+# model no. of remote control: JXMTA
+# devices being controlled by this remote:
+# Sanyo 28CN7F TV (plus video/DVD)
+
+begin remote
+
+  name  Sanyo_JXMTA
+  bits           32
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9064  4432
+  one           624  1625
+  zero          624   500
+  ptrail        623
+  repeat       9067  2185
+  gap          107967
+  toggle_bit      0
+
+
+      begin codes
+          TV/VIDEOIN               0x000000001CE328D7
+          KEY_MUTE                 0x000000001CE3A857        #  Was: MUTE
+          WIDE                     0x000000001CE3C23D
+          KEY_POWER                0x000000001CE338C7        #  Was: POWER
+          A-B                      0x000000001CE302FD
+          NORMAL                   0x000000001CE38877
+          KEY_MENU                 0x000000001CE318E7        #  Was: OSD
+          KEY_1                    0x000000001CE3807F        #  Was: 1
+          KEY_2                    0x000000001CE340BF        #  Was: 2
+          KEY_3                    0x000000001CE3C03F        #  Was: 3
+          KEY_4                    0x000000001CE320DF        #  Was: 4
+          KEY_5                    0x000000001CE3A05F        #  Was: 5
+          KEY_6                    0x000000001CE3609F        #  Was: 6
+          KEY_7                    0x000000001CE3E01F        #  Was: 7
+          KEY_8                    0x000000001CE310EF        #  Was: 8
+          KEY_9                    0x000000001CE3906F        #  Was: 9
+          KEY_0                    0x000000001CE300FF        #  Was: 0
+          KEY_102ND                0x000000001CE350AF        #  Was: -/--
+          CS                       0x000000001CE3D02F
+          KEY_RED                  0x000000001CE3926D        #  Was: RED
+          KEY_GREEN                0x000000001CE352AD        #  Was: GREEN
+          KEY_YELLOW               0x000000001CE3D22D        #  Was: YELLOW
+          KEY_BLUE                 0x000000001CE332CD        #  Was: BLUE
+          KEY_MENU                 0x000000001CE38A75        #  Was: MENU
+          P-P                      0x000000001CE3B847
+          KEY_UP                   0x000000001CE330CF        #  Was: UP
+          KEY_DOWN                 0x000000001CE3B04F        #  Was: DOWN
+          KEY_LEFT                 0x000000001CE3E817        #  Was: LEFT
+          KEY_RIGHT                0x000000001CE36897        #  Was: RIGHT
+          KEY_OK                   0x000000001CE358A7        #  Was: OK
+          KEY_TIME                 0x000000001CE39867        #  Was: CLOCK
+          SHRINK                   0x000000001CE3728D
+          EXPAND                   0x000000001CE36A95
+          TXT/TV                   0x000000001CE3629D
+          KEY_RECORD               0x000000008C73A857        #  Was: REC
+          KEY_PAUSE                0x000000008C738877        #  Was: PAUSE
+          KEY_VIDEO                0x000000008C73DA25        #  Was: VIDEOPOWER
+          KEY_STOP                 0x000000008C7308F7        #  Was: STOP
+          KEY_REWIND               0x000000008C7348B7        #  Was: REW
+          KEY_PLAY                 0x000000008C7328D7        #  Was: PLAY
+          KEY_FASTFORWARD          0x000000008C73C837        #  Was: FF
+      end codes
+
+end remote
+
+

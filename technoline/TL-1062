@@ -1,0 +1,87 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.1(default) on Sat Jun  2 12:42:34 2007
+#
+# contributed by Juhan Karin
+#
+# brand:	TechnoLine /Keepon
+# model no. of remote control: TL-1062/KF-9333
+# devices being controlled by this remote:
+# It seems to be Keepon remote model KF-9333, but I got it with TechnoLine dvd player, so it's branded TechnoLine
+# http://keepon.manufacturer.globalsources.com/si/6008822574490/pdtl/Remote-control/1003184317/Remote-Control.htm
+
+begin remote
+
+  name  TechnoLine_TL-1062
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9077  4415
+  one           634  1609
+  zero          634   494
+  ptrail        638
+  repeat       9079  2166
+  pre_data_bits   16
+  pre_data       0xFF
+  gap          107914
+  toggle_bit      0
+
+
+      begin codes
+          KEY_MENU                 0x30CF                    #  Was: osd
+          p/n                      0x50AF
+          KEY_EJECTCD              0x00FF                    #  Was: eject
+          KEY_1                    0x906F                    #  Was: 1
+          KEY_2                    0xA05F                    #  Was: 2
+          KEY_3                    0x807F                    #  Was: 3
+          KEY_4                    0x50AF                    #  Was: 4
+          KEY_5                    0x609F                    #  Was: 5
+          KEY_6                    0x40BF                    #  Was: 6
+          KEY_7                    0xD02F                    #  Was: 7
+          KEY_8                    0xE01F                    #  Was: 8
+          KEY_9                    0xC03F                    #  Was: 9
+          KEY_0+                   0x22DD                    #  Was: 10+
+          KEY_0                    0x02FD                    #  Was: 0/10
+	  p/n			   0xB04F
+          KEY_SUBTITLE             0x708F                    #  Was: subtitle
+          KEY_ANGLE                0xF00F                    #  Was: angle
+          KEY_LANGUAGE             0x32CD                    #  Was: language
+          A-B                      0x12ED
+          KEY_SETUP                0xB24D                    #  Was: setup
+          KEY_CLEAR                0x926D                    #  Was: clear
+          prog                     0x629D
+          KEY_AGAIN                0xA25D                    #  Was: repeat
+          resume                   0x827D
+          KEY_LEFT                 0x728D                    #  Was: left
+          KEY_RIGHT                0x42BD                    #  Was: right
+          KEY_UP                   0xE21D                    #  Was: up
+          KEY_DOWN                 0xD22D                    #  Was: down
+          KEY_ENTER                0x52AD                    #  Was: enter
+          KEY_ENTER                0xF20D                    #  Was: return
+          KEY_PAUSE                0xE817                    #  Was: pause
+          munu/view                0xC23D
+          KEY_REWIND               0xF807                    #  Was: <<
+          KEY_FORWARD              0x3AC5                    #  Was: >>
+          >                        0x2AD5
+          KEY_STOP                 0xAA55                    #  Was: stop
+          I<<                      0xC837
+          >>I                      0x0AF5
+          KEY_TITLE                0x38C7                    #  Was: title
+          KEY_SLOW                 0x18E7                    #  Was: slow
+          KEY_AUDIO                0x28D7                    #  Was: audio
+          step                     0xB847
+          KEY_ZOOM                 0x9867                    #  Was: zoom
+          KEY_MUTE                 0xA857                    #  Was: mute
+          pbc                      0x7887
+          KEY_TIME                 0x58A7                    #  Was: time
+          eq                       0x6897
+          KEY_VIDEO                0x48B7                    #  Was: video
+          KEY_VOLUMEUP             0x08F7                    #  Was: vol+
+          KEY_VOLUMEDOWN           0x8877                    #  Was: vol-
+      end codes
+
+end remote
+
+

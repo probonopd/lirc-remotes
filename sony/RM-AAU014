@@ -1,0 +1,67 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.5(commandir) on Sun Jul 26 19:34:37 2009
+#
+# contributed by
+#
+# brand:                       SONY
+# model no. of remote control: RM-AAU014
+# devices being controlled by this remote: SONY Stereo Receiver
+#
+
+begin remote
+
+  name  SONY_RM-AAU014
+  bits           15
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       2486   498
+  one          1291   502
+  zero          693   502
+  gap          40006
+  min_repeat      1
+  toggle_bit_mask 0x0
+
+      begin codes
+          BTN_SLEEP                0x030C
+          BTN_POWER                0x540C
+          BTN_VIDEO1               0x220C
+          BTN_VIDEO2               0x3C0C
+          BTN_VIDEO3               0x210C
+          BTN_DVD                  0x5F0C
+          BTN_SAT                  0x600D
+          BTN_TV                   0x2B0C
+          BTN_SA_CD                0x520C
+          BTN_TUNER                0x420C
+          BTN_2CH                  0x410D
+          BTN_AFD                  0x210D
+          BTN_MOVIE                0x610D
+          BTN_MUSIC                0x490D
+          KEY_1                    0x000C
+          KEY_2                    0x400C
+          KEY_3                    0x200C
+          BTN_AMP_MENU             0x770D
+          KEY_4                    0x600C
+          KEY_5                    0x100C
+          KEY_6                    0x500C
+          KEY_7                    0x300C
+          KEY_8                    0x700C
+          KEY_9                    0x080C
+          KEY_0                    0x480C
+          BTN_DVD_MENU             0x5A0D
+          BTN_DISPLAY              0x690C
+          BTN_MUTING               0x140C
+          BTN_LEFT                 0x2F0D
+          BTN_UP                   0x0F0D
+          BTN_RIGHT                0x6F0D
+          BTN_DOWN                 0x4F0D
+          BTN_SELECT               0x180C
+          BTN_VOLUME_UP            0x240C
+          BTN_VOLUME_DOWN          0x640C
+      end codes
+
+end remote
+
+

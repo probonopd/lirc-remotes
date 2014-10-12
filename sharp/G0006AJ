@@ -1,0 +1,65 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.4a(default) on Sun Dec  7 14:36:36 2008
+#
+# contributed by Pedro Pablo Arzola Planas, Habana Cuba.
+#
+# brand:                       Sharp
+# model no. of remote control: G0006AJ
+# devices being controlled by this remote: Video Cassette Recorder
+#
+
+begin remote
+
+  name  Sharp_G0006AJ
+  bits           15
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           455  1656
+  zero          455   599
+  ptrail        440
+  gap          67498
+  toggle_bit_mask 0x3ff
+
+      begin codes
+          KEY_POWER                0x625D                    #  Was: Power
+          KEY_EJECTCD              0x60CD                    #  Was: Eject
+          Tv/Vcr                   0x60DD
+          Input                    0x634D
+          KEY_1                    0x61FD                    #  Was: 1
+          KEY_2                    0x62FD                    #  Was: 2
+          KEY_3                    0x60FD                    #  Was: 3
+          KEY_4                    0x6082                    #  Was: 4
+          KEY_5                    0x617D                    #  Was: 5
+          KEY_6                    0x6182                    #  Was: 6
+          KEY_7                    0x607D                    #  Was: 7
+          KEY_8                    0x63BD                    #  Was: 8
+          KEY_9                    0x6242                    #  Was: 9
+          KEY_0                    0x63B9                    #  Was: 100
+          KEY_0                    0x62BD                    #  Was: 0
+          KEY_KPMINUS              0x62DD                    #  Was: -
+          KEY_KPPLUS               0x6222                    #  Was: +
+          KEY_POWER                0x62C6                    #  Was: OnScreen
+          Display                  0x6339
+          KEY_MENU                 0x611D                    #  Was: Menu
+          Add/Erase                0x6149
+          KEY_CANCEL               0x6379                    #  Was: Cancel
+          KEY_RECORD               0x63AD                    #  Was: Rec
+          KEY_STOP                 0x606D                    #  Was: Stop
+          KEY_PAUSE                0x6292                    #  Was: Pause
+          KEY_REWIND               0x60ED                    #  Was: Rew
+          KEY_PLAY                 0x62ED                    #  Was: Play
+          KEY_FASTFORWARD          0x61ED                    #  Was: Ff
+          TapeSpeed                0x601D
+          ZeroBack                 0x60F9
+          KEY_SLOW                 0x61AD                    #  Was: Slow
+          Dpss-                    0x63CD
+          Dpss+                    0x63D2
+          TamperProof              0x613D
+      end codes
+
+end remote
+
+

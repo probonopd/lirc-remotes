@@ -1,0 +1,74 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.6(SerialDevice) on Fri Aug 06 23:42:41 2010
+#
+# contributed by
+#
+# brand:                       Yamaha
+# model no. of remote control: RAV14
+# devices being controlled by this remote:
+#
+
+begin remote
+
+  name  Yamaha_RAV14
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       8995  4402
+  one           619  1613
+  zero          619   496
+  ptrail        618
+  repeat       9002  2166
+  pre_data_bits   16
+  pre_data       0x5EA1
+  gap          107247
+  toggle_bit_mask 0x0
+
+      begin codes
+          KEY_POWER                0xF807                    #  Was: POWER
+          TIME/LEVEL               0x619E
+          PRG+                     0x1AE5
+          SET_MENU                 0x39C6
+          KEY_KPMINUS              0xCA35                    #  Was: -
+          KEY_KPPLUS               0x4AB5                    #  Was: +
+          TEST                     0xA15E
+          PRG-                     0x9A65
+          EFFECT                   0x6A95
+          TAPE_REC                 0x20DF
+          TAPE_DECK                0x609F
+          TAPE_REV                 0x807F
+          TAPE_PLAY                0x00FF
+          TAPE_FF                  0x40BF
+          TAPE_DIRA                0xE01F
+          TAPE_STOP                0xC03F
+          TAPE_DIRB                0x02FD
+          CD_DISC_SKIP             0xF20D
+          CD_PREV                  0xD02F
+          CD_PLAY                  0x10EF
+          CD_NEXT                  0x50AF
+          CD_REV                   0xB04F
+          CD_PAUSE_STOP            0x906F
+          CD_FF                    0x30CF
+          PRESET-                  0x8877
+          PRESET+                  0x08F7
+          A/B/C/D/E                0x48B7
+          KEY_CD                   0xA857                    #  Was: CD
+          KEY_TUNER                0x6897                    #  Was: TUNER
+          MD/CD-R                  0x18E7
+          KEY_DVD                  0xE817                    #  Was: DVD
+          D-TV/CBL                 0x2AD5
+          KEY_VCR                  0xF00F                    #  Was: VCR
+          KEY_AUX                  0x28D7                    #  Was: AUX
+          V-AUX                    0xAA55
+          KEY_SLEEP                0xEA15                    #  Was: SLEEP
+          KEY_6CH_INPUT            0xE11E                    #  Was: 6CH_INPUT
+          KEY_VOLUMEUP             0x58A7                    #  Was: VOL_UP
+          KEY_VOLUMEDOWN           0xD827                    #  Was: VOL_DOWN
+      end codes
+
+end remote
+
+

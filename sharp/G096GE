@@ -1,0 +1,61 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.6(serial) on Sat Aug 30 23:14:00 2003
+#
+# contributed by Bas Bloemsaat (lirc AT bloemsaat DOT com)
+#
+# brand:                       Sharp
+# model no. of remote control: G096GE
+# devices being controlled by this remote: vc-a234 video cassette recorder
+#
+
+begin remote
+
+  name  	SHARP_G096GE
+  bits           15
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           308  1798
+  zero          308   744
+  ptrail        309
+  gap          67412
+  min_repeat      4
+  toggle_bit      0
+
+
+      begin codes
+          operate                  0x00000000000061A2
+          KEY_EJECTCD              0x0000000000006332        #  Was: eject
+          timeronoff               0x0000000000006262
+          display                  0x00000000000060C6
+          KEY_CLEAR                0x0000000000006012        #  Was: clear
+          zeroback                 0x00000000000060F9
+          zeroback                 0x0000000000006306
+          KEY_AGAIN                0x0000000000006022        #  Was: repeat
+          c-lock                   0x00000000000062C2
+          KEY_CHANNELDOWN          0x0000000000006122        #  Was: channel-
+          KEY_CHANNELUP            0x0000000000006222        #  Was: channel+
+          prog                     0x00000000000062E2
+          vps                      0x00000000000060C2
+          simul                    0x00000000000060B2
+          KEY_TIME                 0x00000000000061C2        #  Was: time
+          timerec                  0x00000000000063C2
+          splp                     0x00000000000063E2
+          fadv                     0x0000000000006092
+          KEY_RECORD               0x0000000000006052        #  Was: rec
+          KEY_STOP                 0x0000000000006392        #  Was: stop
+          KEY_PAUSE                0x0000000000006292        #  Was: pause
+          KEY_REWIND               0x0000000000006312        #  Was: rew
+          KEY_PLAY                 0x0000000000006112        #  Was: play
+          KEY_FASTFORWARD          0x0000000000006211        #  Was: ff
+          x2                       0x0000000000006232
+          KEY_SLOW                 0x0000000000006252        #  Was: slow
+          slow-                    0x0000000000006032
+          slow+                    0x00000000000063D2
+      end codes
+
+end remote
+
+

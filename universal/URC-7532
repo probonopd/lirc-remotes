@@ -1,0 +1,186 @@
+
+# this config file was automatically generated
+# using lirc-0.6.5(any) on Sat Mar  8 20:11:16 2003
+#
+# contributed by Oliver Ellis (oliver.ellis ~at~ ntlworld.com)
+#
+# brand: Universal/Universal Electronics
+# model no. of remote control: URC 7532
+# devices being controlled by this remote: TV/VCR/anything
+#
+# !!! *** READ THIS BIT *** !!!
+# Because this is a progammable remote control, there are no consistent codes
+# for each of the buttons. To use this config file, do as follows (you will need
+# to refer to the manual).
+# Set each of the TV, VCR and AUX buttons as TV (i.e., you will be controlling
+# three TVs). This is because only televisions use all of the buttons. Now, set
+# each with the following codes
+# TV - 0037
+# VCR - 0072
+# AUX - 0208
+# I selected these through trial and error, because these seem to work with
+# almost all of the buttons. All buttons work on TV. VCR and AUX have no sleep
+# and no colour controls.
+# If you find others that it works better with, or have a question, then drop
+# me an e-line. Also, Americans, watch out for the British spelling of
+# colour below.
+
+begin remote
+
+  name  TV
+  bits           13
+  flags RC5|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           916   861
+  zero          916   861
+  plead         932
+  gap          114307
+  min_repeat      3
+  toggle_bit      2
+
+
+      begin codes
+          KEY_POWER                0x000000000000100C        #  Was: POWER
+          KEY_SLEEP                0x0000000000001026        #  Was: SLEEP
+          KEY_1                    0x0000000000001001        #  Was: 1
+          KEY_2                    0x0000000000001002        #  Was: 2
+          KEY_3                    0x0000000000001003        #  Was: 3
+          KEY_4                    0x0000000000001004        #  Was: 4
+          KEY_5                    0x0000000000001005        #  Was: 5
+          KEY_6                    0x0000000000001006        #  Was: 6
+          KEY_7                    0x0000000000001007        #  Was: 7
+          KEY_8                    0x0000000000001008        #  Was: 8
+          KEY_9                    0x0000000000001009        #  Was: 9
+          KEY_0                    0x000000000000100A        #  Was: 10
+          KEY_0                    0x0000000000001000        #  Was: 0
+          KEY_0                    0x0000000000001038        #  Was: 20
+          KEY_CHANNELUP            0x0000000000001020        #  Was: CHANNEL+
+          KEY_CHANNELDOWN          0x0000000000001021        #  Was: CHANNEL-
+          KEY_VOLUMEUP             0x0000000000001010        #  Was: VOLUME+
+          KEY_VOLUMEDOWN           0x0000000000001011        #  Was: VOLUME-
+          KEY_MUTE                 0x000000000000100D        #  Was: MUTE
+          COLOUR+                  0x0000000000001014
+          COLOUR-                  0x0000000000001015
+          BRIGHTNESS+              0x0000000000001012
+          BRIGHTNESS-              0x0000000000001013
+          KEY_REWIND               0x000000000000103C        #  Was: REWIND
+          KEY_PLAY                 0x000000000000103F        #  Was: PLAY
+          KEY_FASTFORWARD          0x000000000000102B        #  Was: FASTFORWARD
+          KEY_PAUSE                0x0000000000001029        #  Was: PAUSE
+          TV/VCR                   0x0000000000001037
+          KEY_STOP                 0x0000000000001036        #  Was: STOP
+          KEY_RECORD               0x0000000000001032        #  Was: RECORD
+          KEY_SLOW                 0x0000000000001034        #  Was: SLOW
+      end codes
+
+end remote
+
+begin remote
+
+  name  VCR
+  bits           11
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           212  7383
+  zero          212  4853
+  ptrail        212
+  gap          122510
+  min_repeat      1
+  toggle_bit      2
+
+
+      begin codes
+          KEY_POWER                0x00000000000005C4        #  Was: POWER
+          KEY_SLEEP                0x00000000000005C4        #  Was: SLEEP
+          KEY_1                    0x00000000000005DA        #  Was: 1
+          KEY_2                    0x00000000000005DB        #  Was: 2
+          KEY_3                    0x00000000000005DC        #  Was: 3
+          KEY_4                    0x00000000000005DD        #  Was: 4
+          KEY_5                    0x00000000000005DE        #  Was: 5
+          KEY_6                    0x00000000000005DF        #  Was: 6
+          KEY_7                    0x00000000000005E0        #  Was: 7
+          KEY_8                    0x00000000000005E1        #  Was: 8
+          KEY_9                    0x00000000000005E2        #  Was: 9
+          KEY_0                    0x00000000000005E5        #  Was: 10
+          KEY_0                    0x00000000000005E3        #  Was: 0
+          KEY_0                    0x00000000000005C2        #  Was: 20
+          KEY_CHANNELUP            0x00000000000005D9        #  Was: CHANNEL+
+          KEY_CHANNELDOWN          0x00000000000005D8        #  Was: CHANNEL-
+          KEY_VOLUMEUP             0x00000000000005C8        #  Was: VOLUME+
+          KEY_VOLUMEDOWN           0x00000000000005C7        #  Was: VOLUME-
+          KEY_MUTE                 0x00000000000005C3        #  Was: MUTE
+          BRIGHTNESS+              0x00000000000005CA
+          BRIGHTNESS-              0x00000000000005C9
+          COLOUR+                  0x00000000000005CE
+          COLOUR-                  0x00000000000005CD
+          KEY_REWIND               0x00000000000005E7        #  Was: REWIND
+          KEY_PLAY                 0x00000000000005E6        #  Was: PLAY
+          KEY_FASTFORWARD          0x00000000000005D3        #  Was: FASTFORWARD
+          KEY_PAUSE                0x00000000000005D2        #  Was: PAUSE
+          TV/VCR                   0x00000000000005F2
+          KEY_STOP                 0x00000000000005F6        #  Was: STOP
+          KEY_RECORD               0x00000000000005F3        #  Was: RECORD
+          KEY_SLOW                 0x00000000000005F4        #  Was: SLOW
+      end codes
+
+end remote
+
+
+begin remote
+
+  name  AUX
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9065  4459
+  one           577  1676
+  zero          577   547
+  ptrail        574
+  repeat       9061  2244
+  pre_data_bits   16
+  pre_data       0x1CE3
+  gap          108669
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x00000000000038C7        #  Was: POWER
+          KEY_1                    0x000000000000807F        #  Was: 1
+          KEY_2                    0x00000000000040BF        #  Was: 2
+          KEY_3                    0x000000000000C03F        #  Was: 3
+          KEY_4                    0x00000000000020DF        #  Was: 4
+          KEY_5                    0x000000000000A05F        #  Was: 5
+          KEY_6                    0x000000000000609F        #  Was: 6
+          KEY_7                    0x000000000000E01F        #  Was: 7
+          KEY_8                    0x00000000000010EF        #  Was: 8
+          KEY_9                    0x000000000000906F        #  Was: 9
+          KEY_0                    0x00000000000050AF        #  Was: 10
+          KEY_0                    0x00000000000000FF        #  Was: 0
+          KEY_0                    0x000000000000D02F        #  Was: 20
+          KEY_CHANNELUP            0x00000000000030CF        #  Was: CHANNEL+
+          KEY_CHANNELDOWN          0x000000000000B04F        #  Was: CHANNEL-
+          KEY_VOLUMEUP             0x0000000000006897        #  Was: VOLUME+
+          KEY_VOLUMEDOWN           0x000000000000E817        #  Was: VOLUME-
+          BRIGHTNESS+              0x00000000000042BD
+          BRIGHTNESS-              0x00000000000058A7
+          KEY_MUTE                 0x000000000000A857        #  Was: MUTE
+          KEY_REWIND               0x000000000000629D        #  Was: REWIND
+          KEY_PLAY                 0x00000000000028D7        #  Was: PLAY
+          KEY_FASTFORWARD          0x0000000000006A95        #  Was: FASTFORWARD
+          KEY_PAUSE                0x0000000000007A85        #  Was: PAUSE
+          TV/VCR                   0x000000000000926D
+          KEY_STOP                 0x00000000000052AD        #  Was: STOP
+          KEY_RECORD               0x000000000000D22D        #  Was: RECORD
+          KEY_SLOW                 0x00000000000032CD        #  Was: SLOW
+      end codes
+
+end remote
+
+
+

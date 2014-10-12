@@ -1,0 +1,85 @@
+#
+# this config file was automatically generated
+# using WinLIRC 0.6.4 (LIRC 0.6.1pre3) on Sat Jul 05 14:52:47 2003
+#
+# contributed by
+#
+# brand:             Technics
+# model:             rak-ch745wh
+# supported devices:
+#
+
+begin remote
+
+  name  rak-ch745wh
+  bits           24
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  header       3550  1650
+  one           497   347
+  zero          497  1218
+  ptrail        497
+  pre_data_bits   24
+  pre_data       0xBFFBFA
+  gap          74145
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x0000000000C7437E        #  Was: power
+          KEY_SLEEP                0x0000000000C796AB        #  Was: sleep
+          KEY_VCR                  0x0000000000FF8683        #  Was: vcr
+          KEY_CD                   0x0000000000FFD6D3        #  Was: cd
+          tuner/band               0x0000000000DFDAFF
+          auto/mono                0x0000000000DF3316
+          vdp                      0x0000000000FFBABF
+          KEY_1                    0x0000000000C7F7CA        #  Was: 1
+          KEY_2                    0x0000000000C7774A        #  Was: 2
+          KEY_3                    0x0000000000C7B78A        #  Was: 3
+          disc                     0x0000000000AFDA8F
+          ext                      0x0000000000FF6663
+          KEY_4                    0x0000000000C7370A        #  Was: 4
+          KEY_5                    0x0000000000C7D7EA        #  Was: 5
+          KEY_6                    0x0000000000C7576A        #  Was: 6
+          =>10                     0x0000000000C7DEE3
+          phono                    0x0000000000FFF6F3
+          KEY_7                    0x0000000000C797AA        #  Was: 7
+          KEY_8                    0x0000000000C7172A        #  Was: 8
+          KEY_9                    0x0000000000C7E7DA        #  Was: 9
+          KEY_0                    0x0000000000C7675A        #  Was: 0
+          cd_play                  0x0000000000AFAFFA
+          cd_pause                 0x0000000000AF9FCA
+          cd_stop                  0x0000000000AFFFAA
+          cd_|<<                   0x0000000000AF6D38
+          cd_>>|                   0x0000000000AFADF8
+          cd_open/close            0x0000000000AF7F2A
+          cd_repeat                0x0000000000AF1D48
+          cd_program               0x0000000000AFAEFB
+          cd_cancel                0x0000000000AF3A6F
+          tape_playback            0x0000000000EF2F3A
+          tape_stop                0x0000000000EFFFEA
+          tape_play                0x0000000000EFAFBA
+          tape_<<                  0x0000000000EFBFAA
+          tape_>>                  0x0000000000EF3F2A
+          tape_open/close          0x0000000000EF7F6A
+          tape_deck1/2             0x0000000000EF5643
+          tape_rec.pause           0x0000000000EFEFFA
+          pro_logic                0x0000000000FFD2D7
+          delay_time               0x0000000000FFECE9
+          balance_left             0x0000000000FF9B9E
+          balance_right            0x0000000000FF1B1E
+          test                     0x0000000000FF9095
+          center-                  0x0000000000FF0C09
+          center+                  0x0000000000FF8C89
+          surround-                0x0000000000FF4B4E
+          surround+                0x0000000000FFCBCE
+          muting-20db              0x0000000000FFB3B6
+          KEY_VOLUMEDOWN           0x0000000000FF7B7E        #  Was: volume-
+          KEY_VOLUMEUP             0x0000000000FFFBFE        #  Was: volume+
+      end codes
+
+end remote
+
+

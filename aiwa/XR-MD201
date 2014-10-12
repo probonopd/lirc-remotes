@@ -1,0 +1,86 @@
+#
+# the raw config file was automatically generated
+# using lirc-0.6.6(any) on Sat Aug 23 16:32:15 2003
+#
+# contributed by
+# Robert Jordens <rjo@gmx.de>
+# Johannes Jordens <jojor@gmx.de>
+#
+# brand: AIWA
+# model no. of remote control: XR-MD201
+# on the back of the remote's platine it says:
+# "ZCL1-01-01
+# Remote PCB
+# 033-00ZCL1-100"
+# devices being controlled by this remote: AIWA XR-MD201
+#
+
+# Please note: The values of the remote (not the codes) have been elaborately *guessed*!
+# They do work, however there is an error rate of about 1 in 70 sent signals. If you own an Aiwa XR-MD201
+# you probably want to check out jojor.dnsalias.org for an automated MD recording and labelling programme.
+
+begin remote
+
+  name		RC-XR-MD201
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9000  4500
+  one           550   590
+  zero          550  1690
+  ptrail        540
+  pre_data_bits   26
+  pre_data       0x227EEC0
+  gap          108788
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x000000000000FF00        #  Was: power
+          KEY_VOLUMEDOWN           0x0000000000008D72        #  Was: vol-
+          KEY_VOLUMEUP             0x0000000000004DB2        #  Was: vol+
+          eq                       0x0000000000006D92
+          KEY_PAUSE                0x000000000000DD22        #  Was: pause
+          KEY_STOP                 0x0000000000007D82        #  Was: stop
+          KEY_PLAY                 0x000000000000FD02        #  Was: play
+          KEY_0                    0x000000000000AF50        #  Was: 0
+          KEY_1                    0x0000000000007F80        #  Was: 1
+          KEY_2                    0x000000000000BF40        #  Was: 2
+          KEY_3                    0x0000000000003FC0        #  Was: 3
+          KEY_4                    0x000000000000DF20        #  Was: 4
+          KEY_5                    0x0000000000005FA0        #  Was: 5
+          KEY_6                    0x0000000000009F60        #  Was: 6
+          KEY_7                    0x0000000000001FE0        #  Was: 7
+          KEY_8                    0x000000000000EF10        #  Was: 8
+          KEY_9                    0x0000000000006F90        #  Was: 9
+          bbe                      0x000000000000ED12
+          t-bass                   0x0000000000001DE2
+          qsurround                0x000000000000AD52
+          mono                     0x000000000000B748
+          KEY_10CHANNELSUP         0x0000000000002FD0        #  Was: +10
+          KEY_RECORD               0x000000000000718E        #  Was: rec
+          drec                     0x000000000000B14E
+          KEY_TUNER                0x000000000000C738        #  Was: tuner
+          KEY_CD                   0x00000000000007F8        #  Was: cd
+          KEY_AUX                  0x00000000000047B8        #  Was: aux
+          md                       0x000000000000F10E
+          KEY_DOWN                 0x0000000000003DC2        #  Was: down
+          KEY_UP                   0x000000000000BD42        #  Was: up
+          random                   0x00000000000057A8
+          KEY_AGAIN                0x0000000000009768        #  Was: repeat
+          program                  0x0000000000006798
+          display                  0x000000000000D728
+          timer                    0x000000000000CF30
+          KEY_SLEEP                0x0000000000008F70        #  Was: sleep
+          KEY_TIME                 0x0000000000007788        #  Was: clock
+          KEY_MODE                 0x000000000000916E        #  Was: mode
+          KEY_EDIT                 0x00000000000017E8        #  Was: edit
+          tit_inp                  0x00000000000011EE
+          md_mark                  0x00000000000031CE
+      end codes
+
+end remote
+
+

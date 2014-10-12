@@ -1,0 +1,56 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.3pre3 on Mon Jan  8 14:18:59 2001
+#
+# contributed by
+#
+# brand:             Denon
+# model:             rc-860
+# supported devices: avr-3300
+#
+
+begin remote
+
+  name  amp
+  bits           15
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           275  1826
+  zero          275   776
+  ptrail        275
+  gap          67256
+  min_repeat      2
+  toggle_bit      0
+
+  frequency    32000
+
+      begin codes
+          KEY_POWER                0x000000000000221C        #  Was: power-on
+          KEY_POWER                0x000000000000211C        #  Was: power-off
+          KEY_VOLUMEUP             0x00000000000021C3        #  Was: vol+
+          KEY_VOLUMEDOWN           0x000000000000213C        #  Was: vol-
+          KEY_MUTE                 0x000000000000203C        #  Was: mute
+          KEY_CHANNELUP            0x00000000000019AC        #  Was: channel+
+          KEY_CHANNELDOWN          0x0000000000001AAC        #  Was: channel-
+          KEY_ENTER                0x000000000000201C        #  Was: enter
+          KEY_SETUP                0x0000000000001814        #  Was: setup
+          params                   0x0000000000001A14
+          KEY_POWER                0x00000000000023EC        #  Was: onscreen
+          status                   0x0000000000002213
+          arrow-up                 0x0000000000001B14
+          arrow-down               0x0000000000001894
+          arrow-left               0x0000000000001BF8
+          arrow-right              0x00000000000022EC
+          arrow-left               0x0000000000001BF8
+          input-mode               0x00000000000019B4
+          analog                   0x00000000000020EC
+          ext.in                   0x0000000000001AB4
+          output                   0x0000000000001A94
+          multi                    0x000000000000236C
+      end codes
+
+end remote
+
+

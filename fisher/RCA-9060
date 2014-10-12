@@ -1,0 +1,82 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.3(default) on Wed Oct 13 20:36:28 2010
+#
+# contributed by
+#
+# brand:                       Fisher
+# model no. of remote control: RCA-9060
+# devices being controlled by this remote: CA-9060
+#
+
+begin remote
+
+  name  Fisher_RCA-9060
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9097  4400
+  one           646  1604
+  zero          646   477
+  ptrail        641
+  repeat       9096  2153
+  pre_data_bits   16
+  pre_data       0x6C93
+  gap          107956
+  toggle_bit_mask 0x0
+
+      begin codes
+          KEY_POWER                0x9867                    #  Was: power
+          muting                   0x38C7
+          KEY_VOLUMEDOWN           0xD827                    #  Was: volume_down
+          KEY_VOLUMEUP             0x58A7                    #  Was: volume_up
+          timer                    0xF807
+          dat/tape-2               0xFA05
+          KEY_AUX                  0xB847                    #  Was: aux
+          KEY_CD                   0x827D                    #  Was: cd
+          tape-1                   0x7A85
+          digital_dat/tape-2       0xDA25
+          digital_aux              0x3AC5
+          digital_cd               0xBA45
+          phono                    0x8A75
+          KEY_TUNER                0x00FF                    #  Was: tuner
+          tuning_down              0xF00F
+          tuning_up                0x708F
+          KEY_1                    0x20DF                    #  Was: 1
+          KEY_2                    0xA05F                    #  Was: 2
+          KEY_3                    0x609F                    #  Was: 3
+          tuning_mode              0x1AE5
+          KEY_4                    0xE01F                    #  Was: 4
+          KEY_5                    0x10EF                    #  Was: 5
+          KEY_6                    0x906F                    #  Was: 6
+          KEY_ENTER                0x9A65                    #  Was: enter
+          KEY_7                    0x50AF                    #  Was: 7
+          KEY_8                    0xD02F                    #  Was: 8
+          KEY_9                    0x30CF                    #  Was: 9
+          KEY_0                    0xB04F                    #  Was: 0
+          KEY_RADIO                0x807F                    #  Was: fm
+          am                       0x40BF
+          cd_play                  0x827D
+          cd_stop                  0x02FD
+          cd_pause                 0x42BD
+          cd_f.back                0xF20D
+          cd_f.fwd                 0x728D
+          cd_1_open/close          0xC23D
+          cd_2_auto_space          0x22DD
+          cd_3_edit                0xA25D
+          cd_4_side_ab             0x629D
+          cd_5_a-b                 0xE21D
+          deck_1/2                 0xE817
+          deck_rev_play            0x6897
+          deck_fwd_play            0xA857
+          deck_stop                0x08F7
+          deck_rew                 0x48B7
+          deck_f.fwd               0x8877
+          deck_pause               0xC837
+      end codes
+
+end remote
+
+

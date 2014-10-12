@@ -1,0 +1,64 @@
+#
+# this config file was automatically generated
+# using lirc-0.5.5 on Mon Aug  9 21:14:27 1999
+#
+# contributed by Michael Bunk, bunk@imn.htwk-leipzig.de
+#
+# brand:             SONY
+# model:             STR-DE205
+# supported devices: amplifier with cabling to other stereo equipment
+#
+
+begin remote
+
+  name  STR-DE205
+  bits           12
+  flags SPACE_ENC
+  eps            30
+  aeps          100
+
+  header       2530   480
+  one          1300   500
+  zero          700   500
+  gap          25061
+  repeat_bit      0
+  min_repeat      2
+
+      begin codes
+          KEY_VIDEO                0x0000000000000441        #  Was: VIDEO
+          KEY_TV                   0x0000000000000561        #  Was: TV
+          TAPE_MD                  0x0000000000000C41
+          KEY_CD                   0x0000000000000A41        #  Was: CD
+          KEY_TUNER                0x0000000000000841        #  Was: TUNER
+          PHONO                    0x0000000000000041
+          TUNER_PRESET-            0x0000000000000896
+          TUNER_PRESET+            0x0000000000000096
+          TUNER_SHIFT              0x0000000000000CD6
+          CD_PLAY                  0x00000000000004D1
+          CD_PAUSE                 0x00000000000009D1
+          CD_STOP                  0x00000000000001D1
+          CD_TRK-                  0x00000000000000D1
+          CD_TRK+                  0x00000000000008D1
+          CD_SKIP                  0x00000000000007D1
+          MD_PLAY                  0x000000000000055E
+          MD_PAUSE                 0x000000000000095E
+          MD_STOP                  0x000000000000015E
+          MD_TRK-                  0x000000000000005E
+          MD_TRK+                  0x000000000000085E
+          TAPE_A_PLAY_L            0x0000000000000EC1
+          TAPE_A_PLAY_R            0x00000000000004C1
+          TAPE_A_STOP              0x00000000000001C1
+          TAPE_A_REW               0x0000000000000CC1
+          TAPE_A_FWD               0x00000000000002C1
+          TAPE_B_PLAY_L            0x000000000000004E
+          TAPE_B_PLAY_R            0x000000000000058E
+          TAPE_B_STOP              0x000000000000018E
+          TAPE_B_REW               0x0000000000000D8E
+          TAPE_B_FWD               0x000000000000038E
+          BASS                     0x00000000000008C6
+          KEY_MUTE                 0x0000000000000281        #  Was: MUTE
+          KEY_VOLUMEUP             0x0000000000000481        #  Was: VOL_UP
+          KEY_VOLUMEDOWN           0x0000000000000C81        #  Was: VOL_DOWN
+      end codes
+
+end remote

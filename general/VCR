@@ -1,0 +1,45 @@
+#
+# this config file was automatically generated
+# using WinLIRC 0.6.5 (LIRC 0.6.1pre3) on Tue Mar 22 13:58:26 2005
+#
+# contributed by
+#
+# brand:             General
+# model:            
+# supported devices: Old General VCR from beginning of 1980's
+#
+
+begin remote
+
+  name  General_VCR
+  bits           16
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  header       9055  4425
+  one           623   496
+  zero          623  1621
+  ptrail        623
+  repeat       9055  2178
+  pre_data_bits   16
+  pre_data       0x9768
+  gap          39855
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x000000000000B748        #  Was: power
+          ch_dwn                   0x00000000000017E8
+          KEY_CHANNELUP            0x0000000000009768        #  Was: ch_up
+          KEY_RECORD               0x000000000000E718        #  Was: rec
+          KEY_REWIND               0x0000000000006798        #  Was: rewind
+          KEY_FORWARD              0x00000000000027D8        #  Was: forward
+          KEY_PLAY                 0x000000000000D728        #  Was: play
+          pause/still              0x0000000000007788
+          KEY_STOP                 0x000000000000A758        #  Was: stop
+      end codes
+
+end remote
+
+

@@ -1,0 +1,8 @@
+#!/bin/bash
+
+#
+
+for conf in $( grep --exclude-dir .git -lr 'begin *codes' . ); do
+    echo $conf
+    ../lirc-config-tool -uc $conf
+done |& tee update_all.log

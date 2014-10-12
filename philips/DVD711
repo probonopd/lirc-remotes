@@ -1,0 +1,66 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.0(serial) on Mon Jun 26 19:55:22 2006
+#
+# contributed by
+#
+# brand:                       Philips
+# model no. of remote control:
+# devices being controlled by this remote: DVD711, and probably more
+#
+
+begin remote
+
+  name  Philips_DVD711
+  bits           21
+  flags RC6|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       2717   840
+  one           473   411
+  zero          473   411
+  gap          106204
+  min_repeat      3
+  toggle_bit      0
+
+  rc6_mask    0x10000
+
+      begin codes
+          KEY_1                    0x0FFBFE                  #  Was: 1
+          KEY_2                    0x0EFBFD                  #  Was: 2
+          KEY_3                    0x0FFBFC                  #  Was: 3
+          KEY_4                    0x0EFBFB                  #  Was: 4
+          KEY_5                    0x0FFBFA                  #  Was: 5
+          KEY_6                    0x0EFBF9                  #  Was: 6
+          KEY_7                    0x0FFBF8                  #  Was: 7
+          KEY_8                    0x0EFBF7                  #  Was: 8
+          KEY_9                    0x0FFBF6                  #  Was: 9
+          KEY_0                    0x0EFBFF                  #  Was: 0
+          KEY_DVD                  0x0FFBAB                  #  Was: DVD
+          KEY_MENU                 0x0EFBF0                  #  Was: OSD
+          KEY_ENTER                0x0FFB7C                  #  Was: Return
+          KEY_OK                   0x0EFBA3                  #  Was: Ok
+          KEY_UP                   0x0FFBA7                  #  Was: Up
+          KEY_LEFT                 0x0EFBA5                  #  Was: Left
+          KEY_RIGHT                0x0FFBA4                  #  Was: Right
+          KEY_DOWN                 0x0EFBA6                  #  Was: Down
+          KEY_SUBTITLE             0x0FFBB4                  #  Was: Subt
+          KEY_LANGUAGE             0x0EFBB1                  #  Was: Lang
+          KEY_ANGLE                0x0FFB7A                  #  Was: Angle
+          KEY_ZOOM                 0x0EFB08                  #  Was: Zoom
+          T-C                      0x0FFB37
+          First                    0x0EFBDE
+          KEY_STOP                 0x0FFBCE                  #  Was: Stop
+          KEY_PLAY                 0x0EFBD3                  #  Was: Play
+          KEY_LAST                 0x0FFBDF                  #  Was: Last
+          KEY_AGAIN                0x0EFBE2                  #  Was: Repeat
+          RepeatA-B                0x0FFBC4
+          KEY_PAUSE                0x0EFBCF                  #  Was: Pause
+          Shuffle                  0x0FFBE3
+          Off                      0x0EFBF3
+      end codes
+
+end remote
+
+

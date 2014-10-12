@@ -1,0 +1,238 @@
+# this config file was automatically generated
+# using lirc-0.6.3(serial) on Tue Sep  4 23:08:39 2001
+#
+# contributed by Robert Högberg <cogline@home.se>
+#
+# brand: Pioneer
+# model: CU-VSX107
+# supported devices: CD players marked with the SR label. Confirmed with a
+#                    PD-106 CD player.
+#
+
+begin remote
+
+  name  CD
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       8497  4302
+  one           512  1620
+  zero          512   554
+  ptrail        513
+  pre_data_bits   16
+  pre_data       0x45BA
+  gap          90010
+  toggle_bit      0
+
+
+      begin codes
+          cdstop                   0x0000000000006897
+          cdplay                   0x000000000000E817
+          cd<<                     0x0000000000008877
+          cd>>                     0x00000000000008F7
+          cddisc-                  0x000000000000837C
+          cddisc+                  0x000000000000B847
+          cdpower                  0x00000000000038C7
+      end codes
+
+end remote
+# this config file was automatically generated
+# using lirc-0.6.3(serial) on Tue Sep  4 23:16:39 2001
+#
+# contributed by Robert Högberg <cogline@home.se>
+#
+# brand: Pioneer
+# model: CU-VSX107
+# supported devices: Laserdisc players with the SR label. None tested.
+#
+
+begin remote
+
+  name  LD
+  bits           15
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       8492  4308
+  one           506  1626
+  zero          506   560
+  ptrail        506
+  pre_data_bits   16
+  pre_data       0x15EA
+  post_data_bits  1
+  post_data      0x1
+  gap          90009
+  toggle_bit      0
+
+
+      begin codes
+          ldstop                   0x000000000000344B
+          ldplay                   0x000000000000740B
+          ld<<                     0x000000000000443B
+          ld>>                     0x000000000000047B
+          ldsidea                  0x0000000000005926
+          ldsideb                  0x0000000000003946
+          ldpower                  0x0000000000001C63
+      end codes
+
+end remote
+# this config file was automatically generated
+# using lirc-0.6.3(serial) on Tue Sep  4 23:23:45 2001
+#
+# contributed by Robert Högberg <cogline@home.se>
+#    
+# brand: Pioneer
+# model: CU-VSX107
+# supported devices: Cassette decks marked with the SR label. None tested.
+#
+# Notes: I couldn't get the buttons DECK I and DECK II to work with LIRC.
+#        They don't seem to send anything.
+#
+
+begin remote
+
+  name  TAPE
+  bits           29
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       8492  4310
+  one           507  1625
+  zero          507   559
+  ptrail        506
+  post_data_bits  3
+  post_data      0x7
+  gap          90010
+  toggle_bit      0
+
+
+      begin codes
+          tapestop                 0x0000000010AF4D12
+          tape<<                   0x0000000010AF510E
+          tape>>                   0x0000000010AF411E
+          tape<                    0x0000000010AF550A
+          tape>                    0x0000000010AF5D02
+          tapepower                0x0000000010AF4718
+      end codes
+
+end remote
+# this config file was automatically generated
+# using lirc-0.6.3(serial) on Tue Sep  4 23:31:14 2001
+#
+# contributed by Robert Högberg <cogline@home.se>
+#
+# brand: Pioneer
+# model: CU-VSX107
+# supported devices: VSX-405RDS
+#
+# Notes: tunerdelay == tunercentermode
+#        tunerreturn == tunerdirect
+#        tunercenter- == tunerrear+
+#        tunercenter+ == tunerrear-
+#
+# look at PD-F1007 for more information
+#
+
+begin remote
+
+  name  TUNER
+  bits           32
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       8497  4305
+  one           515  1618
+  zero          515   550
+  ptrail        515
+  gap          90010
+  toggle_bit      0
+
+
+      begin codes
+          tuner1                   0x0000000025DA807F
+          tuner2                   0x0000000025DA40BF
+          tuner3                   0x0000000025DAC03F
+          tuner4                   0x0000000025DA20DF
+          tuner5                   0x0000000025DAA05F
+          tuner6                   0x0000000025DA609F
+          tuner7                   0x0000000025DAE01F
+          tuner8                   0x0000000025DA10EF
+          tuner9                   0x0000000025DA906F
+          tuner0                   0x0000000025DA00FF
+          tunerdirectaccess        0x0000000025DAC23D
+          tunerclass               0x0000000025DA02FD
+          tunerdelay               0x00000000a55ac03f
+          pre1                     0x00000000A55A5AA5
+          tunercentermode1         0xa55a10ef
+          tunersurr                0x00000000A55A02FD
+          tunermuting              0x00000000A55A48B7
+          tunerreturn              0x00000000A55ABA45
+          tunerdirect              0x00000000A55ABA45
+          tunerfunc                0x00000000A55AAA55
+          tunervol+                0x00000000A55A50AF
+          tunervol-                0x00000000A55AD02F
+          tunerpower               0x00000000A55A38C7
+          tunerrear+               0x00000000A55A827D
+          tunerrear-               0x00000000A55A42BD
+          tunercenter+             0xa55a40bf
+          tunerrear+               0x00000000A55A827D
+          tunertest                0x00000000A55A6A95
+          tunertape2               0x00000000A55AB847
+      end codes
+
+end remote
+# this config file was automatically generated
+# using lirc-0.6.3(serial) on Tue Sep  4 22:55:42 2001
+#
+# contributed by Robert Högberg <cogline@home.se>
+#
+# brand: Pioneer
+# model: CU-VSX107
+# supported devices: TVs marked with the SR label. None tested.
+#
+
+begin remote
+
+  name  TV
+  bits           30
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       8490  4311
+  one           509  1624
+  zero          509   556
+  ptrail        508
+  pre_data_bits   1
+  pre_data       0x0
+  post_data_bits  1
+  post_data      0x1
+  gap          90010
+  toggle_bit      0
+
+
+      begin codes
+          tvfunc                   0x000000002AD5641B
+          tvvol-                   0x000000002AD56817
+          tvvol+                   0x000000002AD52857
+          tv1                      0x000000002AD5403F
+          tv2                      0x000000002AD5205F
+          tv3                      0x000000002AD5601F
+          tv4                      0x000000002AD5106F
+          tv5                      0x000000002AD5502F
+          tv6                      0x000000002AD5304F
+          tv7                      0x000000002AD5700F
+          tv8                      0x000000002AD50877
+          tv9                      0x000000002AD54837
+          tv0                      0x000000002AD5007F
+          tvmpx                    0x0000000012ED3C43
+          tvdisplaymode            0x0000000012ED2956
+          tvpower                  0x000000002AD51C63
+      end codes
+
+end remote

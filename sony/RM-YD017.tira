@@ -1,0 +1,82 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.3pre1(tira) on Thu Oct  2 21:08:51 2008
+#
+# contributed by Tristan Schmelcher
+#
+# brand: Sony
+# model no. of remote control: RM-YD017
+# This file contains the settings for the remote while in TV mode
+#
+
+begin remote
+
+  name  Sony_RM-YD017:TV
+  bits           64
+  eps            30
+  aeps          100
+
+  one             0     0
+  zero            0     0
+  gap          189966
+  min_repeat      2
+  toggle_bit_mask 0x0
+
+      begin codes
+          DISPLAY                  0x00FF0C5700000000
+          TVPOWER                  0x00FF3C7500000000
+          KEY_1                    0x00FFFC5500000000        #  Was: 1
+          KEY_2                    0x00FFFC4500000000        #  Was: 2
+          KEY_3                    0x00FFFC5400000000        #  Was: 3
+          KEY_4                    0x00FFFC4400000000        #  Was: 4
+          KEY_5                    0x00FFFC6500000000        #  Was: 5
+          KEY_6                    0x00FFFC7500000000        #  Was: 6
+          KEY_7                    0x00FFFC6400000000        #  Was: 7
+          KEY_8                    0x00FFFC7400000000        #  Was: 8
+          KEY_9                    0x00FFFC5600000000        #  Was: 9
+          KEY_0                    0x00FFFC4600000000        #  Was: 0
+          DOT                      0x003C038F1D000000
+          KEY_ENTER                0x00FFFC4700000000        #  Was: ENTER
+
+          FREEZE                   0x00FF306600000000
+          CC                       0x00CCF34F15000000
+          KEY_SLEEP                0x00FF0C6400000000        #  Was: SLEEP
+          JUMP                     0x00FF0C4700000000
+          DMeX                     0x003FCCF011000000
+          SOUND                    0x000CF647F600F600
+          PICTURE                  0x00FFC06500000000
+          WIDE                     0x00CCF3831D000000
+
+          KEY_UP                   0x00FF006500000000        #  Was: UP
+          KEY_DOWN                 0x00FF007500000000        #  Was: DOWN
+          KEY_LEFT                 0x00FF0C6500000000        #  Was: LEFT
+          KEY_RIGHT                0x00FF0C4400000000        #  Was: RIGHT
+          CENTER                   0x00FFC07500000000
+
+          KEY_FAVORITES            0x00C30AAB0ACF0A00        #  Was: FAVORITES
+          INPUT                    0x00FFCC7500000000
+          KEY_ENTER                0x003C033311000000        #  Was: RETURN
+          KEY_OPTION               0x003C030319000000        #  Was: OPTIONS
+          KEY_HOME                 0x00FFC05500000000        #  Was: HOME
+
+          KEY_PREVIOUS             0x003C038319000000        #  Was: PREV
+          KEY_AGAIN                0x003CF676F630F600        #  Was: REPLAY
+          ADV                      0x003C038015000000
+          KEY_NEXT                 0x0030F64AFA3CFA00        #  Was: NEXT
+          KEY_REWIND               0x003C03CF11000000        #  Was: REW
+          KEY_PLAY                 0x003C03CF15000000        #  Was: PLAY
+          KEY_FASTFORWARD          0x003C038F19000000        #  Was: FF
+          THEATER                  0x0003037015000000
+          KEY_PAUSE                0x003C038F11000000        #  Was: PAUSE
+          KEY_STOP                 0x003C038F15000000        #  Was: STOP
+
+          MUTING                   0x00FF3C6500000000
+          KEY_VOLUMEUP             0x00FF3C5400000000        #  Was: VOL+
+          KEY_VOLUMEDOWN           0x00FF3C4400000000        #  Was: VOL-
+          KEY_CHANNELUP            0x00FF3C5500000000        #  Was: CH+
+          KEY_CHANNELDOWN          0x00FF3C4500000000        #  Was: CH-
+      end codes
+
+end remote
+
+

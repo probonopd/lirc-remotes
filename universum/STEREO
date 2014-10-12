@@ -1,0 +1,81 @@
+#
+# this config file was automatically generated
+# using lirc-0.5.4 on Thu Mar 18 22:05:47 1999
+# manually edited to make repeat work
+# You need at least lirc-0.5.5pre7 to use this config file!!!
+#
+# contributed by Jens Leuschner <leuschner@gmx.net>
+#
+# brand:             UNIVERSUM
+# model:           
+# supported devices: stereo set
+#
+
+begin remote
+
+  name  UNIVERSUM
+  bits           16
+  flags SPACE_ENC|REPEAT_HEADER|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       4583  4415
+  one           635   490
+  zero          635  1611
+  ptrail        635
+  repeat        635  1611
+  pre_data_bits   16
+  pre_data       0xF7F7
+  gap          108000
+  repeat_bit      0
+
+      begin codes
+          KEY_POWER                0x0000000000008778        #  Was: POWER
+          KEY_MUTE                 0x00000000000007F8        #  Was: MUTE
+          KEY_1                    0x0000000000007D82        #  Was: 1
+          KEY_2                    0x000000000000BD42        #  Was: 2
+          KEY_3                    0x0000000000003DC2        #  Was: 3
+          KEY_4                    0x000000000000DD22        #  Was: 4
+          KEY_5                    0x0000000000005DA2        #  Was: 5
+          KEY_6                    0x0000000000009D62        #  Was: 6
+          KEY_7                    0x0000000000001DE2        #  Was: 7
+          KEY_8                    0x000000000000ED12        #  Was: 8
+          KEY_9                    0x0000000000006D92        #  Was: 9
+          KEY_0                    0x0000000000002DD2        #  Was: 0
+          KEY_VOLUMEDOWN           0x0000000000009768        #  Was: VOL-
+          KEY_VOLUMEUP             0x00000000000017E8        #  Was: VOL+
+          TUN-                     0x000000000000A758
+          TUN+                     0x00000000000027D8
+          AUTO                     0x0000000000000FF0
+          PHONO                    0x0000000000002FD0
+          KEY_RADIO                0x000000000000FF00        #  Was: FM
+          MW                       0x0000000000007F80
+          LW                       0x000000000000BF40
+          CDP                      0x0000000000003FC0
+          KEY_AUX                  0x0000000000006F90        #  Was: AUX
+          KEY_TAPE                 0x000000000000EF10        #  Was: TAPE
+          KEY_TIME                 0x0000000000007C83        #  Was: CLOCK
+          KEY_SLEEP                0x000000000000BC43        #  Was: SLEEP
+          CD_PLAY                  0x000000000000DF20
+          CD_STOP                  0x0000000000005FA0
+          CD_REW                   0x00000000000035CA
+          CD_FFD                   0x000000000000B54A
+          CD_TRACK-                0x0000000000009F60
+          CD_TRACK+                0x0000000000001FE0
+          CD_REPEAT                0x0000000000008D72
+          CD_PROG                  0x0000000000004DB2
+          TP_A                     0x000000000000C738
+          TP_B                     0x0000000000003EC1
+          TP_PLAYR                 0x000000000000CF30
+          TP_PLAY                  0x0000000000004FB0
+          TP_REW                   0x000000000000F708
+          TP_FFD                   0x0000000000007788
+          TP_STOP                  0x0000000000008F70
+          TP_PAUSE                 0x000000000000D728
+          TP_RMUTE                 0x000000000000748B
+          TP_REC                   0x00000000000057A8
+      end codes
+
+end remote
+
+

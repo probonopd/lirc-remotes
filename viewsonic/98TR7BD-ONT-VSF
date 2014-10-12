@@ -1,0 +1,84 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.2-CVS(default) on Sat Mar 15 09:06:22 2008
+#
+# contributed by
+#
+# brand:                       ViewSonic
+# model no. of remote control: 98TR7BD-ONT-VSF
+# devices being controlled by this remote:
+#
+
+begin remote
+
+  name  ViewSonic_98TR7BD-ONT-VSF
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9107  4466
+  one           602  1660
+  zero          602   518
+  ptrail        580
+  repeat       9135  2179
+  pre_data_bits   16
+  pre_data       0xC18F
+  gap          108574
+  toggle_bit_mask 0x0
+
+      begin codes
+          KEY_POWER                0x50AF                    #  Was: power
+          display                  0x0EF1
+          KEY_MUTE                 0x30CF                    #  Was: mute
+          KEY_VIDEO                0x0CF3                    #  Was: video
+          scart                    0x8C73
+          KEY_PC                   0x4CB3                    #  Was: pc
+          KEY_TV                   0x02FD                    #  Was: tv
+          KEY_1                    0x807F                    #  Was: 1
+          KEY_2                    0x40BF                    #  Was: 2
+          KEY_3                    0xC03F                    #  Was: 3
+          KEY_4                    0x20DF                    #  Was: 4
+          KEY_5                    0xA05F                    #  Was: 5
+          KEY_6                    0x609F                    #  Was: 6
+          KEY_7                    0xE01F                    #  Was: 7
+          KEY_8                    0x10EF                    #  Was: 8
+          KEY_9                    0x906F                    #  Was: 9
+          KEY_0                    0x00FF                    #  Was: 0
+          KEY_SUBTITLE             0x4EB1                    #  Was: subpage
+          pre-ch                   0x54AB
+          KEY_CYCLEWINDOWS         0x7887                    #  Was: source
+          pip                      0xD42B
+          sound                    0x2ED1
+          KEY_SLEEP                0x34CB                    #  Was: sleep
+          dtvmenu                  0xCC33
+          KEY_ZOOMOUT              0x2CD3                    #  Was: zoom-
+          KEY_ZOOMIN               0x9E61                    #  Was: zoom+
+          KEY_VOLUMEUP             0x08F7                    #  Was: vol+
+          KEY_VOLUMEDOWN           0x8877                    #  Was: vol-
+          KEY_CHANNELUP            0x48B7                    #  Was: ch+
+          KEY_CHANNELDOWN          0xC837                    #  Was: ch-
+          KEY_MENU                 0xD02F                    #  Was: menu
+          KEY_EXIT                 0x8E71                    #  Was: exit
+          KEY_UP                   0x649B                    #  Was: up
+          KEY_DOWN                 0xE41B                    #  Was: down
+          KEY_LEFT                 0x14EB                    #  Was: left
+          KEY_RIGHT                0x946B                    #  Was: right
+          KEY_OK                   0xA45B                    #  Was: ok
+          KEY_RED                  0xA25D                    #  Was: red
+          KEY_GREEN                0x629D                    #  Was: green
+          KEY_YELLOW               0x926D                    #  Was: yellow
+          KEY_BLUE                 0xE21D                    #  Was: blue
+          KEY_TEXT                 0x847B                    #  Was: teletext
+          mix                      0xAC53
+          size                     0x619E
+          KEY_INFO                 0x6C93                    #  Was: info
+          index                    0xCE31
+          KEY_SUBTITLE             0xEC13                    #  Was: subtitle
+          hold                     0x11EE
+          reveal                   0xE11E
+      end codes
+
+end remote
+
+

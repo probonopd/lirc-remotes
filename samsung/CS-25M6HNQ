@@ -1,0 +1,70 @@
+#
+# this config file was automatically generated
+# using WinLIRC 0.6.5 (LIRC 0.6.1pre3) on Thu Feb 14 23:16:17 2008
+#
+# contributed by
+#
+# brand:             Samsung
+# model:             CS-25M6HNQ
+# supported devices: TV
+#
+
+begin remote
+
+  name  Samsung_CS-25M6HNQ
+  bits           32
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  header       4634  4540
+  one           604  1596
+  zero          604   517
+  ptrail        604
+  gap          46307
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x00000000E0E040BF        #  Was: power
+          KEY_TEXT                 0x00000000E0E034CB        #  Was: teletext
+          KEY_1                    0x00000000E0E020DF        #  Was: 1
+          KEY_2                    0x00000000E0E0A05F        #  Was: 2
+          KEY_3                    0x00000000E0E0609F        #  Was: 3
+          KEY_4                    0x00000000E0E010EF        #  Was: 4
+          KEY_5                    0x00000000E0E0906F        #  Was: 5
+          KEY_6                    0x00000000E0E050AF        #  Was: 6
+          KEY_7                    0x00000000E0E030CF        #  Was: 7
+          KEY_8                    0x00000000E0E0B04F        #  Was: 8
+          KEY_9                    0x00000000E0E0708F        #  Was: 9
+          KEY_0                    0x00000000E0E08877        #  Was: 0
+          p.menu                   0x00000000E0E07887
+          KEY_SLEEP                0x00000000E0E0C03F        #  Was: sleep
+          still                    0x00000000E0E042BD
+          KEY_TV                   0x00000000E0E0D827        #  Was: tv
+          a/v                      0x00000000E0E0807F
+          KEY_INFO                 0x00000000E0E0F807        #  Was: info
+          KEY_102ND                0x00000000E0E0C43B        #  Was: -/--
+          I-II                     0x00000000E0E000FF
+          KEY_RED                  0x00000000E0E0C837        #  Was: red
+          KEY_GREEN                0x00000000E0E028D7        #  Was: green
+          KEY_YELLOW               0x00000000E0E0A857        #  Was: yellow
+          KEY_BLUE                 0x00000000E0E06897        #  Was: blue
+          KEY_MUTE                 0x00000000E0E0F00F        #  Was: mute
+          size                     0x00000000E0E07C83
+          KEY_LEFT                 0x00000000E0E0D02F        #  Was: left
+          KEY_RIGHT                0x00000000E0E0E01F        #  Was: right
+          KEY_UP                   0x00000000E0E048B7        #  Was: up
+          KEY_DOWN                 0x00000000E0E008F7        #  Was: down
+          KEY_MENU                 0x00000000E0E058A7        #  Was: menu
+          vcr_power                0x00000000A0A040BF
+          KEY_STOP                 0x00000000A0A0A857        #  Was: stop
+          KEY_REWIND               0x00000000A0A018E7        #  Was: rew
+          KEY_PLAY                 0x00000000A0A09867        #  Was: play
+          KEY_FASTFORWARD          0x00000000A0A058A7        #  Was: ff
+          KEY_PAUSE                0x00000000A0A06897        #  Was: pause
+      end codes
+
+end remote
+
+

@@ -1,0 +1,73 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.6(SerialDevice) on Sat Aug 07 21:36:44 2010
+#
+# contributed by MadKat
+#
+# brand: Thomson
+# model no. of remote control: ROC 3205 (code 0584)
+# devices being controlled by this remote: Thomson audio/video products
+# (default out-of-the-box configuration), universal (by reconfiguration);
+# this config file is created for the default,
+# out-of-the-box remote configuration
+# according to flyer in package:   "guide" is the key left of "prog-"
+#                                  "backup" is the key right of "prog-"
+#                                  "help" is the key under "7"
+#                                  "text" is the key under "9"
+
+begin remote
+
+  name  Thomson_ROC-3205
+  bits           12
+  flags SPACE_ENC
+  eps            30
+  aeps          100
+
+  one           473  4573
+  zero          473  2052
+  ptrail        473
+  gap          40855
+  min_repeat      2
+  toggle_bit_mask 0x80
+
+      begin codes
+          KEY_POWER                0x32B                     #  Was: power
+          KEY_CHANNELUP            0x325                     #  Was: prog+
+          av                       0x318
+          KEY_VOLUMEDOWN           0x32A                     #  Was: vol-
+          KEY_MUTE                 0x305                     #  Was: mute
+          KEY_VOLUMEUP             0x329                     #  Was: vol+
+          KEY_INFO                 0x31E                     #  Was: guide
+          KEY_CHANNELDOWN          0x327                     #  Was: prog-
+          backup                   0x33E
+          arrow_up                 0x30B
+          arrow_left               0x336
+          KEY_OK                   0x30C                     #  Was: ok
+          arrow_right              0x337
+          KEY_MENU                 0x331                     #  Was: menu
+          arrow_down               0x30D
+          KEY_EXIT                 0x33E                     #  Was: exit
+          prev_track               0x339
+          KEY_PLAY                 0x338                     #  Was: play
+          KEY_NEXT                 0x315                     #  Was: next_track
+          KEY_RECORD               0x31C                     #  Was: rec
+          KEY_STOP                 0x33B                     #  Was: stop
+          KEY_PAUSE                0x31E                     #  Was: pause
+          KEY_1                    0x300                     #  Was: 1
+          KEY_2                    0x308                     #  Was: 2
+          KEY_3                    0x310                     #  Was: 3
+          KEY_4                    0x301                     #  Was: 4
+          KEY_5                    0x309                     #  Was: 5
+          KEY_6                    0x311                     #  Was: 6
+          KEY_7                    0x302                     #  Was: 7
+          KEY_8                    0x30A                     #  Was: 8
+          KEY_9                    0x312                     #  Was: 9
+          KEY_HELP                 0x304                     #  Was: help
+          KEY_0                    0x30E                     #  Was: 0
+          KEY_TEXT                 0x31C                     #  Was: text
+          KEY_ENTER                0x324                     #  Was: enter
+      end codes
+
+end remote
+
+

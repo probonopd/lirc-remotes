@@ -1,0 +1,59 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.1-CVS(default) on Sat Apr  8 21:41:23 2006
+#
+# contributed by Greg Woolsey
+#
+# brand:                       Magnavox
+# model no. of remote control: Magnavox Home Cinema Control for tuner MFX-450
+# devices being controlled by this remote: VCR mode (I use it with MythTV)
+#
+
+begin remote
+
+  name  Magnavox_HCC-MFX-450
+  bits           13
+  flags RC5|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           889  889
+  zero          889  889
+  plead         889
+  gap          113792
+  toggle_bit      2
+
+
+      begin codes
+          KEY_0                    0x1940                    #  Was: 0
+          KEY_1                    0x1941                    #  Was: 1
+          KEY_2                    0x1942                    #  Was: 2
+          KEY_3                    0x1143                    #  Was: 3
+          KEY_4                    0x1944                    #  Was: 4
+          KEY_5                    0x1145                    #  Was: 5
+          KEY_6                    0x1946                    #  Was: 6
+          KEY_7                    0x1947                    #  Was: 7
+          KEY_8                    0x1948                    #  Was: 8
+          KEY_9                    0x1149                    #  Was: 9
+          CancelAngle              0x1971
+          ChMinus                  0x1172
+          ChPlus                   0x1974
+          KEY_DOWN                 0x0151                    #  Was: DOWN
+          IndexTC                  0x0970
+          KEY_LEFT                 0x0155                    #  Was: LEFT
+          KEY_MENU                 0x0952                    #  Was: Menu
+          News                     0x041A
+          Night                    0x1C3E
+          KEY_OK                   0x0157                    #  Was: OK
+          KEY_PAUSE                0x1969                    #  Was: Pause
+          KEY_PLAY                 0x1175                    #  Was: Play
+          KEY_POWER                0x194C                    #  Was: Power
+          KEY_RECORD               0x1177                    #  Was: Record
+          KEY_RIGHT                0x0956                    #  Was: RIGHT
+          KEY_STOP                 0x1176                    #  Was: Stop
+          KEY_UP                   0x0950                    #  Was: UP
+          KEY_VOLUMEUP             0x1410                    #  Was: VOL+
+          KEY_VOLUMEDOWN           0x1C11                    #  Was: VOL-
+      end codes
+
+end remote

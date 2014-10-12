@@ -1,0 +1,61 @@
+# this config file was automatically generated
+# using lirc-0.6.6(any) on Sat Jan  4 03:33:14 2003
+#
+# contributed by Andreas van Cranenburgh <andreasvc@hotmail.com>
+#
+# brand:        Sony
+# model:        RM-V10T
+# devices being controlled by this remote: various tv/vcr's
+#
+# This is an universal remote control that can be used in a number of modes.
+This config file was made in mode 02.
+# This mode can be set by pressing set, 0, 2 and the store button (top left
+button, arrow pointing inside a box)
+
+begin remote
+
+  name  rm-v10t
+  bits           11
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header        120  2888
+  one           122  1673
+  zero          122  1075
+  ptrail        120
+  gap          44759
+  min_repeat      1
+  toggle_bit      0
+
+
+      begin codes
+          off                      0x0000000000000548
+          store                    0x0000000000000528
+          KEY_TEXT                 0x00000000000007E8        #  Was: teletext
+          KEY_TV                   0x00000000000000E8        #  Was: tv
+          KEY_1                    0x0000000000000008        #  Was: 1
+          KEY_2                    0x0000000000000408        #  Was: 2
+          KEY_3                    0x0000000000000208        #  Was: 3
+          KEY_4                    0x0000000000000608        #  Was: 4
+          KEY_5                    0x0000000000000108        #  Was: 5
+          KEY_6                    0x0000000000000508        #  Was: 6
+          KEY_7                    0x0000000000000308        #  Was: 7
+          KEY_8                    0x0000000000000708        #  Was: 8
+          KEY_9                    0x0000000000000088        #  Was: 9
+          KEY_1-                   0x0000000000000188        #  Was: 1-
+          KEY_0                    0x0000000000000488        #  Was: 0
+          KEY_2-                   0x0000000000000588        #  Was: 2-
+          KEY_REWIND               0x000000000000019C        #  Was: <<
+          >                        0x000000000000059C
+          KEY_FORWARD              0x000000000000039C        #  Was: >>
+          KEY_STOP                 0x000000000000079C        #  Was: stop
+          KEY_MUTE                 0x0000000000000148        #  Was: mute
+          KEY_VOLUMEUP             0x0000000000000248        #  Was: vol+
+          KEY_VOLUMEDOWN           0x0000000000000648        #  Was: vol-
+          progr+                   0x0000000000000048
+          progr-                   0x0000000000000448
+      end codes
+
+end remote
+

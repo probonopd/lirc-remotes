@@ -1,0 +1,117 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.6(serial) on Fri Jan  9 21:35:09 2004
+#
+# contributed by Raymond Courtois (raycourtois|comcast.net)
+#
+# brand:                       AudioSource
+# model no. of remote control: SS-Three
+# devices being controlled by this remote: SS Three Surround Sound Processor
+#
+
+begin remote
+
+  name   AudioSource_SS-Three
+  flags CONST_LENGTH|RAW_CODES
+  eps            30
+  aeps          100
+
+  ptrail          0
+  repeat     0     0
+  gap    54012
+
+      begin raw_codes
+
+          name power
+          KEY_0                    1226                      #  Was: 440
+          KEY_1                    1247                      #  Was: 441
+          KEY_2                    1226                      #  Was: 462
+          KEY_1                    1247                      #  Was: 461
+
+          name monitor
+          KEY_3                    1245                      #  Was: 463
+          KEY_1                    1226                      #  Was: 441
+          KEY_3                    406                       #  Was: 1303
+          KEY_4                    1245                      #  Was: 444
+
+          name matrix
+          KEY_1                    1247                      #  Was: 461
+          KEY_1                    1229                      #  Was: 441
+          KEY_2                    1248                      #  Was: 462
+          KEY_1                    1226                      #  Was: 441
+
+          name hall
+          KEY_7                    1231                      #  Was: 477
+          KEY_7                    1210                      #  Was: 457
+          KEY_3                    1206                      #  Was: 483
+          KEY_2                    1205                      #  Was: 462
+
+          name surround
+          KEY_1                    1208                      #  Was: 461
+          KEY_0                    1225                      #  Was: 460
+          KEY_2                    1196                      #  Was: 492
+          KEY_5                    404                       #  Was: 1305
+
+          name test
+          KEY_9                    1238                      #  Was: 449
+          KEY_8                    1240                      #  Was: 448
+          KEY_1                    386                       #  Was: 1281
+          KEY_7                    1219                      #  Was: 467
+
+          name phantom
+          KEY_2                    1187                      #  Was: 482
+          KEY_8                    1187                      #  Was: 478
+          KEY_6                    1194                      #  Was: 476
+          KEY_0                    1207                      #  Was: 480
+
+          name 20ms
+          KEY_9                    1220                      #  Was: 489
+          KEY_7                    1221                      #  Was: 487
+          KEY_6                    1201                      #  Was: 466
+          KEY_7                    1222                      #  Was: 467
+
+          name 30ms
+          KEY_0                    1227                      #  Was: 440
+          KEY_1                    1247                      #  Was: 441
+          KEY_1                    1226                      #  Was: 441
+          KEY_3                    406                       #  Was: 1303
+
+          name rear+
+          KEY_1                    1226                      #  Was: 461
+          KEY_1                    407                       #  Was: 1281
+          KEY_2                    407                       #  Was: 1302
+          KEY_1                    1224                      #  Was: 441
+
+          name center+
+          KEY_1                    1226                      #  Was: 461
+          KEY_2                    386                       #  Was: 1282
+          KEY_1                    1224                      #  Was: 461
+          KEY_1                    1224                      #  Was: 441
+
+          name vol+
+          KEY_1                    1247                      #  Was: 461
+          KEY_4                    405                       #  Was: 1304
+          KEY_0                    1247                      #  Was: 440
+          KEY_1                    1247                      #  Was: 441
+
+          name rear-
+          KEY_2                    1224                      #  Was: 442
+          KEY_2                    386                       #  Was: 1282
+          KEY_7                    1244                      #  Was: 467
+          KEY_6                    1222                      #  Was: 466
+
+          name center-
+          KEY_3                    1224                      #  Was: 443
+          KEY_1                    386                       #  Was: 1281
+          KEY_2                    1226                      #  Was: 462
+          KEY_3                    383                       #  Was: 1303
+
+          name vol-
+          KEY_5                    1222                      #  Was: 465
+          KEY_1                    407                       #  Was: 1281
+          KEY_9                    1229                      #  Was: 459
+          KEY_7                    1201                      #  Was: 487
+
+      end raw_codes
+
+end remote

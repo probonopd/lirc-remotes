@@ -1,0 +1,39 @@
+#
+# this config file was automatically generated
+# using WinLIRC 0.6.5 (LIRC 0.6.1pre3) on Tue Dec 18 07:30:01 2007
+#
+# contributed by
+#
+# brand:             Teac
+# model:             RC-547
+# supported devices: CD-P255 CD player
+#
+
+begin remote
+
+  name  Teac_RC-547
+  bits            3
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  one          1368   276
+  zero          497  1162
+  ptrail        497
+  pre_data_bits   8
+  pre_data       0xD0
+  gap          34971
+  toggle_bit      0
+
+
+      begin codes
+          Program                  0x0000000000000001
+          KEY_PREVIOUS             0x0000000000000002        #  Was: |<<
+          KEY_NEXT                 0x0000000000000004        #  Was: >>|
+#         Play/Pause               ??????????????????
+#         Stop                     ??????????????????
+      end codes
+
+end remote
+
+

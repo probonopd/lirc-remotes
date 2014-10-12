@@ -1,0 +1,62 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.6(serial) on Fri Jan 30 12:29:05 2004
+#
+# contributed by David Rao
+#
+# brand:                       fenner
+# model no. of remote control:
+# devices being controlled by this remote: analog sat decoder
+#
+
+begin remote
+
+  name  fenner
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9096  4396
+  one           673  1572
+  zero          673   453
+  ptrail        673
+  pre_data_bits   26
+  pre_data       0x3E800BF
+  gap          107939
+  toggle_bit      0
+
+
+      begin codes
+          KEY_MUTE                 0x00000000000000FF        #  Was: mute
+          KEY_POWER                0x00000000000040BF        #  Was: power
+          KEY_1                    0x00000000000020DF        #  Was: 1
+          KEY_2                    0x000000000000A05F        #  Was: 2
+          KEY_3                    0x000000000000609F        #  Was: 3
+          KEY_4                    0x000000000000E01F        #  Was: 4
+          KEY_5                    0x00000000000010EF        #  Was: 5
+          KEY_6                    0x000000000000906F        #  Was: 6
+          KEY_7                    0x00000000000050AF        #  Was: 7
+          KEY_8                    0x000000000000D02F        #  Was: 8
+          KEY_9                    0x00000000000030CF        #  Was: 9
+          bright                   0x00000000000028D7
+          store                    0x000000000000C837
+          KEY_0                    0x000000000000B04F        #  Was: 0
+          KEY_UP                   0x000000000000F00F        #  Was: up
+          KEY_DOWN                 0x000000000000708F        #  Was: down
+          v_h                      0x000000000000B847
+          fine_1                   0x0000000000007887
+          KEY_AUDIO                0x0000000000008877        #  Was: audio
+          int_ext_1                0x00000000000048B7
+          KEY_0                    0x000000000000A857        #  Was: 22_0
+          fine_2                   0x0000000000006897
+          KEY_VIDEO                0x000000000000E817        #  Was: video
+          int_ext_2                0x00000000000018E7
+          KEY_0                    0x0000000000009867        #  Was: 60_0
+          lock                     0x00000000000058A7
+          KEY_FAVORITES            0x000000000000D827        #  Was: favor
+          set                      0x00000000000038C7
+      end codes
+
+end remote
+

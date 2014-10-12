@@ -1,0 +1,74 @@
+# this config file was manually generated
+# on Mon Nov  7 15:20:36 2005
+# by Tschurtschenthaler Markus
+# email: markus.tschurtschenthaler|student.tugraz.at
+#
+#
+# brand:                       Thomson
+# model no. of remote control: ROC 230
+# notice: for the universal remote control ROC 230
+#         you must use the code: 182
+#         Maybe it works also with other codes. I don't know!
+#
+
+begin remote
+
+  name  Thomson-ROC_230
+  flags RC5|CONST_LENGTH
+  bits           13
+  eps            30
+  aeps          100
+
+  one           889  889
+  zero          889  889
+  plead         889
+  gap          113792
+  toggle_bit      2
+
+
+      begin codes
+          KEY_POWER                0x000000000000100C        #  Was: ON
+          KEY_1                    0x0000000000001001        #  Was: 1
+          KEY_2                    0x0000000000001002        #  Was: 2
+          KEY_3                    0x0000000000001003        #  Was: 3
+          KEY_4                    0x0000000000001004        #  Was: 4
+          KEY_5                    0x0000000000001005        #  Was: 5
+          KEY_6                    0x0000000000001006        #  Was: 6
+          KEY_7                    0x0000000000001007        #  Was: 7
+          KEY_8                    0x0000000000001008        #  Was: 8
+          KEY_9                    0x0000000000001009        #  Was: 9
+          KEY_0                    0x0000000000001000        #  Was: 0
+          AV                       0x0000000000001038
+          WIN_IN                   0x0000000000001039
+          EMPTY_BUTTON             0x000000000000100A
+          _/__                     0x000000000000100B
+          KEY_F11                  0x000000000000103F        #  Was: FULL_SCREEN
+          WIN+                     0x000000000000100F
+          KEY_MENU                 0x000000000000100E        #  Was: MENU
+          LINES_WIN                0x000000000000103C
+          KEY_EXIT                 0x000000000000102E        #  Was: EXIT
+          KEY_VOLUMEDOWN           0x0000000000001011        #  Was: VOL-
+          KEY_VOLUMEUP             0x0000000000001010        #  Was: VOL+
+          KEY_CHANNELDOWN          0x0000000000001021        #  Was: PROG-
+          KEY_CHANNELUP            0x0000000000001020        #  Was: PROG+
+          KEY_ZOOMOUT              0x0000000000001015        #  Was: ZOOM-
+          KEY_ZOOMIN               0x0000000000001014        #  Was: ZOOM+
+          KEY_OK                   0x000000000000100D        #  Was: OK
+          KEY_MUTE                 0x0000000000001023        #  Was: MUTE
+          KEY_REWIND               0x0000000000001037        #  Was: REW
+          KEY_FORWARD              0x0000000000001034        #  Was: FWD
+          KEY_STOP                 0x0000000000001036        #  Was: STOP
+          KEY_PLAY                 0x0000000000001032        #  Was: PLAY
+          KEY_PAUSE                0x0000000000001024        #  Was: PAUSE
+          POINT                    0x0000000000001029
+          MINIMIZE                 0x000000000000103E
+          GRAY                     0x0000000000001035
+          KEY_RED                  0x000000000000102D        #  Was: RED
+          KEY_GREEN                0x000000000000102C        #  Was: GREEN
+          KEY_YELLOW               0x000000000000102B        #  Was: YELLOW
+          KEY_BLUE                 0x000000000000101E        #  Was: BLUE
+     end codes
+
+end remote
+
+

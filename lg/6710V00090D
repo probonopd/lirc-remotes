@@ -1,0 +1,56 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.0(igorplugusb) on Wed Mar  1 19:57:11 2006
+#
+# contributed by
+#
+# brand: LG
+# model no. of remote control: 6710V00090D
+# devices being controlled by this remote:
+#
+
+begin remote
+
+  name  LG_6710V00090D
+  bits           13
+  flags RC5
+  eps            30
+  aeps          100
+
+  one           805   876
+  zero          805   876
+  plead         713
+  gap          121999
+  toggle_bit      2
+
+
+      begin codes
+          KEY_POWER                0x100C                    #  Was: power
+          KEY_MUTE                 0x100D                    #  Was: mute
+          KEY_1                    0x1001                    #  Was: 1
+          KEY_2                    0x1002                    #  Was: 2
+          KEY_3                    0x1003                    #  Was: 3
+          KEY_4                    0x1004                    #  Was: 4
+          KEY_5                    0x1005                    #  Was: 5
+          KEY_6                    0x1006                    #  Was: 6
+          KEY_7                    0x1007                    #  Was: 7
+          KEY_8                    0x1008                    #  Was: 8
+          KEY_9                    0x1009                    #  Was: 9
+          KEY_0                    0x1000                    #  Was: 0
+          eye                      0x1037
+          i-ii                     0x1036
+          pr-up                    0x1020
+          pr-down                  0x1021
+          KEY_VOLUMEDOWN           0x1011                    #  Was: vol-down
+          KEY_VOLUMEUP             0x1010                    #  Was: vol-up
+          KEY_OK                   0x1025                    #  Was: ok
+          q-view                   0x1032
+          KEY_LIST                 0x1034                    #  Was: list
+          psm                      0x100E
+          ssm                      0x1016
+          KEY_SLEEP                0x1026                    #  Was: sleep
+          picture                  0x1013
+          sound                    0x1024
+      end codes
+
+end remote

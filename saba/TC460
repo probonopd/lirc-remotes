@@ -1,0 +1,67 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.4(ipaq) on Fri Aug 22 17:01:36 2003
+#
+# contributed by Nils Faerber <nils@kernelconcepts.de>
+#
+# brand:                       Saba
+# model no. of remote control: TC460
+# supported devices:           TV
+#
+
+begin remote
+
+  name  SabaTC460
+  bits           11
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one            39  8602
+  zero           39  5721
+  ptrail         39
+  gap          138265
+  toggle_bit      1
+
+
+      begin codes
+          KEY_1                    0x00000000000003C0        #  Was: 1
+          KEY_2                    0x00000000000001C8        #  Was: 2
+          KEY_3                    0x00000000000001D0        #  Was: 3
+          KEY_4                    0x00000000000003C1        #  Was: 4
+          KEY_5                    0x00000000000003C9        #  Was: 5
+          KEY_6                    0x00000000000001D1        #  Was: 6
+          KEY_7                    0x00000000000001C2        #  Was: 7
+          KEY_8                    0x00000000000003CA        #  Was: 8
+          KEY_9                    0x00000000000003D2        #  Was: 9
+          KEY_C                    0x00000000000001C6        #  Was: C
+          KEY_0                    0x00000000000001CE        #  Was: 0/10
+          AV                       0x00000000000003D8
+          Color+                   0x00000000000003C3
+          Color-                   0x00000000000001C4
+          Bright+                  0x00000000000001CB
+          Bright-                  0x00000000000003CC
+          KEY_VOLUMEUP             0x00000000000003DB        #  Was: Vol+
+          KEY_VOLUMEDOWN           0x00000000000001DC        #  Was: Vol-
+          KEY_POWER                0x00000000000001DD        #  Was: Power
+          Norm                     0x00000000000003DE
+          KEY_MUTE                 0x00000000000003C5        #  Was: Mute
+          KEY_KPPLUS               0x00000000000001E9        #  Was: +
+          KEY_KPMINUS              0x00000000000001EA        #  Was: -
+          VT/TV                    0x00000000000003D5
+          MIX                      0x00000000000003EB
+          Contrast                 0x00000000000001E3
+          Balance                  0x00000000000001E5
+          Bass                     0x00000000000003E1
+          Treble                   0x00000000000003E0
+          Sound3D                  0x00000000000001E4
+          KEY_TIME                 0x00000000000001F6        #  Was: Clock
+          KEY_S                    0x00000000000003E8        #  Was: S
+          CS/Stop                  0x00000000000003F5
+          Progr/100                0x00000000000001F4
+          Page                     0x00000000000001E2
+      end codes
+
+end remote
+
+

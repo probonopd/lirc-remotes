@@ -1,0 +1,92 @@
+#
+# this config file was automatically generated
+# using lirc-0.7.0pre5(any) on Wed Jul 28 01:58:55 2004
+#
+# contributed by  S. Mark Dzialo
+#
+# brand:  Motorola
+# model no. of remote control:  IRC442 (PN: 487008-001)
+# devices being controlled by this remote:  Motorola (DSR305SC) StarChoice receiver, IBM T40 (237372U) laptop
+#
+
+begin remote
+
+  name  Motorola_IRC442-1
+  bits           11
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       2385   603
+  one          1178   603
+  zero          590   603
+  ptrail        590
+  gap          44826
+  toggle_bit      0
+
+
+      begin codes
+          KEY_VOLUMEUP             0x0000000000000248        #  Was: VOL_UP
+          KEY_VOLUMEDOWN           0x0000000000000648        #  Was: VOL_DOWN
+          KEY_MUTE                 0x0000000000000148        #  Was: MUTE
+          REV                      0x00000000000006CD
+          KEY_FORWARD              0x00000000000001CD        #  Was: FWD
+          KEY_PLAY                 0x00000000000002CD        #  Was: PLAY
+          KEY_STOP                 0x00000000000000CD        #  Was: STOP
+          KEY_PAUSE                0x00000000000004CD        #  Was: PAUSE
+      end codes
+
+end remote
+
+begin remote
+
+  name  Motorola_IRC442-2
+  bits           12
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       4954  1985
+  one           951  3044
+  zero          951  1035
+  ptrail        951
+  gap          99611
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x0000000000000605        #  Was: POWER
+          KEY_CYCLEWINDOWS         0x0000000000000A4A        #  Was: SOURCE
+          PPV                      0x0000000000000B02
+          KEY_UP                   0x0000000000000C4F        #  Was: UP
+          KEY_DOWN                 0x0000000000000045        #  Was: DOWN
+          KEY_LEFT                 0x0000000000000B88        #  Was: LEFT
+          KEY_RIGHT                0x000000000000080C        #  Was: RIGHT
+          CENTER_ENTER             0x0000000000000384
+          GOBACK                   0x000000000000068F
+          KEY_INFO                 0x0000000000000782        #  Was: GUIDE
+          KEY_INFO                 0x0000000000000E4C        #  Was: INFO
+          INTERESTS                0x0000000000000581
+          BROWSE                   0x0000000000000849
+          KEY_EXIT                 0x0000000000000A0F        #  Was: EXIT
+          KEY_OPTION               0x0000000000000289        #  Was: OPTIONS
+          FUTURE                   0x0000000000000443
+          LAST_CH                  0x0000000000000187
+          KEY_CHANNELUP            0x0000000000000D07        #  Was: CH_UP
+          KEY_CHANNELDOWN          0x000000000000008A        #  Was: CH_DOWN
+          KEY_1                    0x0000000000000F04        #  Was: 1
+          KEY_2                    0x0000000000000886        #  Was: 2
+          KEY_3                    0x000000000000048C        #  Was: 3
+          KEY_4                    0x0000000000000E83        #  Was: 4
+          KEY_5                    0x000000000000098B        #  Was: 5
+          KEY_6                    0x0000000000000D8D        #  Was: 6
+          KEY_7                    0x000000000000050B        #  Was: 7
+          KEY_8                    0x0000000000000901        #  Was: 8
+          KEY_9                    0x0000000000000708        #  Was: 9
+          KEY_0                    0x0000000000000246        #  Was: 0
+          KEY_HELP                 0x0000000000000F8E        #  Was: HELP
+          KEY_ENTER                0x0000000000000384        #  Was: ENTER
+      end codes
+
+end remote
+

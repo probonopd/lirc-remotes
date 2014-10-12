@@ -1,0 +1,111 @@
+#
+# contributed by Bob van Loosen <loosenN0SPAM@xs4all.nl>
+#                               (remove N0SPAM)
+#
+# This is the config file for the Onkyo TX-L5 receiver.
+# The Remote interactive input/output can be
+# hooked up to the serial port like this:
+#
+#                     +----|<|-----------------o DTR 
+#                     |    D1 (1N4148)
+#           R2 (10k) | |
+#                    | |
+#                     |
+# RI phone jack  +----+-----------------+------o DCD
+# (mono, 3.5mm) /     |                 |
+#          ____/     | | R1 (10k) +-|>|-+
+#         /   /     | |	  | D2 (5V1 zenerdiode)
+#        (  ()  )     |           |
+#         ____/------+-----------+------------o GND
+#
+#
+# The remote interactive connection is an input
+# and a pnp open collector output.
+# With this schematic you can both send and
+# receive over the same wire.
+# If sending doesn't work try decreasing the value
+# of R2 (look at the signal with a scope
+# if you have one).
+# So far I have only discovered the values of
+# setting the MD, DVD and HD inputs.
+# Once I have discovered the rest of the values
+# this file will be updated.
+#
+# I have also discovered a reset value and some
+# test modes.
+# DO NOT TRY THESE!!!
+# When I tried these the s/pdif inputs stopped
+# working and I had to reset the amp by holding
+# the subwoofer mode button and pressing the
+# standby/on button.
+#
+# So here they are in decimal format:
+
+#1056	reset
+#1057	TEST- 1 -00
+#1058	TEST- 2 -00
+#1059	TEST- 3 -00
+#1060	TEST- 4 -00	test tone couple 100 hertz
+#1061	TEST- 4 -01	test tone 30 hertz or so
+#1062	TEST- 4 -02
+#1063	TEST- 4 -03	test tone couple 100 hertz
+#1064	TEST- 4 -04	test tone couple 1000 hertz hurts your ears
+#1065	TEST- 4 -05	test tone couple 1000 hertz hurts your ears
+#1066	TEST- 4 -06	test tone couple 1000 hertz hurts your ears
+#1067	TEST- 4 -07	test tone couple 1000 hertz hurts your ears
+#1068	TEST- 4 -08	test tone couple 1000 hertz hurts your ears
+#1069	TEST- 4 -09	test tone couple 1000 hertz hurts your ears
+#1070	TEST- 4 -00	test tone couple 100 hertz
+#1071	TEST- 4 - 10	test tone couple 100 hertz cycles through the test modes
+
+
+begin remote
+
+  name  Onkyo_TX-L5
+  bits           12
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       2987   975
+  one          1005  1967
+  zero         1005   976
+  ptrail       1005
+  gap          108026
+  toggle_bit      0
+
+
+      begin codes
+          KEY_PLAY                 0x71B                     #  Was: play
+          KEY_STOP                 0x71C                     #  Was: stop
+          KEY_PAUSE                0x71F                     #  Was: pause
+          KEY_FASTFORWARD          0x70C                     #  Was: fast_forward
+	fast_rewind		0x70D
+          KEY_NEXT                 0x71D                     #  Was: next_track
+	previous_track		0x71E
+          KEY_ENTER                0x709                     #  Was: return
+          KEY_SETUP                0x74D                     #  Was: setup
+	top_menu		0x74E
+          KEY_MENU                 0x74F                     #  Was: menu
+          KEY_ENTER                0x708                     #  Was: enter
+          KEY_UP                   0x750                     #  Was: up
+          KEY_DOWN                 0x751                     #  Was: down
+          KEY_LEFT                 0x752                     #  Was: left
+          KEY_RIGHT                0x753                     #  Was: right
+
+	md_play			0x81B
+	md_stop			0x81C
+	md_pause		0x81F
+	md_rewind		0x801
+	md_fast_forward		0x800
+	md_next_track		0x81D
+	md_previous_track	0x81E
+
+	set_md			0x030
+	set_dvd			0x120
+	set_hd			0x170
+      end codes
+
+end remote
+
+

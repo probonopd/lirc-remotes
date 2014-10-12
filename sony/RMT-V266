@@ -1,0 +1,422 @@
+#
+# this config file was automatically generated
+# using lirc-0.7.1(serial) on Mon Aug  8 00:17:09 2005
+#
+# contributed by sschaefer1|woh.rr.com
+#
+# brand:			Sony
+# model no. of remote control:	RMT-V266 in VIDEO mode
+# devices being controlled by this remote:
+#	Sony SLV-679HF (VHS video casette recorder with VCR plus+)
+
+begin remote
+
+  name   sony_RMT-V266_VIDEO
+  flags CONST_LENGTH|RAW_CODES
+  eps            30
+  aeps          100
+
+  ptrail          0
+  repeat     0     0
+  gap    44962
+
+      begin raw_codes
+
+          name POWER
+          KEY_9                    501                       #  Was: 2489
+          KEY_8                    511                       #  Was: 1288
+          KEY_4                    485                       #  Was: 714
+          KEY_4                    485                       #  Was: 1314
+          KEY_4                     #  Was: 714             
+
+          name TV/VIDEO
+          KEY_0                    500                       #  Was: 2490
+          KEY_8                    510                       #  Was: 688
+          KEY_8                    510                       #  Was: 1288
+          KEY_9                    510                       #  Was: 1289
+          KEY_3                     #  Was: 713             
+
+          name AUDIO_MONITOR
+          KEY_9                    500                       #  Was: 2489
+          KEY_9                    511                       #  Was: 1289
+          KEY_9                    511                       #  Was: 689
+          KEY_5                    484                       #  Was: 1315
+          KEY_8                     #  Was: 688             
+
+          name DISPLAY
+          KEY_8                    502                       #  Was: 2488
+          KEY_8                    511                       #  Was: 688
+          KEY_8                    511                       #  Was: 688
+          KEY_3                    485                       #  Was: 1313
+          KEY_7                     #  Was: 687             
+
+          name 1
+          KEY_4                    476                       #  Was: 2514
+          KEY_3                    486                       #  Was: 713
+          KEY_3                    485                       #  Was: 713
+          KEY_9                    510                       #  Was: 1289
+          KEY_4                     #  Was: 714             
+
+          name 2
+          KEY_8                    502                       #  Was: 2488
+          KEY_3                    485                       #  Was: 713
+          KEY_8                    511                       #  Was: 688
+          KEY_8                    512                       #  Was: 1288
+          KEY_8                     #  Was: 688             
+
+          name 3
+          KEY_9                    502                       #  Was: 2489
+          KEY_9                    510                       #  Was: 689
+          KEY_8                    511                       #  Was: 688
+          KEY_9                    510                       #  Was: 1289
+          KEY_9                     #  Was: 689             
+
+          name 4
+          KEY_9                    502                       #  Was: 2489
+          KEY_0                    510                       #  Was: 690
+          KEY_9                    510                       #  Was: 689
+          KEY_7                    511                       #  Was: 1287
+          KEY_3                     #  Was: 713             
+
+          name 5
+          KEY_8                    502                       #  Was: 2488
+          KEY_9                    511                       #  Was: 1289
+          KEY_2                    486                       #  Was: 712
+          KEY_4                    484                       #  Was: 1314
+          KEY_8                     #  Was: 688             
+
+          name 6
+          KEY_7                    503                       #  Was: 2487
+          KEY_8                    511                       #  Was: 1288
+          KEY_3                    486                       #  Was: 713
+          KEY_8                    511                       #  Was: 1288
+          KEY_2                     #  Was: 712             
+
+          name 7
+          KEY_8                    503                       #  Was: 2488
+          KEY_7                    511                       #  Was: 1287
+          KEY_9                    510                       #  Was: 689
+          KEY_3                    486                       #  Was: 1313
+          KEY_9                     #  Was: 689             
+
+          name 8
+          KEY_2                    479                       #  Was: 2512
+          KEY_6                    512                       #  Was: 1286
+          KEY_7                    513                       #  Was: 687
+          KEY_8                    512                       #  Was: 1288
+          KEY_3                     #  Was: 713             
+
+          name 9
+          KEY_8                    503                       #  Was: 2488
+          KEY_9                    511                       #  Was: 689
+          KEY_3                    486                       #  Was: 713
+          KEY_3                    486                       #  Was: 1313
+          KEY_3                     #  Was: 713             
+
+          name 0
+          KEY_8                    504                       #  Was: 2488
+          KEY_8                    512                       #  Was: 688
+          KEY_8                    512                       #  Was: 688
+          KEY_6                    512                       #  Was: 1286
+          KEY_6                     #  Was: 686             
+
+          name ENTER
+          KEY_8                    502                       #  Was: 2488
+          KEY_9                    511                       #  Was: 689
+          KEY_3                    486                       #  Was: 713
+          KEY_7                    511                       #  Was: 1287
+          KEY_3                     #  Was: 713             
+
+          name CH+
+          KEY_8                    502                       #  Was: 2488
+          KEY_2                    508                       #  Was: 692
+          KEY_7                    511                       #  Was: 687
+          KEY_8                    511                       #  Was: 1288
+          KEY_9                     #  Was: 689             
+
+          name CH-
+          KEY_9                    502                       #  Was: 2489
+          KEY_8                    511                       #  Was: 688
+          KEY_4                    486                       #  Was: 714
+          KEY_3                    486                       #  Was: 1313
+          KEY_8                     #  Was: 688             
+
+# the remaining buttons are also present when remote is in TV mode
+
+          name EJECT
+          KEY_8                    502                       #  Was: 2488
+          KEY_4                    485                       #  Was: 1314
+          KEY_9                    510                       #  Was: 689
+          KEY_9                    510                       #  Was: 1289
+          KEY_9                     #  Was: 689             
+
+          name COUNTER/REMAIN
+          KEY_8                    501                       #  Was: 2488
+          KEY_8                    510                       #  Was: 688
+          KEY_9                    511                       #  Was: 689
+          KEY_8                    511                       #  Was: 1288
+          KEY_8                     #  Was: 688             
+
+          name CLEAR
+          KEY_8                    503                       #  Was: 2488
+          KEY_9                    511                       #  Was: 689
+          KEY_3                    485                       #  Was: 1313
+          KEY_5                    484                       #  Was: 1315
+          KEY_9                     #  Was: 689             
+
+          name VCR_Plus_+
+          KEY_0                    500                       #  Was: 2490
+          KEY_5                    485                       #  Was: 715
+          KEY_8                    510                       #  Was: 1288
+          KEY_9                    509                       #  Was: 1289
+          KEY_9                    509                       #  Was: 1289
+          KEY_8                     #  Was: 1288            
+
+          name INPUT_SELECT
+          KEY_9                    501                       #  Was: 2489
+          KEY_9                    511                       #  Was: 1289
+          KEY_4                    485                       #  Was: 714
+          KEY_6                    484                       #  Was: 1316
+          KEY_9                     #  Was: 689             
+
+          name REC
+          KEY_7                    504                       #  Was: 2487
+          KEY_5                    513                       #  Was: 1285
+          KEY_6                    513                       #  Was: 686
+          KEY_5                    513                       #  Was: 1285
+          KEY_5                     #  Was: 685             
+
+          name SP/EP
+          KEY_6                    529                       #  Was: 2486
+          KEY_2                    537                       #  Was: 662
+          KEY_2                    537                       #  Was: 662
+          KEY_1                    537                       #  Was: 1261
+          KEY_2                     #  Was: 662             
+
+          name SLOW
+          KEY_6                    529                       #  Was: 2486
+          KEY_2                    538                       #  Was: 662
+          KEY_1                    537                       #  Was: 1261
+          KEY_1                    536                       #  Was: 1261
+          KEY_1                     #  Was: 661             
+
+          name x2
+          KEY_3                    478                       #  Was: 2513
+          KEY_7                    511                       #  Was: 1287
+          KEY_8                    511                       #  Was: 688
+          KEY_8                    511                       #  Was: 1288
+          KEY_9                     #  Was: 689             
+
+          name MENU
+          KEY_0                    501                       #  Was: 2490
+          KEY_9                    511                       #  Was: 1289
+          KEY_9                    511                       #  Was: 689
+          KEY_9                    511                       #  Was: 1289
+          KEY_9                     #  Was: 689             
+
+          name SMART_CUE
+          KEY_2                    478                       #  Was: 2512
+          KEY_4                    485                       #  Was: 1314
+          KEY_9                    511                       #  Was: 689
+          KEY_4                    485                       #  Was: 1314
+          KEY_9                     #  Was: 689             
+
+          name PAUSE_up
+          KEY_9                    501                       #  Was: 2489
+          KEY_8                    510                       #  Was: 1288
+          KEY_4                    485                       #  Was: 714
+          KEY_9                    510                       #  Was: 1289
+          KEY_0                    509                       #  Was: 1290
+          KEY_9                     #  Was: 1289            
+
+          name REW_left
+          KEY_8                    501                       #  Was: 2488
+          KEY_0                    509                       #  Was: 690
+          KEY_9                    511                       #  Was: 689
+          KEY_8                    510                       #  Was: 1288
+          KEY_8                    510                       #  Was: 1288
+          KEY_8                     #  Was: 1288            
+
+          name PLAY_OK
+          KEY_4                    475                       #  Was: 2514
+          KEY_4                    486                       #  Was: 714
+          KEY_9                    511                       #  Was: 689
+          KEY_8                    511                       #  Was: 1288
+          KEY_9                    511                       #  Was: 1289
+          KEY_8                     #  Was: 1288            
+
+          name FF_right
+          KEY_8                    503                       #  Was: 2488
+          KEY_8                    510                       #  Was: 688
+          KEY_8                    511                       #  Was: 688
+          KEY_0                    510                       #  Was: 1290
+          KEY_4                    485                       #  Was: 1314
+          KEY_4                     #  Was: 1314            
+
+          name STOP_down
+          KEY_0                    500                       #  Was: 2490
+          KEY_9                    510                       #  Was: 1289
+          KEY_9                    511                       #  Was: 689
+          KEY_8                    510                       #  Was: 1288
+          KEY_8                    511                       #  Was: 1288
+          KEY_4                     #  Was: 1314            
+
+      end raw_codes
+
+end remote
+#
+# this config file was automatically generated
+# using lirc-0.6.1 on Sat Aug 12 21:55:00 2000
+#
+# contributed by
+#
+# brand:             SONY_RMT-V266
+# model:            
+# supported devices:
+#
+
+begin remote
+
+  name  SONY_RMT-V266
+  bits           11
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header         2500 500
+  one            1300 500
+  zero           700 500
+  ptrail         700
+  gap          44859
+  toggle_bit      0
+  min_repeat      2
+
+
+      begin codes
+          ch1                      0x000000000000000D
+          ch2                      0x000000000000040D
+          ch3                      0x000000000000020D
+          ch4                      0x000000000000060D
+          ch5                      0x000000000000010D
+          ch6                      0x000000000000050D
+          ch7                      0x000000000000030D
+          ch8                      0x000000000000070D
+          ch9                      0x000000000000008D
+          ch0                      0x000000000000048D
+          KEY_CHANNELUP            0x000000000000004D        #  Was: chup
+          KEY_CHANNELDOWN          0x000000000000044D        #  Was: chdown
+          KEY_VOLUMEUP             0x0000000000000248        #  Was: volup
+          KEY_VOLUMEDOWN           0x0000000000000648        #  Was: voldown
+          KEY_POWER                0x000000000000054D        #  Was: power
+          KEY_EJECTCD              0x000000000000034D        #  Was: eject
+          tvvideo                  0x00000000000002AD
+          counter/remain           0x000000000000041D
+          audiomonitor             0x000000000000074D
+          KEY_RECORD               0x00000000000005CD        #  Was: rec
+          display                  0x00000000000002DD
+          KEY_CLEAR                0x000000000000063D        #  Was: clear
+          SP/EP                    0x00000000000000DD
+      end codes
+
+end remote
+
+begin remote
+
+  name  SONY_RMT-V266_menu
+  bits           14
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header         78  2905
+  one            78  1716
+  zero           78  1118
+  ptrail         78
+  gap          45456
+  toggle_bit      0
+  min_repeat      2
+
+
+      begin codes
+          KEY_PLAY                 0x000000000000062E        #  Was: play/menu_ok
+          pause/menu_up            0x0000000000001C2E
+          KEY_REWIND               0x000000000000022E        #  Was: rew/menu_left
+          ff/menu_right            0x000000000000222E
+          stop/menu_down           0x0000000000003C2E
+          VCRplus                  0x00000000000001AE
+      end codes
+
+end remote
+
+begin remote
+
+  name  SONY_RMT-V266_other
+  bits            7
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header         78  2904
+  one            78  1716
+  zero           78  1118
+  ptrail         78
+  post_data_bits  4
+  post_data      0xD
+  gap          44861
+  toggle_bit      0
+  min_repeat      2
+
+
+      begin codes
+          KEY_MENU                 0x0000000000000059        #  Was: menu
+          input_select             0x0000000000000079
+          KEY_SLOW                 0x0000000000000062        #  Was: slow
+          x2                       0x0000000000000014
+          smart_cue                0x000000000000005D
+          KEY_ENTER                0x0000000000000068        #  Was: enter
+      end codes
+
+end remote
+
+begin remote
+
+  name  SONY_RMT-V266_TV
+  bits           11
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header         77  2904
+  one            78  1716
+  zero           78  1118
+  ptrail         77
+  gap          44859
+  toggle_bit      0
+  min_repeat      2
+
+
+      begin codes
+          KEY_POWER                0x0000000000000548        #  Was: power_tv
+          ch1_tv                   0x0000000000000008
+          ch2_tv                   0x0000000000000408
+          ch3_tv                   0x0000000000000208
+          ch4_tv                   0x0000000000000608
+          ch5_tv                   0x0000000000000108
+          ch6_tv                   0x0000000000000508
+          ch7_tv                   0x0000000000000308
+          ch8_tv                   0x0000000000000708
+          ch9_tv                   0x0000000000000088
+          ch0_tv                   0x0000000000000488
+          tvvideo_tv               0x0000000000000528
+          counter/remain_tv        0x000000000000041D
+          audiomonitor_tv          0x0000000000000748
+          chup_tv                  0x0000000000000048
+          chdown_tv                0x0000000000000448
+          display_tv               0x00000000000002E8
+          enter_tv                 0x0000000000000688
+      end codes
+
+end remote
+
+
+

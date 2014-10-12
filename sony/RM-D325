@@ -1,0 +1,63 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.0(serial) on Wed Jan 10 17:45:31 2007
+#
+# contributed by urs_lindegger|bluewin.ch
+#
+# brand:                       Sony
+# model no. of remote control: RM-D325
+# devices being controlled by this remote: CD player
+#
+
+begin remote
+
+  name  Sony_RM-D325
+  bits           12
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       2476   556
+  one          1251   557
+  zero          647   557
+  gap          45754
+  min_repeat      2
+  toggle_bit      0
+
+
+      begin codes
+          continue                 0xB91
+          shuffle                  0xAD1
+          program                  0xF91
+          disc1                    0x031
+          disc2                    0x831
+          disc3                    0x431
+          disc4                    0xC31
+          disc5                    0x231
+          discskip                 0x7D1
+          KEY_1                    0x011                     #  Was: one
+          KEY_2                    0x811                     #  Was: two
+          KEY_3                    0x411                     #  Was: three
+          KEY_4                    0xC11                     #  Was: four
+          KEY_5                    0x211                     #  Was: five
+          KEY_6                    0xA11                     #  Was: six
+          KEY_7                    0x611                     #  Was: seven
+          KEY_8                    0xE11                     #  Was: eight
+          KEY_9                    0x111                     #  Was: nine
+          ten                      0x051
+          greaterten               0xE51
+          KEY_AGAIN                0x351                     #  Was: repeat
+          KEY_PLAY                 0x4D1                     #  Was: play
+          KEY_PAUSE                0x9D1                     #  Was: pause
+          KEY_STOP                 0x1D1                     #  Was: stop
+          KEY_BACK                 0x0D1                     #  Was: back
+          KEY_FORWARD              0x8D1                     #  Was: forward
+          mscan                    0x3D1
+          jumpbackward             0xCD1
+          jumpforward              0x2D1
+          fader                    0xFB1
+      end codes
+
+end remote
+
+

@@ -1,0 +1,80 @@
+# this config file was automatically generated
+# using lirc-0.8.3-CVS(default) on Tue Dec 25 01:11:43 2007
+#
+# contributed by Theo Bresler
+#
+# brand:                       			Zalman
+# model no. of remote control: 			HD160XT
+# devices being controlled by this remote: 	Homebrew DVR recorders
+#
+# note :					This remote is supplied with
+#						the Zalman HD160XT Home
+#						Theathre Enclosure.
+
+begin remote
+
+  name  Zalman_HD160XT
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9063  4448
+  one           582  1672
+  zero          582   550
+  ptrail        573
+  repeat       9061  2205
+  pre_data_bits   16
+  pre_data       0xCE59
+  gap          107809
+  toggle_bit_mask 0x0
+
+      begin codes
+          KEY_POWER                0x827D                    #  Was: power
+          myvideo                  0x02FD
+          KEY_POWER                0xAA55                    #  Was: powergreen
+          mytv                     0x629D
+          myphoto                  0xA25D
+          mymusic                  0x6A95
+          KEY_1                    0xB24D                    #  Was: 1
+          KEY_2                    0x728D                    #  Was: 2
+          KEY_3                    0xF20D                    #  Was: 3
+          KEY_4                    0x0AF5                    #  Was: 4
+          KEY_5                    0x8A75                    #  Was: 5
+          KEY_6                    0x4AB5                    #  Was: 6
+          KEY_7                    0xCA35                    #  Was: 7
+          KEY_8                    0xC03F                    #  Was: 8
+          KEY_9                    0xE01F                    #  Was: 9
+          KEY_0                    0x32CD                    #  Was: 0
+          KEY_VOLUMEUP             0x50AF                    #  Was: volume+
+          KEY_VOLUMEDOWN           0x708F                    #  Was: volume-
+          KEY_CHANNELUP            0x48B7                    #  Was: channel+
+          KEY_CHANNELDOWN          0x6897                    #  Was: channel-
+          KEY_BACK                 0xD02F                    #  Was: back
+          KEY_TV                   0xC837                    #  Was: tv
+          KEY_INFO                 0xF00F                    #  Was: guide
+          KEY_OK                   0x42BD                    #  Was: ok
+          KEY_EXIT                 0xF807                    #  Was: exit
+          task                     0xE817
+          run                      0xD827
+          KEY_LEFT                 0x2AD5                    #  Was: left
+          KEY_RIGHT                0xC23D                    #  Was: right
+          KEY_UP                   0x9867                    #  Was: up
+          KEY_DOWN                 0xB847                    #  Was: down
+          KEY_REWIND               0xB04F                    #  Was: rewind
+          KEY_FASTFORWARD          0xA857                    #  Was: fastforward
+          KEY_PLAY                 0x906F                    #  Was: play
+          KEY_STOP                 0x807F                    #  Was: stop
+          KEY_BACK                 0x58A7                    #  Was: back
+          KEY_FORWARD              0x7887                    #  Was: forward
+          KEY_PAUSE                0xA05F                    #  Was: pause
+          KEY_MUTE                 0x52AD                    #  Was: mute
+          warp                     0xE21D
+          KEY_RECORD               0x8877                    #  Was: rec
+          KEY_DVD                  0x28D7                    #  Was: dvd
+          detail                   0xD22D
+      end codes
+
+end remote
+
+

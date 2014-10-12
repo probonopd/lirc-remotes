@@ -1,0 +1,62 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.6(any) on Mon Dec 27 15:55:21 2004
+#
+# contributed by
+#
+# brand: Sanyo
+# model no. of remote control: N9377
+# devices being controlled by this remote: generic sanyo vcr
+#
+
+begin remote
+
+  name  Sanyo_N9377
+  bits           24
+  flags SPACE_ENC
+  eps            30
+  aeps          100
+
+  header       3551  3428
+  one           924  2564
+  zero          924   828
+  ptrail        924
+  gap          33629
+  min_repeat      3
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x0000000000141EBE        #  Was: power
+          vcrtv                    0x0000000000140EBF
+          KEY_EJECTCD              0x000000000016FE90        #  Was: eject
+          b1                       0x000000000017EE81
+          b2                       0x0000000000161E9E
+          b3                       0x0000000000151EAE
+          b4                       0x0000000000171E8E
+          b5                       0x0000000000149EB6
+          b6                       0x0000000000169E96
+          b7                       0x0000000000159EA6
+          b8                       0x0000000000179E86
+          b9                       0x0000000000145EBA
+          b0                       0x0000000000165E9A
+          KEY_CHANNELUP            0x0000000000142EBD        #  Was: channel_up
+          KEY_CHANNELDOWN          0x0000000000144EBB        #  Was: channel_down
+          KEY_MENU                 0x000000000016AE95        #  Was: menu
+          plus100                  0x000000000036FC90
+          searchmode               0x0000000000178E87
+          display                  0x0000000000158EA7
+          KEY_SLOW                 0x000000000016CE93        #  Was: slow
+          KEY_EXIT                 0x000000000017CE83        #  Was: exit
+          counter                  0x000000000014AEB5
+          KEY_PLAY                 0x0000000000154EAB        #  Was: play
+          KEY_STOP                 0x000000000014EEB1        #  Was: stop
+          KEY_REWIND               0x000000000014CEB3        #  Was: rew
+          KEY_FASTFORWARD          0x0000000000148EB7        #  Was: ffwd
+          KEY_RECORD               0x0000000000156EA9        #  Was: record
+          still                    0x0000000000174E8B
+      end codes
+
+end remote
+
+

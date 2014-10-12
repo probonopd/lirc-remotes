@@ -1,0 +1,49 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.6(serial) on Tue Sep 30 22:12:15 2003
+#
+# contributed by Steffen Moldaner <s.moldaner | gmx.net>
+#
+# brand: Alpine
+# model no. of remote control: RUE-4187
+# devices being controlled by this remote:
+#
+
+begin remote
+
+  name ALPINE_RUE-4187
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9019  4477
+  one           596  1643
+  zero          596   524
+  ptrail        604
+  pre_data_bits   16
+  pre_data       0x614E
+  gap          107586
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x000000000000906F        #  Was: POWER
+          KEY_CYCLEWINDOWS         0x00000000000050AF        #  Was: SOURCE
+          BAND_PROG                0x000000000000B04F
+          KEY_VOLUMEUP             0x00000000000028D7        #  Was: VOLUME+
+          KEY_VOLUMEDOWN           0x000000000000A857        #  Was: VOLUME-
+          KEY_UP                   0x000000000000708F        #  Was: UP
+          KEY_DOWN                 0x000000000000F00F        #  Was: DOWN
+          KEY_LEFT                 0x000000000000C837        #  Was: LEFT
+          KEY_RIGHT                0x00000000000048B7        #  Was: RIGHT
+          KEY_PLAYPAUSE            0x000000000000E01F        #  Was: PLAY_PAUSE
+          KEY_MUTE                 0x0000000000006897        #  Was: MUTE
+          A_PROC                   0x000000000000609F
+          TILT_UP                  0x00000000000032CD
+          TILT_DOWN                0x000000000000D22D
+      end codes
+
+end remote
+
+

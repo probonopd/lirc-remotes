@@ -1,0 +1,97 @@
+# brand:                       SONY
+# model no. of remote control: RM-S29E
+# devices being controlled by this remote:
+#
+
+begin remote
+
+  name SONY.RM-S29E
+  bits           12
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       2342   656
+  one          1142   656
+  zero          542   656
+  gap          44991
+  toggle_bit      0
+
+
+      begin codes
+          System_Power             0xA81
+          KEY_SLEEP                0x061                     #  Was: Sleep
+          Md_Play                  0x55E
+          Md_Pause                 0x95E
+          Md_Stop                  0x15E
+          Md_SkipPrev              0x05E
+          Md_SkipNext              0x85E
+          TapeA_Play2              0xEC1
+          TapeA_Play1              0x4C1
+          TapeA_Rew                0xCC1
+          TapeA_Forw               0x2C1
+          TapeA_Stop               0x1C1
+          TapeA_Pause              0x9C1
+          Tape_RecPause            0xFC1
+          Tape_Rec                 0x6C1
+          Num_Cd1                  0x011
+          Num_Cd2                  0x811
+          Num_Cd3                  0x411
+          Num_Cd4                  0xC11
+          Num_Cd5                  0x211
+          Num_Cd6                  0xA11
+          Num_Cd7                  0x611
+          Num_Cd8                  0xE11
+          Num_Cd9                  0x111
+          Num_Cd10                 0x051
+          Num_Cd10+                0xE51
+          Cd_Play                  0x4D1
+          Cd_Pause                 0x9D1
+          Cd_Stop                  0x1D1
+          Cd_SkipPrev              0x0D1
+          CD_SkipNext              0x8D1
+          CD_Check                 0xB11
+          CD_Clear                 0xF11
+          CD_Repeat                0x351
+          CD_Time                  0x151
+          KEY_VOLUMEUP             0x481                     #  Was: VolUp
+          KEY_VOLUMEDOWN           0xC81                     #  Was: VolDown
+          KEY_MUTE                 0x281                     #  Was: Mute
+          EQ                       0x3E6
+          SURR                     0x2E6
+          ModeOff                  0x866
+          Effect                   0x146
+          Cursor_Up                0x1E6
+          Cursor_Down              0x9E6
+          Cursor_Left              0x5E6
+          Cursor_Right             0xDE6
+          Function                 0x966
+          TapeB_Play2              0x04E
+          TapeB_Play1              0x58E
+          TapeB_Rew                0xD8E
+          TapeB_Forw               0x38E
+          TapeB_Stop               0x18E
+          TapeB_Pause              0x98E
+          P.File                   0xF66
+          Num_Tuner1               0x016
+          Num_Tuner2               0x816
+          Num_Tuner3               0x416
+          Num_Tuner4               0xC16
+          Num_Tuner5               0x216
+          Num_Tuner6               0xA16
+          Num_Tuner7               0x616
+          Num_Tuner8               0xE16
+          Num_Tuner9               0x116
+          Num_Tuner10              0x916
+          Num_Tuner10+             0x656
+          Band                     0xF16
+          EQ-R                     0x006
+          EQ-C                     0x806
+          EQ-J                     0x406
+          EQ-V                     0xC06
+          EQ-P                     0x206
+      end codes
+
+end remote
+
+

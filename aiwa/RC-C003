@@ -1,0 +1,78 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.3(sir) on Mon Jun 11 07:10:58 2001
+#
+# contributed by
+#
+# brand:             Aiwa
+# model:             RC-C003
+# supported devices:
+#
+
+begin remote
+
+  name  rc-c003
+  bits           15
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       8965  4518
+  one           565  1682
+  zero          565   558
+  ptrail        565
+  repeat       8966  4518
+  pre_data_bits   26
+  pre_data       0x1B8123F
+  post_data_bits  1
+  post_data      0x1
+  gap          107849
+  toggle_bit      0
+
+
+      begin codes
+          KEY_1                    0x000000000000403F        #  Was: 1
+          KEY_2                    0x000000000000205F        #  Was: 2
+          KEY_3                    0x000000000000601F        #  Was: 3
+          KEY_4                    0x000000000000106F        #  Was: 4
+          KEY_5                    0x000000000000502F        #  Was: 5
+          KEY_6                    0x000000000000304F        #  Was: 6
+          KEY_7                    0x000000000000700F        #  Was: 7
+          KEY_8                    0x0000000000000877        #  Was: 8
+          KEY_9                    0x0000000000004837        #  Was: 9
+          KEY_0                    0x0000000000002857        #  Was: 10
+          KEY_1                    0x000000000000413E        #  Was: 11
+          KEY_2                    0x000000000000215E        #  Was: 12
+          KEY_3                    0x000000000000611E        #  Was: 13
+          KEY_4                    0x000000000000116E        #  Was: 14
+          KEY_5                    0x000000000000512E        #  Was: 15
+          KEY_6                    0x000000000000314E        #  Was: 16
+          KEY_7                    0x000000000000710E        #  Was: 17
+          KEY_8                    0x0000000000000976        #  Was: 18
+          KEY_9                    0x0000000000004936        #  Was: 19
+          KEY_0                    0x0000000000002956        #  Was: 20
+          program                  0x0000000000005827
+          check                    0x0000000000007807
+          KEY_DELETE               0x0000000000003847        #  Was: delete
+          ac                       0x0000000000003946
+          greater_20               0x0000000000006817
+          KEY_TIME                 0x0000000000007C03        #  Was: time
+          repeat_1_all             0x0000000000006C13
+          repeat_a_b               0x0000000000001C63
+          random                   0x000000000000641B
+          blank                    0x000000000000017E
+          index_back               0x0000000000003C43
+          index_forw               0x0000000000005C23
+          search_back              0x000000000000245B
+          search_forw              0x000000000000443B
+          skip_back                0x0000000000004C33
+          skip_forw                0x0000000000000C73
+          KEY_OPEN                 0x0000000000001867        #  Was: open_close
+          KEY_STOP                 0x0000000000002C53        #  Was: stop
+          KEY_PAUSE                0x000000000000740B        #  Was: pause
+          KEY_PLAY                 0x000000000000542B        #  Was: play
+      end codes
+
+end remote
+
+

@@ -1,0 +1,72 @@
+#
+# this config file was automatically generated
+# using WinLIRC 0.6.4 (LIRC 0.6.1pre3) on Mon Aug 26 02:58:28 2002
+#
+# contributed by 
+#
+# brand:             Sherwood
+# model:             GC-1285
+# supported devices: 
+#
+
+begin remote
+
+  name  GC-1285
+  bits           16
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  header       9003  4465
+  one           571  1672
+  zero          571   548
+  ptrail        571
+  repeat       9016  2233
+  pre_data_bits   16
+  pre_data       0x814E
+  gap          42140
+  toggle_bit      0
+
+
+      begin codes
+          KEY_VOLUMEUP             0x000000000000FA05        #  Was: vol_up
+          KEY_VOLUMEDOWN           0x0000000000007A85        #  Was: vol_down
+          stereo                   0x000000000000EA15
+          hall                     0x0000000000006A95
+          KEY_MUTE                 0x0000000000005AA5        #  Was: mute
+          KEY_AUX                  0x000000000000A25D        #  Was: aux
+          vid2                     0x000000000000B24D
+          ph                       0x00000000000032CD
+          dat                      0x000000000000D22D
+          tun                      0x00000000000022DD
+          vid1                     0x00000000000052AD
+          KEY_CD                   0x000000000000926D        #  Was: cd
+          KEY_TAPE                 0x00000000000012ED        #  Was: tape
+          KEY_PAUSE                0x000000000000F807        #  Was: pause
+          KEY_FASTFORWARD          0x0000000000007887        #  Was: ff
+          KEY_REWIND               0x000000000000B847        #  Was: rewind
+          KEY_AGAIN                0x00000000000038C7        #  Was: repeat
+          skip_n                   0x00000000000058A7
+          skip_p                   0x0000000000009867
+          random                   0x00000000000018E7
+          KEY_STOP                 0x000000000000C837        #  Was: stop
+          KEY_PLAY                 0x00000000000048B7        #  Was: play_hdd
+          KEY_PLAY                 0x0000000000008877        #  Was: play_cd
+          KEY_RECORD               0x00000000000008F7        #  Was: rec
+          KEY_0                    0x000000000000B04F        #  Was: 0
+          KEY_9                    0x00000000000030CF        #  Was: 9
+          KEY_8                    0x000000000000D02F        #  Was: 8
+          KEY_7                    0x00000000000050AF        #  Was: 7
+          KEY_6                    0x000000000000906F        #  Was: 6
+          KEY_5                    0x00000000000010EF        #  Was: 5
+          KEY_4                    0x000000000000E01F        #  Was: 4
+          KEY_3                    0x000000000000609F        #  Was: 3
+          KEY_2                    0x000000000000A05F        #  Was: 2
+          KEY_1                    0x00000000000020DF        #  Was: 1
+          KEY_POWER                0x00000000000000FF        #  Was: power
+          sel                      0x000000000000E21D
+      end codes
+
+end remote
+
+

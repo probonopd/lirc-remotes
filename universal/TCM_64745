@@ -1,0 +1,73 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.6(serial) on Wed Sep 10 07:27:09 2003
+#
+# contributed by Daniel Ache
+#
+# brand: Eduscho (TCM) Universal Fernbedienung
+# model no. of remote control: 64745
+#
+# Setup the remote control with Code 077 for TV
+# (and copy it to AUX1 if you like)
+# This should set compatibility to "Granada (UK)" and "Uher" TVs
+# (never heard this brandings)
+# Every button on the remote is used in this mode!!!
+#
+#
+# This remote control does not have an "Ok", "Back" and "Menu" button.
+# So I use "Plus20" for Ok, "Plus10" for Back and the "i" Button for Menu.
+# These keys are necessary in the vdr-project
+
+begin remote
+
+  name  TCM64745
+  bits           22
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       3710  3616
+  one           929  2764
+  zero          929   834
+  ptrail        927
+  gap          109421
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x0000000000000FFE        #  Was: Power
+          KEY_0                    0x00000000000137D9        #  Was: 0
+          KEY_1                    0x00000000000017FD        #  Was: 1
+          KEY_2                    0x00000000000117DD        #  Was: 2
+          KEY_3                    0x00000000000097ED        #  Was: 3
+          KEY_4                    0x00000000000197CD        #  Was: 4
+          KEY_5                    0x00000000000057F5        #  Was: 5
+          KEY_6                    0x00000000000157D5        #  Was: 6
+          KEY_7                    0x000000000000D7E5        #  Was: 7
+          KEY_8                    0x000000000001D7C5        #  Was: 8
+          KEY_9                    0x00000000000037F9        #  Was: 9
+          KEY_MUTE                 0x000000000001A7CB        #  Was: Mute
+          KEY_UP                   0x0000000000008FEE        #  Was: Up
+          KEY_DOWN                 0x0000000000018FCE        #  Was: Down
+          KEY_LEFT                 0x00000000000167D3        #  Was: Left
+          KEY_RIGHT                0x00000000000107DF        #  Was: Right
+          KEY_RED                  0x000000000000B7E9        #  Was: Red
+          KEY_GREEN                0x000000000001B7C9        #  Was: Green
+          KEY_YELLOW               0x000000000000DFE4        #  Was: Yellow
+          KEY_BLUE                 0x000000000000FFE0        #  Was: Blue
+          KEY_PLAY                 0x0000000000019FCC        #  Was: Play
+          FastRew                  0x000000000000BFE8
+          KEY_FASTFORWARD          0x000000000001BFC8        #  Was: FastFwd
+          KEY_STOP                 0x0000000000013FD8        #  Was: Stop
+          KEY_RECORD               0x0000000000005FF4        #  Was: Record
+          KEY_PAUSE                0x0000000000016FD2        #  Was: Pause
+          KEY_I                    0x000000000001EFC2        #  Was: i
+          Mix                      0x0000000000007FF0
+          Normal                   0x0000000000009FEC
+          Plus10                   0x0000000000004FF6
+          Plus20                   0x0000000000014FD6
+      end codes
+
+end remote
+
+

@@ -1,0 +1,70 @@
+# Please make this file available to others
+# by sending it to <lirc@bartelmus.de>
+#
+# this config file was automatically generated
+# using lirc-0.9.0-pre1(default) on Sun Sep  7 00:53:46 2014
+#
+# contributed by Steven Shamlian
+#
+# brand: Kenmore
+# model no. of remote control: Unknown
+# devices being controlled by this remote: Kenmore 253.79081
+#
+# Kernel revision: 3.12.26+
+# Driver/device option: --driver default --device /dev/lirc0
+# Capture device:  Vishay TSOP6238 to Raspberry Pi GPIO pin 23
+# Kernel modules: lirc_rpi
+# Type of device controlled: Air Conditioner
+# Devices controlled: Kenmore 253.79081
+#
+# Remote Layout:
+#
+# /------------------------\
+# |KEY_POWER       KEY_TIME|
+# |                        |
+# |KEY_VOLUMEUP      KEY_UP|
+# |        KEY_PLAY        |
+# |KEY_VOLUMEDOWN  KEY_DOWN|
+# |        KEY_SAVE        |
+# |KEY_SHUFFLE    KEY_SLEEP|
+# |        KEY_PAUSE       |
+# \------------------------/
+# VOLUME keys are for fan speed
+# PLAY starts air conditioner
+# PAUSE makes unit fan-only
+# SAVE is Energy Saver mode
+# SHUFFLE is for Automatic Fan
+
+begin remote
+
+  name  KENMORE_253-79081
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9159  4455
+  one           639  1615
+  zero          639   486
+  ptrail        637
+  repeat       9103  2199
+  pre_data_bits   16
+  pre_data       0x10AF
+  gap          108066
+  toggle_bit_mask 0x0
+
+      begin codes
+          KEY_POWER                0x8877
+          KEY_TIME                 0x609F
+          KEY_VOLUMEUP             0x807F
+          KEY_VOLUMEDOWN           0x20DF
+          KEY_PLAY                 0x906F
+          KEY_UP                   0x708F
+          KEY_DOWN                 0xB04F
+          KEY_SAVE                 0x40BF
+          KEY_SHUFFLE              0xF00F
+          KEY_SLEEP                0x00FF
+          KEY_PAUSE                0xE01F
+      end codes
+
+end remote

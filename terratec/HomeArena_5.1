@@ -1,0 +1,48 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.6(serial) on Wed Oct 30 01:03:45 2002
+#
+# contributed by
+#
+# brand: Terratec
+# model no. of remote control: Terratec HomeArena 5.1 Remote
+# devices being controlled by this remote: Terratec HomeArena 5.1 Speaker System
+#
+
+begin remote
+
+  name  terratec_home_arena_5.1
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9122  4436
+  one           614  1641
+  zero          614   516
+  ptrail        616
+  repeat       9127  2176
+  pre_data_bits   16
+  pre_data       0x807F
+  gap          108379
+  toggle_bit      0
+
+
+      begin codes
+          SURROUND_+               0x000000000000D02F
+          SURROUND_-               0x00000000000050AF
+          CENTER_+                 0x000000000000906F
+          CENTER_-                 0x00000000000010EF
+          KEY_SUBTITLE             0x000000000000E01F        #  Was: SUBWOOFER_+
+          KEY_SUBTITLE             0x000000000000609F        #  Was: SUBWOOFER_-
+          NORMAL                   0x000000000000C03F
+          KEY_MUTE                 0x000000000000807F        #  Was: MUTE
+          KEY_VOLUMEUP             0x000000000000A05F        #  Was: VOLUME_+
+          KEY_VOLUMEDOWN           0x00000000000020DF        #  Was: VOLUME_-
+          KEY_POWER                0x00000000000000FF        #  Was: POWER
+          +/-5dB                   0x00000000000040BF
+      end codes
+
+end remote
+
+

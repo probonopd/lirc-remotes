@@ -1,0 +1,63 @@
+#
+# this config file was automatically generated
+# using WinLIRC 0.6.5 (LIRC 0.6.1pre3) on Sat Feb 02 23:13:33 2008
+#
+# contributed by
+#
+# brand:             Sony
+# model:             RM-W101
+# supported devices:
+#
+
+begin remote
+
+  name  Sony_RM-W101
+  bits           11
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  header       2420   565
+  one          1199   565
+  zero          589   565
+  ptrail        589
+  gap          26057
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x0000000000000548        #  Was: Power
+          KEY_INFO                 0x00000000000002E8        #  Was: info
+          KEY_MUTE                 0x0000000000000148        #  Was: Mute
+          KEY_MAX                  0x00000000000000E8        #  Was: Maximise
+          Minimise                 0x0000000000000528
+          Change                   0x0000000000000748
+          ch1                      0x0000000000000008
+          ch2                      0x0000000000000408
+          ch3                      0x0000000000000208
+          ch4                      0x0000000000000608
+          ch5                      0x0000000000000108
+          ch6                      0x0000000000000508
+          ch7                      0x0000000000000308
+          ch8                      0x0000000000000708
+          ch9                      0x0000000000000088
+          ch0                      0x0000000000000488
+          KEY_VOLUMEUP             0x0000000000000248        #  Was: Vol+
+          KEY_VOLUMEDOWN           0x0000000000000648        #  Was: Vol-
+          KEY_CHANNELUP            0x0000000000000048        #  Was: Pg+
+          KEY_CHANNELDOWN          0x0000000000000448        #  Was: Pg-
+          KEY_AGAIN                0x00000000000006E8        #  Was: Repeat
+          Shuffle                  0x00000000000004A8
+          PLUP                     0x00000000000001E8
+          PLDN                     0x0000000000000368
+          BTN_LEFT                 0x0000000000000038        #  Was: LCLICK
+          KEY_SELECT               0x0000000000000538        #  Was: select
+          KEY_LEFT                 0x0000000000000168        #  Was: left
+          KEY_RIGHT                0x0000000000000668        #  Was: right
+          KEY_UP                   0x0000000000000178        #  Was: up
+          KEY_DOWN                 0x0000000000000578        #  Was: down
+      end codes
+
+end remote
+
+

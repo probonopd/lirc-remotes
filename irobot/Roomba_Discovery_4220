@@ -1,0 +1,67 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.3-CVS(default) on Fri Nov  2 00:26:56 2007
+#
+# contributed by Martin Andrews <First.Last@PLATFORMedia.com>
+#
+# brand:                       roomba
+# model no. of remote control: Roomba Remote Control (not Scheduler)
+# devices being controlled by this remote: Roomba Discovery 4220
+#
+
+begin remote
+
+  name   iRobot_Roomba_Discovery_4220
+  flags RAW_CODES
+  eps            30
+  aeps          100
+
+  ptrail          0
+  repeat     0     0
+  gap          20054
+
+      begin raw_codes
+
+          name Power
+             2866    1001     916    2897     888    2896
+              888    2895    2770    1005     916    2897
+             2772    1004     916
+
+          name Spot
+             2960     904    1022    2789     999    2783
+              998    2784     995    2787    2829     943
+              977    2835     949
+
+          name Clean
+             2936     930     986    2825     959    2824
+              959    2824    2875     899    1014    2798
+              971    2813     978
+
+          name Max
+             2849     997     914    2896     887    2897
+              887    2895     887    2896    2768    1006
+              915    2897    2769
+
+          name Clockwise
+             2907     959     975    2834     939    2843
+              939    2844     921    2861     945    2836
+             2830     943    2860
+
+          name Forward
+             2864    1002     943    2868     887    2895
+              889    2894     888    2894     888    2896
+             2768    1005     947
+
+          name CounterClockwise
+             2863    1003     915    2895     887    2896
+              887    2895     887    2896     887    2896
+              886    2896    2768
+
+          name Pause
+             2847     997     915    2895     888    2895
+              887    2896    2767    1005     914    2897
+              888    2897    2768
+
+      end raw_codes
+
+end remote

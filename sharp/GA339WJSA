@@ -1,0 +1,68 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.3(usb_uirt_raw) on Fri Sep 17 00:37:37 2010
+#
+# contributed by Jörg Jenderek
+#
+# brand:                       Sharp
+# model no. of remote control: GA339WJSA
+# devices being controlled by this remote: LCD TV LC-20SH1E
+#
+
+begin remote
+
+  name  Sharp_GA339WJSA
+  bits           15
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           351  1650
+  zero          351   635
+  ptrail        350
+  gap          64930
+  toggle_bit_mask 0x0
+  toggle_mask    0x3FF
+
+      begin codes
+          KEY_POWER                0x41A2                    #  Was: POWER
+          I/II/I+II                0x4062
+          BACKLIGHT                0x3F46
+          ROTATE                   0x3CC6
+          AV+                      0x4322
+          AV-                      0x473A
+          KEY_VOLUMEUP             0x40A2                    #  Was: VOLUME+
+          KEY_VOLUMEDOWN           0x42A2                    #  Was: VOLUME-
+          KEY_MUTE                 0x43A2                    #  Was: MUTE
+          KEY_CHANNELUP            0x4222                    #  Was: CHANNEL+
+          KEY_CHANNELDOWN          0x4122                    #  Was: CHANNEL-
+          KEY_UP                   0x43AA                    #  Was: UP
+          KEY_LEFT                 0x43AE                    #  Was: LEFT
+          KEY_OK                   0x412A                    #  Was: OK
+          KEY_RIGHT                0x406E                    #  Was: RIGHT
+          BT_END                   0x42BE
+          KEY_DOWN                 0x4012                    #  Was: DOWN
+          KEY_MENU                 0x458E                    #  Was: MENU
+          KEY_TEXT                 0x40B2                    #  Was: TELETEXT
+          KEY_1                    0x4202                    #  Was: 1
+          KEY_2                    0x4102                    #  Was: 2
+          KEY_3                    0x4302                    #  Was: 3
+          TELETEXT?                0x4072
+          KEY_4                    0x4082                    #  Was: 4
+          KEY_5                    0x4282                    #  Was: 5
+          KEY_6                    0x4182                    #  Was: 6
+          FREEZE_HOLD              0x4332
+          KEY_7                    0x4382                    #  Was: 7
+          KEY_8                    0x4042                    #  Was: 8
+          KEY_9                    0x4242                    #  Was: 9
+          KEY_SUBTITLE             0x3FE6                    #  Was: SUBTITLE
+          KEY_SUBTITLE             0x3ECE                    #  Was: SUBPAGE
+          KEY_0                    0x4142                    #  Was: 0
+          FLASHBACK                0x4392
+          KEY_RED                  0x404A                    #  Was: RED
+          KEY_GREEN                0x424A                    #  Was: GREEN
+          KEY_YELLOW               0x414A                    #  Was: YELLOW
+          KEY_BLUE                 0x434A                    #  Was: BLUE
+      end codes
+
+end remote

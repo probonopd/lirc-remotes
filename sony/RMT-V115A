@@ -1,0 +1,67 @@
+
+# contributed by desowin <desowin[remove_this]@gmail.com>
+#
+# this config file was automatically generated
+# using lirc-0.7.1(irdeo) on Wed Jul  6 23:27:42 2005
+#
+# contributed by
+#
+# brand:                       Sony
+# model no. of remote control: RMT-V115A
+# devices being controlled by this remote: Sony SLV-X37
+#
+
+begin remote
+
+  name  RMT-V115A
+  bits           12
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       2489   529
+  one          1279   530
+  zero          674   530
+  gap          45310
+  min_repeat      2
+  toggle_bit      0
+
+
+      begin codes
+          TimerRec                 0xA7A
+          KEY_POWER                0xA9A                     #  Was: POWER
+          KEY_MENU                 0xB3A                     #  Was: Menu
+          KEY_UP                   0x43A                     #  Was: Up
+          TimerClear               0xC7A
+          KEY_CHANNELUP            0x09A                     #  Was: Prog+
+          KEY_LEFT                 0x47A                     #  Was: Left
+          Execute                  0x8BA
+          KEY_RIGHT                0x87A                     #  Was: Right
+          KEY_CHANNELDOWN          0x89A                     #  Was: Prog-
+          InputSelect              0xF3A
+          KEY_DOWN                 0xC3A                     #  Was: Down
+          TVBlank                  0x1D0
+          TVPower                  0xA90
+          DataScreen               0x5BA
+          ClockCounter             0x83A
+          TVProg+                  0x090
+          TVVol+                   0x490
+          CounterReset             0x63A
+          TVProg-                  0x890
+          TVVol-                   0xC90
+          KEY_PAUSE                0x99A                     #  Was: Pause
+          KEY_RECORD               0xB9A                     #  Was: REC
+          TVVideo                  0xA50
+          Frame                    0x8DA
+          KEY_BACK                 0x15A                     #  Was: Back
+          KEY_PLAY                 0x59A                     #  Was: Play
+          KEY_FORWARD              0x95A                     #  Was: Forward
+          KEY_SLOW                 0xC5A                     #  Was: Slow
+          KEY_REWIND               0xD9A                     #  Was: REW
+          KEY_FASTFORWARD          0x39A                     #  Was: FF
+          KEY_STOP                 0x19A                     #  Was: Stop
+      end codes
+
+end remote
+
+

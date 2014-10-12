@@ -1,0 +1,58 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.6(any) on Thu Mar 13 20:48:08 2003
+#
+# contributed by Bendany
+#
+# brand:       Pioneer CU-CLD067
+# model no. of remote control:
+# devices being controlled by this remote:
+#
+
+begin remote
+
+  name  CU-CLD067
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       8263  4036
+  one           575  1464
+  zero          575   453
+  ptrail        578
+  pre_data_bits   16
+  pre_data       0x15EA
+  gap          98196
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x00000000000038C7        #  Was: power
+          KEY_EJECTCD              0x0000000000006897        #  Was: eject
+          KEY_AUDIO                0x0000000000007887        #  Was: audio
+          step-                    0x0000000000000AF5
+          step+                    0x0000000000002AD5
+          dacx                     0x00000000000030CF
+          KEY_PREVIOUS             0x000000000000CA35        #  Was: skip-
+          KEY_NEXT                 0x0000000000004AB5        #  Was: skip+
+          random                   0x0000000000007A85
+          KEY_PAUSE                0x00000000000018E7        #  Was: pause
+          KEY_PLAY                 0x000000000000E817        #  Was: play
+          intro                    0x0000000000005AA5
+          scan-                    0x0000000000008877
+          scan+                    0x000000000000E21D
+          ctrl                     0x000000000000EC13
+          KEY_KPMINUS              0x000000000000629D        #  Was: -
+          KEY_KPPLUS               0x000000000000E21D        #  Was: +
+          display                  0x000000000000C23D
+          speed-                   0x000000000000AA55
+          speed+                   0x0000000000001AE5
+          KEY_CLEAR                0x000000000000A25D        #  Was: clear
+          repeata                  0x00000000000012ED
+          repeatb                  0x00000000000022DD
+      end codes
+
+end remote
+
+

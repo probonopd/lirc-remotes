@@ -1,0 +1,87 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.5(serial) on Fri Feb 22 15:08:08 2002
+#
+# contributed by marty -> marty@marty44.net
+# visit http://www.marty44.net
+#
+# brand:                       PHILIPS
+# model no. of remote control: RT750_114
+# devices being controlled by this remote: VCR
+#
+# the Record is only recognized by pressing "record"
+# and "OK" on the remote control !!!
+
+begin remote
+
+  name  RT750_114
+  bits           13
+  flags RC5|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           902   876
+  zero          902   876
+  plead         930
+  gap          113845
+  min_repeat      7
+  toggle_bit      2
+
+
+      begin codes
+          KEY_POWER                0x000000000000114C        #  Was: POWER
+          TIMER                    0x000000000000115D
+          TIMER_REVIEW             0x0000000000000168
+          DATE_UP                  0x000000000000125C
+          DATE_DOWN                0x000000000000125D
+          KEY_CHANNELUP            0x0000000000001260        #  Was: PROG_UP
+          KEY_CHANNELDOWN          0x0000000000001261        #  Was: PROG_DOWN
+          START_UP                 0x000000000000125E
+          START_DOWN               0x000000000000125F
+          END_UP                   0x0000000000001263
+          END_DOWN                 0x0000000000001264
+          KEY_RECORD               0x0000000000001177        #  Was: RECORD
+          KEY_OK                   0x0000000000000157        #  Was: OK
+          KEY_CLEAR                0x0000000000001171        #  Was: CLEAR
+          TRACKING                 0x000000000000114E
+          KEY_STOP                 0x0000000000001176        #  Was: STOP
+          KEY_PLAY                 0x0000000000001175        #  Was: PLAY
+          KEY_REWIND               0x0000000000001165        #  Was: REW
+          KEY_PAUSE                0x0000000000001169        #  Was: PAUSE
+          KEY_FASTFORWARD          0x0000000000001166        #  Was: FF
+          KEY_PREVIOUS             0x0000000000000171        #  Was: PREVIOUS
+          KEY_NEXT                 0x0000000000000170        #  Was: NEXT
+          KEY_VOLUMEDOWN           0x0000000000001011        #  Was: VOLUME-
+          KEY_VOLUMEUP             0x0000000000001010        #  Was: VOLUME+
+          KEY_UP                   0x0000000000001160        #  Was: UP
+          KEY_DOWN                 0x0000000000001161        #  Was: DOWN
+          KEY_1                    0x0000000000001141        #  Was: 1
+          KEY_2                    0x0000000000001142        #  Was: 2
+          KEY_3                    0x0000000000001143        #  Was: 3
+          KEY_4                    0x0000000000001144        #  Was: 4
+          KEY_5                    0x0000000000001145        #  Was: 5
+          KEY_6                    0x0000000000001146        #  Was: 6
+          KEY_7                    0x0000000000001147        #  Was: 7
+          KEY_8                    0x0000000000001148        #  Was: 8
+          KEY_9                    0x0000000000001149        #  Was: 9
+          KEY_0                    0x0000000000001140        #  Was: 0
+          SET_CLOCK                0x0000000000001164
+          VPS                      0x000000000000114B
+          CASSETTE                 0x000000000000017E
+          DECODER                  0x0000000000000169
+          KEY_TUNER                0x000000000000017D        #  Was: TUNER
+          MONITOR                  0x000000000000017A
+          SET_CLOCK                0x0000000000001164
+          SYSTEM                   0x000000000000014A
+          SP_LP                    0x000000000000117A
+          KEY_RECORD               0x000000000000115E        #  Was: REC_MODE
+          TV_STANDBY               0x000000000000100C
+          TV_PROG_DOWN             0x0000000000001021
+          TV_PROG_UP               0x0000000000001020
+          SHOWVIEW                 0x0000000000000145
+          DW                       0x0000000000000144
+      end codes
+
+end remote
+
+

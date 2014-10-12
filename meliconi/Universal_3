@@ -1,0 +1,79 @@
+#
+# this config file was automatically generated
+# using lirc-0.7.0pre8(serial) on Mon Nov  1 22:40:47 2004
+#
+# contributed by Serial Cleaner <serialcleaner|gmx.net>
+#
+# brand: MELICONI
+# model no. of remote control: UNIVERSAL 3
+# devices being controlled by this remote: TV, RECORDTAPE, DVD/SAT
+#
+# NOTE : S/[button] means SHIFT & [button]
+
+begin remote
+
+  name		MELICONI-U3
+  bits           13
+  flags RC5|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           943   847
+  zero          943   847
+  plead         965
+  gap          113777
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x000000000000128C        #  Was: ON/OFF
+          KEY_F1                   0x0000000000000AAB        #  Was: F1
+          KEY_F2                   0x00000000000002AC        #  Was: F2
+          KEY_F3                   0x0000000000000AAD        #  Was: F3
+          KEY_F4                   0x00000000000002AE        #  Was: F4
+          KEY_1                    0x0000000000001A81        #  Was: 1
+          KEY_2                    0x0000000000001282        #  Was: 2
+          KEY_3                    0x0000000000001A83        #  Was: 3
+          KEY_4                    0x0000000000001284        #  Was: 4
+          KEY_5                    0x0000000000001A85        #  Was: 5
+          KEY_6                    0x0000000000001286        #  Was: 6
+          KEY_7                    0x0000000000001A87        #  Was: 7
+          KEY_8                    0x0000000000001288        #  Was: 8
+          KEY_9                    0x0000000000001A89        #  Was: 9
+          KEY_0                    0x0000000000001280        #  Was: 0
+          KEY_1-/--                0x0000000000000AA1        #  Was: 1-/--
+          KEY_2-                   0x0000000000000293        #  Was: 2-
+          KEY_MENU                 0x0000000000000AAA        #  Was: MENU
+          KEY_OK                   0x0000000000000297        #  Was: OK
+          AV                       0x0000000000001AA8
+          KEY_MUTE                 0x0000000000000286        #  Was: MUTE
+          KEY_CHANNELUP            0x0000000000000A90        #  Was: P+
+          KEY_CHANNELDOWN          0x0000000000000291        #  Was: P-
+          KEY_VOLUMEDOWN           0x0000000000000A95        #  Was: VOL-
+          KEY_VOLUMEUP             0x0000000000000296        #  Was: VOL+
+          KEY_PLAY                 0x0000000000001AAF        #  Was: PLAY
+          KEY_STOP                 0x0000000000000292        #  Was: STOP
+          KEY_REWIND               0x000000000000128F        #  Was: REWIND
+          KEY_FORWARD              0x000000000000028F        #  Was: FORWARD
+          KEY_PAUSE                0x00000000000002AA        #  Was: PAUSE
+          S/F1                     0x0000000000000AAB
+          S/F2                     0x00000000000002AC
+          S/F3                     0x0000000000000AAD
+          S/F4                     0x00000000000002AE
+          S/P+                     0x0000000000000A90
+          S/P-                     0x0000000000000291
+          S/VOL-                   0x0000000000000A95
+          S/VOL+                   0x0000000000000296
+          S/MENU                   0x0000000000000AAA
+          S/OK                     0x0000000000000297
+          S/AV                     0x0000000000001AA8
+          S/MUTE                   0x0000000000000286
+          S/FORWARD                0x000000000000028F
+          S/REWIND                 0x000000000000128F
+          S/STOP                   0x0000000000000292
+          S/PAUSE                  0x00000000000002AA
+          S/PLAY                   0x00000000000012AF
+          TVf4                     0x00000000000002AF
+      end codes
+
+end remote

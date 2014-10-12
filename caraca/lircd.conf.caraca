@@ -1,0 +1,46 @@
+#
+#
+# contributed by Konrad Riedel <k.riedel@gmx.de>
+#
+# brand:             CARACA
+# model:             RC5 Remote Control
+#
+# supported devices:
+#	CARACA nodes - see http://caraca.sourceforge.net
+#       first byte: node address
+#       2nd   byte: ir code
+#
+
+begin remote
+
+  name  Caraca
+  bits           16
+
+      begin codes
+          KEY_POWER                0x3ff3                    #  Was: POWER
+          KEY_1                    0x3ffe                    #  Was: 1
+          KEY_2                    0x3ffd                    #  Was: 2
+          KEY_3                    0x3ffc                    #  Was: 3
+          KEY_4                    0x3ffb                    #  Was: 4
+          KEY_5                    0x3ffa                    #  Was: 5
+          KEY_6                    0x3ff9                    #  Was: 6
+          KEY_7                    0x3ff8                    #  Was: 7
+          KEY_8                    0x3ff7                    #  Was: 8
+          KEY_9                    0x3ff6                    #  Was: 9
+          KEY_0                    0x3ff5                    #  Was: 0
+          KEY_PAUSE                0x3fcf                    #  Was: PAUSE
+          KEY_EJECTCD              0x3fe2                    #  Was: EJECT
+          SEEK-                    0x3fcd
+          KEY_PLAY                 0x3fca                    #  Was: PLAY
+          SEEK+                    0x3fcb
+          KEY_RECORD               0x3fd2                    #  Was: RECORD
+          KEY_STOP                 0x3fc9                    #  Was: STOP
+          KEY_CHANNELDOWN          0x3fde                    #  Was: CH-
+          KEY_CHANNELUP            0x3fdf                    #  Was: CH+
+          KEY_VOLUMEDOWN           0x3fee                    #  Was: VOL-
+          KEY_VOLUMEUP             0x3fef                    #  Was: VOL+
+          KEY_MUTE                 0x3ff2                    #  Was: MUTE
+          KEY_CYCLEWINDOWS         0x3fe3                    #  Was: TV/fm
+      end codes
+
+end remote

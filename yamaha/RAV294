@@ -1,0 +1,249 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.6(default) on Sat Nov 14 12:29:56 2009
+#
+# contributed by testo|post.cz
+#
+# brand: YAMAHA-RAV294 (main zone)
+# model no. of remote control: WR00280 EX
+# devices being controlled by this remote: YAMAHA receivers: RX-V1065
+# ( Note that, these codes are factory default. Several button-codes on the
+# remote differ according to selected input source ie. BD, CD, TV , USB etc.
+# Remote control codes are programmable for each input source. )
+#
+
+begin remote
+
+  name  YAMAHA-RAV294
+  bits           32
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9036  4449
+  one           615  1635
+  zero          615   508
+  ptrail        616
+  repeat       9061  2189
+  gap          108023
+  toggle_bit_mask 0x0
+
+	begin codes
+
+          KEY_POWER                0x7E8154AB                #  Was: POWER
+          KEY_SLEEP                0x5EA10CF3                #  Was: SLEEP
+
+	BD_SOURCE_POWER          0x3EC101FE
+# TV_SOURCE_POWER          none
+	CD_SOURCE_POWER          0x9E6106F9
+	RADIO_SOURCE_POWER       0x8B74D827
+	USB_SOURCE_POWER         0xFE8004FB
+	DOCK_SOURCE_POWER        0xFE8000FF
+
+	INPUT_HDMI1              0x5EA1E21C
+	INPUT_HDMI2              0x5EA152AC
+	INPUT_HDMI3              0x5EA1B24C
+	INPUT_HDMI4              0x5EA10AF4
+	INPUT_AV1                0x5EA1CA34
+	INPUT_AV2                0x5EA16A94
+	INPUT_AV3                0x5EA19A64
+	INPUT_AV4                0x5EA13AC4
+	INPUT_AV5                0x5EA1FA04
+	INPUT_AV6                0x5EA146B8
+	INPUT_AUDIO1             0x5EA1A658
+	INPUT_AUDIO2             0x5EA116E8
+	INPUT_V-AUX              0x5EA1AA55
+	INPUT_PHONO              0x5EA128D7
+	INPUT_MULTI              0x5EA1E11E
+	INPUT_TUNER              0x5EA16897
+
+	INPUT_USB                0xFE80FC03
+	INPUT_DOCK               0xFE8052AD
+
+	TUNER_FM                 0xFE801AE4
+	TUNER_AM                 0xFE80AA54
+	TUNER_MEMORY             0xFE80E618
+	TUNER_PRESET_UP          0xFE80DA24
+	TUNER_PRESET_DOWN        0xFE807A84
+	TUNER_TUNNING_UP         0xFE808678
+	TUNER_TUNNING_DOWN       0xFE8026D8
+
+	DSP_MOVIE                0x5EA111EE
+	DSP_MUSIC                0x5EA1916E
+	DSP_STEREO/ENHANCER      0x5EA129D6
+	DSP_STRAIGHT             0x5EA16A95
+	DSP_PURE_DIRECT          0x5EA1BB44
+	DSP_SUR_DECODE           0x5EA1B14E
+
+	SCENE_BD                 0x5EA100FE
+	SCENE_TV                 0x5EA1C03E
+	SCENE_CD                 0x5EA1609E
+	SCENE_RADIO              0x5EA1906E
+
+          KEY_INFO                 0x5EA1E41A                #  Was: INFO
+          KEY_OPTION               0x5EA1D628                #  Was: OPTION
+          KEY_POWER                0x5EA121DE                #  Was: ON_SCREEN
+
+          KEY_VOLUMEUP             0x5EA158A7                #  Was: VOL_UP
+          KEY_VOLUMEDOWN           0x5EA1D827                #  Was: VOL_DOWN
+	VOL_MUTE                 0x5EA138C7
+
+	NAV_UP                   0x5EA1B946
+	NAV_DOWN                 0x5EA139C6
+	NAV_LEFT                 0x5EA1F906
+	NAV_RIGHT                0x5EA17986
+	NAV_ENTER                0x5EA17B84
+	NAV_RETURN               0x5EA155AA
+
+	BD_NAV_UP                0x3EC12DD2
+	BD_NAV_DOWN              0x3EC1CD32
+	BD_NAV_LEFT              0x3EC1AD52
+	BD_NAV_RIGHT             0x3EC16D92
+	BD_NAV_ENTER             0x3EC11DE2
+	BD_NAV_RETURN            0x3EC1ED12
+
+	USB_NAV_UP               0xFE80748B
+	USB_NAV_DOWN             0xFE802CD3
+	USB_NAV_LEFT             0xFE800CF3
+	USB_NAV_RIGHT            0xFE804CB3
+	USB_NAV_ENTER            0xFE808C73
+	USB_NAV_RETURN           0xFE80CC33
+
+	DOCK_NAV_UP              0xFE80708F
+	DOCK_NAV_DOWN            0xFE8028D7
+	DOCK_NAV_LEFT            0xFE8008F7
+	DOCK_NAV_RIGHT           0xFE8048B7
+	DOCK_NAV_ENTER           0xFE808877
+	DOCK_NAV_RETURN          0xFE80C837
+
+	DISPLAY                  0xFE8006F9
+	BD_DISPLAY               0x3EC1659A
+# TV_DISPLAY               none
+	CD_DISPLAY               0x9E6150AF
+	USB_DISPLAY              0xFE80AC53
+	DOCK_DISPLAY             0xFE80A857
+
+	TOP_MENU                 0x5EA1758A
+	BD_TOP_MENU              0x3EC18D72
+# TV_TOP_MENU              none
+# CD_TOP_MENU              none
+	USB_TOP_MENU             0xFE80B44B
+	DOCK_TOP_MENU            0xFE80B04F
+
+          KEY_MENU                 0x5EA1D52A                #  Was: MENU
+	BD_MENU                  0x3EC10BF4
+# TV_MENU                  none
+# CD_MENU                  none
+	USB_MENU                 0xFE80F40B
+	DOCK_MENU                0xFE80F00F
+
+	BD_REC                   0x3EC1D12E
+	BD_PLAY                  0x3EC141BE
+	BD_STOP                  0x3EC1A15E
+	BD_PAUSE                 0x3EC1C13E
+	BD_BACK                  0x3EC1619E
+	BD_FWD                   0x3EC1E11E
+	BD_BACK_SKIP             0x3EC19D62
+	BD_FWD_SKIP              0x3EC15DA2
+	BD_NUM_1                 0x3EC129D6
+	BD_NUM_2                 0x3EC1A956
+	BD_NUM_3                 0x3EC16996
+	BD_NUM_4                 0x3EC1E916
+	BD_NUM_5                 0x3EC119E6
+	BD_NUM_6                 0x3EC19966
+	BD_NUM_7                 0x3EC159A6
+	BD_NUM_8                 0x3EC1D926
+	BD_NUM_9                 0x3EC139C6
+	BD_NUM_0                 0x3EC1C936
+	BD_NUM_+10               0x3EC1B946
+	BD_NUM_ENT               0x3EC17986
+
+	CD_REC                   0x5EA1F20D
+	CD_PLAY                  0x5EA110EF
+	CD_STOP                  0x5EA1906F
+	CD_PAUSE                 0x5EA1906F
+	CD_BACK                  0x5EA1B04F
+	CD_FWD                   0x5EA130CF
+	CD_BACK_SKIP             0x5EA1D02F
+	CD_FWD_SKIP              0x5EA150AF
+	CD_NUM_1                 0x9E618877
+	CD_NUM_2                 0x9E6148B7
+	CD_NUM_3                 0x9E61C837
+	CD_NUM_4                 0x9E6128D7
+	CD_NUM_5                 0x9E61A857
+	CD_NUM_6                 0x9E616897
+	CD_NUM_7                 0x9E61E817
+	CD_NUM_8                 0x9E6118E7
+	CD_NUM_9                 0x9E619867
+	CD_NUM_0                 0x9E6108F7
+	CD_NUM_+10               0x9E6158A7
+	CD_NUM_ENT               0x9E61D02F
+
+	USB_REC                  0xFE806C93
+	USB_PLAY                 0xFE807C83
+	USB_STOP                 0xFE80BC43
+	USB_PAUSE                0xFE805CA3
+	USB_BACK                 0xFE80EC13
+	USB_FWD                  0xFE801CE3
+	USB_BACK_SKIP            0xFE80DC23
+	USB_FWD_SKIP             0xFE803CC3
+	USB_NUM_1                0xFE80847B
+	USB_NUM_2                0xFE8044BB
+	USB_NUM_3                0xFE80C43B
+	USB_NUM_4                0xFE8024DB
+	USB_NUM_5                0xFE80A45B
+	USB_NUM_6                0xFE80649B
+	USB_NUM_7                0xFE80E41B
+	USB_NUM_8                0xFE8014EB
+	USB_NUM_9                0xFE80946B
+	USB_NUM_0                0xFE8054AB
+	USB_NUM_+10              0xFE80D42B
+	USB_NUM_ENT              0xFE8034CB
+
+	DOCK_REC                 0xFE806897
+	DOCK_PLAY                0xFE807887
+	DOCK_STOP                0xFE80B847
+	DOCK_PAUSE               0xFE8058A7
+	DOCK_BACK                0xFE80E817
+	DOCK_FWD                 0xFE8018E7
+	DOCK_BACK_SKIP           0xFE80D827
+	DOCK_FWD_SKIP            0xFE8038C7
+	DOCK_NUM_1               0xFE80807F
+	DOCK_NUM_2               0xFE8040BF
+	DOCK_NUM_3               0xFE80C03F
+	DOCK_NUM_4               0xFE8020DF
+	DOCK_NUM_5               0xFE80A05F
+	DOCK_NUM_6               0xFE80609F
+	DOCK_NUM_7               0xFE80E01F
+	DOCK_NUM_8               0xFE8010EF
+	DOCK_NUM_9               0xFE80906F
+	DOCK_NUM_0               0xFE8050AF
+	DOCK_NUM_+10             0xFE80D02F
+	DOCK_NUM_ENT             0xFE8030CF
+
+# EXT_REC                  none
+# EXT_PLAY                 none
+# EXT_STOP                 none
+# EXT_PAUSE                none
+# EXT_BACK                 none
+# EXT_FWD                  0x5EA1A55A
+# EXT_BACK_SKIP            0x5EA1659A
+# EXT_FWD_SKIP             0x5EA1E51A
+
+	EXT_NUM_1                0x5EA1A758
+	EXT_NUM_2                0x5EA16798
+	EXT_NUM_3                0x5EA1E718
+	EXT_NUM_4                0x5EA117E8
+	EXT_NUM_5                0x5EA19768
+	EXT_NUM_6                0x5EA157A8
+	EXT_NUM_7                0x5EA1D728
+	EXT_NUM_8                0x5EA137C8
+	EXT_NUM_9                0x5EA18D72
+	EXT_NUM_0                0x5EA14DB2
+	EXT_NUM_ENT              0x5EA1CD32
+
+	end codes
+
+end remote
+
+

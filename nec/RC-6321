@@ -1,0 +1,129 @@
+#
+# This config file has been automatically converted from a device file
+# found in the 06/26/00 release of the Windows Slink-e software
+# package.
+#
+# Many thanks to Colby Boles of Nirvis Systems Inc. for allowing us to
+# use these files.
+#
+# The original filename was: "nec rc-6321 projector nec xg1100.cde"
+#
+# The original description for this device was:
+#
+# nec rc-6321 projector nec xg1100
+#
+
+
+begin remote
+
+  name  RC-6321
+  bits           50
+  flags SPACE_ENC
+  eps            20
+  aeps          200
+
+  header       8800  4400
+  one           550  1650
+  zero          550   550
+  ptrail        550
+  repeat       8800  2200
+  gap          38500
+  toggle_bit      0
+
+  frequency    38000
+
+      begin codes
+          KEY_POWER                0x000063BC43BFFC03        #  Was: POWER_ON
+          INPUT_10_\*,.            0x000063BE09F7FC03        #  Was: INPUT_10_\*,.
+          INPUT_1_ABC              0x000063BC639FFC03
+          INPUT_2_DEF              0x000063BE619FFC03
+          INPUT_3_GHI              0x000063BD629FFC03
+          INPUT_4_JKL              0x000063BF609FFC03
+          INPUT_5_MNO              0x000063BCE31FFC03
+          INPUT_6_PQR              0x000063BEE11FFC03
+          INPUT_7_STU              0x000063BDE21FFC03
+          INPUT_8_VWX              0x000063BFE01FFC03
+          INPUT_9_YZ/              0x000063BC0BF7FC03
+          KEY_ENTER                0x000063BFA05FFC03        #  Was: ENTER
+          KEY_POWER                0x000063BCA35FFC03        #  Was: POWER_OFF
+          TEST                     0x000063BF40BFFC03
+          OPERATE                  0x000063BD827FFC03
+          ADJUST                   0x000063BD0AF7FC03
+          CAPTION                  0x000063BD4AB7FC03
+          PIC_FUNC                 0x000063BD8A77FC03
+          PIC_MUTE                 0x000063BF8877FC03
+          SOUND_FUNC               0x000063BC8B77FC03
+          SOUND_MUTE               0x000063BE8977FC03
+          KEY_HELP                 0x000063BF20DFFC03        #  Was: HELP
+          KEY_INFO                 0x000063BFC837FC03        #  Was: INFO
+          INPUT_LIST               0x000063BEC937FC03
+          DISPLAY                  0x000063BF807FFC03
+          FOCUS                    0x000063BDCA37FC03
+          POSITION                 0x000063BF48B7FC03
+          KELVIN                   0x000063BEC13FFC03
+          STATIC                   0x000063BEA15FFC03
+          POINT                    0x000063BD42BFFC03
+          KEY_R                    0x000063BC03FFFC03        #  Was: R
+          KEY_G                    0x000063BE01FFFC03        #  Was: G
+          KEY_B                    0x000063BD02FFFC03        #  Was: B
+          TILT                     0x000063BC2BD7FC03
+          BOW                      0x000063BD2AD7FC03
+          AMPLIT                   0x000063BCAB57FC03
+          LINEAR                   0x000063BDAA57FC03
+          KEYSTN                   0x000063BC6B97FC03
+          PINCUS                   0x000063BD6A97FC03
+          PHASE                    0x000063BE29D7FC03
+          ADDRESS                  0x000063BE49B7FC03
+          CURSOR_/                0x000063BCEB17FC03
+          CURSOR_<                 0x000063BFE817FC03
+          CURSOR_>                 0x000063BDEA17FC03
+          CURSOR_/                0x000063BEE917FC03
+          STORE                    0x000063BD22DFFC03
+          NORMAL                   0x000063BF6897FC03
+          'END'                    0x000063BE41BFFC03
+          CTL_POWER_ON             0x000063BC47BBFC03
+          CTL_POWER_OFF            0x000063BCA75BFC03
+          CTL_INPUT_10_\*,.        0x000063BE0DF3FC03        #  Was: CTL_INPUT_10_\*,.
+          CTL_INPUT_1_ABC          0x000063BC679BFC03
+          CTL_INPUT_2_DEF          0x000063BE659BFC03
+          CTL_INPUT_3_GHI          0x000063BD669BFC03
+          CTL_INPUT_4_JKL          0x000063BF649BFC03
+          CTL_INPUT_5_MNO          0x000063BCE71BFC03
+          CTL_INPUT_6_PQR          0x000063BEE51BFC03
+          CTL_INPUT_7_STU          0x000063BDE61BFC03
+          CTL_INPUT_8_VWX          0x000063BFE41BFC03
+          CTL_INPUT_9_YZ/          0x000063BC0FF3FC03
+          CTL_TEST                 0x000063BF44BBFC03
+          CTL_OPERATE              0x000063BD867BFC03
+          CTL_ADJUST               0x000063BD0EF3FC03
+          CTL_PIC_FUNC             0x000063BD8E73FC03
+          CTL_PIC_MUTE             0x000063BF8C73FC03
+          CTL_SOUND_FUNC           0x000063BC8F73FC03
+          CTL_SOUND_MUTE           0x000063BE8D73FC03
+          CTL_CAPTION              0x000063BD4EB3FC03
+          CTL_HELP                 0x000063BF24DBFC03
+          CTL_INFO                 0x000063BFCC33FC03
+          CTL_INPUT_LIST           0x000063BECD33FC03
+          CTL_DISPLAY              0x000063BF847BFC03
+          CTL_FOCUS                0x000063BDCE33FC03
+          CTL_POSITION             0x000063BF4CB3FC03
+          CTL_KELVIN               0x000063BEC53BFC03
+          CTL_TILT                 0x000063BC2FD3FC03
+          CTL_BOW                  0x000063BD2ED3FC03
+          CTL_AMPLIT               0x000063BCAF53FC03
+          CTL_LINEAR               0x000063BDAE53FC03
+          CTL_KETSTN               0x000063BC6F93FC03
+          CTL_PINCUS               0x000063BD6E93FC03
+          CTL_PHASE                0x000063BE2DD3FC03
+          CTL_ADDRESS              0x000063BFFC00FF03
+          CTL_CURSOR_/            0x000063BCEF13FC03
+          CTL_CURSOR_<             0x000063BFEC13FC03
+          CTL_CURSOR_>             0x000063BDEE13FC03
+          CTL_CURSOR_/            0x000063BEED13FC03
+          CTL_STORE                0x000063BD26DBFC03
+          CTL_NORMAL               0x000063BF6C93FC03
+          CTL_ENTER                0x000063BFA45BFC03
+          CTL_END                  0x000063BE45BBFC03
+      end codes
+
+end remote

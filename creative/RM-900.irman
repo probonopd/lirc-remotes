@@ -1,0 +1,65 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.4(irman) on Mon Apr  1 21:06:15 2002
+#
+# contributed by
+#
+# brand:                       rm-900-good
+# model no. of remote control:
+# supported devices:
+#
+
+begin remote
+
+  name  rm-900-good
+  bits           16
+  eps            30
+  aeps          100
+
+  one             0     0
+  zero            0     0
+  pre_data_bits   32
+  pre_data       0xFFFF8322
+  post_data_bits  16
+  post_data      0x0
+  gap          209915
+  toggle_bit      0
+
+
+      begin codes
+          KEY_1                    0x0000000000008B74        #  Was: 1
+          KEY_2                    0x0000000000008F70        #  Was: 2
+          KEY_3                    0x000000000000906F        #  Was: 3
+          KEY_4                    0x0000000000008A75        #  Was: 4
+          KEY_5                    0x000000000000847B        #  Was: 5
+          KEY_6                    0x0000000000007887        #  Was: 6
+          KEY_7                    0x0000000000008976        #  Was: 7
+          KEY_8                    0x000000000000837C        #  Was: 8
+          KEY_9                    0x0000000000007788        #  Was: 9
+          KEY_0                    0x000000000000807F        #  Was: 0
+          KEY_EJECT                0x000000000000857A
+          KEY_PLAYPAUSE            0x0000000000007986        #  Was: play/pause
+          KEY_SLOW                 0x0000000000007D82        #  Was: slow
+          step                     0x0000000000007E81
+          KEY_PREVIOUS             0x0000000000007F80        #  Was: previous
+          KEY_NEXT                 0x0000000000007A85        #  Was: next
+          KEY_MUTE                 0x0000000000006E91        #  Was: mute
+          KEY_VOLUMEDOWN           0x000000000000639C        #  Was: vol-
+          KEY_VOLUMEUP             0x000000000000629D        #  Was: vol+
+#         speaker                  no signal with irman as receiver
+          eax                      0x0000000000008C73
+          KEY_OPTION               0x000000000000827D        #  Was: options
+          display                  0x0000000000007689
+          KEY_ENTER                0x0000000000008E71        #  Was: return
+          start/menu               0x0000000000008877
+          KEY_CLOSE                0x0000000000007C83        #  Was: close/cancel
+          KEY_OK                   0x000000000000817E
+          KEY_UP                   0x0000000000007B84        #  Was: up
+          KEY_DOWN                 0x0000000000008D72        #  Was: down
+          KEY_LEFT                 0x0000000000008778        #  Was: left
+          KEY_RIGHT                0x000000000000758A        #  Was: right
+      end codes
+
+end remote
+
+

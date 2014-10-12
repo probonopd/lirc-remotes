@@ -1,0 +1,132 @@
+#
+# this config file was automatically generated
+# using lirc-0.7.2(mceusb2) on Mon Dec 26 21:45:47 2005
+#
+# contributed by Markus Grabner (grabner|icg.tu-graz.ac.at)
+#
+# brand:                       NAD
+# model no. of remote control: AVR2
+# devices being controlled by this remote: AV Surround Sound Receiver T 742
+#
+# The NAD AVR2 remote control has a small switch "RCVR"/"DVD" to select the
+# device to control. Those buttons which create different signals depending on
+# this switch are prefixed with "RCVR_" or "DVD_".
+
+
+begin remote
+
+  name  NAD_AVR2-RCVR
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          500
+
+  header       9039  4418
+  one           603  1639
+  zero          603   517
+  ptrail        603
+  repeat       9000  2250
+  pre_data_bits   16
+  pre_data       0xE13E
+  gap          108000
+  toggle_bit      0
+
+
+      begin codes
+          RCVR_POWER               0x01FE
+          KEY_SLEEP                0x04FB                    #  Was: SLEEP
+          KEY_DVD                  0x43BC                    #  Was: DVD
+          KEY_SAT                  0x03FC                    #  Was: SAT
+          KEY_VCR                  0x837C                    #  Was: VCR
+          KEY_VIDEO                0x0CF3                    #  Was: VIDEO_4
+          KEY_VIDEO                0x8C73                    #  Was: VIDEO_5
+          EXT._5.1                 0x748B
+          KEY_CD                   0xA15E                    #  Was: CD
+          KEY_TAPE                 0xB14E                    #  Was: TAPE
+          FM/AM                    0xBB44
+          RCVR_1                   0x51AE
+          RCVR_2                   0x718E
+          RCVR_3                   0x49B6
+          RCVR_4                   0x6996
+          RCVR_5                   0xD12E
+          RCVR_6                   0xF10E
+          RCVR_7                   0xC936
+          RCVR_8                   0xE916
+          RCVR_9                   0x19E6
+          RCVR_0                   0xE31C
+          RCVR_SURR.               0x33CC
+          RCVR_DYN.R               0xF40B
+          RCVR_TEST                0xB34C
+          RCVR_LEVEL               0xD42B
+          RCVR_VOLUME+             0x11EE
+          RCVR_VOLUME-             0x31CE
+          RCVR_TUNE_DOWN           0x8B74
+          RCVR_TUNE_UP             0x4BB4
+          RCVR_MUTE_ENTER          0x29D6
+          RCVR_DISPLAY             0x649B
+          RCVR_TUNE_MODE           0xCC33
+      end codes
+
+end remote
+
+begin remote
+
+  name  NAD_AVR2-DVD
+  bits           16
+  flags SPACE_ENC|REPEAT_HEADER|CONST_LENGTH
+  eps            30
+  aeps          500
+
+  header       4563  4408
+  one           612  1631
+  zero          612   507
+  ptrail        612
+  repeat        612   612
+  pre_data_bits   16
+  pre_data       0xB4B4
+  gap          108000
+  toggle_bit      0
+
+
+      begin codes
+          KEY_OPEN                 0x6C93                    #  Was: OPEN/CLOSE
+          KEY_STOP                 0x9C63                    #  Was: STOP
+          KEY_PLAY                 0x8C73                    #  Was: PLAY
+          PAUSE/STEP               0x1CE3
+          KEY_PREVIOUS             0xAC53                    #  Was: SKIP-
+          KEY_NEXT                 0x2CD3                    #  Was: SKIP+
+          SCAN-                    0x4CB3
+          SCAN+                    0xCC33
+          KEY_AGAIN                0xCA35                    #  Was: REPEAT
+          PROGRAM                  0xEA15
+          KEY_AUDIO                0xF20D                    #  Was: AUDIO
+          KEY_SUBTITLE             0x0AF5                    #  Was: SUBTITLE
+          KEY_CLEAR                0x629D                    #  Was: CLEAR
+          KEY_ZOOM                 0x26D9                    #  Was: ZOOM
+          KEY_DVD                  0x0CF3                    #  Was: DVD_POWER
+          KEY_DVD                  0xDC23                    #  Was: DVD_1
+          KEY_DVD                  0x3CC3                    #  Was: DVD_2
+          KEY_DVD                  0xBC43                    #  Was: DVD_3
+          KEY_DVD                  0x7C83                    #  Was: DVD_4
+          KEY_DVD                  0xFC03                    #  Was: DVD_5
+          KEY_DVD                  0x02FD                    #  Was: DVD_6
+          KEY_DVD                  0x827D                    #  Was: DVD_7
+          KEY_DVD                  0x42BD                    #  Was: DVD_8
+          KEY_DVD                  0xC23D                    #  Was: DVD_9
+          KEY_DVD                  0x22DD                    #  Was: DVD_0
+          KEY_DVD                  0xE21D                    #  Was: DVD_VOLUME+
+          KEY_DVD                  0x12ED                    #  Was: DVD_VOLUME-
+          KEY_DVD                  0x9A65                    #  Was: DVD_TUNE_DOWN
+          KEY_DVD                  0x5AA5                    #  Was: DVD_TUNE_UP
+          KEY_DVD                  0x1AE5                    #  Was: DVD_MUTE_ENTER
+          KEY_DVD                  0x6A95                    #  Was: DVD_SET_UP
+          KEY_DVD                  0x926D                    #  Was: DVD_NEXT_DISC
+          KEY_DVD                  0x52AD                    #  Was: DVD_TITLE
+          KEY_MENU                 0xD22D                    #  Was: DVD_MENU
+          KEY_DVD                  0x5CA3                    #  Was: DVD_DISPLAY
+          KEY_DVD                  0xA25D                    #  Was: DVD_RETURN
+      end codes
+
+end remote
+
+

@@ -1,0 +1,44 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.0(serial) on Sat Mar 24 23:36:32 2007
+#
+# contributed by marco marcofal|tiscali.it
+#
+# brand:                       Meliconi
+# model no. of remote control: Speedy
+# devices being controlled by this remote: TV & VCR (Universal Remote)
+#
+# Note: Speedy's programmation must be cleared removing batteries for about 5 minutes.
+#
+
+begin remote
+
+  name  Meliconi_Speedy
+  bits          16
+  flags SPACE_ENC|CONST_LENGTH
+  eps           30
+  aeps          100
+
+  header        4525  4445
+  one           617   1639
+  zero          617   496
+  ptrail        615
+  pre_data_bits 16
+  pre_data      0xE0E0
+  gap           107862
+  min_repeat    5
+  toggle_bit    0
+
+
+      begin codes
+          KEY_CHANNELUP            0x48B7                    #  Was: prog-up
+          KEY_CHANNELDOWN          0x08F7                    #  Was: prog-down
+          KEY_VOLUMEUP             0xE01F                    #  Was: vol-up
+          KEY_VOLUMEDOWN           0xD02F                    #  Was: vol-down
+          KEY_MUTE                 0xF00F                    #  Was: mute
+          AV                       0x807F
+          KEY_POWER                0x40BF                    #  Was: power
+      end codes
+
+end remote
+

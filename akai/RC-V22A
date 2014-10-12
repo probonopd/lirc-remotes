@@ -1,0 +1,76 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.4(serial) on Fri Jan 18 14:57:58 2002
+#
+# contributed by Tijmen Stam, tijmen@stamadvies.nl
+#
+# brand:                       Akai
+# model no. of remote control: RC-V22A
+# supported devices:           ? (originating video recorder has died)
+#
+# This RC has got a key-block with 12 keys, 1-9, 0, EXT and a blank key.
+# The blamk one I called DEC, because it also stande for December, as 1-9 stands
+# for Jan-Sept, 0 for Oct and Ext for Dec. Also keys 2-7 are labeled Mon-Sat,
+# 1=Sun, 8=Every and 9=M>F wich stands for Monday-Friday.
+#
+
+begin remote
+
+  name  Akai-RC-V22A-2
+  bits           32
+  flags SPACE_ENC
+  eps            30
+  aeps          100
+
+  header       9102  4419
+  one           628  1623
+  zero          628   500
+  ptrail        628
+  repeat       9000  2250
+  gap          9097
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x00000000916EC837        #  Was: POWER
+          TIMER                    0x00000000916ECA35
+          CORRECT                  0x00000000916E9A65
+          PRGM                     0x00000000916EFA05
+          KEY_TIME                 0x00000000916EAA55        #  Was: CLOCK
+          SET                      0x00000000916E0AF5
+          KEY_1                    0x00000000916E02FD        #  Was: 1
+          KEY_2                    0x00000000916E827D        #  Was: 2
+          KEY_3                    0x00000000916E42BD        #  Was: 3
+          KEY_4                    0x00000000916EC23D        #  Was: 4
+          KEY_5                    0x00000000916E22DD        #  Was: 5
+          KEY_7                    0x00000000916E629D        #  Was: 7
+          KEY_6                    0x00000000916EA25D        #  Was: 6
+          KEY_8                    0x00000000916EE21D        #  Was: 8
+          KEY_9                    0x00000000916E12ED        #  Was: 9
+          KEY_0                    0x00000000916E926D        #  Was: 0
+          EXT                      0x00000000916E52AD
+          DEC                      0x00000000916ED22D
+          TV/VCR                   0x00000000916EE817
+          KEY_CHANNELUP            0x00000000916EB04F        #  Was: CHANNEL-UP
+          KEY_CHANNELDOWN          0x00000000916E708F        #  Was: CHANNEL-DOWN
+          DISPLAY                  0x00000000916E8A75
+          COUNTER-RESET            0x00000000916E50AF
+          TRACKING-<               0x00000000916E9867
+          TRACKING->               0x00000000916E18E7
+          X2                       0x00000000916EB847
+          INTRO-SCAN               0x00000000916E38C7
+          INDEX-|<<                0x00000000916E10EF
+          INDEX->>|                0x00000000916EE01F
+          KEY_RECORD               0x00000000916EF807        #  Was: REC
+          KEY_PAUSE                0x00000000916EF00F        #  Was: PAUSE
+          KEY_REWIND               0x00000000916E40BF        #  Was: REW-<<
+          FFWD->>                  0x00000000916E807F
+          KEY_SLOW                 0x00000000916E906F        #  Was: SLOW
+          KEY_STOP                 0x00000000916EC03F        #  Was: STOP
+          KEY_PLAY                 0x00000000916E609F        #  Was: PLAY
+          CANCEL-RECALL            0x00000000916E6A95
+      end codes
+
+end remote
+
+

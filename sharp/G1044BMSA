@@ -1,0 +1,73 @@
+#
+# this config file was automatically generated
+# using WinLIRC 0.6.5 (LIRC 0.6.1pre3) on Sun Nov 18 13:35:58 2007
+#
+# contributed by
+#
+# brand:             Sharp
+# model:             G1044BMSA
+# supported devices: Sharp TV/TEXT
+#
+
+begin remote
+
+  name  Sharp_G1044BMSA
+  bits           15
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           281  1829
+  zero          281   773
+  ptrail        281
+  gap          67554
+  min_repeat      1
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x00000000000041A2        #  Was: POWER
+          off_timer                0x0000000000004162
+          KEY_POWER                0x0000000000004262        #  Was: on_timer
+          KEY_1                    0x0000000000004202        #  Was: 1
+          KEY_2                    0x0000000000004102        #  Was: 2
+          KEY_3                    0x0000000000004302        #  Was: 3
+          KEY_MUTE                 0x00000000000043A2        #  Was: MUTE
+          KEY_4                    0x0000000000004082        #  Was: 4
+          KEY_5                    0x0000000000004282        #  Was: 5
+          KEY_6                    0x0000000000004182        #  Was: 6
+          TV/VIDEO                 0x0000000000004322
+          KEY_7                    0x0000000000004382        #  Was: 7
+          KEY_8                    0x0000000000004042        #  Was: 8
+          KEY_9                    0x0000000000004242        #  Was: 9
+          KEY_POWER                0x0000000000004362        #  Was: ONSCREEN
+          KEY_102ND                0x00000000000040F2        #  Was: -/--
+          KEY_0                    0x0000000000004142        #  Was: 0
+          P/C                      0x00000000000042F2
+          SWITCH                   0x0000000000004392
+          KEY_RED                  0x000000000000404A        #  Was: RED
+          KEY_GREEN                0x000000000000424A        #  Was: GREEN
+          KEY_YELLOW               0x000000000000414A        #  Was: YELLOW
+          KEY_BLUE                 0x000000000000434A        #  Was: BLUE
+          TXT_SIZE                 0x00000000000043B2
+          TXT_INDEX                0x00000000000040CA
+          TXT_TIME                 0x00000000000040E2
+          TXT_OFF                  0x0000000000004132
+          TXT_ON                   0x00000000000040B2
+          KEY_VOLUMEDOWN           0x00000000000042A2        #  Was: VOL_DOWN
+          KEY_VOLUMEUP             0x00000000000040A2        #  Was: VOL_UP
+          KEY_CHANNELDOWN          0x0000000000004122        #  Was: CH_DOWN
+          KEY_CHANNELUP            0x0000000000004222        #  Was: CH_UP
+          TXT_CANCEL               0x00000000000042B2
+          TXT_REVEAL               0x0000000000004072
+          TXT_HOLD                 0x0000000000004332
+          PROGRAM                  0x000000000000420A
+          FUNCTIONS                0x00000000000043EA
+          sig_down                 0x000000000000402A
+          sig_up                   0x00000000000043CA
+          KEY_MODE                 0x00000000000042CA        #  Was: mode
+      end codes
+
+end remote
+
+

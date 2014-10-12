@@ -1,0 +1,67 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.4(serial) on Tue Nov 27 21:08:48 2001
+#
+# contributed by Andreas Gohr <a.gohr@web.de> http://www.splitbrain.org
+#
+# brand:                       Sony
+# model no. of remote control: RM-V211T
+# supported devices:           DVD Code 013 (Tomson)
+#
+# Note: This remote is a universal control. I've choosen the DVD Code number 13
+#       (Tomson) to control my computer because it enables all buttons on the
+#       control
+
+begin remote
+
+  name RM-V211T
+  bits           12
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           452  4547
+  zero          452  2084
+  ptrail        454
+  gap          79712
+  min_repeat      1
+  toggle_bit      5
+
+
+      begin codes
+          KEY_1                    0x0000000000000400        #  Was: 1
+          KEY_2                    0x0000000000000408        #  Was: 2
+          KEY_3                    0x0000000000000410        #  Was: 3
+          KEY_4                    0x0000000000000401        #  Was: 4
+          KEY_5                    0x0000000000000409        #  Was: 5
+          KEY_6                    0x0000000000000411        #  Was: 6
+          KEY_7                    0x0000000000000402        #  Was: 7
+          KEY_8                    0x000000000000040A        #  Was: 8
+          KEY_9                    0x0000000000000412        #  Was: 9
+          KEY_0                    0x000000000000040E        #  Was: 0
+          KEY_PLAY                 0x0000000000000420        #  Was: Play
+          KEY_REWIND               0x000000000000041F        #  Was: <<
+          KEY_FORWARD              0x0000000000000421        #  Was: >>
+          KEY_STOP                 0x0000000000000424        #  Was: Stop
+          KEY_RECORD               0x0000000000000415        #  Was: Record
+          KEY_PAUSE                0x0000000000000418        #  Was: Pause
+          Input                    0x0000000000000439
+          KEY_TEXT                 0x0000000000000414        #  Was: Teletext
+          Blank                    0x000000000000041B
+          KEY_INFO                 0x000000000000043D        #  Was: Guide
+          KEY_UP                   0x0000000000000434        #  Was: Up
+          KEY_LEFT                 0x0000000000000436        #  Was: Left
+          KEY_DOWN                 0x0000000000000435        #  Was: Down
+          KEY_RIGHT                0x0000000000000437        #  Was: Right
+          Okay                     0x0000000000000433
+          KEY_MENU                 0x0000000000000419        #  Was: Menu
+          KEY_KPPLUS               0x0000000000000427        #  Was: +
+          KEY_KPMINUS              0x0000000000000428        #  Was: -
+          Switch                   0x0000000000000429
+          KEY_QUIT                 0x000000000000041D        #  Was: Quit
+      end codes
+
+end remote
+
+
+

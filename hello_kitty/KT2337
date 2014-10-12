@@ -1,0 +1,64 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.4pre2(emulation) on Sun Apr  5 00:10:49 2009
+#
+# contributed by
+#
+# brand:                       Hello Kitty
+# model no. of remote control: KT2337
+# devices being controlled by this remote:
+#
+
+begin remote
+
+   name  Hello_Kitty_KT2337
+   bits           32
+   flags SPACE_ENC|CONST_LENGTH
+   eps            30
+   aeps          100
+
+   header       9088  4444
+   one           611  1646
+   zero          611   511
+   ptrail        609
+   gap          108241
+   toggle_bit_mask 0x0
+
+       begin codes
+          KEY_POWER                0x00FFA35C                #  Was: power
+          KEY_CLEAR                0x00FF33CC                #  Was: clear
+           display                  0x00FF8976
+          KEY_MUTE                 0x00FF6996                #  Was: mute
+          KEY_1                    0x00FF817E                #  Was: 1
+          KEY_2                    0x00FFC13E                #  Was: 2
+          KEY_3                    0x00FF837C                #  Was: 3
+          KEY_4                    0x00FF41BE                #  Was: 4
+          KEY_5                    0x00FF01FE                #  Was: 5
+          KEY_6                    0x00FF03FC                #  Was: 6
+          KEY_7                    0x00FFB14E                #  Was: 7
+          KEY_8                    0x00FFF10E                #  Was: 8
+          KEY_9                    0x00FFB34C                #  Was: 9
+          KEY_0                    0x00FF31CE                #  Was: 0
+           repeatAB                 0x00FF29D6
+          KEY_PAUSE                0x00FFEB14                #  Was: pause
+          KEY_OPEN                 0x00FFE31C                #  Was: open
+           rev                      0x00FF11EE
+          KEY_FORWARD              0x00FF13EC                #  Was: fwd
+          KEY_STOP                 0x00FF936C                #  Was: stop
+          KEY_ANGLE                0x00FF43BC                #  Was: angle
+          KEY_ZOOM                 0x00FF738C                #  Was: zoom
+          KEY_UP                   0x00FF8B74                #  Was: up
+          KEY_DOWN                 0x00FF0BF4                #  Was: down
+          KEY_LEFT                 0x00FF09F6                #  Was: left
+          KEY_RIGHT                0x00FF4BB4                #  Was: right
+           enter-play               0x00FFC936
+          KEY_SEARCH               0x00FF49B6                #  Was: search
+          KEY_SETUP                0x00FFCB34                #  Was: setup
+          KEY_SUBTITLE             0x00FF619E                #  Was: subtitle
+           title-return             0x00FF21DE
+          KEY_AUDIO                0x00FF23DC                #  Was: audio
+          KEY_MENU                 0x00FF639C                #  Was: dvd-menu
+       end codes
+
+end remote
+

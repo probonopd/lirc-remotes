@@ -1,0 +1,103 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.5(any) on Fri Feb 21 21:51:59 2003
+# afterwards edited manually using some information
+# retrieved from Girder (you like it or not).
+#
+# contributed by Michael Neuhold <michael.neuhold@aon.at>
+#
+# brand: Philips
+# model no. of remote control: RC 0797/01
+# devices being controlled by this remote: Mini Hifi System FW 326
+# Aside from its origin I use this remote to control my DVD-Player
+# program station.exe.
+#
+# Most buttons send different signals depending on the mode
+# (CD, TUNER, AUX). The devices being controlled have the
+# following capabilites (the first line is one code for all
+# modes, i.e. it controls one and the same device):
+#
+# AUX:   VOL- VOL+   TVVOL- TVVOL+   DBB DSC INCSURR
+#        POWER
+# CD:    VOL- VOL+   TVVOL- TVVOL+   DBB DSC INCSURR
+#        PREV NEXT   REW FF  PLAY PAUSE STOP  PROGRAM   REPEAT SHUFFLE
+#        POWER
+# TAPE:  VOL- VOL+   TVVOL- TVVOL+   DBB DSC INCSURR
+#        PREV NEXT   REW FF  PLAY PAUSE STOP
+#        POWER
+# TUNER: VOL- VOL+   TVVOL- TVVOL+   DBB DSC INCSURR
+#        PREV NEXT   REW FF  PROGRAM
+#        POWER
+# TV:    VOL- VOL+   TVVOL- TVVOL+   DBB DSC INCSURR
+#        PREV NEXT
+#        POWER
+#
+
+begin remote
+
+  name  philips
+  bits           13
+  flags RC5|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           918   857
+  zero          918   857
+  plead         947
+  gap          113785
+  toggle_bit      2
+
+
+      begin codes
+
+          KEY_AUX                  0x000000000000157F        #  Was: AUX
+          KEY_CD                   0x000000000000153F        #  Was: CD
+          KEY_TAPE                 0x00000000000014BF        #  Was: TAPE
+          KEY_TUNER                0x000000000000147F        #  Was: TUNER
+
+          TVVOL-                   0x0000000000001011
+          TVVOL+                   0x0000000000001010
+          DBB                      0x0000000000000406
+          DSC                      0x000000000000040F
+          INCSURR                  0x0000000000000400
+          KEY_VOLUMEDOWN           0x0000000000001411        #  Was: VOL-
+          KEY_VOLUMEUP             0x0000000000001410        #  Was: VOL+
+
+          AUX_POWER                0x000000000000154C
+          CD_POWER                 0x000000000000150C
+          TAP_POWER                0x000000000000148C
+          TUN_POWER                0x000000000000144C
+          TV_POWER                 0x000000000000100C
+
+          CD_PREV                  0x0000000000001521
+          TAP_PREV                 0x00000000000014A1
+          TUN_PREV                 0x0000000000001461
+          TV_PREV                  0x0000000000001021
+          CD_NEXT                  0x0000000000001520
+          TAP_NEXT                 0x00000000000014A0
+          TUN_NEXT                 0x0000000000001460
+          TV_NEXT                  0x0000000000001020
+
+          CD_REW                   0x0000000000001532
+          TAP_REW                  0x00000000000014B2
+          TUN_REW                  0x000000000000145F
+          CD_FF                    0x0000000000001534
+          TAP_FF                   0x00000000000014B4
+          TUN_FF                   0x000000000000145E
+
+          CD_PAUSE                 0x0000000000001530
+          TAP_PAUSE                0x00000000000014B0
+          CD_PLAY                  0x0000000000001535
+          TAP_PLAY                 0x00000000000014B5
+          CD_STOP                  0x0000000000001536
+          TAP_STOP                 0x00000000000014B6
+
+          CD_PROGRAM               0x0000000000001524
+          TUN_PROGRAM              0x000000000000047A
+
+          KEY_AGAIN                0x000000000000151D        #  Was: REPEAT
+          SHUFFLE                  0x000000000000151C
+
+      end codes
+
+end remote

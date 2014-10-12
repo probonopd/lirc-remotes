@@ -1,0 +1,72 @@
+#
+# this config file was automatically generated
+# using lirc-WinLIRC 0.6 (LIRC 0.5.4pre9) on Thu Mar 08 20:09:06 2001
+#
+# contributed by
+#
+# brand:             Denon
+# model:             RC-129A
+# supported devices: DRA-335R Receiver/Amp
+#
+
+begin remote
+
+  name  DENON_RC-129A
+  bits           12
+  flags SPACE_ENC
+  eps            30
+  aeps          100
+
+  one           315   740
+  zero          315  1812
+  ptrail        315
+  pre_data_bits   1
+  pre_data       0x1
+  post_data_bits  2
+  post_data      0x3
+  gap          45920
+  repeat_bit      0
+
+      begin codes
+          TAPE_AB                  0x0000000000000B35
+          TAPE_REC                 0x0000000000000B05
+          TAPE_PAUSE               0x0000000000000B45
+          TAPE_STOP                0x0000000000000B85
+          TAPE_REW                 0x0000000000000B25
+          TAPE_FF                  0x0000000000000BA5
+          TAPE_PLAYREV             0x0000000000000B15
+          TAPE_PLAY                0x0000000000000BC5
+          CD_TRACK_-               0x0000000000000D65
+          CD_TRACK_+               0x0000000000000DE5
+          CD_RANDOM                0x0000000000000DA9
+          CD_REPEAT                0x0000000000000DD5
+          CD_SKIP                  0x0000000000000D29
+          CD_PAUSE                 0x0000000000000D45
+          CD_STOP                  0x0000000000000D85
+          CD_PLAY                  0x0000000000000DC5
+          CD_DISC1                 0x0000000000000DD9
+          CD_DISC2                 0x0000000000000D59
+          CD_DISC3                 0x0000000000000D99
+          CD_DISC4                 0x0000000000000D19
+          CD_DISC5                 0x0000000000000DE9
+          CD_DISC6                 0x0000000000000D69
+          CD_REW                   0x0000000000000D25
+          CD_FF                    0x0000000000000DA5
+          TUN_CH_UP                0x000000000000098D
+          TUN_CH_DOWN              0x000000000000090D
+          AMP_VOL_UP               0x000000000000094D
+          AMP_VOL_DOWN             0x00000000000009CD
+          AMP_CD                   0x00000000000009A5
+          AMP_PHONO                0x00000000000009E5
+          AMP_VIDEO                0x0000000000000935
+          AMP_TUNER                0x0000000000000965
+          AMP_TAPE2                0x0000000000000985
+          AMP_TAPE_MONITOR         0x00000000000009C5
+          AMP_TAPE1                0x0000000000000945
+          AMP_POWER                0x00000000000009F5
+      end codes
+
+end remote
+
+
+

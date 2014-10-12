@@ -1,0 +1,79 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.3(parallel) on Tue May 29 02:23:40 2001
+#
+# contributed by  Jordan Hazen <jnh@aug.com>
+#
+# brand:             Yamaha
+# model:             R-V1105 A/V receiver/amp
+# supported devices: should also work for RX-V795
+#
+# Command repeating (for volume adjustment more than a little at a time)
+# seems not to be working for this device.  Playing with gap length, etc.
+# could perhaps make a difference, but it's not an issue except for volume.
+
+begin remote
+
+  name av
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9164  4354
+  one           691  1569
+  zero          691   439
+  ptrail        681
+  repeat       9156  2119
+  pre_data_bits   16
+  pre_data       0x5EA1
+  gap          107775
+  min_repeat      1
+  toggle_bit      0
+
+
+      begin codes
+          KEY_MUTE                 0x00000000000038C7        #  Was: mute
+          KEY_VOLUMEDOWN           0x000000000000D827        #  Was: vol-
+          KEY_VOLUMEUP             0x00000000000058A7        #  Was: vol+
+          KEY_CD                   0x000000000000A857        #  Was: cd
+          KEY_TUNER                0x0000000000006897        #  Was: tuner
+          tapemonitor              0x00000000000018E7
+          KEY_DVD                  0x000000000000E817        #  Was: dvdld
+          tvdbs                    0x0000000000002AD5
+          KEY_VCR                  0x000000000000F00F        #  Was: vcr
+          phono                    0x00000000000028D7
+          vaux                     0x000000000000AA55
+          extdecoder               0x000000000000E11E
+          KEY_CHANNELDOWN          0x0000000000008877        #  Was: ch-
+          KEY_CHANNELUP            0x00000000000008F7        #  Was: ch+
+          abcde                    0x00000000000048B7
+          KEY_SLEEP                0x000000000000EA15        #  Was: sleep
+          display                  0x00000000000043BC
+          KEY_POWER                0x000000000000B847        #  Was: on
+          off                      0x0000000000007887
+          test                     0x000000000000A15E
+          effect                   0x0000000000006A95
+          KEY_UP                   0x00000000000019E6        #  Was: up
+          KEY_DOWN                 0x0000000000009966        #  Was: down
+          KEY_LEFT                 0x000000000000CA35        #  Was: left
+          KEY_RIGHT                0x0000000000004AB5        #  Was: right
+          level                    0x000000000000619E
+          setmenu                  0x00000000000039C6
+          setmenu-                 0x000000000000B946
+          effect-                  0x0000000000009A65
+          effect+                  0x0000000000001AE5
+          dolbydts                 0x00000000000011EE
+          movietheater1            0x000000000000916E
+          movietheater2            0x00000000000051AE
+          monomovie                0x000000000000D12E
+          tvsports                 0x00000000000031CE
+          disco                    0x000000000000B14E
+          rock                     0x000000000000718E
+          jazzclub                 0x000000000000F10E
+          church                   0x00000000000009F6
+          hall                     0x0000000000008976
+      end codes
+
+end remote
+

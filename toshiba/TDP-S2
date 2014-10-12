@@ -1,0 +1,87 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.4-CVS(serial) on Wed Aug  8 15:02:44 2001
+#
+# contributed by Christoph Bartelmus
+#
+# brand:                       Toshiba
+# model no. of remote control: -
+# supported devices:           TDP-S2 beamer
+#
+# The direction button seems to be "stepless" and pressure
+# sensitive. I couldn't figure out the system behind it.
+
+begin remote
+
+  name  TOSHIBA_NEC
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9014  4444
+  one           581  1654
+  zero          581   536
+  ptrail        579
+  repeat       9012  3211
+  pre_data_bits   16
+  pre_data       0xE172
+  gap          140158
+  toggle_bit      0
+
+
+      begin codes
+          KEY_SLEEP                0x000000000000B04F        #  Was: STANDBY
+          COMPUTER                 0x0000000000009867
+          KEY_VIDEO                0x00000000000058A7        #  Was: VIDEO
+          KEY_MENU                 0x00000000000040BF        #  Was: MENU
+      end codes
+
+end remote
+
+# it's not really RC5
+
+begin remote
+
+  name  TOSHIBA_RC5
+  bits           16
+  flags RC5|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       1234   590
+  one           604   588
+  zero          604   588
+  gap          24854
+  min_repeat      2
+  toggle_bit      0
+
+
+      begin codes
+          KEY_BACK                 0x000000000000FF7F        #  Was: BACK
+          FRONT                    0x0000000000007FFF
+	  RELEASE                  0x000000000000FFFF
+
+# some random values, not really usefull
+
+          KEY_N                    0x000000000000FFFD        #  Was: N
+          KEY_S                    0x000000000000FF84        #  Was: S
+          KEY_W                    0x00000000000081FF        #  Was: W
+          KEY_E                    0x000000000000FDFF        #  Was: E
+          NW                       0x00000000000081FA
+          SW                       0x00000000000080FF
+          SE                       0x000000000000FF80
+          NE                       0x000000000000FEFF
+          NNE                      0x000000000000FEFE
+          NNW                      0x000000000000FFFE
+          SSW                      0x0000000000008083
+          SSE                      0x000000000000FF80
+          SEE                      0x000000000000FCFF
+          NEE                      0x000000000000FDFF
+          NWW                      0x00000000000080FF
+          SWW                      0x00000000000080FF
+      end codes
+
+end remote
+
+

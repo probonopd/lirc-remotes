@@ -1,0 +1,142 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.1-CVS(default) on Sun Aug 27 22:44:27 2006
+#
+# contributed by
+#
+# Desy 	www.blackdesy.com
+# 	www.blackdesy.blogspot.com
+# 	www.vomitarcanusproductions.com
+#
+# brand:                       Thomson
+# model no. of remote control: Thomson ROC3205 (Universal)
+# devices being controlled by this remote: Universal (DVD-TV-SAT-VCR-CBL-DVB)
+#
+
+begin remote
+
+  name  Thomson_ROC3205
+  bits           12
+  flags SPACE_ENC
+  eps            30
+  aeps          100
+
+  one           534  4494
+  zero          534  1981
+  ptrail        534
+  gap          40622
+  min_repeat      2
+  toggle_bit      5
+
+
+      begin codes
+          tvpower                  0x31D
+          tvprog+                  0x325
+          tvprog-                  0x327
+          tvvol-                   0x32A
+          tvvol+                   0x329
+          tvav                     0x318
+          tvmute                   0x305
+          tvtxt                    0x31E
+          tvexit2                  0x33E
+          tvup                     0x30B
+          tvdown                   0x30D
+          tvleft                   0x336
+          tvright                  0x337
+          tvok                     0x30C
+          tvmenu                   0x331
+          KEY_EXIT                 0x33E                     #  Was: tvexit
+          tvrev                    0x339
+          tvfwd                    0x315
+          tvplay                   0x338
+          tvrec                    0x31C
+          tvstop                   0x33B
+          tvpause                  0x31E
+          tv1                      0x300
+          tv2                      0x308
+          tv3                      0x310
+          tv4                      0x301
+          tv5                      0x309
+          tv6                      0x311
+          tv7                      0x302
+          tv8                      0x30A
+          tv9                      0x312
+          tv0                      0x30E
+          tvpref                   0x304
+          tvtouche                 0x31C
+          tventer                  0x324
+          KEY_DVD                  0x01D                     #  Was: dvdpower
+          KEY_DVD                  0x029                     #  Was: dvdprog+
+          KEY_DVD                  0x02A                     #  Was: dvdprog-
+          KEY_DVD                  0x32A                     #  Was: dvdvol-
+          KEY_DVD                  0x329                     #  Was: dvdvol+
+          KEY_DVD                  0x305                     #  Was: dvdmute
+          KEY_DVD                  0x018                     #  Was: dvdav
+          KEY_DVD                  0x01E                     #  Was: dvdtxt
+          KEY_DVD                  0x03E                     #  Was: dvdexit2
+          KEY_DVD                  0x034                     #  Was: dvdup
+          KEY_DVD                  0x035                     #  Was: dvddown
+          KEY_DVD                  0x036                     #  Was: dvdleft
+          KEY_DVD                  0x037                     #  Was: dvdright
+          KEY_DVD                  0x033                     #  Was: dvdok
+          KEY_MENU                 0x031                     #  Was: dvdmenu
+          KEY_DVD                  0x03E                     #  Was: dvdexit
+          KEY_DVD                  0x01F                     #  Was: dvdrev
+          KEY_DVD                  0x021                     #  Was: dvdfwd
+          KEY_DVD                  0x020                     #  Was: dvdplay
+          KEY_DVD                  0x023                     #  Was: dvdrec
+          KEY_DVD                  0x024                     #  Was: dvdstop
+          KEY_DVD                  0x022                     #  Was: dvdpause
+          KEY_DVD                  0x000                     #  Was: dvd1
+          KEY_DVD                  0x008                     #  Was: dvd2
+          KEY_DVD                  0x010                     #  Was: dvd3
+          KEY_DVD                  0x001                     #  Was: dvd4
+          KEY_DVD                  0x009                     #  Was: dvd5
+          KEY_DVD                  0x011                     #  Was: dvd6
+          KEY_DVD                  0x002                     #  Was: dvd7
+          KEY_DVD                  0x00A                     #  Was: dvd8
+          KEY_DVD                  0x012                     #  Was: dvd9
+          KEY_DVD                  0x00E                     #  Was: dvd0
+          KEY_DVD                  0x07A                     #  Was: dvdpref
+          KEY_DVD                  0x025                     #  Was: dvdtouche
+          KEY_DVD                  0x03C                     #  Was: dvdenter
+          satpower                 0xC1D
+          satprog+                 0xC25
+          satprog-                 0xC27
+          satvol-                  0xC2A
+          satvol+                  0xC2B
+          satmute                  0xC05
+          satav                    0xC2E
+          sattxt                   0xC1E
+          satexit2                 0xC2B
+          satup                    0xC34
+          satdown                  0xC35
+          satleft                  0xC36
+          satright                 0xC37
+          satok                    0xC33
+          satmenu                  0xC19
+          KEY_EXIT                 0xC3D                     #  Was: satexit
+          satrev                   0xC1F
+          satfwd                   0xC21
+          satplay                  0xC20
+          satrec                   0xC23
+          satstop                  0xC24
+          satpause                 0xC22
+          sat1                     0xC00
+          sat2                     0xC08
+          sat3                     0xC10
+          sat4                     0xC01
+          sat5                     0xC09
+          sat6                     0xC11
+          sat7                     0xC02
+          sat8                     0xC0A
+          sat9                     0xC12
+          sat0                     0xC0E
+          satpref                  0xC2C
+          sattouche                0xC04
+          satenter                 0xC18
+      end codes
+
+end remote
+
+

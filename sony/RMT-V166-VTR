@@ -1,0 +1,75 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.6(sir) on Sat May 17 21:45:09 2003
+#
+# contributed by
+#
+# brand(device):                 SONY
+# model no. of remote control:   RMT-V166-VTR
+# The Showview button don`t work with the receiver !!
+# devices being controlled by this remote: Video Cassette Recoder SLV-E210
+#
+
+begin remote
+
+  name  RMT-V166-VTR
+  bits           11
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       2497   505
+  one          1276   525
+  zero          672   525
+  ptrail        672
+  gap          44954
+  toggle_bit      0
+
+
+      begin codes
+          KEY_EJECTCD              0x000000000000034D        #  Was: eject
+          KEY_SLEEP                0x000000000000054D        #  Was: standby
+          tv/vtr                   0x00000000000002AD
+          KEY_MENU                 0x000000000000059D        #  Was: menu
+          timer-clear              0x000000000000063D
+          cursor-left              0x000000000000023D
+          cursor-up                0x000000000000021D
+          cursor-right             0x000000000000043D
+          cursor-down              0x000000000000061D
+          execute                  0x000000000000045D
+          KEY_1                    0x000000000000000D        #  Was: 1
+          KEY_2                    0x000000000000040D        #  Was: 2
+          KEY_3                    0x000000000000020D        #  Was: 3
+          KEY_4                    0x000000000000060D        #  Was: 4
+          KEY_5                    0x000000000000010D        #  Was: 5
+          KEY_6                    0x000000000000050D        #  Was: 6
+          KEY_7                    0x000000000000030D        #  Was: 7
+          KEY_8                    0x000000000000070D        #  Was: 8
+          KEY_9                    0x000000000000008D        #  Was: 9
+          KEY_102ND                0x000000000000028D        #  Was: -/--
+          KEY_0                    0x000000000000048D        #  Was: 0
+          KEY_VOLUMEUP             0x0000000000000248        #  Was: vol+
+          KEY_VOLUMEDOWN           0x0000000000000648        #  Was: vol-
+          KEY_CHANNELUP            0x000000000000004D        #  Was: prog+
+          KEY_CHANNELDOWN          0x000000000000044D        #  Was: prog-
+          counter-reset            0x000000000000031D
+          frame                    0x000000000000046D
+          slow-                    0x00000000000003ED
+          slow+                    0x00000000000005ED
+          display                  0x00000000000002DD
+          index-rew                0x000000000000075D
+          index-ff                 0x000000000000035D
+          input-select             0x000000000000079D
+          search-rew               0x00000000000000AD
+          search-ff                0x00000000000004AD
+          KEY_RECORD               0x00000000000005CD        #  Was: rec
+          KEY_PAUSE                0x00000000000004CD        #  Was: pause
+          KEY_REWIND               0x00000000000006CD        #  Was: rew
+          KEY_PLAY                 0x00000000000002CD        #  Was: play
+          KEY_STOP                 0x00000000000000CD        #  Was: stop
+          KEY_FASTFORWARD          0x00000000000001CD        #  Was: ff
+      end codes
+
+end remote
+
+

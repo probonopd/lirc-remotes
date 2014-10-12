@@ -1,0 +1,79 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.6(default) on Fri Jan 15 22:48:37 2010
+#
+# contributed by
+#
+# brand:                       SumVision
+# model no. of remote control: Unknown
+# devices being controlled by this remote: Sumvision Phoenix Premium Upscaling HDMI DVD Player
+#
+
+begin remote
+
+  name  Sumvision
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9021  4442
+  one           577  1667
+  zero          577   541
+  ptrail        559
+  pre_data_bits   16
+  pre_data       0xFF
+  gap          107633
+  toggle_bit_mask 0x0
+
+      begin codes
+          KEY_POWER                0x28D7                    #  Was: Power
+          KEY_MENU                 0xC837                    #  Was: OSD
+          KEY_MUTE                 0x8A75                    #  Was: Mute
+          KEY_EJECTCD              0x08F7                    #  Was: Eject
+          KEY_AGAIN                0x10EF                    #  Was: Repeat
+          A-B                      0x12ED
+          KEY_ENTER                0x926D                    #  Was: Return
+          KEY_AUDIO                0x52AD                    #  Was: Audio
+          KEY_1                    0x906F                    #  Was: 1
+          KEY_2                    0xB847                    #  Was: 2
+          KEY_3                    0xF807                    #  Was: 3
+          KEY_4                    0xB04F                    #  Was: 4
+          KEY_5                    0x9867                    #  Was: 5
+          KEY_6                    0xD827                    #  Was: 6
+          KEY_7                    0x8877                    #  Was: 7
+          KEY_8                    0xA857                    #  Was: 8
+          KEY_9                    0xE817                    #  Was: 9
+          KEY_0                    0x48B7                    #  Was: 0
+          P/N                      0xEA15
+          KEY_SUBTITLE             0x827D                    #  Was: SUB-T
+          KEY_ANGLE                0x629D                    #  Was: Angle
+          Goto                     0x9A65
+          KEY_CLEAR                0xD22D                    #  Was: Clear
+          KEY_TITLE                0x4AB5                    #  Was: Title
+          KEY_PLAYPAUSE            0xCA35                    #  Was: Play/Pause
+          KEY_STOP                 0xAA55                    #  Was: Stop
+          KEY_SLOW                 0x6A95                    #  Was: Slow
+          Step                     0x00FF
+          Rev                      0xC23D
+          KEY_FORWARD              0x807F                    #  Was: Fwd
+          KEY_PREVIOUS             0x18E7                    #  Was: Prev
+          KEY_NEXT                 0xFA05                    #  Was: Next
+          Menu/PBC                 0x0AF5
+          Prog                     0xA05F
+          KEY_UP                   0x609F                    #  Was: Up
+          KEY_LEFT                 0xE21D                    #  Was: Left
+          KEY_DOWN                 0x22DD                    #  Was: Down
+          KEY_RIGHT                0x02FD                    #  Was: Right
+          KEY_ENTER                0xE01F                    #  Was: Enter
+          KEY_SETUP                0xA25D                    #  Was: Setup
+          KEY_ZOOM                 0x7A85                    #  Was: Zoom
+          V-Mode                   0xF00F
+          HDMI                     0x50AF
+          KEY_VOLUMEDOWN           0x7887                    #  Was: Vol-
+          KEY_VOLUMEUP             0xC03F                    #  Was: Vol+
+      end codes
+
+end remote
+
+

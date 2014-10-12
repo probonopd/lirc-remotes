@@ -1,0 +1,199 @@
+
+#
+# This is a space encoded remote control from AnimaX.
+# You need at least lirc-0.5.4 to use this config file
+#
+# contributed by Karsten Scheibler <karsten.scheibler@student.uni-halle.de>
+#
+# brand:             AnimaX
+# model:             Anir Remote Control
+# supported devices: This remote control comes with some TV Tuner cards from
+#                    Hauppauge.
+#
+
+begin remote
+
+  name  ANIMAX
+  bits           16
+  flags SPACE_ENC|REVERSE
+  eps            20
+  aeps            0
+
+  header       4500  4500
+  one           562  1682
+  zero          562   562
+  ptrail        562
+  plead           0
+  foot            0     0
+  repeat       2500  2500
+  pre_data_bits   8
+  pre_data       0xF0
+  post_data_bits  0
+  post_data      0x0
+  pre             0     0
+  post            0     0
+  gap          12937
+  repeat_gap   102937
+  repeat_bit      0
+
+      begin codes
+          CD_DOWN                  0x000000000000DB24
+          CD_UP                    0x0000000000005BA4
+          TV_DOWN                  0x000000000000DC23
+          TV_UP                    0x0000000000005CA3
+          PHONE_DOWN               0x000000000000DD22
+          PHONE_UP                 0x0000000000005DA2
+          RADIO_DOWN               0x000000000000DE21
+          RADIO_UP                 0x0000000000005EA1
+          KEY_VIDEO                0x000000000000DF20        #  Was: VIDEO_DOWN
+          KEY_VIDEO                0x0000000000005FA0        #  Was: VIDEO_UP
+          AUX1_DOWN                0x000000000000E01F
+          AUX1_UP                  0x000000000000609F
+          MAIL_DOWN                0x000000000000E11E
+          MAIL_UP                  0x000000000000619E
+          AUX2_DOWN                0x000000000000E21D
+          AUX2_UP                  0x000000000000629D
+          KEY_POWER                0x000000000000E31C        #  Was: POWER_DOWN
+          KEY_POWER                0x000000000000639C        #  Was: POWER_UP
+          LEFT_MOUSE_BUTTON_TOUCH_DOWN 0x000000000000E41B
+          LEFT_MOUSE_BUTTON_TOUCH_UP 0x000000000000649B
+          KEY_REWIND               0x000000000000E51A        #  Was: REWIND_DOWN
+          KEY_REWIND               0x000000000000659A        #  Was: REWIND_UP
+          KEY_PLAY                 0x000000000000E619        #  Was: PLAY_DOWN
+          KEY_PLAY                 0x0000000000006699        #  Was: PLAY_UP
+          FORWARD_DOWN             0x000000000000E718
+          FORWARD_UP               0x0000000000006798
+          SKIP_BACKWARD_DOWN       0x000000000000E817
+          SKIP_BACKWARD            0x0000000000006897
+          STOP_DOWN                0x000000000000E916
+          STOP_UP                  0x0000000000006996
+          SKIP_FORWARD_DOWN        0x000000000000EA15
+          SKIP_FORWARD_UP          0x0000000000006A95
+          KEY_CHANNELDOWN          0x000000000000EB14        #  Was: CHANNEL_UP_DOWN
+          KEY_CHANNELUP            0x0000000000006B94        #  Was: CHANNEL_UP_UP
+          KEY_DOWN                 0x000000000000EC13        #  Was: MENU_DOWN
+          KEY_UP                   0x0000000000006C93        #  Was: MENU_UP
+          KEY_VOLUMEDOWN           0x000000000000ED12        #  Was: VOLUME_UP_DOWN
+          KEY_VOLUMEUP             0x0000000000006D92        #  Was: VOLUME_UP_UP
+          BLUE_BUTTON_DOWN         0x000000000000EE11
+          BLUE_BUTTON_UP           0x0000000000006E91
+          MUTE_DOWN                0x000000000000EF10
+          MUTE_UP                  0x0000000000006F90
+          KEY_VOLUMEDOWN           0x000000000000F00F        #  Was: VOLUME_DOWN_DOWN
+          KEY_VOLUMEUP             0x000000000000708F        #  Was: VOLUME_DOWN_UP
+          RED_BUTTON_DOWN          0x000000000000F10E
+          RED_BUTTON_UP            0x000000000000718E
+          GREEN_BUTTON_DOWN        0x000000000000F20D
+          GREEN_BUTTON_UP          0x000000000000728D
+          KEY_CHANNELDOWN          0x000000000000F30C        #  Was: CHANNEL_DOWN_DOWN
+          KEY_CHANNELUP            0x000000000000738C        #  Was: CHANNEL_DOWN_UP
+          X_KEY_1_DOWN             0x000000000000F40B        #  Was: KEY_1_DOWN
+          X_KEY_1_UP               0x000000000000748B        #  Was: KEY_1_UP
+          X_KEY_2_DOWN             0x000000000000F50A        #  Was: KEY_2_DOWN
+          X_KEY_2_UP               0x000000000000758A        #  Was: KEY_2_UP
+          X_KEY_3_DOWN             0x000000000000F609        #  Was: KEY_3_DOWN
+          X_KEY_3_UP               0x0000000000007689        #  Was: KEY_3_UP
+          X_KEY_4_DOWN             0x000000000000F708        #  Was: KEY_4_DOWN
+          X_KEY_4_UP               0x0000000000007788        #  Was: KEY_4_UP
+          X_KEY_5_DOWN             0x000000000000F807        #  Was: KEY_5_DOWN
+          X_KEY_5_UP               0x0000000000007887        #  Was: KEY_5_UP
+          X_KEY_6_DOWN             0x000000000000F906        #  Was: KEY_6_DOWN
+          X_KEY_6_UP               0x0000000000007986        #  Was: KEY_6_UP
+          X_KEY_7_DOWN             0x000000000000FA05        #  Was: KEY_7_DOWN
+          X_KEY_7_UP               0x0000000000007A85        #  Was: KEY_7_UP
+          X_KEY_8_DOWN             0x000000000000FB04        #  Was: KEY_8_DOWN
+          X_KEY_8_UP               0x0000000000007B84        #  Was: KEY_8_UP
+          X_KEY_9_DOWN             0x000000000000FC03        #  Was: KEY_9_DOWN
+          X_KEY_9_UP               0x0000000000007C83        #  Was: KEY_9_UP
+          SLASH_DOWN               0x000000000000FD02
+          SLASH_UP                 0x0000000000007D82
+          X_KEY_0_DOWN             0x000000000000FE01        #  Was: KEY_0_DOWN
+          X_KEY_0_UP               0x0000000000007E81        #  Was: KEY_0_UP
+          MINUS_DOWN               0x000000000000FF00
+          MINUS_UP                 0x0000000000007F80
+      end codes
+
+end remote
+
+
+begin remote
+
+  name  ANIMAX_MOUSE_BUTTONS
+  bits           16
+  flags SPACE_ENC|REVERSE
+  eps            20
+  aeps            0
+
+  header       4500  4500
+  one           562  1682
+  zero          562   562
+  ptrail        562
+  plead           0
+  foot            0     0
+  repeat          0     0
+  pre_data_bits   8
+  pre_data       0xF0
+  post_data_bits  0
+  post_data      0x0
+  pre             0     0
+  post            0     0
+  gap          12937
+  repeat_bit      0
+
+      begin codes
+          RIGHT_MOUSE_BUTTON_DOWN  0x000000000000C639
+          RIGHT_MOUSE_BUTTON_UP    0x00000000000046B9
+          LEFT_MOUSE_BUTTON_DOWN   0x000000000000CE31
+          LEFT_MOUSE_BUTTON_UP     0x0000000000004EB1
+      end codes
+
+end remote
+
+
+begin remote
+
+  name  ANIMAX_MOUSE_PAD
+  bits           16
+  flags SPACE_ENC|REVERSE
+  eps            20
+  aeps            0
+
+  header       4500  4500
+  one           562  1682
+  zero          562   562
+  ptrail        562
+  plead           0
+  foot            0     0
+  repeat       2500  2500
+  pre_data_bits   8
+  pre_data       0xF0
+  post_data_bits  0
+  post_data      0x0
+  pre             0     0
+  post            0     0
+  gap          12937
+  repeat_gap   8437
+  repeat_bit      0
+
+      begin codes
+          MOUSE_NNW                0x000000000000906F
+          MOUSE_NW                 0x000000000000D02F
+          MOUSE_NWW                0x000000000000916E
+          MOUSE_W                  0x000000000000D12E
+          MOUSE_SWW                0x000000000000926D
+          MOUSE_SW                 0x000000000000D22D
+          MOUSE_SSW                0x000000000000936C
+          MOUSE_S                  0x000000000000D32C
+          MOUSE_SSE                0x000000000000946B
+          MOUSE_SE                 0x000000000000D42B
+          MOUSE_SEE                0x000000000000956A
+          MOUSE_E                  0x000000000000D52A
+          MOUSE_NEE                0x0000000000009669
+          MOUSE_NE                 0x000000000000D629
+          MOUSE_NNE                0x0000000000009768
+          MOUSE_N                  0x000000000000D728
+      end codes
+
+end remote
+
+

@@ -1,0 +1,68 @@
+#
+# this config file was automatically generated
+# using lirc-WinLIRC 0.6.1pre2 (LIRC 0.6.1pre2) on Fri Oct 19 18:40:35 2001
+#
+# contributed by TH
+#
+# brand:             PIONEER
+# model:             PD-M650
+# supported devices: CD-Player
+#
+
+begin remote
+
+  name  PD-M650
+  bits           16
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  header       8555  4201
+  one           546   500
+  zero          546  1565
+  ptrail        546
+  pre_data_bits   16
+  pre_data       0xBA45
+  gap          25392
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x000000000000C738        #  Was: power
+          D2                       0x00000000000007F8
+          D1                       0x0000000000008778
+          D3                       0x000000000000F50A
+          D4                       0x00000000000035CA
+          D5                       0x00000000000015EA
+          D6                       0x00000000000025DA
+          Manual_L                 0x0000000000000FF0
+          Manual_R                 0x0000000000008F70
+          KEY_KPMINUS              0x0000000000002FD0        #  Was: -
+          KEY_KPPLUS               0x000000000000AF50        #  Was: +
+          Track_L                  0x0000000000007788
+          Track_R                  0x000000000000F708
+          High_Light_Scan          0x000000000000857A
+          Random                   0x000000000000AD52
+          KEY_STOP                 0x0000000000009768        #  Was: Stop
+          KEY_PAUSE                0x000000000000E718        #  Was: Pause
+          KEY_PLAY                 0x00000000000017E8        #  Was: Play
+          KEY_1                    0x0000000000007F80        #  Was: 1
+          KEY_2                    0x000000000000BF40        #  Was: 2
+          KEY_3                    0x0000000000003FC0        #  Was: 3
+          KEY_4                    0x000000000000DF20        #  Was: 4
+          KEY_5                    0x0000000000005FA0        #  Was: 5
+          KEY_6                    0x0000000000009F60        #  Was: 6
+          KEY_7                    0x0000000000001FE0        #  Was: 7
+          KEY_8                    0x000000000000EF10        #  Was: 8
+          KEY_9                    0x0000000000006F90        #  Was: 9
+          KEY_10CHANNELSUP         0x000000000000B54A        #  Was: +10
+          +20                      0x000000000000956A
+          KEY_0                    0x000000000000FF00        #  Was: 10
+          PGM                      0x0000000000004FB0
+          CHECK                    0x0000000000006D92
+          KEY_CLEAR                0x0000000000005DA2        #  Was: CLEAR
+          KEY_DELETE               0x00000000000045BA        #  Was: DELETE
+      end codes
+
+end remote
+

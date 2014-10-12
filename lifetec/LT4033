@@ -1,0 +1,67 @@
+#
+# this config file was automatically generated
+# using WinLIRC 0.6.4 (LIRC 0.6.1pre3) on Thu Feb 03 15:24:09 2005
+#
+# contributed by Björn Hennig
+#
+# brand:             Lifetec
+# model:             LT4033
+# supported devices: TV devicenr: 165
+# showview, setup, all off, p<p konnte ich nicht belegen
+
+begin remote
+
+  name  Lifetec_LT4033
+  bits           11
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  header       2487   515
+  one          1278   515
+  zero          661   515
+  ptrail        661
+  gap          25541
+  toggle_bit      0
+
+
+      begin codes
+          KEY_1                    0x008                     #  Was: 1
+          KEY_2                    0x408                     #  Was: 2
+          KEY_3                    0x208                     #  Was: 3
+          KEY_4                    0x608                     #  Was: 4
+          KEY_5                    0x108                     #  Was: 5
+          KEY_6                    0x508                     #  Was: 6
+          KEY_7                    0x308                     #  Was: 7
+          KEY_8                    0x708                     #  Was: 8
+          KEY_9                    0x088                     #  Was: 9
+          KEY_0                    0x488                     #  Was: 0
+          KEY_POWER                0x548                     #  Was: power
+          KEY_CHANNELUP            0x048                     #  Was: prog+
+          KEY_CHANNELDOWN          0x448                     #  Was: prog-
+          KEY_VOLUMEDOWN           0x648                     #  Was: vol-
+          KEY_VOLUMEUP             0x248                     #  Was: vol+
+          tonaus                   0x148
+          KEY_MENU                 0x038                     #  Was: menu
+          KEY_EXIT                 0x168                     #  Was: exit
+          links                    0x238
+          KEY_RECORD               0x438                     #  Was: rechts
+          hoch                     0x178
+          runter                   0x578
+          KEY_OK                   0x538                     #  Was: ok
+          KEY_TEXT                 0x7E8                     #  Was: text
+          textaus                  0x0E8
+          texttransparent          0x6D8
+          text+                    0x2E8
+          textseitenscrolling      0x29C
+          KEY_REWIND               0x19C                     #  Was: rew
+          KEY_PLAY                 0x39C                     #  Was: play
+          f.f.                     0x79C
+          KEY_RECORD               0x6D8                     #  Was: rec
+          KEY_STOP                 0x59C                     #  Was: stop
+          KEY_PAUSE                0x09C                     #  Was: pause
+      end codes
+
+end remote
+
+

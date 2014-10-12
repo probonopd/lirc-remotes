@@ -1,0 +1,107 @@
+#
+# For Pioneer VSX-24TX, VSX-26TX and VSX-27TX A/V Receivers.
+# Basic functions should be compatible with most VSX-xxTX models.
+#
+# Although the codes are 32 bit, each contains only 16 bits of information,
+# since odd and even bytes are always bitwise complements of each other.
+#
+
+begin remote
+
+  name Pioneer_CU-VSX159
+  bits 32
+  flags SPACE_ENC
+  eps 20
+  aeps 200
+
+  header       8500  4100
+  one           500  1500
+  zero          500   500
+  ptrail        500
+  gap         36000
+  toggle_bit      0
+
+  frequency   39200
+
+  begin codes
+          KEY_POWER                0xA55A38C7                #  Was: power
+          KEY_POWER                0xA55A58A7                #  Was: poweron
+          KEY_POWER                0xA55AD827                #  Was: poweroff
+
+          KEY_VOLUMEUP             0xA55A50AF                #  Was: vol+
+          KEY_VOLUMEDOWN           0xA55AD02F                #  Was: vol-
+          KEY_MUTE                 0xA55A48B7                #  Was: mute
+    muteon        0xA55A8A75 # discrete mute on
+    muteoff       0xA55A4AB5 # discrete mute off
+
+    dimmer        0xA55A6A95 0xA55A609F # cycle fl. display dimmer levels
+
+    speakers      0xA55A6A95 0xA55A00FF # A, B, A+B, none
+    input         0xA55AAA55 # cycle through all inputs in sequence
+
+# Discrete input selection
+          KEY_VIDEO                0xA55A6897                #  Was: video
+    vcr1          0xA55AF00F
+    vcr2          0xA55A708F
+          KEY_DVD                  0xA55AA15E                #  Was: dvd/ld
+    tv/sat        0xA55A30CF
+          KEY_CD                   0xA55A32CD                #  Was: cd
+    md/tape1      0xA55A8877
+          KEY_TUNER                0xA55AE21D                #  Was: tuner
+    phono         0xA55AB24D
+
+    tape2         0xA55AB847 # tape2 monitor toggle, preserves input selection
+    signalselect  0xA55A6A95 0xA55AC03F # analog, digital, AC-3 RF, auto
+
+    bass+         0xA55AEA15 0xA55A00FF
+    bass-         0xA55AEA15 0xA55A807F
+    treble+       0xA55AEA15 0xA55A40BF
+    treble-       0xA55AEA15 0xA55AC03F
+    effect/chsel  0xA55A6A95 0xA55A20DF # cycle mode for +/-
+    effect/chsel- 0xA55A827D 0xA55AE01F
+    effect/chsel+ 0xA55A42BD 0xA55AE01F
+    digitalnr     0xA55A9A65 0xA55AE01F # toggle digital noise reduction
+    inputatt      0xA55A7A85 0xA55AE01F # toggle analog input attenuation
+
+# DSP/DD/DTS processing
+    direct        0xA55ABA45 0xA55A10EF # enable/disable DSP processing
+    stereo        0xA55AF906 0xA55A03FC
+    dsp           0xA55A02FD # cycle through hall1/2, jazz, dance, theater1/2
+    standard      0xA55A7A85 0xA55A10EF # DD/DTS standard
+    advanced      0xA55AF906 0xA55ACB34 # DD/DTS advanced
+    thx           0xA55AF906 0xA55A8B74 # DD/DTS THX
+    loudness      0xA55A22DD
+    midnight      0xA55AF906 0xA55AD32C
+
+# Arrow keys
+          KEY_UP                   0xA55A01FE                #  Was: up
+          KEY_DOWN                 0xA55A817E                #  Was: down
+          KEY_LEFT                 0xA55AC13E                #  Was: left
+          KEY_RIGHT                0xA55A41BE                #  Was: right
+          KEY_ENTER                0xA55A21DE                #  Was: enter
+
+          KEY_SETUP                0xA55AD926                #  Was: setup
+
+# Tuner functions have no effect unless input is set to tuner
+    band          0x25DAC837 # toggle FM, AM
+          KEY_RADIO                0x25DAB04F                #  Was: fm
+    am            0x25DA708F # discrete AM mode
+    tuning+       0x25DA6A95
+    tuning-       0x25DAEA15
+    mpx           0x25DA7887 # toggle mono FM
+    class         0x25DA02FD # class A, B, C
+    station+      0x25DA08F7
+    station-      0x25DA8877
+    directaccess  0x25DAC23D # follow up with freq 87.50-108.00 or 530-1700
+          KEY_0                    0x25DA00FF                #  Was: 0
+          KEY_1                    0x25DA807F                #  Was: 1
+          KEY_2                    0x25DA40BF                #  Was: 2
+          KEY_3                    0x25DAC03F                #  Was: 3
+          KEY_4                    0x25DA20DF                #  Was: 4
+          KEY_5                    0x25DAA05F                #  Was: 5
+          KEY_6                    0x25DA609F                #  Was: 6
+          KEY_7                    0x25DAE01F                #  Was: 7
+          KEY_8                    0x25DA10EF                #  Was: 8
+          KEY_9                    0x25DA906F                #  Was: 9
+  end codes
+end remote

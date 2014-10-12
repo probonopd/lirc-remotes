@@ -1,0 +1,43 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.6(serial) on Mon Sep 20 23:21:54 2004
+#
+# contributed by Max Vakulenko   mvak at ukr dot net
+#
+# brand:                       GVC
+# model no. of remote control: RM-RK50
+# devices being controlled by this remote: don't even know
+#
+
+begin remote
+
+  name  GVC_RM-RK50
+  bits            8
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           586  1505
+  zero          586   471
+  ptrail        580
+  pre_data_bits   8
+  pre_data       0xF1
+  gap          46526
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x0000000000000071        #  Was: power
+          sound                    0x00000000000000B1
+          KEY_VOLUMEDOWN           0x00000000000000A1        #  Was: vol-
+          KEY_VOLUMEUP             0x0000000000000021        #  Was: vol+
+          KEY_CYCLEWINDOWS         0x0000000000000011        #  Was: source
+          KEY_UP                   0x0000000000000029        #  Was: up
+          KEY_DOWN                 0x00000000000000A9        #  Was: down
+          KEY_LEFT                 0x00000000000000C9        #  Was: left
+          KEY_RIGHT                0x0000000000000049        #  Was: right
+      end codes
+
+end remote
+
+

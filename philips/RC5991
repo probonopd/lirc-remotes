@@ -1,0 +1,86 @@
+# this config file was automatically generated
+# using lirc-0.6.6(serial) on Mon Dec 29 03:18:06 2003
+#
+# contributed by: Johannes Matheis (jomat at gmx dot li)
+#
+# brand:                       Philips
+# model no. of remote control: (VCR/TXT) DIGITAL RC 5991
+# devices being controlled by this remote: nothing ?
+#
+
+begin remote
+
+  name  RC5991
+  bits           13
+  flags RC5|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           895   887
+  zero          895   887
+  plead         988
+  gap          113890
+  toggle_bit      2
+
+
+      begin codes
+          PP                       0x000000000000100E
+          KEY_MUTE                 0x000000000000100D        #  Was: MUTE
+          KEY_POWER                0x0000000000001026        #  Was: ON
+          OFF                      0x000000000000100C
+          KEY_2                    0x000000000000100F        #  Was: 1/12
+          KEY_4                    0x0000000000001028        #  Was: 13/24
+          KEY_3                    0x0000000000001001        #  Was: 1.13
+          KEY_4                    0x0000000000001002        #  Was: 2.14
+          KEY_5                    0x0000000000001003        #  Was: 3.15
+          KEY_6                    0x0000000000001004        #  Was: 4.16
+          KEY_7                    0x0000000000001005        #  Was: 5.17
+          KEY_8                    0x0000000000001006        #  Was: 6.18
+          P<P                      0x0000000000001022
+          KEY_9                    0x0000000000001007        #  Was: 7.19
+          KEY_0                    0x0000000000001008        #  Was: 8.20
+          KEY_1                    0x0000000000001009        #  Was: 9.21
+          KEY_CHANNELUP            0x0000000000001020        #  Was: P+
+          KEY_2                    0x000000000000100A        #  Was: 10.22
+          KEY_3                    0x0000000000001000        #  Was: 11.23
+          KEY_4                    0x000000000000100B        #  Was: 12.24
+          KEY_CHANNELDOWN          0x0000000000001021        #  Was: P-
+          KEY_VOLUMEDOWN           0x0000000000001011        #  Was: VOL-
+          KEY_VOLUMEUP             0x0000000000001010        #  Was: VOL+
+          COL+                     0x0000000000001014
+          BRI+                     0x0000000000001012
+          BASS+                    0x0000000000001018
+          TONE+                    0x0000000000001016
+          COL-                     0x0000000000001015
+          BRI-                     0x0000000000001013
+          BASS-                    0x0000000000001019
+          TONE-                    0x0000000000001017
+          STEREO                   0x0000000000001024
+          BAL-L                    0x000000000000101B
+          BAL-R                    0x000000000000101A
+          I-II                     0x0000000000001023
+          SCR2                     0x0000000000001039
+          SCR1                     0x0000000000001038
+          SCR                      0x000000000000103F
+          KEY_TEXT                 0x000000000000103C        #  Was: TXT
+          LOAD                     0x000000000000101D
+          SAVE                     0x000000000000101C
+          KEY_MENU                 0x000000000000103E        #  Was: MENU
+          KEY_KPPLUS               0x000000000000100F        #  Was: +
+          OBJ                      0x000000000000102A
+          POS                      0x000000000000102B
+          KEY_X                    0x000000000000102D        #  Was: X
+          SEL                      0x000000000000101E
+          SIZE                     0x0000000000001029
+          ?                        0x000000000000102C
+          HALF                     0x000000000000102E
+          KEY_I                    0x0000000000001035        #  Was: i
+          KEY_RECORD               0x0000000000001037        #  Was: REC
+          KEY_STOP                 0x0000000000001036        #  Was: STOP
+          KEY_REWIND               0x0000000000001032        #  Was: REW
+          KEY_FASTFORWARD          0x0000000000001034        #  Was: FF
+      end codes
+
+end remote
+
+

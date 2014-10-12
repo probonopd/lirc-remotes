@@ -1,0 +1,55 @@
+#=======================================================================
+#
+#   Remote accompanying product: Beon Colour TV
+#
+#   Contributed by: Nat Hook nathook hotmail.com
+#
+#=======================================================================
+
+
+
+begin remote
+
+  name   Beon_Colour_TV
+#  flags CONST_LENGTH|RAW_CODES
+  flags RAW_CODES
+  eps            30
+  aeps          100
+
+  ptrail       2362
+  repeat     0     0
+#  gap    35297
+  gap 26400
+
+      begin raw_codes
+
+          name power
+          KEY_4                    842                       #  Was: 1324
+
+          name mute
+          KEY_5                    865                       #  Was: 1305
+          KEY_7                    931                       #  Was: 2357
+
+          name progup
+          KEY_3                    802                       #  Was: 1373
+          KEY_2                    882                       #  Was: 3492
+
+          name voldwn
+          KEY_8                    813                       #  Was: 1368
+          KEY_0                    3005                      #  Was: 1330
+
+          name volup
+          KEY_6                    807                       #  Was: 1366
+          KEY_1                    1957                      #  Was: 2401
+
+          name progdwn
+          KEY_7                    823                       #  Was: 1357
+          KEY_7                    26400                     #  Was: 2367
+          KEY_7                     #  Was: 2367            
+
+
+      end raw_codes
+
+end remote
+
+

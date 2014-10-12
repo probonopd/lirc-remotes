@@ -1,0 +1,66 @@
+#
+# This config file has been automatically converted from a device file
+# found in the 06/26/00 release of the Windows Slink-e software
+# package.
+#
+# Many thanks to Colby Boles of Nirvis Systems Inc. for allowing us to
+# use these files.
+#
+# The original filename was: "tascam rc-31 301 cd player.cde"
+#
+# The original description for this device was:
+#
+# tascam rc-31 301 cd player
+#
+
+
+begin remote
+
+  name  RC-31
+  bits           18
+  flags SPACE_ENC
+  eps            20
+  aeps          200
+
+  header       8800  4400
+  one           550  1650
+  zero          550   550
+  ptrail        550
+  gap          300000
+  toggle_bit      0
+
+  frequency    38000
+
+      begin codes
+          >_PLAY                   0x0000000000000221
+          ___STOP                  0x0000000000000321
+          ||_PAUSE                 0x0000000000000341
+          >>_SEARCH                0x00000000000003C1
+          <<_SEARCH                0x00000000000002C1
+          >>|_SKIP_FWD             0x0000000000000201
+          |<<_SKIP_REV             0x0000000000000241
+          KEY_0                    0x00000000000002D1        #  Was: 0
+          KEY_1                    0x0000000000000291        #  Was: 1
+          KEY_2                    0x0000000000000391        #  Was: 2
+          KEY_3                    0x0000000000000311        #  Was: 3
+          KEY_4                    0x0000000000000211        #  Was: 4
+          KEY_5                    0x00000000000003E1        #  Was: 5
+          KEY_6                    0x0000000000000231        #  Was: 6
+          KEY_7                    0x00000000000003D1        #  Was: 7
+          KEY_8                    0x0000000000000251        #  Was: 8
+          KEY_9                    0x0000000000000351        #  Was: 9
+          KEY_10CHANNELSUP         0x0000000000000271        #  Was: +10
+          A-B                      0x00000000000002E1
+          SINGLE                   0x00000000000003B1
+          PROGRAM                  0x00000000000002B1
+          CHECK                    0x0000000000000371
+          KEY_CLEAR                0x0000000000000331        #  Was: CLEAR
+          KEY_AGAIN                0x0000000000000261        #  Was: REPEAT
+          AUTO_SPACE               0x00000000000003A1
+          DISPLAY_MODE             0x00000000000002A1
+          KEY_OPEN                 0x0000000000000361        #  Was: OPEN/CLOSE
+          ->_INDEX                 0x00000000000002F1
+          <-_INDEX                 0x00000000000003F1
+      end codes
+
+end remote

@@ -1,0 +1,95 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.0pre4-pvr150(all) on Sun Nov 12 22:18:53 2006
+#
+# contributed by 	gsm|mendelson.com Geoffrey S. Mendelson
+#
+# brand:                       JVC
+# model no. of remote control: LP20978-008
+# devices being controlled by this remote: JVC HR-481ms VCR
+#
+
+begin remote
+
+  name  JVC_LP20978-008
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       8490  4162
+  one           610  1491
+  zero          610   435
+  ptrail        610
+  gap          58878
+  toggle_bit      0
+
+
+      begin codes
+          vcr-on-off               0xC2D0
+          vcr-review               0xC2C3
+          vcr-tv-vcr               0xC2C8
+          vcr-audio                0xC2E8
+          vcr-dashdash-dash-dash   0xC21C
+          vcr-1                    0xC284
+          vcr-2                    0xC244
+          vcr-3                    0xC2C4
+          vcr-4                    0xC224
+          vcr-5                    0xC2A4
+          vcr-6                    0xC264
+          vcr-7                    0xC2E4
+          vcr-8                    0xC214
+          vcr-9                    0xC294
+          vcr-x                    0xC2E4
+          vcr-0                    0xC2CC
+          vcr-x                    0xC26C
+          vcr-clock                0xC2AC
+          vcr-start-plus           0xC213
+          vcr-delete-minus         0xC293
+          vcr-stop-plus            0xC253
+          vcr-fin-minus            0xC2D3
+          vcd-date-plus            0xC263
+          vcr-date-minus           0xC2E3
+          vcr-pr-plus              0xC298
+          vcr-pr-minus             0xC218
+          vcr-prog                 0xC283
+          vcr-clock-question       0xC2BC
+          vcr-slash-slashslash     0xC28C
+          vcr-30secright           0xC269
+          vcr-reverse              0xC2E0
+          vcr-play                 0xC230
+          vcr-forward              0xC260
+          vcr-stop                 0xC2C0
+          vcr-record               0xC233
+          vcr-pause                0xC2B0
+          vcr-menu                 0xC2EC
+          vcr-enter                0xC23C
+          vcr-uparrow              0xC298
+          vcr-downarrow            0xC218
+          vcr-leftarrow            0xC2A8
+          vcr-rightarrow           0xC228
+          tv-tv-vcr                0xC0C8
+          tv-audio                 0xC038
+          tv-1                     0xC084
+          tv-2                     0xC044
+          tv-3                     0xC0C4
+          tv-4                     0xC024
+          tv-5                     0xC0A4
+          tv-6                     0xC064
+          tv-7                     0xC0E4
+          tv-8                     0xC014
+          tv-9                     0xC094
+          tv-0                     0xC004
+          tv-slash-slashslash      0xC0B9
+          tv-ok                    0xC269
+          tv-x                     0xC00E
+          tv-clock                 0xC08E
+          tv-uparrow               0xC098
+          tv-down-arrow            0xC018
+          tv-right                 0xC0F8
+          tv-left                  0xC078
+      end codes
+
+end remote
+
+

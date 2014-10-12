@@ -1,0 +1,172 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.6(any) on Mon Oct 13 17:37:43 2003
+#
+# contributed by Henning Glawe <eartoaster@gmx.net>
+#
+# brand:                                   Hitachi
+# model no. of remote control:             VT-RM783E
+# devices being controlled by this remote: 2*Video,1*TV
+#    Jog/Shuttle (sends codes F?, R?, FRAME+, FRAME-)
+# there are 4 buttons sending absolutely nothing on the remote
+
+begin remote
+
+  name  Hitachi_VT-RM783E
+  bits           32
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       8998  4484
+  one           588  1657
+  zero          588   547
+  ptrail        595
+  repeat       9011  2221
+  gap          107777
+  toggle_bit      0
+
+
+      begin codes
+          KEY_MUTE                 0x00000000CA35D827        #  Was: MUTE
+          KEY_VOLUMEDOWN           0x00000000CA35A857        #  Was: VOLUME-
+          KEY_VOLUMEUP             0x00000000CA3548B7        #  Was: VOLUME+
+          DISPLAY                  0x0000000006F942BD
+          KEY_CHANNELDOWN          0x0000000006F9A857        #  Was: CHANNEL
+          PROGRAM-                 0x0000000006F918E7
+          PROGRAM+                 0x0000000006F99867
+          VTR/TV                   0x0000000006F96897
+          UNNAMED1                 0x0000000006F9C639
+          KEY_RECORD               0x00000000867928D7        #  Was: REC
+          KEY_REWIND               0x0000000006F950AF        #  Was: REW
+          KEY_PLAY                 0x0000000006F928D7        #  Was: PLAY
+          ADUB                     0x0000000006F934CB
+          VDUB                     0x0000000006F95CA3
+          KEY_FASTFORWARD          0x0000000006F9906F        #  Was: FFWD
+          KEY_PAUSE                0x0000000006F958A7        #  Was: PAUSE
+          KEY_STOP                 0x0000000006F928D7        #  Was: STOP
+          FADV                     0x0000000006F908F7
+          GO-TO                    0x0000000006F9619E
+          INDEX                    0x0000000006F9A25D
+          JPAUSE                   0x0000000006F916E9
+          KEY_TITLE                0x0000000006F951AE        #  Was: TITLE
+          KEY_POWER                0x0000000006F9E817        #  Was: POWER
+          FRAME+                   0x0000000006F9BE41
+          FRAME-                   0x0000000006F97E81
+          KEY_F1                   0x0000000006F99669        #  Was: F1
+          KEY_F2                   0x0000000006F9D629        #  Was: F2
+          KEY_F3                   0x0000000006F9B649        #  Was: F3
+          KEY_F4                   0x0000000006F9F609        #  Was: F4
+          KEY_F5                   0x0000000006F98E71        #  Was: F5
+          KEY_F6                   0x0000000006F9CE31        #  Was: F6
+          KEY_F7                   0x0000000006F9AE51        #  Was: F7
+          R1                       0x0000000006F956A9
+          R2                       0x0000000006F936C9
+          R3                       0x0000000006F97689
+          R4                       0x0000000006F90EF1
+          R5                       0x0000000006F94EB1
+          R6                       0x0000000006F92ED1
+          R7                       0x0000000006F96E91
+          KEY_MENU                 0x0000000006F902FD        #  Was: MENU
+          KEY_1                    0x0000000006F9B04F        #  Was: 1
+          KEY_2                    0x0000000006F9708F        #  Was: 2
+          KEY_3                    0x0000000006F9F00F        #  Was: 3
+          KEY_4                    0x0000000006F938C7        #  Was: 4
+          KEY_5                    0x0000000006F9B847        #  Was: 5
+          KEY_6                    0x0000000006F97887        #  Was: 6
+          KEY_7                    0x0000000006F9F807        #  Was: 7
+          KEY_8                    0x0000000006F920DF        #  Was: 8
+          KEY_9                    0x0000000006F9A05F        #  Was: 9
+          KEY_0                    0x0000000006F930CF        #  Was: 0
+          SP/LP                    0x0000000006F90CF3
+          KEY_AUX                  0x0000000006F92CD3        #  Was: AUX
+          UNNAMED2                 0x0000000006F9E21D
+          COUNT_REMAIN             0x0000000006F9629D
+          COUNT_0000               0x0000000006F9827D
+          COUNT_TAPE_RETURN        0x0000000006F922DD
+          BLANK_SEARCH             0x0000000006F9E11E
+          UNNAMED3                 0x0000000006F91CE3
+          TRACKING_AUTO            0x0000000006F97C83
+          TRACKING-                0x0000000006F9807F
+          TRACKING+                0x0000000006F900FF
+          X_KEY_2_POWER            0x000000000679E817        #  Was: KEY_2_POWER
+          X_KEY_2_MUTE             0x00000000CA35D827        #  Was: KEY_2_MUTE
+          X_KEY_2_VOLUME-          0x00000000CA35A857        #  Was: KEY_2_VOLUME-
+          X_KEY_2_VOLUME+          0x00000000CA3548B7        #  Was: KEY_2_VOLUME+
+          X_KEY_2_DISPLAY          0x00000000067942BD        #  Was: KEY_2_DISPLAY
+          X_KEY_2_CHANNEL          0x000000000679A857        #  Was: KEY_2_CHANNEL
+          X_KEY_2_PROGRAM-         0x00000000067918E7        #  Was: KEY_2_PROGRAM-
+          X_KEY_2_PROGRAM+         0x0000000006799867        #  Was: KEY_2_PROGRAM+
+          X_KEY_2_VTR/TV           0x0000000006796897        #  Was: KEY_2_VTR/TV
+          KEY_1                    0x000000000679C639        #  Was: 2_UNNAMED1
+          X_KEY_2_REC              0x0000000086F928D7        #  Was: KEY_2_REC
+          X_KEY_2_REW              0x00000000067950AF        #  Was: KEY_2_REW
+          X_KEY_2_PLAY             0x00000000067928D7        #  Was: KEY_2_PLAY
+          X_KEY_2_ADUB             0x00000000067934CB        #  Was: KEY_2_ADUB
+          X_KEY_2_VDUB             0x0000000006795CA3        #  Was: KEY_2_VDUB
+          X_KEY_2_FFWD             0x000000000679906F        #  Was: KEY_2_FFWD
+          X_KEY_2_PAUSE            0x00000000067958A7        #  Was: KEY_2_PAUSE
+          X_KEY_2_STOP             0x000000000679D02F        #  Was: KEY_2_STOP
+          X_KEY_2_FADV             0x00000000067908F7        #  Was: KEY_2_FADV
+          X_KEY_2_GOTO             0x000000000679619E        #  Was: KEY_2_GOTO
+          X_KEY_2_INDEX            0x000000000679A25D        #  Was: KEY_2_INDEX
+          X_KEY_2_JPAUSE           0x00000000067916E9        #  Was: KEY_2_JPAUSE
+          X_KEY_2_TITLE            0x00000000067951AE        #  Was: KEY_2_TITLE
+          X_KEY_2_FRAME+           0x000000000679BE41        #  Was: KEY_2_FRAME+
+          X_KEY_2_FRAME-           0x0000000006797E81        #  Was: KEY_2_FRAME-
+          KEY_1                    0x0000000006799669        #  Was: 2_F1
+          KEY_2                    0x000000000679D629        #  Was: 2_F2
+          KEY_3                    0x000000000679B649        #  Was: 2_F3
+          KEY_4                    0x000000000679F609        #  Was: 2_F4
+          KEY_5                    0x0000000006798E71        #  Was: 2_F5
+          KEY_6                    0x000000000679CE31        #  Was: 2_F6
+          KEY_7                    0x000000000679AE51        #  Was: 2_F7
+          KEY_1                    0x00000000067956A9        #  Was: 2_R1
+          KEY_2                    0x00000000067936C9        #  Was: 2_R2
+          KEY_3                    0x0000000006797689        #  Was: 2_R3
+          KEY_4                    0x0000000006790EF1        #  Was: 2_R4
+          KEY_5                    0x0000000006794EB1        #  Was: 2_R5
+          KEY_6                    0x0000000006792ED1        #  Was: 2_R6
+          KEY_7                    0x0000000006796E91        #  Was: 2_R7
+          X_KEY_2_MENU             0x00000000067902FD        #  Was: KEY_2_MENU
+          KEY_1                    0x000000000679B04F        #  Was: 2_1
+          KEY_2                    0x000000000679708F        #  Was: 2_2
+          KEY_3                    0x000000000679F00F        #  Was: 2_3
+          KEY_4                    0x00000000067938C7        #  Was: 2_4
+          KEY_5                    0x000000000679B847        #  Was: 2_5
+          KEY_6                    0x0000000006797887        #  Was: 2_6
+          KEY_7                    0x000000000679F807        #  Was: 2_7
+          KEY_8                    0x00000000067920DF        #  Was: 2_8
+          KEY_9                    0x000000000679A05F        #  Was: 2_9
+          KEY_0                    0x00000000067930CF        #  Was: 2_0
+          X_KEY_2_SP/LP            0x0000000006790CF3        #  Was: KEY_2_SP/LP
+          X_KEY_2_AUX              0x0000000006792CD3        #  Was: KEY_2_AUX
+          X_KEY_2_COUNT_REMAIN     0x000000000679629D        #  Was: KEY_2_COUNT_REMAIN
+          KEY_0                    0x000000000679827D        #  Was: 2_COUNT_0000
+          X_KEY_2_COUNT_TAPE_RETURN0x00000000067922DD        #  Was: KEY_2_COUNT_TAPE_RETURN
+          X_KEY_2_BLANK_SEARCH     0x000000000679E11E        #  Was: KEY_2_BLANK_SEARCH
+          KEY_2                    0x000000000679E21D        #  Was: 2_UNNAMED2
+          KEY_3                    0x0000000006791CE3        #  Was: 2_UNNAMED3
+          X_KEY_2_TRACKING_AUTO    0x0000000006797C83        #  Was: KEY_2_TRACKING_AUTO
+          X_KEY_2_TRACKING-        0x000000000679807F        #  Was: KEY_2_TRACKING-
+          X_KEY_2_TRACKING+        0x00000000067900FF        #  Was: KEY_2_TRACKING+
+          T_POWER                  0x00000000CA35E817
+          T_MUTE                   0x00000000CA35D827
+          T_VOLUME-                0x00000000CA35A857
+          T_VOLUME+                0x00000000CA3548B7
+          T_PROGRAM-               0x00000000CA3518E7
+          T_PROGRAM+               0x00000000CA359867
+          T_1                      0x00000000CA35B04F
+          T_2                      0x00000000CA35708F
+          T_3                      0x00000000CA35F00F
+          T_4                      0x00000000CA3538C7
+          T_5                      0x00000000CA35B847
+          T_6                      0x00000000CA357887
+          T_7                      0x00000000CA35F807
+          T_8                      0x00000000CA3520DF
+          T_9                      0x00000000CA35A05F
+          T_0                      0x00000000CA35609F
+          T_SP/LP                  0x00000000CA3558A7
+          T_AUX                    0x00000000CA35E01F
+      end codes
+end remote

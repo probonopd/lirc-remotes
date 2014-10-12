@@ -1,0 +1,74 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.6(serial) on Fri Jan  9 21:29:51 2004
+#
+# contributed by Raymond Courtois (raycourtois|comcast.net)
+#
+# brand:                       Toshiba
+# model no. of remote control: CT-826
+# devices being controlled by this remote: 27A51 Television
+#
+# This remote can also control a VCR and cable box using built
+# in codes.  This file only contains codes for the buttons on
+# the remote that control the TV, as the vcr and cable box
+# buttons are specific to the models the remote has been
+# programmed for.
+
+begin remote
+
+  name  Toshiba_CT-826
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       8995  4479
+  one           612  1627
+  zero          612   512
+  ptrail        614
+  repeat       8996  2205
+  pre_data_bits   16
+  pre_data       0x2FD
+  gap          107670
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x00000000000048B7        #  Was: power
+          KEY_1                    0x000000000000807F        #  Was: 1
+          KEY_2                    0x00000000000040BF        #  Was: 2
+          KEY_3                    0x000000000000C03F        #  Was: 3
+          ent                      0x000000000000E817
+          KEY_4                    0x00000000000020DF        #  Was: 4
+          KEY_5                    0x000000000000A05F        #  Was: 5
+          KEY_6                    0x000000000000609F        #  Was: 6
+          KEY_0                    0x00000000000050AF        #  Was: 100
+          KEY_7                    0x000000000000E01F        #  Was: 7
+          KEY_8                    0x00000000000010EF        #  Was: 8
+          KEY_9                    0x000000000000906F        #  Was: 9
+          KEY_0                    0x00000000000000FF        #  Was: 0
+          KEY_CHANNELUP            0x000000000000D827        #  Was: ch+
+          KEY_VOLUMEDOWN           0x0000000000007887        #  Was: vol-
+          KEY_MENU                 0x00000000000001FE        #  Was: menu
+          KEY_VOLUMEUP             0x00000000000058A7        #  Was: vol+
+          KEY_CHANNELDOWN          0x000000000000F807        #  Was: ch-
+          KEY_EXIT                 0x0000000000001AE5        #  Was: exit
+          KEY_AGAIN                0x00000000000038C7        #  Was: recall
+          tv/video                 0x000000000000F00F
+          KEY_FAVORITES            0x0000000000009867        #  Was: fav+
+          reset                    0x00000000000030CF
+          cap/text                 0x000000000000EA15
+          KEY_2                    0x000000000000C639        #  Was: 1/2
+          KEY_FAVORITES            0x000000000000B847        #  Was: fav-
+          still                    0x00000000000032CD
+          locate                   0x000000000000728D
+          swap                     0x000000000000CA35
+          pip                      0x0000000000008A75
+          mts                      0x000000000000C837
+          KEY_SLEEP                0x000000000000A857        #  Was: sleep
+          KEY_MUTE                 0x00000000000008F7        #  Was: mute
+      end codes
+
+end remote
+
+

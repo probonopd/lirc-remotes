@@ -1,0 +1,43 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.2pre2 on Mon Aug 28 17:47:42 2000
+#
+# contributed by Hans-Hermann
+#
+# brand:             unknown (universum)
+# model:             ?
+# supported devices: tv
+#
+
+begin remote
+
+  name   tvuniversum
+  flags CONST_LENGTH|RAW_CODES
+  eps            30
+  aeps          100
+
+  ptrail       2326
+  repeat     0     0
+  gap    36005
+
+      begin raw_codes
+
+          name power
+             1223    1040    6848
+
+          name channel-
+             1186    1091    1204    1040    1205    1041
+             2335
+
+          name channel+
+             1230    1036    3471    1037    2339
+
+          name vol-
+             1224    1042    1170    3331    2341
+
+          name vol+
+             1225    1043    2339    2163    2337
+
+      end raw_codes
+
+end remote

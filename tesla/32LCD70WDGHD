@@ -1,0 +1,73 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.2(default) on Tue Dec 25 22:10:51 2007
+#
+# contributed by Eduard DRUSA <ventyl86|netkosice.sk>
+#
+# brand:                       TESLA
+# model no. of remote control: remote for 32LCD70WDGHD
+# devices being controlled by this remote: TV
+#
+
+begin remote
+
+  name  Tesla_32LCD70WDGHD
+  bits           13
+  flags RC5|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           882   895
+  zero          882   895
+  plead         870
+  gap          113744
+  min_repeat      1
+  toggle_bit_mask 0x800
+
+      begin codes
+          KEY_POWER                0x104C                    #  Was: power
+          KEY_UP                   0x1054                    #  Was: up
+          KEY_DOWN                 0x1053                    #  Was: down
+          KEY_LEFT                 0x1055                    #  Was: left
+          KEY_RIGHT                0x1056                    #  Was: right
+          KEY_MENU                 0x1070                    #  Was: menu
+          KEY_INFO                 0x1052                    #  Was: info
+          KEY_OK                   0x1075                    #  Was: ok
+          no_1                     0x1041
+          no_2                     0x1042
+          no_3                     0x1043
+          no_4                     0x1044
+          no_5                     0x1045
+          no_6                     0x1046
+          no_7                     0x1047
+          no_8                     0x1048
+          no_9                     0x1049
+          no_0                     0x1040
+          pp                       0x104E
+          KEY_EXIT                 0x104A                    #  Was: exit
+          plessp                   0x1062
+          prog_dn                  0x1061
+          KEY_CHANNELUP            0x1060                    #  Was: prog_up
+          KEY_VOLUMEDOWN           0x1051                    #  Was: vol_dn
+          KEY_VOLUMEUP             0x1050                    #  Was: vol_up
+          KEY_MUTE                 0x104D                    #  Was: mute
+          KEY_POWER                0x1063                    #  Was: onetwo
+          tv_dtv                   0x107F
+          av                       0x1078
+          KEY_RED                  0x1077                    #  Was: red
+          KEY_GREEN                0x1076                    #  Was: green
+          KEY_YELLOW               0x1072                    #  Was: yellow
+          KEY_BLUE                 0x1074                    #  Was: blue
+          KEY_TEXT                 0x107C                    #  Was: teletext
+          KEY_TIME                 0x106A                    #  Was: clock
+          txt_hold                 0x1069
+          txt_hide                 0x106D
+          inner_screen             0x106E
+          screen_size              0x106B
+          pc_in                    0x106C
+          KEY_INFO                 0x106F                    #  Was: guide
+      end codes
+
+end remote
+
+

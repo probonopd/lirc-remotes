@@ -1,0 +1,82 @@
+#
+# this config file was automatically generated
+# using WinLIRC 0.6.5 (LIRC 0.6.1pre3) on Thu Mar 16 03:43:14 2006
+#
+# contributed by: Noel Smith
+#
+# brand: motorola
+# model: Millenium 4 universal remote set to
+#        cable with code 0476. This allows for
+#        programing of all keys except TV/VCR           
+# supported devices: DCT cable box, not sure what models
+#                    it was the default setting for this
+#                    remote.
+#
+
+begin remote
+
+  name  motorola
+  bits           16
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  header       9070  4409
+  one           600  4409
+  zero          600  2149
+  ptrail        600
+  repeat       9088  2192
+  gap          31053
+  toggle_bit      0
+
+
+      begin codes
+          KEY_OK                   0x0000000000008807        #  Was: ok
+          KEY_UP                   0x0000000000002C09        #  Was: up
+          KEY_DOWN                 0x000000000000AC01        #  Was: down
+          KEY_LEFT                 0x0000000000006C0E        #  Was: left
+          KEY_RIGHT                0x000000000000EC06        #  Was: right
+          KEY_INFO                 0x0000000000000C0B        #  Was: guide
+          KEY_EXIT                 0x000000000000480B        #  Was: exit
+          lock                     0x0000000000006809
+          KEY_INFO                 0x000000000000CC05        #  Was: info
+          KEY_MENU                 0x0000000000009806        #  Was: menu
+          KEY_PAGEUP               0x0000000000005C0C        #  Was: page+
+          KEY_PAGEDOWN             0x000000000000DC04        #  Was: page-
+          KEY_REWIND               0x0000000000007808        #  Was: rew
+          KEY_PLAY                 0x0000000000001C0A        #  Was: play
+          KEY_FASTFORWARD          0x000000000000B804        #  Was: ff
+          KEY_RECORD               0x0000000000008C03        #  Was: rec
+          KEY_STOP                 0x0000000000009C02        #  Was: stop
+          KEY_PAUSE                0x000000000000F800        #  Was: pause
+          KEY_HELP                 0x0000000000004C0D        #  Was: help
+          day-                     0x0000000000009C02
+          day+                     0x0000000000001C0A
+          KEY_A                    0x000000000000E801        #  Was: a
+          KEY_B                    0x000000000000E40E        #  Was: b
+          KEY_C                    0x0000000000001406        #  Was: c
+          bypass                   0x000000000000280D
+          KEY_VOLUMEUP             0x000000000000B00C        #  Was: vol+
+          KEY_VOLUMEDOWN           0x0000000000007004        #  Was: vol-
+          KEY_MUTE                 0x000000000000F008        #  Was: mute
+          KEY_CHANNELUP            0x000000000000D00A        #  Was: ch+
+          KEY_CHANNELDOWN          0x0000000000003002        #  Was: ch-
+          KEY_LAST                 0x000000000000C803        #  Was: last
+          KEY_FAVORITES            0x000000000000A805        #  Was: fav
+          KEY_1                    0x000000000000800F        #  Was: 1
+          KEY_2                    0x0000000000004007        #  Was: 2
+          KEY_3                    0x000000000000C00B        #  Was: 3
+          KEY_4                    0x0000000000002003        #  Was: 4
+          KEY_5                    0x000000000000A00D        #  Was: 5
+          KEY_6                    0x0000000000006005        #  Was: 6
+          KEY_7                    0x000000000000E009        #  Was: 7
+          KEY_8                    0x0000000000001001        #  Was: 8
+          KEY_9                    0x000000000000900E        #  Was: 9
+          KEY_0                    0x0000000000000000        #  Was: 0
+          KEY_ENTER                0x000000000000080F        #  Was: enter
+          KEY_POWER                0x0000000000005006        #  Was: power
+      end codes
+
+end remote
+
+

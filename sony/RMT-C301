@@ -1,0 +1,83 @@
+#
+# this config file was automatically generated
+# using lirc-0.5.5 on Thu Jan 24 20:42:35 2002
+#
+# contributed by Benjamin Hackl
+#
+# brand:             Sony
+# model:             RMT-C301
+# supported devices:
+#
+
+begin remote
+
+  name  RMT-C301
+  bits           13
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  header       2448   564
+  one          1214   564
+  zero          613   564
+  ptrail        613
+  post_data_bits  1
+  post_data      0x1
+  gap          21228
+  repeat_bit      0
+
+      begin codes
+          KEY_POWER                0x0000000000001508        #  Was: power
+          KEY_SLEEP                0x00000000000000C8        #  Was: sleep
+          KEY_TIME                 0x00000000000018C8        #  Was: clock
+          timer                    0x00000000000008C8
+          KEY_SLEEP                0x00000000000010C8        #  Was: standby
+          beep                     0x0000000000001D08
+          KEY_1                    0x0000000000000009        #  Was: 1
+          KEY_2                    0x0000000000001009        #  Was: 2
+          KEY_3                    0x0000000000000809        #  Was: 3
+          KEY_4                    0x0000000000001809        #  Was: 4
+          KEY_5                    0x0000000000000409        #  Was: 5
+          KEY_6                    0x0000000000001409        #  Was: 6
+          KEY_7                    0x0000000000000C09        #  Was: 7
+          KEY_8                    0x0000000000001C09        #  Was: 8
+          KEY_9                    0x0000000000000209        #  Was: 9
+          KEY_0                    0x0000000000000609        #  Was: 0
+          KEY_10CHANNELSUP         0x0000000000001609        #  Was: +10
+          band                     0x0000000000001EC9
+          KEY_MODE                 0x0000000000001108        #  Was: mode
+          auto_preset              0x00000000000003C9
+          tape_stop                0x0000000000000308
+          tape_reverseplay         0x0000000000001708
+          tape_play                0x0000000000000B08
+          tape_record              0x0000000000001F08
+          tape_dolby               0x0000000000000348
+          tape_dir_mode            0x0000000000001948
+          tape_rew                 0x0000000000001B08
+          tape_forw                0x0000000000000708
+          tape_counter_reset       0x0000000000000948
+          KEY_PLAY                 0x0000000000000989        #  Was: play
+          KEY_PAUSE                0x0000000000001389        #  Was: pause
+          KEY_STOP                 0x0000000000000389        #  Was: stop
+          KEY_EJECTCD              0x0000000000000D09        #  Was: eject
+          shuffle                  0x0000000000001589
+          KEY_PREVIOUS             0x0000000000000189        #  Was: prev
+          KEY_NEXT                 0x0000000000001189        #  Was: next
+          display                  0x0000000000000709
+          KEY_AGAIN                0x0000000000000689        #  Was: repeat
+          KEY_REWIND               0x0000000000000B89        #  Was: rew
+          forw                     0x0000000000001B89
+          line                     0x0000000000001848
+          KEY_KPPLUS               0x00000000000019C9        #  Was: +
+          KEY_KPMINUS              0x00000000000005C9        #  Was: -
+          KEY_ENTER                0x0000000000000109        #  Was: enter
+          KEY_CLEAR                0x0000000000001E09        #  Was: clear
+          bass                     0x0000000000001F88
+          sound                    0x0000000000000188
+          KEY_VOLUMEUP             0x0000000000000908        #  Was: vol+
+          KEY_VOLUMEDOWN           0x0000000000001908        #  Was: vol-
+      end codes
+
+end remote
+
+

@@ -1,0 +1,741 @@
+#
+# this config file was automatically generated
+# using lirc-0.7.0pre1(serial) on Thu Nov 14 18:05:52 2002
+#
+# contributed by Stefan Hussfeldt <lirc|marvin.on-luebeck.de>
+# modified by Klaus Huber <wineraser|gmx.de>
+#
+# brand:                       Grundig
+# model no. of remote control: RP75
+#
+# The remotecontrol has three level: Video 1, Video 2 and TV. With this config file
+# only Video 1 is recognized.
+#
+
+begin remote
+
+  name  RP75
+  bits           16
+  flags GRUNDIG
+  eps            30
+  aeps          100
+
+  header        806  2972
+  three        1139  2278
+  two           583  1806
+  one           583  1139
+  zero          583   472
+  plead        1333
+  gap          57449
+  min_repeat      1
+  toggle_bit      1
+
+
+      begin codes
+          cl                       0x000000000000267F
+          strange_arrows           0x000000000000277F
+          KEY_STOP                 0x000000000000287F        #  Was: stop
+          KEY_YELLOW               0x000000000000297F        #  Was: yellow
+          KEY_BLUE                 0x00000000000028FF        #  Was: blue
+          KEY_INFO                 0x000000000000237F        #  Was: info
+          vpt                      0x00000000000029FF
+          up_arrow                 0x00000000000023FF
+          down_arrow               0x000000000000247F
+          left_arrow               0x00000000000025FF
+          right_arrow              0x000000000000257F
+          KEY_OK                   0x00000000000024FF        #  Was: ok
+          f.fwd                    0x00000000000002FF
+          KEY_REWIND               0x000000000000037F        #  Was: rew
+          KEY_PLAY                 0x000000000000017F        #  Was: play
+          KEY_PAUSE                0x00000000000001FF        #  Was: pause
+          KEY_SLOW                 0x000000000000027F        #  Was: slow
+          KEY_RECORD               0x00000000000000FF        #  Was: rec
+          KEY_1                    0x0000000000000AFF        #  Was: 1
+          KEY_2                    0x0000000000000B7F        #  Was: 2
+          KEY_3                    0x0000000000000BFF        #  Was: 3
+          KEY_4                    0x0000000000000C7F        #  Was: 4
+          KEY_5                    0x0000000000000CFF        #  Was: 5
+          KEY_6                    0x0000000000000D7F        #  Was: 6
+          KEY_7                    0x0000000000000DFF        #  Was: 7
+          KEY_8                    0x0000000000000E7F        #  Was: 8
+          KEY_9                    0x0000000000000EFF        #  Was: 9
+          KEY_0                    0x0000000000000A7F        #  Was: 0
+          av/cv                    0x000000000000107F
+          KEY_SAT                  0x0000000000000FFF        #  Was: sat
+          dbl.arrow                0x00000000000003FF
+          hi-fi                    0x0000000000000F7F
+          inv_dbl.arrow            0x000000000000127F
+          lp                       0x000000000000057F
+          KEY_POWER                0x000000000000007F        #  Was: power
+          KEY_C                    0x000000000000117F        #  Was: c
+	  man			   0x0000000000001DFF
+	  date			   0x00000000000011FF
+      end codes
+
+end remote
+
+
+#
+# this config file was automatically generated
+# using lirc-0.6.4(serial) on Tue Sep  4 16:09:29 2001
+#
+# contributed by Hans-Georg Friedmann <hgfriedmann@gmx.net>
+#
+# brand:                       Grundig
+# model no. of remote control: RP 75 LCD
+# supported devices:           2 VCRs and a TV (Grundig) (switchable on remote)
+#
+# In TV mode this remote uses the Motorola protocol. Have a look at the
+# config file TP 720 for details.
+#
+
+begin remote
+
+  name   grundig_rp75
+  flags RAW_CODES
+  eps            30
+  aeps          100
+
+  ptrail          0
+  repeat     0     0
+  gap    57449
+
+      begin raw_codes
+
+          name 1
+          KEY_6                    2893                      #  Was: 896
+          KEY_8                    2160                      #  Was: 638
+          KEY_8                    1093                      #  Was: 638
+          KEY_7                    1736                      #  Was: 637
+          KEY_8                    443                       #  Was: 638
+          KEY_8                    1735                      #  Was: 638
+
+          name 2
+          KEY_6                    2895                      #  Was: 896
+          KEY_0                    1103                      #  Was: 1230
+          KEY_7                    1736                      #  Was: 637
+          KEY_7                    444                       #  Was: 637
+          KEY_8                    1735                      #  Was: 638
+          KEY_9                     #  Was: 639             
+
+          name 3
+          KEY_6                    2894                      #  Was: 896
+          KEY_7                    2183                      #  Was: 637
+          KEY_7                    435                       #  Was: 637
+          KEY_8                    1735                      #  Was: 638
+          KEY_8                    443                       #  Was: 638
+          KEY_7                    1736                      #  Was: 637
+
+          name 4
+          KEY_5                    2895                      #  Was: 895
+          KEY_1                    443                       #  Was: 1231
+          KEY_0                    1732                      #  Was: 1230
+          KEY_7                    1736                      #  Was: 637
+          KEY_8                    443                       #  Was: 638
+
+          name 5
+          KEY_4                    2895                      #  Was: 894
+          KEY_8                    2182                      #  Was: 638
+          KEY_9                    2190                      #  Was: 639
+          KEY_8                    443                       #  Was: 638
+          KEY_7                    1735                      #  Was: 637
+          KEY_9                     #  Was: 639             
+
+          name 6
+          KEY_6                    2895                      #  Was: 896
+          KEY_0                    443                       #  Was: 1230
+          KEY_7                    435                       #  Was: 637
+          KEY_8                    443                       #  Was: 638
+          KEY_8                    1734                      #  Was: 638
+          KEY_8                     #  Was: 638             
+
+          name 7
+          KEY_7                    2895                      #  Was: 897
+          KEY_8                    2182                      #  Was: 638
+          KEY_7                    1733                      #  Was: 637
+          KEY_8                    1735                      #  Was: 638
+          KEY_7                    443                       #  Was: 637
+          KEY_7                    1736                      #  Was: 637
+
+          name 8
+          KEY_6                    2894                      #  Was: 896
+          KEY_0                    443                       #  Was: 1230
+          KEY_9                    1098                      #  Was: 639
+          KEY_8                    444                       #  Was: 638
+          KEY_6                    1737                      #  Was: 636
+          KEY_8                     #  Was: 638             
+
+          name 9
+          KEY_5                    2894                      #  Was: 895
+          KEY_2                    2182                      #  Was: 662
+          KEY_8                    1102                      #  Was: 638
+          KEY_7                    1736                      #  Was: 637
+          KEY_1                    443                       #  Was: 661
+          KEY_7                    1736                      #  Was: 637
+
+          name 0
+          KEY_1                    2894                      #  Was: 871
+          KEY_0                    1102                      #  Was: 1230
+          KEY_7                    1098                      #  Was: 637
+          KEY_8                    443                       #  Was: 638
+          KEY_7                    1736                      #  Was: 637
+          KEY_8                     #  Was: 638             
+
+          name hi-fi
+          KEY_5                    2894                      #  Was: 895
+          KEY_7                    2183                      #  Was: 637
+          KEY_8                    443                       #  Was: 638
+          KEY_8                    435                       #  Was: 638
+          KEY_8                    443                       #  Was: 638
+          KEY_8                    1736                      #  Was: 638
+
+          name sat
+          KEY_5                    2895                      #  Was: 895
+          KEY_1                    444                       #  Was: 1231
+          KEY_7                    1735                      #  Was: 637
+          KEY_8                    444                       #  Was: 638
+          KEY_8                    1735                      #  Was: 638
+          KEY_7                     #  Was: 637             
+
+          name rec
+          KEY_6                    2895                      #  Was: 896
+          KEY_9                    2183                      #  Was: 639
+          KEY_9                    444                       #  Was: 1229
+          KEY_7                    1735                      #  Was: 637
+          KEY_2                    443                       #  Was: 662
+
+          name power
+          KEY_3                    2895                      #  Was: 893
+          KEY_0                    2191                      #  Was: 1230
+          KEY_8                    436                       #  Was: 638
+          KEY_9                    443                       #  Was: 639
+          KEY_8                    1735                      #  Was: 638
+
+          name pause
+          KEY_7                    2894                      #  Was: 897
+          KEY_9                    2181                      #  Was: 639
+          KEY_8                    436                       #  Was: 638
+          KEY_8                    443                       #  Was: 638
+          KEY_8                    1736                      #  Was: 638
+          KEY_8                     #  Was: 638             
+
+          name play
+          KEY_6                    2894                      #  Was: 896
+          KEY_0                    2190                      #  Was: 1230
+          KEY_8                    1731                      #  Was: 638
+          KEY_7                    1736                      #  Was: 637
+          KEY_8                    443                       #  Was: 638
+
+          name rew
+          KEY_6                    2894                      #  Was: 896
+          KEY_8                    2182                      #  Was: 638
+          KEY_7                    1735                      #  Was: 637
+          KEY_8                    444                       #  Was: 638
+          KEY_8                    1735                      #  Was: 638
+          KEY_9                     #  Was: 639             
+
+          name f.fwd
+          KEY_1                    2894                      #  Was: 871
+          KEY_0                    2193                      #  Was: 1230
+          KEY_8                    434                       #  Was: 638
+          KEY_8                    1734                      #  Was: 638
+          KEY_8                    444                       #  Was: 638
+
+          name slow
+          KEY_1                    2894                      #  Was: 871
+          KEY_8                    2183                      #  Was: 638
+          KEY_7                    1098                      #  Was: 637
+          KEY_7                    443                       #  Was: 637
+          KEY_8                    1735                      #  Was: 638
+          KEY_8                     #  Was: 638             
+
+          name dbl.arrow
+          KEY_4                    2894                      #  Was: 894
+          KEY_0                    2193                      #  Was: 1230
+          KEY_7                    444                       #  Was: 637
+          KEY_7                    1735                      #  Was: 637
+          KEY_8                    444                       #  Was: 638
+
+          name av/cv
+          KEY_4                    2894                      #  Was: 894
+          KEY_8                    1723                      #  Was: 638
+          KEY_0                    2191                      #  Was: 1230
+          KEY_8                    444                       #  Was: 638
+          KEY_8                    1735                      #  Was: 638
+          KEY_9                     #  Was: 639             
+
+          name lp
+          KEY_1                    2870                      #  Was: 871
+          KEY_0                    1732                      #  Was: 1230
+          KEY_8                    435                       #  Was: 638
+          KEY_8                    443                       #  Was: 638
+          KEY_8                    1736                      #  Was: 638
+          KEY_8                     #  Was: 638             
+
+          name c
+          KEY_1                    2870                      #  Was: 871
+          KEY_8                    1723                      #  Was: 638
+          KEY_9                    1732                      #  Was: 1229
+          KEY_8                    435                       #  Was: 638
+          KEY_8                    443                       #  Was: 638
+          KEY_7                    1736                      #  Was: 637
+
+          name man
+          KEY_4                    2894                      #  Was: 894
+          KEY_9                    435                       #  Was: 639
+          KEY_7                    1732                      #  Was: 637
+          KEY_7                    1736                      #  Was: 637
+          KEY_8                    443                       #  Was: 638
+          KEY_7                    1736                      #  Was: 637
+
+          name inv_dbl.arrow
+          KEY_3                    2895                      #  Was: 893
+          KEY_1                    1723                      #  Was: 661
+          KEY_0                    1102                      #  Was: 1230
+          KEY_7                    436                       #  Was: 637
+          KEY_8                    443                       #  Was: 638
+          KEY_8                    1735                      #  Was: 638
+
+          name i_inf
+          KEY_6                    2895                      #  Was: 896
+          KEY_8                    1098                      #  Was: 638
+          KEY_7                    1737                      #  Was: 637
+          KEY_7                    444                       #  Was: 637
+          KEY_7                    1736                      #  Was: 637
+          KEY_3                     #  Was: 663             
+
+          name yellow
+          KEY_4                    2894                      #  Was: 894
+          KEY_8                    1094                      #  Was: 638
+          KEY_7                    1098                      #  Was: 637
+          KEY_7                    1732                      #  Was: 637
+          KEY_7                    1735                      #  Was: 637
+          KEY_8                    443                       #  Was: 638
+
+          name blue
+          KEY_9                    2896                      #  Was: 869
+          KEY_6                    1099                      #  Was: 636
+          KEY_6                    2104                      #  Was: 716
+          KEY_6                    446                       #  Was: 636
+          KEY_7                    1737                      #  Was: 637
+          KEY_1                     #  Was: 611             
+
+          name ok
+          KEY_3                    2894                      #  Was: 893
+          KEY_7                    1094                      #  Was: 637
+          KEY_6                    438                       #  Was: 636
+          KEY_6                    1737                      #  Was: 636
+          KEY_7                    444                       #  Was: 637
+          KEY_5                    1737                      #  Was: 635
+
+          name up_arrow
+          KEY_8                    2897                      #  Was: 868
+          KEY_3                    1073                      #  Was: 663
+          KEY_1                    1762                      #  Was: 611
+          KEY_6                    446                       #  Was: 636
+          KEY_1                    1763                      #  Was: 611
+          KEY_1                     #  Was: 611             
+
+          name down_arrow
+          KEY_7                    2899                      #  Was: 867
+          KEY_1                    1120                      #  Was: 611
+          KEY_2                    461                       #  Was: 612
+          KEY_1                    463                       #  Was: 611
+          KEY_1                    470                       #  Was: 611
+          KEY_1                    1762                      #  Was: 611
+
+          name left_arrow
+          KEY_8                    2897                      #  Was: 868
+          KEY_0                    1125                      #  Was: 610
+          KEY_0                    1759                      #  Was: 610
+          KEY_1                    1763                      #  Was: 611
+          KEY_7                    445                       #  Was: 637
+          KEY_0                    1763                      #  Was: 610
+
+          name right_arrow
+          KEY_2                    2897                      #  Was: 892
+          KEY_6                    1095                      #  Was: 636
+          KEY_7                    436                       #  Was: 637
+          KEY_7                    1732                      #  Was: 637
+          KEY_5                    1737                      #  Was: 635
+          KEY_1                    471                       #  Was: 611
+
+          name cl
+          KEY_3                    2896                      #  Was: 893
+          KEY_6                    1101                      #  Was: 636
+          KEY_0                    1129                      #  Was: 610
+          KEY_0                    463                       #  Was: 610
+          KEY_1                    470                       #  Was: 611
+          KEY_0                    1762                      #  Was: 610
+
+          name vpt
+          KEY_6                    2874                      #  Was: 896
+          KEY_7                    1094                      #  Was: 637
+          KEY_8                    1097                      #  Was: 638
+          KEY_8                    443                       #  Was: 638
+          KEY_7                    1735                      #  Was: 637
+          KEY_8                    444                       #  Was: 638
+
+          name stop
+          KEY_4                    2921                      #  Was: 844
+          KEY_1                    1125                      #  Was: 611
+          KEY_1                    2210                      #  Was: 611
+          KEY_0                    470                       #  Was: 610
+          KEY_0                    1763                      #  Was: 610
+          KEY_1                     #  Was: 611             
+
+          name strange_arrows
+          KEY_0                    2896                      #  Was: 870
+          KEY_3                    1094                      #  Was: 623
+          KEY_7                    437                       #  Was: 637
+          KEY_8                    1732                      #  Was: 638
+          KEY_7                    1735                      #  Was: 637
+          KEY_7                    444                       #  Was: 637
+
+          name date
+          KEY_1                    2895                      #  Was: 871
+          KEY_7                    436                       #  Was: 637
+          KEY_9                    436                       #  Was: 639
+          KEY_6                    444                       #  Was: 636
+          KEY_7                    1735                      #  Was: 637
+          KEY_8                     #  Was: 638             
+
+      end raw_codes
+
+end remote
+
+#
+# brand:                       Grundig
+# model no. of remote control: RP 75 LCD   !!2nd Video-Mode!!
+# supported devices:           2 VCRs and a TV (Grundig) (switchable on remote)
+#
+# 	In the Video-2-Mode, only essential keys were recognized (tested with
+#	xrw), although they could be recorded with irrecord...
+#	See the mark down in the file were recognition stops.
+#	I let the definitions in the file, perhaps it works with your remote ;-)
+#
+#
+
+# mode "Video 2"
+
+begin remote
+
+  name   grundig_rp75_video2
+  flags RAW_CODES
+  eps            30
+  aeps          100
+
+  ptrail          0
+  repeat     0     0
+  gap    57449
+
+      begin raw_codes
+
+          name 1
+          KEY_1                    2895                      #  Was: 891
+          KEY_0                    1102                      #  Was: 1230
+          KEY_7                    1099                      #  Was: 637
+          KEY_8                    444                       #  Was: 638
+          KEY_7                    1098                      #  Was: 637
+          KEY_8                     #  Was: 638             
+
+          name 2
+          KEY_4                    2895                      #  Was: 894
+          KEY_8                    2182                      #  Was: 638
+          KEY_8                    435                       #  Was: 638
+          KEY_8                    435                       #  Was: 638
+          KEY_8                    1102                      #  Was: 638
+          KEY_7                    1736                      #  Was: 637
+
+          name 3
+          KEY_3                    2895                      #  Was: 893
+          KEY_8                    1102                      #  Was: 1228
+          KEY_7                    1736                      #  Was: 637
+          KEY_8                    444                       #  Was: 638
+          KEY_9                    1087                      #  Was: 649
+          KEY_8                     #  Was: 638             
+
+          name 4
+          KEY_2                    2872                      #  Was: 892
+          KEY_9                    2210                      #  Was: 609
+          KEY_1                    2218                      #  Was: 611
+          KEY_0                    471                       #  Was: 610
+          KEY_1                    1125                      #  Was: 611
+          KEY_1                     #  Was: 611             
+
+          name 5
+          KEY_3                    2895                      #  Was: 893
+          KEY_0                    444                       #  Was: 1230
+          KEY_0                    445                       #  Was: 1230
+          KEY_8                    1736                      #  Was: 638
+          KEY_7                    436                       #  Was: 637
+
+          name 6
+          KEY_3                    2895                      #  Was: 893
+          KEY_8                    2183                      #  Was: 638
+          KEY_8                    1731                      #  Was: 638
+          KEY_8                    435                       #  Was: 638
+          KEY_8                    1102                      #  Was: 638
+          KEY_7                    1736                      #  Was: 637
+
+          name 7
+          KEY_6                    2846                      #  Was: 916
+          KEY_7                    2184                      #  Was: 637
+          KEY_7                    1732                      #  Was: 637
+          KEY_7                    1737                      #  Was: 637
+          KEY_7                    1102                      #  Was: 637
+          KEY_7                    1738                      #  Was: 637
+
+          name 8
+          KEY_5                    2896                      #  Was: 895
+          KEY_0                    443                       #  Was: 1230
+          KEY_8                    1098                      #  Was: 638
+          KEY_8                    443                       #  Was: 638
+          KEY_7                    1099                      #  Was: 637
+          KEY_8                     #  Was: 638             
+
+          name 9
+          KEY_9                    2895                      #  Was: 869
+          KEY_7                    2184                      #  Was: 637
+          KEY_8                    1102                      #  Was: 638
+          KEY_8                    1736                      #  Was: 638
+          KEY_6                    1102                      #  Was: 636
+          KEY_8                    1712                      #  Was: 638
+
+          name 0
+          KEY_5                    2895                      #  Was: 895
+          KEY_1                    1102                      #  Was: 1231
+          KEY_8                    1099                      #  Was: 638
+          KEY_7                    443                       #  Was: 637
+          KEY_9                    1097                      #  Was: 639
+          KEY_8                     #  Was: 638             
+
+          name hi-fi
+          KEY_8                    2874                      #  Was: 888
+          KEY_9                    445                       #  Was: 1229
+          KEY_0                    1763                      #  Was: 610
+          KEY_1                    472                       #  Was: 611
+          KEY_5                    1101                      #  Was: 635
+          KEY_1                     #  Was: 611             
+
+          name sat
+          KEY_8                    2848                      #  Was: 918
+          KEY_6                    2184                      #  Was: 636
+          KEY_6                    444                       #  Was: 636
+          KEY_7                    1737                      #  Was: 637
+          KEY_7                    1103                      #  Was: 637
+          KEY_7                    1736                      #  Was: 637
+
+          name rec
+          KEY_3                    2894                      #  Was: 893
+          KEY_0                    2191                      #  Was: 1230
+          KEY_7                    1735                      #  Was: 637
+          KEY_8                    1103                      #  Was: 638
+          KEY_8                    1735                      #  Was: 638
+
+          name power
+          KEY_4                    2894                      #  Was: 894
+          KEY_9                    2182                      #  Was: 639
+          KEY_0                    1731                      #  Was: 1230
+          KEY_8                    1736                      #  Was: 638
+          KEY_8                    435                       #  Was: 638
+
+          name pause
+          KEY_5                    2872                      #  Was: 895
+          KEY_0                    2192                      #  Was: 1230
+          KEY_8                    444                       #  Was: 638
+          KEY_7                    1736                      #  Was: 637
+          KEY_9                    435                       #  Was: 639
+
+          name play
+          KEY_4                    2895                      #  Was: 894
+          KEY_7                    2183                      #  Was: 637
+          KEY_8                    434                       #  Was: 638
+          KEY_8                    443                       #  Was: 638
+          KEY_8                    1097                      #  Was: 638
+          KEY_7                     #  Was: 637             
+
+          name rew
+          KEY_4                    2895                      #  Was: 894
+          KEY_0                    2191                      #  Was: 1230
+          KEY_8                    1732                      #  Was: 638
+          KEY_7                    1736                      #  Was: 637
+          KEY_8                    435                       #  Was: 638
+
+          name f.fwd
+          KEY_1                    2872                      #  Was: 891
+          KEY_8                    2183                      #  Was: 638
+          KEY_6                    1099                      #  Was: 636
+          KEY_8                    443                       #  Was: 638
+          KEY_8                    1098                      #  Was: 638
+          KEY_8                     #  Was: 638             
+
+          name slow
+          KEY_3                    2896                      #  Was: 893
+          KEY_0                    2192                      #  Was: 1230
+          KEY_7                    1724                      #  Was: 637
+          KEY_7                    1735                      #  Was: 637
+          KEY_7                    436                       #  Was: 637
+
+# down here buttons don't get recognized by lircd anymore...
+#
+# At least not with the remote in Video 2 mode.
+#
+# If you press a button in Video 1 mode repeatedly, one time Video 1 codes,
+# the other time Video 2 codes are recognized. Very interesting...
+# Still, it doesn't work with all keys... but see yourself ;-)
+
+          name dbl.arrow
+          KEY_3                    2872                      #  Was: 893
+          KEY_8                    2183                      #  Was: 638
+          KEY_7                    1735                      #  Was: 637
+          KEY_7                    444                       #  Was: 637
+          KEY_8                    1098                      #  Was: 638
+          KEY_7                     #  Was: 637             
+
+          name inv_dbl.arrow
+          KEY_6                    18110                     #  Was: 176
+          KEY_0                    1731                      #  Was: 1230
+          KEY_9                    1104                      #  Was: 1229
+          KEY_6                    436                       #  Was: 636
+          KEY_6                    1104                      #  Was: 636
+          KEY_8                    1736                      #  Was: 638
+
+          name man
+          KEY_4                    2895                      #  Was: 894
+          KEY_7                    1724                      #  Was: 637
+          KEY_7                    1737                      #  Was: 637
+          KEY_7                    444                       #  Was: 637
+          KEY_7                    1714                      #  Was: 637
+          KEY_7                    444                       #  Was: 637
+
+          name c
+          KEY_9                    2895                      #  Was: 869
+          KEY_8                    436                       #  Was: 638
+          KEY_6                    436                       #  Was: 636
+          KEY_8                    444                       #  Was: 638
+          KEY_8                    1736                      #  Was: 638
+          KEY_7                     #  Was: 637             
+
+          name lp
+          KEY_2                    2894                      #  Was: 892
+          KEY_5                    2187                      #  Was: 635
+          KEY_7                    1731                      #  Was: 637
+          KEY_7                    436                       #  Was: 637
+          KEY_8                    445                       #  Was: 638
+          KEY_7                    1736                      #  Was: 637
+
+          name av/cv
+          KEY_4                    2895                      #  Was: 894
+          KEY_7                    436                       #  Was: 637
+          KEY_0                    1730                      #  Was: 1230
+          KEY_7                    1736                      #  Was: 637
+          KEY_7                    443                       #  Was: 557
+
+          name up_arrow
+          KEY_9                    2874                      #  Was: 869
+          KEY_7                    1095                      #  Was: 637
+          KEY_0                    445                       #  Was: 1230
+          KEY_7                    1736                      #  Was: 637
+          KEY_8                    443                       #  Was: 638
+          KEY_7                    1739                      #  Was: 637
+
+          name i_inf
+          KEY_7                    2925                      #  Was: 867
+          KEY_0                    1125                      #  Was: 610
+          KEY_4                    1739                      #  Was: 634
+          KEY_5                    446                       #  Was: 635
+          KEY_0                    1763                      #  Was: 610
+          KEY_1                     #  Was: 611             
+
+          name blue
+          KEY_9                    2896                      #  Was: 869
+          KEY_8                    1094                      #  Was: 638
+          KEY_7                    1099                      #  Was: 637
+          KEY_8                    1735                      #  Was: 638
+          KEY_7                    444                       #  Was: 637
+          KEY_7                    1736                      #  Was: 637
+
+          name right_arrow
+          KEY_2                    2894                      #  Was: 892
+          KEY_7                    1098                      #  Was: 637
+          KEY_7                    1732                      #  Was: 637
+          KEY_8                    436                       #  Was: 638
+          KEY_8                    443                       #  Was: 638
+          KEY_8                    1735                      #  Was: 638
+
+          name ok
+          KEY_1                    2895                      #  Was: 891
+          KEY_8                    1094                      #  Was: 638
+          KEY_8                    435                       #  Was: 638
+          KEY_7                    1735                      #  Was: 637
+          KEY_8                    443                       #  Was: 638
+          KEY_7                    1736                      #  Was: 637
+
+          name left_arrow
+          KEY_4                    2894                      #  Was: 894
+          KEY_7                    1098                      #  Was: 637
+          KEY_8                    1733                      #  Was: 638
+          KEY_8                    1736                      #  Was: 638
+          KEY_8                    443                       #  Was: 638
+          KEY_7                    1736                      #  Was: 637
+
+          name yellow
+          KEY_2                    2895                      #  Was: 892
+          KEY_8                    1094                      #  Was: 638
+          KEY_7                    1098                      #  Was: 637
+          KEY_7                    1732                      #  Was: 637
+          KEY_8                    1736                      #  Was: 638
+          KEY_8                    443                       #  Was: 638
+
+          name cl
+          KEY_0                    2898                      #  Was: 890
+          KEY_7                    1099                      #  Was: 637
+          KEY_6                    1104                      #  Was: 636
+          KEY_7                    438                       #  Was: 637
+          KEY_7                    444                       #  Was: 637
+          KEY_7                    1736                      #  Was: 637
+
+          name down_arrow
+          KEY_1                    2895                      #  Was: 871
+          KEY_7                    1094                      #  Was: 637
+          KEY_7                    435                       #  Was: 637
+          KEY_1                    434                       #  Was: 641
+          KEY_8                    444                       #  Was: 638
+          KEY_7                    1737                      #  Was: 637
+
+          name vpt
+          KEY_4                    2895                      #  Was: 894
+          KEY_5                    1099                      #  Was: 635
+          KEY_7                    1725                      #  Was: 637
+          KEY_7                    1736                      #  Was: 637
+          KEY_8                    444                       #  Was: 638
+          KEY_8                    1736                      #  Was: 638
+
+          name date
+          KEY_0                    2896                      #  Was: 890
+          KEY_5                    1722                      #  Was: 635
+          KEY_9                    1732                      #  Was: 1229
+          KEY_7                    1736                      #  Was: 637
+          KEY_7                    444                       #  Was: 637
+          KEY_7                    1736                      #  Was: 637
+
+          name strange_arrows
+          KEY_2                    2894                      #  Was: 892
+          KEY_7                    1099                      #  Was: 637
+          KEY_7                    444                       #  Was: 637
+          KEY_8                    436                       #  Was: 638
+          KEY_7                    444                       #  Was: 637
+          KEY_6                    1737                      #  Was: 636
+
+          name stop
+          KEY_1                    2897                      #  Was: 891
+          KEY_6                    1095                      #  Was: 636
+          KEY_6                    1100                      #  Was: 636
+          KEY_1                    462                       #  Was: 611
+          KEY_6                    445                       #  Was: 636
+          KEY_7                    1737                      #  Was: 637
+
+      end raw_codes
+
+end remote

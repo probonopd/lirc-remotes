@@ -1,0 +1,37 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.5(default) on Tue Jan  5 19:29:56 2010
+#
+# contributed by
+#
+# brand:                       Sony
+# model no. of remote control: RM-PJP1
+# devices being controlled by this remote: Sony projector
+#
+
+begin remote
+
+  name  Sony_RM-PJP1
+  bits            4
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       2395   587
+  one          1157   637
+  zero          560   637
+  post_data_bits  16
+  post_data      0xEB54
+  gap          45148
+  min_repeat      2
+  toggle_bit_mask 0x0
+
+      begin codes
+          KEY_B                    0xB
+          KEY_RIGHT                0xD
+          KEY_LEFT                 0x3
+      end codes
+
+end remote
+
+

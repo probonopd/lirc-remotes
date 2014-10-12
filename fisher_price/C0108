@@ -1,0 +1,32 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.2-CVS(default) on Fri Sep 21 22:56:39 2007
+#
+# contributed by Jiri Stark
+#
+# brand:       Fisher Price 
+# model no. of remote control: C0108
+# devices being controlled by this remote: Nature Bearries Butterfly Dreams (mobile for newbornbabies)
+# (http://www.fisher-price.com/no/products/inst.asp?id=33762)
+
+begin remote
+
+  name   Fisher_Price_C0108
+  flags RAW_CODES|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  ptrail        887
+  repeat     0     0
+  gap    113152
+
+      begin raw_codes
+
+          name nota
+              121     839     864     824     864     821
+              864     822     891
+
+      end raw_codes
+
+end remote
+

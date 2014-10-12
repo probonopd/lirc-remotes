@@ -1,0 +1,64 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.2(default) on Thu Apr 10 10:42:39 2008
+#
+# contributed by
+#
+# brand:                       PHILIPS
+# model no. of remote control: RC-2012
+# devices being controlled by this remote: DVP5982
+#
+
+begin remote
+
+  name  Philips_RC-2012
+  bits            8
+  flags RC6|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       2667   889
+  one           444   444
+  zero          444   444
+  pre_data_bits   13
+  pre_data       0xEFB
+  gap          108000
+  toggle_bit_mask 0x10000
+  rc6_mask    0x10000
+
+      begin codes
+          KEY_POWER                0x38                      #  Was: on/off
+          KEY_MENU                 0x2E                      #  Was: menu
+          display                  0xF0
+          KEY_UP                   0xA7                      #  Was: up
+          KEY_LEFT                 0xA5                      #  Was: left
+          KEY_OK                   0xA3                      #  Was: ok
+          KEY_RIGHT                0xA4                      #  Was: right
+          KEY_DOWN                 0xA6                      #  Was: down
+          KEY_TITLE                0x7C                      #  Was: title
+          KEY_SETUP                0x7D                      #  Was: setup
+          KEY_PREVIOUS             0xDE                      #  Was: prev
+          KEY_NEXT                 0xDF                      #  Was: next
+          KEY_PLAYPAUSE            0xD3                      #  Was: play/pause
+          KEY_STOP                 0xCE                      #  Was: stop
+          usb                      0x81
+          KEY_1                    0xFE                      #  Was: 1
+          KEY_2                    0xFD                      #  Was: 2
+          KEY_3                    0xFC                      #  Was: 3
+          KEY_4                    0xFB                      #  Was: 4
+          KEY_5                    0xFA                      #  Was: 5
+          KEY_6                    0xF9                      #  Was: 6
+          KEY_7                    0xF8                      #  Was: 7
+          KEY_8                    0xF7                      #  Was: 8
+          KEY_9                    0xF6                      #  Was: 9
+          KEY_SUBTITLE             0xB4                      #  Was: subtitle
+          KEY_0                    0xFF                      #  Was: 0
+          KEY_AUDIO                0xB1                      #  Was: audio
+          KEY_ZOOM                 0x08                      #  Was: zoom
+          KEY_AGAIN                0xE2                      #  Was: repeat
+          repeat-a-b               0xC4
+      end codes
+
+end remote
+
+

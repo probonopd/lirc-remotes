@@ -1,0 +1,132 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.5(serial) on Mon Apr  1 16:02:49 2002
+#
+# contributed by massy@gandalf.sssup.it
+#
+# brand:                       			Sony
+# model no. of remote control: 			Sony RMT-V223
+# devices being controlled by this remote: 	VTR SLV-E730 Pal
+#
+
+begin remote
+
+  name  RMT-V223
+  bits           14
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       2517   501
+  one          1257   539
+  zero          664   539
+  ptrail       1246
+  gap          44966
+  min_repeat      1
+  toggle_bit      0
+
+
+      begin codes
+          WIDE                     0x0000000000002F12
+          SHOWVIEW                 0x00000000000001AE
+          SET                      0x00000000000021AE
+          KEY_AGAIN                0x00000000000036AE        #  Was: REPLAY
+
+          KEY_PLAY                 0x000000000000062E        #  Was: PLAY
+          KEY_STOP                 0x0000000000003C2E        #  Was: STOP
+          KEY_PAUSE                0x0000000000001C2E        #  Was: PAUSE
+          KEY_REWIND               0x000000000000022E        #  Was: REW
+          KEY_FASTFORWARD          0x000000000000222E        #  Was: FF
+      end codes
+
+end remote
+
+begin remote
+
+  name  RMT-V223
+  bits           11
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       2504   509
+  one          1270   528
+  zero          672   528
+  ptrail        661
+  gap          44967
+  min_repeat      2
+  toggle_bit      0
+
+
+      begin codes
+          KEY_EJECTCD              0x000000000000034D        #  Was: EJECT
+          KEY_POWER                0x000000000000054D        #  Was: ON/STANDBY
+          COUNTERRESET             0x000000000000031D
+          COUNTERREMAIN            0x000000000000041D
+          AUDIOMONITOR             0x000000000000074D
+          KEY_CLEAR                0x000000000000063D        #  Was: CLEAR
+          x2                       0x000000000000014D
+          TV/VIDEO                 0x00000000000002AD
+          DISPLAY                  0x00000000000002DD
+
+          KEY_1                    0x000000000000000D        #  Was: 1
+          KEY_2                    0x000000000000040D        #  Was: 2
+          KEY_3                    0x000000000000020D        #  Was: 3
+          KEY_4                    0x000000000000060D        #  Was: 4
+          KEY_5                    0x000000000000010D        #  Was: 5
+          KEY_6                    0x000000000000050D        #  Was: 6
+          KEY_7                    0x000000000000030D        #  Was: 7
+          KEY_8                    0x000000000000070D        #  Was: 8
+          KEY_9                    0x000000000000008D        #  Was: 9
+          KEY_0                    0x000000000000048D        #  Was: 0
+
+          QUICKTIMER               0x000000000000025D
+          INPUTSELECT              0x000000000000079D
+          SP/LP                    0x00000000000000DD
+          KEY_102ND                0x000000000000028D        #  Was: -/--
+          KEY_RECORD               0x00000000000005CD        #  Was: REC
+          KEY_SLOW                 0x000000000000062D        #  Was: SLOW
+          KEY_CHANNELUP            0x000000000000004D        #  Was: PROG+
+          KEY_CHANNELDOWN          0x000000000000044D        #  Was: PROG-
+          PREVINDEX                0x000000000000075D
+          KEY_NEXT                 0x000000000000035D        #  Was: NEXTINDEX
+          KEY_MENU                 0x000000000000059D        #  Was: MENU
+
+
+          TV_ON/STANDBY               0x0000000000000548
+          TV_VOL+                     0x0000000000000248
+          TV_VOL-                     0x0000000000000648
+          TV_RED                      0x000000000000019C
+          TV_GREEN                    0x000000000000059C
+          TV_YELLOW                   0x000000000000039C
+          TV_BLUE                     0x000000000000079C
+          TV_AUDIOMONITOR             0x0000000000000748
+          TV_TV/VIDEO                 0x0000000000000528
+          TV_TXT_DISPLAY              0x00000000000002E8
+          TV_1                        0x0000000000000008
+          TV_2                        0x0000000000000408
+          TV_3                        0x0000000000000208                  
+	  TV_4                        0x0000000000000608
+          TV_5                        0x0000000000000108
+          TV_6                        0x0000000000000508
+          TV_TV                       0x00000000000000E8
+          TV_7                        0x0000000000000308
+          TV_8                        0x0000000000000708
+          TV_9                        0x0000000000000088
+          TV_TELETEXT                 0x00000000000007E8
+          TV_-/--                     0x00000000000005C8
+          TV_0                        0x0000000000000488
+          TV_PROG+                    0x0000000000000048
+          TV_PROG-                    0x0000000000000448
+          TV_MENU                     0x0000000000000038
+          TV_UP                       0x0000000000000178
+          TV_DOWN                     0x0000000000000578
+          TV_OK                       0x0000000000000538
+          TV_LEFT                     0x0000000000000168
+          TV_RIGHT                    0x0000000000000668
+      end codes
+
+end remote
+
+
+

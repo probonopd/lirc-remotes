@@ -1,0 +1,77 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.4a(default) on Tue Nov 17 14:37:10 2009
+#
+# contributed by
+#
+# brand:                       Microsoft
+# model no. of remote control: XBOX Media Center Extender
+# devices being controlled by this remote: XBOX
+#
+
+begin remote
+
+  name  Xbox_MCE
+  bits           24
+  flags SPACE_ENC
+  eps            30
+  aeps          100
+
+  header       4014  3970
+  one           526  1970
+  zero          526   967
+  ptrail        523
+  gap          7951
+  toggle_bit_mask 0x0
+
+      begin codes
+          KEY_PLAY                 0x515AEA                  #  Was: Play
+          KEY_PAUSE                0x519AE6                  #  Was: Pause
+          KEY_STOP                 0x51FAE0                  #  Was: Stop
+          KEY_FORWARD              0x51CAE3                  #  Was: Forward
+          KEY_REWIND               0x51DAE2                  #  Was: Rewind
+          KEY_LEFT                 0x556AA9                  #  Was: Left
+          KEY_RIGHT                0x557AA8                  #  Was: Right
+          KEY_UP                   0x559AA6                  #  Was: Up
+          KEY_DOWN                 0x558AA7                  #  Was: Down
+          KEY_OK                   0x5F4A0B                  #  Was: OK
+          KEY_ENTER                0x5F4A0B                  #  Was: Enter
+          KEY_CHANNELUP            0x52DAD2                  #  Was: ChanUp
+          KEY_CHANNELDOWN          0x52CAD3                  #  Was: ChanDown
+          KEY_BACK                 0x527AD8                  #  Was: Back
+          KEY_MENU                 0x508AF7                  #  Was: DVDMenu
+          KEY_INFO                 0x51AAE5                  #  Was: Guide
+          More                     0x53CAC3
+          KEY_NEXT                 0x520ADF                  #  Was: Skip
+          KEY_AGAIN                0x522ADD                  #  Was: Replay
+          Xbox                     0x52AAD5
+          KEY_HOME                 0x5DAA25                  #  Was: Home
+          KEY_RECORD               0x517AE8                  #  Was: Record
+          KEY_RECORD               0x59AA65                  #  Was: RecordedTV
+          KEY_TV                   0x5E7A18                  #  Was: LiveTV
+          KEY_VOLUMEUP             0x52FAD0                  #  Was: VolUp
+          KEY_VOLUMEDOWN           0x52EAD1                  #  Was: VolDown
+          KEY_MUTE                 0x53FAC0                  #  Was: Mute
+          KEY_POWER                0x53BAC4                  #  Was: Power
+          KEY_VIDEO                0x5F8A07                  #  Was: Videos
+          KEY_AUDIO                0x5F6A09                  #  Was: Music
+          KEY_IMAGES               0x5F9A06                  #  Was: Pictures
+          KEY_TV                   0x5CEA31                  #  Was: TV
+          KEY_1                    0x531ACE                  #  Was: One
+          KEY_2                    0x532ACD                  #  Was: Two
+          KEY_3                    0x533ACC                  #  Was: Three
+          KEY_4                    0x534ACB                  #  Was: Four
+          KEY_5                    0x535ACA                  #  Was: Five
+          KEY_6                    0x536AC9                  #  Was: Six
+          KEY_7                    0x537AC8                  #  Was: Seven
+          KEY_8                    0x538AC7                  #  Was: Eight
+          KEY_9                    0x539AC6                  #  Was: Nine
+          KEY_0                    0x530ACF                  #  Was: Zero
+          KEY_NUMERIC_STAR         0x5D7A28                  #  Was: Star
+          KEY_NUMERIC_POUND        0x5D6A29                  #  Was: Hash
+          KEY_CLEAR                0x506AF9                  #  Was: Clear
+      end codes
+
+end remote
+
+

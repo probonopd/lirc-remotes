@@ -1,0 +1,51 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.3(default) on Wed Oct  8 18:50:24 2008
+#
+# contributed by Lifter
+#
+# brand: Samsung
+# model no. of remote control: unknown, no number found
+# devices being controlled by this remote: RCD-M70 (portable CD and cassete player)
+#
+
+begin remote
+
+  name  Samsung_RCD-M70
+  bits           16
+  flags SPACE_ENC
+  eps            30
+  aeps          100
+
+  header       3317  1901
+  one           436  1152
+  zero          436   433
+  ptrail        382
+  repeat       3314  3326
+  pre_data_bits   32
+  pre_data       0xC2CA8020
+  gap          42852
+  repeat_gap   42861
+  toggle_bit_mask 0x0
+
+      begin codes
+          KEY_POWER                0x0020                    #  Was: on
+          eq                       0xCA30
+          sound                    0x4AD0
+          band                     0x4060
+          KEY_RADIO                0xC810                    #  Was: fm
+          KEY_SLEEP                0xE688                    #  Was: sleep
+          preset                   0x8C10
+          program                  0x48E0
+          KEY_CD                   0xA4D0                    #  Was: cd
+          tuning_left              0x4C90
+          tuning_right             0x4410
+          KEY_VOLUMEUP             0x0460                    #  Was: volume_up
+          KEY_VOLUMEDOWN           0x0CE0                    #  Was: volume_down
+          KEY_PLAY                 0x84E0                    #  Was: play
+          KEY_STOP                 0xA090                    #  Was: stop
+      end codes
+
+end remote
+
+

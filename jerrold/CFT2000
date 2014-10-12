@@ -1,0 +1,44 @@
+#
+# contributed by Paul Manning
+#
+#
+#
+# brand:Jerrold/General Instruments/Motorola
+# model no. of remote control: ??
+# devices being controlled by this remote:
+# CFT2000
+begin remote
+ name  CFT2000
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       8862  4470
+  one           526  2183
+  zero          526  4418
+  ptrail        526
+  gap          100025
+  toggle_bit      0
+  frequency    38000
+
+      begin codes
+          KEY_CHANNELUP            0x0000000000002FF5        #  Was: CH+
+          KEY_CHANNELDOWN          0x000000000000CFFD        #  Was: CH-
+          KEY_A                    0x00000000000017FE        #  Was: A
+          KEY_B                    0x0000000000001BF1        #  Was: B
+          KEY_C                    0x000000000000EBF9        #  Was: C
+          KEY_1                    0x0000000000007FF0        #  Was: 1
+          KEY_2                    0x000000000000BFF8        #  Was: 2
+          KEY_3                    0x0000000000003FF4        #  Was: 3
+          KEY_4                    0x000000000000DFFC        #  Was: 4
+          KEY_5                    0x0000000000005FF2        #  Was: 5
+          KEY_6                    0x0000000000009FFA        #  Was: 6
+          KEY_7                    0x0000000000001FF6        #  Was: 7
+          KEY_8                    0x000000000000EFFE        #  Was: 8
+          KEY_9                    0x0000000000006FF1        #  Was: 9
+          KEY_0                    0x000000000000FFFF        #  Was: 0
+      end codes
+
+end remote
+                                                                                

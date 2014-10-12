@@ -1,0 +1,78 @@
+#
+# this config file was automatically generated
+# using lirc-0.7.0pre4(serial) on Sun Feb 13 11:22:43 2005
+#
+# contributed by
+#
+# brand:                       Philips
+# model no. of remote control: SBC RU 760
+# devices being controlled by this remote:
+# Mode VCR Code:0001
+# Loud+/- assosiated with AMP
+#
+
+begin remote
+
+  name  Philips_SBC_RU_760
+  bits           13
+  flags RC5|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           969   804
+  zero          969   804
+  plead        1000
+  gap          113221
+  toggle_bit      2
+
+
+      begin codes
+          KEY_POWER                0x000000000000114C        #  Was: On
+          KEY_INFO                 0x000000000000114F        #  Was: Guide
+          Guide-shift              0x000000000000114F
+          KEY_SUBTITLE             0x0000000000001171        #  Was: Subtitle
+          Chapter                  0x0000000000000145
+          KEY_AUDIO                0x000000000000115D        #  Was: Audio
+          Audio-shift              0x000000000000114B
+          KEY_TITLE                0x000000000000117C        #  Was: Title
+          Title-shift              0x000000000000117D
+          KEY_MENU                 0x0000000000000152        #  Was: Menu
+          Menu-shift               0x000000000000017D
+          KEY_BACK                 0x0000000000000153        #  Was: Back
+          KEY_UP                   0x0000000000000150        #  Was: UP
+          KEY_DOWN                 0x0000000000000151        #  Was: Down
+          KEY_LEFT                 0x0000000000000155        #  Was: Left
+          KEY_RIGHT                0x0000000000000156        #  Was: Right
+          KEY_OK                   0x0000000000000157        #  Was: OK
+          OK-shift                 0x000000000000114E
+          AV                       0x0000000000001178
+          PIP                      0x000000000000117A
+          Loud+                    0x0000000000001410
+          Loud-                    0x0000000000001411
+          KEY_CHANNELUP            0x0000000000001160        #  Was: Prog+
+          KEY_CHANNELDOWN          0x0000000000001161        #  Was: Prog-
+          KEY_MUTE                 0x000000000000140D        #  Was: Mute
+          KEY_1                    0x0000000000001141        #  Was: 1
+          KEY_2                    0x0000000000001142        #  Was: 2
+          KEY_3                    0x0000000000001143        #  Was: 3
+          KEY_4                    0x0000000000001144        #  Was: 4
+          KEY_5                    0x0000000000001145        #  Was: 5
+          KEY_6                    0x0000000000001146        #  Was: 6
+          KEY_7                    0x0000000000001147        #  Was: 7
+          KEY_8                    0x0000000000001148        #  Was: 8
+          KEY_9                    0x0000000000001149        #  Was: 9
+          KEY_0                    0x0000000000001140        #  Was: 0
+          KEY_102ND                0x000000000000114A        #  Was: -/--
+          KEY_GREEN                0x0000000000001176        #  Was: Green
+          KEY_RED                  0x0000000000001172        #  Was: Red
+          KEY_BLUE                 0x0000000000001174        #  Was: Blue
+          KEY_YELLOW               0x0000000000001170        #  Was: Yellow
+          KEY_PLAY                 0x0000000000001175        #  Was: Start
+          Red-shift-Rewind         0x0000000000001165
+          Blue-shift-Forward       0x0000000000001166
+          Yellow-shift-Pause       0x0000000000001169
+          Start-shift-Record       0x0000000000001177
+      end codes
+
+end remote
+

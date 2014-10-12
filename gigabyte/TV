@@ -1,0 +1,60 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.4pre2(emulation) on Sun Apr  5 00:10:49 2009
+#
+# contributed by
+#
+# brand:                       Gigabyte
+# model no. of remote control:
+# devices being controlled by this remote: gigabyte global tv tuner card
+#
+
+begin remote
+
+   name  Gigabyte_TV
+   bits           32
+   flags SPACE_ENC|CONST_LENGTH
+   eps            30
+   aeps          100
+
+   header       9019  4411
+   one           608  1632
+   zero          608   507
+   ptrail        598
+   gap          107431
+   toggle_bit_mask 0x0
+
+       begin codes
+          KEY_POWER                0x61D640BF                #  Was: power
+          KEY_1                    0x61D6E817                #  Was: 1
+          KEY_2                    0x61D650AF                #  Was: 2
+          KEY_3                    0x61D630CF                #  Was: 3
+          KEY_4                    0x61D62AD5                #  Was: 4
+          KEY_5                    0x61D6AA55                #  Was: 5
+          KEY_6                    0x61D66A95                #  Was: 6
+          KEY_7                    0x61D6EA15                #  Was: 7
+          KEY_8                    0x61D61AE5                #  Was: 8
+          KEY_9                    0x61D69A65                #  Was: 9
+          KEY_0                    0x61D618E7                #  Was: 0
+          KEY_UP                   0x61D6DA25                #  Was: up
+          KEY_DOWN                 0x61D6B04F                #  Was: down
+          KEY_LEFT                 0x61D6D827                #  Was: left
+          KEY_RIGHT                0x61D658A7                #  Was: right
+          KEY_CHANNELUP            0x61D6807F                #  Was: ch+
+          KEY_CHANNELDOWN          0x61D6609F                #  Was: ch-
+          KEY_VOLUMEUP             0x61D6E01F                #  Was: vol+
+          KEY_VOLUMEDOWN           0x61D620DF                #  Was: vol-
+           lastCH                   0x61D69867
+          KEY_OK                   0x61D65AA5                #  Was: ok
+          KEY_BACK                 0x61D6708F                #  Was: back
+          KEY_EPG                  0x61D648B7                #  Was: epg
+          KEY_MUTE                 0x61D6A05F                #  Was: mute
+          KEY_VIDEO                0x61D638C7                #  Was: videos
+          KEY_RADIO                0x61D6B847                #  Was: fm
+          KEY_TV                   0x61D6F807                #  Was: tv
+           snapshot                 0x61D67887
+       end codes
+
+end remote
+
+

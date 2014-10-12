@@ -1,0 +1,76 @@
+
+# this config file was automatically generated
+# using lirc-0.8.5(default) on Wed Jun 16 16:45:54 2010
+#
+# contributed by wippbox|gmx.net
+#
+# brand:                       JVC
+# model no. of remote control:
+# devices being controlled by this remote: LP20878-016 VCR/TV
+#
+
+begin remote
+
+  name  JVC_LP20878-016-VCR_TV
+  bits           16
+  flags SPACE_ENC|NO_HEAD_REP|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       8378  4178
+  one           510  1575
+  zero          510   557
+  ptrail        510
+  gap          46935
+  toggle_bit_mask 0x0
+
+      begin codes
+          KEY_POWER                0xC2D0                    #  Was: POWER
+          TV_POWER                 0xC0E8
+          KEY_1                    0xC284                    #  Was: 1
+          KEY_2                    0xC244                    #  Was: 2
+          KEY_3                    0xC2C4                    #  Was: 3
+          KEY_4                    0xC224                    #  Was: 4
+          KEY_5                    0xC2A4                    #  Was: 5
+          KEY_6                    0xC264                    #  Was: 6
+          KEY_7                    0xC2E4                    #  Was: 7
+          KEY_8                    0xC214                    #  Was: 8
+          KEY_9                    0xC294                    #  Was: 9
+          KEY_0                    0xC2CC                    #  Was: 0
+          KEY_X                    0xC26C                    #  Was: X
+          TV/VCR                   0xC2C8
+          TV_TV/VCR                0xC0C8
+          KEY_CHANNELUP            0xC298                    #  Was: PR+
+          KEY_CHANNELDOWN          0xC218                    #  Was: PR-
+          PROG                     0xC283
+          FORWAR                   0xC260
+          KEY_REWIND               0xC2E0                    #  Was: REWIND
+          KEY_RECORD               0xC233                    #  Was: RECORD
+          KEY_PLAY                 0xC230                    #  Was: PLAY
+          KEY_STOP                 0xC2C0                    #  Was: STOP
+          KEY_PAUSE                0xC2B0                    #  Was: PAUSE
+          KEY_MENU                 0xC2EC                    #  Was: MENU
+          KEY_OK                   0xC23C                    #  Was: OK
+          KEY_LEFT                 0xC2A8                    #  Was: LEFT
+          KEY_RIGHT                0xC228                    #  Was: RIGHT
+#         UP identical to PR+
+#         DOWN identical to PR-
+          TV_UP                    0xC098
+          TV_DOWN                  0xC018
+          KEY_AUDIO                0xC2E8                    #  Was: AUDIO
+          TV_AUDIO                 0xC038
+          RE-IEW                   0xC2C3
+          --:--                    0xC21C
+          TIMER                    0xC2AC
+          START+                   0xC213
+          START-                   0xC293
+          STOP+                    0xC253
+          STOP-                    0xC2D3
+          DATE+                    0xC263
+          DATE-                    0xC2E3
+          TIMER?                   0xC2BC
+          I/II                     0xC28C
+          X_KEY_0_SEC              0xC269                    #  Was: KEY_0_SEC
+      end codes
+
+end remote

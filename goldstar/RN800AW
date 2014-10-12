@@ -1,0 +1,48 @@
+#
+# this config file was automatically generated
+# using WinLIRC 0.6.4 (LIRC 0.6.1pre3) on Fri May 23 12:14:04 2003
+#
+# contributed by
+#
+# brand:             Goldstar
+# model:             RN800AW
+# supported devices:
+#
+
+begin remote
+
+  name  RN800AW
+  bits           16
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  header       9078  4445
+  one           617   499
+  zero          617  1631
+  ptrail        617
+  repeat       9085  2194
+  pre_data_bits   16
+  pre_data       0x8976
+  gap          39809
+  toggle_bit      0
+
+
+      begin codes
+          KEY_PLAY                 0x000000000000EF10        #  Was: PLAY
+          KEY_STOP                 0x0000000000007F80        #  Was: STOP
+          KEY_FASTFORWARD          0x0000000000003FC0        #  Was: FF
+          KEY_REWIND               0x000000000000BF40        #  Was: REW
+          OPERATE                  0x000000000000D728
+          TRK+                     0x0000000000007788
+          TRK-                     0x000000000000B748
+          A.TRK                    0x00000000000017E8
+          A.REPEART                0x000000000000AF50
+          TV/VCR                   0x00000000000057A8
+          STILL/F.ADV              0x0000000000002FD0
+          KEY_RECORD               0x0000000000006F90        #  Was: RECORD
+      end codes
+
+end remote
+
+

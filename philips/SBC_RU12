@@ -1,0 +1,43 @@
+# contributed by Anders Torger
+#
+# brand:             Philips
+# model:             SBC RU120
+# supported devices: Universal TV remote, supports lots of TV sets.
+#
+# Note: this is the default setup of the remote (what you get after resetting
+# it). Other setups will of course require another configuration file.
+
+begin remote
+
+  name  SBC_RU120
+  bits            6
+  flags RC5|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           888   886
+  zero          888   886
+  plead         877
+  pre_data_bits   7
+  pre_data       0x40
+  gap          112897
+  min_repeat      5
+  toggle_bit      2
+
+
+      begin codes
+          KEY_UP                   0x0000000000000020        #  Was: UP
+          KEY_DOWN                 0x0000000000000021        #  Was: DOWN
+          KEY_LEFT                 0x0000000000000011        #  Was: LEFT
+          KEY_RIGHT                0x0000000000000010        #  Was: RIGHT
+          SHIFT_UP                 0x0000000000000014
+          SHIFT_DOWN               0x0000000000000015
+          SHIFT_LEFT               0x0000000000000013
+          SHIFT_RIGHT              0x0000000000000012
+          KEY_MUTE                 0x000000000000000D        #  Was: MUTE
+          KEY_SLEEP                0x000000000000000C        #  Was: STANDBY
+      end codes
+
+end remote
+
+

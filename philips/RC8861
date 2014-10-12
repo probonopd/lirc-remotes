@@ -1,0 +1,58 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.3pre3 on Wed Jan 24 13:53:01 2001
+#
+# contributed by
+#
+# brand:             Philips
+# model:             RC8861
+# supported devices: Universial remote
+#
+
+begin remote
+
+  name  RC8861
+  bits           11
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       2368   620
+  one          1180   610
+  zero          587   610
+  ptrail        586
+  gap          44873
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x0000000000000548        #  Was: power
+          KEY_MUTE                 0x0000000000000148        #  Was: mute
+          KEY_VOLUMEUP             0x0000000000000248        #  Was: vol+
+          KEY_VOLUMEDOWN           0x0000000000000648        #  Was: vol-
+          KEY_CHANNELUP            0x0000000000000048        #  Was: ch+
+          KEY_CHANNELDOWN          0x0000000000000448        #  Was: ch-
+          KEY_1                    0x0000000000000008        #  Was: one
+          KEY_2                    0x0000000000000408        #  Was: two
+          KEY_3                    0x0000000000000208        #  Was: three
+          KEY_4                    0x0000000000000608        #  Was: four
+          KEY_5                    0x0000000000000108        #  Was: five
+          KEY_6                    0x0000000000000508        #  Was: six
+          KEY_7                    0x0000000000000308        #  Was: seven
+          KEY_8                    0x0000000000000708        #  Was: eight
+          KEY_9                    0x0000000000000088        #  Was: nine
+          KEY_0                    0x0000000000000488        #  Was: zero
+          KEY_102ND                0x0000000000000188        #  Was: -/--
+          shift_mute               0x0000000000000018
+          shift_ch+                0x00000000000003C8
+          shift_ch-                0x0000000000000448
+          shift_ch-                0x00000000000007C8
+          shift_vol+               0x00000000000002C8
+          shift_vol-               0x00000000000006C8
+          shift_seven              0x00000000000007E8
+          shift_eight              0x00000000000006A8
+          shift_nine               0x00000000000000E8
+          shift_-/--               0x0000000000000588
+      end codes
+
+end remote

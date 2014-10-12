@@ -1,0 +1,84 @@
+#
+# this config file was automatically generated
+# using WinLIRC 0.6.5 (LIRC 0.6.1pre3) on Tue Dec 18 07:46:13 2007
+#
+# contributed by
+#
+# brand:             XMS
+# model:             XMS503
+# supported devices: 5.1ch amp/receiver
+#
+
+begin remote
+
+  name  XMS_XMS503
+  bits           16
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  header       9114  4409
+  one           616   497
+  zero          616  1639
+  ptrail        616
+  repeat       9055  2216
+  pre_data_bits   16
+  pre_data       0xFB04
+  gap          39949
+  toggle_bit      0
+
+
+      begin codes
+          KEY_SLEEP                0x000000000000DF20        #  Was: Standby
+          Surround_Mode            0x0000000000002FD0
+          Night                    0x000000000000AF50
+          Test                     0x0000000000004FB0
+          KEY_TAPE                 0x0000000000002DD2        #  Was: Tape
+          KEY_VCR                  0x00000000000027D8        #  Was: VCR
+          VCD/TV                   0x000000000000857A
+          KEY_TUNER                0x000000000000EF10        #  Was: Tuner
+          Coax1                    0x000000000000DD22
+          Coax2                    0x0000000000009F60
+          Optical                  0x000000000000FD02
+          KEY_1CH                  0x0000000000007788        #  Was: 5.1CH
+          Cen-                     0x000000000000ED12
+          Cen+                     0x0000000000000DF2
+          KEY_VOLUMEUP             0x000000000000BF40        #  Was: Vol+
+          KEY_VOLUMEDOWN           0x0000000000007F80        #  Was: Vol-
+          Balance_Left             0x000000000000CF30
+          Balance_Right            0x0000000000005FA0
+          SW-                      0x0000000000006D92
+          SW+                      0x00000000000005FA
+          KEY_MUTE                 0x0000000000005DA2        #  Was: Mute
+          DSP                      0x00000000000045BA
+          Surr-                    0x00000000000055AA
+          Surr+                    0x000000000000A758
+          KEY_CHANNELDOWN          0x0000000000006F90        #  Was: Channel_Select_1
+          KEY_CHANNELDOWN          0x000000000000956A        #  Was: Channel_Select_2
+          Tone_Delay_Fine_Control  0x000000000000CD32
+          Function-                0x00000000000015EA
+          Function+                0x0000000000004DB2
+          KEY_0                    0x000000000000BD42        #  Was: 0
+          KEY_1                    0x0000000000003DC2        #  Was: 1
+          KEY_2                    0x0000000000000FF0        #  Was: 2
+          KEY_3                    0x0000000000008778        #  Was: 3
+          KEY_4                    0x00000000000047B8        #  Was: 4
+          KEY_5                    0x000000000000C738        #  Was: 5
+          KEY_6                    0x000000000000E718        #  Was: 6
+          KEY_7                    0x00000000000057A8        #  Was: 7
+          KEY_8                    0x0000000000009768        #  Was: 8
+          KEY_9                    0x00000000000017E8        #  Was: 9
+          KEY_0+                   0x000000000000B748        #  Was: 10+
+          Memory                   0x000000000000AD52
+          Tuning-                  0x000000000000F50A
+          Tuning+                  0x0000000000009D62
+          Preset                   0x0000000000001DE2
+          Mono                     0x0000000000001FE0
+          RDS_Display              0x000000000000F708
+          RDS_Title                0x00000000000037C8
+          FM/AM                    0x0000000000003FC0
+      end codes
+
+end remote
+
+

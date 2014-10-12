@@ -1,0 +1,90 @@
+#
+# this config file was automatically generated
+# using lirc-0.7.2(serial) on Tue Aug 23 20:40:32 2005
+#
+# contributed by
+#
+# brand:                       GE
+# model no. of remote control: UNIVERSAL
+# devices being controlled by this remote:
+#
+
+begin remote
+
+  name  GE_UNIVERSAL
+  bits           24
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       4041  3978
+  one           557  1941
+  zero          557   967
+  ptrail        556
+  gap          64777
+  toggle_bit      0
+
+
+      begin codes
+          TV_SELECT                0xF3A0C5
+          TV_POWER                 0xF2A0D5
+          TV_INFO                  0xF3C0C3
+          TV_SEARCH                0xF530AC
+          TV_CHANNEL_UP            0xF2D0D2
+          TV_CHANNEL_DN            0xF2C0D3
+          KEY_VOLUMEUP             0xF2F0D0                  #  Was: VOL_UP
+          KEY_VOLUMEDOWN           0xF2E0D1                  #  Was: VOL_DN
+          KEY_MUTE                 0xF3F0C0                  #  Was: MUTE
+          TV_GOBACK                0xF270D8
+          TV_CLEAR                 0xF060F9
+          TV_MENU                  0xF080F7
+          TV_SPEED                 0xE461B9
+          TV_1                     0xF310CE
+          TV_2                     0xF320CD
+          TV_3                     0xF330CC
+          TV_4                     0xF340CB
+          TV_5                     0xF350CA
+          TV_6                     0xF360C9
+          TV_7                     0xF370C8
+          TV_8                     0xF380C7
+          TV_9                     0xF390C6
+          TV_0                     0xF300CF
+          TV_INPUT                 0xFA305C
+          TV_TVVCR                 0xF050FA
+          VCR_SELECT               0xE3A1C5
+          VCR_POWER                0xE2A1D5
+          KEY_REWIND               0xE1D1E2                  #  Was: REWIND
+          KEY_PLAY                 0xE151EA                  #  Was: PLAY
+          KEY_FASTFORWARD          0xE1C1E3                  #  Was: FASTFORWARD
+          KEY_RECORD               0xE171E8                  #  Was: RECORD
+          KEY_STOP                 0xE1F1E0                  #  Was: STOP
+          KEY_PAUSE                0xE191E6                  #  Was: PAUSE
+          VCR_INFO                 0xE3C1C3
+          VCR_SEARCH               0xE531AC
+          VCR_CHANNEL_UP           0xE2D1D2
+          VCR_CHANNEL_DN           0xE2C1D3
+          VCR_GOBACK               0xE271D8
+          VCR_CLEAR                0xE061F9
+          VCR_MENU                 0xE081F7
+          VCR_SPEED                0xE461B9
+          VCR_1                    0xE311CE
+          VCR_2                    0xE321CD
+          VCR_3                    0xE331CC
+          VCR_4                    0xE341CB
+          VCR_5                    0xE351CA
+          VCR_6                    0xE361C9
+          VCR_7                    0xE371C8
+          VCR_8                    0xE381C7
+          VCR_9                    0xE391C6
+          VCR_0                    0xE301CF
+          VCR_INPUT                0xE471B8
+          VCR_TVVCR                0xE051FA
+          TRACKING_UP              0xE0B1F4
+          TRACKING_DN              0xE0A1F5
+          FADV                     0xE201DF
+      end codes
+
+end remote
+
+
+

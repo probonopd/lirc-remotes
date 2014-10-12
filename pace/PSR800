@@ -1,0 +1,56 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.5(serial) on Sun Jun  9 16:01:36 2002
+#
+# contributed by
+#
+# brand:                       PACE-PSR800
+# model no. of remote control:
+# devices being controlled by this remote:
+#
+
+begin remote
+
+  name  PACE-PSR800
+  bits           12
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           704  6914
+  zero          704  4386
+  ptrail        699
+  gap          122866
+  min_repeat      1
+  toggle_bit      0
+
+
+      begin codes
+          P-/--                    0x000000000000010A
+          KEY_SLEEP                0x0000000000000310        #  Was: standby
+          KEY_1                    0x0000000000000301        #  Was: 1
+          KEY_2                    0x0000000000000302        #  Was: 2
+          KEY_3                    0x0000000000000103        #  Was: 3
+          KEY_4                    0x0000000000000304        #  Was: 4
+          KEY_5                    0x0000000000000105        #  Was: 5
+          KEY_6                    0x0000000000000306        #  Was: 6
+          KEY_7                    0x0000000000000107        #  Was: 7
+          KEY_8                    0x0000000000000308        #  Was: 8
+          KEY_9                    0x0000000000000109        #  Was: 9
+          aux/0                    0x0000000000000100
+          KEY_AGAIN                0x000000000000031A        #  Was: recall
+          KEY_F                    0x0000000000000319        #  Was: F
+          <                        0x0000000000000316
+          KEY_MENU                 0x0000000000000317        #  Was: menu
+          >                        0x0000000000000311
+          KEY_MENU                 0x000000000000011F        #  Was: osd
+          tv/sat                   0x0000000000000114
+          KEY_RADIO                0x000000000000010F        #  Was: radio
+          store                    0x0000000000000313
+          norm                     0x0000000000000315
+          KEY_MUTE                 0x000000000000031E        #  Was: mute
+      end codes
+
+end remote
+
+

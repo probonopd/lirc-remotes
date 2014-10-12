@@ -1,0 +1,84 @@
+#
+# brand:  Onkyo			receiver
+# model no. of remote control:	RC-710M
+# devices being controlled by this remote:  TX-SR606 receiver
+#
+
+begin remote
+
+    name		Onkyo_RC-710M
+    bits		24
+    flags		SPACE_ENC|CONST_LENGTH
+    eps			30
+    aeps		100
+
+    header		8625 4500
+    one			604 1604
+    zero		604 500
+    ptrail		604
+    repeat     		8980 2270
+    pre_data_bits	8
+    pre_data		0x4B
+# 43333
+    gap			107731
+    toggle_bit_mask	0x0
+
+    begin codes
+          KEY_POWER                0x36D32C                  #  Was: ON/STANDBY
+          KEY_POWER                0x36D32C                  #  Was: Power
+          KEY_POWER                0xB620DF                  #  Was: PowerOn
+          KEY_POWER                0x36E21D                  #  Was: PowerOff
+	Display		0x36AA55
+
+          KEY_DVD                  0x3631CE                  #  Was: DVD
+	VCR/DVR		0xB6F00F
+	CBL/SAT		0xB6708F
+	Game/TV		0xB6B04F
+          KEY_AUX                  0xB6F906                  #  Was: Aux
+          KEY_TAPE                 0xB610EF                  #  Was: Tape
+          KEY_TUNER                0xB6D02F                  #  Was: Tuner
+          KEY_RADIO                0xB6629D                  #  Was: FM
+	AM		0xB6E21D	# code
+          KEY_CD                   0xB6906F                  #  Was: CD
+
+          KEY_MUTE                 0xB6A05F                  #  Was: Mute
+	Muting		0xB6A05F
+
+          KEY_VOLUMEUP             0xB640BF                  #  Was: VolUp
+          KEY_VOLUMEDOWN           0xB6C03F                  #  Was: VolDown
+
+          KEY_SETUP                0x36CA35                  #  Was: Setup
+          KEY_AUDIO                0x362BD4                  #  Was: Audio
+          KEY_ENTER                0x362AD5                  #  Was: Return
+
+          KEY_UP                   0xB641BE                  #  Was: Up
+          KEY_DOWN                 0xB6C13E                  #  Was: Down
+          KEY_RIGHT                0xB6A15E                  #  Was: Right
+          KEY_LEFT                 0xB621DE                  #  Was: Left
+          KEY_ENTER                0xB6E916                  #  Was: Enter
+
+	Movie/TV	0xB632CD
+          KEY_AUDIO                0x36A25D                  #  Was: Music
+	Game		0x36B24D
+	Stereo		0x3632CD
+
+          KEY_1                    0x40AB54                  #  Was: 1
+          KEY_2                    0x406B94                  #  Was: 2
+          KEY_3                    0x40EB14                  #  Was: 3
+          KEY_4                    0x401BE4                  #  Was: 4
+          KEY_5                    0x409B64                  #  Was: 5
+          KEY_6                    0x405BA4                  #  Was: 6
+          KEY_7                    0x40DB24                  #  Was: 7
+          KEY_8                    0x403BC4                  #  Was: 8
+          KEY_9                    0x40BB44                  #  Was: 9
+          KEY_0                    0x407B84                  #  Was: 0
+
+	Freq		0x40FB04	# code
+
+	Dimmer		0xB6A956
+          KEY_SLEEP                0xB6BA45                  #  Was: Sleep
+
+	TestTone	0xB659A6	# code
+          KEY_CHANNELDOWN          0x3622DD                  #  Was: ChannelSelect
+    end codes
+end remote

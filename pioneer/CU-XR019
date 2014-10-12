@@ -1,0 +1,87 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.5(any) on Tue Aug 27 00:06:58 2002
+#
+# contributed by Pär Andersson
+#
+# brand:                       Pioneer
+# model no. of remote control: CU-XR019
+# devices being controlled by this remote: STEREO CD DECK RECEIVER XR-Q150
+#
+#
+# There is a problem with reciving signals from some of the buttons of this
+# remote.
+#
+# X = 0x0000000045BA837C
+# Y = 0x0000000045BAC936
+# Z = 0x0000000045BA639C
+#
+# MODE sends X
+# DISC- sends X, Y, X, Y...
+# PREVIOUS sends Z, Y, Z, Y...
+#
+# My solution is to remove DISC- from the config.
+# Now MODE and PREVIOUS works. DISC- is interpreted as MODE.
+# Repeat is broken these buttons (MODE, PREVIOUS and DISC-(MODE))
+# Repeat is also broken on BEST
+
+
+begin remote
+
+  name  PIONEER_CU-XR019
+  bits           32
+  flags SPACE_ENC
+  eps            30
+  aeps          100
+
+  header       8500  4306
+  one           515  1618
+  zero          515   551
+  ptrail        518
+  gap          25670
+  toggle_bit      0
+
+
+      begin codes
+          KEY_VOLUMEDOWN           0x00000000659AD02F        #  Was: VOLUME-
+          KEY_VOLUMEUP             0x00000000659A50AF        #  Was: VOLUME+
+          KEY_POWER                0x00000000659A38C7        #  Was: POWER
+          KEY_F                    0x00000000659A5BA4        #  Was: F
+          KEY_F                    0x00000000659A5BA4        #  Was: f
+          DISP                     0x00000000659AB946
+          KEY_SLEEP                0x00000000659A9867        #  Was: SLEEP
+          AUX/CDII                 0x00000000659A32CD
+          PGM                      0x0000000045BAB04F
+          KEY_CLEAR                0x0000000045BAA25D        #  Was: CLEAR
+          KEY_AGAIN                0x0000000045BA30CF        #  Was: REPEAT
+          RANDOM                   0x0000000045BA52AD
+          CD_PREV                  0x0000000045BA8877
+          CD_NEXT                  0x0000000045BA08F7
+          CD_STOP                  0x0000000045BA6897
+          CD_PLAY                  0x00000000659A22DD
+          DISC+                    0x0000000045BAB847
+          BEST                     0x0000000045BA43BC
+          HI-LITE                  0x0000000045BA7A85
+          CDII                     0x0000000045BAE817
+          STATION-                 0x0000000025DA8877
+          STATION+                 0x0000000025DA08F7
+          MONO                     0x0000000025DA7887
+          FM/AM                    0x00000000659A926D
+          TAPE_RWD                 0x00000000857A8877
+          TAPE_FWD                 0x00000000857A08F7
+          TAPE_STOP                0x00000000857A6897
+          TAPE_PLAY                0x00000000659AE817
+
+# A:
+          KEY_MODE                 0x0000000045BA837C        #  Was: MODE
+# A:      DISC-                    0x0000000045BA837C
+# B:      DISC-                    0x0000000045BAC936
+# B:      PREVIOUS                 0x0000000045BAC936
+# C:
+          KEY_PREVIOUS             0x0000000045BA639C        #  Was: PREVIOUS
+
+      end codes
+
+end remote
+
+

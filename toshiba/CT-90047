@@ -1,0 +1,310 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.6(serial) on Wed Jul 14 10:21:07 2004
+#
+# contributed by Paul Stoffregen (paul at pjrc dot com)
+#
+# brand:                       Toshiba
+# model no. of remote control: CT-90047
+# devices being controlled by this remote: Cable/Sat Mode
+#
+
+begin remote
+
+  name  ct-90047-cable_sat
+  bits           32
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9063  4445
+  one           592  1660
+  zero          592   531
+  ptrail        581
+  repeat       9040  2236
+  gap          108612
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x0000000030DFA857        #  Was: power
+          KEY_1                    0x0000000030DFA05F        #  Was: 1
+          KEY_2                    0x0000000030DF609F        #  Was: 2
+          KEY_3                    0x0000000030DFE01F        #  Was: 3
+          KEY_4                    0x0000000030DF10EF        #  Was: 4
+          KEY_5                    0x0000000030DF906F        #  Was: 5
+          KEY_6                    0x0000000030DF50AF        #  Was: 6
+          KEY_7                    0x0000000030DFD02F        #  Was: 7
+          KEY_8                    0x0000000030DF30CF        #  Was: 8
+          KEY_9                    0x0000000030DFB04F        #  Was: 9
+          KEY_0                    0x0000000030DF6C93        #  Was: 100
+          KEY_0                    0x0000000030DF20DF        #  Was: 0
+          pic_size                 0x0000000002FD2AD5
+          action                   0x0000000030DF708F
+          KEY_INFO                 0x0000000030DF48B7        #  Was: guide
+          KEY_INFO                 0x0000000030DFC837        #  Was: info
+          KEY_FAVORITES            0x0000000030DF8877        #  Was: favorite
+          alpha_sort               0x0000000030DFAE51
+          KEY_UP                   0x0000000030DF9867        #  Was: up
+          KEY_DOWN                 0x0000000030DF08F7        #  Was: down
+          KEY_LEFT                 0x0000000030DF28D7        #  Was: left
+          KEY_RIGHT                0x0000000030DFE817        #  Was: right
+          menu/enter               0x0000000030DF18E7
+          KEY_CHANNELUP            0x0000000030DF40BF        #  Was: ch_up
+          KEY_CHANNELDOWN          0x0000000030DFC03F        #  Was: ch_down
+          KEY_VOLUMEUP             0x0000000002FD58A7        #  Was: vol_up
+          KEY_VOLUMEDOWN           0x0000000002FD7887        #  Was: vol_down
+          KEY_EXIT                 0x0000000030DFF00F        #  Was: exit
+          input                    0x0000000002FDF00F
+          KEY_MUTE                 0x0000000002FD08F7        #  Was: mute
+          ch_rtn                   0x0000000030DF6897
+          KEY_REWIND               0x00000000A25D9867        #  Was: rew
+          pause/step               0x00000000A25D00FF
+          KEY_PLAY                 0x00000000A25DA857        #  Was: play
+          KEY_FASTFORWARD          0x00000000A25DC837        #  Was: ff
+          tv/vcr                   0x0000000030DF807F
+          KEY_STOP                 0x00000000A25D28D7        #  Was: stop
+          pip_ch_up                0x0000000002FD52AD
+          pip_ch_down              0x0000000002FDD22D
+          pip                      0x0000000002FD8A75
+          swap                     0x0000000002FDCA35
+          multi                    0x0000000002FD8976
+          locate                   0x0000000002FD728D
+          still                    0x0000000002FD32CD
+          KEY_CYCLEWINDOWS         0x0000000002FDF20D        #  Was: source
+      end codes
+
+end remote
+
+
+#
+# this config file was automatically generated
+# using lirc-0.6.6(serial) on Wed Jul 14 10:41:37 2004
+#
+# contributed by Paul Stoffregen (paul at pjrc dot com)
+#
+# brand:                       Toshiba
+# model no. of remote control: CT-90047
+# devices being controlled by this remote: DVD Mode
+#
+
+begin remote
+
+  name  ct-90047-dvd
+  bits           32
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9067  4440
+  one           597  1655
+  zero          597   524
+  ptrail        585
+  repeat       9044  2232
+  gap          108605
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x00000000A25D48B7        #  Was: power
+          KEY_1                    0x00000000A25D807F        #  Was: 1
+          KEY_2                    0x00000000A25D40BF        #  Was: 2
+          KEY_3                    0x00000000A25DC03F        #  Was: 3
+          KEY_4                    0x00000000A25D20DF        #  Was: 4
+          KEY_5                    0x00000000A25DA05F        #  Was: 5
+          KEY_6                    0x00000000A25D609F        #  Was: 6
+          KEY_7                    0x00000000A25DE01F        #  Was: 7
+          KEY_8                    0x00000000A25D10EF        #  Was: 8
+          KEY_9                    0x00000000A25D906F        #  Was: 9
+          KEY_0                    0x00000000A25DA45B        #  Was: 100
+          KEY_0                    0x00000000A25D50AF        #  Was: 0
+          pic_size                 0x0000000002FD2AD5
+          action                   0x00000000A25D21DE
+          KEY_SETUP                0x00000000A25D04FB        #  Was: setup
+          KEY_TITLE                0x00000000A25D7B84        #  Was: title
+          KEY_SUBTITLE             0x00000000A25D14EB        #  Was: sub_title
+          KEY_AUDIO                0x00000000A25DE41B        #  Was: audio
+          KEY_UP                   0x00000000A25D01FE        #  Was: up
+          KEY_DOWN                 0x00000000A25D817E        #  Was: down
+          KEY_LEFT                 0x00000000A25D8A75        #  Was: left
+          KEY_RIGHT                0x00000000A25DB24D        #  Was: right
+          menu/enter               0x00000000A25D847B
+          KEY_DVD                  0x00000000A25DF708        #  Was: dvd_clear
+          KEY_VOLUMEUP             0x0000000002FD58A7        #  Was: vol_up
+          KEY_VOLUMEDOWN           0x0000000002FD7887        #  Was: vol_down
+          input                    0x0000000002FDF00F
+          KEY_MUTE                 0x0000000002FD08F7        #  Was: mute
+          KEY_AGAIN                0x00000000A25D6897        #  Was: recall
+          KEY_DVD                  0x00000000A25D44BB        #  Was: dvd_rtn
+          slow/dir-rev             0x00000000A25D708F
+          slow/dir-fwd             0x00000000A25DB04F
+          skip/search-rev          0x00000000A25DC43B
+          skip/search-fwd          0x00000000A25D24DB
+          KEY_REWIND               0x00000000A25D9867        #  Was: rew
+          pause/step               0x00000000A25D00FF
+          KEY_PLAY                 0x00000000A25DA857        #  Was: play
+          KEY_FASTFORWARD          0x00000000A25DC837        #  Was: ff
+          disc                     0x00000000A25D52AD
+          KEY_STOP                 0x00000000A25D28D7        #  Was: stop
+          pip_ch_up                0x0000000002FD52AD
+          pip_ch_down              0x0000000002FDD22D
+          pip                      0x0000000002FD8A75
+          swap                     0x0000000002FDCA35
+          multi                    0x0000000002FD8976
+          locate                   0x0000000002FD728D
+          still                    0x0000000002FD32CD
+          KEY_CYCLEWINDOWS         0x0000000002FDF20D        #  Was: source
+      end codes
+
+end remote
+
+
+#
+# this config file was automatically generated
+# using lirc-0.6.6(serial) on Wed Jul 14 10:11:59 2004
+#
+# contributed by Paul Stoffregen (paul at pjrc dot com)
+#
+# brand:                       Toshiba
+# model no. of remote control: CT-90047
+# devices being controlled by this remote: TV Mode
+#
+
+begin remote
+
+  name  ct-90047-tv
+  bits           32
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9067  4440
+  one           597  1655
+  zero          597   524
+  ptrail        585
+  repeat       9044  2232
+  gap          108605
+  min_repeat      1
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x0000000002FD48B7        #  Was: power
+          KEY_SLEEP                0x0000000002FDA857        #  Was: sleep
+          KEY_1                    0x0000000002FD807F        #  Was: 1
+          KEY_2                    0x0000000002FD40BF        #  Was: 2
+          KEY_3                    0x0000000002FDC03F        #  Was: 3
+          KEY_4                    0x0000000002FD20DF        #  Was: 4
+          KEY_5                    0x0000000002FDA05F        #  Was: 5
+          KEY_6                    0x0000000002FD609F        #  Was: 6
+          KEY_7                    0x0000000002FDE01F        #  Was: 7
+          KEY_8                    0x0000000002FD10EF        #  Was: 8
+          KEY_9                    0x0000000002FD906F        #  Was: 9
+          KEY_0                    0x0000000002FD50AF        #  Was: 100
+          KEY_0                    0x0000000002FD00FF        #  Was: 0
+          KEY_INFO                 0x0000000002FDC936        #  Was: info
+          KEY_FAVORITES            0x0000000002FD09F6        #  Was: favorite
+          KEY_UP                   0x0000000002FD41BE        #  Was: up
+          KEY_DOWN                 0x0000000002FDC13E        #  Was: down
+          KEY_LEFT                 0x0000000002FDB847        #  Was: left
+          KEY_RIGHT                0x0000000002FD9867        #  Was: right
+          menu/enter               0x0000000002FD01FE
+          KEY_CHANNELUP            0x0000000002FDD827        #  Was: ch_up
+          KEY_CHANNELDOWN          0x0000000002FDF807        #  Was: ch_down
+          KEY_VOLUMEUP             0x0000000002FD58A7        #  Was: vol_up
+          KEY_VOLUMEDOWN           0x0000000002FD7887        #  Was: vol_down
+          KEY_EXIT                 0x0000000002FD1AE5        #  Was: exit
+          input                    0x0000000002FDF00F
+          KEY_MUTE                 0x0000000002FD08F7        #  Was: mute
+          KEY_AGAIN                0x0000000002FD38C7        #  Was: recall
+          ch_rtn                   0x0000000002FDE817
+          KEY_REWIND               0x00000000A25D9867        #  Was: rew
+          pause/step               0x00000000A25D00FF
+          KEY_PLAY                 0x00000000A25DA857        #  Was: play
+          KEY_FASTFORWARD          0x00000000A25DC837        #  Was: ff
+          tv/vcr                   0x0000000022DD8877
+          KEY_STOP                 0x00000000A25D28D7        #  Was: stop
+          pip_ch_up                0x0000000002FD52AD
+          pip_ch_down              0x0000000002FDD22D
+          pip                      0x0000000002FD8A75
+          swap                     0x0000000002FDCA35
+          multi                    0x0000000002FD8976
+          locate                   0x0000000002FD728D
+          still                    0x0000000002FD32CD
+          KEY_CYCLEWINDOWS         0x0000000002FDF20D        #  Was: source
+      end codes
+
+end remote
+
+
+#
+# this config file was automatically generated
+# using lirc-0.6.6(serial) on Wed Jul 14 10:33:47 2004
+#
+# contributed by Paul Stoffregen (paul at pjrc dot com)
+#
+# brand:                       Toshiba
+# model no. of remote control: CT-90047
+# devices being controlled by this remote: VCR Mode
+#
+
+begin remote
+
+  name  ct-90047-vcr
+  bits           32
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9067  4440
+  one           597  1655
+  zero          597   524
+  ptrail        585
+  repeat       9044  2232
+  gap          108605
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x0000000022DD48B7        #  Was: power
+          KEY_1                    0x0000000022DD807F        #  Was: 1
+          KEY_2                    0x0000000022DD40BF        #  Was: 2
+          KEY_3                    0x0000000022DDC03F        #  Was: 3
+          KEY_4                    0x0000000022DD20DF        #  Was: 4
+          KEY_5                    0x0000000022DDA05F        #  Was: 5
+          KEY_6                    0x0000000022DD609F        #  Was: 6
+          KEY_7                    0x0000000022DDE01F        #  Was: 7
+          KEY_8                    0x0000000022DD10EF        #  Was: 8
+          KEY_9                    0x0000000022DD906F        #  Was: 9
+          KEY_0                    0x0000000022DDD02F        #  Was: 100
+          KEY_0                    0x0000000022DD50AF        #  Was: 0
+          pic_size                 0x0000000002FD2AD5
+          KEY_INFO                 0x0000000002FDC936        #  Was: info
+          KEY_CHANNELUP            0x0000000022DDD827        #  Was: ch_up
+          KEY_CHANNELDOWN          0x0000000022DDF807        #  Was: ch_down
+          KEY_VOLUMEUP             0x0000000002FD58A7        #  Was: vol_up
+          KEY_VOLUMEDOWN           0x0000000002FD7887        #  Was: vol_down
+          input                    0x0000000022DDFA05
+          KEY_MUTE                 0x0000000002FD08F7        #  Was: mute
+          KEY_AGAIN                0x0000000022DDC13E        #  Was: recall
+          slow/dir_fwd             0x0000000022DDB04F
+          KEY_REWIND               0x0000000022DD9867        #  Was: rew
+          pause/step               0x0000000022DD08F7
+          KEY_PLAY                 0x0000000022DDA857        #  Was: play
+          KEY_FASTFORWARD          0x0000000022DDC837        #  Was: ff
+          tv/vcr                   0x0000000022DD8877
+          KEY_STOP                 0x0000000022DD28D7        #  Was: stop
+          KEY_RECORD               0x0000000022DD18E7        #  Was: rec
+          pip_ch_up                0x0000000002FD52AD
+          pip_ch_down              0x0000000002FDD22D
+          pip                      0x0000000002FD8A75
+          swap                     0x0000000002FDCA35
+          multi                    0x0000000002FD8976
+          locate                   0x0000000002FD728D
+          still                    0x0000000002FD32CD
+          KEY_CYCLEWINDOWS         0x0000000002FDF20D        #  Was: source
+      end codes
+
+end remote
+
+

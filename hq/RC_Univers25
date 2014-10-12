@@ -1,0 +1,66 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.2-CVS(default) on Wed Jan  2 21:52:07 2008
+#
+# contributed by Matthias Wangler <mwangler at web dot de>
+#
+# brand: HQ
+# model no. of remote control: RC Univers25
+# devices being controlled by this remote: This is a universal remote control.
+#
+# This file was generated with code 111 on button AUX1.
+#
+
+begin remote
+
+  name  HQ_RC_Univers25
+  bits           22
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       3647  3540
+  one           926  2656
+  zero          926   855
+  ptrail        927
+  gap          108439
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x000FFE                  #  Was: power
+          KEY_MUTE                 0x01A7CB                  #  Was: mute
+          KEY_CHANNELUP            0x008FEE                  #  Was: ch+
+          KEY_CHANNELDOWN          0x018FCE                  #  Was: ch-
+          KEY_VOLUMEUP             0x0107DF                  #  Was: vol+
+          KEY_VOLUMEDOWN           0x0167D3                  #  Was: vol-
+          tv/vcr                   0x00AFEA
+          KEY_1                    0x0017FD                  #  Was: 1
+          KEY_2                    0x0117DD                  #  Was: 2
+          KEY_3                    0x0097ED                  #  Was: 3
+          KEY_4                    0x0197CD                  #  Was: 4
+          KEY_5                    0x0057F5                  #  Was: 5
+          KEY_6                    0x0157D5                  #  Was: 6
+          KEY_7                    0x00D7E5                  #  Was: 7
+          KEY_8                    0x01D7C5                  #  Was: 8
+          KEY_9                    0x0037F9                  #  Was: 9
+          KEY_0                    0x0137D9                  #  Was: 0/10
+          KEY_1                    0x004FF6                  #  Was: 1/11
+          KEY_2                    0x00CFE6                  #  Was: 2/12
+          ch\*p/c                  0x010FDE                  #  Was: ch\*p/c
+          arrow                    0x0187CF
+          KEY_REWIND               0x0177D1                  #  Was: rew
+          KEY_PLAY                 0x013FD8                  #  Was: play
+          KEY_FASTFORWARD          0x01CFC6                  #  Was: ffwd
+          KEY_RECORD               0x0077F1                  #  Was: rec
+          KEY_STOP                 0x005FF4                  #  Was: stop
+          KEY_PAUSE                0x01BFC8                  #  Was: pause
+          KEY_RED                  0x00E7E3                  #  Was: red
+          KEY_GREEN                0x0067F3                  #  Was: green
+          KEY_YELLOW               0x00EFE2                  #  Was: yellow
+          KEY_BLUE                 0x002FFA                  #  Was: blue
+      end codes
+
+end remote
+
+

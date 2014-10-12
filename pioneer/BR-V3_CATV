@@ -1,0 +1,178 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.1-CVS(default) on Fri Oct 13 23:04:45 2006
+#
+# contributed by Frank Bennett
+#
+# brand:                       Pioneer
+# model no. of remote control: BR-V3 CATV
+# devices being controlled by this remote: Pioneer Digital CATV STB BD-V300
+#
+
+begin remote
+
+  name  Pioneer_BR-V3_CATV
+  bits           32
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       8511  4281
+  one           566  1560
+  zero          566   504
+  ptrail        566
+  gap          89952
+  toggle_bit      0
+
+
+      begin codes
+          tv-dengen                0x55AA38C7
+          tv-nyuuryoku-kirikae     0x55AAC837
+          tv-channel-up            0x55AA08F7
+          tv-channel-down          0x55AA8877
+          dengen                   0x35CA38C7
+          KEY_SLEEP                0x35CA12ED                #  Was: sleep
+          chijou-channel           0x35CACC33
+          bs-cs                    0x35CACC33
+          catv                     0x35CACC33
+          KEY_1                    0x35CA807F                #  Was: 1
+          KEY_2                    0x35CA40BF                #  Was: 2
+          KEY_3                    0x35CAC03F                #  Was: 3
+          KEY_4                    0x35CA20DF                #  Was: 4
+          KEY_5                    0x35CAA05F                #  Was: 5
+          KEY_6                    0x35CA609F                #  Was: 6
+          KEY_7                    0x35CAE01F                #  Was: 7
+          KEY_8                    0x35CA10EF                #  Was: 8
+          KEY_9                    0x35CA906F                #  Was: 9
+          KEY_0                    0x35CA00FF                #  Was: 10-0
+          KEY_1                    0x35CACC33                #  Was: 11
+          KEY_2                    0x35CACC33                #  Was: 12
+          KEY_CHANNELUP            0x35CA08F7                #  Was: channel-up
+          KEY_CHANNELDOWN          0x35CA8877                #  Was: channel-down
+          ch                       0x35CACC33
+          KEY_MUTE                 0x55AA926D                #  Was: mute
+          KEY_VOLUMEUP             0x55AA50AF                #  Was: volume-up
+          KEY_VOLUMEDOWN           0x55AAD02F                #  Was: volume-down
+          ff-left                  0x35CAD22D
+          ff-right                 0x35CAC837
+          ff-down                  0x35CAF20D
+          ff-up                    0x35CA728D
+          KEY_UP                   0x35CA1AE5                #  Was: up
+          KEY_DOWN                 0x35CA9A65                #  Was: down
+          KEY_LEFT                 0x35CAEA15                #  Was: left
+          KEY_RIGHT                0x35CA6A95                #  Was: right
+          kettei                   0x35CA32CD
+          KEY_INFO                 0x35CA0AF5                #  Was: guide
+          shousai                  0x35CA2AD5
+          data                     0x35CACC33
+          modoru                   0x35CACA35
+          aoi                      0x35CACC33
+          akai                     0x35CACC33
+          midori                   0x35CACC33
+          kiiroi                   0x35CACC33
+          navi                     0x35CA18E7
+          vod                      0x35CACC33
+          browser                  0x35CACC33
+          okonomi                  0x35CA22DD
+          genre-kensaku            0x35CACC33
+          KEY_CHANNELDOWN          0x35CA52AD                #  Was: channel-hyouji
+          KEY_CHANNELDOWN          0x35CADA25                #  Was: channel-ichiran
+          KEY_CHANNELDOWN          0x35CA3AC5                #  Was: channel-return
+          gazou                    0x35CACC33
+          KEY_POWER                0x35CA7887                #  Was: onsei
+          jimaku                   0xF50A8C73
+      end codes
+
+end remote
+
+
+#
+# this config file was automatically generated
+# using lirc-0.8.1-CVS(default) on Mon Oct 16 07:50:58 2006
+#
+# contributed by Frank Bennett
+#
+# brand:                       Pioneer
+# model no. of remote control: BR-V3
+# devices being controlled by this remote: BD-V300 CATV STB
+#
+#
+# This configuration file works only to send signals to the
+# STB using irsend.  It will not work to interpret signals
+# sent by the remote.
+#
+# The BD-V300 remote sends some commands as two 32-bit elements.
+# Because the STB expects to see commands repeated once, this means
+# you need to send four codes (A, B, A, B) for these commands.
+# The remaining codes (those without a suffix) should be sent
+# twice to trigger action by the STB.
+#
+#
+# Here are a few examples using irsend:
+#
+# Change to terrestrial television mode:
+#
+#   irsend -d /dev/lircd1 SEND_ONCE pioneer_br_v3 chijo-A chijo-B chijo-A chijo-B
+#
+# Change to cable television mode:
+#
+#   irsend -d /dev/lircd1 SEND_ONCE pioneer_br_v3 catv-A catv-B catv-A catv-B
+#
+# Change to channel 231
+#
+#   irsend -d /dev/lircd1 SEND_ONCE pioneer_br_v3 ch-A ch-B ch-A ch-B
+#   sleep 1
+#   irsend -d /dev/lircd1 SEND_ONCE pioneer_br_v3 2 2
+#   sleep 1
+#   irsend -d /dev/lircd1 SEND_ONCE pioneer_br_v3 3 3
+#   sleep 1
+#   irsend -d /dev/lircd1 SEND_ONCE pioneer_br_v3 1 1
+#
+
+begin remote
+
+  name  Pioneer_BR_V3
+  bits           32
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       8509  4280
+  one           566  1560
+  zero          566   504
+  ptrail        566
+  gap          89937
+  min_repeat      0
+  toggle_bit      0
+
+
+      begin codes
+          dengen                   0x35CA38C7
+          chijo-A                  0x35CACC33
+          chijo-B                  0xF50ADC23
+          bscs-A                   0x35CACC33
+          bscs-B                   0xF50ABC43
+          catv-A                   0x35CACC33
+          catv-B                   0xF50A7C83
+          ch-A                     0x35CACC33
+          ch-B                     0xF50A3CC3
+          KEY_1                    0x35CA807F                #  Was: 1
+          KEY_2                    0x35CA40BF                #  Was: 2
+          KEY_3                    0x35CAC03F                #  Was: 3
+          KEY_4                    0x35CA20DF                #  Was: 4
+          KEY_5                    0x35CAA05F                #  Was: 5
+          KEY_6                    0x35CA609F                #  Was: 6
+          KEY_7                    0x35CAE01F                #  Was: 7
+          KEY_8                    0x35CA10EF                #  Was: 8
+          KEY_9                    0x35CA906F                #  Was: 9
+          KEY_0                    0x35CA00FF                #  Was: 10-0
+          KEY_1-A                  0x35CACC33                #  Was: 11-A
+          KEY_1-B                  0xF50A9C63                #  Was: 11-B
+          KEY_2-A                  0x35CACC33                #  Was: 12-A
+          KEY_2-B                  0xF50A1CE3                #  Was: 12-B
+          KEY_POWER                0x35CA7887                #  Was: onsei
+          jimaku-A                 0x35CACC33
+          jimaku-B                 0xF50A8C73
+      end codes
+
+end remote

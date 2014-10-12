@@ -1,0 +1,58 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.6(IRToy) on Sun Sep 12 21:42:54 2010
+#
+# contributed by siklosi|gmail.com
+#
+# brand:  Ranex
+# model no. of remote control: 6000.191
+# devices being controlled by this remote:
+#Ranex RGB LED LAMP 6000.191
+
+begin remote
+
+  name  Ranex_RGB_LED_LAMP_6000.191
+   bits           32
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9009  4535
+  one           542  1695
+  zero          542   564
+  ptrail        541
+  repeat       9010  2273
+  gap          108518
+  toggle_bit_mask 0x0
+
+      begin codes
+          KEY_SETUP                0x02FD18E7                #  Was: Setup
+          KEY_CANCEL               0x02FD30CF                #  Was: Cancel
+          OFF                      0x02FDA857
+          KEY_POWER                0x02FD38C7                #  Was: ON
+          Flash                    0x02FD8877
+          Strobe                   0x02FDF00F
+          Fade                     0x02FDC837
+          Smooth                   0x02FD08F7
+          KEY_R                    0x02FD807F                #  Was: R
+          R1                       0x02FD20DF
+          R2                       0x02FDE01F
+          R3                       0x02FD50AF
+          R4                       0x02FDB04F
+          KEY_G                    0x02FD40BF                #  Was: G
+          G1                       0x02FDA05F
+          G2                       0x02FD10EF
+          G3                       0x02FDD02F
+          G4                       0x02FD708F
+          KEY_B                    0x02FDC03F                #  Was: B
+          B1                       0x02FD609F
+          B2                       0x02FD906F
+          B3                       0x02FDE817
+          B4                       0x02FDB847
+          KEY_W                    0x02FD9867                #  Was: W
+          L1                       0x02FDF807
+          L2                       0x02FDD827
+          L3                       0x02FD7887
+          L4                       0x02FD58A7
+      end codes
+

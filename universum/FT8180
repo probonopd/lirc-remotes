@@ -1,0 +1,86 @@
+#
+# this config file was automatically generated
+# using lirc-0.5.4 on Sat Aug  7 13:12:19 1999
+#
+# contributed by Michael Bunk, bunk@imn.htwk-leipzig.de
+#
+# brand:             universum
+# model:             FT 8180
+# supported devices: TV (16:9, videotext)
+#
+# I didn't know the meaning of all the keys so maybe the names
+# in here could be improved. I recorded the keypad from
+# top to bottom, maybe this is a hint if you look for a
+# specific key.
+
+begin remote
+
+  name  universum
+  bits           13
+  flags SHIFT_ENC
+  eps            30
+  aeps          100
+
+  one           900   850
+  zero          900   850
+  plead         950
+  gap          90502
+  repeat_bit      2
+
+      begin codes
+          KEY_CHANNELUP            0x0000000000001020        #  Was: CH_UP
+          KEY_CHANNELDOWN          0x0000000000001021        #  Was: CH_DOWN
+          TV_FORMAT                0x000000000000003E
+          BRIGHT_LEVEL             0x0000000000000024
+          KEY_POWER                0x000000000000100C        #  Was: POWER_OFF
+          KEY_1                    0x0000000000001001        #  Was: 1
+          KEY_2                    0x0000000000001002        #  Was: 2
+          KEY_3                    0x0000000000001003        #  Was: 3
+          KEY_4                    0x0000000000001004        #  Was: 4
+          KEY_5                    0x0000000000001005        #  Was: 5
+          KEY_6                    0x0000000000001006        #  Was: 6
+          KEY_7                    0x0000000000001007        #  Was: 7
+          KEY_8                    0x0000000000001008        #  Was: 8
+          KEY_9                    0x0000000000001009        #  Was: 9
+          KEY_0                    0x0000000000001000        #  Was: 0
+          P_P                      0x0000000000001022
+          KEY_VOLUMEUP             0x0000000000001010        #  Was: VOL_UP
+          KEY_VOLUMEDOWN           0x0000000000001011        #  Was: VOL_DOWN
+          I_II                     0x0000000000001023
+          KEY_MUTE                 0x000000000000100D        #  Was: MUTE
+          KEY_UP                   0x0000000000000010        #  Was: UP
+          KEY_DOWN                 0x0000000000000011        #  Was: DOWN
+          KEY_MENU                 0x0000000000000012        #  Was: MENU
+          KEY_KPPLUS               0x0000000000000016        #  Was: +
+          KEY_KPMINUS              0x0000000000000015        #  Was: -
+          TV_+                     0x000000000000100F
+          WHITE                    0x000000000000002F
+          KEY_BLUE                 0x000000000000002E        #  Was: BLUE
+          KEY_YELLOW               0x000000000000002D        #  Was: YELLOW
+          KEY_GREEN                0x000000000000002C        #  Was: GREEN
+          KEY_RED                  0x000000000000002B        #  Was: RED
+          TV_MOVE_HORIZ            0x0000000000001038
+          KEY_TV                   0x000000000000103F        #  Was: TV
+          KEY_SAT                  0x0000000000000031        #  Was: SATELLITE
+          KEY_VIDEO                0x000000000000103C        #  Was: VIDEOTEXT
+          PP                       0x000000000000100E
+          TEXT_ZOOM                0x0000000000001029
+          TEXT_X                   0x000000000000102D
+          TEXT_HALFPAGE            0x000000000000102E
+          TEXT_CLOCK               0x000000000000102A
+          TEXT_UPDOWN              0x000000000000102B
+          TEXT_QUESTION            0x000000000000102C
+          TV_UPPERRIGHTCORNER      0x0000000000000018
+          TV_UPPERLEFTCORNER       0x0000000000000028
+          TV_MOVEFROMUPPERRIGHTCORNER 0x0000000000000019
+          TV_MOVEFROMTHERETOO      0x000000000000001A
+          GRAY+                    0x0000000000000026
+          GRAY-                    0x0000000000000027
+          TV_UPPERRIGHTCORNER_TRIANGLE 0x0000000000000025
+          TV_UPPERRIGHTCORNER_ANDTRIANGLEINTHELOWERCORNER 0x000000000000001F
+          TV_MUSTER                0x0000000000000020
+      end codes
+
+end remote
+
+

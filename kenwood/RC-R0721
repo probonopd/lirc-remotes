@@ -1,0 +1,87 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.4(ipaq) on Thu Aug 29 01:03:35 2002
+#
+# contributed by Brian Stanback <brian@stanback.net>
+#
+# brand: Kenwood
+# model no. of remote control: RC-R0721
+# supported devices: Kenwood DVD/AV Recever DVR-505
+#
+
+begin remote
+
+  name  RC-R0721
+  bits           32
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       8931  4470
+  one           539  1701
+  zero          539   585
+  ptrail        572
+  repeat       8931  2224
+  gap          107715
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x000000001D00B946        #  Was: pwr
+          KEY_MUTE                 0x000000001D0039C6        #  Was: mute
+          KEY_DVD                  0x000000001DC001FE        #  Was: dvdcd
+          KEY_RADIO                0x000000001D008976        #  Was: radio
+          KEY_VCR                  0x000000001D006996        #  Was: vcr
+          KEY_SAT                  0x000000001DC0817E        #  Was: sat
+          avaux                    0x000000001D00C936
+          KEY_1                    0x000000001D00817E        #  Was: 1
+          KEY_2                    0x000000001D0041BE        #  Was: 2
+          KEY_3                    0x000000001D00C13E        #  Was: 3
+          KEY_4                    0x000000001D0021DE        #  Was: 4
+          KEY_5                    0x000000001D00A15E        #  Was: 5
+          KEY_6                    0x000000001D00619E        #  Was: 6
+          KEY_7                    0x000000001D00E11E        #  Was: 7
+          KEY_8                    0x000000001D0011EE        #  Was: 8
+          KEY_9                    0x000000001D00916E        #  Was: 9
+          KEY_0                    0x000000001D0001FE        #  Was: 0
+          KEY_CLEAR                0x000000006D3058A7        #  Was: clear
+          p.mode                   0x000000006D30F807
+          lstnmode                 0x000000001D00FB04
+          sound                    0x000000001D80EA15
+          inputmode                0x000000006D30F20D
+          KEY_F                    0x000000001DA0B34C        #  Was: f
+          KEY_C                    0x000000001D00D02F        #  Was: c
+          KEY_R                    0x000000001D00E31C        #  Was: r
+          sw                       0x000000001DC0F807
+          KEY_CHANNELUP            0x000000006D309867        #  Was: ch+
+          KEY_CHANNELDOWN          0x000000006D30C23D        #  Was: ch-
+          trim+                    0x000000001D80AA55
+          trim-                    0x000000001D802AD5
+          KEY_VOLUMEUP             0x000000001D00D926        #  Was: vol+
+          KEY_VOLUMEDOWN           0x000000001D0059A6        #  Was: vol-
+          topmenu                  0x000000006D30837C
+          KEY_MENU                 0x000000006D3043BC        #  Was: menu
+          KEY_UP                   0x000000006D306B94        #  Was: up
+          KEY_DOWN                 0x000000006D30EB14        #  Was: down
+          KEY_LEFT                 0x000000006D301BE4        #  Was: left
+          KEY_RIGHT                0x000000006D309B64        #  Was: right
+          KEY_ENTER                0x000000006D30CB34        #  Was: enter
+          KEY_ENTER                0x000000006D3023DC        #  Was: return
+          KEY_POWER                0x000000006D30FA05        #  Was: onscreen
+          KEY_RECORD               0x000000006D30639C        #  Was: rec
+          KEY_STOP                 0x000000006D308877        #  Was: stop
+          KEY_PAUSE                0x000000006D3048B7        #  Was: pause
+          KEY_PLAY                 0x000000006D30C837        #  Was: play
+          tune-                    0x000000006D3028D7
+          tune+                    0x000000006D30A857
+          p.call-                  0x000000006D306897
+          p.call+                  0x000000006D30E817
+          KEY_SLOW                 0x000000006D30DA25        #  Was: slow
+          step                     0x000000006D309A65
+          b.bost                   0x000000001D40EA15
+          cine.eq                  0x000000001D6012ED
+      end codes
+
+end remote
+
+

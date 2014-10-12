@@ -1,0 +1,87 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.6(usb_uirt_raw) on Thu Nov  5 22:51:11 2009
+#
+# contributed by Bill Denney
+#
+# brand: LG
+# model no. of remote control:
+# devices being controlled by this remote:
+#   LG BD300 Blu Ray player
+
+begin remote
+
+  name  LG_BD300
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH|REPEAT_HEADER
+  eps            30
+  aeps          100
+
+  header       4471  4305
+  one           599  1552
+  zero          599   423
+  ptrail        599
+  repeat        600   417
+  pre_data_bits   16
+  pre_data       0xB4B4
+  gap          104879
+  min_repeat      3
+  toggle_bit_mask 0x0
+
+      begin codes
+          KEY_0                    0x22DD
+          KEY_1                    0xDC23
+          KEY_2                    0x3CC3
+          KEY_3                    0xBC43
+          KEY_4                    0x7C83
+          KEY_5                    0xFC03
+          KEY_6                    0x02FD
+          KEY_7                    0x827D
+          KEY_8                    0x42BD
+          KEY_9                    0xC23D
+          KEY_CLEAR                0x3EC1
+          KEY_A                    0x3EC1
+          KEY_RED                  0x3EC1
+          KEY_B                    0xBE41
+          KEY_GREEN                0xBE41
+          KEY_C                    0x7E81
+          KEY_YELLOW               0x7E81
+          KEY_D                    0xFE01
+          KEY_BLUE                 0xFE01
+          KEY_HOME                 0xE619
+          KEY_MENU                 0xD22D
+          KEY_LEFT                 0x9A65
+          KEY_RIGHT                0x5AA5
+          KEY_DOWN                 0x12ED
+          KEY_UP                   0xE21D
+          KEY_ENTER                0x1AE5
+          X_KEY_RETURN             0xA25D                    #  Was: KEY_RETURN
+          KEY_ZOOM                 0x26D9
+          X_KEY_MARKER             0x8679                    #  Was: KEY_MARKER
+          KEY_TITLE                0x52AD
+          KEY_AUDIO                0xF20D
+          KEY_SUBTITLE             0x0AF5
+          KEY_ANGLE                0x32CD
+          KEY_AB                   0xAA55
+          KEY_SUBTITLE             0x0AF5
+          KEY_SUBTITLE             0xEF10
+          X_KEY_PIP                0xFA05                    #  Was: KEY_PIP
+          KEY_POWER                0x0CF3
+          KEY_OPEN                 0x6C93
+          KEY_STOP                 0x9C63
+          KEY_PLAY                 0x8C73
+          KEY_PAUSE                0x1CE3
+          KEY_SEARCH               0x46B9
+          KEY_BACK                 0xAC53
+          KEY_FORWARD              0x2CD3
+          KEY_FASTFORWARD          0xCC33
+          KEY_REWIND               0x4CB3
+          X_KEY_RESOLUTION         0xAF50                    #  Was: KEY_RESOLUTION
+          KEY_POWER                0xAE51                    #  Was: PowerOn
+          KEY_POWER                0x6E91                    #  Was: PowerOff
+      end codes
+
+end remote
+
+
+

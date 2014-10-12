@@ -1,0 +1,67 @@
+# this config file was automatically generated
+# using lirc-0.8.0pre1(sir) on Wed Nov 23 20:51:06 2005
+#
+# contributed by Lukasz Kloszczyk <shadow|compnet.com.pl>
+#
+# brand: AKAI
+# model no. of remote control: RC-X121E
+# devices being controlled by this remote: VS-G445
+#
+
+begin remote
+
+  name  Akai_RC-X121E
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       8969  4518
+  one           512  1735
+  zero          512   611
+  ptrail        512
+  repeat       8968  2271
+  pre_data_bits   16
+  pre_data       0x91EE
+  gap          107888
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0xC837                    #  Was: power
+          KEY_1                    0x02FD                    #  Was: 1
+          KEY_2                    0x827D                    #  Was: 2
+          KEY_3                    0x42BD                    #  Was: 3
+          KEY_4                    0xC23D                    #  Was: 4
+          KEY_5                    0x22DD                    #  Was: 5
+          KEY_6                    0xA25D                    #  Was: 6
+          KEY_7                    0x629D                    #  Was: 7
+          KEY_8                    0xE21D                    #  Was: 8
+          KEY_9                    0x12ED                    #  Was: 9
+          KEY_0                    0x926D                    #  Was: 0
+          av                       0x52AD
+          KEY_MENU                 0xF20D                    #  Was: menu
+          KEY_OK                   0x0AF5                    #  Was: ok
+          timer                    0xCA35
+          KEY_CHANNELUP            0x3AC5                    #  Was: ch_up
+          KEY_CHANNELDOWN          0xBA45                    #  Was: ch_down
+          KEY_PREVIOUS             0x9A65
+          KEY_NEXT                 0x1AE5
+          KEY_REWIND               0x40BF
+          KEY_FORWARD              0x807F
+          KEY_PLAY                 0x609F                    #  Was: play
+          KEY_STOP                 0xC03F                    #  Was: stop
+          KEY_CYCLEWINDOWS         0xE817                    #  Was: tv/vcr
+          showview                 0xB24D
+          KEY_CANCEL               0x6A95                    #  Was: cancel
+          prog.list                0x2AD5
+          i-hq                     0x28D7
+          KEY_0                    0x50AF                    #  Was: 0000
+          sp/lp                    0xD22D
+          KEY_RECORD               0xC03F                    #  Was: rec
+          KEY_PAUSE                0xF00F                    #  Was: pause
+      end codes
+
+end remote
+
+

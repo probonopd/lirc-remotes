@@ -1,0 +1,43 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.6(any) on Sun Jan 11 18:53:31 2004
+#
+# contributed by  Tobias Witte - twitte|fh-konstanz.de
+#
+# brand: Panasonic
+# model no. of remote control: Unknown
+# devices being controlled by this remote: Car Radio
+#
+
+begin remote
+
+  name  PanasonicCarAudio_CARC60EX
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9148  4424
+  one           665  1595
+  zero          665   465
+  ptrail        667
+  pre_data_bits   16
+  pre_data       0x8156
+  gap          108609
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x00000000000048B7        #  Was: Power
+          PRG                      0x00000000000038C7
+          KEY_MODE                 0x00000000000058A7        #  Was: Mode
+          ATT                      0x00000000000028D7
+          KEY_VOLUMEUP             0x000000000000B847        #  Was: Vol_Up
+          KEY_VOLUMEDOWN           0x0000000000009867        #  Was: Vol_Down
+          Tune/Track_Up            0x000000000000F807
+          Tune/Track_Down          0x0000000000007887
+      end codes
+
+end remote
+
+

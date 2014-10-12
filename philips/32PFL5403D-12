@@ -1,0 +1,65 @@
+# LIRC config file for Philips 32PFL5403D/12
+# contributed by wipp wippbox|gmx.net
+#
+# brand:                       Philips
+# model no. of remote control:
+# devices being controlled by this remote: 32PFL5403D/12
+#
+
+begin remote
+
+  name  Philips_32PFL5403D_12
+  bits           21
+  flags RC6|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       2608   939
+  one           443   439
+  zero          443   439
+  gap          106340
+  toggle_bit_mask 0x10000
+  rc6_mask    0x10000
+
+      begin codes
+          KEY_POWER                0x0EFFF3                  #  Was: Power
+          KEY_CYCLEWINDOWS         0x0FFFC7                  #  Was: Source
+          KEY_TEXT                 0x0EFFC3                  #  Was: Teletext
+          Dual_Screen              0x0FFFA2
+          KEY_SUBTITLE             0x0EFFB4                  #  Was: Subtitle
+          Picture_Format           0x0FFF0A
+          KEY_RED                  0x0EFF92                  #  Was: Red
+          KEY_GREEN                0x0FFF91                  #  Was: Green
+          KEY_YELLOW               0x0EFF90                  #  Was: Yellow
+          KEY_BLUE                 0x0FFF8F                  #  Was: Blue
+          KEY_INFO                 0x0EFF33                  #  Was: Guide
+          KEY_INFO                 0x0FFFF0                  #  Was: Info
+          KEY_UP                   0x0EFFA7                  #  Was: Up
+          KEY_DOWN                 0x0FFFA6                  #  Was: Down
+          KEY_LEFT                 0x0EFFA5                  #  Was: Left
+          KEY_RIGHT                0x0FFFA4                  #  Was: Right
+          KEY_OK                   0x0EFFA3                  #  Was: OK
+          KEY_MENU                 0x0EFFAB                  #  Was: Menu
+          KEY_OPTION               0x0EFFBF                  #  Was: Option
+          KEY_VOLUMEUP             0x0FFFEF                  #  Was: Volume_up
+          KEY_VOLUMEDOWN           0x0EFFEE                  #  Was: Volume_down
+          KEY_MUTE                 0x0FFFF2                  #  Was: Mute
+          KEY_CHANNELUP            0x0EFFDF                  #  Was: Program_up
+          KEY_CHANNELDOWN          0x0FFFDE                  #  Was: Program_down
+          KEY_1                    0x0EFFFE                  #  Was: 1
+          KEY_2                    0x0FFFFD                  #  Was: 2
+          KEY_3                    0x0EFFFC                  #  Was: 3
+          KEY_4                    0x0FFFFB                  #  Was: 4
+          KEY_5                    0x0FFFFA                  #  Was: 5
+          KEY_6                    0x0EFFF9                  #  Was: 6
+          KEY_7                    0x0EFFF8                  #  Was: 7
+          KEY_8                    0x0FFFF7                  #  Was: 8
+          KEY_9                    0x0FFFF6                  #  Was: 9
+          MHEG_Cancel              0x0FFFCE
+          KEY_0                    0x0EFFFF                  #  Was: 0
+          Previous_channel         0x0FFFF5
+      end codes
+
+end remote
+
+

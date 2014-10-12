@@ -1,0 +1,97 @@
+#
+# This config file has been automatically converted from a device file
+# found in the 06/26/00 release of the Windows Slink-e software
+# package.
+#
+# Many thanks to Colby Boles of Nirvis Systems Inc. for allowing us to
+# use these files.
+#
+# The original filename was: "yamaha_vs71360_rx-v890_dsp_receiver.cde"
+#
+# The original description for this device was:
+#
+# yamaha vs71360 rx-v890 dsp/receiver
+#
+
+
+begin remote
+
+  name  VS71360
+  bits           32
+  flags SPACE_ENC
+  eps            20
+  aeps          200
+
+  header       8800  4400
+  one           550  1650
+  zero          550   550
+  ptrail        550
+  repeat       8800  2200
+  gap          38500
+  toggle_bit      0
+
+  frequency    38000
+
+      begin codes
+          KEY_POWER                0x000000005EA1F807        #  Was: POWER
+          KEY_SLEEP                0x000000005EA1EA15        #  Was: SLEEP
+          PHONO_SELECT             0x000000005EA128D7
+          CD_SELECT                0x000000005EA1A857
+          CD-PLAY                  0x000000005EA110EF
+          CD-PAUSE/STOP            0x000000005EA1906F
+          CD-SEARCH_>>             0x000000005EA130CF
+          CD-SEARCH_<<             0x000000005EA1B04F
+          CD-SKIP_>>|              0x000000005EA150AF
+          CD-SKIP_|<<              0x000000005EA1D02F
+          CD-DISC_SKIP             0x000000005EA1F20D
+          TUNER_SELECT             0x000000005EA16897
+          TUNER-A/B/C/D/E          0x000000005EA148B7
+          TUNER-PRESET_+           0x000000005EA108F7
+          TUNER-PRESET_-           0x000000005EA18877
+          TAPE_1_SELECT            0x000000005EA118E7
+          TAPE_1-PLAY              0x000000005EA100FF
+          TAPE_1-STOP              0x000000005EA1C03F
+          TAPE_1-SEARCH_>>         0x000000005EA140BF
+          TAPE_1-SEARCH_<<         0x000000005EA1807F
+          TAPE_1-DECK_A/B          0x000000005EA1609F
+          TAPE_1-REC_MUTE          0x000000005EA1A05F
+          TAPE_1-REC/PAUSE         0x000000005EA120DF
+          TAPE_1-DIR_A             0x000000005EA1E01F
+          TAPE_1-DIR_B             0x000000005EA102FD
+          TAPE_2_MON_SELECT        0x000000005EA19867
+          LD_V_SELECT              0x000000005EA1E817
+          LD_V-PLAY                0x000000003EC1A05F
+          LD_V-PAUSE/STOP          0x000000003EC120DF
+          LD_V-SEARCH_>>           0x000000003EC1E01F
+          LD_V-SEARCH_<<           0x000000003EC1609F
+          LD_V-CHAPTER/CH_-        0x000000003EC140BF
+          LD_V-CHAPTER/CH_+        0x000000003EC1C03F
+          LD_V-DISPLAY             0x000000003EC1C837
+          LD_V-STOP                0x000000003EC1DA25
+          VCR1_SELECT              0x000000005EA1F00F
+          VCR2_SELECT              0x000000005EA1C837
+          V-AUX                    0x000000005EA1AA55
+          DSP-'1'PRO_LOGIC         0x000000005EA111EE
+          DSP-'2'ENHANCED          0x000000005EA1916E
+          DSP-'3'70MM_MOVIE_TH     0x000000005EA151AE
+          DSP-'4'TV_THEATER        0x000000005EA1D12E
+          DSP-'5'SPORTS            0x000000005EA1718E
+          DSP-'6'STADIUM           0x000000005EA1F10E
+          DSP-'7'ROCK              0x000000005EA131CE
+          DSP-'8'JAZZ_CLUB         0x000000005EA1B14E
+          DSP-'9'CHURCH            0x000000005EA109F6
+          DSP-'10'HALL             0x000000005EA18976
+          DSP-EFFECT_ON/OFF        0x000000005EA16A95
+          MASTER_VOLUME_+          0x000000005EA158A7
+          MASTER_VOLUME_-          0x000000005EA1D827
+          TEST                     0x000000005EA1A15E
+          DELAY_TIME_+             0x000000005EA14AB5
+          DELAY_TIME_-             0x000000005EA1CA35
+          CENTER_LEVEL_+           0x000000005EA141BE
+          CENTER_LEVEL_-           0x000000005EA1C13E
+          REAR_LEVEL_+             0x000000005EA17A85
+          REAR_LEVEL_-             0x000000005EA1FA05
+          MUTING                   0x000000005EA138C7
+      end codes
+
+end remote

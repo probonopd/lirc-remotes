@@ -1,0 +1,68 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.4(sir) on Tue Sep 25 11:12:57 2001
+#
+# contributed by Christopher Huhn <christo@knollhuhn.de>
+#
+# brand:                       Philips
+# model no. of remote control: RT 167/101
+# supported devices:           VR 266
+#
+
+begin remote
+
+  name           VR266
+  bits           13
+  flags RC5|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           882   896
+  zero          882   896
+  plead         870
+  gap          113935
+  toggle_bit      2
+
+      begin codes
+          KEY_RECORD               0x0000000000001177        #  Was: RECORD
+          KEY_SLEEP                0x000000000000194C        #  Was: STANDBY
+          KEY_UP                   0x0000000000000150        #  Was: UP
+          KEY_LEFT                 0x0000000000000955        #  Was: LEFT
+          KEY_RIGHT                0x0000000000000156        #  Was: RIGHT
+          KEY_DOWN                 0x0000000000000951        #  Was: DOWN
+          KEY_MENU                 0x0000000000000152        #  Was: MENU
+          KEY_OK                   0x0000000000000957        #  Was: OK
+          TIMER                    0x000000000000115D
+          KEY_CLEAR                0x0000000000001971        #  Was: CLEAR
+          KEY_SELECT               0x000000000000114B        #  Was: SELECT
+          KEY_1                    0x0000000000001941        #  Was: 1
+          KEY_2                    0x0000000000001142        #  Was: 2
+          KEY_3                    0x0000000000001943        #  Was: 3
+          KEY_4                    0x0000000000001144        #  Was: 4
+          KEY_5                    0x0000000000001945        #  Was: 5
+          KEY_6                    0x0000000000001146        #  Was: 6
+          KEY_7                    0x0000000000001947        #  Was: 7
+          KEY_8                    0x0000000000001148        #  Was: 8
+          KEY_9                    0x0000000000001949        #  Was: 9
+          KEY_0                    0x0000000000001140        #  Was: 0
+          KEY_MUTE                 0x000000000000180D        #  Was: MUTE
+          KEY_TV                   0x000000000000100C        #  Was: TV
+          KEY_VOLUMEUP             0x0000000000001810        #  Was: VOL+
+          KEY_VOLUMEDOWN           0x0000000000001011        #  Was: VOL-
+          KEY_CHANNELUP            0x0000000000001820        #  Was: CH+
+          KEY_CHANNELDOWN          0x0000000000001021        #  Was: CH-
+          KEY_PLAY                 0x0000000000001975        #  Was: PLAY
+          KEY_STOP                 0x0000000000001976        #  Was: STOP
+          KEY_FORWARD              0x0000000000001165        #  Was: FORWARD
+          KEY_BACK                 0x0000000000001966        #  Was: BACK
+          INDEX                    0x0000000000000170
+          KEY_PAUSE                0x0000000000001169        #  Was: PAUSE
+          MONITOR                  0x000000000000097A
+          INSTANT_VIEW             0x000000000000014F
+          COUNTER                  0x000000000000097E
+      end codes
+
+end remote
+
+
+

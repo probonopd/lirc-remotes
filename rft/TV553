@@ -1,0 +1,79 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.6(any) on Wed Mar 10 17:50:23 2004
+#
+# contributed by               Jürgen Mai
+#
+# brand:                       RFT (old model, sold by Pollin, Germany)
+# model no. of remote control: TV553
+# devices being controlled by this remote: TV
+#
+
+begin remote
+
+  name  TV553_START/STOP
+  bits           10
+  flags RC5|CONST_LENGTH
+  eps            10
+  aeps          250
+
+  header        512  2560
+  one           512   512
+  zero          512   512
+  gap          32800
+  toggle_bit      0
+
+      begin codes
+          START/STOP               0x0000000000000000
+      end codes
+
+end remote
+
+begin remote
+
+  name  TV553
+  bits           10
+  flags RC5|CONST_LENGTH
+  eps            10
+  aeps          250
+
+  header        512  2560
+  one           512   512
+  zero          512   512
+  gap          100000
+  toggle_bit      0
+
+  frequency    32000
+  duty_cycle   25
+
+      begin codes
+          P1                       0x0000000000000117
+          P2                       0x0000000000000017
+          P3                       0x0000000000000047
+          P4                       0x000000000000005F
+          KEY_1                    0x00000000000000EF        #  Was: 1
+          KEY_2                    0x000000000000016F        #  Was: 2
+          KEY_3                    0x000000000000006F        #  Was: 3
+          VT/TV                    0x0000000000000067
+          KEY_4                    0x00000000000001AF        #  Was: 4
+          KEY_5                    0x00000000000000AF        #  Was: 5
+          KEY_6                    0x000000000000012F        #  Was: 6
+          KEY_RADIO                0x00000000000001C7        #  Was: Radio
+          KEY_7                    0x000000000000002F        #  Was: 7
+          KEY_8                    0x00000000000001CF        #  Was: 8
+          KEY_9                    0x00000000000000CF        #  Was: 9
+          KEY_INFO                 0x000000000000011F        #  Was: Info
+          KEY_102ND                0x000000000000014F        #  Was: --
+          KEY_0                    0x00000000000001EF        #  Was: 0
+          Spez                     0x000000000000004F
+          KEY_CHANNELUP            0x000000000000010F        #  Was: P+
+          KEY_KPMINUS              0x00000000000000FF        #  Was: -
+          KEY_OK                   0x000000000000015F        #  Was: Ok
+          KEY_KPPLUS               0x00000000000001FF        #  Was: +
+          KEY_CHANNELDOWN          0x000000000000000F        #  Was: P-
+          Off                      0x00000000000001F7
+      end codes
+
+end remote
+
+

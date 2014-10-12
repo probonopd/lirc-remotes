@@ -1,0 +1,96 @@
+#
+# this config file was automatically generated
+# using lirc-0.7.0(atiusb) on Wed Sep 13 22:12:58 2006
+#
+# contributed by debacle, (debacle999 (at) hotmail.com
+#
+# brand: OneForAll
+# model no. of remote control: URC-7555
+# devices being controlled by this remote: VideoDiskRecorder (Linvdr)
+#Remotes need to be configured as follows:
+#1. TV-Code 0037 (Press TV -> press and hold Magic-key (**) -> 0037 (**)
+#2. to enter MagicCodes press TV(first time) -> Press and hold Magic-key (**) ->994 ->
+#press Magic-key -> enter MagicCode -> press the key to reprogram
+#Key:		MagicCode
+#Volume+  	00016	
+#Volume-	00017	
+#Channel+	00015	
+#Channel-	00174	
+#Back		00176	
+#Record		00074	
+#Guide		00179	
+#?		00078	
+#-/--		00079	
+#PPV		00080	
+#Subt		00082	
+#Radio		00083	
+#Fav		00075	
+
+
+
+begin remote
+
+  name  One4All_URC-7555
+  bits           13
+  flags RC5|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           962   809
+  zero          962   809
+  plead         989
+  gap          113509
+  min_repeat      3
+  toggle_bit      2
+
+
+      begin codes
+          KEY_0                    0x0000000000001000        #  Was: 0
+          KEY_1                    0x0000000000001001        #  Was: 1
+          KEY_2                    0x0000000000001002        #  Was: 2
+          KEY_3                    0x0000000000001003        #  Was: 3
+          KEY_4                    0x0000000000001004        #  Was: 4
+          KEY_5                    0x0000000000001005        #  Was: 5
+          KEY_6                    0x0000000000001006        #  Was: 6
+          KEY_7                    0x0000000000001007        #  Was: 7
+          KEY_8                    0x0000000000001008        #  Was: 8
+          KEY_9                    0x0000000000001009        #  Was: 9
+          KEY_POWER                0x000000000000100C        #  Was: Power
+          KEY_MUTE                 0x000000000000100D        #  Was: Mute
+          KEY_MENU                 0x000000000000103B        #  Was: Menu
+          KEY_VOLUMEUP             0x000000000000102F        #  Was: Volume+
+          KEY_VOLUMEDOWN           0x0000000000001027        #  Was: Volume-
+          KEY_CHANNELUP            0x0000000000001017        #  Was: Channel+
+          KEY_CHANNELDOWN          0x0000000000001018        #  Was: Channel-
+          KEY_UP                   0x0000000000001020        #  Was: Up
+          KEY_DOWN                 0x0000000000001021        #  Was: Down
+          KEY_LEFT                 0x0000000000001011        #  Was: Left
+          KEY_RIGHT                0x0000000000001010        #  Was: Right
+          KEY_OK                   0x0000000000001025        #  Was: Ok
+          KEY_REWIND               0x000000000000103C        #  Was: Rewind
+          KEY_PLAY                 0x000000000000103F        #  Was: Play
+          KEY_PAUSE                0x0000000000001029        #  Was: Pause
+          KEY_FORWARD              0x000000000000102E        #  Was: Forward
+          KEY_REWIND               0x000000000000100B        #  Was: SkipBack
+          KEY_STOP                 0x000000000000102B        #  Was: Stop
+          KEY_RECORD               0x000000000000003D        #  Was: Record
+          KEY_FASTFORWARD          0x000000000000100A        #  Was: SkipFwd
+          KEY_RED                  0x0000000000001037        #  Was: Red
+          KEY_GREEN                0x0000000000001036        #  Was: Green
+          KEY_YELLOW               0x0000000000001032        #  Was: Yellow
+          KEY_BLUE                 0x0000000000001034        #  Was: Blue
+          KEY_INFO                 0x000000000000100F        #  Was: Info
+          KEY_BACK                 0x0000000000001028        #  Was: Back
+	  AV			   0x0000000000001038
+          KEY_INFO                 0x0000000000001030        #  Was: Guide
+	  ?			   0x000000000000101D
+          KEY_102ND                0x0000000000001015        #  Was: -/--
+	  PPV			   0x000000000000102D
+          KEY_SUBTITLE             0x000000000000103D        #  Was: Subt
+          KEY_RADIO                0x0000000000001035        #  Was: Radio
+          KEY_FAVORITES            0x0000000000000035        #  Was: Fav
+      end codes
+
+end remote
+
+

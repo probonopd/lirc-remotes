@@ -1,0 +1,71 @@
+#
+# this config file was automatically generated
+# using lirc-0.7.2(any) on Mon Oct 10 21:22:30 2005
+#
+# contributed by Brian Long
+#
+# brand: Radio Shack 4-in-1 Family Favorites
+# model no. of remote control: 15-2142
+# devices being controlled by this remote: VCR 0081
+#
+# Mapped UP and DOWN using advanced codes since
+# they were transmitting the same as CH+ and CH-.
+#
+# UP mapped to Advanced Code 00142 (0x115B)
+# DOWN mapped to Advanced Core 00110 (0x115A)
+#
+
+begin remote
+
+  name  RS2142
+  bits           13
+  flags RC5|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           917   850
+  zero          917   850
+  plead         944
+  gap          113136
+  min_repeat      2
+  toggle_bit      2
+
+
+      begin codes
+          KEY_MENU                 0x115D                    #  Was: MENU
+          KEY_INFO                 0x117C                    #  Was: GUIDE
+          KEY_CHANNELUP            0x1160                    #  Was: CH+
+          KEY_CHANNELDOWN          0x1161                    #  Was: CH-
+          TV/VCR                   0x117E
+          KEY_LAST                 0x117B                    #  Was: LAST
+          KEY_POWER                0x114C                    #  Was: POWER
+          KEY_UP                   0x115B                    #  Was: UP
+          KEY_DOWN                 0x115A                    #  Was: DOWN
+          KEY_LEFT                 0x0155                    #  Was: LEFT
+          KEY_RIGHT                0x0956                    #  Was: RIGHT
+          KEY_EXIT                 0x1171                    #  Was: EXIT
+          KEY_INFO                 0x197C                    #  Was: INFO
+          KEY_VOLUMEUP             0x1150                    #  Was: VOL+
+          KEY_VOLUMEDOWN           0x1951                    #  Was: VOL-
+          KEY_MUTE                 0x114D                    #  Was: MUTE
+          SCAN                     0x1960
+          KEY_1                    0x1141                    #  Was: 1
+          KEY_2                    0x1942                    #  Was: 2
+          KEY_3                    0x1143                    #  Was: 3
+          KEY_4                    0x1944                    #  Was: 4
+          KEY_5                    0x1145                    #  Was: 5
+          KEY_6                    0x1946                    #  Was: 6
+          KEY_7                    0x1147                    #  Was: 7
+          KEY_8                    0x1948                    #  Was: 8
+          KEY_9                    0x1149                    #  Was: 9
+          KEY_0                    0x1940                    #  Was: 0
+          KEY_ENTER                0x194B                    #  Was: ENTER
+          KEY_REWIND               0x1172                    #  Was: REW
+          KEY_FASTFORWARD          0x1974                    #  Was: FFWD
+          KEY_PLAY                 0x1175                    #  Was: PLAY
+          KEY_PAUSE                0x1969                    #  Was: PAUSE
+          KEY_RECORD               0x1177                    #  Was: REC
+          KEY_STOP                 0x1976                    #  Was: STOP
+      end codes
+
+end remote

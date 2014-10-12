@@ -1,0 +1,75 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.3(serial) on Sun Mar 25 20:31:26 2001
+#
+# contributed by camilo@mesias.co.uk
+#
+# brand: Philex PLC
+# model: RC891
+# supported devices: Akai VCRs incl VS75ek
+#
+
+begin remote
+
+  name  RC891
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9022  4495
+  one           561  1688
+  zero          561   563
+  ptrail        558
+  repeat       9016  2250
+  pre_data_bits   16
+  pre_data       0x916E
+  gap          107987
+  toggle_bit      0
+
+
+      begin codes
+          set                      0x0000000000000AF5
+          KEY_RECORD               0x0000000000006A95        #  Was: recallcancel
+          timer                    0x000000000000CA35
+          KEY_TIME                 0x000000000000AA55        #  Was: clock
+          prgm                     0x000000000000FA05
+          correct                  0x0000000000009A65
+          KEY_POWER                0x000000000000C837        #  Was: power
+          x2                       0x000000000000B847
+          display                  0x0000000000008A75
+          counterreset             0x00000000000050AF
+          introscan                0x00000000000038C7
+          KEY_1                    0x00000000000002FD
+          KEY_2                    0x000000000000827D
+          KEY_3                    0x00000000000042BD
+          KEY_4                    0x000000000000C23D
+          blank                    0x000000000000E817
+          KEY_5                    0x00000000000022DD
+          KEY_6                    0x000000000000A25D
+          KEY_7                    0x000000000000629D
+          KEY_8                    0x000000000000E21D
+          KEY_UP                   0x000000000000B04F        #  Was: up
+          KEY_9                    0x00000000000012ED
+          KEY_0                    0x000000000000926D
+          ext                      0x00000000000052AD
+          splp                     0x000000000000D22D
+          KEY_DOWN                 0x000000000000708F        #  Was: down
+          KEY_RECORD               0x000000000000F807        #  Was: record
+          KEY_REWIND               0x00000000000040BF        #  Was: rew
+          KEY_FASTFORWARD          0x000000000000807F        #  Was: ffw
+          KEY_PAUSE                0x000000000000F00F        #  Was: pause
+          KEY_STOP                 0x000000000000C03F        #  Was: stop
+          KEY_PLAY                 0x000000000000609F        #  Was: play
+          trkL                     0x0000000000009867
+          trkR                     0x00000000000018E7
+          slowmo                   0x000000000000906F
+          slowL                    0x000000000000D827
+          slowR                    0x00000000000058A7
+          indexL                   0x00000000000010EF
+          indexR                   0x000000000000E01F
+      end codes
+
+end remote
+
+

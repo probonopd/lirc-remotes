@@ -1,0 +1,187 @@
+#
+# this config file was automatically generated
+# using lirc-0.7.0(any) on Mon Sep 12 21:43:35 2005
+#
+# Receiver for "Onkyo's RI Interface" (to RS-232, lirc_serial)
+#                 
+# RI phone jack  +----+------------o DCD
+# (mono, 3.5mm) /     |
+#          ____/     | | R1 (10k)
+#         /   /     | |
+#        (  ()  )     |
+#         ____/------+------------o GND
+# 
+# brand: Onkyo Remote Interactive
+# model no. of "remote control": TX-SR502E
+# devices being controlled by this remote:
+# "Onkyo RI" connected devices (via Onkyo Remote Interactive cable)
+# (DVD, MD, CD, TAPE, CDR)
+
+begin remote
+
+  name  Onkyo_TX-SR502E
+  bits           12
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       3000  1000
+  one          1000  2000
+  zero         1000  1000
+  ptrail       1000
+  gap          67000
+  toggle_bit      0
+
+  frequency    38000
+  duty_cycle   100
+
+      begin codes
+          CDR_Forward              0x0600
+          CDR_Rewind               0x0601
+          CDR_On                   0x0604
+          CDR_Eject                0x0605
+          CDR_PrevCh               0x0606
+          CDR_Random               0x0607
+          CDR_Memory               0x0608
+          CDR_Clear                0x0609
+          CDR_Repeat               0x060A
+          CDR_1                    0x060E
+          CDR_2                    0x060F
+          CDR_3                    0x0610
+          CDR_4                    0x0611
+          CDR_5                    0x0612
+          CDR_6                    0x0613
+          CDR_7                    0x0614
+          CDR_8                    0x0615
+          CDR_9                    0x0616
+          CDR_0                    0x0617
+          CDR_Digits               0x0618
+          CDR_Rec                  0x061A
+          CDR_Play                 0x061B
+          CDR_Stop                 0x061C
+          CDR_NextChapter          0x061D
+          CDR_PrevChapter          0x061E
+          CDR_Pause                0x061F
+          CDR_Standby              0x068F
+
+          KEY_DVD                  0x0704                    #  Was: DVD_On
+          KEY_DVD                  0x0705                    #  Was: DVD_Eject
+          KEY_DVD                  0x0706                    #  Was: DVD_PrevCh
+          KEY_DVD                  0x0707                    #  Was: DVD_Angle
+          KEY_DVD                  0x0708                    #  Was: DVD_Enter
+          KEY_DVD                  0x0709                    #  Was: DVD_Return
+          KEY_DVD                  0x070A                    #  Was: DVD_Random
+          KEY_DVD                  0x070B                    #  Was: DVD_SlowMotion
+          KEY_DVD                  0x070C                    #  Was: DVD_Forward
+          KEY_DVD                  0x070D                    #  Was: DVD_Rewind
+          KEY_DVD                  0x070E                    #  Was: DVD_1
+          KEY_DVD                  0x070F                    #  Was: DVD_2
+          KEY_DVD                  0x0710                    #  Was: DVD_3
+          KEY_DVD                  0x0711                    #  Was: DVD_4
+          KEY_DVD                  0x0712                    #  Was: DVD_5
+          KEY_DVD                  0x0713                    #  Was: DVD_6
+          KEY_DVD                  0x0714                    #  Was: DVD_7
+          KEY_DVD                  0x0715                    #  Was: DVD_8
+          KEY_DVD                  0x0716                    #  Was: DVD_9
+          KEY_DVD                  0x0717                    #  Was: DVD_0
+          KEY_DVD                  0x0718                    #  Was: DVD_Digits
+          KEY_DVD                  0x0719                    #  Was: DVD_Search
+          KEY_1a                   0x071A                    #  Was: 0x71a
+          KEY_DVD                  0x071B                    #  Was: DVD_Play
+          KEY_DVD                  0x071C                    #  Was: DVD_Stop
+          KEY_DVD                  0x071D                    #  Was: DVD_NextChapter
+          KEY_DVD                  0x071E                    #  Was: DVD_PrevChapter
+          KEY_DVD                  0x071F                    #  Was: DVD_Pause
+          KEY_DVD                  0x0744                    #  Was: DVD_Repeat
+          KEY_DVD                  0x0745                    #  Was: DVD_AB
+          KEY_DVD                  0x0749                    #  Was: DVD_LastM
+          KEY_DVD                  0x074A                    #  Was: DVD_Memory
+          KEY_DVD                  0x074B                    #  Was: DVD_Clear
+          KEY_DVD                  0x074D                    #  Was: DVD_Setup
+          KEY_MENU                 0x074E                    #  Was: DVD_TopMenu
+          KEY_MENU                 0x074F                    #  Was: DVD_Menu
+          KEY_DVD                  0x0750                    #  Was: DVD_CursorUp
+          KEY_DVD                  0x0751                    #  Was: DVD_CursorDn
+          KEY_DVD                  0x0752                    #  Was: DVD_CursorLeft
+          KEY_DVD                  0x0753                    #  Was: DVD_CursorRight
+          KEY_DVD                  0x0754                    #  Was: DVD_Subtitle
+          KEY_DVD                  0x0755                    #  Was: DVD_Audio
+          KEY_DVD                  0x078C                    #  Was: DVD_Standby
+          KEY_DVD                  0x078F                    #  Was: DVD_SlowMotionBack
+          KEY_DVD                  0x07D3                    #  Was: DVD_ChUp
+          KEY_DVD                  0x07D4                    #  Was: DVD_ChDn
+          KEY_DVD                  0x07DF                    #  Was: DVD_VideoOff
+
+          MD_Forward               0x0800
+          MD_Rewind                0x0801
+          MD_On                    0x0804
+          MD_Eject                 0x0805
+          MD_PrevCh                0x0806
+          MD_Random                0x080A
+          MD_Memory                0x080B
+          MD_1                     0x080E
+          MD_2                     0x080F
+          MD_3                     0x0810
+          MD_4                     0x0811
+          MD_5                     0x0812
+          MD_6                     0x0813
+          MD_7                     0x0814
+          MD_8                     0x0815
+          MD_9                     0x0816
+          MD_0                     0x0817
+          MD_Rec                   0x081A
+          MD_Play                  0x081B
+          MD_Stop                  0x081C
+          MD_NextChapter           0x081D
+          MD_PrevChapter           0x081E
+          MD_Pause                 0x081F
+          MD_Repeat                0x0844
+          MD_Clear                 0x084B
+          MD_Digits                0x085B
+          MD_Standby               0x088F
+
+          TAPE_Stop                0x0D13
+          TAPE_Play                0x0D15
+          TAPE_Pause               0x0D16
+          TAPE_Rec                 0x0D18
+          TAPE_Forward             0x0D19
+          TAPE_Rewind              0x0D1A
+          TAPE_PrevChapter         0x0D54
+          TAPE_NextChapter         0x0D55
+
+          CD_Forward               0x0F00
+          CD_Rewind                0x0F01
+          CD_On                    0x0F04
+          CD_Clear                 0x0F08
+          CD_Eject                 0x0F0B
+          CD_8                     0x0F0C
+          CD_9                     0x0F0D
+          CD_0                     0x0F0E
+          CD_Digits                0x0F0F
+          CD_1                     0x0F10
+          CD_2                     0x0F11
+          CD_3                     0x0F12
+          CD_4                     0x0F13
+          CD_5                     0x0F18
+          CD_6                     0x0F19
+          CD_7                     0x0F1A
+          CD_Play                  0x0F1B
+          CD_Stop                  0x0F1C
+          CD_NextChapter           0x0F1D
+          CD_PrevChapter           0x0F1E
+          CD_Pause                 0x0F1F
+          CD_Random                0x0F46
+          CD_ChUp                  0x0F5C
+          CD_ChDn                  0x0F5F
+          CD_Standby               0x0F8F
+
+          AMP_ON                   0x00E9
+          AMP_Standby              0x00EA
+          AMP_Muting               0x0AA1
+          AMP_1                    0x0AA2
+          AMP_2                    0x0AA0
+          KEY_0xaae                0x0AAE                    #  Was: 0xaae
+          KEY_0xaaf                0x0AAF                    #  Was: 0xaaf
+          AMP_Dimmer               0x01B2
+      end codes
+end remote

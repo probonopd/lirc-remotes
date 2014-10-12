@@ -1,0 +1,48 @@
+#
+# this config file was automatically generated
+# using WinLIRC 0.6.5 (LIRC 0.6.1pre3) on Mon Dec 22 18:37:04 2008
+#
+# contributed by BundyzBitz
+#
+# brand:             NEC
+# model:             RB-73A
+# supported devices: NEC VCR N-9083A
+#
+
+begin remote
+
+  name  NEC_RB-73A
+  bits           16
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  header       9069  4449
+  one           604  1644
+  zero          604   513
+  ptrail        604
+  repeat       9081  2190
+  pre_data_bits   16
+  pre_data       0x9867
+  gap          39875
+  toggle_bit      0
+
+
+      begin codes
+          Operate                  0x00000000000010EF
+          KEY_EJECTCD              0x000000000000F00F        #  Was: Eject
+          TV/VCR                   0x00000000000050AF
+          KEY_CHANNELUP            0x00000000000000FF        #  Was: CH+
+          KEY_CHANNELDOWN          0x000000000000807F        #  Was: CH-
+          KEY_RECORD               0x000000000000609F        #  Was: Rec
+          KEY_REWIND               0x000000000000B04F        #  Was: Rew
+          KEY_PLAY                 0x000000000000A05F        #  Was: Play
+          KEY_FASTFORWARD          0x00000000000030CF        #  Was: FF
+          KEY_STOP                 0x00000000000020DF        #  Was: Stop
+          KEY_PAUSE                0x000000000000708F        #  Was: Pause
+          StillAdv                 0x000000000000C03F
+      end codes
+
+end remote
+
+

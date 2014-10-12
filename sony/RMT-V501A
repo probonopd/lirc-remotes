@@ -1,0 +1,87 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.4a(default) on Fri Jan  2 22:48:42 2009
+#
+# contributed by
+#
+# brand:                       Sony
+# model no. of remote control: RMT-V501A
+# devices being controlled by this remote: DVD/VCR combo, TV
+#
+# NOTE: This remote has a two-position switch marked TV and DVD.
+# The codes in this file reflect what is transmitted in the DVD
+# position.  The codes generated in the TV position are either
+# the same, or vary with what TV manufacturer id has been
+# programmed into the remote.
+#
+
+begin remote
+
+  name  Sony_RMT-V501A
+  bits           12
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       2456   512
+  one          1269   528
+  zero          677   528
+  post_data_bits  8
+  post_data      0xCA
+  gap          44635
+  min_repeat      2
+  toggle_bit_mask 0x0
+
+      begin codes
+          KEY_EJECTCD              0x68B                     #  Was: eject
+          KEY_POWER                0xA8B                     #  Was: power
+          select-dvd               0x56B
+          select-video             0x96B
+          KEY_CHANNELUP            0x08B                     #  Was: ch+
+          KEY_CHANNELDOWN          0x88B                     #  Was: ch-
+          KEY_1                    0x00B                     #  Was: 1
+          KEY_2                    0x80B                     #  Was: 2
+          KEY_3                    0x40B                     #  Was: 3
+          KEY_4                    0xC0B                     #  Was: 4
+          KEY_5                    0x20B                     #  Was: 5
+          KEY_6                    0xA0B                     #  Was: 6
+          KEY_7                    0x60B                     #  Was: 7
+          KEY_8                    0xE0B                     #  Was: 8
+          KEY_9                    0x10B                     #  Was: 9
+          KEY_0                    0x90B                     #  Was: 0
+          KEY_CLEAR                0xC6B                     #  Was: clear
+          KEY_ENTER                0xD0B                     #  Was: enter
+          muting/zoom              0x9EB
+          KEY_AUDIO                0xE8B                     #  Was: audio
+          KEY_SUBTITLE             0x06B                     #  Was: subtitle/timer
+          KEY_ANGLE                0xA6B                     #  Was: angle
+          input-select             0xF2B
+          KEY_SETUP                0xB2B                     #  Was: setup
+          surround                 0x78B
+          sp/ep                    0x1AB
+          tv/video                 0x54B
+          repeat/replay            0xDAB
+          bookmark/search-menu     0x0CB
+          KEY_BACK                 0xD8B                     #  Was: back
+          KEY_FORWARD              0x38B                     #  Was: forward
+          KEY_RECORD               0xB8B                     #  Was: record
+          KEY_NEXT                 0xBAB                     #  Was: skip
+          KEY_PREVIOUS             0xEAB                     #  Was: prev
+          KEY_NEXT                 0x6AB                     #  Was: next
+          KEY_PLAY                 0x58B                     #  Was: play
+          KEY_PAUSE                0x98B                     #  Was: pause
+          KEY_STOP                 0x18B                     #  Was: stop
+          KEY_UP                   0x42B                     #  Was: up
+          KEY_DOWN                 0xC2B                     #  Was: down
+          KEY_LEFT                 0x46B                     #  Was: left
+          KEY_RIGHT                0x86B                     #  Was: right
+          KEY_OK                   0xD0B                     #  Was: ok
+          display                  0x5AB
+          top-menu                 0x44B
+          KEY_MENU                 0xC4B                     #  Was: menu
+          KEY_ENTER                0x24B                     #  Was: return
+      end codes
+
+end remote
+
+

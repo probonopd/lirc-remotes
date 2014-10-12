@@ -1,0 +1,149 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.6(serial) on Sat Jan 24 11:58:06 2004
+#
+# contributed by				K.-H.Hoffmann
+#
+# brand:					JVC
+# model no. of remote control:			PQ21953F
+# devices being controlled by this remote:	VCR HR-A637E/EH
+#
+
+begin remote
+
+  name  JVC_PQ21953F
+  bits           16
+  flags SPACE_ENC|NO_HEAD_REP|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       8488  4126
+  one           590  1508
+  zero          590   462
+  ptrail        590
+  gap          46229
+  min_repeat      2
+  toggle_bit      0
+
+
+      begin codes
+# setting A-VCR
+          operate                  0x000000000000C2D0
+          store                    0x000000000000C27C
+          ch_set                   0x000000000000C266
+          re-view                  0x000000000000C2C3
+          KEY_TIME                 0x000000000000C25C        #  Was: clock
+          display                  0x000000000000C21C
+          KEY_1                    0x000000000000C284        #  Was: 1
+          KEY_2                    0x000000000000C244        #  Was: 2
+          KEY_3                    0x000000000000C2C4        #  Was: 3
+          KEY_4                    0x000000000000C224        #  Was: 4
+          KEY_5                    0x000000000000C2A4        #  Was: 5
+          KEY_6                    0x000000000000C264        #  Was: 6
+          KEY_7                    0x000000000000C2E4        #  Was: 7
+          KEY_8                    0x000000000000C214        #  Was: 8
+          KEY_9                    0x000000000000C294        #  Was: 9
+          KEY_0                    0x000000000000C2CC        #  Was: 0
+          KEY_CANCEL               0x000000000000C26C        #  Was: cancel
+          timer                    0x000000000000C2AC
+          start+                   0x000000000000C213
+          start-                   0x000000000000C293
+          stop+                    0x000000000000C253
+          stop-                    0x000000000000C2D3
+          date+                    0x000000000000C263
+          date-                    0x000000000000C2E3
+          tv_prog+                 0x000000000000C298
+          tv_prog-                 0x000000000000C218
+          /_//                     0x000000000000C28C
+          audio_monitor            0x000000000000C2E8
+          tv/video                 0x000000000000C2C8
+          KEY_REWIND               0x000000000000C2E0        #  Was: rewind
+          KEY_PLAY                 0x000000000000C230        #  Was: play
+          KEY_FORWARD              0x000000000000C260        #  Was: forward
+          KEY_RECORD               0x000000000000C2B3        #  Was: rec+pause
+          KEY_RECORD               0x000000000000C233        #  Was: rec+play
+          KEY_STOP                 0x000000000000C2C0        #  Was: stop
+          KEY_PAUSE                0x000000000000C2B0        #  Was: pause
+          prog_check               0x000000000000C2BC
+          prog                     0x000000000000C2EC
+          KEY_OK                   0x000000000000C23C        #  Was: ok
+          jog-left                 0x000000000000C2A8
+          jog-right                0x000000000000C228
+# remember that the next 2 are the same as tv_prog+,-
+          jog-up                   0x000000000000C298
+          jog-down                 0x000000000000C218
+
+
+# setting B-VCR
+          B-operate                0x000000000000CAD0
+          B-store                  0x000000000000CA7C
+          B-ch_set                 0x000000000000CA66
+          B-re-view                0x000000000000CAC3
+          B-clock                  0x000000000000CA5C
+          B-display                0x000000000000CA1C
+          B-1                      0x000000000000CA84
+          B-2                      0x000000000000CA44
+          B-3                      0x000000000000CAC4
+          B-4                      0x000000000000CA24
+          B-5                      0x000000000000CAA4
+          B-6                      0x000000000000CA64
+          B-7                      0x000000000000CAE4
+          B-8                      0x000000000000CA14
+          B-9                      0x000000000000CA94
+          B-0                      0x000000000000CACC
+          B-cancel                 0x000000000000CA6C
+          B-timer                  0x000000000000CAAC
+          B-start+                 0x000000000000CA13
+          B-start-                 0x000000000000CA93
+          B-stop+                  0x000000000000CA53
+          B-stop-                  0x000000000000CAD3
+          B-date+                  0x000000000000CA63
+          B-date-                  0x000000000000CAE3
+          B-tv_prog+               0x000000000000CA98
+          B-tv_prog-               0x000000000000CA18
+          B-/_//                   0x000000000000CA8C
+          B-audio_monitor          0x000000000000CAE8
+          B-tv/video               0x000000000000CAC8
+          B-rewind                 0x000000000000CAE0
+          B-play                   0x000000000000CA30
+          B-forward                0x000000000000CA60
+          B-rec+pause              0x000000000000CAB3
+          B-rec+play               0x000000000000CA33
+          B-stop                   0x000000000000CAC0
+          B-pause                  0x000000000000CAB0
+          B-prog_check             0x000000000000CABC
+          B-prog                   0x000000000000CAEC
+          B-ok                     0x000000000000CA3C
+          B-jog-left               0x000000000000CAA8
+          B-jog-right              0x000000000000CA28
+# remember that the next 2 are the same as B-tv_prog+,-
+          B-jog-up                 0x000000000000CA98
+          B-jog-down               0x000000000000CA18
+
+
+# setting TV (subset of codes modified for A and B)
+          TV-operate               0x000000000000C0E8
+          TV-1                     0x000000000000C084
+          TV-2                     0x000000000000C044
+          TV-3                     0x000000000000C0C4
+          TV-4                     0x000000000000C024
+          TV-5                     0x000000000000C0A4
+          TV-6                     0x000000000000C064
+          TV-7                     0x000000000000C0E4
+          TV-8                     0x000000000000C014
+          TV-9                     0x000000000000C094
+          TV-0                     0x000000000000C004
+          TV-tv_prog+              0x000000000000C098
+          TV-tv_prog-              0x000000000000C018
+          TV-/_//                  0x000000000000C0B9
+          TV-audio_monitor         0x000000000000C038
+          TV-tv/video              0x000000000000C0C8
+          TV-jog-left              0x000000000000C00E
+          TV-jog-right             0x000000000000C08E
+          TV-jog-up                0x000000000000C078
+          TV-jog-down              0x000000000000C0F8
+
+      end codes
+
+end remote
+

@@ -1,0 +1,63 @@
+#
+# this config file was automatically generated
+# using WinLIRC 0.6.5 (LIRC 0.6.1pre3) on Tue Jul 27 15:59:28 2004
+#
+# contributed by Tim Harrison
+#
+# brand:             Sony
+# model:             RM-DX740
+# supported devices:
+#
+
+begin remote
+
+  name  Sony_RM-DX740
+  bits           11
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  header       2454   529
+  one          1257   529
+  zero          657   529
+  ptrail       1257
+  gap          25137
+  toggle_bit      0
+
+
+      begin codes
+          Continue                 0x00000000000005C8
+          Shuffle                  0x0000000000000568
+          Program                  0x00000000000007C8
+          KEY_TIME                 0x00000000000000A8        #  Was: Time
+          Display                  0x0000000000000358
+          Fader                    0x00000000000007D8
+          KEY_1                    0x0000000000000008        #  Was: 1
+          KEY_2                    0x0000000000000408        #  Was: 2
+          KEY_3                    0x0000000000000208        #  Was: 3
+          KEY_4                    0x0000000000000608        #  Was: 4
+          KEY_5                    0x0000000000000108        #  Was: 5
+          KEY_6                    0x0000000000000508        #  Was: 6
+          KEY_7                    0x0000000000000308        #  Was: 7
+          KEY_8                    0x0000000000000708        #  Was: 8
+          KEY_9                    0x0000000000000088        #  Was: 9
+          >10                      0x0000000000000728
+          KEY_0                    0x0000000000000028        #  Was: 10/0
+          KEY_CLEAR                0x0000000000000788        #  Was: Clear
+          KEY_AGAIN                0x00000000000001A8        #  Was: Repeat
+          A-B                      0x00000000000002A8
+          Check                    0x0000000000000588
+          KEY_PLAY                 0x0000000000000268        #  Was: Play
+          KEY_PAUSE                0x00000000000004E8        #  Was: Pause
+          KEY_STOP                 0x00000000000000E8        #  Was: Stop
+          KEY_PREVIOUS             0x0000000000000068        #  Was: Previous
+          KEY_NEXT                 0x0000000000000468        #  Was: Next
+          KEY_REWIND               0x0000000000000668        #  Was: Rewind
+          KEY_FASTFORWARD          0x0000000000000168        #  Was: Fast_forward
+          KEY_VOLUMEUP             0x0000000000000248        #  Was: Volume_up
+          KEY_VOLUMEDOWN           0x0000000000000648        #  Was: Volume_down
+      end codes
+
+end remote
+
+

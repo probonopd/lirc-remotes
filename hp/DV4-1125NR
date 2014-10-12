@@ -1,0 +1,57 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.6(default) on Thu May  6 14:29:55 2010
+#
+# contributed by Diego Mejia
+#
+# brand:                       HP
+# model no. of remote control:
+# devices being controlled by this remote: Laptop: HP dv4-1125nr
+#
+
+begin remote
+
+  name  HP_DV4-1125NR
+  bits            8
+  flags RC6
+  eps            30
+  aeps          100
+
+  header       2850   856
+  one           494   396
+  zero          494   396
+  pre_data_bits   29
+  pre_data       0x37FF07B
+  gap          72550
+  toggle_bit_mask 0x8000
+  rc6_mask    0x100000000
+
+      begin codes
+          KEY_DOWN                 0xE0
+          KEY_RIGHT                0xDE
+          KEY_UP                   0xE1
+          KEY_LEFT                 0xDF
+          KEY_OK                   0xDD
+          KEY_PAGEUP               0xED
+          KEY_PAGEDOWN             0xEC
+          KEY_PLAYPAUSE            0x91
+          KEY_REWIND               0xEA
+          KEY_SCREEN               0x7E
+          KEY_STOP                 0xE6
+          KEY_FORWARD              0xEB
+          BTN_BACK                 0xE4
+          BTN_FORWARD              0xE5
+          KEY_VOLUMEDOWN           0xEE
+          KEY_VOLUMEUP             0xEF
+          KEY_MUTE                 0xF1
+          KEY_POWER                0xF3
+          KEY_MEDIA                0xDB
+          KEY_MENU                 0xF2
+          KEY_INFO                 0xF0
+          KEY_FIRST                0xDC
+          KEY_FAVORITES            0x7F
+      end codes
+
+end remote
+
+

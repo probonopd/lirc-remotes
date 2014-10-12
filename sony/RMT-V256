@@ -1,0 +1,106 @@
+#
+# this config file was automatically generated
+# using WinLIRC 0.6.5 (LIRC 0.6.1pre3) on Wed Jan 04 21:07:54 2006
+#
+# contributed by: darko dot bunic at hrt dot hr
+#
+# brand:             Sony
+# model:             RMT-V256
+# supported devices: tv, vcr
+# description: - remote has TV/VIDEO switch on the right side
+#              - with switch on TV, five buttons are different:
+#                power, tv/video, display, prog+ and prog-
+#              - this codes are described with "tv_" preffix (last remote section)
+
+begin remote
+
+  name  Sony_RMT-V256_1
+  bits           11
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  header       2489   552
+  one           633   552
+  zero         1232   552
+  ptrail        633
+  gap          24680
+  toggle_bit      0
+
+      begin codes
+          KEY_EJECTCD              0x00000000000004B2        #  Was: eject
+          tv/video                 0x0000000000000552
+          KEY_POWER                0x00000000000002B2        #  Was: power
+          display                  0x0000000000000522
+          KEY_CLEAR                0x00000000000001C2        #  Was: clear
+          KEY_VOLUMEUP             0x00000000000005B7        #  Was: vol+
+          KEY_VOLUMEDOWN           0x00000000000001B7        #  Was: vol-
+          KEY_CHANNELUP            0x00000000000007B2        #  Was: prog+
+          KEY_CHANNELDOWN          0x00000000000003B2        #  Was: prog-
+          counter/remain           0x00000000000003E2
+          square                   0x0000000000000717
+          input_select             0x0000000000000062
+          KEY_SLOW                 0x00000000000001D2        #  Was: slow
+          KEY_RECORD               0x0000000000000232        #  Was: rec
+          timer                    0x00000000000007C2
+          KEY_MENU                 0x0000000000000262        #  Was: menu
+      end codes
+
+end remote
+
+begin remote
+
+  name  Sony_RMT-V256_2
+  bits            6
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  header       2484   555
+  one           632   555
+  zero         1230   555
+  ptrail       1230
+  post_data_bits  8
+  post_data      0xD1
+  gap          19955
+  toggle_bit      0
+
+      begin codes
+          smart_search             0x0000000000000031
+          KEY_REWIND               0x000000000000003D        #  Was: rew
+          KEY_PAUSE                0x0000000000000023        #  Was: pause
+          KEY_FASTFORWARD          0x000000000000001D        #  Was: ff
+          KEY_STOP                 0x0000000000000003        #  Was: stop
+          KEY_PLAY                 0x0000000000000039        #  Was: play
+      end codes
+
+end remote
+
+#
+# with TV switch
+#
+
+begin remote
+
+  name  Sony_RMT-V256_TV
+  bits           11
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  header       2469   547
+  one          1231   547
+  zero          633   547
+  ptrail        633
+  gap          25967
+  toggle_bit      0
+
+      begin codes
+          tv_power                 0x0000000000000548
+          tv_tv/video              0x0000000000000528
+          tv_display               0x00000000000002E8
+          tv_prog+                 0x0000000000000048
+          tv_prog-                 0x0000000000000448
+      end codes
+
+end remote

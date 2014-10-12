@@ -1,0 +1,126 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.3 on Thu Jan 11 19:30:30 2001
+#
+# contributed by Santiago Garcia Mantinan <manty@i.am>
+#
+# brand:             Kenwood
+# model:             RC-S0504
+# supported devices:
+#
+
+begin remote
+
+  name  Kenwood
+  bits           32
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       8943  4506
+  one           591  1642
+  zero          591   538
+  ptrail        591
+  repeat       8943  2263
+  gap          107802
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x000000001D00B946        #  Was: POWER
+          KEY_SLEEP                0x000000001D00E916        #  Was: SLEEP
+          DISPLAY                  0x000000001D407887
+          KEY_10CHANNELSUP         0x000000001D00B04F        #  Was: +10
+          KEY_1                    0x000000001D00817E        #  Was: 1
+          KEY_2                    0x000000001D0041BE        #  Was: 2
+          KEY_3                    0x000000001D00C13E        #  Was: 3
+          KEY_4                    0x000000001D0021DE        #  Was: 4
+          KEY_5                    0x000000001D00A15E        #  Was: 5
+          KEY_6                    0x000000001D00619E        #  Was: 6
+          KEY_7                    0x000000001D00E11E        #  Was: 7
+          KEY_8                    0x000000001D0011EE        #  Was: 8
+          KEY_9                    0x000000001D00916E        #  Was: 9
+          KEY_0                    0x000000001D0001FE        #  Was: 0
+          BAND                     0x000000001D00F10E
+          RDS_DISPLAY              0x000000001D001AE5
+          MEMO                     0x000000001D805AA5
+          AUTO_MEMORY              0x000000001DC0B24D
+          TITLE_SEARCH             0x000000001DC052AD
+          A.MONI.                  0x000000006DD2F00F
+          TEXT_DISP                0x000000001DC012ED
+          STILL_STEP_LEFT          0x000000006DD21AE5
+          ALL_INFO                 0x000000001DC0926D
+          STILL_STEP_RIGHT         0x000000006DD29A65
+          P.CALL_DOWN              0x000000001D80609F
+          PTY                      0x000000001D8039C6
+          P.CALL_UP                0x000000001D80E01F
+          TA/NEWS/INFO             0x000000001D4003FC
+          ALL_TEXT_SEARCH          0x000000001DC0D22D
+          FRAME/TIME               0x000000006DD2EA15
+          EDIT_MODE                0x000000001D00B34C
+          EDIT_MODE-B              0x000000006DD252AD
+          DISC_SKIP                0x000000001D0010EF
+          KEY_AGAIN                0x000000006DD29867        #  Was: REPEAT
+          KEY_BACK                 0x000000001D00609F        #  Was: BACK
+          BACK-B                   0x000000006DD228D7
+          KEY_FORWARD              0x000000001D00E01F        #  Was: FORWARD
+          FORWARD-B                0x000000006DD2A857
+          KEY_PREVIOUS             0x000000001D00738C        #  Was: PREV
+          PREV-B                   0x000000006DD26897
+          KEY_NEXT                 0x000000001D00F30C        #  Was: NEXT
+          KEY_NEXT                 0x000000006DD2E817        #  Was: NEXT-B
+          KEY_PLAYPAUSE            0x000000001D00D32C        #  Was: PLAY/PAUSE
+          KEY_PLAY                 0x000000006DD2C837        #  Was: PLAY/PAUSE-B
+          P.MODE                   0x000000001D0023DC
+          P.MODE-B                 0x000000006DD2F807
+          CHECK                    0x000000001D0013EC
+          CHECK-B                  0x000000006DD2D827
+          KEY_CLEAR                0x000000001D0053AC        #  Was: CLEAR
+          CLEAR-B                  0x000000006DD258A7
+          KEY_TIME                 0x000000001D00708F        #  Was: TIME
+          TIME-B                   0x000000006DD218E7
+          KEY_STOP                 0x000000001D00936C        #  Was: STOP
+          STOP-B                   0x000000006DD28877
+          P.B.C.                   0x000000001D40DA25
+          P.B.C.-B                 0x000000006DD2A25D
+          KEY_SELECT               0x000000001D403AC5        #  Was: SELECT
+          SELECT-B                 0x000000006DD212ED
+          KEY_ENTER                0x000000001D40BA45        #  Was: RETURN
+          RETURN-B                 0x000000006DD2E21D
+          FREEZE                   0x000000001D4001FE
+          FREEZE-B                 0x000000006DD2629D
+          PAL/NTSC                 0x000000001DC08877
+          PAL/NTSC-B               0x000000006DD2926D
+          LD                       0x000000006DD2F906
+          AUTO_DIGITAL             0x000000006DD202FD
+          O.T.E.                   0x000000001D40906F
+          KEY_RECORD               0x000000001D007B84        #  Was: REC/ARM
+          PAUSE-A                  0x000000001D002BD4
+          KEY_REWIND               0x000000001D004BB4        #  Was: REW-A
+          LEFT-A                   0x000000001D000BF4
+          STOP-A                   0x000000001D00AB54
+          RIGHT-A                  0x000000001D008B74
+          FF-A                     0x000000001D00CB34
+          PAUSE-B                  0x000000001D003BC4
+          KEY_REWIND               0x000000001D005BA4        #  Was: REW-B
+          LEFT-B                   0x000000001D001BE4
+          STOP-B                   0x000000001D00BB44
+          RIGHT-B                  0x000000001D009B64
+          FF-B                     0x000000001D00DB24
+          PRO_LOGIC                0x000000001D8000FF
+          X_KEY_3STEREO            0x000000001D80708F        #  Was: KEY_3STEREO
+          DSP                      0x000000001D8030CF
+          STEREO                   0x000000001D00EB14
+          SOURCE_DIRECT            0x000000001D002AD5
+          TEST_TONE                0x000000001D006A95
+          KEY_MODE                 0x000000001D80EA15        #  Was: MODE
+          MULTI_CONTROL_UP         0x000000001D80AA55
+          KEY_VOLUMEUP             0x000000001D00D926        #  Was: VOLUME_UP
+          INPUT                    0x000000001D8033CC
+          TAPE2(MONITOR)           0x000000001DC058A7
+          MULTI_CONTROL_DOWN       0x000000001D802AD5
+          KEY_MUTE                 0x000000001D0039C6        #  Was: MUTE
+          KEY_VOLUMEDOWN           0x000000001D0059A6        #  Was: VOLUME_DOWN
+      end codes
+
+end remote

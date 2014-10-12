@@ -1,0 +1,89 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.1 on Wed Sep 13 21:39:52 2000
+#
+# contributed by Lars Mucha
+#
+# brand:             Sony
+# model:             RM-D27M
+# supported devices: minidisc drive
+#
+
+begin remote
+
+  name  Sony_RM-D27M
+  bits            7
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       2466   554
+  one          1251   550
+  zero          650   550
+  ptrail        650
+  post_data_bits  4
+  post_data      0xF
+  gap          44976
+  toggle_bit      0
+  min_repeat      2
+
+
+      begin codes
+          KEY_EJECTCD              0x0000000000000034        #  Was: Eject
+          KEY_POWER                0x0000000000000054        #  Was: Power
+          Display                  0x000000000000000C
+          Scroll                   0x000000000000004C
+          Continue                 0x000000000000005C
+          Shuffle                  0x000000000000003C
+          Program                  0x000000000000007C
+          KEY_D                    0x000000000000006C        #  Was: D
+          KEY_E                    0x000000000000002C        #  Was: E
+          KEY_1                    0x0000000000000000        #  Was: 1
+          KEY_2                    0x0000000000000040        #  Was: 2
+          KEY_3                    0x0000000000000020        #  Was: 3
+          KEY_4                    0x0000000000000060        #  Was: 4
+          KEY_5                    0x0000000000000010        #  Was: 5
+          KEY_6                    0x0000000000000050        #  Was: 6
+          KEY_7                    0x0000000000000030        #  Was: 7
+          KEY_8                    0x0000000000000070        #  Was: 8
+          KEY_9                    0x0000000000000008        #  Was: 9
+          KEY_0                    0x0000000000000048        #  Was: 10
+          KEY_1                    0x0000000000000001        #  Was: 11
+          KEY_2                    0x0000000000000041        #  Was: 12
+          KEY_3                    0x0000000000000021        #  Was: 13
+          KEY_4                    0x0000000000000061        #  Was: 14
+          KEY_5                    0x0000000000000011        #  Was: 15
+          KEY_6                    0x0000000000000051        #  Was: 16
+          KEY_7                    0x0000000000000031        #  Was: 17
+          KEY_8                    0x0000000000000071        #  Was: 18
+          KEY_9                    0x0000000000000009        #  Was: 19
+          KEY_0                    0x0000000000000049        #  Was: 20
+          KEY_1                    0x0000000000000029        #  Was: 21
+          KEY_2                    0x0000000000000069        #  Was: 22
+          KEY_3                    0x0000000000000019        #  Was: 23
+          KEY_4                    0x0000000000000059        #  Was: 24
+          KEY_5                    0x0000000000000039        #  Was: 25
+          >25			   0x0000000000000028
+          KEY_AGAIN                0x0000000000000032        #  Was: Repeat
+          A<->B                    0x0000000000000072
+          A.Space                  0x0000000000000066
+          M.Scan                   0x0000000000000016
+          Write.Nam                0x000000000000001E
+          Write.Cha                0x0000000000000036
+          Write.Num                0x0000000000000076
+          KEY_CLEAR                0x0000000000000078        #  Was: Clear
+          KEY_PLAY                 0x000000000000002A        #  Was: Play
+          KEY_PAUSE                0x000000000000004A        #  Was: Pause
+          KEY_STOP                 0x000000000000000A        #  Was: Stop
+          SkipBackwards            0x0000000000000002
+          SkipForward              0x0000000000000042
+          KEY_RECORD               0x000000000000005A        #  Was: Record
+          KEY_BACK                 0x000000000000006A        #  Was: Back
+          KEY_FORWARD              0x000000000000001A        #  Was: Forward
+          T.Rec                    0x0000000000000006
+          Music.Sync               0x000000000000007E
+          CD_Stop                  0x000000000000000A
+          CD_Start                 0x000000000000002A
+          CD_Standby               0x000000000000003E
+      end codes
+end remote

@@ -1,0 +1,36 @@
+# 
+# lircmd config file
+# 
+
+PROTOCOL IntelliMouse
+
+# ACCELERATOR start max multiplier
+
+ACCELERATOR 2 30 5
+
+ACTIVATE * POWER
+
+MOVE_W  * FR
+MOVE_E  * FF
+MOVE_N  * VOL_UP
+MOVE_S  * VOL_DOWN
+MOVE_NW * EQ
+MOVE_NE * MUTE
+MOVE_SE * STOP
+MOVE_SW * PROGRAM
+MOVE_IN * VOL_UP
+MOVE_OUT * VOL_DOWN
+
+BUTTON1_CLICK * SELECT
+BUTTON2_CLICK * POWER
+BUTTON3_CLICK * MENU
+
+# for deactivation the not listed button "PLAY" is used
+# after deactivation You may use Your IRC for i.e. XMMS
+# reactivation is done with "POWER" (see "ACTIVATE")
+
+## INFOS ##
+# BUTTON4_CLICK (for scrolling) does not exist - use MOVE_IN / MOVE_OUT
+# not defined IR-remote-buttons (play/pause) are for deactivating
+
+# BUTTONx_CLICK, BUTTONx_UP, BUTTONx_DOWN are also possible

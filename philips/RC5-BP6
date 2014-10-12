@@ -1,0 +1,69 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.3pre2(default) on Mon Apr 28 15:21:46 2008
+#
+# contributed by
+#
+# brand:                       Philips
+# model no.RC5-BP6 of remote control: RC5
+# devices being controlled by this remote:
+#
+
+begin remote
+
+  name  Philips_RC5-BP6
+  bits           13
+  flags RC5|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           889   889
+  zero          889   889
+  plead         889
+  gap          113792
+  toggle_bit_mask 0x800
+  frequency    36000
+  duty_cycle   50
+
+      begin codes
+          KEY_MENU                 0x103B                    #  Was: menu
+          KEY_POWER                0x100C                    #  Was: power
+          KEY_SLEEP                0x1026                    #  Was: standby
+          KEY_FORWARD              0x101E                    #  Was: forward
+          KEY_1                    0x1001                    #  Was: 1
+          KEY_2                    0x1002                    #  Was: 2
+          KEY_3                    0x1003                    #  Was: 3
+          KEY_4                    0x1004                    #  Was: 4
+          KEY_5                    0x1005                    #  Was: 5
+          KEY_6                    0x1006                    #  Was: 6
+          KEY_7                    0x1007                    #  Was: 7
+          KEY_8                    0x1008                    #  Was: 8
+          KEY_9                    0x1009                    #  Was: 9
+          KEY_0                    0x1000                    #  Was: 0
+          t-                       0x100B
+          KEY_F11                  0x100A                    #  Was: full_screen
+          KEY_TV                   0x103F                    #  Was: tv
+          KEY_TEXT                 0x103C                    #  Was: txt
+          KEY_AUDIO                0x100F                    #  Was: audio
+          KEY_VIDEO                0x1038                    #  Was: video
+          KEY_MUTE                 0x100D                    #  Was: mute
+          iii                      0x1023
+          pp                       0x100E
+          p-p                      0x1022
+          KEY_NEXT                 0x1020                    #  Was: next
+          KEY_PREVIOUS             0x1021                    #  Was: prev
+          KEY_VOLUMEDOWN           0x1011                    #  Was: vol-
+          KEY_VOLUMEUP             0x1010                    #  Was: vol+
+          f+                       0x102B
+          f-                       0x102C
+          KEY_SLEEP                0x102A                    #  Was: sleep
+          KEY_M                    0x1029                    #  Was: m
+          KEY_RED                  0x1037                    #  Was: red
+          KEY_YELLOW               0x1032                    #  Was: yellow
+          KEY_GREEN                0x1036                    #  Was: green
+          KEY_BLUE                 0x1034                    #  Was: blue
+      end codes
+
+end remote
+
+

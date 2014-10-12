@@ -1,0 +1,86 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.3pre4(serial) on Wed Jan 31 00:50:36 2001
+#
+# contributed by
+#
+# brand:             Kenwood
+# model:             RC56
+# supported devices:
+#
+
+begin remote
+
+  name  Kenwood
+  bits           24
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9006  4516
+  one           586  1650
+  zero          586   544
+  ptrail        607
+  repeat       9006  2268
+  pre_data_bits   8
+  pre_data       0x1D
+  gap          107749
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x000000000000B946        #  Was: POWER
+          KEY_SLEEP                0x000000000000E916        #  Was: SLEEP
+          TUNER_BAND               0x000000000000F10E
+          TUNER_down               0x000000000080609F
+          TUNER_up                 0x000000000080E01F
+          KEY_1                    0x000000000000817E        #  Was: 1
+          KEY_2                    0x00000000000041BE        #  Was: 2
+          KEY_3                    0x000000000000C13E        #  Was: 3
+          KEY_4                    0x00000000000021DE        #  Was: 4
+          KEY_5                    0x000000000000A15E        #  Was: 5
+          KEY_6                    0x000000000000619E        #  Was: 6
+          KEY_7                    0x000000000000E11E        #  Was: 7
+          KEY_8                    0x00000000000011EE        #  Was: 8
+          KEY_9                    0x000000000000916E        #  Was: 9
+          KEY_0                    0x00000000000001FE        #  Was: 0
+          KEY_10CHANNELSUP         0x000000000000B04F        #  Was: +10
+          CD_|<<                   0x000000000000738C
+          CD_>>|                   0x000000000000F30C
+          CD_stop                  0x000000000000936C
+          CD_>/||                  0x000000000000D32C
+          TAPE_A_<<                0x0000000000004BB4
+          TAPE_A_>>                0x000000000000CB34
+          TAPE_A_<                 0x0000000000000BF4
+          TAPE_A_>                 0x0000000000008B74
+          TAPE_A_stop              0x000000000000AB54
+          TAPE_B_<<                0x0000000000005BA4
+          TAPE_B_>>                0x000000000000DB24
+          TAPE_B_>                 0x0000000000009B64
+          TAPE_B_<                 0x0000000000001BE4
+          TAPE_B_stop              0x000000000000BB44
+          TAPE_B_pause             0x0000000000003BC4
+          TAPE_b_record            0x0000000000007B84
+          PHONO_stop               0x00000000000003FC
+          PHONO_play               0x00000000000009F6
+          AUX/DAT                  0x000000000000C936
+          KEY_MUTE                 0x00000000000039C6        #  Was: MUTE
+          KEY_VOLUMEUP             0x000000000000D926        #  Was: VOLUME_CONTROL+
+          KEY_VOLUMEDOWN           0x00000000000059A6        #  Was: VOLUME_CONTROL-
+          GE_PRESENCE              0x000000000000FB04
+          GE_OFF                   0x000000000000EB14
+          GE_EFFECT                0x000000000000F00F
+          GE_M.CALL                0x000000000000A35C
+          LINE                     0x000000000080D926
+          DOLBY_SURROUND           0x00000000008000FF
+          KEY_VIDEO                0x0000000000006996        #  Was: VIDEO
+          LD                       0x0000000000006897
+          REAR_LEVEL+              0x000000000000E31C
+          REAR_LEVEL-              0x000000000000639C
+          DELAY/ASFC+              0x000000000000B24D
+          DELAY/ASFC-              0x00000000000032CD
+      end codes
+
+end remote
+
+

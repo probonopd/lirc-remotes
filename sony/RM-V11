@@ -1,0 +1,143 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.6(serial) on Thu Oct 30 12:21:17 2003
+#
+# contributed by Pedro Werneck <pedro.werneck bol.com.br>
+#
+# brand:                       Sony
+# model no. of remote control:  Sony RM-V11
+# devices being controlled by this remote: homebrew receiver
+#
+
+# This is an universal remote, with a TV/CABLE/VCR switch. Some of the
+# buttons can be used on all modes (play, stop, ff, etc) and some are
+# available only for the current mode (power, channel up and down,
+# etc). With all three modes you have 53 buttons. Not bad. I use TV code 03,
+# VCR 12 and CABLE 11.
+
+begin remote
+
+  name  VCR
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9157  4384
+  one           655  1598
+  zero          655   461
+  ptrail        641
+  repeat       9122  2163
+  pre_data_bits   16
+  pre_data       0x22DD
+  gap          109973
+  min_repeat      1
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x00000000000048B7        #  Was: POWER
+          TV/VIDEO                 0x0000000000008877
+          NUM_1                    0x000000000000807F
+          NUM_2                    0x00000000000040BF
+          NUM_3                    0x000000000000C03F
+          NUM_4                    0x00000000000020DF
+          NUM_5                    0x000000000000A05F
+          NUM_6                    0x000000000000609F
+          NUM_7                    0x000000000000E01F
+          NUM_8                    0x00000000000010EF
+          NUM_9                    0x000000000000906F
+          NUM_0                    0x00000000000050AF
+          KEY_REWIND               0x0000000000009867        #  Was: REW
+          KEY_PLAY                 0x000000000000A857        #  Was: PLAY
+          KEY_FASTFORWARD          0x000000000000C837        #  Was: FF
+          KEY_RECORD               0x00000000000018E7        #  Was: REC
+          KEY_STOP                 0x00000000000028D7        #  Was: STOP
+          KEY_PAUSE                0x00000000000008F7        #  Was: PAUSE
+          KEY_CHANNELUP            0x000000000000D827        #  Was: CH_UP
+          KEY_CHANNELDOWN          0x000000000000F807        #  Was: CH_DOWN
+      end codes
+
+end remote
+
+begin remote
+
+  name  TV
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9158  4425
+  one           624  1637
+  zero          624   484
+  ptrail        604
+  repeat       9084  2204
+  pre_data_bits   16
+  pre_data       0x20DF
+  gap          110023
+  min_repeat      1
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x00000000000010EF        #  Was: POWER
+          TV/VIDEO                 0x000000000000D02F
+          NUM_1                    0x0000000000008877
+          NUM_2                    0x00000000000048B7
+          NUM_3                    0x000000000000C837
+          NUM_4                    0x00000000000028D7
+          NUM_5                    0x000000000000A857
+          NUM_6                    0x0000000000006897
+          NUM_7                    0x000000000000E817
+          NUM_8                    0x00000000000018E7
+          NUM_9                    0x0000000000009867
+          NUM_0                    0x00000000000008F7
+          DISPLAY                  0x000000000000D827
+          KEY_VOLUMEUP             0x00000000000040BF        #  Was: VOL_UP
+          KEY_VOLUMEDOWN           0x000000000000C03F        #  Was: VOL_DOWN
+          KEY_CHANNELUP            0x00000000000000FF        #  Was: CH_UP
+          KEY_CHANNELDOWN          0x000000000000807F        #  Was: CH_DOWN
+          KEY_MUTE                 0x000000000000906F        #  Was: MUTE
+          KEY_AGAIN                0x00000000000058A7        #  Was: RECALL
+      end codes
+
+end remote
+
+begin remote
+
+  name  CABLE
+  bits           22
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       3534  3224
+  one           933  2429
+  zero          933   756
+  ptrail        909
+  gap          102049
+  min_repeat      3
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x000000000037C107        #  Was: POWER
+          NUM_1                    0x000000000036113D
+          NUM_2                    0x000000000037111D
+          NUM_3                    0x000000000036912D
+          NUM_4                    0x000000000037910D
+          NUM_5                    0x0000000000365135
+          NUM_6                    0x0000000000375115
+          NUM_7                    0x000000000036D125
+          NUM_8                    0x000000000037D105
+          NUM_9                    0x0000000000363139
+          NUM_0                    0x0000000000373119
+          KEY_CHANNELUP            0x0000000000377111        #  Was: CH_UP
+          KEY_CHANNELDOWN          0x000000000036F121        #  Was: CH_DOWN
+          KEY_AGAIN                0x000000000036E123        #  Was: RECALL
+      end codes
+
+end remote
+
+

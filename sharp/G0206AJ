@@ -1,0 +1,58 @@
+#
+# this config file was automatically generated
+# using WinLIRC 0.6.5 (LIRC 0.6.1pre3) on Fri Sep 21 22:38:12 2007
+#
+# contributed by
+#
+# brand:             Sharp
+# model:             G0009AJ
+# supported devices:
+#
+
+begin remote
+
+  name  Sharp_G0009AJ
+  bits           10
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           282  1827
+  zero          282   772
+  ptrail        281
+  pre_data_bits   5
+  pre_data       0x18
+  gap          67500
+  toggle_bit      0
+
+
+      begin codes
+          OPERATE                  0x000000000000025D
+          OPERATE                  0x00000000000001A2
+          RENATAL                  0x0000000000000331
+          RENATAL                  0x00000000000000CE
+          TRACKINGD                0x0000000000000279
+          TRACKINGD                0x0000000000000186
+          TRACKINGU                0x0000000000000179
+          KEY_PLAY                 0x0000000000000112        #  Was: PLAY
+          KEY_PLAY                 0x00000000000002ED        #  Was: PLAY
+          KEY_REWIND               0x0000000000000312        #  Was: REWIND
+          KEY_REWIND               0x00000000000000ED        #  Was: REWIND
+          KEY_FORWARD              0x00000000000001ED        #  Was: FORWARD
+          KEY_FORWARD              0x0000000000000212        #  Was: FORWARD
+          KEY_RECORD               0x00000000000003AD        #  Was: REC
+          KEY_RECORD               0x0000000000000052        #  Was: REC
+          KEY_STOP                 0x000000000000006D        #  Was: STOP
+          KEY_STOP                 0x0000000000000392        #  Was: STOP
+          KEY_PAUSE                0x000000000000016D        #  Was: PAUSE
+          KEY_PAUSE                0x0000000000000292        #  Was: PAUSE
+          KEY_SLOW                 0x00000000000001AD        #  Was: SLOW
+          KEY_SLOW                 0x0000000000000252        #  Was: SLOW
+          KEY_TAPE                 0x00000000000000C6        #  Was: TAPE
+          MEMORY                   0x0000000000000306
+          MEMORY                   0x00000000000000F9
+      end codes
+
+end remote
+
+

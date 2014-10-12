@@ -1,0 +1,62 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.2(default) on Tue Dec 25 13:47:42 2007
+#
+# contributed by Eduard DRUSA <ventyl86|netkosice.sk>
+#
+# brand:                                   JVC
+# model no. of remote control:             RM-C1100
+# devices being controlled by this remote: TV/VCR
+#
+
+begin remote
+
+  name  JVC_RM-C1100
+  bits           16
+  flags SPACE_ENC
+  eps            30
+  aeps          100
+
+  one           512  1631
+  zero          512   559
+  ptrail        513
+  gap          23426
+  toggle_bit_mask 0x0
+
+      begin codes
+          KEY_MUTE                 0xC038                    #  Was: mute
+          KEY_POWER                0xC0E8                    #  Was: power
+          no_1                     0xC084
+          no_2                     0xC044
+          no_3                     0xC0C4
+          no_4                     0xC024
+          no_5                     0xC0A4
+          no_6                     0xC064
+          no_7                     0xC0E4
+          no_8                     0xC014
+          no_9                     0xC094
+          no_0                     0xC004
+          KEY_INFO                 0xC020                    #  Was: info
+          standard                 0xC09E
+          KEY_RED                  0xC43C                    #  Was: red
+          KEY_GREEN                0xC4BC                    #  Was: green
+          KEY_YELLOW               0xC47C                    #  Was: yellow
+          KEY_BLUE                 0xC4FC                    #  Was: blue
+          pr_up                    0xC098
+          pr_dn                    0xC018
+          KEY_VOLUMEDOWN           0xC0F8                    #  Was: vol_dn
+          KEY_VOLUMEUP             0xC078                    #  Was: vol_up
+          av                       0xC0C8
+          KEY_MENU                 0xC05E                    #  Was: menu
+          KEY_TEXT                 0xC4C8                    #  Was: teletext
+          txt_resize               0xC40C
+          hint                     0xC420
+          hold                     0xC488
+          KEY_TIME                 0xC440                    #  Was: clock
+          hide                     0xC4A8
+          index                    0xC460
+      end codes
+
+end remote
+
+

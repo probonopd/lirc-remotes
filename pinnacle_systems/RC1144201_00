@@ -1,0 +1,78 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.1(default) on Sat May 12 11:26:53 2007
+#
+# contributed by
+#
+# brand:                       Pinnacle_300i_42-buttons
+# model no. of remote control: RC1144201/00
+# devices being controlled by this remote: Pinnacle mediacenter 300i hybrid DVB-T/analog capture card
+#
+
+begin remote
+
+  name  Pinnacle_300i
+  bits           16
+  flags RC6|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       2700   863
+  one           471   422
+  zero          471   422
+  pre_data_bits   21
+  pre_data       0x37FEB
+  gap          106304
+  min_repeat      1
+  toggle_bit      22
+
+  rc6_mask    0x100000000
+
+      begin codes
+          KEY_POWER                0x6E2D                    #  Was: power
+          KEY_EPG                  0x6EC2                    #  Was: epg
+          KEY_TV                   0x6ED9                    #  Was: tv
+          KEY_MENU                 0x6EE7                    #  Was: menu
+          KEY_MUTE                 0x6E1E                    #  Was: mute
+          KEY_A                    0x6E2F                    #  Was: a
+          KEY_B                    0x6E73                    #  Was: b
+          KEY_C                    0x6E66                    #  Was: c
+          KEY_D                    0x6E77                    #  Was: d
+          KEY_VOLUMEUP             0x6ED2                    #  Was: vol+
+          KEY_VOLUMEDOWN           0x6EE1                    #  Was: vol-
+          KEY_CHANNELUP            0x6E61                    #  Was: ch+
+          KEY_CHANNELDOWN          0x6E60                    #  Was: ch-
+          pinnacle                 0x6E2E
+          KEY_UP                   0x6E57                    #  Was: up
+          KEY_DOWN                 0x6E56                    #  Was: down
+          KEY_LEFT                 0x6E55                    #  Was: left
+          KEY_RIGHT                0x6E54                    #  Was: right
+          KEY_OK                   0x6EF2                    #  Was: ok
+          KEY_BACK                 0x6EF7                    #  Was: back
+          loop                     0x6EF8
+          KEY_F11                  0x6E48                    #  Was: fullscreen
+          KEY_RECORD               0x6ED6                    #  Was: rec
+          KEY_PAUSE                0x6E2C                    #  Was: pause
+          KEY_STOP                 0x6E2B                    #  Was: stop
+          KEY_PLAY                 0x6ED1                    #  Was: play
+          KEY_REWIND               0x6E2A                    #  Was: rew
+          KEY_FASTFORWARD          0x6E29                    #  Was: ffwd
+          KEY_PREVIOUS             0x6E24                    #  Was: skip-
+          KEY_NEXT                 0x6E23                    #  Was: skip+
+          KEY_1                    0x6E0D                    #  Was: 1
+          KEY_2                    0x6E0C                    #  Was: 2
+          KEY_3                    0x6E0B                    #  Was: 3
+          KEY_4                    0x6E0A                    #  Was: 4
+          KEY_5                    0x6E09                    #  Was: 5
+          KEY_6                    0x6E08                    #  Was: 6
+          KEY_7                    0x6E07                    #  Was: 7
+          KEY_8                    0x6E06                    #  Was: 8
+          KEY_9                    0x6E05                    #  Was: 9
+          KEY_0                    0x6E0E                    #  Was: 0
+          KEY_CANCEL               0x6E03                    #  Was: cancel
+          del                      0x6EF5
+      end codes
+
+end remote
+
+

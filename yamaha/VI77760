@@ -1,0 +1,65 @@
+#
+# This config file has been automatically converted from a device file
+# found in the 06/26/00 release of the Windows Slink-e software
+# package.
+#
+# Many thanks to Colby Boles of Nirvis Systems Inc. for allowing us to
+# use these files.
+#
+# The original filename was: "yamaha vi77760 yamaha kx.cde"
+#
+# The original description for this device was:
+#
+# yamaha vi77760 yamaha kx
+#
+
+
+begin remote
+
+  name  VI77760
+  bits           32
+  flags SPACE_ENC
+  eps            20
+  aeps          200
+
+  header       8800  4400
+  one           550  1650
+  zero          550   550
+  ptrail        550
+  repeat       8800  2200
+  gap          38500
+  toggle_bit      0
+
+  frequency    38000
+
+      begin codes
+          KEY_PLAY                 0x00000000FE0100FF        #  Was: PLAY
+          KEY_STOP                 0x00000000FE01C03F        #  Was: STOP
+          KEY_RECORD               0x00000000FE0120DF        #  Was: RECORD/PAUSE
+          KEY_FASTFORWARD          0x00000000FE0140BF        #  Was: FAST_FORWARD
+          KEY_REWIND               0x00000000FE01807F        #  Was: REWIND
+          SEARCH_FORWARD           0x00000000FE0150AF
+          SEARCH_REVERSE           0x00000000FE01D02F
+          KEY_1                    0x00000000FE018877        #  Was: 1
+          KEY_2                    0x00000000FE0148B7        #  Was: 2
+          KEY_3                    0x00000000FE01C837        #  Was: 3
+          KEY_4                    0x00000000FE0128D7        #  Was: 4
+          KEY_5                    0x00000000FE01A857        #  Was: 5
+          KEY_6                    0x00000000FE016897        #  Was: 6
+          KEY_7                    0x00000000FE01E817        #  Was: 7
+          KEY_8                    0x00000000FE0118E7        #  Was: 8
+          KEY_9                    0x00000000FE019867        #  Was: 9
+          KEY_0                    0x00000000FE0108F7        #  Was: 0
+          KEY_CLEAR                0x00000000FE01D827        #  Was: CLEAR
+          PROG                     0x00000000FE0158A7
+          RUN                      0x00000000FE0138C7
+          RESET                    0x00000000FE01B04F
+          MEMO                     0x00000000FE01708F
+          REMAIN                   0x00000000FE01B847
+          KEY_TAPE                 0x00000000FE0130CF        #  Was: TAPE
+          INTRO_SCAN_FORWARD       0x00000000FE017887
+          INTRO_SCAN_REVERSE       0x00000000FE01F807
+          KEY_RECORD               0x00000000FE01A05F        #  Was: RECORD_MUTE
+      end codes
+
+end remote

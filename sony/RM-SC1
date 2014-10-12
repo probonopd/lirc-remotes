@@ -1,0 +1,100 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.3pre1(default) on Tue Jun  3 22:32:25 2008
+#
+# contributed by
+#
+# brand:                       Sony
+# model no. of remote control: RM-SC1
+# devices being controlled by this remote:
+#
+
+begin remote
+
+  name  Sony_RM-SC1_1
+  bits           12
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       2476   491
+  one          1270   532
+  zero          659   532
+  gap          44783
+  toggle_bit_mask 0x0
+
+      begin codes
+          KEY_SLEEP                0x061                     #  Was: sleep
+          KEY_POWER                0xA81                     #  Was: power
+          display                  0xD21
+          clock_timer_select       0x461
+          clock_timer_set          0xA61
+          tuner_memory             0x701
+          KEY_TAPE                 0xC41                     #  Was: tape
+          KEY_CD                   0xA41                     #  Was: cd
+          tuner-band               0xF01
+          KEY_VOLUMEUP             0x481                     #  Was: vol_plus
+          KEY_VOLUMEDOWN           0xC81                     #  Was: vol_minus
+      end codes
+
+end remote
+
+
+begin remote
+
+  name  Sony_RM-SC1_2
+  bits            7
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       2450   500
+  one          1260   541
+  zero          650   541
+  post_data_bits  8
+  post_data      0x9
+  gap          44783
+  toggle_bit_mask 0x0
+
+      begin codes
+          function                 0x4B
+          eq                       0x63
+      end codes
+
+end remote
+
+
+begin remote
+
+  name  Sony_RM-SC1_3
+  bits           12
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       2487   500
+  one          1248   542
+  zero          652   542
+  post_data_bits  8
+  post_data      0x9C
+  gap          44783
+  toggle_bit_mask 0x0
+
+      begin codes
+          KEY_PLAY                 0x14B                     #  Was: play_mode-tuning_mode
+          repeat-fm_mode           0xB4B
+          skip_back                0x0CB
+          skip_forward             0x8CB
+          KEY_REWIND               0xCCB                     #  Was: rew
+          KEY_FASTFORWARD          0x2CB                     #  Was: ff
+          KEY_PLAY                 0x4CB                     #  Was: play
+          KEY_PAUSE                0x9CB                     #  Was: pause
+          KEY_STOP                 0x1CB                     #  Was: stop
+          KEY_CLEAR                0xF0B                     #  Was: clear
+          KEY_ENTER                0x3EB                     #  Was: enter
+          disc_skip                0x7CB
+      end codes
+
+end remote
+
+

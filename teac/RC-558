@@ -1,0 +1,51 @@
+#
+# this config file was automatically generated
+# using lirc-0.7.2(serial) on Thu Oct  6 09:32:17 2005
+#
+# contributed by:
+#	Aurelius Robert BAIER
+#	aurelius.baier|gmail.com
+#
+# brand:                       Teac
+# model no. of remote control: RC-558
+# devices being controlled by this remote:
+#       TEAC Cassette Deck V-6030S
+
+begin remote
+
+  name  Teac_RC-558
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9031  4474
+  one           571  1680
+  zero          571   551
+  ptrail        571
+  pre_data_bits   16
+  pre_data       0x411E
+  gap          107999
+  toggle_bit      0
+
+
+      begin codes
+          counter_clear            0x50AF
+          display                  0xF807
+          auto_monitor             0x30CF
+          CD_sync_left             0x2AD5
+          KEY_RECORD               0xE817                    #  Was: record
+          KEY_RECORD               0x6897                    #  Was: rec_mute
+          CPS_back                 0xBA45
+          CPS_forward              0x3AC5
+          RTZ                      0x926D
+          KEY_BACK                 0xA857                    #  Was: back
+          KEY_FORWARD              0x48B7                    #  Was: forward
+          KEY_STOP                 0x08F7                    #  Was: stop
+          KEY_PAUSE                0x8877                    #  Was: pause
+          KEY_PLAY                 0xC837                    #  Was: play
+      end codes
+
+end remote
+
+

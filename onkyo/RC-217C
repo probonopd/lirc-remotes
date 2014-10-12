@@ -1,0 +1,100 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.6(serial) on Sun Jan  4 00:19:50 2004
+#
+# contributed by edgar_pue|yahoo.com
+#
+# brand: Onkyo
+# model no. of remote control: RC-217C
+# devices being controlled by this remote: DX-706 CD player and
+#   other devices I don't know
+# remarks: this remote has a switch CD <=> TAPE; the full set
+#   of buttons is available two times with different codes,
+#   ignoring that buttons like 'shuffle' (TAPE_SHUFFLE) don't
+#   make sense when controlling a tape deck...
+#  
+
+begin remote
+
+  name  Onkyo-RC-217C
+  bits           24
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9092  4412
+  one           647  1603
+  zero          647   478
+  ptrail        647
+  repeat       9089  2164
+  pre_data_bits   8
+  pre_data       0x4B
+  gap          108012
+  toggle_bit      0
+
+
+      begin codes
+          CD_EJECT                 0x000000000034D02F
+          CD_STOP                  0x00000000003438C7
+          CD_PLAY                  0x000000000034D827
+          CD_REW                   0x000000000034807F
+          CD_FWD                   0x00000000003400FF
+          CD_PREV_TRACK            0x0000000000347887
+          CD_NEXT_TRACK            0x000000000034B847
+          CD_MEMORY                0x000000000034906F
+          CD_CLEAR                 0x00000000003410EF
+          CD_SHUFFLE               0x000000000034629D
+          CD_PAUSE                 0x000000000034F807
+          CD_TRACK_1               0x00000000003408F7
+          CD_TRACK_2               0x0000000000348877
+          CD_TRACK_3               0x00000000003448B7
+          CD_TRACK_4               0x000000000034C837
+          CD_TRACK_5               0x00000000003418E7
+          CD_TRACK_6               0x0000000000349867
+          CD_TRACK_7               0x00000000003458A7
+          CD_TRACK_8               0x00000000003430CF
+          CD_TRACK_9               0x000000000034B04F
+          CD_TRACK_0               0x000000000034708F
+          CD_TRACK_PLUS_10         0x000000000034F00F
+          CD_ELAPSED               0x00000000003450AF
+          CD_FADE                  0x0000000000347A85
+          CD_TIME_EDIT             0x000000000034B24D
+          CD_AUTO_SPACE            0x00000000003432CD
+          CD_VOLUME_UP             0x00000000003440BF
+          CD_VOLUME_DOWN           0x000000000034C03F
+          CD_REPEAT                0x000000000034609F
+          CD_A_B                   0x000000000034E01F
+          CD_PEAK_SEARCH           0x000000000034BA45
+          TAPE_EJECT               0x0000000000B0D12E
+          TAPE_STOP                0x0000000000B039C6
+          TAPE_PLAY                0x0000000000B0D926
+          TAPE_REW                 0x0000000000B0817E
+          TAPE_FWD                 0x0000000000B001FE
+          TAPE_PREV_TRACK          0x0000000000B07986
+          TAPE_NEXT_TRACK          0x0000000000B0B946
+          TAPE_MEMORY              0x0000000000B0916E
+          TAPE_CLEAR               0x0000000000B011EE
+          TAPE_SHUFFLE             0x0000000000B0639C
+          TAPE_PAUSE               0x0000000000B0F906
+          TAPE_TRACK_1             0x0000000000B009F6
+          TAPE_TRACK_2             0x0000000000B08976
+          TAPE_TRACK_3             0x0000000000B049B6
+          TAPE_TRACK_4             0x0000000000B0C936
+          TAPE_TRACK_5             0x0000000000B019E6
+          TAPE_TRACK_6             0x0000000000B09966
+          TAPE_TRACK_7             0x0000000000B059A6
+          TAPE_TRACK_8             0x0000000000B031CE
+          TAPE_TRACK_9             0x0000000000B0B14E
+          TAPE_TRACK_0             0x0000000000B0718E
+          TAPE_TRACK_PLUS_10       0x0000000000B0F10E
+          TAPE_AUTO_SPACE          0x0000000000B033CC
+          TAPE_VOLUME_UP           0x0000000000B041BE
+          TAPE_VOLUME_DOWN         0x0000000000B0C13E
+          TAPE_REPEAT              0x0000000000B0619E
+          TAPE_A_B                 0x0000000000B0E11E
+          TAPE_PEAK_SEARCH         0x0000000000B0BB44
+      end codes
+
+end remote
+
+

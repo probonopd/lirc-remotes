@@ -1,0 +1,81 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.1pre2(default) on Thu Nov 16 20:19:15 2006
+#
+# contributed by
+#
+# brand:                       KONIG
+# model no. of remote control: IR_9836
+# devices being controlled by this remote:
+#
+
+begin remote
+
+  name  KONIG_IR_9836
+  bits           24
+  flags SPACE_ENC
+  eps            30
+  aeps          100
+
+  header       3527  1740
+  one           465  1296
+  zero          465   417
+  ptrail        466
+  pre_data_bits   24
+  pre_data       0x400401
+  gap          74392
+  toggle_bit      0
+
+
+      begin codes
+          KEY_MUTE                 0x004C4D                  #  Was: MUTE
+          TV/AV                    0x00A0A1
+          SQUARE_PLUS              0x009C9D
+          KEY_POWER                0x00BCBD                  #  Was: POWER
+          KEY_1                    0x000809                  #  Was: 1
+          KEY_2                    0x008889                  #  Was: 2
+          KEY_3                    0x004849                  #  Was: 3
+          KEY_4                    0x00C8C9                  #  Was: 4
+          KEY_5                    0x002829                  #  Was: 5
+          KEY_6                    0x00A8A9                  #  Was: 6
+          KEY_7                    0x006869                  #  Was: 7
+          KEY_8                    0x00E8E9                  #  Was: 8
+          KEY_9                    0x001819                  #  Was: 9
+          KEY_0                    0x009899                  #  Was: 0
+          SHIFT_UP                 0x002C2D
+          SHIFT_DOWN               0x00ACAD
+          KEY_VOLUMEUP             0x000405                  #  Was: VOLUME_UP
+          KEY_VOLUMEDOWN           0x008485                  #  Was: VOLUME_DOWN
+          KEY_102ND                0x00DCDD                  #  Was: -/--
+          KEY_C                    0x005C5D                  #  Was: C
+          KEY_RED                  0x000E0F                  #  Was: RED
+          KEY_GREEN                0x008E8F                  #  Was: GREEN
+          KEY_YELLOW               0x004E4F                  #  Was: YELLOW
+          KEY_BLUE                 0x00CECF                  #  Was: BLUE
+          TV/TXT                   0x80C041
+          F.P.                     0x80A021
+          BUTTON_ONE               0x808001
+          BUTTON_TWO               0x8078F9
+          BUTTON_THREE             0x8038B9
+          BUTTON_FOUR              0x8050D1
+          BUTTON_FIVE              0x809011
+          BUTTON_SIX               0x80D051
+          BUTTON_SEVEN             0x8020A1
+          BUTTON_EIGHT             0x8030B1
+          BUTTON_NINE              0x80B839
+          BUTTON_TEN               0x801091
+          KEY_A                    0x00E0E1                  #  Was: A
+          KEY_V                    0x006061                  #  Was: V
+          MUSIC_NOTE               0x008A8B
+          KEY_N                    0x003031                  #  Was: N
+          KEY_KPMINUS              0x009091                  #  Was: -
+          KEY_KPPLUS               0x001011                  #  Was: +
+          BUTTON_ELEVEN            0x008C8D
+          BUTTON_TWELVE            0x00CCCD
+          PNR                      0x005051
+          OFF_TIMER                0x00F0F1
+      end codes
+
+end remote
+
+

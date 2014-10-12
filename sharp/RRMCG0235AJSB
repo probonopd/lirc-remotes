@@ -1,0 +1,84 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.6(serial) on Thu Nov 22 14:08:30 2007
+#
+# contributed by: Brett Johnson
+#
+# brand:                       Sharp
+# model no. of remote control: rrmcg0235ajsb
+# devices being controlled by this remote: VCR
+#
+# some keys duplicated for ease of typing and usage.
+
+begin remote
+
+  name  Sharp_RRMCG0235AJSB
+  bits           15
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           315  1684
+  zero          315   683
+  ptrail        316
+  gap          67593
+  min_repeat      9
+  toggle_bit      0
+  toggle_mask 0x3ff
+
+
+      begin codes
+          KEY_POWER                0x61A2                    #  Was: power
+          KEY_EJECTCD              0x6332                    #  Was: eject
+          tv_vcr                   0x6322
+          display                  0x60C6
+          KEY_POWER                0x62C6                    #  Was: on_screen
+          KEY_CHANNELUP            0x6222                    #  Was: channel_up
+          KEY_CHANNELDOWN          0x6122                    #  Was: channel_down
+          KEY_VOLUMEUP             0x40A2                    #  Was: volume_up
+          KEY_VOLUMEDOWN           0x42A2                    #  Was: volume_down
+          KEY_MENU                 0x62E2                    #  Was: menu
+          prog                     0x60E2
+          KEY_CANCEL               0x6086                    #  Was: cancel
+          set                      0x6166
+          arrow_up                 0x6266
+          arrow_down               0x60E6
+          arrow_left               0x62E6
+          arrow_right              0x6366
+          zero_back                0x6306
+          skip_search              0x6026
+          KEY_NEXT                 0x6026                    #  Was: skip
+          instant_replay           0x604E
+          KEY_AGAIN                0x604E                    #  Was: replay
+          tamper_proof             0x62C2
+          input                    0x60B2
+          KEY_1                    0x6202                    #  Was: 1
+          KEY_2                    0x6102                    #  Was: 2
+          KEY_3                    0x6302                    #  Was: 3
+          KEY_4                    0x6082                    #  Was: 4
+          KEY_5                    0x6282                    #  Was: 5
+          KEY_6                    0x6182                    #  Was: 6
+          KEY_7                    0x6382                    #  Was: 7
+          KEY_8                    0x6042                    #  Was: 8
+          KEY_9                    0x6242                    #  Was: 9
+          KEY_0                    0x6142                    #  Was: 0
+          KEY_0                    0x6046                    #  Was: 100
+          KEY_0_ent_am_pm          0x6046                    #  Was: 100_ent_am_pm
+          KEY_REWIND               0x6312                    #  Was: rewind
+          KEY_FASTFORWARD          0x6212                    #  Was: fastforward
+          KEY_PLAY                 0x6112                    #  Was: play
+          KEY_STOP                 0x6392                    #  Was: stop
+          KEY_RECORD               0x6052                    #  Was: record
+          KEY_PAUSE                0x6292                    #  Was: pause
+          KEY_SLOW                 0x6252                    #  Was: slow
+          slow_dpss_minus          0x6032
+          dpss_minus               0x6032
+          slow_dpss_plus           0x63D2
+          dpss_plus                0x63D2
+          tape_speed               0x63E2
+          auto_repeat              0x6022
+      end codes
+
+end remote
+
+

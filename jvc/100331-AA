@@ -1,0 +1,85 @@
+# Config file for JVC Dish Network/Web Tv Remotes
+# Created by John Schauer <schauer@bigfoot.com> with the help of
+# Christoph Bartelmus
+#
+# brand:  JVC
+# model:  100331-AA
+#
+#
+# This is a universal remote control sold with Dish Networks model
+# 7222 satellite receiver.  (also known as a Dish Player 500 system)
+#
+# The remote has a switch on the right side to select between Sat or
+# Tv/VCR.  All the codes gathered below were captured with lircd in
+# debug mode (irrecord would not recognize them).  However, the Tv/VCR
+# buttons seem to work just fine with irrecord (this may vary depending
+# on what you program for your tv/vcr)
+#
+# It's a weird remote but it works with lircd 0.6.2.
+#
+# The satellite receiver also supports an optional IR keyboard.  If anyone
+# has this please upload a config for it.  I want to be able to transmit
+# text from my computer to the receiver (for tv listing searches).
+#
+
+begin remote
+
+  name  JvcDishPlayer500
+  bits           13
+  flags SPACE_ENC|NO_HEAD_REP
+  eps            30
+  aeps          100
+
+  header        750  6000
+  one           624  2600
+  zero          624  1500
+  ptrail        624
+  gap          6000
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x0000000000001EFC        #  Was: power
+          KEY_RECORD               0x00000000000016FC        #  Was: recent
+          tvWeb                    0x0000000000001A7C
+          scrollUp                 0x000000000000137C
+          scrollDown               0x000000000000117C
+          KEY_HOME                 0x00000000000015FC        #  Was: home
+          KEY_BACK                 0x0000000000001FFC        #  Was: back
+          KEY_UP                   0x00000000000012FC        #  Was: up
+          KEY_LEFT                 0x00000000000011FC        #  Was: left
+          go                       0x00000000000017FC
+          KEY_RIGHT                0x00000000000013FC        #  Was: right
+          KEY_DOWN                 0x00000000000010FC        #  Was: down
+          KEY_OPTION               0x00000000000014FC        #  Was: options
+          KEY_CHANNELDOWN          0x000000000000187C        #  Was: chDown
+          KEY_RECORD               0x000000000000107C        #  Was: record
+          KEY_REWIND               0x0000000000001C7C        #  Was: rewind
+          KEY_PLAY                 0x0000000000001E7C        #  Was: play
+          KEY_1                    0x0000000000001DFC        #  Was: 1
+          KEY_2                    0x0000000000001D7C        #  Was: 2
+          KEY_3                    0x0000000000001CFC        #  Was: 3
+          KEY_4                    0x0000000000001BFC        #  Was: 4
+          KEY_5                    0x0000000000001B7C        #  Was: 5
+          KEY_6                    0x0000000000001AFC        #  Was: 6
+          KEY_7                    0x00000000000019FC        #  Was: 7
+          KEY_8                    0x000000000000197C        #  Was: 8
+          KEY_9                    0x00000000000018FC        #  Was: 9
+          KEY_0                    0x000000000000177C        #  Was: 0
+          KEY_ENTER                0x000000000000127C        #  Was: enter
+
+          pip                      0x000000000000077C
+          KEY_INFO                 0x00000000000006FC        #  Was: info
+          listings                 0x00000000000007FC
+          personalTv               0x0000000000000CFC
+          KEY_AGAIN                0x0000000000000EFC        #  Was: replay
+          KEY_NEXT                 0x0000000000000E7C        #  Was: skip
+          KEY_PAUSE                0x0000000000000DFC        #  Was: pause
+          KEY_FASTFORWARD          0x0000000000000D7C        #  Was: fastForward
+          KEY_STOP                 0x0000000000000F7C        #  Was: stop
+          KEY_CHANNELUP            0x0000000000000FFC        #  Was: chUp
+          KEY_AGAIN                0x000000000000057C        #  Was: recall
+      end codes
+
+end remote
+

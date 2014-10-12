@@ -1,0 +1,66 @@
+# this config file was automatically generated
+# using lirc-0.8.2(default) on Tue Sep 18 22:29:27 2007
+#
+# contributed by Perevoshikov Sergey <pqlaz|yandex.ru>
+#
+# brand:                       Philips
+# model no. of remote control: RC283501
+# devices being controlled by this remote: unknown
+#
+# This config file based on
+# http://lirc.sourceforge.net/remotes/philips/SBC_RU_510_U
+# Thanks to Adrien Beau!!!
+
+begin remote
+
+  name  Philips_RC283501
+  bits           13
+  flags RC5|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           864   864
+  zero          864   864
+  plead         864
+  gap          125000
+  toggle_bit      2
+
+      begin codes
+          KEY_POWER                0x100C                    #  Was: Power
+          AV                       0x1038
+          KEY_MENU                 0x100F                    #  Was: OSD
+          KEY_SLEEP                0x1026                    #  Was: Sleep
+          KEY_1                    0x1001                    #  Was: 1
+          KEY_2                    0x1002                    #  Was: 2
+          KEY_3                    0x1003                    #  Was: 3
+          KEY_4                    0x1004                    #  Was: 4
+          KEY_5                    0x1005                    #  Was: 5
+          KEY_6                    0x1006                    #  Was: 6
+          KEY_7                    0x1007                    #  Was: 7
+          KEY_8                    0x1008                    #  Was: 8
+          KEY_9                    0x1009                    #  Was: 9
+          KEY_0                    0x1000                    #  Was: 0
+          Sound                    0x10CB
+          Screen                   0x10CA
+          KEY_MENU                 0x0012                    #  Was: Menu
+          Inc_Surr                 0x1024
+          KEY_UP                   0x0010                    #  Was: Up
+          KEY_DOWN                 0x0011                    #  Was: Down
+          KEY_LEFT                 0x0015                    #  Was: Left
+          KEY_RIGHT                0x0016                    #  Was: Right
+          KEY_VOLUMEUP             0x1010                    #  Was: Volume+
+          KEY_VOLUMEDOWN           0x1011                    #  Was: Volume-
+          KEY_MUTE                 0x100D                    #  Was: Mute
+          KEY_CHANNELUP            0x1020                    #  Was: Channel+
+          KEY_CHANNELDOWN          0x1021                    #  Was: Channel-
+          KEY_RED                  0x002B                    #  Was: Red
+          KEY_GREEN                0x002C                    #  Was: Green
+          KEY_YELLOW               0x002D                    #  Was: Yellow
+          KEY_BLUE                 0x002E                    #  Was: Blue
+          KEY_TEXT                 0x103C                    #  Was: Teletext
+          Reduce_Teletext          0x102B
+          Expand_Teletext          0x1029
+          Teletext_?               0x102C
+      end codes
+
+end remote

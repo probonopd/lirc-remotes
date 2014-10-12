@@ -1,0 +1,42 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.2(default) on Fri Oct 24 09:28:47 2008
+#
+# contributed by
+#
+# brand:                  Roku
+# model no. of remote control:
+# devices being controlled by this remote: Netflix Player
+#
+
+begin remote
+
+  name  Roku_Netflix_Player
+  bits           16
+  flags SPACE_ENC
+  eps            30
+  aeps          100
+
+  header       9088  4480
+  one           640  1664
+  zero          640   640
+  ptrail        640
+  pre_data_bits   16
+  pre_data       0x7DF7
+  gap          35712
+  toggle_bit_mask 0x0
+
+      begin codes
+          KEY_HOME                 0x00FF                    #  Was: HOME
+          KEY_UP                   0x807F                    #  Was: UP
+          KEY_DOWN                 0xA05F                    #  Was: DOWN
+          KEY_LEFT                 0x40BF                    #  Was: LEFT
+          KEY_RIGHT                0x20DF                    #  Was: RIGHT
+          KEY_OK                   0xC03F                    #  Was: OK
+          KEY_REWIND               0x609F                    #  Was: <<
+          KEY_FORWARD              0x10EF                    #  Was: >>
+          KEY_PLAY                 0xE01F                    #  Was: PLAY
+      end codes
+
+end remote
+

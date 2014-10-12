@@ -1,0 +1,70 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.6(devinput) on Thu Mar 25 14:33:38 2010
+#
+# contributed by
+#
+# brand:                       PiPi
+# model no. of remote control: PiPi PC Remote Control
+# devices being controlled by this remote: Ubuntu, PulseAudio, etc
+#
+
+begin remote
+
+  name  PiPiPC
+  bits           16
+  eps            30
+  aeps          100
+
+  one             0     0
+  zero            0     0
+  pre_data_bits   16
+  pre_data       0x8001
+  gap          132799
+  toggle_bit_mask 0x0
+
+      begin codes
+          KEY_POWER                0x0074
+          KEY_RADIO                0x001d 0x001e
+          KEY_TV                   0x001d 0x0014
+          KEY_DVD                  0x001d 0x0031
+          KEY_SOUND                0x001d 0x0032
+          BTN_THUMB                0x001d 0x0017
+          KEY_VIDEO                0x001d 0x0012
+          KEY_MENU                 0x001d 0x002f
+          KEY_UP                   0x0067
+          KEY_MUTE                 0x0042
+          KEY_VOLUMEUP             0x0073
+          KEY_LEFT                 0x0069
+          KEY_ENTER                0x001c
+          KEY_RIGHT                0x006a
+          KEY_VOLUMEDOWN           0x0072
+          KEY_BACK                 0x000e
+          KEY_DOWN                 0x006c
+          KEY_TITLE                0x003b
+          KEY_CHANNELUP            0x0068
+          KEY_1                    0x0002
+          KEY_2                    0x0003
+          KEY_3                    0x0004
+          KEY_CHANNELDOWN          0x006d
+          KEY_4                    0x0005
+          KEY_5                    0x0006
+          KEY_6                    0x0007
+          KEY_RECORD               0x001d 0x0013
+          KEY_7                    0x0008
+          KEY_8                    0x0009
+          KEY_9                    0x000a
+          KEY_AGAIN                0x002a 0x0013
+          KEY_0                    0x000b
+          KEY_PLAY                 0x002a 0x0019
+          KEY_PAUSE                0x001d 0x0019
+          KEY_STOP                 0x001d 0x001f
+          KEY_REWIND               0x002a 0x0020
+          KEY_FASTFORWARD          0x002a 0x0021
+          KEY_PREVIOUS             0x001d 0x0030
+          KEY_NEXT                 0x001d 0x0021
+      end codes
+
+end remote
+
+

@@ -1,0 +1,395 @@
+begin
+	prog = irxevent
+	button = Escape_DN
+	config = Key Escape CurrentWindow
+end
+begin
+	prog = irxevent
+	button = F1_DN
+	config = Key F1 CurrentWindow
+end
+begin
+	prog = irxevent
+	button = F2_DN
+	config = Key F2 CurrentWindow
+end
+begin
+	prog = irxevent
+	button = F3_DN
+	config = Key F3 CurrentWindow
+end
+begin
+	prog = irxevent
+	button = F4_DN
+	config = Key F4 CurrentWindow
+end
+begin
+	prog = irxevent
+	button = F5_DN
+	config = Key F5 CurrentWindow
+end
+begin
+	prog = irxevent
+	button = F6_DN
+	config = Key F6 CurrentWindow
+end
+begin
+	prog = irxevent
+	button = F7_DN
+	config = Key F7 CurrentWindow
+end
+begin
+	prog = irxevent
+	button = F8_DN
+	config = Key F8 CurrentWindow
+end
+begin
+	prog = irxevent
+	button = F9_DN
+	config = Key F9 CurrentWindow
+end
+begin
+	prog = irxevent
+	button = F10_DN
+	config = Key F10 CurrentWindow
+end
+begin
+	prog = irxevent
+	button = grave_DN
+	config = Key grave CurrentWindow
+end
+begin
+	prog = irxevent
+	button = 1_DN
+	config = Key 1 CurrentWindow
+end
+begin
+	prog = irxevent
+	button = 2_DN
+	config = Key 2 CurrentWindow
+end
+begin
+	prog = irxevent
+	button = 3_DN
+	config = Key 3 CurrentWindow
+end
+begin
+	prog = irxevent
+	button = 4_DN
+	config = Key 4 CurrentWindow
+end
+begin
+	prog = irxevent
+	button = 5_DN
+	config = Key 5 CurrentWindow
+end
+begin
+	prog = irxevent
+	button = 6_DN
+	config = Key 6 CurrentWindow
+end
+begin
+	prog = irxevent
+	button = 7_DN
+	config = Key 7 CurrentWindow
+end
+begin
+	prog = irxevent
+	button = 8_DN
+	config = Key 8 CurrentWindow
+end
+begin
+	prog = irxevent
+	button = 9_DN
+	config = Key 9 CurrentWindow
+end
+begin
+	prog = irxevent
+	button = 0_DN
+	config = Key 0 CurrentWindow
+end
+begin
+	prog = irxevent
+	button = minus_DN
+	config = Key minus CurrentWindow
+end
+begin
+	prog = irxevent
+	button = equal_DN
+	config = Key equal CurrentWindow
+end
+begin
+	prog = irxevent
+	button = BackSpace_DN
+	config = Key BackSpace CurrentWindow
+end
+begin
+	prog = irxevent
+	button = Tab_DN
+	config = Key Tab CurrentWindow
+end
+begin
+	prog = irxevent
+	button = q_DN
+	config = Key q CurrentWindow
+end
+begin
+	prog = irxevent
+	button = w_DN
+	config = Key w CurrentWindow
+end
+begin
+	prog = irxevent
+	button = e_DN
+	config = Key e CurrentWindow
+end
+begin
+	prog = irxevent
+	button = r_DN
+	config = Key r CurrentWindow
+end
+begin
+	prog = irxevent
+	button = t_DN
+	config = Key t CurrentWindow
+end
+begin
+	prog = irxevent
+	button = y_DN
+	config = Key y CurrentWindow
+end
+begin
+	prog = irxevent
+	button = u_DN
+	config = Key u CurrentWindow
+end
+begin
+	prog = irxevent
+	button = i_DN
+	config = Key i CurrentWindow
+end
+begin
+	prog = irxevent
+	button = o_DN
+	config = Key o CurrentWindow
+end
+begin
+	prog = irxevent
+	button = p_DN
+	config = Key p CurrentWindow
+end
+begin
+	prog = irxevent
+	button = bracketleft_DN
+	config = Key bracketleft CurrentWindow
+end
+begin
+	prog = irxevent
+	button = bracketright_DN
+	config = Key bracketright CurrentWindow
+end
+begin
+	prog = irxevent
+	button = backslash_DN
+	config = Key backslash CurrentWindow
+end
+begin
+	prog = irxevent
+	button = Caps_Lock_DN
+	config = Key Caps_Lock CurrentWindow
+end
+begin
+	prog = irxevent
+	button = a_DN
+	config = Key a CurrentWindow
+end
+begin
+	prog = irxevent
+	button = s_DN
+	config = Key s CurrentWindow
+end
+begin
+	prog = irxevent
+	button = d_DN
+	config = Key d CurrentWindow
+end
+begin
+	prog = irxevent
+	button = f_DN
+	config = Key f CurrentWindow
+end
+begin
+	prog = irxevent
+	button = g_DN
+	config = Key g CurrentWindow
+end
+begin
+	prog = irxevent
+	button = h_DN
+	config = Key h CurrentWindow
+end
+begin
+	prog = irxevent
+	button = j_DN
+	config = Key j CurrentWindow
+end
+begin
+	prog = irxevent
+	button = k_DN
+	config = Key k CurrentWindow
+end
+begin
+	prog = irxevent
+	button = l_DN
+	config = Key l CurrentWindow
+end
+begin
+	prog = irxevent
+	button = semicolon_DN
+	config = Key semicolon CurrentWindow
+end
+begin
+	prog = irxevent
+	button = apostrophe_DN
+	config = Key apostrophe CurrentWindow
+end
+begin
+	prog = irxevent
+	button = Return_DN
+	config = Key Return CurrentWindow
+end
+begin
+	prog = irxevent
+	button = Shift_L_DN
+	config = Key Shift_L CurrentWindow
+end
+begin
+	prog = irxevent
+	button = z_DN
+	config = Key z CurrentWindow
+end
+begin
+	prog = irxevent
+	button = x_DN
+	config = Key x CurrentWindow
+end
+begin
+	prog = irxevent
+	button = c_DN
+	config = Key c CurrentWindow
+end
+begin
+	prog = irxevent
+	button = v_DN
+	config = Key v CurrentWindow
+end
+begin
+	prog = irxevent
+	button = b_DN
+	config = Key b CurrentWindow
+end
+begin
+	prog = irxevent
+	button = n_DN
+	config = Key n CurrentWindow
+end
+begin
+	prog = irxevent
+	button = m_DN
+	config = Key m CurrentWindow
+end
+begin
+	prog = irxevent
+	button = comma_DN
+	config = Key comma CurrentWindow
+end
+begin
+	prog = irxevent
+	button = period_DN
+	config = Key period CurrentWindow
+end
+begin
+	prog = irxevent
+	button = slash_DN
+	config = Key slash CurrentWindow
+end
+begin
+	prog = irxevent
+	button = Shift_R_DN
+	config = Key Shift_R CurrentWindow
+end
+begin
+	prog = irxevent
+	button = Control_L_DN
+	config = Key Control_L CurrentWindow
+end
+begin
+	prog = irxevent
+	button = Alt_L_DN
+	config = Key Alt_L CurrentWindow
+end
+begin
+	prog = irxevent
+	button = space_DN
+	config = Key space CurrentWindow
+end
+begin
+	prog = irxevent
+	button = Alt_R_DN
+	config = Key Alt_R CurrentWindow
+end
+begin
+	prog = irxevent
+	button = Menu_DN
+	config = Key Menu CurrentWindow
+end
+begin
+	prog = irxevent
+	button = Print_DN
+	config = Key Print CurrentWindow
+end
+begin
+	prog = irxevent
+	button = Scroll_Lock_DN
+	config = Key Scroll_Lock CurrentWindow
+end
+begin
+	prog = irxevent
+	button = Pause_DN
+	config = Key Pause CurrentWindow
+end
+begin
+	prog = irxevent
+	button = Insert_DN
+	config = Key Insert CurrentWindow
+end
+begin
+	prog = irxevent
+	button = Delete_DN
+	config = Key Delete CurrentWindow
+end
+begin
+	prog = irxevent
+	button = Up_DN
+	config = Key Up CurrentWindow
+end
+begin
+	prog = irxevent
+	button = Left_DN
+	config = Key Left CurrentWindow
+end
+begin
+	prog = irxevent
+	button = Down_DN
+	config = Key Down CurrentWindow
+end
+begin
+	prog = irxevent
+	button = Right_DN
+	config = Key Right CurrentWindow
+end
+begin
+	prog = irxevent
+	button = Num_Lock_DN
+	config = Key Num_Lock CurrentWindow
+end

@@ -1,0 +1,76 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.3(serial) on Sat Jun 16 12:34:01 2001
+#
+# contributed by ScriptKiller <scriptkiller@gmx.de>
+#
+# brand:             Grundig
+# model:             FineArts Amplifier V1 System-Remote
+# supported devices: FineArts Amplifier V1 (and others via RC-Bus or maybe directly)
+# notes:             The keys beginning with dcc_ work when you press the meta-button "DCC/DECK A" and one of the tape-functions buttons
+#
+
+begin remote
+
+  name  grundig
+  bits           13
+  flags RC5|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           934   841
+  zero          934   841
+  plead         966
+  gap          113556
+  toggle_bit      0
+
+
+      begin codes
+          number_1                 0x1C01
+          number_2                 0x1C02
+          number_3                 0x1C03
+          number_4                 0x1C04
+          number_5                 0x1C05
+          number_6                 0x1C06
+          number_7                 0x1C07
+          number_8                 0x1C08
+          number_9                 0x1C09
+          number_10                0x1C00
+          KEY_TUNER                0x1C7F                    #  Was: tuner
+          dsr_aux                  0x1DBF
+          KEY_CD                   0x1D3F                    #  Was: cd
+          KEY_TAPE                 0x1CBF                    #  Was: tape
+          dcc                      0x1DFF
+          phono                    0x1D7F
+          KEY_MUTE                 0x1C0D                    #  Was: mute
+          KEY_SLEEP                0x1C3D                    #  Was: standby
+          KEY_VOLUMEUP             0x1C10                    #  Was: volume_+
+          KEY_VOLUMEDOWN           0x1C11                    #  Was: volume_-
+          tuner_down               0x1C61
+          tuner_up                 0x1C60
+          dsr_down                 0x1DA1
+          dsr_up                   0x1DA0
+          cd_stop                  0x1D36
+          cd_play                  0x1D35
+          cd_fastrewind            0x1D21
+          cd_fastforward           0x1D20
+          cd_pause                 0x1D30
+          tape_play_forward        0x1CB5
+          tape_play_back           0x1CAF
+          tape_stop                0x1CB6
+          tape_fastrewind          0x1CB2
+          tape_fastforward         0x1CB4
+          tape_pause               0x1CB0
+          tape_record              0x1CB7
+          dcc_play_back            0x1DEF
+          dcc_play_forward         0x1DF5
+          dcc_stop                 0x1DF6
+          dcc_fastrewind           0x1DF2
+          dcc_fastforward          0x1DF4
+          dcc_pause                0x1DF0
+          dcc_record               0x1DF7
+      end codes
+
+end remote
+
+

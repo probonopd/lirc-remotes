@@ -1,0 +1,79 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.6(any) on Sat Feb 21 00:09:59 2004
+#
+# contributed by
+#
+# brand:                       Sony
+# model no. of remote control: RM-S609
+# devices being controlled by this remote:
+#
+
+begin remote
+
+  name  Sony_RM-S609
+  bits           12
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       2506   527
+  one          1269   529
+  zero          672   529
+  gap          44943
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x0000000000000A81        #  Was: POWER
+          KEY_SLEEP                0x0000000000000061        #  Was: SLEEP
+          TAPE_BACK                0x000000000000004E
+          TAPE_FORWARD             0x000000000000058E
+          TAPE_FAST_BACKWARD       0x0000000000000D8E
+          TAPE_FAST_FORWARD        0x000000000000038E
+          TAPE_STOP                0x000000000000018E
+          TAPE_PAUSE               0x000000000000098E
+          KEY_TUNER                0x0000000000000841        #  Was: TUNER
+          SHIFT                    0x0000000000000CD6
+          CD_PLAY                  0x00000000000004D1
+          CD_PAUSE                 0x00000000000009D1
+          CD_STOP                  0x00000000000001D1
+          CD_BACK                  0x00000000000000D1
+          CD_FORWARD               0x00000000000008D1
+          KEY_1                    0x0000000000000011        #  Was: 1
+          KEY_2                    0x0000000000000811        #  Was: 2
+          KEY_3                    0x0000000000000411        #  Was: 3
+          KEY_4                    0x0000000000000C11        #  Was: 4
+          KEY_5                    0x0000000000000211        #  Was: 5
+          KEY_6                    0x0000000000000A11        #  Was: 6
+          KEY_7                    0x0000000000000611        #  Was: 7
+          KEY_8                    0x0000000000000E11        #  Was: 8
+          KEY_9                    0x0000000000000111        #  Was: 9
+          KEY_0                    0x0000000000000051        #  Was: 0
+          KEY_0                    0x0000000000000E51        #  Was: 10
+          DISK_SKIP                0x00000000000007D1
+          KEY_VOLUMEUP             0x0000000000000481        #  Was: VOL+
+          KEY_VOLUMEDOWN           0x0000000000000C81        #  Was: VOL-
+          KEY_VIDEO                0x0000000000000441        #  Was: VIDEO1
+          KEY_VIDEO                0x0000000000000781        #  Was: VIDEO2
+          PHONO                    0x0000000000000041
+          SELECT10                 0x0000000000000766
+          PERSONAL_FILE            0x0000000000000F66
+          EQ                       0x00000000000003E6
+          KEY_UP                   0x0000000000000089        #  Was: UP
+          KEY_DOWN                 0x0000000000000889        #  Was: DOWN
+          KEY_LEFT                 0x0000000000000E89        #  Was: LEFT
+          KEY_RIGHT                0x0000000000000689        #  Was: RIGHT
+          PROGRAMM                 0x00000000000001A1
+          EFFECT                   0x0000000000000146
+          SOURROUND_on_off         0x0000000000000FC6
+          SOURROUND_mode           0x00000000000007C6
+          SOURROUND_control        0x0000000000000426
+          CD_DIRECT                0x0000000000000921
+          DISPLAY                  0x0000000000000D21
+          DYNAMIC_BASS             0x00000000000008C6
+          KEY_RECORD               0x000000000000078E        #  Was: REC
+          KEY_RECORD               0x0000000000000F8E        #  Was: REC_MUTE
+      end codes
+
+end remote

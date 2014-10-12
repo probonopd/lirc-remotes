@@ -1,0 +1,73 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.4(packard_bell) on Fri Aug 31 16:27:54 2001
+#
+# contributed by Jeff Shipman <shippy@nmt.edu>
+#
+# brand:                       Kenwood
+# model no. of remote control: RC-RO711
+# supported devices:           VR-306 Receiver
+#
+
+begin remote
+
+  name  RC-RO711
+  bits           24
+  flags SPACE_ENC
+  eps            20
+  aeps          200
+
+  header       8800  4400
+  one           550  1650
+  zero          550   550
+  ptrail        550
+  repeat       8800  2200
+  pre_data_bits   8
+  pre_data       0x1D
+  gap          38500
+  toggle_bit      0
+
+  frequency    38000
+
+      begin codes
+          KEY_1                    0x000000000000817E        #  Was: 1
+          KEY_2                    0x00000000000041BE        #  Was: 2
+          KEY_3                    0x000000000000C13E        #  Was: 3
+          KEY_4                    0x00000000000021DE        #  Was: 4
+          KEY_5                    0x000000000000A15E        #  Was: 5
+          KEY_6                    0x000000000000619E        #  Was: 6
+          KEY_7                    0x000000000000E11E        #  Was: 7
+          KEY_8                    0x00000000000011EE        #  Was: 8
+          KEY_9                    0x000000000000916E        #  Was: 9
+          KEY_POWER                0x000000000000B946        #  Was: pwr
+          KEY_0                    0x00000000000001FE        #  Was: 0
+          KEY_10CHANNELSUP         0x000000000000B04F        #  Was: +10
+          disc_skip                0x00000000000010EF
+          arrow_left               0x0000000000C0906F
+          KEY_PLAY                 0x0000000000C0609F        #  Was: play
+          KEY_STOP                 0x00000000004020DF        #  Was: stop
+          tuning_left              0x00000000004040BF
+          tuning_right             0x000000000040C03F
+          p.call_left              0x00000000004000FF
+          p.call_right             0x000000000040807F
+          listen_mode              0x000000000000FB04
+          s.direct                 0x0000000000002AD5
+          sound                    0x000000000080EA15
+          KEY_SETUP                0x0000000000C09867        #  Was: setup
+          KEY_VOLUMEUP             0x000000000000D926        #  Was: vol_up
+          KEY_VOLUMEDOWN           0x00000000000059A6        #  Was: vol_dn
+          KEY_MUTE                 0x00000000000039C6        #  Was: mute
+          multi_left               0x0000000000802AD5
+          multi_right              0x000000000080AA55
+          md/tape                  0x000000000000A956
+          KEY_TUNER                0x0000000000008976        #  Was: tuner
+          KEY_CD                   0x00000000000049B6        #  Was: cd
+          phono                    0x00000000000009F6
+          vid1                     0x0000000000006996
+          vid2                     0x00000000000040BF
+          KEY_DVD                  0x0000000000C0A15E        #  Was: dvd
+      end codes
+
+end remote
+
+

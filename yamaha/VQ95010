@@ -1,0 +1,68 @@
+#
+# This config file has been automatically converted from a device file
+# found in the 06/26/00 release of the Windows Slink-e software
+# package.
+#
+# Many thanks to Colby Boles of Nirvis Systems Inc. for allowing us to
+# use these files.
+#
+# The original filename was: "yamaha vq95010 cd player.cde"
+#
+# The original description for this device was:
+#
+# yamaha vq95010 cd player
+#
+
+
+begin remote
+
+  name  VQ95010
+  bits           32
+  flags SPACE_ENC
+  eps            20
+  aeps          200
+
+  header       8800  4400
+  one           550  1650
+  zero          550   550
+  ptrail        550
+  repeat       8800  2200
+  gap          38500
+  toggle_bit      0
+
+  frequency    38000
+
+      begin codes
+          KEY_OPEN                 0x000000009E61807F        #  Was: OPEN/CLOSE
+          PROG                     0x000000009E6130CF
+          KEY_TAPE                 0x000000009E61EA15        #  Was: TAPE
+          KEY_CLEAR                0x000000009E61B04F        #  Was: CLEAR
+          PEAK                     0x000000009E61BA45
+          KEY_SPACE                0x000000009E61F00F        #  Was: SPACE
+          S/F                      0x000000009E6110EF
+          RANDOM                   0x000000009E61D827
+          KEY_1                    0x000000009E618877        #  Was: 1
+          KEY_2                    0x000000009E6148B7        #  Was: 2
+          KEY_3                    0x000000009E61C837        #  Was: 3
+          KEY_4                    0x000000009E6128D7        #  Was: 4
+          KEY_5                    0x000000009E61A857        #  Was: 5
+          KEY_6                    0x000000009E616897        #  Was: 6
+          KEY_7                    0x000000009E61E817        #  Was: 7
+          KEY_8                    0x000000009E6118E7        #  Was: 8
+          KEY_9                    0x000000009E619867        #  Was: 9
+          KEY_0                    0x000000009E6108F7        #  Was: 0
+          KEY_10CHANNELSUP         0x000000009E6158A7        #  Was: +10
+          KEY_PLAY                 0x000000009E6140BF        #  Was: PLAY
+          KEY_PAUSE                0x000000009E61AA55        #  Was: PAUSE
+          KEY_STOP                 0x000000009E616A95        #  Was: STOP
+          INDEX                    0x000000009E61D02F
+          SKIP_FWD                 0x000000009E61E01F
+          SKIP_REV                 0x000000009E6120DF
+          SCH_FWD                  0x000000009E61609F
+          SCH_REV                  0x000000009E61A05F
+          LEVEL_+                  0x000000009E61B847
+          LEVEL_-                  0x000000009E6138C7
+          SYNCHRO                  0x000000009E611AE5
+      end codes
+
+end remote

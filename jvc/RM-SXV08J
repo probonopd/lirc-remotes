@@ -1,0 +1,77 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.5(any) on Sat Jul 12 19:24:18 2003
+#
+# contributed by Rick Schultz
+#
+# brand:                       JVC
+# model no. of remote control: RM-SXV008J
+# devices being controlled by this remote: JVC XV-S500 DVD Player
+#
+
+begin remote
+
+  name  RM-SXV008J
+  bits           16
+  flags SPACE_ENC|NO_HEAD_REP|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       8498  4202
+  one           586  1525
+  zero          586   469
+  ptrail        585
+  gap          46616
+  toggle_bit      0
+
+
+      begin codes
+          KEY_OPEN                 0x000000000000F722        #  Was: openclose
+          KEY_1                    0x000000000000F786        #  Was: 1
+          KEY_2                    0x000000000000F746        #  Was: 2
+          KEY_3                    0x000000000000F7C6        #  Was: 3
+          KEY_4                    0x000000000000F726        #  Was: 4
+          KEY_5                    0x000000000000F7A6        #  Was: 5
+          KEY_6                    0x000000000000F766        #  Was: 6
+          KEY_7                    0x000000000000F7E6        #  Was: 7
+          KEY_8                    0x000000000000F716        #  Was: 8
+          KEY_9                    0x000000000000F796        #  Was: 9
+          KEY_0                    0x000000000000F776        #  Was: 10
+          KEY_0                    0x000000000000F706        #  Was: 0
+          KEY_10CHANNELSUP         0x000000000000F7F6        #  Was: +10
+          KEY_ENTER                0x000000000000F7AB        #  Was: return
+          title/group              0x000000000000F777
+          KEY_CANCEL               0x000000000000F7B6        #  Was: cancel
+          topmenu                  0x000000000000F743
+          KEY_UP                   0x000000000000F70B        #  Was: up
+          KEY_MENU                 0x000000000000F783        #  Was: menu
+          KEY_LEFT                 0x000000000000F74B        #  Was: left
+          KEY_ENTER                0x000000000000F72B        #  Was: enter
+          KEY_RIGHT                0x000000000000F7CB        #  Was: right
+          choice                   0x000000000000F7FE
+          KEY_DOWN                 0x000000000000F78B        #  Was: down
+          KEY_POWER                0x000000000000F703        #  Was: onscreen
+          skip_back                0x000000000000F78D
+          skip_forw                0x000000000000F70D
+          KEY_STOP                 0x000000000000F7C2        #  Was: stop
+          KEY_PLAY                 0x000000000000F732        #  Was: play
+          KEY_PAUSE                0x000000000000F7B2        #  Was: pause
+          KEY_BACK                 0x000000000000F70E        #  Was: back
+          forw                     0x000000000000F76E
+          KEY_AGAIN                0x000000000000F7DA        #  Was: repeat
+          KEY_SUBTITLE             0x000000000000F7B3        #  Was: subtitle
+          KEY_AUDIO                0x000000000000F713        #  Was: audio
+          vfp                      0x000000000000F77D
+          digest                   0x000000000000F79D
+          KEY_ANGLE                0x000000000000F7D3        #  Was: angle
+          KEY_ZOOMOUT              0x000000000000F7F5        #  Was: zoom-
+          KEY_ZOOMIN               0x000000000000F775        #  Was: zoom+
+          X_KEY_3dphonix           0x000000000000F7BD        #  Was: KEY_3dphonix
+          KEY_VOLUMEDOWN           0x000000000000C5F8        #  Was: voldown
+          KEY_VOLUMEUP             0x000000000000C578        #  Was: volup
+          KEY_POWER                0x000000000000F702        #  Was: power
+      end codes
+
+end remote
+
+

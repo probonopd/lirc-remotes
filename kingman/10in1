@@ -1,0 +1,73 @@
+#
+# this config file was automatically generated
+# using lirc-0.7.0-pre4(serial) on Fr Nov 18 11:28:30 2005
+# brand:  KINGMAN
+# model no. of remote control:  k12in1 code #112
+# devices being controlled by this remote:
+
+
+begin remote
+
+  name  k12in1_112
+  bits           22
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       3692  3590
+  one           967  2676
+  zero          967   858
+  ptrail        969
+  gap          109604
+  toggle_bit      0
+
+      begin codes
+          KEY_1                    0x00000000000017FD        #  Was: 1
+          KEY_2                    0x00000000000117DD        #  Was: 2
+          KEY_3                    0x00000000000097ED        #  Was: 3
+          KEY_4                    0x00000000000197CD        #  Was: 4
+          KEY_5                    0x00000000000057F5        #  Was: 5
+          KEY_6                    0x00000000000157D5        #  Was: 6
+          KEY_7                    0x000000000000D7E5        #  Was: 7
+          KEY_8                    0x000000000001D7C5        #  Was: 8
+          KEY_9                    0x00000000000037F9        #  Was: 9
+          KEY_0                    0x00000000000137D9        #  Was: 0
+          KEY_1                    0x0000000000004FF6        #  Was: 1-/11
+          KEY_2                    0x0000000000014FD6        #  Was: 2-/12
+          ch\*p/c                  0x0000000000010FDE        #  Was: ch\*p/c
+          pr<>                     0x0000000000016FD2
+          ->[]                     0x000000000000AFEA
+          memo                     0x000000000001F7C1
+          -.-                      0x000000000001C7C7
+          contrast+                0x000000000000C7E7
+          contrast-                0x000000000001E7C3
+          KEY_LIGHTS_TOGGLE        0x0000000000002FFA        #  Was: light+
+          KEY_LIGHTS_TOGGLE        0x000000000000EFE2        #  Was: light-
+          color+                   0x00000000000067F3
+          color-                   0x000000000000E7E3
+          KEY_CHANNELUP            0x0000000000008FEE        #  Was: channel+
+          KEY_CHANNELDOWN          0x0000000000018FCE        #  Was: channel-
+          KEY_UP                   0x000000000001DFC4        #  Was: up
+          KEY_DOWN                 0x000000000000F7E1        #  Was: down
+          KEY_LEFT                 0x0000000000013FD8        #  Was: left
+          KEY_RIGHT                0x000000000001CFC6        #  Was: right
+          KEY_OK                   0x0000000000009FEC        #  Was: ok
+          KEY_RED                  0x0000000000006FF2        #  Was: red
+          KEY_GREEN                0x00000000000047F7        #  Was: green
+          KEY_YELLOW               0x00000000000087EF        #  Was: yellow
+          KEY_BLUE                 0x0000000000019FCC        #  Was: blue
+          KEY_VOLUMEUP             0x00000000000107DF        #  Was: vol+
+          KEY_VOLUMEDOWN           0x00000000000167D3        #  Was: vol-
+          KEY_MUTE                 0x000000000001A7CB        #  Was: mute
+          KEY_3>                   0x000000000000BFE8        #  Was: 3>
+          ^                        0x0000000000015FD4
+          ?                        0x00000000000077F1
+          KEY_STOP                 0x0000000000005FF4        #  Was: stop
+          KEY_PAUSE                0x000000000001BFC8        #  Was: pause
+      end codes
+
+end remote
+
+
+
+

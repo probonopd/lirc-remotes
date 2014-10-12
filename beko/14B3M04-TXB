@@ -1,0 +1,195 @@
+#
+# this config file was automatically generated
+# using WinLIRC 0.6.5 (LIRC 0.6.1pre3) on Mon Sep 08 13:03:10 2003
+#
+# contributed by Jose Amengual (Ibiza)
+#
+# brand:             Beko TV
+# model:            14B3M04-TXB
+# supported devices: TV Beko Fastext,  Model 14B3M04
+#
+
+begin remote
+
+  name   Beko
+  flags RAW_CODES
+  eps            50
+  aeps          100
+
+  ptrail          0
+  repeat     0     0
+  gap    52039
+
+      begin raw_codes
+
+          name 1
+          KEY_5                    7031                      #  Was: 505
+          KEY_0                    7013                      #  Was: 540
+          KEY_8                    7023                      #  Was: 518
+          KEY_6                    4492                      #  Was: 516
+
+          name 2
+          KEY_0                    7034                      #  Was: 520
+          KEY_1                    6996                      #  Was: 551
+          KEY_3                    6992                      #  Was: 553
+          KEY_4                    7052                      #  Was: 524
+
+          name 3
+          KEY_6                    7000                      #  Was: 526
+          KEY_0                    7030                      #  Was: 560
+          KEY_9                    7002                      #  Was: 549
+          KEY_4                    7001                      #  Was: 524
+
+          name 4
+          KEY_4                    7041                      #  Was: 514
+          KEY_6                    7017                      #  Was: 546
+          KEY_3                    7015                      #  Was: 533
+          KEY_2                    4486                      #  Was: 532
+
+          name 5
+          KEY_8                    7014                      #  Was: 518
+          KEY_4                    7001                      #  Was: 554
+          KEY_1                    6979                      #  Was: 551
+          KEY_1                    4486                      #  Was: 561
+
+          name 6
+          KEY_2                    7040                      #  Was: 512
+          KEY_5                    6993                      #  Was: 555
+          KEY_2                    7007                      #  Was: 542
+          KEY_2                    7005                      #  Was: 532
+
+          name 7
+          KEY_3                    7016                      #  Was: 523
+          KEY_4                    7021                      #  Was: 554
+          KEY_9                    7002                      #  Was: 549
+          KEY_1                    7039                      #  Was: 531
+
+          name 8
+          KEY_2                    7036                      #  Was: 512
+          KEY_5                    7014                      #  Was: 565
+          KEY_3                    6999                      #  Was: 543
+          KEY_7                    4499                      #  Was: 517
+
+          name 9
+          KEY_0                    7003                      #  Was: 520
+          KEY_4                    7033                      #  Was: 554
+          KEY_2                    7000                      #  Was: 562
+          KEY_5                    4498                      #  Was: 535
+
+          name 0
+          KEY_7                    7022                      #  Was: 517
+          KEY_4                    7035                      #  Was: 544
+          KEY_1                    7013                      #  Was: 531
+          KEY_9                    4513                      #  Was: 529
+
+          name Power
+          KEY_1                    7026                      #  Was: 521
+          KEY_8                    6981                      #  Was: 568
+          KEY_7                    4504                      #  Was: 557
+          KEY_5                    4495                      #  Was: 545
+
+          name Nul_SP
+          KEY_4                    7031                      #  Was: 534
+          KEY_3                    7017                      #  Was: 553
+          KEY_2                    4476                      #  Was: 552
+          KEY_2                    7024                      #  Was: 542
+
+          name Sleep
+          KEY_8                    7021                      #  Was: 518
+          KEY_4                    7027                      #  Was: 554
+          KEY_1                    4496                      #  Was: 531
+          KEY_4                    4497                      #  Was: 534
+
+          name Pr+
+          KEY_6                    7027                      #  Was: 516
+          KEY_5                    6986                      #  Was: 565
+          KEY_6                    6977                      #  Was: 556
+          KEY_9                    4471                      #  Was: 559
+
+          name Pr-
+          KEY_1                    6999                      #  Was: 521
+          KEY_7                    7017                      #  Was: 557
+          KEY_7                    6982                      #  Was: 557
+          KEY_4                    7013                      #  Was: 554
+
+          name Vol+
+          KEY_0                    7031                      #  Was: 530
+          KEY_9                    7004                      #  Was: 559
+          KEY_9                    4481                      #  Was: 549
+          KEY_6                    4492                      #  Was: 546
+
+          name Vol-
+          KEY_8                    7005                      #  Was: 528
+          KEY_5                    6993                      #  Was: 575
+          KEY_8                    4480                      #  Was: 568
+          KEY_5                    4492                      #  Was: 545
+
+          name TV/TX
+          KEY_8                    7033                      #  Was: 528
+          KEY_8                    6989                      #  Was: 568
+          KEY_3                    6999                      #  Was: 553
+          KEY_1                    4492                      #  Was: 541
+
+          name PP
+          KEY_7                    7018                      #  Was: 527
+          KEY_9                    7017                      #  Was: 559
+          KEY_9                    4475                      #  Was: 569
+          KEY_4                    7010                      #  Was: 554
+
+          name White
+          KEY_3                    7029                      #  Was: 513
+          KEY_8                    6994                      #  Was: 568
+          KEY_9                    4467                      #  Was: 569
+          KEY_1                    6992                      #  Was: 551
+
+          name Red
+          KEY_3                    6985                      #  Was: 523
+          KEY_7                    7024                      #  Was: 557
+          KEY_3                    4452                      #  Was: 563
+          KEY_5                    4511                      #  Was: 545
+
+          name Green
+          KEY_5                    7028                      #  Was: 525
+          KEY_5                    6994                      #  Was: 565
+          KEY_1                    4466                      #  Was: 561
+          KEY_9                    7001                      #  Was: 559
+
+          name Yellow
+          KEY_2                    7030                      #  Was: 522
+          KEY_8                    6973                      #  Was: 578
+          KEY_4                    6977                      #  Was: 564
+          KEY_3                    7008                      #  Was: 523
+
+          name Blue
+          KEY_6                    7034                      #  Was: 516
+          KEY_7                    6999                      #  Was: 567
+          KEY_5                    4466                      #  Was: 555
+          KEY_1                    6990                      #  Was: 541
+
+          name Stop
+          KEY_4                    6999                      #  Was: 524
+          KEY_7                    7012                      #  Was: 567
+          KEY_0                    4492                      #  Was: 560
+          KEY_2                    6997                      #  Was: 542
+
+          name Rev
+          KEY_8                    7042                      #  Was: 528
+          KEY_2                    7009                      #  Was: 552
+          KEY_0                    4467                      #  Was: 550
+          KEY_0                    7004                      #  Was: 560
+
+          name Doub
+          KEY_3                    7018                      #  Was: 523
+          KEY_2                    6998                      #  Was: 562
+          KEY_8                    4483                      #  Was: 548
+          KEY_9                    7032                      #  Was: 539
+
+          name Mix
+          KEY_4                    7022                      #  Was: 534
+          KEY_6                    6994                      #  Was: 556
+          KEY_9                    4456                      #  Was: 559
+          KEY_1                    7015                      #  Was: 531
+
+      end raw_codes
+
+end remote

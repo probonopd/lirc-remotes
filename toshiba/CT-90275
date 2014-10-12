@@ -1,0 +1,68 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.6(iguanaIR) on Sat Jan  2 15:38:31 2010
+#
+# contributed by
+#
+# brand: Toshiba
+# model no. of remote control: CT-90275 (Aux2)
+# devices being controlled by this remote:
+# Toshiba DVD Player, Toshiba REGZA LCD TV
+
+begin remote
+
+  name  Toshiba_CT-90275
+  bits           32
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9068  4393
+  one           613  1602
+  zero          613   465
+  ptrail        608
+  repeat       9065  2155
+  gap          108124
+  toggle_bit_mask 0xF0F0
+
+      begin codes
+          BTN_1                    0xA25D807F
+          BTN_2                    0xA25D40BF
+          BTN_3                    0xA25DC03F
+          BTN_4                    0xA25D20DF
+          BTN_5                    0xA25DA05F
+          BTN_6                    0xA25D609F
+          BTN_7                    0xA25DE01F
+          BTN_8                    0xA25D10EF
+          BTN_9                    0xA25D906F
+          BTN_0                    0xA25D50AF
+          KEY_UP                   0xA25D01FE
+          KEY_DOWN                 0xA25D817E
+          KEY_LEFT                 0xA25D8A75
+          KEY_RIGHT                0xA25DB24D
+          KEY_ENTER                0xA25D847B
+          KEY_PLAY                 0xA25DA857
+          KEY_PAUSE                0xA25D00FF
+          KEY_STOP                 0xA25D28D7
+          KEY_FASTFORWARD          0xA25DC837
+          KEY_REWIND               0xA25D9867
+          KEY_BACK                 0xA25DC43B
+          KEY_FORWARD              0xA25D24DB
+          KEY_MENU                 0xA25D21DE
+          KEY_EXIT                 0xA25DF708
+          KEY_SLOW                 0xA25D649B
+          KEY_SETUP                0xA25D04FB
+          KEY_INFO                 0xA25D6897
+          KEY_PREVIOUS             0x02FD38C7
+          KEY_DVD                  0xA25D44BB
+          KEY_FAVORITES            0xA25D7B84
+          KEY_102ND                0xA25DA45B
+          KEY_EJECTCD              0xA25DFB04
+          KEY_AUDIO                0xA25DE41B
+          KEY_SUBTITLE             0xA25D14EB
+          KEY_ANGLE                0xA25D946B
+      end codes
+
+end remote
+
+

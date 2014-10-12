@@ -1,0 +1,59 @@
+#
+# this config file was automatically generated
+# using lirc-0.5.4 on Sun Aug  8 19:48:16 1999
+#
+# contributed by Michael Bunk, bunk@imn.htwk-leipzig.de
+#
+# brand:             Siemens
+# model:             FB 405 (model of the remote)
+# supported devices: RS 204 (tuner, cd player, 2tape deck, amplifier)
+#
+
+begin remote
+
+  name  fb405
+  bits           15
+  flags SPACE_ENC
+  eps            30
+  aeps          100
+
+  header       9076  4400
+  one           622   503
+  zero          622  1619
+  ptrail        622
+  pre_data_bits   16
+  pre_data       0x9ED5
+  post_data_bits  1
+  post_data      0x0
+  gap          41987
+  repeat_bit      0
+
+      begin codes
+          KEY_POWER                0x0000000000005BA4        #  Was: POWER
+          KEY_MUTE                 0x0000000000006B94        #  Was: MUTE
+          KEY_VOLUMEDOWN           0x0000000000000BF4        #  Was: VOL_DOWN
+          KEY_VOLUMEUP             0x0000000000001BE4        #  Was: VOL_UP
+          KEY_STOP                 0x0000000000002ED1        #  Was: STOP
+          TUNING_DOWN+REW+SKIP_LAST 0x0000000000007E81
+          TUNING_UP+FDW+SKIP_NEXT  0x0000000000006E91
+          KEY_PLAYPAUSE            0x0000000000003EC1        #  Was: PLAY_PAUSE
+          KEY_TUNER                0x0000000000002BD4        #  Was: TUNER
+          KEY_CD                   0x000000000000738C        #  Was: CD
+          KEY_TAPE                 0x00000000000033CC        #  Was: TAPE
+          A/B                      0x0000000000000AF5
+          KEY_1                    0x0000000000006798        #  Was: 1
+          KEY_2                    0x00000000000027D8        #  Was: 2
+          KEY_3                    0x00000000000047B8        #  Was: 3
+          KEY_4                    0x0000000000007788        #  Was: 4
+          KEY_5                    0x00000000000037C8        #  Was: 5
+          KEY_6                    0x00000000000057A8        #  Was: 6
+          KEY_7                    0x0000000000006F90        #  Was: 7
+          KEY_8                    0x0000000000002FD0        #  Was: 8
+          KEY_9                    0x0000000000004FB0        #  Was: 9
+          KEY_0                    0x0000000000003FC0        #  Was: 0
+          KEY_RECORD               0x00000000000013EC        #  Was: REC_STOP
+      end codes
+
+end remote
+
+

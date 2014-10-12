@@ -1,0 +1,281 @@
+#
+# this config file was automatically generated
+# using lirc-0.7.1pre2(imon) on Tue Mar  1 23:15:44 2005
+#
+# contributed by Venky Raju
+#
+# brand:                       iMON-New
+# model no. of remote control: iMON-PAD
+# devices being controlled by this remote:
+#
+
+begin remote
+
+  name     iMON-PAD
+  bits           32
+  eps            30
+  aeps          100
+
+  one             0     0
+  zero            0     0
+  gap          235965
+  min_repeat      1
+  toggle_bit      0
+
+
+      begin codes
+          KEY_EXIT                 0x288195B7                #  Was: AppExit
+          KEY_POWER                0x289115B7                #  Was: Power
+          KEY_RECORD               0x298115B7                #  Was: Record
+          KEY_PLAY                 0x2A8115B7                #  Was: Play
+          SlowMotion               0x29B195B7
+          KEY_REWIND               0x2A8195B7                #  Was: Rewind
+          KEY_PAUSE                0x2A9115B7                #  Was: Pause
+          KEY_FASTFORWARD          0x2B8115B7                #  Was: FastForward
+          PrevChapter              0x2B9115B7
+          KEY_STOP                 0x2B9715B7                #  Was: Stop
+          KEY_NEXT                 0x298195B7                #  Was: NextChapter
+          KEY_ESC                  0x2BB715B7                #  Was: Esc
+          KEY_EJECTCD              0x299395B7                #  Was: Eject
+          AppLauncher              0x29B715B7
+          MultiMon                 0x2AB195B7
+          TaskSwitcher             0x2A9395B7
+          KEY_MUTE                 0x2B9595B7                #  Was: Mute
+          KEY_VOLUMEUP             0x28A395B7                #  Was: Vol+
+          KEY_VOLUMEDOWN           0x28A595B7                #  Was: Vol-
+          KEY_CHANNELUP            0x289395B7                #  Was: Ch+
+          KEY_CHANNELDOWN          0x288795B7                #  Was: Ch-
+          Timer                    0x2B8395B7
+          KEY_1                    0x28B595B7                #  Was: 1
+          KEY_2                    0x2BB195B7                #  Was: 2
+          KEY_3                    0x28B195B7                #  Was: 3
+          KEY_4                    0x2A8595B7                #  Was: 4
+          KEY_5                    0x299595B7                #  Was: 5
+          KEY_6                    0x2AA595B7                #  Was: 6
+          KEY_7                    0x2B9395B7                #  Was: 7
+          KEY_8                    0x2A8515B7                #  Was: 8
+          KEY_9                    0x2AA115B7                #  Was: 9
+          KEY_0                    0x2BA595B7                #  Was: 0
+          ShiftTab                 0x28B515B7
+          KEY_TAB                  0x29A115B7                #  Was: Tab
+          MyMovie                  0x2B8515B7
+          MyMusic                  0x299195B7
+          MyPhoto                  0x2BA115B7
+          MyTV                     0x28A515B7
+          Bookmark                 0x288515B7
+          Thumbnail                0x2AB715B7
+          AspectRatio              0x29A595B7
+          KEY_F11                  0x2AA395B7                #  Was: FullScreen
+
+          MyDVD                    0x29A295B7
+          KEY_MENU                 0x2BA385B7                #  Was: Menu
+# different codes
+          MyDVD                    0x29A3D5B7
+          KEY_MENU                 0x2BA3D5B7                #  Was: Menu
+
+          Caption                  0x298595B7
+          KEY_LANGUAGE             0x2B8595B7                #  Was: Language
+          MouseKeyboard            0x299115B7
+          SelectSpace              0x2A9315B7
+          MouseMenu                0x28B715B7
+          BTN_RIGHT                0x688481B7                #  Was: MouseRightClick
+          KEY_ENTER                0x28A195B7                #  Was: Enter
+          BTN_LEFT                 0x688301B7                #  Was: MouseLeftClick
+          WindowsKey               0x2B8195B7
+          KEY_BACKSPACE            0x28A115B7                #  Was: Backspace
+# Corrin added
+          KEY_SPACE                0x2B9B15F7                #  Was: Space
+          KEY_UP                   0xEB53F9B7                #  Was: Up
+          KEY_LEFT                 0x6ABAFFBF                #  Was: Left
+          KEY_DOWN                 0x6F9ECBB7                #  Was: Down
+          KEY_RIGHT                0x69A281B7                #  Was: Right
+# Variants and additions of keys reported by Ryan Gardner
+          KEY_1                    0x0200001E                #  Was: 1
+          KEY_2                    0x0200001F                #  Was: 2
+          KEY_3                    0x02000020                #  Was: 3
+          KEY_4                    0x02000021                #  Was: 4
+          KEY_5                    0x02000022                #  Was: 5
+          KEY_6                    0x02000023                #  Was: 6
+          KEY_7                    0x02000024                #  Was: 7
+          KEY_8                    0x02000025                #  Was: 8
+          KEY_9                    0x02000026                #  Was: 9
+          KEY_NUMERIC_STAR         0x02200025                #  Was: Star
+          KEY_0                    0x02000027                #  Was: 0
+          KEY_NUMERIC_POUND        0x02200020                #  Was: Hash
+          KEY_BACKSPACE            0x0200002A                #  Was: Backspace
+          KEY_SELECT               0x0200002C                #  Was: Select
+          LeftMenu                 0x02800000
+          RightMenu                0x02000065
+          KEY_ENTER                0x02000028                #  Was: Enter
+          KEY_ESC                  0x02000029                #  Was: Escape
+          BTN_LEFT                 0x01010000                #  Was: LeftClick
+          BTN_RIGHT                0x01020000                #  Was: RightClick
+          KEY_UP                   0x01008000                #  Was: Up
+          KEY_DOWN                 0x01007F00                #  Was: Down
+          KEY_LEFT                 0x01000080                #  Was: Left
+          KEY_RIGHT                0x0100007F                #  Was: Right
+# Variations on the mouse buttons from Jan Schneider
+          BTN_LEFT                 0x01010080                #  Was: LeftClick
+          BTN_RIGHT                0x01020080                #  Was: RightClick
+
+      end codes
+
+end remote
+
+#
+# this config file was automatically generated
+# using lirc-0.8.0(userspace) on Tue Oct 17 22:45:11 2006
+#
+# contributed by
+#
+# brand:                       Antec Fusion Wheel
+# model no. of remote control:
+# devices being controlled by this remote:
+#
+
+begin remote
+
+  name  Antec_Fusion_Wheel
+  bits           16
+  eps            30
+  aeps          100
+
+  one             0     0
+  zero            0     0
+  post_data_bits  16
+  post_data      0xFF
+  gap          131971
+  min_repeat      1
+  toggle_bit      0
+
+
+      begin codes
+          CCW                      0x0100
+          CW                       0x0001
+      end codes
+
+end remote
+
+#
+# this config file was automatically generated
+# using lirc-0.8.5(default) on Tue May 26 22:07:16 2009
+#
+# contributed by Karl Newman, based on lircd.conf.imon-pad in lirc-0.8.4
+# devices with USB ID 0x15c2, 0x0038 are using 64 codes in 0.8.5
+#
+# brand:                       iMON-New
+# model no. of remote control: iMON-PAD
+# devices being controlled by this remote:
+#
+
+begin remote
+
+  name     iMON-PAD
+  bits           64
+  eps            30
+  aeps          100
+
+  one             0     0
+  zero            0     0
+  gap          135993
+  toggle_bit_mask 0x0
+  ignore_mask 0x00000000FFFFFFFF
+
+      begin codes
+          KEY_EXIT                 0x288195B700002401        #  Was: AppExit
+          KEY_POWER                0x289115B700002401        #  Was: Power
+          KEY_RECORD               0x298115B700002401        #  Was: Record
+          KEY_PLAY                 0x2A8115B700002401        #  Was: Play
+          SlowMotion               0x29B195B700002401
+          KEY_REWIND               0x2A8195B700002401        #  Was: Rewind
+          KEY_PAUSE                0x2A9115B700002401        #  Was: Pause
+          KEY_FASTFORWARD          0x2B8115B700002401        #  Was: FastForward
+          PrevChapter              0x2B9115B700002401
+          KEY_STOP                 0x2B9715B700002401        #  Was: Stop
+          KEY_NEXT                 0x298195B700002401        #  Was: NextChapter
+          KEY_ESC                  0x2BB715B700002401        #  Was: Esc
+          KEY_EJECTCD              0x299395B700002401        #  Was: Eject
+          AppLauncher              0x29B715B700002401
+          MultiMon                 0x2AB195B700002401
+          TaskSwitcher             0x2A9395B700002401
+          KEY_MUTE                 0x2B9595B700002401        #  Was: Mute
+          KEY_VOLUMEUP             0x28A395B700002401        #  Was: Vol+
+          KEY_VOLUMEDOWN           0x28A595B700002401        #  Was: Vol-
+          KEY_CHANNELUP            0x289395B700002401        #  Was: Ch+
+          KEY_CHANNELDOWN          0x288795B700002401        #  Was: Ch-
+          Timer                    0x2B8395B700002401
+          KEY_1                    0x28B595B700002401        #  Was: 1
+          KEY_2                    0x2BB195B700002401        #  Was: 2
+          KEY_3                    0x28B195B700002401        #  Was: 3
+          KEY_4                    0x2A8595B700002401        #  Was: 4
+          KEY_5                    0x299595B700002401        #  Was: 5
+          KEY_6                    0x2AA595B700002401        #  Was: 6
+          KEY_7                    0x2B9395B700002401        #  Was: 7
+          KEY_8                    0x2A8515B700002401        #  Was: 8
+          KEY_9                    0x2AA115B700002401        #  Was: 9
+          KEY_0                    0x2BA595B700002401        #  Was: 0
+          ShiftTab                 0x28B515B700002401
+          KEY_TAB                  0x29A115B700002401        #  Was: Tab
+          MyMovie                  0x2B8515B700002401
+          MyMusic                  0x299195B700002401
+          MyPhoto                  0x2BA115B700002401
+          MyTV                     0x28A515B700002401
+          Bookmark                 0x288515B700002401
+          Thumbnail                0x2AB715B700002401
+          AspectRatio              0x29A595B700002401
+          KEY_F11                  0x2AA395B700002401        #  Was: FullScreen
+
+          MyDVD                    0x29A295B700002401
+          KEY_MENU                 0x2BA385B700002401        #  Was: Menu
+# different codes
+# These codes are the button release codes, which will cause duplicate
+# events, so they are commented out here.
+#          MyDVD                    0x29A3D5B700002401
+#          Menu                     0x2BA3D5B700002401
+
+          Caption                  0x298595B700002401
+          KEY_LANGUAGE             0x2B8595B700002401        #  Was: Language
+          MouseKeyboard            0x299115B700002401
+          SelectSpace              0x2A9315B700002401
+          MouseMenu                0x28B715B700002401
+          BTN_RIGHT                0x688481B700002401        #  Was: MouseRightClick
+          KEY_ENTER                0x28A195B700002401        #  Was: Enter
+          BTN_LEFT                 0x688301B700002401        #  Was: MouseLeftClick
+          WindowsKey               0x2B8195B700002401
+          KEY_BACKSPACE            0x28A115B700002401        #  Was: Backspace
+# Corrin added
+          KEY_SPACE                0x2B9B15F700002401        #  Was: Space
+          KEY_UP                   0xEB53F9B700002401        #  Was: Up
+          KEY_LEFT                 0x6ABAFFBF00002401        #  Was: Left
+          KEY_DOWN                 0x6F9ECBB700002401        #  Was: Down
+          KEY_RIGHT                0x69A281B700002401        #  Was: Right
+# Variants and additions of keys reported by Ryan Gardner
+          KEY_1                    0x0200001E00000000        #  Was: 1
+          KEY_2                    0x0200001F00000000        #  Was: 2
+          KEY_3                    0x0200002000000000        #  Was: 3
+          KEY_4                    0x0200002100000000        #  Was: 4
+          KEY_5                    0x0200002200000000        #  Was: 5
+          KEY_6                    0x0200002300000000        #  Was: 6
+          KEY_7                    0x0200002400000000        #  Was: 7
+          KEY_8                    0x0200002500000000        #  Was: 8
+          KEY_9                    0x0200002600000000        #  Was: 9
+          KEY_NUMERIC_STAR         0x0220002500000000        #  Was: Star
+          KEY_0                    0x0200002700000000        #  Was: 0
+          KEY_NUMERIC_POUND        0x0220002000000000        #  Was: Hash
+          KEY_BACKSPACE            0x0200002A00000000        #  Was: Backspace
+          KEY_SELECT               0x0200002C00000000        #  Was: Select
+          LeftMenu                 0x0280000000000000
+          RightMenu                0x0200006500000000
+          KEY_ENTER                0x0200002800000000        #  Was: Enter
+          KEY_ESC                  0x0200002900000000        #  Was: Escape
+          BTN_LEFT                 0x0101000000000000        #  Was: LeftClick
+          BTN_RIGHT                0x0102000000000000        #  Was: RightClick
+          KEY_UP                   0x0100800000000000        #  Was: Up
+          KEY_DOWN                 0x01007F0000000000        #  Was: Down
+          KEY_LEFT                 0x0100008000000000        #  Was: Left
+          KEY_RIGHT                0x0100007F00000000        #  Was: Right
+      end codes
+
+end remote
+
+

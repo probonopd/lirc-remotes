@@ -1,0 +1,144 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.6(serial) on Thu Jan  1 19:59:00 2004
+#
+# contributed by
+#
+# brand:                       RCA
+# model no. of remote control: RCR311TCM1
+# devices being controlled by this remote: RCA 27V550T TV
+#
+
+begin remote
+
+  name  RCA_RCR311TCM1
+  bits           24
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       3940  4047
+  one           448  2048
+  zero          448  1049
+  ptrail        446
+  gap          64414
+  min_repeat      1
+  toggle_bit      0
+
+
+      begin codes
+          KEY_DVD                  0x000000000053AAC5        #  Was: dvd
+          KEY_VCR                  0x0000000000E3A1C5        #  Was: vcr
+          KEY_TV                   0x0000000000F3A0C5        #  Was: tv
+          KEY_POWER                0x0000000000E2A1D5        #  Was: power
+	    vcr_play                 0x0000000000E151EA
+          vcr_forward              0x0000000000E1C1E3
+          vcr_reverse              0x0000000000E1D1E2
+          vcr_stop                 0x0000000000E1F1E0
+          vcr_pause                0x0000000000E191E6
+          vcr_record               0x0000000000E171E8
+          vcr_open_close           0x0000000000E401BF
+          vcr_mute                 0x0000000000F3F0C0
+          vcr_go_back              0x0000000000E271D8
+          vcr_ch_up                0x0000000000E2D1D2
+          vcr_ch_down              0x0000000000E2C1D3
+          vcr_clear                0x0000000000E061F9
+          vcr_menu                 0x0000000000E081F7
+          vcr_up                   0x0000000000E591A6
+          vcr_down                 0x0000000000E581A7
+          vcr_left                 0x0000000000E561A9
+          vcr_right                0x0000000000E571A8
+          vcr_ok                   0x0000000000EF410B
+          vcr_1                    0x0000000000E311CE
+          vcr_2                    0x0000000000E321CD
+          vcr_3                    0x0000000000E331CC
+          vcr_4                    0x0000000000E341CB
+          vcr_5                    0x0000000000E351CA
+          vcr_6                    0x0000000000E361C9
+          vcr_7                    0x0000000000E371C8
+          vcr_8                    0x0000000000E381C7
+          vcr_9                    0x0000000000E391C6
+          vcr_0                    0x0000000000E301CF
+          vcr_input                0x0000000000E471B8
+          vcr_antenna              0x0000000000E051FA
+          vcr_again                0x0000000000E461B9
+          tv_play                  0x0000000000F150EA
+          tv_reverse               0x0000000000F1D0E2
+          tv_forward               0x0000000000F1C0E3
+          tv_record                0x0000000000F170E8
+          tv_stop                  0x0000000000F1F0E0
+          tv_pause                 0x0000000000F190E6
+          tv_again                 0x0000000000FBA045
+          tv_zoom                  0x0000000000F9006F
+          tv_open_close            0x0000000000F400BF
+          tv_vol_up                0x0000000000F2F0D0
+          tv_vol_down              0x0000000000F2E0D1
+          tv_mute                  0x0000000000F3F0C0
+          tv_go_back               0x0000000000F270D8
+          tv_ch_up                 0x0000000000F2D0D2
+          tv_ch_down               0x0000000000F2C0D3
+          tv_clear                 0x0000000000F060F9
+	    tv_menu                  0x0000000000F080F7
+          tv_up                    0x0000000000F590A6
+          tv_down                  0x0000000000F580A7
+          tv_ok                    0x0000000000FF400B
+          tv_left                  0x0000000000F560A9
+          tv_right                 0x0000000000F570A8
+          tv_1                     0x0000000000F310CE
+          tv_2                     0x0000000000F320CD
+          tv_3                     0x0000000000F330CC
+          tv_4                     0x0000000000F340CB
+          tv_5                     0x0000000000F350CA
+          tv_6                     0x0000000000F360C9
+          tv_7                     0x0000000000F370C8
+          tv_8                     0x0000000000F380C7
+          tv_9                     0x0000000000F390C6
+          tv_input                 0x0000000000FA305C
+          tv_0                     0x0000000000F300CF
+          tv_antenna               0x0000000000F050FA
+          tv_preset                0x0000000000F120ED
+          vport                    0x0000000000F99066
+          tv_guide                 0x0000000000F1A0E5
+          tv_info                  0x0000000000F3C0C3
+          tv_skip                  0x0000000000F530AC
+          KEY_DVD                  0x0000000000F3F0C0        #  Was: dvd_mute
+          KEY_DVD                  0x0000000000527AD8        #  Was: dvd_go_back
+          KEY_DVD                  0x0000000000520ADF        #  Was: dvd_ch_up
+          KEY_DVD                  0x0000000000522ADD        #  Was: dvd_ch_down
+          KEY_DVD                  0x0000000000506AF9        #  Was: dvd_clear
+          KEY_MENU                 0x0000000000508AF7        #  Was: dvd_menu
+          KEY_DVD                  0x0000000000559AA6        #  Was: dvd_up
+          KEY_DVD                  0x0000000000558AA7        #  Was: dvd_down
+          KEY_DVD                  0x0000000000556AA9        #  Was: dvd_left
+          KEY_DVD                  0x0000000000557AA8        #  Was: dvd_right
+          KEY_DVD                  0x00000000005F4A0B        #  Was: dvd_ok
+          KEY_DVD                  0x0000000000512AED        #  Was: dvd_preset
+          KEY_DVD                  0x000000000051AAE5        #  Was: dvd_guide
+          KEY_DVD                  0x000000000053CAC3        #  Was: dvd_info
+          KEY_DVD                  0x0000000000553AAC        #  Was: dvd_skip
+          KEY_DVD                  0x0000000000531ACE        #  Was: dvd_1
+          KEY_DVD                  0x0000000000532ACD        #  Was: dvd_2
+          KEY_DVD                  0x0000000000533ACC        #  Was: dvd_3
+          KEY_DVD                  0x0000000000534ACB        #  Was: dvd_4
+          KEY_DVD                  0x0000000000535ACA        #  Was: dvd_5
+          KEY_DVD                  0x0000000000536AC9        #  Was: dvd_6
+          KEY_DVD                  0x0000000000537AC8        #  Was: dvd_7
+          KEY_DVD                  0x0000000000538AC7        #  Was: dvd_8
+          KEY_DVD                  0x0000000000539AC6        #  Was: dvd_9
+          KEY_DVD                  0x0000000000547AB8        #  Was: dvd_input
+          KEY_DVD                  0x0000000000530ACF        #  Was: dvd_0
+          KEY_DVD                  0x0000000000505AFA        #  Was: dvd_antenna
+          KEY_DVD                  0x000000000051DAE2        #  Was: dvd_reverse
+          KEY_DVD                  0x0000000000515AEA        #  Was: dvd_play
+          KEY_DVD                  0x000000000051CAE3        #  Was: dvd_forward
+          KEY_DVD                  0x0000000000517AE8        #  Was: dvd_record
+          KEY_DVD                  0x000000000051FAE0        #  Was: dvd_stop
+          KEY_DVD                  0x0000000000519AE6        #  Was: dvd_pause
+          KEY_DVD                  0x00000000005BAA45        #  Was: dvd_again
+          KEY_DVD                  0x0000000000590A6F        #  Was: dvd_zoom
+          KEY_DVD                  0x0000000000540ABF        #  Was: dvd_open_close
+      end codes
+
+end remote
+
+

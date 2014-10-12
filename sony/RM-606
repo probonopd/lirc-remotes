@@ -1,0 +1,60 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.4(any) on Wed Aug 29 18:53:54 2001
+#
+# contributed by
+#
+# brand:		SONY
+# model:		RM-606
+# supported devices:          
+#
+
+begin remote
+
+  name  rm-606
+  bits            6
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           585  3423
+  zero          585  1417
+  ptrail        586
+  gap          48089
+  min_repeat      1
+  toggle_bit      0
+
+
+      begin codes
+          KEY_1                    0x0000000000000002        #  Was: 1
+          KEY_2                    0x0000000000000022        #  Was: 2
+          KEY_3                    0x0000000000000012        #  Was: 3
+          KEY_4                    0x0000000000000032        #  Was: 4
+          KEY_5                    0x000000000000000A        #  Was: 5
+          KEY_6                    0x000000000000002A        #  Was: 6
+          KEY_7                    0x000000000000001A        #  Was: 7
+          KEY_8                    0x000000000000003A        #  Was: 8
+          KEY_9                    0x0000000000000006        #  Was: 9
+          KEY_0                    0x0000000000000026        #  Was: 10
+          KEY_1                    0x0000000000000016        #  Was: 11
+          KEY_2                    0x0000000000000036        #  Was: 12
+          KEY_3                    0x000000000000000E        #  Was: 13
+          KEY_4                    0x000000000000002E        #  Was: 14
+          KEY_5                    0x000000000000001E        #  Was: 15
+          KEY_6/video              0x000000000000003E        #  Was: 16/video
+          color+                   0x0000000000000038
+          color-                   0x0000000000000004
+          contrast+                0x0000000000000028
+          contrast-                0x0000000000000018
+          KEY_VOLUMEUP             0x0000000000000030        #  Was: volume+
+          KEY_VOLUMEDOWN           0x0000000000000008        #  Was: volume-
+          program+                 0x0000000000000020
+          program-                 0x0000000000000010
+          norm                     0x0000000000000034
+          KEY_MUTE                 0x0000000000000024        #  Was: mute
+          KEY_POWER                0x000000000000001C        #  Was: on/off
+      end codes
+
+end remote
+
+

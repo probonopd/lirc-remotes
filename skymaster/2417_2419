@@ -1,0 +1,69 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.6(serial) on Sat Jan  3 21:58:41 2004
+#
+# contributed by               chris|real-aix.de
+#
+# brand:                       SKYMASTER universal remote control 5 in 1
+# model no. of remote control: 2417/2419
+# devices being controlled by this remote: AUX, VCR, TV, SAT, DVD
+#
+# This remote control can be programmed via 3-digit-numbers to behave like one
+# of 3500 pre-stored devices. The following configuration shows codes for VCR
+# code 822.
+#
+# dealer information can be found via:
+# http://www.skymaster.de/32_ergebnis.php?art_nr=2417
+#
+
+begin remote
+
+  name  lircd.conf
+  bits           13
+  flags RC5|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           942   841
+  zero          942   841
+  plead         961
+  gap          114397
+  min_repeat      1
+  toggle_bit      2
+
+
+      begin codes
+          VCR_power                0x000000000000114C
+          VCR_TV/EXT               0x0000000000001167
+          VCR_MUTE                 0x000000000000100D
+          VCR_TEXT                 0x0000000000001170
+          VCR_1                    0x0000000000001141
+          VCR_2                    0x0000000000001142
+          VCR_3                    0x0000000000001143
+          VCR_4                    0x0000000000001144
+          VCR_5                    0x0000000000001145
+          VCR_6                    0x0000000000001146
+          VCR_7                    0x0000000000001147
+          VCR_8                    0x0000000000001148
+          VCR_9                    0x0000000000001149
+          VCR_0                    0x0000000000001140
+          VCR_REC                  0x0000000000001177
+          VCR_PLAY                 0x0000000000001175
+          VCR_STOP                 0x0000000000001176
+          VCR_PAUSE                0x0000000000001170
+          VCR_REW                  0x0000000000001172
+          VCR_FF                   0x0000000000001174
+          VCR_CHANNEL_UP           0x0000000000001160
+          VCR_CHANNEL_DOWN         0x0000000000001161
+          VCR_VOLUME_UP            0x0000000000001150
+          VCR_VOLUME_DOWN          0x0000000000001151
+          VCR_STORE                0x000000000000114A
+          VCR_BLUE                 0x0000000000001152
+          VCR_YELLOW               0x0000000000001153
+          VCR_GREEN                0x0000000000001154
+          VCR_RED                  0x0000000000001155
+      end codes
+
+end remote
+
+

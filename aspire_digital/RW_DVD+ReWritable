@@ -1,0 +1,93 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.1(default) on Wed Feb 20 19:48:33 2008
+#
+# contributed by
+#
+# brand: Aspire Digital
+# model no. of remote control: unknown
+# devices being controlled by this remote:
+# Comments: remote says RW, DVD+ReWritable
+
+begin remote
+
+  name  Aspire_Digital_RW_DVD+ReWritable
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9035  4445
+  one           602  1641
+  zero          602   518
+  ptrail        600
+  repeat       9036  2203
+  pre_data_bits   16
+  pre_data       0x10EF
+  gap          107713
+  toggle_bit      0
+
+
+      begin codes
+          KEY_OPEN                 0x38C7                    #  Was: open_close
+          KEY_ZOOM                 0xFA05                    #  Was: zoom
+          A-B_RPT                  0xD22D
+          KEY_AGAIN                0x7A85                    #  Was: Repeat
+          GOTO                     0x52AD
+          KEY_RECORD               0xBA45                    #  Was: REC
+          KEY_SETUP                0x10EF                    #  Was: setup
+          KEY_RECORD               0x827D                    #  Was: rec_mode
+          KEY_CYCLEWINDOWS         0xB24D                    #  Was: source
+          KEY_DVD                  0xAA55                    #  Was: dvd_tv
+          KEY_MENU                 0x18E7                    #  Was: menu
+          KEY_1                    0xC23D
+          KEY_2                    0xF20D
+          KEY_3                    0xEA15
+          KEY_4                    0xE21D
+          KEY_5                    0xCA35
+          KEY_6                    0xDA25
+          KEY_7                    0x42BD
+          KEY_8                    0x728D
+          KEY_9                    0x6A95
+          num_10+                  0x629D
+          KEY_0                    0x4AB5
+          KEY_CLEAR                0x5AA5                    #  Was: clear
+          KEY_CHANNELUP            0x20DF                    #  Was: channel_up
+          KEY_CHANNELDOWN          0xA05F                    #  Was: channel_down
+          KEY_LEFT                 0x00FF                    #  Was: left
+          KEY_RIGHT                0x08F7                    #  Was: right
+          KEY_ENTER                0x30CF                    #  Was: enter
+          step                     0x807F
+          KEY_ENTER                0x8877                    #  Was: return
+          KEY_REWIND               0x926D
+          KEY_FORWARD              0xA25D
+          KEY_PREVIOUS             0x8A75                    #  Was: prev
+          KEY_NEXT                 0x9A65                    #  Was: next
+          KEY_PAUSE                0x906F                    #  Was: pause
+          KEY_PLAY                 0xB04F                    #  Was: play
+          KEY_STOP                 0x9867                    #  Was: stop
+          KEY_MENU                 0x3AC5                    #  Was: osd
+          KEY_SLOW                 0x02FD                    #  Was: slow
+          KEY_VOLUMEDOWN           0x32CD                    #  Was: vol_minus
+          KEY_VOLUMEUP             0x2AD5                    #  Was: vol_plus
+          KEY_SUBTITLE             0x12ED                    #  Was: subtitle
+          intro                    0x22DD
+          prog                     0x0AF5
+          pbc                      0x1AE5
+          KEY_LANGUAGE             0xF807                    #  Was: language
+          KEY_ANGLE                0xC03F                    #  Was: angle
+          pscan                    0xF00F
+          pal_ntsc                 0xE817
+          KEY_TITLE                0xD02F                    #  Was: title
+          KEY_AUDIO                0xE01F                    #  Was: audio
+          KEY_VIDEO                0xC837                    #  Was: video_y
+          KEY_SLEEP                0xD827                    #  Was: sleep
+          KEY_EDIT                 0x7887                    #  Was: edit
+          timer                    0x40BF
+          disc_oper                0x708F
+          KEY_MUTE                 0x6897                    #  Was: mute
+      end codes
+
+end remote
+
+

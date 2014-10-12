@@ -1,0 +1,59 @@
+#
+# this config file was automatically generated
+# using WinLIRC 0.6.5 (LIRC 0.6.1pre3) on Wed Aug 20 23:35:24 2003
+#
+# contributed by
+#
+# brand:             Onkyo
+# model:             RC-246C
+# supported devices: DX-F5 (Portable CD Player)
+#
+
+begin remote
+
+  name  Onkyo
+  bits           16
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  header       3413  1619
+  one           455   363
+  zero          455  1202
+  ptrail        455
+  pre_data_bits   32
+  pre_data       0xBFFBFAAF
+  gap          71958
+  toggle_bit      0
+
+
+      begin codes
+          KEY_1                    0x000000000000F7A2        #  Was: 1
+          KEY_2                    0x0000000000007722        #  Was: 2
+          KEY_3                    0x000000000000B7E2        #  Was: 3
+          KEY_4                    0x0000000000003762        #  Was: 4
+          KEY_5                    0x000000000000D782        #  Was: 5
+          KEY_6                    0x0000000000005702        #  Was: 6
+          KEY_7                    0x00000000000097C2        #  Was: 7
+          KEY_8                    0x0000000000001742        #  Was: 8
+          KEY_9                    0x000000000000E7B2        #  Was: 9
+          KEY_0                    0x0000000000005E0B        #  Was: 10
+          KEY_0                    0x0000000000006732        #  Was: 0
+          >10                      0x000000000000DE8B
+          M.Scan                   0x0000000000009DC8
+          KEY_CLEAR                0x000000000000FEAB        #  Was: Clear
+          KEY_AGAIN                0x0000000000007E2B        #  Was: Recall
+          Memory                   0x000000000000AEFB
+          RepeatA-B                0x000000000000EDB8
+          RepeatAll                0x0000000000001D48
+          Output-                  0x0000000000007B2E
+          Output+                  0x000000000000FBAE
+          Skip/Search_Back         0x0000000000006D38
+          Skip/Search_Forward      0x000000000000ADF8
+          KEY_STOP                 0x000000000000FFAA        #  Was: Stop
+          KEY_PLAYPAUSE            0x000000000000AFFA        #  Was: Play/Pause
+      end codes
+
+end remote
+
+

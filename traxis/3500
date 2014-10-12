@@ -1,0 +1,45 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.2-CVS-pvr150(default) on Sun Mar 23 16:05:22 2008
+#
+# contributed by
+#
+# brand:                       Traxis 3500
+# model no. of remote control:
+# devices being controlled by this remote: Traxis 3500 satellite receiver.
+#
+
+begin remote
+
+  name  Traxis_3500
+  bits           11
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           270  7280
+  zero          270  4763
+  ptrail        264
+  gap          120806
+  toggle_bit_mask 0x0
+
+      begin codes
+          KEY_POWER                0x51E                     #  Was: Power
+          KEY_1                    0x735                     #  Was: 1
+          KEY_2                    0x52D                     #  Was: 2
+          KEY_3                    0x725                     #  Was: 3
+          KEY_4                    0x51D                     #  Was: 4
+          KEY_5                    0x734                     #  Was: 5
+          KEY_6                    0x52C                     #  Was: 6
+          KEY_7                    0x724                     #  Was: 7
+          KEY_8                    0x51C                     #  Was: 8
+          KEY_9                    0x733                     #  Was: 9
+          KEY_0                    0x52B                     #  Was: 0
+          KEY_CHANNELUP            0x728                     #  Was: CHUP
+          KEY_CHANNELDOWN          0x52A                     #  Was: CHDOWN
+          KEY_OK                   0x729                     #  Was: OK
+      end codes
+
+end remote
+
+

@@ -1,0 +1,55 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.6(any) on Sat Nov  1 19:13:53 2003
+#
+# contributed by Michael Kress m-kress m-kress.de
+#
+# brand: CTTC
+# model no. of remote control: CLA Tronic
+# devices being controlled by this remote: CTTC TV
+#
+
+begin remote
+
+  name  CTTC-CLA_Tronic
+  bits           24
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       3369  3384
+  one           837  2541
+  zero          837   851
+  ptrail        835
+  gap          101334
+  toggle_bit      0
+
+
+      begin codes
+          KEY_1                    0x000000000068297D        #  Was: 1
+          KEY_2                    0x00000000006A295D        #  Was: 2
+          KEY_3                    0x000000000069296D        #  Was: 3
+          KEY_4                    0x00000000006B294D        #  Was: 4
+          KEY_5                    0x000000000068A975        #  Was: 5
+          KEY_6                    0x00000000006AA955        #  Was: 6
+          KEY_7                    0x000000000069A965        #  Was: 7
+          KEY_8                    0x00000000006BA945        #  Was: 8
+          KEY_9                    0x0000000000686979        #  Was: 9
+          KEY_0                    0x00000000006A6959        #  Was: 0
+          KEY_POWER                0x000000000069496B        #  Was: Power
+          KEY_MUTE                 0x000000000068097F        #  Was: Mute
+          KEY_SLEEP                0x00000000006B494B        #  Was: Sleep
+          KEY_AGAIN                0x00000000006BC943        #  Was: Recall
+          TV/AV                    0x00000000006AC953
+          Picture                  0x00000000006A095F
+          KEY_UP                   0x000000000069096F        #  Was: Up
+          KEY_DOWN                 0x00000000006B094F        #  Was: down
+          KEY_CHANNELUP            0x000000000068497B        #  Was: Channel_up
+          KEY_CHANNELDOWN          0x00000000006A495B        #  Was: Channel_down
+          KEY_VOLUMEUP             0x0000000000698967        #  Was: Volume_up
+          KEY_VOLUMEDOWN           0x00000000006B8947        #  Was: Volume_down
+      end codes
+
+end remote
+
+

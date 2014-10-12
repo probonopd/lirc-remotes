@@ -1,0 +1,52 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.6(sir) on Thu Dec 19 18:55:32 2002
+#
+# contributed by Gerald Weber <gweber@codigolivre.org.br>
+#
+# brand: Falcon
+# model no. of remote control: VT-1000
+# devices being controlled by this remote:
+# Falcon VT-1000 Satellite Receiver
+
+begin remote
+
+  name  VT-1000
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9135  4448
+  one           602  1634
+  zero          602   534
+  ptrail        604
+  repeat       9135  2198
+  pre_data_bits   16
+  pre_data       0x8F4
+  gap          108000
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x000000000000C13E        #  Was: power
+          store                    0x00000000000041BE
+          KEY_VIDEO                0x000000000000E11E        #  Was: video_up
+          KEY_VIDEO                0x00000000000021DE        #  Was: video_down
+          bw                       0x000000000000916E
+          audio_up                 0x000000000000D12E
+          audio_down               0x00000000000011EE
+          h/v                      0x00000000000051AE
+          skew_up                  0x000000000000A15E
+          skew_down                0x000000000000619E
+          norm                     0x00000000000039C6
+          KEY_MUTE                 0x000000000000B946        #  Was: mute
+          KEY_CHANNELUP            0x000000000000D926        #  Was: channel_up
+          KEY_CHANNELDOWN          0x000000000000F906        #  Was: chanel_down
+          KEY_VOLUMEUP             0x00000000000059A6        #  Was: volume_up
+          KEY_VOLUMEDOWN           0x0000000000007986        #  Was: volume_down
+      end codes
+
+end remote
+
+

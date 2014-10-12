@@ -1,0 +1,70 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.6(hauppauge) on Sun Aug  3 17:58:27 2003
+#
+# contributed by Urs Schütz u.schutz@bluewin.ch
+#
+# brand: SupportPlus7 Universal 7in1
+# model no. of remote control: 7
+# TV mode programmed to Marantz (436)
+# devices being controlled by this remote: universal
+# IR receiver: Hauppauge WinTV
+
+# Porgramming of TV mode: Hold down TV until the red light on the top
+# flashes twice, this takes about 5 seconds. Then enter 436. After
+# successfull programming the red light flashes twice. If it flashes
+# just once something went wrong!
+# I was not able to get the keys TV VCR SAT AUD CD/DVD TAPE TUNER and
+# SHIFT to do something useful together with the hauppauge IR
+# receiver. So I just set up different modes for different functions
+# (TV, CD...) in ~/.lircrc, and switch modes with six of the 8 keys at
+# the bottom which I labelled: TXT TV I M RADIO TV/SAT.
+
+begin remote
+
+  name  	SupportPlus7
+  bits           13
+  eps            30
+  aeps          100
+
+  one             0     0
+  zero            0     0
+  gap          199891
+  toggle_bit      2
+
+
+      begin codes
+          KEY_POWER                0x000000000000180C        #  Was: POWER
+          KEY_1                    0x0000000000001801        #  Was: 1
+          KEY_2                    0x0000000000001802        #  Was: 2
+          KEY_3                    0x0000000000001803        #  Was: 3
+          KEY_4                    0x0000000000001804        #  Was: 4
+          KEY_5                    0x0000000000001805        #  Was: 5
+          KEY_6                    0x0000000000001806        #  Was: 6
+          KEY_7                    0x0000000000001807        #  Was: 7
+          KEY_8                    0x0000000000001808        #  Was: 8
+          KEY_9                    0x0000000000001809        #  Was: 9
+          KEY_0                    0x0000000000001800        #  Was: 0
+          KEY_UP                   0x0000000000001820        #  Was: UP
+          KEY_DOWN                 0x0000000000001821        #  Was: DOWN
+          KEY_KPMINUS              0x0000000000001811        #  Was: -
+          KEY_KPPLUS               0x0000000000001810        #  Was: +
+          KEY_MUTE                 0x000000000000180D        #  Was: MUTE
+          KEY_OK                   0x000000000000180E        #  Was: OK
+          KEY_PLAY                 0x0000000000001836        #  Was: PLAY
+          KEY_102ND                0x000000000000180A        #  Was: -/--
+          KEY_REWIND               0x0000000000001837        #  Was: REWIND
+          KEY_PAUSE                0x0000000000001832        #  Was: PAUSE
+          KEY_FORWARD              0x0000000000001834        #  Was: FORWARD
+          KEY_TEXT                 0x000000000000183C        #  Was: TXT
+          KEY_TV                   0x000000000000183F        #  Was: TV
+          KEY_I                    0x0000000000001835        #  Was: I
+          KEY_M                    0x000000000000180F        #  Was: M
+          KEY_RADIO                0x000000000000182E        #  Was: RADIO
+          TV/SAT                   0x000000000000182D
+          AV                       0x0000000000001838
+      end codes
+
+end remote
+
+

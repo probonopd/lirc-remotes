@@ -1,0 +1,59 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.2 on Mon Sep  4 19:59:02 2000
+#
+# contributed by
+#
+# brand:             Radix (?)
+# model:           
+# supported devices: satellite receiver
+#
+
+begin remote
+
+  name  SAT
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9124  4455
+  one           627  1631
+  zero          627   505
+  ptrail        631
+  repeat       9125  2197
+  pre_data_bits   16
+  pre_data       0x51AF
+  gap          108539
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x00000000000000FF        #  Was: POWER
+          KEY_0                    0x000000000000708F        #  Was: 0
+          KEY_1                    0x000000000000C03F        #  Was: 1
+          KEY_2                    0x00000000000040BF        #  Was: 2
+          KEY_3                    0x000000000000807F        #  Was: 3
+          KEY_4                    0x000000000000E01F        #  Was: 4
+          KEY_5                    0x000000000000609F        #  Was: 5
+          KEY_6                    0x000000000000A05F        #  Was: 6
+          KEY_7                    0x000000000000D02F        #  Was: 7
+          KEY_8                    0x00000000000050AF        #  Was: 8
+          KEY_9                    0x000000000000906F        #  Was: 9
+          KEY_UP                   0x00000000000058A7        #  Was: UP
+          KEY_DOWN                 0x000000000000D827        #  Was: DOWN
+          KEY_LEFT                 0x0000000000008877        #  Was: LEFT
+          KEY_RIGHT                0x000000000000B04F        #  Was: RIGHT
+          KEY_MENU                 0x00000000000010EF        #  Was: MENU
+          KEY_MUTE                 0x0000000000009867        #  Was: MUTE
+          LT                       0x000000000000C837
+          STORE                    0x00000000000020DF
+          CROSS                    0x00000000000018E7
+          WEST                     0x0000000000006897
+          KEY_SAT                  0x000000000000E817        #  Was: SAT
+          EAST                     0x000000000000A857
+      end codes
+
+end remote
+
+

@@ -1,0 +1,84 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.1(default) on Sat Feb  3 17:21:32 2007
+#
+# contributed by Jens Hatlak
+#
+# brand:                       Terratec
+# model no. of remote control: Cinergy DT USB XS Diversity
+# devices being controlled by this remote:
+#
+
+begin remote
+
+  name  Terratec_Cinergy_DT_USB_XS_Diversity
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       8977  4525
+  one           565  1685
+  zero          565   560
+  ptrail        572
+  repeat       8977  2267
+  pre_data_bits   16
+  pre_data       0x28D7
+  gap          108023
+  toggle_bit      0
+
+
+      begin codes
+          KEY_HOME                 0x827D                    #  Was: Home
+          KEY_POWER                0x807F                    #  Was: OnOff
+          KEY_MENU                 0x42BD                    #  Was: DVDMenu
+          KEY_SUBTITLE             0xC23D                    #  Was: Subtitles
+          KEY_TEXT                 0x22DD                    #  Was: Teletext
+          KEY_DELETE               0xA25D                    #  Was: Delete
+          KEY_1                    0x40BF                    #  Was: 1
+          KEY_2                    0xC03F                    #  Was: 2
+          KEY_3                    0x20DF                    #  Was: 3
+          KEY_4                    0xA05F                    #  Was: 4
+          KEY_5                    0x609F                    #  Was: 5
+          KEY_6                    0xE01F                    #  Was: 6
+          KEY_7                    0x10EF                    #  Was: 7
+          KEY_8                    0x906F                    #  Was: 8
+          KEY_9                    0x50AF                    #  Was: 9
+          KEY_0                    0x30CF                    #  Was: 0
+          AV                       0xD02F
+          AB                       0xB04F
+          KEY_TV                   0x629D                    #  Was: TV
+          KEY_DVD                  0xE21D                    #  Was: DVD
+          KEY_VIDEO                0x926D                    #  Was: VIDEO
+          KEY_AUDIO                0x52AD                    #  Was: MUSIC
+          PIC                      0xD22D
+          KEY_UP                   0x08F7                    #  Was: Up
+          KEY_DOWN                 0x28D7                    #  Was: Down
+          KEY_LEFT                 0x8877                    #  Was: Left
+          KEY_RIGHT                0xC837                    #  Was: Right
+          KEY_OK                   0x48B7                    #  Was: OK
+          KEY_EPG                  0xF00F                    #  Was: EPG
+          KEY_INFO                 0x6897                    #  Was: INFO
+          KEY_BACK                 0xB24D                    #  Was: BACK
+          KEY_VOLUMEUP             0x38C7                    #  Was: Vol+
+          KEY_VOLUMEDOWN           0x7887                    #  Was: Vol-
+          KEY_PLAY                 0x32CD                    #  Was: Play
+          KEY_MUTE                 0xB847                    #  Was: Mute
+          KEY_CHANNELUP            0xD827                    #  Was: Ch+
+          KEY_CHANNELDOWN          0xF807                    #  Was: Ch-
+          KEY_RED                  0xE817                    #  Was: Red
+          KEY_GREEN                0x18E7                    #  Was: Green
+          KEY_YELLOW               0x9867                    #  Was: Yellow
+          KEY_BLUE                 0x58A7                    #  Was: Blue
+          KEY_RECORD               0x1AE5                    #  Was: REC
+          KEY_STOP                 0x12ED                    #  Was: STOP
+          KEY_PAUSE                0x02FD                    #  Was: PAUSE
+          KEY_LAST                 0x2AD5                    #  Was: LAST
+          FR                       0x728D
+          KEY_FASTFORWARD          0xF20D                    #  Was: FF
+          KEY_NEXT                 0x3AC5                    #  Was: NEXT
+      end codes
+
+end remote
+
+

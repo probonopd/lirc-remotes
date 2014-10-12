@@ -1,0 +1,66 @@
+#
+# This config file has been automatically converted from a device file
+# found in the 06/26/00 release of the Windows Slink-e software
+# package.
+#
+# Many thanks to Colby Boles of Nirvis Systems Inc. for allowing us to
+# use these files.
+#
+# The original filename was: "yamaha_vr50590_cx1_pamp_and_sources.cde"
+#
+# The original description for this device was:
+#
+# yamaha vr50590 cx1 pamp and sources
+#
+
+
+begin remote
+
+  name  VR50590.a
+  bits           32
+  flags SPACE_ENC
+  eps            20
+  aeps          200
+
+  header       8800  4400
+  one           550  1650
+  zero          550   550
+  ptrail        550
+  repeat       8800  2200
+  gap          38500
+  toggle_bit      0
+
+  frequency    38000
+
+      begin codes
+          KEY_POWER                0x000000005EA1F807        #  Was: POWER
+          KEY_PLAY                 0x000000005EA1708F        #  Was: PLAY/CUT
+          CD_SKIP_<<               0x000000005EA1D02F
+          CD_SKIP_>>               0x000000005EA150AF
+          CD_SEARCH_<<             0x000000005EA1B04F
+          CD_SEARCH_>>             0x000000005EA130CF
+          CD_PAUSE/STOP            0x000000005EA1906F
+          CD_DISK_SKIP             0x000000005EA1F20D
+          TUNER_PRESET-            0x000000005EA18877
+          TUNER_PRESET+            0x000000005EA108F7
+          TUNER_A/B/C/D/E          0x000000005EA148B7
+          TAPE_DIRA                0x000000005EA1E01F
+          TAPE_DIRB                0x000000005EA102FD
+          TAPE_DECK_A/B            0x000000005EA1609F
+          TAPE_<<                  0x000000005EA1807F
+          TAPE_>>                  0x000000005EA140BF
+          TAPE_PLAY                0x000000005EA100FF
+          TAPE_STOP                0x000000005EA1C03F
+          TAPE_REC/PAUSE           0x000000005EA120DF
+          TAPE_REC/MUTE            0x000000005EA1A05F
+          PHONO                    0x000000005EA128D7
+          KEY_CD                   0x000000005EA1A857        #  Was: CD
+          KEY_TUNER                0x000000005EA16897        #  Was: TUNER
+          TAPE_1                   0x000000005EA118E7
+          TAPE_2                   0x000000005EA19867
+          KEY_AUX                  0x000000005EA1E817        #  Was: AUX
+          KEY_VOLUMEDOWN           0x000000005EA1D827        #  Was: VOLUME_-
+          KEY_VOLUMEUP             0x000000005EA158A7        #  Was: VOLUME_+
+      end codes
+
+end remote

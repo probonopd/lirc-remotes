@@ -1,0 +1,54 @@
+#
+# this config file was automatically generated
+# using WinLIRC 0.6.5 (LIRC 0.6.1pre3) on Fri Jan 16 00:00:47 2004
+#
+# contributed by
+#
+# brand:             Sony
+# model:             RM-sep303
+# supported devices:
+#
+
+begin remote
+
+  name  sonyRM-sep303
+  bits           11
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  one           263  7286
+  zero          263  4752
+  ptrail        263
+  gap          53945
+  toggle_bit      0
+
+
+      begin codes
+          KEY_PLAYPAUSE            0x0000000000000705        #  Was: Play/Pause
+          KEY_STOP                 0x000000000000070D        #  Was: Stop
+          Shuffle                  0x0000000000000510
+          KEY_AGAIN                0x0000000000000711        #  Was: Repeat
+          KEY_PREVIOUS             0x0000000000000704        #  Was: Previous
+          KEY_NEXT                 0x000000000000050C        #  Was: Next
+          KEY_ENTER                0x000000000000071C        #  Was: Enter
+          Tuning-                  0x000000000000051E
+          Preset-                  0x0000000000000727
+          Preset+                  0x000000000000051F
+          Tuning+                  0x0000000000000719
+          MusicMenu                0x0000000000000521
+          KEY_VOLUMEUP             0x0000000000000700        #  Was: Volume+
+          Voume-                   0x0000000000000508
+          MegaBass                 0x0000000000000714
+          Muting                   0x0000000000000509
+          Clock/Timer              0x0000000000000733
+          Timer(on/off)            0x0000000000000536
+          KEY_POWER                0x0000000000000701        #  Was: POWER
+          KEY_TAPE                 0x0000000000000503        #  Was: Tape
+          KEY_CD                   0x000000000000070A        #  Was: CD
+          KEY_TUNER                0x0000000000000502        #  Was: Tuner
+      end codes
+
+end remote
+
+

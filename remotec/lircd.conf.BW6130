@@ -1,0 +1,88 @@
+#
+# brand:                       Remotec
+# model no. of remote control: BW 6130 Multimedia Master Receiver
+# devices being controlled by this remote:
+#
+
+begin remote
+
+  name  MEDIAMASTER
+  bits            32
+  eps             0
+  aeps            0
+
+  one             0     0
+  zero            0     0
+  pre_data_bits   32
+  pre_data 0xFFA10003
+  gap          131980
+  post_data_bits  0
+  toggle_bit     0
+
+      begin codes
+          KEY_PREVIOUS             0x23                      #  Was: PRE
+          KEY_NEXT                 0x24                      #  Was: NEXT
+          KEY_1                    0X10                      #  Was: 1
+          KEY_2                    0x11                      #  Was: 2
+          KEY_3                    0x12                      #  Was: 3
+          KEY_POWER                0x50                      #  Was: POWER
+          KEY_VOLUMEUP             0x30                      #  Was: VOL+
+          KEY_VOLUMEDOWN           0x31                      #  Was: VOL-
+          KEY_L                    0x42                      #  Was: L
+          KEY_R                    0x44                      #  Was: R
+          KEY_PAUSE                0x22                      #  Was: PAUSE
+          KEY_PLAY                 0x20                      #  Was: PLAY
+          KEY_STOP                 0x21                      #  Was: STOP
+          KEY_MUTE                 0x32                      #  Was: MUTE
+	MOUSE_SLOW_N		0x95
+	MOUSE_SLOW_NNE		0xd1
+	MOUSE_SLOW_NE		0xcd
+	MOUSE_SLOW_ENE		0xc9
+	MOUSE_SLOW_E		0xc5
+	MOUSE_SLOW_ESE		0xe9
+	MOUSE_SLOW_SE		0xed
+	MOUSE_SLOW_SSE		0xf1
+	MOUSE_SLOW_S		0xb5
+	MOUSE_SLOW_SSW		0xb1
+	MOUSE_SLOW_SW		0xad
+	MOUSE_SLOW_WSW		0xa9
+	MOUSE_SLOW_W		0x85
+	MOUSE_SLOW_WNW		0x89
+	MOUSE_SLOW_NW		0x8d
+	MOUSE_SLOW_NNW		0x91
+	MOUSE_MEDIUM_N		0x96
+	MOUSE_MEDIUM_NNE	0xd2
+	MOUSE_MEDIUM_NE		0xce
+	MOUSE_MEDIUM_ENE	0xca
+	MOUSE_MEDIUM_E		0xc6
+	MOUSE_MEDIUM_ESE	0xea
+	MOUSE_MEDIUM_SE		0xee
+	MOUSE_MEDIUM_SSE	0xf2
+	MOUSE_MEDIUM_S		0xb6
+	MOUSE_MEDIUM_SSW	0xb2
+	MOUSE_MEDIUM_SW		0xae
+	MOUSE_MEDIUM_WSW	0xaa
+	MOUSE_MEDIUM_W		0x86
+	MOUSE_MEDIUM_WNW	0x8a
+	MOUSE_MEDIUM_NW		0x8e
+	MOUSE_MEDIUM_NNW	0x92
+	MOUSE_FAST_N		0x97
+	MOUSE_FAST_NNE		0xd3
+	MOUSE_FAST_NE		0xcf
+	MOUSE_FAST_ENE		0xcb
+	MOUSE_FAST_E		0xc7
+	MOUSE_FAST_ESE		0xeb
+	MOUSE_FAST_SE		0xef
+	MOUSE_FAST_SSE		0xf3
+	MOUSE_FAST_S		0xb7
+	MOUSE_FAST_SSW		0xb3
+	MOUSE_FAST_SW		0xaf
+	MOUSE_FAST_WSW		0xab
+	MOUSE_FAST_W		0x87
+	MOUSE_FAST_WNW		0x8b
+	MOUSE_FAST_NW		0x8f
+	MOUSE_FAST_NNW		0x93
+   end codes
+
+end remote
+

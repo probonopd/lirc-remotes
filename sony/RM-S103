@@ -1,0 +1,64 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.5(any) on Sun Oct  6 18:25:45 2002
+#
+# contributed by Blars <blarson@blars.org>
+#
+# brand:                       sony
+# model no. of remote control: RM-S103
+# devices being controlled by this remote: STR-AV460
+# (Note: remote from (stolen) receiver, this mostly works (original remote died))
+#
+
+begin remote
+
+  name  RM-S103
+  bits           12
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       2460   573
+  one          1234   572
+  zero          632   572
+  gap          45205
+  min_repeat      2
+  toggle_bit      0
+
+
+      begin codes
+          KEY_MUTE                 0x0000000000000281        #  Was: mute
+          surround                 0x0000000000000FC6
+          cd<<                     0x0000000000000A41
+          cd>>                     0x00000000000008D1
+          cd_play                  0x0000000000000A41
+          cd_stop                  0x00000000000001D1
+          cd_dskip                 0x00000000000007D1
+          dbfb                     0x00000000000008C6
+          tuner_preset             0x0000000000000096
+          +-                       0x0000000000000896
+          shift_+-                 0x0000000000000CD6
+          KEY_TUNER                0x0000000000000841        #  Was: tuner
+          phono                    0x0000000000000041
+          KEY_VIDEO                0x0000000000000441        #  Was: video
+          dat                      0x0000000000000621
+          KEY_VOLUMEUP             0x0000000000000481        #  Was: vol+
+          KEY_VOLUMEDOWN           0x0000000000000C81        #  Was: vol-
+          KEY_POWER                0x0000000000000A81        #  Was: power
+          decka_stop               0x00000000000001C1
+          decka>                   0x0000000000000C41
+          decka<                   0x0000000000000C41
+          decka>>                  0x00000000000002C1
+          decka<<                  0x0000000000000CC1
+          deckb<<                  0x0000000000000D8E
+          deckb>>                  0x000000000000038E
+          deckb_pause              0x000000000000098E
+          deckb<                   0x0000000000000C41
+          deckb>                   0x0000000000000C41
+          deckb_stop               0x000000000000018E
+          deckb_rec                0x000000000000078E
+      end codes
+
+end remote
+
+

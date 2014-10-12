@@ -1,0 +1,64 @@
+#
+# contributed by M. Erkens (lirc|erkens.nl.eu.org)
+#
+# brand:             Sharp
+# model:             G1014BMSA
+# supported devices: Sharp TV
+#
+
+begin remote
+
+  name  SHARP_G1014BMSA
+  bits           15
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           309  1798
+  zero          309   746
+  ptrail        309
+  gap           67805
+  toggle_bit    0
+
+
+      begin codes
+          KEY_POWER                0x00000000000041A2        #  Was: power
+          KEY_VOLUMEUP             0x00000000000040A2        #  Was: vol_up
+          KEY_VOLUMEDOWN           0x00000000000042A2        #  Was: vol_down
+          vol_mute                 0x00000000000043A2
+          tv_video                 0x0000000000004322
+          KEY_POWER                0x0000000000004362        #  Was: onscreen
+          KEY_CHANNELUP            0x0000000000004222        #  Was: chan_up
+          KEY_CHANNELDOWN          0x0000000000004122        #  Was: chan_down
+          num1                     0x0000000000004202
+          num2                     0x0000000000004102
+          num3                     0x0000000000004302
+          num4                     0x0000000000004082
+          num5                     0x0000000000004282
+          num6                     0x0000000000004182
+          num7                     0x0000000000004382
+          num8                     0x0000000000004042
+          num9                     0x0000000000004242
+          num0                     0x0000000000004142
+          p_c                      0x00000000000042F2
+          num_switch               0x00000000000040F2
+          KEY_RED                  0x000000000000404A        #  Was: red
+          KEY_GREEN                0x000000000000424A        #  Was: green
+          KEY_YELLOW               0x000000000000414A        #  Was: yellow
+          KEY_BLUE                 0x000000000000434A        #  Was: blue
+          screen_blank             0x0000000000004132
+          screen_switch            0x00000000000040B2
+          screen_time              0x00000000000040E2
+          screen_info              0x00000000000040CA
+          screen_close             0x00000000000042B2
+          screen_question          0x0000000000004072
+          screen_bigger            0x00000000000043B2
+          screen_smaller           0x0000000000004332
+          screen_s                 0x00000000000041B2
+          pr                       0x000000000000420A
+          KEY_P                    0x000000000000401A        #  Was: p
+          KEY_S                    0x000000000000421A        #  Was: s
+          KEY_F                    0x00000000000043EA        #  Was: f
+      end codes
+
+end remote

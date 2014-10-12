@@ -1,0 +1,68 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.5(any) on Sat Jan  4 21:32:59 2003
+#
+# contributed by Sebastian Kapfer
+# brand / model: AKAI RC-S590
+# devices being controlled by this remote:
+#
+
+begin remote
+
+  name AKAI
+  bits 16
+  flags SPACE_ENC|CONST_LENGTH
+  eps 30
+  aeps 100
+
+  header 9047 4455
+  one 584 1666
+  zero 584 541
+  ptrail 582
+  repeat 9047 2229
+  pre_data_bits 16
+  pre_data 0xD12E
+  gap 108032
+  toggle_bit 0
+
+
+      begin codes
+          KEY_POWER                0x000000000000718E        #  Was: POWER
+          NUM_1                    0x00000000000001FE
+          NUM_2                    0x000000000000817E
+          NUM_3                    0x00000000000041BE
+          NUM_4                    0x000000000000C13E
+          NUM_5                    0x00000000000021DE
+          NUM_6                    0x000000000000A15E
+          NUM_7                    0x000000000000619E
+          NUM_8                    0x000000000000E11E
+          NUM_9                    0x00000000000011EE
+          NUM_0                    0x00000000000051AE
+          NUM_+10                  0x000000000000916E
+          KEY_EDIT                 0x000000000000F906        #  Was: EDIT
+          PROG                     0x000000000000936C
+          KEY_AGAIN                0x000000000000D32C        #  Was: REPEAT
+          RANDOM                   0x000000000000E916
+          CD_PLAY_DISC1            0x000000000000B34C
+          CD_PLAY_DISC2            0x000000000000738C
+          CD_PLAY_DISC3            0x000000000000F30C
+          KEY_CLEAR                0x00000000000053AC        #  Was: CLEAR
+          DISPLAY                  0x0000000000006996
+          KEY_PREVIOUS             0x00000000000029D6        #  Was: PREV
+          KEY_RECORD               0x000000000000A956        #  Was: RECORD
+          KEY_NEXT                 0x000000000000C936        #  Was: NEXT
+          KEY_PLAY                 0x0000000000008976        #  Was: PLAY_REV
+          KEY_STOP                 0x00000000000049B6        #  Was: STOP
+          KEY_PLAY                 0x00000000000009F6        #  Was: PLAY
+          SRC_TAPE                 0x0000000000004BB4
+          SRC_TUNER                0x000000000000CB34
+          SRC_CD                   0x0000000000008B74
+          SRC_PHONO_LINE           0x00000000000043BC
+          KEY_VOLUMEDOWN           0x000000000000837C        #  Was: VOL_DOWN
+          VOL_MUTE                 0x00000000000023DC
+          KEY_VOLUMEUP             0x00000000000003FC        #  Was: VOL_UP
+      end codes
+
+end remote
+
+

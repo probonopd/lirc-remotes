@@ -1,0 +1,64 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.6(serial) on Fri Nov 29 15:56:12 2002
+#
+# contributed by Gerald Weber <gweber@codigolivre.org.br>
+#
+# brand: LG
+# model no. of remote control: 6710V00008K
+# devices being controlled by this remote:
+# TV models CP-14B85/CP20B85
+
+begin remote
+
+  name  LG.6710V00008K
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9089  4387
+  one           629  1604
+  zero          629   487
+  ptrail        628
+  repeat       9089  2155
+  pre_data_bits   16
+  pre_data       0x20DF
+  gap          107575
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x00000000000010EF        #  Was: power
+          KEY_MUTE                 0x000000000000906F        #  Was: mute
+          KEY_1                    0x0000000000008877        #  Was: 1
+          KEY_2                    0x00000000000048B7        #  Was: 2
+          KEY_3                    0x000000000000C837        #  Was: 3
+          KEY_4                    0x00000000000028D7        #  Was: 4
+          KEY_5                    0x000000000000A857        #  Was: 5
+          KEY_6                    0x0000000000006897        #  Was: 6
+          KEY_7                    0x000000000000E817        #  Was: 7
+          KEY_8                    0x00000000000018E7        #  Was: 8
+          KEY_9                    0x0000000000009867        #  Was: 9
+          KEY_0                    0x00000000000008F7        #  Was: 0
+          apc                      0x000000000000B24D
+          tv/video                 0x000000000000D02F
+          KEY_CHANNELUP            0x00000000000000FF        #  Was: ch+
+          KEY_CHANNELDOWN          0x000000000000807F        #  Was: ch-
+          KEY_ENTER                0x00000000000022DD        #  Was: enter
+          KEY_VOLUMEUP             0x00000000000040BF        #  Was: vol+
+          KEY_VOLUMEDOWN           0x000000000000C03F        #  Was: vol-
+          KEY_MENU                 0x000000000000C23D        #  Was: menu
+          wide/zoom                0x0000000000009E61
+          picture                  0x00000000000030CF
+          KEY_SLEEP                0x000000000000708F        #  Was: sleep
+          caption                  0x0000000000009C63
+          review                   0x00000000000058A7
+          fcr                      0x0000000000007887
+          autoprg                  0x0000000000002AD5
+          memory/erase             0x000000000000AA55
+      end codes
+
+end remote
+
+

@@ -1,0 +1,66 @@
+#
+# this config file was automatically generated
+# using WinLIRC 0.6.4 (LIRC 0.6.1pre3) on Tue Jun 10 18:26:54 2003
+#
+# contributed by
+#
+# brand:             Sony
+# model:             RMT-D126E
+# supported devices: DVD
+#
+
+begin remote
+
+  name  RMT-D126E
+  bits           11
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  header       2441   539
+  one          1231   539
+  zero          629   539
+  ptrail        629
+  post_data_bits  8
+  post_data      0xC9
+  gap          12614
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x0000000000000545        #  Was: power
+          KEY_OPEN                 0x0000000000000345        #  Was: open
+          surround                 0x00000000000002D5
+          KEY_TIME                 0x00000000000000A5        #  Was: time
+          shuffle                  0x0000000000000565
+          program                  0x00000000000007C5
+          KEY_AUDIO                0x0000000000000135        #  Was: audio
+          bnr                      0x0000000000000095
+          a-b                      0x00000000000002A5
+          KEY_AGAIN                0x00000000000001A5        #  Was: repeat
+          KEY_CLEAR                0x0000000000000785        #  Was: clear
+          KEY_ANGLE                0x0000000000000535        #  Was: angle
+          KEY_SUBTITLE             0x0000000000000635        #  Was: subtitle
+          KEY_PREVIOUS             0x0000000000000065        #  Was: prev
+          KEY_NEXT                 0x0000000000000465        #  Was: next
+          KEY_SEARCH               0x0000000000000695        #  Was: search
+          scan                     0x0000000000000225
+          KEY_SLOW                 0x0000000000000625        #  Was: slow
+          ir                       0x00000000000001D5
+          KEY_PLAY                 0x0000000000000265        #  Was: play
+          KEY_PAUSE                0x00000000000004E5        #  Was: pause
+          KEY_STOP                 0x00000000000000E5        #  Was: stop
+          KEY_TITLE                0x00000000000002C5        #  Was: title
+          KEY_MENU                 0x00000000000006C5        #  Was: dvd_menu
+          KEY_UP                   0x00000000000004F5        #  Was: up
+          KEY_LEFT                 0x00000000000006F5        #  Was: left
+          KEY_ENTER                0x0000000000000685        #  Was: enter
+          KEY_RIGHT                0x00000000000001F5        #  Was: right
+          KEY_DOWN                 0x00000000000002F5        #  Was: down
+          display                  0x0000000000000155
+          KEY_ENTER                0x0000000000000385        #  Was: return
+      end codes
+
+end remote
+
+

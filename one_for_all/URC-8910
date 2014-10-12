@@ -1,0 +1,70 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.2(iguanaIR) on Tue Mar 11 16:38:58 2008
+#
+# contributed by Josh Burroughs ( josh at msbx dot net )
+#
+# brand:                        One-For-All
+# model no. of remote control:  URC-8910B02
+# devices being controlled by this remote: The remote is set to emulate a Proscan satellite receiver
+#    The code is 0392; all keys functional except VolUp,VolDown,Mute,& Move
+#    I use 'Volume Lock' to control my TV volume directly
+
+begin remote
+
+  name  One-For-All_URC-8910
+  bits           24
+  flags SPACE_ENC
+  eps            30
+  aeps          100
+
+  header       3945  3983
+  one           454  1994
+  zero          454   995
+  ptrail        453
+  gap          7997
+  min_repeat      1
+  toggle_bit_mask 0x0
+
+      begin codes
+          KEY_MENU                 0x7088F7                  #  Was: Menu
+          KEY_INFO                 0x71A8E5                  #  Was: Guide
+          KEY_LEFT                 0x7568A9                  #  Was: Left
+          KEY_UP                   0x7598A6                  #  Was: Up
+          KEY_DOWN                 0x7588A7                  #  Was: Down
+          KEY_RIGHT                0x7578A8                  #  Was: Right
+          KEY_SELECT               0x7F480B                  #  Was: Select
+          KEY_EXIT                 0x7068F9                  #  Was: Exit
+          KEY_INFO                 0x73C8C3                  #  Was: Info
+          KEY_POWER                0x72A8D5                  #  Was: Power
+          KEY_CHANNELUP            0x72D8D2                  #  Was: ChanUp
+          KEY_CHANNELDOWN          0x72C8D3                  #  Was: ChanDown
+          KEY_FAVORITES            0x72D8D2                  #  Was: Fav
+          KEY_PREVIOUS             0x7278D8                  #  Was: Prev
+          KEY_1                    0x7318CE                  #  Was: 1
+          KEY_2                    0x7328CD                  #  Was: 2
+          KEY_3                    0x7338CC                  #  Was: 3
+          KEY_4                    0x7348CB                  #  Was: 4
+          KEY_5                    0x7358CA                  #  Was: 5
+          KEY_6                    0x7368C9                  #  Was: 6
+          KEY_7                    0x7378C8                  #  Was: 7
+          KEY_8                    0x7388C7                  #  Was: 8
+          KEY_9                    0x7398C6                  #  Was: 9
+          KEY_0                    0x7308CF                  #  Was: 0
+          KEY_ENTER                0x7F480B                  #  Was: Enter
+          TvVid                    0x7A385C
+          KEY_REWIND               0x71D8E2                  #  Was: Rewind
+          KEY_PLAY                 0x7158EA                  #  Was: Play
+          KEY_FORWARD              0x71C8E3                  #  Was: Forward
+          KEY_RECORD               0x7178E8                  #  Was: Record
+          KEY_PAUSE                0x7198E6                  #  Was: Pause
+          KEY_REWIND               0x72C8D3                  #  Was: SkipBack
+          KEY_STOP                 0x71F8E0                  #  Was: Stop
+          SkipAhead                0x72D8D2
+          Pip                      0x71B8E4
+          Swap                     0x7C383C
+      end codes
+
+end remote
+
+

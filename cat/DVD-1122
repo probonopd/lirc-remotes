@@ -1,0 +1,74 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.6(default) on Tue Jun  1 23:24:18 2010
+#
+# contributed by TEN (http://vdr-portal.de/board/profile.php?userid=5965)
+#
+# brand:                       CAT
+# model no. of remote control: TO-020
+# devices being controlled by this remote: DVD_1122
+#
+
+begin remote
+
+  name  CAT_DVD-1122
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9098  4492
+  one           613  1648
+  zero          613   520
+  ptrail        618
+  pre_data_bits   16
+  pre_data       0xFF
+  gap          108691
+  toggle_bit_mask 0x0
+
+      begin codes
+          KEY_POWER                0x28D7                    #  Was: POWER
+          KEY_MENU                 0xEA15                    #  Was: OSD
+          KEY_ZOOM                 0x827D                    #  Was: ZOOM
+          KEY_MUTE                 0x629D                    #  Was: MUTE
+          KEY_1                    0x906F                    #  Was: 1
+          KEY_2                    0xB847                    #  Was: 2
+          KEY_3                    0xF807                    #  Was: 3
+          KEY_4                    0xB04F                    #  Was: 4
+          KEY_5                    0x9867                    #  Was: 5
+          KEY_6                    0xD827                    #  Was: 6
+          KEY_7                    0x8877                    #  Was: 7
+          KEY_8                    0xA857                    #  Was: 8
+          KEY_9                    0xE817                    #  Was: 9
+          KEY_0                    0x48B7                    #  Was: 0
+          X_KEY_0+                 0x9A65                    #  Was: KEY_0+
+          KEY_AGAIN                0x10EF                    #  Was: REPEAT
+          R/L                      0x0AF5
+          KEY_SUBTITLE             0xAA55                    #  Was: SUBTITLE
+          KEY_ANGLE                0x12ED                    #  Was: ANGLE
+          KEY_TITLE                0x52AD                    #  Was: TITLE
+          KEY_SETUP                0x7A85                    #  Was: SETUP
+          KEY_VOLUMEUP             0xA05F                    #  Was: VOL+
+          KEY_VOLUMEDOWN           0xC03F                    #  Was: VOL-
+          MENU/PBC                 0x40BF
+          KEY_LANGUAGE             0x18E7                    #  Was: LANGUAGE
+          KEY_PLAYPAUSE            0xF00F                    #  Was: PLAY/PAUSE
+          KEY_STOP                 0x8A75                    #  Was: STOP
+          KEY_REWIND               0x50AF                    #  Was: REW
+          KEY_FASTFORWARD          0x7887                    #  Was: FF
+          KEY_PREVIOUS             0x708F                    #  Was: SKIP-
+          KEY_NEXT                 0x58A7                    #  Was: SKIP+
+          A-B                      0xCA35
+          KEY_TIME                 0x4AB5                    #  Was: TIME
+          N/P                      0x807F
+          PROG                     0xA25D
+          KEY_ENTER                0xE01F                    #  Was: ENTER
+          KEY_UP                   0x609F                    #  Was: UP
+          KEY_DOWN                 0x22DD                    #  Was: DOWN
+          KEY_LEFT                 0xE21D                    #  Was: LEFT
+          KEY_RIGHT                0x02FD                    #  Was: RIGHT
+      end codes
+
+end remote
+
+

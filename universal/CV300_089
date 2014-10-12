@@ -1,0 +1,61 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.5(irdeo) on Sun Jul  7 14:46:04 2002
+#
+# contributed by Michael Mauch
+#
+# brand:                       Commander
+# model no. of remote control: CV300
+# supported devices: devicenr: 089 devicetype: AUX2
+# devices being controlled by this remote:
+#
+
+begin remote
+
+  name  CV300_089
+  bits           11
+  flags SPACE_ENC
+  eps            30
+  aeps          100
+
+  header       2432   546
+  one          1229   549
+  zero          619   549
+  ptrail        619
+  gap          26016
+  min_repeat      1
+  toggle_bit      0
+
+
+      begin codes
+          KEY_1                    0x0000000000000006        #  Was: 1
+          KEY_2                    0x0000000000000406        #  Was: 2
+          KEY_3                    0x0000000000000206        #  Was: 3
+          KEY_4                    0x0000000000000606        #  Was: 4
+          KEY_5                    0x0000000000000106        #  Was: 5
+          KEY_6                    0x0000000000000506        #  Was: 6
+          KEY_7                    0x0000000000000306        #  Was: 7
+          KEY_8                    0x0000000000000706        #  Was: 8
+          KEY_9                    0x0000000000000086        #  Was: 9
+          KEY_0                    0x0000000000000486        #  Was: 0
+          AB                       0x0000000000000076
+          Ent                      0x00000000000004E6
+          KEY_CHANNELUP            0x0000000000000166        #  Was: ChnUp
+          ChnDn                    0x0000000000000566
+          KEY_VOLUMEUP             0x00000000000006A6        #  Was: VolUp
+          KEY_VOLUMEDOWN           0x00000000000001A6        #  Was: VolDn
+          KEY_INFO                 0x0000000000000136        #  Was: Info
+          KEY_MUTE                 0x00000000000007E6        #  Was: Mute
+          KEY_PLAY                 0x00000000000002C6        #  Was: Play
+          KEY_STOP                 0x00000000000000C6        #  Was: Stop
+          KEY_PAUSE                0x00000000000004C6        #  Was: Pause
+          KEY_FASTFORWARD          0x00000000000007C6        #  Was: FF
+          KEY_REWIND               0x00000000000003C6        #  Was: Rew
+          KEY_RECORD               0x00000000000007F6        #  Was: Rec
+          KEY_POWER                0x0000000000000546        #  Was: Power
+      end codes
+
+end remote
+
+
+

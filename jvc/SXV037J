@@ -1,0 +1,78 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.4a(default) on Fri Jul 10 14:54:46 2009
+#
+# contributed by
+#
+# brand:                       JVC
+# model no. of remote control: SXV037J
+# devices being controlled by this remote:
+#
+
+begin remote
+
+  name  JVC_SXV037J
+  bits            8
+  flags SPACE_ENC|NO_HEAD_REP|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       8507  4170
+  one           610  1504
+  zero          610   446
+  ptrail        611
+  pre_data_bits   8
+  pre_data       0xF7
+  gap          46662
+  min_repeat      1
+  toggle_bit_mask 0x0
+
+      begin codes
+          KEY_OPEN                 0x22                      #  Was: OPEN_CLOSE
+          DISPLAY                  0x2A
+          KEY_POWER                0x02                      #  Was: POWER
+          K1                       0x86
+          K2                       0x46
+          K3                       0xC6
+          K4                       0x26
+          K5                       0xA6
+          K6                       0x66
+          K7                       0xE6
+          K8                       0x16
+          K9                       0x96
+          K0                       0x06
+          KMINUS10                 0x76
+          KPLUS10                  0xF6
+          KEY_ENTER                0xAB                      #  Was: RETURN
+          KEY_TITLE                0x77                      #  Was: TITLE
+          KEY_CANCEL               0xB6                      #  Was: CANCEL
+          TOP_MENU                 0x43
+          KEY_MENU                 0x83                      #  Was: MENU
+          KEY_UP                   0x0B                      #  Was: UP
+          KEY_DOWN                 0x8B                      #  Was: DOWN
+          KEY_LEFT                 0x4B                      #  Was: LEFT
+          KEY_RIGHT                0xCB                      #  Was: RIGHT
+          KEY_ENTER                0x2B                      #  Was: ENTER
+          CHOICE                   0xFE
+          KEY_POWER                0x03                      #  Was: ON_SCREEN
+          KEY_PREVIOUS             0x8D                      #  Was: PREV
+          KEY_NEXT                 0x0D                      #  Was: NEXT
+          KEY_STOP                 0xC2                      #  Was: STOP
+          KEY_PLAY                 0x32                      #  Was: PLAY
+          KEY_PAUSE                0xB2                      #  Was: PAUSE
+          SLOW_MINUS               0x0E
+          SLOW_PLUS                0x6E
+          SWOOP                    0x92
+          X_KEY_3D_PHONIC          0xBD                      #  Was: KEY_3D_PHONIC
+          KEY_AGAIN                0xDA                      #  Was: REPEAT
+          VFP                      0x7D
+          KEY_ANGLE                0xD3                      #  Was: ANGLE
+          KEY_SUBTITLE             0xB3                      #  Was: SUBTITLE
+          KEY_AUDIO                0x13                      #  Was: AUDIO
+          KEY_ZOOM                 0x3D                      #  Was: ZOOM
+          DIMMER                   0x8A
+      end codes
+
+end remote
+
+

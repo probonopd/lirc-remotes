@@ -1,0 +1,58 @@
+#
+# this config file was automatically generated
+# using lirc-0.7.2(any) on Wed Mar  1 22:59:56 2006
+#
+# contributed by
+#
+# brand:                       JVC
+# model no. of remote control: SBKB-3201KR
+# devices being controlled by this remote: KT-SR2000
+#
+
+begin remote
+
+  name  JVC_SBKB-3201KR
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9077  4454
+  one           595  1631
+  zero          595   521
+  ptrail        595
+  pre_data_bits   16
+  pre_data       0x1FE
+  gap          108068
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0xF00F                    #  Was: power
+          KEY_MUTE                 0xB847                    #  Was: mute
+          KEY_CHANNELUP            0x50AF                    #  Was: ch+
+          KEY_CHANNELDOWN          0xD02F                    #  Was: ch-
+          KEY_SELECT               0x708F                    #  Was: select
+          cat-                     0x30CF
+          cat+                     0xB04F
+          band                     0xF807
+          memo                     0x847B
+          disp                     0x44BB
+          KEY_MENU                 0x7887                    #  Was: menu
+          KEY_1                    0x8877                    #  Was: 1
+          KEY_2                    0x48B7                    #  Was: 2
+          KEY_3                    0xC837                    #  Was: 3
+          KEY_4                    0x28D7                    #  Was: 4
+          KEY_5                    0xA857                    #  Was: 5
+          KEY_6                    0x6897                    #  Was: 6
+          KEY_7                    0xE817                    #  Was: 7
+          KEY_8                    0x18E7                    #  Was: 8
+          KEY_9                    0x9867                    #  Was: 9
+          KEY_0                    0x08F7                    #  Was: 0
+          direct                   0x38C7
+          KEY_PREVIOUS             0x58A7                    #  Was: prev
+      end codes
+
+end remote
+
+

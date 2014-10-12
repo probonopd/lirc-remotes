@@ -1,0 +1,62 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.1pre2(default) on Sun Feb  4 00:14:46 2007
+#
+# contributed by
+#
+# brand:                       Philips
+# model no. of remote control: RC8244
+# devices being controlled by this remote:
+#
+
+begin remote
+
+  name  Philips_RC8244
+  bits           13
+  flags RC5|CONST_LENGTH
+  eps            20
+  aeps            0
+
+  one           889   889
+  zero          889   889
+  plead         889
+  gap          113792
+  toggle_bit      0
+
+  frequency    36000
+  duty_cycle   50
+
+      begin codes
+          KEY_1                    0x1A81                    #  Was: 1
+          KEY_2                    0x1282                    #  Was: 2
+          KEY_3                    0x1283                    #  Was: 3
+          KEY_4                    0x1A84                    #  Was: 4
+          KEY_5                    0x1285                    #  Was: 5
+          KEY_6                    0x1A86                    #  Was: 6
+          KEY_7                    0x1287                    #  Was: 7
+          KEY_8                    0x1A88                    #  Was: 8
+          KEY_9                    0x1289                    #  Was: 9
+          KEY_0                    0x1A80                    #  Was: 0
+          KEY_POWER                0x128C                    #  Was: power
+          pilot                    0x1A8F
+          prog                     0x028F
+          KEY_OK                   0x0A97                    #  Was: ok
+          KEY_UP                   0x0290                    #  Was: up
+          KEY_DOWN                 0x0A91                    #  Was: down
+          KEY_RIGHT                0x0296                    #  Was: right
+          KEY_LEFT                 0x0A95                    #  Was: left
+          twoje                    0x02A1
+          av                       0x0A93
+          KEY_MUTE                 0x0286                    #  Was: mute
+          tvsat                    0x1AA8
+          KEY_A                    0x02AB                    #  Was: a
+          KEY_B                    0x0AAC                    #  Was: b
+          KEY_C                    0x02AD                    #  Was: c
+          KEY_D                    0x0AAE                    #  Was: d
+          KEY_E                    0x02AF                    #  Was: e
+          serv                     0x0A92
+          KEY_KPPLUS               0x12AF                    #  Was: +
+          perso                    0x0AAA
+      end codes
+
+end remote

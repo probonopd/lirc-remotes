@@ -1,0 +1,77 @@
+# this config file was automatically generated
+# using lirc-0.8.0(userspace) on Thu Jan 17 20:17:38 2008
+#
+# contributed by Bernard Massot
+#
+# brand: Q-Sonic
+# model: Master Remote 6 in 1
+# Bought on PEARL : http://www.pearl.fr/article-PE4444.html
+# model no. of remote control: PE4444-901
+# devices being controlled by this remote:
+# 	USB receiver 0bc7:0005
+# 	Manufacturer: X10 Wireless Technology Inc
+# 	Uses lirc_atiusb driver
+
+begin remote
+
+  name  QSonic_6in1
+  bits           40
+  eps            30
+  aeps          100
+
+  one             0     0
+  zero            0     0
+  gap          203971
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x20EE11F00F              #  Was: Power
+          MouseN                   0x1447720000
+          MouseNW                  0x1449740000
+          MouseNE                  0x144A750000
+          MouseS                   0x1448730000
+          MouseSW                  0x144C770000
+          MouseSE                  0x144B760000
+          MouseW                   0x1445700000
+          MouseE                   0x1446710000
+          KEY_L                    0x144E790000              #  Was: L
+          KEY_R                    0x14527D0000              #  Was: R
+          Hand                     0x14507B0000
+          KEY_VOLUMEDOWN           0x20EE01E00F              #  Was: VOL-
+          KEY_VOLUMEUP             0x20EE81600F              #  Was: VOL+
+          KEY_CHANNELDOWN          0x20EEE1C00F              #  Was: CH-
+          KEY_CHANNELUP            0x20EE61400F              #  Was: CH+
+          KEY_M                    0x20EEC1A00F              #  Was: M
+          KEY_1                    0x20EEA1820D              #  Was: 1
+          KEY_2                    0x20EE61420D              #  Was: 2
+          KEY_3                    0x20EEE1C20D              #  Was: 3
+          KEY_4                    0x20EE41220D              #  Was: 4
+          KEY_5                    0x20EEC1A20D              #  Was: 5
+          KEY_6                    0x20EE81620D              #  Was: 6
+          KEY_7                    0x20EE01E20D              #  Was: 7
+          KEY_8                    0x20EE31120D              #  Was: 8
+          KEY_9                    0x20EEB1920D              #  Was: 9
+          KEY_102ND                0x20EE71520D              #  Was: -/--
+          KEY_0                    0x20EE21020D              #  Was: 0
+          AV                       0x20EED1BA05
+          KEY_INFO                 0x20EE513A05              #  Was: Info
+          TeletextOn               0x20EED1B609
+          TeletextOff              0x20EEE1C906
+          TeletextHold             0x20EEF1D807
+          KEY_MENU                 0x20EED1B609              #  Was: MENU
+          KEY_EXIT                 0x20EEE1C906              #  Was: EXIT
+          KEY_UP                   0x20EEF1D50A              #  Was: Up
+          KEY_DOWN                 0x20EEF1D30C              #  Was: Down
+          KEY_LEFT                 0x20EEF1D20D              #  Was: Left
+          KEY_RIGHT                0x20EEF1D10E              #  Was: Right
+          KEY_OK                   0x20EE71520D              #  Was: OK
+          KEY_PLAY                 0x20EED1B00F              #  Was: Play
+          KEY_REWIND               0x20EE513807              #  Was: Rewind
+          KEY_FORWARD              0x20EED1B807              #  Was: Forward
+          KEY_STOP                 0x20EE91700F              #  Was: Stop
+          KEY_RECORD               0x20EE11FF00              #  Was: Record
+          KEY_PAUSE                0x20EE91720D              #  Was: Pause
+      end codes
+
+end remote

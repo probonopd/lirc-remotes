@@ -1,0 +1,67 @@
+# contributed by:
+#	Kipp Cannon <kipp|gravity.phys.uwm.edu>
+# brand:
+#	Echostar
+# model no. of remote control:
+#	119420
+# devices being controlled by this remote:
+#	Bell ExpressVu 3100, probably also Echostar 301 and some Dishnet
+
+begin remote
+	name	ECHOSTAR-119420
+	flags	SPACE_ENC|NO_HEAD_REP|NO_FOOT_REP
+	eps	30
+
+	frequency    56000
+	header	501	6077
+	one	501	1650
+	zero	501	2711
+	ptrail	501
+	foot	501	6077
+#	repeat_gap	6077
+	gap	6077
+
+	bits	12
+	post_data_bits	4
+	post_data	0x0
+	min_repeat	4
+
+	begin codes
+		TV/VIDEO   0x5C0
+          KEY_POWER                0x080                     #  Was: POWER
+          KEY_PAGEUP               0x3C1                     #  Was: PAGEUP
+		PAGEDN     0x1C1
+          KEY_MENU                 0x2C0                     #  Was: MENU
+          KEY_INFO                 0x500                     #  Was: GUIDE
+          KEY_UP                   0x680                     #  Was: UP
+          KEY_LEFT                 0x700                     #  Was: LEFT
+          KEY_SELECT               0x400                     #  Was: SELECT
+          KEY_RIGHT                0x600                     #  Was: RIGHT
+          KEY_DOWN                 0x780                     #  Was: DOWN
+          KEY_AGAIN                0x6C0                     #  Was: RECALL
+          KEY_INFO                 0x000                     #  Was: INFO
+		VIEW       0x580
+          KEY_CANCEL               0x480                     #  Was: CANCEL
+		SYS_INFO   0x900
+          KEY_RECORD               0x7C0                     #  Was: RECORD
+          KEY_1                    0x100                     #  Was: 1
+          KEY_2                    0x140                     #  Was: 2
+          KEY_3                    0x180                     #  Was: 3
+          KEY_4                    0x200                     #  Was: 4
+          KEY_5                    0x240                     #  Was: 5
+          KEY_6                    0x280                     #  Was: 6
+          KEY_7                    0x300                     #  Was: 7
+          KEY_8                    0x340                     #  Was: 8
+          KEY_9                    0x380                     #  Was: 9
+          KEY_NUMERIC_STAR         0x940                     #  Was: \*
+          KEY_0                    0x440                     #  Was: 0
+          KEY_NUMERIC_POUND        0x980                     #  Was: HASH
+# extra codes that aren't on my remote
+          KEY_POWER                0x040                     #  Was: POWER_ON
+          KEY_POWER                0x9C0                     #  Was: POWER_OFF
+		SYS_INFO2  0xD80
+		DISH_HOME  0xD00
+		DISH_HOME2 0xE00
+          KEY_SAT                  0xA40                     #  Was: SAT
+	end codes
+end remote

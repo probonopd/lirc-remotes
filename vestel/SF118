@@ -1,0 +1,72 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.6(SerialDevice) on Thu Aug 05 13:10:05 2010
+#
+# contributed by
+#
+# brand:                       Vestel
+# model no. of remote control: SF118
+# devices being controlled by this remote:
+#
+
+begin remote
+
+  name  Vestel_SF118
+  bits           13
+  flags RC5|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           922   869
+  zero          922   869
+  plead         914
+  gap          114892
+  toggle_bit_mask 0x800
+
+      begin codes
+          KEY_POWER                0x174D                    #  Was: on_off
+          KEY_CHANNELUP            0x1761                    #  Was: program_up
+          KEY_CHANNELDOWN          0x1760                    #  Was: program_down
+          KEY_LEFT                 0x1750                    #  Was: left
+          KEY_RIGHT                0x1751                    #  Was: right
+          KEY_SELECT               0x1762                    #  Was: select
+          KEY_MENU                 0x174E                    #  Was: menu
+          KEY_1                    0x1752                    #  Was: 1
+          KEY_2                    0x1743                    #  Was: 2
+          KEY_3                    0x1742                    #  Was: 3
+          KEY_4                    0x174A                    #  Was: 4
+          KEY_5                    0x1746                    #  Was: 5
+          KEY_6                    0x1745                    #  Was: 6
+          KEY_7                    0x1740                    #  Was: 7
+          KEY_8                    0x1749                    #  Was: 8
+          KEY_9                    0x1748                    #  Was: 9
+          KEY_0                    0x1747                    #  Was: 0
+          KEY_102ND                0x1744                    #  Was: --
+          P<P                      0x176B
+          PP                       0x1763
+          KEY_VOLUMEUP             0x1010                    #  Was: vol_up
+          KEY_VOLUMEDOWN           0x1011                    #  Was: vol_down
+          I-II                     0x1770
+          KEY_MUTE                 0x100D                    #  Was: mute
+          KEY_INFO                 0x177F                    #  Was: INFO
+          KEY_RED                  0x1776                    #  Was: red
+          KEY_GREEN                0x1772                    #  Was: green
+          KEY_YELLOW               0x1778                    #  Was: yellow
+          KEY_BLUE                 0x1774                    #  Was: blue
+          KEY_TV                   0x1741                    #  Was: TV
+          AV                       0x1769
+          KEY_TEXT                 0x176A                    #  Was: Teletext
+          Teletext_time            0x1777
+          unwind                   0x1756
+          wind                     0x1755
+          KEY_BACK                 0x176C                    #  Was: back
+          KEY_NEXT                 0x176D                    #  Was: next
+          KEY_PLAYPAUSE            0x176E                    #  Was: play_pause
+          KEY_STOP                 0x176F                    #  Was: stop
+          KEY_TITLE                0x177C                    #  Was: Title
+          KEY_OPEN                 0x174C                    #  Was: Open_close
+      end codes
+
+end remote
+
+

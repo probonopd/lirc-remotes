@@ -1,0 +1,70 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.3(serial) on Tue Mar 27 03:06:34 2001
+#
+# contributed by
+#
+# brand:             optimus
+# model:            
+# supported devices: STAV-3560
+#
+# (some buttons don't work)
+
+begin remote
+
+  name  optimus
+  bits           32
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       8646  4177
+  one           641  1492
+  zero          641   425
+  ptrail        644
+  gap          90066
+  toggle_bit      0
+
+
+      begin codes
+          cd_prev                  0x0000000045BA8877
+          cd_next                  0x0000000045BA08F7
+          cd_stop                  0x0000000045BA6897
+          cd_pause                 0x0000000045BA18E7
+          cd_play                  0x0000000045BAE817
+          random                   0x0000000045BA52AD
+          best                     0x0000000045BA43BC
+          cd_prev_disc             0x0000000045BA837C
+          cd_next_disc             0x0000000045BAB847
+          tape_lplay               0x00000000857ADA25
+          tape_play                0x00000000857ABA45
+          tape_rw                  0x00000000857AEA15
+          tape_ff                  0x00000000857A6A95
+          tape_stop                0x00000000857A3AC5
+          tape_pause               0x00000000857A7A85
+          station_prev             0x0000000025DA8877
+          station_next             0x00000000857A6A95
+          class                    0x0000000025DA02FD
+          fm_mono                  0x0000000025DA7887
+          rear_level_-             0x00000000A55A42BD
+          rear_level_+             0x00000000A55A827D
+          tape_2_monitor           0x00000000A55AB847
+          function                 0x00000000A55AAA55
+          center_level_-           0x00000000A55A827D
+          center_level_+           0x00000000A55A42BD
+          surr_mode                0x00000000A55A02FD
+          muting                   0x00000000A55A48B7
+          test_tone_return         0x00000000A55ABA45
+          center_mode              0x00000000A55A5AA5
+          delay_time_sbass         0x00000000A55A5AA5
+          master_volume_+          0x00000000A55A50AF
+          KEY_RECORD               0x00000000A55A38C7        #  Was: reciever_power
+          cd_power                 0x0000000045BA38C7
+          tape_power               0x00000000857A38C7
+          master_volume_-          0x00000000A55AD02F
+      end codes
+
+end remote
+
+
+

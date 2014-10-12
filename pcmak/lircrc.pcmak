@@ -1,0 +1,1310 @@
+#####################################################################
+#  contributed by P_awe_L pablozrudnika@wp.pl
+#####################################################################
+#
+#  XMMS
+#
+#####################################################################
+begin xmms
+	begin
+		prog   = irxevent
+		button = LOAD
+		config = Key shift-L xmms
+	end
+	begin
+		prog   = xmms
+		button = play
+		config = PLAY
+	end
+	begin
+		prog   = irxevent
+		remote = *
+		button = PLAYLIST
+		config = Key alt-e XMMS
+	end
+	begin
+		prog   = irxevent
+		remote = *
+		button = FULLSCREEN
+		config = Key ctrl-d XMMS
+	end
+	begin
+		prog   = xmms
+		button = TXT
+		config = PLAYLIST_CLEAR
+	end
+	begin
+		prog   = xmms
+		button = load
+		config = PLAYLIST_ADD .xmms/xmms.m3u
+	end
+	begin
+		prog   = xmms
+		button = pause
+		config = PAUSE
+	end
+	begin
+		prog   = xmms
+		button = stop
+		config = STOP
+	end
+	begin
+		prog   = xmms
+		button = EXIT
+		config = QUIT
+	end
+	begin
+		prog   = xmms
+		button = NEXT
+		config = NEXT
+	end
+	begin
+		prog   = xmms
+		button = PREV
+		config = PREV
+	end
+	begin
+		prog   = xmms
+		button = SKIP_FORW
+		repeat = 2
+		config = FWD 3
+	end
+	begin
+		prog   = xmms
+		button = SKIP_BACK
+		repeat = 2
+		config = BWD 3
+	end
+	begin
+		prog   = xmms
+		button = VOL_UP
+		repeat = 2
+		config = VOL_UP 5
+	end
+	begin
+		prog   = xmms
+		remote = *
+		button = H
+		repeat = 2
+		config = VOL_DOWN 5
+	end
+end xmms
+#####################################################################
+#
+#  MPlayer
+#
+#####################################################################
+begin mplayer
+	begin
+		prog   = mplayer
+		remote = *
+		button = PLAYLIST
+		config = gui_playlist
+	end
+	begin
+		prog   = mplayer
+		remote = *
+		button = LOAD
+		config = gui_loadfile
+	end
+	begin
+		prog   = mplayer
+		remote = *
+		button = TXT
+		config = gui_loadsubtitle
+	end
+	begin
+		prog   = mplayer
+		remote = *
+		button = FULLSCREEN
+		config = vo_fullscreen
+	end
+	begin
+		prog   = mplayer
+		remote = *
+		button = MUTE
+		config = mute
+	end
+	begin
+		prog   = mplayer
+		remote = *
+		button = SKIP_FORW
+		repeat = 1
+		config = seek +10
+	end
+	begin
+		prog   = mplayer
+		remote = *
+		button = VOL_DOWN
+		repeat = 1
+		config = volume -1
+	end
+	begin
+		prog   = mplayer
+		remote = *
+		button = VOL_UP
+		repeat = 1
+		config = volume 1
+	end
+	begin
+		prog   = mplayer
+		remote = *
+		button = SKIP_BACK
+		repeat = 1
+		config = seek -10
+	end
+	begin
+		prog   = mplayer
+		button = play
+		config = pause
+	end
+	begin
+		prog   = mplayer
+		button = pause
+		config = pause
+	end
+	begin
+		prog   = mplayer
+		button = stop
+		config = seek 0 1\npause
+	end
+	begin
+		prog   = mplayer
+		button = NEXT
+		config = pt_step 1
+	end
+	begin
+		prog   = mplayer
+		button = PREV
+		config = pt_step -1
+	end
+	begin
+		prog   = mplayer
+		button = EXIT
+		config = quit
+	end
+end mplayer
+#####################################################################
+#
+#  GQview
+#
+#####################################################################
+begin gqview
+	begin
+		prog   = irxevent
+		remote = *
+		button = EXIT
+		config = Key ctrl-q GQview
+	end
+	begin
+		prog   = irxevent
+		remote = *
+		button = FULLSCREEN
+		config = Key v GQview
+	end
+	begin
+		prog   = irxevent
+		remote = *
+		button = PREV
+		repeat = 5
+		config = Key Prior GQview
+	end
+	begin
+		prog   = irxevent
+		remote = *
+		button = SKIP_BACK
+		config = Key Home GQview
+	end
+	begin
+		prog   = irxevent
+		remote = *
+		button = SKIP_FORW
+		config = Key End GQview
+	end
+	begin
+		prog   = irxevent
+		remote = *
+		button = NEXT
+		repeat = 5
+		config = Key Next GQview
+	end
+	begin
+		prog   = irxevent
+		button = ZOOM-
+		repeat = 5
+		config = Key minus GQview
+	end
+	begin
+		prog   = irxevent
+		button = ZOOM+
+		repeat = 5
+		config = Key plus GQview
+	end
+	begin
+		prog   = irxevent
+		button = C
+		config = Key s GQview
+	end
+	begin
+		prog   = irxevent
+		button = LOAD
+		config = Key o GQview
+	end
+end gqview
+#####################################################################
+#
+# Sterowanie Xwindow Linuxa
+#
+#####################################################################
+begin linux
+	begin
+		prog   = irexec
+		button = PAUSE
+		config = xscreensaver-command -activate
+	end
+	begin
+		prog   = irxevent
+		button = sNEXT
+		config = Key alt-Escape RootWindow
+	end
+	begin
+		prog   = irxevent
+		button = sPREV
+		config = Key alt-shift-Escape RootWindow
+	end
+	begin
+		prog   = irexec
+		button = STOP
+		config = xset dpms force off
+	end
+	begin
+		prog   = irexec
+		button = PLAY
+		config = xset dpms force on
+	end
+	begin
+		prog   = irexec
+		button = EXIT
+		config = poweroff
+	end
+end linux
+#####################################################################
+#
+#  Xine
+#
+#####################################################################
+# Reduce the output window size.
+begin xine
+	begin
+		prog   = xine
+		button = xxxxx
+		config = WindowReduce
+	end
+	# Enlarge the output window size.
+	begin
+		prog   = xine
+		button = xxxxx
+		config = WindowEnlarge
+	end
+	# Select next sub picture (subtitle) channel.
+	begin
+		prog   = xine
+		button = NEXT
+		config = SpuNext
+	end
+	# Select previous sub picture (subtitle) channel.
+	begin
+		prog   = xine
+		button = PREV
+		config = SpuPrior
+	end
+	# Visibility toggle of control window.
+	begin
+		prog   = xine
+		button = xxxxx
+		config = ControlShow
+	end
+	# Visibility toggle of output window visibility.
+	begin
+		prog   = xine
+		button = xxxxx
+		config = ToggleWindowVisibility
+	end
+	# Select next audio channel.
+	begin
+		prog   = xine
+		button = xxxxx
+		config = AudioChannelNext
+	end
+	# Select previous audio channel.
+	begin
+		prog   = xine
+		button = xxxxx
+		config = AudioChannelPrior
+	end
+	# Visibility toggle of playlist editor window.
+	begin
+		prog   = xine
+		button = PLAYLIST
+		config = PlaylistEditor
+	end
+	# Playback pause toggle.
+	begin
+		prog   = xine
+		button = PAUSE
+		config = Pause
+	end
+	# Visibility toggle of UI windows.
+	begin
+		prog   = xine
+		button = xxxxx
+		config = ToggleVisiblity
+	end
+	# Fullscreen toggle.
+	begin
+		prog   = xine
+		button = FULLSCREEN
+		config = ToggleFullscreen
+	end
+	# Aspect ratio values toggle.
+	begin
+		prog   = xine
+		button = xxxxx
+		config = ToggleAspectRatio
+	end
+	# Interlaced mode toggle.
+	begin
+		prog   = xine
+		button = xxxxx
+		config = ToggleInterleave
+	end
+	# Quit the program.
+	begin
+		prog   = irxevent
+		button = EXIT
+		config = Key q xine
+	end
+	# Start playback.
+	begin
+		prog   = xine
+		button = PLAY
+		config = Play
+	end
+	# Visibility toggle of the setup window.
+	begin
+		prog   = xine
+		button = xxxxx
+		config = SetupShow
+	end
+	# Stop playback.
+	begin
+		prog   = xine
+		button = STOP
+		config = Stop
+	end
+	# Select and play next mrl in the playlist.
+	begin
+		prog   = xine
+		button = xxxxx
+		config = NextMrl
+	end
+	# Select and play previous mrl in the playlist.
+	begin
+		prog   = xine
+		button = xxxxx
+		config = PriorMrl
+	end
+	# Eject the current medium.
+	begin
+		prog   = xine
+		button = xxxxx
+		config = Eject
+	end
+	# Set position to beginning of current stream.
+	begin
+		prog   = xine
+		button = xxxxx
+		config = SetPosition0%
+	end
+	# Set position to 10% of current stream.
+	begin
+		prog   = xine
+		button = xxxxx
+		config = SetPosition10%
+	end
+	# Set position to 20% of current stream.
+	begin
+		prog   = xine
+		button = xxxxx
+		config = SetPosition20%
+	end
+	# Set position to 30% of current stream.
+	begin
+		prog   = xine
+		button = xxxxx
+		config = SetPosition30%
+	end
+	# Set position to 40% of current stream.
+	begin
+		prog   = xine
+		button = xxxxx
+		config = SetPosition40%
+	end
+	# Set position to 50% of current stream.
+	begin
+		prog   = xine
+		button = xxxxx
+		config = SetPosition50%
+	end
+	# Set position to 60% of current stream.
+	begin
+		prog   = xine
+		button = xxxxx
+		config = SetPosition60%
+	end
+	# Set position to 70% of current stream.
+	begin
+		prog   = xine
+		button = xxxxx
+		config = SetPosition70%
+	end
+	# Set position to 80% of current stream.
+	begin
+		prog   = xine
+		button = xxxxx
+		config = SetPosition80%
+	end
+	# Set position to 90% of current stream.
+	begin
+		prog   = xine
+		button = xxxxx
+		config = SetPosition90%
+	end
+	# Set position to -60 seconds in current stream.
+	begin
+		prog   = xine
+		button = xxxxx
+		config = SeekRelative-60
+	end
+	# Set position to +60 seconds in current stream.
+	begin
+		prog   = xine
+		button = xxxxx
+		config = SeekRelative+60
+	end
+	# Set position to -15 seconds in current stream.
+	begin
+		prog   = xine
+		button = SKIP_BACK
+		config = SeekRelative-15
+	end
+	# Set position to +15 seconds in current stream.
+	begin
+		prog   = xine
+		button = SKIP_FORW
+		config = SeekRelative+15
+	end
+	# Visibility toggle of mrl browser window.
+	begin
+		prog   = xine
+		button = xxxxx
+		config = MrlBrowser
+	end
+	# Audio muting toggle.
+	begin
+		prog   = xine
+		button = MUTE
+		config = Mute
+	end
+	# Change audio syncing.
+	begin
+		prog   = xine
+		button = xxxxx
+		config = AudioVideoDecay+
+	end
+	# Change audio syncing.
+	begin
+		prog   = xine
+		button = xxxxx
+		config = AudioVideoDecay-
+	end
+	# Reset audio video syncing offset.
+	begin
+		prog   = xine
+		button = xxxxx
+		config = AudioVideoDecayReset
+	end
+	# Increment playback speed.
+	begin
+		prog   = xine
+		button = xxxxx
+		config = SpeedFaster
+	end
+	# Decrement playback speed.
+	begin
+		prog   = xine
+		button = xxxxx
+		config = SpeedSlower
+	end
+	# Increment audio volume.
+	begin
+		prog   = xine
+		button = VOL_UP
+		config = Volume+
+	end
+	# Decrement audio volume.
+	begin
+		prog   = xine
+		button = VOL_DOWN
+		config = Volume-
+	end
+	# Take a snapshot (Internal image fetch and save).
+	begin
+		prog   = xine
+		button = xxxxx
+		config = Snapshot
+	end
+	# Resize output window to stream size1:1.
+	begin
+		prog   = xine
+		button = xxxxx
+		config = Zoom1:1
+	end
+	# Grab pointer toggle.
+	begin
+		prog   = xine
+		button = xxxxx
+		config = GrabPointer
+	end
+	# Menu 1 event.
+	begin
+		prog   = xine
+		button = xxxxx
+		config = EventMenu1
+	end
+	# Menu 2 event.
+	begin
+		prog   = xine
+		button = xxxxx
+		config = EventMenu2
+	end
+	# Menu 3 event.
+	begin
+		prog   = xine
+		button = xxxxx
+		config = EventMenu3
+	end
+	# Up event.
+	begin
+		prog   = xine
+		button = xxxxx
+		config = EventUp
+	end
+	# Down event.
+	begin
+		prog   = xine
+		button = xxxxx
+		config = EventDown
+	end
+	# Left event.
+	begin
+		prog   = xine
+		button = xxxxx
+		config = EventLeft
+	end
+	# Right event.
+	begin
+		prog   = xine
+		button = xxxxx
+		config = EventRight
+	end
+	# Previous event.
+	begin
+		prog   = xine
+		button = xxxxx
+		config = EventPrior
+	end
+	# Next event.
+	begin
+		prog   = xine
+		button = xxxxx
+		config = EventNext
+	end
+	# Previous angle event.
+	begin
+		prog   = xine
+		button = xxxxx
+		config = EventAnglePrior
+	end
+	# Next angle event.
+	begin
+		prog   = xine
+		button = xxxxx
+		config = EventAngleNext
+	end
+	# Select event.
+	begin
+		prog   = xine
+		button = xxxxx
+		config = EventSelect
+	end
+	# Zoom into video.
+	begin
+		prog   = xine
+		button = xxxxx
+		config = ZoomIn
+	end
+	# Zoom out of video.
+	begin
+		prog   = xine
+		button = xxxxx
+		config = ZoomOut
+	end
+	# Zoom into video horizontally, distorting aspect ratio.
+	begin
+		prog   = xine
+		button = xxxxx
+		config = ZoomInX
+	end
+	# Zoom out of video horizontally, distorting aspect ratio.
+	begin
+		prog   = xine
+		button = xxxxx
+		config = ZoomOutX
+	end
+	# Zoom into video vertically, distorting aspect ratio.
+	begin
+		prog   = xine
+		button = xxxxx
+		config = ZoomInY
+	end
+	# Zoom out of video vertically, distorting aspect ratio.
+	begin
+		prog   = xine
+		button = xxxxx
+		config = ZoomOutY
+	end
+	# Reset zooming.
+	begin
+		prog   = xine
+		button = xxxxx
+		config = ZoomReset
+	end
+	# Toggle TV modes on the DXR3
+	begin
+		prog   = xine
+		button = xxxxx
+		config = ToggleTVmode
+	end
+	# Visibility toggle of log viewer
+	begin
+		prog   = xine
+		button = xxxxx
+		config = ViewlogShow
+	end
+end xine
+#####################################################################
+#
+# XAWTV
+#
+#####################################################################
+begin xawtv
+	begin
+		prog   = xawtv
+		remote = *
+		button = NEXT
+		config = setstation next
+	end
+	begin
+		prog   = xawtv
+		remote = *
+		button = PREV
+		config = setstation prev
+	end
+	begin
+		prog   = xawtv
+		remote = *
+		button = VOL_UP
+		config = volume inc
+	end
+	begin
+		prog   = xawtv
+		remote = *
+		button = VOL_DOWN
+		config = volume dec
+	end
+	begin
+		prog   = xawtv
+		remote = *
+		button = MUTE
+		config = volume mute
+	end
+	begin
+		prog   = xawtv
+		remote = *
+		button = FULLSCREEN
+		config = fullscreen toggle
+		flags  = once
+	end
+	begin
+		prog   = xawtv
+		remote = *
+		button = PLAYLIST
+		config = setinput next
+	end
+	begin
+		prog   = xawtv
+		remote = *
+		button = EXIT
+		config = quit
+		flags  = once
+	end
+	begin
+		prog   = xawtv
+		remote = *
+		button = ARROW_UP
+		config = keypad 1
+	end
+	begin
+		prog   = xawtv
+		remote = *
+		button = ARROW_UP
+		config = keypad 2
+	end
+	begin
+		prog   = xawtv
+		remote = *
+		button = PG_UP
+		config = keypad 3
+	end
+	begin
+		prog   = xawtv
+		remote = *
+		button = ARROW_LEFT
+		config = keypad 4
+	end
+	begin
+		prog   = xawtv
+		remote = *
+		button = ENTER
+		config = keypad 5
+	end
+	begin
+		prog   = xawtv
+		remote = *
+		button = ARROW_RIGHT
+		config = keypad 6
+	end
+	begin
+		prog   = xawtv
+		remote = *
+		button = END
+		config = keypad 7
+	end
+	begin
+		prog   = xawtv
+		remote = *
+		button = ARROW_DOWN
+		config = keypad 8
+	end
+	begin
+		prog   = xawtv
+		remote = *
+		button = PG_DN
+		config = keypad 9
+	end
+	begin
+		prog   = xawtv
+		remote = *
+		button = SPACE
+		config = keypad 0
+	end
+end xawtv
+#####################################################################
+#
+#  Xpdf
+#
+#####################################################################
+begin xpdf
+	begin
+		prog   = irxevent
+		remote = *
+		button = LOAD
+		config = Key o xpdf
+	end
+	begin
+		prog   = irxevent
+		remote = *
+		button = PREV
+		config = Key p xpdf
+	end
+	begin
+		prog   = irxevent
+		remote = *
+		button = NEXT
+		config = Key n xpdf
+	end
+	begin
+		prog   = irxevent
+		remote = *
+		button = SKIP_BACK
+		config = Key BackSpace xpdf
+	end
+	begin
+		prog   = irxevent
+		remote = *
+		button = SKIP_FORW
+		config = Key space xpdf
+	end
+	begin
+		prog   = irxevent
+		remote = *
+		button = ZOOM-
+		config = Key minus xpdf
+	end
+	begin
+		prog   = irxevent
+		remote = *
+		button = ZOOM+
+		config = Key KP_Add xpdf
+	end
+	begin
+		prog   = irxevent
+		remote = *
+		button = sPREV
+		config = Key z xpdf
+	end
+	begin
+		prog   = irxevent
+		remote = *
+		button = sNEXT
+		config = Key w xpdf
+	end
+	begin
+		prog   = irxevent
+		remote = *
+		button = EXIT
+		config = Key q xpdf
+	end
+end xpdf
+#####################################################################
+#
+#  FREEVO
+#  In freevo_config.py variable LIRCRC have to show this file
+#  eg. LIRCRC = '/home/john/.lircrc'
+#####################################################################
+begin freevo
+	begin
+		prog   = irexec
+		remote = *
+		button = POWER
+		config = freevo stop
+	end
+	begin
+		prog   = freevo
+		remote = *
+		button = PLAYLIST
+		config = DISPLAY
+	end
+	begin
+		prog   = freevo
+		remote = *
+		button = sPLAYLIST
+		config = SUBTITLE
+	end
+	begin
+		prog   = freevo
+		remote = *
+		button = BUTTONR_DOWN
+		config = EXIT
+	end
+	begin
+		prog   = freevo
+		remote = *
+		button = MOUSE_N
+		config = UP
+	end
+	begin
+		prog   = freevo
+		remote = *
+		button = MOUSE_S
+		config = DOWN
+	end
+	begin
+		prog   = freevo
+		remote = *
+		button = MOUSE_W
+		config = LEFT
+	end
+	begin
+		prog   = freevo
+		remote = *
+		button = MOUSE_E
+		config = RIGHT
+	end
+	begin
+		prog   = freevo
+		remote = *
+		button = BUTTONL_DOWN
+		config = SELECT
+	end
+	begin
+		prog   = freevo
+		remote = *
+		button = FULLSCREEN
+		config = SELECT
+	end
+	begin
+		prog   = freevo
+		remote = *
+		button = MUTE
+		config = MUTE
+	end
+	begin
+		prog   = freevo
+		remote = *
+		button = VOL_UP
+		config = VOL+
+	end
+	begin
+		prog   = freevo
+		remote = *
+		button = VOL_DOWN
+		config = VOL-
+	end
+	begin
+		prog   = freevo
+		remote = *
+		button = NEXT
+		config = CH+
+	end
+	begin
+		prog   = freevo
+		remote = *
+		button = PREV
+		config = CH-
+	end
+	begin
+		prog   = freevo
+		remote = *
+		button = sPREV
+		config = PREV_CH
+	end
+	begin
+		prog   = freevo
+		button = sNEXT
+		config = NEXT_CH
+	end
+	begin
+		prog   = freevo
+		button = SKIP_BACK
+		config = REW
+	end
+	begin
+		prog   = freevo
+		button = SKIP_FORW
+		config = FFWD
+	end
+	begin
+		prog   = freevo
+		remote = *
+		button = PLAY
+		config = PLAY
+	end
+	begin
+		prog   = freevo
+		remote = *
+		button = PAUSE
+		config = PAUSE
+	end
+	begin
+		prog   = freevo
+		remote = *
+		button = STOP
+		config = STOP
+	end
+	begin
+		prog   = freevo
+		remote = *
+		button = sPLAY
+		config = REC
+	end
+	begin
+		prog   = freevo
+		remote = *
+		button = HELP
+		repeat = 10
+		config = EJECT
+	end
+	begin
+		prog   = freevo
+		remote = *
+		button = HOME
+		config = 
+	end
+	begin
+		prog   = freevo
+		remote = *
+		button = ARROW_UP
+		config = 
+	end
+	begin
+		prog   = freevo
+		remote = *
+		button = PG_UP
+		config = 
+	end
+	begin
+		prog   = freevo
+		remote = *
+		button = ARROW_LEFT
+		config = 
+	end
+	begin
+		prog   = freevo
+		remote = *
+		button = ENTER
+		config = 
+	end
+	begin
+		prog   = freevo
+		remote = *
+		button = ARROW_RIGHT
+		config = 
+	end
+	begin
+		prog   = freevo
+		remote = *
+		button = END
+		config = 
+	end
+	begin
+		prog   = freevo
+		remote = *
+		button = ARROW_DOWN
+		config = 
+	end
+	begin
+		prog   = freevo
+		remote = *
+		button = PG_DN
+		config = 
+	end
+	begin
+		prog   = freevo
+		remote = *
+		button = SPACE
+		config = 
+	end
+	begin
+		prog   = freevo
+		remote = *
+		button = TAB
+		config = 
+	end
+	begin
+		prog   = freevo
+		remote = *
+		button = ESC
+		config = 
+	end
+	begin
+		prog   = freevo
+		remote = *
+		button = ALT
+		config = 
+	end
+end freevo
+#####################################################################
+#
+#  Wybor aplikacji
+#
+#####################################################################
+begin
+	prog   = irexec
+	button = A
+	config = xmms&
+	mode   = xmms
+end
+#tag:Uruchom program tylko raz!!
+begin
+	prog   = irexec
+	button = B
+	config = URUCH=`ps ahx |grep gmplayer |grep -v grep`; if [ -z "$URUCH" ]; then `gmplayer &>/dev/null &` ; fi
+	mode   = mplayer
+end
+#tag:Uruchom program tylko raz!!
+begin
+	prog   = irexec
+	button = C
+	config = URUCH=`ps ahx |grep gqview |grep -v grep`; if [ -z "$URUCH" ]; then `gqview &>/dev/null &` ; fi
+	mode   = gqview
+end
+begin
+	prog   = none
+	button = D
+	mode   = linux
+end
+#tag:Uruchom program tylko raz!!
+begin
+	prog   = irexec
+	remote = *
+	button = E
+	config = URUCH=`ps ahx |grep xine |grep -v grep | grep -v xinetd`; if [ -z "$URUCH" ]; then `xine &>/dev/null &` ; fi
+	mode   = xine
+end
+#tag:Uruchom program tylko raz!!
+begin
+	prog   = irexec
+	button = F
+	config = URUCH=`ps ahx |grep xawtv |grep -v grep`; if [ -z "$URUCH" ]; then `xawtv &>/dev/null &` ; fi
+	mode   = xawtv
+end
+#tag:Uruchom program tylko raz!!
+begin
+	prog   = irexec
+	button = G
+	config = URUCH=`ps ahx |grep xpdf |grep -v grep`; if [ -z "$URUCH" ]; then `xpdf &>/dev/null &` ; fi
+	mode   = xpdf
+end
+#tag:Uruchom program tylko raz!!
+begin
+	prog   = irexec
+	remote = *
+	button = H
+	config = freevo&
+	mode   = freevo
+end
+#####################################################################
+#
+# Klawisze Globalne
+#
+#####################################################################
+begin
+	prog   = irxevent
+	button = HOME
+	config = Key Home CurrentWindow
+end
+begin
+	prog   = irxevent
+	button = ARROW_UP
+	repeat = 5
+	config = Key Up CurrentWindow
+end
+begin
+	prog   = irxevent
+	button = PG_UP
+	repeat = 5
+	config = Key Page_Up CurrentWindow
+end
+begin
+	prog   = irxevent
+	button = ARROW_LEFT
+	repeat = 5
+	config = Key Left CurrentWindow
+end
+begin
+	prog   = irxevent
+	button = ENTER
+	config = Key Return CurrentWindow
+end
+begin
+	prog   = irxevent
+	button = ARROW_RIGHT
+	repeat = 5
+	config = Key Right CurrentWindow
+end
+begin
+	prog   = irxevent
+	button = END
+	config = Key End CurrentWindow
+end
+begin
+	prog   = irxevent
+	button = ARROW_DOWN
+	repeat = 5
+	config = Key Down CurrentWindow
+end
+begin
+	prog   = irxevent
+	button = PG_DN
+	repeat = 5
+	config = Key Page_Down CurrentWindow
+end
+begin
+	prog   = irxevent
+	button = TAB
+	config = Key Tab CurrentWindow
+end
+begin
+	prog   = irxevent
+	remote = *
+	button = sTAB
+	config = Key shift-Tab CurrentWindow
+end
+begin
+	prog   = irxevent
+	button = SPACE
+	config = Key space CurrentWindow
+end
+begin
+	prog   = irxevent
+	button = ESC
+	config = Key Escape CurrentWindow
+end
+begin
+	prog   = irxevent
+	button = ALT
+	config = Key UP CurrentWindow
+end
+begin
+	prog   = irxevent
+	button = 1
+	config = Key 1 CurrentWindow
+end
+begin
+	prog   = irxevent
+	button = 2
+	config = Key 2 CurrentWindow
+end
+begin
+	prog   = irxevent
+	button = 3
+	config = Key 3 CurrentWindow
+end
+begin
+	prog   = irxevent
+	remote = *
+	button = 4
+	config = Key 4 CurrentWindow
+end
+begin
+	prog   = irxevent
+	button = 5
+	config = Key 5 CurrentWindow
+end
+begin
+	prog   = irxevent
+	button = 6
+	config = Key 6 CurrentWindow
+end
+begin
+	prog   = irxevent
+	button = 7
+	config = Key 7 CurrentWindow
+end
+begin
+	prog   = irxevent
+	button = 8
+	config = Key 8 CurrentWindow
+end
+begin
+	prog   = irxevent
+	button = 9
+	config = Key 9 CurrentWindow
+end
+begin
+	prog   = irxevent
+	button = 0
+	config = Key 0 CurrentWindow
+end

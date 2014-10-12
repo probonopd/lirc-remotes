@@ -1,0 +1,62 @@
+#
+# Contributed by Steve - steve @ sfinnovations.net
+#
+# I THINK this remote is for CD/TUNER dealy but am unsure at this point.
+# The only markings on it are: "Digital Remote Control"
+# In the battery compartment: "RC19420002/01" , "3139 228 6001",
+# "HK11 06224 C 003557"
+# Your guess is as good as mine!! Upon emailing Philips a picture of it
+# and all the above numbers, they didn't seem to know what it was
+# designed for.  It would not auto-generate automatically, so I Downloaded
+# all the PHILIPS .cf files and tried one at a time until I found a file
+# that would at least work with the "VOL" buttons.  From this point on, I
+# generated the hex numbers (one at a time), until I had mapped all the
+# keys on the keypad.  ummmm.. yeah... A waste of 4.5+ hrs!!! :)  But I
+# really like the remote and it's size for my mobile MP3 machine.
+# Lemme know if anyone else finds a use for it!!
+#
+# brand:             Philips
+# model:             Uknown
+# supported devices: CD/TUNER
+#
+
+
+begin remote
+
+  name  SmallRemote
+  bits           13
+  flags RC5|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           972   797
+  zero          972   797
+  plead        1144
+  gap          113668
+  toggle_bit      2
+
+
+      begin codes
+          KEY_VOLUMEUP             0x0000000000001410        #  Was: volUp
+          KEY_VOLUMEDOWN           0x0000000000001411        #  Was: volDn
+          KEY_CD                   0x000000000000153F        #  Was: cd
+          KEY_MUTE                 0x000000000000140D        #  Was: mute
+          KEY_POWER                0x000000000000140C        #  Was: power
+          bass                     0x000000000000141D
+          shuffle                  0x000000000000151C
+          KEY_AGAIN                0x000000000000151D        #  Was: repeat
+          KEY_PLAY                 0x0000000000001535        #  Was: play
+          shuffleL                 0x0000000000001521
+          shuffleR                 0x0000000000001520
+          KEY_STOP                 0x0000000000001536        #  Was: stop
+          searchL                  0x0000000000001532
+          searchR                  0x0000000000001534
+          presetUp                 0x0000000000001460
+          presetDn                 0x0000000000001461
+          KEY_TUNER                0x000000000000147F        #  Was: tuner
+          band                     0x000000000000146E
+          tuningL                  0x000000000000145F
+          tuningR                  0x000000000000145E
+      end codes
+
+end remote

@@ -1,0 +1,84 @@
+#
+# this config file was automatically generated
+# using lirc-0.7.2(serial) on Sun Nov 25 16:36:49 2007
+#
+# contributed by Karl Bongers
+#
+# brand: Insignia(BestBuy) DVD/Radio/Surround-Sound IS-HTIB1022731
+# model no. of remote control: WIR147002-8301
+# devices being controlled by this remote:
+#
+
+begin remote
+
+  name  Insignia_WIR147002-8301
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9013  4459
+  one           593  1641
+  zero          593   524
+  ptrail        593
+  repeat       9013  2224
+  pre_data_bits   16
+  pre_data       0xC2E2
+  gap          108111
+  toggle_bit      0
+
+
+      begin codes
+          tray                     0x748B
+          KEY_CYCLEWINDOWS         0x847B                    #  Was: source
+          KEY_POWER                0xF40B                    #  Was: power
+          KEY_1                    0x807F                    #  Was: 1
+          KEY_2                    0x40BF                    #  Was: 2
+          KEY_3                    0xC03F                    #  Was: 3
+          KEY_4                    0x20DF                    #  Was: 4
+          KEY_5                    0xA05F                    #  Was: 5
+          KEY_6                    0x609F                    #  Was: 6
+          KEY_7                    0xE01F                    #  Was: 7
+          KEY_8                    0x10EF                    #  Was: 8
+          KEY_9                    0x906F                    #  Was: 9
+          KEY_SETUP                0x649B                    #  Was: setup
+          KEY_0                    0x00FF                    #  Was: 0
+          bs                       0x946B
+          left1                    0xA857
+          KEY_UP                   0x8877                    #  Was: up
+          right1                   0x18E7
+          right1                   0x6897
+          KEY_LEFT                 0x48B7                    #  Was: left
+          KEY_OK                   0x08F7                    #  Was: ok
+          KEY_RIGHT                0xC837                    #  Was: right
+          left-all                 0xE817
+          KEY_DOWN                 0x28D7                    #  Was: down
+          right-all                0x18E7
+          KEY_SELECT               0xD42B                    #  Was: select
+          KEY_VOLUMEDOWN           0xB04F                    #  Was: voldn
+          KEY_VOLUMEUP             0x30CF                    #  Was: volup
+          KEY_MUTE                 0x38C7                    #  Was: mute
+          memory                   0xD827
+          KEY_PLAY                 0x708F                    #  Was: play
+          KEY_STOP                 0xF00F                    #  Was: stop
+          KEY_SLEEP                0x54AB                    #  Was: sleep
+          prog                     0x24DB
+          KEY_AGAIN                0x6C93                    #  Was: repeat
+          A-B                      0xEC13
+          KEY_MENU                 0x50AF                    #  Was: menu
+          return-title             0xA45B
+          surround                 0x4CB3
+          eq                       0x2CD3
+          KEY_LANGUAGE             0x14EB                    #  Was: language
+          KEY_SUBTITLE             0xB44B                    #  Was: subtitle
+          KEY_ZOOM                 0x58A7                    #  Was: zoom
+          KEY_ANGLE                0x9867                    #  Was: angle
+          goto                     0xC43B
+          display                  0x44BB
+          night                    0x0CF3
+          dim                      0x8C73
+      end codes
+
+end remote
+
+

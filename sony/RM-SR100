@@ -1,0 +1,80 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.3(default) on Sun May 25 19:31:22 2008
+#
+# contributed by BoKoR
+#
+# brand:                       Sony
+# model no. of remote control: RM-SR100
+# devices being controlled by this remote:
+#
+
+begin remote
+
+  name  Sony_RM-SR100
+  bits           12
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       2516   512
+  one          1276   517
+  zero          677   517
+  gap          44843
+  toggle_bit_mask 0x0
+
+      begin codes
+          KEY_SLEEP                0x061                     #  Was: SLEEP
+          KEY_SELECT               0x461                     #  Was: SELECT
+          SET                      0xA61
+          KEY_POWER                0xA81                     #  Was: POWER
+          D.SKIP                   0x7D1
+          MD_PLAY                  0x55E
+          MD_PAUSE                 0x95E
+          MD_STOP                  0x15E
+          KEY_VIDEO                0x961                     #  Was: VIDEO
+          KEY_TAPE                 0xC41                     #  Was: TAPE
+          KEY_CD                   0xA41                     #  Was: CD
+          KEY_TUNER                0xF01                     #  Was: TUNER
+          CHECK                    0xB11
+          KEY_CLEAR                0xF11                     #  Was: CLEAR
+          LOOP                     0x1F1
+          KEY_VOLUMEUP             0x481                     #  Was: VOL+
+          KEY_VOLUMEDOWN           0xC81                     #  Was: VOL-
+          MENU+                    0x3E9
+          MENU-                    0xBE9
+          KEY_POWER                0x146                     #  Was: ON_OFF
+      end codes
+
+end remote
+
+
+begin remote
+
+  name  Sony_RM-SR100_2
+  bits           20
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       2551   499
+  one          1286   508
+  zero          682   508
+  gap          44843
+  toggle_bit_mask 0x0
+
+      begin codes
+          KEY_PLAY                 0x4CB9C                   #  Was: PLAY
+          KEY_PAUSE                0x9CB9C                   #  Was: PAUSE
+          KEY_STOP                 0x1CB9C                   #  Was: STOP
+          KEY_PREVIOUS             0x0CB9C                   #  Was: PREV
+          KEY_NEXT                 0x8CB9C                   #  Was: NEXT
+          KEY_ENTER                0x3EB9C                   #  Was: ENTER
+          PRESET-                  0xCCB9C
+          PRESET+                  0x2CB9C
+          FLASH                    0xEEB99
+      end codes
+
+end remote
+
+

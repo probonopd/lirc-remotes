@@ -1,0 +1,55 @@
+#
+# this config file was automatically generated
+# using lirc-0.5.5 on Mon Jul 26 23:35:18 1999
+#
+# contributed by Jan Peter Hecking <jhecking@informatik.uni-rostock.de>
+#
+# brand:             Pioneer
+# model:             CU-XC004
+# supported devices:
+#
+# this is an config file for the Irman only!
+#
+
+begin remote
+
+  name  CU-XC004
+  bits           32
+  flags SPACE_ENC
+  eps            30
+  aeps          100
+
+  one          1024  3072
+  zero         1024  2048
+  ptrail       1024
+  pre_data_bits   16
+  pre_data       0xFFFF
+  post_data_bits  16
+  post_data      0x0
+  gap          65536
+  repeat_bit      0
+
+      begin codes
+          KEY_CD                   0x00000000659A22DD        #  Was: cd
+          KEY_RADIO                0x00000000659A926D        #  Was: radio
+          KEY_TAPE                 0x00000000659AE817        #  Was: tape
+          minidisc                 0x00000000C53A8976
+          KEY_MENU                 0x00000000659A4EB1        #  Was: menu
+          KEY_CANCEL               0x00000000659AFC62        #  Was: cancel
+          set                      0x00000000659A2ED1
+          KEY_FASTFORWARD          0x00000000659AC936        #  Was: fforward
+          KEY_REWIND               0x00000000659A29D6        #  Was: rewind
+          KEY_NEXT                 0x00000000659A8976        #  Was: next
+          KEY_PREVIOUS             0x00000000659A49B6        #  Was: prev
+          KEY_STOP                 0x00000000659A09F6        #  Was: stop
+          KEY_AUX                  0x00000000659A32CD        #  Was: aux
+          KEY_POWER                0x00000000659A38C7        #  Was: power
+          sound                    0x00000000659A5BA4
+          display                  0x00000000659AB946
+          KEY_VOLUMEUP             0x00000000659A50AF        #  Was: vol_up
+          KEY_VOLUMEDOWN           0x00000000659AD02F        #  Was: vol_down
+      end codes
+
+end remote
+
+

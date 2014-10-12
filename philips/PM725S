@@ -1,0 +1,77 @@
+
+# Please make this file available to others
+# by sending it to <lirc@bartelmus.de>
+#
+# this config file was automatically generated
+# using lirc-0.8.2(iguanaIR) on Sun Apr 27 23:40:48 2008
+#
+# contributed by erekson@digiraticonsulting.com
+#
+# brand:	Phillips
+# model:	PM725S (Universal)
+#
+# I found that the "DVR/CABLE Combo" code (0252)
+# works very well with lirc. Every button on the
+# remote, except "Learn", "Code Search", and the
+# mode buttons at the top, is functional.
+#
+begin remote
+
+  name  Phillips_PM725S_0252
+  bits           22
+  flags SPACE_ENC
+  eps            30
+  aeps          100
+
+  header       3400  3284
+  one           833  2484
+  zero          833   800
+  ptrail        834
+  gap          37790
+  min_repeat      1
+  toggle_bit_mask 0x0
+
+      begin codes
+          KEY_POWER                0x37C107                  #  Was: power
+          KEY_1                    0x36113D                  #  Was: 1
+          KEY_2                    0x37111D                  #  Was: 2
+          KEY_3                    0x36912D                  #  Was: 3
+          KEY_4                    0x37910D                  #  Was: 4
+          KEY_5                    0x365135                  #  Was: 5
+          KEY_6                    0x375115                  #  Was: 6
+          KEY_7                    0x36D125                  #  Was: 7
+          KEY_8                    0x37D105                  #  Was: 8
+          KEY_9                    0x363139                  #  Was: 9
+          KEY_ENTER                0x37E103                  #  Was: enter
+          KEY_0                    0x373119                  #  Was: 0
+          input                    0x376113
+          KEY_INFO                 0x36C127                  #  Was: guide
+          KEY_MENU                 0x36F920                  #  Was: menu
+          info/select              0x36213B
+          KEY_QUIT                 0x366932                  #  Was: quit
+          KEY_VOLUMEUP             0x36093E                  #  Was: vol+
+          KEY_VOLUMEDOWN           0x37091E                  #  Was: vol-
+          KEY_CHANNELUP            0x377111                  #  Was: chan+
+          KEY_CHANNELDOWN          0x36F121                  #  Was: chan-
+          KEY_UP                   0x36812F                  #  Was: up
+          KEY_DOWN                 0x37A10B                  #  Was: down
+          KEY_LEFT                 0x37810F                  #  Was: left
+          KEY_RIGHT                0x364137                  #  Was: right
+          KEY_OK                   0x366133                  #  Was: ok
+          KEY_PREVIOUS             0x36E123                  #  Was: prev
+          pip                      0x37B908
+          toggle                   0x367930
+          KEY_MUTE                 0x36892E                  #  Was: mute
+          KEY_SUBTITLE             0x36C926                  #  Was: subtitle
+          KEY_SLEEP                0x37F900                  #  Was: sleep
+          scan-                    0x37291A
+          KEY_PLAY                 0x37990C                  #  Was: play
+          scan+                    0x36293A
+          KEY_RECORD               0x375914                  #  Was: rec
+          KEY_STOP                 0x365934                  #  Was: stop
+          KEY_PAUSE                0x374117                  #  Was: pause
+      end codes
+
+end remote
+
+

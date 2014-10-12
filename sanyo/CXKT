@@ -1,0 +1,57 @@
+#
+# This file created using irw and pasting in unrecognised codes
+# contributed by Julian Cable 2006-05-01
+#
+# brand:             Sanyo
+# model:             CXKT
+# supported devices: PLV-Z1 Projector
+#
+
+begin remote
+
+  name  CXKT
+  bits           24
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  header       8960  4480
+  one           560  1680
+  zero          560   560
+  ptrail        560
+  repeat       8960  2240
+  pre_data_bits   8
+  pre_data       0xC
+  gap          40320
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0xF300FF                  #  Was: ONOFF0
+          KEY_POWER                0x73FF00                  #  Was: ONOFF1
+          AUTO_PC_ADJ              0xF3916E
+          KEY_MENU                 0xF338C7                  #  Was: MENU
+          SCREEN                   0xF341BE
+          INPUT                    0xF3A05F
+          IMAGE                    0xF330CF
+          AUTO                     0xF3FC03
+          COMPOSITE                0xF3BC43
+          S-VIDEO                  0xF37C83
+          COMPONENT                0xF3C13E
+          NOSHOW                   0xF3D12E
+          KEYSTONE_UP              0xF3718E
+          KEYSTONE_DOWN            0xF3F10E
+          IMAGE_1                  0xF30AF5
+          IMAGE_2                  0xF38A75
+          IMAGE_3                  0xF36A95
+          IMAGE_4                  0xF3EA15
+          KEY_SELECT               0xF3F00F                  #  Was: SELECT
+          KEY_LEFT                 0xF37887                  #  Was: LEFT
+          KEY_RIGHT                0xF3B847                  #  Was: RIGHT
+          KEY_UP                   0xF331CE                  #  Was: UP
+          KEY_DOWN                 0xF3B14E                  #  Was: DOWN
+      end codes
+
+end remote
+
+

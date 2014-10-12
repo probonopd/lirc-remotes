@@ -1,0 +1,45 @@
+# this config file was automatically generated
+# using lirc-0.6.0 on Thu Apr  6 16:46:01 2000
+#
+# contributed by Kai M. Wurm
+#
+# brand:   Sony
+# model:   RM-S112
+
+begin remote
+
+  name  RM-S112
+  bits           12
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       2456   550
+  one          1246   553
+  zero          645   553
+  gap          45064
+  repeat_bit      0
+  min_repeat      2
+
+      begin codes
+          KEY_POWER                0x0000000000000A81        #  Was: power
+          pgm                      0x0000000000000F91
+          shuffle                  0x0000000000000AD1
+          KEY_REWIND               0x00000000000000D1        #  Was: rewind
+          KEY_FORWARD              0x00000000000008D1        #  Was: forward
+          KEY_PLAY                 0x0000000000000A41        #  Was: play
+          KEY_STOP                 0x00000000000001D1        #  Was: stop
+          tuner+                   0x0000000000000096
+          tuner-                   0x0000000000000896
+          KEY_NEXT                 0x00000000000007D1        #  Was: skip
+          continue                 0x0000000000000B91
+          KEY_TUNER                0x0000000000000841        #  Was: tuner
+          phono                    0x0000000000000041
+          KEY_TAPE                 0x0000000000000C41        #  Was: tape
+          KEY_VOLUMEUP             0x0000000000000481        #  Was: vol+
+          KEY_VOLUMEDOWN           0x0000000000000C81        #  Was: vol-
+      end codes
+
+end remote
+
+

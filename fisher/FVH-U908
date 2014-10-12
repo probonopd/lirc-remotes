@@ -1,0 +1,46 @@
+#
+# this config file was automatically generated
+# using WinLIRC 0.6.5 (LIRC 0.6.1pre3) on Tue May 30 07:19:26 2006
+#
+# contributed by
+#
+# brand:             FISHER
+# model:            
+# supported devices: VCR FVH-U908
+#
+
+begin remote
+
+  name  FISHER_FVH-U908
+  bits           16
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  header       9192  4316
+  one           706  1540
+  zero          706   410
+  ptrail        706
+  repeat       9104  2138
+  pre_data_bits   16
+  pre_data       0x8C73
+  gap          39776
+  toggle_bit      0
+
+
+      begin codes
+          KEY_STOP                 0x00000000000008F7        #  Was: STOP
+          KEY_RECORD               0x000000000000A857        #  Was: REC
+          KEY_REWIND               0x00000000000048B7        #  Was: REW
+          KEY_PLAY                 0x00000000000028D7        #  Was: PLAY
+          KEY_FASTFORWARD          0x000000000000C837        #  Was: FF
+          KEY_REWIND               0x0000000000006897        #  Was: REW-PLAY
+          KEY_PAUSE                0x0000000000008877        #  Was: PAUSE
+          RESET                    0x00000000000022DD
+          MEMORY                   0x000000000000C23D
+          <-                       0x00000000000040BF
+          ->                       0x000000000000807F
+      end codes
+
+end remote
+

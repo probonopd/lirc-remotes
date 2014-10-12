@@ -1,0 +1,69 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.3(serial) on Sun Jul 15 13:11:09 2001
+#
+# contributed by Matt Tovey.
+#
+# brand:             Philips
+# model:             RT 567/104
+# other label info:  8622 665 67104 PL 009735045651
+# supported devices: Philips VCR and TV
+#
+# NB: Jog and shuttle controls unable to be scanned by irrecord...
+#
+
+begin remote
+
+  name  RT567_104.conf
+  bits           13
+  flags RC5|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           888   881
+  zero          888   881
+  plead         904
+  gap          113271
+  toggle_bit      2
+
+
+      begin codes
+          KEY_PLAY                 0x0000000000001975        #  Was: PLAY
+          KEY_FORWARD              0x0000000000001166        #  Was: FWD
+          RWD                      0x0000000000001965
+          KEY_STOP                 0x0000000000001176        #  Was: STOP
+          INDEX                    0x0000000000000970
+          KEY_PAUSE                0x0000000000001169        #  Was: PAUSE
+          INSTANTVIEW              0x000000000000014F
+          COUNTER                  0x000000000000097E
+          MONITOR                  0x000000000000017A
+          TVVOLDWN                 0x0000000000001811
+          TVVOLUP                  0x0000000000001010
+          TVPRGDWN                 0x0000000000001821
+          TVPRGUP                  0x0000000000001020
+          TVMUTE                   0x000000000000180D
+          TVSTBY                   0x000000000000100C
+          KEY_1                    0x0000000000001941        #  Was: 1
+          KEY_2                    0x0000000000001142        #  Was: 2
+          KEY_3                    0x0000000000001943        #  Was: 3
+          KEY_4                    0x0000000000001144        #  Was: 4
+          KEY_5                    0x0000000000001945        #  Was: 5
+          KEY_6                    0x0000000000001146        #  Was: 6
+          KEY_7                    0x0000000000001947        #  Was: 7
+          KEY_8                    0x0000000000001148        #  Was: 8
+          KEY_9                    0x0000000000001949        #  Was: 9
+          KEY_0                    0x0000000000001140        #  Was: 0
+          KEY_MENU                 0x0000000000000952        #  Was: MENU
+          TIMER                    0x000000000000115D
+          KEY_SELECT               0x000000000000194B        #  Was: SELECT
+          KEY_OK                   0x0000000000000157        #  Was: OK
+          KEY_CANCEL               0x0000000000001971        #  Was: CANCEL
+          KEY_UP                   0x0000000000000150        #  Was: UP
+          KEY_DOWN                 0x0000000000000951        #  Was: DOWN
+          KEY_LEFT                 0x0000000000000155        #  Was: LEFT
+          KEY_RIGHT                0x0000000000000956        #  Was: RIGHT
+          KEY_RECORD               0x0000000000001177        #  Was: RECORD
+          STNDBY                   0x000000000000194C
+      end codes
+
+end remote

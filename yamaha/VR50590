@@ -1,0 +1,67 @@
+#
+# This config file has been automatically converted from a device file
+# found in the 06/26/00 release of the Windows Slink-e software
+# package.
+#
+# Many thanks to Colby Boles of Nirvis Systems Inc. for allowing us to
+# use these files.
+#
+# The original filename was: "yamaha_vr50590_ax-590_490_amp.cde"
+#
+# The original description for this device was:
+#
+# yamaha vr50590 ax-590/490 amp
+#
+
+
+begin remote
+
+  name  VR50590
+  bits           32
+  flags SPACE_ENC
+  eps            20
+  aeps          200
+
+  header       8800  4400
+  one           550  1650
+  zero          550   550
+  ptrail        550
+  repeat       8800  2200
+  gap          38500
+  toggle_bit      0
+
+  frequency    38000
+
+      begin codes
+          KEY_POWER                0x000000005EA1F807        #  Was: POWER
+          PHONO                    0x000000005EA128D7
+          PHONO-PLAY/CUT           0x000000005EA1708F
+          KEY_CD                   0x000000005EA1A857        #  Was: CD
+          CD-PLAY                  0x000000005EA110EF
+          CD-PAUSE/STOP            0x000000005EA1906F
+          CD-SKIP_>>|              0x000000005EA150AF
+          CD-SKIP_|<<              0x000000005EA1D02F
+          CD-SEARCH_>>             0x000000005EA130CF
+          CD-SEARCH_<<             0x000000005EA1B04F
+          CD-DISC_SKIP             0x000000005EA1F20D
+          KEY_TUNER                0x000000005EA16897        #  Was: TUNER
+          TUNER-PRESET_+           0x000000005EA108F7
+          TUNER-PRESET_-           0x000000005EA18877
+          TUNER-A/B/C/D/E          0x000000005EA148B7
+          TAPE1                    0x000000005EA118E7
+          TAPE1-PLAY               0x000000005EA100FF
+          TAPE1-STOP               0x000000005EA1C03F
+          TAPE1-REC/PAUSE          0x000000005EA120DF
+          TAPE1->>                 0x000000005EA140BF
+          TAPE1-<<                 0x000000005EA1807F
+          TAPE1-REC_MUTE           0x000000005EA1A05F
+          TAPE1-DIR_A              0x000000005EA1E01F
+          TAPE1-DECK_A/B           0x000000005EA1609F
+          TAPE1-DIR_B              0x000000005EA102FD
+          TAPE2                    0x000000005EA19867
+          KEY_AUX                  0x000000005EA1E817        #  Was: AUX
+          KEY_VOLUMEUP             0x000000005EA158A7        #  Was: VOLUME_+
+          KEY_VOLUMEDOWN           0x000000005EA1D827        #  Was: VOLUME_-
+      end codes
+
+end remote

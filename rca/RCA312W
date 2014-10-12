@@ -1,0 +1,46 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.4a(default) on Thu Sep 17 05:13:15 2009
+#
+# contributed by
+#
+# brand:                       RCA
+# model no. of remote control: RCA312W
+# devices being controlled by this remote: TV
+#
+# PLAY = MUTE BUTTON, RIGHT_ARROW = VOL+, LEFT_ARROW = VOL-, VOLUME_PLUS =
+# CH+>>>|, VOLUME_MINUS = CH-|<<
+#
+# Remote == RCA RCA312W
+#
+
+begin remote
+
+  name  RCA312W_TV
+  bits           24
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       4118  3889
+  one           563  1942
+  zero          563   937
+  ptrail        556
+  gap          64602
+  toggle_bit_mask 0x0
+
+      begin codes
+          KEY_PLAY                 0xF3F0C0                  #  Was: PLAY
+          RIGHT_ARROW              0xF2F0D0
+          LEFT_ARROW               0xF2E0D1
+          KEY_VOLUMEUP             0xF2D0D2                  #  Was: VOLUME_PLUS
+          KEY_VOLUMEDOWN           0xF2C0D3                  #  Was: VOLUME_MINUS
+          KEY_POWER                0xF2A0D5                  #  Was: ON-OFF
+          GO_BACK                  0xF270D8
+          KEY_INFO                 0xF3C0C3                  #  Was: INFO
+          KEY_OK                   0xFF400B                  #  Was: OK
+      end codes
+
+end remote
+
+

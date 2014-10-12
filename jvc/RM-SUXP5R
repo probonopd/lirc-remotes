@@ -1,0 +1,60 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.6(any) on Wed Sep 15 22:06:06 2004
+#
+# contributed by
+#
+# brand:                       JVC
+# model no. of remote control: RM-SUXP5R
+# devices being controlled by this remote:
+#
+
+begin remote
+
+  name  JVC_RM-SUXP5R
+  bits           16
+  flags SPACE_ENC|NO_HEAD_REP|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       8519  4068
+  one           637  1495
+  zero          637   410
+  ptrail        637
+  gap          46437
+  min_repeat      3
+  toggle_bit      0
+
+
+      begin codes
+          Dimmer                   0x000000000000CD4A
+          Display                  0x000000000000C50E
+          KEY_SLEEP                0x000000000000C5C0        #  Was: Sleep
+          Prog                     0x000000000000CD56
+          Random                   0x000000000000CD4E
+          KEY_AGAIN                0x000000000000CDDA        #  Was: Repeat
+          SoundMD                  0x000000000000C51C
+          AutoPRS                  0x000000000000C5EE
+          FMMode                   0x000000000000C55A
+          KEY_EJECTCD              0x000000000000CD22        #  Was: Eject
+          KEY_AUX                  0x000000000000C57C        #  Was: Aux
+          FM-AM                    0x000000000000C5DA
+          KEY_TAPE                 0x000000000000C5FC        #  Was: Tape
+          KEY_PLAY                 0x000000000000C5BC        #  Was: Play
+          Rev                      0x000000000000F560
+          KEY_FASTFORWARD          0x000000000000F5A0        #  Was: FF
+          KEY_STOP                 0x000000000000CDC2        #  Was: Stop
+          KEY_CANCEL               0x000000000000F529        #  Was: Cancel
+          Multi-                   0x000000000000F5C0
+          Multi+                   0x000000000000F540
+          Set                      0x000000000000F589
+          RDSMode                  0x000000000000F5C1
+          PTY-EON                  0x000000000000F5A1
+          AHB-Pro                  0x000000000000C5AE
+          KEY_VOLUMEDOWN           0x000000000000C5F8        #  Was: Vol-
+          KEY_VOLUMEUP             0x000000000000C578        #  Was: Vol+
+      end codes
+
+end remote
+
+

@@ -1,0 +1,131 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.6(serial) on Mon Oct  6 18:29:46 2003
+#
+# contributed by Joel Ebel
+#
+# brand:                       TIVO
+# model no. of remote control: This is for the Tivo with the DVR 1/2 switch
+
+# devices being controlled by this remote: Tivo Series 2 (maybe more)
+
+# This conf file allows the support of Tivo Series 2 remote.  In particular,
+# it allows for the unique key definitions for each of the 39 keys when DVR
+# Switch is in positon 1 or 2.  This essentially doubles the number of keys
+# one can use just by toggling between DVR 1 and 2.  For example, an lircrc
+# file can be programmed to execute one thing when the play button is pressed
+# when in DVR 1 mode and execute a different function when the same key is
+# pressed when in DVR 2 mode.
+#
+# In order to use this, one must first set the remote.  Move the DVR SWITCH
+# to 1.  Next, Press and hold the PAUSE and TiVo buttons simultaneously
+# until the red light at the end of the remote control comes on, remains
+# steady, and then stays on when you release the buttons.  Now press 1.
+# Do the same when switched to DVR 2 (assigning it to a number 2).
+#
+# Now you can use the codes below.  All the functions which begin with a 1
+# are associated with the DVR1 switch and those prefixed with 2 are assoc
+# with DVR 2 switch.  Since the remote allows it to be programmed with any
+# number between 0 and 9 (zero is the default), all the codes are provided
+# below,  A remote set to 0 will control any tivo, and a tivo set to
+# 0 will accept any remote.
+
+# My lircrc file for MythTV with this remote can be found here:
+# http://home.comcast.net/~johnfdeluca/lircrc.txt
+
+
+
+
+begin remote
+
+  name  Tivo_S2
+  bits           32
+  flags SPACE_ENC|CONST_LENGTH
+  eps            20
+  aeps          200
+
+  header       9000  4500
+  one           562  1687
+  zero          562   562
+  ptrail        562
+  repeat       9000  2250
+  gap          108000
+  min_repeat      1
+  toggle_bit      0
+
+  frequency    38000
+
+      begin codes
+          TIVO                     0x00000000A10CE00F
+          TV_POWER                 0x00000000A10C0807
+          TV_INPUT                 0x00000000A10C2C03
+          WINDOW                   0x00000000A10C220D
+          KEY_TV                   0x00000000A10C8807        #  Was: LIVE_TV
+          KEY_INFO                 0x00000000A10CC807        #  Was: INFO
+          KEY_INFO                 0x00000000A10C6C03        #  Was: GUIDE
+          KEY_UP                   0x00000000A10C2807        #  Was: UP
+          KEY_LEFT                 0x00000000A10CE807        #  Was: LEFT
+          KEY_RIGHT                0x00000000A10CA807        #  Was: RIGHT
+          KEY_DOWN                 0x00000000A10C6807        #  Was: DOWN
+          KEY_SELECT               0x00000000A10C9807        #  Was: SELECT
+          TH_DOWN                  0x00000000A10C1807
+          TH_UP                    0x00000000A10C5807
+          KEY_VOLUMEUP             0x00000000A10C3807        #  Was: VOL_UP
+          KEY_VOLUMEDOWN           0x00000000A10CB807        #  Was: VOL_DOWN
+          KEY_MUTE                 0x00000000A10CD807        #  Was: MUTE
+          KEY_RECORD               0x00000000A10C040B        #  Was: RECORD
+          KEY_CHANNELUP            0x00000000A10C7807        #  Was: CH/PAGE_UP
+          KEY_CHANNELDOWN          0x00000000A10CF807        #  Was: CH/PAGE_DOWN
+          KEY_PLAY                 0x00000000A10C840B        #  Was: PLAY
+          KEY_REWIND               0x00000000A10C440B        #  Was: REWIND
+          KEY_PAUSE                0x00000000A10CC40B        #  Was: PAUSE
+          KEY_FORWARD              0x00000000A10C240B        #  Was: FORWARD
+          KEY_SLOW                 0x00000000A10CA40B        #  Was: SLOW
+          KEY_AGAIN                0x00000000A10C640B        #  Was: REPLAY
+          JUMP                     0x00000000A10CE40B
+          KEY_1                    0x00000000A10C140B        #  Was: 1
+          KEY_2                    0x00000000A10C940B        #  Was: 2
+          KEY_3                    0x00000000A10C540B        #  Was: 3
+          KEY_4                    0x00000000A10CD40B        #  Was: 4
+          KEY_5                    0x00000000A10C340B        #  Was: 5
+          KEY_6                    0x00000000A10CB40B        #  Was: 6
+          KEY_7                    0x00000000A10C740B        #  Was: 7
+          KEY_8                    0x00000000A10CF40B        #  Was: 8
+          KEY_9                    0x00000000A10C0C03        #  Was: 9
+          KEY_CLEAR                0x00000000A10C4C03        #  Was: CLEAR
+          KEY_0                    0x00000000A10C8C03        #  Was: 0
+          ENTER/LAST               0x00000000A10CCC03
+          X_KEY_1_TIVO             0x00000000A10CE08F        #  Was: KEY_1_TIVO
+          X_KEY_1_TV_POWER         0x00000000A10C0887        #  Was: KEY_1_TV_POWER
+          X_KEY_1_TV_INPUT         0x00000000A10C2C83        #  Was: KEY_1_TV_INPUT
+          X_KEY_1_WINDOW           0x00000000A10C228D        #  Was: KEY_1_WINDOW
+          X_KEY_1_LIVE_TV          0x00000000A10C8887        #  Was: KEY_1_LIVE_TV
+          X_KEY_1_INFO             0x00000000A10CC887        #  Was: KEY_1_INFO
+          X_KEY_1_GUIDE            0x00000000A10C6C83        #  Was: KEY_1_GUIDE
+          X_KEY_1_UP               0x00000000A10C2887        #  Was: KEY_1_UP
+          X_KEY_1_LEFT             0x00000000A10CE887        #  Was: KEY_1_LEFT
+          X_KEY_1_RIGHT            0x00000000A10CA887        #  Was: KEY_1_RIGHT
+          X_KEY_1_DOWN             0x00000000A10C6887        #  Was: KEY_1_DOWN
+          X_KEY_1_SELECT           0x00000000A10C9887        #  Was: KEY_1_SELECT
+          X_KEY_1_TH_DOWN          0x00000000A10C1887        #  Was: KEY_1_TH_DOWN
+          X_KEY_1_TH_UP            0x00000000A10C5887        #  Was: KEY_1_TH_UP
+          X_KEY_1_VOL_UP           0x00000000A10C3887        #  Was: KEY_1_VOL_UP
+          X_KEY_1_VOL_DOWN         0x00000000A10CB887        #  Was: KEY_1_VOL_DOWN
+          X_KEY_1_MUTE             0x00000000A10CD887        #  Was: KEY_1_MUTE
+          X_KEY_1_RECORD           0x00000000A10C048B        #  Was: KEY_1_RECORD
+          X_KEY_1_CH/PAGE_UP       0x00000000A10C7887        #  Was: KEY_1_CH/PAGE_UP
+          X_KEY_1_CH/PAGE_DOWN     0x00000000A10CF887        #  Was: KEY_1_CH/PAGE_DOWN
+          X_KEY_1_PLAY             0x00000000A10C848B        #  Was: KEY_1_PLAY
+          X_KEY_1_REWIND           0x00000000A10C448B        #  Was: KEY_1_REWIND
+          X_KEY_1_PAUSE            0x00000000A10CC48B        #  Was: KEY_1_PAUSE
+          X_KEY_1_FORWARD          0x00000000A10C248B        #  Was: KEY_1_FORWARD
+          X_KEY_1_SLOW             0x00000000A10CA48B        #  Was: KEY_1_SLOW
+          X_KEY_1_REPLAY           0x00000000A10C648B        #  Was: KEY_1_REPLAY
+          X_KEY_1_JUMP             0x00000000A10CE48B        #  Was: KEY_1_JUMP
+          KEY_1                    0x00000000A10C148B        #  Was: 1_1
+          KEY_2                    0x00000000A10C948B        #  Was: 1_2
+          KEY_3                    0x00000000A10C548B        #  Was: 1_3
+          KEY_4                    0x00000000A10CD48B        #  Was: 1_4
+          KEY_5                    0x00000000A10C348B        #  Was: 1_5
+          KEY_6                    0x00000000A10CB48B        #  Was: 1_6
+          KEY_7                    0x00000000A10C748B        #  Was: 1_7

@@ -1,0 +1,88 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.6(default) on Wed Jan 20 18:27:08 2010
+#
+# contributed by Willem Bleymueller <willem at crossbone.org>
+#
+# brand: Cyberhome
+# model no. of remote control: CH DVD 402
+# devices being controlled by this remote: DVD Player
+# ############################################
+# Comment
+# I use this remote as controller for mythtv
+# because of this I renamed some of the buttons
+# The key 'C' of the number pad is remapped to ESC because this remote has no 'Exit / Back' Button
+# There are also no keys for Volume UP /DOWN on this remote
+# I mapped Volume UP/DOWN on the effect and Return keys
+# The config file was created with a serial receiver ( selfmade )
+# ############################################
+
+begin remote
+
+  name  Cyberhome_CH-DVD_402
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9018  4487
+  one           570  1677
+  zero          570   554
+  ptrail        572
+  repeat       9020  2238
+  pre_data_bits   16
+  pre_data       0x4EB3
+  gap          107959
+  toggle_bit_mask 0x0
+
+      begin codes
+          KEY_POWER                0x708F
+          KEY_EJECTCLOSECD         0x58A7
+          KEY_TITLE                0x02FD
+          KEY_MENU                 0x40BF
+          KEY_SETUP                0x827D
+          KEY_DISPLAYTOGGLE        0x0AF5
+          KEY_AUDIO                0x6897
+          KEY_ANGLE                0x2AD5
+          KEY_MUTE                 0xE01F
+          KEY_GOTO                 0x48B7
+          KEY_SUBTITLE             0x1AE5
+          KEY_UP                   0x22DD
+          KEY_LEFT                 0x38C7
+          KEY_RIGHT                0x12ED
+          KEY_DOWN                 0xB847
+          KEY_ENTER                0x3AC5
+          KEY_REWIND               0xF807
+          KEY_FORWARD              0xBA45
+          KEY_BACK                 0x18E7
+          KEY_NEXT                 0x9867
+          KEY_PLAY                 0x609F
+          KEY_PAUSE                0x9A65
+          KEY_SLOW                 0xD827
+          KEY_STOP                 0x7887
+          KEY_1                    0xC837
+          KEY_2                    0x08F7
+          KEY_3                    0x8877
+          KEY_4                    0xF00F
+          KEY_5                    0x30CF
+          KEY_6                    0xB04F
+          KEY_7                    0xD02F
+          KEY_8                    0x10EF
+          KEY_9                    0x906F
+          KEY_0                    0x926D
+# KEY_ESC is the C BUTTON on the remote
+          KEY_ESC                  0x8A75
+          KEY_PROGRAM              0xA857
+          KEY_ZOOM                 0xE817
+          KEY_BOOKMARKS            0xAA55
+          KEY_MEDIA_REPEAT         0xC03F
+          KEY_102ND                0xB24D
+# KEY_VOLUMEUP is the EFFECT BUTTON on the remote
+	  KEY_VOLUMEUP             0xA05F
+# KEY_VOLUMEDOWN is the RETURN BUTTON on the remote
+          KEY_VOLUMEDOWN           0x50AF
+      end codes
+
+end remote
+
+

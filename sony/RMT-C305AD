@@ -1,0 +1,66 @@
+#
+# this config file was automatically generated
+# using WinLIRC 0.6.4 (LIRC 0.6.1pre3) on Thu Dec 19 17:51:41 2002
+#
+# contributed by Niels van Groningen
+#
+# brand:             Sony
+# model:             RMT-C305AD
+# supported devices: CD/Radio/Cassette
+#
+
+begin remote
+
+  name  Sony-RMT-C305AD
+  bits           14
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  header       2467   494
+  one          1271   494
+  zero          672   494
+  ptrail        672
+  gap          22024
+  toggle_bit      0
+
+
+      begin codes
+          KEY_SLEEP                0x0000000000002191        #  Was: Standby
+          KEY_SLEEP                0x0000000000000191        #  Was: Sleep
+          KEY_POWER                0x0000000000002A11        #  Was: Power
+          KEY_1                    0x0000000000000013        #  Was: 1
+          KEY_2                    0x0000000000002013        #  Was: 2
+          KEY_3                    0x0000000000001013        #  Was: 3
+          KEY_4                    0x0000000000003013        #  Was: 4
+          KEY_5                    0x0000000000000813        #  Was: 5
+          KEY_6                    0x0000000000002813        #  Was: 6
+          KEY_7                    0x0000000000001813        #  Was: 7
+          KEY_8                    0x0000000000003813        #  Was: 8
+          KEY_9                    0x0000000000000413        #  Was: 9
+          KEY_MODE                 0x0000000000002211        #  Was: Mode
+          KEY_0                    0x0000000000000C13        #  Was: 0/10
+          >10                      0x0000000000002C13
+          Function                 0x0000000000003891
+          Timer/Clock              0x0000000000001191
+          Display/Enter            0x0000000000000213
+          Counter-reset            0x0000000000001291
+          KEY_VOLUMEUP             0x0000000000001211        #  Was: Volume+
+          KEY_VOLUMEDOWN           0x0000000000003211        #  Was: Volume-
+          KEY_PLAY                 0x0000000000001313        #  Was: Play
+          KEY_PAUSE                0x0000000000002713        #  Was: Pause
+          KEY_STOP                 0x0000000000000713        #  Was: Stop
+          Radio/Band               0x0000000000003D93
+          KEY_REWIND               0x0000000000000B93        #  Was: Rewind
+          KEY_FORWARD              0x0000000000003393        #  Was: Forward
+          TapeStop                 0x0000000000000611
+          TapePlayBack             0x0000000000002E11
+          TapePlayForward          0x0000000000001611
+          TapeRecord               0x0000000000003E11
+          TapeRewind               0x0000000000003611
+          TapeForward              0x0000000000000E11
+      end codes
+
+end remote
+
+

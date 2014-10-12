@@ -1,0 +1,84 @@
+# Here is the configuration from a airconditioning remote. It's created for a
+# Hokkaido airconditioning but many brand's use the same code's i.e. maiko.
+
+begin remote
+
+  name  Hokkaido_Airconditioner
+  bits           32
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       4420  4346
+  one           585  1568
+  zero          585   497
+  ptrail        585
+  pre_data_bits   16
+  pre_data       0xB24D
+  gap          92168
+  min_repeat      1
+  toggle_bit_mask 0x0
+
+      begin codes
+          fanlow                   0x9F60E41B
+          fanmed                   0x5FA0E41B
+          fanhigh                  0x3FC0E41B
+          cool17low                0x9F6000FF
+          cool17med                0x5FA000FF
+          cool17high               0x3FC000FF
+          cool18low                0x9F6010EF
+          cool18med                0x5FA010EF
+          cool18high               0x3FC010EF
+          cool19low                0x9F6030CF
+          cool19med                0x5FA030CF
+          cool19high               0x3FC030CF
+          cool20low                0x9F6020DF
+          cool20med                0x5FA020DF
+          cool20high               0x3FC020DF
+          cool21low                0x9F60609F
+          cool21med                0x5FA0609F
+          cool21high               0x3FC0609F
+          cool22low                0x9F60708F
+          cool22med                0x5FA0708F
+          cool22high               0x3FC0708F
+          cool23low                0x9F6050AF
+          cool23med                0x5FA050AF
+          cool23high               0x3FC050AF
+          cool24low                0x9F6040BF
+          cool24med                0x5FA040BF
+          cool24high               0x3FC040BF
+          cool25low                0x9F60C03F
+          cool25med                0x5FA0C03F
+          cool25high               0x3FC0C03F
+          heat17low                0x9F600CF3
+          heat17med                0x5FA00CF3
+          heat17high               0x3FC00CF3
+          heat18low                0x9F601CE3
+          heat18med                0x5FA01CE3
+          heat18high               0x3FC01CE3
+          heat19low                0x9F603CC3
+          heat19med                0x5FA03CC3
+          heat19high               0x3FC03CC3
+          heat20low                0x9F602CD3
+          heat20med                0x5FA02CD3
+          heat20high               0x3FC02CD3
+          heat21low                0x9F606C93
+          heat21med                0x5FA06C93
+          heat21high               0x3FC06C93
+          heat22low                0x9F607C83
+          heat22med                0x5FA07C83
+          heat22high               0x3FC07C83
+          heat23low                0x9F605CA3
+          heat23med                0x5FA05CA3
+          heat23high               0x3FC05CA3
+          heat24low                0x9F604CB3
+          heat24med                0x5FA04CB3
+          heat24high               0x3FC04CB3
+          heat25low                0x9F60CC33
+          heat25med                0x5FA0CC33
+          heat25high               0x3FC0CC33
+          off                      0x7B84E01F
+      end codes
+
+end remote
+

@@ -1,0 +1,50 @@
+#
+# this config file was automatically generated
+# using lirc-0.7.1pre2(any) on Sun Apr  9 14:51:46 2006
+#
+# contributed by Thomas Creutz
+#
+# brand:   Epson
+# model no. of remote control: 126644900 / ELPST12
+# devices being controlled by this remote: ??
+#
+
+begin remote
+
+  name  Epson_ELPST12
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9028  4409
+  one           621  1626
+  zero          621   494
+  ptrail        621
+  pre_data_bits   16
+  pre_data       0xC1AA
+  gap          107631
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x09F6                    #  Was: POWER
+          INPUT-A-B                0xB946
+          KEY_VIDEO                0x39C6                    #  Was: VIDEO
+          COLOR-MODE               0xF10E
+          ASPECT                   0x51AE
+          MEMORY                   0xD12E
+          KEY_MENU                 0x59A6                    #  Was: MENU
+          KEY_ESC                  0x21DE                    #  Was: ESC
+          KEY_MUTE                 0xC936                    #  Was: MUTE
+          KEY_PAUSE                0x49B6                    #  Was: PAUSE
+          AUTO                     0x7986
+          KEY_UP                   0x0DF2                    #  Was: UP
+          KEY_DOWN                 0x4DB2                    #  Was: DOWN
+          KEY_LEFT                 0xCD32                    #  Was: LEFT
+          KEY_RIGHT                0x8D72                    #  Was: RIGHT
+          KEY_SELECT               0xA15E                    #  Was: SELECT
+      end codes
+
+end remote
+

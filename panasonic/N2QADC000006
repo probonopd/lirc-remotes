@@ -1,0 +1,51 @@
+#
+# this config file was automatically generated
+# using WinLIRC 0.6.5 (LIRC 0.6.1pre3) on Tue Aug 17 12:57:08 2004
+#
+# contributed by florian.steinhardt|web.de
+#
+# brand:             Panasonic
+# model:             N2QADC000006
+# supported devices: PT-AE100E LCD Projector
+#
+
+begin remote
+
+  name  Panasonic_N2QADC000006
+  bits           16
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  header       3572  1688
+  one           465  1252
+  zero          465   384
+  ptrail        465
+  pre_data_bits   40
+  pre_data       0x4004011200
+  gap          74066
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x000000000000BCAF        #  Was: power
+          input                    0x000000000000B6A5
+          aspect                   0x0000000000007B68
+          KEY_MUTE                 0x0000000000009E8D        #  Was: mute
+          KEY_VOLUMEDOWN           0x0000000000008497        #  Was: volume-
+          KEY_VOLUMEUP             0x0000000000000417        #  Was: volume+
+          KEY_MENU                 0x0000000000005E4D        #  Was: menu
+          KEY_UP                   0x0000000000005A49        #  Was: up
+          KEY_F                    0x0000000000009083        #  Was: f
+          KEY_LEFT                 0x0000000000003A29        #  Was: left
+          KEY_ENTER                0x0000000000004E5D        #  Was: enter
+          KEY_RIGHT                0x000000000000BAA9        #  Was: right
+          norm                     0x0000000000008695
+          KEY_DOWN                 0x000000000000DAC9        #  Was: down
+          digitalzoom-             0x000000000000A0B3
+          digitalzoom+             0x0000000000002033
+      end codes
+
+end remote
+
+

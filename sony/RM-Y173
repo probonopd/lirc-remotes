@@ -1,0 +1,61 @@
+#
+# this config file was automatically generated
+# using WinLIRC 0.6.4 (LIRC 0.6.1pre3) on Tue Feb 18 17:20:35 2003
+#
+# contributed by
+#
+# brand:             Sony
+# model:             RM-Y173
+# supported devices:
+#
+
+begin remote
+
+  name  SONY_RM-Y173
+  bits           12
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  header       2485   527
+  one          1262   527
+  zero          656   527
+  gap          25747
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0xA90                     #  Was: POWER
+          KEY_MUTE                 0x290                     #  Was: MUTE
+          KEY_SLEEP                0x6D0                     #  Was: SLEEP
+          KEY_ENTER                0xD10                     #  Was: ENTER
+          KEY_UP                   0x2F0                     #  Was: UP
+          KEY_DOWN                 0xAF0                     #  Was: DOWN
+          KEY_LEFT                 0x2D0                     #  Was: LEFT
+          KEY_RIGHT                0xCD0                     #  Was: RIGHT
+          CENTER                   0xA70
+          KEY_MENU                 0x070                     #  Was: MENU
+          KEY_VOLUMEUP             0x490                     #  Was: VOL_UP
+          KEY_VOLUMEDOWN           0xC90                     #  Was: VOL_DOWN
+          KEY_CHANNELUP            0x090                     #  Was: CH_UP
+          KEY_CHANNELDOWN          0x890                     #  Was: CH_DOWN
+          RESET                    0x690
+          TV_VIDEO                 0xA50
+          DISPLAY                  0x5D0
+          MTS_SAP                  0xE90
+          JUMP                     0xDD0
+          KEY_1                    0x010                     #  Was: 1
+          KEY_2                    0x810                     #  Was: 2
+          KEY_3                    0x410                     #  Was: 3
+          KEY_4                    0xC10                     #  Was: 4
+          KEY_5                    0x210                     #  Was: 5
+          KEY_6                    0xA10                     #  Was: 6
+          KEY_7                    0x610                     #  Was: 7
+          KEY_8                    0xE10                     #  Was: 8
+          KEY_9                    0x110                     #  Was: 9
+          KEY_0                    0x910                     #  Was: 0
+      end codes
+
+end remote
+
+

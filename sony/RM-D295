@@ -1,0 +1,60 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.1 on Mon Aug  7 11:02:37 2000
+#
+# contributed by Mikael Magnusson
+#
+# brand:             Sony
+# model:             RM-D295
+# supported devices: CD
+#
+
+begin remote
+
+  name  RM-D295
+  bits            7
+  flags SPACE_ENC|CONST_LENGTH|REVERSE
+  eps            30
+  aeps          100
+
+  header       2572   463
+  one          1250   570
+  zero          636   570
+  ptrail       1172
+  post_data_bits  4
+  post_data      0x1
+  gap          45165
+  toggle_bit      0
+  min_repeat      2
+
+
+      begin codes
+          KEY_1                    0x0                       #  Was: 1
+          KEY_2                    0x1                       #  Was: 2
+          KEY_3                    0x2                       #  Was: 3
+          KEY_4                    0x3                       #  Was: 4
+          KEY_5                    0x4                       #  Was: 5
+          KEY_6                    0x5                       #  Was: 6
+          KEY_7                    0x6                       #  Was: 7
+          KEY_8                    0x7                       #  Was: 8
+          KEY_9                    0x8                       #  Was: 9
+          KEY_0                    0x9                       #  Was: 0
+        CONTINUE 0x1d
+        PROGRAM 0x1f
+          KEY_0                    0x20                      #  Was: 10
+        >10     0x27
+          KEY_TIME                 0x28                      #  Was: TIME
+          KEY_AGAIN                0x2c                      #  Was: REPEAT
+          KEY_PREVIOUS             0x30                      #  Was: PREV
+          KEY_NEXT                 0x31                      #  Was: NEXT
+          KEY_PLAY                 0x32                      #  Was: PLAY
+          KEY_REWIND               0x33                      #  Was: REW
+          KEY_FASTFORWARD          0x34                      #  Was: FF
+        SHUFFLE 0x35
+          KEY_STOP                 0x38                      #  Was: STOP
+          KEY_PAUSE                0x39                      #  Was: PAUSE
+        M.SCAN  0x3c
+        FADER   0x5f
+      end codes
+
+end remote

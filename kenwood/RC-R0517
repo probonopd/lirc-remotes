@@ -1,0 +1,93 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.2(default) on Sat Jan 26 17:46:55 2008
+#
+# contributed by
+#
+# brand:                       Kenwood
+# model no. of remote control: RC-R0517 press CD_DVD to enable ENTER,MENU,ARROW_UP
+# devices being controlled by this remote:
+#
+
+begin remote
+
+  name  Kenwood_RC-R0517
+  bits           32
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9052  4390
+  one           642  1586
+  zero          642   486
+  ptrail        641
+  repeat       9053  2163
+  gap          107459
+  toggle_bit_mask 0x0
+
+      begin codes
+          AUTO_MEM_ANGLE           0x6D30C33C
+          KEY_ENTER                0x6D30CB34                #  Was: ENTER
+          KEY_0                    0x6D3000FF                #  Was: ZERO
+          KEY_VOLUMEUP             0x1D00D926                #  Was: VOLUME_UP
+          KEY_VOLUMEDOWN           0x1D0059A6                #  Was: VOLUME_DOWN
+          KEY_PLAY                 0x6D30C837                #  Was: PLAY
+          MEMORY_REPEAT            0x6D309867
+          KEY_DVD                  0x6D308976                #  Was: DVD_POWER
+          KEY_RECORD               0x1D00B946                #  Was: RECEIVER_POWER
+          RDS_DISP_AUDIO           0x6D30936C
+          PTY_SUBTITLE             0x6D30A35C
+          DIMMER                   0x1D40B847
+          ACTIVE_EQ                0x1D6012ED
+          KEY_1                    0x6D30807F                #  Was: ONE
+          KEY_2                    0x6D3040BF                #  Was: TWO
+          KEY_3                    0x6D30C03F                #  Was: THREE
+          KEY_4                    0x6D3020DF                #  Was: FOUR
+          KEY_5                    0x6D30A05F                #  Was: FIVE
+          KEY_6                    0x6D30609F                #  Was: SIX
+          KEY_7                    0x6D30E01F                #  Was: SEVEN
+          KEY_8                    0x6D3010EF                #  Was: EIGHT
+          KEY_9                    0x6D30906F                #  Was: NINE
+          PLUS_TEN                 0x6D3050AF
+          KEY_0                    0x6D3000FF                #  Was: ZERO
+          BASE_BOOST               0x1D40EA15
+          TONE                     0x1D80AB54
+          SOUND                    0x1D80EA15
+          KEY_SETUP                0x1DC09867                #  Was: SETUP
+          EASY_SETUP               0x1D60C23D
+          LISTEN_MODE              0x1D00FB04
+          PURE_AUDIO_MODE          0x1DE018E7
+          MULTI_CONTROL_DOWN       0x1D802AD5
+          MULTI_CONTROL_UP         0x1D80AA55
+          KEY_ENTER                0x6D30CB34                #  Was: ENTER
+          ARROW_UP                 0x6D306B94
+          ARROW_DOWN               0x6D30EB14
+          ARROW_LEFT               0x6D301BE4
+          ARROW_RIGHT              0x6D309B64
+          TOP_MENU                 0x6D30837C
+          KEY_MENU                 0x6D3043BC                #  Was: MENU
+          KEY_ENTER                0x6D3023DC                #  Was: RETURN
+          KEY_POWER                0x6D30FA05                #  Was: ON_SCREEN
+          KEY_VOLUMEUP             0x1D00D926                #  Was: VOLUME_UP
+          KEY_VOLUMEDOWN           0x1D0059A6                #  Was: VOLUME_DOWN
+          KEY_PAUSE                0x6D3048B7                #  Was: PAUSE
+          KEY_PLAY                 0x6D30C837                #  Was: PLAY
+          KEY_STOP                 0x6D308877                #  Was: STOP
+          KEY_MUTE                 0x1D0039C6                #  Was: MUTE
+          KEY_PREVIOUS             0x6D306897                #  Was: PREV
+          KEY_NEXT                 0x6D30E817                #  Was: NEXT
+          REVERSE                  0x6D3028D7
+          KEY_FORWARD              0x6D30A857                #  Was: FORWARD
+          KEY_TUNER                0x1D008976                #  Was: TUNER
+          CD_DVD                   0x1D0049B6
+          MD_TAPE                  0x1D00A956
+          AV_AUX                   0x1D00C936
+          KEY_VIDEO                0x1D006996                #  Was: VIDEO1
+          KEY_VIDEO                0x1D0040BF                #  Was: VIDEO2
+          KEY_DVD                  0x1DC001FE                #  Was: DVD_6CH
+          KEY_AUX                  0x1D0051AE                #  Was: AUX
+      end codes
+
+end remote
+
+

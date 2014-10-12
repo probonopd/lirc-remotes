@@ -1,0 +1,57 @@
+begin remote
+
+  name  SONYRM-893
+  bits           11
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  header       2425   557
+  one          1210   557
+  zero          610   557
+  ptrail        610
+  gap          25498
+  toggle_bit      0
+
+
+      begin codes
+          TVPOWER                  0x0000000000000548
+          KEY_VIDEO                0x0000000000000544        #  Was: VIDEOPOWER
+          KEY_MUTE                 0x0000000000000148        #  Was: MUTE
+          KEY_RED                  0x000000000000019C        #  Was: RED
+          KEY_YELLOW               0x000000000000039C        #  Was: YELLOW
+          KEY_BLUE                 0x000000000000079C        #  Was: BLUE
+          KEY_VOLUMEUP             0x0000000000000248        #  Was: VOL+
+          KEY_VOLUMEDOWN           0x0000000000000648        #  Was: VOL-
+          KEY_CHANNELUP            0x0000000000000048        #  Was: PROG+
+          KEY_CHANNELDOWN          0x0000000000000448        #  Was: PROG-
+          KEY_MENU                 0x0000000000000038        #  Was: MENU
+          JOYSTICKUP               0x0000000000000178
+          JOYSTICKDOWN             0x0000000000000578
+          JOYSTICKLEFT             0x0000000000000168
+          JOYSTICKRIGHT            0x0000000000000668
+          KEY_1                    0x0000000000000008        #  Was: 1
+          KEY_2                    0x0000000000000408        #  Was: 2
+          KEY_3                    0x0000000000000208        #  Was: 3
+          KEY_4                    0x0000000000000608        #  Was: 4
+          KEY_5                    0x0000000000000108        #  Was: 5
+          KEY_6                    0x0000000000000508        #  Was: 6
+          KEY_7                    0x0000000000000308        #  Was: 7
+          KEY_8                    0x0000000000000708        #  Was: 8
+          KEY_9                    0x0000000000000088        #  Was: 9
+          KEY_0                    0x0000000000000488        #  Was: 0
+          KEY_102ND                0x00000000000005C8        #  Was: -/--
+          <..>                     0x00000000000006E8
+          KEY_TIME                 0x00000000000006AC        #  Was: TIME
+          KEY_PLAY                 0x00000000000002C4        #  Was: PLAY
+          KEY_STOP                 0x00000000000000C4        #  Was: STOP
+          KEY_RECORD               0x00000000000005C4        #  Was: REC
+          KEY_CHANNELUP            0x0000000000000044        #  Was: CH+
+          KEY_CHANNELDOWN          0x0000000000000444        #  Was: CH-
+          KEY_FASTFORWARD          0x00000000000001C4        #  Was: FASTFORWARD
+          FASTREVERSE              0x00000000000006C4
+          KEY_PAUSE                0x00000000000004C4        #  Was: PAUSE
+      end codes
+
+end remote
+

@@ -1,0 +1,76 @@
+#
+# this config file was automatically generated
+# using WinLIRC 0.6.5 (LIRC 0.6.1pre3) on Tue Apr 04 06:16:24 2006
+#
+# contributed by
+#
+# brand:             301/501/3100/5100/58xx/59xx
+# model:         
+# supported devices:
+#
+
+begin remote
+
+  name  301/501/3100/5100/58xx/59xx
+  bits           16
+  flags SPACE_ENC
+  eps            30
+  aeps          100
+
+  header        400  6100
+  one           400  1700
+  zero          400  2800
+  ptrail        400
+  gap          6200
+  min_repeat      4
+  toggle_bit      0
+
+  frequency    56000
+
+      begin codes
+          KEY_INFO                 0x0000000000000000        #  Was: info
+          KEY_POWER                0x0000000000000800        #  Was: power
+          KEY_PLAY                 0x0000000000000C10        #  Was: play
+          KEY_1                    0x0000000000001000        #  Was: 1
+          KEY_2                    0x0000000000001400        #  Was: 2
+          KEY_3                    0x0000000000001800        #  Was: 3
+          frwd                     0x0000000000001C10
+          KEY_4                    0x0000000000002000        #  Was: 4
+          KEY_5                    0x0000000000002400        #  Was: 5
+          KEY_6                    0x0000000000002800        #  Was: 6
+          KEY_MENU                 0x0000000000002C00        #  Was: menu
+          KEY_7                    0x0000000000003000        #  Was: 7
+          KEY_8                    0x0000000000003400        #  Was: 8
+          KEY_9                    0x0000000000003800        #  Was: 9
+          KEY_FASTFORWARD          0x0000000000003C10        #  Was: ffwd
+          KEY_SELECT               0x0000000000004000        #  Was: select
+          KEY_0                    0x0000000000004400        #  Was: 0
+          KEY_CANCEL               0x0000000000004800        #  Was: cancel
+          KEY_INFO                 0x0000000000005000        #  Was: guide
+          KEY_MUTE                 0x0000000000005401        #  Was: mute
+          view                     0x0000000000005800
+          tv_video                 0x0000000000005C00
+          KEY_RIGHT                0x0000000000006000        #  Was: right
+          KEY_VOLUMEUP             0x0000000000006401        #  Was: vol+
+          KEY_UP                   0x0000000000006800        #  Was: up
+          KEY_AGAIN                0x0000000000006C00        #  Was: recall
+          KEY_LEFT                 0x0000000000007000        #  Was: left
+          KEY_VOLUMEDOWN           0x0000000000007401        #  Was: vol-
+          KEY_DOWN                 0x0000000000007800        #  Was: down
+          KEY_RECORD               0x0000000000007C00        #  Was: rec
+          KEY_PAUSE                0x0000000000008000        #  Was: pause
+          KEY_STOP                 0x0000000000008400        #  Was: stop
+          sys_info                 0x0000000000009000
+          \*/ptv_list              0x0000000000009400        #  Was: \*/ptv_list
+          #/search                 0x0000000000009800
+          KEY_SAT                  0x000000000000A400        #  Was: sat
+          KEY_TV                   0x000000000000A801        #  Was: tv
+          KEY_REWIND               0x000000000000C410        #  Was: rew
+          KEY_FORWARD              0x000000000000C810        #  Was: fwd
+          skip_back                0x000000000000D810
+          skip_fwd                 0x000000000000DC10
+      end codes
+
+end remote
+
+

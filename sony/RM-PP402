@@ -1,0 +1,727 @@
+#
+# this config file was automatically generated
+# using lirc-WinLIRC 0.6.1pre2 (LIRC 0.6.1pre2) on Sun Mar 03 01:29:57 2002
+#
+# contributed by
+#
+# brand:             Sony
+# model:             RM-PP402
+# supported devices: Sony CD Player
+#
+
+begin remote
+
+  name  RM
+  bits            7
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  header       2422   565
+  one           604   565
+  zero         1198   565
+  ptrail       1198
+  post_data_bits  4
+  post_data      0x7
+  gap          25614
+  toggle_bit      0
+
+
+      begin codes
+          cd_play                  0x0000000000000059
+          cd_pause                 0x0000000000000031
+          cd_stop                  0x0000000000000071
+          cd_last                  0x0000000000000079
+          cd_next                  0x0000000000000039
+          cd_rwnd                  0x0000000000000019
+          cd_ffwd                  0x0000000000000069
+          cd_disc                  0x0000000000000056
+          cd_skip                  0x0000000000000041
+          cd_shift                 0x000000000000000D
+          cd_enter                 0x0000000000000017
+          cd_1                     0x000000000000007F
+          cd_2                     0x000000000000003F
+          cd_3                     0x000000000000005F
+          cd_4                     0x000000000000001F
+          cd_5                     0x000000000000006F
+          cd_6                     0x000000000000002F
+          cd_7                     0x000000000000004F
+          cd_8                     0x000000000000000F
+          cd_9                     0x0000000000000077
+          cd_0                     0x000000000000007D
+          cd_off                   0x000000000000002B
+      end codes
+
+end remote
+
+
+
+#
+# this config file was automatically generated
+# using lirc-WinLIRC 0.6.1pre2 (LIRC 0.6.1pre2) on Sun Mar 03 01:44:56 2002
+#
+# contributed by
+#
+# brand:             Sony
+# model:             RM-PP402
+# supported devices: Sony Minidisc deck
+#
+
+begin remote
+
+  name  rm
+  bits            6
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  header       2429   561
+  one          1200   561
+  zero          607   561
+  ptrail        607
+  post_data_bits  5
+  post_data      0xF
+  gap          23807
+  toggle_bit      0
+
+
+      begin codes
+          md_record                0x000000000000002D
+          md_play                  0x0000000000000015
+          md_stop                  0x0000000000000005
+          md_pause                 0x0000000000000025
+          md_last                  0x0000000000000001
+          md_next                  0x0000000000000021
+          md_ffwd                  0x000000000000000D
+          md_rwnd                  0x0000000000000035
+          md_enter                 0x0000000000000037
+          md_shift                 0x0000000000000014
+          md_off                   0x000000000000002A
+          md_1                     0x0000000000000000
+          md_2                     0x0000000000000020
+          md_3                     0x0000000000000010
+          md_4                     0x0000000000000030
+          md_5                     0x0000000000000008
+          md_6                     0x0000000000000028
+          md_7                     0x0000000000000018
+          md_8                     0x0000000000000038
+          md_9                     0x0000000000000004
+          md_0                     0x0000000000000024
+      end codes
+
+end remote
+
+
+
+#
+# this config file was automatically generated
+# using lirc-WinLIRC 0.6.1pre2 (LIRC 0.6.1pre2) on Sat Mar 02 23:37:37 2002
+#
+# contributed by
+#
+# brand:             Sony
+# model:             RM-PP402
+# supported devices: Receiver input selection
+#
+
+begin remote
+
+  name  rm-pp402
+  bits            7
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  header       2452   551
+  one          1210   551
+  zero          620   551
+  ptrail       1210
+  post_data_bits  4
+  post_data      0x0
+  gap          24389
+  toggle_bit      0
+
+
+      begin codes
+          sel_dvd                  0x000000000000005F
+          sel_tape                 0x0000000000000062
+          sel_md                   0x000000000000004B
+          sel_video1               0x0000000000000022
+          sel_video2               0x000000000000003C
+          sel_video3               0x0000000000000021
+          sel_tv                   0x000000000000002B
+          sel_cd                   0x0000000000000052
+          sel_tuner                0x0000000000000042
+          sel_phono                0x0000000000000002
+          sel_51                   0x0000000000000027
+      end codes
+
+end remote
+
+
+
+#
+# this config file was automatically generated
+# using lirc-WinLIRC 0.6.1pre2 (LIRC 0.6.1pre2) on Sat Mar 02 23:44:31 2002
+#
+# contributed by
+#
+# brand:             Sony
+# model:             RM-PP402
+# supported devices: Receiver Volume selection & sleep mode
+# Not recommended to include; receiver internal operations
+
+begin remote
+
+  name  rm
+  bits            7
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  header       2455   548
+  one           624   548
+  zero         1217   548
+  ptrail       1217
+  post_data_bits  4
+  post_data      0xF
+  gap          26765
+  toggle_bit      0
+
+
+      begin codes
+          rc_vol_inc               0x000000000000005B
+          rc_vol_dec               0x000000000000001B
+          rc_mute                  0x000000000000006B
+          rc_sleep                 0x000000000000007C
+      end codes
+
+end remote
+
+
+
+#
+# this config file was automatically generated
+# using lirc-WinLIRC 0.6.1pre2 (LIRC 0.6.1pre2) on Sun Mar 03 01:22:00 2002
+#
+# contributed by
+#
+# brand:             Sony
+# model:             RM-PP402
+# supported devices: Sony Tape deck
+#
+
+begin remote
+
+  name  rm
+  bits            6
+  flags SPACE_ENC
+  eps            30
+  aeps          100
+
+  header       2429   564
+  one           610   564
+  zero         1203   564
+  ptrail        610
+  post_data_bits  5
+  post_data      0x18
+  gap          24947
+  toggle_bit      0
+
+
+      begin codes
+          tape_play                0x0000000000000029
+          tape_backplay            0x000000000000003E
+          tape_pause               0x0000000000000019
+          tape_stop                0x0000000000000039
+          tape_last                0x000000000000003C
+          tape_next                0x000000000000001C
+          tape_rwnd                0x0000000000000009
+          tape_ffwd                0x0000000000000031
+          tape_record              0x0000000000000021
+          tape_shift               0x0000000000000006
+          tape_enter               0x000000000000002B
+          tape_1                   0x000000000000003F
+          tape_2                   0x000000000000001F
+          tape_3                   0x000000000000002F
+          tape_4                   0x000000000000000F
+          tape_5                   0x0000000000000037
+          tape_6                   0x0000000000000017
+          tape_7                   0x0000000000000027
+          tape_8                   0x0000000000000007
+          tape_9                   0x000000000000003B
+          tape_0                   0x000000000000001B
+      end codes
+
+end remote
+
+
+
+#
+# this config file was automatically generated
+# using lirc-WinLIRC 0.6.1pre2 (LIRC 0.6.1pre2) on Sun Mar 03 02:39:33 2002
+#
+# contributed by
+#
+# brand:             Sony
+# model:             RM-PP402
+# supported devices: Sony Tuner built into Receiver
+# Not recommended for use, as tuner also reacts on commands
+
+begin remote
+
+  name  rm
+  bits            7
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  header       2428   565
+  one           605   565
+  zero         1198   565
+  ptrail        605
+  post_data_bits  4
+  post_data      0x4
+  gap          26772
+  toggle_bit      0
+
+
+      begin codes
+          tu_1                     0x000000000000007F
+          tu_2                     0x000000000000003F
+          tu_3                     0x000000000000005F
+          tu_4                     0x000000000000001F
+          tu_5                     0x000000000000006F
+          tu_6                     0x000000000000002F
+          tu_7                     0x000000000000004F
+          tu_8                     0x000000000000000F
+          tu_9                     0x0000000000000077
+          tu_0                     0x0000000000000037
+          tu_shift                 0x0000000000000019
+          tu_enter                 0x000000000000001A
+          tu_ch_inc                0x000000000000007B
+          tu_ch_dec                0x000000000000003B
+      end codes
+
+end remote
+
+
+
+#
+# this config file was automatically generated
+# using lirc-WinLIRC 0.6.1pre2 (LIRC 0.6.1pre2) on Sun Mar 03 02:29:57 2002
+#
+# contributed by
+#
+# brand:             Sony
+# model:             RM-PP402
+# supported devices: Sony TV
+# There are 2 TV off modes: one when in receiver TV mode, one when
+# switching remote to full TV control (button flashes red). Last
+# one doesn't work with real Sony TV's.
+# Not recommended for use if you have a Sony TV
+
+begin remote
+
+  name  rm
+  bits            6
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  header       2428   561
+  one           618   561
+  zero         1214   561
+  ptrail        618
+  post_data_bits  5
+  post_data      0x17
+  gap          27936
+  toggle_bit      0
+
+
+      begin codes
+          tv_1                     0x000000000000003F
+          tv_2                     0x000000000000001F
+          tv_3                     0x000000000000002F
+          tv_4                     0x000000000000000F
+          tv_5                     0x0000000000000037
+          tv_6                     0x0000000000000017
+          tv_7                     0x0000000000000027
+          tv_8                     0x0000000000000007
+          tv_9                     0x000000000000003B
+          tv_0                     0x000000000000001B
+          tv_shift                 0x0000000000000011
+          tv_enter                 0x000000000000000B
+          tv_ch_inc                0x000000000000003D
+          tv_ch_dec                0x000000000000001D
+          tv_off                   0x0000000000000015
+          tv_off                   0x0000000000000002
+          tv_vol_inc               0x000000000000002D
+          tv_vol_dec               0x000000000000000D
+          tv_mute                  0x0000000000000035
+      end codes
+
+end remote
+
+
+
+#
+# this config file was automatically generated
+# using lirc-WinLIRC 0.6.1pre2 (LIRC 0.6.1pre2) on Sun Mar 03 01:33:46 2002
+#
+# contributed by
+#
+# brand:             Sony
+# model:             RM-PP402
+# supported devices: Sony VCR menus
+#
+
+begin remote
+
+  name  rm
+  bits            6
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  header       2404   572
+  one          1185   572
+  zero          596   572
+  ptrail        595
+  post_data_bits  5
+  post_data      0x1E
+  gap          24371
+  toggle_bit      0
+
+
+      begin codes
+          vcr_menu                 0x000000000000002C
+          vcr_left                 0x0000000000000011
+          vcr_up                   0x0000000000000010
+          vcr_down                 0x0000000000000030
+          vcr_right                0x0000000000000021
+          vcr_enter                0x0000000000000022
+      end codes
+
+end remote
+
+
+
+#
+# this config file was automatically generated
+# using lirc-WinLIRC 0.6.1pre2 (LIRC 0.6.1pre2) on Sat Mar 02 23:55:17 2002
+#
+# contributed by
+#
+# brand:             Sony
+# model:             RM-PP402
+# supported devices: Sony VCR Device 1 (VHS)
+#
+
+begin remote
+
+  name  rm
+  bits            7
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  header       2439   560
+  one           602   560
+  zero         1202   560
+  ptrail        602
+  post_data_bits  4
+  post_data      0x2
+  gap          24960
+  toggle_bit      0
+
+
+      begin codes
+          v1_play                  0x0000000000000053
+          v1_pause                 0x0000000000000033
+          v1_stop                  0x0000000000000073
+          v1_last                  0x000000000000000A
+          v1_next                  0x000000000000004A
+          v1_rwnd                  0x0000000000000013
+          v1_ffwd                  0x0000000000000063
+          v1_av                    0x0000000000000055
+          v1_enter                 0x0000000000000017
+          v1_shift                 0x0000000000000057
+          v1_1                     0x000000000000007F
+          v1_2                     0x000000000000003F
+          v1_3                     0x000000000000005F
+          v1_4                     0x000000000000001F
+          v1_5                     0x000000000000006F
+          v1_6                     0x000000000000002F
+          v1_7                     0x000000000000004F
+          v1_8                     0x000000000000000F
+          v1_9                     0x0000000000000077
+          v1_0                     0x0000000000000037
+          v1_off                   0x000000000000002B
+          v1_chn_inc               0x000000000000007B
+          v1_chn_dec               0x000000000000003B
+      end codes
+
+end remote
+
+
+
+#
+# this config file was automatically generated
+# using lirc-WinLIRC 0.6.1pre2 (LIRC 0.6.1pre2) on Sun Mar 03 02:19:19 2002
+#
+# contributed by
+#
+# brand:             Sony
+# model:             RM-PP402
+# supported devices: Sony VCR Device 2 (Beta)
+#
+
+begin remote
+
+  name  rm
+  bits            7
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  header       2438   559
+  one           619   559
+  zero         1215   559
+  ptrail        619
+  post_data_bits  4
+  post_data      0xB
+  gap          26155
+  toggle_bit      0
+
+
+      begin codes
+          v2_play                  0x0000000000000053
+          v2_pause                 0x0000000000000033
+          v2_stop                  0x0000000000000073
+          v2_last                  0x000000000000000A
+          v2_next                  0x000000000000004A
+          v2_rwnd                  0x0000000000000013
+          v2_ffwd                  0x0000000000000063
+          v2_av                    0x0000000000000055
+          v2_ch_inc                0x000000000000007B
+          v2_ch_dec                0x000000000000003B
+          v2_shift                 0x0000000000000057
+          v2_enter                 0x0000000000000017
+          v2_1                     0x000000000000007F
+          v2_2                     0x000000000000003F
+          v2_3                     0x000000000000005F
+          v2_4                     0x000000000000001F
+          v2_5                     0x000000000000006F
+          v2_6                     0x000000000000002F
+          v2_7                     0x000000000000004F
+          v2_8                     0x000000000000000F
+          v2_9                     0x0000000000000077
+          v2_0                     0x0000000000000037
+          v2_off                   0x000000000000002B
+      end codes
+
+end remote
+
+
+
+#
+# this config file was automatically generated
+# using lirc-WinLIRC 0.6.1pre2 (LIRC 0.6.1pre2) on Sun Mar 03 02:24:29 2002
+#
+# contributed by
+#
+# brand:             Sony
+# model:             RM-PP402
+# supported devices: Sony Video 3 Device (8mm)
+#
+
+begin remote
+
+  name  rm
+  bits            7
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  header       2436   561
+  one           617   561
+  zero         1214   561
+  ptrail        617
+  post_data_bits  4
+  post_data      0x1
+  gap          24968
+  toggle_bit      0
+
+
+      begin codes
+          v3_play                  0x0000000000000053
+          v3_pause                 0x0000000000000033
+          v3_stop                  0x0000000000000073
+          v3_last                  0x000000000000000A
+          v3_next                  0x000000000000004A
+          v3_rwnd                  0x0000000000000013
+          v3_ffwd                  0x0000000000000063
+          v3_av                    0x0000000000000055
+          v3_ch_inc                0x000000000000007B
+          v3_cd_dec                0x000000000000003B
+          v3_shift                 0x0000000000000057
+          v3_enter                 0x0000000000000017
+          v3_1                     0x000000000000007F
+          v3_2                     0x000000000000003F
+          v3_3                     0x000000000000005F
+          v3_4                     0x000000000000001F
+          v3_5                     0x000000000000006F
+          v3_6                     0x000000000000002F
+          v3_7                     0x000000000000004F
+          v3_8                     0x000000000000000F
+          v3_9                     0x0000000000000077
+          v3_0                     0x0000000000000037
+          v3_off                   0x000000000000002B
+      end codes
+
+end remote
+
+
+#
+# this config file was automatically generated
+# using lirc-WinLIRC 0.6.1pre2 (LIRC 0.6.1pre2) on Sat Mar 02 23:41:30 2002
+#
+# contributed by
+#
+# brand:             Sony
+# model:             RM-PP402
+# supported devices: Receiver sound mode selection
+# Not recommended to include; receiver internal operations
+
+begin remote
+
+  name  rm
+  bits            6
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  header       2444   545
+  one           627   545
+  zero         1216   545
+  ptrail       1216
+  post_data_bits  8
+  post_data      0x7B
+  gap          20812
+  toggle_bit      0
+
+
+      begin codes
+          rc_mode_inc              0x0000000000000022
+          rc_mode_dec              0x0000000000000002
+          rc_mode_afd              0x0000000000000007
+          rc_mode_2ch              0x000000000000001F
+      end codes
+
+end remote
+
+
+#
+# this config file was automatically generated
+# using lirc-WinLIRC 0.6.1pre2 (LIRC 0.6.1pre2) on Sun Mar 03 01:48:58 2002
+#
+# contributed by
+#
+# brand:             Sony
+# model:             RM-PP402
+# supported devices: Sony sat receiver menu
+#
+
+begin remote
+
+  name  rm
+  bits            7
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  header       2414   564
+  one           612   564
+  zero         1213   564
+  ptrail       1213
+  post_data_bits  7
+  post_data      0x9
+  gap          18456
+  toggle_bit      0
+
+
+      begin codes
+          sat_menu                 0x0000000000000071
+          sat_satguide             0x0000000000000044
+          KEY_EXIT                 0x000000000000001C        #  Was: sat_exit
+          sat_left                 0x0000000000000028
+          sat_up                   0x0000000000000058
+          sat_down                 0x0000000000000018
+          sat_right                0x0000000000000068
+          sat_enter                0x0000000000000048
+          KEY_EXIT                 0x000000000000001C        #  Was: sat_exit
+      end codes
+
+end remote
+
+
+# this config file was automatically generated
+# using lirc-WinLIRC 0.6.1pre2 (LIRC 0.6.1pre2) on Thu Feb 28 22:15:12 2002
+#
+# contributed by
+#
+# brand:             Sony
+# model:             RM-PP402
+# supported devices: Sony DVD Players
+#
+
+begin remote
+
+  name  RM-PP402
+  bits            7
+  flags SPACE_ENC
+  eps            30
+  aeps          100
+
+  header       2422   555
+  one           618   555
+  zero         1213   555
+  ptrail        618
+  post_data_bits  12
+  post_data      0xA36
+  gap          13612
+  toggle_bit      0
+
+
+      begin codes
+          dv_play                  0x0000000000000059
+          dv_stop                  0x0000000000000071
+          dv_pause                 0x0000000000000031
+          dv_ffwd                  0x0000000000000069
+          dv_rwnd                  0x0000000000000019
+          dv_next                  0x0000000000000039
+          dv_last                  0x0000000000000079
+          dv_1                     0x000000000000007F
+          dv_2                     0x000000000000003F
+          dv_3                     0x000000000000005F
+          dv_4                     0x000000000000001F
+          dv_5                     0x000000000000006F
+          dv_6                     0x000000000000002F
+          dv_7                     0x000000000000004F
+          dv_8                     0x000000000000000F
+          dv_9                     0x0000000000000077
+          dv_0                     0x0000000000000037
+          dv_enter                 0x0000000000000017
+          dv_skip                  0x0000000000000001
+          dv_off                   0x000000000000002B
+          dv_menu                  0x0000000000000013
+          dv_title                 0x0000000000000053
+          dv_left                  0x0000000000000010
+          dv_up                    0x0000000000000030
+          dv_right                 0x0000000000000060
+          dv_down                  0x0000000000000050
+          KEY_EXIT                 0x0000000000000047        #  Was: dv_exit
+      end codes
+
+end remote

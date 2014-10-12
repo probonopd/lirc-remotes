@@ -1,0 +1,79 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.0pre2(serial) on Thu Jan 19 12:14:32 2006
+#
+# contributed by Sean Phillips (silvercliff|hotmail.com)
+#
+# brand: NSE
+# model no. of remote control: URC20-C8
+# devices being controlled by this remote: Using 'TV2' and code 191.  This
+# is only because it doesnt clash with any of my other IR devices (TV, VCR,
+# Another PC...).
+#
+
+begin remote
+
+  name  NSE_URC20-C8
+  bits           24
+  flags SPACE_ENC
+  eps            30
+  aeps          100
+
+  header       3576  1707
+  one           500  1270
+  zero          500   376
+  ptrail        500
+  pre_data_bits   24
+  pre_data       0x400401
+  gap          70222
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x00BCBD                  #  Was: POWER
+          KEY_1                    0x000809                  #  Was: 1
+          KEY_2                    0x008889                  #  Was: 2
+          KEY_3                    0x004849                  #  Was: 3
+          KEY_4                    0x00C8C9                  #  Was: 4
+          KEY_5                    0x002829                  #  Was: 5
+          KEY_6                    0x00A8A9                  #  Was: 6
+          KEY_7                    0x006869                  #  Was: 7
+          KEY_8                    0x00E8E9                  #  Was: 8
+          KEY_9                    0x001819                  #  Was: 9
+          KEY_1                    0x00DCDD                  #  Was: 1-/11
+          KEY_2                    0x004A4B                  #  Was: 2-/12
+          KEY_0                    0x009899                  #  Was: 10/0
+          CH\*P/C                  0x00F0F1                  #  Was: CH\*P/C
+          TV/VCR                   0x00A0A1
+          MENU/MEMO                0x008C8D
+          EXIT/NORMAL              0x003031
+          CONTRAST+                0x001011
+          CONTRAST-                0x009091
+          BRIGHTNESS+              0x006061
+          BRIGHTNESS-              0x00E0E1
+          SATURATION+              0x005051
+          SATURATION-              0x005C5D
+          KEY_CHANNELUP            0x002C2D                  #  Was: CH+
+          KEY_CHANNELDOWN          0x00ACAD                  #  Was: CH-
+          KEY_UP                   0x80D051                  #  Was: UP
+          KEY_DOWN                 0x801091                  #  Was: DOWN
+          KEY_LEFT                 0x8050D1                  #  Was: LEFT
+          KEY_RIGHT                0x80B839                  #  Was: RIGHT
+          KEY_ENTER                0x8030B1                  #  Was: ENTER
+          KEY_E                    0x000E0F                  #  Was: E
+          KEY_F                    0x008E8F                  #  Was: F
+          KEY_G                    0x004E4F                  #  Was: G
+          KEY_H                    0x00CECF                  #  Was: H
+          KEY_RECORD               0x8038B9                  #  Was: RECORD
+          ^                        0x8020A1
+          KEY_3>                   0x80A021                  #  Was: 3>
+          KEY_MUTE                 0x004C4D                  #  Was: MUTE
+          KEY_VOLUMEUP             0x000405                  #  Was: VOL+
+          KEY_VOLUMEDOWN           0x008485                  #  Was: VOL-
+          KEY_PAUSE                0x80C041                  #  Was: PAUSE
+          KEY_STOP                 0x809011                  #  Was: STOP
+      end codes
+
+end remote
+
+

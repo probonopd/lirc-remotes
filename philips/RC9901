@@ -1,0 +1,79 @@
+#
+# this config file was automatically generated
+# using lirc-0.7.1(serial) on Sat Sep 24 21:28:24 2005
+#
+# contributed by   Ye Hua (yhaa@hotmail.com)
+#
+# brand:      Philips      
+# model no. of remote control: RC9901
+# devices being controlled by this remote:
+#
+
+begin remote
+
+  name  Philips_RC9901
+  bits           13
+  flags RC5|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           951   830
+  zero          951   830
+  plead         974
+  gap          114060
+  toggle_bit      2
+
+
+      begin codes
+          KEY_OPEN                 0x192D                    #  Was: OPEN/CLOSE
+          KEY_PLAYPAUSE            0x1135                    #  Was: PLAY/PAUSE
+          KEY_SLEEP                0x190C                    #  Was: STANDBY
+          SEARCHBACK               0x111F
+          KEY_MENU                 0x1921                    #  Was: MENU
+          SEARCHFORWARD            0x112A
+          STEP                     0x1929
+          KEY_STOP                 0x1136                    #  Was: STOP
+          KEY_SLOW                 0x1928                    #  Was: SLOW
+          KEY_PREVIOUS             0x1127                    #  Was: PREV
+          KEY_NEXT                 0x1926                    #  Was: NEXT
+          KEY_VOLUMEDOWN           0x1911                    #  Was: VOLUME-
+          KEY_VOLUMEUP             0x1110                    #  Was: VOLUME+
+          KEY_POWER                0x190E                    #  Was: ON/OFF
+          KEY_ENTER                0x110B                    #  Was: RETURN
+          KEY_SELECT               0x191E                    #  Was: SELECT
+          DISC                     0x113E
+          KEY_1                    0x1901                    #  Was: ONE
+          KEY_2                    0x1102                    #  Was: TWO
+          KEY_3                    0x1903                    #  Was: THREE
+          KEY_MENU                 0x110F                    #  Was: OSD
+          KEY_4                    0x1904                    #  Was: FOUR
+          KEY_5                    0x1105                    #  Was: FIVE
+          KEY_6                    0x1906                    #  Was: SIX
+          KEY_PREVIOUS             0x110A                    #  Was: PREVIEW
+          KEY_7                    0x1907                    #  Was: SEVEN
+          KEY_8                    0x1108                    #  Was: EIGHT
+          KEY_9                    0x1909                    #  Was: NINE
+          PAL/NTSC                 0x113C
+          KEY_SUBTITLE             0x1925                    #  Was: SUB-TITLE
+          KEY_0                    0x1100                    #  Was: ZERO
+          RESUME                   0x192F
+          PROGRAM                  0x1120
+          AUDIO_CH                 0x1124
+          GOTO                     0x192B
+          A-B                      0x113B
+          KEY_AGAIN                0x191D                    #  Was: REPEAT
+          VOCAL                    0x1131
+          MULTIPLEX                0x1923
+          ECHO-                    0x1134
+          ECHO+                    0x1933
+          MIC                      0x113D
+          KEY_B                    0x1939                    #  Was: b
+          &                        0x1137
+          KEY_NUMERIC_POUND        0x1938                    #  Was: #
+          KEY_MUTE                 0x110D                    #  Was: MUTE
+          SURROUND                 0x1932
+      end codes
+
+end remote
+
+

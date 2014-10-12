@@ -1,0 +1,60 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.6(serial) on Fri Mar 14 21:02:35 2003
+#
+# contributed by Vince Scott <vince|codex.net>
+#
+# brand:                       General Instruments 550 / Jerrold Impluse
+# model no. of remote control: RC-OSD
+# devices being controlled by this remote: NTL (UK) Analogue cable STB
+#
+
+begin remote
+
+  name  RC-OSD
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       8992  4328
+  one           579  4308
+  zero          579  2158
+  ptrail        585
+  repeat       8995  2007
+  gap          98040
+  toggle_bit      0
+
+
+      begin codes
+          KEY_F                    0x000000000000180E        #  Was: F
+          CATV                     0x0000000000005006
+          KEY_1                    0x000000000000800F        #  Was: 1
+          KEY_2                    0x0000000000004007        #  Was: 2
+          KEY_3                    0x000000000000C00B        #  Was: 3
+          KEY_4                    0x0000000000002003        #  Was: 4
+          KEY_5                    0x000000000000A00D        #  Was: 5
+          KEY_6                    0x0000000000006005        #  Was: 6
+          KEY_7                    0x000000000000E009        #  Was: 7
+          KEY_8                    0x0000000000001001        #  Was: 8
+          KEY_9                    0x000000000000900E        #  Was: 9
+          CH                       0x000000000000C803
+          KEY_0                    0x0000000000000000        #  Was: 0
+          KEY_CHANNELUP            0x000000000000D00A        #  Was: CH+
+          PROG                     0x0000000000006809
+          KEY_FAVORITES            0x000000000000A805        #  Was: FAV
+          KEY_CHANNELDOWN          0x0000000000003002        #  Was: CH-
+          KEY_DELETE               0x000000000000E801        #  Was: DELETE
+          AB                       0x000000000000280D
+          KEY_VOLUMEUP             0x000000000000B00C        #  Was: VOL+
+          KEY_SELECT               0x0000000000008807        #  Was: SELECT
+          KEY_ENTER                0x000000000000080F        #  Was: ENTER
+          KEY_VOLUMEDOWN           0x0000000000007004        #  Was: VOL-
+          KEY_MENU                 0x0000000000009806        #  Was: MENU
+          DISPLAY                  0x000000000000480B
+          KEY_MUTE                 0x000000000000F008        #  Was: MUTE
+      end codes
+
+end remote
+
+

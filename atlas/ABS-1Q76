@@ -1,0 +1,100 @@
+# Remotes - Titan/UEC910/Zapper/ATLAS ABS-1Q76 & maybe a flinders box?
+
+begin remote
+
+  name   Atlas_ABS-1Q76
+  flags RAW_CODES
+  eps            25
+  aeps          100
+
+  ptrail          0
+  repeat     0     0
+  gap          89738
+
+      begin raw_codes
+
+          name 1
+          KEY_7                    262                       #  Was: 437
+          KEY_6                    257                       #  Was: 166
+          KEY_7                    592                       #  Was: 167
+          KEY_6                    593                       #  Was: 166
+          KEY_7                    592                       #  Was: 167
+          KEY_5                    257                       #  Was: 165
+
+          name 2
+          KEY_5                    264                       #  Was: 435
+          KEY_8                    256                       #  Was: 168
+          KEY_5                    594                       #  Was: 165
+          KEY_7                    257                       #  Was: 167
+          KEY_6                    593                       #  Was: 166
+          KEY_9                    257                       #  Was: 169
+
+          name 3
+          KEY_4                    262                       #  Was: 434
+          KEY_6                    257                       #  Was: 166
+          KEY_7                    594                       #  Was: 167
+          KEY_6                    593                       #  Was: 166
+          KEY_6                    592                       #  Was: 166
+          KEY_8                    257                       #  Was: 168
+
+          name 4
+          KEY_3                    262                       #  Was: 433
+          KEY_0                    257                       #  Was: 170
+          KEY_7                    592                       #  Was: 167
+          KEY_7                    257                       #  Was: 167
+          KEY_6                    592                       #  Was: 166
+          KEY_9                    425                       #  Was: 169
+
+          name 5
+          KEY_4                    262                       #  Was: 434
+          KEY_9                    258                       #  Was: 169
+          KEY_7                    592                       #  Was: 167
+          KEY_8                    592                       #  Was: 168
+          KEY_7                    591                       #  Was: 167
+          KEY_5                    425                       #  Was: 165
+
+          name 6
+          KEY_6                    263                       #  Was: 436
+          KEY_9                    259                       #  Was: 169
+          KEY_6                    593                       #  Was: 166
+          KEY_9                    255                       #  Was: 169
+          KEY_6                    592                       #  Was: 166
+          KEY_9                    424                       #  Was: 169
+
+          name 7
+          KEY_3                    263                       #  Was: 433
+          KEY_5                    257                       #  Was: 165
+          KEY_6                    593                       #  Was: 166
+          KEY_9                    593                       #  Was: 169
+          KEY_6                    592                       #  Was: 166
+          KEY_6                    424                       #  Was: 166
+
+          name 8
+          KEY_3                    265                       #  Was: 433
+          KEY_8                    257                       #  Was: 168
+          KEY_6                    593                       #  Was: 166
+          KEY_8                    256                       #  Was: 168
+          KEY_6                    593                       #  Was: 166
+          KEY_8                    592                       #  Was: 168
+
+          name 9
+          KEY_4                    263                       #  Was: 434
+          KEY_9                    256                       #  Was: 169
+          KEY_8                    594                       #  Was: 168
+          KEY_6                    593                       #  Was: 166
+          KEY_4                    593                       #  Was: 164
+          KEY_8                    591                       #  Was: 168
+
+          name 0
+          KEY_3                    263                       #  Was: 433
+          KEY_8                    256                       #  Was: 168
+          KEY_5                    592                       #  Was: 165
+          KEY_7                    257                       #  Was: 167
+          KEY_5                    592                       #  Was: 165
+          KEY_7                    257                       #  Was: 167
+
+      end raw_codes
+
+end remote
+
+

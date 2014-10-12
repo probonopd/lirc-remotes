@@ -1,0 +1,68 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.6(sir) on Wed Jan 22 08:55:21 2003
+#
+# contributed by Paulo Roma Cavalcanti
+#
+# brand:                       Sony
+# model no. of remote control: RM-D302
+# devices being controlled by this remote: Sony CD player
+#
+
+begin remote
+
+  name  RM-D302
+  bits           11
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       2367   638
+  one          1166   637
+  zero          565   637
+  ptrail       1166
+  gap          45101
+  min_repeat      2
+  toggle_bit      0
+
+
+      begin codes
+          cd_play                  0x0000000000000268
+          cd_pause                 0x00000000000004E8
+          cd_stop                  0x00000000000000E8
+          cd_all                   0x00000000000001A8
+          cd_ab                    0x00000000000002A8
+          cd_time                  0x00000000000000A8
+          cd_ffwd                  0x00000000000006E8
+          cd_rwnd                  0x00000000000002E8
+          cd_next                  0x0000000000000468
+          cd_last                  0x0000000000000068
+          cd_ind_inc               0x0000000000000768
+          cd_ind_dec               0x0000000000000368
+          cd_1                     0x0000000000000008
+          cd_2                     0x0000000000000408
+          cd_3                     0x0000000000000208
+          cd_4                     0x0000000000000608
+          cd_5                     0x0000000000000108
+          cd_6                     0x0000000000000508
+          cd_7                     0x0000000000000308
+          cd_8                     0x0000000000000708
+          cd_9                     0x0000000000000088
+          cd_10                    0x0000000000000028
+          cd_11                    0x0000000000000428
+          cd_12                    0x0000000000000228
+          cd_13                    0x0000000000000628
+          cd_14                    0x0000000000000128
+          cd_15                    0x0000000000000528
+          cd_16                    0x0000000000000328
+          cd_17                    0x0000000000000048
+          cd_18                    0x0000000000000448
+          cd_19                    0x0000000000000748
+          cd_20                    0x00000000000004A8
+          cd_+10                   0x0000000000000728
+          cd_0                     0x0000000000000488
+          cd_clear                 0x0000000000000788
+      end codes
+
+end remote
+

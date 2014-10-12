@@ -1,0 +1,54 @@
+#
+# this config file was automatically generated
+# using lirc-0.5.5 on Tue Jul  6 13:19:19 1999
+#
+# contributed by
+#
+# brand:             Panasonic
+# model:             EUR60360
+# supported devices: Panasonic TV
+#
+
+begin remote
+
+  name  PANASONIC_TV
+  bits           17
+  flags SPACE_ENC
+  eps            30
+  aeps          100
+
+  header       3653  3044
+  one          1029   646
+  zero         1029  2235
+  ptrail       1029
+  pre_data_bits   5
+  pre_data       0x1F
+  gap          36628
+  repeat_bit      0
+
+      begin codes
+          KEY_POWER                0x000000000001F001        #  Was: POWER
+          KEY_CHANNELUP            0x0000000000017011        #  Was: CHANNEL_UP
+          KEY_CHANNELDOWN          0x0000000000007031        #  Was: CHANNEL_DOWN
+          KEY_VOLUMEUP             0x000000000001B009        #  Was: VOLUME_UP
+          KEY_VOLUMEDOWN           0x000000000000B029        #  Was: VOLUME_DOWN
+          KEY_1                    0x000000000001E802        #  Was: ONE
+          KEY_2                    0x000000000000E822        #  Was: TWO
+          KEY_3                    0x0000000000016812        #  Was: THREE
+          KEY_4                    0x0000000000006832        #  Was: FOUR
+          KEY_5                    0x000000000001A80A        #  Was: FIVE
+          KEY_6                    0x000000000000A82A        #  Was: SIX
+          KEY_7                    0x000000000001281A        #  Was: SEVEN
+          KEY_8                    0x000000000000283A        #  Was: EIGHT
+          KEY_9                    0x000000000001C806        #  Was: NINE
+          KEY_0                    0x000000000000C826        #  Was: ZERO
+          R-Tune                   0x0000000000015814
+          KEY_AGAIN                0x000000000000183C        #  Was: Recall
+          KEY_MUTE                 0x000000000001F800        #  Was: Mute
+          TV/Video                 0x000000000000982C
+          KEY_SLEEP                0x0000000000005834        #  Was: Sleep
+      end codes
+
+end remote
+
+

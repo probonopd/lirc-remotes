@@ -1,0 +1,69 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.6(serial) on Thu Oct 10 20:47:33 2002
+#
+# contributed by
+#
+# brand:       Pioneer SX-205RDS Receiver    Remote CU-SX109
+# model no. of remote control:
+# devices being controlled by this remote:
+#
+
+begin remote
+
+  name CU-SX109
+  bits           32
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       8522  4270
+  one           495  1636
+  zero          495   570
+  ptrail        495
+  gap          89965
+  toggle_bit      0
+
+
+      begin codes
+          KEY_RECORD               0x00000000A55A38C7        #  Was: ReceiverON
+          CDON                     0x0000000045BA38C7
+          TapeON                   0x00000000857A38C7
+          KEY_VOLUMEDOWN           0x00000000A55AD02F        #  Was: VolumeDown
+          KEY_VOLUMEUP             0x00000000A55A50AF        #  Was: VolumeUp
+          Direct                   0x00000000A55ABA45
+          Monitor                  0x00000000A55AB847
+          function                 0x00000000A55AAA55
+          muting                   0x00000000A55A48B7
+          fmam                     0x0000000025DAC837
+          mpx                      0x0000000025DA7887
+          displaymode              0x0000000025DA52AD
+          directaccess             0x0000000025DAC23D
+          class                    0x0000000025DA02FD
+          KEY_0                    0x0000000025DA00FF        #  Was: 010
+          KEY_9                    0x0000000025DA906F        #  Was: 9
+          KEY_8                    0x0000000025DA10EF        #  Was: 8
+          KEY_7                    0x0000000025DAE01F        #  Was: 7
+          KEY_6                    0x0000000025DA609F        #  Was: 6
+          KEY_5                    0x0000000025DAA05F        #  Was: 5
+          KEY_4                    0x0000000025DA20DF        #  Was: 4
+          KEY_3                    0x0000000025DAC03F        #  Was: 3
+          KEY_2                    0x0000000025DA40BF        #  Was: 2
+          KEY_1                    0x0000000025DA807F        #  Was: 1
+          tapepause                0x00000000857A7A85
+          tapestop                 0x00000000857A3AC5
+          tapeff                   0x00000000857A6A95
+          taperw                   0x00000000857AEA15
+          tapeforward              0x00000000857ABA45
+          tapereverse              0x00000000857ADA25
+          cddiscp                  0x0000000045BAB847
+          cddiscm                  0x0000000045BA837C
+          cdnext                   0x0000000045BA08F7
+          cdpre                    0x0000000045BA8877
+          cdplay                   0x0000000045BAE817
+          cdpause                  0x0000000045BA18E7
+          cdstop                   0x0000000045BA6897
+          cdbest                   0x0000000045BA43BC
+      end codes
+
+end remote

@@ -1,0 +1,78 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.6(tekram) on Sat Nov 15 23:16:38 2003
+#
+# contributed by
+#
+# brand:                       SAMSUNG
+# model no. of remote control: SV-411X
+# devices being controlled by this remote: VIDEO CASSETTE RECORDER
+#
+
+begin remote
+
+  name  Samsung_SV-411X
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       4469  4543
+  one           570  1705
+  zero          570   593
+  ptrail        569
+  pre_data_bits   16
+  pre_data       0xA0A0
+  gap          106742
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x00000000000040BF        #  Was: POWER
+          KEY_1                    0x00000000000020DF        #  Was: 1
+          KEY_2                    0x000000000000A05F        #  Was: 2
+          KEY_3                    0x000000000000609F        #  Was: 3
+          KEY_4                    0x00000000000010EF        #  Was: 4
+          KEY_5                    0x000000000000906F        #  Was: 5
+          KEY_6                    0x00000000000050AF        #  Was: 6
+          KEY_7                    0x00000000000030CF        #  Was: 7
+          KEY_8                    0x000000000000B04F        #  Was: 8
+          KEY_9                    0x000000000000708F        #  Was: 9
+          KEY_0                    0x0000000000008877        #  Was: 0
+          KEY_EJECTCD              0x00000000000004FB        #  Was: EJECT
+          SYSTEM                   0x0000000000009669
+          KEY_AUDIO                0x00000000000044BB        #  Was: audio
+          display                  0x0000000000007887
+          input                    0x00000000000024DB
+          clk/count                0x000000000000CC33
+          clr/rst                  0x000000000000B847
+          speed                    0x0000000000005CA3
+          aft                      0x0000000000002ED1
+          index                    0x000000000000D42B
+          a.trk                    0x000000000000847B
+          fine+                    0x00000000000034CB
+          fine-                    0x000000000000B44B
+          KEY_CHANNELUP            0x00000000000048B7        #  Was: prog+
+          KEY_CHANNELDOWN          0x00000000000008F7        #  Was: prog-
+          shuffle-                 0x000000000000BE41
+          shuffle+                 0x0000000000007E81
+          KEY_PLAY                 0x0000000000009867        #  Was: play
+          KEY_REWIND               0x00000000000018E7        #  Was: rew
+          KEY_FASTFORWARD          0x00000000000058A7        #  Was: ffwd
+          KEY_STOP                 0x000000000000A857        #  Was: stop
+          KEY_RECORD               0x00000000000028D7        #  Was: rec/otr
+          KEY_PAUSE                0x0000000000006897        #  Was: pause
+          KEY_MENU                 0x000000000000F807        #  Was: menu
+          KEY_UP                   0x0000000000004AB5        #  Was: up
+          KEY_DOWN                 0x0000000000000AF5        #  Was: down
+          soften                   0x000000000000CE31
+          sharpen                  0x000000000000EE11
+          KEY_OK                   0x0000000000003AC5        #  Was: ok
+          tv-vcr                   0x000000000000807F
+          q.pro                    0x000000000000BC43
+          picture                  0x000000000000AE51
+      end codes
+
+end remote
+
+

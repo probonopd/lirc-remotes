@@ -1,0 +1,54 @@
+#
+# this config file was automatically generated
+# using WinLIRC 0.6.5 (LIRC 0.6.1pre3) on Tue Mar 08 17:54:16 2005
+#
+# contributed by Teemu Seppänen
+#
+# brand:             Salora home terminal
+# model:           
+# supported devices: old analog (nowadays useless) pay-TV-terminal
+#
+
+begin remote
+
+  name  Salora_PayTV
+  bits           15
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  one           522  5080
+  zero          522   464
+  ptrail        522
+  gap          122087
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x0000000000006B6E        #  Was: power
+          KEY_1                    0x0000000000005DB5        #  Was: 1
+          KEY_2                    0x0000000000005DAE        #  Was: 2
+          KEY_3                    0x0000000000005DAD        #  Was: 3
+          KEY_4                    0x0000000000005D76        #  Was: 4
+          KEY_5                    0x0000000000005D75        #  Was: 5
+          KEY_6                    0x0000000000005D6E        #  Was: 6
+          KEY_7                    0x0000000000005D6D        #  Was: 7
+          KEY_8                    0x0000000000005BB6        #  Was: 8
+          KEY_9                    0x0000000000005BB5        #  Was: 9
+          KEY_0                    0x0000000000005DB6        #  Was: 0
+          KEY_ENTER                0x0000000000005B76        #  Was: enter
+          KEY_CHANNELUP            0x0000000000006BB5        #  Was: ch_up
+          ch_dwn                   0x0000000000006DB5
+          fc                       0x0000000000006DB6
+          KEY_PC                   0x0000000000005BAE        #  Was: pc
+          ce                       0x0000000000006DAD
+          buy                      0x0000000000006B76
+          pgm                      0x0000000000005B75
+          sw                       0x0000000000005BAD
+          clk                      0x0000000000005B6D
+          timer                    0x0000000000005B6E
+      end codes
+
+end remote
+
+

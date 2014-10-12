@@ -1,0 +1,44 @@
+#
+# this config file was automatically generated
+# using WinLIRC 0.6.5 (LIRC 0.6.1pre3) on Sun Jan 11 13:41:57 2009
+#
+# contributed by Fernando Rapetti
+#
+# brand:             Panasonic
+# model:             VSQS0531
+# supported devices:
+#
+
+begin remote
+
+  name  Panasonic_VSQS0531
+  bits           22
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  header        300  4124
+  one           300  3271
+  zero          300  1583
+  ptrail        300
+  gap          41232
+  toggle_bit_mask 0x0
+
+      begin codes
+          KEY_POWER                0x100DFE                  #  Was: power
+          vcr/tv                   0x10ADEA
+          KEY_CHANNELDOWN          0x118DCE                  #  Was: channel-
+          KEY_CHANNELUP            0x108DEE                  #  Was: channel+
+          KEY_RECORD               0x1025FB                  #  Was: rec
+          KEY_PAUSE                0x10C5E7                  #  Was: pause
+          f_adv                    0x1065F3
+          KEY_PLAY                 0x10A5EB                  #  Was: play
+          KEY_STOP                 0x1005FF                  #  Was: stop
+          KEY_REWIND               0x1085EF                  #  Was: rew
+          KEY_FASTFORWARD          0x1185CF                  #  Was: ff
+          x2                       0x10E5E3
+      end codes
+
+end remote
+
+

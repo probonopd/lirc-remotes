@@ -1,0 +1,104 @@
+# this config file was automatically generated
+# using lirc-0.8.2(default) on Sat Mar 29 20:45:53 2008
+# In my remote the buttons " 100, input, menu, prog, add/dlt and index
+# were not working so I couldn't add those buttons. If you have a working
+# remote, please try..
+#
+# contributed by 	       Rahul R S
+#
+# brand:                       Panasonic
+# model no. of remote control: VSQS1480
+# devices being controlled by this remote: VCR
+#
+
+begin remote
+
+  name  Panasonic_VSQS1480
+  bits           32
+  flags SPACE_ENC
+  eps            30
+  aeps          100
+
+  header       3545  1655
+  one           487  1242
+  zero          487   376
+  ptrail        486
+  pre_data_bits   16
+  pre_data       0x4004
+  gap          74187
+  min_repeat      1
+  toggle_bit_mask 0x0
+
+      begin codes
+          vcr/tv                   0x09006C65
+          KEY_PLAY                 0x09005059                #  Was: play
+          KEY_STOP                 0x09000009                #  Was: stop
+          KEY_REWIND               0x09004049                #  Was: rew
+          KEY_FASTFORWARD          0x0900C0C9                #  Was: ff
+          KEY_PAUSE                0x09006069                #  Was: pause
+          KEY_VOLUMEUP             0x01000405                #  Was: vol+
+          KEY_VOLUMEDOWN           0x01008485                #  Was: vol-
+          hi-fi                    0x0900676E
+          speed                    0x098050D9
+          counter                  0x09002A23
+          KEY_0                    0x0900AFA6                #  Was: zero
+      end codes
+
+end remote
+
+
+begin remote
+
+  name  Panasonic_VSQS1480
+  bits           10
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           826  5214
+  zero          826  2186
+  ptrail        826
+  gap          91503
+  toggle_bit_mask 0x0
+
+      begin codes
+          KEY_1                    0x03E                     #  Was: 1
+          KEY_2                    0x05D                     #  Was: 2
+          KEY_3                    0x07C                     #  Was: 3
+          KEY_4                    0x09B                     #  Was: 4
+          KEY_5                    0x0BA                     #  Was: 5
+          KEY_6                    0x0D9                     #  Was: 6
+          KEY_7                    0x0F8                     #  Was: 7
+          KEY_8                    0x117                     #  Was: 8
+          KEY_9                    0x136                     #  Was: 9
+          KEY_0                    0x01F                     #  Was: 0
+      end codes
+
+end remote
+
+
+begin remote
+
+  name  Panasonic_VSQS1480
+  bits           10
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           834  5206
+  zero          834  2179
+  ptrail        832
+  gap          91489
+  min_repeat      1
+  toggle_bit_mask 0x0
+
+      begin codes
+          display                  0x326
+          KEY_CHANNELUP            0x28B                     #  Was: ch+
+          KEY_CHANNELDOWN          0x2AA                     #  Was: ch-
+          KEY_POWER                0x22E                     #  Was: power
+      end codes
+
+end remote
+
+

@@ -1,0 +1,72 @@
+#
+# this config file was automatically generated
+# using lirc-0.7.1(serial) on Tue Apr 19 04:16:43 2005
+#
+# contributed by Fabio Belavenuto <fbelavenuto|gmx.net>
+#
+# brand:                                   Philips
+# model no. of remote control:             uDigital
+# devices being controlled by this remote: TV Trendset model 20CT6555
+#
+# Note:
+# Code in battery box: 3106 108 65191 SR 038742
+#
+
+begin remote
+
+  name  Philips_uDigital
+  bits           13
+  flags RC5|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           954   808
+  zero          954   808
+  plead        1012
+  gap          114108
+  min_repeat      1
+  toggle_bit      2
+
+
+      begin codes
+          KEY_0                    0x1000                    #  Was: 0
+          KEY_1                    0x1001                    #  Was: 1
+          KEY_2                    0x1002                    #  Was: 2
+          KEY_3                    0x1003                    #  Was: 3
+          KEY_4                    0x1004                    #  Was: 4
+          KEY_5                    0x1005                    #  Was: 5
+          KEY_6                    0x1006                    #  Was: 6
+          KEY_7                    0x1007                    #  Was: 7
+          KEY_8                    0x1008                    #  Was: 8
+          KEY_9                    0x1009                    #  Was: 9
+          KEY_1-                   0x100A                    #  Was: 1-
+          KEY_POWER                0x100C                    #  Was: POWER
+          KEY_MUTE                 0x100D                    #  Was: MUTE
+          PP                       0x100E
+          KEY_VOLUMEUP             0x1010                    #  Was: VOL+
+          KEY_VOLUMEDOWN           0x1011                    #  Was: VOL-
+          BRIGHTNESS_UP            0x1012
+          BRIGHTNESS_DOWN          0x1013
+          COLOR_UP                 0x1014
+          COLOR_DOWN               0x1015
+          BASS_UP                  0x1016
+          BASS_DOWN                0x1017
+          TREBLE_UP                0x1018
+          TREBLE_DOWN              0x1019
+          BALANCE_RIGHT            0x101A
+          BALANCE_LEFT             0x101B
+          CONTRAST_UP              0x101C
+          CONTRAST_DOWN            0x101D
+          KEY_SEARCH               0x101E                    #  Was: SEARCH
+          KEY_CHANNELUP            0x1020                    #  Was: CH+
+          KEY_CHANNELDOWN          0x1021                    #  Was: CH-
+          GO_BACK                  0x1022	# Universal Directv DTV-2 only
+          L1-L2                    0x1023
+          SPATIAL                  0x1024
+          KEY_INFO                 0x1031                    #  Was: INFO
+          KEY_OK                   0x1035                    #  Was: OK
+      end codes
+
+end remote
+
+

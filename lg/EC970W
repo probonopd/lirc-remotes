@@ -1,0 +1,64 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.6(any) on Thu Apr 29 22:49:22 2004
+#
+# contributed by Tim McCoy (tmccoy|hotPOP.com)
+# http://home.swiftdsl.com.au/~tmccoy/lirc
+#
+# brand: LG Electronics
+# model no. of remote control: For VCR EC970W
+# devices being controlled by this remote: VCR
+#
+
+begin remote
+
+  name  LG_EC970W
+  bits           32
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9031  4496
+  one           602  1631
+  zero          602   517
+  ptrail        590
+  repeat       9028  2260
+  gap          107739
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x0000000020DF10EF        #  Was: Power
+          KEY_EJECTCD              0x00000000768900FF        #  Was: Eject
+          KEY_MENU                 0x0000000076896897        #  Was: Menu
+          KEY_CLEAR                0x000000007689F807        #  Was: Clear
+          CmSkip                   0x000000007689BB44
+          KEY_OK                   0x000000007689718E        #  Was: OK
+          KEY_CHANNELUP            0x0000000020DF00FF        #  Was: ProgUp
+          KEY_CHANNELDOWN          0x0000000020DF807F        #  Was: ProgDown
+          KEY_VOLUMEDOWN           0x0000000020DFC03F        #  Was: VolDown
+          KEY_VOLUMEUP             0x0000000020DF40BF        #  Was: VolUp
+          LP                       0x00000000768912ED
+          KEY_STOP                 0x000000007689807F        #  Was: Stop
+          KEY_PAUSE                0x000000007689D02F        #  Was: Pause
+          KEY_RECORD               0x000000007689906F        #  Was: Record
+          Reverse                  0x00000000768940BF
+          KEY_PLAY                 0x00000000768910EF        #  Was: Play
+          KEY_FORWARD              0x000000007689C03F        #  Was: Forward
+          KEY_1                    0x000000007689A05F        #  Was: One
+          KEY_2                    0x000000007689609F        #  Was: Two
+          KEY_3                    0x000000007689E01F        #  Was: Three
+          KEY_4                    0x00000000768930CF        #  Was: Four
+          KEY_5                    0x000000007689B04F        #  Was: Five
+          KEY_6                    0x000000007689708F        #  Was: Six
+          KEY_7                    0x000000007689F00F        #  Was: Seven
+          KEY_8                    0x00000000768938C7        #  Was: Eight
+          KEY_9                    0x000000007689B847        #  Was: Nine
+          KEY_0                    0x00000000768920DF        #  Was: Zero
+          EzPoweroff               0x0000000076891DE2
+          EzRepeat                 0x0000000076896D92
+      end codes
+
+end remote
+
+

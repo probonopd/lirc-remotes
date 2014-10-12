@@ -1,0 +1,180 @@
+#
+# This is a remote control from Telefunken in raw mode.
+# It does not show any known pattern and some buttons do not work reliably.
+# E.g. "5" and "6" look absolutely undistinguishable.
+# Maybe it uses an unusual carrier frequency or maybe it is just broken.
+#
+# contributed by Christoph Bartelmus (columbus@hit.handshake.de) 
+#
+# brand:             Telefunken
+# model:             FB 270 STEREO VIDEOTEXT
+# supported devices: tv set PALcolor 540 V Stereo
+#
+
+begin remote
+
+  name   TELEFUNKEN
+  flags RAW_CODES
+  eps            5
+  aeps           50
+
+  repeat     0     0
+  gap    106000
+
+      begin raw_codes
+
+          name 0
+              367    1050     550     332     581     704
+              550
+
+          name 1
+              596     690     550     330     596     708
+              550
+
+          name 2
+              917     347     566     347     566     719
+              535
+
+          name 3
+              779     329     581     329     581     708
+              550
+
+          name 4
+              352     331    1145     327     566     709
+              535
+
+          name 5
+             1708     347     576     718     545
+
+          name 6
+             1724     341     576     713     545
+
+          name 7
+              245     424     901     328     581     704
+              550
+
+          name 8
+              367     703     764     333     581     706
+              550
+
+          name 9
+              566     329     795     334     581     706
+              550
+
+          name STEREO
+              383    2094     550     712     550
+
+          name K2
+             1176     336    1130     711     550
+
+          name MUTE
+              596    1745     550     710     550
+
+          name 10+
+             1708     345     561     717     561
+
+          name 20+
+             1584     369     545     736     530
+
+          name 30+
+              398     332     260     420     321     335
+              581     712     550
+
+          name CH_UP
+              795     470     321     333     566     711
+              550
+
+          name *
+              596     658     321     333     581     710
+              550
+
+          name #
+              260     847     337     331     596     705
+              550
+
+          name BRIGHT_UP
+             1476     728     545     720     545
+
+          name BRIGHT_DOWN
+             1352     714     545     717     545
+
+          name COLOR_UP
+              390     293     809     717     545     720
+              545
+
+          name COLOR_DOWN
+             1352     715     545     717     545
+
+          name HIGHS_UP
+              576     444     344     714     561     710
+              545
+
+          name HIGHS_DOWN
+              220     685     313     716     530     758
+              499
+
+          name BASS_UP
+              375    1385    1119     719     545
+
+          name BASS_DOWN
+              576    1061    1119    1903     545
+
+          name ???_UP
+              375     295     607     338    1150    1935
+              545
+
+          name ???_DOWN
+             1150     348    1150     712     561
+
+          name VOL_DOWN
+              561     339     576     713     561     713
+              561
+
+          name VOL_UP
+              359     711     545    1344     545     711
+              545
+
+          name POWER
+              918    1406     545     710     545
+
+# videotext functions
+
+          name STATUS
+              352     339     566    1065     733     346
+              566
+
+          name CLOCK
+             1115    1063     749     347     566
+
+          name HALF
+             1542     344     779     341     566
+
+          name FULL
+             1695     332     795     329     581
+
+          name STOP
+              352     331     245     442     321     332
+              795     328     581
+
+          name ?
+              764     718    1298     349     566
+
+          name MIX
+              581     659     321     338     779     340
+              566
+
+          name TV
+              779     448     337     338     779     339
+              566
+
+          name TEXT
+              230     878     321     335     779     341
+              566
+
+          name RESET
+              230     438     321     331    1359     330
+              581
+
+      end raw_codes
+
+end remote

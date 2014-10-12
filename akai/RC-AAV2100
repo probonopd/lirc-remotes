@@ -1,0 +1,64 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.2(default) on Sun Mar 16 01:07:48 2008
+#
+# contributed by
+#
+# brand:                       Akai
+# model no. of remote control: RC-AAV2100
+# devices being controlled by this remote:
+#
+
+begin remote
+
+  name  AKAI-RC-AAV2100
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       4563  4470
+  one           595  1655
+  zero          595   525
+  ptrail        595
+  pre_data_bits   16
+  pre_data       0x505
+  gap          108070
+  toggle_bit_mask 0x0
+
+      begin codes
+          KEY_POWER                0x30CF                    #  Was: power
+          bass_mgt                 0x28D7
+          KEY_CD                   0x05FA                    #  Was: cd
+          delay.T+                 0x807F
+          KEY_MUTE                 0x20DF                    #  Was: mute
+          surround                 0x906F
+          KEY_TAPE                 0x8877                    #  Was: tape
+          delay.T-                 0x9867
+          Dolby_Digital            0x40BF
+          KEY_DVD                  0x50AF                    #  Was: DVD
+          SPK_Setting              0x48B7
+          Memory                   0x6897
+          Pro_Logic                0x58A7
+          KEY_VIDEO                0xA05F                    #  Was: video1_2
+          SPK_on_Off               0xB04F
+          Station+                 0x07F8
+          X_KEY_2Ch                0xE817                    #  Was: KEY_2Ch
+          KEY_AUX                  0xF00F                    #  Was: Aux
+          T_Tone                   0xE01F
+          Station-                 0xD827
+          Dynamic                  0xC837
+          KEY_TUNER                0x06F9                    #  Was: Tuner
+          CH.Trim                  0xD02F
+          Band                     0x38C7
+          KEY_DOWN                 0x609F                    #  Was: Down
+          Auto                     0x7887
+          KEY_UP                   0xA857                    #  Was: Up
+          KEY_VOLUMEUP             0xC03F                    #  Was: Vol+
+          Stereo                   0x708F
+          KEY_VOLUMEDOWN           0xF807                    #  Was: Vol-
+      end codes
+
+end remote
+
+

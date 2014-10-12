@@ -1,0 +1,70 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.4a(iguanaIR) on Wed Oct 28 20:21:14 2009
+#
+# contributed by
+#
+# brand:                       LG
+# model no. of remote control: 6710T00003B
+# devices being controlled by this remote:
+#
+
+begin remote
+
+  name  LG_6710T00003B
+  bits           32
+  flags SPACE_ENC
+  eps            30
+  aeps          100
+
+  header       8971  4404
+  one           561  1634
+  zero          561   508
+  ptrail        564
+  repeat       8976  2165
+  gap          39690
+  repeat_gap   95705
+  toggle_bit_mask 0x0
+
+      begin codes
+          KEY_POWER                0x20DF10EF                #  Was: power
+          KEY_MUTE                 0x20DF906F                #  Was: mute
+          KEY_CYCLEWINDOWS         0x20DF19E6                #  Was: source
+          av                       0x20DFD02F
+          KEY_SLEEP                0x20DF708F                #  Was: sleep
+          KEY_MENU                 0x20DFC23D                #  Was: menu
+          KEY_EXIT                 0x20DFDA25                #  Was: exit
+          brt.w                    0x20DF7689
+          KEY_CHANNELUP            0x20DF00FF                #  Was: channel-up
+          KEY_CHANNELDOWN          0x20DF807F                #  Was: channel-down
+          KEY_VOLUMEUP             0x20DF40BF                #  Was: volume-up
+          KEY_VOLUMEDOWN           0x20DFC03F                #  Was: volume-down
+          set                      0x20DF22DD
+          KEY_1                    0x20DF8877                #  Was: 1
+          KEY_2                    0x20DF48B7                #  Was: 2
+          KEY_3                    0x20DFC837                #  Was: 3
+          KEY_4                    0x20DF28D7                #  Was: 4
+          KEY_5                    0x20DFA857                #  Was: 5
+          KEY_6                    0x20DF6897                #  Was: 6
+          KEY_7                    0x20DFE817                #  Was: 7
+          KEY_8                    0x20DF18E7                #  Was: 8
+          KEY_9                    0x20DF9867                #  Was: 9
+          sound                    0x20DFB04F
+          KEY_0                    0x20DF08F7                #  Was: 0
+          auto                     0x20DF2AD5
+          pip                      0x20DF06F9
+          pop                      0x20DF8679
+          swap                     0x20DFC639
+          KEY_POWER                0x768928D7                #  Was: power2
+          KEY_NUMERIC_STAR         0x20DF9C63                #  Was: \*
+          KEY_REWIND               0x768940BF                #  Was: rew
+          KEY_PLAY                 0x768910EF                #  Was: play
+          KEY_FASTFORWARD          0x7689C03F                #  Was: ff
+          KEY_RECORD               0x7689906F                #  Was: rec
+          KEY_STOP                 0x7689807F                #  Was: stop
+          p/still                  0x7689D02F
+      end codes
+
+end remote
+
+

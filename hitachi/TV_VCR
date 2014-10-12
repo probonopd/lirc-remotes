@@ -1,0 +1,42 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.6(any) on Thu Jan 22 16:24:14 2004
+#
+# contributed by
+#
+# brand:                       Hitachi
+# model no. of remote control:  ?
+# devices being controlled by this remote: unknown
+#
+
+begin remote
+
+  name  Hitachi
+  bits           10
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           299  1807
+  zero          299   754
+  ptrail        299
+  gap          25279
+  toggle_bit      0
+
+
+      begin codes
+          KEY_CHANNELUP            0x000000000000024C        #  Was: CHANNEL_UP
+          KEY_CHANNELDOWN          0x000000000000022C        #  Was: CHANNEL_DOWN
+          KEY_STOP                 0x0000000000000260        #  Was: STOP
+          KEY_REWIND               0x0000000000000270        #  Was: REW
+          F.FWD                    0x0000000000000230
+          KEY_PLAY                 0x0000000000000218        #  Was: PLAY
+          VISUAL                   0x0000000000000278
+          KEY_SEARCH               0x0000000000000238        #  Was: SEARCH
+          KEY_PAUSE                0x0000000000000258        #  Was: PAUSE
+          F.ADV                    0x0000000000000234
+      end codes
+
+end remote
+
+

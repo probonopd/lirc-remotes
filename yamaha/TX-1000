@@ -1,0 +1,49 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.0(userspace) on Sat Aug  5 02:40:52 2006
+#
+# contributed by Nicholas Papadonis
+#
+# brand:                       Yamaha
+# model no. of remote control: Unknown
+# devices being controlled by this remote: Yamaha TX-1000
+#
+# Code descriptors as follows:
+#  P1t8P9t16P17t24 = Change between preset band 1-8, 9-16, 17-24
+#  P1P9P17 = Change to preset 1, 9, 17 depending on which bank is selected
+#  The remote does not allow direct frequency input
+
+begin remote
+
+  name  Yamaha_TX-1000
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9079  4415
+  one           645  1603
+  zero          645   478
+  ptrail        644
+  repeat       9080  2164
+  pre_data_bits   16
+  pre_data       0x8B74
+  gap          107961
+  toggle_bit     0
+
+
+      begin codes
+          P1t8P9t16P17t24          0xB04F
+          P1P9P17                  0x708F
+          P2P10P18                 0xF00F
+          P3P11P19                 0x08F7
+          P4P12P20                 0x8877
+          P5P13P21                 0x48B7
+          P6P14P22                 0xC837
+          P7P15P23                 0x28D7
+          P8P16P24                 0xA857
+	end codes
+
+end remote
+
+

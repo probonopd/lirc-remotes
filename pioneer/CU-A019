@@ -1,0 +1,63 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.6(serial) on Thu Jul 10 20:17:49 2003
+#
+# contributed by Albrecht Lohoefener < albrechtloh|gmx.de >
+#
+# brand:                       Pioneer
+# model no. of remote control: CU-A019
+# devices being controlled by this remote: A-207R
+#
+
+begin remote
+
+  name  Pioneer_CU-A019
+  bits           32
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       8656  4152
+  one           647  1487
+  zero          647   420
+  ptrail        650
+  gap          90057
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x0000000045BA38C7        #  Was: POWER_CD
+          KEY_POWER                0x0000000025DA38C7        #  Was: POWER_TUNER
+          KEY_POWER                0x00000000857A38C7        #  Was: POWER_TAPE
+          TAPE_SELECT              0x00000000857A32CD
+          DISK2_TAPE_PLAY_LEFT     0x00000000857AA857
+          DISK2_TAPE_PLAY_RIGHT    0x00000000857AE817
+          DISK2_TAPE_STOP          0x00000000857A6897
+          DISK2_TAPE_NEXT          0x00000000857A08F7
+          DISK2_TAPE_PREV          0x00000000857A8877
+          DISK1_TAPE_PLAY_LEFT     0x00000000857ADA25
+          DISK1_TAPE_PLAY_RIGHT    0x00000000857ABA45
+          DISK1_TAPE_STOP    	   0x00000000857A3AC5
+          DISK1_TAPE_NEXT          0x00000000857A6A95
+          DISK1_TAPE_PREV          0x00000000857AEA15
+          CD_BACK                  0x00000000857AEA15
+          CD_BACK                  0x0000000045BA8877
+          CD_NEXT                  0x0000000045BA08F7
+          CD_STOP                  0x0000000045BA6897
+          CD_PLAY                  0x0000000045BAE817
+          DISC_SELECT              0x0000000045BAB847
+          TUNER+                   0x0000000025DA08F7
+          TUNER-                   0x0000000025DA8877
+          FCT_CD                   0x00000000A55A32CD
+          FCT_TUNER                0x00000000A55AE21D
+          FCT_PHONO                0x00000000A55AB24D
+          FCT_TAPE1                0x00000000A55A728D
+          FCT_TAPE2                0x00000000A55AB847
+          FCT_LINE                 0x00000000A55AF20D
+          KEY_VOLUMEUP             0x00000000A55A50AF        #  Was: VOL+
+          KEY_VOLUMEDOWN           0x00000000A55AD02F        #  Was: VOL-
+      end codes
+
+end remote
+
+

@@ -1,0 +1,107 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.6(serial) on Fri Dec 27 18:38:17 2002
+#
+# contributed by Joakim Mared <joakim at bfcom dot se>
+#
+# brand:                       PHILIPS
+# model no. of remote control: U352
+# devices being controlled by this remote:
+#
+#	Philips TVs & VCRs (shipped with a VR 630 VCR)
+#
+
+begin remote
+
+  name  PHILIPS_U352_VCR_MODE
+  bits           13
+  flags RC5|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           840   945
+  zero          840   945
+  plead         827
+  gap          114168
+  min_repeat      1
+  toggle_bit      2
+
+
+      begin codes
+          KEY_EJECTCD              0x000000000000116D        #  Was: EJECT
+          KEY_SLEEP                0x000000000000114C        #  Was: STANDBY
+          KEY_MENU                 0x000000000000115D        #  Was: MENU
+          KEY_EXIT                 0x000000000000114F        #  Was: STATUS_EXIT
+          KEY_CLEAR                0x0000000000001171        #  Was: CLEAR
+          KEY_1                    0x0000000000001141        #  Was: 1
+          KEY_2                    0x0000000000001142        #  Was: 2
+          KEY_3                    0x0000000000001143        #  Was: 3
+          KEY_4                    0x0000000000001144        #  Was: 4
+          KEY_5                    0x0000000000001145        #  Was: 5
+          KEY_6                    0x0000000000001146        #  Was: 6
+          KEY_7                    0x0000000000001147        #  Was: 7
+          KEY_8                    0x0000000000001148        #  Was: 8
+          KEY_9                    0x0000000000001149        #  Was: 9
+          KEY_0                    0x0000000000001140        #  Was: 0
+          KEY_RECORD               0x0000000000001177        #  Was: RECORD_OTR
+          STILL                    0x0000000000001169
+          KEY_PLAY                 0x0000000000001175        #  Was: PLAY
+          KEY_REWIND               0x0000000000001172        #  Was: REWIND
+          KEY_FASTFORWARD          0x0000000000001174        #  Was: FASTFORWARD
+          KEY_STOP                 0x0000000000001176        #  Was: STOP
+          KEY_CHANNELUP            0x0000000000001160        #  Was: PROG_UP
+          KEY_CHANNELDOWN          0x0000000000001161        #  Was: PROG_DOWN
+          KEY_VOLUMEUP             0x0000000000001010        #  Was: VOL_UP
+          KEY_VOLUMEDOWN           0x0000000000001011        #  Was: VOL_DOWN
+          KEY_MUTE                 0x000000000000100D        #  Was: MUTE
+          TURBO_TIMER              0x000000000000115C
+          INDEX                    0x0000000000000170
+          SV_V                     0x0000000000000145
+          KEY_SLOW                 0x0000000000001168        #  Was: SLOW
+          SYSTEM                   0x000000000000014A
+          KEY_AUDIO                0x0000000000001163        #  Was: AUDIO
+      end codes
+
+end remote
+
+begin remote
+
+  name  PHILIPS_U352_TV_MODE
+  bits           13
+  flags RC5|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           842   943
+  zero          842   943
+  plead         828
+  gap          114168
+  toggle_bit      2
+
+
+      begin codes
+          KEY_SLEEP                0x000000000000100C        #  Was: STANDBY
+          KEY_MENU                 0x000000000000182E        #  Was: MENU
+          KEY_EXIT                 0x000000000000100F        #  Was: STATUS_EXIT
+          KEY_1                    0x0000000000001001        #  Was: 1
+          KEY_2                    0x0000000000001802        #  Was: 2
+          KEY_3                    0x0000000000001003        #  Was: 3
+          KEY_4                    0x0000000000001804        #  Was: 4
+          KEY_5                    0x0000000000001005        #  Was: 5
+          KEY_6                    0x0000000000001806        #  Was: 6
+          KEY_7                    0x0000000000001007        #  Was: 7
+          KEY_8                    0x0000000000001808        #  Was: 8
+          KEY_9                    0x0000000000001009        #  Was: 9
+          KEY_0                    0x0000000000001800        #  Was: 0
+          KEY_UP                   0x000000000000101C        #  Was: UP
+          KEY_LEFT                 0x000000000000182C        #  Was: LEFT
+          KEY_RIGHT                0x000000000000102B        #  Was: RIGHT
+          KEY_DOWN                 0x000000000000181D        #  Was: DOWN
+          KEY_CHANNELUP            0x0000000000001020        #  Was: PROG_UP
+          KEY_CHANNELDOWN          0x0000000000001821        #  Was: PROG_DOWN
+          KEY_VOLUMEUP             0x0000000000001010        #  Was: VOL_UP
+          KEY_VOLUMEDOWN           0x0000000000001811        #  Was: VOL_DOWN
+          KEY_MUTE                 0x000000000000100D        #  Was: MUTE
+      end codes
+
+end remote

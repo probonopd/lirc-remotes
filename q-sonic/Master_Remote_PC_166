@@ -1,0 +1,70 @@
+#
+# this config file was automatically generated
+# using lirc-0.7.0pre7(serial) on Tue Jan 25 22:57:48 2005
+#
+# contributed by Marco Emrich (marcoemrich@web.de)
+#
+# brand:             Pearl Agency (www.pearl.de) / Q-Sonic Technologies
+# model:             Q-Sonic Master Remote PC/TV (Universal RC),
+#                    Art. No.: PE-9999
+# supported devices: programmed to IR Code 166 (for Thomson-TV)
+# notes:             it is based on the RCT311DA2 (for Thomson TV/DVD/Video)
+#                    but supports more buttons and uses the Q-SONIC Descriptions
+#                    only the vt_off (video text off) does not work because
+#                    the Q-SONIC sends the same code as for the "pause"-button
+
+begin remote
+
+  name  Q-Sonic
+  bits           12
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           556  4502
+  zero          556  1957
+  ptrail        556
+  gap          79688
+  toggle_bit      5
+
+
+      begin codes
+          KEY_RECORD               0x0000000000000326        #  Was: rec
+          KEY_STOP                 0x000000000000033B        #  Was: stop
+          KEY_PAUSE                0x000000000000031E        #  Was: pause
+          KEY_PLAY                 0x0000000000000338        #  Was: play
+          KEY_FORWARD              0x0000000000000315        #  Was: forward
+          reverse                  0x0000000000000339
+          KEY_UP                   0x000000000000030B        #  Was: up
+          KEY_DOWN                 0x000000000000030D        #  Was: down
+          KEY_LEFT                 0x0000000000000336        #  Was: left
+          KEY_RIGHT                0x0000000000000337        #  Was: right
+          KEY_OK                   0x000000000000030C        #  Was: ok
+          KEY_EXIT                 0x000000000000033E        #  Was: exit
+          KEY_MENU                 0x0000000000000331        #  Was: menu
+          vt_on                    0x000000000000031C        
+          vt_1                     0x000000000000037F
+          vt_2                     0x000000000000032B
+          KEY_102ND                0x0000000000000324        #  Was: -/--
+          av                       0x0000000000000318
+          KEY_0                    0x000000000000030E        #  Was: 0
+          KEY_1                    0x0000000000000300        #  Was: 1
+          KEY_2                    0x0000000000000308        #  Was: 2
+          KEY_3                    0x0000000000000310        #  Was: 3
+          KEY_4                    0x0000000000000301        #  Was: 4
+          KEY_5                    0x0000000000000309        #  Was: 5
+          KEY_6                    0x0000000000000311        #  Was: 6
+          KEY_7                    0x0000000000000302        #  Was: 7
+          KEY_8                    0x000000000000030A        #  Was: 8
+          KEY_9                    0x0000000000000312        #  Was: 9
+          KEY_VOLUMEUP             0x0000000000000329        #  Was: vol+
+          KEY_VOLUMEDOWN           0x000000000000032A        #  Was: vol-
+          KEY_CHANNELUP            0x0000000000000325        #  Was: ch+
+          KEY_CHANNELDOWN          0x0000000000000327        #  Was: ch-
+          KEY_M                    0x0000000000000305        #  Was: m
+          KEY_POWER                0x000000000000031D        #  Was: power
+      end codes
+
+end remote
+
+

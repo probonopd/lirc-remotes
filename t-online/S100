@@ -1,0 +1,71 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.3(default) on Tue May  5 21:08:53 2009
+#
+# contributed by
+#
+# brand:                        		T-Online S100
+# model no. of remote control:  		-
+# devices being controlled by this remote:      S100
+#
+
+begin remote
+
+  name  T-Online_S100
+  bits           14
+  flags RC5|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           903   779
+  zero          903   779
+  plead         929
+  gap          49918
+  toggle_bit_mask 0x1000
+
+      begin codes
+          KEY_POWER                0x2914                    #  Was: POWER
+          KEY_MUTE                 0x2917                    #  Was: MUTE
+          KEY_1                    0x2922                    #  Was: 1
+          KEY_2                    0x2924                    #  Was: 2
+          KEY_3                    0x2927                    #  Was: 3
+          KEY_4                    0x2928                    #  Was: 4
+          KEY_5                    0x292B                    #  Was: 5
+          KEY_6                    0x292D                    #  Was: 6
+          KEY_7                    0x292E                    #  Was: 7
+          KEY_8                    0x2930                    #  Was: 8
+          KEY_9                    0x2933                    #  Was: 9
+          KEY_NUMERIC_STAR         0x2900                    #  Was: \*
+          KEY_0                    0x2921                    #  Was: 0
+          KEY_NUMERIC_POUND        0x2903                    #  Was: #
+          KEY_I                    0x2911                    #  Was: i
+          KEY_EPG                  0x2912                    #  Was: EPG
+          KEY_C                    0x290A                    #  Was: C
+          KEY_MENU                 0x2905                    #  Was: MENU
+          -T-                      0x2909
+          KEY_EXIT                 0x2906                    #  Was: EXIT
+          KEY_UP                   0x2950                    #  Was: UP
+          KEY_DOWN                 0x2959                    #  Was: DOWN
+          KEY_OK                   0x293F                    #  Was: OK
+          KEY_RIGHT                0x2955                    #  Was: RIGHT
+          KEY_LEFT                 0x295C                    #  Was: LEFT
+          KEY_VOLUMEUP             0x2953                    #  Was: VOL+
+          KEY_VOLUMEDOWN           0x2956                    #  Was: VOL-
+          Pfeil-R                  0x295F
+          Pfeil-L                  0x295A
+          KEY_STOP                 0x2918                    #  Was: STOP
+          KEY_PLAY                 0x291B                    #  Was: PLAY
+          ?                        0x291D
+          POS1                     0x291E
+          KEY_REWIND               0x2935                    #  Was: REW
+          KEY_FASTFORWARD          0x2936                    #  Was: FF
+          ENDE                     0x2939
+          KEY_RED                  0x293A                    #  Was: RED
+          GREN                     0x293C
+          KEY_YELLOW               0x290C                    #  Was: YELLOW
+          KEY_BLUE                 0x290F                    #  Was: BLUE
+      end codes
+
+end remote
+
+

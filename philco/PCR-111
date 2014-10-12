@@ -1,0 +1,62 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.0(serial) on Mon Dec 11 19:21:51 2006
+#
+# contributed by Celso Luiz F. Fernandes (Brazil)
+#
+# brand:PHILCO
+# model no. of remote control: PCR-111
+# devices being controlled by this remote: TV / linux jukebox
+#
+
+begin remote
+
+  name  Philco_PCR-111
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9022  4455
+  one           571  1680
+  zero          571   546
+  ptrail        571
+  repeat       9024  2216
+  pre_data_bits   16
+  pre_data       0xAF5
+  gap          107799
+  toggle_bit      0
+
+
+      begin codes
+          KEY_CHANNELUP            0x9867                    #  Was: CHANNEL+
+          KEY_CHANNELDOWN          0x18E7                    #  Was: CHANNEL-
+          KEY_VOLUMEUP             0x48B7                    #  Was: VOL+
+          KEY_VOLUMEDOWN           0xA857                    #  Was: VOL-
+          KEY_MENU                 0x7A85                    #  Was: MENU
+          KEY_MUTE                 0xD02F                    #  Was: MUTE
+          KEY_1                    0xB04F                    #  Was: ONE
+          KEY_2                    0x708F                    #  Was: TWO
+          KEY_3                    0xF00F                    #  Was: THREE
+          KEY_4                    0x38C7                    #  Was: FOUR
+          KEY_5                    0xB847                    #  Was: FIVE
+          KEY_6                    0x7887                    #  Was: SIX
+          KEY_7                    0xF807                    #  Was: SEVEN
+          KEY_8                    0x20DF                    #  Was: EIGHT
+          KEY_9                    0xA05F                    #  Was: NINE
+          KEY_0                    0x30CF                    #  Was: ZERO
+          TIMER                    0x8877
+          DISPLAY                  0x08F7
+          LASTCH                   0x50AF
+          TVAV                     0x906F
+          PREF                     0xC837
+          MAGIC                    0xDA25
+          KEY_INFO                 0xE01F                    #  Was: GUIDE
+          SAP                      0x10EF
+          XPRESS                   0x609F
+          KEY_POWER                0xE817                    #  Was: POWER
+      end codes
+
+end remote
+
+

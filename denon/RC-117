@@ -1,0 +1,63 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.5(serial) on Sun May  5 06:06:29 2002
+#
+# contributed by
+#
+# brand: Denon
+# model: RC-117
+# supported devices: Reciever
+#
+
+begin remote
+
+  name  RC-117
+  bits           15
+  flags SPACE_ENC
+  eps            30
+  aeps          100
+
+  one           315   740
+  zero          315  1812
+  ptrail        315
+  gap          45920
+  min_repeat      2
+  toggle_bit      0
+
+
+      begin codes
+          amp_power                0x00000000000067D7
+          amp_vol-down             0x0000000000006737
+          amp_vol-up               0x0000000000006537
+          amp_tape                 0x0000000000006517
+          amp_aux/video            0x0000000000006497
+          amp_tuner                0x0000000000006597
+          amp_cd                   0x0000000000006697
+          amp_phono                0x0000000000006797
+          tun_1                    0x00000000000066F7
+          tun_2                    0x00000000000064F7
+          tun_3                    0x0000000000006777
+          tun_4                    0x0000000000006577
+          tun_5                    0x0000000000006677
+          tun_6                    0x0000000000006477
+          tun_7                    0x00000000000067B7
+          tun_8                    0x00000000000065B7
+          tun_shift                0x00000000000066B7
+          cd_pause                 0x00000000000076E8
+          cd_stop                  0x0000000000007617
+          cd_play                  0x0000000000007717
+          cd_rew                   0x0000000000007497
+          cd_ff                    0x0000000000007697
+          cd_prev                  0x0000000000007597
+          cd_next                  0x0000000000007797
+          tape_pause               0x0000000000006D17
+          tape_stop                0x0000000000006E17
+          tape_playrev             0x0000000000006C57
+          tape_play                0x0000000000006F17
+          tape_rec                 0x0000000000006C17
+          tape_a/b                 0x0000000000006CD7
+          tape_rew                 0x0000000000006C97
+          tape_ff                  0x0000000000006E97
+      end codes
+
+end remote

@@ -1,0 +1,66 @@
+
+# This config file was automatically generated
+# using lirc-0.8.1pre2(default) on Thu Mar 29 12:01:16 2007
+#
+# contributed by Adam Luker
+#
+# brand: Sherwood
+# model no. of remote control: RM-101
+# devices being controlled by this remote: Sherwood tuner/amp RX-4103
+#
+
+begin remote
+
+  name  Sherwood_RM-101
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9034  4426
+  one           627  1615
+  zero          627   493
+  ptrail        640
+  pre_data_bits   16
+  pre_data       0xA2C1
+  gap          107680
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x8976                    #  Was: power
+          spk_a                    0x23DC
+          spk_b                    0x639C
+          KEY_1                    0xB14E                    #  Was: 1
+          KEY_2                    0x31CE                    #  Was: 2
+          KEY_3                    0x09F6                    #  Was: 3
+          KEY_4                    0x43BC                    #  Was: 4
+          KEY_5                    0x837C                    #  Was: 5
+          KEY_6                    0x9966                    #  Was: 6
+          KEY_7                    0x19E6                    #  Was: 7
+          KEY_8                    0x916E                    #  Was: 8
+          KEY_9                    0x817E                    #  Was: 9
+          KEY_0                    0x03FC                    #  Was: 0
+          fm_mode                  0xF30C
+          memory                   0x2BD4
+          display                  0x9B64
+          KEY_SLEEP                0x33CC                    #  Was: sleep
+          p.scan                   0x1BE4
+          KEY_TUNER                0xC13E                    #  Was: tuner
+          KEY_CD                   0xD12E                    #  Was: cd
+          KEY_TAPE                 0x619E                    #  Was: tape
+          KEY_VCR                  0x51AE                    #  Was: vcr
+          KEY_AUX                  0xF10E                    #  Was: aux
+          bal+                     0xE916
+          bal-                     0xE11E
+          treb/bass+               0x3BC4
+          treb/bass-               0x11EE
+          tone_sel                 0x738C
+          KEY_MUTE                 0xC33C                    #  Was: mute
+          KEY_VOLUMEUP             0xE31C                    #  Was: vol+
+          KEY_VOLUMEDOWN           0xD32C                    #  Was: vol-
+      end codes
+
+end remote
+
+

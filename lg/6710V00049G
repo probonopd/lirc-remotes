@@ -1,0 +1,519 @@
+# brand:                       LG
+# model no. of remote control: 6710V00049G
+# devices being controlled by this remote: TV SET
+#
+
+begin remote
+
+  name  LG.6710V00049G
+  bits           13
+  flags RC5|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           795   889
+  zero          795   889
+  plead         780
+  gap          107237
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x180C                    #  Was: POWER
+          DRP                      0x1014
+          TVAV                     0x1838
+          TURBOSOUND               0x1024
+          TURBOPICTURE             0x1813
+          PIP                      0x103A
+          KEY_TEXT                 0x183C                    #  Was: TEXT
+          PR-MINUS                 0x1037
+          PR-PLUS                  0x1836
+          SWAP                     0x1032
+          INPUT                    0x1834
+          KEY_MENU                 0x103B                    #  Was: MENU
+          KEY_MUTE                 0x180D                    #  Was: MUTE
+          KEY_CHANNELUP            0x1020                    #  Was: PROGUP
+          KEY_CHANNELDOWN          0x1821                    #  Was: PROGDOWN
+          KEY_VOLUMEDOWN           0x1011                    #  Was: VOLDOWN
+          KEY_VOLUMEUP             0x1810                    #  Was: VOLUP
+          KEY_OK                   0x1025                    #  Was: OK
+          KEY_1                    0x1801                    #  Was: 1
+          KEY_2                    0x1002                    #  Was: 2
+          KEY_3                    0x1803                    #  Was: 3
+          KEY_4                    0x1004                    #  Was: 4
+          KEY_5                    0x1805                    #  Was: 5
+          KEY_6                    0x1006                    #  Was: 6
+          KEY_7                    0x1807                    #  Was: 7
+          KEY_8                    0x1008                    #  Was: 8
+          KEY_9                    0x1809                    #  Was: 9
+          KEY_0                    0x1000                    #  Was: 0
+          PSM                      0x180E
+          SSM                      0x1016
+          POS                      0x182D
+          KEY_2PIP                 0x1035                    #  Was: 2-12PIP
+          STILL                    0x1829
+          SIZE                     0x102B
+          KEY_TIME                 0x182A                    #  Was: TIME
+          REVEAL                   0x102C
+          MIX                      0x182E
+          KEY_SLEEP                0x103E                    #  Was: SLEEP
+          KEY_LIST                 0x180F                    #  Was: LIST
+          I-II                     0x1023
+          ARC                      0x1833
+          EYE                      0x1012
+      end codes
+
+end remote
+
+# brand:                       LG
+# model no. of remote control: 6710V00049G
+# devices being controlled by this remote: VCR part of same remote
+#
+
+begin remote
+
+  name  LG.6710V00049G-VCR
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9000  4487
+  one           570  1682
+  zero          570   549
+  ptrail        570
+  pre_data_bits   16
+  pre_data       0x7689
+  gap          107870
+  toggle_bit      0
+
+
+      begin codes
+          KEY_STOP                 0x807F                    #  Was: STOP
+          PSTILL                   0xD02F
+          KEY_RECORD               0x906F                    #  Was: REC
+          KEY_REWIND               0x40BF                    #  Was: REW
+          KEY_PLAY                 0x10EF                    #  Was: PLAY
+          KEY_FASTFORWARD          0xC03F                    #  Was: FF
+      end codes
+
+end remote
+
+# brand:  LG
+# model no. of remote control: 6710V00049G
+# devices being controlled by this remote:
+#
+
+begin remote
+
+  name  LG.6710V00049G.RAW
+  flags RAW_CODES|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  ptrail          0
+  repeat     0     0
+  gap    107239
+
+      begin raw_codes
+
+          name 1
+          KEY_3                    1642                      #  Was: 43
+          KEY_3                    1511                      #  Was: 43
+          KEY_3                    1642                      #  Was: 43
+          KEY_3                    1639                      #  Was: 43
+          KEY_3                    2485                      #  Was: 43
+
+          name 2
+          KEY_3                    1643                      #  Was: 43
+          KEY_3                    1642                      #  Was: 43
+          KEY_3                    1642                      #  Was: 43
+          KEY_3                    1642                      #  Was: 43
+          KEY_3                    928                       #  Was: 43
+
+          name 3
+          KEY_3                    1643                      #  Was: 43
+          KEY_3                    1511                      #  Was: 43
+          KEY_3                    1643                      #  Was: 43
+          KEY_3                    1642                      #  Was: 43
+          KEY_3                    1640                      #  Was: 43
+
+          name 4
+          KEY_3                    1645                      #  Was: 43
+          KEY_3                    1644                      #  Was: 43
+          KEY_3                    1642                      #  Was: 43
+          KEY_3                    1640                      #  Was: 43
+          KEY_3                    1508                      #  Was: 43
+
+          name 5
+          KEY_3                    1641                      #  Was: 43
+          KEY_3                    1507                      #  Was: 43
+          KEY_3                    1643                      #  Was: 43
+          KEY_3                    1642                      #  Was: 43
+          KEY_3                    2351                      #  Was: 43
+
+          name 6
+          KEY_3                    1639                      #  Was: 43
+          KEY_3                    1646                      #  Was: 43
+          KEY_3                    1646                      #  Was: 43
+          KEY_3                    1646                      #  Was: 43
+          KEY_3                    933                       #  Was: 43
+
+          name 7
+          KEY_3                    1645                      #  Was: 43
+          KEY_3                    1515                      #  Was: 43
+          KEY_3                    1644                      #  Was: 43
+          KEY_3                    1642                      #  Was: 43
+          KEY_3                    1640                      #  Was: 43
+
+          name 8
+          KEY_3                    1639                      #  Was: 43
+          KEY_3                    1639                      #  Was: 43
+          KEY_3                    1641                      #  Was: 43
+          KEY_3                    2485                      #  Was: 43
+          KEY_3                    1641                      #  Was: 43
+
+          name 9
+          KEY_3                    1644                      #  Was: 43
+          KEY_3                    1511                      #  Was: 43
+          KEY_3                    1642                      #  Was: 43
+          KEY_3                    2487                      #  Was: 43
+          KEY_3                    2484                      #  Was: 43
+
+          name 0
+          KEY_3                    1641                      #  Was: 43
+          KEY_3                    1642                      #  Was: 43
+          KEY_3                    1640                      #  Was: 43
+          KEY_3                    1643                      #  Was: 43
+          KEY_3                    1646                      #  Was: 43
+
+          name PSM
+          KEY_3                    1639                      #  Was: 43
+          KEY_3                    1511                      #  Was: 43
+          KEY_3                    1648                      #  Was: 43
+          KEY_3                    2487                      #  Was: 43
+          KEY_3                    931                       #  Was: 43
+
+          name SSM
+          KEY_3                    1639                      #  Was: 43
+          KEY_3                    1641                      #  Was: 43
+          KEY_3                    1642                      #  Was: 43
+          KEY_3                    936                       #  Was: 43
+          KEY_3                    933                       #  Was: 43
+
+          name POSITION
+          KEY_3                    1641                      #  Was: 43
+          KEY_3                    1512                      #  Was: 43
+          KEY_3                    1646                      #  Was: 43
+          KEY_3                    2355                      #  Was: 43
+          KEY_3                    2352                      #  Was: 43
+
+          name PIP2-12
+          KEY_3                    1641                      #  Was: 43
+          KEY_3                    1641                      #  Was: 43
+          KEY_3                    1640                      #  Was: 43
+          KEY_3                    931                       #  Was: 43
+          KEY_3                    2353                      #  Was: 43
+
+          name STILL
+          KEY_3                    1642                      #  Was: 43
+          KEY_3                    1511                      #  Was: 43
+          KEY_3                    1642                      #  Was: 43
+          KEY_3                    2350                      #  Was: 43
+          KEY_3                    2490                      #  Was: 43
+
+          name SIZE
+          KEY_3                    1640                      #  Was: 43
+          KEY_3                    1646                      #  Was: 43
+          KEY_3                    1647                      #  Was: 43
+          KEY_3                    2355                      #  Was: 43
+          KEY_3                    1641                      #  Was: 43
+
+          name TIME
+          KEY_3                    1638                      #  Was: 43
+          KEY_3                    1509                      #  Was: 43
+          KEY_3                    1640                      #  Was: 43
+          KEY_3                    2351                      #  Was: 43
+          KEY_3                    931                       #  Was: 43
+
+          name REVEAL
+          KEY_3                    1646                      #  Was: 43
+          KEY_3                    1643                      #  Was: 43
+          KEY_3                    1639                      #  Was: 43
+          KEY_3                    2350                      #  Was: 43
+          KEY_3                    1509                      #  Was: 43
+
+          name MIX
+          KEY_3                    1648                      #  Was: 43
+          KEY_3                    1514                      #  Was: 43
+          KEY_3                    1643                      #  Was: 43
+          KEY_3                    2352                      #  Was: 43
+          KEY_3                    931                       #  Was: 43
+
+          name SLEEP
+          KEY_3                    1644                      #  Was: 43
+          KEY_3                    1645                      #  Was: 43
+          KEY_3                    1644                      #  Was: 43
+          KEY_3                    1646                      #  Was: 43
+          KEY_3                    932                       #  Was: 43
+
+          name LIST
+          KEY_3                    1642                      #  Was: 43
+          KEY_3                    1509                      #  Was: 43
+          KEY_3                    1642                      #  Was: 43
+          KEY_3                    2489                      #  Was: 43
+          KEY_3                    1644                      #  Was: 43
+
+          name I-II
+          KEY_3                    1645                      #  Was: 43
+          KEY_3                    1645                      #  Was: 43
+          KEY_3                    1640                      #  Was: 43
+          KEY_3                    1511                      #  Was: 43
+          KEY_3                    1642                      #  Was: 43
+
+          name ARC
+          KEY_3                    1640                      #  Was: 43
+          KEY_3                    1512                      #  Was: 43
+          KEY_3                    1648                      #  Was: 43
+          KEY_3                    935                       #  Was: 43
+          KEY_3                    1643                      #  Was: 43
+
+          name EYE
+          KEY_3                    1639                      #  Was: 43
+          KEY_3                    1644                      #  Was: 43
+          KEY_3                    1647                      #  Was: 43
+          KEY_3                    936                       #  Was: 43
+          KEY_3                    930                       #  Was: 43
+
+          name STOP
+          KEY_3                    932                       #  Was: 43
+          KEY_3                    933                       #  Was: 43
+          KEY_3                    930                       #  Was: 43
+          KEY_3                    4669                      #  Was: 43
+          KEY_3                    2197                      #  Was: 43
+          KEY_3                    2222                      #  Was: 43
+          KEY_3                    2198                      #  Was: 43
+          KEY_3                    1093                      #  Was: 43
+          KEY_3                    1059                      #  Was: 43
+          KEY_3                    1091                      #  Was: 43
+          KEY_3                    1059                      #  Was: 43
+          KEY_3                    1086                      #  Was: 43
+          KEY_3                    2195                      #  Was: 43
+          KEY_3                    2225                      #  Was: 43
+          KEY_3                     #  Was: 43              
+
+          name P-STILL
+          KEY_3                    936                       #  Was: 43
+          KEY_3                    931                       #  Was: 43
+          KEY_3                    931                       #  Was: 43
+          KEY_3                    4673                      #  Was: 43
+          KEY_3                    2195                      #  Was: 43
+          KEY_3                    2222                      #  Was: 43
+          KEY_3                    2196                      #  Was: 43
+          KEY_3                    1089                      #  Was: 43
+          KEY_3                    1063                      #  Was: 43
+          KEY_3                    2223                      #  Was: 43
+          KEY_3                    1060                      #  Was: 43
+          KEY_3                    1092                      #  Was: 43
+          KEY_3                    2198                      #  Was: 43
+          KEY_3                    2223                      #  Was: 43
+          KEY_3                     #  Was: 43              
+
+          name REC
+          KEY_3                    933                       #  Was: 43
+          KEY_3                    931                       #  Was: 43
+          KEY_3                    934                       #  Was: 43
+          KEY_3                    4666                      #  Was: 43
+          KEY_3                    2197                      #  Was: 43
+          KEY_3                    2223                      #  Was: 43
+          KEY_3                    2196                      #  Was: 43
+          KEY_3                    1091                      #  Was: 43
+          KEY_3                    1061                      #  Was: 43
+          KEY_3                    1089                      #  Was: 43
+          KEY_3                    1059                      #  Was: 43
+          KEY_3                    1091                      #  Was: 43
+          KEY_3                    2195                      #  Was: 43
+          KEY_3                    2223                      #  Was: 43
+          KEY_3                     #  Was: 43              
+
+          name REW
+          KEY_3                    933                       #  Was: 43
+          KEY_3                    931                       #  Was: 43
+          KEY_3                    933                       #  Was: 43
+          KEY_3                    4667                      #  Was: 43
+          KEY_3                    2199                      #  Was: 43
+          KEY_3                    2222                      #  Was: 43
+          KEY_3                    2196                      #  Was: 43
+          KEY_3                    1092                      #  Was: 43
+          KEY_3                    1067                      #  Was: 43
+          KEY_3                    2222                      #  Was: 43
+          KEY_3                    1064                      #  Was: 43
+          KEY_3                    1086                      #  Was: 43
+          KEY_3                    2198                      #  Was: 43
+          KEY_3                    2221                      #  Was: 43
+          KEY_3                     #  Was: 43              
+
+          name PLAY
+          KEY_3                    935                       #  Was: 43
+          KEY_3                    931                       #  Was: 43
+          KEY_3                    932                       #  Was: 43
+          KEY_3                    4669                      #  Was: 43
+          KEY_3                    2198                      #  Was: 43
+          KEY_3                    2223                      #  Was: 43
+          KEY_3                    2196                      #  Was: 43
+          KEY_3                    1091                      #  Was: 43
+          KEY_3                    1063                      #  Was: 43
+          KEY_3                    1091                      #  Was: 43
+          KEY_3                    1065                      #  Was: 43
+          KEY_3                    1090                      #  Was: 43
+          KEY_3                    2196                      #  Was: 43
+          KEY_3                    2223                      #  Was: 43
+          KEY_3                     #  Was: 43              
+
+          name FF
+          KEY_3                    930                       #  Was: 43
+          KEY_3                    931                       #  Was: 43
+          KEY_3                    931                       #  Was: 43
+          KEY_3                    4668                      #  Was: 43
+          KEY_3                    2197                      #  Was: 43
+          KEY_3                    2222                      #  Was: 43
+          KEY_3                    2197                      #  Was: 43
+          KEY_3                    1092                      #  Was: 43
+          KEY_3                    1060                      #  Was: 43
+          KEY_3                    2223                      #  Was: 43
+          KEY_3                    1066                      #  Was: 43
+          KEY_3                    1090                      #  Was: 43
+          KEY_3                    2195                      #  Was: 43
+          KEY_3                    2223                      #  Was: 43
+          KEY_3                     #  Was: 43              
+
+          name POWER
+          KEY_3                    1641                      #  Was: 43
+          KEY_3                    1510                      #  Was: 43
+          KEY_3                    1641                      #  Was: 43
+          KEY_3                    2485                      #  Was: 43
+          KEY_3                    1510                      #  Was: 43
+
+          name TVAV
+          KEY_3                    1639                      #  Was: 43
+          KEY_3                    1640                      #  Was: 43
+          KEY_3                    1642                      #  Was: 43
+          KEY_3                    1644                      #  Was: 43
+          KEY_3                    1643                      #  Was: 43
+
+          name TURBOSOUND
+          KEY_3                    1642                      #  Was: 43
+          KEY_3                    1516                      #  Was: 43
+          KEY_3                    1644                      #  Was: 43
+          KEY_3                    1509                      #  Was: 43
+          KEY_3                    1511                      #  Was: 43
+
+          name TURBOPICTURE
+          KEY_3                    1641                      #  Was: 43
+          KEY_3                    1641                      #  Was: 43
+          KEY_3                    1642                      #  Was: 43
+          KEY_3                    936                       #  Was: 43
+          KEY_3                    1644                      #  Was: 43
+
+          name PIP
+          KEY_3                    1644                      #  Was: 43
+          KEY_3                    1514                      #  Was: 43
+          KEY_3                    1642                      #  Was: 43
+          KEY_3                    1643                      #  Was: 43
+          KEY_3                    932                       #  Was: 43
+
+          name TEXT
+          KEY_3                    1646                      #  Was: 43
+          KEY_3                    1643                      #  Was: 43
+          KEY_3                    1632                      #  Was: 43
+          KEY_3                    1642                      #  Was: 43
+          KEY_3                    1509                      #  Was: 43
+
+          name PR-MINUS
+          KEY_3                    1639                      #  Was: 43
+          KEY_3                    1507                      #  Was: 43
+          KEY_3                    1642                      #  Was: 43
+          KEY_3                    936                       #  Was: 43
+          KEY_3                    1644                      #  Was: 43
+
+          name PR-PLUS
+          KEY_3                    1639                      #  Was: 43
+          KEY_3                    1639                      #  Was: 43
+          KEY_3                    1644                      #  Was: 43
+          KEY_3                    931                       #  Was: 43
+          KEY_3                    936                       #  Was: 43
+
+          name SWAP
+          KEY_3                    1639                      #  Was: 43
+          KEY_3                    1512                      #  Was: 43
+          KEY_3                    1646                      #  Was: 43
+          KEY_3                    935                       #  Was: 43
+          KEY_3                    931                       #  Was: 43
+
+          name INPUT
+          KEY_3                    1644                      #  Was: 43
+          KEY_3                    1640                      #  Was: 43
+          KEY_3                    1640                      #  Was: 43
+          KEY_3                    931                       #  Was: 43
+          KEY_3                    1509                      #  Was: 43
+
+          name MENU
+          KEY_3                    1644                      #  Was: 43
+          KEY_3                    1511                      #  Was: 43
+          KEY_3                    1642                      #  Was: 43
+          KEY_3                    1640                      #  Was: 43
+          KEY_3                    1644                      #  Was: 43
+
+          name MUTE
+          KEY_3                    1642                      #  Was: 43
+          KEY_3                    1642                      #  Was: 43
+          KEY_3                    1641                      #  Was: 43
+          KEY_3                    2486                      #  Was: 43
+          KEY_3                    2352                      #  Was: 43
+
+          name PROGUP
+          KEY_3                    1641                      #  Was: 43
+          KEY_3                    1511                      #  Was: 43
+          KEY_3                    1644                      #  Was: 43
+          KEY_3                    1511                      #  Was: 43
+          KEY_3                    1643                      #  Was: 43
+
+          name PROGDOWN
+          KEY_3                    1645                      #  Was: 43
+          KEY_3                    1645                      #  Was: 43
+          KEY_3                    1642                      #  Was: 43
+          KEY_3                    1509                      #  Was: 43
+          KEY_3                    2484                      #  Was: 43
+
+          name OK
+          KEY_3                    1644                      #  Was: 43
+          KEY_3                    1509                      #  Was: 43
+          KEY_3                    1644                      #  Was: 43
+          KEY_3                    1507                      #  Was: 43
+          KEY_3                    2350                      #  Was: 43
+
+          name VOLDOWN
+          KEY_3                    1643                      #  Was: 43
+          KEY_3                    1647                      #  Was: 43
+          KEY_3                    1647                      #  Was: 43
+          KEY_3                    933                       #  Was: 43
+          KEY_3                    2486                      #  Was: 43
+
+          name VOLUP
+          KEY_3                    1643                      #  Was: 43
+          KEY_3                    1511                      #  Was: 43
+          KEY_3                    1645                      #  Was: 43
+          KEY_3                    935                       #  Was: 43
+          KEY_3                    1642                      #  Was: 43
+
+          name DRP
+          KEY_3                    1643                      #  Was: 43
+          KEY_3                    1639                      #  Was: 43
+          KEY_3                    1642                      #  Was: 43
+          KEY_3                    931                       #  Was: 43
+          KEY_3                    1507                      #  Was: 43
+
+      end raw_codes
+
+end remote
+

@@ -1,0 +1,60 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.5(any) on Sat Mar 15 16:10:32 2003
+#
+# contributed by
+#
+# brand:                      Mitsubishi
+# model no. of remote control: Unlabeled 26 Button TV remote control
+# devices being controlled by this remote: Mitsubishi CT21AM2(A) 51cm Colour Television
+#
+
+begin remote
+
+  name  mitsubishi_tv
+  bits            8
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           564  1878
+  zero          564   662
+  ptrail        549
+  pre_data_bits   8
+  pre_data       0xE2
+  gap          53758
+  min_repeat      2
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x0000000000000040        #  Was: power
+          KEY_102ND                0x0000000000000088        #  Was: -/--
+          KEY_1                    0x0000000000000000        #  Was: 1
+          KEY_2                    0x0000000000000010        #  Was: 2
+          KEY_3                    0x0000000000000008        #  Was: 3
+          KEY_4                    0x0000000000000018        #  Was: 4
+          KEY_5                    0x0000000000000004        #  Was: 5
+          KEY_6                    0x0000000000000014        #  Was: 6
+          KEY_7                    0x000000000000000C        #  Was: 7
+          KEY_8                    0x000000000000001C        #  Was: 8
+          KEY_9                    0x0000000000000080        #  Was: 9
+          KEY_0                    0x0000000000000090        #  Was: 0
+          KEY_CHANNELUP            0x0000000000000050        #  Was: ch+
+          KEY_CHANNELDOWN          0x0000000000000048        #  Was: ch-
+          KEY_MUTE                 0x000000000000004C        #  Was: mute
+          display                  0x00000000000000F8
+          tv/av                    0x000000000000005C
+          KEY_VOLUMEUP             0x0000000000000044        #  Was: vol+
+          KEY_VOLUMEDOWN           0x0000000000000054        #  Was: vol-
+          KEY_MENU                 0x000000000000004A        #  Was: menu
+          KEY_CLEAR                0x00000000000000F8        #  Was: clear
+          KEY_UP                   0x0000000000000026        #  Was: up
+          KEY_DOWN                 0x0000000000000036        #  Was: down
+          KEY_RIGHT                0x0000000000000082        #  Was: right
+          KEY_LEFT                 0x0000000000000092        #  Was: left
+      end codes
+
+end remote
+
+

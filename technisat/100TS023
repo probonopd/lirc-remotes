@@ -1,0 +1,60 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.5(serial) on Mon Jul 22 18:13:30 2002
+#
+# contributed by S.Kranz (schmude@foni.net)
+#
+# brand:                                   Technisat
+# model no. of remote control:             100 TS 023
+# devices being controlled by this remote: MultyMedia ADR1
+#
+
+begin remote
+
+  name  100_TS_023
+  bits           11
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           286  7293
+  zero          286  4765
+  ptrail        288
+  gap          121336
+  toggle_bit      2
+
+
+      begin codes
+          KEY_MUTE                 0x00000000000005C6        #  Was: mute
+          KEY_POWER                0x00000000000005C1        #  Was: power
+          klassik                  0x00000000000005D0
+          pop                      0x00000000000005D1
+          oldies                   0x00000000000005D2
+          pa                       0x00000000000005E5
+          rock                     0x00000000000005D3
+          jazz                     0x00000000000005D4
+          country                  0x00000000000005D5
+          spez-mu                  0x00000000000005D6
+          regional                 0x00000000000005D7
+          nachr                    0x00000000000005D8
+          allgemein                0x00000000000005CF
+          frei                     0x00000000000005CA
+          analog                   0x00000000000005C3
+          tv_radio                 0x00000000000005C2
+          programm+                0x00000000000005C7
+          programm-                0x00000000000005C8
+          ^                        0x00000000000005F2
+          KEY_V                    0x00000000000005F3        #  Was: v
+          <                        0x00000000000005F4
+          >                        0x00000000000005F5
+          KEY_OK                   0x00000000000005F6        #  Was: ok
+          liste                    0x00000000000005F7
+          zurueck                  0x00000000000005E7
+          ats                      0x00000000000005FD
+          menue                    0x00000000000005EB
+      end codes
+
+end remote
+
+
+

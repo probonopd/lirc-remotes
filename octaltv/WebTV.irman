@@ -1,0 +1,77 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.5(any) on Wed Sep 18 15:00:33 2002
+#
+# contributed by Edson Medina <edson@carapinhas.org>
+#
+# brand: OctalTV (tm) WebTV
+# devices being controlled by this remote: OctalTV WebTV
+#
+
+begin remote
+
+  name  octaltv
+  bits           48
+  eps            30
+  aeps          100
+
+  one             0     0
+  zero            0     0
+  pre_data_bits   16
+  pre_data       0xFFFF
+  gap          189939
+  min_repeat      2
+  toggle_bit      0
+
+
+      begin codes
+          tv/video                 0x0000A50000000000
+          KEY_TV                   0x0000A90000000000        #  Was: tv
+          KEY_WWW                  0x0000AD5EB57AD5EB        #  Was: web
+          pip                      0x0000E95FA57E95FA
+          KEY_RECORD               0x000092A1B5792A1B        #  Was: recent
+          KEY_INFO                 0x0000ED5FB57ED5FB        #  Was: info
+          tv/web                   0x0000B15EC57B15EC
+          KEY_HOME                 0x00009AA19579AA19        #  Was: home
+          scroll_up                0x0000895E257895E2
+          scroll_down              0x000086A1E5786A1E
+          KEY_BACK                 0x0000AAA1557AAA15        #  Was: back
+          arrow_up                 0x00008D5E3578D5E3
+          arrow_down               0x000082A1F5782A1F
+          arrow_left               0x0000855E157855E1
+          arrow_right              0x00008AA1D578AA1D
+          go                       0x0000955E557955E5
+          listings                 0x0000EAA0557EAA05
+          KEY_OPTION               0x00009D5E7579D5E7        #  Was: options
+          KEY_MUTE                 0x0000290000000000        #  Was: mute
+          KEY_VOLUMEUP             0x0000490000000000        #  Was: volume_up
+          KEY_VOLUMEDOWN           0x0000C90000000000        #  Was: volume_down
+          personal_tv              0x0000DD5F757DD5F7
+          KEY_CHANNELUP            0x0000090000000000        #  Was: channel_up
+          KEY_CHANNELDOWN          0x0000890000000000        #  Was: channel_down
+          KEY_RECORD               0x0000B9A000000000        #  Was: rec
+          undo                     0x0000D2A0B57D2A0B
+          redo                     0x0000D15F457D15F4
+          KEY_REWIND               0x0000A15E857A15E8        #  Was: rewind
+          KEY_FORWARD              0x0000D95F657D95F6        #  Was: forward
+          KEY_PAUSE                0x0000DAA0957DAA09        #  Was: pause
+          KEY_STOP                 0x0000D6A0A57D6A0A        #  Was: stop
+          KEY_PLAY                 0x0000AEA1457AEA14        #  Was: play
+          KEY_1                    0x0000A55E957A55E9        #  Was: 1
+          KEY_2                    0x0000A6A1657A6A16        #  Was: 2
+          KEY_3                    0x0000A2A1757A2A17        #  Was: 3
+          KEY_4                    0x0000B55ED57B55ED        #  Was: 4
+          KEY_5                    0x0000B6A1257B6A12        #  Was: 5
+          KEY_6                    0x0000B2A1357B2A13        #  Was: 6
+          KEY_7                    0x0000BAA1157BAA11        #  Was: 7
+          KEY_8                    0x0000B95EE57B95EE        #  Was: 8
+          KEY_9                    0x0000BD5EF57BD5EF        #  Was: 9
+          KEY_0                    0x000096A1A5796A1A        #  Was: 0
+          KEY_AGAIN                0x0000E6A0657E6A06        #  Was: recall
+          KEY_ENTER                0x00008EA1C578EA1C        #  Was: enter
+      end codes
+
+end remote
+
+
+

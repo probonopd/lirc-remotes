@@ -1,0 +1,70 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.6(any) on Wed Jan 28 22:23:09 2004
+#
+# contributed by Michael Fritzsch (Fridge|barracuda-attack.de)
+#
+# brand: JVC
+# model: RM-RXUT200R
+#
+#
+
+begin remote
+
+  name JVC_RM-RXUT200R
+  bits           16
+  flags SPACE_ENC|NO_HEAD_REP|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       8477  4155
+  one           569  1535
+  zero          569   483
+  ptrail        566
+  gap          46384
+  toggle_bit      0
+
+
+      begin codes
+          KEY_1                    0x000000000000F984        #  Was: 1
+          KEY_2                    0x000000000000F944        #  Was: 2
+          KEY_3                    0x000000000000F9C4        #  Was: 3
+          KEY_POWER                0x000000000000F900        #  Was: ON-OFF
+          KEY_4                    0x000000000000F924        #  Was: 4
+          KEY_5                    0x000000000000F9A4        #  Was: 5
+          KEY_6                    0x000000000000F964        #  Was: 6
+          KEY_SLEEP                0x000000000000F94C        #  Was: sleep
+          KEY_7                    0x000000000000F9E4        #  Was: 7
+          KEY_8                    0x000000000000F914        #  Was: 8
+          KEY_9                    0x000000000000F994        #  Was: 9
+          display                  0x000000000000F938
+          KEY_0                    0x000000000000F954        #  Was: 10
+          KEY_10CHANNELSUP         0x000000000000F974        #  Was: +10
+          auto-preset              0x000000000000F948
+          stereo                   0x000000000000F9F8
+          KEY_AUX                  0x000000000000F9B0        #  Was: aux
+          KEY_TAPE                 0x000000000000F932        #  Was: tape
+          KEY_TUNER                0x000000000000F9D0        #  Was: tuner
+          KEY_CD                   0x000000000000F90E        #  Was: cd
+          reverse-mode             0x000000000000F982
+          KEY_REWIND               0x000000000000F97C        #  Was: rewind
+          KEY_STOP                 0x000000000000F98E        #  Was: stop
+          KEY_FASTFORWARD          0x000000000000F9BC        #  Was: fast-forward
+          beat-cut                 0x000000000000F977
+          program                  0x000000000000F92E
+          random                   0x000000000000F9EE
+          KEY_AGAIN                0x000000000000F91E        #  Was: repeat
+          pty-eon                  0x000000000000F9E8
+          left-select              0x000000000000F998
+          right-select             0x000000000000F918
+          display-mode             0x000000000000F968
+          bass-                    0x000000000000F911
+          bass+                    0x000000000000F9E1
+          treble-                  0x000000000000F951
+          treble+                  0x000000000000F991
+          ahb-pro                  0x000000000000F920
+          KEY_VOLUMEDOWN           0x000000000000F940        #  Was: volume-
+          KEY_VOLUMEUP             0x000000000000F980        #  Was: volume+
+      end codes
+
+end remote

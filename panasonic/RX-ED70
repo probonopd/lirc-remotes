@@ -1,0 +1,64 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.3(sir) on Thu Jun 21 14:12:46 2001
+#
+# contributed by Panajotis Karajannis
+#
+# brand:             Panasonic
+# model:             RX-ED70
+# supported devices:
+#
+
+begin remote
+
+  name RX-ED70
+  bits           15
+  flags SPACE_ENC
+  eps            30
+  aeps          100
+
+  header       3470  1758
+  one           447  1295
+  zero          447   423
+  ptrail        447
+  pre_data_bits   32
+  pre_data       0x40040543
+  post_data_bits  1
+  post_data      0x1
+  gap          74932
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x0000000000007EDD        #  Was: POWER
+          KEY_SLEEP                0x0000000000001EBD        #  Was: SLEEP
+          DISPLAY                  0x00000000000078DB
+          TUNER_STEREO_MONO        0x00000000000013B0
+          TUNER_BAND               0x0000000000000EAD
+          TUNER_BP                 0x0000000000007BD8
+          TUNER_DOWN               0x0000000000000BA8
+          TUNER_UP                 0x00000000000073D0
+          CD_RANDOM                0x0000000000002083
+          CD_START                 0x00000000000010B3
+          CD_END                   0x00000000000050F3
+          CD_REPEAT                0x00000000000040E3
+          CD_CLEAR                 0x00000000000000A3
+          CD_PLAY                  0x00000000000070D3
+          TAPE_REV_MODE            0x0000000000003A99
+          TAPE_REWIND              0x0000000000002281
+          TAPE_FF                  0x00000000000062C1
+          TAPE_RESET               0x0000000000007AD9
+          TAPE_STOP                0x00000000000002A1
+          TAPE_PLAY                0x0000000000003291
+          TAPE_DESC                0x0000000000005AF9
+          TOP_PANEL_CLOSE          0x00000000000057F4
+          TOP_PANEL_OPEN           0x00000000000017B4
+          PRESET_EQ                0x0000000000004DEE
+          KEY_VOLUMEDOWN           0x00000000000046E5        #  Was: VOL_DOWN
+          KEY_VOLUMEUP             0x00000000000006A5        #  Was: VOL_UP
+      end codes
+
+end remote
+
+
+

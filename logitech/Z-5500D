@@ -1,0 +1,51 @@
+#
+# this config file was automatically generated
+# using lirc-0.7.1pre1(any) on Sat Feb 12 19:30:23 2005
+#
+# contributed by Tim Fenn (fenn|stanford.edu)
+#
+# brand: Logitech
+# model no. of remote control: Z-5500D
+# devices being controlled by this remote: Logitech Z-5500 digital speaker system
+#
+
+begin remote
+
+  name  logitech_z5500
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9002  4535
+  one           566  1689
+  zero          566   561
+  ptrail        559
+  repeat       9002  2279
+  pre_data_bits   16
+  pre_data       0x10EF
+  gap          108301
+  toggle_bit      0
+
+      begin codes
+          KEY_POWER                0x08F7                    #  Was: power
+          test                     0xA05F
+          direct                   0x50AF
+          optical                  0xD02F
+          coax                     0x30CF
+          effect                   0xB847
+          KEY_SETUP                0xF807                    #  Was: settings
+          KEY_SUBTITLE             0xC03F                    #  Was: sub+
+          KEY_SUBTITLE             0x807F                    #  Was: sub-
+          center+                  0x40BF
+          center-                  0x609F
+          surround+                0x00FF
+          surround-                0x20DF
+          KEY_VOLUMEUP             0x58A7                    #  Was: vol+
+          KEY_VOLUMEDOWN           0x708F                    #  Was: vol-
+          KEY_MUTE                 0x6897                    #  Was: mute
+      end codes
+
+end remote
+
+

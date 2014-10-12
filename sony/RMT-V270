@@ -1,0 +1,68 @@
+#
+# this config file was automatically generated
+# using WinLIRC 0.6.5 (LIRC 0.6.1pre3) on Wed Dec 08 23:23:31 2004
+#
+# contributed by
+#
+# brand:             Sony
+# model:             RMT-V270
+# supported devices:
+#
+
+begin remote
+
+  name  RMT-V270
+  bits           11
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  header       2471   501
+  one          1276   501
+  zero          684   501
+  ptrail        684
+  gap          24443
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x000000000000054D        #  Was: power
+          tv/vtr                   0x00000000000002AD
+          timer_clear              0x000000000000063D
+          timer_rec                0x000000000000053D
+          quick_timer              0x000000000000025D
+          KEY_CHANNELUP            0x000000000000004D        #  Was: prog_up
+          KEY_CHANNELDOWN          0x000000000000044D        #  Was: prog_down
+          KEY_1                    0x000000000000000D        #  Was: 1
+          KEY_2                    0x000000000000040D        #  Was: 2
+          KEY_3                    0x000000000000020D        #  Was: 3
+          KEY_4                    0x000000000000060D        #  Was: 4
+          KEY_5                    0x000000000000010D        #  Was: 5
+          KEY_6                    0x000000000000050D        #  Was: 6
+          KEY_7                    0x000000000000030D        #  Was: 7
+          KEY_8                    0x000000000000070D        #  Was: 8
+          KEY_9                    0x000000000000008D        #  Was: 9
+          KEY_0                    0x000000000000048D        #  Was: 0
+          KEY_102ND                0x000000000000028D        #  Was: -/--
+          counter_reset            0x000000000000031D
+          input_sel                0x000000000000079D
+          exe                      0x000000000000045D
+          timer_check              0x000000000000013D
+          timer_next               0x000000000000043D
+          goto                     0x000000000000019D
+          fine_down                0x000000000000051D
+          fine_up                  0x000000000000011D
+          KEY_PAUSE                0x00000000000004CD        #  Was: pause
+          KEY_RECORD               0x00000000000005CD        #  Was: rec_both
+          search_left              0x00000000000000AD
+          KEY_PLAY                 0x00000000000002CD        #  Was: play
+          search_right             0x00000000000004AD
+          KEY_PREVIOUS             0x00000000000006CD        #  Was: previous
+          KEY_STOP                 0x00000000000000CD        #  Was: stop
+          KEY_NEXT                 0x00000000000001CD        #  Was: next
+          still                    0x000000000000046D
+      end codes
+
+end remote
+
+

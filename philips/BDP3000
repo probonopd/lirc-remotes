@@ -1,0 +1,76 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.6(audio) on Mon May 31 22:58:07 2010
+#
+# contributed by
+#
+# brand:                       Philips
+# model no. of remote control: BDP3000
+# devices being controlled by this remote: BDP3000
+#
+
+begin remote
+
+  name  Philips_BDP3000
+  bits           21
+  flags RC6|CONST_LENGTH
+  eps            30
+  aeps          200
+
+  header       2723   826
+  one           490   396
+  zero          490   396
+  gap          106640
+  toggle_bit_mask 0x10000
+  rc6_mask    0x10000
+
+      begin codes
+          KEY_POWER                0x0FB938                  #  Was: power
+          topmenu                  0x0EB963
+          bonus                    0x0FB9A2
+          KEY_AGAIN                0x0EB9E2                  #  Was: repeat
+          hdmi                     0x0FB939
+          KEY_RED                  0x0EB992                  #  Was: red
+          KEY_GREEN                0x0FB991                  #  Was: green
+          KEY_YELLOW               0x0EB990                  #  Was: yellow
+          KEY_BLUE                 0x0FB98F                  #  Was: blue
+          KEY_HOME                 0x0EB96D                  #  Was: home
+          KEY_MENU                 0x0FB965                  #  Was: menu
+          KEY_OPTION               0x0EB936                  #  Was: options
+          KEY_UP                   0x0FB9A7                  #  Was: up
+          KEY_LEFT                 0x0EB9A5                  #  Was: left
+          KEY_RIGHT                0x0FB9A4                  #  Was: right
+          KEY_OK                   0x0EB9A3                  #  Was: ok
+          KEY_DOWN                 0x0FB9A6                  #  Was: down
+          KEY_BACK                 0x0EB97C                  #  Was: back
+          KEY_INFO                 0x0FB9F0                  #  Was: info
+          KEY_PREVIOUS             0x0EB9DE                  #  Was: prev
+          KEY_PLAY                 0x0FB9D3                  #  Was: play
+          KEY_PAUSE                0x0EB9CF                  #  Was: pause
+          KEY_NEXT                 0x0FB9DF                  #  Was: next
+          bwd                      0x0EB9D6
+          KEY_STOP                 0x0FB9CE                  #  Was: stop
+          KEY_FORWARD              0x0EB9D7                  #  Was: fwd
+          KEY_VOLUMEUP             0x0FFFEF                  #  Was: vol+
+          KEY_VOLUMEDOWN           0x0EFFEE                  #  Was: vol-
+          KEY_MUTE                 0x0FFFF2                  #  Was: mute
+          KEY_EJECTCD              0x0EB9BD                  #  Was: eject
+          KEY_CHANNELUP            0x0FFFDF                  #  Was: ch+
+          KEY_CHANNELDOWN          0x0EFFDE                  #  Was: ch-
+          KEY_1                    0x0FB9FE                  #  Was: 1
+          KEY_2                    0x0EB9FD                  #  Was: 2
+          KEY_3                    0x0FB9FC                  #  Was: 3
+          KEY_4                    0x0EB9FB                  #  Was: 4
+          KEY_5                    0x0FB9FA                  #  Was: 5
+          KEY_6                    0x0FB9F9                  #  Was: 6
+          KEY_7                    0x0EB9F8                  #  Was: 7
+          KEY_8                    0x0FB9F7                  #  Was: 8
+          KEY_9                    0x0FB9F6                  #  Was: 9
+          KEY_SUBTITLE             0x0EB9B4                  #  Was: subtitle
+          KEY_0                    0x0FB9FF                  #  Was: 0
+          KEY_AUDIO                0x0EB9B1                  #  Was: audio
+      end codes
+
+end remote
+
+

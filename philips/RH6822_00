@@ -1,0 +1,52 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.5(serial) on Mon Feb 11 18:22:55 2002
+#
+# contributed by Christian Tröster
+#
+# brand: Philips
+# model no. of remote control: RH 6822/00
+# devices being controlled by this remote: Philips FW 20/ FW 30 CD Mini System
+#
+
+begin remote
+
+  name  rh6822
+  bits           13
+  flags RC5|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one          1019   760
+  zero         1019   760
+  plead        1080
+  gap          113974
+  toggle_bit      2
+
+
+      begin codes
+          KEY_SLEEP                0x000000000000150C        #  Was: Standby
+          KEY_CD                   0x000000000000153F        #  Was: CD
+          KEY_TUNER                0x000000000000147F        #  Was: Tuner
+          BuzzerOff                0x000000000000142F
+          KEY_TAPE                 0x00000000000014BF        #  Was: Tape
+          KEY_AUX                  0x000000000000103F        #  Was: Aux
+          KEY_SLEEP                0x0000000000001426        #  Was: Sleep
+          News                     0x000000000000041A
+          DSC                      0x000000000000040F
+          KEY_PREVIOUS             0x0000000000001521        #  Was: Previous
+          Disc                     0x000000000000151E
+          KEY_NEXT                 0x0000000000001520        #  Was: Next
+          SearchLeft               0x0000000000001532
+          Shuffle                  0x000000000000151C
+          SearchRight              0x0000000000001534
+          KEY_STOP                 0x0000000000001536        #  Was: Stop
+          KEY_PLAY                 0x0000000000001535        #  Was: Play
+          KEY_VOLUMEUP             0x0000000000001410        #  Was: VolumeUp
+          KEY_VOLUMEDOWN           0x0000000000001411        #  Was: VolumeDown
+          KEY_PAUSE                0x0000000000001530        #  Was: Pause
+      end codes
+
+end remote
+
+

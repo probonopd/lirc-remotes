@@ -1,0 +1,58 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.5(any) on Fri Dec 13 19:22:42 2002
+#
+# contributed by Christoph Pirkl
+#
+# brand: Philips
+# model no. of remote control: ?
+# devices being controlled by this remote: Philips FW 362
+#
+
+begin remote
+
+  name Philips_FW362
+  bits           13
+  flags RC5|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           908   868
+  zero          908   868
+  plead         943
+  gap          113729
+  toggle_bit      2
+
+
+      begin codes
+          tv_power                 0x000000000000100C
+          KEY_POWER                0x000000000000154C        #  Was: power
+          tv_vcr                   0x000000000000103F
+          KEY_TUNER                0x000000000000147F        #  Was: tuner
+          KEY_CD                   0x0000000000001D3F        #  Was: cd
+          KEY_AUX                  0x000000000000157F        #  Was: aux
+          tape1                    0x0000000000001CAC
+          tape2                    0x00000000000014AE
+
+          KEY_PLAY                 0x0000000000001175        #  Was: play
+          KEY_PAUSE                0x0000000000001170        #  Was: pause
+          KEY_STOP                 0x0000000000001176        #  Was: stop
+          skip_forw                0x0000000000001020
+          skip_back                0x0000000000001021
+          forw                     0x0000000000001010
+          KEY_BACK                 0x0000000000001011        #  Was: back
+          KEY_VOLUMEUP             0x0000000000001410        #  Was: volup
+          KEY_VOLUMEDOWN           0x0000000000001411        #  Was: voldown
+
+          dsc                      0x000000000000040F
+          incredible_sound         0x0000000000000400
+          dbb                      0x0000000000000406
+
+          disc_up                  0x0000000000001D1E
+          shuffle                  0x000000000000151C
+          side                     0x0000000000001CAF
+
+      end codes
+
+end remote
+

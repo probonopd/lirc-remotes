@@ -1,0 +1,74 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.6(serial) on Sat Jan 31 09:21:09 2004
+#
+# contributed by Menetekel23
+#
+# brand: Aiwa
+# model no. of remote control: RC-TZ800
+# devices being controlled by this remote: Aiwa CX-Z700
+#
+# all buttons work fine ;-)
+
+begin remote
+
+  name  AIWA_RC-TZ800
+  bits           42
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9116  4431
+  one           645  1611
+  zero          645   483
+  ptrail        647
+  repeat       9119  4428
+  gap          108354
+  min_repeat      1
+  toggle_bit      0
+
+
+      begin codes
+          KEY_MUTE                 0x000001D8113F32CD        #  Was: Mute
+          KEY_POWER                0x000001D8113F00FF        #  Was: Power
+          Timer                    0x000001D8113F30CF
+          KEY_TIME                 0x000001D8113F8877        #  Was: Clock
+          FM_Mode                  0x000001D8113F48B7
+          KEY_SLEEP                0x000001D8113F708F        #  Was: Sleep
+          Random                   0x000001D8113FA857
+          Display                  0x000001D8113F28D7
+          KEY_AGAIN                0x000001D8113F6897        #  Was: Repeat
+          KEY_OPEN                 0x000001D8113FC837        #  Was: Open/Close
+          KEY_1                    0x000001D8113F807F        #  Was: 1
+          KEY_2                    0x000001D8113F40BF        #  Was: 2
+          KEY_3                    0x000001D8113FC03F        #  Was: 3
+          KEY_4                    0x000001D8113F20DF        #  Was: 4
+          KEY_5                    0x000001D8113FA05F        #  Was: 5
+          KEY_6                    0x000001D8113F609F        #  Was: 6
+          KEY_7                    0x000001D8113FE01F        #  Was: 7
+          KEY_8                    0x000001D8113F10EF        #  Was: 8
+          KEY_9                    0x000001D8113F906F        #  Was: 9
+          KEY_0                    0x000001D8113F50AF        #  Was: 0
+          KEY_10CHANNELSUP         0x000001D8113FD02F        #  Was: +10
+          KEY_CD                   0x000001D8113FF807        #  Was: CD
+          KEY_TAPE                 0x000001D8113FD827        #  Was: Tape
+          KEY_TUNER                0x000001D8113F38C7        #  Was: Tuner
+          Phono                    0x000001D8113F7887
+          KEY_VIDEO                0x000001D8113FB847        #  Was: Video/Aux
+          tracking-                0x000001D8113FC23D
+          tracking+                0x000001D8113F42BD
+          KEY_STOP                 0x000001D8113F827D        #  Was: Stop
+          Direction<>              0x000001D8113F02FD
+          Pause/Set                0x000001D8113F22DD
+          KEY_RECORD               0x000001D8113FA25D        #  Was: Rec
+          T-Bass                   0x000001D8113FE21D
+          BBE                      0x000001D8113F12ED
+          PRGM                     0x000003D8013F8877
+          Manual                   0x000003D8013F48B7
+          KEY_VOLUMEDOWN           0x000001D8113F728D        #  Was: Vol-
+          KEY_VOLUMEUP             0x000001D8113FB24D        #  Was: Vol+
+      end codes
+
+end remote
+
+

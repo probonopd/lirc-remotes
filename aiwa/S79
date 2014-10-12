@@ -1,0 +1,57 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.6(sir) on Sun Mar 21 23:09:05 2004
+# VcrAux added by manual experiment KW 2004-03-21
+#
+# contributed by Keith Wansbrough <Keith.Wansbrough|cl.cam.ac.uk>
+#
+# brand:                       AIWA
+# model no. of remote control: S79
+# devices being controlled by this remote: Series 70 Integrated Amplifier / Tuner / CD
+#
+
+begin remote
+
+  name  S79
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       8977  4523
+  one           548  1699
+  zero          548   578
+  ptrail        513
+  repeat       8978  4523
+  pre_data_bits   26
+  pre_data       0x481DBF
+  gap          108011
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x00000000000020DF        #  Was: Power
+          LW                       0x00000000000040BF
+          MW                       0x000000000000807F
+          KEY_RADIO                0x00000000000000FF        #  Was: FM
+          TuneDown                 0x000000000000A05F
+          TuneUp                   0x000000000000C03F
+          KEY_VOLUMEDOWN           0x00000000000010EF        #  Was: VolDown
+          KEY_VOLUMEUP             0x000000000000E01F        #  Was: VolUp
+          Programme                0x00000000000050AF
+          KEY_STOP                 0x000000000000B04F        #  Was: Stop
+          KEY_PLAYPAUSE            0x000000000000D02F        #  Was: PlayPause
+          Memory                   0x00000000000030CF
+          BackSkip                 0x000000000000F00F
+          FwdSkip                  0x000000000000708F
+          KEY_MUTE                 0x000000000000906F        #  Was: Mute
+          KEY_TAPE                 0x00000000000048B7        #  Was: Tape
+          Phono                    0x0000000000008877
+          VcrAux                   0x00000000000008F7
+# aux not actually on remote, but a good guess worked!
+      end codes
+
+end remote
+
+
+

@@ -1,0 +1,81 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.1-CVS(default) on Sat Nov  4 14:30:45 2006
+#
+# contributed by: Michael Lynch
+#
+# brand: Pansat
+# model no. of remote control:
+# devices being controlled by this remote: 2700a and possibly 3500
+#
+
+begin remote
+
+  name  Pansat_2700a
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       8893  4582
+  one           587  1658
+  zero          587   535
+  ptrail        587
+  repeat       8893  2311
+  pre_data_bits   16
+  pre_data       0x10EF
+  gap          107354
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x00FF                    #  Was: POWER
+          KEY_MUTE                 0x20DF                    #  Was: MUTE
+          KEY_1                    0x38C7                    #  Was: 1
+          KEY_2                    0xB847                    #  Was: 2
+          KEY_3                    0x7887                    #  Was: 3
+          KEY_4                    0x02FD                    #  Was: 4
+          KEY_5                    0x827D                    #  Was: 5
+          KEY_6                    0x42BD                    #  Was: 6
+          KEY_7                    0x22DD                    #  Was: 7
+          KEY_8                    0xA25D                    #  Was: 8
+          KEY_9                    0x629D                    #  Was: 9
+          KEY_0                    0x18E7                    #  Was: 0
+          KEY_PAUSE                0x3AC5                    #  Was: PAUSE
+          AUDIOQ                   0x50AF
+          KEY_EPG                  0x9867                    #  Was: EPG
+          KEY_LAST                 0xE01F                    #  Was: LAST
+          KEY_FAVORITES            0xBA45                    #  Was: FAV
+          KEY_SAT                  0xD827                    #  Was: SAT
+          KEY_MENU                 0xD02F                    #  Was: MENU
+          DOUBLEUP                 0x609F
+          DOUBLEDOWN               0xE21D
+          KEY_EXIT                 0xC03F                    #  Was: EXIT
+          KEY_UP                   0x48B7                    #  Was: UP
+          KEY_LEFT                 0x28D7                    #  Was: LEFT
+          KEY_DOWN                 0xC837                    #  Was: DOWN
+          KEY_RIGHT                0x6897                    #  Was: RIGHT
+          KEY_OK                   0xA857                    #  Was: OK
+          HDD                      0xA05F
+          KEY_INFO                 0x58A7                    #  Was: INFO
+          KEY_REWIND               0x12ED                    #  Was: REW
+          KEY_FASTFORWARD          0x926D                    #  Was: FFW
+          KEY_PLAY                 0x52AD                    #  Was: PLAY
+          KEY_STOP                 0xD22D                    #  Was: STOP
+          SEEKBACK                 0x32CD
+          SEEKFWD                  0xB24D
+          KEY_PAUSE                0x728D                    #  Was: PAUSE
+          KEY_RECORD               0xF20D                    #  Was: REC
+          KEY_REWIND               0xF807                    #  Was: SKIPBACK
+          KEY_FASTFORWARD          0x906F                    #  Was: SKIPFWD
+          PIP                      0x807F
+          LOOP                     0xC23D
+          KEY_RED                  0x30CF                    #  Was: RED
+          KEY_GREEN                0xB04F                    #  Was: GREEN
+          KEY_YELLOW               0x08F7                    #  Was: YELLOW
+          KEY_BLUE                 0x8877                    #  Was: BLUE
+      end codes
+
+end remote
+
+

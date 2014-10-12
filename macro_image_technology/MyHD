@@ -1,0 +1,70 @@
+#
+# this config file was automatically generated
+# using lirc-0.7.1(serial) on Mon Aug  8 21:01:47 2005
+#
+# contributed by sschaefer1|woh.rr.com
+#
+# brand:		Macro Image Technology
+# model no. of remote control:	MyHD
+# devices being controlled by this remote:
+#		MDP-120 (High Definition PCI tuner/capture card)
+
+begin remote
+
+  name  MyHD
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9118  4423
+  one           625  1627
+  zero          625   507
+  ptrail        625
+  repeat       9117  2186
+  pre_data_bits   16
+  pre_data       0xCF3
+  gap          107895
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x00FF                    #  Was: POWER
+          INPUT                    0x807F
+          KEY_1                    0x40BF                    #  Was: 1
+          KEY_2                    0xC03F                    #  Was: 2
+          KEY_3                    0x20DF                    #  Was: 3
+          KEY_4                    0xA05F                    #  Was: 4
+          KEY_5                    0x609F                    #  Was: 5
+          KEY_6                    0xE01F                    #  Was: 6
+          KEY_7                    0x10EF                    #  Was: 7
+          KEY_8                    0x906F                    #  Was: 8
+          KEY_9                    0x08F7                    #  Was: 9
+          KEY_0                    0x8877                    #  Was: 0
+          KEY_AUDIO                0xE817                    #  Was: AUDIO
+          KEY_MUTE                 0x18E7                    #  Was: MUTE
+          KEY_SUBTITLE             0x9867                    #  Was: SUB-CH
+          KEY_INFO                 0x04FB                    #  Was: GUIDE
+          KEY_CHANNELUP            0x48B7                    #  Was: CH+
+          KEY_CHANNELDOWN          0x6897                    #  Was: CH-
+          KEY_OK                   0x28D7                    #  Was: OK
+          KEY_VOLUMEUP             0xA857                    #  Was: VOL+
+          KEY_VOLUMEDOWN           0xC837                    #  Was: VOL-
+          KEY_MENU                 0x847B                    #  Was: MENU
+          KEY_ESC                  0x44BB                    #  Was: ESC
+          CAPTION                  0xA45B
+          KEY_FAVORITES            0xC43B                    #  Was: FAV
+          ASPECT                   0x24DB
+          KEY_REWIND               0x649B                    #  Was: REW
+          KEY_PLAY                 0xE41B                    #  Was: PLAY
+          F/F                      0x14EB
+          KEY_PREVIOUS             0x946B                    #  Was: PREV
+          KEY_STOP                 0x0CF3                    #  Was: STOP
+          KEY_NEXT                 0x8C73                    #  Was: NEXT
+          HD                       0x4CB3
+          KEY_RECORD               0xCC33                    #  Was: REC
+      end codes
+
+end remote
+
+

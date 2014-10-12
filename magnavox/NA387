@@ -1,0 +1,57 @@
+# this config file was automatically generated
+# using lirc-0.8.5(iguanaIR) on Mon May 10 21:19:54 2010
+#
+# contributed by Greg Dietsche
+#
+# brand:                       Magnavox
+# model no. of remote control: NA387
+# devices being controlled by this remote: Magnavox TB100MG9 DTV Digital To Analog Converter
+#
+
+begin remote
+
+  name  Magnavox_NA387
+  bits           24
+  flags SPACE_ENC
+  eps            30
+  aeps          100
+
+  header       3514  3396
+  one           894  2537
+  zero          894   795
+  ptrail        894
+  gap          33751
+  toggle_bit_mask 0x0
+
+      begin codes
+          KEY_POWER                0x541ABE
+          KEY_1                    0x57EA81
+          KEY_2                    0x561A9E
+          KEY_3                    0x551AAE
+          KEY_4                    0x571A8E
+          KEY_5                    0x549AB6
+          KEY_6                    0x569A96
+          KEY_7                    0x559AA6
+          KEY_8                    0x579A86
+          KEY_9                    0x545ABA
+          KEY_0                    0x565A9A
+          KEY_OK                   0x55DAA2
+          KEY_UP                   0x547AB8
+          KEY_DOWN                 0x567A98
+          KEY_LEFT                 0x578A87
+          KEY_RIGHT                0x558AA7
+          KEY_CHANNELUP            0x542ABD
+          KEY_CHANNELDOWN          0x544ABB
+          KEY_EPG                  0x54FAB0
+          KEY_AUDIO                0x557AA8
+          KEY_DOT                  0x56DA92
+          KEY_SETUP                0x57DA82
+          KEY_PAUSE                0x56FA90
+          KEY_LAST                 0x55CAA3
+          KEY_BACK                 0x577A88
+          KEY_DISPLAY              0x57CA83
+      end codes
+
+end remote
+
+

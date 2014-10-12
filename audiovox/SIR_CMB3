@@ -1,0 +1,60 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.0(serial) on Tue Apr  4 19:54:02 2006
+#
+# contributed by Greg Holbrow
+#
+# brand:                       Audiovox SIR-CMB3
+# model no. of remote control:
+# devices being controlled by this remote: Sirius PNP3 Receiver
+#
+
+begin remote
+
+  name Audiovox_SIR_CMB3
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9048  4487
+  one           578  1674
+  zero          578   548
+  ptrail        580
+  repeat       9048  2235
+  pre_data_bits   16
+  pre_data       0x8F7
+  gap          108151
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x20DF                    #  Was: power
+          KEY_MUTE                 0x00FF                    #  Was: mute
+          band                     0xE01F
+          KEY_BACK                 0xA05F                    #  Was: back
+          memo                     0x609F
+          KEY_CHANNELUP            0x48B7                    #  Was: ch+
+          KEY_CHANNELDOWN          0xC837                    #  Was: ch-
+          cat+                     0x6897
+          cat-                     0x28D7
+          KEY_SELECT               0xA857                    #  Was: select
+          KEY_1                    0x906F                    #  Was: 1
+          KEY_2                    0x18E7                    #  Was: 2
+          KEY_3                    0xD827                    #  Was: 3
+          KEY_4                    0x58A7                    #  Was: 4
+          KEY_5                    0x10EF                    #  Was: 5
+          KEY_6                    0x30CF                    #  Was: 6
+          KEY_7                    0x38C7                    #  Was: 7
+          KEY_8                    0x50AF                    #  Was: 8
+          KEY_9                    0xC03F                    #  Was: 9
+          KEY_0                    0x8877                    #  Was: 0
+          KEY_VOLUMEDOWN           0xB847                    #  Was: vol-
+          KEY_VOLUMEUP             0x40BF                    #  Was: vol+
+          disp                     0xB04F
+          KEY_MENU                 0x08F7                    #  Was: menu
+      end codes
+
+end remote
+
+

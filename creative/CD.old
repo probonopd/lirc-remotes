@@ -1,0 +1,58 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.0 on Mon Apr 17 09:05:01 2000
+#
+# contributed by Mikhail V. Basov (bmw@rinet.ru)
+#
+# brand:             Creative
+# model:            
+# supported devices: Creative CD (computer) with IR remote control
+#
+
+begin remote
+
+  name  CREATIVE_INFRA
+  bits           13
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9293  4302
+  one           771  1494
+  zero          771   358
+  ptrail        756
+  pre_data_bits   19
+  pre_data       0x421A8
+  gap          108646
+  repeat_bit      0
+
+      begin codes
+          KEY_PAUSE                0x00000000000001FE        #  Was: pause
+          KEY_NEXT                 0x00000000000002FD        #  Was: next
+          KEY_EJECTCD              0x00000000000003FC        #  Was: eject
+          KEY_MENU                 0x00000000000004FB        #  Was: menu
+          KEY_LEFT                 0x00000000000005FA        #  Was: left
+          KEY_PLAY                 0x00000000000006F9        #  Was: play
+          KEY_RIGHT                0x00000000000007F8        #  Was: right
+          mouse                    0x00000000000008F7
+          KEY_1                    0x00000000000009F6        #  Was: 1
+          KEY_2                    0x0000000000000AF5        #  Was: 2
+          KEY_3                    0x0000000000000BF4        #  Was: 3
+          KEY_MUTE                 0x0000000000000CF3        #  Was: mute
+          KEY_4                    0x0000000000000DF2        #  Was: 4
+          KEY_5                    0x0000000000000EF1        #  Was: 5
+          KEY_6                    0x0000000000000FF0        #  Was: 6
+          v_up                     0x00000000000010EF
+          KEY_7                    0x00000000000011EE        #  Was: 7
+          KEY_8                    0x00000000000012ED        #  Was: 8
+          KEY_9                    0x00000000000013EC        #  Was: 9
+          u_down                   0x00000000000014EB
+          shift                    0x00000000000015EA
+          KEY_0                    0x00000000000016E9        #  Was: 0
+          KEY_ENTER                0x00000000000017E8        #  Was: enter
+          KEY_ZOOM                 0x00000000000018E7        #  Was: zoom
+      end codes
+
+end remote
+
+

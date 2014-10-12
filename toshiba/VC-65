@@ -1,0 +1,69 @@
+#
+# this config file was automatically generated
+# using lirc-0.7.2(serial) on Thu May 25 22:44:51 2006
+#
+# contributed by Steven Schaefer, sschaefer1|woh.rr.com
+#
+# brand:                       Toshiba
+# model no. of remote control: VC-65
+# devices being controlled by this remote: some (old) Toshiba VCR
+#
+# note: The two RECord buttons didn't produce signals, and neither did
+#       the two clock mode buttons. I'm not sure if there is a certain
+#       combination of buttons that need pressed before these four buttons
+#       become active, or what?
+
+begin remote
+
+  name  TOSHIBA_VC-65
+  bits           32
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9089  4416
+  one           639  1614
+  zero          639   485
+  ptrail        639
+  repeat       9087  2167
+  gap          108031
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x02FD48B7                #  Was: POWER_TV
+          TV/VIDEO                 0x02FDF00F
+          KEY_CHANNELDOWN          0x02FDD827                #  Was: CHANNEL+TV
+          KEY_CHANNELDOWN          0x02FDF807                #  Was: CHANNEL-TV
+          VOLUME+TV                0x02FD58A7
+          VOLUME-TV                0x02FD7887
+          KEY_POWER                0x22DD48B7                #  Was: POWER_VCR
+          TV/VCR                   0x22DD8877
+          KEY_1                    0x22DD807F                #  Was: 1
+          KEY_2                    0x22DD40BF                #  Was: 2
+          KEY_3                    0x22DDC03F                #  Was: 3
+          KEY_4                    0x22DD20DF                #  Was: 4
+          KEY_5                    0x22DDA05F                #  Was: 5
+          KEY_6                    0x22DD609F                #  Was: 6
+          KEY_7                    0x22DDE01F                #  Was: 7
+          KEY_8                    0x22DD10EF                #  Was: 8
+          KEY_9                    0x22DD906F                #  Was: 9
+          KEY_0                    0x22DD50AF                #  Was: 0
+          KEY_CHANNELDOWN          0x22DDD827                #  Was: CHANNEL+VCR
+          KEY_CHANNELDOWN          0x22DDF807                #  Was: CHANNEL-VCR
+          KEY_PLAY                 0x22DDA857                #  Was: PLAY
+          KEY_FASTFORWARD          0x22DDC837                #  Was: FF
+          KEY_REWIND               0x22DD9867                #  Was: REW
+          KEY_PAUSE                0x22DD08F7                #  Was: PAUSE
+          KEY_STOP                 0x22DD28D7                #  Was: STOP
+          KEY_SLOW                 0x22DDB04F                #  Was: SLOW
+          SLOW+TRACKING            0x22DD708F
+          SLOW-TRACKING            0x22DDF00F
+          OSP                      0x22DD3AC5
+          SET+                     0x22DD728D
+          SET-                     0x22DD4AB5
+          SHIFT<--                 0x22DD8A75
+          SHIFT-->                 0x22DDB24D
+      end codes
+
+end remote

@@ -1,0 +1,67 @@
+#
+# this config file was automatically generated
+# using lirc-0.7.0(any) on Tue Sep 20 22:08:47 2005
+#
+# contributed by Epure Radu
+#
+# brand: Elite
+# model no. of remote control: 9361-3EL
+# devices being controlled by this remote: TV
+#
+
+begin remote
+
+  name  Elite_9361-3EL
+  bits           13
+  flags RC5|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           907   776
+  zero          907   776
+  plead         966
+  gap          108464
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x000000000000100C        #  Was: Power
+          KEY_MUTE                 0x000000000000180D        #  Was: Mute
+          TV/AV                    0x000000000000103B
+          ?                        0x000000000000100F
+          KEY_0                    0x0000000000001000        #  Was: 0
+          KEY_1                    0x0000000000001801        #  Was: 1
+          KEY_2                    0x0000000000001002        #  Was: 2
+          KEY_3                    0x0000000000001803        #  Was: 3
+          KEY_4                    0x0000000000001004        #  Was: 4
+          KEY_5                    0x0000000000001805        #  Was: 5
+          KEY_6                    0x0000000000001006        #  Was: 6
+          KEY_7                    0x0000000000001807        #  Was: 7
+          KEY_8                    0x0000000000001008        #  Was: 8
+          KEY_9                    0x0000000000001809        #  Was: 9
+          _/__                     0x0000000000001817
+          qv                       0x0000000000001022
+          PICTURE                  0x000000000000181B
+          KEY_TIME                 0x000000000000101C        #  Was: TIME
+          TIMER                    0x000000000000181D
+          SOUND                    0x000000000000101E
+          MIX                      0x000000000000182E
+          KEY_CHANNELUP            0x000000000000100A        #  Was: P+
+          KEY_CANCEL               0x000000000000182D        #  Was: CANCEL
+          <->                      0x000000000000102B
+          KEY_VOLUMEDOWN           0x0000000000001811        #  Was: V-
+          KEY_MENU                 0x0000000000001018        #  Was: MENU
+          KEY_VOLUMEUP             0x0000000000001812        #  Was: V+
+          KEY_SUBTITLE             0x000000000000102A        #  Was: SUBCODE
+          KEY_TEXT                 0x000000000000183C        #  Was: TEXT
+          KEY_CHANNELDOWN          0x000000000000100B        #  Was: P-
+          LOCK                     0x0000000000001813
+          HOLD                     0x0000000000001029
+          REVEAL                   0x000000000000182C
+          ->S<-                    0x0000000000001024
+          ->P<-                    0x000000000000180E
+      end codes
+
+end remote
+
+

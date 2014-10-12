@@ -1,0 +1,103 @@
+#
+# this config file was semi-automatically generated
+# using lirc-0.8.0(userspace) on Thu Mar 22 19:12:04 2007
+#
+# contributed by Chris Dumont
+#
+# brand:                       Sony
+# model no. of remote control: RMT-D153A
+# devices being controlled by this remote: Sony DVD Player
+#                                          Sony TV
+# (Sorry, don't know the models for either)
+#
+# The RMT-D153A seems to combine the RMT-D155A (which I've copied with
+# the exception of one line) with a four-button TV remote control.
+
+begin remote
+
+  name  SonyTV
+  bits           12
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       2554   443
+  one          1349   449
+  zero          749   449
+  gap          45022
+  min_repeat      2
+  toggle_bit      0
+
+
+      begin codes
+          TV_Power                 0xA90
+          KEY_VOLUMEUP             0x490                     #  Was: Vol+
+          KEY_VOLUMEDOWN           0xC90                     #  Was: Vol-
+          TV/Video                 0xA50
+      end codes
+
+end remote
+
+begin remote
+
+  name  Sony_RMT-D155A
+  bits           20
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       2400   600
+  one          1200   600
+  zero          600   600
+  gap          45000
+  min_repeat      2
+  toggle_bit      0
+
+  frequency    40000
+  duty_cycle   33
+
+      begin codes
+          KEY_OPEN                 0x0000000000068B92        #  Was: Open/Close
+          KEY_POWER                0x00000000000A8B92        #  Was: Power
+          KEY_1                    0x0000000000000B92        #  Was: 1
+          KEY_2                    0x0000000000080B92        #  Was: 2
+          KEY_3                    0x0000000000040B92        #  Was: 3
+          KEY_4                    0x00000000000C0B92        #  Was: 4
+          KEY_5                    0x0000000000020B92        #  Was: 5
+          KEY_6                    0x00000000000A0B92        #  Was: 6
+          KEY_7                    0x0000000000060B92        #  Was: 7
+          KEY_8                    0x00000000000E0B92        #  Was: 8
+          KEY_9                    0x0000000000010B92        #  Was: 9
+          KEY_CLEAR                0x00000000000F0B92        #  Was: Clear
+          KEY_0                    0x0000000000090B92        #  Was: 0
+          Time/Text                0x0000000000014B92
+          Picture_Mode             0x00000000000DAB92
+          KEY_AUDIO                0x0000000000026B92        #  Was: Audio
+          KEY_SUBTITLE             0x00000000000C6B92        #  Was: Subtitle
+          KEY_ANGLE                0x00000000000A6B92        #  Was: Angle
+          SUR                      0x000000000005AB92
+          KEY_PREVIOUS             0x000000000000CB92        #  Was: Prev
+          KEY_NEXT                 0x000000000008CB92        #  Was: Next
+          KEY_AGAIN                0x0000000000034B92        #  Was: Repeat
+          Picture_Navi             0x000000000000AB92
+          Scan_Back                0x0000000000044B92
+          Scan_Forward             0x00000000000C4B92
+          Instant_Replay           0x000000000003AB92
+          Instant_Search           0x0000000000028B46
+          KEY_PLAY                 0x000000000004CB92        #  Was: Play
+          KEY_PAUSE                0x000000000009CB92        #  Was: Pause
+          KEY_STOP                 0x000000000001CB92        #  Was: Stop
+          KEY_UP                   0x000000000009EB92        #  Was: Up
+          KEY_LEFT                 0x00000000000DEB92        #  Was: Left
+          KEY_ENTER                0x00000000000D0B92        #  Was: Enter
+          KEY_RIGHT                0x000000000003EB92        #  Was: Right
+          KEY_DOWN                 0x000000000005EB92        #  Was: Down
+          Display                  0x000000000002AB92
+          Top_Menu                 0x0000000000058B92
+          KEY_MENU                 0x00000000000D8B92        #  Was: Menu
+          KEY_ENTER                0x0000000000070B92        #  Was: Return
+      end codes
+
+end remote
+
+

@@ -1,0 +1,73 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.6(serial) on Sun Nov 28 11:40:01 2004
+#
+# contributed by Stefan Bremer vdr_AT_wortlos_DOT_net
+#
+# brand: Tevion / Medion
+# model no. of remote control: MD 41666 with VCR code 860
+# devices being controlled by this remote: Klaus Schmidingers VDR
+#
+
+begin remote
+
+  name  TEVION_MD_41666_860
+  bits            8
+  flags RC6|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       2741   817
+  one           482   390
+  zero          482   390
+  pre_data_bits   13
+  pre_data       0xECF
+  gap          106266
+  min_repeat      2
+  toggle_bit      5
+
+
+      begin codes
+          prg+                     0x00000000000000E1
+          prg-                     0x00000000000000E0
+          KEY_1                    0x00000000000000FE        #  Was: 1
+          KEY_2                    0x00000000000000FD        #  Was: 2
+          KEY_3                    0x00000000000000FC        #  Was: 3
+          KEY_4                    0x00000000000000FB        #  Was: 4
+          KEY_5                    0x00000000000000FA        #  Was: 5
+          KEY_6                    0x00000000000000F9        #  Was: 6
+          KEY_7                    0x00000000000000F8        #  Was: 7
+          KEY_8                    0x00000000000000F7        #  Was: 8
+          KEY_9                    0x00000000000000F6        #  Was: 9
+          KEY_0                    0x00000000000000FF        #  Was: 0
+          av                       0x0000000000000011
+          KEY_ENTER                0x0000000000000005        #  Was: enter
+          KEY_UP                   0x00000000000000A7        #  Was: up
+          KEY_DOWN                 0x00000000000000A6        #  Was: down
+          KEY_RIGHT                0x00000000000000A4        #  Was: right
+          KEY_LEFT                 0x00000000000000A5        #  Was: left
+          KEY_OK                   0x00000000000000A3        #  Was: ok
+          KEY_MENU                 0x00000000000000F0        #  Was: menu
+          KEY_EXIT                 0x000000000000007C        #  Was: exit
+          KEY_RED                  0x00000000000000E2        #  Was: red
+          KEY_GREEN                0x00000000000000DE        #  Was: green
+          KEY_YELLOW               0x00000000000000DF        #  Was: yellow
+          KEY_BLUE                 0x00000000000000D5        #  Was: blue
+          pink                     0x0000000000000008
+          KEY_REWIND               0x00000000000000D6        #  Was: rew
+          KEY_PLAY                 0x00000000000000D3        #  Was: play
+          KEY_FASTFORWARD          0x00000000000000D7        #  Was: ff
+          KEY_RECORD               0x00000000000000C8        #  Was: rec
+          KEY_STOP                 0x00000000000000CE        #  Was: stop
+          KEY_PAUSE                0x00000000000000CF        #  Was: pause
+          vton                     0x00000000000000AB
+          vtstop                   0x00000000000000C4
+          vtdispin                 0x00000000000000F5
+          vttvmix                  0x00000000000000E3
+          vtoff                    0x0000000000000030
+          KEY_POWER                0x00000000000000F3        #  Was: pwr
+      end codes
+
+end remote
+
+

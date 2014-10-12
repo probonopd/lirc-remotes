@@ -1,0 +1,70 @@
+#
+# this config file was automatically generated
+# using WinLIRC 0.6.5 (LIRC 0.6.1pre3) on Wed Dec 31 03:48:49 2003
+#
+# contributed by
+#
+# brand:             philips_rc282422s
+# model:            
+# supported devices:
+#
+
+begin remote
+
+  name  philips_rc282422s
+  bits           13
+  flags RC5|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           903   868
+  zero          903   868
+  plead         918
+  gap          113398
+  toggle_bit      2
+
+
+      begin codes
+          inc_s                    0x0000000000000400
+          dbb                      0x0000000000000406
+          dsc                      0x000000000000040F
+          KEY_MUTE                 0x000000000000140D        #  Was: mute
+          KEY_VOLUMEUP             0x0000000000001410        #  Was: Vol+
+          KEY_VOLUMEDOWN           0x0000000000001411        #  Was: Vol-
+          tuner_power              0x000000000000144C
+          tuner_ff                 0x000000000000145E
+          tuner_rew                0x000000000000145F
+          tuner_next               0x0000000000001460
+          tuner_previous           0x0000000000001461
+          KEY_TUNER                0x000000000000147F        #  Was: tuner
+          tape_power               0x000000000000148C
+          tape_next                0x00000000000014A0
+          tape_previous            0x00000000000014A1
+          tape_pause               0x00000000000014B0
+          tape_rew                 0x00000000000014B2
+          tape_ff                  0x00000000000014B3
+          tape_play                0x00000000000014B5
+          tape_stop                0x00000000000014B6
+          KEY_TAPE                 0x00000000000014BF        #  Was: tape
+          cd_power                 0x000000000000150C
+          cd_shuffle               0x000000000000151C
+          cd_repeat                0x000000000000151D
+          cd_next                  0x0000000000001520
+          cd_previous              0x0000000000001521
+          cd_program               0x0000000000001524
+          cd_pause                 0x0000000000001530
+          cd_rew                   0x0000000000001532
+          cd_ff                    0x0000000000001534
+          cd_play                  0x0000000000001535
+          cd_stop                  0x0000000000001536
+          cd_1                     0x0000000000001537
+          cd_2                     0x0000000000001538
+          cd_3                     0x0000000000001539
+          KEY_CD                   0x000000000000153F        #  Was: cd
+          aux_power                0x000000000000154C
+          KEY_AUX                  0x000000000000157F        #  Was: aux
+      end codes
+
+end remote
+
+

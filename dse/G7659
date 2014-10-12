@@ -1,0 +1,68 @@
+#
+# this config file was automatically generated
+# using WinLIRC 0.6.5 (LIRC 0.6.1pre3) on Tue Dec 18 08:01:07 2007
+#
+# contributed by
+#
+# brand:             Dick Smith Electronics (DSE)
+# model:             G7659
+# supported devices: G7659 standard def STB
+#
+
+begin remote
+
+  name  DSE_G7659
+  bits           16
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  header       9104  4398
+  one           612   498
+  zero          612  1641
+  ptrail        612
+  repeat       9037  2216
+  pre_data_bits   16
+  pre_data       0xFF00
+  gap          39855
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x000000000000AF50        #  Was: Power
+          TV/R                     0x000000000000CF30
+          KEY_1                    0x0000000000007788        #  Was: 1
+          KEY_2/ABC                0x000000000000B748        #  Was: 2/ABC
+          KEY_3/DEF                0x00000000000037C8        #  Was: 3/DEF
+          KEY_4/GHI                0x000000000000D728        #  Was: 4/GHI
+          KEY_5/JKL                0x00000000000057A8        #  Was: 5/JKL
+          KEY_6/MNO                0x0000000000009768        #  Was: 6/MNO
+          KEY_7/PQRS               0x00000000000017E8        #  Was: 7/PQRS
+          KEY_8/TUV                0x000000000000E718        #  Was: 8/TUV
+          KEY_9/WXYZ               0x0000000000006798        #  Was: 9/WXYZ
+          KEY_0                    0x000000000000F708        #  Was: 0
+          KEY_INFO                 0x000000000000A758        #  Was: Info
+          KEY_EPG                  0x00000000000027D8        #  Was: EPG
+          KEY_MENU                 0x0000000000005FA0        #  Was: Menu
+          KEY_UP                   0x0000000000001FE0        #  Was: Up
+          KEY_DOWN                 0x00000000000047B8        #  Was: Down
+          KEY_EXIT                 0x000000000000C738        #  Was: Exit
+          KEY_CHANNELUP            0x000000000000FF00        #  Was: Ch_Up
+          KEY_CHANNELDOWN          0x0000000000007F80        #  Was: Ch_Down
+          KEY_VOLUMEDOWN           0x0000000000003FC0        #  Was: Vol-
+          KEY_VOLUMEUP             0x000000000000BF40        #  Was: Vol+
+          KEY_OK                   0x00000000000007F8        #  Was: OK
+          KEY_FAVORITES            0x0000000000006F90        #  Was: Fav
+          KEY_AUDIO                0x000000000000DF20        #  Was: Audio
+          KEY_MUTE                 0x000000000000EF10        #  Was: Mute
+          KEY_PAUSE                0x0000000000000FF0        #  Was: Pause
+          Sys                      0x0000000000002FD0
+          UHF                      0x0000000000009F60
+          KEY_F1                   0x000000000000FD02        #  Was: F1
+          KEY_F2                   0x0000000000008F70        #  Was: F2
+          KEY_F3                   0x0000000000008778        #  Was: F3
+      end codes
+
+end remote
+
+

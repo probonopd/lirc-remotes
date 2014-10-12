@@ -1,0 +1,231 @@
+
+# This config file was automatically generated using lirc-0.6.6(any)
+# on Sat Dec 27 14:33:05 2003. It was contributed by Thomas Betker.
+#
+# brand:                               Philips
+# model no. of remote control:         28PT7207
+# devices controlled by this remote:   TV, VCR, Sat, DVD
+#
+# This remote came with my 28PT7207 TV set. It uses RC6 in TV and DVD
+# Player mode, and RC5 in VCR and Sat Receiver mode.
+#
+# The mode is selected by the 'Mode' button which runs through TV, VCR,
+# and AUX mode (and does not generate a signal itself). The type of AUX
+# mode is programmed by pressing 'OK' + '1' (Sat Receiver) or 'OK' + '2'
+# (DVD Player), in TV mode.
+#
+# The following table shows each button's codes depending on the mode.
+# '*' means that the button does the obvious, '-' means that the button
+# is dead (no signal). '[tv]' says that the button falls back to the
+# TV mode signal, and '=' indicates duplicate codes.
+#
+# Button            tv             vcr       sat       dvd
+# --------------------------------------------------------------
+# Standby           *              *         *         *
+# ->, ?             External       External  External  <C7>
+# >>, )(            SurroundSound  Forward   [tv]      Forward
+# Red, o            Red            Record    [tv]      =Still
+# Green, <<         Green          Rewind    [tv]      Rewind
+# Yellow, []        Yellow         Stop      [tv]      Stop
+# Blue, >           Blue           Play      [tv]      Play
+# >|> (<<+[])       InstallMenu    -         -         -
+# {book}            NexTView       <61>      [tv]      Subtitle
+# {clock}           Time           Timer     [tv]      [tv]
+# 1|2               <A2>           -         [tv]      -
+# {text}            Teletext       =OSD      [tv]      Title
+# SmartSound        *              [tv]      [tv]      [tv]
+# ActiveControl     *              [tv]      [tv]      [tv]
+# SmartPicture      *              [tv]      [tv]      [tv]
+# Menu / OK         *              *         *         *
+# (cursor)          *              *         *         *
+# Vol+              *              [tv]      [tv]      [tv]
+# Vol-              *              [tv]      [tv]      [tv]
+# Mute              *              [tv]      [tv]      [tv]
+# P+ / P-           *              *         *         *
+# I-II              Audio          Audio     Audio     Audio
+# >|<               Still          Still     [tv]      Still
+# |<>|              Format         [tv]      [tv]      [tv]
+# v^, Zoom          TextZoom       [tv]      [tv]      [tv]
+# (digit)           *              *         *         *
+# i+                Info           OSD       OSD       <F0>
+# P<P               Program<       Index     Program<  <37>
+# --------------------------------------------------------------
+#
+# <xx> codes are those for which I couldn't find a description.
+# According to my manual, vcr.<61> is the "tape list function", and
+# dvd.<37> is the "T-C function", but I had no means to verify this.
+# The tv.<A2> button is declared as unused.
+#
+# tv.InstallMenu is generated when tv.Green and tv.Yellow are
+# pressed at the same time.
+#
+
+begin remote
+
+  name          Philips/28PT7207
+  bits          12
+  flags         RC6|CONST_LENGTH
+  eps           30
+  aeps          100
+
+  header        2800 800
+  one           445 445
+  zero          445 445
+  pre_data_bits 9
+  pre_data      0xEF
+  gap           83190
+  toggle_bit    5
+
+      begin codes
+          tv.Standby               0x0000000000000FF3
+          tv.External              0x0000000000000FC7
+          tv.SurroundSound         0x0000000000000F8E
+          tv.Red                   0x0000000000000F92
+          tv.Green                 0x0000000000000F91
+          tv.Yellow                0x0000000000000F90
+          tv.Blue                  0x0000000000000F8F
+          tv.InstallMenu           0x0000000000000FBA
+          tv.NexTView              0x0000000000000F33
+          tv.Time                  0x0000000000000F80
+          tv.<A2>                  0x0000000000000FA2
+          tv.Teletext              0x0000000000000FC3
+          tv.SmartSound            0x0000000000000F0B
+          tv.ActiveControl         0x0000000000000F69
+          tv.SmartPicture          0x0000000000000F0C
+          tv.Menu                  0x0000000000000FAB
+          tv.OK                    0x0000000000000FA3
+          tv.Left                  0x0000000000000FA5
+          tv.Right                 0x0000000000000FA4
+          tv.Up                    0x0000000000000FA7
+          tv.Down                  0x0000000000000FA6
+          tv.Volume+               0x0000000000000FEF
+          tv.Volume-               0x0000000000000FEE
+          tv.Mute                  0x0000000000000FF2
+          tv.Program+              0x0000000000000FDF
+          tv.Program-              0x0000000000000FDE
+          tv.Audio                 0x0000000000000FB1
+          tv.Still                 0x0000000000000F98
+          tv.Format                0x0000000000000F0A
+          tv.TextZoom              0x0000000000000F18
+          tv.1                     0x0000000000000FFE
+          tv.2                     0x0000000000000FFD
+          tv.3                     0x0000000000000FFC
+          tv.4                     0x0000000000000FFB
+          tv.5                     0x0000000000000FFA
+          tv.6                     0x0000000000000FF9
+          tv.7                     0x0000000000000FF8
+          tv.8                     0x0000000000000FF7
+          tv.9                     0x0000000000000FF6
+          tv.0                     0x0000000000000FFF
+          tv.Info                  0x0000000000000FF0
+          tv.Program<              0x0000000000000FF5
+
+          KEY_DVD                  0x0000000000000BF3        #  Was: dvd.Standby
+          KEY_DVD                  0x0000000000000BC7        #  Was: dvd.<C7>
+          KEY_DVD                  0x0000000000000BD7        #  Was: dvd.Forward
+          KEY_DVD                  0x0000000000000BD6        #  Was: dvd.Rewind
+          KEY_DVD                  0x0000000000000BCE        #  Was: dvd.Stop
+          KEY_DVD                  0x0000000000000BD3        #  Was: dvd.Play
+          KEY_DVD                  0x0000000000000BB4        #  Was: dvd.Subtitle
+          KEY_DVD                  0x0000000000000B8E        #  Was: dvd.Title
+          KEY_MENU                 0x0000000000000BAB        #  Was: dvd.Menu
+          KEY_DVD                  0x0000000000000BA3        #  Was: dvd.OK
+          KEY_DVD                  0x0000000000000BA5        #  Was: dvd.Left
+          KEY_DVD                  0x0000000000000BA4        #  Was: dvd.Right
+          KEY_DVD                  0x0000000000000BA7        #  Was: dvd.Up
+          KEY_DVD                  0x0000000000000BA6        #  Was: dvd.Down
+          KEY_DVD                  0x0000000000000BDF        #  Was: dvd.Program+
+          KEY_DVD                  0x0000000000000BDE        #  Was: dvd.Program-
+          KEY_DVD                  0x0000000000000BB1        #  Was: dvd.Audio
+          KEY_DVD                  0x0000000000000BCF        #  Was: dvd.Still
+          KEY_DVD                  0x0000000000000BFE        #  Was: dvd.1
+          KEY_DVD                  0x0000000000000BFD        #  Was: dvd.2
+          KEY_DVD                  0x0000000000000BFC        #  Was: dvd.3
+          KEY_DVD                  0x0000000000000BFB        #  Was: dvd.4
+          KEY_DVD                  0x0000000000000BFA        #  Was: dvd.5
+          KEY_DVD                  0x0000000000000BF9        #  Was: dvd.6
+          KEY_DVD                  0x0000000000000BF8        #  Was: dvd.7
+          KEY_DVD                  0x0000000000000BF7        #  Was: dvd.8
+          KEY_DVD                  0x0000000000000BF6        #  Was: dvd.9
+          KEY_DVD                  0x0000000000000BFF        #  Was: dvd.0
+          KEY_DVD                  0x0000000000000BF0        #  Was: dvd.<F0>
+          KEY_DVD                  0x0000000000000B37        #  Was: dvd.<37>
+      end codes
+
+end remote
+
+begin remote
+
+  name          Philips/28PT2707
+  bits          13
+  flags         RC5|CONST_LENGTH
+  eps           30
+  aeps          100
+
+  one           940   834
+  zero          940   834
+  plead         983
+  gap           113588
+  toggle_bit    2
+
+      begin codes
+          vcr.Standby              0x000000000000114C
+          vcr.External             0x0000000000001178
+          vcr.Forward              0x0000000000001174
+          vcr.Record               0x0000000000001177
+          vcr.Rewind               0x0000000000001172
+          vcr.Stop                 0x0000000000001176
+          vcr.Play                 0x0000000000001175
+          vcr.<61>                 0x0000000000000161
+          vcr.Timer                0x000000000000115D
+          vcr.OSD                  0x000000000000114F
+          vcr.Menu                 0x0000000000000152
+          vcr.OK                   0x0000000000000157
+          vcr.Left                 0x0000000000000155
+          vcr.Right                0x0000000000000156
+          vcr.Up                   0x0000000000000150
+          vcr.Down                 0x0000000000000151
+          vcr.Program+             0x0000000000001160
+          vcr.Program-             0x0000000000001161
+          vcr.Audio                0x0000000000001163
+          vcr.Still                0x0000000000001169
+          vcr.1                    0x0000000000001141
+          vcr.2                    0x0000000000001142
+          vcr.3                    0x0000000000001143
+          vcr.4                    0x0000000000001144
+          vcr.5                    0x0000000000001145
+          vcr.6                    0x0000000000001146
+          vcr.7                    0x0000000000001147
+          vcr.8                    0x0000000000001148
+          vcr.9                    0x0000000000001149
+          vcr.0                    0x0000000000001140
+          vcr.OSD                  0x000000000000114F
+          vcr.Index                0x0000000000000170
+
+          sat.Standby              0x000000000000120C
+          sat.External             0x0000000000001238
+          sat.Menu                 0x0000000000000212
+          sat.OK                   0x0000000000000217
+          sat.Left                 0x0000000000000215
+          sat.Right                0x0000000000000216
+          sat.Up                   0x0000000000000210
+          sat.Down                 0x0000000000000211
+          sat.Program+             0x0000000000001220
+          sat.Program-             0x0000000000001221
+          sat.Audio                0x0000000000001223
+          sat.1                    0x0000000000001201
+          sat.2                    0x0000000000001202
+          sat.3                    0x0000000000001203
+          sat.4                    0x0000000000001204
+          sat.5                    0x0000000000001205
+          sat.6                    0x0000000000001206
+          sat.7                    0x0000000000001207
+          sat.8                    0x0000000000001208
+          sat.9                    0x0000000000001209
+          sat.0                    0x0000000000001200
+          sat.OSD                  0x000000000000120F
+          sat.Program<             0x0000000000001222
+      end codes
+
+end remote
+

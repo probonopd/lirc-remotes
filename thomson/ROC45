@@ -1,0 +1,61 @@
+#
+# this config file was automatically generated
+# using WinLIRC 0.6.5 (LIRC 0.6.1pre3) on Tue Dec 16 11:04:58 2003
+#
+# contributed by
+#
+# brand:             THOMSON
+# model:             ROC45
+# supported devices: More than on 200 models,
+#                    but optimum SONY TV, code 178
+
+begin remote
+
+  name  THOMSON_ROC45
+  bits           11
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  header       2526   543
+  one          1244   543
+  zero          628   543
+  ptrail        628
+  gap          25506
+  toggle_bit      0
+
+
+      begin codes
+          KEY_MENU                 0x0000000000000038        #  Was: MENU
+          KEY_EXIT                 0x0000000000000168        #  Was: EXIT
+          KEY_MUTE                 0x0000000000000148        #  Was: MUTE
+          KEY_UP                   0x0000000000000048        #  Was: UP
+          KEY_DOWN                 0x0000000000000448        #  Was: DOWN
+          KEY_LEFT                 0x0000000000000648        #  Was: LEFT
+          KEY_RIGHT                0x0000000000000248        #  Was: RIGHT
+          SCREEN                   0x00000000000007E8
+          KEY_CLEAR                0x00000000000000E8        #  Was: CLEAR
+          KEY_POWER                0x0000000000000548        #  Was: POWER
+          KEY_REWIND               0x000000000000019C        #  Was: REWIND
+          KEY_FORWARD              0x000000000000079C        #  Was: FORWARD
+          KEY_PLAY                 0x000000000000039C        #  Was: PLAY
+          KEY_RECORD               0x00000000000006D8        #  Was: RECORD
+          KEY_STOP                 0x000000000000059C        #  Was: STOP
+          KEY_PAUSE                0x000000000000009C        #  Was: PAUSE
+          AV                       0x0000000000000528
+          KEY_102ND                0x00000000000005C8        #  Was: -/--
+          KEY_1                    0x0000000000000008        #  Was: 1
+          KEY_2                    0x0000000000000408        #  Was: 2
+          KEY_3                    0x0000000000000208        #  Was: 3
+          KEY_4                    0x0000000000000608        #  Was: 4
+          KEY_5                    0x0000000000000108        #  Was: 5
+          KEY_6                    0x0000000000000508        #  Was: 6
+          KEY_7                    0x0000000000000308        #  Was: 7
+          KEY_8                    0x0000000000000708        #  Was: 8
+          KEY_9                    0x0000000000000088        #  Was: 9
+          KEY_0                    0x0000000000000488        #  Was: 0
+      end codes
+
+end remote
+
+

@@ -1,0 +1,41 @@
+#
+# this config file was automatically generated
+# using lirc-WinLIRC 0.6.1pre2 (LIRC 0.6.1pre2) on Mon May 07 19:08:58 2001
+#
+# contributed by
+#
+# brand:             panas928
+# model:             RAK-RX928WK
+# supported devices:
+#
+
+begin remote
+
+  name  panas928
+  bits           15
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  header       3610  1635
+  one           518   331
+  zero          518  1208
+  ptrail        518
+  pre_data_bits   32
+  pre_data       0xBFFBFABC
+  post_data_bits  1
+  post_data      0x0
+  gap          74293
+  toggle_bit      0
+
+
+      begin codes
+          -vol                     0x000000000000391A
+          +vol                     0x000000000000795A
+          -P                       0x0000000000007457
+          +P                       0x0000000000000C2F
+      end codes
+
+end remote
+
+

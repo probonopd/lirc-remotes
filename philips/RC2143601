@@ -1,0 +1,102 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.3(default) on Wed Apr  1 23:12:45 2009
+#
+# contributed by Chris Pimlott <lirc|chris.pimlott.net>
+#
+# brand:                       Philips
+# model no. of remote control: RC2143601
+# devices being controlled by this remote: Philips 47PFL7603D LCD TV
+#
+
+begin remote
+
+  name  Philips_RC2143601
+  bits           13
+  flags RC5|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           892   879
+  zero          892   879
+  plead         878
+  gap          112849
+  toggle_bit_mask 0x800
+
+      begin codes
+
+# physical button command codes
+
+          KEY_POWER                0x100C                    #  Was: power
+
+          KEY_CYCLEWINDOWS         0x1038                    #  Was: source
+
+          ambilight_power          0x10E3
+          ambilight_mode           0x10E4
+          KEY_FAVORITES            0x0039                    #  Was: fav
+          format                   0x003E
+
+          KEY_RED                  0x002B                    #  Was: red
+          KEY_GREEN                0x002C                    #  Was: green
+          KEY_YELLOW               0x002D                    #  Was: yellow
+          KEY_BLUE                 0x002E                    #  Was: blue
+
+          KEY_MODE                 0x10CA                    #  Was: mode
+          KEY_OPTION               0x0037                    #  Was: option
+
+          KEY_OK                   0x0017                    #  Was: ok
+          KEY_UP                   0x0010                    #  Was: up
+          KEY_DOWN                 0x0011                    #  Was: down
+          KEY_RIGHT                0x0016                    #  Was: right
+          KEY_LEFT                 0x0015                    #  Was: left
+
+          KEY_MENU                 0x0012                    #  Was: menu
+          KEY_INFO                 0x100F                    #  Was: info
+
+          KEY_VOLUMEUP             0x1010                    #  Was: vol+
+          KEY_VOLUMEDOWN           0x1011                    #  Was: vol-
+
+          KEY_MUTE                 0x100D                    #  Was: mute
+
+          KEY_CHANNELUP            0x1020                    #  Was: chan+
+          KEY_CHANNELDOWN          0x1021                    #  Was: chan-
+
+          KEY_1                    0x1001                    #  Was: 1
+          KEY_2                    0x1002                    #  Was: 2
+          KEY_3                    0x1003                    #  Was: 3
+          KEY_4                    0x1004                    #  Was: 4
+          KEY_5                    0x1005                    #  Was: 5
+          KEY_6                    0x1006                    #  Was: 6
+          KEY_7                    0x1007                    #  Was: 7
+          KEY_8                    0x1008                    #  Was: 8
+          KEY_9                    0x1009                    #  Was: 9
+          KEY_PREVIOUS             0x1022                    #  Was: prev
+          KEY_0                    0x1000                    #  Was: 0
+          KEY_DOT                  0x00F8                    #  Was: .
+
+
+# discrete codes
+# these do not correspond to actual buttons but are useful
+# for remote macro programming
+
+          KEY_POWER                0x103f                    #  Was: POWER_ON
+          KEY_POWER                0x103d                    #  Was: POWER_OFF
+	INPUT_HDMI1		0x10f9
+	INPUT_HDMI2		0x00fb
+	INPUT_HDMI3		0x10c6
+	INPUT_HDMI4		0x10c7
+	INPUT_EXT1		0x10c4
+	INPUT_EXT2		0x1039
+	INPUT_EXT3		0x10f8
+	INPUT_SIDE		0x10fa
+
+	ZOOM_AUTO		0x10fd
+	ZOOM_4:3		0x00f5
+	ZOOM_WIDE		0x00f4
+
+
+      end codes
+
+end remote
+
+

@@ -1,0 +1,55 @@
+#
+# this config file was automatically generated
+# using WinLIRC 0.6.4 (LIRC 0.6.1pre3) on Fri Feb 28 14:58:14 2003
+#
+# contributed by     ich@delikon.de / www.delikon.de
+#
+# brand:             Thomson-Roc40 / I used it with the CODE 169 on the sat button
+# model:           
+# supported devices:
+#
+
+begin remote
+
+  name  k
+  bits            8
+  flags SPACE_ENC
+  eps            40
+  aeps          100
+
+  one           517  1939
+  zero          517  4470
+  ptrail        517
+  pre_data_bits   4
+  pre_data       0xC
+  gap          42717
+  toggle_bit      0
+
+
+      begin codes
+          KEY_PLAY                 0x00000000000000C7        #  Was: play
+          forw                     0x000000000000006A
+          KEY_REWIND               0x00000000000000C6        #  Was: rew
+          KEY_STOP                 0x0000000000000044        #  Was: stop
+          KEY_PAUSE                0x00000000000000E1        #  Was: pause
+          shutdown                 0x0000000000000062
+          KEY_NEXT                 0x00000000000000DA        #  Was: next
+          KEY_PREVIOUS             0x0000000000000058        #  Was: prev
+          KEY_VOLUMEUP             0x00000000000000D6        #  Was: volup
+          KEY_VOLUMEDOWN           0x0000000000000055        #  Was: voldown
+          KEY_MUTE                 0x00000000000000FA        #  Was: mute
+          KEY_1                    0x000000000000007F        #  Was: 1
+          KEY_2                    0x00000000000000F7        #  Was: 2
+          KEY_3                    0x000000000000006F        #  Was: 3
+          KEY_4                    0x00000000000000FE        #  Was: 4
+          KEY_5                    0x0000000000000076        #  Was: 5
+          KEY_6                    0x00000000000000EE        #  Was: 6
+          KEY_7                    0x000000000000007D        #  Was: 7
+          KEY_8                    0x00000000000000F5        #  Was: 8
+          KEY_9                    0x000000000000006D        #  Was: 9
+          KEY_0                    0x00000000000000F1        #  Was: 0
+      end codes
+
+end remote
+
+

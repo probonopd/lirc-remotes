@@ -1,0 +1,44 @@
+#
+# this config file was automatically generated
+# using WinLIRC 0.6.4 (LIRC 0.6.1pre3) on Mon Nov 11 20:00:37 2002
+#
+# contributed by
+#
+# brand:             lifetec
+# model:             mini hifi station
+# supported devices: ?
+#
+
+begin remote
+
+  name  lifetec_remote
+  bits           16
+  flags SPACE_ENC
+  eps            30
+  aeps          100
+
+  header       4533  4395
+  one           617   473
+  zero          617  1600
+  ptrail        617
+  pre_data_bits   16
+  pre_data       0xDADA
+  gap          46658
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x0000000000009768        #  Was: power
+          KEY_PLAY                 0x00000000000037C8        #  Was: play
+          KEY_REWIND               0x000000000000DF20        #  Was: rew
+          KEY_FASTFORWARD          0x000000000000CF30        #  Was: ff
+          KEY_STOP                 0x00000000000027D8        #  Was: stop
+          KEY_MUTE                 0x00000000000017E8        #  Was: mute
+          KEY_VOLUMEUP             0x000000000000FB04        #  Was: vol+
+          KEY_VOLUMEDOWN           0x000000000000F906        #  Was: vol-
+      end codes
+
+end remote
+
+
+

@@ -1,0 +1,53 @@
+# lirc config file for VIVANCO UR2
+# works with code number 140
+#
+
+begin remote
+
+  name  Vivanco_UR2_140
+  bits           13
+  flags RC5|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           891   852
+  zero          891   852
+  plead         877
+  gap          111338
+  min_repeat      1
+  toggle_bit      2
+
+
+      begin codes
+          KEY_1                    0x1281                    #  Was: 1
+          KEY_2                    0x1282                    #  Was: 2
+          KEY_3                    0x1283                    #  Was: 3
+          KEY_4                    0x1284                    #  Was: 4
+          KEY_5                    0x1285                    #  Was: 5
+          KEY_6                    0x1286                    #  Was: 6
+          KEY_7                    0x1287                    #  Was: 7
+          KEY_8                    0x1288                    #  Was: 8
+          KEY_9                    0x1289                    #  Was: 9
+          KEY_0                    0x1280                    #  Was: 0
+          KEY_ENTER                0x0297                    #  Was: return
+          ab                       0x12A8
+          KEY_UP                   0x0290                    #  Was: up
+          KEY_DOWN                 0x0291                    #  Was: down
+          KEY_LEFT                 0x0295                    #  Was: left
+          KEY_RIGHT                0x0296                    #  Was: right
+          KEY_MUTE                 0x0286                    #  Was: mute
+          av                       0x12A8
+          KEY_RED                  0x02AB                    #  Was: red
+          KEY_GREEN                0x02AC                    #  Was: green
+          KEY_YELLOW               0x02AD                    #  Was: yellow
+          KEY_BLUE                 0x02AE                    #  Was: blue
+          menu1                    0x0293
+          menu2                    0x028F
+          menu3                    0x0292
+          menu4                    0x02A1
+          KEY_POWER                0x128C                    #  Was: power
+      end codes
+
+end remote
+
+

@@ -1,0 +1,46 @@
+#
+# this config file was automatically generated
+# using WinLIRC 0.6.4 (LIRC 0.6.1pre3) on Tue Dec 24 17:29:56 2002
+#
+# contributed by
+#
+# brand:             IN FOCUS
+# model:             IRC TC
+# supported devices: projector
+#
+
+begin remote
+
+  name  My_remote
+  bits           16
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  header       9055  4370
+  one           615  1605
+  zero          615   516
+  ptrail        615
+  repeat       9057  3146
+  pre_data_bits   16
+  pre_data       0xE172
+  gap          72628
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x000000000000E817        #  Was: Power
+          Comp                     0x0000000000009867
+          KEY_VIDEO                0x00000000000058A7        #  Was: Video
+          KEY_SLEEP                0x000000000000B04F        #  Was: Standby
+          Brigthness+              0x000000000000C03F
+          Brigthness-              0x000000000000E01F
+          Freeze                   0x000000000000708F
+          KEY_VOLUMEDOWN           0x00000000000020DF        #  Was: Volume-
+          KEY_VOLUMEUP             0x00000000000010EF        #  Was: Volume+
+          PageN...                 0x00000000000040BF
+      end codes
+
+end remote
+
+

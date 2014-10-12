@@ -1,0 +1,80 @@
+#
+# this config file was automatically generated
+# using lirc-0.5.4 on Fri Feb 26 09:56:47 1999
+#
+# contributed by Niklas Nold
+#
+# brand:             SONY_RM-D797
+# model:             RM-D797
+# supported devices: cd player
+#
+
+begin remote
+
+  name  SONY_RM-D797
+  bits            7
+  flags SPACE_ENC
+  eps            20
+  aeps            0
+
+  header       2461   557
+  one           649   557
+  zero         1252   557
+  ptrail       1252
+  post_data_bits  4
+  post_data      0x7
+  gap          25084
+  repeat_bit      0
+  min_repeat      2
+
+      begin codes
+          KEY_PLAY                 0x0000000000000059        #  Was: PLAY
+          KEY_STOP                 0x0000000000000071        #  Was: STOP
+          KEY_PAUSE                0x0000000000000031        #  Was: PAUSE
+          KEY_NEXT                 0x0000000000000039        #  Was: NEXT
+          KEY_PREVIOUS             0x0000000000000079        #  Was: PREV
+          KEY_REWIND               0x0000000000000019        #  Was: REW
+          KEY_FASTFORWARD          0x0000000000000069        #  Was: FF
+          KEY_VOLUMEUP             0x000000000000005B        #  Was: VOLUP
+          VOLDWN                   0x000000000000001B
+          FADER                    0x0000000000000002
+          SLOWFF                   0x0000000000000011
+          SLOWREW                  0x0000000000000051
+          INDEX+                   0x0000000000000009
+          INDEX-                   0x0000000000000049
+          KEY_OPEN                 0x000000000000004B        #  Was: OPEN/CLOSE
+          CONTINUE                 0x0000000000000023
+          SHUFFLE                  0x0000000000000029
+          PROGRAM                  0x0000000000000003
+          MUSICSCAN                0x0000000000000061
+          KEY_1                    0x000000000000007F        #  Was: 1
+          KEY_2                    0x000000000000003F        #  Was: 2
+          KEY_3                    0x000000000000005F        #  Was: 3
+          KEY_4                    0x000000000000001F        #  Was: 4
+          KEY_5                    0x000000000000006F        #  Was: 5
+          KEY_6                    0x000000000000002F        #  Was: 6
+          KEY_7                    0x000000000000004F        #  Was: 7
+          KEY_8                    0x000000000000000F        #  Was: 8
+          KEY_9                    0x0000000000000077        #  Was: 9
+          KEY_0                    0x000000000000007D        #  Was: 10
+          KEY_1                    0x000000000000003D        #  Was: 11
+          KEY_2                    0x000000000000005D        #  Was: 12
+          KEY_3                    0x000000000000001D        #  Was: 13
+          KEY_4                    0x000000000000006D        #  Was: 14
+          KEY_5                    0x000000000000002D        #  Was: 15
+          KEY_6                    0x000000000000004D        #  Was: 16
+          KEY_7                    0x000000000000007B        #  Was: 17
+          KEY_8                    0x000000000000003B        #  Was: 18
+          KEY_9                    0x000000000000000B        #  Was: 19
+          KEY_0                    0x0000000000000035        #  Was: 20
+          KEY_0+                   0x000000000000000D        #  Was: 20+
+          KEY_AGAIN                0x0000000000000065        #  Was: REPEAT
+          A.SPACE/A.CUE            0x0000000000000046
+          KEY_TIME                 0x0000000000000075        #  Was: TIME
+          CHECK                    0x0000000000000027
+          KEY_CLEAR                0x0000000000000007        #  Was: CLEAR
+      end codes
+
+end remote
+
+

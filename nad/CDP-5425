@@ -1,0 +1,42 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.5(serial) on Mon Jul  8 08:42:23 2002
+#
+# contributed by
+#
+# brand:                                     NAD
+# model no. of remote control:               unknown
+# devices being controlled by this remote:   Compact Disc Player 5425
+#
+
+begin remote
+
+  name  NAD
+  bits           11
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       2487   511
+  one          1286   512
+  zero          687   512
+  ptrail       1291
+  gap          44981
+  min_repeat      2
+  toggle_bit      0
+
+
+      begin codes
+          KEY_PLAY                 0x0000000000000268        #  Was: PLAY
+          KEY_STOP                 0x00000000000000E8        #  Was: STOP
+          KEY_PAUSE                0x00000000000004E8        #  Was: PAUSE
+          SKIP_LEFT                0x0000000000000068
+          SKIP_RIGHT               0x0000000000000468
+          SCAN_LEFT                0x00000000000002E8
+          SCAN_RIGHT               0x00000000000006E8
+      end codes
+
+end remote
+
+
+

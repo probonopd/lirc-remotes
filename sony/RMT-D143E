@@ -1,0 +1,104 @@
+#
+# this config file was automatically generated
+# using lirc-0.7.0(serial) on Tue Mar  7 00:30:00 2006
+#
+# contributed by
+#
+# brand:                       Sony
+# model no. of remote control: RMT-D143E
+# devices being controlled by this remote: Sony DVP-NC615 5-disc DVD Player
+#
+# The TV function buttons use different codes than the rest of
+# the buttons.  We can fool the system into accepting them by
+# pretending it's two different remotes.
+#
+# To set your remote to the correct seting for these codes, hold
+# down the 'TV Power' button, press numeric '0' then '1' on the
+# remote, then release the 'TV Power' button.
+
+begin remote
+
+  name  Sony_RMT-D143E
+  bits           20
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       2457   561
+  one          1227   580
+  zero          629   580
+  gap          45078
+  min_repeat      2
+  toggle_bit      0
+
+
+      begin codes
+          KEY_EJECTCD              0x0000000000068B92        #  Was: eject
+          KEY_POWER                0x00000000000A8B92        #  Was: power
+          KEY_1                    0x0000000000000B92        #  Was: 1
+          KEY_2                    0x0000000000080B92        #  Was: 2
+          KEY_3                    0x0000000000040B92        #  Was: 3
+          KEY_4                    0x00000000000C0B92        #  Was: 4
+          KEY_5                    0x0000000000020B92        #  Was: 5
+          KEY_6                    0x00000000000A0B92        #  Was: 6
+          KEY_7                    0x0000000000060B92        #  Was: 7
+          KEY_8                    0x00000000000E0B92        #  Was: 8
+          KEY_9                    0x0000000000010B92        #  Was: 9
+          KEY_0                    0x0000000000090B92        #  Was: 0
+          KEY_CLEAR                0x00000000000F0B92        #  Was: clear
+          time-text                0x0000000000014B92
+          disc-skip                0x000000000007CB46
+          KEY_AUDIO                0x0000000000026B92        #  Was: audio
+          KEY_SUBTITLE             0x00000000000C6B92        #  Was: subtitle
+          KEY_ANGLE                0x00000000000A6B92        #  Was: angle
+          picture-mode             0x00000000000DAB92
+          KEY_PREVIOUS             0x000000000000CB92        #  Was: prev
+          KEY_NEXT                 0x000000000008CB92        #  Was: next
+          KEY_AGAIN                0x0000000000034B92        #  Was: repeat
+          sur                      0x000000000005AB92
+          scan-prev                0x0000000000044B92
+          scan-next                0x00000000000C4B92
+          search-mode              0x00000000000D2B92
+          KEY_AGAIN                0x000000000003AB92        #  Was: replay
+          KEY_PLAY                 0x000000000004CB92        #  Was: play
+          KEY_PAUSE                0x000000000009CB92        #  Was: pause
+          KEY_STOP                 0x000000000001CB92        #  Was: stop
+          KEY_UP                   0x000000000009EB92        #  Was: up
+          KEY_LEFT                 0x00000000000DEB92        #  Was: left
+          KEY_RIGHT                0x000000000003EB92        #  Was: right
+          KEY_DOWN                 0x000000000005EB92        #  Was: down
+          KEY_ENTER                0x00000000000D0B92        #  Was: enter
+          display                  0x000000000002AB92
+          top-menu                 0x0000000000058B92
+          KEY_MENU                 0x00000000000D8B92        #  Was: menu
+          KEY_ENTER                0x0000000000070B92        #  Was: return
+      end codes
+
+end remote
+
+begin remote
+
+  name  Sony_RMT-D143E-TV
+  bits           11
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       2484   581
+  one          1220   581
+  zero          632   581
+  ptrail        631
+  gap          45067
+  toggle_bit      0
+
+
+      begin codes
+          tv-power                 0x548
+          KEY_VOLUMEUP             0x248                     #  Was: vol-up
+          KEY_VOLUMEDOWN           0x648                     #  Was: vol-down
+          tv-video                 0x528
+      end codes
+
+end remote
+
+

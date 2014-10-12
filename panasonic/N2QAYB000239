@@ -1,0 +1,114 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.3pre1(default) on Wed Sep 10 00:14:36 2008
+#
+# contributed by Tim Davis
+#
+# brand: Panasonic
+# model no. of remote control: N2QAYB000239
+# devices being controlled by this remote:
+#  Viera TX-32LZD80 LCD TV
+#
+# Notes
+#
+# 'Vcr' prefixed codes are generated when the switch is in the VCR position,
+# 'Dvd' codes when in the DVD position.
+#
+# VcrRewind and VcrFFwd are generated instead of VcrSkipBack
+# and VcrSkipFwd when holding the buttons down. Similarly for
+# the DvdSkip buttons.
+#
+# Holding down VcrPause generates VcrFFwd.
+# Holding down DvdPause generates DvdSkipFwd.
+#
+
+begin remote
+
+  name  Panasonic_N2QAYB000239
+  bits           32
+  flags SPACE_ENC
+  eps            30
+  aeps          100
+
+  header       3571  1634
+  one           497  1239
+  zero          497   366
+  ptrail        479
+  pre_data_bits   16
+  pre_data       0x4004
+  gap          73900
+  toggle_bit_mask 0x0
+
+      begin codes
+          KEY_POWER                0x0100BCBD                #  Was: Power
+          KEY_TV                   0x01400C4D                #  Was: TV
+          AV                       0x0100A0A1
+          Aspect                   0x01207B5A
+          Link                     0x01908D1C
+          KEY_OPTION               0x0190E574                #  Was: Option
+          SDCard                   0x0190D544
+          KEY_INFO                 0x0190E170                #  Was: Guide
+          KEY_EXIT                 0x0100CBCA                #  Was: Exit
+          KEY_UP                   0x01005253                #  Was: Up
+          KEY_DOWN                 0x0100D2D3                #  Was: Down
+          KEY_LEFT                 0x01007273                #  Was: Left
+          KEY_RIGHT                0x0100F2F3                #  Was: Right
+          KEY_OK                   0x01009293                #  Was: Ok
+          KEY_MENU                 0x01004A4B                #  Was: Menu
+          KEY_ENTER                0x01002B2A                #  Was: Return
+          KEY_RED                  0x01000E0F                #  Was: Red
+          KEY_GREEN                0x01008E8F                #  Was: Green
+          KEY_YELLOW               0x01004E4F                #  Was: Yellow
+          KEY_BLUE                 0x0100CECF                #  Was: Blue
+          KEY_TEXT                 0x0180C041                #  Was: Text
+          Sttl                     0x0180A021
+          Index                    0x01801091
+          Hold                     0x01809011
+          KEY_1                    0x01000809                #  Was: 1
+          KEY_2                    0x01008889                #  Was: 2
+          KEY_3                    0x01004849                #  Was: 3
+          KEY_4                    0x0100C8C9                #  Was: 4
+          KEY_5                    0x01002829                #  Was: 5
+          KEY_6                    0x0100A8A9                #  Was: 6
+          KEY_7                    0x01006869                #  Was: 7
+          KEY_8                    0x0100E8E9                #  Was: 8
+          KEY_9                    0x01001819                #  Was: 9
+          KEY_0                    0x01009899                #  Was: 0
+          KEY_INFO                 0x01009C9D                #  Was: Info
+          KEY_MUTE                 0x01004C4D                #  Was: Mute
+          KEY_CHANNELUP            0x01002C2D                #  Was: ProgUp
+          KEY_CHANNELDOWN          0x0100ACAD                #  Was: ProgDown
+          KEY_VOLUMEUP             0x01000405                #  Was: VolUp
+          KEY_VOLUMEDOWN           0x01008485                #  Was: VolDown
+          VcrProgDown              0x0900ACA5
+          VcrProgUp                0x09002C25
+          VcrSkipBack              0x09004049
+          VcrSkipFwd               0x0900C0C9
+          VcrRewind                0x0900929B
+          VcrFFwd                  0x0900525B
+          VcrStop                  0x09000009
+          VcrPause                 0x09006069
+          VcrPlay                  0x09005059
+          VcrPower                 0x0900BCB5
+          VcrRec                   0x09001019
+          KEY_DVD                  0x0D00ACA1                #  Was: DvdProgDown
+          KEY_DVD                  0x0D002C21                #  Was: DvdProgUp
+          KEY_DVD                  0x0D00929F                #  Was: DvdSkipBack
+          KEY_DVD                  0x0D00525F                #  Was: DvdSkipFwd
+          KEY_DVD                  0x0D00202D                #  Was: DvdRewind
+          KEY_DVD                  0x0D00A0AD                #  Was: DvdFFwd
+          KEY_DVD                  0x0D00000D                #  Was: DvdStop
+          KEY_DVD                  0x0D00606D                #  Was: DvdPause
+          KEY_DVD                  0x0D00505D                #  Was: DvdPlay
+          KEY_DVD                  0x0D00BCB1                #  Was: DvdPower
+          KEY_DVD                  0x0D00101D                #  Was: DvdRec
+          KEY_N                    0x01003031                #  Was: N
+          KEY_AUDIO                0x01008C8D                #  Was: Audio
+          DirectTvRec              0x01909100
+      end codes
+
+end remote
+
+
+
+

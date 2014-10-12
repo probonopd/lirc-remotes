@@ -1,0 +1,123 @@
+# contributed by DJ Eaton <zjgpa@noviota.virtualave.net>
+#
+# brand:             Philips
+# model:             SBC RU 430
+# supported devices: Universal Remote - Lots... Read Enclosed Manual with Remote
+#
+# I checked this after creating it using irw.. all codes work... some
+# codes are global like the volume no matter what mode you are in.
+# Some buttons also send duplicate codes...
+# Notes: this is the default setup for this remote afaik...
+
+begin remote
+
+  name  SBCRU430
+  bits           13
+  flags RC5|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           895   896
+  zero          895   896
+  plead         882
+  gap          114482
+  min_repeat      11
+  toggle_bit      2
+
+
+      begin codes
+          KEY_MUTE                 0x000000000000100D        #  Was: Mute
+          KEY_VOLUMEUP             0x0000000000001010        #  Was: V+
+          KEY_VOLUMEDOWN           0x0000000000001011        #  Was: V-
+          TV-SMute                 0x0000000000001038
+          TV-Power                 0x000000000000100C
+          TV-P+                    0x0000000000001020
+          TV-P-                    0x0000000000001021
+          TV-SV+                   0x0000000000000016
+          TV-SV-                   0x0000000000000015
+          TV-1                     0x0000000000001001
+          TV-2                     0x0000000000001002
+          TV-3                     0x0000000000001003
+          TV-4                     0x0000000000001004
+          TV-5                     0x0000000000001005
+          TV-6                     0x0000000000001006
+          TV-7                     0x0000000000001007
+          TV-8                     0x0000000000001008
+          TV-9                     0x0000000000001009
+          TV-0                     0x0000000000001000
+          TV-Dashes                0x000000000000100A
+          TV-SDashes               0x0000000000000017
+          TV-Stop                  0x000000000000002C
+          TV-Play                  0x000000000000002D
+          TV-SRec                  0x000000000000003A
+          TV-Rew                   0x000000000000002B
+          TV-Pause                 0x000000000000002F
+          TV-For                   0x000000000000002E
+          TV-SRew                  0x000000000000000E
+          TV-SFor                  0x000000000000000D
+          TV-TT-On                 0x000000000000103C
+          TV-TT-SOn                0x0000000000000012
+          TV-TT-Off                0x000000000000103F
+          TV-TT-Soff               0x0000000000001023
+          TV-TT-Enlarge            0x000000000000102B
+          TV-TT-Time               0x000000000000102A
+          TV-TT-Hold               0x0000000000001029
+          TV-TT-Cancel             0x000000000000102D
+          VCR-Power                0x000000000000114C
+          VCR-Mute                 0x000000000000100D
+          VCR-SMute                0x0000000000001178
+          VCR-P+                   0x0000000000001160
+          VCR-P-                   0x0000000000001161
+          VCR-1                    0x0000000000001141
+          VCR-2                    0x0000000000001142
+          VCR-3                    0x0000000000001143
+          VCR-4                    0x0000000000001144
+          VCR-5                    0x0000000000001145
+          VCR-6                    0x0000000000001146
+          VCR-7                    0x0000000000001147
+          VCR-8                    0x0000000000001148
+          VCR-9                    0x0000000000001149
+          VCR-0                    0x0000000000001140
+          VCR-Dashes               0x000000000000114A
+          VCR-Stop                 0x0000000000001176
+          VCR-Play                 0x0000000000001175
+          VCR-Rec                  0x0000000000001177
+          VCR-Rew                  0x0000000000001172
+          VCR-For                  0x0000000000001174
+          VCR-Pause                0x0000000000001170
+          SAT-Power                0x000000000000120C
+          SAT-Mute                 0x000000000000100D
+          SAT-SMute                0x0000000000001228
+          Sat-P+                   0x0000000000001220
+          Sat-P-                   0x0000000000001221
+          Sat-SP+                  0x0000000000000210
+          Sat-SP-                  0x0000000000000211
+          Sat-SV+                  0x0000000000000216
+          Sat-SV-                  0x0000000000000215
+          Sat-1                    0x0000000000001201
+          Sat-2                    0x0000000000001202
+          Sat-3                    0x0000000000001203
+          Sat-4                    0x0000000000001204
+          Sat-5                    0x0000000000001205
+          Sat-6                    0x0000000000001206
+          Sat-7                    0x0000000000001207
+          Sat-8                    0x0000000000001208
+          Sat-9                    0x0000000000001209
+          Sat-0                    0x0000000000001200
+          Sat-Dashes               0x000000000000120A
+          Sat-SDashes              0x0000000000000217
+          Sat-Stop                 0x000000000000023A
+          Sat-Play                 0x0000000000001223
+          Sat-Rec                  0x000000000000123B
+	  Sat-Rew                  0x000000000000123A
+          Sat-SRew                 0x000000000000020E
+          Sat-For                  0x0000000000001227
+          Sat-SFor                 0x000000000000020D
+          Sat-Pause                0x000000000000121F
+          Sat-SPause               0x000000000000022F
+          Sat-STT-On               0x0000000000000212
+      end codes
+
+end remote
+
+

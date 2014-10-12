@@ -1,0 +1,100 @@
+# Contributed By:	Dave Allen Barker Jr
+#			<mailto:email|1.0ne.org>
+# Date:			2005-08-18
+# Filename:		MSR
+# Encoding:		RC-5 & RC-5X
+# Brand:		Meridian
+# Model:		MSR (Meridian System Remote)
+# Supported Devices:	All
+
+# For the MSR (Meridian System Remote), a big black
+# rectangle of a remote provided with Meridian audio
+# <http://meridian-audio.com/> products.  This
+# is/maybe the oldest of their remotes, and is
+# succeeded by the MSR+ (Plus).  The MSR uses RC-5
+# system address 19 (0x13), officially designated
+# for secondary pre-amp use.
+#
+# The MSR uses RC-5X, which is RC-5 extended to double
+# the 64 command set via start bits modification.
+# <http://www.xs4all.nl/~sbp/knowledge/ir/rc5.htm>.
+
+begin remote
+
+  name  MSR
+  bits           13
+  flags RC5|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           889   889
+  zero          889   889
+  gap          113792
+  toggle_bit      2
+
+  frequency    36000
+
+      begin codes
+          KEY_0                    0x1CC0                    #  Was: 0
+          KEY_1                    0x1CC1                    #  Was: 1
+          KEY_2                    0x1CC2                    #  Was: 2
+          KEY_3                    0x1CC3                    #  Was: 3
+          KEY_4                    0x1CC4                    #  Was: 4
+          KEY_5                    0x1CC5                    #  Was: 5
+          KEY_6                    0x1CC6                    #  Was: 6
+          KEY_7                    0x1CC7                    #  Was: 7
+          KEY_8                    0x1CC8                    #  Was: 8
+          KEY_9                    0x1CC9                    #  Was: 9
+          KEY_SLOW                 0x1CCA                    #  Was: Slow
+          Off                      0x1CCC
+          KEY_MUTE                 0x1CCD                    #  Was: Mute
+          Band                     0x1CCE
+          Volume_[up]              0x1CD0                    #  Was: Volume_[up]
+          Volume_[down]            0x1CD1                    #  Was: Volume_[down]
+          KEY_AGAIN                0x1CDD                    #  Was: Repeat
+          [next]                   0x1CE0                    #  Was: [next]
+          [previous]               0x1CE1                    #  Was: [previous]
+          KEY_AUDIO                0x1CE3                    #  Was: Audio
+          KEY_SUBTITLE             0x1CE8                    #  Was: Subtitle
+          Store                    0x1CEE
+          [pause]                  0x1CF0                    #  Was: [pause]
+          KEY_CLEAR                0x1CF1                    #  Was: Clear
+          [rewind]                 0x1CF2                    #  Was: [rewind]
+          KEY_MENU                 0x1CF3                    #  Was: OSD
+          [fastforward]            0x1CF4                    #  Was: [fastforward]
+          [play]                   0x1CF5                    #  Was: [play]
+          [stop]                   0x1CF6                    #  Was: [stop]
+          KEY_RECORD               0x1CF7                    #  Was: Record
+          KEY_ANGLE                0x1CFA                    #  Was: Angle
+          A-B                      0x1CFB
+          Phase                    0x1CFC
+
+          Chapter                  0x04C4
+          KEY_SETUP                0x04C5                    #  Was: Setup
+          LD                       0x04CC
+          [up]                     0x04D0                    #  Was: [up]
+          [down]                   0x04D1                    #  Was: [down]
+          KEY_MENU                 0x04D2                    #  Was: Menu
+          KEY_ENTER                0x04D3                    #  Was: Return
+          [left]                   0x04D5                    #  Was: [left]
+          [right]                  0x04D6                    #  Was: [right]
+          KEY_ENTER                0x04D7                    #  Was: Enter
+          Preset                   0x04DD
+          KEY_CD                   0x04EB                    #  Was: CD
+          KEY_RADIO                0x04EC                    #  Was: RADIO
+          TAPE_1                   0x04ED
+          TAPE_2                   0x04EE
+          CABLE                    0x04EF
+          VCR_1                    0x04F0
+          VCR_2                    0x04F1
+          LP                       0x04F2
+          KEY_TV                   0x04F3                    #  Was: TV
+          KEY_DVD                  0x04F4                    #  Was: DVD
+          CDR                      0x04F5
+          KEY_TITLE                0x04F9                    #  Was: Title
+          Display                  0x04FA
+      end codes
+
+end remote
+
+

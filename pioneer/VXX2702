@@ -1,0 +1,76 @@
+#
+# this config file was automatically generated
+# using lirc-0.7.0pre2(serial) on Wed Feb 18 22:57:02 2004
+#
+# contributed by Sven Schumacher
+#
+# brand: Pioneer                     
+# model no. of remote control: VXX2702
+# devices being controlled by this remote: DVD Player VXX2702
+#
+
+begin remote
+
+  name  Pioneer_VXX2702
+  bits           32
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       8581  4217
+  one           594  1540
+  zero          594   470
+  ptrail        581
+  gap          89969
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x00000000C53A9966        #  Was: power
+          last_memory              0x00000000C53A9966
+          condition_memory         0x00000000C53A9966
+          KEY_OPEN                 0x00000000C53A9966        #  Was: open_close
+          KEY_AUDIO                0x00000000C53A9966        #  Was: audio
+          KEY_SUBTITLE             0x00000000C53A9966        #  Was: sub_title
+          angel                    0x00000000C53A9966
+          KEY_AGAIN                0x00000000C53A9966        #  Was: repeat
+          KEY_SETUP                0x00000000C53A9966        #  Was: setup
+          KEY_MENU                 0x00000000C53A9966        #  Was: menu
+          top_menu                 0x00000000C53A9966
+          repeat_ab                0x00000000C53A9966
+          display                  0x00000000C53A9966
+          KEY_ENTER                0x00000000C53A9966        #  Was: return
+          KEY_UP                   0x00000000C53A9966        #  Was: up
+          KEY_LEFT                 0x00000000F50AC639        #  Was: left
+          KEY_RIGHT                0x00000000C53A9966        #  Was: right
+          KEY_DOWN                 0x00000000C53A9966        #  Was: down
+          KEY_ENTER                0x00000000C53A9966        #  Was: enter
+          KEY_PREVIOUS             0x00000000C53AB946        #  Was: prev
+          KEY_NEXT                 0x00000000C53A39C6        #  Was: next
+          KEY_STOP                 0x00000000C53A19E6        #  Was: stop
+          KEY_PLAY                 0x00000000C53A7986        #  Was: play
+          KEY_PAUSE                0x00000000C53AF906        #  Was: pause
+          st_sl_left               0x00000000C53A9966
+          st_sl_right              0x00000000C53A9966
+          rev                      0x00000000C53AD926
+          KEY_FORWARD              0x00000000C53A59A6        #  Was: fwd
+          KEY_1                    0x00000000C53A9966        #  Was: 1
+          KEY_2                    0x00000000C53A9966        #  Was: 2
+          KEY_3                    0x00000000C53A9966        #  Was: 3
+          KEY_4                    0x00000000C53A9966        #  Was: 4
+          KEY_5                    0x00000000C53A9966        #  Was: 5
+          KEY_6                    0x00000000C53A9966        #  Was: 6
+          KEY_7                    0x00000000C53A9966        #  Was: 7
+          KEY_8                    0x00000000C53A9966        #  Was: 8
+          KEY_9                    0x00000000C53A9966        #  Was: 9
+          KEY_CLEAR                0x00000000C53A9966        #  Was: clear
+          KEY_10CHANNELSUP         0x00000000C53A9966        #  Was: +10
+          KEY_0                    0x00000000C53A9966        #  Was: 0
+          random                   0x00000000C53A9966
+          programm                 0x00000000C53A9966
+          search_mode              0x00000000C53A9966
+      end codes
+
+end remote
+
+

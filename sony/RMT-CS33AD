@@ -1,0 +1,61 @@
+# this config file was automatically generated
+# using lirc-0.8.2(default) on Sat Nov 24 15:44:51 2007
+#
+# contributed by Jan
+#
+# brand: Sony
+# model no. of remote control: RMT-CS33AD
+# devices being controlled by this remote: CFD-S33L
+#
+
+begin remote
+
+  name  Sony_RMT-CS33AD
+  bits           15
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       2540   523
+  one          1308   530
+  zero          706   530
+  gap          43801
+  min_repeat      2
+  toggle_bit_mask 0x0
+
+      begin codes
+          KEY_SLEEP                0x4322                    #  Was: Standby
+          KEY_SLEEP                0x0322                    #  Was: Sleep
+          Operate                  0x5422
+          KEY_1                    0x0026                    #  Was: 01
+          KEY_2                    0x4026                    #  Was: 02
+          KEY_3                    0x2026                    #  Was: 03
+          KEY_4                    0x6026                    #  Was: 04
+          KEY_5                    0x1026                    #  Was: 05
+          KEY_6                    0x5026                    #  Was: 06
+          KEY_7                    0x3026                    #  Was: 07
+          KEY_8                    0x7026                    #  Was: 08
+          KEY_9                    0x0826                    #  Was: 09
+          KEY_MODE                 0x4422                    #  Was: Mode
+          KEY_0                    0x1826                    #  Was: 0/10
+          >10                      0x5826
+          Display                  0x1C26
+          Function                 0x7122
+          MegaBass                 0x7E22
+          Sound                    0x0622
+          KEY_VOLUMEUP             0x2422                    #  Was: Vol+
+          KEY_VOLUMEDOWN           0x6422                    #  Was: Vol-
+          KEY_PLAY                 0x2626                    #  Was: Play
+          KEY_PAUSE                0x4E26                    #  Was: Pause
+          KEY_STOP                 0x0E26                    #  Was: Stop
+          Loop                     0x1626
+          Bck                      0x0626
+          KEY_FORWARD              0x6E26                    #  Was: Fwd
+          Band                     0x7B26
+          Tune-                    0x1726
+          Tune+                    0x6726
+      end codes
+
+end remote
+
+

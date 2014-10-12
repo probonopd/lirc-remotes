@@ -1,0 +1,69 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.0(sir) on Sun Sep  3 17:34:55 2006
+#
+# contributed by
+#
+# brand:                       Philips
+# model no. of remote control: RC19039001
+# devices being controlled by this remote:
+#
+
+begin remote
+
+  name  Philips_RC19039001
+  bits           13
+  flags RC5|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           883   888
+  zero          883   888
+  plead         869
+  gap          113237
+  toggle_bit 2
+
+      begin codes
+          KEY_POWER                0x100C                    #  Was: POWER
+          TELETEXT_OFF             0x182D
+          TELETEXT_RESIZE_BIGGER   0x102B
+          TELETEXT_RESIZE_SMALLER  0x1829
+          TELETEXT_ADDINFO         0x102C
+          DUAL_SOUND_SWITCH        0x1824
+          KEY_INFO                 0x100F                    #  Was: INFO
+          TIMER                    0x1826
+          SCREEN_WIDTH             0x003E
+          NOTE_BUTTON              0x1814
+          RADIO_BUTTON             0x00F1
+          BLANK_BUTTON             0x1815
+          KEY_TEXT                 0x103C                    #  Was: TELETEXT
+          KEY_MENU                 0x0812                    #  Was: MENU
+          KEY_UP                   0x0010                    #  Was: UP
+          KEY_RIGHT                0x0816                    #  Was: RIGHT
+          KEY_DOWN                 0x0011                    #  Was: DOWN
+          KEY_LEFT                 0x0815                    #  Was: LEFT
+          KEY_MUTE                 0x100D                    #  Was: MUTE
+          KEY_VOLUMEDOWN           0x1811                    #  Was: VOLUME_DOWN
+          KEY_VOLUMEUP             0x1010                    #  Was: VOLUME_UP
+          PRG_DOWN                 0x1821
+          KEY_RED                  0x082B                    #  Was: RED
+          KEY_GREEN                0x002C                    #  Was: GREEN
+          KEY_YELLOW               0x082D                    #  Was: YELLOW
+          KEY_BLUE                 0x002E                    #  Was: BLUE
+          KEY_1                    0x1801                    #  Was: 1
+          KEY_2                    0x1002                    #  Was: 2
+          KEY_3                    0x1803                    #  Was: 3
+          KEY_4                    0x1004                    #  Was: 4
+          KEY_5                    0x1805                    #  Was: 5
+          KEY_6                    0x1006                    #  Was: 6
+          KEY_7                    0x1807                    #  Was: 7
+          KEY_8                    0x1008                    #  Was: 8
+          KEY_9                    0x1809                    #  Was: 9
+          KEY_0                    0x1000                    #  Was: 0
+          KEY_CYCLEWINDOWS         0x1838                    #  Was: SOURCE
+          I_II                     0x1023
+      end codes
+
+end remote
+
+

@@ -1,0 +1,148 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.5(any) on Sat Dec 14 11:23:16 2002
+#
+# contributed by Max Pirkl
+#
+# brand: Philips
+# model no. of remote control: ?
+# devices being controlled by this remote: Philips mz7
+#
+
+begin remote
+
+  name  mz7
+  bits           13
+  flags RC5|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           880   892
+  zero          880   892
+  plead         868
+  gap          113492
+  toggle_bit      2
+
+
+      begin codes
+          KEY_CD                   0x000000000000153F        #  Was: CD
+          CD_POWER                 0x000000000000150C
+          CD_ONE                   0x0000000000001537
+          CD_TWO                   0x0000000000001538
+          CD_THREE                 0x0000000000001539
+          CD_REPEAT                0x000000000000151D
+          CD_SHUFFLE               0x000000000000151C
+          CD_PROGRAMM              0x0000000000001524
+          CD_SLEEP                 0x0000000000001426
+          CD_TIMER                 0x000000000000142A
+          CD_DISPLAY               0x000000000000150B
+          CD_PAUSE                 0x0000000000001530
+          CD_MUTE                  0x000000000000140D
+          CD_VOL_DOWN              0x0000000000001411
+          CD_VOL_UP                0x0000000000001410
+          CD_PLAY                  0x0000000000001535
+          CD_NEXT                  0x0000000000001520
+          CD_PREV                  0x0000000000001521
+          CD_STOP                  0x0000000000001536
+          CD_FWD                   0x0000000000001534
+          CD_BWD                   0x0000000000001532
+          CD_FLAT                  0x0000000000001434
+          CD_INC.SURR.             0x0000000000000400
+          CD_LOUDNESS              0x0000000000001432
+          CD_BASS_UP               0x0000000000001416
+          CD_BASS_DOWN             0x0000000000001417
+          CD_TREBLE_UP             0x0000000000001418
+          CD_TREBLE_DOWN           0x0000000000001419
+          CD_BALANCE_LEFT          0x000000000000141B
+          CD_BALANCE_RIGHT         0x000000000000141A
+          KEY_TUNER                0x000000000000147F        #  Was: TUNER
+          TUNER_POWER              0x000000000000144C
+          TUNER_DISPLAY            0x0000000000001C4F
+          TUNER_TIMER              0x000000000000142A
+          TUNER_SLEEP              0x0000000000001C26
+          TUNER_MUTE               0x000000000000140D
+          TUNER_VOL_UP             0x0000000000001C10
+          TUNER_VOL_DOWN           0x0000000000001411
+          TUNER_NEXT               0x0000000000001C60
+          TUNER_PREV               0x0000000000001461
+          TUNER_FWD                0x0000000000001C5E
+          TUNER_BWD                0x000000000000145F
+          TUNER_FLAT               0x0000000000001C34
+          TUNER_INC.SURR.          0x0000000000000400
+          TUNER_LOUDNESS           0x0000000000001C32
+          TUNER_BASS_UP            0x0000000000001416
+          TUNER_BASS_DOWN          0x0000000000001C17
+          TUNER_TREBLE_UP          0x0000000000001418
+          TUNER_TREBLE_DOWN        0x0000000000001C19
+          TUNER_BALANCE_LEFT       0x000000000000141B
+          TUNER_BALANCE_RIGHT      0x0000000000001C1A
+          KEY_TAPE                 0x00000000000014BF        #  Was: TAPE
+          TAPE_POWER               0x000000000000148C
+          TAPE_SLEEP               0x0000000000001C26
+          TAPE_TIMER               0x000000000000142A
+          TAPE_MUTE                0x0000000000001C0D
+          TAPE_PAUSE               0x00000000000014B0
+          TAPE_SIDE                0x0000000000001CAF
+          TAPE_VOL_UP              0x0000000000001410
+          TAPE_VOL_DOWN            0x0000000000001C11
+          TAPE_PLAY                0x00000000000014B5
+          TAPE_NEXT                0x0000000000001CA0
+          TAPE_PREV                0x00000000000014A1
+          TAPE_STOP                0x0000000000001CB6
+          TAPE_FWD                 0x00000000000014B4
+          TAPE_BWD                 0x0000000000001CB2
+          TAPE_FLAT                0x0000000000001434
+          TAPE_INC.SURR.           0x0000000000000C00
+          TAPE_LOUDNESS            0x0000000000001432
+          TAPE_BASS_UP             0x0000000000001C16
+          TAPE_BASS_DOWN           0x0000000000001417
+          TAPE_TREBLE_UP           0x0000000000001C18
+          TAPE_TREBLE_DOWN         0x0000000000001419
+          TAPE_BALLANCE_LEFT       0x0000000000001C1B
+          TAPE_BALANCE_RIGHT       0x000000000000141A
+          KEY_AUX                  0x0000000000001D7F        #  Was: AUX
+          AUX_POWER                0x000000000000154C
+          AUX_SLEEP                0x0000000000001C26
+          AUX_TIMER                0x000000000000142A
+          AUX_MUTE                 0x0000000000001C0D
+          AUX_VOL_UP               0x0000000000001410
+          AUX_VOL_DOWN             0x0000000000001C11
+          AUX_FLAT                 0x0000000000001434
+          AUX_INC.SURR.            0x0000000000000C00
+          AUX_LOUDNESS             0x0000000000001432
+          AUX_BASS_UP              0x0000000000001C16
+          AUX_BASS_DOWN            0x0000000000001417
+          AUX_TREBLE_UP            0x0000000000001C18
+          AUX_TREBLE_DOWN          0x0000000000001419
+          AUX_BALANCE_LEFT         0x0000000000001C1B
+          AUX_BALANCE_RIGHT        0x000000000000141A
+          CDR                      0x0000000000001EBF
+          CDR_POWER                0x000000000000100C
+          CDR_REPEAT               0x0000000000001E9D
+          CDR_SHUFFLE              0x000000000000169C
+          CDR_PROGRAMM             0x0000000000001EA4
+          CDR_SLEEP                0x0000000000001426
+          CDR_TIMER                0x0000000000001C2A
+          CDR_DSPLAY               0x000000000000168B
+          CDR_PAUSE                0x0000000000001EB0
+          CDR_MUTE                 0x000000000000140D
+          CDR_VOL_UP               0x0000000000001C10
+          CDR_VOL_DOWN             0x0000000000001411
+          CDR_PLAY                 0x0000000000001EB5
+          CDR_NEXT                 0x00000000000016A0
+          CDR_PREV                 0x0000000000001EA1
+          CDR_STOP                 0x00000000000016B6
+          CDR_FWD                  0x0000000000001EB4
+          CDR_BWD                  0x00000000000016B2
+          CDR_FLAT                 0x0000000000001C34
+          CDR_INC.SURR.            0x0000000000000400
+          CDR_LOUDNESS             0x0000000000001C32
+          CDR_BASS_UP              0x0000000000001416
+          CDR_BASS_DOWN            0x0000000000001C17
+          CDR_TREBLE_UP            0x0000000000001418
+          CDR_TREBLE_DOWN          0x0000000000001C19
+          CDR_BALANCE_LEFT         0x000000000000141B
+          CDR_BALANCE_RIGHT        0x000000000000141A
+          end codes
+
+end remote

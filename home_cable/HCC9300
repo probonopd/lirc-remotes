@@ -1,0 +1,69 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.3 on Sun Jul  1 20:11:26 2001
+#
+# contributed by Kevin Otte <nivex@nivex.net>
+#
+# brand:             Home Cable
+# model:             HCC9300 Satellite Receiver
+# supported devices:
+#
+
+begin remote
+
+  name  homecable
+  bits            6
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           478  1632
+  zero          478   570
+  ptrail        472
+  pre_data_bits   5
+  pre_data       0x10
+  post_data_bits  4
+  post_data      0x0
+  gap          67625
+  min_repeat      1
+  toggle_bit      0
+
+
+      begin codes
+          KEY_1                    0x000000000000000E        #  Was: 1
+          KEY_2                    0x000000000000000A        #  Was: 2
+          KEY_3                    0x000000000000000C        #  Was: 3
+          KEY_4                    0x000000000000002E        #  Was: 4
+          KEY_5                    0x000000000000002A        #  Was: 5
+          KEY_6                    0x000000000000002C        #  Was: 6
+          KEY_7                    0x000000000000001E        #  Was: 7
+          KEY_8                    0x000000000000001A        #  Was: 8
+          KEY_9                    0x000000000000001C        #  Was: 9
+          KEY_0                    0x000000000000003A        #  Was: 0
+          C/Ku                     0x000000000000003E
+          Pol                      0x000000000000003C
+          KEY_UP                   0x0000000000000008        #  Was: Up
+          KEY_DOWN                 0x0000000000000028        #  Was: Down
+          KEY_E                    0x0000000000000018        #  Was: E
+          KEY_W                    0x0000000000000038        #  Was: W
+          KEY_VOLUMEUP             0x0000000000000022        #  Was: VolUp
+          KEY_VOLUMEDOWN           0x0000000000000026        #  Was: VolDown
+          View                     0x0000000000000016
+          KEY_HELP                 0x0000000000000012        #  Was: Help
+          KEY_SETUP                0x0000000000000014        #  Was: Setup
+          KEY_TEXT                 0x0000000000000010        #  Was: Text
+          Mesg                     0x0000000000000036
+          KEY_NEXT                 0x0000000000000032        #  Was: Next
+          Cncl                     0x0000000000000034
+          KEY_ENTER                0x0000000000000030        #  Was: Enter
+          PLock                    0x0000000000000001
+          Call                     0x0000000000000006
+          KEY_FAVORITES            0x0000000000000002        #  Was: Fav
+          KEY_MENU                 0x0000000000000004        #  Was: Menu
+          KEY_POWER                0x0000000000000020        #  Was: Power
+      end codes
+
+end remote
+
+
+

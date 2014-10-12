@@ -1,0 +1,60 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.5(any) on Fri Jan  2 08:22:22 1998
+#
+# contributed by
+#
+# brand:                       evation
+# model no. of remote control: http://www.evation.com/hardware/rc.html (factory default)
+# devices being controlled by this remote:
+#
+
+begin remote
+
+  name  evation
+  bits           16
+  eps            30
+  aeps          100
+
+  one             0     0
+  zero            0     0
+  pre_data_bits   16
+  pre_data       0xFFFF
+  post_data_bits  32
+  post_data      0x0
+  gap          259957
+  min_repeat      4
+  toggle_bit      0
+
+
+      begin codes
+          AUX-VOLUME-UP            0x000000000000C400
+          AUX-VOLUME-DOWN          0x000000000000C200
+          AUX-POWER                0x0000000000009000
+          AUX-CH-UP                0x000000000000C800
+          AUX-CH-DOWN              0x000000000000D000
+          AUX-STOP                 0x000000000000A000
+          AUX-REWIND               0x000000000000C000
+          AUX-PLAY                 0x000000000000A000
+          AUX-FORWARD              0x000000000000C000
+          VCR-POWER                0x000000000000AA80
+          VCR-CH-UP                0x000000000000AA80
+          VCR-CH-DOWN              0x000000000000AA80
+          VCR-STOP                 0x000000000000AA80
+          VCR-REWIND               0x000000000000AA80
+          VCR-PLAY                 0x000000000000AA80
+          VCR-FORWARD              0x000000000000AA80
+          CBL-VOLUME-UP            0x0000000000007450
+          CBL-VOLUME-DOWN          0x0000000000007440
+          CBL-POWER                0x0000000000007590
+          CBL-CH-UP                0x0000000000007750
+          CBL-CH-DOWN              0x0000000000007740
+          CBL-STOP                 0x00000000000077C0
+          CBL-REWIND               0x0000000000007580
+          CBL-PLAY                 0x00000000000077D0
+          CBL-FORWARD              0x00000000000075B0
+      end codes
+
+end remote
+
+

@@ -1,0 +1,71 @@
+#
+# this config file was automatically generated
+# using WinLIRC 0.6.4 (LIRC 0.6.1pre3) on Fri Aug 23 00:42:38 2002
+#
+# contributed by den_RDC
+#
+# brand:             Panasonic
+# model:             EUR642182
+# supported devices:
+#
+
+begin remote
+
+  name  EUR642182
+  bits           24
+  flags SPACE_ENC
+  eps            30
+  aeps          100
+
+  header       3552  1629
+  one           521   324
+  zero          521  1167
+  ptrail        521
+  pre_data_bits   24
+  pre_data       0xBFFBFA
+  gap          74979
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x0000000000C7437E        #  Was: power
+          KEY_SLEEP                0x0000000000C796AB        #  Was: sleep
+          tuner-band               0x0000000000DFDAFF
+          KEY_AUX                  0x0000000000FFA6A3        #  Was: aux
+          bt1                      0x0000000000C7F7CA
+          bt2                      0x0000000000C7774A
+          bt3                      0x0000000000C7B78A
+          bt4                      0x0000000000C7370A
+          bt5                      0x0000000000C7D7EA
+          bt6                      0x0000000000C7576A
+          bt7                      0x0000000000C797AA
+          bt8                      0x0000000000C7172A
+          bt9                      0x0000000000C7E7DA
+          bt0                      0x0000000000C7675A
+          bt10                     0x0000000000C7DEE3
+          KEY_CD                   0x0000000000FFD6D3        #  Was: cd
+          cdback                   0x0000000000AF6D38
+          cdforward                0x0000000000AFADF8
+          program                  0x0000000000AFAEFB
+          cdplay                   0x0000000000AFAFFA
+          cdpause                  0x0000000000AF9FCA
+          cdstop                   0x0000000000AFFFAA
+          cdcancel                 0x0000000000AF3A6F
+          deck1-2                  0x0000000000EF5643
+          taperewind               0x0000000000EFBFAA
+          tapeforward              0x0000000000EF3F2A
+          KEY_AGAIN                0x0000000000AF1D48        #  Was: repeat
+          tape-playbackward        0x0000000000EF2F3A
+          tapestop                 0x0000000000EFFFEA
+          tapeplay                 0x0000000000EFAFBA
+          KEY_RECORD               0x0000000000EFEFFA        #  Was: recpause
+          muting                   0x0000000000FFB3B6
+          vbass                    0x0000000000F77C71
+          eqon/off                 0x0000000000F70E03
+          eqmode                   0x0000000000F73E33
+          KEY_VOLUMEDOWN           0x0000000000FF7B7E        #  Was: volume-
+          KEY_VOLUMEUP             0x0000000000FFFBFE        #  Was: volume+
+      end codes
+
+end remote
+

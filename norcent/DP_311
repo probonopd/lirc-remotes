@@ -1,0 +1,78 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.1(default) on Wed Jun 20 19:07:01 2007
+#
+# contributed by
+#
+# brand:                       Norcent
+# model no. of remote control:
+# devices being controlled by this remote: DVD DP 311
+#
+
+begin remote
+
+  name  Norcent_DP_311
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9025  4492
+  one           561  1700
+  zero          561   564
+  ptrail        548
+  pre_data_bits   16
+  pre_data       0xFF
+  gap          107975
+  toggle_bit      0
+
+
+      begin codes
+          KEY_1                    0x827D                    #  Was: 1
+          KEY_2                    0xB24D                    #  Was: 2
+          KEY_3                    0xA25D                    #  Was: 3
+          KEY_4                    0x42BD                    #  Was: 4
+          KEY_5                    0x728D                    #  Was: 5
+          KEY_6                    0x629D                    #  Was: 6
+          KEY_7                    0xC23D                    #  Was: 7
+          KEY_8                    0xF20D                    #  Was: 8
+          KEY_9                    0xE21D                    #  Was: 9
+          KEY_0                    0x00FF                    #  Was: 0
+          KEY_0PLUS                0x10EF                    #  Was: 10PLUS
+          KEY_TIME                 0x18E7                    #  Was: TIME
+          KEY_OPEN                 0x6897                    #  Was: OPENCLOSE
+          PBC                      0x926D
+          KEY_SUBTITLE             0x52AD                    #  Was: SUBTITLE
+          KEY_LANGUAGE             0xD22D                    #  Was: LANGUAGE
+          KEY_ANGLE                0x08F7                    #  Was: ANGLE
+          KEY_SETUP                0xD02F                    #  Was: SETUP
+          KEY_AGAIN                0xD827                    #  Was: REPEAT
+          KEY_VOLUMEDOWN           0x7887                    #  Was: VOLDOWN
+          KEY_VOLUMEUP             0xF807                    #  Was: VOLUP
+          STEP                     0xB04F
+          LR                       0xB847
+          KEY_MUTE                 0xA857                    #  Was: MUTE
+          RESUME                   0x58A7
+          KEY_SLOW                 0xC837                    #  Was: SLOW
+          KEY_TITLE                0xC03F                    #  Was: TITLE
+          AB                       0x40BF
+          KEY_MENU                 0x50AF                    #  Was: MENU
+          KEY_POWER                0x48B7                    #  Was: POWER
+          PRG                      0x8A75
+          DISPLAY                  0xCA35
+          KEY_UP                   0x807F                    #  Was: UP
+          KEY_DOWN                 0x906F                    #  Was: DOWN
+          KEY_RIGHT                0x8877                    #  Was: RIGHT
+          KEY_LEFT                 0x9867                    #  Was: LEFT
+          KEY_ENTER                0x02FD                    #  Was: ENTER
+          KEY_PREVIOUS             0x38C7                    #  Was: PREV
+          KEY_NEXT                 0x28D7                    #  Was: NEXT
+          REV                      0xF00F
+          KEY_FORWARD              0x708F                    #  Was: FWD
+          KEY_PAUSE                0x20DF                    #  Was: PAUSE
+          KEY_STOP                 0xE01F                    #  Was: STOP
+          KEY_PLAY                 0xE817                    #  Was: PLAY
+          KEY_ZOOM                 0x12ED                    #  Was: ZOOM
+      end codes
+
+end remote

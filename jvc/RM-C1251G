@@ -1,0 +1,61 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.4a(iguanaIR) on Tue Feb  3 17:49:44 2009
+#
+# contributed by Greg Dietsche
+#
+# brand:                       JVC
+# model no. of remote control: RM-C1251G
+# devices being controlled by this remote: AV-27FA44
+#
+
+begin remote
+
+  name  JVC_RM-C1251G
+  bits            8
+  flags SPACE_ENC|NO_HEAD_REP
+  eps            30
+  aeps          100
+
+  header       7855  3816
+  one           621  1471
+  zero          621   492
+  ptrail        614
+  pre_data_bits   8
+  pre_data       0xC0
+  gap          16707
+  min_repeat      2
+  toggle_bit      0
+
+      begin codes
+          KEY_POWER                0xE8                      #  Was: power
+          input                    0xC8
+          display                  0x20
+          sleep_timer              0xC0
+          sound                    0x42
+          KEY_VIDEO                0xB0                      #  Was: video_status
+          theater_pro              0xAB
+          KEY_MUTE                 0x38                      #  Was: mute
+          aspect                   0xC9
+          KEY_1                    0x84                      #  Was: 1
+          KEY_2                    0x44                      #  Was: 2
+          KEY_3                    0xC4                      #  Was: 3
+          KEY_4                    0x24                      #  Was: 4
+          KEY_5                    0xA4                      #  Was: 5
+          KEY_6                    0x64                      #  Was: 6
+          KEY_7                    0xE4                      #  Was: 7
+          KEY_8                    0x14                      #  Was: 8
+          KEY_9                    0x94                      #  Was: 9
+          X_KEY_0+                 0xEE                      #  Was: KEY_0+
+          KEY_0                    0x04                      #  Was: 0
+          KEY_ENTER                0xA0                      #  Was: return
+          KEY_CHANNELUP            0x98                      #  Was: ch+
+          KEY_CHANNELDOWN          0x18                      #  Was: ch-
+          KEY_VOLUMEUP             0x78                      #  Was: vol+
+          KEY_VOLUMEDOWN           0xF8                      #  Was: vol-
+          cc                       0x70
+          KEY_MENU                 0x5E                      #  Was: menu
+          KEY_EXIT                 0x67                      #  Was: exit
+      end codes
+
+end remote

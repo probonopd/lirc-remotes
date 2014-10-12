@@ -1,0 +1,158 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.3-CVS(default) on Tue Mar 25 13:21:51 2008
+#
+# contributed by Bob van Loosen <loosen_nospam|xs4all.nl>
+#
+# brand:                       Philips
+# model no. of remote control: RC19002
+# devices being controlled by this remote:
+# Philips 28PW8506/12R 100hz 70cm crt widescreen television
+#
+# quirks:
+#
+# In vcr mode and aux mode not all buttons are mapped.
+# Vcr/aux mode and normal mode use a different encoding,
+# so they are mapped as different remotes.
+#
+# In vcr mode the teletext button and i+ button
+# generate the same code.
+
+begin remote
+
+  name   Philips_RC19002
+  bits           21
+  flags RC6|CONST_LENGTH
+  eps            30
+  aeps          100
+  
+  header       2581   943
+  one           438   446
+  zero          438   446
+  gap          105927
+  min_repeat      10
+  toggle_bit      5
+
+  
+        begin codes
+          KEY_SLEEP                0x00000000000efff3        #  Was: standby
+           inputselect                  0x00000000000effc7
+           soundselect                  0x00000000000eff8e
+          KEY_GREEN                0x00000000000eff91        #  Was: green
+          KEY_BLUE                 0x00000000000eff8f        #  Was: blue
+          KEY_YELLOW               0x00000000000eff90        #  Was: yellow
+          KEY_RED                  0x00000000000eff92        #  Was: red
+          KEY_TEXT                 0x00000000000effc3        #  Was: teletext
+           splitdisplay                 0x00000000000effa2
+          KEY_NEXT                 0x00000000000eff33        #  Was: nextview
+          KEY_TIME                 0x00000000000eff80        #  Was: clock
+           smartdisplay                 0x00000000000eff0c
+           activecontrol                0x00000000000eff69
+           smartsound                   0x00000000000eff0b
+          KEY_MENU                 0x00000000000effab        #  Was: menu
+          KEY_OK                   0x00000000000effa3        #  Was: ok
+          KEY_UP                   0x00000000000effa7        #  Was: up
+          KEY_DOWN                 0x00000000000effa6        #  Was: down
+          KEY_LEFT                 0x00000000000effa5        #  Was: left
+          KEY_RIGHT                0x00000000000effa4        #  Was: right
+          KEY_MUTE                 0x00000000000efff2        #  Was: mute
+          KEY_VOLUMEUP             0x00000000000effef        #  Was: volup
+          KEY_VOLUMEDOWN           0x00000000000effee        #  Was: voldown
+          KEY_CHANNELUP            0x00000000000effdf        #  Was: chup
+          KEY_CHANNELDOWN          0x00000000000effde        #  Was: chdown
+           monostereo                   0x00000000000effb1
+           freeze                       0x00000000000eff98
+           displaymode                  0x00000000000eff0a
+          KEY_ZOOM                 0x00000000000eff18        #  Was: zoom
+          KEY_0                    0x00000000000effff        #  Was: 0
+          KEY_1                    0x00000000000efffe        #  Was: 1
+          KEY_2                    0x00000000000efffd        #  Was: 2
+          KEY_3                    0x00000000000efffc        #  Was: 3
+          KEY_4                    0x00000000000efffb        #  Was: 4
+          KEY_5                    0x00000000000efffa        #  Was: 5
+          KEY_6                    0x00000000000efff9        #  Was: 6
+          KEY_7                    0x00000000000efff8        #  Was: 7
+          KEY_8                    0x00000000000efff7        #  Was: 8
+          KEY_9                    0x00000000000efff6        #  Was: 9
+           i+                           0x00000000000efff0
+           PP                           0x00000000000efff5
+        end codes
+
+end remote
+
+begin remote
+
+  name  Philips_RC19002_VCR_AUX
+  bits           13
+  flags RC5|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           951   829
+  zero          951   829
+  plead         971
+  gap          114011
+  toggle_bit_mask 0x800
+
+      begin codes
+          vcr_standby                  0x114C
+          vcr_inputselect              0x1178
+          vcr_soundselect              0x1174
+          vcr_red                      0x1177
+          vcr_green                    0x1172
+          vcr_yellow                   0x1176
+          vcr_blue                     0x1175
+          vcr_nextview                 0x0161
+          vcr_clock                    0x115D
+          vcr_teletext                 0x114F
+          vcr_menu                     0x0152
+          vcr_ok                       0x0157
+          vcr_up                       0x0150
+          vcr_down                     0x0151
+          vcr_left                     0x0155
+          vcr_right                    0x0156
+          vcr_chup                     0x1160
+          vcr_chdown                   0x1161
+          vcr_monostereo               0x1163
+          vcr_freeze                   0x1169
+          vcr_1                        0x1141
+          vcr_2                        0x1142
+          vcr_3                        0x1143
+          vcr_4                        0x1144
+          vcr_5                        0x1145
+          vcr_6                        0x1146
+          vcr_7                        0x1147
+          vcr_8                        0x1148
+          vcr_9                        0x1149
+          vcr_0                        0x1140
+          vcr_PP                       0x0170
+          aux_standby                  0x120C
+          aux_inputselect              0x1238
+          aux_menu                     0x0212
+          aux_ok                       0x0217
+          aux_up                       0x0210
+          aux_down                     0x0211
+          aux_left                     0x0215
+          aux_right                    0x0216
+          aux_chup                     0x1220
+          aux_chdown                   0x1221
+          aux_monostereo               0x1223
+          aux_1                        0x1201
+          aux_2                        0x1202
+          aux_3                        0x1203
+          aux_4                        0x1204
+          aux_5                        0x1205
+          aux_6                        0x1206
+          aux_7                        0x1207
+          aux_8                        0x1208
+          aux_9                        0x1209
+          aux_0                        0x1200
+          aux_i+                       0x120F
+          aux_PP                       0x1222
+      end codes
+
+end remote
+
+
+
+

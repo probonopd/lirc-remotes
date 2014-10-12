@@ -1,0 +1,104 @@
+#
+# This config file has been automatically converted from a device file
+# found in the 06/26/00 release of the Windows Slink-e software
+# package.
+#
+# Many thanks to Colby Boles of Nirvis Systems Inc. for allowing us to
+# use these files.
+#
+# The original filename was: "yamaha rcx dsp-a1000.cde"
+#
+# The original description for this device was:
+#
+# yamaha rcx dsp-a1000
+#
+
+
+begin remote
+
+  name  DSP-A1000
+  bits           32
+  flags SPACE_ENC
+  eps            20
+  aeps          200
+
+  header       8800  4400
+  one           550  1650
+  zero          550   550
+  ptrail        550
+  repeat       8800  2200
+  gap          38500
+  toggle_bit      0
+
+  frequency    38000
+
+      begin codes
+          KEY_POWER                0x000000005EA1F807        #  Was: POWER
+          TAPE_2_MON_              0x00000000BE4131CE
+          DAT_APE_1_               0x00000000BE41D12E
+          TUNER_                   0x00000000BE41916E
+          CD_                      0x00000000BE41E11E
+          PHONO                    0x00000000BE4111EE
+          KEY_AUX                  0x00000000BE4151AE        #  Was: AUX
+          VCR_2_                   0x00000000BE4141BE
+          VCR_1_                   0x00000000BE41817E
+          TV/DBS_                  0x00000000BE4121DE
+          LD_                      0x00000000BE41C13E
+          CHAPTER_MINUS_(1)        0x000000005EA1D02F
+          CHAPTER_PLUS_(1)         0x000000005EA150AF
+          PAUSE/STOP_(1)           0x000000005EA1906F
+          KEY_PLAY                 0x000000005EA110EF        #  Was: PLAY_(1)
+          DISPLAY_(1)              0x000000009E6150AF
+          SEARCH_FORWARD_(1)       0x000000005EA130CF
+          SEARCH_REVERSE_(1)       0x000000005EA1B04F
+          DTV_DIR_A_               0x000000005EA1E01F
+          DTV_PLAY_                0x000000005EA100FF
+          DTV_DIR_B_               0x000000005EA102FD
+          DTV_DECK_A/B_            0x000000005EA1609F
+          DTV_FAST_FORWARD         0x000000005EA140BF
+          DTV_REWIND               0x000000005EA1807F
+          DTV_STOP                 0x000000005EA1C03F
+          TEST_                    0x00000000BE4153AC
+          TVT_A/B/C/D/E_           0x000000005EA148B7
+          TVT_PRESET_CH_UP_        0x000000005EA108F7
+          TVT_PRESET_CH_DOWN_      0x000000005EA18877
+          "1"_(HALL_1)_            0x00000000BE410BF4
+          "2"_(HALL_2)_            0x00000000BE418B74
+          "3"_(HALL_3)_            0x00000000BE414BB4
+          "4"_(CHURCH)_            0x00000000BE41CB34
+          "5"_(ROCK_CONCERT)       0x00000000BE412BD4
+          "6"_(JAZZ_CLUB)_         0x00000000BE41AB54
+          "7"_(DISCO)_             0x00000000BE416B94
+          "8"_(STADIUM)            0x00000000BE41EB14
+          "9"_(CONC_VIDEO)_        0x00000000BE411BE4
+          "10"(TV_THEATER)_        0x00000000BE419B64
+          "11"(MOVIE_THEATER)      0x00000000BE415BA4
+          "12"(PRO_LOGIC)_         0x00000000BE41DB24
+          FRONT_LEVEL_UP           0x00000000BE41B34C
+          FRONT_LEVEL_DOWN_        0x00000000BE41738C
+          CENTRE_LEVEL_UP_         0x00000000BE41D32C
+          CENTRE_LVL_DOWN          0x00000000BE4133CC
+          KEY_POWER                0x00000000BE4143BC        #  Was: ON_SCREEN_
+          REAR_LEVEL_UP            0x00000000BE4113EC
+          REAR_LEVEL_DOWN_         0x00000000BE41936C
+          EFFECT_ON/OFF_           0x00000000BE41837C
+          KEY_UP                   0x00000000BE41A35C        #  Was: UP
+          DOWN_                    0x00000000BE4123DC
+          PLUS_                    0x00000000BE41639C
+          KEY_KPMINUS              0x00000000BE41E31C        #  Was: MINUS
+          MUTING                   0x00000000BE4129D6
+          MASTER_VOLUME_UP         0x00000000BE41B14E
+          MASTER_VOL_DOWN_         0x00000000BE41718E
+          SOUND_(2)                0x000000003EC148B7
+          CHAPTER_MINUS_(2)        0x000000003EC140BF
+          CHAPTER_PLUS_(2)         0x000000003EC1C03F
+          PAUSE/STOP_(2)           0x000000003EC120DF
+          KEY_PLAY                 0x000000003EC1A05F        #  Was: PLAY_(2)
+          DISPLAY_(2)              0x000000003EC1C837
+          STILL_FORWARD_(2)        0x000000003EC1D02F
+          STILL_REVERSE_(2)        0x000000003EC150AF
+          SEARCH_FORWARD_(2)       0x000000003EC1E01F
+          SEARCH_REVERSE_(2)       0x000000003EC1609F
+      end codes
+
+end remote

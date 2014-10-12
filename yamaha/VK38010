@@ -1,0 +1,69 @@
+#
+# This config file has been automatically converted from a device file
+# found in the 06/26/00 release of the Windows Slink-e software
+# package.
+#
+# Many thanks to Colby Boles of Nirvis Systems Inc. for allowing us to
+# use these files.
+#
+# The original filename was: "yamaha vk38010 sound system.cde"
+#
+# The original description for this device was:
+#
+# yamaha vk38010 sound system
+#
+
+
+begin remote
+
+  name  VK38010
+  bits           32
+  flags SPACE_ENC
+  eps            20
+  aeps          200
+
+  header       8800  4400
+  one           550  1650
+  zero          550   550
+  ptrail        550
+  repeat       8800  2200
+  gap          38500
+  toggle_bit      0
+
+  frequency    38000
+
+      begin codes
+          KEY_AUX                  0x000000005EA1E817        #  Was: AUX
+          PHONO                    0x000000005EA128D7
+          PHONO_PLAY/CUT           0x000000005EA1708F
+          KEY_CD                   0x000000005EA1A857        #  Was: CD
+          CD_PLAY                  0x000000005EA110EF
+          CD_PAUSE/STOP            0x000000005EA1906F
+          CD_SEARCH_FWD            0x000000005EA130CF
+          CD_SEARCH_REV            0x000000005EA1B04F
+          CD_SKIP_FWD              0x000000005EA150AF
+          CD_SKIP_REV              0x000000005EA1D02F
+          CD_DISK_SKIP             0x000000005EA1F20D
+          KEY_TUNER                0x000000005EA16897        #  Was: TUNER
+          TUNER_A/B/C/D/E/         0x000000005EA148B7
+          TUNER_PRESET_+           0x000000005EA108F7
+          TUNER_PRESET_-           0x000000005EA18877
+          EQ_PRESET_+              0x000000005EA1DA25
+          EQ_PRESET_-              0x000000005EA13AC5
+          EQ_ON/FLAT               0x000000005EA15AA5
+          TAPE_1/DAT               0x000000005EA118E7
+          TAPE_2                   0x000000005EA19867
+          TAPE_1/2_PLAY            0x000000005EA100FF
+          TAPE_1/2_STOP            0x000000005EA1C03F
+          TAPE_1/2_REC/PAUSE       0x000000005EA120DF
+          TAPE_1/2_FAST_FWD        0x000000005EA140BF
+          TAPE_1/2_REWIND          0x000000005EA1807F
+          TAPE_1/2_RECORD_MUTE     0x000000005EA1A05F
+          TAPE_1/2_DIR_A           0x000000005EA1E01F
+          TAPE_1/2_DIR_B           0x000000005EA102FD
+          DECK_A/B                 0x000000005EA1609F
+          KEY_VOLUMEUP             0x000000005EA158A7        #  Was: VOLUME_+
+          KEY_VOLUMEDOWN           0x000000005EA1D827        #  Was: VOLUME_-
+      end codes
+
+end remote

@@ -1,0 +1,151 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.3pre1(default) on Sun Aug 23 13:39:34 2009
+#
+# contributed by Mike Meyer
+#
+# brand: pm335 philips universal replacement (code 0224 tv/vcr combo sharp/zenith) pm335
+# model no. of remote control:
+# devices being controlled by this remote:
+#
+
+begin remote
+
+  name  Philips_PM335_0224
+  bits           15
+  flags SPACE_ENC
+  eps            30
+  aeps          100
+
+  one           312  1788
+  zero          312   737
+  ptrail        300
+  gap          45971
+  toggle_bit_mask 0x0
+  toggle_mask    0x3FF
+
+      begin codes
+          KEY_POWER                0x425D                    #  Was: power
+          KEY_1                    0x41FD                    #  Was: 1
+          KEY_2                    0x4102                    #  Was: 2
+          KEY_3                    0x40FD                    #  Was: 3
+          KEY_4                    0x437D                    #  Was: 4
+          KEY_5                    0x4282                    #  Was: 5
+          KEY_6                    0x427D                    #  Was: 6
+          KEY_7                    0x407D                    #  Was: 7
+          KEY_8                    0x43BD                    #  Was: 8
+          KEY_9                    0x4242                    #  Was: 9
+          KEY_0                    0x4142                    #  Was: 0
+          KEY_ENTER                0x613D                    #  Was: enter
+          input                    0x40DD
+          KEY_INFO                 0x62E2                    #  Was: guide
+          KEY_MENU                 0x4012                    #  Was: menu
+          KEY_INFO                 0x4362                    #  Was: info
+          KEY_QUIT                 0x43D5                    #  Was: quit
+          KEY_VOLUMEUP             0x40A2                    #  Was: vol+
+          KEY_VOLUMEDOWN           0x415D                    #  Was: vol-
+          KEY_CHANNELUP            0x41DD                    #  Was: ch+
+          KEY_CHANNELDOWN          0x4122                    #  Was: ch-
+          KEY_UP                   0x631D                    #  Was: up
+          KEY_DOWN                 0x619D                    #  Was: down
+          KEY_RIGHT                0x612D                    #  Was: right
+          KEY_LEFT                 0x622D                    #  Was: left
+          KEY_OK                   0x621D                    #  Was: ok
+          KEY_CHANNELDOWN          0x402D                    #  Was: prevch
+          pip                      0x631D
+#         same as up
+          toggle                   0x613D
+#         same as input
+          KEY_MUTE                 0x405D                    #  Was: mute
+          cc                       0x43FF
+          KEY_KPMINUS              0x4122                    #  Was: -
+#         same as ch-
+          KEY_KPPLUS               0x41DD                    #  Was: +
+#         same as ch+
+          KEY_SLEEP                0x619D                    #  Was: sleep
+#         same as down
+          scan-                    0x6312
+          KEY_PLAY                 0x6112                    #  Was: play
+          scan+                    0x61ED
+          KEY_RECORD               0x6052                    #  Was: rec
+          KEY_STOP                 0x606D                    #  Was: stop
+          KEY_PAUSE                0x6292                    #  Was: pause
+      end codes
+
+end remote
+
+
+#
+# this config file was automatically generated
+# using lirc-0.8.3pre1(default) on Sat Aug 22 18:27:41 2009
+#
+# contributed by
+#
+# brand: Philips Universal Replacement  (code 0324 Goldstar VCR)
+# model no. of remote control: PM335
+# devices being controlled by this remote:
+#
+
+begin remote
+
+  name  Philips_PM335_0324
+  bits           24
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       3535  3447
+  one           897  2569
+  zero          897   836
+  ptrail        889
+  gap          104054
+  min_repeat      1
+  toggle_bit_mask 0x0
+
+      begin codes
+          KEY_1                    0x17EE81                  #  Was: 1
+          KEY_2                    0x161E9E                  #  Was: 2
+          KEY_3                    0x151EAE                  #  Was: 3
+          KEY_4                    0x171E8E                  #  Was: 4
+          KEY_5                    0x149EB6                  #  Was: 5
+          KEY_6                    0x169E96                  #  Was: 6
+          KEY_7                    0x159EA6                  #  Was: 7
+          KEY_8                    0x179E86                  #  Was: 8
+          KEY_9                    0x145EBA                  #  Was: 9
+          KEY_0                    0x165E9A                  #  Was: 0
+          KEY_ENTER                0x362C9D                  #  Was: ENTER
+          KEY_POWER                0x141EBE                  #  Was: POWER
+          KEY_VOLUMEUP             0x143EBC                  #  Was: VOL+
+          KEY_VOLUMEDOWN           0x163E9C                  #  Was: VOL-
+          KEY_UP                   0x154EAB                  #  Was: UP
+          KEY_DOWN                 0x14EEB1                  #  Was: DOWN
+          KEY_CHANNELUP            0x142EBD                  #  Was: CH+
+          KEY_CHANNELDOWN          0x144EBB                  #  Was: CH-
+          KEY_RIGHT                0x148EB7                  #  Was: RIGHT
+          KEY_LEFT                 0x14CEB3                  #  Was: LEFT
+#         SCAN+                    0x148EB7   Same as RIGHT
+#         SCAN-                    0x14CEB3   Same as LEFT
+          KEY_PLAY                 0x154EAB                  #  Was: PLAY
+          KEY_RECORD               0x156EA9                  #  Was: REC
+#         STOP                     0x14EEB1   Same as DOWN
+          RW                       0x14CEB3
+          KEY_PAUSE                0x174E8B                  #  Was: PAUSE
+          KEY_MENU                 0x16AE95                  #  Was: MENU
+          KEY_INFO                 0x158EA7                  #  Was: INFO
+          KEY_INFO                 0x362C9D                  #  Was: GUIDE
+          PIP                      0xFFF000
+          TV/VIDEO                 0x96B694
+          KEY_QUIT                 0x17CE83                  #  Was: QUIT
+#         OK                       0x148EB7   Same as RIGHT
+          KEY_CHANNELDOWN          0x95C6A3                  #  Was: PREVCH
+          TOGGLE                   0x167E98
+          KEY_KPMINUS              0x144EBB                  #  Was: -
+          KEY_KPPLUS               0x142EBD                  #  Was: +
+          KEY_SLEEP                0x168E97                  #  Was: SLEEP
+          CC                       0x178E87
+          KEY_MUTE                 0x173E8C                  #  Was: MUTE
+      end codes
+
+end remote
+
+

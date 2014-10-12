@@ -1,0 +1,69 @@
+#
+# this config file was automatically generated
+# using WinLIRC 0.6.5 (LIRC 0.6.1pre3) on Mon Nov 08 18:08:48 2004
+#
+# contributed by
+#
+# brand: Panasonic          
+# model: N2QAGB000001          
+# supported devices: CD Stereo System SA-AK 52
+#
+
+begin remote
+
+  name  N2QAGB000001
+  bits           24
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  header       3481  1676
+  one           404  1305
+  zero          404   435
+  ptrail        404
+  pre_data_bits   24
+  pre_data       0x400405
+  gap          74601
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x000000000038BC81        #  Was: Power
+          Auto_off                 0x0000000000381924
+          KEY_SLEEP                0x0000000000386954        #  Was: Sleep
+          RDS_disp                 0x000000000020AA8F
+          KEY_1                    0x0000000000380835        #  Was: 1
+          KEY_2                    0x00000000003888B5        #  Was: 2
+          KEY_3                    0x0000000000384875        #  Was: 3
+          Disc                     0x0000000000502570
+          KEY_4                    0x000000000038C8F5        #  Was: 4
+          KEY_5                    0x0000000000382815        #  Was: 5
+          KEY_6                    0x000000000038A895        #  Was: 6
+          >=10                     0x000000000038211C
+          KEY_7                    0x0000000000386855        #  Was: 7
+          KEY_8                    0x000000000038E8D5        #  Was: 8
+          KEY_9                    0x0000000000381825        #  Was: 9
+          KEY_0                    0x00000000003898A5        #  Was: 0
+          Program                  0x0000000000505104
+          KEY_CANCEL               0x000000000050C590        #  Was: Cancel
+          Repet                    0x000000000050E2B7
+          Random                   0x000000000050B2E7
+          KEY_AUX                  0x000000000000595C        #  Was: Aux
+          KEY_TUNER                0x0000000000202500        #  Was: Tuner
+          KEY_TAPE                 0x000000000010697C        #  Was: Tape
+          KEY_CD                   0x000000000000292C        #  Was: CD
+          EQ                       0x000000000008C1CC
+          X_KEY_3D_AI              0x0000000000088C81        #  Was: KEY_3D_AI
+          KEY_DOWN                 0x00000000003892AF        #  Was: Down
+          KEY_UP                   0x000000000038526F        #  Was: Up
+          Muting                   0x0000000000004C49
+          KEY_PAUSE                0x000000000038605D        #  Was: Pause
+          KEY_STOP                 0x000000000038003D        #  Was: Stop
+          KEY_PLAY                 0x000000000038506D        #  Was: Play
+          KEY_VOLUMEDOWN           0x0000000000008481        #  Was: V-
+          KEY_VOLUMEUP             0x0000000000000401        #  Was: V+
+      end codes
+
+end remote
+
+

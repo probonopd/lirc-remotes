@@ -1,0 +1,73 @@
+#
+# this config file was automatically generated
+# using WinLIRC 0.6.5 (LIRC 0.6.1pre3) on Wed Jan 21 21:21:04 2004
+#
+# contributed by
+#
+# brand:             Panasonic
+# model:             EUR642181
+# supported devices:
+#
+
+begin remote
+
+  name  EUR642181
+  bits           24
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  header       3578  1621
+  one           513  1201
+  zero          513   330
+  ptrail        513
+  pre_data_bits   24
+  pre_data       0x400405
+  gap          74901
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x000000000038BC81        #  Was: power
+          KEY_SLEEP                0x0000000000386954        #  Was: sleep
+          tuner/band               0x0000000000202500
+          KEY_AUX                  0x000000000000595C        #  Was: aux
+          bt1                      0x0000000000380835
+          bt2                      0x00000000003888B5
+          bt3                      0x0000000000384875
+          disc                     0x0000000000502570
+          bt4                      0x000000000038C8F5
+          bt5                      0x0000000000382815
+          bt6                      0x000000000038A895
+          >10                      0x000000000038211C
+          bt7                      0x0000000000386855
+          bt8                      0x000000000038E8D5
+          bt9                      0x0000000000381825
+          bt0                      0x00000000003898A5
+          KEY_CD                   0x000000000000292C        #  Was: cd
+          cd-rewind                0x00000000005092C7
+          cd-forward               0x0000000000505207
+          program                  0x0000000000505104
+          cd-play                  0x0000000000505005
+          cd-pause                 0x0000000000506035
+          cd-stop                  0x0000000000500055
+          KEY_CANCEL               0x000000000050C590        #  Was: cancel
+          deck1/2                  0x000000000010A9BC
+          tape-rewind              0x0000000000104055
+          tape-forward             0x000000000010C0D5
+          KEY_AGAIN                0x000000000050E2B7        #  Was: repeat
+          tape-playbackward        0x000000000010D0C5
+          tape-stop                0x0000000000100015
+          tape-play                0x0000000000105045
+          KEY_RECORD               0x0000000000101005        #  Was: rec_pause
+          muting                   0x0000000000004C49
+          v.bass                   0x000000000008838E
+          KEY_POWER                0x000000000008F1FC        #  Was: on/flat
+          KEY_MODE                 0x000000000008C1CC        #  Was: mode
+          KEY_VOLUMEDOWN           0x0000000000008481        #  Was: volume-
+          KEY_VOLUMEUP             0x0000000000000401        #  Was: volume+
+      end codes
+
+end remote
+
+

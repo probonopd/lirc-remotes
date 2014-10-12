@@ -1,0 +1,57 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.6(default) on Fri Jun  4 14:42:15 2010
+#
+# contributed by
+#
+# brand: HP                    dv5remote.conf
+# model no. of remote control: RC1762307/01
+# devices being controlled by this remote: Pavilion dv5
+#
+
+begin remote
+
+  name  HP_RC1762307-01
+  bits           16
+  flags RC6
+  eps            30
+  aeps          100
+
+  header       2760   929
+  one           449   446
+  zero          449   446
+  pre_data_bits   21
+  pre_data       0x37FF0
+  gap          71992
+  toggle_bit_mask 0x8000
+  rc6_mask    0x100000000
+
+      begin codes
+          KEY_POWER                0x7BF3
+          KEY_SWITCHVIDEOMODE      0xFB7E
+          KEY_DVD                  0x7BDB
+          KEY_STOP                 0xFBE6
+          KEY_REWIND               0x7BEA
+          KEY_REWIND               0x7BEA
+          KEY_PLAYPAUSE            0xFB91
+          KEY_FASTFORWARD          0x7BEB
+          KEY_PREVIOUSSONG         0xFBE4
+          KEY_NEXTSONG             0xFBE5
+          KEY_OK                   0xFBDD
+          KEY_ENTER                0x7BDD
+          KEY_INFO                 0xFBF0
+          KEY_MUTE                 0x7BF1
+          KEY_VOLUMEDOWN           0xFBEE
+          KEY_VOLUMEUP             0x7BEF
+          KEY_UP                   0xFBE1
+          KEY_DOWN                 0x7BE0
+          KEY_LEFT                 0xFBDF
+          KEY_RIGHT                0x7BDE
+          KEY_PAGEUP               0xFBED
+          KEY_PAGEDOWN             0x7BEC
+          KEY_ESC                  0xFBDC
+      end codes
+
+end remote
+
+

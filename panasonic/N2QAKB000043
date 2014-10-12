@@ -1,0 +1,122 @@
+# This config file was automatically generated using lirc-0.6.6(any)
+# on Fri Dec 26 18:18:56 2003. It was contributed by Thomas Betker.
+#
+# brand:                                Panasonic
+# model no. of remote control:          N2QAKB000043
+# devices controlled by this remote:    VCR, TV
+#
+# This remote control came with my NV-HV55 VCR.
+#
+# Code names: If a button X generates two different codes depending on
+# the mode (VCR/TV), the codes are named vcr.X and tv.X, respectively; if
+# there is only one code (including the case where a button is dead in the
+# other mode), the code is named just X. The only exception is AVLink /
+# TVAspect, where the button already has two different names anyway.
+#
+# Dead buttons: The button TV/Text is dead in VCR mode (i.e., doesn't
+# generate any signal). The buttons ShowView, Prog/Check, I-Timer are dead
+# in TV mode.
+#
+# Button labels: The Still/Slow button is labeled [||/|>]. The nDigits
+# button is labeled [-/--].
+#
+
+begin remote
+
+  name          Panasonic_N2QAKB000043
+  bits          32
+  flags         SPACE_ENC
+  eps           30
+  aeps          100
+
+  header        3595  1635
+  one           515  1235
+  zero          515  345
+  ptrail        515
+  pre_data_bits 16
+  pre_data      0x4004
+  gap           74185
+  toggle_bit    0
+
+      begin codes
+
+          vcr.Standby              0x000000000900BCB5
+          ExtLink                  0x0000000009A0DA73
+          AVLink                   0x0000000009006C65
+          vcr.1                    0x0000000009000801
+          vcr.2                    0x0000000009008881
+          vcr.3                    0x0000000009004841
+          vcr.4                    0x000000000900C8C1
+          vcr.5                    0x0000000009002821
+          vcr.6                    0x000000000900A8A1
+          vcr.7                    0x0000000009006861
+          vcr.8                    0x000000000900E8E1
+          vcr.9                    0x0000000009001811
+          vcr.0                    0x0000000009009891
+          vcr.nDigits              0x000000000900DCD5
+          vcr.Channel+             0x0000000009002C25
+          vcr.Channel-             0x000000000900ACA5
+          InputSelect              0x000000000900030A
+          IndexPrev                0x000000000900929B
+          IndexNext                0x000000000900525B
+          ShowView                 0x000000000980BA33
+          ProgPlay                 0x0000000009A05CF5
+          KEY_AUDIO                0x000000000900CCC5        #  Was: Audio
+          Still/Slow               0x0000000009006069
+          KEY_RECORD               0x0000000009001019        #  Was: Record
+          KEY_MENU                 0x0000000009806AE3        #  Was: Menu
+          KEY_EXIT                 0x00000000098066EF        #  Was: Exit
+          KEY_PLAY                 0x0000000009005059        #  Was: Play
+          FastBackward             0x0000000009004049
+          KEY_FASTFORWARD          0x000000000900C0C9        #  Was: FastForward
+          KEY_STOP                 0x0000000009000009        #  Was: Stop
+          KEY_ENTER                0x0000000009801A93        #  Was: Enter
+          vcr.CH+                  0x0000000009800980
+          vcr.CH-                  0x0000000009808900
+          vcr.DATE+                0x00000000098049C0
+          vcr.DATE-                0x000000000980C940
+          vcr.ON+                  0x00000000098029A0
+          vcr.ON-                  0x000000000980A920
+          vcr.OFF+                 0x00000000098069E0
+          vcr.OFF-                 0x000000000980E960
+          Prog/Check               0x0000000009808009
+          VPS/PDC                  0x00000000098060E9
+          SP/LP/EP                 0x00000000098050D9
+          Timer                    0x0000000009002D24
+          I-Timer                  0x0000000009A0FC55
+          OffTimer                 0x0000000009801099
+          OSD/Display              0x000000000980FA73
+          Reset/Cancel             0x0000000009002A23
+
+          tv.Standby               0x000000000100BCBD
+          TVAspect                 0x0000000001207B5A
+          TV/Text                  0x000000000180C041
+          tv.1                     0x0000000001000809
+          tv.2                     0x0000000001008889
+          tv.3                     0x0000000001004849
+          tv.4                     0x000000000100C8C9
+          tv.5                     0x0000000001002829
+          tv.6                     0x000000000100A8A9
+          tv.7                     0x0000000001006869
+          tv.8                     0x000000000100E8E9
+          tv.9                     0x0000000001001819
+          AV                       0x000000000100A0A1
+          tv.0                     0x0000000001009899
+          tv.nDigits               0x000000000100DCDD
+          tv.Channel+              0x0000000001002C2D
+          tv.Channel-              0x000000000100ACAD
+          KEY_VOLUMEUP             0x0000000001000405        #  Was: Volume+
+          KEY_VOLUMEDOWN           0x0000000001008485        #  Was: Volume-
+          tv.CH+                   0x0000000001000E0F
+          tv.CH-                   0x0000000001007273
+          tv.DATE+                 0x0000000001008E8F
+          tv.DATE-                 0x000000000100D2D3
+          tv.ON+                   0x0000000001004E4F
+          tv.ON-                   0x0000000001005253
+          tv.OFF+                  0x000000000100CECF
+          tv.OFF-                  0x000000000100F2F3
+
+      end codes
+
+end remote
+

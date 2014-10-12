@@ -1,0 +1,69 @@
+#
+# this config file was automatically generated
+# using lirc-0.7.0(serial) on Mon Feb 13 21:33:38 2006
+#
+# contributed by esteevens|hotmail.com
+#
+# brand:                                   JVC
+# model no. of remote control: 	           CA_E33
+# devices being controlled by this remote: Hifi
+#
+
+begin remote
+
+  name  JVC_CA_E33
+  bits           16
+  flags SPACE_ENC|NO_HEAD_REP|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       8604  4059
+  one           657  1449
+  zero          657   396
+  ptrail        638
+  gap          46764
+  min_repeat      2
+  toggle_bit      0
+
+
+      begin codes
+          KEY_TUNER                0x000000000000C5D0        #  Was: tuner
+          KEY_1                    0x000000000000C584        #  Was: 1
+          KEY_2                    0x000000000000C544        #  Was: 2
+          KEY_3                    0x000000000000C5C4        #  Was: 3
+          KEY_4                    0x000000000000C524        #  Was: 4
+          KEY_5                    0x000000000000C5A4        #  Was: 5
+          KEY_6                    0x000000000000C564        #  Was: 6
+          KEY_7                    0x000000000000C5E4        #  Was: 7
+          KEY_8                    0x000000000000C514        #  Was: 8
+          KEY_9                    0x000000000000C594        #  Was: 9
+          KEY_0                    0x000000000000C554        #  Was: 10
+          KEY_10CHANNELSUP         0x000000000000C5F4        #  Was: +10
+          phono                    0x000000000000C53C
+          KEY_OPEN                 0x000000000000CD22        #  Was: open_close
+          cd_play                  0x000000000000CD32
+          cd_stop                  0x000000000000CDC2
+          cd_rewind                0x000000000000CD1A
+          cd_forward               0x000000000000CD9A
+          deck_a_stop              0x000000000000C1CA
+          deck_a_rewind            0x000000000000C1EA
+          deck_a_forward           0x000000000000C16A
+          deck_a_play              0x000000000000C1FA
+          deck_b_back              0x000000000000C170
+          deck_b_rewind            0x000000000000C1E0
+          deck_b_forward           0x000000000000C160
+          deck_b_play              0x000000000000C1F0
+          deck_b_stop              0x000000000000C1C0
+          deck_b_pause             0x000000000000C1B0
+          KEY_AUX                  0x000000000000C57C        #  Was: aux
+          KEY_POWER                0x000000000000C5E8        #  Was: power
+          KEY_MUTE                 0x000000000000C538        #  Was: mute
+          KEY_KPMINUS              0x000000000000C5F8        #  Was: -
+          KEY_KPPLUS               0x000000000000C578        #  Was: +
+          deck_b_record            0x000000000000C1F3
+      end codes
+
+end remote
+
+
+

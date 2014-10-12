@@ -1,0 +1,58 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.5(serial) on Sat Mar 23 14:34:23 2002
+#
+# contributed by
+#
+# brand:                       Remotec
+# model no. of remote control: RM200
+# devices being controlled by this remote:
+#
+
+begin remote
+
+  name  TV
+  bits           13
+  flags RC5|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           953   817
+  zero          953   817
+  plead         971
+  gap          110317
+  min_repeat      6
+  toggle_bit      2
+
+
+      begin codes
+          tv-off                   0x000000000000100C
+          tv-1                     0x0000000000001001
+          tv-2                     0x0000000000001002
+          tv-3                     0x0000000000001003
+          tv-vol-up                0x0000000000001010
+          tv-4                     0x0000000000001004
+          tv-5                     0x0000000000001005
+          tv-6                     0x0000000000001006
+          tv-vol-down              0x0000000000001011
+          tv-7                     0x0000000000001007
+          tv-8                     0x0000000000001008
+          tv-9                     0x0000000000001009
+          tv-mute                  0x000000000000100D
+          tv-p2p                   0x000000000000100B
+          tv-0                     0x0000000000001000
+          tv-double                0x000000000000100A
+          tv-p-up                  0x0000000000001020
+          tv-prev                  0x000000000000102E
+          tv-play                  0x000000000000103F
+          tv-next                  0x0000000000001035
+          tv-p-down                0x0000000000001021
+          tv-stop                  0x000000000000103C
+          tv-pause                 0x0000000000001029
+          tv-switch                0x0000000000001038
+          tv-1-2                   0x0000000000001023
+      end codes
+
+end remote
+
+

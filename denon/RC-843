@@ -1,0 +1,73 @@
+#
+# this config file was automatically generated
+# using lirc-0.5.5 on Mon Oct 25 16:29:54 1999
+#
+# contributed by Tobias Bengtsson <tobbe@tobbe.nu>
+#
+# brand:             DENON
+# model:             RC-843
+# supported devices: Denon CD Player, Denon Cassete Deck, Denon MD Player,
+#                    Denon Tuner, Denon Amplifier
+#
+
+begin remote
+
+  name  DENON
+  bits           12
+  flags SPACE_ENC
+  eps            30
+  aeps          300
+
+  one           315   734
+  zero          315  1784
+  ptrail        315
+  pre_data_bits   1
+  pre_data       0x1
+  post_data_bits  2
+  post_data      0x3
+  gap          43714
+  repeat_bit      0
+  toggle_mask 0x3ff
+
+      begin codes
+          MD_TRACK_DOWN            0x00000000000003A8
+          MD_TRACK_UP              0x0000000000000368
+          MD_REV                   0x00000000000003C8
+          MD_FFWD                  0x0000000000000328
+          MD_REC                   0x0000000000000358
+          MD_PAUSE                 0x0000000000000338
+          MD_STOP                  0x0000000000000378
+          MD_PLAY                  0x00000000000003B8
+          CD_TRACK_DOWN            0x0000000000000D65
+          CD_TRACK_UP              0x0000000000000DE5
+          CD_REV                   0x0000000000000D25
+          CD_FFWD                  0x0000000000000DA5
+          CD_DISC_SKIP             0x0000000000000D29
+          CD_PAUSE                 0x0000000000000D45
+          CD_STOP                  0x0000000000000D85
+          CD_PLAY                  0x0000000000000DC5
+          TUNER_PRESET_UP          0x0000000000000994
+          TUNER_PRESET_DOWN        0x0000000000000954
+          DECK_REV                 0x0000000000000B25
+          DECK_FFWD                0x0000000000000BA5
+          DECK_PLAY                0x0000000000000BC5
+          DECK_PLAY_REV            0x0000000000000B15
+          DECK_A_B                 0x0000000000000B35
+          DECK_REC                 0x0000000000000B05
+          DECK_PAUSE               0x0000000000000B45
+          DECK_STOP                0x0000000000000B85
+          KEY_VOLUMEUP             0x000000000000074E        #  Was: VOL_UP
+          KEY_VOLUMEDOWN           0x00000000000007CE        #  Was: VOL_DOWN
+          AMP_PHONO                0x000000000000077E
+          AMP_TAPE                 0x0000000000000766
+          AMP_MD                   0x00000000000007A6
+          AMP_CD                   0x00000000000007BE
+          AMP_TUNER                0x000000000000073E
+          AMP_AUX                  0x00000000000007DE
+          AMP_MUTE                 0x000000000000072E
+          AMP_POWER                0x00000000000007F6
+      end codes
+
+end remote
+
+

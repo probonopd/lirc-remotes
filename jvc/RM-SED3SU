@@ -1,0 +1,68 @@
+#
+# contributed by Roberto Costa
+#
+# brand:             JVC
+# model:             JVC-RM-SED3SU
+# supported devices:
+#
+
+begin remote
+
+  name  JVC-RM-SED3SU
+  bits           14
+  flags SPACE_ENC|NO_HEAD_REP|CONST_LENGTH
+  eps            40
+  aeps          300
+  header       8373  4266
+  one           473  1633
+  zero          473   579
+  ptrail        473
+  pre_data_bits   2
+  pre_data       0x3
+  gap          46347
+  toggle_bit      0
+
+
+      begin codes
+          Deck.Left                0x00000000000001E0
+          Deck.Right               0x0000000000000160
+          Deck.PlayLeft            0x0000000000000170
+          Deck.Stop                0x00000000000001C0
+          Deck.PlayRight           0x00000000000001F0
+          Deck.A                   0x000000000000010B
+          Deck.B                   0x000000000000018B
+          KEY_RECORD               0x00000000000001B3        #  Was: RecPause
+          CD.Next                  0x0000000000000D9A
+          CD.Play                  0x0000000000000D32
+          CD.Prev                  0x0000000000000D1A
+          CD.Stop                  0x0000000000000DC2
+          CD.Random                0x0000000000000D4E
+          CD.Program               0x0000000000000D56
+          CD.Cancel                0x0000000000000DB6
+          CD.Repeat                0x0000000000000DDA
+          CD.Load                  0x0000000000000D22
+          CD.FastBackward          0x0000000000000D0E
+          CD.FastForward           0x0000000000000D6E
+          KEY_1                    0x0000000000000584        #  Was: 1
+          KEY_2                    0x0000000000000544        #  Was: 2
+          KEY_3                    0x00000000000005C4        #  Was: 3
+          KEY_4                    0x0000000000000524        #  Was: 4
+          KEY_5                    0x00000000000005A4        #  Was: 5
+          KEY_6                    0x0000000000000564        #  Was: 6
+          KEY_7                    0x00000000000005E4        #  Was: 7
+          KEY_8                    0x0000000000000514        #  Was: 8
+          KEY_9                    0x0000000000000594        #  Was: 9
+          KEY_0                    0x0000000000000554        #  Was: 10
+          KEY_10CHANNELSUP         0x00000000000005F4        #  Was: +10
+          SoundMode                0x000000000000051C
+          FadeMuting               0x0000000000000538
+          KEY_POWER                0x00000000000005E8        #  Was: Power
+          KEY_AUX                  0x000000000000057C        #  Was: Aux
+          KEY_TUNER                0x00000000000005D0        #  Was: Tuner
+          FMMode                   0x000000000000055A
+          KEY_VOLUMEDOWN           0x00000000000005F8        #  Was: VolumeDown
+          KEY_VOLUMEUP             0x0000000000000578        #  Was: VolumeUp
+          KEY_SLEEP                0x00000000000005C0        #  Was: Sleep
+      end codes
+
+end remote

@@ -1,0 +1,64 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.4(sir) on Sun Dec  9 03:28:04 2001
+#
+# contributed by
+#
+# brand:                       Oritron
+# model no. of remote control:
+# supported devices:           DVD
+#
+
+begin remote
+
+  name  ORITRON-DVD
+  bits           11
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           110  7506
+  zero          110  4963
+  ptrail        111
+  gap          121880
+  toggle_bit      2
+
+
+      begin codes
+          KEY_POWER                0x00000000000005DE        #  Was: POWER
+          KEY_EJECTCD              0x0000000000000566        #  Was: EJECT
+          KEY_MUTE                 0x000000000000055C        #  Was: MUTE
+          KEY_1                    0x0000000000000775        #  Was: 1
+          KEY_2                    0x000000000000076D        #  Was: 2
+          KEY_3                    0x0000000000000755        #  Was: 3
+          KEY_4                    0x000000000000055D        #  Was: 4
+          KEY_5                    0x000000000000076C        #  Was: 5
+          KEY_6                    0x000000000000056C        #  Was: 6
+          KEY_7                    0x0000000000000764        #  Was: 7
+          KEY_8                    0x000000000000055C        #  Was: 8
+          KEY_9                    0x0000000000000773        #  Was: 9
+          KEY_0                    0x000000000000056B        #  Was: 0
+          KEY_AUDIO                0x0000000000000760        #  Was: AUDIO
+          KEY_MENU                 0x0000000000000763        #  Was: DVD-MENU
+          KEY_DVD                  0x000000000000076E        #  Was: DVD-ANGLE
+          KEY_MENU                 0x000000000000056F        #  Was: MENU
+          KEY_TITLE                0x0000000000000776        #  Was: TITLE
+          KEY_SUBTITLE             0x000000000000076F        #  Was: SUB-MENU
+          KEY_EXIT                 0x0000000000000570        #  Was: EXIT
+          KEY_FASTFORWARD          0x0000000000000768        #  Was: FASTFORWARD
+          FASTREWIND               0x000000000000036A
+          KEY_REWIND               0x0000000000000771        #  Was: REWIND
+          KEY_FORWARD              0x0000000000000561        #  Was: FORWARD
+          KEY_PLAY                 0x0000000000000769        #  Was: PLAY
+          KEY_UP                   0x0000000000000572        #  Was: UP
+          KEY_DOWN                 0x0000000000000777        #  Was: DOWN
+          KEY_STOP                 0x0000000000000562        #  Was: STOP
+          KEY_PAUSE                0x0000000000000759        #  Was: PAUSE
+          KEY_AGAIN                0x000000000000055F        #  Was: REPEAT
+          KEY_ZOOM                 0x000000000000055A        #  Was: ZOOM
+      end codes
+
+end remote
+
+
+

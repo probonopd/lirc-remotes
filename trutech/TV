@@ -1,0 +1,57 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.4a(iguanaIR) on Fri Jan 30 16:02:13 2009
+#
+# contributed by D
+#
+# brand: trutech
+# model no. of remote control: n/a
+# devices being controlled by this remote: trutech tv
+#
+
+begin remote
+
+  name  Trutech_TV
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       8929  4423
+  one           572  1625
+  zero          572   513
+  ptrail        571
+  repeat       8939  4423
+  pre_data_bits   26
+  pre_data       0x21FEF
+  gap          107670
+  toggle_bit_mask 0x0
+
+      begin codes
+          KEY_POWER                0x48B7                    #  Was: power
+          KEY_CANCEL               0x12ED                    #  Was: cancel
+          KEY_1                    0x6897                    #  Was: 1
+          KEY_2                    0x58A7                    #  Was: 2
+          KEY_3                    0xF00F                    #  Was: 3
+          KEY_4                    0xF807                    #  Was: 4
+          KEY_5                    0x807F                    #  Was: 5
+          KEY_6                    0x40BF                    #  Was: 6
+          KEY_7                    0x9867                    #  Was: 7
+          KEY_8                    0x20DF                    #  Was: 8
+          KEY_9                    0xA05F                    #  Was: 9
+          KEY_0                    0xD827                    #  Was: 0
+          KEY_OK                   0x10EF                    #  Was: ok
+          KEY_CHANNELUP            0x08F7                    #  Was: chan+
+          KEY_CHANNELDOWN          0x28D7                    #  Was: chan-
+          KEY_VOLUMEUP             0xC837                    #  Was: vol+
+          KEY_VOLUMEDOWN           0xE817                    #  Was: vol-
+          input                    0x50AF
+          qview                    0xC03F
+          KEY_MUTE                 0xD22D                    #  Was: mute
+          KEY_SLEEP                0x52AD                    #  Was: sleep
+          KEY_MENU                 0x7887                    #  Was: menu
+      end codes
+
+end remote
+
+

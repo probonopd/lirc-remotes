@@ -1,0 +1,66 @@
+#
+# this config file was automatically generated
+# using WinLIRC 0.6.5 (LIRC 0.6.1pre3) on Sat Feb 24 16:46:36 2007
+#
+# contributed by Jeremy Smith
+#
+# brand:             Fisher
+# model:             REM-1500
+# supported devices:
+#
+
+begin remote
+
+  name  Fisher_REM-1500
+  bits           16
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  header       4533  4434
+  one           604  1609
+  zero          604   492
+  ptrail        604
+  pre_data_bits   16
+  pre_data       0x4545
+  gap          46493
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x609F                    #  Was: Power
+          KEY_MUTE                 0x05FA                    #  Was: Mute
+          KEY_1                    0x807F                    #  Was: 1
+          KEY_2                    0x906F                    #  Was: 2
+          KEY_3                    0x8877                    #  Was: 3
+          KEY_4                    0x9867                    #  Was: 4
+          KEY_5                    0x40BF                    #  Was: 5
+          KEY_6                    0x50AF                    #  Was: 6
+          KEY_7                    0x48B7                    #  Was: 7
+          KEY_8                    0x58A7                    #  Was: 8
+          KEY_9                    0xC03F                    #  Was: 9
+          KEY_0                    0xD02F                    #  Was: 0
+          KEY_0+                   0x07F8                    #  Was: 10+
+          Intro                    0xA857
+          Random                   0xB04F
+          Mem                      0x28D7
+          KEY_AGAIN                0x38C7                    #  Was: Repeat
+          Remain                   0xA05F
+          Timer                    0xF807
+          Snooze                   0xB847
+          Line                     0x6897
+          KEY_SLEEP                0xE817                    #  Was: Sleep
+          KEY_TUNER                0xE01F                    #  Was: Tuner
+          Band                     0x708F
+          KEY_CD                   0xF00F                    #  Was: CD
+          KEY_REWIND               0x20DF                    #  Was: SkipBack
+          SkipForward              0x30CF
+          KEY_STOP                 0xD827                    #  Was: Stop
+          KEY_PLAY                 0xC837                    #  Was: Play
+          KEY_VOLUMEUP             0x04FB                    #  Was: VolumeUp
+          KEY_VOLUMEDOWN           0x06F9                    #  Was: VolumeDown
+      end codes
+
+end remote
+
+

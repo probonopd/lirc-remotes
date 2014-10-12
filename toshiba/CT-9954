@@ -1,0 +1,72 @@
+#
+# this config file was automatically generated
+# using lirc-WinLIRC 0.6.2 (LIRC 0.6.1pre3) on Thu May 23 20:05:43 2002
+#
+# contributed by
+#
+# brand:             Toshiba
+# model:             CT-9954
+# supported devices: TV Mode
+#
+
+begin remote
+
+  name  Toshiba
+  bits           16
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  header       9119  4284
+  one           709   399
+  zero          709  1529
+  ptrail        709
+  repeat       9064  2118
+  pre_data_bits   16
+  pre_data       0xFD02
+  gap          39629
+  toggle_bit      0
+  frequency    14000
+
+
+      begin codes
+          KEY_POWER                0x000000000000B748        #  Was: Power
+          KEY_AGAIN                0x000000000000C738        #  Was: Recall
+          Timer                    0x00000000000057A8
+          TV_Video                 0x0000000000000FF0
+          KEY_MUTE                 0x000000000000F708        #  Was: Mute
+          KEY_CHANNELUP            0x00000000000027D8        #  Was: Channel_Up
+          KEY_CHANNELDOWN          0x00000000000007F8        #  Was: Channel_Down
+          KEY_VOLUMEUP             0x000000000000A758        #  Was: Volume_Up
+          KEY_VOLUMEDOWN           0x0000000000008778        #  Was: Volume_Down
+          KEY_1                    0x0000000000007F80        #  Was: One
+          KEY_2                    0x0000000000005FA0        #  Was: Two
+          KEY_3                    0x0000000000003FC0        #  Was: Three
+          KEY_4                    0x000000000000DF20        #  Was: Four
+          KEY_5                    0x0000000000005FA0        #  Was: Five
+          KEY_6                    0x0000000000009F60        #  Was: Six
+          KEY_7                    0x0000000000001FE0        #  Was: Seven
+          KEY_8                    0x000000000000EF10        #  Was: Eight
+          KEY_9                    0x0000000000006F90        #  Was: Nine
+          KEY_0                    0x000000000000FF00        #  Was: Zero
+          Ent                      0x00000000000017E8
+          KEY_0                    0x000000000000AF50        #  Was: 100
+          Strobe                   0x0000000000007689
+          KEY_FAVORITES            0x000000000000F609        #  Was: Favorite
+          ADV_PIP_Up               0x000000000000BE41
+          ADV_PIP_Down             0x0000000000003EC1
+          KEY_FAVORITES            0x00000000000047B8        #  Was: Fav_Left
+          KEY_FAVORITES            0x0000000000006798        #  Was: FAV_Right
+          Menu_Enter               0x000000000000FE01
+          KEY_EXIT                 0x000000000000E51A        #  Was: Exit
+          KEY_PREVIOUS             0x00000000000036C9        #  Was: Preview
+          KEY_PLAY                 0x000000000000758A        #  Was: Play
+          KEY_STOP                 0x0000000000000DF2        #  Was: Stop
+          KEY_FASTFORWARD          0x00000000000035CA        #  Was: FF
+          KEY_REWIND               0x0000000000008D72        #  Was: Rew
+          TV_VCR                   0x000000000000CD32
+      end codes
+
+end remote
+
+

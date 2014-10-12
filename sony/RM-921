@@ -1,0 +1,129 @@
+#
+# this config file was automatically generated
+# using WinLIRC 0.6.4 (LIRC 0.6.1pre3) on Fri Dec 13 19:42:42 2002
+#
+# contributed by Daniel Kapanadze <daniel@echo.ru>
+#
+# brand:       Sony
+# model:       RM-921
+# supported devices: Sony PFM-500 42" Plasma Screen
+#
+
+begin remote
+
+ name Sony-RM-921
+ bits      11
+ flags SPACE_ENC
+ eps      25
+ aeps     100
+
+ header    2440  513
+ one      660  513
+ zero     1258  513
+ ptrail    660
+ gap     26230
+ toggle_bit   0
+
+
+	begin codes
+
+	Muting		0x6B7
+	Display		0x517
+          KEY_POWER                0x2B7                     #  Was: Power
+	RGB1		0x1E7
+	RGB2		0x6E7
+	Line		0x7E7
+	Y-C		0x267
+	MTS-MPX         0x0B7
+          KEY_1                    0x7F7                     #  Was: 1
+          KEY_2                    0x3F7                     #  Was: 2
+          KEY_3                    0x5F7                     #  Was: 3
+          KEY_4                    0x1F7                     #  Was: 4
+          KEY_5                    0x6F7                     #  Was: 5
+          KEY_6                    0x2F7                     #  Was: 6
+          KEY_7                    0x4F7                     #  Was: 7
+          KEY_8                    0x0F7                     #  Was: 8
+          KEY_9                    0x777                     #  Was: 9
+          KEY_0                    0x377                     #  Was: 10
+	CH		0x177
+	Still		0x627
+          KEY_POWER                0x457                     #  Was: PowerOn
+          KEY_POWER                0x057                     #  Was: PowerOff
+	SelectUp	0x687
+	SelectDown	0x287
+          KEY_MENU                 0x7C7                     #  Was: Menu
+          KEY_ENTER                0x2C7                     #  Was: Enter
+          KEY_VOLUMEUP             0x5B7                     #  Was: Volume+
+          KEY_VOLUMEDOWN           0x1B7                     #  Was: Volume-
+          KEY_CHANNELUP            0x7B7                     #  Was: Channel+
+          KEY_CHANNELDOWN          0x3B7                     #  Was: Channel-
+
+	end codes
+
+end remote
+
+begin remote
+
+ name  Sony-RM-921
+ flags RAW_CODES
+ eps      25
+ aeps     100
+
+ ptrail     0
+ repeat   0   0
+ gap  21437
+
+
+   begin raw_codes
+
+     name YUV
+          KEY_1                    514                       #  Was: 2431
+          KEY_5                    525                       #  Was: 655
+          KEY_3                    528                       #  Was: 653
+          KEY_6                    530                       #  Was: 656
+          KEY_5                    527                       #  Was: 655
+          KEY_6                     #  Was: 1256            
+
+     name Zoom
+          KEY_5                    508                       #  Was: 2435
+          KEY_4                    520                       #  Was: 1254
+          KEY_3                    510                       #  Was: 1253
+          KEY_7                    514                       #  Was: 657
+          KEY_8                    524                       #  Was: 658
+          KEY_6                     #  Was: 1256            
+
+     name Degauss
+          KEY_4                    483                       #  Was: 2464
+          KEY_8                    496                       #  Was: 1278
+          KEY_8                    495                       #  Was: 1278
+          KEY_1                    500                       #  Was: 681
+          KEY_1                    500                       #  Was: 681
+          KEY_1                     #  Was: 1281            
+
+     name IDMode_On
+          KEY_7                    513                       #  Was: 2437
+          KEY_1                    527                       #  Was: 1251
+          KEY_8                    528                       #  Was: 1248
+          KEY_8                    526                       #  Was: 1248
+          KEY_5                    525                       #  Was: 1255
+          KEY_5                     #  Was: 655             
+
+     name IDMode_Set
+          KEY_1                    504                       #  Was: 2441
+          KEY_1                    527                       #  Was: 1251
+          KEY_3                    517                       #  Was: 1243
+          KEY_3                    518                       #  Was: 1253
+          KEY_7                    525                       #  Was: 1247
+          KEY_5                     #  Was: 655             
+
+     name IDMode_Off
+          KEY_4                    498                       #  Was: 2454
+          KEY_5                    505                       #  Was: 1255
+          KEY_1                    499                       #  Was: 1261
+          KEY_8                    502                       #  Was: 1258
+          KEY_2                    508                       #  Was: 1262
+          KEY_0                     #  Was: 660             
+
+    end raw_codes
+
+end remote

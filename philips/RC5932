@@ -1,0 +1,66 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.6pre2(default) on Mon Sep  7 21:10:40 2009
+#
+# contributed by Christoph Bartelmus
+#
+# brand:                       Philips
+# model no. of remote control: RC5932
+# devices being controlled by this remote: Hotel TV
+#
+
+begin remote
+
+  name  Philips_RC5932
+  bits           13
+  flags RC5|CONST_LENGTH
+  eps            30
+  aeps          256
+
+  one           959   897
+  zero          959   897
+  plead         998
+  gap          111978
+  toggle_bit_mask 0x800
+
+      begin codes
+          PP                       0x100E
+          AV                       0x1038
+          COLOUR_UP                0x1014
+          COLOUR_DOWN              0x1015
+          KEY_BRIGHTNESSUP         0x1012
+          KEY_BRIGHTNESSDOWN       0x1013
+          KEY_POWER                0x100C
+          KEY_MUTE                 0x100D
+          KEY_1                    0x1001
+          KEY_2                    0x1002
+          KEY_3                    0x1003
+          KEY_4                    0x1004
+          KEY_5                    0x1005
+          KEY_6                    0x1006
+          KEY_7                    0x1007
+          KEY_8                    0x1008
+          KEY_9                    0x1009
+          KEY_0                    0x1000
+          KEY_TIME                 0x102A
+          KEY_102ND                0x100A                    #  Was: -/--
+          TEXT_UP                  0x108A
+          TEXT_DOWN                0x108B
+          KEY_VOLUMEUP             0x1010
+          KEY_VOLUMEDOWN           0x1011
+          KEY_CHANNELUP            0x1020
+          KEY_CHANNELDOWN          0x1021
+          PAY-TV_UP                0x10DC
+          PAY-TV_DOWN              0x10DD
+          RADIO_UP                 0x10DE
+          RADIO_DOWN               0x10DF
+          KEY_UP                   0x000D # CURSOR +
+          KEY_DOWN                 0x000E # CURSOR -
+          KEY_OK                   0x002E
+          KEY_INFO                 0x002B
+          KEY_MAIL                 0x002D # MESSAGE
+      end codes
+
+end remote
+
+

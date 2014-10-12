@@ -1,0 +1,45 @@
+#
+# this config file was automatically generated
+# using WinLIRC 0.6.5 (LIRC 0.6.1pre3) on Thu Mar 18 14:17:10 2004
+#
+# contributed by Serge Doul, Russia
+#
+# brand:             HITACHI
+# model:             VM-rmE55A
+# supported devices: 8mm video camera/recorder
+#
+
+begin remote
+
+  name  HITACHI_VM-rmE55A
+  bits           32
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  header       9080  4389
+  one           634  1587
+  zero          634   463
+  ptrail        634
+  gap          41098
+  toggle_bit      0
+
+
+      begin codes
+          KEY_REWIND               0x00000000067950AF        #  Was: REW
+          KEY_FASTFORWARD          0x000000000679906F        #  Was: FF
+          KEY_STOP                 0x000000000679D02F        #  Was: STOP
+          KEY_PLAY                 0x00000000067928D7        #  Was: PLAY
+          KEY_PAUSE                0x00000000067958A7        #  Was: PAUSE
+          A/V_DUB                  0x0000000006795CA3
+          ZOOM_T                   0x0000000086F99966
+          ZOOM_W                   0x0000000086F9D926
+          DISPLAY                  0x00000000067942BD
+          COUNTER_RESET            0x000000000679827D
+          KEY_TITLE                0x0000000086F9AD52        #  Was: TITLE
+          S._EDIT                  0x000000000679B24D
+      end codes
+
+end remote
+
+

@@ -1,0 +1,61 @@
+#
+# this config file was automatically generated
+# using WinLIRC 0.6.4 (LIRC 0.6.1pre3) on Sat Jan 10 18:59:02 2004
+#
+# contributed by
+#
+# brand:             Bench
+# model:             kh2800
+# supported devices: Dolby 5.1 Amplifier
+#
+
+begin remote
+
+  name  kh2800
+  bits           16
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  header       9047  4422
+  one           628  1616
+  zero          628   491
+  ptrail        628
+  repeat       9067  2161
+  pre_data_bits   16
+  pre_data       0xCF3
+  gap          39836
+  toggle_bit      0
+
+
+      begin codes
+          KEY_SLEEP                0x000000000000A857        #  Was: STANDBY
+          KEY_MUTE                 0x000000000000E817        #  Was: MUTE
+          KEY_DVD                  0x0000000000007A85        #  Was: DVD/5.1
+          KEY_CD                   0x000000000000B04F        #  Was: CD
+          KEY_TV                   0x000000000000906F        #  Was: TV
+          KEY_AUX                  0x000000000000609F        #  Was: AUX
+          Q-SOUND                  0x0000000000008877
+          STEREO/3STEREO           0x000000000000AA55
+          X_KEY_1EXT               0x000000000000C837        #  Was: KEY_1EXT
+          RESET                    0x0000000000006A95
+          TRE+                     0x00000000000012ED
+          TRE-                     0x000000000000926D
+          BASS+                    0x000000000000F20D
+          BASS-                    0x000000000000FA05
+          MASTERVOL+               0x00000000000040BF
+          MASTERVOL-               0x000000000000807F
+          KEY_LEFT                 0x00000000000030CF        #  Was: LEFT
+          KEY_RIGHT                0x000000000000A05F        #  Was: RIGHT
+          BALANCE                  0x00000000000020DF
+          CENTER+                  0x0000000000007887
+          CENTER-                  0x00000000000018E7
+          SW+                      0x000000000000B847
+          SW-                      0x000000000000A25D
+          SURR+                    0x00000000000038C7
+          SURR-                    0x00000000000032CD
+      end codes
+
+end remote
+
+

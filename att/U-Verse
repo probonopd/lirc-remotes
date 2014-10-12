@@ -1,0 +1,72 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.6(default) on Sun Dec 20 14:45:21 2009
+#
+# contributed by
+#
+# brand:                       ATT
+# model no. of remote control: U-Verse
+# devices being controlled by this remote:
+#
+
+begin remote
+
+  name  ATT_U-Verse
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          256
+
+  header        525   384
+  one           238   896
+  zero          238   471
+  ptrail        256
+  gap          96002
+  toggle_bit_mask 0x20
+
+      begin codes
+          KEY_EPG                  0x50DA                    #  Was: KEY_GUIDE
+          KEY_OK                   0x58DE
+          KEY_CHANNELUP            0x5854
+          KEY_CHANNELDOWN          0x50D5
+          KEY_UP                   0x5856
+          KEY_DOWN                 0x50D7
+          KEY_LEFT                 0x505F
+          KEY_RIGHT                0x58DF
+          KEY_MENU                 0x585E
+          KEY_0                    0x50D0
+          KEY_1                    0x5851
+          KEY_2                    0x58D1
+          KEY_3                    0x5051
+          KEY_4                    0x58D0
+          KEY_5                    0x5053
+          KEY_6                    0x50D1
+          KEY_7                    0x5853
+          KEY_8                    0x58D2
+          KEY_9                    0x5852
+          KEY_DELETE               0x58DF
+          KEY_ZOOM                 0x585D
+          KEY_A                    0x58D6
+          KEY_B                    0x5857
+          KEY_C                    0x58DB
+          KEY_EXIT                 0x585E                    #  Was: KEY_EXIT_TO
+          KEY_INFO                 0x58D3
+          KEY_BACK                 0x5859
+          X_KEY_GO_INTERACTIVE     0x58DF
+          X_KEY_VOD                0x585C                    #  Was: KEY_VOD
+          X_KEY_RECORDED_TV        0x58DA                    #  Was: KEY_RECORDED_TV
+          KEY_AGAIN                0x585A
+          KEY_FORWARD              0x58DA
+          KEY_STOP                 0x5854
+          KEY_PAUSE                0x50D4
+          KEY_PLAY                 0x5856
+          KEY_RECORD               0x58D7
+          KEY_REWIND               0x5856
+          KEY_FASTFORWARD          0x50D6
+          X_KEY_TV_VIDEO           0x505E
+          KEY_POWER                0x58D2
+      end codes
+
+end remote
+
+

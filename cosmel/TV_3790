@@ -1,0 +1,262 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.5(serial) on Sat May 25 11:35:55 2002
+#
+# contributed by Wiebe Cazemier
+#
+# brand: Cosmel
+# model no. of remote control: Good question. It comes with Cosmel TV model 3790
+# devices being controlled by this remote: TV
+#
+
+begin remote
+
+  name   COSMEL
+  flags CONST_LENGTH|RAW_CODES
+  eps            30
+  aeps          100
+
+  ptrail          0
+  repeat     0     0
+  gap    63242
+
+      begin raw_codes
+
+          name power
+          KEY_7                    4135                      #  Was: 8577
+          KEY_9                    431                       #  Was: 629
+          KEY_3                    477                       #  Was: 583
+          KEY_8                    4136                      #  Was: 608
+          KEY_9                    1511                      #  Was: 629
+          KEY_8                    431                       #  Was: 608
+          KEY_7                     #  Was: 607             
+
+          name tvav
+          KEY_7                    4137                      #  Was: 8577
+          KEY_7                    452                       #  Was: 627
+          KEY_7                    433                       #  Was: 607
+          KEY_2                    4163                      #  Was: 582
+          KEY_3                    1516                      #  Was: 583
+          KEY_7                    453                       #  Was: 607
+          KEY_2                     #  Was: 582             
+
+          name mute
+          KEY_7                    4136                      #  Was: 8577
+          KEY_0                    451                       #  Was: 630
+          KEY_9                    451                       #  Was: 609
+          KEY_3                    4162                      #  Was: 583
+          KEY_3                    477                       #  Was: 583
+          KEY_8                    451                       #  Was: 608
+          KEY_3                     #  Was: 583             
+
+          name sleep
+          KEY_7                    4135                      #  Was: 8577
+          KEY_3                    477                       #  Was: 603
+          KEY_8                    451                       #  Was: 608
+          KEY_3                    4162                      #  Was: 583
+          KEY_3                    1513                      #  Was: 583
+          KEY_2                    477                       #  Was: 582
+          KEY_4                     #  Was: 584             
+
+          name call
+          KEY_1                    4161                      #  Was: 8551
+          KEY_5                    477                       #  Was: 605
+          KEY_4                    476                       #  Was: 584
+          KEY_4                    4161                      #  Was: 584
+          KEY_5                    1514                      #  Was: 605
+          KEY_4                    455                       #  Was: 584
+          KEY_4                     #  Was: 584             
+
+          name funct
+          KEY_1                    4161                      #  Was: 8551
+          KEY_4                    477                       #  Was: 604
+          KEY_9                    429                       #  Was: 609
+          KEY_8                    4137                      #  Was: 608
+          KEY_8                    451                       #  Was: 608
+          KEY_2                    477                       #  Was: 582
+          KEY_7                     #  Was: 607             
+
+          name volmin
+          KEY_7                    4135                      #  Was: 8577
+          KEY_8                    451                       #  Was: 608
+          KEY_4                    476                       #  Was: 604
+          KEY_3                    4161                      #  Was: 583
+          KEY_4                    1514                      #  Was: 584
+          KEY_8                    451                       #  Was: 608
+          KEY_3                     #  Was: 583             
+
+          name volplus
+          KEY_7                    4135                      #  Was: 8577
+          KEY_0                    451                       #  Was: 630
+          KEY_3                    476                       #  Was: 583
+          KEY_3                    4161                      #  Was: 603
+          KEY_0                    451                       #  Was: 630
+          KEY_8                    431                       #  Was: 608
+          KEY_3                     #  Was: 583             
+
+          name functmin
+          KEY_1                    4161                      #  Was: 8551
+          KEY_3                    477                       #  Was: 603
+          KEY_2                    477                       #  Was: 582
+          KEY_2                    4161                      #  Was: 582
+          KEY_9                    451                       #  Was: 629
+          KEY_3                    476                       #  Was: 603
+          KEY_3                     #  Was: 583             
+
+          name functplus
+          KEY_1                    4162                      #  Was: 8551
+          KEY_4                    477                       #  Was: 604
+          KEY_3                    477                       #  Was: 583
+          KEY_2                    4163                      #  Was: 582
+          KEY_8                    452                       #  Was: 608
+          KEY_2                    478                       #  Was: 582
+          KEY_3                     #  Was: 583             
+
+          name chmin
+          KEY_3                    4161                      #  Was: 8553
+          KEY_5                    476                       #  Was: 605
+          KEY_3                    476                       #  Was: 583
+          KEY_3                    4160                      #  Was: 583
+          KEY_5                    476                       #  Was: 605
+          KEY_3                    476                       #  Was: 583
+          KEY_3                     #  Was: 583             
+
+          name chplus
+          KEY_2                    4160                      #  Was: 8552
+          KEY_5                    476                       #  Was: 605
+          KEY_4                    475                       #  Was: 584
+          KEY_4                    4159                      #  Was: 584
+          KEY_4                    476                       #  Was: 584
+          KEY_3                    476                       #  Was: 583
+          KEY_3                     #  Was: 583             
+
+          name 1
+          KEY_2                    4158                      #  Was: 8552
+          KEY_5                    476                       #  Was: 605
+          KEY_3                    476                       #  Was: 583
+          KEY_3                    4159                      #  Was: 583
+          KEY_4                    476                       #  Was: 584
+          KEY_4                    475                       #  Was: 604
+          KEY_3                     #  Was: 583             
+
+          name 2
+          KEY_2                    4160                      #  Was: 8552
+          KEY_4                    476                       #  Was: 584
+          KEY_4                    476                       #  Was: 584
+          KEY_4                    4161                      #  Was: 584
+          KEY_3                    476                       #  Was: 583
+          KEY_4                    454                       #  Was: 584
+          KEY_4                     #  Was: 584             
+
+          name 3
+          KEY_3                    4160                      #  Was: 8553
+          KEY_5                    475                       #  Was: 605
+          KEY_5                    476                       #  Was: 605
+          KEY_4                    4159                      #  Was: 584
+          KEY_5                    475                       #  Was: 605
+          KEY_5                    476                       #  Was: 605
+          KEY_3                     #  Was: 583             
+
+          name 4
+          KEY_4                    4158                      #  Was: 8554
+          KEY_5                    476                       #  Was: 585
+          KEY_4                    475                       #  Was: 584
+          KEY_4                    4160                      #  Was: 584
+          KEY_5                    476                       #  Was: 605
+          KEY_5                    477                       #  Was: 605
+          KEY_4                     #  Was: 584             
+
+          name 5
+          KEY_3                    4160                      #  Was: 8553
+          KEY_5                    475                       #  Was: 605
+          KEY_4                    475                       #  Was: 584
+          KEY_6                    4160                      #  Was: 606
+          KEY_4                    1534                      #  Was: 584
+          KEY_5                    474                       #  Was: 605
+          KEY_4                     #  Was: 584             
+
+          name 6
+          KEY_2                    4160                      #  Was: 8552
+          KEY_6                    475                       #  Was: 606
+          KEY_4                    476                       #  Was: 584
+          KEY_5                    4158                      #  Was: 585
+          KEY_3                    1513                      #  Was: 583
+          KEY_5                    475                       #  Was: 605
+          KEY_6                     #  Was: 606             
+
+          name 7
+          KEY_1                    4161                      #  Was: 8551
+          KEY_6                    476                       #  Was: 606
+          KEY_4                    475                       #  Was: 584
+          KEY_4                    4160                      #  Was: 584
+          KEY_4                    1513                      #  Was: 584
+          KEY_6                    475                       #  Was: 606
+          KEY_4                     #  Was: 604             
+
+          name 8
+          KEY_3                    4159                      #  Was: 8553
+          KEY_6                    490                       #  Was: 606
+          KEY_4                    475                       #  Was: 584
+          KEY_4                    4160                      #  Was: 584
+          KEY_6                    1513                      #  Was: 606
+          KEY_5                    476                       #  Was: 605
+          KEY_4                     #  Was: 584             
+
+          name 9
+          KEY_3                    4160                      #  Was: 8553
+          KEY_5                    475                       #  Was: 605
+          KEY_4                    454                       #  Was: 584
+          KEY_5                    4162                      #  Was: 605
+          KEY_5                    476                       #  Was: 585
+          KEY_6                    475                       #  Was: 606
+          KEY_4                     #  Was: 584             
+
+          name 0
+          KEY_3                    4158                      #  Was: 8553
+          KEY_6                    475                       #  Was: 606
+          KEY_4                    476                       #  Was: 584
+          KEY_4                    4160                      #  Was: 584
+          KEY_4                    475                       #  Was: 584
+          KEY_5                    476                       #  Was: 605
+          KEY_3                     #  Was: 583             
+
+          name 1-
+          KEY_3                    4159                      #  Was: 8553
+          KEY_7                    475                       #  Was: 607
+          KEY_5                    475                       #  Was: 585
+          KEY_3                    4160                      #  Was: 583
+          KEY_5                    476                       #  Was: 605
+          KEY_6                    480                       #  Was: 606
+          KEY_3                     #  Was: 583             
+
+          name 2-
+          KEY_1                    4160                      #  Was: 8551
+          KEY_4                    455                       #  Was: 584
+          KEY_4                    475                       #  Was: 584
+          KEY_4                    4160                      #  Was: 584
+          KEY_4                    455                       #  Was: 604
+          KEY_5                    475                       #  Was: 605
+          KEY_3                     #  Was: 583             
+
+          name 3-
+          KEY_3                    4160                      #  Was: 8553
+          KEY_6                    475                       #  Was: 606
+          KEY_5                    474                       #  Was: 585
+          KEY_4                    4160                      #  Was: 584
+          KEY_4                    1512                      #  Was: 584
+          KEY_6                    476                       #  Was: 606
+          KEY_2                     #  Was: 582             
+
+          name 4-
+          KEY_1                    4160                      #  Was: 8551
+          KEY_6                    475                       #  Was: 606
+          KEY_4                    475                       #  Was: 584
+          KEY_3                    4160                      #  Was: 583
+          KEY_4                    1513                      #  Was: 584
+          KEY_6                    476                       #  Was: 606
+          KEY_4                     #  Was: 584             
+
+      end raw_codes
+
+end remote
+

@@ -1,0 +1,158 @@
+# contributed by:
+#	Kipp Cannon <kipp|gravity.phys.uwm.edu>
+#
+# brand:
+#	Sony
+# model no. of remote control:
+#	RMT-V402A
+# devices being controlled by this remote:
+#	VCR (SLV-N750), TV (generic Sony)
+#
+# Notes:
+# This remote came bundled with a Sony VCR model SLV-N750.  It has a switch
+# on it that switches the remote between VCR and television operation
+# (labeled TV/VIDEO).  The two modes of operation are listed as seperate
+# remotes in this configuration file because several buttons (notably the
+# numerals) produce different codes depending on the remote's mode.  The
+# VCR's transport control buttons, for example PLAY, FF, etc., produce
+# longer codes than the buttons on the rest of the remote, and so these too
+# must be listed as a seperate remote which I have called the "SHUTTLE"
+# functions.
+#
+# I have discovered that the VCR which this remote controls also responds
+# to STOP, REW, etc., commands other than those produced by the remote.
+# The universal remote that came with my satellite TV receiver produces
+# "Sony" VCR codes different from those of my remote but which my VCR,
+# nevertheless, responds to.  I have added these codes to this remote file,
+# even though the remote doesn't produce them.  The idea here is to enable
+# one to control the matching VCR by sending them, or to allow the computer
+# to respond to universal remotes programmed for the VCR.  These extra
+# codes match the format of the "VIDEO" codes below, so that's where they
+# are listed.
+#
+# So to be clear:  the remote's buttons generate the codes in the "TV", and
+# "SHUTTLE" lists below, and all the buttons in the "VIDEO" list excluding
+# the "extra" codes;  the VCR responds to none of the "TV" codes, but all
+# of the codes in the "SHUTTLE" and "VIDEO" lists including the extra
+# codes.
+
+begin remote
+	name	Sony_RMT-V402A-VIDEO
+	flags	SPACE_ENC|CONST_LENGTH
+	eps	25
+
+	frequency	40000
+	header	2400	600
+	one	1200	600
+	zero	600	600
+	gap	44835
+
+	bits	7
+	post_data_bits	5
+	post_data	0x1A
+	min_repeat	2
+
+	begin codes
+          KEY_EJECTCD              0x34                      #  Was: EJECT
+          KEY_POWER                0x54                      #  Was: POWER
+		TV/VIDEO       0x2A
+		COUNTER/REMAIN 0x41
+		AUDIOMONITOR   0x74
+		DISPLAY        0x2D
+          KEY_CLEAR                0x63                      #  Was: CLEAR
+          KEY_1                    0x00                      #  Was: 1
+          KEY_2                    0x40                      #  Was: 2
+          KEY_3                    0x20                      #  Was: 3
+          KEY_4                    0x60                      #  Was: 4
+          KEY_5                    0x10                      #  Was: 5
+          KEY_6                    0x50                      #  Was: 6
+          KEY_7                    0x30                      #  Was: 7
+          KEY_8                    0x70                      #  Was: 8
+          KEY_9                    0x08                      #  Was: 9
+          KEY_0                    0x48                      #  Was: 0
+          KEY_ENTER                0x68                      #  Was: ENTER
+		SP/EP          0x0D
+          KEY_CHANNELUP            0x04                      #  Was: CH+
+		INPUTSELECT    0x79
+          KEY_CHANNELDOWN          0x44                      #  Was: CH-
+          KEY_RECORD               0x5C                      #  Was: REC
+          KEY_SEARCH               0x35                      #  Was: SEARCH
+          KEY_SLOW                 0x62                      #  Was: SLOW
+		X2             0x14
+          KEY_MENU                 0x59                      #  Was: MENU
+		COMMERCIALSKIP 0x5D
+# extra codes:
+          KEY_STOP                 0x0C                      #  Was: STOP
+          KEY_FASTFORWARD          0x1C                      #  Was: FF
+          KEY_PLAY                 0x2C                      #  Was: PLAY
+          KEY_PAUSE                0x4C                      #  Was: PAUSE
+          KEY_REWIND               0x6C                      #  Was: REW
+	end codes
+end remote
+
+
+begin remote
+	name	Sony_RMT-V402A-SHUTTLE
+	flags	SPACE_ENC|CONST_LENGTH
+	eps	25
+
+	frequency	40000
+	header	2400	600
+	one	1200	600
+	zero	600	600
+	gap	44835
+
+	bits	7
+	post_data_bits	8
+	post_data	0x5D
+	min_repeat	2
+
+	begin codes
+          KEY_AGAIN                0x6D                      #  Was: REPLAY
+		PAUSE/UP  0x38
+		FF/RIGHT  0x44
+		STOP/DOWN 0x78
+          KEY_REWIND               0x04                      #  Was: REW/LEFT
+          KEY_PLAY                 0x0C                      #  Was: PLAY/OK
+	end codes
+end remote
+
+
+begin remote
+	name	Sony_RMT-V402A-TV
+	flags	SPACE_ENC|CONST_LENGTH
+	eps	25
+
+	frequency	40000
+	header	2400	600
+	one	1200	600
+	zero	600	600
+	gap	44835
+
+	bits	7
+	post_data_bits	5
+	post_data	0x10
+	min_repeat	2
+
+	begin codes
+          KEY_POWER                0x54                      #  Was: POWER
+		TV/VIDEO     0x52
+		AUDIOMONITOR 0x74
+		DISPLAY      0x2E
+          KEY_1                    0x00                      #  Was: 1
+          KEY_2                    0x40                      #  Was: 2
+          KEY_3                    0x20                      #  Was: 3
+          KEY_4                    0x60                      #  Was: 4
+          KEY_5                    0x10                      #  Was: 5
+          KEY_6                    0x50                      #  Was: 6
+          KEY_7                    0x30                      #  Was: 7
+          KEY_8                    0x70                      #  Was: 8
+          KEY_9                    0x08                      #  Was: 9
+          KEY_0                    0x48                      #  Was: 0
+          KEY_ENTER                0x68                      #  Was: ENTER
+          KEY_CHANNELUP            0x04                      #  Was: CH+
+          KEY_VOLUMEUP             0x24                      #  Was: VOL+
+          KEY_VOLUMEDOWN           0x64                      #  Was: VOL-
+          KEY_CHANNELDOWN          0x44                      #  Was: CH-
+	end codes
+end remote

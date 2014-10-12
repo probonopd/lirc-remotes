@@ -1,0 +1,85 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.6pre2(default) on Fri Dec  4 20:02:54 2009
+#
+# contributed by                 JACKIE (Bulgaria) < jackie_AT_ data.bg >
+#
+# brand:                         MEDION  Unevirsal Remote Controler
+# model no. of remote control:   MD4689
+# devices being controlled by this remote:  TV VCR DVD CD ASAT DSAT CBL AUX ( Default code )
+#
+
+begin remote
+
+  name  Medion_MD4689_SONY
+  bits           20
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       2513   472
+  one          1315   467
+  zero          704   467
+  gap          45000
+  toggle_bit_mask 0x0
+
+      begin codes
+          KEY_PLAY                 0x593A5
+          KEY_PAUSE                0x993A5
+          KEY_RECORD               0xB93A5
+          KEY_NEXT                 0x393A5
+          KEY_PREVIOUS             0xD93A5
+          KEY_STOP                 0x193A5
+      end codes
+
+end remote
+
+
+begin remote
+
+  name  Medion_MD4689_NEC
+  bits           32
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9100  4351
+  one           690  1549
+  zero          690   422
+  ptrail        691
+  gap          107431
+  toggle_bit_mask 0x0
+
+      begin codes
+          KEY_PAGEUP               0x10EF8877
+          KEY_PAGEDOWN             0x10EF48B7
+          KEY_LEFT                 0x10EFC837
+          KEY_RIGHT                0x10EF28D7
+          KEY_OK                   0x10EFA857
+          KEY_MENU                 0x10EF708F
+          KEY_EXIT                 0x10EF6897
+          KEY_EPG                  0x10EF8877
+          KEY_0                    0x10EF04FB
+          KEY_1                    0x10EF807F
+          KEY_2                    0x10EF40BF
+          KEY_3                    0x10EFC03F
+          KEY_4                    0x10EF20DF
+          KEY_5                    0x10EFA05F
+          KEY_6                    0x10EF609F
+          KEY_7                    0x10EFE01F
+          KEY_8                    0x10EF10EF
+          KEY_9                    0x10EF906F
+          KEY_VIDEO                0x10EFD827
+          KEY_ENTER                0x10EFA857
+          KEY_POWER                0x10EF50AF
+          KEY_POWER2               0x10EF50AF
+          KEY_CHANNELUP            0x10EF8877
+          KEY_CHANNELDOWN          0x10EF48B7
+          KEY_VOLUMEUP             0xC15E40BF
+          KEY_VOLUMEDOWN           0xC15EC03F
+          KEY_MUTE                 0xC15E906F
+      end codes
+
+end remote
+
+

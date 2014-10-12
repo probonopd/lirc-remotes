@@ -1,0 +1,59 @@
+#
+# this config file was automatically generated
+# using WinLIRC 0.6.4 (LIRC 0.6.1pre3) on Thu May 15 21:56:45 2003
+#
+# contributed by Procic Konstantin
+#
+# brand:             Samsung
+# model:             00198f
+# supported devices:
+#
+
+begin remote
+
+  name  00198f
+  bits           16
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  header       4585  4380
+  one           610  1597
+  zero          610   480
+  ptrail        610
+  pre_data_bits   16
+  pre_data       0xE0E0
+  gap          46796
+  toggle_bit      0
+
+
+      begin codes
+          KEY_1                    0x00000000000020DF        #  Was: 1
+          KEY_2                    0x000000000000A05F        #  Was: 2
+          KEY_3                    0x000000000000609F        #  Was: 3
+          KEY_4                    0x00000000000010EF        #  Was: 4
+          KEY_5                    0x000000000000906F        #  Was: 5
+          KEY_6                    0x00000000000050AF        #  Was: 6
+          KEY_7                    0x00000000000030CF        #  Was: 7
+          KEY_8                    0x000000000000B04F        #  Was: 8
+          KEY_9                    0x000000000000708F        #  Was: 9
+          KEY_0                    0x0000000000008877        #  Was: 0
+          KEY_0+                   0x000000000000C43B        #  Was: 0+
+          KEY_POWER                0x00000000000040BF        #  Was: power
+          KEY_TV                   0x000000000000D827        #  Was: tv
+          KEY_VIDEO                0x000000000000807F        #  Was: video
+          display                  0x000000000000F807
+          KEY_SLEEP                0x000000000000C03F        #  Was: sleep
+          pstd                     0x0000000000006897
+          psize                    0x0000000000007C83
+          KEY_MUTE                 0x000000000000F00F        #  Was: mute
+          cp+                      0x00000000000048B7
+          cp-                      0x00000000000008F7
+          KEY_MENU                 0x00000000000058A7        #  Was: menu
+          KEY_VOLUMEDOWN           0x000000000000D02F        #  Was: vol-
+          KEY_VOLUMEUP             0x000000000000E01F        #  Was: vol+
+      end codes
+
+end remote
+
+

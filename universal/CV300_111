@@ -1,0 +1,81 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.5(irdeo) on Sat Jul  6 21:50:11 2002
+#
+# contributed by Michael Mauch
+#
+# brand:                       Commander
+# model no. of remote control: CV300
+# supported devices: devicenr: 111 devicetype: AUX1
+# devices being controlled by this remote: Sony DVD/VCR (according to the manual)
+
+begin remote
+
+  name  CV300_111
+  bits           32
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9058  4574
+  one           620  1680
+  zero          620   517
+  ptrail        619
+  repeat       9046  2248
+  gap          107526
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x00000000E13E01FE        #  Was: Power
+          KEY_1                    0x00000000E13E30CF        #  Was: 1
+          KEY_2                    0x00000000E13EB04F        #  Was: 2
+          KEY_3                    0x00000000E13E708F        #  Was: 3
+          KEY_4                    0x00000000E13EF00F        #  Was: 4
+          KEY_5                    0x00000000E13E08F7        #  Was: 5
+          KEY_6                    0x00000000E13E8877        #  Was: 6
+          KEY_7                    0x00000000E13E48B7        #  Was: 7
+          KEY_8                    0x00000000E13EC837        #  Was: 8
+          KEY_9                    0x00000000E13EA857        #  Was: 9
+          KEY_0                    0x00000000E13E32CD        #  Was: 0
+          AB                       0x00000000E13EBB44
+          Ent                      0x00000000E13EB14E
+          KEY_CHANNELUP            0x00000000E13E4BB4        #  Was: ChnUp
+          ChnDn                    0x00000000E13E8B74
+          KEY_INFO                 0x00000000E13E24DB        #  Was: Info
+          KEY_VOLUMEUP             0x00000000E13E11EE        #  Was: VolUp
+          KEY_VOLUMEDOWN           0x00000000E13E31CE        #  Was: VolDn
+          KEY_MUTE                 0x00000000E13E29D6        #  Was: Mute
+          KEY_PLAY                 0x00000000E13E39C6        #  Was: Play
+          KEY_STOP                 0x00000000E13EF906        #  Was: Stop
+          KEY_FASTFORWARD          0x00000000E13EB946        #  Was: FF
+          KEY_PAUSE                0x00000000E13E9966        #  Was: Pause
+          KEY_REWIND               0x00000000E13E7986        #  Was: Rew
+          KEY_RECORD               0x00000000E13E59A6        #  Was: Rec
+          FullWindow               0x00000000E13E33CC
+          EmptyWindow              0x00000000E13E04FB
+          KEY_ZOOM                 0x00000000E13E916E        #  Was: Zoom
+          Transparent              0x00000000E13E43BC
+          Shift2                   0x00000000E13E03FC
+          Shift3                   0x00000000E13E837C
+          Shift4                   0x00000000E13E738C
+          Shift5                   0x00000000E13EF30C
+          Shift6                   0x00000000E13EFF00
+          Shift7                   0x00000000E13E847B
+          Shift8                   0x00000000E13EC43B
+          Shift9                   0x00000000E13E44BB
+          Shift0                   0x00000000E13E8976
+          ShiftInfo                0x00000000E13E5BA4
+          ShiftChnUp               0x00000000E13E0BF4
+          ShiftChnDn               0x00000000E13EAB54
+          ShiftVolUp               0x00000000E13E6B94
+          ShiftVolDn               0x00000000E13EEB14
+          ShiftPlay                0x00000000E13ECA35
+          ShiftStop                0x00000000E13E4AB5
+          ShiftFF                  0x00000000E13E6A95
+          ShiftRew                 0x00000000E13EEA15
+          ShiftPause               0x00000000E13EAA55
+      end codes
+
+end remote
+

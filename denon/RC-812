@@ -1,0 +1,70 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.5(any) on Mon May 13 20:09:18 2002
+#
+# contributed by Thomas Hommel <lunde@gmx.net>
+#
+# brand:                       DENON
+# model no. of remote control: RC-812
+# devices being controlled by this remote: DENON Tape Deck DRM-550,
+#					   DENON CD Player DCD-335,
+#					   DENON Receiver DRA-275RD
+#					   (proably others, too)
+#
+# CAUTION!
+# This config file only works with lircd > 0.6.5 because of a new config
+# directive 'toggle_mask'
+#
+
+begin remote
+
+  name  DENON_RC812
+  bits           15
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           303  1819
+  zero          303   749
+  ptrail        304
+  gap          67357
+  toggle_bit	0
+  toggle_mask	0x3ff
+
+
+      begin codes
+          KEY_POWER                0x0000000000001828        #  Was: POWER
+          TAPE_AB                  0x0000000000001328
+          TAPE_REC                 0x00000000000013E8
+          TAPE_PAUSE               0x00000000000012E8
+          TAPE_STOP                0x00000000000011E8
+          TAPE_REW                 0x0000000000001368
+          TAPE_FORW                0x0000000000001168
+          TAPE_PLAY_REV            0x00000000000013A8
+          TAPE_PLAY_FORW           0x00000000000010E8
+          CD_PREV                  0x0000000000000A68
+          CD_NEXT                  0x0000000000000868
+          CD_RANDOM                0x0000000000000958
+          CD_REPEAT                0x00000000000008A8
+          CD_SKIP                  0x0000000000000B58
+          CD_PAUSE                 0x0000000000000AE8
+          CD_STOP                  0x00000000000009E8
+          CD_PLAY                  0x00000000000008E8
+          RCVR_PANEL               0x00000000000019F8
+          RCVR_TAPE_MON            0x00000000000018E8
+          RCVR_TAPE2               0x00000000000019E8
+          RCVR_TAPE1               0x0000000000001AE8
+          RCVR_VIDEO               0x0000000000001B28
+          RCVR_TUNER               0x0000000000001A68
+          RCVR_CD                  0x0000000000001A97
+          RCVR_PHONO               0x0000000000001868
+          PRESET_UP                0x00000000000019C8
+          PRESET_DOWN              0x0000000000001BC8
+          KEY_VOLUMEUP             0x0000000000001AC8        #  Was: VOL_UP
+          KEY_VOLUMEDOWN           0x00000000000018C8        #  Was: VOL_DOWN
+      end codes
+
+end remote
+
+
+

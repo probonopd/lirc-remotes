@@ -1,0 +1,89 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.0(serial) on Sun Jan  7 16:19:15 2007
+#
+# contributed by urs_lindegger|bluewin.ch
+#
+# brand:                       Acer
+# model no. of remote control: AT3201W
+# 50-41189 Rev.P11
+# devices being controlled by this remote: TV
+#
+
+begin remote
+
+  name  Acer_AT3201W
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9051  4433
+  one           600  1654
+  zero          600   522
+  ptrail        601
+  repeat       9097  2209
+  pre_data_bits   16
+  pre_data       0x86C6
+  gap          108161
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x807F                    #  Was: on
+          display                  0x609F
+          KEY_MUTE                 0x7887                    #  Was: mute
+          KEY_TV                   0x30CF                    #  Was: tv
+          av                       0x44BB
+          scart                    0xC43B
+          KEY_PC                   0x24DB                    #  Was: pc
+          KEY_SLEEP                0x04FB                    #  Was: sleep
+          KEY_ZOOM                 0x649B                    #  Was: zoom
+          wide                     0xE01F
+          srs                      0x847B
+          KEY_1                    0x8877                    #  Was: one
+          KEY_2                    0x48B7                    #  Was: two
+          KEY_3                    0xC837                    #  Was: three
+          KEY_4                    0x28D7                    #  Was: four
+          KEY_5                    0xA857                    #  Was: five
+          KEY_6                    0x6897                    #  Was: six
+          KEY_7                    0xE817                    #  Was: seven
+          KEY_8                    0x18E7                    #  Was: eight
+          KEY_9                    0x9867                    #  Was: nine
+          KEY_AGAIN                0x38C7                    #  Was: recall
+          KEY_0                    0x58A7                    #  Was: zero
+          KEY_ENTER                0xA45B                    #  Was: enter
+          KEY_MENU                 0xF807                    #  Was: menu
+          KEY_UP                   0x02FD                    #  Was: up
+          KEY_DOWN                 0x22DD                    #  Was: down
+          KEY_RIGHT                0xC23D                    #  Was: right
+          KEY_LEFT                 0x827D                    #  Was: left
+          KEY_OK                   0x42BD                    #  Was: ok
+          mpx                      0xE41B
+          KEY_VOLUMEUP             0x20DF                    #  Was: volup
+          KEY_VOLUMEDOWN           0xA05F                    #  Was: voldown
+          KEY_CHANNELUP            0x40BF                    #  Was: chup
+          KEY_CHANNELDOWN          0xC03F                    #  Was: chdown
+          ebutton                  0xA659
+          pip                      0x00FF
+          swap                     0x708F
+          active                   0x906F
+          position                 0xB04F
+          sizemode                 0x08F7
+          index                    0xF00F
+          KEY_SUBTITLE             0x926D                    #  Was: subtitle
+          KEY_TEXT                 0x52AD                    #  Was: teletext
+          reveal                   0xD22D
+          size                     0xD02F
+          mix                      0x14EB
+          KEY_SUBTITLE             0x946B                    #  Was: subpage
+          hold                     0x629D
+          KEY_RED                  0x5CA3                    #  Was: red
+          KEY_GREEN                0xDC23                    #  Was: green
+          KEY_YELLOW               0x3CC3                    #  Was: yellow
+          KEY_BLUE                 0xBC43                    #  Was: blue
+      end codes
+
+end remote
+
+

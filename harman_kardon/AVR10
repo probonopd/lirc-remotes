@@ -1,0 +1,92 @@
+#
+# This config file has been automatically converted from a device file
+# found in the 06/26/00 release of the Windows Slink-e software
+# package.
+#
+# Many thanks to Colby Boles of Nirvis Systems Inc. for allowing us to
+# use these files.
+#
+# The original filename was: "hkavr101.cde"
+#
+# The original description for this device was:
+#
+# Harman/Kardon AVR10 Receiver IR Codes
+#
+
+
+begin remote
+
+  name  AVR10
+  bits           32
+  flags SPACE_ENC
+  eps            20
+  aeps          200
+
+  header       8800  4400
+  one           550  1650
+  zero          550   550
+  ptrail        550
+  repeat       8800  2200
+  gap          38500
+  toggle_bit      0
+
+  frequency    39200
+
+      begin codes
+          AM                       0x00000000010E41BE
+          KEY_RADIO                0x00000000010E817E        #  Was: FM
+          KEY_SLEEP                0x00000000010E03FC        #  Was: STANDBY
+          TUNEUP                   0x00000000010E21DE
+          TUNEDN                   0x00000000010EA15E
+          PSCAN                    0x00000000010E6996
+          KEY_1                    0x00000000010EE11E        #  Was: 1
+          KEY_2                    0x00000000010E11EE        #  Was: 2
+          KEY_3                    0x00000000010E916E        #  Was: 3
+          KEY_4                    0x00000000010E51AE        #  Was: 4
+          KEY_5                    0x00000000010ED12E        #  Was: 5
+          KEY_6                    0x00000000010E31CE        #  Was: 6
+          KEY_7                    0x00000000010EB14E        #  Was: 7
+          KEY_8                    0x00000000010E718E        #  Was: 8
+          KEY_9                    0x00000000010EB946        #  Was: 9
+          KEY_0                    0x00000000010E7986        #  Was: 0
+          CD_DISC                  0x00000000010E0AF5
+          CD_PLAY                  0x00000000010E40BF
+          CD_PAUSE                 0x00000000010EC03F
+          CD_STOP                  0x00000000010E807F
+          CD_BKW                   0x00000000010EE01F
+          CD_FWD                   0x00000000010E609F
+          CD_PREV                  0x00000000010EA05F
+          CD_NEXT                  0x00000000010E20DF
+          KEY_CD                   0x00000000010E23DC        #  Was: CD
+          KEY_TUNER                0x00000000010EC33C        #  Was: TUNER
+          CD_AB                    0x00000000010ED02F
+          CD_INTRO                 0x00000000010EB04F
+          TAPEMON                  0x00000000010EB34C
+          C_REC                    0x00000000414E609F
+          C_STOP                   0x00000000414EC03F
+          TVAUX                    0x00000000010E738C
+          C_SELECT                 0x00000000414EB847
+          VCR1                     0x00000000010E53AC
+          VCR2                     0x00000000010ED32C
+          C_PREV                   0x00000000414E40BF
+          C_NEXT                   0x00000000414E807F
+          S_DELAY                  0x00000000414E51AE
+          C_BKW                    0x00000000414EA05F
+          C_FWD                    0x00000000414E20DF
+          S_OFF                    0x00000000414E916E
+          S_3STEREO                0x00000000414EB946
+          S_PROLOGIC               0x00000000414EF906
+          S_CNTDN                  0x00000000010E5BA4
+          S_CNTUP                  0x00000000010E9B64
+          S_CNTMODE                0x00000000414EB14E
+          S_TEST                   0x00000000414E31CE
+          S_REARDN                 0x00000000010E1BE4
+          S_REARUP                 0x00000000010EEB14
+          KEY_VOLUMEDOWN           0x00000000010E13EC        #  Was: VOLDN
+          KEY_VOLUMEUP             0x00000000010EE31C        #  Was: VOLUP
+          DISPLAY                  0x00000000010E3BC4
+          KEY_SLEEP                0x00000000010EDB24        #  Was: SLEEP
+          KEY_MUTE                 0x00000000010E837C        #  Was: MUTE
+      end codes
+
+end remote

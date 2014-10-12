@@ -1,0 +1,85 @@
+
+# this config file was automatically generated
+# using lirc-0.8.1pre5(default) on Thu Jan  4 23:31:14 2007
+#
+# contributed by Vadim Agamov <vadim.agamov|gmail.com>
+#
+# brand:                       Elenberg
+# model no. 404E of remote control: Remote Controller
+# devices being controlled by this remote:
+# DVD Player DVDP-2405
+
+begin remote
+
+  name  Elenberg_RC-404E
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9000  4500
+  one           543  1704
+  zero          543   581
+  ptrail        544
+  repeat       9003  2251
+  pre_data_bits   16
+  pre_data       0xDF
+  gap          107917
+  toggle_bit      0
+
+
+      begin codes
+          KEY_SLEEP                0x30CF                    #  Was: STANDBY
+          KEY_OPEN                 0xB04F                    #  Was: OPEN/CLOSE
+          PROG                     0x7887
+          N/P                      0xF807
+          V-MODE                   0x38C7
+          KEY_SETUP                0xB847                    #  Was: SETUP
+          KEY_1                    0x00FF                    #  Was: 1
+          KEY_2                    0x807F                    #  Was: 2
+          KEY_3                    0x40BF                    #  Was: 3
+          KEY_4                    0xC03F                    #  Was: 4
+          KEY_5                    0x20DF                    #  Was: 5
+          KEY_6                    0xA05F                    #  Was: 6
+          KEY_7                    0x609F                    #  Was: 7
+          KEY_8                    0xE01F                    #  Was: 8
+          KEY_9                    0x10EF                    #  Was: 9
+          X_KEY_0+                 0x50AF                    #  Was: KEY_0+
+          KEY_0                    0xD02F                    #  Was: 0/10
+          GOTO                     0x906F
+          KEY_TITLE                0x28D7                    #  Was: TITLE
+          KEY_MENU                 0xA857                    #  Was: MENU
+          KEY_AUDIO                0x6897                    #  Was: AUDIO
+          KEY_SUBTITLE             0xE817                    #  Was: SUBTITLE
+          KEY_ANGLE                0x18E7                    #  Was: ANGLE
+          KEY_UP                   0x08F7                    #  Was: UP
+          KEY_DOWN                 0x8877                    #  Was: DOWN
+          KEY_LEFT                 0x48B7                    #  Was: LEFT
+          KEY_RIGHT                0xC837                    #  Was: RIGHT
+          KEY_ENTER                0x708F                    #  Was: ENTER
+          STEP                     0x9867
+          KEY_AGAIN                0x58A7                    #  Was: REPEAT
+          A-B                      0xD827
+          FAST_BACKWARD            0x02FD
+          KEY_FASTFORWARD          0x827D                    #  Was: FAST_FORWARD
+          KEY_PLAYPAUSE            0x22DD                    #  Was: PLAY/PAUSE
+          KEY_STOP                 0xA25D                    #  Was: STOP
+          KEY_PREVIOUS             0x42BD                    #  Was: PREVIOUS
+          KEY_NEXT                 0xC23D                    #  Was: NEXT
+          KEY_VOLUMEUP             0x12ED                    #  Was: VOLUME+
+          KEY_VOLUMEDOWN           0x32CD                    #  Was: VOLUME-
+          PBC                      0x926D
+          KEY_ENTER                0x52AD                    #  Was: RETURN
+          KEY_MENU                 0xD22D                    #  Was: OSD
+          PREWIEW                  0xB24D
+          KEY_ZOOM                 0xF20D                    #  Was: ZOOM
+          KEY_MUTE                 0x0AF5                    #  Was: MUTE
+          L/R/ST                   0x8A75
+          TONE                     0x4AB5
+          KEY_SLOW                 0xCA35                    #  Was: SLOW
+
+      end codes
+
+end remote
+
+

@@ -1,0 +1,54 @@
+#
+# this config file was automatically generated
+# using WinLIRC 0.6.4 (LIRC 0.6.1pre3) on Sun Oct 20 21:08:38 2002
+#
+# contributed by Martin Eckardt/2000martin@gmx.de
+#
+# brand:             Aiwa
+# model:            RC-ZAS10
+# supported devices:
+#
+
+begin remote
+
+  name  RC-ZAS10
+  bits           16
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  header       8984  4491
+  one           555   569
+  zero          555  1679
+  ptrail        555
+  repeat       8995  4474
+  pre_data_bits   26
+  pre_data       0x227EEC0
+  gap          22989
+  toggle_bit      0
+
+
+      begin codes
+          KEY_1                    0x0000000000007F80
+          KEY_2                    0x000000000000BF40
+          KEY_3                    0x0000000000003FC0
+          KEY_4                    0x000000000000DF20
+          KEY_5                    0x0000000000005FA0
+          KEY_6                    0x0000000000009F60
+          KEY_7                    0x0000000000001FE0
+          KEY_8                    0x000000000000EF10
+          KEY_9                    0x0000000000006F90
+          KEY_0                    0x000000000000AF50
+          N10                      0x0000000000002FD0
+          KEY_PAUSE                0x000000000000DD22        #  Was: Pause
+          KEY_STOP                 0x0000000000007D82        #  Was: Stop
+          KEY_PLAY                 0x000000000000FD02        #  Was: Play
+          KEY_NEXT                 0x000000000000BD42        #  Was: Next
+          KEY_PREVIOUS             0x0000000000003DC2        #  Was: Prev
+          KEY_VOLUMEUP             0x0000000000004DB2        #  Was: Vol_Up
+          KEY_VOLUMEDOWN           0x0000000000008D72        #  Was: Vol_Down
+          KEY_POWER                0x000000000000FF00        #  Was: Power
+      end codes
+
+end remote
+

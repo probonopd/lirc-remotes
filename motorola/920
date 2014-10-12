@@ -1,0 +1,64 @@
+#
+# this config file was automatically generated
+# using lirc-0.7.0(usb-uirt2_raw) on Sat Feb 19 15:27:54 2005
+#
+# contributed by amcneil|cyberport.net
+#
+# brand: Motorola 4dtv IR/UHF remote
+# model no. of remote control: 920
+# devices being controlled by this remote: Motorola DSR-922 4DTV
+# satelite receiver
+# notes: black numberpad "enter" sends same code as round blue "enter"
+# and vol+/- mute are for programmable tv control
+# I haven't found an output to monitor to check if the 4dtv is on.
+# It sits in standby with video output on black
+#
+begin remote
+   name  4dtv
+   bits           12
+   flags SPACE_ENC|CONST_LENGTH
+   eps            30
+   aeps          100
+
+   header       5011  1953
+   one          1042  2936
+   zero         1042   948
+   ptrail       1043
+   gap          99500
+   toggle_bit	0
+   min_repeat	1
+
+       begin codes
+          KEY_0                    0x0000000000000246        #  Was: 0
+          KEY_1                    0x0000000000000F04        #  Was: 1
+          KEY_2                    0x0000000000000886        #  Was: 2
+          KEY_3                    0x000000000000048C        #  Was: 3
+          KEY_4                    0x0000000000000E83        #  Was: 4
+          KEY_5                    0x000000000000098B        #  Was: 5
+          KEY_6                    0x0000000000000D8D        #  Was: 6
+          KEY_7                    0x000000000000050B        #  Was: 7
+          KEY_8                    0x0000000000000901        #  Was: 8
+          KEY_9                    0x0000000000000708        #  Was: 9
+          KEY_POWER                0x0000000000000605        #  Was: Power
+          KEY_CYCLEWINDOWS         0x0000000000000A4A        #  Was: Source
+          KEY_SAT                  0x0000000000000A85        #  Was: Sat
+          KEY_UP                   0x0000000000000C4F        #  Was: Up
+          KEY_DOWN                 0x0000000000000045        #  Was: Down
+          KEY_RIGHT                0x000000000000080C        #  Was: Right
+          KEY_LEFT                 0x0000000000000B88        #  Was: Left
+          KEY_ENTER                0x0000000000000384        #  Was: Enter
+           GoBack                   0x000000000000068F
+          KEY_EXIT                 0x0000000000000A0F        #  Was: Exit
+          KEY_INFO                 0x0000000000000782        #  Was: Guide
+           Interests                0x0000000000000581
+          KEY_OPTION               0x0000000000000289        #  Was: Options
+          KEY_INFO                 0x0000000000000E4C        #  Was: Info
+           Browse                   0x0000000000000849
+           Future                   0x0000000000000443
+          KEY_CHANNELUP            0x0000000000000D07        #  Was: Ch-UP
+          KEY_CHANNELDOWN          0x000000000000008A        #  Was: Ch-DOWN
+           LastCh                   0x0000000000000187
+          KEY_HELP                 0x0000000000000F8E        #  Was: Help
+       end codes
+end remote
+

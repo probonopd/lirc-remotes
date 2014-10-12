@@ -1,0 +1,65 @@
+#
+# this config file was automatically generated
+# using WinLIRC 0.6.5 (LIRC 0.6.1pre3) on Tue Dec 18 08:13:54 2007
+#
+# contributed by
+#
+# brand:             Dick Smith Electronics
+# model:             G1605
+# supported devices: G1605 DVD player
+#
+
+begin remote
+
+  name  DSE_G1605
+  bits           11
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  one           366  7131
+  zero          366  4612
+  ptrail        366
+  gap          46637
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x000000000000075E        #  Was: Power
+          KEY_OPEN                 0x0000000000000566        #  Was: Open/Close
+          KEY_MUTE                 0x0000000000000758        #  Was: Mute
+          KEY_1                    0x0000000000000575        #  Was: 1
+          KEY_2                    0x000000000000076D        #  Was: 2
+          KEY_3                    0x0000000000000565        #  Was: 3
+          KEY_4                    0x000000000000075D        #  Was: 4
+          KEY_5                    0x0000000000000574        #  Was: 5
+          KEY_6                    0x000000000000076C        #  Was: 6
+          KEY_7                    0x0000000000000564        #  Was: 7
+          KEY_8                    0x000000000000075C        #  Was: 8
+          KEY_9                    0x0000000000000573        #  Was: 9
+          KEY_0                    0x000000000000076B        #  Was: 0
+          KEY_INFO                 0x0000000000000560        #  Was: Info
+          KEY_CLEAR                0x0000000000000763        #  Was: Clear
+          Angle/Rotate             0x000000000000056E
+          KEY_MENU                 0x0000000000000757        #  Was: Menu
+          KEY_TITLE                0x0000000000000567        #  Was: Title
+          KEY_EXIT                 0x0000000000000770        #  Was: Exit
+          KEY_REWIND               0x0000000000000577        #  Was: <<
+          KEY_FORWARD              0x0000000000000772        #  Was: >>
+          KEY_ZOOM                 0x0000000000000552        #  Was: Zoom
+          Up_Arrow                 0x0000000000000768
+          Down_Arrow               0x000000000000056A
+          Left_Arrow               0x0000000000000771
+          Right_Arrow              0x0000000000000561
+          KEY_OK                   0x0000000000000769        #  Was: OK
+          KEY_NEXT                 0x0000000000000556        #  Was: >>|
+          KEY_PREVIOUS             0x0000000000000755        #  Was: |<<
+          KEY_STOP                 0x0000000000000562        #  Was: Stop
+          KEY_PLAY                 0x0000000000000759        #  Was: Play
+          Still                    0x000000000000055A
+          Index                    0x000000000000075F
+      end codes
+
+end remote
+
+

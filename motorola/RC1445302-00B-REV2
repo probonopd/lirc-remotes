@@ -1,0 +1,109 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.2(default) on Tue Aug 26 20:11:00 2008
+#
+# contributed by: Brett Johnson
+#
+# brand:                       motorola DCT700
+# model no. of remote control: rc1445302-00b-rev2
+# devices being controlled by this remote: digital cable box (verizon fios)
+#
+# some keys duplicated for ease of typing and usage.
+# note: volume on this remote is actually a TV control and not the STB.
+#       In place, the volume controls for the qip2500 were inserted instead.
+
+begin remote
+
+  name  Motorola_RC1445302-00B-REV2
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       8996  4452
+  one           557  4423
+  zero          557  2182
+  ptrail        555
+  repeat       8996  2231
+  gap          99454
+  min_repeat      7
+  toggle_bit_mask 0x0
+
+      begin codes
+          KEY_POWER                0x5006                    #  Was: power
+          KEY_MENU                 0x9806                    #  Was: menu
+          KEY_INFO                 0x0C0B                    #  Was: guide
+          KEY_INFO                 0xCC05                    #  Was: info
+          KEY_OK                   0x8807                    #  Was: ok
+          arrow_up                 0x2C09
+          arrow_down               0xAC01
+          arrow_left               0x6C0E
+          arrow_right              0xEC06
+          KEY_EXIT                 0x480B                    #  Was: exit
+          KEY_OPTION               0x4205                    #  Was: options
+          KEY_KPPLUS               0xC209                    #  Was: plus
+          plus_widgets             0xC209
+          widgets                  0xC209
+          KEY_NUMERIC_STAR         0x580A                    #  Was: star
+          star_ondemand            0x580A
+          KEY_POWER                0x580A                    #  Was: ondemand
+          heart                    0xA805
+          heart_favorites          0xA805
+          KEY_FAVORITES            0xA805                    #  Was: favorites
+          KEY_MUTE                 0xF008                    #  Was: mute
+          KEY_VOLUMEUP             0xB00C                    #  Was: volume_up
+          KEY_VOLUMEDOWN           0x7004                    #  Was: volume_down
+          KEY_LAST                 0xC803                    #  Was: last
+          KEY_CHANNELUP            0xD00A                    #  Was: channel_up
+          KEY_PAGEUP               0xD00A                    #  Was: page_up
+          KEY_CHANNELDOWN          0x3002                    #  Was: channel_down
+          KEY_PAGEDOWN             0x3002                    #  Was: page_down
+          fiostv                   0x7C0F
+          dvr                      0xBC00
+          dvr_previous             0x3C08
+          dvr_next                 0xFC07
+          dvr_rewind               0x7808
+          dvr_fastforward          0xB804
+          dvr_play                 0xD802
+          dvr_pause                0xF800
+          dvr_stop                 0x380C
+          dvr_record               0x8C03
+          KEY_1                    0x800F                    #  Was: 1
+          KEY_1_symbols            0x800F                    #  Was: 1_symbols
+          KEY_2                    0x4007                    #  Was: 2
+          KEY_2_abc                0x4007                    #  Was: 2_abc
+          KEY_3                    0xC00B                    #  Was: 3
+          KEY_3_def                0xC00B                    #  Was: 3_def
+          KEY_4                    0x2003                    #  Was: 4
+          KEY_4_ghi                0x2003                    #  Was: 4_ghi
+          KEY_5                    0xA00D                    #  Was: 5
+          KEY_5_jkl                0xA00D                    #  Was: 5_jkl
+          KEY_6                    0x6005                    #  Was: 6
+          KEY_6_mno                0x6005                    #  Was: 6_mno
+          KEY_7                    0xE009                    #  Was: 7
+          KEY_7_pqrs               0xE009                    #  Was: 7_pqrs
+          KEY_8                    0x1001                    #  Was: 8
+          KEY_8_tuv                0x1001                    #  Was: 8_tuv
+          KEY_9                    0x900E                    #  Was: 9
+          KEY_9_wxyz               0x900E                    #  Was: 9_wxyz
+          KEY_0                    0x0000                    #  Was: 0
+          KEY_KPASTERISK           0x2201                    #  Was: asterisk
+          asterisk_cc              0x2201
+          pound                    0x0203
+          pound_aspect             0x0203
+          function-a               0xE801
+          function-a_yellow_triangle 0xE801
+          function-b               0xE40E
+          function-b_blue_square   0xE40E
+          function-c               0x1406
+          function-c_red_circle    0x1406
+          function-d               0x940A
+          function-d_green_diamond 0x940A
+          input_a-v                0x280D
+          pip                      0x4403
+          change                   0xC40D
+      end codes
+
+end remote
+
+

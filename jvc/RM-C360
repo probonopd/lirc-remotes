@@ -1,0 +1,64 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.4a(default) on Sun Apr 12 09:52:34 2009
+#
+# contributed by Vasil Karadzhov
+#
+# brand:                       			JVC
+# model no. of remote control: 			RM-C360
+# devices being controlled by this remote:	JVC TV
+#
+
+begin remote
+
+  name  JVC_RM-C360
+  bits            8
+  flags SPACE_ENC|NO_HEAD_REP|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       8504  4154
+  one           542  1560
+  zero          542   511
+  ptrail        541
+  pre_data_bits   8
+  pre_data       0xC0
+  gap          46318
+  min_repeat      1
+  toggle_bit_mask 0x0
+
+      begin codes
+          KEY_POWER                0xE8                      #  Was: power
+          colour                   0x49
+          sound                    0x2D
+          picture_mode             0x9E
+          tv/video                 0xC8
+          KEY_1                    0x84                      #  Was: 1
+          KEY_2                    0x44                      #  Was: 2
+          KEY_3                    0xC4                      #  Was: 3
+          KEY_4                    0x24                      #  Was: 4
+          KEY_5                    0xA4                      #  Was: 5
+          KEY_6                    0x64                      #  Was: 6
+          KEY_7                    0xE4                      #  Was: 7
+          KEY_8                    0x14                      #  Was: 8
+          KEY_9                    0x94                      #  Was: 9
+          KEY_0                    0x04                      #  Was: 0
+          return+                  0xA0
+          KEY_102ND                0xB9                      #  Was: -/--
+          off_timer                0xC0
+          KEY_CHANNELDOWN          0xCE                      #  Was: channel_scan
+          display                  0x20
+          muting                   0x38
+          KEY_UP                   0x3E                      #  Was: up
+          KEY_DOWN                 0xDE                      #  Was: down
+          KEY_LEFT                 0xDA                      #  Was: left
+          KEY_RIGHT                0x5A                      #  Was: right
+          KEY_CHANNELUP            0x98                      #  Was: ch_up
+          KEY_CHANNELDOWN          0x18                      #  Was: ch_down
+          KEY_VOLUMEUP             0x78                      #  Was: vol_up
+          KEY_VOLUMEDOWN           0xF8                      #  Was: vol_down
+      end codes
+
+end remote
+
+

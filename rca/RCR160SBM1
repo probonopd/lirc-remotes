@@ -1,0 +1,235 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.1(default) on Sun Apr 22 20:21:05 2007
+#
+# contributed by
+#
+# brand: RCA
+# model no. of remote control: RCR160SBM1
+# devices being controlled by this remote: TV, Directv, Aux1, Aux2, VCR, DVD
+#
+
+begin remote
+
+  name  RCA_RCR160SBM1
+  bits           24
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       4192  3792
+  one           701  1792
+  zero          701   798
+  ptrail        698
+  gap          65865
+  min_repeat      1
+  toggle_bit      0
+
+
+      begin codes
+          vcr_skip                 0xE531AC
+          vcr_power                0xE2A1D5
+          vcr_ch+                  0xE2D1D2
+          vcr_ch-                  0xE2C1D3
+          vcr_fetch                0xE9316C
+          vcr_goback               0xE271D8
+          vcr_guide                0xE1A1E5
+          vcr_up                   0xE591A6
+          vcr_info                 0xE3C1C3
+          vcr_left                 0xE561A9
+          vcr_select               0xEF410B
+          vcr_right                0xE571A8
+          vcr_menu                 0xE081F7
+          vcr_down                 0xE581A7
+          vcr_clear                0xE061F9
+          vcr_1                    0xE311CE
+          vcr_2                    0xE321CD
+          vcr_3                    0xE331CC
+          vcr_4                    0xE341CB
+          vcr_5                    0xE351CA
+          vcr_6                    0xE361C9
+          vcr_7                    0xE371C8
+          vcr_8                    0xE381C7
+          vcr_9                    0xE391C6
+          vcr_whoinput             0xE471B8
+          vcr_0                    0xE301CF
+          vcr_antenna              0xE051FA
+          vcr_reverse              0xE1D1E2
+          vcr_play                 0xE151EA
+          vcr_forward              0xE1C1E3
+          vcr_record               0xE171E8
+          vcr_stop                 0xE1F1E0
+          vcr_pause                0xE191E6
+          KEY_DVD                  0x52AAD5                  #  Was: dvd_power
+          KEY_DVD                  0x553AAC                  #  Was: dvd_skip
+          KEY_DVD                  0x520ADF                  #  Was: dvd_ch+
+          KEY_DVD                  0x593A6C                  #  Was: dvd_fetch
+          KEY_DVD                  0x522ADD                  #  Was: dvd_ch-
+          KEY_DVD                  0x527AD8                  #  Was: dvd_goback
+          KEY_DVD                  0x51AAE5                  #  Was: dvd_guide
+          KEY_DVD                  0x559AA6                  #  Was: dvd_up
+          KEY_DVD                  0x53CAC3                  #  Was: dvd_info
+          KEY_DVD                  0x556AA9                  #  Was: dvd_left
+          KEY_DVD                  0x5F4A0B                  #  Was: dvd_select
+          KEY_DVD                  0x557AA8                  #  Was: dvd_right
+          KEY_MENU                 0x508AF7                  #  Was: dvd_menu
+          KEY_DVD                  0x558AA7                  #  Was: dvd_down
+          KEY_DVD                  0x506AF9                  #  Was: dvd_clear
+          KEY_DVD                  0x531ACE                  #  Was: dvd_1
+          KEY_DVD                  0x532ACD                  #  Was: dvd_2
+          KEY_DVD                  0x533ACC                  #  Was: dvd_3
+          KEY_DVD                  0x534ACB                  #  Was: dvd_4
+          KEY_DVD                  0x535ACA                  #  Was: dvd_5
+          KEY_DVD                  0x536AC9                  #  Was: dvd_6
+          KEY_DVD                  0x537AC8                  #  Was: dvd_7
+          KEY_DVD                  0x538AC7                  #  Was: dvd_8
+          KEY_DVD                  0x539AC6                  #  Was: dvd_9
+          KEY_DVD                  0x547AB8                  #  Was: dvd_whoinput
+          KEY_DVD                  0x530ACF                  #  Was: dvd_0
+          KEY_DVD                  0x505AFA                  #  Was: dvd_antenna
+          KEY_DVD                  0x51DAE2                  #  Was: dvd_reverse
+          KEY_DVD                  0x515AEA                  #  Was: dvd_play
+          KEY_DVD                  0x51CAE3                  #  Was: dvd_forward
+          KEY_DVD                  0x517AE8                  #  Was: dvd_record
+          KEY_DVD                  0x51FAE0                  #  Was: dvd_stop
+          KEY_DVD                  0x519AE6                  #  Was: dvd_pause
+          aux1_power               0x42ABD5
+          aux1_skip                0x453BAC
+          aux1_ch+                 0x42DBD2
+          aux1_fetch               0x493B6C
+          aux1_ch-                 0x42CBD3
+          aux1_goback              0x427BD8
+          aux1_guide               0x41ABE5
+          aux1_up                  0x459BA6
+          aux1_info                0x43CBC3
+          aux1_left                0x456BA9
+          aux1_select              0x4F4B0B
+          aux1_right               0x457BA8
+          aux1_menu                0x408BF7
+          aux1_down                0x458BA7
+          aux1_clear               0x406BF9
+          aux1_1                   0x431BCE
+          aux1_2                   0x432BCD
+          aux1_3                   0x433BCC
+          aux1_4                   0x434BCB
+          aux1_5                   0x435BCA
+          aux1_6                   0x436BC9
+          aux1_7                   0x437BC8
+          aux1_8                   0x438BC7
+          aux1_9                   0x439BC6
+          aux1_whoinput            0x461B9E
+          aux1_0                   0x430BCF
+          aux1_antenna             0x405BFA
+          aux1_reverse             0x41DBE2
+          aux1_play                0x415BEA
+          aux1_forward             0x41CBE3
+          aux1_record              0x417BE8
+          aux1_stop                0x41FBE0
+          aux1_pause               0x419BE6
+          aux2_power               0xC3B3C4
+          aux2_skip                0xC533AC
+          aux2_ch+                 0xC2D3D2
+          aux2_fetch               0xC9336C
+          aux2_ch-                 0xC2C3D3
+          aux2_goback              0xC273D8
+          aux2_guide               0xC1A3E5
+          aux2_up                  0xC6339C
+          aux2_info                0xC3C3C3
+          aux2_left                0xC6439B
+          aux2_select              0xCF430B
+          aux2_right               0xC6539A
+          aux2_menu                0xC083F7
+          aux2_down                0xC6239D
+          aux2_clear               0xC063F9
+          aux2_1                   0xC313CE
+          aux2_2                   0xC323CD
+          aux2_3                   0xC333CC
+          aux2_4                   0xC343CB
+          aux2_5                   0xC353CA
+          aux2_6                   0xC363C9
+          aux2_7                   0xC373C8
+          aux2_8                   0xC383C7
+          aux2_9                   0xC393C6
+          aux2_whoinput            0xC283D7
+          aux2_0                   0xC303CF
+          aux2_antenna             0xC413BE
+          aux2_reverse             0xC1D3E2
+          aux2_play                0xC153EA
+          aux2_forward             0xC1C3E3
+          aux2_record              0xC173E8
+          aux2_stop                0xC1F3E0
+          aux2_pause               0xC193E6
+          directv_power            0x72A8D5
+          directv_skip             0x7538AC
+          directv_ch+              0x72D8D2
+          directv_fetch            0x79386C
+          directv_ch-              0x72C8D3
+          directv_goback           0x7278D8
+          directv_guide            0x71A8E5
+          directv_up               0x7598A6
+          directv_info             0x73C8C3
+          directv_left             0x7568A9
+          directv_select           0x7F480B
+          directv_right            0x7578A8
+          directv_menu             0x7088F7
+          directv_down             0x7588A7
+          directv_clear            0x7068F9
+          directv_1                0x7318CE
+          directv_2                0x7328CD
+          directv_3                0x7338CC
+          directv_4                0x7348CB
+          directv_5                0x7358CA
+          directv_6                0x7368C9
+          directv_7                0x7378C8
+          directv_8                0x7388C7
+          directv_9                0x7398C6
+          directv_whoinput         0x76189E
+          directv_0                0x7308CF
+          directv_antenna          0x7058FA
+          directv_reverse          0x71D8E2
+          directv_play             0x7158EA
+          directv_forward          0x71C8E3
+          directv_record           0x7178E8
+          directv_stop             0x71F8E0
+          directv_pause            0x7198E6
+          tv_power                 0xF2A0D5
+          tv_mute                  0xF3F0C0
+          tv_ch+                   0xF2D0D2
+          tv_skip                  0xF530AC
+          tv_vol-                  0xF2E0D1
+          tv_vol+                  0xF2F0D0
+          tv_fetch                 0xF9306C
+          tv_ch-                   0xF2C0D3
+          tv_goback                0xF270D8
+          tv_guide                 0xF1A0E5
+          tv_up                    0xF590A6
+          tv_info                  0xF3C0C3
+          tv_left                  0xF560A9
+          tv_select                0xFF400B
+          tv_right                 0xF570A8
+          tv_menu                  0xF080F7
+          tv_down                  0xF580A7
+          tv_clear                 0xF060F9
+          tv_1                     0xF310CE
+          tv_2                     0xF320CD
+          tv_3                     0xF330CC
+          tv_4                     0xF340CB
+          tv_5                     0xF350CA
+          tv_6                     0xF360C9
+          tv_7                     0xF370C8
+          tv_8                     0xF380C7
+          tv_9                     0xF390C6
+          tv_whoinput              0xFA305C
+          tv_0                     0xF300CF
+          tv_antenna               0xF050FA
+          tv_reverse               0xF1D0E2
+          tv_play                  0xF150EA
+          tv_forward               0xF1C0E3
+          tv_record                0xF170E8
+          tv_stop                  0xF1F0E0
+          tv_pause                 0xF190E6
+      end codes
+
+end remote
+
+

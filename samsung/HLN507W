@@ -1,0 +1,49 @@
+#
+# this config file was automatically generated
+# using lirc-0.7.0pre7(uirt_usb) on Mon Aug  9 16:03:11 2004
+#
+# contributed by Kenny Root (kenny at the dash b dot org)
+#
+# brand: Samsung
+# model no. of remote control:
+# devices being controlled by this remote: HLN507W RPTV
+#
+# comments: This is all the discrete codes for the Samsung HLN series RPTV
+#           with a newer signal board.
+
+begin remote
+
+  name  Samsung_HLN507W
+  bits           16
+  flags SPACE_ENC
+  eps            30
+  aeps          100
+
+  header       4503  4301
+  one           605  1540
+  zero          605   411
+  ptrail        604
+  pre_data_bits   16
+  pre_data       0xE0E0
+  gap          42500
+  toggle_bit      0
+
+
+      begin codes
+          off                      0x00000000000019E6
+          KEY_POWER                0x0000000000009966        #  Was: on
+          KEY_VIDEO                0x000000000000837C        #  Was: video1
+          KEY_VIDEO                0x0000000000001FE0        #  Was: video2
+          KEY_VIDEO                0x0000000000009F60        #  Was: video3
+          svideo1                  0x000000000000A15E
+          svideo2                  0x000000000000DF20
+          svideo3                  0x00000000000043BC
+          component1               0x000000000000C23D
+          component2               0x000000000000BF40
+          component3               0x000000000000C33C
+          antenna                  0x000000000000D827
+          dvi                      0x000000000000FF00
+          KEY_PC                   0x0000000000009669        #  Was: pc
+      end codes
+
+end remote

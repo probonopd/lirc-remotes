@@ -1,0 +1,189 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.5(default) on Sun Aug  2 14:49:31 2009
+#
+# contributed by Frank
+#
+# brand:  Philips
+# model no. of remote control: 32PFL9613D - DVD Code 0140 (Aiwa)
+# devices being controlled by this remote: Aiwa DVD Player
+#
+
+begin remote
+
+  name  Aiwa_DVD_Philips_Code_0140
+  bits           10
+  flags SPACE_ENC
+  eps            30
+  aeps          100
+
+  header       1623   615
+  one          1629   622
+  zero          500   622
+  repeat       8967  4467
+  gap          93949
+  repeat_gap   93945
+  toggle_bit_mask 0x0
+
+      begin codes
+          KEY_POWER                0x201
+          KEY_SUBTITLE             0x32C
+          KEY_RED                  0x2F1
+          KEY_GREEN                0x390
+          KEY_YELLOW               0x370
+          KEY_BLUE                 0x3AC
+          KEY_EPG                  0x360
+          KEY_INFO                 0x211
+          KEY_OK                   0x28D
+          KEY_BACK                 0x348
+          KEY_MENU                 0x30C
+          KEY_UP                   0x24D
+          KEY_DOWN                 0x34C
+          KEY_LEFT                 0x3CC
+          KEY_RIGHT                0x2CD
+          KEY_REWIND               0x2D9
+          KEY_PLAYPAUSE            0x350
+          KEY_FORWARD              0x358
+          KEY_STOP                 0x2B1
+          KEY_RECORD               0x3EC
+          KEY_CHANNELUP            0x231
+          KEY_CHANNELDOWN          0x330
+          KEY_1                    0x300
+          KEY_2                    0x281
+          KEY_3                    0x380
+          KEY_4                    0x241
+          KEY_5                    0x340
+          KEY_6                    0x2C1
+          KEY_7                    0x3C0
+          KEY_8                    0x221
+          KEY_9                    0x320
+          KEY_0                    0x2A1
+          KEY_MEDIA                0x348
+      end codes
+
+end remote
+
+
+#
+# this config file was automatically generated
+# using lirc-0.8.5(default) on Sun Aug  2 14:28:11 2009
+#
+# contributed by Frank
+#
+# brand:  Philips
+# model no. of remote control: 32PFL9613D - DVD Code 0339 (Samsung)
+# devices being controlled by this remote: Samsung DVD Player
+#
+
+begin remote
+
+  name  Samsung_DVD_Philips_Code_0339
+  bits           10
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       1629   616
+  one          1628   621
+  zero          502   621
+  repeat       8972  4463
+  gap          107993
+  toggle_bit_mask 0x0
+
+      begin codes
+          KEY_POWER                0x312
+          KEY_RED                  0x372
+          KEY_GREEN                0x213
+          KEY_YELLOW               0x3AA
+          KEY_BLUE                 0x2CB
+          KEY_EPG                  0x392
+          KEY_INFO                 0x3E2
+          KEY_OK                   0x3B2
+          KEY_MENU                 0x253
+          KEY_UP                   0x3D2
+          KEY_DOWN                 0x233
+          KEY_LEFT                 0x2B3
+          KEY_RIGHT                0x332
+          KEY_REWIND               0x273
+          KEY_PLAYPAUSE            0x20B
+          KEY_FORWARD              0x2F3
+          KEY_STOP                 0x28B
+          KEY_RECORD               0x3A2
+          KEY_CHANNELUP            0x30A
+          KEY_CHANNELDOWN          0x3F2
+          KEY_1                    0x302
+          KEY_2                    0x283
+          KEY_3                    0x382
+          KEY_4                    0x243
+          KEY_5                    0x342
+          KEY_6                    0x2C3
+          KEY_7                    0x3C2
+          KEY_8                    0x223
+          KEY_9                    0x322
+          KEY_0                    0x203
+      end codes
+
+end remote
+
+
+#
+# this config file was automatically generated
+# using lirc-0.8.5(default) on Sun Aug  2 13:46:59 2009
+#
+# contributed by Frank
+#
+# brand:  Philips
+# model no. of remote control: 32PFL9613D - DVD Code 0331 (Thomson)
+# devices being controlled by this remote: Thomson DVD Player
+#
+
+begin remote
+
+  name  Thomson_DVD_Philips_Code_0331
+  bits           12
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           490  4531
+  zero          490  2009
+  ptrail        488
+  gap          79995
+  min_repeat      2
+  toggle_bit_mask 0x80
+
+      begin codes
+          KEY_POWER                0x41D
+          KEY_RED                  0x439
+          KEY_GREEN                0x41B
+          KEY_YELLOW               0x415
+          KEY_BLUE                 0x414
+          KEY_BACK                 0x429
+          KEY_MENU                 0x419
+          KEY_OK                   0x433
+          KEY_UP                   0x434
+          KEY_DOWN                 0x435
+          KEY_LEFT                 0x436
+          KEY_RIGHT                0x437
+          KEY_REWIND               0x41F
+          KEY_FORWARD              0x421
+          KEY_PLAYPAUSE            0x420
+          KEY_STOP                 0x424
+          KEY_RECORD               0x43E
+          KEY_CHANNELUP            0x427
+          KEY_CHANNELDOWN          0x428
+          KEY_1                    0x400
+          KEY_2                    0x408
+          KEY_3                    0x410
+          KEY_4                    0x401
+          KEY_5                    0x409
+          KEY_6                    0x411
+          KEY_7                    0x402
+          KEY_8                    0x40A
+          KEY_9                    0x412
+          KEY_0                    0x40E
+      end codes
+
+end remote
+
+

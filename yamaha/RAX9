@@ -1,0 +1,63 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.0(act220l) on Wed Mar  8 02:18:40 2006
+#
+# contributed by Guilhem Castagnos
+#
+# brand: Yamaha
+# model no. of remote control: RAX9
+# devices being controlled by this remote: AX-396
+#
+
+begin remote
+
+  name  rax9
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       8909  4488
+  one           588  1644
+  zero          588   528
+  ptrail        588
+  repeat       8909  2255
+  pre_data_bits   16
+  pre_data       0x5EA1
+  gap          107187
+  toggle_bit      0
+
+
+      begin codes
+          KEY_SLEEP                0xF807                    #  Was: standby
+          tape_rec                 0x20DF
+          tape_deck_a/b            0x609F
+          tape_bck                 0x807F
+          tape_play                0x00FF
+          tape_fwd                 0x40BF
+          tape_dir_a               0xE01F
+          tape_stop                0xC03F
+          tape_dir_b               0x02FD
+          cd_disc_skip             0xF20D
+          cd_prev                  0xD02F
+          cd_play                  0x10EF
+          cd_next                  0x50AF
+          cd_bck                   0xB04F
+          cd_stop                  0x906F
+          cd_fwd                   0x30CF
+          tuner_-	           0x8877
+          tuner_+                  0x08F7
+          tuner_a/b/c/d/e          0x48B7
+          md                       0x9867
+          KEY_TAPE                 0x18E7                    #  Was: tape
+          KEY_CD                   0xA857                    #  Was: cd
+          KEY_AUX                  0xE817                    #  Was: aux
+          phono                    0x28D7
+          KEY_TUNER                0x6897                    #  Was: tuner
+          KEY_VOLUMEDOWN           0xD827                    #  Was: vol-
+          KEY_VOLUMEUP             0x58A7                    #  Was: vol+
+      end codes
+
+end remote
+
+

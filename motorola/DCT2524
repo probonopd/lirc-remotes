@@ -1,0 +1,82 @@
+#
+# this config file was originally generated
+# using lirc-0.6.6(serial) on Fri Mar 28 22:46:44 2003
+# modified by hand on Sunday Jul 17 00:12:00 2005
+#
+# contributed by rob scullion
+# based on the DCT2000 file contrib'd by shane bradley
+#
+# brand:                       Motorola
+# model no. of remote control: ? - Comcast badged
+# devices being controlled by this remote: DCT2524/1612
+#
+# Note: The "ON DEMAND" button on the Comcast
+# badged remote just sends a "1" followed by
+# an "ok/select" and is thus not included in
+# this config file.
+                                                                                   
+begin remote
+ name  DCT2524
+  bits             16
+  flags SPACE_ENC|CONST_LENGTH
+  eps              30
+  aeps            100
+
+  header         9036  4424
+  one             556  2185
+  zero            556  4424
+  ptrail          556
+  gap          100025
+  toggle_bit        0
+  min_repeat 2
+
+
+      begin codes
+          KEY_POWER                0x000000000000AFF9        #  Was: power
+          KEY_REWIND               0x00000000000087F7        #  Was: rew
+          KEY_PLAY                 0x00000000000027FD        #  Was: play
+          KEY_FASTFORWARD          0x00000000000047FB        #  Was: ffwd
+          KEY_STOP                 0x000000000000C7F3        #  Was: stop
+          KEY_PAUSE                0x00000000000007FF        #  Was: pause
+          KEY_RECORD               0x00000000000073FC        #  Was: rec
+          KEY_REWIND               0x000000000000C3F7        #  Was: skipback
+          mydvr                    0x00000000000043FF
+          live                     0x00000000000083F0
+          KEY_PAGEUP               0x000000000000A3F3        #  Was: pageup
+          KEY_PAGEDOWN             0x00000000000023FB        #  Was: pagedown
+          a_lock                   0x00000000000097F6
+          b_day-                   0x00000000000063FD
+          c_day+                   0x000000000000E3F5
+          KEY_UP                   0x000000000000D3F6        #  Was: up
+          KEY_DOWN                 0x00000000000053FE        #  Was: down
+          KEY_LEFT                 0x00000000000093F1        #  Was: left
+          KEY_RIGHT                0x00000000000013F9        #  Was: right
+          ok/select                0x00000000000077F8
+          KEY_INFO                 0x000000000000F3F4        #  Was: guide
+          KEY_INFO                 0x00000000000033FA        #  Was: info
+          KEY_MENU                 0x00000000000067F9        #  Was: menu
+          KEY_EXIT                 0x000000000000B7F4        #  Was: exit
+          KEY_HELP                 0x000000000000B3F2        #  Was: help
+          KEY_LAST                 0x00000000000037FC        #  Was: last
+          KEY_VOLUMEUP             0x0000000000004FF3        #  Was: vol+
+          KEY_VOLUMEDOWN           0x0000000000008FFB        #  Was: vol-
+          KEY_MUTE                 0x0000000000000FF7        #  Was: mute
+          KEY_FAVORITES            0x00000000000057FA        #  Was: fav
+          KEY_CHANNELUP            0x0000000000002FF5        #  Was: ch+
+          KEY_CHANNELDOWN          0x000000000000CFFD        #  Was: ch-
+          KEY_1                    0x0000000000007FF0        #  Was: 1
+          KEY_2                    0x000000000000BFF8        #  Was: 2
+          KEY_3                    0x0000000000003FF4        #  Was: 3
+          KEY_4                    0x000000000000DFFC        #  Was: 4
+          KEY_5                    0x0000000000005FF2        #  Was: 5
+          KEY_6                    0x0000000000009FFA        #  Was: 6
+          KEY_7                    0x0000000000001FF6        #  Was: 7
+          KEY_8                    0x000000000000EFFE        #  Was: 8
+          KEY_9                    0x0000000000006FF1        #  Was: 9
+          KEY_0                    0x000000000000FFFF        #  Was: 0
+          tv/vcr_input             0x000000000000D7F2
+          hdzoom_enter             0x000000000000FDFC
+          pnp-swap                 0x0000000000003BF2
+      end codes
+
+end remote

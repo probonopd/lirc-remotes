@@ -1,0 +1,64 @@
+# contributed by Wolfgang Reichling (Wolfgang.Reichling@gmx.de)
+#
+# brand:             Sony
+# model:             rm-d29m
+# supported devices: Minidisc Deck MDS-JE530
+#
+
+begin remote
+
+  name  rm-d29m
+  bits           12
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       2400   600
+  one          1200   600
+  zero          600   600
+  gap          45000
+  repeat_bit      0
+  min_repeat      2
+  frequency 40000
+  duty_cycle 33
+
+      begin codes
+          KEY_EJECTCD              0x000000000000069E        #  Was: eject
+          KEY_POWER                0x0000000000000A9E        #  Was: power
+          KEY_MENU                 0x000000000000057E        #  Was: menu
+          yes                      0x0000000000000D7E
+          KEY_CLEAR                0x0000000000000F1E        #  Was: clear
+          display                  0x000000000000019E
+          scroll                   0x000000000000099E
+          fader                    0x000000000000097E
+          name                     0x000000000000087E
+          char                     0x0000000000000ADE
+          KEY_PLAY                 0x0000000000000E9E        #  Was: playmode
+          KEY_1                    0x000000000000001E        #  Was: 1
+          KEY_2                    0x000000000000081E        #  Was: 2
+          KEY_3                    0x000000000000041E        #  Was: 3
+          KEY_4                    0x0000000000000C1E        #  Was: 4
+          KEY_5                    0x000000000000021E        #  Was: 5
+          KEY_6                    0x0000000000000A1E        #  Was: 6
+          KEY_7                    0x000000000000061E        #  Was: 7
+          KEY_8                    0x0000000000000E1E        #  Was: 8
+          KEY_9                    0x000000000000011E        #  Was: 9
+          >10                      0x000000000000051E
+          KEY_0                    0x000000000000091E        #  Was: 0
+          musicsync                0x0000000000000FDE
+          KEY_PLAY                 0x000000000000055E        #  Was: play
+          KEY_PAUSE                0x000000000000095E        #  Was: pause
+          KEY_RECORD               0x0000000000000B5E        #  Was: rec
+          trec                     0x00000000000000DE
+          KEY_STOP                 0x000000000000015E        #  Was: stop
+          skip_back                0x000000000000005E
+          skip_forw                0x000000000000085E
+          KEY_BACK                 0x0000000000000D5E        #  Was: back
+          forw                     0x000000000000035E
+          KEY_AGAIN                0x000000000000065E        #  Was: repeat
+          a-b                      0x0000000000000E5E
+          level_up                 0x000000000000009E
+          level_down               0x000000000000089E
+      end codes
+
+end remote

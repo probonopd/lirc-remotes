@@ -1,0 +1,73 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.3(serial) on Thu Dec 20 23:03:35 2001
+#
+# contributed by Claus Brunzema <mail@cbrunzema.de>
+#
+# brand:             ONKYO
+# model:             RC-211S
+# supported devices: TX-7830
+#
+
+begin remote
+
+  name  onkyo_rc-211s
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9035  4449
+  one           594  1652
+  zero          594   528
+  ptrail        594
+  repeat       9037  2212
+  pre_data_bits   16
+  pre_data       0x4BB6
+  gap          107817
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x00000000000020DF        #  Was: POWER
+          KEY_SLEEP                0x000000000000BA45        #  Was: SLEEP
+          SPEAKERS_MAIN            0x0000000000009A65
+          SPEAKERS_REMOTE          0x0000000000005AA5
+          SIMUL_SOURCE             0x00000000000033CC
+          INPUT_SEL_TUNER          0x000000000000D02F
+          INPUT_SEL_PHONO          0x00000000000050AF
+          INPUT_SEL_CD             0x000000000000906F
+          INPUT_SEL_DIRECT         0x00000000000022DD
+          INPUT_SEL_VIDEO-1        0x000000000000F00F
+          INPUT_SEL_VIDEO-2        0x000000000000708F
+          INPUT_SEL_TAPE-1         0x00000000000010EF
+          INPUT_SEL_TAPE-2         0x000000000000E01F
+          SIMUL_SOURCE_VOL-UP      0x00000000000043BC
+          SIMUL_SOURCE_VOL-DOWN    0x000000000000C33C
+          TUNER_CLASS              0x00000000000052AD
+          TUNER_PRESET-DOWN        0x000000000000807F
+          TUNER_PRESET-UP          0x00000000000000FF
+          DECK-A_REV-PLAY          0x000000000000F20D
+          DECK-A_FWD-PLAY          0x000000000000728D
+          DECK-A_RECORD-PAUSE      0x0000000000000AF5
+          DECK-A_STOP              0x000000000000B24D
+          DECK-A_REW               0x0000000000004AB5
+          DECK-A_FF                0x0000000000008A75
+          DECK-B_REV-PLAY          0x0000000000006897
+          DECK-B_FWD-PLAY          0x000000000000A857
+          DECK-B_RECORD-PAUSE      0x00000000000018E7
+          DECK-B_STOP              0x000000000000C837
+          DECK-B_REW               0x00000000000058A7
+          DECK-B_FF                0x0000000000009867
+          CD_PAUSE                 0x000000000000F807
+          CD_PLAY                  0x000000000000D827
+          CD_STOP                  0x00000000000038C7
+          CD_SKIP-LAST             0x0000000000007887
+          CD_SKIP-NEXT             0x000000000000B847
+          MUTING                   0x000000000000A05F
+          KEY_VOLUMEUP             0x00000000000040BF        #  Was: VOLUME_UP
+          KEY_VOLUMEDOWN           0x000000000000C03F        #  Was: VOLUME_DOWN
+      end codes
+
+end remote
+

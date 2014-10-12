@@ -1,0 +1,59 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.1 on Wed May 24 23:34:03 2000
+#
+# contributed by BartOwl <bartowl@dione.ids.pl>
+#
+# brand:             PACE (satellite receiver)
+# model:             PSR 900
+# supported devices: Satellite receiver remote
+#
+
+# See the MSS300 config file for comments on the Pace protocol.
+
+begin remote
+
+  name  pace900
+  bits            5
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header        762  3077
+  one           666  6948
+  zero          666  4414
+  ptrail        673
+  pre_data_bits   6
+  pre_data       0x8
+  gap          122772
+  repeat_bit      2
+
+      begin codes
+          KEY_POWER                0x0000000000000010        #  Was: power
+          KEY_1--                  0x000000000000000A        #  Was: 1--
+          KEY_1                    0x0000000000000001        #  Was: 1
+          KEY_2                    0x0000000000000002        #  Was: 2
+          KEY_3                    0x0000000000000003        #  Was: 3
+          KEY_4                    0x0000000000000004        #  Was: 4
+          KEY_5                    0x0000000000000005        #  Was: 5
+          KEY_6                    0x0000000000000006        #  Was: 6
+          KEY_7                    0x0000000000000007        #  Was: 7
+          KEY_8                    0x0000000000000008        #  Was: 8
+          KEY_9                    0x0000000000000009        #  Was: 9
+          KEY_0                    0x0000000000000000        #  Was: 0
+          KEY_AGAIN                0x000000000000001A        #  Was: recall
+          KEY_F                    0x0000000000000019        #  Was: F
+          KEY_LEFT                 0x0000000000000016        #  Was: left
+          KEY_MENU                 0x0000000000000017        #  Was: menu
+          KEY_RIGHT                0x0000000000000011        #  Was: right
+          display                  0x000000000000001F
+          tv/sat                   0x0000000000000014
+          KEY_RADIO                0x000000000000000F        #  Was: radio
+          store                    0x0000000000000013
+          norm                     0x0000000000000015
+          KEY_MUTE                 0x000000000000001E        #  Was: mute
+      end codes
+
+end remote
+
+

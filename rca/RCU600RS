@@ -1,0 +1,68 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.1pre1(default) on Mon Jul 31 13:20:52 2006
+#
+# contributed by
+#
+# brand:                       RCA
+# model no. of remote control: RCU600RS
+# devices being controlled by this remote:
+# SYSTEM*LINK 6 A/V - DireTV receiver
+
+begin remote
+
+  name  RCA_RCU600RS
+  bits           24
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       4037  3949
+  one           542  1952
+  zero          542   955
+  ptrail        540
+  gap          64389
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0X72A8D5                  #  Was: POWER
+          KEY_CHANNELUP            0X72D8D2                  #  Was: CH+
+          KEY_CHANNELDOWN          0X72C8D3                  #  Was: CH-
+          KEY_VOLUMEUP             0XF2E0D1                  #  Was: VOL+
+          KEY_VOLUMEDOWN           0XF2F0D0                  #  Was: VOL-
+          KEY_MUTE                 0XF3F0C0                  #  Was: MUTE
+          GOBACK                   0X7278D8
+          KEY_INFO                 0X71A8E5                  #  Was: GUIDE
+          KEY_UP                   0X7598A6                  #  Was: UP
+          KEY_INFO                 0X73C8C3                  #  Was: INFO
+          KEY_LEFT                 0X7568A9                  #  Was: LEFT
+          KEY_SELECT               0X7F480B                  #  Was: SELECT
+          KEY_RIGHT                0X7578A8                  #  Was: RIGHT
+          KEY_MENU                 0X7088F7                  #  Was: MENU
+          KEY_DOWN                 0X7588A7                  #  Was: DOWN
+          KEY_CLEAR                0X7068F9                  #  Was: CLEAR
+          KEY_1                    0X7318CE                  #  Was: 1
+          KEY_2                    0X7328CD                  #  Was: 2
+          KEY_3                    0X7338CC                  #  Was: 3
+          KEY_4                    0X7348CB                  #  Was: 4
+          KEY_5                    0X7358CA                  #  Was: 5
+          KEY_6                    0X7368C9                  #  Was: 6
+          KEY_7                    0X7378C8                  #  Was: 7
+          KEY_8                    0X7388C7                  #  Was: 8
+          KEY_9                    0X7398C6                  #  Was: 9
+          KEY_ENTER                0X7F480B                  #  Was: ENTER
+          KEY_0                    0X7308CF                  #  Was: 0
+          TV/VCR                   0X7058FA
+          KEY_REWIND               0X71D8E2                  #  Was: REW
+          KEY_PLAY                 0X7158EA                  #  Was: PLAY
+          KEY_FORWARD              0X71C8E3                  #  Was: FWD
+          KEY_RECORD               0X7178E8                  #  Was: REC
+          KEY_STOP                 0X71F8E0                  #  Was: STOP
+          KEY_PAUSE                0X7198E6                  #  Was: PAUSE
+          PIP                      0X71B8E4
+          SWAP                     0X7C383C
+          INPUT                    0X76189E
+      end codes
+
+end remote

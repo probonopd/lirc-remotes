@@ -1,0 +1,67 @@
+# this config file was generated with the help of
+# xmode2-0.7.0 on 2004-11-09
+#
+# contributed by Adrien Beau <adrien.put_my_name_here@free.fr>
+#
+# brand:                       Sony
+# model no. of remote control: RM-S11
+# devices being controlled by this remote: Sony CHC-P11, other Sony audio sets
+#
+# This remote is part of CHC-P11 package sold by Sony. The CHC-P11
+# is a micro-sized high-fidelity integrated sound system including
+# an amplifier, a radio tuner, two tape decks and a Compact Disc
+# player.
+#
+# The RM-S11 uses the Sony encoding. Keys can send 12, 15, or 20
+# bits, but LIRC only supports one of these at a time; you need to
+# define one remote per bit-length if you want to have support for
+# all of your keys. Thankfully, all the keys on this remote send
+# 12 bits.
+#
+# The timings and protocol information for the Sony encoding were
+# obtained from http://www.ustr.net/infrared/sony.shtml
+# This helped me ensure that the information below is accurate and
+# can be used as a basis for other Sony remotes. The gap was
+# measured with xmode2.
+
+begin remote
+
+  name  Sony_RM-S11
+  bits           12
+  flags SPACE_ENC|REVERSE|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       2400   600
+  one          1200   600
+  zero          600   600
+  gap          50000
+  frequency    40244
+
+#	Descriptive Key Name		Code		Real Function
+      begin codes
+          System_Power             0x0000000000000815
+          KEY_SLEEP                0x0000000000000860        #  Was: Sleep
+          DBFB                     0x0000000000000631
+          Tuner_Band               0x000000000000068F
+          Tuner_Previous_Preset    0x0000000000000691
+          Tuner_Next_Preset        0x0000000000000690
+          CD_Play                  0x00000000000008B2
+          CD_Pause                 0x00000000000008B9
+          CD_Stop                  0x00000000000008B8
+          CD_Previous_Track        0x00000000000008B0
+          CD_Next_Track            0x00000000000008B1
+          CD_Edit                  0x00000000000008EA
+          Tape_Backward            0x0000000000000837
+          Tape_Forward             0x0000000000000832
+          Tape_Fast_Backward       0x0000000000000833
+          Tape_Fast_Forward        0x0000000000000834
+          Tape_Deck_Select         0x0000000000000879
+          Tape_Stop                0x0000000000000838
+          Select_1_To_5            0x000000000000066E
+          KEY_VOLUMEUP             0x0000000000000812        #  Was: Volume_Up
+          KEY_VOLUMEDOWN           0x0000000000000813        #  Was: Volume_Down
+      end codes
+
+end remote
+

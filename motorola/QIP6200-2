@@ -1,0 +1,105 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.3-CVS-pvr150-2(default) on Sun Nov 16 20:41:54 2008
+#
+# contributed by Michael Hanson
+#
+# brand: Verizon (?)
+# model no. of remote control: Verizon FiOS Universal
+# 			       Inside battery compartment has the following
+#			       information:
+#				RC1445302/00B
+#				3139 238 16051 REV 2
+#				MADE IN CHINA
+#				CP02 50829 G 009840	
+# devices being controlled by this remote: Motorola QIP6200-2
+#
+
+begin remote
+
+  name  Motorola_QIP6200-2
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9028  4450
+  one           555  4433
+  zero          555  2181
+  ptrail        556
+  gap          99876
+  toggle_bit_mask 0x0
+
+      begin codes
+          KEY_POWER                0x5006                    #  Was: power
+          KEY_MENU                 0x9806                    #  Was: menu
+          KEY_INFO                 0x0C0B                    #  Was: guide
+          KEY_INFO                 0xCC05                    #  Was: info
+          KEY_UP                   0x2C09                    #  Was: up
+          KEY_DOWN                 0xAC01                    #  Was: down
+          KEY_LEFT                 0x6C0E                    #  Was: left
+          KEY_RIGHT                0xEC06                    #  Was: right
+          KEY_OK                   0x8807                    #  Was: ok
+          KEY_EXIT                 0x480B                    #  Was: exit
+          KEY_OPTION               0x4205                    #  Was: options
+          widgets                  0xC209
+          KEY_POWER                0x580A                    #  Was: ondemand
+          KEY_FAVORITES            0xA805                    #  Was: favorites
+          KEY_LAST                 0xC803                    #  Was: last
+          fiostv                   0x7C0F
+          KEY_CHANNELUP            0xD00A                    #  Was: ch+
+          KEY_CHANNELDOWN          0x3002                    #  Was: ch-
+          KEY_PREVIOUS             0x3C08                    #  Was: previous
+          dvr                      0xBC00
+          KEY_NEXT                 0xFC07                    #  Was: next
+          KEY_REWIND               0x7808                    #  Was: rewind
+          KEY_PLAYPAUSE            0xF800                    #  Was: play-pause
+          KEY_FASTFORWARD          0xB804                    #  Was: fastforward
+          KEY_STOP                 0x380C                    #  Was: stop
+          KEY_RECORD               0x8C03                    #  Was: record
+          KEY_1                    0x800F                    #  Was: 1
+          KEY_2                    0x4007                    #  Was: 2
+          KEY_3                    0xC00B                    #  Was: 3
+          KEY_4                    0x2003                    #  Was: 4
+          KEY_5                    0xA00D                    #  Was: 5
+          KEY_6                    0x6005                    #  Was: 6
+          KEY_7                    0xE009                    #  Was: 7
+          KEY_8                    0x1001                    #  Was: 8
+          KEY_9                    0x900E                    #  Was: 9
+          KEY_0                    0x0000                    #  Was: 0
+          KEY_NUMERIC_STAR         0x2201                    #  Was: \*
+          KEY_NUMERIC_POUND        0x0203                    #  Was: #
+          KEY_YELLOW               0xE801                    #  Was: yellow
+          KEY_BLUE                 0xE40E                    #  Was: blue
+          KEY_RED                  0x1406                    #  Was: red
+          KEY_GREEN                0x940A                    #  Was: green
+          av                       0x280D
+          pip                      0x4403
+          pip-change               0xC40D
+      end codes
+
+end remote
+
+begin remote
+
+  name  Motorola_QIP6200-2
+  bits           12
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       2462   532
+  one          1264   539
+  zero          663   539
+  gap          45570
+  toggle_bit_mask 0x0
+
+      begin codes
+          KEY_MUTE                 0x290                     #  Was: mute
+          KEY_VOLUMEUP             0x490                     #  Was: vol+
+          KEY_VOLUMEDOWN           0xC90                     #  Was: vol-
+      end codes
+
+end remote
+
+

@@ -1,0 +1,47 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.6(serial) on Fri Nov 21 03:53:36 2003
+#
+# contributed by Max Vakulenko <mvak|ukr.net>
+#
+# brand:                       Philips
+# model no. of remote control: N9201PD
+# devices being controlled by this remote: VCR VP27/55
+#
+
+begin remote
+
+   name  Philips_N9201PD
+   bits           13
+   flags RC5|CONST_LENGTH
+   eps            30
+   aeps          100
+
+   one           935   844
+   zero          935   844
+   plead         965
+   gap          113824
+   toggle_bit      2
+
+
+       begin codes
+           VCR-POWER                0x000000000000114C
+          KEY_MUTE                 0x000000000000100D        #  Was: MUTE
+          KEY_EJECTCD              0x000000000000116D        #  Was: EJECT
+           TV-POWER                 0x000000000000100C
+           TVCH-UP                  0x0000000000001020
+           TVCH-DOWN                0x0000000000001021
+           TVVOL-UP                 0x0000000000001010
+           TVVOL-DOWN               0x0000000000001011
+          KEY_REWIND               0x0000000000001172        #  Was: REW
+          KEY_PLAY                 0x0000000000001175        #  Was: PLAY
+          KEY_FASTFORWARD          0x0000000000001174        #  Was: FF
+          KEY_STOP                 0x0000000000001176        #  Was: STOP
+          KEY_RECORD               0x0000000000001177        #  Was: REC
+           TRACKING-UP              0x000000000000014E
+           TRACKING-DOWN            0x000000000000014D
+          KEY_PAUSE                0x0000000000001169        #  Was: PAUSE
+       end codes
+
+end remote
+

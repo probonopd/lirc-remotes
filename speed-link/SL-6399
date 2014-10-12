@@ -1,0 +1,89 @@
+#
+# this config file only will work with a home-brew receiver
+#
+
+#
+# this config file was automatically generated
+# using lirc-0.8.1(default) on Tue Jul 10 20:52:43 2007
+#
+# contributed by
+#
+# brand:                       Speedlink
+# model no. of remote control: Speedlink Media Center Control SL-6399
+# devices being controlled by this remote:
+#
+
+begin remote
+
+  name  Speedlink_SL-6399
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9072  4420
+  one           647  1602
+  zero          647   475
+  ptrail        644
+  repeat       9073  2172
+  pre_data_bits   16
+  pre_data       0xFF
+  gap          107932
+  toggle_bit      0
+
+
+      begin codes
+          TV_POWER                 0x40BF
+          PC_POWER                 0x08F7
+          KEY_REWIND               0x58A7                    #  Was: REW
+          KEY_PLAY                 0xD827                    #  Was: PLAY
+          KEY_FORWARD              0x22DD                    #  Was: FWD
+          KEY_STOP                 0x02FD                    #  Was: STOP
+          KEY_AGAIN                0x5AA5                    #  Was: REPLAY
+          KEY_PAUSE                0x42BD                    #  Was: PAUSE
+          KEY_NEXT                 0xA25D                    #  Was: SKIP
+          KEY_RECORD               0x12ED                    #  Was: RECORD
+          KEY_BACK                 0x28D7                    #  Was: BACK
+          MORE                     0xA857
+          KEY_UP                   0x6897                    #  Was: UP
+          KEY_DOWN                 0x48B7                    #  Was: DOWN
+          KEY_LEFT                 0xE817                    #  Was: LEFT
+          KEY_RIGHT                0x30CF                    #  Was: RIGHT
+          KEY_OK                   0x18E7                    #  Was: OK
+          ASPECT                   0xC23D
+          MSN                      0xEA15
+          KEY_RED                  0x708F                    #  Was: RED
+          KEY_GREEN                0xC837                    #  Was: GREEN
+          KEY_YELLOW               0x8877                    #  Was: YELLOW
+          KEY_BLUE                 0x9867                    #  Was: BLUE
+          KEY_VOLUMEUP             0x807F                    #  Was: VOL+
+          KEY_VOLUMEDOWN           0x7887                    #  Was: VOL-
+          KEY_CHANNELUP            0xD22D                    #  Was: CH+
+          KEY_CHANNELDOWN          0xF20D                    #  Was: CH-
+          KEY_HOME                 0xB04F                    #  Was: HOME
+          KEY_MUTE                 0x00FF                    #  Was: MUTE
+          KEY_1                    0xF807                    #  Was: 1
+          KEY_2                    0xC03F                    #  Was: 2
+          KEY_3                    0x20DF                    #  Was: 3
+          KEY_4                    0xA05F                    #  Was: 4
+          KEY_5                    0x38C7                    #  Was: 5
+          KEY_6                    0x609F                    #  Was: 6
+          KEY_7                    0xE01F                    #  Was: 7
+          KEY_8                    0x10EF                    #  Was: 8
+          KEY_9                    0xB847                    #  Was: 9
+          KEY_0                    0x50AF                    #  Was: 0
+          KEY_NUMERIC_STAR         0x906F                    #  Was: *
+          KEY_NUMERIC_POUND        0xD02F                    #  Was: #
+          KEY_INFO                 0x52AD                    #  Was: GUIDE
+          RTV                      0x926D
+          KEY_HELP                 0x32CD                    #  Was: HELP
+          WINDOWS                  0xCA35
+          KEY_RADIO                0xB24D                    #  Was: RADIO
+          KEY_DVD                  0x0AF5                    #  Was: DVD
+          KEY_AUDIO                0x8A75                    #  Was: AUDIO
+          KEY_TITLE                0x4AB5                    #  Was: TITLE
+      end codes
+
+end remote
+
+

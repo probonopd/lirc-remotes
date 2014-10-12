@@ -1,0 +1,73 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.4a(default) on Tue Nov 24 22:36:39 2009
+#
+# contributed by jaska|kivela.net
+#
+# brand:                       Onkyo
+# model no. of remote control: RC-738M
+# devices being controlled by this remote: TX-SR607
+#
+# !!! this config probably only works with Igor Cesko's USB IR Receiver !!!
+#
+
+begin remote
+
+  name  Onkyo_RC-738M
+  bits           18
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one          1638   605
+  zero          514   605
+  repeat  8931  2225
+  gap          59002
+  toggle_bit_mask 0x0
+
+      begin codes
+          KEY_POWER                0x0D32C                   #  Was: PWR
+          Display                  0x0AA55
+          Muting                   0x0A05F
+          KEY_INFO                 0x011EE                   #  Was: Guide
+          KEY_MENU                 0x0E11E                   #  Was: Menu
+          KEY_SETUP                0x0CA35                   #  Was: Setup
+          KEY_AUDIO                0x02BD4                   #  Was: Audio
+          KEY_ENTER                0x02AD5                   #  Was: Return
+          KEY_PREVIOUS             0x0C936                   #  Was: Prev
+          KEY_NEXT                 0x029D6                   #  Was: Next
+          KEY_REWIND               0x058A7                   #  Was: Rewind
+          KEY_PLAY                 0x0A857                   #  Was: Play
+          KEY_FASTFORWARD          0x09867                   #  Was: FFwd
+          KEY_PAUSE                0x06897                   #  Was: Pause
+          KEY_STOP                 0x0C837                   #  Was: Stop
+          Movie                    0x00BF4
+          KEY_AUDIO                0x08B74                   #  Was: Music
+          Game                     0x04BB4
+          Stereo                   0x032CD
+          KEY_1                    0x0AB54                   #  Was: 1
+          KEY_2                    0x06B94                   #  Was: 2
+          KEY_3                    0x0EB14                   #  Was: 3
+          KEY_4                    0x01BE4                   #  Was: 4
+          KEY_5                    0x09B64                   #  Was: 5
+          KEY_6                    0x05BA4                   #  Was: 6
+          KEY_7                    0x0DB24                   #  Was: 7
+          KEY_8                    0x03BC4                   #  Was: 8
+          KEY_9                    0x0BB44                   #  Was: 9
+          KEY_10CHANNELSUP         0x0FB04                   #  Was: +10
+          KEY_0                    0x07B84                   #  Was: 0
+          CLR                      0x0BA45
+          KEY_UP                   0x041BE                   #  Was: Up
+          KEY_DOWN                 0x0C13E                   #  Was: Down
+          KEY_LEFT                 0x021DE                   #  Was: Left
+          KEY_RIGHT                0x0A15E                   #  Was: Right
+          KEY_ENTER                0x0E916                   #  Was: Enter
+          KEY_VOLUMEUP             0x040BF                   #  Was: Vol+
+          KEY_VOLUMEDOWN           0x0C03F                   #  Was: Vol-
+          KEY_CHANNELUP            0x000FF                   #  Was: Ch+
+          KEY_CHANNELDOWN          0x0807F                   #  Was: Ch-
+      end codes
+
+end remote
+
+

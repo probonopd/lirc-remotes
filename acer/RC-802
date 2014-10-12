@@ -1,0 +1,83 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.3(default) on Wed Jan 21 08:27:03 2009
+#
+# contributed by Eric Schmeddes
+#
+# brand: Acer
+# model no. of remote control: RC-802
+# devices being controlled by this remote:
+# acer aspire 9500/9800 (mediapc)
+
+begin remote
+
+  name  Acer_RC-802
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9055  4488
+  one           587  1670
+  zero          587   539
+  ptrail        588
+  repeat       9055  2243
+  pre_data_bits   16
+  pre_data       0x8A4
+  gap          108334
+  toggle_bit_mask 0x0
+
+      begin codes
+          KEY_POWER                0xB24D                    #  Was: power
+          KEY_TV                   0x32CD                    #  Was: livetv
+          tvav                     0xBA45
+          arcade                   0x00FF
+          KEY_MENU                 0x40BF                    #  Was: menu
+          KEY_LANGUAGE             0x629D                    #  Was: language
+          KEY_SUBTITLE             0xE21D                    #  Was: subtitle
+          KEY_ANGLE                0x52AD                    #  Was: angle
+          KEY_PLAY                 0x6A95                    #  Was: play
+          KEY_RECORD               0xD22D                    #  Was: record
+          KEY_STOP                 0x50AF                    #  Was: stop
+          KEY_REWIND               0x609F                    #  Was: rewind
+          KEY_FASTFORWARD          0x10EF                    #  Was: fastforward
+          KEY_PREVIOUS             0xCA35                    #  Was: previous
+          KEY_NEXT                 0x2AD5                    #  Was: next
+          KEY_PAUSE                0xAA55                    #  Was: pause
+          sap                      0x926D
+          KEY_F11                  0xD827                    #  Was: fullscreen
+          capture                  0xF807
+          KEY_UP                   0x807F                    #  Was: up
+          KEY_DOWN                 0xE01F                    #  Was: down
+          KEY_LEFT                 0x0AF5                    #  Was: left
+          KEY_RIGHT                0x4AB5                    #  Was: right
+          KEY_SELECT               0x8A75                    #  Was: select
+          KEY_BACK                 0x22DD                    #  Was: back
+          KEY_INFO                 0xA25D                    #  Was: info
+          KEY_LAST                 0x02FD                    #  Was: last
+          KEY_MUTE                 0xC23D                    #  Was: mute
+          KEY_VOLUMEUP             0xD02F                    #  Was: volumeup
+          KEY_VOLUMEDOWN           0xB04F                    #  Was: volumedown
+          KEY_CHANNELUP            0x906F                    #  Was: channelup
+          KEY_CHANNELDOWN          0x30CF                    #  Was: channeldown
+          KEY_1                    0x28D7                    #  Was: 1
+          KEY_2                    0xA857                    #  Was: 2
+          KEY_3                    0x6897                    #  Was: 3
+          KEY_4                    0x18E7                    #  Was: 4
+          KEY_5                    0x9867                    #  Was: 5
+          KEY_6                    0x58A7                    #  Was: 6
+          KEY_7                    0x38C7                    #  Was: 7
+          KEY_8                    0xB847                    #  Was: 8
+          KEY_9                    0x7887                    #  Was: 9
+          KEY_0                    0x827D                    #  Was: 0
+          KEY_TEXT                 0xE817                    #  Was: teletext
+          scan                     0x12ED
+          KEY_RED                  0x08F7                    #  Was: red
+          KEY_GREEN                0x8877                    #  Was: green
+          KEY_YELLOW               0x48B7                    #  Was: yellow
+          KEY_BLUE                 0xC837                    #  Was: blue
+      end codes
+
+end remote
+
+

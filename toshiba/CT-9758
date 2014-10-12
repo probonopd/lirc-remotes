@@ -1,0 +1,73 @@
+#
+# this config file was automatically generated
+# using WinLIRC 0.6.5 (LIRC 0.6.1pre3) on Fri Nov 14 16:45:07 2003
+#
+# contributed by
+#
+# brand:             Toshiba
+# model:             CT-9758
+# supported devices: RX device
+#
+
+begin remote
+
+  name  Toshiba
+  bits           16
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+# modified timing values to match actual values
+  header        9000 4500
+  one           563  1687
+  zero          563   562
+  ptrail        563
+
+  repeat        9000 2250
+
+# these are the RX hardware values
+#  header        300  4950
+#  one           300  2142
+#  zero          300  1022
+#  ptrail        300
+#  repeat        300  2739
+  pre_data_bits   16
+  pre_data       0x2FD
+  gap          48650
+  toggle_bit      0
+
+
+      begin codes
+          Timer                    0x00000000000038C7
+          KEY_POWER                0x00000000000048B7        #  Was: On/Off
+          Reset                    0x0000000000008877
+          Bazooka                  0x000000000000F00F
+          MTS                      0x000000000000C837
+          KEY_MUTE                 0x00000000000008F7        #  Was: Mute
+          KEY_1                    0x000000000000807F        #  Was: 1
+          KEY_2                    0x00000000000040BF        #  Was: 2
+          KEY_3                    0x000000000000C03F        #  Was: 3
+          KEY_VOLUMEUP             0x00000000000058A7        #  Was: Vol+
+          KEY_4                    0x00000000000020DF        #  Was: 4
+          KEY_5                    0x000000000000A05F        #  Was: 5
+          KEY_6                    0x000000000000609F        #  Was: 6
+          KEY_VOLUMEDOWN           0x0000000000007887        #  Was: Vol-
+          KEY_7                    0x000000000000E01F        #  Was: 7
+          KEY_8                    0x00000000000010EF        #  Was: 8
+          KEY_9                    0x000000000000906F        #  Was: 9
+          KEY_CHANNELUP            0x000000000000D827        #  Was: Ch+
+          KEY_0                    0x00000000000050AF        #  Was: 100
+          KEY_0                    0x00000000000000FF        #  Was: 0
+          ChRTN                    0x000000000000E817
+          KEY_CHANNELDOWN          0x000000000000F807        #  Was: Ch-
+          KEY_F                    0x000000000000B04F        #  Was: F
+          KEY_MENU                 0x000000000000708F        #  Was: Menu
+          <                        0x000000000000B847
+          >                        0x0000000000009867
+          Call                     0x0000000000006897
+          Signal                   0x00000000000028D7
+      end codes
+
+end remote
+
+

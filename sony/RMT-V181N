@@ -1,0 +1,119 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.6(default) on Tue Nov 24 11:20:32 2009
+#
+# contributed by
+#
+# brand:                       SONY
+# model no. of remote control: RMT-V181N
+# devices being controlled by this remote:
+#
+
+begin remote
+
+  name  Sony_RMT-V181N
+  bits           12
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       2429   568
+  one          1223   575
+  zero          623   575
+  gap          44984
+  toggle_bit_mask 0x0
+
+      begin codes
+          KEY_EJECTCD              0x69A                     #  Was: EJECT
+          KEY_POWER                0xA90                     #  Was: POWER
+          TV/VIDEO                 0xA50
+          KEY_MENU                 0x070                     #  Was: MENU
+          CLEAR_TIMER              0xC7A
+          KEY_UP                   0x2F0                     #  Was: UP
+          KEY_DOWN                 0xAF0                     #  Was: DOWN
+          KEY_LEFT                 0x2D0                     #  Was: LEFT
+          KEY_RIGHT                0xCD0                     #  Was: RIGHT
+          QUICK_TIMER              0x4BA
+          AUDIO_DUB                0x17A
+          EXECUTE                  0xA70
+          COUNTER_RESET            0x63A
+          INPUT_SELECT             0xF3A
+          TAPE_SPEED               0x1BA
+          KEY_1                    0x010                     #  Was: 1
+          KEY_2                    0x810                     #  Was: 2
+          KEY_3                    0x410                     #  Was: 3
+          KEY_4                    0xC10                     #  Was: 4
+          KEY_5                    0x210                     #  Was: 5
+          KEY_6                    0xA10                     #  Was: 6
+          KEY_7                    0x610                     #  Was: 7
+          KEY_8                    0xE10                     #  Was: 8
+          KEY_9                    0x110                     #  Was: 9
+          KEY_0                    0x910                     #  Was: 0
+          KEY_102ND                0xB90                     #  Was: -/--
+          KEY_VOLUMEUP             0x490                     #  Was: VOLUP
+          KEY_VOLUMEDOWN           0xC90                     #  Was: VOLDOWN
+          KEY_CHANNELUP            0x090                     #  Was: PROGUP
+          KEY_CHANNELDOWN          0x890                     #  Was: PROGDOWN
+          AUTO/MANUAL              0xE5A
+          TRDOWN                   0xA3A
+          TRUP                     0x23A
+          DISPLAY                  0x5D0
+          SLOW-                    0x7DA
+          SLOW+                    0xBDA
+          X2                       0x29A
+          KEY_NEXT                 0xBBA                     #  Was: SKIP
+          FRAME-                   0x0DA
+          FRAME+                   0x8DA
+          SEARCH-                  0x15A
+          SEARCH+                  0x95A
+          KEY_RECORD               0xB9A                     #  Was: REC
+          KEY_PAUSE                0x99A                     #  Was: PAUSE
+          KEY_REWIND               0xD9A                     #  Was: REW
+          KEY_FASTFORWARD          0x39A                     #  Was: FF
+          KEY_PLAY                 0x59A                     #  Was: PLAY
+          KEY_STOP                 0x19A                     #  Was: STOP
+          VTRPOWER                 0xA9A
+          VTRTV/VIDEO              0x55A
+          VTRMENU                  0xB3A
+          VTRUP                    0x43A
+          VTRDOWN                  0xC3A
+          VTRLEFT                  0x47A
+          VTRRIGHT                 0x87A
+          VTREXECUTE               0x8BA
+          VTR1                     0x01A
+          VTR2                     0x81A
+          VTR3                     0x41A
+          VTR4                     0xC1A
+          VTR5                     0x21A
+          VTR6                     0xA1A
+          VTR7                     0x61A
+          VTR8                     0xE1A
+          VTR9                     0x11A
+          VTR0                     0x91A
+          VTR-/--                  0x51A
+          VTRPROGUP                0x09A
+          VTRPROGDOWN              0x89A
+          VTRDISPLAY               0x5BA
+      end codes
+
+end remote
+
+begin remote
+
+  name  Sony_RMT-V181N
+  bits           15
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       2414   583
+  one          1244   551
+  zero          651   551
+  gap          44984
+  toggle_bit_mask 0x0
+
+      begin codes
+          WIDE                     0x5E25
+      end codes
+
+end remote

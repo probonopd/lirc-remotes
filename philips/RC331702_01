@@ -1,0 +1,87 @@
+#
+# this config file was automatically generated
+# using lirc-0.7.3pre1(serial) on Sat Nov  5 14:00:00 2005
+# contributed by Tobias Buss
+#
+# brand:                       PHILIPS
+# model no. of remote control: RC331702/01 3139 228 60501
+# devices being controlled by this remote: Philips BSure (Beamer)
+#
+############
+#NOTE:  This lircd.conf is splitted in two pieces, the first is used
+#       for  main controls, the second is for cursor and mouse-functions.
+
+
+
+############
+# PIECE ONE: MAIN-Functions
+
+begin remote
+
+  name  BEAMER_main
+  bits            8
+  flags RCMM|CONST_LENGTH
+  eps             2
+  aeps          100
+
+  header        417   278
+  three         167   778
+  two           167   611
+  one           167   444
+  zero          167   278
+  ptrail        167
+  pre_data_bits   24
+  pre_data       0x21202A
+  gap          99817
+  toggle_bit      17
+  min_repeat    0
+
+      begin codes
+          b_power                    0x0C
+          b_menu                     0x54
+          b_OK                       0x5C
+          b_plus                     0x10
+          b_minus                    0x11
+          b_mute                     0x0D
+          b_av_mute                  0xFF
+          b_source                   0xE8
+          b_freeze                   0x67
+          b_zoom                     0xF6
+      end codes
+
+end remote
+
+
+
+############
+# PIECE TWO: CURSOR-Functions
+
+begin remote
+
+  name  BEAMER_cursor
+  bits           12
+  flags RCMM|CONST_LENGTH
+  eps             2
+  aeps          100
+
+  header        417   278
+  three         167   778
+  two           167   611
+  one           167   444
+  zero          167   278
+  ptrail        167
+  gap          165000
+  min_repeat      1
+  toggle_bit      0
+
+
+      begin codes
+          b_up                       0x404
+          b_down                     0x40C
+          b_left                     0x408
+          b_right                    0x400
+          b_mouse_left               0x87F
+          b_mouse_right              0x87E
+      end codes
+
+end remote

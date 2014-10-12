@@ -1,0 +1,66 @@
+# contributed by:
+#	Kipp Cannon <kipp|gravity.phys.uwm.edu>
+#
+# brand:
+#	Panasonic
+# model no. of remote control:
+#	VEQ1883
+# devices being controlled by this remote:
+#	VCR (AG2550)
+#
+# Notes:
+# There is an unmarked button this remote, under the door and just above
+# the part number "VEQ1883".  I have named this button "unmarked".  The two
+# buttons on which are graphics that look like "^" and "v" I have named
+# "CH+" and "CH-" respectively.
+
+begin remote
+	name	Panasonic_VEQ1883
+	flags	SPACE_ENC
+	eps	30
+
+	frequency	36000
+	header	3502	1758
+	one	444	1295
+	zero	444	427
+	ptrail	458
+	gap	74443
+
+	bits	24
+	pre_data_bits	24
+	pre_data	0x400409
+	toggle_bit	0
+
+	begin codes
+		PROG/CHECK   0x808009
+          KEY_MENU                 0x806AE3                  #  Was: MENU
+		TIMER_REC    0x002D24
+          KEY_CANCEL               0x809019                  #  Was: CANCEL
+          KEY_UP                   0x8040C9                  #  Was: UP
+          KEY_DOWN                 0x80C049                  #  Was: DOWN
+          KEY_LEFT                 0x80A029                  #  Was: LEFT
+          KEY_RIGHT                0x8020A9                  #  Was: RIGHT
+          KEY_ENTER                0x801A93                  #  Was: ENTER
+          KEY_MENU                 0x00EAE3                  #  Was: OSD
+		AUDIO_OUT    0x00CCC5
+		SPEED        0x8050D9
+		VTR/TV       0x006C65
+		INPUT_SELECT 0x00030A
+		RESET        0x002A23
+		unmarked     0x00AFA6
+		TRACKING+    0x008D84
+		TRACKING-    0x004D44
+          KEY_POWER                0x00BCB5                  #  Was: POWER
+          KEY_RECORD               0x001019                  #  Was: REC
+          KEY_CHANNELUP            0x002C25                  #  Was: CH+
+          KEY_CHANNELDOWN          0x00ACA5                  #  Was: CH-
+          KEY_PLAY                 0x005059                  #  Was: PLAY
+          KEY_STOP                 0x000009                  #  Was: STOP
+          KEY_REWIND               0x004049                  #  Was: REW
+          KEY_FASTFORWARD          0x00C0C9                  #  Was: FF
+		PAUSE/SLOW   0x006069
+		DISPLAY      0x80FA73
+		INDEX+       0x00525B
+		INDEX-       0x00929B
+	end codes
+end remote

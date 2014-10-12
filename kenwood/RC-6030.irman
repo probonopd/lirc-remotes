@@ -1,0 +1,83 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.3(irman) on Sat Apr 21 22:25:19 2001
+#
+# contributed by Jake Page <jake@cs.stanford.edu>
+#
+# brand:		Kenwood
+# model:		RC-6030  
+# supported devices: 	Kenwood KR-V6030 Receiver + various Kenwood
+#			components
+#
+
+begin remote
+
+  name  RC-6030
+  bits           16
+  eps            30
+  aeps          100
+
+  one             0     0
+  zero            0     0
+  pre_data_bits   32
+  pre_data       0xFFFF1DE2
+  post_data_bits  16
+  post_data      0x0
+  gap          209915
+  min_repeat	  15
+  toggle_bit      0
+
+      begin codes
+          KEY_POWER                0x000000000000B946        #  Was: POWER
+          TUNER_DIRECT             0x0000000000007986
+          TUNER_P.SCAN             0x0000000000009966
+          TUNER_BAND               0x000000000000F10E
+          TAPE_A_REV_PLAY          0x0000000000000BF4
+          TAPE_A_FWD_PLAY          0x0000000000008B74
+          TAPE_A_STOP              0x000000000000AB54
+          TAPE_A_REWIND            0x0000000000004BB4
+          TAPE_A_FFWD              0x000000000000CB34
+          TAPE_A_PAUSE             0x0000000000002BD4
+          TAPE_B_REV_PLAY          0x0000000000001BE4
+          TAPE_B_FWD_PLAY          0x0000000000009B64
+          TAPE_B_REWIND            0x0000000000005BA4
+          TAPE_B_FFWD              0x000000000000DB24
+          TAPE_A_RECORD            0x0000000000006B94
+          TAPE_B_PAUSE             0x0000000000003BC4
+          TAPE_B_STOP              0x000000000000BB44
+          TAPE_B_RECORD            0x0000000000007B84
+          TUNER/CD_1               0x000000000000817E
+          TUNER/CD_2               0x00000000000041BE
+          TUNER/CD_3               0x000000000000C13E
+          TUNER/CD_4               0x00000000000021DE
+          TUNER/CD_5               0x000000000000A15E
+          TUNER/CD_6               0x000000000000619E
+          TUNER/CD_7               0x000000000000E11E
+          TUNER/CD_8               0x00000000000011EE
+          TUNER/CD_9               0x000000000000916E
+          TUNER/CD_0               0x00000000000001FE
+          TUNER/CD_+10             0x000000000000B04F
+          CD_PLAY/PAUSE            0x000000000000D32C
+          CD_STOP                  0x000000000000936C
+          CD_DISC                  0x00000000000010EF
+          CD_FWD                   0x000000000000F30C
+          CD_REW                   0x000000000000738C
+          CD_SEARCH_FWD            0x000000000000E01F
+          CD_SEARCH_REW            0x000000000000609F
+          SELECT_VIDEO_1           0x0000000000006996
+          SELECT_VIDEO_2           0x000000000000C936
+          SELECT_TAPE_1            0x00000000000029D6
+          SELECT_TAPE_2            0x000000000000A956
+          SELECT_PHONO             0x00000000000009F6
+          SELECT_CD                0x00000000000049B6
+          SELECT_TUNER             0x0000000000008976
+          SURROUND                 0x000000000000EB14
+          KEY_MUTE                 0x00000000000039C6        #  Was: MUTE
+          KEY_VOLUMEUP             0x000000000000D926        #  Was: VOL_UP
+          KEY_VOLUMEDOWN           0x00000000000059A6        #  Was: VOL_DOWN
+      end codes
+
+end remote
+
+
+

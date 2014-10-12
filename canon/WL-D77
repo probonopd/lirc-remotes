@@ -1,0 +1,70 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.6(sa1100) on Thu Jun 19 20:04:21 2003
+#
+# contributed by Daniel Glöckner
+#
+# brand:                                   Canon
+# model no. of remote control:             WL-D77
+# devices being controlled by this remote: MV530i
+#
+
+begin remote
+
+  name  WL-D77
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       8853  4513
+  one           558  1681
+  zero          558   559
+  ptrail        556
+  pre_data_bits   16
+  pre_data       0xA16E
+  gap          107451
+  toggle_bit      0
+
+
+      begin codes
+          START/STOP               0xC03F
+          KEY_IMAGES               0x0CF3                    #  Was: PHOTO
+          KEY_ZOOMOUT              0xB847
+          KEY_ZOOMIN               0x38C7
+          SELFTIMER                0x48B7
+          KEY_MENU                 0xA45B                    #  Was: MENU
+          KEY_UP                   0x04FB                    #  Was: UP
+          KEY_DOWN                 0x847B                    #  Was: DOWN
+          SET                      0x24DB
+          TV-SCREEN                0xD827
+          DATA-CODE                0x8C73
+          D.EFFECTS                0x14EB
+          KEY_POWER                0xE41B                    #  Was: ON/OFF
+          AUDIO-MONITOR            0x9C63
+          ST-1                     0xDC23
+          ST-2                     0x5CA3
+          KEY_RECORD               0xE01F                    #  Was: REC/PAUSE
+          CARD-                    0xD42B
+          CARD+                    0x54AB
+          SLIDE-SHOW               0x34CB
+          ZERO-SET/MEMORY          0x4CB3
+          SEARCH/SELECT            0x2CD3
+          BWD                      0x6C93
+          KEY_FORWARD              0xAC53                    #  Was: FWD
+          AUDIO-DUB                0xCC33
+          AV-INSERT                0xDA25
+          KEY_REWIND               0x40BF                    #  Was: REW
+          KEY_PLAY                 0x807F                    #  Was: PLAY
+          KEY_FASTFORWARD          0x00FF                    #  Was: FF
+          KEY_KPMINUS              0x0AF5                    #  Was: -
+          KEY_STOP                 0xE817                    #  Was: STOP
+          KEY_KPPLUS               0x08F7                    #  Was: +
+          KEY_PAUSE                0x20DF                    #  Was: PAUSE
+          KEY_SLOW                 0xA05F                    #  Was: SLOW
+          X2                       0xAA55
+      end codes
+
+end remote
+
+

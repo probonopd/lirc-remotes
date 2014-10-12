@@ -1,0 +1,44 @@
+#
+# this config file was automatically generated
+# using WinLIRC 0.6.4 (LIRC 0.6.1pre3) on Fri Aug 08 17:41:01 2003
+#
+# contributed by
+#
+# brand:             avtoolbox
+# model:             SW-5070
+# supported devices: avt-5842mx
+#
+# avtoolbox.com avt-5842mx component video switch
+#
+
+begin remote
+
+  name  hdswitch
+  bits           16
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  header       8992  4473
+  one           609   510
+  zero          609  1635
+  ptrail        609
+  repeat       9026  2207
+  pre_data_bits   16
+  pre_data       0xFB04
+  gap          39862
+  toggle_bit      0
+
+
+      begin codes
+          KEY_1                    0x0000000000000FF0        #  Was: 11
+          KEY_2                    0x000000000000F708        #  Was: 12
+          KEY_3                    0x000000000000B748        #  Was: 13
+          KEY_4                    0x00000000000037C8        #  Was: 14
+          KEY_1                    0x000000000000DF20        #  Was: 21
+          KEY_2                    0x0000000000005FA0        #  Was: 22
+          KEY_3                    0x0000000000009F60        #  Was: 23
+          KEY_4                    0x0000000000004FB0        #  Was: 24
+          KEY_POWER                0x000000000000C738
+      end codes
+end remote

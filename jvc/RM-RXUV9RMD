@@ -1,0 +1,65 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.3 on Sat Apr 21 19:10:51 2001
+#
+# contributed by Jens Granseuer <jensgr@gmx.net>
+#
+# brand: JVC
+# model: RM-RXUV9RMD
+#
+
+begin remote
+
+  name  RM-RXUV9RMD
+  bits           14
+  flags SPACE_ENC|NO_HEAD_REP|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       8491  4166
+  one           567  1537
+  zero          567   488
+  ptrail        568
+  pre_data_bits   2
+  pre_data       0x3
+  gap          46364
+  toggle_bit      0
+
+      begin codes
+          KEY_POWER                0x00000000000005E8        #  Was: POWER
+          KEY_SLEEP                0x00000000000005C0        #  Was: SLEEP
+          DIMMER                   0x0000000000000D4A
+          DISPLAY                  0x000000000000050E
+          FM-MODE                  0x000000000000055A
+          TAPE-AUX                 0x000000000000057C
+          AHB-PRO                  0x00000000000005AE
+          AUTO-PRESET              0x00000000000005EE
+          CD-EJECT                 0x0000000000000D22
+          PROGRAM                  0x0000000000000D56
+          RANDOM                   0x0000000000000D4E
+          KEY_AGAIN                0x0000000000000DDA        #  Was: REPEAT
+          BASS                     0x0000000000003578
+          TREBLE                   0x0000000000003574
+          KEY_CANCEL               0x0000000000000DB6        #  Was: CANCEL
+          EDIT-TITLE               0x0000000000003D91
+          CHARA                    0x0000000000003D1D
+          KEY_UP                   0x0000000000003500        #  Was: UP
+          KEY_DOWN                 0x0000000000003580        #  Was: DOWN
+          KEY_LEFT                 0x00000000000035C0        #  Was: LEFT
+          KEY_RIGHT                0x0000000000003540        #  Was: RIGHT
+          PTY-EON                  0x00000000000035A1
+          DISPLAY-MODE             0x00000000000035C1
+          SET                      0x0000000000003589
+          MD-PLAY-PAUSE            0x000000000000350C
+          CD-PLAY-PAUSE            0x00000000000005BC
+          TUNER-BAND               0x00000000000005DA
+          KEY_PREVIOUS             0x0000000000003560        #  Was: PREV
+          KEY_STOP                 0x0000000000000DC2        #  Was: STOP
+          KEY_NEXT                 0x00000000000035A0        #  Was: NEXT
+          KEY_VOLUMEUP             0x0000000000000578        #  Was: VOL-UP
+          KEY_VOLUMEDOWN           0x00000000000005F8        #  Was: VOL-DOWN
+      end codes
+
+end remote
+
+

@@ -1,0 +1,72 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.5(serial) on Sun Jun  2 18:34:04 2002
+#
+# contributed by Ulrich Mohr
+#
+# brand:                       SONY
+# model no. of remote control: RMT-D114A
+# devices being controlled by this remote: DVP-FX1 (portable DVD player)
+#
+
+begin remote
+
+  name  SONY_DVD
+  bits           11
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       2486   507
+  one          1290   509
+  zero          684   509
+  ptrail        686
+  post_data_bits  8
+  post_data      0xA4
+  gap          44904
+  min_repeat      3
+  toggle_bit      0
+
+
+      begin codes
+          KEY_ENTER                0x0000000000000685        #  Was: ENTER
+          ARROW_LEFT               0x00000000000006F5
+          ARROW_RIGHT              0x00000000000001F5
+          ARROW_UP                 0x00000000000004F5
+          ARROW_DOWN               0x00000000000002F5
+          KEY_PLAY                 0x0000000000000265        #  Was: PLAY
+          KEY_PAUSE                0x00000000000004E5        #  Was: PAUSE
+          KEY_STOP                 0x00000000000000E5        #  Was: STOP
+          SKIP_BACKWARD            0x0000000000000065
+          SKIP_FORWAD              0x0000000000000465
+          KEY_CLEAR                0x0000000000000785        #  Was: CLEAR
+          NUMBER_1                 0x0000000000000005
+          NUMBER_2                 0x0000000000000405
+          NUMBER_3                 0x0000000000000205
+          NUMBER_4                 0x0000000000000605
+          NUMBER_5                 0x0000000000000105
+          NUMBER_6                 0x0000000000000505
+          NUMBER_7                 0x0000000000000305
+          NUMBER_8                 0x0000000000000705
+          NUMBER_9                 0x0000000000000085
+          NUMBER_0                 0x0000000000000485
+          KEY_POWER                0x0000000000000545        #  Was: POWER_ON_OFF
+          KEY_AGAIN                0x00000000000001A5        #  Was: REPEAT
+          SHUFFLE                  0x0000000000000565
+          KEY_AUDIO                0x0000000000000135        #  Was: AUDIO
+          SCAN_FORWARD             0x0000000000000625
+          SCAN_BACKWARD            0x0000000000000225
+          KEY_ANGLE                0x0000000000000535        #  Was: ANGLE
+          PROGRAM                  0x00000000000007C5
+          KEY_SUBTITLE             0x0000000000000635        #  Was: SUBTITLE
+          KEY_TITLE                0x00000000000002C5        #  Was: TITLE
+          DISPLAY                  0x0000000000000155
+          KEY_MENU                 0x00000000000006C5        #  Was: MENU
+          KEY_ENTER                0x0000000000000385        #  Was: RETURN
+          TIME_TEXT                0x00000000000000A5
+      end codes
+
+end remote
+
+
+

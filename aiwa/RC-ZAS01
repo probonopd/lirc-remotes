@@ -1,0 +1,68 @@
+# this config file was automatically generated
+# using lirc-0.6.5(serial) on Thu May  9 15:33:20 2002
+#
+# contributed by comcute <comcute@windows-sucks.com>
+#
+# brand:                       aiwa
+# model no. of remote control: RC-ZAS01
+# devices being controlled by this remote: home-brew ir receiver
+#
+
+begin remote
+
+  name  aiwa
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       8861  4518
+  one           516   610
+  zero          516  1702
+  ptrail        516
+  pre_data_bits   26
+  pre_data       0x227EEC0
+  gap          106806
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x000000000000FF00        #  Was: power
+          KEY_PLAY                 0x000000000000FD02        #  Was: play
+          KEY_PAUSE                0x000000000000DD22        #  Was: pause
+          KEY_STOP                 0x0000000000007D82        #  Was: stop
+          KEY_NEXT                 0x000000000000BD42        #  Was: next
+          KEY_PREVIOUS             0x0000000000003DC2        #  Was: prev
+          KEY_VOLUMEUP             0x0000000000004DB2        #  Was: vol_up
+          KEY_VOLUMEDOWN           0x0000000000008D72        #  Was: vol_down
+          KEY_1                    0x0000000000007F80        #  Was: 1
+          KEY_2                    0x000000000000BF40        #  Was: 2
+          KEY_3                    0x0000000000003FC0        #  Was: 3
+          KEY_4                    0x000000000000DF20        #  Was: 4
+          KEY_5                    0x0000000000005FA0        #  Was: 5
+          KEY_6                    0x0000000000009F60        #  Was: 6
+          KEY_7                    0x0000000000001FE0        #  Was: 7
+          KEY_8                    0x000000000000EF10        #  Was: 8
+          KEY_9                    0x0000000000006F90        #  Was: 9
+          KEY_0                    0x000000000000AF50        #  Was: 0
+          KEY_10CHANNELSUP         0x0000000000002FD0        #  Was: +10
+          function                 0x0000000000008778
+          ddp1                     0x000000000000758A
+          ddp2                     0x000000000000B54A
+          ddp3                     0x00000000000035CA
+          s_1                      0x00000000000017E8
+          s_2                      0x0000000000006798
+          s_3                      0x00000000000057A8
+          s_4                      0x0000000000006D92
+          s_5                      0x000000000000F50A
+          s_6                      0x0000000000001DE2
+          s_7                      0x000000000000CF30
+          s_8                      0x0000000000008F70
+          s_9                      0x0000000000007788
+          s_0                      0x000000000000B748
+          s_+10                    0x000000000000C738
+      end codes
+
+end remote
+
+

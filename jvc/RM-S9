@@ -1,0 +1,111 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.6(serial) on Sat Feb  1 19:07:27 2003
+#
+# contributed by Pyry Hakulinen <pyh@pyh.titanix.net>
+#
+# brand:                       JVC
+# model no. of remote control: RM-S9
+# devices being controlled by this remote: CD player, vcr, tape, amplifier
+#
+
+begin remote
+
+  name  RM-S9
+  bits           16
+  flags SPACE_ENC|NO_HEAD_REP
+  eps            30
+  aeps          100
+
+  header       8522  4126
+  one           604  1502
+  zero          604   447
+  ptrail        579
+  gap          22580
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x000000000000C2D0        #  Was: power_vcr
+          KEY_POWER                0x000000000000C0E8        #  Was: power_tv
+          KEY_POWER                0x000000000000C5E8        #  Was: power_audio
+          sleep_timer              0x000000000000C5C0
+          KEY_1                    0x000000000000C584        #  Was: 1
+          KEY_2                    0x000000000000C544        #  Was: 2
+          KEY_3                    0x000000000000C5C4        #  Was: 3
+          KEY_4                    0x000000000000C524        #  Was: 4
+          KEY_5                    0x000000000000C5A4        #  Was: 5
+          KEY_6                    0x000000000000C564        #  Was: 6
+          KEY_7                    0x000000000000C5E4        #  Was: 7
+          KEY_8                    0x000000000000C514        #  Was: 8
+          KEY_9                    0x000000000000C594        #  Was: 9
+          KEY_0                    0x000000000000C504        #  Was: 0
+          KEY_KPMINUS              0x000000000000C518        #  Was: -
+          KEY_KPPLUS               0x000000000000C598        #  Was: +
+          sea_1                    0x000000000000C58C
+          sea_2                    0x000000000000C54C
+          sea_3                    0x000000000000C5CC
+          sea_4                    0x000000000000C52C
+          sea_5                    0x000000000000C5AC
+          sea_6                    0x000000000000C56C
+          sea_7                    0x000000000000C5EC
+          sea_+                    0x000000000000C55C
+          sea_-                    0x000000000000C5DC
+          sea_source               0x000000000000C50C
+          sea_preset               0x000000000000C51C
+          KEY_VIDEO                0x000000000000C084        #  Was: video_1
+          KEY_VIDEO                0x000000000000C044        #  Was: video_2
+          KEY_VIDEO                0x000000000000C0C4        #  Was: video_3
+          KEY_VIDEO                0x000000000000C024        #  Was: video_4
+          KEY_VIDEO                0x000000000000C0A4        #  Was: video_5
+          KEY_VIDEO                0x000000000000C064        #  Was: video_6
+          KEY_VIDEO                0x000000000000C0E4        #  Was: video_7
+          KEY_VIDEO                0x000000000000C014        #  Was: video_8
+          KEY_VIDEO                0x000000000000C094        #  Was: video_9
+          KEY_VIDEO                0x000000000000C004        #  Was: video_0
+          KEY_VIDEO                0x000000000000C098        #  Was: video_+
+          KEY_VIDEO                0x000000000000C018        #  Was: video_-
+          KEY_RADIO                0x000000000000C510        #  Was: fm
+          am                       0x000000000000C590
+          KEY_VIDEO                0x000000000000C508        #  Was: video1
+          KEY_VIDEO                0x000000000000C548        #  Was: video2
+          acoustic_expander        0x000000000000C5A0
+          sound_selector           0x000000000000C5A8
+          KEY_VCR                  0x000000000000C588        #  Was: vcr
+          phono                    0x000000000000C53C
+          KEY_CD                   0x000000000000C5BC        #  Was: cd
+          tape1                    0x000000000000C5FC
+          vcr_skip_-               0x000000000000C218
+          vcr_skip_+               0x000000000000C298
+          vcr_stop                 0x000000000000C2C0
+          vcr_play                 0x000000000000C230
+          phono_skip_-             0x000000000000CD18
+          phono_skip_+             0x000000000000CD98
+          phono_stop               0x000000000000CDC0
+          phono_play               0x000000000000CD30
+          cd_skip_-                0x000000000000CD1A
+          cd_skip_+                0x000000000000CD98
+          cd_skip_-                0x000000000000CD1A
+          cd_skip_+                0x000000000000CD9A
+          cd_stop                  0x000000000000CDC2
+          cd_play                  0x000000000000CD32
+          tape1_skip_-             0x000000000000C118
+          tape1_skip_+             0x000000000000C198
+          tape1_stop               0x000000000000C1C2
+          tape1_play               0x000000000000C132
+          tape_control_pause       0x000000000000C1B0
+          tape_control_stop        0x000000000000C1C0
+          tape_control_rew         0x000000000000C1E0
+          tape_control_fwd         0x000000000000C160
+          tape_control_play        0x000000000000C130
+#         vcr_control_pause        0x000000000000C2B0
+#         vcr_control_stop         0x000000000000C2C0
+          vcr_control_rew          0x000000000000C2E0
+          vcr_control_fwd          0x000000000000C260
+          vcr_control_play         0x000000000000C230
+          KEY_MUTE                 0x000000000000C538        #  Was: mute
+          KEY_VOLUMEDOWN           0x000000000000C5F8        #  Was: volume-
+          KEY_VOLUMEUP             0x000000000000C578        #  Was: volume+
+      end codes
+
+end remote

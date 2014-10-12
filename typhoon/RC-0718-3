@@ -1,0 +1,60 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.0(serial) on Thu Mar  2 15:45:52 2006
+#
+# contributed by
+#
+# brand:                                        Typhoon
+# model no. of remote control: 			Typhoon RC-0718-3
+# devices being controlled by this remote:	Typhoon PCI TV Capture Card
+#
+
+begin remote
+
+  name  Typhoon_RC-0718-3
+  bits           16
+  flags SPACE_ENC
+  eps            30
+  aeps          100
+
+  header       9063  4500
+  one           576  1683
+  zero          576   562
+  ptrail        576
+  pre_data_bits   26
+  pre_data       0x1A1F2F
+  gap          93939
+  repeat       9063  4500
+  toggle_bit      0
+
+
+      begin codes
+          Snap                     0x708F
+          KEY_RECORD               0x8877                    #  Was: Rec
+          KEY_STOP                 0xA857                    #  Was: Stop
+          Pow                      0x00FF
+          AVSrc                    0x18E7
+          FS                       0x40BF
+          KEY_AUDIO                0x58A7                    #  Was: Audio
+          KEY_MUTE                 0xD827                    #  Was: Mute
+          KEY_1                    0xC03F                    #  Was: 1
+          KEY_2                    0x20DF                    #  Was: 2
+          KEY_3                    0xA05F                    #  Was: 3
+          KEY_4                    0xE01F                    #  Was: 4
+          KEY_5                    0x10EF                    #  Was: 5
+          KEY_6                    0x906F                    #  Was: 6
+          KEY_7                    0xD02F                    #  Was: 7
+          KEY_8                    0x30CF                    #  Was: 8
+          KEY_9                    0xB04F                    #  Was: 9
+          KEY_0                    0xF00F                    #  Was: 0
+          KEY_VOLUMEUP             0x28D7                    #  Was: Vol+
+          KEY_VOLUMEDOWN           0xE817                    #  Was: Vol-
+          KEY_CHANNELUP            0x48B7                    #  Was: Ch+
+          KEY_CHANNELDOWN          0xC837                    #  Was: Ch-
+          KEY_ENTER                0x08F7                    #  Was: Enter
+          KEY_AGAIN                0x609F                    #  Was: Recall
+      end codes
+
+end remote
+
+

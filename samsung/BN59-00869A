@@ -1,0 +1,73 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.6(default) on Mon May  3 02:23:42 2010
+#
+# contributed by El Sabi
+#
+# brand: Samsung
+# model no. of remote control: BN59-00869A
+# devices being controlled by this remote: LCD TV LN32B450
+#
+
+begin remote
+
+  name  Samsung_BN59-00869A
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       4608  4398
+  one           655  1588
+  zero          655   472
+  ptrail        647
+  pre_data_bits   16
+  pre_data       0xE0E0
+  gap          108161
+  toggle_bit_mask 0x0
+
+      begin codes
+          BTN_POWER                0x40BF
+          BTN_TV                   0xD827
+          BTN_1                    0x20DF
+          BTN_2                    0xA05F
+          BTN_3                    0x609F
+          BTN_4                    0x10EF
+          BTN_5                    0x906F
+          BTN_6                    0x50AF
+          BTN_7                    0x30CF
+          BTN_8                    0xB04F
+          BTN_9                    0x708F
+          BTN_MINUS                0xC43B
+          BTN_0                    0x8877
+          BTN_PRE_CH               0xC837
+          BTN_MUTE                 0xF00F
+          BTN_SOURCE               0x807F
+          KEY_VOLUMEUP             0xE01F                    #  Was: VOL_UP
+          KEY_VOLUMEDOWN           0xD02F                    #  Was: VOL_DOWN
+          BTN_CH+                  0x48B7
+          BTN_CH-                  0x08F7
+          BTN_CH_LIST              0xD629
+          BTN_MENU                 0x58A7
+          BTN_FAV_CH               0x22DD
+          BTN_TOOLS                0xD22D
+          BTN_RETURN               0x1AE5
+          BTN_INFO                 0xF807
+          KEY_EXIT                 0xB44B                    #  Was: BTN_EXIT
+          BTN_UP                   0x06F9
+          BTN_LEFT                 0xA659
+          BTN_RIGHT                0x46B9
+          BTN_DOWN                 0x8679
+          BTN_ENTER                0x16E9
+          BTN_RED                  0x36C9
+          BTN_GREEN                0x28D7
+          BTN_YELLOW               0xA857
+          BTN_BLUE                 0x6897
+          BTN_PSIZE                0x7C83
+          BTN_GUIDE                0xF20D
+          BTN_CC                   0xA45B
+      end codes
+
+end remote
+
+

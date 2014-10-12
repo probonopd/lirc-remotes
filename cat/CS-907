@@ -1,0 +1,78 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.6(irdeo) on Fri Dec 13 18:39:18 2002
+#
+# contributed by Michael Mauch
+#
+# brand:                       CAT
+# model no. of remote control: CS-907
+# devices being controlled by this remote: CS-907 digital surround receiver
+#
+
+begin remote
+
+  name  CS-907
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9082  4443
+  one           618  1631
+  zero          618   507
+  ptrail        617
+  repeat       9083  2194
+  pre_data_bits   16
+  pre_data       0xFD
+  gap          108034
+  toggle_bit      0
+
+
+      begin codes
+          KEY_SLEEP                0x00000000000028D7        #  Was: Standby
+          KEY_MUTE                 0x00000000000008F7        #  Was: Mute
+          KEY_DVD                  0x00000000000010EF        #  Was: DVD
+          KEY_VCR                  0x00000000000012ED        #  Was: VCR
+          KEY_TAPE                 0x000000000000926D        #  Was: Tape
+          KEY_AUX                  0x00000000000052AD        #  Was: Aux
+          KEY_CD                   0x000000000000906F        #  Was: CD
+          Opt                      0x000000000000B847
+          Coax                     0x000000000000F807
+          FMAM                     0x000000000000EA15
+          KEY_1                    0x000000000000B04F        #  Was: 1
+          KEY_2                    0x0000000000009867        #  Was: 2
+          KEY_3                    0x000000000000D827        #  Was: 3
+          KEY_4                    0x000000000000827D        #  Was: 4
+          KEY_5                    0x0000000000008877        #  Was: 5
+          KEY_6                    0x000000000000A857        #  Was: 6
+          KEY_7                    0x000000000000E817        #  Was: 7
+          KEY_8                    0x000000000000629D        #  Was: 8
+          KEY_9                    0x00000000000048B7        #  Was: 9
+          KEY_0                    0x0000000000009A65        #  Was: 0
+          PreTun                   0x000000000000CA35
+          Memo                     0x000000000000AA55
+          Auto                     0x0000000000006A95
+          FMMode                   0x00000000000000FF
+          Dimmer                   0x000000000000C23D
+          DSPDown                  0x00000000000018E7
+          DSPUp                    0x000000000000FA05
+          Direct                   0x0000000000000AF5
+          DolbyDigital             0x000000000000609F
+          Test                     0x000000000000A05F
+          ProLogic                 0x000000000000E21D
+          Bypass                   0x000000000000E01F
+          X_KEY_3Stereo            0x00000000000002FD        #  Was: KEY_3Stereo
+          KEY_DOWN                 0x000000000000A25D        #  Was: Down
+          DTS                      0x00000000000022DD
+          KEY_UP                   0x0000000000007A85        #  Was: Up
+          Config                   0x000000000000F00F
+          Delay                    0x00000000000050AF
+          ChLevel                  0x0000000000007887
+          Reset                    0x000000000000C03F
+          KEY_VOLUMEDOWN           0x00000000000042BD
+          KEY_VOLUMEUP             0x00000000000040BF        #  Was: VolUp
+      end codes
+
+end remote
+
+

@@ -1,0 +1,50 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.3pre1(default) on Sat Feb 28 21:11:21 2009
+#
+# contributed by
+#
+# brand:                       Arcam
+# model no. of remote control:
+# devices being controlled by this remote: receiver
+#
+
+begin remote
+
+  name  Arcam
+  bits           13
+  flags RC5|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           905   854
+  zero          905   854
+  plead         907
+  gap          112271
+  toggle_bit_mask 0x800
+
+      begin codes
+          KEY_SAT                  0x1400                    #  Was: sat
+          KEY_DVD                  0x1404                    #  Was: dvd
+          KEY_VCR                  0x1406                    #  Was: vcr
+          KEY_AUX                  0x1408                    #  Was: aux
+          KEY_TAPE                 0x1405                    #  Was: tape
+          KEY_CD                   0x1407                    #  Was: cd
+          KEY_RADIO                0x1435                    #  Was: fm
+          am                       0x1434
+          KEY_INFO                 0x1437                    #  Was: info
+          tmode                    0x1436
+          KEY_CHANNELDOWN          0x1439                    #  Was: p-
+          KEY_CHANNELUP            0x1438                    #  Was: p+
+          KEY_VOLUMEUP             0x1410                    #  Was: volup
+          KEY_VOLUMEDOWN           0x1411                    #  Was: voldown
+          KEY_MUTE                 0x140D                    #  Was: mute
+          KEY_OK                   0x0417                    #  Was: ok
+          KEY_MODE                 0x1420                    #  Was: mode
+          dyn                      0x143E
+          trim                     0x1425
+      end codes
+
+end remote
+
+

@@ -1,0 +1,180 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.1 on Wed Aug  9 12:21:32 2000
+#
+# contributed by     Guy Hirson (guy@ghirson.demon.co.uk)
+# manually edited by Alexander Werth (werth@gelnhausen.net)
+# updated by Joerg Jenderek (joerg.jen.der.ek at gmx.net)
+#
+# brand:             jvc
+# model:             lp20337-004
+# supported devices: vcr
+#
+
+begin remote
+
+  name  jvc-lp20337-004-vcr
+  bits           16
+  flags SPACE_ENC|NO_HEAD_REP|CONST_LENGTH
+  eps            30
+  aeps          100
+
+# original values
+# header       8650  4000
+# one           713  1394
+# zero          713   342
+# ptrail        709
+# gap          46030
+#
+# modified by Joerg Jenderek timing values to match actual values
+# for socketA VIA KT880 motherboard Asus A7V880
+# using lirc-0.8.2(default) on Sun Jun  2 19:55:14 2008
+  header       8471  4155
+  one           583  1520
+  zero          583   471
+  ptrail        581
+  gap          45949
+#
+  toggle_bit      0
+
+
+      begin codes
+          KEY_0                    0x000000000000C2CC        #  Was: 0
+          KEY_1                    0x000000000000C284        #  Was: 1
+          KEY_2                    0x000000000000C244        #  Was: 2
+          KEY_3                    0x000000000000C2C4        #  Was: 3
+          KEY_4                    0x000000000000C224        #  Was: 4
+          KEY_5                    0x000000000000C2A4        #  Was: 5
+          KEY_6                    0x000000000000C264        #  Was: 6
+          KEY_7                    0x000000000000C2E4        #  Was: 7
+          KEY_8                    0x000000000000C214        #  Was: 8
+          KEY_9                    0x000000000000C294        #  Was: 9
+          KEY_X                    0x000000000000C26C        #  Was: X
+          KEY_POWER                0x000000000000C2D0        #  Was: Power
+          KEY_AUDIO                0x000000000000C2E8        #  Was: AUDIO
+          Timer                    0x000000000000C2AC
+          Start+                   0x000000000000C213
+          Start-                   0x000000000000C293
+          Stop+                    0x000000000000C253
+          Stop-                    0x000000000000C2D3
+          Date+                    0x000000000000C263
+          Date-                    0x000000000000C2E3
+          KEY_CHANNELUP            0x000000000000C298        #  Was: Prog+
+          KEY_CHANNELDOWN          0x000000000000C218        #  Was: Prog-
+          TV/VCR                   0x000000000000C2C8
+          Timer?                   0x000000000000C2BC
+          --:--                    0x000000000000C21C
+          PROG                     0x000000000000C283
+          SP/LP                    0x000000000000C28C
+          KEY_REWIND               0x000000000000C2E0        #  Was: <<
+          >                        0x000000000000C230
+          KEY_FORWARD              0x000000000000C260        #  Was: >>
+          KEY_NUMERIC_POUND        0x000000000000C2C0        #  Was: #
+          ||                       0x000000000000C2B0
+          KEY_PREVIOUS             0x000000000000C2A8        #  Was: |<<
+          KEY_NEXT                 0x000000000000C228        #  Was: >>|
+          KEY_MENU                 0x000000000000C2EC        #  Was: MENU
+          KEY_OK                   0x000000000000C23C        #  Was: OK
+          KEY_RECORD               0x000000000000C233        #  Was: rec
+          KEY_RECORD               0x000000000000C2B3        #  Was: recpause
+          ReView                   0x000000000000C2C3
+          X_KEY_0Sec               0x000000000000C269        #  Was: KEY_0Sec
+      end codes
+
+end remote
+
+#
+# brand:             jvc
+# model:             lp20337-004
+# supported devices: tv
+#
+
+begin remote
+
+  name  jvc-lp20337-004-tv
+  bits           16
+  flags SPACE_ENC|NO_HEAD_REP|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       8650  4000
+  one           713  1394
+  zero          713   342
+  ptrail        709
+  gap          46030
+  toggle_bit      0
+
+
+      begin codes
+          KEY_0                    0x000000000000C004        #  Was: 0
+          KEY_1                    0x000000000000C084        #  Was: 1
+          KEY_2                    0x000000000000C044        #  Was: 2
+          KEY_3                    0x000000000000C0C4        #  Was: 3
+          KEY_4                    0x000000000000C024        #  Was: 4
+          KEY_5                    0x000000000000C0A4        #  Was: 5
+          KEY_6                    0x000000000000C064        #  Was: 6
+          KEY_7                    0x000000000000C0E4        #  Was: 7
+          KEY_8                    0x000000000000C014        #  Was: 8
+          KEY_9                    0x000000000000C094        #  Was: 9
+          KEY_X                    0x000000000000C00E        #  Was: X
+          KEY_POWER                0x000000000000C0E8        #  Was: Power
+          KEY_AUDIO                0x000000000000C038        #  Was: AUDIO
+          Timer                    0x000000000000C08E
+          TV/VCR                   0x000000000000C0C8
+          SP/LP                    0x000000000000C0B9
+          KEY_CHANNELUP            0x000000000000C098        #  Was: Prog+
+          KEY_CHANNELDOWN          0x000000000000C018        #  Was: Prog-
+          KEY_VOLUMEDOWN           0x000000000000C0F8        #  Was: Vol-
+          KEY_VOLUMEUP             0x000000000000C078        #  Was: Vol+
+      end codes
+
+end remote
+
+#
+# brand:             JVC
+# model:             LP20337-004
+# supported devices: SAT
+#
+
+begin remote
+
+  name  LP20337-004-SAT-BIT
+  bits           13
+  flags SPACE_ENC|CONST_LENGTH
+  eps           30
+  aeps          200
+
+  header       9201  4309
+  one           739  1508
+  zero          739   384
+  ptrail        737
+  repeat       9203  2065
+  pre_data_bits   16
+  pre_data       0x4186
+  post_data_bits  3
+  post_data      0x7
+  gap          107402
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x0000000000000C13        #  Was: POWER
+          KEY_1                    0x000000000000011E        #  Was: 1
+          KEY_2                    0x000000000000031C        #  Was: 2
+          KEY_3                    0x000000000000110E        #  Was: 3
+          KEY_4                    0x000000000000130C        #  Was: 4
+          KEY_5                    0x0000000000000916        #  Was: 5
+          KEY_6                    0x0000000000000B14        #  Was: 6
+          KEY_7                    0x0000000000001906        #  Was: 7
+          KEY_8                    0x0000000000001B04        #  Was: 8
+          KEY_9                    0x0000000000001E01        #  Was: 9
+          KEY_0                    0x0000000000000E11        #  Was: 0
+          KEY_UP                   0x000000000000150A        #  Was: Up
+          KEY_DOWN                 0x000000000000051A        #  Was: Down
+          SP/LP                    0x0000000000001A05
+      end codes
+
+end remote
+
+
+

@@ -1,0 +1,50 @@
+
+begin remote
+
+  name    Zolid_ZOL100
+
+  flags   SPACE_ENC|CONST_LENGTH
+
+  bits             16
+  pre_data_bits    16
+  toggle_bit        0
+  eps              30
+  aeps            100
+
+  header   9000  4500
+  one       560  1690
+  zero      560   560
+  ptrail          560
+  repeat   9000  2250
+  gap          110000
+
+  pre_data 0x00f7
+
+  begin codes
+          KEY_DVD                  0x17e8                    #  Was: DVD
+          KEY_AUDIO                0x16e9                    #  Was: Music
+      Present  0x15ea
+          KEY_EXIT                 0x14eb                    #  Was: Exit
+          KEY_PREVIOUS             0x13ec                    #  Was: Previous
+          KEY_PLAY                 0x12ed                    #  Was: Play
+          KEY_NEXT                 0x11ee                    #  Was: Next
+      Screen   0x10ef
+          KEY_REWIND               0x0ff0                    #  Was: Rewind
+          KEY_PAUSE                0x0ef1                    #  Was: Pause
+          KEY_FORWARD              0x0df2                    #  Was: Forward
+          KEY_CHANNELUP            0x0cf3                    #  Was: Channel+
+          KEY_ESC                  0x0bf4                    #  Was: ESC
+          KEY_UP                   0x0af5                    #  Was: Up
+          KEY_STOP                 0x09f6                    #  Was: Stop
+          KEY_CHANNELDOWN          0x08f7                    #  Was: Channel-
+          KEY_LEFT                 0x07f8                    #  Was: Left
+          KEY_OK                   0x06f9                    #  Was: OK
+          KEY_RIGHT                0x05fa                    #  Was: Right
+          KEY_VOLUMEUP             0x04fb                    #  Was: Vol+
+          KEY_MENU                 0x03fc                    #  Was: Menu
+          KEY_DOWN                 0x02fd                    #  Was: Down
+          KEY_MUTE                 0x01fe                    #  Was: Mute
+          KEY_VOLUMEDOWN           0x00ff                    #  Was: Vol-
+  end codes
+
+end remote

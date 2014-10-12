@@ -1,0 +1,53 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.6(serial) on Sun May  4 20:51:50 2003
+#
+# contributed by
+#
+# brand:                       ProPlay
+# model no. of remote control: Playstation 2 DVD Remote
+# devices being controlled by this remote:
+#
+
+begin remote
+
+  name  ProPlay_PS2
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9113  4389
+  one           637  1615
+  zero          637   485
+  ptrail        654
+  repeat       9111  2148
+  pre_data_bits   16
+  pre_data       0x6F
+  gap          107995
+  toggle_bit      0
+
+
+      begin codes
+          KEY_BACK                 0x00000000000010EF        #  Was: back
+          KEY_PLAYPAUSE            0x00000000000020DF        #  Was: play/pause
+          KEY_NEXT                 0x000000000000A05F        #  Was: next
+          fast_backward            0x000000000000609F
+          KEY_STOP                 0x000000000000E01F        #  Was: stop
+          KEY_FASTFORWARD          0x000000000000D02F        #  Was: fast_forward
+          nicam                    0x000000000000F00F
+          select_menu              0x00000000000040BF
+          KEY_MENU                 0x000000000000807F        #  Was: dvd_menu
+          game/remote              0x00000000000008F7
+          enter/ok                 0x000000000000C03F
+          KEY_SELECT               0x00000000000000FF        #  Was: select
+          caption                  0x00000000000050AF
+          KEY_UP                   0x000000000000906F        #  Was: up
+          KEY_DOWN                 0x000000000000B04F        #  Was: down
+          KEY_LEFT                 0x00000000000030CF        #  Was: left
+          KEY_RIGHT                0x000000000000708F        #  Was: right
+      end codes
+
+end remote
+
+

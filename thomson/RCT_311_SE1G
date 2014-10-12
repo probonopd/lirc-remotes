@@ -1,0 +1,75 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.6(default) on Wed Aug 25 21:39:33 2010
+#
+# contributed by Ken Kilfedder
+#
+# brand:	THOMSON
+# model no. of remote control: RCT 311 SE1G
+# devices being controlled by this remote: THOMSON DHD4000 DVR
+#
+
+begin remote
+
+  name  Thomson_RCT_311_SE1G
+  bits           12
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           511  4548
+  zero          511  2033
+  ptrail        502
+  gap          80222
+  min_repeat      1
+  toggle_bit_mask 0x80
+
+      begin codes
+          STB                      0xA4F
+          KEY_POWER                0xA1D                     #  Was: POWER
+          KEY_DVD                  0x44F                     #  Was: DVD
+          KEY_TV                   0x32F                     #  Was: TV
+          KEY_VOLUMEUP             0x329                     #  Was: VOL+
+          KEY_CHANNELUP            0x325                     #  Was: PR+
+          KEY_MUTE                 0x305                     #  Was: MUTE
+          KEY_INFO                 0x328                     #  Was: GUIDE
+          KEY_VOLUMEDOWN           0x32A                     #  Was: VOL-
+          KEY_CHANNELDOWN          0x327                     #  Was: PR-
+          KEY_EXIT                 0x33E                     #  Was: EXIT
+          KEY_MENU                 0x331                     #  Was: MENU
+          ARR_UP                   0x30B
+          ARR_LEFT                 0x336
+          ARR_RIGHT                0x337
+          KEY_OK                   0x30C                     #  Was: OK
+          ARR_DOWN                 0x30D
+          KEY_RED                  0x339                     #  Was: RED
+          KEY_GREEN                0x33B                     #  Was: GREEN
+          KEY_YELLOW               0x338                     #  Was: YELLOW
+          KEY_BLUE                 0x315                     #  Was: BLUE
+          PURPLE                   0x31E
+          KEY_1                    0x300                     #  Was: 1
+          KEY_2                    0x308                     #  Was: 2
+          KEY_3                    0x310                     #  Was: 3
+          KEY_4                    0x301                     #  Was: 4
+          KEY_5                    0x309                     #  Was: 5
+          KEY_6                    0x311                     #  Was: 6
+          KEY_7                    0x302                     #  Was: 7
+          KEY_8                    0x30A                     #  Was: 8
+          KEY_9                    0x312                     #  Was: 9
+          AV                       0x318
+          KEY_0                    0x30E                     #  Was: 0
+          WIDE                     0x304
+          REV                      0x320
+          KEY_PLAY                 0x321                     #  Was: PLAY
+          KEY_FORWARD              0x323                     #  Was: FWD
+          KEY_RECORD               0x32C                     #  Was: REC
+          KEY_STOP                 0x32D                     #  Was: STOP
+          KEY_PAUSE                0x32E                     #  Was: PAUSE
+          KEY_AGAIN                0x303                     #  Was: REPLAY
+          LIVE                     0x316
+          KEY_SUBTITLE             0x306                     #  Was: SUBTITLES
+      end codes
+
+end remote
+
+

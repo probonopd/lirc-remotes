@@ -1,0 +1,60 @@
+#
+# this config file was automatically generated
+# using lirc-0.5.4 on Sat Aug 14 12:45:50 1999
+#
+# brand:             MEGATRON
+# model:             FM 105
+# supported devices: huh?
+#
+# this is a config file for the Irman only!
+#
+
+begin remote
+
+  name  MEGATRON
+  bits           15
+  flags SPACE_ENC
+  eps            30
+  aeps          100
+
+  one          1024  3072
+  zero         1024  2048
+  ptrail       1024
+  pre_data_bits   32
+  pre_data       0xFFFF0AF5
+  post_data_bits  17
+  post_data      0x10000
+  gap          65536
+  repeat_bit      0
+
+      begin codes
+          KEY_1                    0x0000000000005827        #  Was: 1
+          KEY_2                    0x0000000000003847        #  Was: 2
+          KEY_3                    0x0000000000007807        #  Was: 3
+          KEY_4                    0x0000000000001C63        #  Was: 4
+          KEY_5                    0x0000000000005C23        #  Was: 5
+          KEY_6                    0x0000000000003C43        #  Was: 6
+          KEY_7                    0x0000000000007C03        #  Was: 7
+          KEY_8                    0x000000000000106F        #  Was: 8
+          KEY_9                    0x000000000000502F        #  Was: 9
+          KEY_0                    0x0000000000001867        #  Was: 0
+          KEY_VOLUMEUP             0x000000000000245B        #  Was: volup
+          KEY_VOLUMEDOWN           0x000000000000542B        #  Was: voldown
+          KEY_AGAIN                0x000000000000047B        #  Was: recall
+          lstch                    0x0000000000002857
+          KEY_POWER                0x000000000000304F        #  Was: power
+          KEY_0                    0x000000000000304F        #  Was: 100
+          KEY_MENU                 0x000000000000651A        #  Was: menu
+          KEY_ENTER                0x0000000000006619        #  Was: enter
+          KEY_MUTE                 0x0000000000006817        #  Was: mute
+          KEY_CHANNELUP            0x0000000000004C33        #  Was: chup
+          KEY_CHANNELDOWN          0x0000000000000C73        #  Was: chdown
+          smallup                  0x0000000000000778
+          smalldown                0x0000000000004738
+          smallright               0x0000000000002758
+          smallleft                0x0000000000006718
+      end codes
+
+end remote
+
+

@@ -1,0 +1,71 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.1 on Mon Feb 26 09:29:14 2001
+#
+# contributed by
+#
+# brand:             Apple
+# model:          
+# supported devices: CD player
+#
+
+begin remote
+
+  name  CD
+  bits           13
+  flags RC5|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           877   901
+  zero          877   901
+  plead        1039
+  gap          113679
+  toggle_bit      2
+
+
+      begin codes
+          prog                     0x00000000000013A4
+          store                    0x0000000000001BA9
+          insert                   0x00000000000003B9
+          KEY_NEXT                 0x0000000000001BBA        #  Was: skip
+          fts/fps                  0x00000000000003AC
+          KEY_EDIT                 0x0000000000001BAA        #  Was: edit
+          KEY_1                    0x0000000000001381        #  Was: 1
+          KEY_2                    0x0000000000001B82        #  Was: 2
+          KEY_3                    0x0000000000001383        #  Was: 3
+          KEY_4                    0x0000000000001B84        #  Was: 4
+          KEY_5                    0x0000000000001385        #  Was: 5
+          KEY_6                    0x0000000000001B86        #  Was: 6
+          KEY_7                    0x0000000000001387        #  Was: 7
+          KEY_8                    0x0000000000001B88        #  Was: 8
+          KEY_9                    0x0000000000001389        #  Was: 9
+          KEY_0                    0x0000000000001B80        #  Was: 0
+          shuffle                  0x000000000000139C
+          KEY_AGAIN                0x0000000000001B9D        #  Was: repeat
+          rev.play                 0x00000000000013AF
+          ams                      0x0000000000001BAB
+          autoplay                 0x0000000000000BB8
+          KEY_PAUSE                0x00000000000013B0        #  Was: pause
+          KEY_PREVIOUS             0x0000000000001BA1        #  Was: prev
+          KEY_PLAY                 0x00000000000013B5        #  Was: play
+          KEY_NEXT                 0x0000000000001BA0        #  Was: next
+          KEY_REWIND               0x000000000000139F        #  Was: rewind
+          KEY_STOP                 0x0000000000001BB6        #  Was: stop
+          KEY_FASTFORWARD          0x000000000000139E        #  Was: fforward
+          full                     0x0000000000000BBD
+          normal                   0x00000000000003BF
+          rotate_right             0x0000000000000B82
+          rotate_left              0x0000000000000381
+          frame                    0x0000000000000BA1
+          KEY_UP                   0x0000000000000390        #  Was: Up
+          KEY_ZOOM                 0x0000000000000BBE        #  Was: zoom
+          KEY_LEFT                 0x0000000000000395        #  Was: Left
+          KEY_DOWN                 0x0000000000000B91        #  Was: Down
+          KEY_RIGHT                0x0000000000000396        #  Was: Right
+      end codes
+
+end remote
+
+
+

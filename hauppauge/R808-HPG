@@ -1,0 +1,73 @@
+# This config file was automatically generated using
+#  lirc-0.8.6 on Sunday, Sept 19, 2010. Yarr, talk like a pirate day!
+#
+# It is based on a template provided by anton|ganthaler.at and
+#  juergen.wilhelm|aon.at of the linux user group Vorarlberg www.lugv.at
+#
+# For the Hauppauge R808-HPG IR Remote Control.
+#  Reference image: http://lirc.sourceforge.net/remotes/hauppauge/Nova-S.jpg
+#
+# Custom configuration by Doug McGeehan, doug.mcgeehan|mst.edu.
+#
+# brand:                       Hauppauge
+# model no. of remote control: R808-HPG
+# devices being controlled by this remote: ????
+
+begin remote
+
+  name  Hauppauge_R808_HPG
+  bits           13
+  flags RC5|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           944   828
+  zero          944   828
+  plead         980
+  gap          113932
+  min_repeat      1
+  toggle_bit      2
+
+
+      begin codes
+          KEY_UP                   0x0000000000001794        #  Was: Up
+          KEY_DOWN                 0x0000000000001795        #  Was: Down
+          KEY_LEFT                 0x0000000000001796        #  Was: Left
+          KEY_RIGHT                0x0000000000001797        #  Was: Right
+          KEY_POWER                0x00000000000017BD        #  Was: Power
+          KEY_OK                   0x00000000000017A5        #  Was: Ok
+          KEY_MENU                 0x000000000000178D        #  Was: Menu
+          KEY_BACK                 0x000000000000179F        #  Was: Back
+          KEY_RED                  0x000000000000178B        #  Was: Red
+          KEY_GREEN                0x00000000000017AE        #  Was: Green
+          KEY_YELLOW               0x00000000000017B8        #  Was: Yellow
+          KEY_BLUE                 0x00000000000017A9        #  Was: Blue
+          KEY_0                    0x0000000000001780        #  Was: 0
+          KEY_1                    0x0000000000001781        #  Was: 1
+          KEY_2                    0x0000000000001782        #  Was: 2
+          KEY_3                    0x0000000000001783        #  Was: 3
+          KEY_4                    0x0000000000001784        #  Was: 4
+          KEY_5                    0x0000000000001785        #  Was: 5
+          KEY_6                    0x0000000000001786        #  Was: 6
+          KEY_7                    0x0000000000001787        #  Was: 7
+          KEY_8                    0x0000000000001788        #  Was: 8
+          KEY_9                    0x0000000000001789        #  Was: 9
+          KEY_PLAY                 0x00000000000017B5        #  Was: Play
+          KEY_PAUSE                0x00000000000017B0        #  Was: Pause
+          KEY_STOP                 0x00000000000017B6        #  Was: Stop
+          KEY_RECORD               0x00000000000017B7        #  Was: Record
+          KEY_FASTFORWARD          0x00000000000017B4        #  Was: FastFwd
+          FastRwd                  0x00000000000017B2
+          KEY_CHANNELUP            0x00000000000017A0        #  Was: Channel+
+          KEY_CHANNELDOWN          0x00000000000017A1        #  Was: Channel-
+          KEY_VOLUMEUP             0x0000000000001790        #  Was: Volume+
+          KEY_VOLUMEDOWN           0x0000000000001791        #  Was: Volume-
+          KEY_MUTE                 0x000000000000178F        #  Was: Mute
+          Timers                   0x000000000000178A
+          KEY_RECORD               0x000000000000178E        #  Was: Recordings
+          KEY_BACK                 0x000000000000179F        #  Was: Back
+          KEY_RECORD               0x00000000000017B7        #  Was: Record
+          KEY_PAUSE                0x00000000000017B0        #  Was: Pause
+      end codes
+
+end remote

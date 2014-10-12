@@ -1,0 +1,237 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.0(serial) on Wed Apr 12 13:07:22 2006
+#
+# contributed by
+#
+# brand:  Motorola
+# model no. of remote control:  IRC451 (PN:515301-002) Modes 0000,0001,0002,0003
+# devices being controlled by this remote:  Motorola (DSR205 & DSR315) StarChoice receiver
+#
+
+begin remote
+
+  name  Motorola_IRC451_0000
+  bits           12
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       5082  1878
+  one          1102  2874
+  zero         1102   884
+  ptrail       1107
+  gap          99386
+  min_repeat      1
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x605                     #  Was: POWER
+          KEY_UP                   0xC4F                     #  Was: UP
+          KEY_DOWN                 0x045                     #  Was: DOWN
+          KEY_LEFT                 0xB88                     #  Was: LEFT
+          KEY_RIGHT                0x80C                     #  Was: RIGHT
+          KEY_ENTER                0x384                     #  Was: ENTER
+          GOBACK                   0x68F
+          KEY_EXIT                 0xA0F                     #  Was: EXIT
+          KEY_INFO                 0xE4C                     #  Was: INFO
+          KEY_INFO                 0x782                     #  Was: GUIDE
+          KEY_REWIND               0x944                     #  Was: REWIND
+          KEY_PLAY                 0x74D                     #  Was: PLAY
+          KEY_FORWARD              0x148                     #  Was: FORWARD
+          KEY_RECORD               0x54E                     #  Was: RECORD
+          KEY_PAUSE                0x34B                     #  Was: PAUSE
+          KEY_STOP                 0xB47                     #  Was: STOP
+          KEY_CHANNELUP            0xD07                     #  Was: CH_UP
+          KEY_CHANNELDOWN          0x08A                     #  Was: CH_DOWN
+          KEY_LAST                 0x187                     #  Was: LAST
+          INTERESTS                0x581
+          BROWSE                   0x849
+          PPV                      0xB02
+          FUTURE                   0x443
+          KEY_OPTION               0x289                     #  Was: OPTIONS
+          KEY_1                    0xF04                     #  Was: 1
+          KEY_2                    0x886                     #  Was: 2
+          KEY_3                    0x48C                     #  Was: 3
+          KEY_4                    0xE83                     #  Was: 4
+          KEY_5                    0x98B                     #  Was: 5
+          KEY_6                    0xD8D                     #  Was: 6
+          KEY_7                    0x50B                     #  Was: 7
+          KEY_8                    0x901                     #  Was: 8
+          KEY_9                    0x708                     #  Was: 9
+          KEY_0                    0x246                     #  Was: 0
+          KEY_HELP                 0xF8E                     #  Was: HELP
+      end codes
+
+end remote
+
+begin remote
+
+  name  Motorola_IRC451_0001
+  bits           12
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       5074  1909
+  one          1086  2902
+  zero         1086   906
+  ptrail       1090
+  gap          99708
+  min_repeat      1
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x62B                     #  Was: POWER_1
+          UP_1                     0xC61
+          DOWN_1                   0x06B
+          LEFT_1                   0xBA6
+          RIGHT_1                  0x822
+          ENTER_1                  0x3AA
+          GOBACK_1                 0x6A1
+          EXIT_1                   0xA21
+          INFO_1                   0xE62
+          GUIDE_1                  0x7AC
+          KEY_REWIND               0x96A                     #  Was: REWIND_1
+          KEY_PLAY                 0x763                     #  Was: PLAY_1
+          FORWARD_1                0x166
+          KEY_RECORD               0x560                     #  Was: RECORD_1
+          PAUSE_1                  0x365
+          STOP_1                   0xB69
+          CH_UP_1                  0xD29
+          CH_DOWN_1                0x0A4
+          LAST_1                   0x1A9
+          INTERESTS_1              0x5AF
+          BROWSE_1                 0x867
+          PPV_1                    0xB2C
+          FUTURE_1                 0x46D
+          KEY_OPTION               0x2A7                     #  Was: OPTIONS_1
+          KEY_1                    0xF2A                     #  Was: 1_1
+          KEY_1                    0x8A8                     #  Was: 2_1
+          KEY_1                    0x4A2                     #  Was: 3_1
+          KEY_1                    0xEAD                     #  Was: 4_1
+          KEY_1                    0x9A5                     #  Was: 5_1
+          KEY_1                    0xDA3                     #  Was: 6_1
+          KEY_1                    0x525                     #  Was: 7_1
+          KEY_1                    0x92F                     #  Was: 8_1
+          KEY_1                    0x726                     #  Was: 9_1
+          KEY_1                    0x268                     #  Was: 0_1
+          HELP_1                   0xFA0
+      end codes
+
+end remote
+
+begin remote
+
+  name  Motorola_IRC451_0002
+  bits           12
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       5048  1936
+  one          1055  2934
+  zero         1055   941
+  ptrail       1054
+  gap          99772
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x612                     #  Was: POWER_2
+          UP_2                     0xC58
+          DOWN_2                   0x052
+          LEFT_2                   0xB9F
+          RIGHT_2                  0x81B
+          ENTER_2                  0x393
+          GOBACK_2                 0x698
+          EXIT_2                   0xA18
+          INFO_2                   0xE5B
+          GUIDE_2                  0x795
+          KEY_REWIND               0x953                     #  Was: REWIND_2
+          KEY_PLAY                 0x75A                     #  Was: PLAY_2
+          FORWARD_2                0x15F
+          KEY_RECORD               0x559                     #  Was: RECORD_2
+          PAUSE_2                  0x35C
+          STOP_2                   0xB50
+          CH_UP_2                  0xD10
+          CH_DOWN_2                0x09D
+          LAST_2                   0x190
+          INTERESTS_2              0x596
+          BROWSE_2                 0x85E
+          PPV_2                    0xB15
+          FUTURE_2                 0x454
+          KEY_OPTION               0x29E                     #  Was: OPTIONS_2
+          KEY_2                    0xF13                     #  Was: 1_2
+          KEY_2                    0x891                     #  Was: 2_2
+          KEY_2                    0x49B                     #  Was: 3_2
+          KEY_2                    0x49B                     #  Was: 3_2
+          KEY_2                    0xE94                     #  Was: 4_2
+          KEY_2                    0x99C                     #  Was: 5_2
+          KEY_2                    0xD9A                     #  Was: 6_2
+          KEY_2                    0x51C                     #  Was: 7_2
+          KEY_2                    0x916                     #  Was: 8_2
+          KEY_2                    0x71F                     #  Was: 9_2
+          KEY_2                    0x251                     #  Was: 0_2
+          HELP_2                   0xF99
+      end codes
+
+end remote
+
+begin remote
+
+  name  Motorola_IRC451_0003
+  bits           12
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       5052  1934
+  one          1047  2943
+  zero         1047   949
+  ptrail       1041
+  gap          99759
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x63C                     #  Was: POWER_3
+          UP_3                     0xC76
+          DOWN_3                   0x07C
+          LEFT_3                   0xBB1
+          RIGHT_3                  0x835
+          ENTER_3                  0x3BD
+          GOBACK_3                 0x6B6
+          EXIT_3                   0xA36
+          INFO_3                   0xE75
+          GUIDE_3                  0x7BB
+          KEY_REWIND               0x97D                     #  Was: REWIND_3
+          KEY_PLAY                 0x774                     #  Was: PLAY_3
+          FORWARD_3                0x171
+          KEY_RECORD               0x577                     #  Was: RECORD_3
+          PAUSE_3                  0x372
+          STOP_3                   0xB7E
+          CH_UP_3                  0xD3E
+          CH_DOWN_3                0x0B3
+          LAST_3                   0x1BE
+          INTERESTS_3              0x5B8
+          BROWSE_3                 0x870
+          PPV_3                    0xB3B
+          FUTURE_3                 0x47A
+          KEY_OPTION               0x2B0                     #  Was: OPTIONS_3
+          KEY_3                    0xF3D                     #  Was: 1_3
+          KEY_3                    0x8BF                     #  Was: 2_3
+          KEY_3                    0x4B5                     #  Was: 3_3
+          KEY_3                    0xEBA                     #  Was: 4_3
+          KEY_3                    0x9B2                     #  Was: 5_3
+          KEY_3                    0xDB4                     #  Was: 6_3
+          KEY_3                    0x532                     #  Was: 7_3
+          KEY_3                    0x938                     #  Was: 8_3
+          KEY_3                    0x731                     #  Was: 9_3
+          KEY_3                    0x27F                     #  Was: 0_3
+          HELP_3                   0xFB7
+      end codes
+
+end remote

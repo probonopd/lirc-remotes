@@ -1,0 +1,61 @@
+# Please make this file available to others
+# by sending it to <lirc@bartelmus.de>
+#
+# this config file was automatically generated
+# using lirc-0.9.0-pre1(default) on Wed Sep  3 23:24:07 2014
+#
+# contributed by Steven Shamlian
+#
+# brand: Monoprice
+# model no. of remote control: Unknown
+# devices being controlled by this remote: HDX(C)-501E
+#
+# Kernel revision: 3.12.26+
+# Driver/device option: --driver default --device /dev/lirc0
+# Capture device:  Vishay TSOP6238 to Raspberry Pi GPIO pin 23
+# Kernel modules: lirc_rpi
+# Type of device controlled: HDMI Switch
+# Devices controlled: Monoprice HDX(C)-501E
+#
+# Remote Layout:
+#
+# /---------------------\
+# | KEY_POWER           |
+# |                     |
+# | KEY_1  KEY_2  KEY_3 |
+# | KEY_4         KEY_5 |
+# |                     |
+# | KEY_LEFT  KEY_RIGHT |
+# \---------------------/
+
+
+begin remote
+
+  name  HDX(C)-501E
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9104  4511
+  one           609  1667
+  zero          609   527
+  ptrail        606
+  repeat       9093  2235
+  pre_data_bits   16
+  pre_data       0xFF
+  gap          109640
+  toggle_bit_mask 0x0
+
+      begin codes
+          KEY_POWER                0x00FF
+          KEY_1                    0x10EF
+          KEY_2                    0x906F
+          KEY_3                    0x50AF
+          KEY_4                    0x30CF
+          KEY_5                    0x708F
+          KEY_RIGHT                0x6897
+          KEY_LEFT                 0x28D7
+      end codes
+
+end remote

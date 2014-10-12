@@ -1,0 +1,71 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.1-CVS(default) on Thu Feb 22 20:30:08 2007
+#
+# contributed by mike mcchesney
+#
+# brand: Toshiba
+# model no. of remote control: CT-9945
+# devices being controlled by this remote:
+#
+
+begin remote
+
+  name  Toshiba_CT-9945
+  bits           32
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9079  4405
+  one           638  1612
+  zero          638   473
+  ptrail        642
+  repeat       9070  2159
+  gap          107799
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x22DD48B7                #  Was: power
+          mts                      0x02FDC837
+          KEY_TV                   0x02FDC837                #  Was: tv
+          cable                    0x02FDC837
+          KEY_VCR                  0x02FDC837                #  Was: vcr
+          timer                    0x02FDA857
+          KEY_1                    0x22DD807F                #  Was: 1
+          KEY_2                    0x22DD40BF                #  Was: 2
+          KEY_3                    0x22DDC03F                #  Was: 3
+          KEY_4                    0x22DD20DF                #  Was: 4
+          KEY_5                    0x22DDA05F                #  Was: 5
+          KEY_6                    0x22DD609F                #  Was: 6
+          KEY_7                    0x22DDE01F                #  Was: 7
+          KEY_8                    0x22DD10EF                #  Was: 8
+          KEY_9                    0x22DD906F                #  Was: 9
+          KEY_0                    0x22DD50AF                #  Was: 0
+          KEY_0                    0x22DDD02F                #  Was: 100
+          ch_rtn/enter             0x02FDE817
+          xds                      0x02FD817E
+          ccapt                    0x02FDEA15
+          reset                    0x02FD30CF
+          KEY_EXIT                 0x02FD1AE5                #  Was: exit
+          KEY_UP                   0x02FD41BE                #  Was: up
+          KEY_DOWN                 0x02FDC13E                #  Was: down
+          KEY_LEFT                 0x02FDB847                #  Was: left
+          KEY_RIGHT                0x02FD9867                #  Was: right
+          menu/enter               0x02FD01FE
+          KEY_MUTE                 0x02FD08F7                #  Was: mute
+          KEY_AGAIN                0x02FD38C7                #  Was: recall
+          tv/video                 0x02FDF00F
+          surround                 0x02FD18E7
+          stop/source              0x22DD28D7
+          KEY_PLAY                 0x22DDA857                #  Was: play/pip
+          KEY_RECORD               0x22DD18E7                #  Was: rec
+          tv/vcr/still             0x22DD8877
+          KEY_REWIND               0x22DD9867                #  Was: rew/locate
+          ff/swap                  0x22DDC837
+      end codes
+
+end remote
+
+

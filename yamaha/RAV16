@@ -1,0 +1,68 @@
+# Yamaha surround sound AMP
+#
+# this config file was automatically generated
+# using lirc-0.8.1pre5(default) on Mon Jan 15 10:26:19 2007
+#
+# contributed by Stephen Rowles
+#
+# brand: Yamaha
+# model no. of remote control: RAV16 (WA61770)
+# devices being controlled by this remote: Surround Sound Amplifier / Receiver
+# HTR-5630RDS (UK)
+# I use this to allow my Freevo setup to switch the surround sound amp
+# on / off, change to DVD channel etc automatically when I start
+# watching a DVD.
+
+begin remote
+
+  name  Yamaha_RAV16
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       8991  4412
+  one           592  1632
+  zero          592   517
+  ptrail        592
+  pre_data_bits   16
+  pre_data       0x5EA1
+  gap          107253
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0xF807                    #  Was: Power
+          KEY_VCR                  0xF00F                    #  Was: VCR
+          DTV/CBL                  0x2AD5
+          KEY_DVD                  0x837C                    #  Was: DVD
+          KEY_CD                   0xA857                    #  Was: CD
+          MD/CD-R                  0x936C
+          V-AUX                    0xAA55
+          KEY_6chIN                0xE11E                    #  Was: 6chIN
+          KEY_TUNER                0x6897                    #  Was: Tuner
+          A/B/C/D/E                0x48B7
+          Preset-                  0x8877
+          Preset+                  0x08F7
+          Dobly/DTS                0x09F6
+          KEY_1                    0xE916                    #  Was: 6.1/5.1
+          Night                    0xA956
+          KEY_SLEEP                0xEA15                    #  Was: Sleep
+          Test                     0xA15E
+          Stereo                   0x6A95
+          KEY_VOLUMEUP             0x58A7                    #  Was: Vol+
+          KEY_VOLUMEDOWN           0xD827                    #  Was: Vol-
+          KEY_MUTE                 0x38C7                    #  Was: Mute
+          KEY_CHANNELUP            0x1AE5                    #  Was: Prog+
+          KEY_CHANNELDOWN          0x9A65                    #  Was: Prog-
+          Level                    0x619E
+          SetMenu                  0x39C6
+          MenuUp                   0x19E6
+          MenuDown                 0x9966
+          Menu+                    0x4AB5
+          Menu-                    0xCA35
+      end codes
+
+end remote
+
+

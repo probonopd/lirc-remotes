@@ -1,0 +1,160 @@
+#
+# this config file was automatically generated
+# using WinLIRC 0.6.5 (LIRC 0.6.1pre3) on Fri Feb 03 18:34:55 2006
+#
+# contributed by Simon Himmel
+#
+# brand:             Panasonic
+# model:             EUR7702110
+# supported devices: Receiver
+#
+
+begin remote
+
+  name  Panasonic_EUR7702110
+  bits           32
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  header       3538  1689
+  one           473  1253
+  zero          473   360
+  ptrail        473
+  pre_data_bits   16
+  pre_data       0x4004
+  gap          74555
+  toggle_bit      0
+
+
+      begin codes
+          TOP-MENU                 0x0D00D9D4
+          KEY_MENU                 0x0D00010C                #  Was: MENU
+          DISPLAY                  0x0D004944
+          KEY_ENTER                0x0D00818C                #  Was: RETURN
+          KEY_ENTER                0x0D00414C                #  Was: ENTER
+          KEY_UP                   0x0D00A1AC                #  Was: UP
+          KEY_DOWN                 0x0D00616C                #  Was: DOWN
+          KEY_LEFT                 0x0D00E1EC                #  Was: LEFT
+          KEY_RIGHT                0x0D00111C                #  Was: RIGHT
+          DELAY                    0x0528FDD0
+          LEVEL                    0x05287D50
+          KEY_KPMINUS              0x0528BD90                #  Was: -
+          KEY_KPPLUS               0x05283D10                #  Was: +
+          KEY_SUBTITLE             0x0500ABAE                #  Was: SUBWOOFER
+          SOUND-MODE               0x05280D20
+          SFC                      0x05288CA1
+          TEST                     0x05286F42
+          TV/AV                    0x0100A0A1
+          TV-VOL--DOWN             0x01008485
+          TV-VOL--UP               0x01000405
+          MUTING                   0x05004C49
+          KEY_VOLUMEDOWN           0x05008481                #  Was: VOLUME--DOWN
+          KEY_VOLUMEUP             0x05000401                #  Was: VOLUME--UP
+          KEY_TV                   0x0500F9FC                #  Was: TV
+          TV--ON/OFF               0x0100BCBD
+          TV--1                    0x01000809
+          TV--2                    0x01008889
+          TV--3                    0x01004849
+          TV--4                    0x0100C8C9
+          TV--5                    0x01002829
+          TV--6                    0x0100A8A9
+          TV--7                    0x01006869
+          TV--8                    0x0100E8E9
+          TV--9                    0x01001819
+          TV--0                    0x01009899
+          TV-->10/-/--             0x0100DCDD
+          KEY_VCR                  0x0500797C                #  Was: VCR
+          VCR--ON/OFF              0x0900BCB5
+          VCR--1                   0x09000801
+          VCR--2                   0x09008881
+          VCR--3                   0x09004841
+          VCR--4                   0x0900C8C1
+          VCR--5                   0x09002821
+          VCR--6                   0x0900A8A1
+          VCR--7                   0x09006861
+          VCR--8                   0x0900E8E1
+          VCR--9                   0x09001811
+          VCR--0                   0x09009891
+          VCR-->10/-/--            0x0900DCD5
+          VCR--FASTBACKWARD        0x09004049
+          VCR--FASTFORWARD         0x0900C0C9
+          VCR--STOP                0x09000009
+          VCR--PLAY                0x09005059
+          KEY_DVD                  0x0500C5C0                #  Was: DVD
+          KEY_DVD                  0x0D00BCB1                #  Was: DVD--ON/OFF
+          KEY_DVD                  0x0D000805                #  Was: DVD--1
+          KEY_DVD                  0x0D008885                #  Was: DVD--2
+          KEY_DVD                  0x0D004845                #  Was: DVD--3
+          KEY_DVD                  0x0D00C8C5                #  Was: DVD--4
+          KEY_DVD                  0x0D002825                #  Was: DVD--5
+          KEY_DVD                  0x0D00A8A5                #  Was: DVD--6
+          KEY_DVD                  0x0D006865                #  Was: DVD--7
+          KEY_DVD                  0x0D00E8E5                #  Was: DVD--8
+          KEY_DVD                  0x0D001815                #  Was: DVD--9
+          KEY_DVD                  0x0D009895                #  Was: DVD--0
+          KEY_DVD                  0x0D00919C                #  Was: DVD-->10/-/--
+          KEY_DVD                  0x0D00929F                #  Was: DVD--FASTBACKWARD
+          KEY_DVD                  0x0D00525F                #  Was: DVD--FASTFORWARD
+          KEY_DVD                  0x0D00000D                #  Was: DVD--STOP
+          KEY_DVD                  0x0D00505D                #  Was: DVD--PLAY
+          KEY_CD                   0x0500292C                #  Was: CD
+          CD--ON/OFF               0x0550BCE9
+          CD--DIRECT-TUNING/DISC   0x05502570
+          CD--1                    0x0550085D
+          CD--2                    0x055088DD
+          CD--3                    0x0550481D
+          CD--4                    0x0550C89D
+          CD--5                    0x0550287D
+          CD--6                    0x0550A8FD
+          CD--7                    0x0550683D
+          CD--8                    0x0550E8BD
+          CD--9                    0x0550184D
+          CD--0                    0x055098CD
+          CD-->10/-/--             0x05502174
+          CD--FASTBACKWARD         0x055092C7
+          CD--FASTFORWARD          0x05505207
+          CD--STOP                 0x05500055
+          CD--PLAY                 0x05505005
+          KEY_TAPE                 0x0500696C                #  Was: TAPE
+          TAPE--ON/OFF             0x0510BCA9
+          TAPE--PLAY               0x05105045
+          TAPE--STOP               0x05100015
+          TAPE--FASTFORWARD        0x0510C0D5
+          TAPE--FASTBACKWARD       0x05104055
+          KEY_TUNER                0x0500494C                #  Was: TUNER
+          TUNER--ON/OFF            0x0500BCB9
+          TUNER--DIRECT-TUNING/DISC 0x05201134
+          TUNER--1                 0x0520082D
+          TUNER--2                 0x052088AD
+          TUNER--3                 0x0520486D
+          TUNER--4                 0x0520C8ED
+          TUNER--5                 0x0520280D
+          TUNER--6                 0x0520A88D
+          TUNER--7                 0x0520684D
+          TUNER--8                 0x0520E8CD
+          TUNER--9                 0x0520183D
+          TUNER--0                 0x052098BD
+          TUNER-->10/-/--          0x05202104
+          MD                       0x0500C9CC
+          MD--ON/OFF               0x0504BCBD
+          MD--1                    0x05040809
+          MD--2                    0x05048889
+          MD--3                    0x05044849
+          MD--4                    0x0504C8C9
+          MD--5                    0x05042829
+          MD--6                    0x0504A8A9
+          MD--7                    0x05046869
+          MD--8                    0x0504E8E9
+          MD--9                    0x05041819
+          MD--0                    0x05049899
+          MD-->10/-/--             0x05042120
+          MD--FASTBACKWARD         0x05049293
+          MD--FASTFORWARD          0x05045253
+          MD--STOP                 0x05040001
+          MD--PLAY                 0x05045051
+      end codes
+
+end remote
+
+

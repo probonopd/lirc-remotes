@@ -1,0 +1,73 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.4a(default) on Sun Mar 29 17:14:49 2009
+#
+# contributed by slickvguy
+#
+# brand:                       philips
+# model no. of remote control: RC4346/01B
+# devices being controlled by this remote: TV
+#
+
+begin remote
+
+  name  Philips_RC4346/01B
+  bits            8
+  flags RC6|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       2662   884
+  one           447   438
+  zero          447   438
+  pre_data_bits   13
+  pre_data       0xEFF
+  gap          106210
+  toggle_bit_mask 0x10000
+  rc6_mask    0x10000
+
+      begin codes
+          KEY_OK                   0xA3                      #  Was: ok
+          KEY_UP                   0xA7                      #  Was: up
+          KEY_DOWN                 0xA6                      #  Was: down
+          KEY_LEFT                 0xA5                      #  Was: left
+          KEY_RIGHT                0xA4                      #  Was: right
+          KEY_MENU                 0xAB                      #  Was: menu
+          KEY_VOLUMEUP             0xEF                      #  Was: vol+
+          KEY_VOLUMEDOWN           0xEE                      #  Was: vol-
+          KEY_MUTE                 0xF2                      #  Was: mute
+          KEY_0                    0xFF                      #  Was: 0
+          KEY_1                    0xFE                      #  Was: 1
+          KEY_2                    0xFD                      #  Was: 2
+          KEY_3                    0xFC                      #  Was: 3
+          KEY_4                    0xFB                      #  Was: 4
+          KEY_5                    0xFA                      #  Was: 5
+          KEY_6                    0xF9                      #  Was: 6
+          KEY_7                    0xF8                      #  Was: 7
+          KEY_8                    0xF7                      #  Was: 8
+          KEY_9                    0xF6                      #  Was: 9
+          mycontent                0x41
+          format                   0x0A
+          KEY_POWER                0xF3                      #  Was: power
+          a_ch                     0xF5
+          KEY_CHANNELUP            0xDF                      #  Was: ch+
+          KEY_CHANNELDOWN          0xDE                      #  Was: ch-
+          KEY_RED                  0x92                      #  Was: red
+          KEY_GREEN                0x91                      #  Was: green
+          KEY_YELLOW               0x90                      #  Was: yellow
+          KEY_BLUE                 0x8F                      #  Was: blue
+          KEY_STOP                 0xCE                      #  Was: stop
+          KEY_PLAY                 0x3E                      #  Was: play
+          av+                      0xC7
+          KEY_KPMINUS              0x26                      #  Was: minus
+          cc                       0xB9
+          KEY_INFO                 0xF0                      #  Was: info
+          active                   0x69
+          KEY_RECORD               0xC8                      #  Was: rec
+          view                     0x2D
+          tick                     0x2C
+      end codes
+
+end remote
+
+

@@ -1,0 +1,68 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.0(userspace) on Mon Feb 20 23:15:48 2006
+#
+# contributed by Joris Patroons
+#
+# brand:                       AVerMedia
+# model no. of remote control: Unknown
+# devices being controlled by this remote:
+#                              AVerTV DVB-T 771
+
+begin remote
+
+  name  a771
+  bits           32
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9078  4437
+  one           615  1631
+  zero          615   515
+  ptrail        620
+  repeat       9080  2189
+  gap          108056
+  toggle_bit      0
+
+
+      begin codes
+          KEY_CYCLEWINDOWS         0x40BF807F                #  Was: SOURCE
+          KEY_TEXT                 0x40BF40BF                #  Was: TELETEXT
+          KEY_POWER                0x40BF00FF                #  Was: POWER
+          KEY_1                    0x40BFA05F                #  Was: 1
+          KEY_2                    0x40BF609F                #  Was: 2
+          KEY_3                    0x40BFE01F                #  Was: 3
+          KEY_4                    0x40BF906F                #  Was: 4
+          KEY_5                    0x40BF50AF                #  Was: 5
+          KEY_6                    0x40BFD02F                #  Was: 6
+          KEY_7                    0x40BFB04F                #  Was: 7
+          KEY_8                    0x40BF708F                #  Was: 8
+          KEY_9                    0x40BFF00F                #  Was: 9
+          KEY_0                    0x40BF8877                #  Was: 0
+          KEY_AUDIO                0x40BF10EF                #  Was: AUDIO
+          KEY_F11                  0x40BF30CF                #  Was: FULLSCREEN
+          DISPLAY                  0x40BF48B7
+          LOOP                     0x40BFC837
+          KEY_PREVIOUS             0x40BF08F7                #  Was: PREVIEW
+          KEY_REWIND               0x40BFA857                #  Was: BACKWARD
+          KEY_FORWARD              0x40BF6897                #  Was: FORWARD
+          CAPTURE                  0x40BFE817
+          KEY_MUTE                 0x40BF28D7                #  Was: MUTE
+          KEY_RECORD               0x40BF9867                #  Was: RECORD
+          KEY_PAUSE                0x40BF58A7                #  Was: PAUSE
+          KEY_STOP                 0x40BFD827                #  Was: STOP
+          KEY_PLAY                 0x40BF18E7                #  Was: PLAY
+          KEY_RED                  0x40BFB847                #  Was: RED
+          KEY_GREEN                0xC03F807F                #  Was: GREEN
+          KEY_YELLOW               0x40BF38C7                #  Was: YELLOW
+          KEY_BLUE                 0xC03F00FF                #  Was: BLUE
+          KEY_VOLUMEDOWN           0x40BF7887                #  Was: VOL_DOWN
+          KEY_VOLUMEUP             0x40BFF807                #  Was: VOL_UP
+          KEY_CHANNELDOWN          0xC03F40BF                #  Was: CH_DOWN
+          KEY_CHANNELUP            0xC03FC03F                #  Was: CH_UP
+      end codes
+
+end remote
+
+

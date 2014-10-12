@@ -1,0 +1,71 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.5(packard_bell) on Fri Oct  4 23:10:33 2002
+#
+# contributed by dERMOTH
+#
+# brand:                       MAGNAVOX
+# model no. of remote control: MAGNAVOX 00M0627-AA01/UNIFIED 6 TRANS
+# Radio Shack 3 in 1 Remote Control 15-8902 (Mode TV, Code 054)
+# devices being controlled by this remote: MAGNAVOX Model: XK4353 CH02
+
+
+begin remote
+
+  name  UNIFIED6TRANS
+  bits           13
+  flags RC5|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           903   876
+  zero          903   876
+  plead         937
+  gap          113409
+  toggle_bit      2
+
+      begin codes
+          KEY_POWER                0x000000000000100C        #  Was: Power
+          Reset                    0x000000000000100E
+          KEY_SLEEP                0x0000000000001026        #  Was: Sleep
+          KEY_MUTE                 0x000000000000100D        #  Was: Mute
+          KEY_VOLUMEUP             0x0000000000001010        #  Was: VolUp
+          KEY_VOLUMEDOWN           0x0000000000001011        #  Was: VolDown
+          KEY_CHANNELUP            0x0000000000001020        #  Was: ChUp
+          KEY_CHANNELDOWN          0x0000000000001021        #  Was: ChDown
+
+#  Next one is labeled "A/CH" on MAGNAVOX, "Prev CH" on RadioShack
+          KEY_CHANNELDOWN          0x0000000000001022        #  Was: PrevCh
+
+          KEY_1                    0x0000000000001001        #  Was: One
+          KEY_2                    0x0000000000001002        #  Was: Two
+          KEY_3                    0x0000000000001003        #  Was: Three
+          KEY_4                    0x0000000000001004        #  Was: Four
+          KEY_5                    0x0000000000001005        #  Was: Five
+          KEY_6                    0x0000000000001006        #  Was: Six
+          KEY_7                    0x0000000000001007        #  Was: Seven
+          KEY_8                    0x0000000000001008        #  Was: Eight
+          KEY_9                    0x0000000000001009        #  Was: Nine
+          KEY_0                    0x0000000000001000        #  Was: Zero
+
+# These ones are for the MAGNAVOX only:
+
+          Display                  0x000000000000102E
+          KEY_KPPLUS               0x000000000000102B        #  Was: Plus
+          KEY_KPMINUS              0x000000000000102C        #  Was: Minus
+          Status                   0x000000000000100F
+
+# These ones are for the RadioShack only:
+
+          KEY_PLAY                 0x000000000000101C        #  Was: Play
+          KEY_STOP                 0x000000000000101D        #  Was: Stop
+# Same as MAGNAVOX's Plus
+#          FF                       0x000000000000102B
+# Same as MAGNAVOX's Minus
+#          Rev                      0x000000000000102C
+          KEY_PAUSE                0x000000000000103B        #  Was: Pause
+      end codes
+
+end remote
+
+

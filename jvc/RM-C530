@@ -1,0 +1,62 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.6(any) on Tue Feb 17 13:34:19 2004
+#
+# contributed by Velko Lazarov <velkothebest|yahoo.com>
+#
+# brand:                       JVC
+# model no. of remote control: RM-C530
+# devices being controlled by this remote: TV set AV-G21T
+#
+
+begin remote
+
+  name  RM-C530
+  bits            8
+  flags SPACE_ENC|NO_HEAD_REP
+  eps            30
+  aeps          100
+
+  header       7855  3816
+  one           621  1471
+  zero          621   492
+  ptrail        614
+  pre_data_bits   8
+  pre_data       0xC0
+  gap          16707
+  min_repeat      2
+  toggle_bit      0
+
+
+      begin codes
+          TV/VIDEO                 0x00000000000000C8
+          KEY_POWER                0x00000000000000E8        #  Was: POWER
+          COLOUR_SYSTEM            0x0000000000000049
+          SOUND_SYSTEM             0x000000000000002D
+          DISPLAY                  0x0000000000000020
+          OFF_TIMER                0x00000000000000C0
+          KEY_1                    0x0000000000000084        #  Was: 1
+          KEY_2                    0x0000000000000044        #  Was: 2
+          KEY_3                    0x00000000000000C4        #  Was: 3
+          KEY_4                    0x0000000000000024        #  Was: 4
+          KEY_5                    0x00000000000000A4        #  Was: 5
+          KEY_6                    0x0000000000000064        #  Was: 6
+          KEY_7                    0x00000000000000E4        #  Was: 7
+          KEY_8                    0x0000000000000014        #  Was: 8
+          KEY_9                    0x0000000000000094        #  Was: 9
+          KEY_0                    0x0000000000000004        #  Was: 0
+          KEY_102ND                0x00000000000000B9        #  Was: -/--
+          PICTURE_MODE             0x000000000000009E
+          KEY_MUTE                 0x0000000000000038        #  Was: MUTE
+          KEY_CHANNELUP            0x0000000000000098        #  Was: CH+
+          KEY_CHANNELDOWN          0x0000000000000018        #  Was: CH-
+          KEY_VOLUMEUP             0x0000000000000078        #  Was: VOL+
+          KEY_VOLUMEDOWN           0x00000000000000F8        #  Was: VOL-
+          PICTURE_ADJUST           0x00000000000000DE
+          PICTURE_ADJUST+          0x000000000000005A
+          PICTURE_ADJUST-          0x00000000000000DA
+      end codes
+
+end remote
+
+

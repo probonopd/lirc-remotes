@@ -1,0 +1,69 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.4(serial) on Sat Oct 27 16:26:16 2001
+#
+# contributed by
+#
+# brand:                       Technics
+# model no. of remote control: RAK-CH215WH
+# supported devices:           Technics mini-hi-fi ST-HD51 range
+#
+
+begin remote
+
+  name rak-ch215wh
+  bits           24
+  flags SPACE_ENC
+  eps            30
+  aeps          100
+
+  header       3535  1704
+  one           493  1224
+  zero          493   382
+  ptrail        525
+  pre_data_bits   24
+  pre_data       0x400405
+  gap          74170
+  toggle_bit      0
+
+
+      begin codes
+          KEY_VOLUMEDOWN           0x0000000000008481        #  Was: vol_down
+          KEY_VOLUMEUP             0x0000000000000401        #  Was: vol_up
+          muting                   0x0000000000004C49
+          tape_play_fwd            0x0000000000105045
+          tape_stop                0x0000000000100015
+          tape_play_back           0x000000000010D0C5
+          KEY_TAPE                 0x000000000000696C        #  Was: tape
+          tape_rew                 0x0000000000104055
+          tape_fwd                 0x000000000010C0D5
+          KEY_RECORD               0x0000000000101005        #  Was: rec_pause
+          KEY_CANCEL               0x000000000050C590        #  Was: cancel
+          cd_stop                  0x0000000000500055
+          cd_pause                 0x0000000000506035
+          cd_play                  0x0000000000505005
+          KEY_CD                   0x000000000000292C        #  Was: cd
+          cd_back                  0x00000000005092C7
+          cd_fwd                   0x0000000000505207
+          program                  0x0000000000505104
+          KEY_AGAIN                0x000000000050E2B7        #  Was: repeat
+          KEY_POWER                0x000000000038BC81        #  Was: power
+          KEY_SLEEP                0x0000000000386954        #  Was: sleep
+          tuner/band               0x0000000000202500
+          auto/mono                0x000000000020CCE9
+          KEY_1                    0x0000000000380835        #  Was: 1
+          KEY_2                    0x00000000003888B5        #  Was: 2
+          KEY_3                    0x0000000000384875        #  Was: 3
+          KEY_4                    0x000000000038C8F5        #  Was: 4
+          KEY_5                    0x0000000000382815        #  Was: 5
+          KEY_6                    0x000000000038A895        #  Was: 6
+          KEY_7                    0x0000000000386855        #  Was: 7
+          KEY_8                    0x000000000038E8D5        #  Was: 8
+          KEY_9                    0x0000000000381825        #  Was: 9
+          KEY_0                    0x00000000003898A5        #  Was: 0
+          >10                      0x000000000038211C
+      end codes
+
+end remote
+
+

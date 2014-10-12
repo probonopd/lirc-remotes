@@ -1,0 +1,57 @@
+#
+# this config file was automatically generated
+# using lirc-0.5.5 on Tue Sep  7 19:17:17 1999
+#
+# contributed by
+#
+# brand:            SEG
+# model:            SR-040
+# supported devices:
+#
+
+begin remote
+
+  name  SR-040
+  bits           13
+  flags SPACE_ENC|NO_HEAD_REP|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       8778  4093
+  one           679  1462
+  zero          679   390
+  ptrail        668
+  repeat       8715  2001
+  pre_data_bits   16
+  pre_data       0xA1CE
+  post_data_bits  3
+  post_data      0x6
+  gap          102711
+  repeat_bit      0
+
+      begin codes
+          KEY_1                    0x000000000000013E        #  Was: 1
+          KEY_2                    0x000000000000023D        #  Was: 2
+          KEY_3                    0x000000000000043B        #  Was: 3
+          KEY_4                    0x0000000000001827        #  Was: 4
+          KEY_5                    0x0000000000000837        #  Was: 5
+          KEY_6                    0x000000000000102F        #  Was: 6
+          KEY_7                    0x0000000000001C23        #  Was: 7
+          KEY_8                    0x0000000000000C33        #  Was: 8
+          KEY_9                    0x000000000000142B        #  Was: 9
+          KEY_0                    0x0000000000000A35        #  Was: 0
+          Store                    0x0000000000000639
+          Set                      0x000000000000033C
+          KEY_POWER                0x000000000000003F        #  Was: On
+          PL                       0x0000000000001A25
+          Mo/St                    0x0000000000001E21
+          Audio-Preset             0x0000000000001629
+          KEY_UP                   0x000000000000112E        #  Was: Up
+          KEY_DOWN                 0x000000000000152A        #  Was: Down
+          KEY_MUTE                 0x0000000000001D22        #  Was: Mute
+          Tuneup                   0x0000000000000936
+          Tunedown                 0x0000000000000D32
+      end codes
+
+end remote
+

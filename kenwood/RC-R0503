@@ -1,0 +1,66 @@
+#
+# This config file has been automatically converted from a device file
+# found in the 06/26/00 release of the Windows Slink-e software
+# package.
+#
+# Many thanks to Colby Boles of Nirvis Systems Inc. for allowing us to
+# use these files.
+#
+# The original filename was: "kenwood rc-ro503 amp.cde"
+#
+# The original description for this device was:
+#
+# kenwood rc-ro503 amp
+#
+
+
+begin remote
+
+  name  RC-RO503
+  bits           32
+  flags SPACE_ENC
+  eps            20
+  aeps          200
+
+  header       8800  4400
+  one           550  1650
+  zero          550   550
+  ptrail        550
+  repeat       8800  2200
+  gap          38500
+  toggle_bit      0
+
+  frequency    38000
+
+      begin codes
+          KEY_PLAY                 0x000000001DE2D32C        #  Was: PLAY/PAUSE___CD
+          KEY_STOP                 0x000000001DE2936C        #  Was: STOP
+          SKIP_FWD                 0x000000001DE2F30C
+          SKIP_REV                 0x000000001DE2738C
+          DISC                     0x000000001DE210EF
+          KEY_POWER                0x000000001DE2B946        #  Was: POWER
+          KEY_VOLUMEUP             0x000000001DE2D926        #  Was: VOLUME_+
+          KEY_VOLUMEDOWN           0x000000001DE259A6        #  Was: VOLUME_-
+          KEY_VIDEO                0x000000001DE26996        #  Was: VIDEO_1
+          KEY_VIDEO                0x000000001DE2C936        #  Was: VIDEO_2
+          TAPE_1                   0x000000001DE229D6
+          TAPE_2_(_MONITOR_)       0x000000001DE2A956
+          KEY_CD                   0x000000001DE249B6        #  Was: CD
+          KEY_TUNER                0x000000001DE28976        #  Was: TUNER
+          PHONO                    0x000000001DE209F6
+          KEY_PLAY                 0x000000001DE28B74        #  Was: PLAY_FWD___TAPE_A
+          KEY_PLAY                 0x000000001DE20BF4        #  Was: PLAY_REV
+          KEY_STOP                 0x000000001DE2AB54        #  Was: STOP
+          KEY_FASTFORWARD          0x000000001DE2CB34        #  Was: FFWD
+          KEY_REWIND               0x000000001DE24BB4        #  Was: REW
+          KEY_PLAY                 0x000000001DE29B64        #  Was: PLAY_FWD___TAPE_B
+          KEY_PLAY                 0x000000001DE21BE4        #  Was: PLAY_REVERSE
+          KEY_STOP                 0x000000001DE2BB44        #  Was: STOP
+          KEY_FASTFORWARD          0x000000001DE2DB24        #  Was: FFWD
+          KEY_REWIND               0x000000001DE25BA4        #  Was: REW
+          KEY_RECORD               0x000000001DE27B84        #  Was: REC/ARM
+          BAND___TUNER             0x000000001DE2F10E
+          P.CALL                   0x000000001DE29966
+      end codes
+
+end remote

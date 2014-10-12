@@ -1,0 +1,57 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.6(sir) on Thu Aug 21 22:33:45 2003
+#
+# contributed by Sylvain Garsault
+#
+# brand:                                   Phillips
+# model no. of remote control:             FW_530C
+# devices being controlled by this remote: FW_530C Hi-Fi
+#
+
+begin remote
+
+  name  FW_530C
+  bits           13
+  flags RC5|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           882   894
+  zero          882   894
+  plead         869
+  gap          113783
+  toggle_bit      2
+
+
+      begin codes
+          KEY_PLAY                 0x0000000000001535        #  Was: Play
+          KEY_STOP                 0x0000000000001536        #  Was: Stop
+          KEY_NEXT                 0x0000000000001520        #  Was: Next
+          KEY_PREVIOUS             0x0000000000001521        #  Was: Prev
+          KEY_VOLUMEUP             0x0000000000001410        #  Was: Vol+
+          KEY_VOLUMEDOWN           0x0000000000001411        #  Was: Vol-
+          KEY_REWIND               0x0000000000001532        #  Was: Rew
+          Forw                     0x0000000000001534
+          KEY_AGAIN                0x000000000000151D        #  Was: Repeat
+          Shuffle                  0x000000000000151C
+          KEY_PAUSE                0x0000000000001530        #  Was: Pause
+          Program                  0x0000000000001524
+          DBB                      0x0000000000001537
+          DBB                      0x0000000000000406
+          DSC                      0x000000000000040F
+          INC_SURR                 0x0000000000000400
+          KEY_1                    0x0000000000001537        #  Was: 1
+          KEY_2                    0x0000000000001538        #  Was: 2
+          KEY_3                    0x0000000000001539        #  Was: 3
+          KEY_CD                   0x000000000000153F        #  Was: CD
+          Tape1/2                  0x00000000000014BF
+          Side                     0x00000000000014AF
+          KEY_TUNER                0x000000000000147F        #  Was: Tuner
+          KEY_AUX                  0x000000000000157F        #  Was: Aux
+          KEY_SLEEP                0x000000000000154C        #  Was: StandBy
+      end codes
+
+end remote
+
+

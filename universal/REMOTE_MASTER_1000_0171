@@ -1,0 +1,39 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.4(serial) on Mon Dec 10 23:40:55 2001
+#
+# contributed by
+#
+# brand:                       REMOTE MASTER 1000
+# model no. of remote control: device code = 0171
+# supported devices:           SONY TV
+#
+
+begin remote
+
+  name  tv
+  bits            3
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       2393   571
+  one          1211   571
+  zero          613   571
+  ptrail        614
+  post_data_bits  8
+  post_data      0x48
+  gap          44252
+  min_repeat      2
+  toggle_bit      0
+
+
+      begin codes
+          KEY_VOLUMEDOWN           0x0000000000000006        #  Was: vol-
+          KEY_VOLUMEUP             0x0000000000000002        #  Was: vol+
+          KEY_MUTE                 0x0000000000000001        #  Was: mute
+      end codes
+
+end remote
+
+

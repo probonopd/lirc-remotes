@@ -1,0 +1,65 @@
+#
+# contributed by Dailos Franchy
+#
+# brand:                       Schneider
+# model no. of remote control: RC902
+# devices being controlled by this remote: TV
+# remark: remote control switched to TV mode, which is default
+#
+
+begin remote
+
+  name  Schneider_RC902
+  bits           13
+  flags RC5|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           884   899
+  zero          884   899
+  plead         872
+  gap          113916
+  toggle_bit_mask 0x800
+
+      begin codes
+          KEY_POWER                0x100C                    #  Was: POWER
+          KEY_1                    0x1801                    #  Was: 1
+          KEY_2                    0x1002                    #  Was: 2
+          KEY_3                    0x1003                    #  Was: 3
+          KEY_4                    0x1804                    #  Was: 4
+          KEY_5                    0x1005                    #  Was: 5
+          KEY_6                    0x1006                    #  Was: 6
+          KEY_7                    0x1007                    #  Was: 7
+          KEY_8                    0x1008                    #  Was: 8
+          KEY_9                    0x1009                    #  Was: 9
+          PP                       0x100E
+          KEY_0                    0x1000                    #  Was: 0
+          KEY_LIST                 0x0032                    #  Was: LIST
+          KEY_HELP                 0x0033                    #  Was: HELP
+          KEY_MUTE                 0x100D                    #  Was: MUTE
+          KEY_INFO                 0x100F                    #  Was: INFO
+          KEY_UP                   0x1020                    #  Was: UP
+          KEY_LEFT                 0x1011                    #  Was: LEFT
+          KEY_OK                   0x1029                    #  Was: OK
+          KEY_RIGHT                0x1010                    #  Was: RIGHT
+          KEY_DOWN                 0x1021                    #  Was: DOWN
+          KEY_EPG                  0x102D                    #  Was: EPG
+          TVTV                     0x0034
+          KEY_EXIT                 0x103C                    #  Was: EXIT
+          KEY_RED                  0x1037                    #  Was: RED
+          KEY_GREEN                0x1036                    #  Was: GREEN
+          KEY_YELLOW               0x1032                    #  Was: YELLOW
+          KEY_BLUE                 0x1034                    #  Was: BLUE
+          KEY_RECORD               0x0035                    #  Was: REC
+          JUMP                     0x1022
+          LIVE                     0x003D
+          KEY_RADIO                0x0008                    #  Was: RADIO
+          KEY_F1                   0x001C                    #  Was: F1
+          KEY_F2                   0x001D                    #  Was: F2
+          KEY_F3                   0x001E                    #  Was: F3
+          KEY_F4                   0x001F                    #  Was: F4
+      end codes
+
+end remote
+
+

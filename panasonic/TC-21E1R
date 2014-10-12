@@ -1,0 +1,57 @@
+#
+# brand:             Panasonic
+# model:             TC-21E1R
+# supported devices: TV
+#
+
+begin remote
+
+  name  Panasonic_TC-21E1R
+  bits           48
+  flags SPACE_ENC
+  eps            50
+  aeps          200
+
+  one           500  1200
+  zero          500   300
+  header        3400 1600
+  ptrail        500
+  gap          71000
+  toggle_bit      0
+
+
+      begin codes
+          KEY_SLEEP                0x000040040100BCBD        #  Was: standby
+          tv/av                    0x000040040100A0A1
+          KEY_CHANNELUP            0x0000400401002C2D        #  Was: prog_up
+          KEY_CHANNELDOWN          0x000040040100ACAD        #  Was: prog_down
+          corner                   0x0000400401009C9D
+          KEY_KPPLUS               0x0000400401000405        #  Was: +
+          KEY_KPMINUS              0x0000400401008485        #  Was: -
+          KEY_102ND                0x000040040100DCDD        #  Was: -/--
+          KEY_1                    0x0000400401000809        #  Was: 1
+          KEY_2                    0x0000400401008889        #  Was: 2
+          KEY_3                    0x0000400401004849        #  Was: 3
+          KEY_4                    0x000040040100C8C9        #  Was: 4
+          KEY_5                    0x0000400401002829        #  Was: 5
+          KEY_6                    0x000040040100A8A9        #  Was: 6
+          KEY_7                    0x0000400401006869        #  Was: 7
+          KEY_8                    0x000040040100E8E9        #  Was: 8
+          KEY_9                    0x0000400401001819        #  Was: 9
+          KEY_0                    0x0000400401009899        #  Was: 0
+          func                     0x0000400401006061
+          norm                     0x0000400401009293
+          KEY_MUTE                 0x0000400401004C4D        #  Was: mute
+          timer                    0x000040040100F0F1
+          KEY_VCR                  0x000040040900BCB5        #  Was: vcr
+          KEY_REWIND               0x0000400409004049        #  Was: rew
+          KEY_PLAY                 0x0000400409005059        #  Was: play
+          KEY_FASTFORWARD          0x000040040900C0C9        #  Was: ff
+          KEY_PAUSE                0x0000400409006069        #  Was: pause
+          KEY_STOP                 0x0000400409000009        #  Was: stop
+          step                     0x0000400409003039
+          track_up                 0x0000400409002C25
+          track_down               0x000040040900ACA5
+      end codes
+
+end remote

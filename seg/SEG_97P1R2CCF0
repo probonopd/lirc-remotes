@@ -1,0 +1,78 @@
+#
+# this config file was automatically generated
+# using lirc-0.5.4 on Tue Mar 16 19:44:10 1999
+#
+# contributed by Marco Flohrer <marco.flohrer@informatik.tu-chemnitz.de>
+#
+# brand:             SEG
+# model:             97P1R2CCF0
+# supported devices: VCR 2200
+#
+
+#
+# Remark:
+# manually converted this from raw_codes to normal config file
+# this is the first remote that uses pre_p and pre_s
+#
+#   Christoph
+
+begin remote
+
+  name  SEG_VCR_2200
+  bits            8
+  flags SPACE_ENC
+  eps            30
+  aeps          100
+
+  header       8100  3933
+  one           555  1450
+  zero          555   450
+  ptrail        555
+  pre_data_bits   8
+  pre_data       0xA8
+  pre           555  3960
+  gap          20892
+  repeat_bit      0
+
+      begin codes
+          KEY_SLEEP                0x00000000000000A8        #  Was: STANDBY
+          TV_VCR                   0x0000000000000068
+          KEY_1                    0x0000000000000080        #  Was: 1
+          KEY_2                    0x0000000000000040        #  Was: 2
+          KEY_3                    0x00000000000000C0        #  Was: 3
+          KEY_4                    0x0000000000000020        #  Was: 4
+          KEY_5                    0x00000000000000A0        #  Was: 5
+          KEY_6                    0x0000000000000060        #  Was: 6
+          KEY_7                    0x00000000000000E0        #  Was: 7
+          KEY_8                    0x0000000000000010        #  Was: 8
+          KEY_9                    0x0000000000000090        #  Was: 9
+          KEY_0                    0x0000000000000000        #  Was: 0
+          TUNE_LEFT                0x000000000000008C
+          TUNE_RIGHT               0x00000000000000AC
+          KEY_CHANNELUP            0x00000000000000E8        #  Was: PR+
+          KEY_CHANNELDOWN          0x0000000000000018        #  Was: PR-
+          KEY_OK                   0x0000000000000094        #  Was: OK
+          KEY_MENU                 0x0000000000000044        #  Was: MENU
+          KEY_PLAY                 0x0000000000000070        #  Was: PLAY
+          KEY_STOP                 0x00000000000000B0        #  Was: STOP
+          KEY_REWIND               0x0000000000000008        #  Was: REW
+          KEY_FASTFORWARD          0x00000000000000F0        #  Was: FFW
+          KEY_RECORD               0x0000000000000048        #  Was: RECORD
+          KEY_EJECTCD              0x0000000000000084        #  Was: EJECT
+          PAL_SEC                  0x00000000000000F8
+          KEY_SLOW                 0x00000000000000C8        #  Was: SLOW
+          KEY_PAUSE                0x0000000000000088        #  Was: PAUSE
+          ASEL                     0x0000000000000058
+          AV                       0x000000000000006C
+          SP_LP                    0x00000000000000D8
+          TR                       0x0000000000000038
+          COUNT                    0x00000000000000B8
+          GO_TO_ZERO               0x0000000000000050
+          INDEX-                   0x00000000000000FC
+          INDEX+                   0x00000000000000CC
+          RESET_COUNT              0x00000000000000EC
+      end codes
+
+end remote
+
+

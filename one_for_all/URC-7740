@@ -1,0 +1,137 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.6(serial) on Wed Dec 10 21:56:08 2003
+#
+# contributed by atommyk (tommy.k@aon.at)
+#
+# brand: One For All 4
+# model no. of remote control: URC-7740, vcr-code 0067 used (pioneer)
+# devices being controlled by this remote: pioneer vcr, used it for my vdr
+#
+
+begin remote
+
+  name  URC-7740
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       8952  4467
+  one           571  1660
+  zero          571   544
+  ptrail        572
+  pre_data_bits   26
+  pre_data       0x378043F
+  gap          107457
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x00000000000000FF        #  Was: Power
+          KEY_1                    0x000000000000807F        #  Was: 1
+          KEY_2                    0x00000000000040BF        #  Was: 2
+          KEY_3                    0x000000000000C03F        #  Was: 3
+          KEY_4                    0x00000000000020DF        #  Was: 4
+          KEY_5                    0x000000000000A05F        #  Was: 5
+          KEY_6                    0x000000000000609F        #  Was: 6
+          KEY_7                    0x000000000000E01F        #  Was: 7
+          KEY_8                    0x00000000000010EF        #  Was: 8
+          KEY_9                    0x000000000000906F        #  Was: 9
+          KEY_102ND                0x0000000000009E61        #  Was: -/--
+          KEY_0                    0x00000000000050AF        #  Was: 0
+          KEY_MUTE                 0x00000000000052AD        #  Was: mute
+          KEY_CHANNELUP            0x00000000000002FD        #  Was: Ch+
+          KEY_CHANNELDOWN          0x000000000000827D        #  Was: Ch-
+          KEY_VOLUMEUP             0x00000000000018E7        #  Was: Vol+
+          KEY_VOLUMEDOWN           0x0000000000009867        #  Was: Vol-
+          KEY_UP                   0x00000000000002FD        #  Was: Up
+          KEY_LEFT                 0x0000000000009867        #  Was: Left
+          KEY_DOWN                 0x000000000000827D        #  Was: Down
+          KEY_RIGHT                0x00000000000018E7        #  Was: Right
+          KEY_OK                   0x00000000000056A9        #  Was: Ok
+          KEY_MENU                 0x000000000000D827        #  Was: Menu
+          KEY_EPG                  0x0000000000007E81        #  Was: EPG
+          KEY_REWIND               0x00000000000023DC        #  Was: Rewind
+          KEY_PAUSE                0x0000000000002BD4        #  Was: Pause
+          KEY_PLAY                 0x0000000000007E81        #  Was: Play
+          KEY_FORWARD              0x00000000000023DC        #  Was: Forward
+          SP/LP                    0x000000000000728D
+          KEY_STOP                 0x0000000000003BC4        #  Was: Stop
+          KEY_RECORD               0x000000000000C837        #  Was: Rec
+          Auto                     0x000000000000D22D
+      end codes
+
+end remote
+
+
+#
+# this config file was automatically generated
+# using lirc-0.7.0(any) on Mon Sep 12 07:05:06 2005
+#
+# contributed by H. Stillger
+#
+# brand: Oneforall4
+# model no. of remote control: URC7740
+# devices being controlled by this remote:
+# TV Thomson Code 0625
+# DVD Scott  Code 0672
+# SAT Humax  Code 1176
+# VCR Linvdr Code 0081: this file
+
+begin remote
+
+  name  UCR7740
+  bits           13
+  flags RC5|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           972   791
+  zero          972   791
+  plead         994
+  gap          113476
+  min_repeat      2
+  toggle_bit      2
+
+
+      begin codes
+          KEY_POWER                0x000000000000114C        #  Was: pwr
+          KEY_1                    0x0000000000001141        #  Was: 1
+          KEY_2                    0x0000000000001142        #  Was: 2
+          KEY_3                    0x0000000000001143        #  Was: 3
+          KEY_4                    0x0000000000001144        #  Was: 4
+          KEY_5                    0x0000000000001145        #  Was: 5
+          KEY_6                    0x0000000000001146        #  Was: 6
+          KEY_7                    0x0000000000001147        #  Was: 7
+          KEY_8                    0x0000000000001148        #  Was: 8
+          KEY_9                    0x0000000000001149        #  Was: 9
+          KEY_0                    0x0000000000001140        #  Was: 0
+          KEY_102ND                0x000000000000114A        #  Was: -/--
+          av                       0x0000000000001178
+          KEY_CHANNELUP            0x0000000000001160        #  Was: ch+
+          KEY_CHANNELDOWN          0x0000000000001161        #  Was: ch-
+          KEY_MUTE                 0x000000000000114D        #  Was: mute
+          KEY_VOLUMEUP             0x0000000000001150        #  Was: vol+
+          KEY_VOLUMEDOWN           0x0000000000001151        #  Was: vol-
+          KEY_UP                   0x0000000000001160        #  Was: up
+          KEY_DOWN                 0x0000000000001161        #  Was: down
+          KEY_LEFT                 0x0000000000000155        #  Was: left
+          KEY_RIGHT                0x0000000000000156        #  Was: right
+          KEY_OK                   0x000000000000114B        #  Was: ok
+          KEY_MENU                 0x000000000000115D        #  Was: menu
+          KEY_EXIT                 0x0000000000001140        #  Was: exit
+          KEY_EPG                  0x000000000000117E        #  Was: epg
+          rw                       0x0000000000001172
+          KEY_PAUSE                0x0000000000001169        #  Was: pause
+          KEY_PLAY                 0x0000000000001175        #  Was: play
+          KEY_FORWARD              0x0000000000001174        #  Was: fw
+          KEY_RED                  0x000000000000117A        #  Was: red
+          KEY_GREEN                0x0000000000001176        #  Was: green
+          KEY_YELLOW               0x0000000000001177        #  Was: yellow
+          KEY_BLUE                 0x000000000000114E        #  Was: blue
+      end codes
+
+end remote
+
+

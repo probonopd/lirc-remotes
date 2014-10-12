@@ -1,0 +1,61 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.6(default) on Tue May 18 16:42:21 2010
+#
+# contributed by Tero Lounatjoki
+#
+# brand: Fujitsu-Siemens
+# model no. of remote control: RC811
+# devices being controlled by this remote: Atleast Fujitsu-Siemens Amilo Xi 2550 with ITE8709 CIR receiver
+#
+
+begin remote
+
+  name  Fujitsu-Siemens_RC811
+  bits           16
+  flags RC6
+  eps            30
+  aeps          200
+
+  header       2740   848
+  one           496   401
+  zero          496   401
+  pre_data_bits   21
+  pre_data       0x37FF0
+  gap          73112
+  toggle_bit_mask 0x8000
+  rc6_mask    0x100000000
+
+      begin codes
+          KEY_POWER                0x7BF3
+          KEY_PAUSE                0xFBE7
+          KEY_STOP                 0x7BE6
+          KEY_RECORD               0xFBE8
+          KEY_PLAY                 0x7BE9
+          KEY_NEXT                 0xFBE5
+          KEY_PREVIOUS             0x7BE4
+          KEY_UP                   0xFBE1
+          KEY_DOWN                 0x7BE0
+          KEY_RIGHT                0xFBDE
+          KEY_LEFT                 0x7BDF
+          KEY_VOLUMEUP             0xFBEF
+          KEY_VOLUMEDOWN           0x7BEE
+          KEY_MUTE                 0xFBF1
+          KEY_OK                   0x7BDD
+          KEY_INFO                 0xFBF0
+          KEY_BACK                 0x7BDC
+          KEY_FASTFORWARD          0xFBEB
+          KEY_REWIND               0x7BEA
+          KEY_LIST                 0xFBD9
+          KEY_PAGEUP               0x7BED
+          KEY_PAGEDOWN             0xFBEC
+          KEY_DVD                  0x7BDB
+          KEY_TV                   0xFBB7
+          KEY_VCR                  0x7BDA
+          KEY_PROG1                0xFBF2
+          KEY_LIST                 0x7BD9
+      end codes
+
+end remote
+
+

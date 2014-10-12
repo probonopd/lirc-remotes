@@ -1,0 +1,53 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.5(serial) on Sun May 18 13:27:43 2003
+#
+# contributed by
+#
+# brand:                       AIWA
+# model no. of remote control: RC-C105
+# devices being controlled by this remote: portable CD player
+#
+
+begin remote
+
+  name  RC-C105
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9137  4355
+  one           680  1559
+  zero          680   438
+  ptrail        680
+  repeat       9139  4354
+  pre_data_bits   26
+  pre_data       0x1B8123F
+  gap          107913
+  toggle_bit      0
+
+
+      begin codes
+          KEY_PLAY                 0x000000000000A857        #  Was: Play
+          KEY_STOP                 0x00000000000058A7        #  Was: Stop
+          KEY_FORWARD              0x00000000000018E7        #  Was: Forward
+          KEY_REWIND               0x0000000000009867        #  Was: Rewind
+          Rep/Rand                 0x000000000000D827
+          Prog                     0x000000000000B04F
+          KEY_1                    0x000000000000807F        #  Was: 1
+          KEY_2                    0x00000000000040BF        #  Was: 2
+          KEY_3                    0x000000000000C03F        #  Was: 3
+          KEY_4                    0x00000000000020DF        #  Was: 4
+          KEY_5                    0x000000000000A05F        #  Was: 5
+          KEY_6                    0x000000000000609F        #  Was: 6
+          KEY_7                    0x000000000000E01F        #  Was: 7
+          KEY_8                    0x00000000000010EF        #  Was: 8
+          KEY_9                    0x000000000000906F        #  Was: 9
+          KEY_0                    0x00000000000050AF        #  Was: 0
+          KEY_0                    0x000000000000D02F        #  Was: 10
+      end codes
+
+end remote
+
+

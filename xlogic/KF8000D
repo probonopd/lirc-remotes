@@ -1,0 +1,85 @@
+#
+# this config file was automatically generated
+# using lirc-0.7.0(serial) on Sat Jan  7 01:40:09 2006
+#
+# contributed by: Lachlan B.
+#
+# brand: XLOGIC (Australia)
+# model no. of remote control: KF8000D (XLD901)
+# devices being controlled by this remote: XLOGIC DVD PLAYER XLD-901
+#
+
+
+
+begin remote
+
+  name  XLOGIC-KF8000D
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9053  4488
+  one           589  1652
+  zero          589   535
+  ptrail        574
+  repeat       9043  2247
+  pre_data_bits   16
+  pre_data       0x2FC
+  gap          107759
+  toggle_bit      0
+
+
+      begin codes
+          KEY_SLEEP                0x00000000000048B7        #  Was: standby
+          equalizer                0x0000000000008A75
+          surround                 0x000000000000CA35
+          KEY_EJECTCD              0x0000000000006897        #  Was: eject
+          KEY_AUDIO                0x000000000000926D        #  Was: audio
+          KEY_ANGLE                0x00000000000052AD        #  Was: angle
+          KEY_SUBTITLE             0x000000000000D22D        #  Was: subtitle
+          KEY_SEARCH               0x00000000000008F7        #  Was: search
+          KEY_1                    0x000000000000827D        #  Was: 1
+          KEY_2                    0x000000000000B24D        #  Was: 2
+          KEY_3                    0x000000000000A25D        #  Was: 3
+          KEY_4                    0x00000000000042BD        #  Was: 4
+          KEY_5                    0x000000000000728D        #  Was: 5
+          KEY_6                    0x000000000000629D        #  Was: 6
+          KEY_7                    0x000000000000C23D        #  Was: 7
+          KEY_8                    0x000000000000F20D        #  Was: 8
+          KEY_9                    0x000000000000E21D        #  Was: 9
+          clr                      0x00000000000000FF
+          KEY_0                    0x00000000000010EF        #  Was: 0/10
+          KEY_0+                   0x00000000000018E7        #  Was: 10+
+          KEY_UP                   0x000000000000807F        #  Was: up
+          KEY_DOWN                 0x000000000000906F        #  Was: down
+          KEY_LEFT                 0x0000000000009867        #  Was: left
+          KEY_RIGHT                0x0000000000008877        #  Was: right
+          KEY_OK                   0x00000000000002FD        #  Was: ok
+          KEY_TITLE                0x000000000000D02F        #  Was: title
+          KEY_MENU                 0x000000000000D827        #  Was: menu
+          program                  0x0000000000007887
+          pal/ntsc                 0x000000000000609F
+          KEY_SETUP                0x00000000000012ED        #  Was: setup
+          digest                   0x00000000000030CF
+          display                  0x000000000000F807
+          KEY_VOLUMEUP             0x000000000000B04F        #  Was: vol+
+          KEY_VOLUMEDOWN           0x000000000000C837        #  Was: vol-
+          KEY_MUTE                 0x000000000000B847        #  Was: mute
+          a-b                      0x000000000000C03F
+          mark                     0x000000000000A857
+          KEY_AGAIN                0x00000000000040BF        #  Was: repeat
+          KEY_ZOOM                 0x00000000000058A7        #  Was: zoom
+          KEY_SLOW                 0x00000000000050AF        #  Was: slow
+          frwd                     0x00000000000038C7
+          KEY_FASTFORWARD          0x00000000000028D7        #  Was: ffwd
+          KEY_PREVIOUS             0x000000000000F00F        #  Was: skip-
+          KEY_NEXT                 0x000000000000708F        #  Was: skip+
+          KEY_STOP                 0x00000000000020DF        #  Was: stop
+          KEY_PAUSE                0x000000000000E01F        #  Was: pause
+          KEY_PLAY                 0x000000000000E817        #  Was: play
+      end codes
+
+end remote
+
+

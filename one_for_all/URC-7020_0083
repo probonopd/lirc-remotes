@@ -1,0 +1,65 @@
+#
+# this config file was automatically generated
+# using lirc-0.7.0pre4(serial) on Sat Aug  7 21:20:58 2004
+#
+# contributed by
+#
+# brand: One For All
+# model no. of remote control: URC-7020 (with VCR-Code 0083)
+# devices being controlled by this remote: Xeatre.tv
+#
+
+begin remote
+
+  name  One4All_URC-7020_0083
+  bits           13
+  flags RC5|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           910   860
+  zero          910   860
+  plead         924
+  gap          113950
+  toggle_bit      2
+
+
+      begin codes
+          KEY_POWER                0x000000000000194C        #  Was: Power
+          KEY_1                    0x0000000000001141        #  Was: 1
+          KEY_2                    0x0000000000001942        #  Was: 2
+          KEY_3                    0x0000000000001143        #  Was: 3
+          KEY_4                    0x0000000000001944        #  Was: 4
+          KEY_5                    0x0000000000001145        #  Was: 5
+          KEY_6                    0x0000000000001946        #  Was: 6
+          KEY_7                    0x0000000000001147        #  Was: 7
+          KEY_8                    0x0000000000001948        #  Was: 8
+          KEY_9                    0x0000000000001149        #  Was: 9
+          KEY_0                    0x0000000000001940        #  Was: 0
+          KEY_KPMINUS              0x000000000000114A        #  Was: -
+          AV                       0x0000000000001978
+          KEY_MENU                 0x000000000000115D        #  Was: Menu
+          KEY_EXIT                 0x0000000000001971        #  Was: Exit
+          KEY_OK                   0x000000000000114B        #  Was: Ok
+          KEY_UP                   0x0000000000001960        #  Was: Up
+          KEY_DOWN                 0x0000000000001161        #  Was: Down
+          KEY_LEFT                 0x0000000000000955        #  Was: Left
+          KEY_RIGHT                0x0000000000000156        #  Was: Right
+          KEY_VOLUMEUP             0x0000000000001950        #  Was: Volume+
+          KEY_VOLUMEDOWN           0x0000000000001151        #  Was: Volume-
+          KEY_MUTE                 0x000000000000114D        #  Was: Mute
+          KEY_REWIND               0x0000000000001972        #  Was: Rewind
+          KEY_PLAY                 0x0000000000001175        #  Was: Play
+          KEY_FORWARD              0x0000000000001974        #  Was: Forward
+          KEY_PAUSE                0x0000000000001169        #  Was: Pause
+          KEY_STOP                 0x0000000000001176        #  Was: Stop
+          KEY_RECORD               0x0000000000001177        #  Was: Record
+          KEY_RED                  0x000000000000096B        #  Was: Red
+          KEY_GREEN                0x000000000000016C        #  Was: Green
+          KEY_YELLOW               0x000000000000096D        #  Was: Yellow
+          KEY_BLUE                 0x000000000000016E        #  Was: Blue
+      end codes
+
+end remote
+
+

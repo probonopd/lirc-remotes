@@ -1,0 +1,224 @@
+#
+# this config file was automatically generated
+# using WinLIRC 0.6.5 (LIRC 0.6.1pre3) on Tue Jun 22 19:39:28 2004
+#
+# contributed by     Netdive netdive@gmx.de
+#
+# brand:             Yamaha
+# model:             RAV215
+# supported devices: RX-V620RDS
+#
+
+begin remote
+
+  name  Yamaha_RAV215
+  bits           16
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  header       8899  4564
+  one           664   461
+  zero          664  1598
+  ptrail        664
+  repeat       8901  2114
+  pre_data_bits   16
+  pre_data       0xA15E
+  gap          39738
+  toggle_bit      0
+
+
+      begin codes
+          AMP/TUN_1                0x00000000000057A8
+          AMP/TUN_2                0x0000000000009768
+          AMP/TUN_3                0x0000000000006C93
+          AMP/TUN_4                0x0000000000007C83
+          AMP/TUN_5                0x000000000000D52A
+          AMP/TUN_6                0x0000000000000FF0
+          AMP/TUN_7                0x000000000000D728
+          AMP/TUN_8                0x00000000000055AA
+          AMP/TUN_9                0x00000000000037C8
+          AMP/TUN_0                0x000000000000AC53
+          AMP/TUN_enter            0x0000000000001EE1
+          AMP/TUN_>10              0x000000000000E718
+          AMP/TUN_-                0x0000000000007788
+          AMP/TUN_+                0x000000000000F708
+          AMP/TUN_o/dd             0x0000000000005EA1
+          AMP/TUN_a/b              0x000000000000B748
+          AMP/TUN_II               0x000000000000E619
+          AMP/TUN_|<<              0x00000000000035CA
+          AMP/TUN_|>               0x000000000000BC43
+          AMP/TUN_>>|              0x000000000000B54A
+          AMP/TUN_[]               0x0000000000006699
+          AMP/TUN_<<               0x0000000000009E61
+          AMP/TUN_>>               0x000000000000C639
+      end codes
+
+end remote
+
+begin remote
+
+  name  Yamaha_RAV215_CBL/SAT
+  bits           16
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  header       8899  4558
+  one           660   467
+  zero          660  1602
+  ptrail        660
+  repeat       8903  2113
+  pre_data_bits   16
+  pre_data       0xCA35
+  gap          39560
+  toggle_bit      0
+
+
+      begin codes
+          CBL/SAT_1                0x0000000000007F80
+          CBL/SAT_2                0x000000000000BF40
+          CBL/SAT_3                0x0000000000003FC0
+          CBL/SAT_4                0x000000000000DF20
+          CBL/SAT_5                0x0000000000005FA0
+          CBL/SAT_6+               0x0000000000009F60
+          CBL/SAT_7                0x0000000000001FE0
+          CBL/SAT_8                0x000000000000EF10
+          CBL/SAT_9                0x0000000000006F90
+          CBL/SAT_0                0x000000000000FF00
+          CBL/SAT_enter            0x000000000000CF30
+          CBL/SAT_>10              0x0000000000007788
+          CBL/SAT_+                0x000000000000F708
+          CBL/SAT_A/B              0x00000000000017E8
+          CBL/SAT_II               0x000000000000E51A
+          CBL/SAT_|<<              0x00000000000015EA
+          CBL/SAT_|>               0x000000000000CD32
+          CBL/SAT_>>|              0x000000000000956A
+          CBL/SAT_[]               0x000000000000659A
+          CBL/SAT_<<               0x0000000000009768
+          CBL/SAT_>>               0x000000000000E718
+          CBL/SAT_AV               0x000000000000C738
+      end codes
+
+end remote
+
+
+#
+# this config file was automatically generated
+# using lirc-0.7.1pre2(any) on Fri Apr  8 09:00:26 2005
+#
+# contributed by Moritz Augsburger <lirc|moritz.augsburger.name>
+#
+# brand:             Yamaha
+# model:             RAV215
+# supported devices: RX-V620RDS
+#
+# Program Code for yamaha_md: 0024
+# Program Code for yamaha_dvd: 0008
+# For programming instructions see page 53 in your manual.
+
+begin remote
+
+  name  Yamaha_RAV215_MD
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9000  4500
+  one           563  1687
+  zero          563   562
+  ptrail        563
+  repeat       9000  2250
+  pre_data_bits   16
+  pre_data       0x9E61
+  gap          108000
+  min_repeat      1
+  toggle_bit      0
+
+  frequency    38000
+  duty_cycle   33
+
+      begin codes
+          KEY_0                    0x718E                    #  Was: 0
+          KEY_1                    0xA15E                    #  Was: 1
+          KEY_2                    0x619E                    #  Was: 2
+          KEY_3                    0xE11E                    #  Was: 3
+          KEY_4                    0x11EE                    #  Was: 4
+          KEY_5                    0x916E                    #  Was: 5
+          KEY_6                    0x51AE                    #  Was: 6
+          KEY_7                    0xD12E                    #  Was: 7
+          KEY_8                    0x31CE                    #  Was: 8
+          KEY_9                    0xB14E                    #  Was: 9
+          KEY_0+                   0xF10E                    #  Was: 10+
+          KEY_RECORD               0xF50A                    #  Was: rec
+          a/b                 0xA55A
+          KEY_PAUSE                0x956A                    #  Was: pause
+          KEY_PLAY                 0x15EA                    #  Was: play
+          KEY_STOP                 0x55AA                    #  Was: stop
+          KEY_PREVIOUS             0xD52A                    #  Was: skip-
+          KEY_NEXT                 0x758A                    #  Was: skip+
+          search-             0x35CA
+          search+             0xB54A
+      end codes
+
+end remote
+
+
+begin remote
+
+  name  Yamaha_RAV215_DVD
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9000  4500
+  one           563  1687
+  zero          563   562
+  ptrail        563
+  repeat       9000  2250
+  pre_data_bits   16
+  pre_data       0x3EC1
+  gap          108000
+  toggle_bit      0
+
+  frequency    38000
+  duty_cycle   33
+
+      begin codes
+          KEY_0                    0xC936                    #  Was: 0
+          KEY_1                    0x29D6                    #  Was: 1
+          KEY_2                    0xA956                    #  Was: 2
+          KEY_3                    0x6996                    #  Was: 3
+          KEY_4                    0xE916                    #  Was: 4
+          KEY_5                    0x19E6                    #  Was: 5
+          KEY_6                    0x9966                    #  Was: 6
+          KEY_7                    0x59A6                    #  Was: 7
+          KEY_8                    0xD926                    #  Was: 8
+          KEY_9                    0x39C6                    #  Was: 9
+          KEY_0+                   0xB946                    #  Was: 10+
+          index                    0x7986
+          disc-                    0x51AE
+          disc+                    0xD12E
+          display                  0x659A
+          KEY_PLAY                 0x41BE                    #  Was: play
+          KEY_PAUSE                0xC13E                    #  Was: pause
+          KEY_STOP                 0xA15E                    #  Was: stop
+          KEY_PREVIOUS             0x9D62                    #  Was: skip-
+          KEY_NEXT                 0x5DA2                    #  Was: skip+
+          search-                  0x619E
+          search+                  0xE11E
+          KEY_UP                   0x2DD2                    #  Was: up
+          KEY_DOWN                 0xCD32                    #  Was: down
+          KEY_LEFT                 0xAD52                    #  Was: left
+          KEY_RIGHT                0x6D92                    #  Was: right
+          KEY_SELECT               0x1DE2                    #  Was: select
+          KEY_TITLE                0x8D72                    #  Was: title
+          KEY_MENU                 0x4DB2                    #  Was: menu
+          KEY_ENTER                0xED12                    #  Was: return
+      end codes
+
+end remote
+
+

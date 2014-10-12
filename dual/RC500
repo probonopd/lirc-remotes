@@ -1,0 +1,51 @@
+
+# ####################################################################
+# contributed by <fidol at web.de>
+#
+# brand:                       Dual
+# model no. of remote control: rc500
+# devices being controlled by this remote: Dual Disc Player CD 5150 RC
+#
+
+begin remote
+
+  name  DualRC500
+  bits           13
+  flags RC5|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           921   854
+  zero          921   854
+  plead         934
+  gap          113641
+  toggle_bit      2
+
+
+      begin codes
+          KEY_STOP                 0x0000000000001536        #  Was: Stop
+          KEY_PAUSE                0x0000000000001530        #  Was: Pause
+          KEY_PLAY                 0x0000000000001535        #  Was: Play
+          Scan                     0x000000000000152B
+          <<_track                 0x0000000000001521
+          track_>>                 0x0000000000001520
+          Shuffle                  0x000000000000151C
+          <<_search                0x0000000000001532
+          search_>>                0x0000000000001534
+          KEY_1                    0x0000000000001501        #  Was: 1
+          KEY_2                    0x0000000000001502        #  Was: 2
+          KEY_3                    0x0000000000001503        #  Was: 3
+          KEY_4                    0x0000000000001504        #  Was: 4
+          KEY_5                    0x0000000000001505        #  Was: 5
+          KEY_6                    0x0000000000001506        #  Was: 6
+          KEY_7                    0x0000000000001507        #  Was: 7
+          KEY_8                    0x0000000000001508        #  Was: 8
+          KEY_9                    0x0000000000001509        #  Was: 9
+          KEY_0                    0x0000000000001500        #  Was: 0
+          PGRM                     0x0000000000001529
+          KEY_AGAIN                0x000000000000151D        #  Was: Repeat
+      end codes
+
+end remote
+
+

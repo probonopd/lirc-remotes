@@ -1,0 +1,181 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.2(samsung) on Sat Dec 22 08:38:51 2007
+#
+# contributed by Robert Schedel <r.schedel | yahoo.de>
+#
+# brand:                       Satelco (Samsung IrDA remote)
+# model no. of remote control: RE49C
+# devices being controlled by this remote: Satelco EasyWatch DVB-C
+#
+# Basically this should handle all remotes reporting as Samsung IrDA
+# (0419:0001), but for now only the Satelco remote is tested.
+#
+
+begin remote
+
+  name  Samsung
+  bits           32
+  eps            30
+  aeps          100
+
+  one             0     0
+  zero            0     0
+  gap          203831
+  pre_data_bits   0
+  pre_data      0x0
+  toggle_bit      0
+
+      begin codes
+### Standard keyboard report, type 1
+          KEY_OK                   0x70028                   #  Was: OK
+          KEY_RIGHT                0x7004f                   #  Was: Right
+          KEY_LEFT                 0x70050                   #  Was: Left
+          KEY_UP                   0x70052                   #  Was: Up
+          KEY_DOWN                 0x70051                   #  Was: Down
+
+### Standard generic desktop report, type 3
+          KEY_POWER                0x10001                   #  Was: Power
+
+### Propietary Samsung report, type 4
+          KEY_MUTE                 0xffcc0001                #  Was: Mute
+          KEY_VIDEO                0xffcc0002                #  Was: Video_Archive
+          KEY_1                    0xffcc0003                #  Was: 1
+          KEY_2                    0xffcc0004                #  Was: 2
+          KEY_3                    0xffcc0005                #  Was: 3
+          KEY_SLEEP                0xffcc0006                #  Was: Sleep
+          KEY_4                    0xffcc0007                #  Was: 4
+          KEY_5                    0xffcc0008                #  Was: 5
+          KEY_6                    0xffcc0009                #  Was: 6
+          KEY_LAST                 0xffcc000a                #  Was: Last
+          KEY_7                    0xffcc000b                #  Was: 7
+          KEY_8                    0xffcc000c                #  Was: 8
+          KEY_9                    0xffcc000d                #  Was: 9
+          KEY_SUBTITLE             0xffcc000e                #  Was: Subtitle
+          Full                     0xffcc000f
+          KEY_0                    0xffcc0010                #  Was: 0
+          PIP                      0xffcc0011
+          Timer                    0xffcc0012
+          KEY_CYCLEWINDOWS         0xffcc0013                #  Was: Source
+          TV_Menu                  0xffcc0014
+          KEY_EPG                  0xffcc0015                #  Was: EPG
+          KEY_TEXT                 0xffcc0016                #  Was: Text
+# gap 17..1b: probably cursor keys were previously planned here
+          KEY_TV                   0xffcc001c                #  Was: TV
+          KEY_RADIO                0xffcc001d                #  Was: Radio
+          KEY_DVD                  0xffcc001e                #  Was: DVD
+          KEY_CHANNELUP            0xffcc001f                #  Was: Ch+
+          KEY_MENU                 0xffcc0020                #  Was: Menu
+          KEY_VOLUMEUP             0xffcc0021                #  Was: Vol+
+          KEY_CHANNELDOWN          0xffcc0022                #  Was: Ch-
+          KEY_BACK                 0xffcc0023                #  Was: Back
+          KEY_VOLUMEDOWN           0xffcc0024                #  Was: Vol-
+          KEY_PLAY                 0xffcc0025                #  Was: Play
+          KEY_PAUSE                0xffcc0026                #  Was: Pause
+          KEY_STOP                 0xffcc0027                #  Was: Stop
+          KEY_RECORD               0xffcc0028                #  Was: Record
+          KEY_PREVIOUS             0xffcc0029                #  Was: Prev
+          KEY_REWIND               0xffcc002a                #  Was: Rewind
+          KEY_FORWARD              0xffcc002b                #  Was: Forward
+          KEY_NEXT                 0xffcc002c                #  Was: Next
+          KEY_RED                  0xffcc002d                #  Was: Red
+          KEY_GREEN                0xffcc002e                #  Was: Green
+          KEY_YELLOW               0xffcc002f                #  Was: Yellow
+          KEY_BLUE                 0xffcc0030                #  Was: Blue
+      end codes
+
+end remote
+
+#
+#
+# Contributor: Rene Bartsch <reneATbartschnet.de>
+#
+#
+# Brand: Terratec                          (Samsung Info. Systems America, Inc.)
+# Model: Fernbedienung Set incl. USB Bulk  (IrDA Remote Controller, USB-ID 0419:0001)
+#        (grey handset)
+#
+#
+# Devices being controlled by this remote:
+#	- Stand-alone remote
+#	- Terratec DVB devices (please add approved ones)
+#
+#
+# LIRC  version: >= 0.8.3
+# LIRC  driver:  Samsung
+# LIRCD_OPTS="-H samsung -d /dev/hiddevX"
+#
+# Linux version: >= 2.6.25
+# Kernel config: CONFIG_USB_HIDDEV=y|m
+#		 USB controllers, ...
+
+
+begin remote
+    name		Terratec
+    bits		32
+    eps			30
+    aeps		100
+    one			0	0
+    zero		0	0
+    gap			203831
+    pre_data_bits	0
+    pre_data		0x0
+    toggle_bit		0
+
+    begin codes
+
+###    Standard generic desktop report, type 3  ###
+          KEY_POWER                0x10001                   #  Was: Power
+
+
+###    Propietary Samsung report, type 4    ###
+          KEY_HOME                 0xffcc0001                #  Was: HOME
+          KEY_MENU                 0xffcc0002                #  Was: DVD_Menu
+          KEY_1                    0xffcc0003                #  Was: 1
+          KEY_2                    0xffcc0004                #  Was: 2
+          KEY_3                    0xffcc0005                #  Was: 3
+          KEY_SUBTITLE             0xffcc0006                #  Was: Subtitles
+          KEY_4                    0xffcc0007                #  Was: 4
+          KEY_5                    0xffcc0008                #  Was: 5
+          KEY_6                    0xffcc0009                #  Was: 6
+          KEY_TEXT                 0xffcc000a                #  Was: Teletext
+          KEY_7                    0xffcc000b                #  Was: 7
+          KEY_8                    0xffcc000c                #  Was: 8
+          KEY_9                    0xffcc000d                #  Was: 9
+          KEY_DELETE               0xffcc000e                #  Was: Delete
+	AV		0xffcc000f
+          KEY_0                    0xffcc0010                #  Was: 0
+	A.B		0xffcc0011
+          KEY_TV                   0xffcc0012                #  Was: TV
+          KEY_DVD                  0xffcc0013                #  Was: DVD
+          KEY_VIDEO                0xffcc0014                #  Was: VIDEO
+          KEY_AUDIO                0xffcc0015                #  Was: MUSIC
+	PIC		0xffcc0016
+          KEY_UP                   0xffcc0017                #  Was: UP
+          KEY_LEFT                 0xffcc0018                #  Was: LEFT
+          KEY_OK                   0xffcc0019                #  Was: OK
+          KEY_RIGHT                0xffcc001a                #  Was: RIGHT
+          KEY_DOWN                 0xffcc001b                #  Was: DOWN
+	EPG_GUIDE	0xffcc001c
+          KEY_INFO                 0xffcc001d                #  Was: INFO
+          KEY_BACK                 0xffcc001e                #  Was: BACK
+          KEY_VOLUMEUP             0xffcc001f                #  Was: VOL+
+          KEY_PLAY                 0xffcc0020                #  Was: PLAY
+          KEY_CHANNELUP            0xffcc0021                #  Was: CH+
+          KEY_VOLUMEDOWN           0xffcc0022                #  Was: VOL-
+          KEY_MUTE                 0xffcc0023                #  Was: MUTE
+          KEY_CHANNELDOWN          0xffcc0024                #  Was: CH-
+          KEY_RED                  0xffcc0025                #  Was: RED
+          KEY_GREEN                0xffcc0026                #  Was: GREEN
+          KEY_YELLOW               0xffcc0027                #  Was: YELLOW
+          KEY_BLUE                 0xffcc0028                #  Was: BLUE
+          KEY_RECORD               0xffcc0029                #  Was: REC
+          KEY_STOP                 0xffcc002a                #  Was: STOP
+          KEY_PAUSE                0xffcc002b                #  Was: PAUSE
+          KEY_LAST                 0xffcc002c                #  Was: LAST
+	FR		0xffcc002d
+          KEY_FASTFORWARD          0xffcc002e                #  Was: FF
+          KEY_NEXT                 0xffcc002f                #  Was: NEXT
+          KEY_BLUE                 0xffcc0030                #  Was: Blue
+    end codes
+end remote

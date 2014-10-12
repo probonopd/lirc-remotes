@@ -1,0 +1,94 @@
+
+#
+# This config file was generated using lirc-0.8.2 with LIRC serial recceiver
+# on Beaujolais Day 2007 (Nov. 15th 2007)
+#
+# Contributed by: Lothar Wiemann (lothar.wiemann [at] arcor.de)
+#
+# Brand:        T+A
+# Remote Model: F 100
+# Notes: 	If building a LIRC serial receiver:
+#		T+A remotes use a carrier frequency of 31.25 kHz.
+#		IR-receivers with 30...33 kHz will work best (eg. Vishay TSOP 1730)
+#		Std. 38 kHz receivers not recommended
+#		-----------------------------------------------------------------------
+#		The F100 uses a modified bi-phase code with header, start-bit, 9 data-bits, no toggle bits.
+#		The HEADER is 512us pulse / 2560 us pause
+#		The START bit is NOT bi-phase-coded ! It has a length of 1024us pulse / no pause (plead)
+#		The DATA bits are standard bi-phase with 512us pulse/512us pause (one) or  512us pause/512us pulse (zero)
+#
+#		Enjoy
+#		------------------------------------------------------------------------
+#
+
+begin remote
+
+  name  lircd.conf
+  bits            9
+  flags           RC5|CONST_LENGTH
+  eps             5
+  aeps            192
+
+  header          512  2560
+  one             512   512
+  zero            512   512
+  plead           1024
+  gap             130000
+  min_repeat      1
+  toggle_bit_mask 0x0
+
+      begin codes
+          KEY_POWER                0x1F7                     #  Was: ON_OFF
+          SCL                      0x15F
+          DISC                     0x0E7
+          A1/PH                    0x017
+          A2/TV                    0x1C7
+          A3/TUN                   0x147
+          KEY_RECORD               0x57                      #  Was: REC
+          KEY_1                    0x02F                     #  Was: 1
+          KEY_2                    0x1CF                     #  Was: 2
+          KEY_3                    0x14F                     #  Was: 3
+          KEY_4                    0x1EF                     #  Was: 4
+          KEY_5                    0x1B7                     #  Was: 5
+          KEY_6                    0x27                      #  Was: 6
+          KEY_7                    0x77                      #  Was: 7
+          KEY_8                    0x177                     #  Was: 8
+          KEY_9                    0x037                     #  Was: 9
+          KEY_0                    0x1E7                     #  Was: 0
+          <>                       0x06B
+          Note                     0x09F
+          SRND                     0x047
+          Speaker                  0x167
+          KEY_VOLUMEUP             0x1FF                     #  Was: VOL+
+          KEY_VOLUMEDOWN           0x0FF                     #  Was: VOL-
+          KEY_UP                   0x5F                      #  Was: UP
+          KEY_DOWN                 0xAF                      #  Was: DOWN
+          KEY_LEFT                 0x12F                     #  Was: LEFT
+          KEY_RIGHT                0xD7                      #  Was: RIGHT
+          KEY_OK                   0xCF                      #  Was: OK
+          KEY_PREVIOUS             0x199                     #  Was: |<<
+          KEY_REWIND               0x1A9                     #  Was: <<
+          KEY_FORWARD              0x1A1                     #  Was: >>
+          KEY_NEXT                 0x191                     #  Was: >>|
+          KEY_RECORD               0x141                     #  Was: Record
+          Back/RPT                 0x4F
+          KEY_STOP                 0xDF                      #  Was: STOP
+          KEY_PLAYPAUSE            0x16F                     #  Was: PLAY/PAUSE
+          SYS_Menu                 0x139
+          VID_Menu                 0x73
+          AUD_Menu                 0x1AF
+          SRC_Menu                 0x107
+          KEY_RED                  0x1AB                     #  Was: RED
+          KEY_GREEN                0x1B3                     #  Was: GREEN
+          KEY_YELLOW               0x1C3                     #  Was: YELLOW
+          KEY_BLUE                 0x1CB                     #  Was: BLUE
+          KEY_LIST                 0x1BB                     #  Was: LIST
+          STORE                    0x10F
+          (i)                      0x1A3
+          View                     0x1BF
+          KEY_F1                   0x6F                      #  Was: F1
+          KEY_F2                   0x1DB                     #  Was: F2
+          KEY_F3                   0x1A7                     #  Was: F3
+          KEY_F4                   0x193                     #  Was: F4
+      end codes
+

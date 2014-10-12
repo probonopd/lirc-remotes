@@ -1,0 +1,114 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.5(default) on Sat Aug 29 20:17:39 2009
+#
+# contributed by                 James Kendle
+#
+# brand:                         RCA
+# model no. of remote control:   RCU600M
+# devices being controlled by this remote: configured for RePlay DVR
+#
+#  First: I wanted something that for a not too expensive remote,
+#  (I think I got this at a local discount store, though I've seen it
+#  at larger department stores) but I wanted proper button selection.
+#  This is a nice remote with a backlight function, seperate
+#  directional keys from the volume keys, and all the other dvd
+#  functions (chapter skip for example, was missing on some other
+#  remotes I looked at).
+#
+#  I had to find a code for this universal remote that would activate
+#  almost all the buttons, since many codes left buttons inactive.
+#  In case you lost your book, hold your *code search* button until
+#  the LED stays on red, then *VCR* and enter "316".  This one worked
+#  well enough to end my search.  The "enter" and "OK" buttons on the
+#  remote seem to transmit the same data, the CH+ and CH- have small
+#  >>| and |<< symbols next to them so they are assigned chapter skip
+#  in my config.  At the bottom of the remote, PIP, SWAP, and SLEEP
+#  do not seem to work, but input does.   Vol+, Vol-, and mute seem
+#  to work slightly different than the rest of the buttons, so I got
+#  them to work seperately.  Play with irw, edit config or whatever.
+#
+#  Please enjoy.
+#
+
+begin remote
+
+  name  RCA_RCU600M_VOL
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9089  4388
+  one           668  1642
+  zero          668   463
+  ptrail        661
+  repeat       9077  2177
+  pre_data_bits   16
+  pre_data       0xFF00
+  gap          106878
+  toggle_bit_mask 0x0
+
+      begin codes
+          key_volumeup             0x01FE
+          key_volumedown           0x02FD
+          key_mute                 0x03FC
+      end codes
+
+end remote
+
+begin remote
+
+  name  RCA_RCU600M
+  bits           13
+  flags RC6|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       2694   858
+  one           481   395
+  zero          481   395
+  pre_data_bits   16
+  pre_data       0x1FF7
+  gap          138659
+  toggle_bit_mask 0x0
+  rc6_mask    0x1000000
+
+      begin codes
+          key_power                0x1FF3
+          key_aux                  0x1FCC
+          key_switchvideomode      0x1FD6
+          Key_0                    0x1FFF
+          key_1                    0x1FFE
+          key_2                    0x1FFD
+          key_3                    0x1FFC
+          key_4                    0x1FFB
+          key_5                    0x1FFA
+          key_6                    0x1FF9
+          key_7                    0x1FF8
+          key_8                    0x1FF7
+          key_9                    0x1FF6
+          key_0                    0x1FFF
+          key_menu                 0x1FE5
+          key_info                 0x1FE2
+          key_clear                0x1FE3
+          key_ok                   0x1FE4
+          key_up                   0x1FED
+          key_down                 0x1FE9
+          key_left                 0x1FE7
+          key_right                0x1FEB
+          key_next                 0x1FF0
+          key_previous             0x1FEF
+          key_rewind               0x1FDC
+          key_fastforward          0x1FDD
+          key_record               0x1FE0
+          key_stop                 0x1FDB
+          key_pause                0x1FDE
+          key_play                 0x1FDF
+          key_list                 0x1FE1
+          key_goto                 0x1FD8
+      end codes
+
+end remote
+
+

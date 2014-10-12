@@ -1,0 +1,122 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.6(any) on Sun Aug 24 01:01:51 2003
+#
+# contributed by alex783_on_mail.ru
+#
+# brand:                       Aiwa
+# model no. of remote control: RC-TV2
+# devices being controlled by this remote:
+# 1. 14" Color TV
+#
+
+begin remote
+
+  name   rc-tv2
+  flags CONST_LENGTH|RAW_CODES
+  eps            25
+  aeps          100
+
+  ptrail          0
+  repeat     0     0
+  gap    157316
+
+      begin raw_codes
+
+          name Power
+          KEY_9                    320                       #  Was: 39
+          KEY_9                     #  Was: 39              
+
+          name Ch_down
+          KEY_9                    325                       #  Was: 39
+          KEY_9                     #  Was: 39              
+
+          name Ch_up
+          KEY_9                    323                       #  Was: 39
+          KEY_9                    203                       #  Was: 39
+
+          name Mute
+          KEY_9                    324                       #  Was: 39
+          KEY_5                    323                       #  Was: 405
+
+          name b1
+          KEY_9                    325                       #  Was: 39
+          KEY_9                     #  Was: 39              
+
+          name b2
+          KEY_9                    321                       #  Was: 39
+          KEY_0                    324                       #  Was: 160
+
+          name b3
+          KEY_9                    321                       #  Was: 39
+          KEY_0                    323                       #  Was: 160
+
+          name b4
+          KEY_9                    326                       #  Was: 39
+          KEY_2                    203                       #  Was: 282
+
+          name b5
+          KEY_9                    321                       #  Was: 39
+          KEY_1                    325                       #  Was: 161
+
+          name b6
+          KEY_9                    323                       #  Was: 39
+          KEY_0                    203                       #  Was: 160
+
+          name b7
+          KEY_9                    322                       #  Was: 39
+          KEY_0                    203                       #  Was: 160
+
+          name b8
+          KEY_9                    322                       #  Was: 39
+          KEY_9                    200                       #  Was: 39
+          KEY_9                     #  Was: 39              
+
+          name b9
+          KEY_9                    323                       #  Was: 39
+          KEY_8                    323                       #  Was: 158
+
+          name b0
+          KEY_9                    321                       #  Was: 39
+          KEY_9                    201                       #  Was: 39
+
+          name Sleep
+          KEY_9                    323                       #  Was: 39
+          KEY_9                     #  Was: 39              
+
+          name System
+          KEY_9                    324                       #  Was: 39
+          KEY_0                    203                       #  Was: 160
+          KEY_9                     #  Was: 39              
+
+          name AvTv
+          KEY_9                    322                       #  Was: 39
+          KEY_9                     #  Was: 39              
+
+          name Band
+          KEY_9                    321                       #  Was: 39
+          KEY_0                    202                       #  Was: 160
+
+          name P--
+          KEY_9                    323                       #  Was: 39
+          KEY_9                    323                       #  Was: 39
+
+          name Display
+          KEY_9                    322                       #  Was: 39
+          KEY_9                    202                       #  Was: 39
+
+          name Function
+          KEY_9                    324                       #  Was: 39
+          KEY_1                    323                       #  Was: 281
+
+          name Vol_down
+          KEY_9                    323                       #  Was: 39
+          KEY_0                    323                       #  Was: 280
+
+          name Vol_up
+          KEY_9                    323                       #  Was: 39
+          KEY_0                    203                       #  Was: 160
+
+      end raw_codes
+
+end remote

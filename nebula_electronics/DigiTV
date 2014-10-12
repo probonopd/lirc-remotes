@@ -1,0 +1,89 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.6(any) on Wed Oct  6 17:37:27 2004
+#
+# contributed by
+#
+# brand:  Nebula Electronics
+# model no. of remote control: DigiTV-PCI Remote
+# devices being controlled by this remote: DVB-Card
+#
+# this config file was generated with a home-brew receiver, not the
+# original receiver which was not supported directly at that time (CB)
+
+begin remote
+
+  name  Nebula_DVB
+  bits           13
+  flags RC5|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           917   851
+  zero          917   851
+  plead         930
+  gap          113335
+  toggle_bit      2
+
+
+      begin codes
+          KEY_TV                   0x000000000000100A        #  Was: TV
+          KEY_AUX                  0x000000000000100B        #  Was: AUX
+          KEY_DVD                  0x000000000000100C        #  Was: DVD/CD
+          KEY_1                    0x0000000000001001        #  Was: 1
+          KEY_2                    0x0000000000001002        #  Was: 2
+          KEY_3                    0x0000000000001003        #  Was: 3
+          KEY_4                    0x0000000000001004        #  Was: 4
+          KEY_5                    0x0000000000001005        #  Was: 5
+          KEY_6                    0x0000000000001006        #  Was: 6
+          KEY_7                    0x0000000000001007        #  Was: 7
+          KEY_8                    0x0000000000001008        #  Was: 8
+          KEY_9                    0x0000000000001009        #  Was: 9
+          KEY_0                    0x0000000000001000        #  Was: 0
+          KEY_9                    0x0000000000001011        #  Was: 16:9
+          KEY_9                    0x0000000000001012        #  Was: 14:9
+          KEY_EXIT                 0x0000000000001014        #  Was: EXIT
+          KEY_POWER                0x000000000000100D        #  Was: POWER
+          PICTURE                  0x000000000000100E
+          KEY_AUDIO                0x000000000000100F        #  Was: AUDIO
+          KEY_I                    0x0000000000001010        #  Was: I
+          KEY_EPG                  0x0000000000001013        #  Was: EPG
+          KEY_MENU                 0x0000000000001015        #  Was: MENU
+          KEY_UP                   0x0000000000001016        #  Was: UP
+          KEY_DOWN                 0x0000000000001017        #  Was: DOWN
+          KEY_LEFT                 0x0000000000001018        #  Was: LEFT
+          KEY_RIGHT                0x0000000000001019        #  Was: RIGHT
+          KEY_OK                   0x000000000000101A        #  Was: OK
+          KEY_CHANNELUP            0x000000000000101B        #  Was: CH+
+          KEY_CHANNELDOWN          0x000000000000101C        #  Was: CH-
+          KEY_VOLUMEUP             0x000000000000101D        #  Was: VOLUME+
+          KEY_VOLUMEDOWN           0x000000000000101E        #  Was: VOLUME-
+          KEY_RED                  0x000000000000101F        #  Was: RED
+          KEY_GREEN                0x0000000000001020        #  Was: GREEN
+          KEY_YELLOW               0x0000000000001021        #  Was: YELLOW
+          KEY_BLUE                 0x0000000000001022        #  Was: BLUE
+          KEY_SUBTITLE             0x0000000000001023        #  Was: SUBT
+          AD                       0x0000000000001024
+          KEY_TEXT                 0x0000000000001025        #  Was: TEXT
+          KEY_MUTE                 0x0000000000001026        #  Was: MUTE
+          KEY_REWIND               0x0000000000001027        #  Was: REWIND
+          KEY_STOP                 0x0000000000001028        #  Was: STOP
+          KEY_PLAY                 0x0000000000001029        #  Was: PLAY
+          KEY_FASTFORWARD          0x000000000000102A        #  Was: FFORWARD
+          CHAPTER                  0x000000000000102B
+          KEY_PAUSE                0x000000000000102C        #  Was: PAUSE
+          KEY_PLAY                 0x000000000000102D        #  Was: PLAYSPEED
+          KEY_RECORD               0x000000000000102E        #  Was: RECORD
+          PIP                      0x000000000000102F
+          KEY_ZOOMOUT              0x0000000000001030        #  Was: ZOOM-
+          KEY_ZOOMIN               0x0000000000001031        #  Was: ZOOM+
+          CAPTURE                  0x0000000000001032
+          KEY_WWW                  0x0000000000001033        #  Was: WEB
+          KEY_EMAIL                0x0000000000001034        #  Was: EMAIL
+          KEY_PHONE                0x0000000000001035        #  Was: PHONE
+          KEY_PC                   0x0000000000001036        #  Was: PC
+      end codes
+
+end remote
+
+

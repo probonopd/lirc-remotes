@@ -1,0 +1,67 @@
+#
+# this config file was automatically generated
+# using lirc-0.7.0(serial) on Thu Jan 13 16:15:19 2005
+#
+# contributed by Frop Doe <mrmr|rizla.org>
+#
+# brand:                       Sony
+# model no. of remote control: RMT-V159J
+# devices being controlled by this remote:
+#
+# Video Cassette Recorder SLV-E700
+
+begin remote
+
+   name  Sony_RMT-V159J
+   bits           12
+   flags SPACE_ENC|CONST_LENGTH
+   eps            30
+   aeps          100
+
+   header       2436   581
+   one          1207   591
+   zero          608   591
+   gap          44929
+   toggle_bit      0
+
+
+       begin codes
+          KEY_POWER                0x0000000000000A9A        #  Was: POWER
+          KEY_EJECTCD              0x000000000000069A        #  Was: EJECT
+           TV-VTR                   0x000000000000055A
+           NUM1                     0x000000000000001A
+           NUM2                     0x000000000000081A
+           NUM3                     0x000000000000041A
+           NUM4                     0x0000000000000C1A
+           NUM5                     0x000000000000021A
+           NUM6                     0x0000000000000A1A
+           NUM7                     0x000000000000061A
+           NUM8                     0x0000000000000E1A
+           NUM9                     0x000000000000011A
+           NUM0                     0x000000000000091A
+          KEY_102ND                0x000000000000051A        #  Was: -/--
+          KEY_VOLUMEUP             0x0000000000000490        #  Was: VOL+
+          KEY_VOLUMEDOWN           0x0000000000000C90        #  Was: VOL-
+          KEY_CHANNELUP            0x000000000000009A        #  Was: PROG+
+          KEY_CHANNELDOWN          0x000000000000089A        #  Was: PROG-
+          KEY_NEXT                 0x0000000000000BBA        #  Was: SKIP
+           SEARCH<<                 0x000000000000015A
+           SEARCH>>                 0x000000000000095A
+           X2                       0x000000000000029A
+           IND_SEARCH<<             0x0000000000000EBA
+           IND_SEARCH>>             0x00000000000006BA
+          KEY_PAUSE                0x000000000000099A        #  Was: PAUSE
+          KEY_PLAY                 0x000000000000059A        #  Was: PLAY
+          KEY_STOP                 0x000000000000019A        #  Was: STOP
+           FF++                     0x000000000000039A
+           FFx2                     0x00000000000008DA
+           FFx1                     0x00000000000008DA
+           FFx0.5                   0x00000000000008DA
+          KEY_REWIND               0x00000000000000DA        #  Was: REWx0.5
+          KEY_REWIND               0x00000000000000DA        #  Was: REWx1
+          KEY_REWIND               0x00000000000000DA        #  Was: REWx2
+          KEY_REWIND               0x0000000000000D9A        #  Was: REW--
+       end codes
+
+end remote
+

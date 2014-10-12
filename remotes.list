@@ -1,0 +1,2619 @@
+2wire;2wire;;; 2wire
+3m;MP8640;;; MP8640
+abit;AU10;;; ABIT_WINDVD
+abs;8776;;; ABS_8776
+accesshd;DTA1080U;;; AccessHD_DTA1080U
+accessmedia;ThinBox;;; AccessMedia_ThinBox
+acer;AT3201W;;; Acer_AT3201W
+acer;lircd.conf.Aspire_6530G;;; Acer_Aspire_6530G_MCE
+acer;RC-802;;; Acer_RC-802
+aconatic;AN-2121_DRS;;; Aconatic_AN-2121_DRS
+acorp;lircd.conf.acorp-878y;;; Acorp-878
+adaptec;lircd.conf.AVC-2410;;; AVC-2410
+adb;I-CAN_3000;;; ADB_ICAN3000
+admiral;G0014AJ;;; admiral-G0014AJ
+ads;Instant_TV_DVB-T;;; ADS_Tech_Instant_TV_DVB-T
+ads;PTV-350;;; ADS_Instant_TV_PCI
+adstech;lircd.conf.usbx-707;;; ADSTech_USBX-707
+advanced_acoustic;MAP-305II_DAII;;; Advance_Acoustic_MAP-305II/DAII
+aim;Radio;;; AIM_Radio
+aim;RC126;;; AIM-RC126
+aiwa;RC-5VP05;;; AIWA-RC-5VP05
+aiwa;RC-6AS07;;; RC-6AS07
+aiwa;RC-6AS14;;; rc6as14
+aiwa;RC-6AT03;;; hu
+aiwa;RC-7AS06;;; RC-7AS06
+aiwa;RC-8AS04;;; AIWA_RC-8AS04
+aiwa;RC-8AT02;;; RC-8AT02
+aiwa;RC-950LE;;; AIWA
+aiwa;RC-AAR02;;; Aiwa-RC-AAR02
+aiwa;RC-AAT11;;; HIFI
+aiwa;RC-AVT02;;; RC-AVT02
+aiwa;RC-BVR02;;; RC-BVR02
+aiwa;RC-C003;;; rc-c003
+aiwa;RC-C105;;; RC-C105
+aiwa;RC-C202;;; AIWA
+aiwa;RC-CAS10;;RC-CAS10.jpg; Aiwa_RC-CAS10
+aiwa;RC-L01;;; RC-L01
+aiwa;RC-L60E;;; Aiwa_RC-L60E
+aiwa;RC-T501;;; AIWA
+aiwa;RC-T503;;; RC-T503
+aiwa;RC-T504;;; AIWA_RC-T504
+aiwa;RC-T506;;; NEC-AIWA
+aiwa;RC-T770F;;; AIWA
+aiwa;RC-TD3;;; AIWA_RC-TD3
+aiwa;RC-TG100;;; aiwa
+aiwa;RC-TN320EX;;RC-TN320EX.jpg; Aiwa_RC-TN320EX
+aiwa;RC-TN330;;; Aiwa_RC-TN330
+aiwa;RC-TN360;;; Aiwa_RC-TN360
+aiwa;RC-TN380B;;; aiwa_rc-tn380b
+aiwa;RC-TN500EX;;; RC-TN500EX
+aiwa;RC-TN520EX;;; RC-TN520EX
+aiwa;RC-TN5L;;; name RC-TN5L
+aiwa;RC-TV2;;; rc-tv2
+aiwa;RC-TXG710;;; AIWA
+aiwa;RC-TZ650;;; rc-tz650
+aiwa;RC-TZ800;;; AIWA_RC-TZ800
+aiwa;RC-TZ95ML;;; RC-TZ95ML
+aiwa;RC-X97;;; Aiwa_RC-X97
+aiwa;RC-ZAS01;;; aiwa
+aiwa;RC-ZAS02;;; AIWA_RC-ZAS02
+aiwa;RC-ZAS10;;; RC-ZAS10
+aiwa;RC-ZAT04;;; RC-ZAT04
+aiwa;RC-ZVR02;;; AIWA_RC-ZVR02
+aiwa;RC-ZVR04;;; AWIA-RC-ZVR04
+aiwa;S79;;; S79
+aiwa;XR-MD201;;; name RC-XR-MD201
+akai;RC-61A;;; Akai-RC-61A
+akai;RC891;;; RC891
+akai;RC-AAV2100;;; AKAI-RC-AAV2100
+akai;RC-C37;;; akai_rc-c37
+akai;RC-C79;;; Akai_RC-C79
+akai;RC-S115;;; akai
+akai;RC-S590;;; AKAI
+akai;RC-S59;;; play-pause
+akai;RC-S67;;; Akai_RC-S67
+akai;RC-V22A;;; Akai-RC-V22A-2
+akai;RC-V23E;;; Akai-RC-V23E
+akai;RC-V99A;;RC-V99A.jpg; Akai_RC-V99A
+akai;RC-W152E;;; AKAI_RC-W152E
+akai;RC-W201G;;; Akai_RC-W201G
+akai;RC-W212F;;RC-W212F.jpg; Akai_RC-W212F
+akai;RC-X121E;;; Akai_RC-X121E
+akai;RC-Y121G;;; RC-Y121G
+akai;TV;;; Akai_TV
+akai;V425A;;; AKAI_V425A
+aki;DVD-838W;;; Aki_DVD-838W
+alba;DVD108;;; Alba-DVD108
+allsat;SRC5893;;; sat
+alpine;RUE-4185;;; alpine_rue-4185
+alpine;RUE-4187;;; ALPINE_RUE-4187
+amino;STB;;; Amino_STB
+amstrad;DX3070;;; Amstrad_DX3070
+amstrad;SRD650;;; srd650
+amstrad;SRX2101;;; SRX2101
+amstrad;SRX340;;; AMSTRAD_SRX340
+amytel;ACI-200;;; Amytel_ACI-200
+animax;lircd.conf.animax;lircmd.conf.animax;; ANIMAX ANIMAX_MOUSE_BUTTONS ANIMAX_MOUSE_PAD
+anitech;TV_M3740;;; ANITECH_TV
+anitech;VCR;;; ANITECH
+anysee;DVB-T;;; anysee
+aoc;M19W531;;M19W531.jpg; AOC_M19W531
+aopen;RC-R470;;RC-R470.jpg; AOpen_RC-R470
+apex;AD-600A;;; AD-600A
+apex;DT250;;; ApexDigital_DT250 ApexDigital_DT250_Oddball
+apex;DV-R200;;; DV-R200
+apex;DV-R383;;; Apex_DV-R383
+apex;K12B-C2;;; Apex_K12B-C2
+apex;K12K-C5;;; Apex_K12K-C5
+apex;RM-1200;;; Apex_RM-1200
+apex;RM-2600;;; Apex_RM-2600
+apple;A1156;;; Apple_A1156
+apple;A1294;;; Apple_A1294
+apple;CD;;; CD
+apple;lircd.conf.macmini;;; Apple_A1156
+apple;Mac;;; Apple_Mac
+arcam;ARCAM;;; Arcam
+arcam;AV200;;; Arcam_AV200
+aristona;37TA1274_03;;; 37TA1274_03
+aristona;RC5525;;; name RC_5525
+aristona;RC9067;;; name RC_9067
+askey;AS-218;;; AS-218
+aspire_digital;RW_DVD+ReWritable;;RW_DVD+ReWritable.jpg; Aspire_Digital_RW_DVD+ReWritable
+asus;DigiMatrix;;; ASUS_DigiMatrix ASUS_DigiMatrixMk2
+asus;Digital_Home;;; ASUS_Digital_HOME
+asus;lircd.conf.asusdh;;; name AsusDH name AsusAI
+asus;lircd.conf.asus;;; name Asus_TV-Box_IR
+asus;lircd.conf.digimatrix;;; ASUS_DigiMatrix ASUS_DigiMatrixMk2
+asus;RC1974502_00;;; Asus_RC1974502_00
+asus;TVBox;;; Asus_TVBox
+aten;VS-431;;; Aten_VS-431
+atiusb;lircd.conf.atilibusb;;; ATI_Remote_Wonder_II Medion_MD8800 ati_remote_wonder_rf nVidia_UR88A X10_OR22V Medion_20016096 Medion_MD8800_X10
+atiusb;lircd.conf.atiusb;;; ATIUSB_5000015900A ATIUSB_5000022000 ATIUSB_5000023600 SAPPHIRE_ATIUSB_5000023600 X-10_Lola microapp6in1 atiusb_ch1 ATIUSB_UR88A Medion 5000024400 Niveus_X10 ATIUSB_MEDION_MD95700 MEDION_X10_RF Medion_20014752 MEDION_40005927 Medion_X10 Medion_8802 Medion_OR24E Q-Sonic_Master_Remote AR_Remote_Control_MCE Toshiba_X10 ATI_REMOTE_2_2_1 Medion_X10 Medion_X10 Jasco_97685T Toshiba_PX1246E-1ETC Snapstream_Firefly_R1000 Medion_MD1_NBC_Remote X10_Ch1 X10_Ch2 X10_Ch3 X10_Ch4 X10_Ch5 X10_Ch6 X10_Ch7 X10_Ch8 X10_Ch9 X10_Ch10 X10_Ch11 X10_Ch12 X10_Ch13 X10_Ch14 X10_Ch15 X10_Ch16
+atlanta_dth;8009_DSR;;; Atlanta_DTH_8009_DSR
+atlas;ABS-1Q76;;; Atlas_ABS-1Q76
+att;U-Verse;;; ATT_U-Verse
+audiosonic;TV;;; audiosonic
+audiosonic;TXCD-1240;;TXCD-1240.jpg; audiosonic_TXCD-1240
+audiosource;SS-Three;;; AudioSource_SS-Three
+audiovox;SIR_CMB3;;; Audiovox_SIR_CMB3
+audiovox;Sirius_PNP2;;Sirius_PNP2.jpg; Audiovox_Sirius_PNP2
+aureal;lircd.conf.atwf83;;; Aureal_ATWF@83
+autumnwave;OnAir_GT;;; AutumnWave_Onair_GT
+auvisio;VRC-1100_Ro;;VRC-1100_Ro.jpg; Auvisio_VRC-1100_Ro
+avermedia;AVerTV_Box_5;;AVerTV_Box_5.jpg; AVerTV5
+avermedia;DVB-T_771;;; a771
+avermedia;lircd.conf.avermedia.98;;; AVerMedia AVerMedia_ext
+avermedia;lircd.conf.avermedia98;lircmd.conf.avermedia98;; TVCapture98 TVPhone98 TVPhone98_ext
+avermedia;lircd.conf.avermedia;lircmd.conf.avermedia;; Avermedia
+avermedia;lircd.conf.RM-FP;;; rmfp
+avermedia;lircd.conf.tvstudio;;; AverMediaTVStudio
+avermedia;lircd.conf.vdomate;;; hanircd
+avermedia;RM-H7;;RM-H7.jpg; AVerMedia RM-H7
+avermedia;RM-KV;;; AVerMedia_RM-KV
+avermedia;Studio_203;;Studio_203.jpg; AVerTV_Studio_203
+avex;AV5609;;; AVEX-AV5609
+avex;RC501;;; AVEX-RC501
+avex;URC-R6;;; Avex_URC-R6_AUX Avex_URC-R6_PVR
+avtoolbox;SW-5070;;; hdswitch
+awlibusb;lircd.conf.awlibusb;;; AW_USB_REMOTE_AWOX AW_USB_REMOTE_THOMSON
+axion;AXN-6075;;; Axion_AXN-6075
+azbox;S700;;; AzBox_S700
+bang&olufsen;Beo4;;; Bang&Olufsen_Beo4
+barco;RC5;;; barcoRC5
+bbk;DV963SM;;; BBK_DV963SM
+bbk;NP101S-v2;;; BBK_Popcorn_NP101S-v2
+bbk;PV400s;;; BBK_PV400s
+bbk;RC022-03R;;; BBK_RC022-03R
+beko;14B3M04-TXB;;; Beko
+beko;NR_KK14T61_TX;;; BEKO_TV
+belkin;F5X019;;; Belkin_F5X019
+bellagio;P807;;; P807
+bench;KH2800;;; kh2800
+benq;DV3080;;; BenQ_DV3080
+benq;MP620;;; Benq_MP620
+beon;Colour_TV;;; Beon_Colour_TV
+bestbuy;lircd.conf.bestbuy2;lircmd.conf.bestbuy2;; BESTBUY
+bestbuy;lircd.conf.bestbuy;lircmd.conf.bestbuy;; BESTBUY
+blaupunkt;RC10;;; BLAUPUNKT
+bluesky;DV900;;DV900.jpg; Bluesky_DV900
+bork;DV_VKM_1643_SI;;; BORK_DV_VKM_1643_SI
+bose;WaveMusicSystem;;; Bose_Wave_Music_System
+bose;WaveRadioCD;;; Bose_Wave
+bose;WAVERADIO;;; WAVERADIO
+bush;4400;;; 4400
+bush;DFTA1xi;;; Bush_DFTA1xi
+bush;WS6680;;; BUSH_WS6680
+cambridge_audio;CD;;; Cambridge
+cambridge_audio;RC-340AC_540AC_640AC;;; Cambridge_Audio_RC-340AC/540AC/640AC Cambridge_Audio_RC-340AC/540AC/640AC_RC5
+cambridge_audio;RC-540R_V2_0;;; Cambridge_Audio_RC-540R_V2.0
+cambridge_audio;RC-DVD53;;; CA_RC-DVD53B
+cambridge_audio;RC-DVD55;;; RC-DVD55
+cambridge_audio;X40A;;; Cambridge_X40A_Amplifier
+canalsat;CanalSat;;CanalSat.jpg; CanalSat
+canalsat;CanalSatHD;;CanalSatHD.jpg; CanalSatHD
+canon;RC-1_RC-5;;; CANON-RC1/RC5
+canon;WL-100;;; canon
+canon;WL-60;;; CAM
+canon;WL-D71;;; CANON
+canon;WL-D77;;; WL-D77
+canon;WL-D80;;; WL-D80
+canon;WL-DC100;;; Canon_WL-DC100
+canon;WL-V1;;; WL-V1
+captain;7100usb;;; Captain_7100usb
+captiveworks;CW800s;;; Captiveworks_CW800s
+caraca;lircd.conf.caraca;;; Caraca
+casio;CMD-40;;; Casio_CMD-40
+cat;CS-907;;; CS-907
+cat;DVD-1122;;DVD-1122.jpg; CAT_DVD-1122
+cat;KF-9816;;; KF-9816
+cce;88-X;;; VCR-CCE
+cce;HPS-2290;;; TV-CCE
+cce;RC-27;;; RC-27
+cce;RC-28;;; RC-28b
+cenOmax;F702;;; cenOmax_F702
+centrum;DVD;;; rc5
+centrum;Gemini_340;;; Centrum_Gemini_340
+century_concept;PS2-0001;;; dvd
+chaparral;11-5315-1;;; 11-5315-1
+chinon;CDS-430;;; CHINON
+chiro;C-802;;; C-802
+chronos;lircd.conf.chronos;;; Chronos
+ciat;6711A20026G;;; CIAT_6711A20026G
+cisco;RNG-150;;; RNG-150
+citizen;JX-2022C;;; Citizen_JX-2022C
+clarion;RCB-130;;; Clarion clarion
+clarion;RCB-177;;; Clarion_RCB-177
+comcast;3067BC2-R;;3067BC2-R.jpg; Comcast_3067BC2-R
+comcast;Custom-3-Device;;; Comcast_Custom-3-Device
+comcast;RNG-150;;; RNG-150
+commodore;CDTV;;; cdtv
+compro;DVB-T200;;; Compro_DVB-T200
+compro;VideoMate-K300;;; ComPro_VideoMate-K300
+conrad;MF_150;;; conrad_mf150_dvd_vcr_0907 conrad_mf150_tv_0579
+conrad;Promo2_006;;; name Promo2_006
+conrad;Promo-8;;; Conrad_Promo-8 Conrad_Promo8_TV0579
+conrad;RSLT2;;RSLT2.jpg; Conrad_RSLT2
+contour;LXI;;; Contour25
+coolsat;Pro_4000;;; Coolsat_Pro_4000
+coolsat;Pro_5000;;; Coolsat_Pro_5000
+cosmel;TV_3790;;; COSMEL
+cox;ATLAS_DVR_PVR_5-DEVICE;;; Cox_ATLAS_DVR/PVR_5-DEVICE Cox_ATLAS_DVR/PVR_5-DEVICE_2
+cox;DCT2224;;; Motorola_DCT2224 Motorola_DCT2224-2
+cph03x;lircd.conf.cph03x;;; AS-218
+creative;CD;;; CREATIVE_INFRA
+creative;DDTS-100;;; DDTS-100
+creative;JUKEBOX_3;;; Creative_JUKEBOX3
+creative;lircd.conf.alsa_usb;;; Creative_RM-1500 name RM-1500 Creative_SBL Creative_RM-1800
+creative;lircd.conf.breakoutbox;;; name Creative_BreakOut-Box_IR
+creative;lircd.conf.creative;;; CREATIVE_INFRA_DVD
+creative;lircd.conf.infracd;;; CREATIVE_INFRA
+creative;lircd.conf.livedrive;;; rm1000w LiveDrive LiveDrive_Headphone
+creative;RM-1000;;; rm1000w
+creative;RM-1500;;; Creative_RM-1500 name RM-1500
+creative;RM-1800;;; Creative_RM-1800
+creative;RM-850;;; Creative_RM-850
+creative;RM-900;;; Creative_RM900
+crown;CD-80;;; cd-80
+crown;RC_647340;;; testinglirc.config
+cttc;CLA_Tronic;;CLA_Tronic.jpg; CTTC-CLA_Tronic
+curtis_electronics;TV;;; Curtis_TV
+cyberhome;AD-L_528;;; cyberhome
+cyberhome;ADL-528;;; Cyberhome_ADL-528
+cyberhome;CH-DVD-302;;; CH-DVD-302
+cyberhome;CH-DVD_402;;; Cyberhome_CH-DVD_402
+cyberhome;CH-DVD_504;;; CH-DVD_504
+cyberhome;RMC-300Z;;; CH-DVD_300-RMC-300Z
+daeumling;SR200;;; SR200
+daewoo;14Q3_TV;;; Daewoo_14Q3_TV
+daewoo;97P04701;;; Daewoo_97P04701
+daewoo;97P1R2ZDA0;;; Daewoo_97P1R2ZDA0
+daewoo;97P1RA3AB0;;; Daewoo_97P1RA3AB0
+daewoo;DS608P;;; Daewoo_DS608P
+daewoo;DV-800;;; DV-800
+daewoo;DVDS150;;; Daewoo_DVDS150
+daewoo;DV-F24D;;; Daewoo_DV-F24D
+daewoo;DV-K281K;;DV-K281K.jpg; Daewoo_VCR
+daewoo;IR7132-A;;; Visa
+daewoo;R-22;;; r-22
+daewoo;R-28B03;;R-28B03.jpg; DAEWOO
+daewoo;R-40A06;;; R-40A06
+daewoo;R-40A10;;; R-40A10
+daewoo;R-40A15;;; Daewoo_R-40A15
+daewoo;R-43A08;;R-43A08.jpg; daewoo_R-43A08
+daewoo;VP-200_VCR;;; VCR
+daewoo;VQ25I;;; daewoo
+dantax;RC_DVD910;;; Dantax_RC_DVD910
+dart_europe;lircd.conf.tv_radio_live;;; dart1
+daytron;VCR32-DAU;;; daytron
+dell;MR425;;; Dell_XPS_Remote_MR425
+denon;RC-1017;;; Denon_RC-1017
+denon;RC-1075;;; Denon_RC-1075
+denon;RC-1120;;; DENON_RC1120_1 DENON_RC1120_2 DENON_RC1120_3
+denon;RC-117;;; RC-117
+denon;RC-129A;;; DENON_RC-129A
+denon;RC-152;;; RC-152
+denon;RC-165;;RC-165.jpg; Denon_rc-165
+denon;RC-174;;; Denon
+denon;RC-176;;; DENON_RC-176
+denon;RC-181;;; RC181
+denon;RC-194;;; Denon
+denon;RC-195;;; DENON_RC-195
+denon;RC-203;;; Denon_RC-203
+denon;RC-220;;; RC-220
+denon;RC-224;;; RC-224
+denon;RC-241;;; RC-241
+denon;RC-251;;; denon-rc-251
+denon;RC-258;;; DENON_RC-258
+denon;RC-266;;; denon-rc-266
+denon;RC-267;;; RC267
+denon;RC-541;;; RC-541
+denon;RC-543;;; dvd
+denon;RC-812;;; DENON_RC812
+denon;RC-818;;; denon_RC-818
+denon;RC-828;;; RC-828
+denon;RC-830;;RC-830.jpg; RC-830
+denon;RC-840;;; Denon_RC-840
+denon;RC-841;;; denon_rc841
+denon;RC-843;;; DENON
+denon;RC-846;;; Denon_RC-846
+denon;RC-860;;; amp
+denon;RC-861;;; Denon_RC-861
+denon;RC-877;;; Denon_RC-877
+denon;RC-896;;; RC-896
+denon;RC-897;;; RC-897
+denon;RC-917;;; Denon_RC-917
+denver;DVD-228;;; Denver_DVD-228
+devinput;lircd.conf.devinput;;; devinput devinput
+difrnce;DVD5010S;;; DIFRNCE_DVD5010S
+digital_stream;DTX9900;;; Digital_Stream_DTX9900
+directv;G051204;;; DirecTV_G051204
+directv;H23;;; Directv_H23
+directv;HD20-100;;; DirecTV_HD20-100
+directv;RC16;;; DirectTV_RC16
+directv;RC24;;; DirecTV_RC24
+directv;RC32;;; DirecTV_RC32
+directv;RC64;;; RC64
+dishnet;301_501_3100_5100_58xx_59xx;;; 301/501/3100/5100/58xx/59xx
+dishnet;Dish_Network;;; dish dish1 dish2 dish3 dish4 dish5 dish6 dish7 dish8 dish9 dish10 dish11 dish12 dish13 dish14 dish15 dish16
+dishnet;SAT_301;;; 3100
+dk_digital;DVD-228;;DVD-228.jpg; DK_Digital_DVD-228
+dk_digital;DVD-585;;; DK_Digital_DVD-585
+d-link;DSM-10;;; DLink_DSM-10
+d-link;DSM320;;; DSM320
+d-link;i2eye;;; i2eye
+domland;MH10CA;;; domland-MH10CA
+dream_multimedia;URC-39730-B00;;; URC7562
+dream_multimedia;URC-39930RJ0-03;;; Dream_Multimedia_URC-39930
+dse;G1605;;; DSE_G1605
+dse;G1928;;; DSE_G1928
+dse;G7659;;; DSE_G7659
+dual;RC1150;;; dual
+dual;RC_4890;;; Dual_RC_4890
+dual;RC500;;; DualRC500
+durabrand;PTV141;;; Durabrand_PTV141
+dvico;FusionRemote;;FusionRemote.jpg; DVICO_FusionRemote
+dvico;lircd.conf.fusionHDTV;;; DVICO DVICO_MCE DVICO_MCE DViCO_Utraview
+dynaudio;Sub_500;;; Dynaudio_Sub_500
+dynex;DX-CVS4;;; Dynex_DX-CVS4
+ea65;lircd.conf.ea65;;; EA65
+eagle_aspen;ROTR10;;; Eagle_Aspen_ROTR100
+echostar;119420;;; name ECHOSTAR-119420
+echostar;132578;;132578.jpg; EchoStar_132578
+echostar;301_501_3100_5100_58xx_59xx;;; 301/501/3100/5100/58xx/59xx
+echostar;AD3000IP;;; Echostar_AD3000IP
+echostar;DBS;;; d9 d6
+echostar;Dish_Network;;; dish dish1 dish2 dish3 dish4 dish5 dish6 dish7 dish8 dish9 dish10 dish11 dish12 dish13 dish14 dish15 dish16
+echostar;DSB-616;;; Echostar_DSB-616
+echostar;DSB-636;;; Echostar_DSB-636
+echostar;SAT_301;;; 3100
+eclipse;CD101;;; Eclipse_CD
+ecotel;UNIVERSAL;;; Ecotel
+ei;TV90;;; Ei-TV90
+elenberg;RC-404E;;RC-404E.jpg; Elenberg_RC-404E
+elite;9361-3EL;;; Elite_9361-3EL
+elitron;UTK11;;; utk
+elmak;MT-1041;;; MT-1041
+elmo;PRC-100S;;; Elmo_PRC-100S
+eltasat;SAT170;;; ELTASAT_SAT170
+eltax;Corniche;;; eltax_corniche
+emerson;076m056100;;; emersontv
+emerson;CD;;; emerson-cd
+emerson;NB050;;; Emerson-NB050-DVD
+emerson;TV;;; emerson
+entone;URC-4021ABA1-006-R;;URC-4021ABA1-006-R.jpg; ENTONE_URC-4021ABA1-006-R
+epson;12807990;;; Epson_12807990
+epson;ELPST12;;; Epson_ELPST12
+ericsson;lircd.conf.bte;;; bte
+e-tech;TV_CARD;;; name FLY98
+euroconsumers;LG-5988;;; Euroconsumers_LG-5988
+expressvu;301_501_3100_5100_58xx_59xx;;; 301/501/3100/5100/58xx/59xx
+expressvu;SAT_3100;;; 3100
+fagor;TEDI100;;; Fagor_TEDI100
+falcon;VT-1000;;; VT-1000
+fenner;SAT;;; fenner
+ferguson;RC8X02NX;;; RC8X02NX
+finlux;3628;;; TV
+fisher;FVH-U908;;; FISHER_FVH-U908
+fisher_price;C0108;;C0108.jpg; Fisher_Price_C0108
+fisher;RC720F;;RC720F.jpg; Fisher_RC720F
+fisher;RCA-9050;;; RCA-9050
+fisher;RCA-9060;;; Fisher_RCA-9060
+fisher;REM-1500;;; Fisher_REM-1500
+fisher;REM_S3;;; ra
+fortec;Lifetime;;; Fortec_Lifetime
+fortec;Mercury2;;; Fortec_Mercury2
+fox;RC_5-Bp2;;RC_5-Bp2.jpg; FOX_RC5-Bp2
+foxtel;Digital_Cable_STB;;; Foxtel_Digital_Cable_STB
+foxtel;Digital_Satellite_STB;;; foxtel
+foxtel;STU-120;;; Foxtel_STU-120
+frahm;MD300;;MD300.jpg; md300
+freecom;MP35;;MP35.jpg; Freecom_MP35
+freedomland;SWP-2438WJ1F;;; Freedomland_SWP-2438WJ1F
+free;Freebox;;; FREEBOX_REMOTE
+free;Freebox_V5;;; name Freebox_V5
+fresat;SER-3000PL_A;;; Fresat_SER-3000PL_A
+fte_maximal;ESR1500;;; FTE
+fuba;BAT970004A3;;; ALPS
+fuba;ODE_520;;; FUBA
+fuba;ST-007;;; FubaST007
+fujitsu;CP300375-01;;; Fujitsu_CP300375-01
+fujitsu_siemens;KWR3020;;; Remote.Keys QWERTY.Keys
+fujitsu_siemens;RC1124121;;; RC1-1241-21
+fujitsu_siemens;RC811;;; Fujitsu-Siemens_RC811
+fujitsu_siemens;RC812;;; Fujitsu-Siemens_RC812
+fujtech;DVB-T;;DVB-T.jpg; Fujitech_DVB-T
+funai;N9479;;; Funai_N9479
+funai;V3EE_MK6;;; FUNAI-V3EE_MK6
+funai;V-8008CM_MKII;;; VCR
+funai;VCR_21C-450;;; VCR
+funai;VCR_8307CA;;; Funai-VCR8307CA
+furby;FURBY;;; furby
+galaxis;RC1;;; galaxis_rc1
+galaxis;RC5;;; GALAXIS-RC5
+galaxis;RCMM;;; Galaxis-RCMM
+galaxis;UR-250D;;; Galaxis.sat
+gamefactory;PS2DVD;;; name GAMEFACTORY_PS2DVD
+general_instrument;550;;; GI_550
+general_instrument;XRC-200;;; XRC-200 XRC-200
+general;VCR;;VCR.jpg; General_VCR
+generic;XMP;;; XMP
+geniatech;Supera_Color;;Supera_Color.jpg; Genentech_Supera_Color
+genius;DVB-T32;;; Genius-DVB-T32
+genius;SW_5_1_HT;;; GENIUS_SW_5_1_HT
+genus;DU1;;; Genus_DU1
+get;HD_PRV;;; gethdpvr
+ge;TV-25CT511;;; TV-25CT511
+ge;UNIVERSAL;;; GE_UNIVERSAL
+ge;VCR;;; VCR
+ge;VKFS0938;;; GE_VKFS0938
+gigabyte;TV;;TV.jpg; Gigabyte_TV
+golden_interstart;DSR-8001;;DSR-8001.jpg; Golden_Interstart_DSR-8001
+goldstar;105-210A;;; GOLDSTAR
+goldstar;243-592c;;243-592c.jpg; GoldStar
+goldstar;6710S-6000A;;; cd
+goldstar;GSE-Q204P;;; Goldstar
+goldstar;QUISY_500;;; VCR
+goldstar;RN800AW;;; RN800AW
+goldstar;TV;;; TV
+goldstar;TV_VCR;;; GoldStar-TV GoldStar-VCR
+goldstar;VCR2;;; Goldstar-VCR
+goldstar;VCR;;; goldstar
+goodmans;GDB_3;;; Goodmans_GDB_3
+goodmans;GDVD124;;; GOODMAN_GDVD124
+goodmans;MD-305;;; goodmans_md305
+goodmans;RC-BM;;RC-BM.jpg; Goodmans_RC-BM
+govideo;D2730;;; GoVideoD2730
+gradiente;D-10;;; D-10
+gradiente;GSD-100;;; GSD-100
+gradiente;MDP-200;;; MDP-200
+graetz;Graetz;;Graetz.jpg; Graetz
+grandin;TV;;TV.jpg; Grandin_TV
+gran_prix;TV;;; gran_prix
+grundig;2500S;;; 2500S
+grundig;ASIS;;; MOTOROLA_START/STOP MOTOROLA
+grundig;CDM_700;;; Grundig_CDM700.cfg
+grundig;FineArts_AMP_V1;;; grundig
+grundig;FineARTS;;; Grundig_FineARTS
+grundig;M38-C;;; Grundig-M38C
+grundig;Personal_Remote_10;;; Grundig
+grundig;RC1CD;;; Grundig
+grundig;RC24-03;;; UMS9V
+grundig;RC300;;; RC300
+grundig;rc8300ac;;; Grundig
+grundig;RC8400CD;;; GRUNDIG_RC8400CD
+grundig;RC-TP3;;RC-TP3.jpg; Grundig_RC-TP3
+grundig;RP_100;;; Grundig_RP_100
+grundig;RP25;;; RP25
+grundig;RP_35;;; RP_35
+grundig;RP700;;; rp700
+grundig;RP75_LCD;;RP75_LCD.jpg; RP75 grundig_rp75 grundig_rp75_video2
+grundig;System_Series;;; grundig
+grundig;TelePilot_100C;;; GRUNDIG_TelePilot_100C
+grundig;TelePilot_84D;;; TELEPILOT_84D
+grundig;TP_160C;;TP_160C.jpg; GRUNDIG_TP_160C
+grundig;TP_621;;; tp621
+grundig;TP_623;;; TP623
+grundig;TP660;;; Grundig-TP660
+grundig;TP_661_TOP;;; Grundig_TP661
+grundig;TP_711;;; TP_711
+grundig;TP_715_SAT;;; TP_715_SAT TP_715_SAT_PRE
+grundig;TP_715;;TP_715.jpg; tv
+grundig;TP_720;;; TP720_SST TP720_TV TP720_SAT TP720_VIDEO
+grundig;TP_750C-2;;; GRUNDIG
+grundig;TP_750C;;; TP-750C
+grundig;TP_760;;; Grunding_TP_760
+grundig;TP_800_HOTEL;;; Grundig_TP_800_HOTEL Grundig_TP_800_HOTEL_START/STOP
+grundig;TP_820_SAT;;TP_820_SAT.jpg; tp820sat
+grundig;TVP_763;;; TVP_763
+guillemot;RemoteWizard-GN-263;;; RemoteWizard-GN-263
+gvc;RM-RK50;;; GVC_RM-RK50
+hama;Internet_Radio;;; Hama_Internet_Radio
+hama;PhotoPlayer;;; Hama_PhotoPlayer
+hampton_bay;UC7078T;;; UC7078T
+hampton_bay;Window_AC;;; Hampton_Bay_Window_AC
+harman_kardon;AVR10;;; AVR10
+harman_kardon;AVR240;;; Harman_Kardon_AVR240
+harman_kardon;AVR25;;AVR25.jpg; Harman_Kardon_AVR25
+harman_kardon;AVR320;;; AVR320
+harman_kardon;DVD_1_RC;;; harman-kardon_DVD_1_RC
+harman_kardon;DVD_22;;; Harman_Kardon-DVD_22
+harman_kardon;HD730;;; HD730
+harman_kardon;HD740;;; harmankardon
+harman_kardon;HK3390;;HK3390.jpg; Harman-Kardon_HK3390
+harman_kardon;HK680;;; HK680
+harman_kardon;RIA101;;; Harman_Kardon-HK620
+harting_helling;H+H_8in1;;; H+H_8in1 H+H_8in1_SAT2 H+H_8in1_TV3 H+H_8in1_RC5
+hauppauge;DSR-0095;;; Hauppauge_DSR-0095
+hauppauge;DSR-0112;;DSR-0112.jpg; Hauppauge_WinTV-HVR-950Q_DSR-0112
+hauppauge;lircd.conf.hauppauge.irman;;; hauppauge hauppauge
+hauppauge;lircd.conf.hauppauge;lircmd.conf.hauppauge;; Hauppauge hauppauge_pvr Hauppauge_350 Hauppauge_WinTV_Nexus-S Hauppauge Hauppauge_MVP
+hauppauge;lircd.conf.hauppauge-stb;;; hauppauge-stb
+hauppauge;MVP;;; Hauppauge_MVP
+hauppauge;R808-HPG;;; Hauppauge_R808_HPG
+hauppauge;SupportPlus7;;; SupportPlus7
+hauppauge;WinTV-HVR_900;;; Hauppauge_WinTV-HVR_900
+hb;DIGITAL;;DIGITAL.jpg; HB_DIGITAL
+hello_kitty;KT2337;;KT2337.jpg; Hello_Kitty_KT2337
+hercules;lircd.conf.smarttv_stereo;;; HERCULES_SMARTTV_STEREO
+hermstedt;Hifidelio;;; Hermstedt_Hifidelio
+hinen_electronics;HSW0301;;; name Hinen_Electronics_HSW0301
+hip_interactive;GE1002;;; GamingEdge_GE1002
+hirschmann;RC_426;;; RC426
+hitachi;898A;;; Hitachi
+hitachi;CLE-941;;; CLE-941
+hitachi;CLE-947;;; Hitachi_CLE-947
+hitachi;CLU4341UG2;;; Hitachi_CLU4341UG2
+hitachi;CP-X345;;; HITACHI_CP-X345
+hitachi;DV-RM335E;;; Hitachi_DV-RM335E
+hitachi;FX-7;;; HITACHI_FX7
+hitachi;RB-77;;; hitachi.conf
+hitachi;RM-466E;;; RM-466E-2 RM-466E
+hitachi;RM-613a;;; RM-613a
+hitachi;TV_VCR;;; Hitachi
+hitachi;VM222;;; HFTV
+hitachi;VM-rmE55A;;; HITACHI_VM-rmE55A
+hitachi;VT-M410E;;; VCR
+hitachi;VT-RM621A;;; name Hitachi_VT-RM621A-VCR
+hitachi;VT-RM633E;;; hitachi hitachi2
+hitachi;VT-RM_728E;;; Hitachi
+hitachi;VT-RM783E;;; Hitachi_VT-RM783E
+hivion;SAT;;; Hivion_SAT
+hokkaido;Airconditioner;;; Hokkaido_Airconditioner
+home_cable;HCC9300;;; homecable
+homecast;DVB-S;;; Homecast_DVB-S
+homecast;DVB-T;;DVB-T.jpg; Homecast_DVB-T
+hometech;TV;;; HomeTech
+horizont;RC6-2;;; HORIZONT_RC6-2
+hot;SET_TOP_BOX;;; Hot_SET_TOP_BOX
+hp;DV4-1125NR;;; HP_DV4-1125NR
+hp;DV6331;;; HP_DV6331
+hp;hp-465539;;hp-465539.png; HP 465539-002
+hp;HSTNN-PRO7;;; HP_Pavilion
+hp;RC1762302-00;;; HP_RC1762302-00
+hp;RC1762307-01;;; HP_RC1762307-01
+hp;RC1762308-01B;;; HP_RC172308-01B
+hp;RC180491206;;; HP_RC1804912/06
+hq;RC_Univers_20;;; HQ_RC_Univers20
+hq;RC_Univers25;;RC_Univers25.jpg; HQ_RC_Univers25
+hughes;HIRD-B2;;; b1 b2
+hughes;HIRD-B2_GAEBO;;; name HUGHES_DSS_GAEBO
+hughes;HRMC-8;;; Hughes_HRMC-8
+humax;5400IRCI;;; Humax-5400IRCI
+humax;F1-CI;;; Humax_F1CI
+humax;RC-536P;;; Humax-RC-536P
+humax;RS-101P;;; lircd.conf
+humax;RS-521;;; HUMAX_RS-521
+humax;RT-511V;;; Humax_RT-511V
+humax;VACI-5300;;; HUMAX
+huth;RC7011;;; huth_prof_200
+hyundai;H-DVD5038N;;; HYUNDAY_H-DVD5038N
+hyundai;H-HT5111;;; Hyundai_H-HT5111
+hyundai;ImageQuest_L17T;;; l17t
+i24;I24;;I24.jpg; I24
+ibm;HD23A;;; aux1-power AUX1 aux2-power AUX2 Cable cbl-power sat-power Sat tv-power TV vcr-power vcr.conf
+ice;TV;;; tv1045-1
+illusion;M3;;; Illusion_M3
+imex;IM-1010;;; IMEX_IM-1010
+imex;IM-1313_027;;; IM1313-TVTXT1-027 KINGMAN_IMEX_IM_1313
+imex;IM-1313;;; im-1313
+imon;lircd.conf.imon-2.4g;;; lircd.conf.imon-2.4g-lt
+imon;lircd.conf.imon-2.4g-lt;;; lircd.conf.imon-2.4g-lt
+imon;lircd.conf.imon-antec-veris;;; Antec_Veris_RM200 Antec_Veris_Premiere Antec_Veris_RM100
+imon;lircd.conf.imon;;; IMON_MultiMedian
+imon;lircd.conf.imon-knob;;; IMON_KNOB
+imon;lircd.conf.imon-mceusb;;; MCE_via_iMON Antec_Veris_Premiere
+imon;lircd.conf.imon-pad;;; iMON-PAD Antec_Fusion_Wheel iMON-PAD
+imon;lircd.conf.imon-rsc;;; IMON_RSC IMON_RSC_STICK
+imon;lircd.conf.imon-ultrabay;;; imon_ultrabay_pad imon_ultrabay_panel
+in_focus;IRC_TC;;; My_remote
+infocus;ScreenPlay_5000;;; InFocus_ScreenPlay_5000
+insignia;WIR147002-8301;;; Insignia_WIR147002-8301
+interact;I-22121;;; I-22121
+intervision;Intervision;;Intervision.jpg; Intervision
+iodata;lircd.conf.gvbctv5pci;;; GV-BCTV5/PCI
+ione;HTPC;;; ione_remote
+irlink;lircd.conf.irlink.vs;;; IRLink.VS
+irobot;Roomba_Discovery_4220;;; iRobot_Roomba_Discovery_4220
+irobot;Roomba_Discovery_SE;;; iRobot_Roomba_Discovery_SE
+irobot;Roomba;;; iRobot_Roomba
+irradio;HIFI_1300V;;; IrradioHIFI1300V
+isp;4187;;; isp ISP_4187_TV1_012
+italtel;SAT;;; italtel
+itt;RC40;;; ITT
+itt;RC51;;; RC51
+itt;VR-3760;;; ITTNOKIA
+itv_media;iTV_Control;;; itvcontrol-frontside-cursors b_upleft b_upright b_downleft b_downright b_ok b_hoch b_links b_runter b_rechts itvcontrol-frontside-keys b_menu b_exit b_p+ b_p- b_vol+ b_vol- b_record b_power b_pause b_rew b_ff b_play b_stop b_rot b_gruen b_blau b_gelb b_vt b_0 b_1 b_2 b_3 b_4 b_5 b_6 b_7 b_8 b_9 b_av b_--- b_select b_mute itvcontrol-keyboard-keys b_alt b_altgr b_strg b_lshift b_rshift b_caps b_backspace b_ctrl_backspace b_altgr_backspace b_alt_backspace b_tab b_enter b_esc b_kdown b_ctrl_kdown b_kleft b_ctrl_kleft b_kright b_ctrl_kright b_kup b_ctrl_kup b_space b_< b_shift_< b_rshift_< b_altgr_< b_, b_shift_, b_rshift_, b_altgr_, b_. b_shift_. b_rshift_. b_altgr_. b_f1 b_shift_f1 b_rshift_f1 b_altgr_f1 b_f2 b_shift_f2 b_rshift_f2 b_altgr_f2 b_f3 b_shift_f3 b_rshift_f3 b_altgr_f3 b_f4 b_shift_f4 b_rshift_f4 b_altgr_f4 b_f5 b_shift_f5 b_rshift_f5 b_altgr_f5 b_f6 b_shift_f6 b_rshift_f6 b_altgr_f6 b_f7 b_shift_f7 b_rshift_f7 b_altgr_f7 b_f8 b_shift_f8 b_rshift_f8 b_altgr_f8 b_f9 b_shift_f9 b_rshift_f9 b_altgr_f9 b_f10 b_shift_f10 b_rshift_f10 b_altgr_f10 b_f11 b_shift_f11 b_rshift_f11 b_altgr_f11 b_a b_shift_a b_rshift_a b_alt_a b_ctrl_a b_altgr_a b_aa b_shift_aa b_rshift_aa b_altgr_aa b_shift_altgr_aa b_rshift_altgr_aa b_b b_shift_b b_rshift_b b_alt_b b_ctrl_b b_altgr_b b_c b_shift_c b_rshift_c b_alt_c b_ctrl_c b_altgr_c b_d b_shift_d b_rshift_d b_alt_d b_ctrl_d b_altgr_d b_e b_shift_e b_rshift_e b_alt_e b_ctrl_e b_altgr_e b_f b_shift_f b_rshift_f b_alt_f b_ctrl_f b_altgr_f b_g b_shift_g b_rshift_g b_alt_g b_ctrl_g b_altgr_g b_h b_shift_h b_rshift_h b_alt_h b_ctrl_h b_altgr_h b_i b_shift_i b_rshift_i b_alt_i b_ctrl_i b_altgr_i b_j b_shift_j b_rshift_j b_alt_j b_ctrl_j b_altgr_j b_k b_shift_k b_rshift_k b_alt_k b_ctrl_k b_altgr_k b_l b_shift_l b_rshift_l b_alt_l b_ctrl_l b_altgr_l b_m b_shift_m b_rshift_m b_alt_m b_ctrl_m b_altgr_m b_n b_shift_n b_rshift_n b_alt_n b_ctrl_n b_altgr_n b_o b_shift_o b_rshift_o b_alt_o b_ctrl_o b_altgr_o b_oo b_shift_oo b_rshift_oo b_altgr_oo b_shift_altgr_oo b_p b_shift_p b_rshift_p b_alt_p b_ctrl_p b_altgr_p b_q b_shift_q b_rshift_q b_alt_q b_ctrl_q b_altgr_q b_r b_shift_r b_rshift_r b_alt_r b_ctrl_r b_altgr_r b_s b_shift_s b_rshift_s b_alt_s b_ctrl_s b_altgr_s b_t b_shift_t b_rshift_t b_alt_t b_ctrl_t b_altgr_t b_u b_shift_u b_rshift_u b_alt_u b_ctrl_u b_altgr_u b_uu b_shift_uu b_rshift_uu b_altgr_uu b_shift_altgr_uu b_rshift_altgr_uu b_v b_shift_v b_rshift_v b_alt_v b_ctrl_v b_altgr_v b_w b_shift_w b_rshift_w b_alt_w b_ctrl_w b_altgr_w b_x b_shift_x b_rshift_x b_alt_x b_ctrl_x b_altgr_x b_y b_shift_y b_rshift_y b_alt_y b_ctrl_y b-altgr_y b_z b_shift_z b_rshift_z b_alt_z b_ctrl_z b_altgr_z
+jbl;Harmony;;; JBL-Harmony
+jerrold;CFT2000;;; CFT2000
+jerrold;MRC_500;;; Jerrold_MRC_500
+jerrold;MRC_550;;; Jerrold_MRC_500
+jerrold;RC_55-OSD;;; rc_550-osd
+jerrold;RC-OSD;;; RC-OSD
+jerrold;RT-J50;;RT-J50.jpg; RT-J50
+jvc;100331-AA;;; JvcDishPlayer500
+jvc;6711R1P037A;;; JVC_6711R1P037A
+jvc;CA_E33;;; JVC_CA_E33
+jvc;Dish_Network;;; dish dish1 dish2 dish3 dish4 dish5 dish6 dish7 dish8 dish9 dish10 dish11 dish12 dish13 dish14 dish15 dish16
+jvc;HR-J52MS;;; HR-J52MS
+jvc;HR-S7600U;;; jvc
+jvc;JVC_4700;;; JVC_4700
+jvc;JX-S700;;; sw
+jvc;LP20106-002;;; JVC_LP20106-002
+jvc;LP20303-009;;; JVC_LP20303-009
+jvc;LP20337-004;;LP20337-004.jpg; jvc-lp20337-004-vcr jvc-lp20337-004-tv LP20337-004-SAT-BIT
+jvc;LP20337-013;;; JVC-LP20337-013
+jvc;LP20465-005;;; jvc-lp20465-005-vcr
+jvc;LP20878-009;;; LP20878-009
+jvc;LP20878-014-VCR;;; LP20878-014-VCR
+jvc;LP20878-016;;LP20878-016.jpg; JVC_LP20878-016-VCR_TV
+jvc;LP20978-008;;; JVC_LP20978-008
+jvc;LP21036-039;;; JVC_LP21036-039
+jvc;PQ10344CG;;; JVC_PQ10344CG
+jvc;PQ10543;;; JVC_PQ10543
+jvc;PQ10779;;; PQ10779
+jvc;PQ11534;;; pq11534
+jvc;PQ21953A;;; JVC_PQ21953F
+jvc;PQ21953F;;; JVC_PQ21953F
+jvc;RM-C1100;;; JVC_RM-C1100
+jvc;RM-C1251G;;; JVC_RM-C1251G
+jvc;RM-C241;;; jvc_rm-c241
+jvc;RM-C360;;; JVC_RM-C360
+jvc;RM-C410;;; JVC_RM-C410
+jvc;RM-C422;;; RM-C422
+jvc;RM-C462;;; RM-C462
+jvc;RM-C475W;;RM-C475W.jpg; JVC-RM-C475W
+jvc;RM-C530;;; RM-C530
+jvc;RM-C670;;; RM-C670
+jvc;RM-C678;;; JVC_RM-C678
+jvc;RM-C795;;; JVC_RM-C795
+jvc;RM-C860;;; JVC_RM-C860
+jvc;RM-RD1100;;; RM-RD1100
+jvc;RM-RK31;;; RK31
+jvc;RM-RK50;;; JVC_RM-RK50
+jvc;RM-RK60;;; JVC_RM-RK60
+jvc;RM-RP610;;; JVC_RM-RP610
+jvc;RM-RX050;;; JVC
+jvc;RM-RX130;;; RM-RX130
+jvc;RM-RX250;;; JVC_RM-RX250
+jvc;RM-RXQ1002;;; JVC_RM-RXQ1002
+jvc;RM-RXQC7BKE;;; remote
+jvc;RM-RXQW35;;; JVC_RM-RXQ1002
+jvc;RM-RXU1;;; JVC_RM-RXU1
+jvc;RM-RXUA4;;; RM-RXUA4
+jvc;RM-RXUT200R;;; JVC_RM-RXUT200R
+jvc;RM-RXUV5R;;; JVC_RM-RXUV5R
+jvc;RM-RXUV9RMD;;; RM-RXUV9RMD
+jvc;RM-S9;;; RM-S9
+jvc;RM-SA5U;;; RM-SA5U
+jvc;RM-SE31;;; JVC/RM-SE31
+jvc;RM-SED3SU;;; JVC-RM-SED3SU
+jvc;RM-SED60TU;;; JVC-RM-SED60TU
+jvc;RM-SEEXA1R;;; JVC_RM-SEEXA1R
+jvc;RM-SEMD70RU;;RM-SEMD70RU.jpg; JVC
+jvc;RM-SEMXS3U;;; RM-SEMXS3U
+jvc;RM-SEMXS6U;;; JVC_RM-SEMXS6U
+jvc;RM-SES200U;;; JVC/RM-SES200U
+jvc;RM-SES3OU;;; JVC/RM-SES3OU
+jvc;RM-SES60U;;; rm-ses60u
+jvc;RM-SES700RU;;; JVC-RM-SES700RU_a JVC-RM-SES700RU_b
+jvc;RM-SFSG5J;;; JVC_RM-SFSG5J
+jvc;RM-SFSSD7R;;; RM-SFSSD7R
+jvc;RM-SHXD77J;;; JVC_RM-SHXD77J
+jvc;RM-SMXJ100E;;; JVC_RM-SMXJ100E
+jvc;RM-SMXJ950R;;; RM-SMXJ950R
+jvc;RM-SR509U;;; JVC-RM-SR509U
+jvc;RM-SR518U;;; jvc
+jvc;RM-SRX5022U;;; JVC-RM-SRX5022U
+jvc;RM-SUXP5R;;; JVC_RM-SUXP5R
+jvc;RM-SUXS57R;;; JVC_RM-SUXS57R
+jvc;RM-SVSDT6R;;; JVC_RM-SVSDT6R
+jvc;RM-SX263U;;; JVC_RM-SX263U
+jvc;RM-SX334U;;; JVC-CD
+jvc;RM-SX440;;; RM-SX_440
+jvc;RM-SXV008J;;; JVC_RM-SXV008J
+jvc;RM-SXV08J;;; RM-SXV008J
+jvc;RM-SXVS40A;;; RM-SXVS40A
+jvc;RM-V1E;;; JVC_RM-V1E
+jvc;RM-V717U;;; RM-V717U RM-V717U
+jvc;RM-V718U;;RM-V718U.jpg; JVC_RM-V718U
+jvc;RM-V730U;;RM-V730U.jpg; JVC_RM-V730U
+jvc;SXV037J;;; JVC_SXV037J
+kanam_accent;lircd.conf.IR-100;;; Kanam_Accent_IR-100
+kanam_accent;lircd.conf.kanam_accent;;; kanamaccent
+kaon;KSC-i260MCO;;; Kaon_KSC-i260MCO
+kaon;KTF-100CO;;; Kaon_KTF-100CO
+kaon;KTF-I2001CO;;KTF-I2001CO.jpg; Kaon_KTF-I2001CO
+kathrein;UFD400;;; KathreinUFD400
+kawa;TV;;TV.jpg; KAWA_TV
+Kenmore;Kenmore_253_79081;;Kenmore_253_79081.jpg; KENMORE_253-79081
+kenwood;AVREC;;; AVREC
+kenwood;RC-1001;;; RC-1001
+kenwood;RC-160;;; RC-160
+kenwood;RC-206;;; Kenwood_RC-206
+kenwood;RC-47;;; Kenwood
+kenwood;RC-553e;;; RC_553e
+kenwood;RC-56;;; Kenwood
+kenwood;RC-701R;;; Kenwood_RC-701R
+kenwood;RC-790;;; RC-790
+kenwood;RC-A0400;;; RC-A0400
+kenwood;RC-C2;;; KENWOOD_RC-C2
+kenwood;RC-D0705;;; RC-D0705.conf
+kenwood;RC-E5;;; kenwood_rce5
+kenwood;RC-F0100;;; RC-F0100
+kenwood;RC-F2;;; RC-F2
+kenwood;RC-G3;;RC-G3.jpg; Kenwood_RC-G3
+kenwood;RC-H2R;;; RC-H2R
+kenwood;RC-H7R;;; RC-H7R
+kenwood;RC-LVD930R;;; RC-LVD930R
+kenwood;RC-M0301;;; RC-M0301
+kenwood;RC-M0701;;; RC-M0701
+kenwood;RC-P030;;; RC-P030
+kenwood;RC-P0400;;; RC-P0400
+kenwood;RC-P0700;;; RC-PO700
+kenwood;RC-P0702;;; RC-P0702
+kenwood;RC-P070;;; RC-P070
+kenwood;RC-P0715;;; RC-P0715
+kenwood;RC-P2030;;; Kenwood_RC-P2030
+kenwood;RC-P600;;; RC-P600
+kenwood;RC-P6630;;; RC-P6630
+kenwood;RC-P800;;; kenwood_rc-p800
+kenwood;RC-P87;;; rc-p87
+kenwood;RC_R0307;;; RC_R0307
+kenwood;RC-R0311E;;; Kenwood_RC-R0311E
+kenwood;RC-R0502;;; RC-R0502
+kenwood;RC-R0503;;; RC-RO503
+kenwood;RC-R0505;;; KENWOOD
+kenwood;RC-R0517;;; Kenwood_RC-R0517
+kenwood;RC-R0602;;; Kenwood
+kenwood;RC-R0614;;; Kenwood_RC-R0614
+kenwood;RC-R0623;;; Kennwood_RC-R0623
+kenwood;RC-R0708;;; Kenwood
+kenwood;RC-R0721;;; RC-R0721
+kenwood;RC-R0813;;; Kenwood_RC-R0813
+kenwood;RC-R0825;;; Kenwood_RC-R0825_Tuner Kenwood_RC-R0825_DVD_0534
+kenwood;RC-R0900;;; RC-R0900
+kenwood;RC-RO711;;; RC-RO711
+kenwood;RC-S0504;;; Kenwood
+kenwood;RC-S0900;;; RC-S0900
+kenwood;RC-SA70;;RC-SA70.jpg; Kenwood_RC-SA70
+kenwood;RC-V8500L;;; RC-V8500L
+khl;REC-R3000;;; REC-R3000
+kingman;10in1;;; k12in1_112
+kingman;12in1_299;;; k12in1_299
+kingman;12in1_336;;; Kingman_12_in_1
+kiss;DP-1500s;;; Kiss_DP-1500s
+knc_one;lircd.conf.knc_one;;; lircd.conf
+konig;IR_9490;;IR_9490.jpg; konig
+konig;IR_9836;;IR_9836.jpg; KONIG_IR_9836
+konka;KK-Y199;;; Konka_KK-Y199
+konka;KK-Y250A;;; KONKA_KK-Y250A
+korting;0099N1;;; name KORTING
+kosmos;STR1050;;; kosmos
+kworld;ATSC_110;;; Kworld_ATSC_110
+kworld;DVB-T_210;;; KWorld_DVB-T_210
+kworld;DVBT-220;;; KWorld-DVBT-220
+kworld;DVBT-PE310;;; KWorld-DVBT-PE310
+kworld;lircd.conf.kworld;;; kworld-878 KWorld_DVB-T
+kworld;PCI_Analog_TV_Card_Lite;;PCI_Analog_TV_Card_Lite.jpg; KWorld_VS-PRV-TV_7134SE
+lacie;Lacinema_Premier;;Lacinema_Premier.jpg; Lacie
+lacie;PNE-N1SS;;PNE-N1SS.jpg; Lacie_PNE-N1SS
+lasonic;R-2000;;; LasonicR2000
+leadership;GOTEC_3801;;; Leadership_GOTEC_3801
+leadtek;lircd.conf.PVR2000;;; PVR2000 PVR2000
+leadtek;lircd.conf.RM-0007;lircmd.conf.RM-0007;; RM-0007
+leadtek;lircd.conf.RM-0010;lircmd.conf.RM-0010;; RM-0010
+leadtek;Y0400046;;; LeadTek_Y0400046
+leadtek;Y0400052;;; Y0400052
+leadtek;Y04G0004;;Y04G0004.jpg; Leadtek_Y04G0004
+leadtek;Y04G0033;;; Leadtek_Cool_Command_Y04G0033
+lemon;Volksbox;;; LEMON
+lenco;PPS_2024_CD;;; Lenco
+lenovo;RC2292601_01;;; Lenovo_Y530_RC2292601/01
+lexicon;750-10978;;; 750-10978
+lg;42H3000;;; LG_42H3000
+lg;6710CDAL01G;;6710CDAL01G.jpg; LG_6710CDAL01G
+lg;6710CDAP01B;;; LG_6710CDAP01B
+lg;6710T00003B;;; LG_6710T00003B
+lg;6710T00009B;;; LG_6710T00009B
+lg;6710V00005G;;; LG.6710V00005G
+lg;6710V00008K;;; LG.6710V00008K
+lg;6710V00049G;;; LG.6710V00049G LG.6710V00049G-VCR LG.6710V00049G.RAW
+lg;6710V00067G;;6710V00067G.jpg; LG_6710V00067G
+lg;6710V00070A;;; LG_6710V00070A
+lg;6710V00088B;;; LG_6710V00088B
+lg;6710V00090D;;; LG_6710V00090D
+lg;6710V00090N;;6710V00090N.jpg; LG_6710V00090N
+lg;6710V00091N;;; LG_6710V00091N
+lg;6710V00133A;;; LG_6710V00133A
+lg;6711A20015N;;; LGE_6711A20015N
+lg;6711R1P070B;;6711R1P070B.jpg; LG_6711R1P070B_DVD LG_6711R1P070B_TV
+lg;6711R1P072B;;; LG_6711R1P072B-TV LG_6711R1P072B-DVD LG_6711R1P072B-VCR
+lg;6711R1P073B;;; LG_6711R1P073B-VCR LG_6711R1P073B-TV
+lg;AKB33871420;;AKB33871420.jpg; LG_AKB33871420_for_TV-LCD_Mxx62D
+lg;AKB69680403;;AKB69680403.jpg; LG_AKB69680403
+lg;AKB69680;;; LG-AKB69680403
+lg;AKB72915207;;AKB72915207.jpg; LG_AKB72915207
+lg;BC205P;;; LG_BC205P
+lg;BD300;;; LG_BD300
+lg;CC470TW;;; CC470TW
+lg;CL172TW;;; LG
+lg;EC970W;;EC970W.jpg; LG_EC970W
+lg;EV230;;; LG-EV230
+lg;MKJ32022805;;MKJ32022805.jpg; LG_MKJ32022805_DVD LG_MKJ32022805_VCR
+lg;MKJ39170805;;; LG_MKJ39170805_TV
+lg;MKJ40653802;;MKJ40653802.jpg; MKJ40653802-TV MKJ40653802-STB
+lg;MKJ40653807;;MKJ40653807.jpg; LG_MKJ40653807
+lg;MKJ61842704;;; LG_MKJ61842704_TV
+lg;PBAFA0189A;;PBAFA0189A.jpg; LG_PBAFA0189A
+lg;SERVICE_MENU;;; LG_SERVICE_ALTERNATIVE LG_SERVICE_MENU
+lg;VF28;;VF28.jpg; LG_VCR_Remote
+lifesat;T_28;;; T_28
+lifetec;LT4033;;; Lifetec_LT4033
+lifetec;LT9096;;LT9096.jpg; Lifetec_LT9096
+lifetec;Mini-Hifi-Station;;; lifetec_remote
+lifetec;RC2000;;; RC2000
+life-view;lircd.conf.Flyvideo_3000;;; Flyvideo_3000
+life-view;lircd.conf.flyvideo;lircmd.conf.flyvideo;; flyvideo
+linksys;WMA11B-R;;; Linksys_WMA11B-R
+loewe;150_TV;;; Loewe_150_TV Loewe_150_VTR_NEC Loewe_150_VTR_RC5 Loewe_150_DVD
+loewe;Dialog_control;;; Dialog_control
+loewe;FB200;;; FB200 FB200_TV
+loewe;FB_3000;;; 8500H
+logitech;Harmony_520;;; Logitech_HarmonyOne
+logitech;Harmony_655;;; Harmony_655
+logitech;HarmonyOne;;; Logitech_HarmonyOne
+logitech;lircd.conf.logitech;lircmd.conf.logitech;; Logitech
+logitech;Z-5500D;;; logitech_z5500
+l+s;LS_20101;;; LS
+l+s;LS_30775;;; LS_30755
+lutron;GRX-IT;;; lutron
+lutron;MaestroIR;;; Lutron_MaestroIR
+luxor;DV405;;; Luxor_DV405
+m3_electronic;Muvid_DVD-209;;; Muvid_DVD-209
+macro_image_technology;MyHD;;; MyHD
+magnasonic;TV;;; name MAGNASONIC_TV
+magnavox;MDV450;;; MDV450
+magnavox;MFX-450;;; Magnavox_HCC-MFX-450
+magnavox;NA387;;; Magnavox_NA387
+magnavox;PM435S;;; Magnavox_PM435S Magnavox_PM435S-RC5
+magnavox;TV_XK4353_CH02;;; UNIFIED6TRANS
+magnavox;VR9360;;; VCR
+magnum;5520VT;;; Magnum_5520VT
+majestic;DVX377USB;;; Majestic_DVX377USB
+manhattan;DVD_MT_2215;;; DVD
+manhattan;TV_MT_5154;;; TV
+manta;DVD-002;;; Manta_DVD-002
+manta;DVD-007;;; Manta_DVD-007
+marantz;RC-1400;;; Marantz_RC-1400_DVD
+marantz;RC1400-MD;;; Marantz_RC1400-MD
+marantz;RC4000CD;;; Marantz_RC4000CD
+marantz;RC4300CC;;; Marantz_RC4300CC
+marantz;RC-6200-DV;;; marantz_rc_6200_dv
+marantz;RC-63CD;;; Marantz-RC-63CD
+marantz;RC-65CD;;; Marantz_RC-65CD
+marantz;RC-72CD;;; Marantz_RC-72CD
+marantz;RC8000PM;;RC8000PM.jpg; Marantz_RC8000PM Marantz_RC8000PM_RC-5
+marantz;RMC-73;;RMC-73.jpg; Marantz_RMC-73
+mark;TV;;; rc5
+mas;HSD-303;;; HSD-303
+mas;HSD-400;;; HSD-400
+mas;HSD400;;; HSD-400
+mas;RC-0135;;; RC-0135
+mbo;10-in-1;;; MBO_10-in-1
+mceusb;lircd.conf.mceusb;;; mceusb mceusb_hauppauge vista_mce
+mcl;Remote_Controller;;Remote_Controller.jpg; MCL_RemoteController
+medion;2020;;; Medion_2020
+medion;JX-2006B;;; Medion_JX-2006B
+medion;MD_3830;;; medion.aux.conf
+medion;MD_41169;;; Medion_MD_41169 Medion_41169 Medion_MD41169_8in1 Medion_MD_41169_376
+medion;MD_41666;;; Medion_41666
+medion;MD_4688;;; MEDION
+medion;MD_4689;;; Medion_MD4689_SONY Medion_MD4689_NEC
+medion;MD-5410;;; MD-5410
+medion;MD_81035;;; Medion_MD81035
+medion;MD_81880;;; Medion_MD81880
+medion;MD_9025;;; medion
+medion;RC2000;;; rc2000
+melectronic;PP3600;;; Melectronic_PP3600
+meliconi;Control_4;;; meliconi_control4_321 meliconi_control4_702
+meliconi;Facile;;; Meliconi_Facile
+meliconi;Speedy2;;; MeliconiSpeedy2
+meliconi;Speedy;;; Meliconi_Speedy
+meliconi;Universal_3;;; name MELICONI-U3
+meridian;MSR;;; MSR
+metronic;060501;;060501.jpg; METRONIC_060501
+metronic;SAT_441400;;; SAT
+metz;RA51;;; METZ
+microsoft;lircd.conf.xbox;;; XboxDVDDongle
+microsoft;Xbox360;;; Microsoft_Xbox360
+microsoft;Xbox_MCE;;; Xbox_MCE
+microsoft;Xbox;;; Microsoft_Xbox
+microsoft;Xbox_PG-8012;;; xbox
+minolta;RC3;;; Minolta_RC3
+miro;MIRO_PCTV_pro;;; MIRO
+mitaki;43;;; mitaki43 mitaki43a
+mitochiba;JX-9902;;JX-9902.jpg; name Mitochiba_JX-9902
+mitochiba;KF220100;;KF220100.jpg; name Mitochiba_KF220100
+mitsubishi;CD-2015C;;; mitsubishi
+mitsubishi;CS-2047R;;; mitsubishi
+mitsubishi;CT21AM2(A);;; mitsubishi_tv
+mitsubishi;DIVA29;;; TV
+mitsubishi;HD1000;;; HD1000
+mitsubishi;HS-349;;; Mitsubishi_HS-349
+mitsubishi;HS640V;;; HS640V
+mitsubishi;RM561V;;; MITSUBISHI_RM561V
+mitsubishi;RM_75501;;; RM_75501
+mitsubishi;RM_M25-43303;;; RM_M25-43303
+mitsubishi;RM_M25-43306;;; RM_M25-43303
+mivar;x1;;x1.jpg; mivar
+monoprice;monoprice_hdx(c)-501e;;monoprice_hdx(c)-501e.jpg; HDX(C)-501E
+morgan's_daytona;T15;;; REMOTE_T15
+morgan's_daytona;Tornado;;; Tornado
+motorola;920;;; 4dtv
+motorola;DCH3200;;; Motorola_DCH3200 Motorola_DCH3200_VOL
+motorola;DCH3416;;; Motorola_DCH3416
+motorola;DCT2000;;; DCT2000
+motorola;DCT2224;;; Motorola_DCT2224 Motorola_DCT2224-2
+motorola;DCT2244;;; DCT2244
+motorola;DCT2524;;; DCT2524
+motorola;DigitalCable;;; Cable
+motorola;DRC800;;; Motorola_DRC800
+motorola;DTA100;;; MotorolaDTA100-PaceDC50X
+motorola;DTH320-4;;; Motorola_DTH320-4
+motorola;DTH355;;; Motorola_DTH355
+motorola;DVi2030;;; Motorola_DVi2030
+motorola;IRC442;;; Motorola_IRC442-1 Motorola_IRC442-2
+motorola;IRC451;;; Motorola_IRC451_0000 Motorola_IRC451_0001 Motorola_IRC451_0002 Motorola_IRC451_0003
+motorola;Millenium_4_Universal;;; motorola
+motorola;QIP2500;;; Motorola_QIP2500
+motorola;QIP6200-2;;; Motorola_QIP6200-2 Motorola_QIP6200-2
+motorola;RC1445302-00B-REV2;;; Motorola_RC1445302-00B-REV2
+motorola;SRC-200A;;; SRC-200A_1 SRC-200A_2 SRC-200A_3
+motorola;VIP_1200;;; Motorola_VIP_1200
+motorola;VIP_1510;;; Motorola_VIP1510
+msi;Media_Center;;; MSI_Media_Center lircd.conf
+msi;MegaPC_180;;; MSI_MegaPC_180
+msi;Mega_PC;;; MSI-Mega_PC
+msi;TV@nywhere;;; test
+mStation;lircd.conf.mStation;lircmd.conf.mStation;; mStation
+ms-tech;HTPC;;HTPC.jpg; MS-Tech_HTPC
+ms-tech;MCx00;;; MS-Tech
+multi_canal;DCC2000;;; Multi_Canal_DCC2000
+multichoice;DSD910;;; Multichoice_DSD910
+multitec;1030;;; multiTEC
+mustek;DVD_R_100_LM;;; Mustek_DVD_R_100_LM
+mustek;RMC-V300;;; Mustek_RMC-V300
+mustek;RMC-V500;;; MustekDVD
+mvision;FCIS7000E+;;; Mvision_FCIS7000E+
+nad;451;;; NAD_451
+nad;AVR2;;; NAD_AVR2-RCVR NAD_AVR2-DVD
+nad;CDP-5425;;; NAD
+nad;RC512;;; NAD_RC512
+nad;SR6;;SR6.jpg; NAD_SR6
+nad;SR712;;; NAD_SR712
+nagra;TVA_Digital;;; Nagra_TVA_Digital
+nakamichi;CDPlayer4;;; lirc.config
+nakamichi;Egg;;Egg.jpg; Nakamichi_Egg
+nakamichi;RM-2CD;;; Nakamichi_REPEAT Nakamichi
+napa;DAV-309;;; DAV-309
+national;VEQ0461;;; VEQ0461
+nebula_electronics;DigiTV;;; Nebula_DVB
+nec;RB-34P;;; RB-34P
+nec;RB-73A;;; NEC_RB-73A
+nec;RB-D1G;;RB-D1G.jpg; NEC_RB-D1G
+nec;RB-D3A;;; RB-D3A
+nec;RB-DV22;;; RB-DV22
+nec;RC-1065E;;; NEC_RC-1065E
+nec;RC-1067E;;; RC-1067E
+nec;RC-1070E;;; RC-1070E
+nec;RC-1077E;;; RC-1077E
+nec;RC-1080E;;; RC-1080E
+nec;RC-1083E;;; RC-1083E
+nec;RC-334E;;; RC-334E
+nec;RC-6010;;; RC-6010
+nec;RC-6051;;; RC-6051
+nec;RC-6321;;; RC-6321
+nec;RD-1077E;;; RD-1077E
+nec;RD-1078E;;; RD-1078E
+nec;RD-1083E;;RD-1083E.jpg; NEC_RD-1083E
+nec;RD-335E;;; RD-335E
+nec;RD-337E;;; NEC_RD-337E
+nec;RD-343E;;; RD-343E
+nec;RD-348E;;; RD-348E
+nec;RD-409E;;; NEC_RD-409E
+nec;RD-427E;;; NEC_RD-427E
+nec;RU-1220S;;; RU-1220S
+nec;TRB-103;;; TRB-103
+nec;TRB-31;;; TRB-31
+nec;TRB-60;;; TRB-60
+nec;TRB-968A;;; TRB-968A
+nec;UR-3020;;; UR-3020
+netgem;iPlayer;;; Netgem_iPlayer
+nextwave;EX-300;;; EX300
+nikko;NK-1000;;; Nikko
+nikon;ML-L3;;; Nikon2
+nokia;DBOX2;;; D-BOX2 D-BOX2
+nokia;DBOX;;; D-BOX D-BOX
+nokia;MM9600;;; 9600 9600pre
+nokia;MM9780S;;; MM9780S
+nokia;MM9802S;;; Nokia
+nokia;MM9850T;;; Nokia-On-Digital-Mediamaster-9850T
+nokia;RCN610;;; RCN610
+nokia;RCN_624;;; RCN_624
+nokia;SCN600;;; SCN600 SCN600pre
+nokia;VC_620;;; NokiaVC620
+nokia;VCN620;;; NOKIA_VCN620
+nokia;VCR_3018_CE;;; NOKIA_VCR_3018_CE
+norcent;DP_311;;; Norcent_DP_311
+nordmende;VCR;;; Nordmende
+northq;6400;;6400.jpg; NorthQ_6400
+now_broadband_tv;DECODER;;; Now_Broadband_TV
+now_broadband_tv;SETTOP-BOX;;; NOW_Broadband_TV
+nse;URC20-C8;;; NSE_URC20-C8
+nse;URC22B-12;;; NSE_URC22B-12.VCR NSE_URC22B-12.DVD
+nse;URC22B-7;;; URC22B-7
+ntl;DI4001N;;DI4001N.jpg; NTL_DI4001N
+nubert;AW-800;;; Nubert_AW-800
+nvidia;Personal_Cinema;;; NVIDIA_Personal_Cinema
+oceanic;TV;;; oceanic
+olevia;RC-LTFN;;; Olevia_RC-LTFN
+olevia;RC-LTL;;; Olevia_RC-LTL
+olympus;RM-1;;; Olympus_RM-1
+olympus;RM-2;;; Olympus_RM-2
+one_for_all;URC-10820;;; One_For_All_URC-10820
+one_for_all;URC-2510;;; OneForAll_URC-2510(12341)
+one_for_all;URC-2560;;; oneforall_URC-2560_tv oneforall_URC-2560_vcr
+one_for_all;URC-3021B00;;; One-For-All_URC-3021B00-VCR-0081
+one_for_all;URC-3440;;; OneForAll_URC-3440_VDR
+one_for_all;URC-4220;;; One4All_URC-4220_cable One4All_URC-4220_dvd One4All_URC-4220_pvr One4All_URC-4220_tv
+one_for_all;URC-5065;;; oneforall_tv oneforall_vcr
+one_for_all;URC-5550;;; OneForAll_URC-5550_VCR
+one_for_all;URC-6012;;; urc6012-1 urc6012-2
+one_for_all;URC-6012w;;; URC-6012w
+one_for_all;URC-6131nwB00;;; URC-6131nwB00_VCR_0695
+one_for_all;URC-7020_0083;;; One4All_URC-7020_0083
+one_for_all;URC-7020;;; universum-0000
+one_for_all;URC-7030;;; OneForAll_VCR_0000
+one_for_all;URC7040_Phillips_0081_VCR;;; URC7040_Phillips_0081_VCR
+one_for_all;URC-7240;;; One4All_URC-7240
+one_for_all;URC-7510-2;;; One-For-All
+one_for_all;URC-7510;;; control-Philips-0081d
+one_for_all;URC-7530;;; One4All_URC-7530
+one_for_all;URC-7550;;; ofa-urc-7550-vcr0150
+one_for_all;URC-7555;;; One4All_URC-7555
+one_for_all;URC-7560;;; CD VCR DVD
+one_for_all;URC-7562a;;; URC-7562
+one_for_all;URC-7562b;;; URC-7562
+one_for_all;URC-7562;;; urc7562
+one_for_all;URC-7710;;; One4All_URC-7710
+one_for_all;URC_7720;;; URC_7720
+one_for_all;URC-7730;;; urc7730
+one_for_all;URC-7740;;; URC-7740 UCR7740
+one_for_all;URC-7830;;; One_for_All_URC-7830 One_for_All_URC-7830 One_for_All_URC-7830
+one_for_all;URC-8040;;; URC8040_SAT_1300
+one_for_all;URC-8060-Sat-0200;;; One_For_All_URC-8060 name One_For_All_URC-8060_2
+one_for_all;URC-8200B00;;; URC-8200B00
+one_for_all;URC-8203;;; OneForAll_URC-8203 OneForAll_URC-8203b
+one_for_all;URC-8204;;; OneForAll_URC-8204.1300
+one_for_all;URC-8910;;; One-For-All_URC-8910
+one_for_all;ZAPPER;;; uni-rec uni-tv-armstard
+onida;DFX_7100;;; Onida_DFX_7100
+onida;TVE_21;;; ONIDA_TVE_21
+onkyo;RC-104C;;; Onkyo_RC-104C
+onkyo;RC-146T;;; Onkyo_RC-146T
+onkyo;RC-184s;;; Onkyo_RC-184s
+onkyo;RC-205S;;; Onkyo_RC-205S
+onkyo;RC-211S;;; onkyo_rc-211s
+onkyo;RC-217C;;; Onkyo-RC-217C
+onkyo;RC-246C;;; Onkyo
+onkyo;RC-252S;;; onkyo_rc-252s
+onkyo;RC-283S;;; onkyo
+onkyo;RC-295S;;; Onkyo
+onkyo;RC-302S;;; ONKYO_CR-70R
+onkyo;RC-308C;;; ONKYO_RC-308C
+onkyo;RC-314S;;; Onkyo_RC-314S
+onkyo;RC-333c;;; Onkyo_RC-333c Onkyo_RC-333c_tape
+onkyo;RC-340C;;; onkyo
+onkyo;RC-344S;;; RC-344S
+onkyo;RC-385S;;; onkyo
+onkyo;RC-425DV;;; Onkyo_RC-425DV
+onkyo;RC-447M;;; Onkyo_RC-447M
+onkyo;RC-453S;;; Onkyo_RC-453S Onkyo_RC-453S
+onkyo;RC-478M;;; Onkyo_RC-478M_DVD Onkyo_RC-478M_Receiver
+onkyo;RC-50;;; ONKYO_RC-50
+onkyo;RC-606S;;; ONKYO_RC-606S
+onkyo;RC-632M;;; Onkyo_RC-632M
+onkyo;RC-651M;;; Onkyo_RC-651M
+onkyo;RC-662S;;; Onkyo_RC-662S
+onkyo;RC-682M;;; Onkyo_RC-682M_1972
+onkyo;RC-710M;;; name Onkyo_RC-710M
+onkyo;RC-738M;;; Onkyo_RC-738M
+onkyo;Remote_Interactive;;; Onkyo_TX-SR502E
+onkyo;Remote_Interactive_TX-SR505SE;;; Onkyo_TX-SR505SE
+onkyo;TX-L5;;; Onkyo_TX-L5
+optex;ORT_8790;;ORT_8790.jpg; Optex_ORT_8790
+optimus;STAV-3560;;; optimus
+orava;ovara/RC-5500;;; Orava_RC5500
+orava;RC_5219;;; orava
+orion;RC-08;;; orion
+orion;RC-57;;; orion-RC57
+orion;RC-BM;;; orion
+orion;RC-CB;;; Orion_RC-CB
+orion;TV-713;;; Orion_TV-713
+oritron;DVD;;; ORITRON-DVD
+pace;DC420N;;; Foxtel_Digital_Cable_STB
+pace;DC551P;;; Pace_DC551P
+pace;DC621KU;;; Pace_DC621
+pace;DI4001N;;; DI4001N
+pace;DI4010I;;; Pace_DI4010I
+pace;DIGIBOX;;; SkyDigital DIGIBOX
+pace;DS420;;; Pase_DS420
+pace;DS620;;; PACE_DS620
+pace;DS830NS;;; Pace_DS830NS
+pace;DTA100;;; MotorolaDTA100-PaceDC50X
+pace;MKT900A-A00;;; Pace_DSL_4000_Mute Pace_DSL_4000
+pace;MSS1000_IRD;;; pace
+pace;MSS300;;; pace
+pace;PRC100;;; pace
+pace;PSR800;;; PACE-PSR800
+pace;PSR900;;; pace900
+pace;RC-10;;; PACE-RC-10
+pace;RC-17;;; PACE_RC-17
+pace;RC-24;;; Pace_RC-24
+pace;RC-30;;; Pace_RC-30
+pace;TDS460NNZ;;; Pace_TDS460NNZ
+pace;Twin_Digital_TV_Recorder;;; pacetwin
+pace;XSAT_CDTV410;;; xsat
+packard_bell;lircd.conf.packard_bell;;; PackBell
+packard_bell;packard_bell;;; PackBell
+palcom;DSL-6_T;;; Palcom_DSL-6_T
+palmbutler;RC1154101_00;;; palmbutler
+panasat;IRD_DSD_1110;;; Panasat_IRD_DSD_1110
+panasonic;AMP;;; AMP
+panasonic;CarAudio_CARC60EX;;; PanasonicCarAudio_CARC60EX
+panasonic;DSS;;; DSS
+panasonic;DVD;;; DVD
+panasonic;EUR50350;;; PANASONIC_TV
+panasonic;EUR511211;;EUR511211.jpg; EUR511211
+panasonic;EUR511224;;; Panasonic_EUR511224.TV Panasonic_EUR511224.VCR Panasonic_EUR511224.DVD
+panasonic;EUR511300;;; EUR511300
+panasonic;EUR511515A;;; EUR511515A.SAT EUR511515A.VCR EUR511515A.DVD EUR511515A.TV
+panasonic;EUR51920;;; EUR51920
+panasonic;EUR571100;;; Panasonic-EUR571100
+panasonic;EUR571110;;; Panasonic-EUR571110
+panasonic;EUR571451;;; Panasonic_EUR571451
+panasonic;EUR571465;;; Panasonic_EUR571465
+panasonic;EUR571739;;; panasonic_tv_01 panasonic_vcr1 panasonic_vcr2
+panasonic;EUR571756;;; EUR571756 EUR571756-VCR EUR571756-TV
+panasonic;EUR57510;;; EUR57510
+panasonic;EUR642162;;; EUR642162
+panasonic;EUR642181;;; EUR642181
+panasonic;EUR642182;;; EUR642182
+panasonic;EUR642195;;; EUR642195
+panasonic;EUR643800;;; Panasonic_EUR643800
+panasonic;EUR643804;;; EUR643804
+panasonic;EUR643820;;EUR643820.jpg; Panasonic_EUR643820
+panasonic;EUR643824;;EUR643824.jpg; Panasonic_EUR643824
+panasonic;EUR643826;;; EUR643826
+panasonic;EUR644340;;EUR644340.jpg; Panasonic_EUR644340
+panasonic;EUR644344;;; Panasonic_EUR644344
+panasonic;EUR644550;;; PANASONIC_cd_radio_casette
+panasonic;EUR644660;;; EUR644660
+panasonic;EUR644853;;; Panasonic_EUR644853
+panasonic;EUR64485;;; EUR644851
+panasonic;EUR64595;;; EUR64595
+panasonic;EUR648100;;; Panasonic_EUR648100
+panasonic;EUR648251;;; Panasonic_EUR648251
+panasonic;EUR7613Z6A;;; Panasonic_EUR7613Z6A
+panasonic;EUR7617010;;; Panasonic_EUR7617010
+panasonic;EUR7621010;;; Panasonic_EUR7621010
+panasonic;EUR7623X70;;; Panasonic_EUR7623X70
+panasonic;EUR7628030AR;;EUR7628030AR.jpg; Panasonic_EUR7628030AR
+panasonic;EUR7631010;;; Panasonic_EUR7631010
+panasonic;EUR7635010;;EUR7635010.jpg; Panasonic_EUR7635010
+panasonic;EUR7662Y80;;; Panasonic_EUR7662Y80
+panasonic;EUR7702110;;; Panasonic_EUR7702110
+panasonic;EUR7702KE0;;; EUR7702KE0
+panasonic;EUR7702KF0;;; Panasonic_EUR7702KF0
+panasonic;EUR7711110;;; Panasonic_EUR7711110
+panasonic;EUR7720KL0;;; Panasonic_EUR7720KL0
+panasonic;EUR7724KF0;;; Panasonic_EUR7724KF0
+panasonic;EUR7914Z20;;; Panasonic_EUR7914Z20
+panasonic;LSSQ0225;;; PANASONIC_LSSQ0225
+panasonic;LSSQ0226;;; PANASONIC_LSSQ0226
+panasonic;MINI_STEREO;;; MINI_STEREO
+panasonic;N2QADC000006;;N2QADC000006.jpg; Panasonic_N2QADC000006
+panasonic;N2QAEC000012;;; Panasonic_N2QAEC000012
+panasonic;N2QAGB000001;;; N2QAGB000001
+panasonic;N2QAGB000002;;; Panasonic_N2QAGB000002
+panasonic;N2QAGB000015;;; Panasonic_N2QAGB000015
+panasonic;N2QAGB000016;;; Panasonic_N2QAGB000016
+panasonic;N2QAHB000022;;; Panasonic_N2QAHB000022
+panasonic;N2QAHB0048;;; Panasonic_N2QAHB0048
+panasonic;N2QAJB000051;;; PANASONIC
+panasonic;N2QAKB000001;;; N2QAKB000001
+panasonic;N2QAKB000043;;; Panasonic_N2QAKB000043
+panasonic;N2QAKB000044;;; Panasonic_N2QAKB000044
+panasonic;N2QAYB000010;;; Panasonic_N2QAYB000010
+panasonic;N2QAYB000064;;; Panasonic_N2QAYB000064
+panasonic;N2QAYB000239;;; Panasonic_N2QAYB000239
+panasonic;N2QAYB000329;;N2QAYB000329.jpg; Panasonic_N2QAYB000329
+panasonic;NV-F65_HQ;;NV-F65_HQ.jpg; Panasonic_NV-F65_HQ
+panasonic;NV-FJ610;;; vi
+panasonic;NV-HS830;;; Panasonic
+panasonic;NV-SD225;;; Panasonic_NV-SD225
+panasonic;NV-SD44;;; Panasonic_NV-SD44
+panasonic;Omnivision;;; Panasonic_Omnivision
+panasonic;QuintrixF;;; QuintrixF
+panasonic;RAK-RX309W;;; RAK-RX309W
+panasonic;RAK-RX314W;;; Panasonic-RAK-RX314W
+panasonic;RAK-RX318W;;; panasonic-RAX-RX318W
+panasonic;RAK-RX928WK;;; panas928
+panasonic;RAK-SC957WK;;; Panasonic_RAK-SC957WK
+panasonic;RC331401;;; Panasonic_RC331401
+panasonic;RC4346_01B;;; Philips_RC4346/01B
+panasonic;RX-ED70;;; RX-ED70
+panasonic;SA-AK25;;; SA-AK25
+panasonic;TC-21E1R;;; Panasonic_TC-21E1R
+panasonic;TNQ2637;;; Panasonic
+panasonic;TNQ8E0437;;; TNQ8E0437
+panasonic;TNQ8E0445;;; Panasonic_TNQ8E0445
+panasonic;TNQ8E0461-2;;; TNQ8E0461-2
+panasonic;TU-TC20;;; PANASONIC_TU-CT20
+panasonic;TV;;; Panasonic
+panasonic;TX-25MK1;;; Panasonic_TX-25MK1
+panasonic;TX-28CK2F;;TX-28CK2F.jpg; Panasonic_TX-28CK2F
+panasonic;TX29AD10C;;; PANASONIC
+panasonic;VCR;;; VCR
+panasonic;VEQ0422;;; Panasonic_VEQ0422
+panasonic;VEQ0520;;; Panasonic
+panasonic;VEQ0534;;VEQ0534.jpg; Panasonic_VEQ0534
+panasonic;VEQ0552;;; Panasonic
+panasonic;VEQ0573;;; JBox
+panasonic;VEQ0615;;; Panasonic_VEQ0615
+panasonic;VEQ0709;;; panasonicveq0709
+panasonic;VEQ0744;;; Panasonic_VEQ0744
+panasonic;VEQ0910;;; VEQ0910
+panasonic;VEQ1100;;; panasonic.conf
+panasonic;VEQ1253;;; Panasonic_VEQ1253
+panasonic;VEQ1309;;; Panasonic_VEQ1309
+panasonic;VEQ1448;;; panasonic
+panasonic;VEQ1562;;; panasonic1 panasonic2 panasonic3
+panasonic;VEQ1656;;VEQ1656.jpg; Panasonic_VEQ1656
+panasonic;VEQ1697;;; VEQ1697
+panasonic;VEQ1873;;; Panasonic_VCR Panasonic_VCR
+panasonic;VEQ1883;;; name Panasonic_VEQ1883
+panasonic;VEQ1956;;; VEQ1956
+panasonic;VEQ1962;;; Panasonic
+panasonic;VEQ1993;;; VEQ1993
+panasonic;VEQ2051;;; name VEQ2051
+panasonic;VEQ2138;;; VEQ2138
+panasonic;VEQ2142;;; Panasonic_VEQ2142
+panasonic;VEQ2249;;; veq2249
+panasonic;VEQ2380;;; Panasonic_VEQ2380
+panasonic;VEQ2398;;; VEQ2398
+panasonic;Viera-42PZ700U;;; Panasonic_Viera-42PZ700U
+panasonic;VSQ_0305;;VSQ_0305.jpg; Panasonic_VSQ_0305
+panasonic;VSQ0407;;VSQ0407.jpg; Panasonic_VSQ0407
+panasonic;VSQS0531;;; Panasonic_VSQS0531
+panasonic;VSQS0905;;; Panasonic_VEQ0905
+panasonic;VSQS1451;;; Panasonic_VSQS1451
+panasonic;VSQS1480;;; Panasonic_VSQS1480 Panasonic_VSQS1480 Panasonic_VSQS1480
+panasonic;VSQS1559;;; Panasonic_VSQS1559
+panda;DVD-6838;;; Panda_DVD-6838
+pansat;2500A;;; Pansat_2500a
+pansat;2700a;;; Pansat_2700a
+pansat;2700;;; Pansat_2700
+pansat;SD3500;;; Pansat_SD3500_TV Pansat_SD3500_VCR Pansat_SD3500_AUX Pansat_SD3500_SAT
+parex;IR9703;;; PAREX_IR9708
+pc_expert_tech;MKB975;;; ir_keyboard
+pcmak;lircd.conf.pcmak;lircmd.conf.pcmak;; PC_MAK
+peekton;IR6005;;; Peekton_IR6005
+philco;PCR-111;;; Philco_PCR-111
+philex;RC208-1;;RC208-1.jpg; PHILEX_RC208-1
+philips;15PF4121;;15PF4121.jpg; PHILIPS_15PF4121
+philips;17PT1563_43;;; PHILIPS_17PT1563_43
+philips;26PFL5604H;;26PFL5604H.jpg; PHILIPS_26PFL5604H
+philips;28PT7207;;; Philips/28PT7207 Philips/28PT2707
+philips;29PT5507;;29PT5507.jpg; Philips-29PT5507
+philips;313911877610;;313911877610.jpg; Philips_313911877610
+philips;32PFL5403D-12;;; Philips_32PFL5403D_12
+philips;32PFL9613D;;; Aiwa_DVD_Philips_Code_0140 Samsung_DVD_Philips_Code_0339 Thomson_DVD_Philips_Code_0331
+philips;5373;;; Philips_5373
+philips;AV5609;;; AV5609
+philips;AV5662_67;;; AV5662_67_VCR
+philips;AV5680;;AV5680.jpg; AV5680
+philips;AZ2407;;; AZ2407
+philips;BDP3000;;BDP3000.jpg; Philips_BDP3000
+philips;C380;;; C380
+philips;CD720;;CD720.jpg; Philips_CD720
+philips;CL304;;; Phillips_CL304 Phillips_CL304
+philips;DVD711;;; Philips_DVD711
+philips;DVD-712;;; dvd712
+philips;DVD-724;;; Philips_DVD-724
+philips;DVDR3570H;;DVDR3570H.jpg; Philips_DVDR3570H Philips_DVDR3570H
+philips;DVP-5982;;; Philips_DVP-5982
+philips;DVP-642;;; Philips_DVP-642
+philips;FA920;;; PHILIPS_RC-5
+philips;FR731;;; fr731vcd
+philips;FW11;;; PHILIPS_STEREO
+philips;FW2015;;; PHILLIPS_FW2104
+philips;FW_362;;; Philips_FW362
+philips;FW_530C;;; FW_530C
+philips;Gold_BOX;;Gold_BOX.jpg; Philips_Gold_BOX
+philips;HTS3544;;; Philips_HTS3544
+philips;HV92;;; PHILIPS_TV_HV92
+philips;KW-1009-01;;; name PHILIPS-KW-1009-01-KEYBOARD name PHILIPS-KW-1009-01-MOUSE
+philips;LCD_TV_DISCRETE;;; Philips_LCD_TV_DISCRETE
+philips;MZ7;;; mz7
+philips;N0340UD;;; Philips_N0340UD
+philips;N9201PD;;; Philips_N9201PD
+philips;N9250UD;;; Philips_N9250UD
+philips;PHDVD5;;; Philips_PHDVD5
+philips;PM335;;; Philips_PM335_0224 Philips_PM335_0324
+philips;PM725S;;; Phillips_PM725S_0252
+philips;PMDVD6T;;; Philips-PMDVD6T-Universal-AUX
+philips;R-48F01;;; R-48F01
+philips;RC07102_01;;RC07102_01.jpg; Philips-RC07102/01
+philips;RC07104_01;;; CD723
+philips;RC0786_01;;; PHILIPS_RC-5
+philips;RC0797_01;;RC0797_01.jpg; philips
+philips;RC19002;;; Philips_RC19002 Philips_RC19002_VCR_AUX
+philips;RC19039001;;; Philips_RC19039001
+philips;RC19041003;;; Phillips_DSX-5500
+philips;RC19042002;;RC19042002.jpg; Philips_RC19042002
+philips;RC19237006;;; Philips_RC19237006
+philips;RC19335003_01P;;; Philips_RC19335003/01P
+philips;RC19420002_01;;; SmallRemote
+philips;RC-2012;;; Philips_RC-2012
+philips;RC2034302-01;;; PHILIPS_RC2034302
+philips;RC2050_01;;; RC2050_01
+philips;RC2070;;; RC2070
+philips;RC2143601;;RC2143601.jpg; Philips_RC2143601
+philips;RC2525_01;;; tvphillips
+philips;RC25271;;; Philips_RC_25271
+philips;RC2543_01;;; RC2543_01.conf
+philips;RC2563_01;;; RC2563-01
+philips;RC2580;;; phillips-itvdigibox tv vcr
+philips;RC2582;;RC2582.jpg; Philips_RC2582
+philips;RC2592;;; philips-rc2592-MODE-v1
+philips;RC282422S;;RC282422S.jpg; philips_rc282422s
+philips;RC282425;;RC282425.jpg; philips_rc282425
+philips;RC283501;;RC283501.jpg; Philips_RC283501
+philips;RC331702_01;;RC331702_01.jpg; BEAMER_main BEAMER_cursor
+philips;RC4302;;; RC4302-TV RC4302-AMP RC4302-AUX RC4302-DVD RC4302-SAT
+philips;RC4330_01H;;RC4330_01H.jpg; Philips_RC433001H_AMP Philips_RC433001H_CD Philips_RC433001H_DVD Philips_RC433001H_SAT Philips_RC433001H_TV Philips_RC433001H_VCR
+philips;RC4347;;; Philips_RC4347_DVD
+philips;RC4492_01B;;; Philips_RC4492_01B
+philips;RC4496_01;;; Philips_RC4496_01
+philips;RC5260;;; Philips_5260
+philips;RC5300;;; Philips_5300
+philips;RC5371;;; Philips_RC_5371
+philips;RC5901;;; philips_digital_RC-5901.conf3
+philips;RC5903;;; RC5903
+philips;RC5910;;; Philips_RC_5910
+philips;RC5932;;; Philips_RC5932
+philips;RC5991;;RC5991.jpg; RC5991
+philips;RC5-BP6;;RC5-BP6.jpg; Philips_RC5-BP6
+philips;RC-5;;; PhilipsRC5
+philips;RC6830;;; PHILIPS_CD
+philips;RC7507;;; RC7507
+philips;RC7535;;; Philips_RC7535
+philips;RC_7537;;RC_7537.jpg; Philips_RC_7537
+philips;RC_7540_00N;;; Philips
+philips;RC-7843;;; Philips_RC-7843
+philips;RC7843;;; Philips_RC7843
+philips;RC7925_01;;; Philips_RC7925_01
+philips;RC8205_01;;RC8205_01.jpg; RC8205_01
+philips;RC8243_01;;; 8243
+philips;RC8244;;RC8244.jpg; Philips_RC8244
+philips;RC8601_01;;; Philips_RC8601_01 Philips_RC8601_01-TUNER Philips_RC8601_01-TAPE Philips_RC8601_01-MMEDIA Philips_RC8601_01-TVVCR Philips_RC8601_01-CD
+philips;RC8861;;; RC8861
+philips;RC9050;;; PHILIPS_RC-5
+philips;RC9076;;; PHILIPS_RC-5
+philips;RC9901;;; Philips_RC9901
+philips;RC-J20PHIL-00-00;;; PHILIPS
+philips;RCL9BC_JJ03;;; RCL9BC
+philips;RCLE011;;; Philips_RCLE011
+philips;RCLE012;;RCLE012.jpg; Philips_RCLE012
+philips;RC-S224;;; Philips_RC-S224
+philips;RD5860;;; rd5860.conf
+philips;RD5862;;; PHILIPS_CD PHILIPS_LV2
+philips;RD_6830;;; Philips_RC_6830
+philips;RD6831;;; PHILIPS_CD
+philips;RD6834;;; RD6834
+philips;RD6835;;; PHILIPS_CD
+philips;RD6844;;; PHILIPS_CD
+philips;RH6640_01;;; RH6640b
+philips;RH6822_00;;; rh6822
+philips;RM2517;;RM2517.jpg; Philips_RC2617
+philips;RT111_101;;; RT111_101
+philips;RT150_211;;; Philips_RT150_211
+philips;RT167_101;;; VR266
+philips;RT174_101;;; Philips_RT174/101
+philips;RT183_201;;; RT183_201
+philips;RT192_101;;; RT192_101
+philips;RT25184_101;;RT25184_101.jpg; Philips_RT25184_101
+philips;RT260_95;;; RT260_95
+philips;RT567_104;;; RT567_104.conf
+philips;RT750_114;;; RT750_114
+philips;RT8967_01;;; RT8967/01
+philips;RT952;;; philips-rt952
+philips;SBC_RP420;;; Philips/SBC-RP
+philips;SBC_RU12;;; SBC_RU120
+philips;SBC_RU_258_II;;; Philips_SBC_RU_258_II
+philips;SBC_RU_422_III;;; Philips/SBC-RU-422-III Philips/SBC-RU-422-III-VOLUME
+philips;SBC_RU_4;;; SBCRU430
+philips;SBC_RU_510_U;;SBC_RU_510_U.jpg; Philips_SBC_RU_510_U
+philips;SBC_RU_520;;; Philips/SBC-RU-520
+philips;SBC_RU_540;;; SBC_RU_540
+philips;SBC_RU_545_00;;; SBCRU545-GLOBAL SBCRU545-TV SBCRU545-VCR SBCRU545-SAT SBCRU545-DVD Philips-SBC_RU_545_00 Philips-SBC_RU_545_00 Philips-SBC_RU_545_00
+philips;SBC_RU_760;;; Philips_SBC_RU_760
+philips;SBC_RU_865;;; Philips_SBC_RU_865
+philips;SBS_RU_880_00;;; PHILIPS
+philips;SRM5100;;; Philips_SRM5100
+philips;SRP5004_86;;; Philips_SRP5004/86
+philips;SRU_5060;;; PHILIPS_SRU_5060
+philips;SRU_510;;; Philips_SRU510
+philips;SRU_530;;SRU_530.jpg; Philips_SRU_530
+philips;STO_130A;;; STO_130A
+philips;TIVO34;;; TIVO34
+philips;TIVO;;; TIVO
+philips;TV1;;; PHILIPS_MULTI_TV1
+philips;TV2;;; PHILIPS_MULTI_TV2
+philips;TV3;;; PHILIPS_MULTI_TV3
+philips;TV4;;; PHILIPS_MULTI_TV4
+philips;TV;;; PHILIPS_TV
+philips;U352;;; PHILIPS_U352_VCR_MODE PHILIPS_U352_TV_MODE
+philips;uDigital-20CT6555;;; Philips_uDigital
+philips;VCR1;;; PHILIPS_multi_VCR1
+philips;VCR2;;; PHILIPS_multi_VCR2
+philips;VCR3;;; PHILIPS_multi_VCR3
+philips;VCR4;;; PHILIPS_multi_VCR4
+philips;VCR5;;; PHILIPS_multi_VCR5
+philips;VR1000;;; vr1000
+philips;VR175;;; Philips_VR175
+philips;VR256;;VR256.jpg; Philips_VR256
+philips;VR510;;; Philips/VR510
+philips;VR522;;; PHILIPS_VCR
+philips;VR6000;;; vr6000
+philips;VR610;;VR610.jpg; Philips_VR610_TV
+phonotrend;Prestige_DVD2788;;; Phonotrend_Prestige_DVD2788
+pinnacle_systems;lircd.conf.mini;;; Pinnacle_mini
+pinnacle_systems;lircd.conf.pctv;;; PinnacleSysPCTVRemote
+pinnacle_systems;PCTV_800i;;PCTV_800i.jpg; PCTV_800i
+pinnacle_systems;PCTV;;; PinnacleSysPCTVRemote PCTV_DELUXE_REMOTE
+pinnacle_systems;PCTV_USB_STICK;;PCTV_USB_STICK.jpg; Pinnacle_PCTV_USB_STICK
+pinnacle_systems;RC1144201_00;;RC1144201_00.jpg; Pinnacle_300i
+pinnacle_systems;RC-42D;;RC-42D.jpg; Pinnacle_RC-42D
+pioneer;AXD-1531;;AXD-1531.jpg; Pioneer_AXD-1531
+pioneer;AXD-7305;;; axd4
+pioneer;AXD-7306;;; Pioneer_AXD-7306
+pioneer;AXD-7381;;; Pioneer_AXD-7381
+pioneer;BR-V3_CATV;;; Pioneer_BR-V3_CATV Pioneer_BR_V3
+pioneer;CD;;; pioneer
+pioneer;CU-A001;;CU-A001.jpg; Pioneer_CU-A001
+pioneer;CU-A002;;; pioneer
+pioneer;CU-A009;;; pioneer
+pioneer;CU-A011;;; Pioneer_SR Pioneer_Amp
+pioneer;CU-A019;;; Pioneer_CU-A019
+pioneer;CU-CLD067;;; CU-CLD067
+pioneer;CU-CLD106;;; CU-CLD106
+pioneer;CU-CLD115;;; Pioneer_CU-CLD115
+pioneer;CU-DV042;;; CU-DV042
+pioneer;CU-PD008;;; CU-PD008
+pioneer;CU-PD038;;; CU-PD038
+pioneer;CU-PD045;;; Pioneer_CD
+pioneer;CU-PD046;;; CU-PD046
+pioneer;CU-PD052;;; CU-PD052
+pioneer;CU-PD069;;; Pioneer_CU-PD069
+pioneer;CU-PD085;;; CU-PD085
+pioneer;CU-PD089;;CU-PD089.jpg; CU-PD089
+pioneer;CU-PD096;;; cu-pd096
+pioneer;CU-SX022;;; Pioneer_CU-SX022
+pioneer;CU-SX039;;; Pioneer_CU-SX039
+pioneer;CU-SX070;;; CU-SX070
+pioneer;CU-SX091;;; kal
+pioneer;CU-SX092;;; CU-SX092
+pioneer;CU-SX109;;; CU-SX109
+pioneer;CU-VSX107;;CU-VSX107.jpg; CD LD TAPE TUNER TV
+pioneer;CU-VSX159;;; Pioneer_CU-VSX159
+pioneer;CU-XC004;;; Pioneer-CU-XC004
+pioneer;CU-XR014;;; Pioneer-CU-XR014
+pioneer;CU-XR015;;; PIONEER_CU-XR015
+pioneer;CU-XR019;;; PIONEER_CU-XR019
+pioneer;CU-XR032;;; Pioneer_CU-XR032
+pioneer;CU-XR039;;; Pioneer_CU-XR039
+pioneer;CU-XR050;;; CU-XR050
+pioneer;DBR-S210F;;; Pioneer_DBR-S210F
+pioneer;DEH-D8850;;; Pioneer_DEH-D8850
+pioneer;PD-202;;; Pioneer_PD-202
+pioneer;PD-F1007;;; pioneer
+pioneer;PD-M650;;; PD-M650
+pioneer;RU-V103;;; pioneer
+pioneer;SR-90;;; SR-90
+pioneer;UR4-P360;;; TWC_UR4-P360 TWC_UR4-P360-SONY
+pioneer;VSX9300;;; RCV
+pioneer;VXX2702;;; Pioneer_VXX2702
+pioneer;VXX2801;;; Pioneer_VXX2801
+pioneer;VXX2910;;; Pioneer_VXX2910
+pioneer;XV-DV303;;; Pioneer_XV-DV303
+pioneer;XXD3067;;; Pioneer_XXD3067
+pipi;PiPiPC;;PiPiPC.jpg; PiPiPC
+pixelview;lircd.conf.playtv_bt878;;; PixelView
+pixelview;lircd.conf.playtv;;; Pixelview
+pixelview;lircd.conf.playtv_pro;lircmd.conf.playtv_pro;; pixelviewp PixelView_PlayTV_MPEG2
+pixelview;lircd.conf.remotemaster;lircmd.conf.remotemaster;; RemoteMaster_2000_12b RemoteMaster_2000_14b
+plu2;DVX-345pro;;; PLU2_DVX-345pro
+polaroid;DVP-1000;;; DVDP-1000
+pollin;810-024;;; pollin_irrcvr_t2313_RC
+proplay;PS2;;; ProPlay_PS2
+proscan;PSVR72;;; proscan-vcr
+protek;SAT;;; Protek
+provideo;lircd.conf.pv951;;; PV951
+provideo;PV951;;; PV951
+provision;PRDVD2166;;; Provision_PRDVD2166
+q-sonic;Master_Remote_6in1;;; QSonic_6in1
+q-sonic;Master_Remote_PC_166;;; Q-Sonic
+q-sonic;Master_Remote_PC_TV;;; Q-Sonic
+quadral;RC-804;;; QUADRAL_RC-804
+rademacher;9490;;; Rademacher_9490
+radio_shack;4-in-1_2142;;; RS2142
+radio_shack;5-in-1_2115;;; Radioshack2115
+radio_shack;5-in-1;;; radioshack_5-in-one
+radio_shack;AB_Switcher;;AB_Switcher.jpg; RadioShack
+radix;2AD;;; lircd.conf
+radix;Alpha_10_20;;; Radix_Alpha_10_20
+radix;DTR-9000-Twin;;DTR-9000-Twin.jpg; Radix_DTR-9000-Twin
+radix;DT-X1;;; RADIX_DT-X1
+radix;SAT1;;; radix
+radix;SAT;;; SAT
+raite;DVD;;; RaiteDVD-7xx
+rc-5;RC-5-a;;; PHILIPS_RC-5-a
+rc-5;RC-5-extented;;; PHILIPS_RC-5-extended
+rc-5;RC-5;;; PHILIPS_RC-5
+rca;33379-1;;; rca_33379-1
+rca;CRK76CA2;;; RCA_CRK76CA2
+rca;D770;;D770.jpg; vcr1 dvd vcr2 aux sat tv
+rca;DB200;;; Sky_BR-RCA_DB200
+rca;Dish_Network;;; dish dish1 dish2 dish3 dish4 dish5 dish6 dish7 dish8 dish9 dish10 dish11 dish12 dish13 dish14 dish15 dish16
+rca;DSS_RG_RH;;; RCA_DSS_RG_RH
+rca;DTA800B1;;; RCA_DTA800B1 RCA_DTA800B1_SONY
+rca;DTA800b;;; RCA_DTA800b
+rca;F20507CP;;; RCA-F20507CP
+rca;R130A1;;; RCA_R130A1
+rca;RCA312W;;; RCA312W_TV
+rca;RCR160SBM1;;RCR160SBM1.jpg; RCA_RCR160SBM1
+rca;RCR311TCM1;;; RCA_RCR311TCM1
+rca;RCR815;;; rca-rcr815
+rca;RCU410WMS;;; RCA_RCU410WMS
+rca;RCU600M;;; RCA_RCU600M_VOL RCA_RCU600M
+rca;RCU600RS;;; RCA_RCU600RS
+rca;RCZ_111_SJ1G;;RCZ_111_SJ1G.jpg; RCA_RCZ_111_SJ1G
+rca;RS2300;;; RCA_RS2300
+rca;TV_VCR;;; rca-tv03
+rca;VR637HF;;VR637HF.jpg; RCA_VR637HF
+recor;TV-4025;;; Philips_IRC-1304
+rega;Solar;;; Rega_Solar
+remotec;lircd.conf.BW6130;lircmd.conf.BW6130;; MEDIAMASTER
+remotec;RM200-AUX;;; AUX
+remotec;RM200;;; rm200
+remotec;RM200-SAT;;; SAT
+remotec;RM200-TV;;; TV
+remotec;RM200-VCR;;; VCR
+remotec;RM900;;; remotec
+remotec;VCR-1072;;; remotec1072
+replaytv;5000;;; ReplayTV_5000
+revo;Blik;;; Revo_Blik
+revoy;Revoy_2200;;; Revoy2200
+re.x;SDVD_926G;;SDVD_926G.jpg; rex_SDVD_926G
+rft;TV553;;; TV553_START/STOP TV553
+rio;Rio_Audio;;Rio_Audio.jpg; Rio_Audio
+roadstar;DVD_2020H;;; roadstar_dvd_2020h
+robotron;RCS-9085;;RCS-9085.jpg; Daas_Color_RCS_9085
+roku;N1000-04;;; Roku_N1000-04
+roku;Netflix_Player;;; Roku_Netflix_Player
+roku;Soundbridge;;; Roku_Soundbridge
+rolsen;DK5A;;; Rolsen_DK5A
+rolsen;K10B-C1;;; Rolsen_K10B-C1
+rotel;RR-925;;; RR-925
+rowa;RDVD104;;; Rowa_RDVD104
+rubin;54M03;;54M03.jpg; rubin
+ruwido;Cyberclick;;; Ruwido
+ruwido;Easytip_2;;; Ruwido_Easytip_2
+ruwido;Easytip_z1;;; Ruwido_Easytip_z1
+saba;m100;;; TV
+saba;RC6X03FE;;; RC6X03FE
+saba;TC3003;;; SABA_TC3003
+saba;TC460;;; SabaTC460
+saba;TC521;;; Saba-TC521.conf
+saba;TC545;;; SabaTC545
+sab;Explorer;;; SAB_Explorer
+sagem;CABLE_DECODER;;; Sagem
+sagem;DVB-T-Receiver;;; Sagem_DVB-T-Receiver
+sagem;HD103-C;;HD103-C.jpg; Sagem_HD103-C
+salora;PayTV;;PayTV.jpg; Salora_PayTV
+salora;RC-8800;;; VCR RC-8800-LearningArea
+salora;SV6700;;SV6700.jpg; Salora_SV6700
+salora;VCN621;;; SALORA_VCN621
+samsung;00008E;;; Samsung_00008E Samsung_00008E
+samsung;00011k;;; Samsung_00011k
+samsung;00021C;;; Samsung_00021c
+samsung;00025G;;; Samsung_00025G Samsung_00025G_2
+samsung;00049C;;; SV-651B
+samsung;00052B;;; SAMSUNG
+samsung;00054d;;; Samsung_00054d
+samsung;00056A;;; Samsung_00056A
+samsung;00071F;;; SAMSUNG_00071F
+samsung;00077A;;; Samsung_00077A
+samsung;00092B;;; Samsung_00092b
+samsung;00092M;;; 00092M
+samsung;00104J;;; 00104J
+samsung;00104K;;; 00104K
+samsung;00198F;;; 00198f
+samsung;00225A;;; Samsung_00225A
+samsung;0070-63;;0070-63.jpg; Samsung_0070-63
+samsung;01043A;;; 01043A
+samsung;10095T;;; samsung-10095T
+samsung;10107N;;; Samsung_10107N
+samsung;10116A;;10116A.jpg; Samsung_10116A
+samsung;10141A;;; Samsung_10141A test
+samsung;10329K;;; Samsung
+samsung;10419K;;; SAMSUNG
+samsung;10420A;;; Samsung_10420A
+samsung;3F14-00048-180;;; Samsung-3F14-00048-180
+samsung;528Z;;; 528Z
+samsung;633-205;;; samsung
+samsung;AA59-00316b;;; Samsung_AA59-00316b
+samsung;AA59-00332D;;; Samsung_AA59-00332D
+samsung;AA59-00370A;;; Samsung_AA59-00370A
+samsung;AA59-00382A;;AA59-00382A.jpg; Samsung_AA59-00382A
+samsung;AA59-00489A;;; Samsung
+samsung;AA59-10026E;;; Samsung_AA59-10026E
+samsung;AA64-50236A;;; Samsung_AA64-50236A
+samsung;AH59-00043E;;; Samsung_AH59-00043E
+samsung;AH59-01527F;;; Samsung_AH59-01527F
+samsung;AH64-01045A;;; SAMSUNG
+samsung;ARH-700;;; ARH-700
+samsung;BN59-00507A;;; Samsung_BN59-00507A
+samsung;BN59-00516A;;; Samsung_BN59-00516A_TV Samsung_BN59-00516A_DVD Samsung_BN59-00516A_STB Samsung_BN59-00516A_CABLE Samsung_BN59-00516A_VCR
+samsung;BN59-00538A;;; Samsung_BN59-00538A
+samsung;BN59-00599A;;; Samsung_BN59-00599A_TV Samsung_BN59-00599A_DVD Samsung_BN59-00599A_STB Samsung_BN59-00599A_CABLE Samsung_BN59-00599A_VCR
+samsung;BN59-00603A;;; Samsung_BN59-00603A
+samsung;BN59-00603A-STB;;; Samsung_BN59-00603A-STB
+samsung;BN59-00609A;;; name Samsung_BN59-00609A
+samsung;BN59-00634A;;; Samsung_BN59-00634A
+samsung;BN59-00678A;;; Samsung_BN59-00678A
+samsung;BN59-00683A;;; Samsung_BN59-00683A
+samsung;BN59-00685A;;; Samsung_BN59-00685A
+samsung;BN59-00856A;;; Samsung_BN59-00856A
+samsung;BN59-00861A;;BN59-00861A.jpg; Samsung_BN59-00861A
+samsung;BN59-00865A;;BN59-00865A.jpg; Samsung_BN59-00865A
+samsung;BN59-00869A;;; Samsung_BN59-00869A
+samsung;BN59-00940A;;BN59-00940A.jpg; Samsung_BN59-00940A
+samsung;BRM-E1E;;BRM-E1E.jpg; Samsung_BRM-E1E
+samsung;CS-25M6HNQ;;; Samsung_CS-25M6HNQ
+samsung;Dynaflat_TV;;; Samsung-Dynaflat_TV
+samsung;HLN507W;;; Samsung_HLN507W
+samsung;lircd.conf.samsung;;; Samsung name Terratec
+samsung;MF59-00242B;;; Samsung_MF59-00242B
+samsung;MF59-00242C;;; MF59
+samsung;MF59-00291a;;; Samsung_MF59-00291a
+samsung;PR3914;;PR3914.jpg; Samsung_PR3914
+samsung;PR_427;;; Samsung_VCR
+samsung;RCD-M70;;; Samsung_RCD-M70
+samsung;SCM-8900;;; hifi
+samsung;SFT-702E;;; Samsung_SFT-702E
+samsung;SIR-S300W;;; Samsung-SIRS300W-DTV
+samsung;SMT1000T;;; Samsung_SMT-1000T
+samsung;SMT-H3050;;; Samsung_SMT-H3050
+samsung;SV-411X;;; Samsung_SV-411X
+samsung;SV-610X;;; Samsung_SV-610X
+samsung;SV-70XK;;; SAMSUNG
+samsung;SV-DVD3E;;; Samsung_SV-DVD3E
+samsung;SVR-40D;;; Samsung
+samsung;SVR-80D;;; samsung_vcr
+samsung;T-59;;; test
+samsung;TM-33;;; test
+samsung;TM-59;;; SAMSUNG_SAT_TM-59
+samsung;VR8708;;; samsung
+samsung;VXK-336;;; VXK-336
+samy;SDX1100;;SDX1100.jpg; Samy_SDX1100
+sansonic;FT-300A;;; Sansonic_FT-300A
+sansui;RS-S103;;; SANSUI-RS-S103
+sanyo;A05800;;; Sanyo_A05800
+sanyo;B01004;;; B01004
+sanyo;B01007;;; SANYO_B01007
+sanyo;B12628;;; Sanyo_B12628
+sanyo;B13509;;; Sanyo-B13509
+sanyo;B13537;;B13537.jpg; sanyoB13537
+sanyo;B13540;;; B13540
+sanyo;B20501;;B20501.jpg; B20501
+sanyo;B28001;;; Sanyo_B28001
+sanyo;CTP_6633;;; sanyo
+sanyo;CTP-6791P;;; sanyo
+sanyo;CXKT;;; CXKT
+sanyo;IR-5211;;; VCR
+sanyo;JXMTA;;; Sanyo_JXMTA
+sanyo;JXZB;;; Sanyo-JXZB
+sanyo;N9377;;; Sanyo_N9377
+sanyo;RB-DA300;;; Sanyo_RB-DA300
+sanyo;RB-SL22;;; RB-SL22
+sanyo;RC-105C;;; Sanyo_RC-105C
+sanyo;RC700;;; RC700
+sanyo;RMT-U100;;; Sanyo_RMT-U100
+sanyo;TV2;;; Sanyo_TV
+sanyo;TV;;; sanyo-tv01
+sanyo;US-038-S;;; sanyo
+sanyo;VCR-9270;;; VCR-9270
+sanyo;VHR-766G;;; Sanyo
+sasem;lircd.conf.sasem;;; lirc_sasem
+satelco;EasyWatch;;; lircd.conf
+schneider;FB2000;;; FB2000
+schneider;FESTIVAL2000;;; FESTIVAL2000
+schneider;Music-Center;;; Schneider_Music-Center
+schneider;RC-114;;; schneider
+schneider;RC-116;;; schneider
+schneider;RC-193;;; Schneider_RC-193
+schneider;RC202;;; RC202
+schneider;RC206;;; SCHNEIDER_RC206
+schneider;RC901;;; Schneider_RC901
+schneider;RC902;;; Schneider_RC902
+schneider;SVC568RC;;; VCR
+schwaiger;DSR_6020;;; Schwaiger_DSR_6020
+scientific_atlanta;1840;;; Scientific_Atlanta-1840
+scientific_atlanta;3250;;; SA_3250_TV/VCR SA_3250
+scientific_atlanta;AT8400;;; SAE8000
+scientific_atlanta;E940;;; E940
+scientific_atlanta;Explorer_2000;;; SA2000
+scientific_atlanta;Explorer_8300_HD;;; Scientific_Altana_Explorer_8300_HD
+scientific_atlanta;RC-U49C+;;; CheckMate_IV_RCU49C+
+scientific_atlanta;RM9834;;; Scientific-Altana_RM9834
+scientific_atlanta;RNG-150;;; RNG-150
+scott;DVD-837;;; scott-dvd
+scott;DVD-838;;; DVD-838
+seg;CT2802;;; SEG
+seg;CTV_3281-100_VTS;;; SEG_CTV_3281-100_VTS
+seg;DVD-430;;; SEG-DVD-430
+seg;E6900-X020A;;E6900-X020A.jpg; SEG_E6900-X020A
+seg;SEG_97P1R2CCF0;;; SEG_VCR_2200
+seg;SEG-VCR4300;;; SEG-VCR4300
+seg;SR-021;;; SR-201
+seg;SR-040;;; SR-040
+seg;SR800;;; SR800
+seg;VCR2000;;; SEG_VCR2000
+seg;VR-F2PA;;; SEG_VCR_2200
+seiko;MDL-1100RM;;; seiko
+sejin_electron;SWP-D3956W-KR1;;; Sejin_Electron_SWP-D3956W-KR1
+sgi;4-042-281;;; SGIMON
+shannon;SWK-8630;;; SHANNON
+sharp;1781;;; sharp1781
+sharp;CV-2131CK1;;; CV-2131CK1
+sharp;G0006AJ;;; Sharp_G0006AJ
+sharp;G0009AJ;;; G0009AJ
+sharp;G0048TA;;; G0048TA
+sharp;G0206AJ;;; Sharp_G0009AJ
+sharp;G0247AJ;;; G0247AJ Sharp
+sharp;G0379GE;;; Sharp_G0379GE
+sharp;G0412GE;;; G0412GE
+sharp;G0641CESA;;; G0641CESA
+sharp;G0715UM;;; Sharp_G0715UM
+sharp;G0742GE;;; G0742GE
+sharp;G0797CESA;;; G0797CESA
+sharp;G0927AJ;;; G0927AJ
+sharp;G0938CESA;;; Sharp_G0938CESA
+sharp;G096GE;;; SHARP_G096GE
+sharp;G1014BMSA;;; SHARP_G1014BMSA
+sharp;G1023BMSA;;; sharp
+sharp;G1044BMSA;;; Sharp_G1044BMSA
+sharp;G1046BMSA;;; SHARP
+sharp;G1051BMSA;;; SHARP
+sharp;G1059SA;;; SHARP
+sharp;G1071SA;;; sharp
+sharp;G1084PESA;;; Sharp_G1084PESA
+sharp;G1208AJ;;; G1208AJ G1208AJ_TV
+sharp;G1324SA;;; SHARPTV
+sharp;GA006SA;;; Sharp_GA006SA
+sharp;GA035SB;;; Sharp_GA035SB
+sharp;GA339WJSA;;GA339WJSA.jpg; Sharp_GA339WJSA
+sharp;GA447SA;;; Sharp_GA447SA
+sharp;GA538WJSA;;; Sharp_GA538WJSA
+sharp;GJ210;;; Sharp_GJ210
+sharp;LC-20V1RU;;; Sharp_LC-20V1RU
+sharp;R-CONT1616A;;; Sharp
+sharp;RRMCG0012SJSB;;; Sharp_RRMCG0012SJSB
+sharp;RRMCG0041SJSA;;; RRMCG0041SJSA
+sharp;RRMCG0101AJSA;;; Sharp_RRMCG0101AJSA
+sharp;RRMCG0186AFSA;;; RM-CD-X99
+sharp;RRMCG0199GESA;;; Sharp_RRMCG0199GESA
+sharp;RRMCG0229AWSA;;; RRMCG0229AWSA
+sharp;RRMCG0235AJSB;;; Sharp_RRMCG0235AJSB
+sharp;RRMCG0356AWSA;;; RRMCG0356AWSA
+sharp;RRMCGA030WJSA;;; Sharp_RRMCGA030WJSA
+sharpsat;T28;;T28.jpg; T28
+sharp;VC-1594B;;; G0247AJ Sharp
+sherwood;CD_1063-TR;;; sherwood
+sherwood;GC-1205;;; Sherwood_GC-1285
+sherwood;GC-1285;;; GC-1285
+sherwood;RM-101;;; Sherwood_RM-101
+sherwood;RM-636;;RM-636.jpg; Sherwood_RM-636
+sherwood;RM-RD-61;;; Sherwood
+sherwood;RM-RV-98;;; Sherwood
+sherwood;RM-RVD-98L;;; sherwood
+sherwood;RM-RV-N25;;; RM-RV-N25
+sherwood;RM-RX-23_43;;; Sherwood
+sherwood;S2770R-CP-II;;S2770R-CP-II.jpg; Sherwood-S2770R-CP-II
+shinco;RC-1730;;; Shinco_RC-1730
+shuttle;PN31;;PN31.jpg; ShuttleX
+shuttle;RC11B;;RC11B.jpg; mceusb
+siemens;FB31top;;; SIEMENS_PRE SIEMENS
+siemens;FB33ATS;;; FB33ATS
+siemens;FB400;;; siemens-fb400
+siemens;FB405;;; fb405
+siemens;FM_638;;; siemens1
+sigma_designs;lircd.conf.realmagic;;; REALMagic_SIR REALmagic
+sigmatek;X100;;X100.jpg; Sigmatek_X100
+sigmatek;XMB-510-PRO;;XMB-510-PRO.jpg; SIGMATEK_XMB-510-PRO
+silitek;lircd.conf.silitek;lircmd.conf.silitek;; SILITEK_SM-1000
+silvercrest;RCH7S52;;; Silvercrest_RCH7S52
+silvercrest;URC-801;;; Silvercrest_URC-801
+sirius;SBKB-3201KR;;SBKB-3201KR.jpg; JVC_SBKB-3201KR
+sirius;Sportster;;; Sirius_Sportster
+sirius;Starmate_Replay_ST2;;Starmate_Replay_ST2.jpg; Sirius_ST2_Starmate_Replay
+sitronics;RC-D010E;;; Sitronics_RC-D010E
+skymaster;2416;;; lircd.conf Skymaster_2416
+skymaster;2417_2419;;; lircd.conf
+skymaster;2421;;; Skymaster_2421 Skymaster_2421_TV_156
+skymaster;2424;;; SKYMASTER_2424
+skymaster;DCI_9410;;; Skymaster_DCI_9410
+skymaster;DXL9300;;; Skymaster_DXL9300
+skymaster;XL10;;; Skymaster_XL10
+skymaster;XL15;;; skymaster
+skymaster;XLS_99;;; SkymasterXLS99
+sky;Navigator;;; Sky_Navigator Sky_Navigator
+sky;NAVIGATOR;;; SKY_NAVIGATOR_SONY SKY_NAVIGATOR_RC-6
+sky;Rev4;;Rev4.jpg; Sky_rev.4
+sky;SKY+_DVB-S;;; SKY+_DVB-S
+sky;SkyHD;;; SKY
+sky;Sky_Rev_6;;; Sky_Rev._6
+slim_art;SA-100;;; SA-100
+slim_devices;Squeezebox3;;; Slim_Devices_Squeezebox3
+snapstream;Firefly-Mini;;; SnapStream_Firefly-Mini
+snazio;Net_DVD_Cinema_HD;;; Snazio_Net_DVD_Cinema_HD
+solidtek;ACK-581;;; Solidtek_ACK-581
+sonicview;SV-1000;;; Sonicview_SV-1000
+sonicview;SV-360;;; Sonicview_SV-360
+sony;839;;; SONY-839
+sony;AMPIR;;; AMPIR
+sony;CMT-CP100;;CMT-CP100.jpg; SONY_CMT-CP100_band1 SONY_CMT-CP100_band2
+sony;CONRAD_CD000;;; lircd.conf
+sony;DAT;;; DAT
+sony;DVP-S505;;; DVD
+sony;KV_32LS35E;;; Sony_KV-32LS35E
+sony;RM-470;;; CD
+sony;RM-606;;; rm-606
+sony;RM-673;;; SONY_RM-673
+sony;RM-687C;;RM-687C.jpg; Sony_RM-687C
+sony;RM-689;;; sony
+sony;RM-694;;; sony_rm-694
+sony;RM-783;;; tv
+sony;RM-816;;; RM-816
+sony;RM-827T;;; sonytv
+sony;RM-830;;RM-830.jpg; SONY_RM-830
+sony;RM-831;;; SONY_RM-831
+sony;RM-833;;; RM-833
+sony;RM-836;;RM-836.jpg; Sony_RM-836
+sony;RM-839;;; RM-839
+sony;RM-860;;; Sony_RM-860
+sony;RM-861;;; Sony_RM-861
+sony;RM-862;;RM-862.jpg; Sony_RM-862.1 Sony_RM-862.2
+sony;RM-870;;; RM_870
+sony;RM-873;;; RM-873
+sony;RM-883;;; RM-883
+sony;RM-887;;; RM-887
+sony;RM-893;;; SONYRM-893
+sony;RM-921;;RM-921.jpg; Sony-RM-921 Sony-RM-921
+sony;RM-932;;; RM-932
+sony;RM-934;;; SONY_RM-934_TV_and_VCR_mode SONY_RM-934_DVD_mode
+sony;RM-935;;; Sony_RM-935
+sony;RM-947;;; Sony_RM-947
+sony;RM-AAU014;;; SONY_RM-AAU014
+sony;RM-AV2100T;;; AMP AMP_MDDAT CD DECK_BA DSP DVD MDDAT SAT SYSTEM_CONTROL TUNER TV TV_169 VCR1 VCR2 VCR3
+sony;RM-AV3000;;; Sony_RM-AV3000
+sony;RM-D1000;;RM-D1000.jpg; RM_D1000
+sony;RM-D10P;;; rm-d10p
+sony;RM-D15M;;; SONY
+sony;RM-D170;;; sony-cd
+sony;RM-D17M;;; RM-D17M
+sony;RM-D190;;; RM-D190
+sony;RM-D1M;;RM-D1M.jpg; RM-D1M-MIKI
+sony;RM-D2100;;; name RM-D2100
+sony;RM-D250;;; sony
+sony;RM-D270;;; RM-D270
+sony;RM-D27M;;; Sony_RM-D27M
+sony;RM-D295;;; RM-D295
+sony;RM-D29M;;; rm-d29m
+sony;RM-D302;;; RM-D302
+sony;RM-D315;;; sony
+sony;RM-D320;;; RM-D320
+sony;RM-D325;;; Sony_RM-D325
+sony;RM-D335;;; SONY
+sony;RM-D350A;;; sony
+sony;RM-D391;;; SONY_RM-D391
+sony;RM-D420;;; SONY
+sony;RM-D450;;RM-D450.jpg; RM-D450
+sony;RM-D490;;; CDP-790
+sony;RM-D49M;;; RM-D49M
+sony;RM-D520;;; Sony_RM-D520
+sony;RM-D55A;;; RM-D55A
+sony;RM-D55;;; Sony_RM-D55
+sony;RM-D57A;;; DAT
+sony;RM-D597;;; Sony_RM-D597
+sony;RM-D5;;; rm-d5
+sony;RM-D670A;;; SONY-RM-D670A
+sony;RM-D690;;; RM-D690
+sony;RM-D706;;RM-D706.jpg; RM-D706
+sony;RM-D720;;; RM-D720
+sony;RM-D791;;; RM-D791
+sony;RM-D797;;; SONY_RM-D797
+sony;RM-D7M;;; RM-D7M
+sony;RM-D820;;; RM-D820
+sony;RM-D90;;; RM-D90
+sony;RM-D921;;; SONY_RM-D921
+sony;RM-D991;;; SONY_RM-D991
+sony;RM-DM7;;; name RM-DM7
+sony;RM-DM9;;; rm-dm9
+sony;RM-DX200;;; CDIR
+sony;RM-DX220;;; RM-DX220-1 RM-DX220-2 RM-DX220-3
+sony;RM-DX300;;; RM-DX300_CD1 RM-DX300_CD2 RM-DX300_CD3
+sony;RM-DX50;;; RM-DX50
+sony;RM-DX740;;; Sony_RM-DX740
+sony;RM-ED006;;RM-ED006.jpg; RM-ED006 RM-ED006
+sony;RM-ED009;;RM-ED009.jpg; Sony_RM-ED009-12 Sony_RM-ED009-15
+sony;RM-ED011;;; Sony_RM-ED011
+sony;RM-ED019;;; RM-ED019
+sony;RM-ED035;;RM-ED035.jpg; Sony_RM-ED035 Sony_RM-ED035
+sony;RM-J701;;; RM-J701
+sony;RM-L310;;; RM-L310.cd RM-L310.band
+sony;RM-P362;;; Sony_RM-P362
+sony;RM-PJP1;;; Sony_RM-PJP1
+sony;RM-PJVW10;;; sony.1 sony.2
+sony;RM-PP402;;; RM rm rm-pp402 rm rm rm rm rm rm rm rm rm rm RM-PP402
+sony;RM-PP411;;; sony_RM-PP411_receiver-AV1 sony_RM-PP411_receiver-AV1-raw sony_RM-PP411_receiver-AV2 sony_RM-PP411_receiver-AV2-raw
+sony;RM-PP860;;; Sony_RM-PP860_12 Sony_RM-PP860_15
+sony;RM-S100;;; RM-S100
+sony;RM-S103;;; RM-S103
+sony;RM-S112;;; RM-S112
+sony;RM-S11;;RM-S11.jpg; Sony_RM-S11
+sony;RM-S150;;; RM-S150
+sony;RM-S160;;; name sony-rm-s160
+sony;RM-S22;;; Sony_RM-S22
+sony;RM-S29E;;; SONY.RM-S29E
+sony;RM-S29;;; RM-S29
+sony;RM-S311;;; SONY_RM-S311
+sony;RM-S315;;; Sony_RM-S315
+sony;RM-S325;;; RM-S325
+sony;RM-S33;;RM-S33.jpg; irr
+sony;RM-S343;;; SONY_RM-S343
+sony;RM-S375X;;; RM-S375X
+sony;RM-S44;;; RM-S44
+sony;RM-S530;;; Sony
+sony;RM-S55;;; RM-S55
+sony;RM-S609;;; Sony_RM-S609
+sony;RM-S61;;RM-S61.jpg; RM-S61
+sony;RM-S6;;; RM-S6
+sony;RM-S702;;; name RM-S702
+sony;RM-S705;;; RM-S705
+sony;RM-S737;;; RM-S737
+sony;RM-SC1;;; Sony_RM-SC1_1 Sony_RM-SC1_2 Sony_RM-SC1_3
+sony;RM-SD25-3;;; sony-rm-sd25
+sony;RM-SD50;;; RM-SD50
+sony;RM-SD70;;; SONY-RM-SD70
+sony;RM-SE1AV;;; Sony_RM_SE1AV Sony_RM_SE1AV_cdKeys
+sony;RM-SE7AV;;; RM-SE7AV
+sony;RM-SED2;;; RM-SED2
+sony;RM-sep303;;; sonyRM-sep303
+sony;RM-SG20;;; RM-SG20
+sony;RM-SG5;;; Sony_RM-SG5
+sony;RM-SG7;;; SONY_RM-SG7
+sony;RM-SM100EW;;; Sony_RM-SM100EW
+sony;RM-SR100;;; Sony_RM-SR100 Sony_RM-SR100_2
+sony;RM-SR231;;; Sony_RM-SR231
+sony;RM-SR8;;RM-SR8.jpg; RM-SR8
+sony;RM-SRB5;;; rm-srb5.conf
+sony;RM-SS800;;RM-SS800.jpg; Sony_RM-SS800
+sony;RM-SSP55;;; Sony_RM-SSP55_1 Sony_RM-SSP55_2
+sony;RM-SV215D;;RM-SV215D.jpg; Sony_RM-SV215D
+sony;RM-SV236;;RM-SV236.jpg; Sony_RM-SV236_20 Sony_RM-SV236_12 Sony_RM-SV236_15
+sony;RMT-136;;; RMT-136
+sony;RMT-502;;; RMT1 RMT2
+sony;RMT-504;;; RMT1 RMT2
+sony;RMT-506;;RMT-506.jpg; Sony_RMT-506
+sony;RMT-708;;RMT-708.jpg; RMT-1 RMT2
+sony;RMT-713;;; sonyCam
+sony;RMT-809;;; RMT-809
+sony;RMT-812;;; RMT-812
+sony;RMT-814;;; RMT-814
+sony;RMT-831;;; Sony_RMT-831-12 Sony_RMT-831-15 Sony_RMT-831-20
+sony;RMT-835;;; Sony_RMT-835 Sony_RMT-835-2
+sony;RMT-B101A;;; name Sony_RMT-B101A
+sony;RMT-B104P;;; SONY_RMT_B104P SONY B104P
+sony;RMT-C202;;; rmt-c202
+sony;RMT-C205AD;;RMT-C205AD.jpg; Sony_RMT-C205AD
+sony;RMT-C301;;; RMT-C301
+sony;RMT-C305AD;;; Sony-RMT-C305AD
+sony;RMT-C350;;; RMT-C350
+sony;RMT-C380;;; Sony_RMT-C380
+sony;RMT-C565;;; Sony_RMT-C565
+sony;RMT-C767;;; Sony_RMT-C767
+sony;RMT-CE95AD;;RMT-CE95AD.jpg; Sony_RMT-CE95AD
+sony;RMT-CF1A;;; Sony_RMT-CF1A
+sony;RMT-CS200A;;; RMT-CS200A
+sony;RMT-CS33AD;;; Sony_RMT-CS33AD
+sony;RMT-CS47AD;;RMT-CS47AD.jpg; Sony_RMT-CS47AD
+sony;RMT_CYN7AD;;RMT_CYN7AD.jpg; SONY_RMT_CYN7AD
+sony;RMT-CZW770AD;;RMT-CZW770AD.jpg; rmt-czw770ad
+sony;RMT-D100A;;; DVD
+sony;RMT-D114A;;; SONY_DVD
+sony;RMT-D115P;;; Sony_RMT-D115P
+sony;RMT-D116P;;; SONY_DVD
+sony;RMT-D126A;;; Sony_RMT-D126A
+sony;RMT-D126E;;; RMT-D126E
+sony;RMT-D129A;;; Sony_RMT-D129A_DVD
+sony;RMT-D141P;;; RMT-D141P.1 RMT-D141P.2 RMT-D141P.3
+sony;RMT-D142P;;; Sony_RMT-D142P Sony_RMT-D142P
+sony;RMT-D143E;;; Sony_RMT-D143E Sony_RMT-D143E-TV
+sony;RMT-D153A;;; SonyTV Sony_RMT-D155A
+sony;RMT-D155A;;; Sony_RMT-D155A
+sony;RMT-D156P;;; Sony_RMT-D156P
+sony;RMT-D157P;;; RMT-D157P RMT-D157P-VOL-BUTTONS RMT-D157P-TV-BUTTONS
+sony;RMT-D173A;;; Sony_RMT-D173A
+sony;RMT-DRS11;;; sony_rmt_drs11
+sony;RMT-DSC2;;; Sony_RMT-DSC2
+sony;RMT-M12A;;; SonyRMT-M12A
+sony;RMT-M22;;; Sony_RMT-M22
+sony;RMT-V102;;; TV
+sony;RMT-V107;;; SONY_RMT-V107
+sony;RMT-V115A;;; RMT-V115A
+sony;RMT-V117;;; Sony
+sony;RMT-V124;;; Sony_RMT-V124C-12 Sony_RMT-V124C-15
+sony;RMT-V141K;;; Sony_RMT-V141K
+sony;RMT-V145A;;; sony.rmtv145a
+sony;RMT-V153B;;; SONY
+sony;RMT-V154F;;; RMT-V154F
+sony;RMT-V155C;;; RMT-V155C
+sony;RMT-V159J;;; Sony_RMT-V159J
+sony;RMT-V159;;; RMT_V159
+sony;RMT-V161;;; sony
+sony;RMT-V164A;;; RMT-V164A
+sony;RMT-V166-TV;;; RMT-V166-TV
+sony;RMT-V166-VTR;;; RMT-V166-VTR
+sony;RMT-V173C;;; RMT-V173C
+sony;RMT-V181A;;; Sony_VTR_RMT-V181A
+sony;RMT-V181D;;; sony_rmt-v181d
+sony;RMT-V181G;;; SONY181
+sony;RMT-V181N;;; Sony_RMT-V181N Sony_RMT-V181N
+sony;RMT-V186D;;; Sony_RMT-V186D Sony_RMT-V186Da
+sony;RMT-V189;;; RMT-V189-VTR RMT-V189-TV RMT-V189-KARAOKE
+sony;RMT-V202A;;; RMT-V202A-a RMT-V202A-b
+sony;RMT-V202;;; RMT-V202
+sony;RMT-V207C;;; RMT-V207C RMT-V207C
+sony;RMT-V223;;; RMT-V223 RMT-V223
+sony;RMT-V231A;;; Sony_RMT-V231A
+sony;RMT-V245A;;; sony
+sony;RMT-V256;;RMT-V256.jpg; Sony_RMT-V256_1 Sony_RMT-V256_2 Sony_RMT-V256_TV
+sony;RMT-V257B;;; Sony-RMT-V257B
+sony;RMT-V259K;;; SONY-RMT-V259K SONY-RMT-V259K SONY-RMT-V259K-TV SONY-RMT-V259K-TV
+sony;RMT-V266;;; sony_RMT-V266_VIDEO SONY_RMT-V266 SONY_RMT-V266_menu SONY_RMT-V266_other SONY_RMT-V266_TV
+sony;RMT-V270;;; RMT-V270
+sony;RMT-V288;;; SONY_RMT-V288-11bit SONY_RMT-V288-14bit
+sony;RMT-V402A;;; name Sony_RMT-V402A-VIDEO name Sony_RMT-V402A-SHUTTLE name Sony_RMT-V402A-TV
+sony;RMT-V406B;;; RMT-V406B
+sony;RMT-V406;;; RMT-V406-pt1 RMT-V406-pt2
+sony;RMT-V501A;;; Sony_RMT-V501A
+sony;RMT-V501E;;; Sony_RMT-V501E RMT-V501E DVD Sony_RMT-V501E_TV Sony_RMT-V501E_TV2
+sony;RMT-V676B;;; RMT-V676B
+sony;RMT-V767;;RMT-V767.jpg; Sony_RMT-V767
+sony;RM-U204;;; SONY_RM-U204
+sony;RM-U25;;; RM-U25 RM-U25 RM-U25 Sony_RM-U25_Mute Sony_RM-U25
+sony;RM-U264;;; RM-U264
+sony;RM-U265;;RM-U265.jpg; RM-U265
+sony;RM-U302;;; SONY_RM-U302
+sony;RM-U303;;; Sony_RM-U303
+sony;RM-U305;;; RM-U305_func RM-U305_channel RM-U305_player RM-U305_menu RM-U305_ext RM-U305_volume
+sony;RM-U306A;;; RM-U306A_PWR RM-U306A_INP RM-U306A_NUM RM-U306A_PLY RM-U306A_SND RM-U306A_MENU RM-U306A_VOL RM-U306A_TV
+sony;RM-U33AV;;; RM-U33AV
+sony;RM-U541;;; Sony_RM-U541
+sony;RM-V10T;;; rm-v10t
+sony;RM-V111T;;; RM-V111T
+sony;RM-V11;;; VCR TV CABLE
+sony;RM-V202;;; RMV202_TV001 RMV202_TV011 RMV202_VCR035 RMV202_CBL013 RMV202_CBL016 RMV202_DVD012 RMV202_DVD001
+sony;RM-V210;;; Sony_RM-V210 Sony_RM-V210
+sony;RM-V211T;;; RM-V211T
+sony;RM-V301;;; RM-V301
+sony;RM-V302;;; RM-V302 Sony_RM-V302-VCR013 Sony_RM-V302-DVD010
+sony;RM-V310;;; Sony_RM-V310-TV Sony_RM-V310-VCR
+sony;RM-V402;;; Sony_RM-V402-TV Sony_RM-V402-VCR
+sony;RM-VZ950T;;; SONY
+sony;RM-W100;;; RM-W100
+sony;RM-W101;;RM-W101.png; Sony_RM-W101
+sony;RM-X30;;; SONY_RM-X30
+sony;RM-X40;;; SONY_RM-X40
+sony;RM-X42;;; SONY_RM-X42
+sony;RM-X47;;; RM-X47
+sony;RM-X95;;; sony_rm-x95
+sony;RM-Y103;;; TV
+sony;RM-Y118;;; Sony_RM-Y118 Sony_RM-Y118_audio Sony_RM-Y118_cable_pos
+sony;RM-Y135;;; RM-Y135
+sony;RM-Y155B;;; RM-Y155B
+sony;RM-Y168;;; Sony_RM-Y168_TV Sony_RM-Y168_TV-raw
+sony;RM-Y173;;; SONY_RM-Y173
+sony;RM-Y180;;; RM-Y180
+sony;RM-Y181;;; SONY_RM-Y181_Main Sony_RM-Y181_Audio
+sony;RM-Y800;;; RM-Y800
+sony;RM-Y812;;; Sony_RM-Y812
+sony;RM-YD003;;; Sony_RM-YD003:DVR
+sony;RM-YD010;;; SONY_12_RM-YD010 SONY_15_RM-YD010
+sony;RM-YD024;;; Sony_RM-YD024
+sony;SCPH-10130;;; PS2
+sony;SCPH-10150;;; SONY_PS2
+sony;SCPH-10420;;; PS2
+sony;STR-DE205;;; STR-DE205
+sony;STR-DE635;;; RM-PP402
+sony;SWK-8660;;; Sony_SWK-8660 tvwebtv
+sony;TUNER;;; TUNER
+sony;TV;;; SONY-TV SONY-TV
+sony;V164G-TV;;; SONY_V164G/TV
+sony;V500_VPL-W400;;; V500_VPL-W400
+sony;VaioRemote;;; Sony_VaioRemote
+speed-link;SL-4112;;; Speed-Link_SL-4112
+speed-link;SL-6399;;; Speedlink_SL-6399
+starhub;ABQ-1H57-SCV;;; starhub
+starsat;120;;; Starsat_120
+starview;Starview_I;;; Starview
+st;DTTRC-4;;; ST_DTTRC-4
+st;HMP_7109;;; ST_HMP_7109
+streamzap;lircd.conf.streamzap;;; Streamzap_PC_Remote
+streamzap;PC_Remote;;; Streamzap_PC_Remote
+strong;ZapBox;;; STRONG
+sumvision;DVD;;; Sumvision
+sungale;JX-2002;;; Sungale_JX-2002
+sun;RMC-D10;;RMC-D10.jpg; sun
+supermax;CABLE_BOX;;; Supermax
+supersqny;KM-168;;; SUPERSQNY_KM-168
+supportplus;RC9;;; name AMP CD name DVD/AUX SAT TAPE TUNER TV VCR
+supportplus;SP-URC-81-L;;; SP-URC-81-L Support_Plus_SP-URC-81-L
+supportplus;SP-URC-LCD-F15;;; SP-URC-LCD-F15
+sven;HT-475;;; SVEN_HT-475
+syabas;A-100;;; Syabas_A-100
+symphonic;N9291;;; VCR-SL2860
+symphonic;SE4250;;; Symphonic
+system76;Bonobo;;; System76_Bonobo
+tab_electronics;Robot_Kit;;Robot_Kit.jpg; Robot_Kit
+t+a;F100;;; lircd.conf
+t+a;F1;;; T+A_FAKE T+A_F1
+tascam;RC-31;;; RC-31
+tascam;RC-401;;; RC-401
+tcm;212845;;; TCM_212845-CD
+tcm;TCM_218681;;; TCM_218681_311
+tcm;TCM_225925;;; TCM_225925
+tcm;TCM_225926;;; TCM_225926
+tcm;TCM_96518_439;;;TCM_96518
+tcm;TCM_96518;;; TCM_96518
+tcuag;TVOON;;; TCUAG_TVOON TCUAG_TVBOX
+teac;DMP;;; HD-15-TV_DMP
+teac;PD-D900;;; CD
+teac;RC-1091;;; TEAC_RC-1091
+teac;RC-547;;; Teac_RC-547
+teac;RC-548;;; RC-548
+teac;RC-558;;; Teac_RC-558
+teac;RC-614;;; RC-614
+teac;RC-909;;; TEAC_RC-909
+teac;UR-417;;; TEAC_UR-417
+technics;EUR642100;;; EUR642100
+technics;EUR643861;;; EUR643861-CD EUR643861-TUNER EUR643861-0520 EUR643861-TAPE EUR643861-DCC EUR643861-VCR EUR643861-TV EUR643861-0500
+technics;EUR643880;;; EUR643880
+technics;EUR643900;;; TECHNICS_cd
+technics;EUR645273;;; EUR645273
+technics;EUR645275;;; Technics_CD
+technics;EUR646497;;; Technics_EUR646497
+technics;EUR64713;;; EUR64713
+technics;EUR64796;;; technics_EUR64796
+technics;EUR64798;;; EUR64798
+technics;EUR64799;;; EUR64799
+technics;EURXP300;;EURXP300.jpg; Technics_EURXP300
+technics;RAK-CH115WH;;; RAK-CH115WH
+technics;RAK-CH144WH;;; RAK-CH144WH
+technics;RAK-CH215WH;;; rak-ch215wh
+technics;RAK-CH220WH;;; RAK-CH220WH
+technics;RAK-CH745WH;;; rak-ch745wh
+technics;RAK-EHA16WH;;; radio
+technics;RAK-HDB04WH;;; Technics_RAK-HDB04WH
+technics;RAK-SA612WH;;; RAK-SA612WH
+technics;RAK-SC304W;;; RAK-SC304W
+technics;RAK-SC510W;;; RAK-SC510W
+technics;RAK-SL948WK;;; Technics_RAK-SL948WK
+technics;RAK_SU129WH;;; RAK-SU129WH
+technics;RAK-SU301W;;; RAK-SU301W
+technics;SA-DX950;;; amplifier
+technics;SL-PS670A;;; technics_sl-ps670a
+technisat;100TS008;;; TECHNISAT_ST3004S
+technisat;100TS023;;; 100_TS_023
+technisat;100TS035;;; 100TS035
+technisat;100TS036;;; 100TS036 100TS036_SAT2 100TS036_VCR 100TS036_TV
+technisat;103TS103;;; Technisat_103TS103
+technisat;FBPNA35;;; TechniSat_FBPNA35
+technisat;FBPVR335A;;; Technisat_FBPVR335A
+technisat;FBTV235S;;; FBTV235S-TV FBTV235S-SAT1 FBTV235S_SAT2
+technisat;lircd.conf.mediafocusI;;; TECHNISAT
+technisat;ST3002S;;; ST3002S
+technisat;ST_6000_E;;; technisat_st-6000e
+technisat;TS35;;TS35.jpg; TTS35AI
+technisat;TTS35AI;;; name Technisat_TTS35AI.conf
+technoline;TL-1062;;TL-1062.jpg; TechnoLine_TL-1062
+technosonic;DVD-204;;; Technosonic_DVD-204
+technotrend;DVB_S2-3200;;; Technotrend_DVB_S2-3200
+technotrend;Micro_S202;;; TT_Micro_S202
+technotrend;REMOTE;;; Technotrend_remote
+technotrend;S2400;;; TechnoTrend_S2400
+technotrend;TV-Card;;TV-Card.jpg; Technotrend
+teco;TZRM67G;;; Teco_TZRM67G
+tekram;lircd.conf.m230;lircmd.conf.m230;; M230
+telecom_italia;Sirio;;; sirio
+telefunken;FB1320;;; FB1320
+telefunken;FB1550;;; FB1550
+telefunken;IR3000;;; TELEFUNKEN_IR3000
+telefunken;MB2100;;; MB2100
+telefunken;RC_1127;;; TV-RC_1127
+telefunken;RC1132;;; Telefunken_RC1132
+telefunken;RC1323-VIDEO-B;;; Telefunken_RC1323-Video-B
+telefunken;RC_5104N;;; RC_5104N
+telefunken;RC7106M;;; Telefunken-rc7106m
+telefunken;TC141;;; Telefunken_RC141
+telefunken;TVRC_1345_TOP;;; TELEFUNKEN_TVRC-1345_TOP
+telefunken;TV;;; Telefunken_TV
+teleka;STR_2060;;; Teleka_STR2060
+telenet;DB-AD100;;; Telenet_DB-AD100
+telenet;DB-AD110;;; Telenet_DB-AD110
+televes;145075;;145075.jpg; Televes_145075
+tensai;5340fb;;; Tensai_5340fb
+tensai;TVR_260;;; Tensai
+terratec;1400_DVB-T;;1400_DVB-T.jpg; Terratec_1400_DVB-T
+terratec;Cinergy_1400-T;;; Terratec_Cinergy_1400-T
+terratec;Cinergy_C_PCI_HD;;; Terratec_Cinergy_C_PCI_HD
+terratec;Cinergy_DT_USB_XS_Diversity;;; Terratec_Cinergy_DT_USB_XS_Diversity
+terratec;Cinergy_S2_PCI_HD;;Cinergy_S2_PCI_HD.jpg; Terratec_Cinergy_S2_PCI_HD
+terratec;Cinergy_T2;;; Terratec_Cinergy_T2
+terratec;Cinergy_TV;;; terratec_cinergy
+terratec;M3PO;;; M3PO
+tesla;32LCD70WDGHD;;; Tesla_32LCD70WDGHD
+tesla;49-900-023;;49-900-023.jpg; TESLA_49-900-023
+tesla;TV;;; Tesla
+tesla;VCR;;; Tesla
+tevii;S650_DVB-S2_USB;;; TeVii_S650_DVB-S2_USB
+tevion;DFA_2005;;DFA_2005.jpg; Tevion_DFA_2005
+tevion;DVD2001;;; DVD2001
+tevion;DVD2002;;; MD-5410
+tevion;DVD_4000;;; Tevion_DVD_4000
+tevion;MD_3607;;; TevionMd3607
+tevion;MD_3830;;; MD_3830
+tevion;MD_41666_782;;; MD_41666
+tevion;MD_41666_860;;; TEVION_MD_41666_860
+tevion;MD_4689;;; Tevion tv vdr dvd cd
+tevion;MD6461;;; tevion_phillips tevion_md6461_dvd_saba_373 tevion_md6461_cd_sony_741
+tevion;MD80383;;; Tevion-MD80383
+tevion;MD_80383;;; Tevion_MD_80383_Code905
+tevion;MD_81035;;; Tevion-MD81035-ASAT-Code-0905
+tevion;MD_81299;;MD_81299.jpg; Tevion_MD_81299_Arena
+tevion;MD81302;;; Tevion_MD81302 Tevion_MD81302_0894
+tevion;MDC-982PLL;;MDC-982PLL.jpg; Tevion_MDC-982PLL
+tevion;RS20536;;; Tevion_RS20536
+tevion;SAT928;;; Tevion_SAT928
+tevion;TDR-250HD;;; Tevion_TDR-250HD
+tevion;TDR51DV;;; Tevion_TDR51DV
+tevion;TE-0603;;; Tevion_TE-0603
+tevion;TEV1020;;; Tevion_TEV1020
+tevion;TV_DVD_5506_RF;;TV_DVD_5506_RF.jpg; Tevion_TV_DVD_5506_RF
+thermaltake;MediaLAB;;MediaLAB.jpg; MediaLAB
+thinkgeek;LIGHTBULB;;; Lightbulb
+thompson;TIVO_THOMPSON;;; TIVO_THOMPSON
+thomson;DCI104ICS;;; MotorolaDTA100-PaceDC50X
+thomson;KCT5000;;KCT5000.jpg; Thomson_KCT5000
+thomson;mb_100;;; Thomson_mb100
+thomson;RC111TA1G;;; Thomson_RC111TA1G
+thomson;RC4208x;;; Thomson-RC4208x_A_SAT
+thomson;RC8002N;;; Thomson_RC8002N
+thomson;RC8003N;;; Thomson_RC8003N
+thomson;RC8005M;;; Thomson_RC8005M
+thomson;RCS615TCLM1;;; Thomson_RCS615TCLM1
+thomson;RCT100;;; THOMSON_RCT100
+thomson;RCT102;;; Thomson_RCT102
+thomson;RCT110D_A1;;; name Thomson_RCT110D_A1
+thomson;RCT2100;;; THOMSON THOMSON_VIDEO
+thomson;RCT3004;;; THOMSON_TV
+thomson;RCT311DA2;;RCT311DA2.jpg; RCT311DA2
+thomson;RCT_311_SC1G;;; Thomson-RCT_311_SC1G
+thomson;RCT_311_SE1G;;; Thomson_RCT_311_SE1G
+thomson;RCT4130S;;; THOMSON_RCT4130S
+thomson;RCT4131;;; TAK ThomsonTAK_1 ThomsonTAK_2
+thomson;RCT443_MN1;;; Thomson_rct443_mn1_VCR Thomson_rct443_mn1_TV Thomson_rct443_mn1_DVD
+thomson;ROC_1404;;; Thomson_ROC_1404
+thomson;ROC230;;; Thomson-ROC_230
+thomson;ROC-3205;;; Thomson_ROC-3205
+thomson;ROC3205;;; Thomson_ROC3205
+thomson;ROC340;;; Thomson_ROC340
+thomson;ROC40;;; k
+thomson;ROC45;;ROC45.jpg; THOMSON_ROC45
+thomson;ROC740;;; Thomson_ROC740
+thomson;ROC85;;ROC85.jpg; THOMSON_ROC85_TV1 THOMSON_ROC85_VCR THOMSON_ROC85_DVD THOMSON_ROC85_SAT THOMSON_ROC85_TV2 THOMSON_ROC85_CD THOMSON_ROC85_CAB THOMSON_ROC85_AUX
+thomson;TC99;;; TV
+thomson;TM9258;;; Thomson_TM9258
+time_warner_cable;RT-59C;;; SynergyIV
+time_warner_cable;UR4-P360;;; TWC_UR4-P360 TWC_UR4-P360-SONY
+tivii;TiVii_650;;; TiVII
+tivo;DTV36;;; TIVA_DirecTV_DTV36
+tivoli;Sirius;;; Tivoli_Sirius
+tivo;TIVO_Glo;;; Tivo_Glo
+tivo;TIVO_Series_1;;; Tivo_Series1
+tivo;TIVO_Series_2;;; Tivo_S2
+tivo;TIVO;;; TIVO
+tokai;DVD-715;;; Tokai_DVD-715
+t-online;S100;;; T-Online_S100
+topfield;PVR_5000;;; Topfield_PVR_5000
+topfield;TF4000Fi;;; TF4000Fi
+topfield;TF4000PVR;;; Topfield_TF4000PVR
+topseed;RM-VR1;;; Topseed
+toshiba;CT-816;;; name CT-816
+toshiba;CT-826;;; Toshiba_CT-826
+toshiba;CT-832;;; CT-832
+toshiba;CT-835S;;; TOSHIBA
+toshiba;CT-847;;; Toshiba_CT-847
+toshiba;CT-859;;; Toshiba_CT-859
+toshiba;CT-865;;; Toshiba_CT-865_DVD Toschiba_CT-865_TV Toshiba_CT-865_VCR
+toshiba;CT-90003;;; Thoshiba_CT-90003
+toshiba;CT-90038;;; Toshiba_CT-90038
+toshiba;CT-90047;;; ct-90047-cable_sat ct-90047-dvd ct-90047-tv ct-90047-vcr
+toshiba;CT-90101;;; Toshiba_CT-90101_DVD Toshiba_CT-90101_TV Toshiba_CT-90101_VCR
+toshiba;CT-90159;;; Toshiba_CT-90159_TV Toshiba_CT-90159_DVD
+toshiba;CT-90205;;; Toshiba_CT-90205
+toshiba;CT-90275;;; Toshiba_CT-90275
+toshiba;CT-90287;;CT-90287.jpg; Toshiba_CT-90287-TV Toshiba_CT-90287-REGZA-LINK Toshiba_CT-90287-DVD
+toshiba;CT-90298;;; Toshiba_CT-90298
+toshiba;CT-9347;;; TOSHTV
+toshiba;CT-9573;;; Toshiba_CT-9573
+toshiba;CT-9758;;; Toshiba
+toshiba;CT-9784;;; name Toshiba_CT-9784
+toshiba;CT-9873;;CT-9873.jpg; toshiba
+toshiba;CT-9881;;; name CT-9881
+toshiba;CT-9922;;; CT-9922
+toshiba;CT-9945;;; Toshiba_CT-9945
+toshiba;CT-9952;;; Toshiba_CT-9952
+toshiba;CT-9954;;; Toshiba
+toshiba;DC-SBH2;;; Toshiba_DC-SBH2
+toshiba;G83C0008A110;;G83C0008A110.jpg; Toshiba_G83C0008A110
+toshiba;RM-614Q;;; Toshiba_RM-614Q
+toshiba;RM-A210;;; toshiba-RM-A210
+toshiba;SE-R0031;;; Toshiba_SE-R0031
+toshiba;SE-R0047;;; Toshiba-SE-R0047
+toshiba;SE-R0049;;; Toshiba_SE-R0049
+toshiba;SE-R0058;;; SE-R0058
+toshiba;SE-R0090;;; Toshiba-SE-R0090
+toshiba;SE-R0127;;; Toshiba_SE-R0127
+toshiba;SE-R0313;;; TOSHIBA_SE-R0313
+toshiba;TDP-S2;;; TOSHIBA_NEC TOSHIBA_RC5
+toshiba;TSR-101R;;; Toshiba_TSR-101R
+toshiba;VC-222T;;; toshiba
+toshiba;VC-642T;;; VC-642T
+toshiba;VC-65;;; TOSHIBA_VC-65
+toshiba;VC-65T;;; toshiba
+toshiba;VC-685;;; toshiba-vcr toshiba-tv
+toshiba;VC-752;;; tosh
+toshiba;VC-90B;;; Toshiba_VC-90B
+toshiba;VCR-2230;;; VCR-2230
+toshiba;VT-11;;; TOSHIBA_VT-11
+toshiba;VT-12;;; xx
+toshiba;VT-204G;;; VT-204G
+toshiba;VT-209W;;; Toshiba_VT-209W
+toshiba;VT-75F;;; Toshiba_VT-75F
+total_control;11-1208R00;;; Total_Control_11-1208R00
+total_media_in_hand;DVB-T;;; Total_Media_In_Hand_DVB-T
+traxis;3500;;; Traxis_3500
+triax;DVB_40S;;; TRIAX_DVB_40S
+trice;TR-302;;; Trice_TR-302
+trio;xms007;;; trio_xms007
+trust;RC-2400;;; Trust_RC-2400
+trutech;TV;;; Trutech_TV
+turtlebeach;audiotron;;; Audiotron
+twinhan;AD-SP200;;; Azurewave_AD-SP200
+twinhan;DTV;;; Twinhan_DTV
+twinhan;MagicBox;;; Twinhan_MagicBox
+typhoon;RC-0718-3;;; Typhoon_RC-0718-3
+typhoon;Starbox;;; Twinhan_DTV
+uec;DVB_SAT;;; UEC_DVB_SAT
+uei;DVR-1055;;DVR-1055.jpg; ATLAS_DVR-1055_AUD ATLAS_DVR-1055_CBL
+ultrawave;3500PFTA;;; Ultrawave_3500PFTA
+umax;D-701;;; D-701
+uniden;UDS200r;;; UDS200r
+united;DVD4057M;;; United-DVD4057M
+universal;846M;;; lircd.conf
+universal;8in1;;8in1.jpg; Universal_8in1
+universal;AV7-RZ-506;;; testrecord.config
+universal;CME;;; cme
+universal;CV150;;; Conrad_Commander_CV_150 conrad_vcr_sony_030
+universal;CV250;;; CV250 CV250_055
+universal;CV300_089;;; CV300_089
+universal;CV300_102;;; CV300_102
+universal;CV300_111;;; CV300_111
+universal;GumBody;;;# (cols × lines) buttons with no names on them and you have a set of # the most obvious drawing/inscription -> button mapping where # "button name" is the used with lircd for this button. MELICONI_101_772
+universal;ISP_4187;;; uni77
+universal;Knopex;;; Knopex
+universal;LT_3607;;; lt3607-aux599
+universal;MAXY1708;;; MAXY1708
+universal;MC-10;;MC-10.jpg; MC-10
+universal;MELICONI_PERSONAL;;; tv vcr
+universal;Promo2_006;;; name Promo2_006
+universal;R7;;; URC-R7-Code_001
+universal;RC_Univers_20;;; HQ_RC_Univers20
+universal;REMOTE_MASTER_1000_0171;;; tv
+universal;REMOTE_MASTER_1000_0432;;; vcr
+universal;RM-786;;; HSVP
+universal;RM-V211T;;; RM-V211T
+universal;RZ-55;;; AV7_RZ-55_123
+universal;SupportPlus;;; lircd.conf
+universal;TCM_64745;;; TCM64745
+universal;TCM_96518_439;;;TCM_96518
+universal;TCM_96518;;; TV2 DVD TV1 tv2 VCR2 AUX VCR DVD SAT SAT CD CD AUX
+universal;UR24A;;; X10_Powerhouse_UR24A
+universal;URC22B;;; URC22B-15in1
+universal;URC-6012w;;; URC-6012w
+universal;URC-7532;;; TV VCR AUX
+universum;B21421;;; B21421
+universum;FT8180A;;; RC-222
+universum;FT8180;;; universum
+universum;RC-0892_00;;; SAT
+universum;SR420;;; Universum_SR420
+universum;STEREO;;; UNIVERSUM
+universum;TV;;; tvuniversum
+universum;VCR;;; video
+universum;VR_2796;;; Universum-VR_2796
+universum;VR_2959;;; universum_vcr
+universum;VR743A;;; VR743A
+upc;SAT;;; UPC_SAT
+venturer;CD1832;;; boombox
+venturer;STB7766G1;;; Venturer_STB7766G1
+vestel;SF118;;; Vestel_SF118
+vestel;TV;;TV.jpg; Vestel_TV
+video7;RC750;;; Video7-RC750
+videologic;RM-201;;; videologic_rm201
+viewmaster;RC-03;;; Viewmaster_RC-03
+viewmaxpro;CABLE_BOX;;; viewmaxpro
+viewsat;SAT;;; Viewsat_SAT
+viewsat;VS2000_Extreme;;; Viewsat_VS2000_Extreme
+viewsonic;98TR7BD-ONT-VSF;;; ViewSonic_98TR7BD-ONT-VSF
+viewsonic;N3200w;;; Viewsonic_N3200w
+viewsonic;NextVision6;;; vsnv6
+viewsonic;RC00070P;;; Viewsonic_RC00070P
+visionetics;Cable_Box;;; Visionetics_Cable_Box
+vistron;DVD-5211;;; Vistron_DVD-5211
+vistron;LTM-3271E;;; Vistron_LTM-3271E
+vitek;Vitek;;Vitek.jpg; Vitek
+vivanco;UR2;;; Vivanco_UR2_140
+vivanco;UR_89;;; vivanco_ur89
+vizio;LCD_TV;;; Vizio
+vizio;VUR8;;; Vizio_VUR8
+vizio;VX37L;;; Vizio_VX37L
+vlsystem;lircd.conf.mplay;;; VLSystem_MPlay_Blast
+voxson;DVD250;;DVD250.jpg; PT2222-1
+watson;FA_3619;;; Watson
+watson;FA_5150;;; WATSON_FA_5150
+watson;FA_7039;;; Watson/Hauppauge
+wd;HDTVMediaPlayerV1;;HDTVMediaPlayerV1.jpg; WD_HDTVMediaPlayerV1
+wd;TV_Live;;; WD_TV_LIVE_REMOTE
+westinghouse;LVM-47W1;;LVM-47W1.jpg; Westinghouse_LVM-47W1
+westinghouse;RMT-05;;; Westinghouse_RMT_05
+wilfa;RVC-17;;; Wilfa_RVC-17
+x10;lircd.conf.atilibusb;;; ATI_Remote_Wonder_II Medion_MD8800 ati_remote_wonder_rf nVidia_UR88A X10_OR22V
+x10;lircd.conf.atiusb;;; ATIUSB_5000015900A ATIUSB_5000022000 ATIUSB_5000023600 SAPPHIRE_ATIUSB_5000023600 X-10_Lola microapp6in1 atiusb_ch1 ATIUSB_UR88A Medion 5000024400 Niveus_X10 ATIUSB_MEDION_MD95700 MEDION_X10_RF MEDION_40005927 Medion_X10 Medion_8802 Medion_OR24E Q-Sonic_Master_Remote AR_Remote_Control_MCE Toshiba_X10 ATI_REMOTE_2_2_1 Medion_X10 Medion_X10 Jasco_97685T Toshiba_PX1246E-1ETC Snapstream_Firefly_R1000 Medion_MD1_NBC_Remote
+x10;lircd.conf.mouseremote;lircmd.conf.mouseremote;; mouseremote
+x10;lircd.conf.mp3anywhere;;; mp3anywhere MP3Anywhere_UR51A
+xlogic;KF8000D;;; XLOGIC-KF8000D
+xms;XMS503;;; XMS_XMS503
+xoro;DVB_210_T;;; Xoro_DVB_210_T
+xsat;XSAT_CDTV410;;; xsat
+xtreamer;Xtreamer;;; Xtreamer
+yakumo;DVD_Master_DX4;;; Yakumo_DVD_Master_DX4
+yamada;DVX-6xxx;;; Yamada_DVX-6xxx
+yamada;PRM-400;;; Yamada_PVD-500
+yamaha;AVPhile_715_RC;;; DVD-RC
+yamaha;AX-960;;; YAMAHA
+yamaha;CDX-493;;; cdx-493
+yamaha;CDX-570;;; YAMAHA_CD
+yamaha;DSP-A1000;;; DSP-A1000
+yamaha;DSP-A970;;; DSP-A970
+yamaha;RAV-12;;; YAMAHA_RAV-12
+yamaha;RAV14;;; Yamaha_RAV14
+yamaha;RAV16;;RAV16.jpg; Yamaha_RAV16
+yamaha;RAV190;;; yamaha-universal
+yamaha;RAV207;;; Yamaha_RAV207
+yamaha;RAV215;;; Yamaha_RAV215 Yamaha_RAV215_CBL/SAT Yamaha_RAV215_MD Yamaha_RAV215_DVD
+yamaha;RAV243;;; JVCDVD
+yamaha;RAV283;;; Yamaha_RAV283
+yamaha;RAV285;;; Yamaha_RAV285
+yamaha;RAV294;;RAV294.jpg; YAMAHA-RAV294
+yamaha;RAV300;;; receiver
+yamaha;RAV302;;; Yamaha_RAV302 Yamaha_RAV302e
+yamaha;RAV364;;RAV364.jpg; Yamaha_RAV364 Yamaha-RAV364-Multi-Channel-In
+yamaha;RAX6;;; RAX6
+yamaha;RAX7;;; yamaha-rax7
+yamaha;RAX9;;; rax9
+yamaha;RCX2;;RCX2.jpg; Yamaha_RCX2
+yamaha;RC-X660;;; RCX660
+yamaha;RC-X750;;; RCX-750
+yamaha;RCX;;; RCX
+yamaha;RS-CD5;;; RS-CD5
+yamaha;RS-CDX910;;; RS-CDX910
+yamaha;RS-CX1000;;; RS-CX1000
+yamaha;RS-CX600;;; RS-CX600
+yamaha;RS-K3;;; RS-K3
+yamaha;RS-KR4;;; RS-KR4
+yamaha;RS-KX1;;; RS-KX1
+yamaha;R-V1105;;; av
+yamaha;RX-395-RDS;;; YAMAHA
+yamaha;RX-450;;; Yamaha_RX-450
+yamaha;RX-CX800;;; RX-CX800
+yamaha;RX-V495;;RX-V495.jpg; DVD
+yamaha;RX-V850;;; RX-V850
+yamaha;RX-V995;;; yamaha-amp
+yamaha;TV;;; Y-TV-1004
+yamaha;TX-1000;;; Yamaha_TX-1000
+yamaha;V215230;;; YAMAHA
+yamaha;V499920;;; Yamaha_V499920
+yamaha;VI47320;;; VI47320
+yamaha;VI77760;;; VI77760
+yamaha;VJ59810;;; VJ59810
+yamaha;VJI5420;;; VJI5420
+yamaha;VK34080;;; VK34080
+yamaha;VK38010;;; VK38010
+yamaha;VM70290;;; VM70290
+yamaha;VM70300;;; YAMAHA_VM70300
+yamaha;VP37310;;; VP37310
+yamaha;VP37320;;; VP37320
+yamaha;VP59040;;; VP59040
+yamaha;VP59250;;; VP59250
+yamaha;VP60840;;; VP60840
+yamaha;VP79430;;; VP79430
+yamaha;VP84950;;; VP84950
+yamaha;VQ08640;;; VQ08640
+yamaha;VQ95010;;; VQ95010
+yamaha;VR09390;;; VR09390
+yamaha;VR50590-CX1;;; VR50590.a
+yamaha;VR50590;;; VR50590
+yamaha;VR81350;;; VR81350
+yamaha;VS54120;;; VS54120
+yamaha;VS71360;;; VS71360
+yamaha;VT06460;;; Yamaha_VT06460
+yamaha;VT97430;;; VT97430
+yamaha;VU07410;;; YAMAHA-RAX1
+yamaha;VU07420;;; YAMAHA-RAX2
+yamaha;VU50620;;; vu50620
+yamaha;VU71330;;; VU71330
+yamaha;VV27520;;; VV27520
+yamaha;VV48620;;; Yamaha_VV48620
+yamaha;VY71850;;; VY71850
+yamakawa;DVD-285VGA;;; dvd285vga
+yes;URC-39765_B00;;; YES
+yuan;SmartVDO;;; Yuan_SmartVDO
+zalman;HD160XT;;; Zalman_HD160XT
+zehnder;BX-299;;; SEG_VCR_2200
+zenith;AKB36157102;;; Zenith_AKB36157102
+zenith;C32V37;;C32V37.jpg; Zenith_C32V37
+zenith;MBR-3447;;; zenith
+zenith;TV;;; ZENITH_TV
+zenith;VCR1;;; ZENITH_VCR
+zenith;VCR;;; ZENITH_VCR
+zenith;ZN110;;ZN110.jpg; Zenith_ZD110
+zenith;ZN5015;;; Zenith_ZN5015_CODE838
+zolid;ZOL100;;; Zolid_ZOL100
+zoltrix;lircd.conf.zoltrix;lircmd.conf.zoltrix;; Zoltrix
+zyxel;DMA-1000;;; Zyxel_DMA-1000

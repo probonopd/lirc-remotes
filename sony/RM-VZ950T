@@ -1,0 +1,66 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.6(serial) on Sun Nov  3 21:42:05 2002
+#
+# contributed by
+#
+# brand:                                      SONY          
+# model no. of remote control:                RM-VZ950T
+# devices being controlled by this remote:    VDR 1.1.20
+#
+
+begin remote
+
+   name SONY
+   bits           11
+   flags SPACE_ENC|CONST_LENGTH
+   eps            30
+   aeps          100
+
+   header       2459   551
+   one          1260   534
+   zero          667   534
+   ptrail        668
+   gap          44921
+   min_repeat      3
+   toggle_bit      0
+
+
+       begin codes
+          KEY_POWER                0x0000000000000548        #  Was: POWER
+          KEY_1                    0x0000000000000008        #  Was: 1
+          KEY_2                    0x0000000000000408        #  Was: 2
+          KEY_3                    0x0000000000000208        #  Was: 3
+          KEY_4                    0x0000000000000608        #  Was: 4
+          KEY_5                    0x0000000000000108        #  Was: 5
+          KEY_6                    0x0000000000000508        #  Was: 6
+          KEY_7                    0x0000000000000308        #  Was: 7
+          KEY_8                    0x0000000000000708        #  Was: 8
+          KEY_9                    0x0000000000000088        #  Was: 9
+          KEY_0                    0x0000000000000488        #  Was: 0
+          KEY_RED                  0x000000000000019C        #  Was: RED
+          KEY_GREEN                0x000000000000059C        #  Was: GREEN
+          KEY_YELLOW               0x000000000000039C        #  Was: YELLOW
+          KEY_BLUE                 0x000000000000079C        #  Was: BLUE
+          KEY_UP                   0x0000000000000178        #  Was: UP
+          KEY_DOWN                 0x0000000000000578        #  Was: DOWN
+          KEY_LEFT                 0x0000000000000168        #  Was: LEFT
+          KEY_RIGHT                0x0000000000000668        #  Was: RIGHT
+          KEY_MENU                 0x0000000000000038        #  Was: MENU
+          KEY_OK                   0x0000000000000538        #  Was: OK
+          KEY_VOLUMEUP             0x0000000000000248        #  Was: VOLUME+
+          KEY_VOLUMEDOWN           0x0000000000000648        #  Was: VOLUME-
+          KEY_MUTE                 0x0000000000000148        #  Was: MUTE
+          KEY_BACK                 0x00000000000006E8        #  Was: BACK
+           TIMERS                   0x00000000000007E8
+          KEY_CHANNELDOWN          0x00000000000000E8        #  Was: CHANNELS
+          KEY_RECORD               0x0000000000000528        #  Was: RECORDINGS
+          KEY_PLAY                 0x0000000000000002        #  Was: PLAY
+          KEY_FORWARD              0x0000000000000001        #  Was: FWD
+          KEY_REWIND               0x0000000000000006        #  Was: REW
+          KEY_STOP                 0x0000000000000000        #  Was: STOP
+          KEY_PAUSE                0x0000000000000004        #  Was: PAUSE
+       end codes
+
+end remote
+

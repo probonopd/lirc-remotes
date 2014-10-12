@@ -1,0 +1,82 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.1(iguanaIR) on Thu Jun 14 22:32:39 2007
+#
+# contributed by Flroent le saout.
+#
+# brand:                       SIGMATEK
+# model no. of remote control: XMB-510-PRO
+# devices being controlled by this remote: DVD PLAYER
+#
+
+begin remote
+
+  name  SIGMATEK_XMB-510-PRO
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9018  4433
+  one           566  1635
+  zero          566   509
+  ptrail        565
+  repeat       9013  2185
+  pre_data_bits   16
+  pre_data       0x10EF
+  gap          107888
+  toggle_bit      0
+
+
+      begin codes
+          KEY_OPEN                 0x906F                    #  Was: OPEN/CLOSE
+          KEY_1                    0x807F                    #  Was: 1
+          KEY_2                    0x00FF                    #  Was: 2
+          KEY_3                    0x40BF                    #  Was: 3
+          KEY_4                    0xC03F                    #  Was: 4
+          KEY_5                    0xA857                    #  Was: 5
+          KEY_6                    0x28D7                    #  Was: 6
+          KEY_7                    0x6897                    #  Was: 7
+          KEY_8                    0xE817                    #  Was: 8
+          KEY_9                    0x8877                    #  Was: 9
+          KEY_0                    0x48B7                    #  Was: 0
+          GOTO                     0xCA35
+          KEY_0+                   0xA05F                    #  Was: 10+
+          KEY_SLEEP                0x58A7                    #  Was: SLEEP
+          P/N                      0x609F
+          KEY_MUTE                 0xAA55                    #  Was: MUTE
+          VOCAL                    0xB24D
+          STEP                     0xD827
+          KEY_SLOW                 0x926D                    #  Was: SLOW
+          RESUME                   0x708F
+          KEY_AGAIN                0xB04F                    #  Was: REPEAT
+          A-B                      0x10EF
+          KEY_SETUP                0x08F7                    #  Was: SETUP
+          KEY_ENTER                0x728D                    #  Was: ENTER
+          KEY_UP                   0x12ED                    #  Was: UP
+          KEY_DOWN                 0x629D                    #  Was: DOWN
+          KEY_LEFT                 0x5AA5                    #  Was: LEFT
+          KEY_RIGHT                0xA25D                    #  Was: RIGHT
+          KEY_PLAYPAUSE            0x18E7                    #  Was: PLAY/PAUSE
+          KEY_STOP                 0x9867                    #  Was: STOP
+          KEY_PREVIOUS             0xF20D                    #  Was: PREV
+          KEY_NEXT                 0x32CD                    #  Was: NEXT
+          KEY_REWIND               0xD22D                    #  Was: REWIND
+          AW                       0x8A75
+          KEY_MENU                 0x4AB5                    #  Was: OSD
+          KEY_AUDIO                0xB847                    #  Was: AUDIO
+          KEY_SUBTITLE             0x30CF                    #  Was: SUB-T
+          KEY_TITLE                0x6A95                    #  Was: TITLE
+          PBC                      0xEA15
+          KEY_ANGLE                0xF807                    #  Was: ANGLE
+          KEY_VIDEO                0x827D                    #  Was: VIDEO
+          HDMI                     0xD02F
+          DEFAULT                  0x1AE5
+          KEY_ZOOM                 0xF00F                    #  Was: ZOOM
+          KEY_VOLUMEDOWN           0x3AC5                    #  Was: VOL-
+          KEY_VOLUMEUP             0x7887                    #  Was: VOL+
+      end codes
+
+end remote
+
+

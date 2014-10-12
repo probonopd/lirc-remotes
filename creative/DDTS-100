@@ -1,0 +1,55 @@
+#
+# this config file was automatically generated
+# using remote-0.7.2(act200l) on Thu Oct 20 11:51:09 2005
+#
+# contributed by Chris Hamilton <chris|ambigc.com>
+#
+# brand:                       Creative
+# model no. of remote control: DDTS-100 remote
+# devices being controlled by this remote: DDTS-100
+#
+# This is the remote that comes with the DDTS-100 audio decoder it is
+# similar to other Creative remotes.
+
+begin remote
+
+  name  DDTS-100
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       8973  4760
+  one           591  1675
+  zero          591   567
+  ptrail        591
+  repeat       8974  2308
+  pre_data_bits   16
+  pre_data       0x8322
+  gap          106852
+  toggle_bit      0
+
+
+      begin codes
+          KEY_MUTE                 0xEE11                    #  Was: mute
+          test                     0xEF10
+          KEY_POWER                0xE11E                    #  Was: power
+          rear_center              0xE817
+          center                   0xE916
+          rear                     0xE718
+          KEY_SUBTITLE             0xE619                    #  Was: subwoofer
+          KEY_VOLUMEUP             0xE21D                    #  Was: volume_up
+          KEY_VOLUMEDOWN           0xE31C                    #  Was: volume_down
+          analog                   0xEA15
+          dynamic_mode             0xF20D
+          coaxial                  0xE41B
+          optical                  0xF00F
+          dolby_pl_ii              0xE51A
+          stereo                   0xF40B
+          dolby_digital_ex         0xF30C
+          ned_6                    0xED12
+      end codes
+
+end remote
+
+

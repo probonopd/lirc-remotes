@@ -1,0 +1,74 @@
+# this config file was automatically generated
+# using lirc-0.8.0(serial) on Fri May 26 10:54:04 2006
+#
+# contributed by
+#
+# brand:                       TECHNICS
+# model no. of remote control: RAK-SC304W
+# devices being controlled by this remote: ST-X302L Tuner
+#				+connected Technics AMP,CD,TAPE,
+#				EQ,TURNTABLE
+
+begin remote
+
+  name  RAK-SC304W
+  bits           24
+  flags SPACE_ENC
+  eps            30
+  aeps          100
+
+  header       3607  1636
+  one           519  1220
+  zero          519   351
+  ptrail        486
+  pre_data_bits   24
+  pre_data       0x400405
+  gap          74692
+  min_repeat      3
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x20BC99                  #  Was: POWER
+          KEY_SLEEP                0x20694C                  #  Was: SLEEP
+          KEY_CD                   0x200326                  #  Was: CD
+          KEY_TAPE                 0x2083A6                  #  Was: TAPE
+          KEY_TUNER                0x204366                  #  Was: TUNER
+          NUMBER_1                 0x20082D
+          NUMBER_2                 0x2088AD
+          NUMBER_3                 0x20486D
+          NUMBER_4                 0x20C8ED
+          NUMBER_5                 0x20280D
+          NUMBER_6                 0x20A88D
+          NUMBER_7                 0x20684D
+          NUMBER_8                 0x20E8CD
+          NUMBER_9                 0x20183D
+          NUMBER_0                 0x2098BD
+          CD_PLAY                  0x505005
+          CD_PAUSE                 0x506035
+          CD_STOP                  0x500055
+          CD_PREV                  0x5092C7
+          CD_NEXT                  0x505207
+          CD_PROGRAM               0x505104
+          EQ_ON-FLAT               0x08F1FC
+          EQ_PRESET                0x08414C
+          TURNTABLE_PLAY           0x705025
+          TURNTABLE_STOP           0x700075
+          CD_TIME-MODE             0x50AAFF
+          TAPE_DECK-1-2            0x10A9BC
+          TAPE_PAUSE               0x106075
+          TAPE_DECK2_AUTORECMUTE   0x104154
+          TAPE_DECK2_REC           0x101005
+          TAPE_PLAY_LEFT           0x10D0C5
+          TAPE_PLAY_RIGHT          0x105045
+          TAPE_STOP                0x100015
+          TAPE_REW                 0x104055
+          TAPE_FWD                 0x10C0D5
+          KEY_MUTE                 0x004C49                  #  Was: MUTE
+          KEY_VOLUMEDOWN           0x008481                  #  Was: VOL_DOWN
+          KEY_VOLUMEUP             0x000401                  #  Was: VOL_UP
+      end codes
+
+end remote
+
+

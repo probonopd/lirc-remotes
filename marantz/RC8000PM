@@ -1,0 +1,116 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.3(iguanaIR) on Thu Apr  1 17:21:57 2010
+#
+# contributed by Hans de Jonge
+#
+# brand: Marantz
+# model no. of remote control: RC8000PM
+# devices being controlled by this remote: Marantz PM7000 amplifier
+#
+
+begin remote
+
+  name   Marantz_RC8000PM
+  flags RAW_CODES|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  ptrail          0
+  repeat     0     0
+  gap          113407
+
+      begin raw_codes
+
+          name POWER_ON
+          KEY_6                    853                       #  Was: 896
+          KEY_4                    874                       #  Was: 874
+          KEY_4                    874                       #  Was: 874
+          KEY_2                    874                       #  Was: 1792
+          KEY_4                    874                       #  Was: 874
+          KEY_4                    1770                      #  Was: 874
+
+          name POWER_OFF
+          KEY_7                    853                       #  Was: 917
+          KEY_2                    874                       #  Was: 1792
+          KEY_4                    4437                      #  Was: 874
+          KEY_6                    853                       #  Was: 896
+          KEY_4                    874                       #  Was: 874
+          KEY_4                    1770                      #  Was: 874
+
+          name AUX-1
+          KEY_6                    853                       #  Was: 896
+          KEY_6                    853                       #  Was: 896
+          KEY_6                    853                       #  Was: 896
+          KEY_6                    853                       #  Was: 896
+          KEY_6                    853                       #  Was: 896
+          KEY_7                    832                       #  Was: 917
+
+          name AUX-2
+          KEY_7                    832                       #  Was: 917
+          KEY_3                    832                       #  Was: 1813
+          KEY_6                    4416                      #  Was: 896
+          KEY_4                    874                       #  Was: 874
+          KEY_4                    874                       #  Was: 874
+          KEY_4                    1749                      #  Was: 874
+          KEY_6                     #  Was: 896             
+
+      end raw_codes
+
+end remote
+
+
+begin remote
+
+  name  Marantz_RC8000PM_RC-5
+  bits           13
+  flags RC5|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           897   859
+  zero          897   859
+  plead         916
+  gap          113407
+  toggle_bit_mask 0x800
+
+      begin codes
+          SOURCE_ON-OFF            0x140C
+          PHONO                    0x157F
+          KEY_CD                   0x1D3F                    #  Was: CD
+          KEY_TUNER                0x147F                    #  Was: TUNER
+          CD-R                     0x1DFF
+          KEY_TAPE                 0x14BF                    #  Was: TAPE
+          MD                       0x1DFF
+          KEY_1                    0x15C1                    #  Was: 1
+          KEY_2                    0x1DC2                    #  Was: 2
+          KEY_3                    0x15C3                    #  Was: 3
+          KEY_4                    0x1DC4                    #  Was: 4
+          KEY_5                    0x15C5                    #  Was: 5
+          KEY_6                    0x1DC6                    #  Was: 6
+          KEY_7                    0x15C7                    #  Was: 7
+          KEY_8                    0x1DC8                    #  Was: 8
+          KEY_9                    0x15C9                    #  Was: 9
+          KEY_KPMINUS              0x1DE1                    #  Was: MINUS
+          KEY_0                    0x15C0                    #  Was: 0
+          KEY_KPPLUS               0x1DE0                    #  Was: PLUS
+          MEMO                     0x15E9
+          SCROLL                   0x1DCF
+          KEY_CANCEL               0x15FA                    #  Was: CANCEL
+          KEY_TEXT                 0x1DCB                    #  Was: TEXT
+          KEY_TIME                 0x15CB                    #  Was: TIME
+          FAST_BCKPLAY             0x1DE1
+          KEY_PLAY                 0x15F5                    #  Was: PLAY
+          FASTFWDPLAY              0x1DE0
+          KEY_REWIND               0x15F2                    #  Was: REW
+          KEY_FASTFORWARD          0x1DF4                    #  Was: FF
+          KEY_MUTE                 0x140D                    #  Was: MUTE
+          KEY_VOLUMEUP             0x1C10                    #  Was: VOLUME_UP
+          KEY_VOLUMEDOWN           0x1411                    #  Was: VOLUME_DOWN
+          KEY_PAUSE                0x1DF0                    #  Was: PAUSE
+          KEY_OPEN                 0x15ED                    #  Was: OPEN_CLOSE
+      end codes
+
+end remote
+
+

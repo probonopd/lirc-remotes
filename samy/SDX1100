@@ -1,0 +1,79 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.2(default) on Sat Dec 22 13:54:21 2007
+#
+# contributed by Anselmo and lirc-serial (Home-brew serial-port-reciver)
+#
+# brand:					Samy
+# model no. of remote control:			SDX1100
+# devices being controlled by this remote:	DVD Samy SDX1100
+#
+
+begin remote
+
+  name  Samy_SDX1100
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9116  4430
+  one           636  1623
+  zero          636   490
+  ptrail        648
+  repeat       9112  2170
+  pre_data_bits   16
+  pre_data       0x1067
+  gap          108356
+  toggle_bit_mask 0x0
+
+      begin codes
+          KEY_POWER                0xC03F                    #  Was: on
+          KEY_OPEN                 0x00FF                    #  Was: open
+          KEY_UP                   0x40BF                    #  Was: up
+          KEY_DOWN                 0xA05F                    #  Was: down
+          dx                       0x807F
+          sx                       0x609F
+          KEY_SETUP                0xE01F                    #  Was: setup
+          KEY_ENTER                0x20DF                    #  Was: return
+          KEY_PLAY                 0xD02F                    #  Was: play
+          KEY_PAUSE                0x50AF                    #  Was: pause
+          KEY_STOP                 0x906F                    #  Was: stop
+          KEY_MENU                 0x10EF                    #  Was: menu
+          KEY_PREVIOUS             0xF00F                    #  Was: prev
+          KEY_NEXT                 0x708F                    #  Was: next
+          KEY_REWIND               0xB04F                    #  Was: rew
+          fww                      0x30CF
+          KEY_1                    0x48B7                    #  Was: 1
+          KEY_2                    0x8877                    #  Was: 2
+          KEY_3                    0x08F7                    #  Was: 3
+          KEY_4                    0x6897                    #  Was: 4
+          KEY_5                    0xA857                    #  Was: 5
+          KEY_6                    0x28D7                    #  Was: 6
+          KEY_7                    0x58A7                    #  Was: 7
+          KEY_8                    0x9867                    #  Was: 8
+          KEY_9                    0x18E7                    #  Was: 9
+          KEY_0                    0x7887                    #  Was: 0
+          X_KEY_0+                 0xB847                    #  Was: KEY_0+
+          KEY_AUDIO                0x38C7                    #  Was: audio
+          KEY_TITLE                0xCA35                    #  Was: title
+          KEY_CLEAR                0x4AB5                    #  Was: clear
+          KEY_AGAIN                0x8A75                    #  Was: repeat
+          prog                     0x0AF5
+          KEY_ZOOM                 0xEA15                    #  Was: zoom
+          v-remote                 0x6A95
+          intro                    0xAA55
+          eq                       0x2AD5
+          a-b                      0xDA25
+          mark                     0x5AA5
+          KEY_SEARCH               0x9A65                    #  Was: search
+          display                  0x1AE5
+          is/ps                    0xFA05
+          KEY_SUBTITLE             0x7A85                    #  Was: subtitle
+          KEY_VOLUMEDOWN           0xBA45                    #  Was: vol-
+          KEY_VOLUMEUP             0x3AC5                    #  Was: vol+
+      end codes
+
+end remote
+
+

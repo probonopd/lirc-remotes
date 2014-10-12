@@ -1,0 +1,93 @@
+# Please make this file available to others
+# by sending it to <lirc@bartelmus.de>
+#
+# this config file was automatically generated
+# using lirc-0.9.0-pre1(default) on Sat Aug 23 11:52:29 2014
+#
+# contributed by Tomas Melin
+#
+# brand: Technisat Cablestar Combo HD CI
+# model no. of remote control: TS35
+# devices being controlled by this remote:
+#
+# Kernel revision: 3.16.0
+# Driver/device option (hardware.conf): DEVICE="/dev/lirc0"  DRIVER=""
+# irrecord options: --device=/dev/lirc0
+# Type of device controlled: TV tuner card
+# Device info http://www.linuxtv.org/wiki/index.php/TechniSat_CableStar_Combo_HD_CI
+# Remote layout:
+# +---------------------------------+
+# |                                 |
+# |  MUTE   EXT   AB   POWER        |
+# |                                 |
+# | (  1  ) (  2  ) (  3  )TV/RADIO |
+# |                                 |
+# | (  4  ) (  5  ) (  6  )  102ND  |
+# |                                 |
+# | (  7  ) (  8  ) (  9  )  ( 0 )  |
+# |                                 |
+# |  EPG    CHANNELUP      MENU     |
+# |                                 |
+# |  VOLDOWN   SELECT      VOLUP    |
+# |                                 |
+# |  CANCEL  CHANNELDOWN   REDO     |
+# |                                 |
+# |  RED   GREEN   YELLOW   BLUE    |
+# |                                 |
+# |  OK    TEXT    STOP     HELP    |
+# +---------------------------------+
+
+begin remote
+
+  name  TTS35AI
+  bits           13
+  flags RC5|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           882   803
+  zero          882   803
+  plead         905
+  gap          112766
+  toggle_bit_mask 0x800
+
+      begin codes
+          KEY_POWER                0x128C
+          KEY_MUTE                 0x128D
+          KEY_CHANNELUP            0x12A1
+          KEY_CHANNELDOWN          0x12A0
+          KEY_VOLUMEUP             0x1290
+          KEY_VOLUMEDOWN           0x1291
+          KEY_SELECT            0x0297
+          KEY_0                    0x1280
+          KEY_1                    0x1281
+          KEY_2                    0x1282
+          KEY_3                    0x1283
+          KEY_4                    0x1284
+          KEY_5                    0x1285
+          KEY_6                    0x1286
+          KEY_7                    0x1287
+          KEY_8                    0x1288
+          KEY_9                    0x1289
+          KEY_CANCEL               0x12AF
+          KEY_MENU                 0x0292
+          KEY_EPG                  0x028F
+          KEY_BLUE                 0x02AE
+          KEY_YELLOW               0x02AD
+          KEY_GREEN                0x02AC
+          KEY_RED                  0x02AB
+          KEY_TEXT                 0x12BC
+          KEY_OK                   0x02B6
+          KEY_STOP                 0x12A9
+          KEY_HELP                 0x128F
+          KEY_REDO                 0x12A2
+          KEY_102ND                0x128A
+          KEY_RADIO                0x0293
+          KEY_AB                   0x12A3
+          KEY_EXIT                 0x12B8
+      end codes
+
+end remote
+
+
+

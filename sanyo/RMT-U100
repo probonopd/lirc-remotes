@@ -1,0 +1,64 @@
+# Sanyo - RMT-U100
+#
+#
+# this config file was automatically generated
+# using WinLIRC 0.6.5 (LIRC 0.6.1pre3) on Mon Apr 10 21:06:07 2006
+#
+# contributed by
+#
+# brand:             Sanyo
+# model:             RMT-U100
+# supported devices:
+#
+
+begin remote
+
+  name  Sanyo_RMT-U100
+  bits           32
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  header       9004  4461
+  one           621   501
+  zero          621  1623
+  ptrail        621
+  repeat       8990  2232
+  gap          39743
+  toggle_bit      0
+
+
+      begin codes
+          KEY_1                    0x00000000E31C7F80        #  Was: 1
+          KEY_2                    0x00000000E31CBF40        #  Was: 2
+          KEY_3                    0x00000000E31C3FC0        #  Was: 3
+          KEY_4                    0x00000000E31CDF20        #  Was: 4
+          KEY_5                    0x00000000E31C5FA0        #  Was: 5
+          KEY_6                    0x00000000E31C9F60        #  Was: 6
+          KEY_7                    0x00000000E31C1FE0        #  Was: 7
+          KEY_8                    0x00000000E31CEF10        #  Was: 8
+          KEY_9                    0x00000000E31C6F90        #  Was: 9
+          KEY_0                    0x00000000E31CFF00        #  Was: 0
+          KEY_VIDEO                0x00000000E31C37C8        #  Was: Video_Mode
+          KEY_POWER                0x00000000E31CB748        #  Was: Power
+          Reset                    0x00000000E31CC738
+          KEY_AGAIN                0x00000000E31C6798        #  Was: Recall
+          KEY_MENU                 0x00000000E31C17E8        #  Was: Menu
+          KEY_SLEEP                0x00000000E31C4FB0        #  Was: Sleep
+          Caption                  0x00000000E31C7788
+          KEY_VOLUMEDOWN           0x00000000E31C0FF0        #  Was: Volume_Down
+          KEY_VOLUMEUP             0x00000000E31C8F70        #  Was: Volume_Up
+          KEY_CHANNELDOWN          0x00000000E31C2FD0        #  Was: Channel_Down
+          KEY_CHANNELUP            0x00000000E31CAF50        #  Was: Channel_Up
+          KEY_MUTE                 0x00000000E31CE718        #  Was: Mute
+          Display                  0x00000000E31CCF30
+          KEY_REWIND               0x00000000738CB748        #  Was: Rewind
+          KEY_PLAY                 0x00000000738CD728        #  Was: Play
+          Foward                   0x00000000738C37C8
+          KEY_RECORD               0x00000000738C57A8        #  Was: Rec
+          KEY_STOP                 0x00000000738CF708        #  Was: Stop
+          KEY_PAUSE                0x00000000738C7788        #  Was: Pause
+      end codes
+
+end remote
+

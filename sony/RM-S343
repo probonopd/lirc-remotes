@@ -1,0 +1,65 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.6(serial) on Sun Sep 28 15:32:01 2003
+#
+# contributed by Joel Ebel
+#
+# brand:                       SONY
+# model no. of remote control: RM-S343
+# devices being controlled by this remote: Sony MHC-C33
+#
+
+begin remote
+
+  name  SONY_RM-S343
+  bits           12
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       2400   600
+  one          1200   600
+  zero          600   600
+  gap          45000
+  min_repeat      2
+  toggle_bit      0
+
+  frequency    40000
+  duty_cycle   33
+
+      begin codes
+          Function                 0x0000000000000966
+          KEY_SLEEP                0x0000000000000061        #  Was: Sleep
+          KEY_POWER                0x0000000000000A81        #  Was: Power
+          DeckA_Play_FW            0x00000000000004C1
+          DeckA_FFW                0x00000000000002C1
+          DeckA_Stop               0x00000000000001C1
+          DeckA_Play_Rev           0x0000000000000EC1
+          DeckA_Rewind             0x0000000000000CC1
+          DeckB_Record             0x000000000000078E
+          DeckB_Play_FW            0x000000000000058E
+          DeckB_FFW                0x000000000000038E
+          DeckB_Stop               0x000000000000018E
+          DeckB_Play_Rev           0x000000000000004E
+          DeckB_Rewind             0x0000000000000D8E
+          DeckB_Pause              0x000000000000098E
+          CD_Play                  0x00000000000004D1
+          CD_Pause                 0x00000000000009D1
+          CD_Stop                  0x00000000000001D1
+          CD_Back                  0x00000000000000D1
+          CD_FW                    0x00000000000008D1
+          CD_Disc_Skip             0x00000000000007D1
+          CD_Time                  0x0000000000000151
+          Tuner_Band               0x0000000000000F16
+          Tuner_Stereo_Mono        0x0000000000000856
+          Tuner_Preset_Minus       0x0000000000000896
+          Tuner_Preset_Plus        0x0000000000000096
+          Clock_Display            0x0000000000000D36
+          EQ-Preset                0x0000000000000766
+          KEY_VOLUMEUP             0x0000000000000481        #  Was: Vol+
+          KEY_VOLUMEDOWN           0x0000000000000C81        #  Was: Vol-
+      end codes
+
+end remote
+
+

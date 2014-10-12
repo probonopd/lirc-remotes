@@ -1,0 +1,106 @@
+#
+# This config file has been automatically converted from a device file
+# found in the 06/26/00 release of the Windows Slink-e software
+# package.
+#
+# Many thanks to Colby Boles of Nirvis Systems Inc. for allowing us to
+# use these files.
+#
+# The original filename was: "kenwood rc-so900 universal remote.cde"
+#
+# The original description for this device was:
+#
+# kenwood rc-so900 universal remote
+#
+
+
+begin remote
+
+  name  RC-S0900
+  bits           32
+  flags SPACE_ENC
+  eps            20
+  aeps          200
+
+  header       8800  4400
+  one           550  1650
+  zero          550   550
+  ptrail        550
+  repeat       8800  2200
+  gap          38500
+  toggle_bit      0
+
+  frequency    38000
+
+      begin codes
+          KEY_PLAY                 0x000000001DE2D32C        #  Was: PLAY/PAUSE__CD/LD
+          KEY_STOP                 0x000000001DE2936C        #  Was: STOP
+          SKIP_FWD                 0x000000001DE2E01F
+          SKIP_REV                 0x000000001DE2609F
+          SEARCH_FWD               0x000000001DE2F30C
+          SEARCH_REV               0x000000001DE2738C
+          DISC                     0x000000001DE210EF
+          KEY_0                    0x000000001DE201FE        #  Was: 0
+          KEY_1                    0x000000001DE2817E        #  Was: 1
+          KEY_2                    0x000000001DE241BE        #  Was: 2
+          KEY_3                    0x000000001DE2C13E        #  Was: 3
+          KEY_4                    0x000000001DE221DE        #  Was: 4
+          KEY_5                    0x000000001DE2A15E        #  Was: 5
+          KEY_6                    0x000000001DE2619E        #  Was: 6
+          KEY_7                    0x000000001DE2E11E        #  Was: 7
+          KEY_8                    0x000000001DE211EE        #  Was: 8
+          KEY_9                    0x000000001DE2916E        #  Was: 9
+          KEY_10CHANNELSUP         0x000000001DE2B04F        #  Was: +10
+          KEY_VOLUMEUP             0x000000001DE2D926        #  Was: VOLUME_UP
+          KEY_VOLUMEDOWN           0x000000001DE259A6        #  Was: VOLUME_DOWN
+          KEY_MUTE                 0x000000001DE239C6        #  Was: MUTE
+          KEY_VIDEO                0x000000001DE26996        #  Was: VIDEO_1
+          KEY_VIDEO                0x000000001DE2C936        #  Was: VIDEO_2
+          TAPE_1                   0x000000001DE229D6
+          TAPE_2_(ADAPTOR)         0x000000001DE2A956
+          KEY_CD                   0x000000001DE249B6        #  Was: CD
+          KEY_TUNER                0x000000001DE28976        #  Was: TUNER
+          PHONO                    0x000000001DE209F6
+          KEY_PLAY                 0x000000001DE28B74        #  Was: PLAY_FWD__TAPE_A
+          KEY_PLAY                 0x000000001DE20BF4        #  Was: PLAY_REV
+          KEY_STOP                 0x000000001DE2AB54        #  Was: STOP
+          KEY_PAUSE                0x000000002D92FA05        #  Was: PAUSE
+          KEY_FASTFORWARD          0x000000001DE2CB34        #  Was: FFWD
+          KEY_REWIND               0x000000001DE24BB4        #  Was: REWIND
+          KEY_RECORD               0x000000002D927A85        #  Was: REC
+          TV/VIDEO                 0x000000002D927A85
+          KEY_VIDEO                0x000000002D927A85        #  Was: VIDEO_CH_UP
+          KEY_VIDEO                0x000000002D92FA05        #  Was: VIDEO_CH_DWN
+          KEY_PLAY                 0x000000001DE29B64        #  Was: PLAY_FWD__TAPE_B
+          KEY_PLAY                 0x000000001DE21BE4        #  Was: PLAY_REV
+          KEY_STOP                 0x000000001DE2BB44        #  Was: STOP
+          KEY_RECORD               0x000000001DE23BC4        #  Was: REC_PAUSE
+          KEY_FASTFORWARD          0x000000001DE2DB24        #  Was: FFWD
+          KEY_REWIND               0x000000001DE25BA4        #  Was: REW
+          KEY_RECORD               0x000000001DE27B84        #  Was: REC/ARM
+          TV/VIDEO                 0x000000002D92FA05
+          KEY_VIDEO                0x000000002D92FA05        #  Was: VIDEO_CHANNEL_UP
+          KEY_VIDEO                0x000000002D927A85        #  Was: VIDEO_CHANNEL_DWN
+          BAND___TUNER             0x000000001DE2F10E
+          P.CALL_UP                0x000000001DE29966
+          P.CALL_DWN               0x000000001DE231CE
+          MODE___SURR/3_STEREO     0x000000001DE2FB04
+          BYPASS                   0x000000001DE2EB14
+          CENTER_MODE              0x000000001DE2AA55
+          DELAY_TIME_UP            0x000000001DE2B24D
+          DELAY_TIME_DWN           0x000000001DE232CD
+          CENTER_LEVEL_UP          0x000000001DE2D02F
+          CENTER_LEVEL_DWN         0x000000001DE250AF
+          REAR_LEVEL_UP            0x000000001DE2E31C
+          REAR_LEVEL_DWN           0x000000001DE2639C
+          KEY_POWER                0x000000001DE26A95        #  Was: ON/OFF__TEST_TONE
+          KEY_MODE                 0x000000001DE2EA15        #  Was: MODE
+          EQ._EFFECT               0x000000001DE2F00F
+          M._CALL                  0x000000001DE2A35C
+          A1_AUTO                  0x000000001DE25AA5
+          AUDIO___POWER            0x000000001DE2B946
+          KEY_VIDEO                0x000000002D927A85        #  Was: VIDEO
+          KEY_TV                   0x000000002D92FA05        #  Was: TV
+      end codes
+
+end remote

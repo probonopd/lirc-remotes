@@ -1,0 +1,232 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.1(default) on Sat Jul  7 15:09:40 2007
+#
+# contributed by
+#
+# brand:                       One4All
+# model no. of remote control: URC-4220
+# devices being controlled by this remote:
+#
+
+begin remote
+
+  name  One4All_URC-4220_cable
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9045  4404
+  one           570  4411
+  zero          570  2168
+  ptrail        570
+  repeat       9043  2183
+  gap          99460
+  toggle_bit      0
+
+
+      begin codes
+          KEY_INFO                 0x0C0B                    #  Was: Guide
+          KEY_MENU                 0x9806                    #  Was: Menu
+          KEY_INFO                 0xCC05                    #  Was: Info
+          KEY_EXIT                 0x480B                    #  Was: Exit
+          KEY_LAST                 0xC803                    #  Was: Last
+          KEY_FAVORITES            0xD00A                    #  Was: Fav
+          Move_Up                  0x2C09
+          Move_Left                0x6C0E
+          Move_Right               0xEC06
+          Move_Down                0xAC01
+          KEY_SELECT               0x8807                    #  Was: Select
+          KEY_CHANNELUP            0xD00A                    #  Was: Channel+
+          KEY_CHANNELDOWN          0x3002                    #  Was: Channel-
+          KEY_SUBTITLE             0xBC00                    #  Was: Subtitle
+          KEY_MUTE                 0xF008                    #  Was: Mute
+          KEY_VOLUMEUP             0xB00C                    #  Was: Volume+
+          KEY_VOLUMEDOWN           0x7004                    #  Was: Volume-
+          KEY_1                    0x800F                    #  Was: 1
+          KEY_2                    0x4007                    #  Was: 2
+          KEY_3                    0xC00B                    #  Was: 3
+          KEY_4                    0x2003                    #  Was: 4
+          KEY_5                    0xA00D                    #  Was: 5
+          KEY_6                    0x6005                    #  Was: 6
+          KEY_7                    0xE009                    #  Was: 7
+          KEY_8                    0x1001                    #  Was: 8
+          KEY_9                    0x900E                    #  Was: 9
+          KEY_0                    0x0000                    #  Was: 0
+          TV/VID                   0x280D
+          KEY_ENTER                0x080F                    #  Was: Enter
+          FastForward/Scan+        0xB804
+          KEY_PLAY                 0xD802                    #  Was: Play
+          KEY_REWIND               0x7808                    #  Was: Rewind/Scan-
+          KEY_RECORD               0x8C03                    #  Was: Record
+          KEY_PAUSE                0xF800                    #  Was: Pause
+          KEY_STOP                 0x380C                    #  Was: Stop
+          PreviousChapter/Skip-    0x3C08
+          KEY_NEXT                 0xFC07                    #  Was: NextChapter/Skip+
+      end codes
+
+end remote
+
+begin remote
+
+  name  One4All_URC-4220_dvd
+  bits           12
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       2461   527
+  one          1265   529
+  zero          665   529
+  post_data_bits  8
+  post_data      0x92
+  gap          44882
+  min_repeat      2
+  toggle_bit      0
+
+
+      begin codes
+          KEY_INFO                 0x58B                     #  Was: Guide
+          KEY_MENU                 0xD8B                     #  Was: Menu
+          KEY_INFO                 0x2AB                     #  Was: Info
+          KEY_EXIT                 0x70B                     #  Was: Exit
+          KEY_LAST                 0x34B                     #  Was: Last
+          Move_Up                  0x9EB
+          Move_Left                0xDEB
+          Move_Right               0x3EB
+          Move_Down                0x5EB
+          KEY_SELECT               0xD0B                     #  Was: Select
+          KEY_CHANNELUP            0x8CB                     #  Was: Channel+
+          KEY_CHANNELDOWN          0x0CB                     #  Was: Channel-
+          KEY_SUBTITLE             0x46B                     #  Was: Subtitle
+          KEY_1                    0x00B                     #  Was: 1
+          KEY_2                    0x80B                     #  Was: 2
+          KEY_3                    0x40B                     #  Was: 3
+          KEY_4                    0xC0B                     #  Was: 4
+          KEY_5                    0x20B                     #  Was: 5
+          KEY_6                    0xA0B                     #  Was: 6
+          KEY_7                    0x60B                     #  Was: 7
+          KEY_8                    0xE0B                     #  Was: 8
+          KEY_9                    0x10B                     #  Was: 9
+          KEY_0                    0x90B                     #  Was: 0
+          KEY_REWIND               0xCCB                     #  Was: Rewind/Scan-
+          KEY_PLAY                 0x4CB                     #  Was: Play
+          FastForward/Scan+        0x2CB
+          KEY_RECORD               0x98B                     #  Was: Record
+          KEY_PAUSE                0x9CB                     #  Was: Pause
+          KEY_STOP                 0x1CB                     #  Was: Stop
+          PreviousChapter/Skip-    0x0CB
+          KEY_NEXT                 0x8CB                     #  Was: NextChapter/Skip+
+      end codes
+
+end remote
+
+begin remote
+
+  name  One4All_URC-4220_pvr
+  bits           24
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       4034  3934
+  one           541  1949
+  zero          541   953
+  ptrail        539
+  gap          64273
+  toggle_bit      0
+
+
+      begin codes
+          KEY_INFO                 0xE1A1E5                  #  Was: Guide
+          KEY_MENU                 0xE081F7                  #  Was: Menu
+          KEY_INFO                 0xE3C1C3                  #  Was: Info
+          KEY_EXIT                 0xE061F9                  #  Was: Exit
+          KEY_LAST                 0xE271D8                  #  Was: Last
+          Move_Up                  0xE591A6
+          Move_Left                0xE561A9
+          Move_Right               0xE571A8
+          Move_Down                0xE581A7
+          KEY_SELECT               0xEF410B                  #  Was: Select
+          KEY_CHANNELUP            0xE2D1D2                  #  Was: Channel+
+          KEY_CHANNELDOWN          0xE2C1D3                  #  Was: Channel-
+          KEY_MUTE                 0xF3F0C0                  #  Was: Mute
+          KEY_VOLUMEUP             0xF2F0D0                  #  Was: Volume+
+          KEY_VOLUMEDOWN           0xF2E0D1                  #  Was: Volume-
+          KEY_1                    0xE311CE                  #  Was: 1
+          KEY_2                    0xE321CD                  #  Was: 2
+          KEY_3                    0xE331CC                  #  Was: 3
+          KEY_4                    0xE341CB                  #  Was: 4
+          KEY_5                    0xE351CA                  #  Was: 5
+          KEY_6                    0xE361C9                  #  Was: 6
+          KEY_7                    0xE371C8                  #  Was: 7
+          KEY_8                    0xE381C7                  #  Was: 8
+          KEY_9                    0xE391C6                  #  Was: 9
+          KEY_0                    0xE301CF                  #  Was: 0
+          TV/VID                   0xE051FA
+          KEY_ENTER                0xE531AC                  #  Was: Enter
+          KEY_REWIND               0xE1D1E2                  #  Was: Rewind/Scan-
+          KEY_PLAY                 0xE151EA                  #  Was: Play
+          FastForward/Scan+        0xE1C1E3
+          KEY_RECORD               0xE171E8                  #  Was: Record
+          KEY_PAUSE                0xE191E6                  #  Was: Pause
+          KEY_STOP                 0xE1F1E0                  #  Was: Stop
+          PreviousChapter/Skip-    0xE0A1F5
+          KEY_SLEEP                0xE071F8                  #  Was: Sleep
+          KEY_NEXT                 0xE0B1F4                  #  Was: NextChapter/Skip+
+      end codes
+
+end remote
+
+begin remote
+
+  name  One4All_URC-4220_tv
+  bits           24
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       4028  3940
+  one           541  1949
+  zero          541   952
+  ptrail        540
+  gap          64274
+  toggle_bit      0
+
+
+      begin codes
+          KEY_MENU                 0xF080F7                  #  Was: Menu
+          KEY_INFO                 0xF3C0C3                  #  Was: Info
+          KEY_EXIT                 0xF120ED                  #  Was: Exit
+          KEY_LAST                 0xF270D8                  #  Was: Last
+          KEY_FAVORITES            0xF2D0D2                  #  Was: Fav
+          Move_Up                  0xF590A6
+          Move_Left                0xF560A9
+          Move_Right               0xF570A8
+          Move_Down                0xF580A7
+          KEY_SELECT               0xF3C0C3                  #  Was: Select
+          KEY_CHANNELUP            0xF2D0D2                  #  Was: Channel+
+          KEY_CHANNELDOWN          0xF2C0D3                  #  Was: Channel-
+          KEY_SUBTITLE             0xF8007F                  #  Was: Subtitle
+          KEY_MUTE                 0xF3F0C0                  #  Was: Mute
+          KEY_VOLUMEUP             0xF2F0D0                  #  Was: Volume+
+          KEY_VOLUMEDOWN           0xF2E0D1                  #  Was: Volume-
+          KEY_1                    0xF310CE                  #  Was: 1
+          KEY_2                    0xF320CD                  #  Was: 2
+          KEY_3                    0xF330CC                  #  Was: 3
+          KEY_4                    0xF340CB                  #  Was: 4
+          KEY_5                    0xF350CA                  #  Was: 5
+          KEY_6                    0xF360C9                  #  Was: 6
+          KEY_7                    0xF370C8                  #  Was: 7
+          KEY_8                    0xF380C7                  #  Was: 8
+          KEY_9                    0xF390C6                  #  Was: 9
+          KEY_0                    0xF300CF                  #  Was: 0
+          TV/VID                   0xFA305C
+          KEY_RECORD               0xF170E8                  #  Was: Record
+          KEY_SLEEP                0xF070F8                  #  Was: Sleep
+      end codes
+
+end remote
+
+

@@ -1,0 +1,1128 @@
+# This config file is based on the information posted by Endaf Jones at
+# http://www.gossamer-threads.com/lists/mythtv/users/196566#196566
+#
+# brand:                       JVC/RCA
+# model no. of remote control:
+# supported devices:           Dish Network (Echostar)
+#                                - JVC 2700 receiver
+#                                - JVC 4700 receiver
+#                                - JVC 49xx receiver
+#                                - JVC 50xx receiver
+#                                - RCA 31x receiver
+#                              and several other Dish receivers using the
+#                              "blue button" remotes
+#
+# Unit code selection (1-16) is performed by specifying the appropriate
+# value for post_data
+#  1=0x000             2=0x200             3=0x100             4=0x300
+#  5=0x080             6=0x280             7=0x180             8=0x380
+#  9=0x040            10=0x240            11=0x140            12=0x340
+# 13=0x0C0            14=0x2C0            15=0x1C0            16=0x3C0
+#
+# Each has been implemented in this config file with the remote names "dish#"
+# where the hash/pound/number sign ("#") is a code number from 1 through 16.
+# There is also a remote called "dish" (without a number), for users with only
+# one receiver, that uses remote code 1 (DISH's default).
+#
+# The duty_cycle (the percentage of time during a pulse that infrared light is
+# being sent) is commented because some hardware transmitters don't support its
+# use.
+#
+# The discrete power functions (power_on and power_off) can be used to ensure
+# the power state of the receiver.  However, they probably shouldn't be used in
+# a channel change script as the receiver will require a significant delay
+# after a power_on before it is capable of receiving/responding to additional
+# commands (such as channel numbers).  Instead, assuming most of your recording
+# is during prime-time, you may want to set a cron job to run a "power_on"
+# command for each of your receivers about 5 or 10 minutes before primtetime.
+
+
+### Remote definition for remotes using remote code 1 (0x000)
+begin remote
+  name dish
+
+  flags SPACE_ENC|NO_HEAD_REP
+  eps 30
+  aeps 100
+
+  frequency 56000
+#  duty_cycle 32
+
+  one 440 1645
+  zero 440 2780
+
+  header 525 6045
+  ptrail 450
+  gap 6115
+
+  min_repeat 6
+
+  bits 6
+  post_data_bits 10
+
+  post_data 0x000
+
+  begin codes
+          KEY_INFO                 0                         #  Was: info
+          KEY_POWER                1                         #  Was: power_on
+          KEY_POWER                2                         #  Was: power
+          KEY_1                    4                         #  Was: 1
+          KEY_2                    5                         #  Was: 2
+          KEY_3                    6                         #  Was: 3
+          KEY_4                    8                         #  Was: 4
+          KEY_5                    9                         #  Was: 5
+          KEY_6                    10                        #  Was: 6
+          KEY_7                    12                        #  Was: 7
+          KEY_8                    13                        #  Was: 8
+          KEY_9                    14                        #  Was: 9
+          KEY_0                    17                        #  Was: 0
+          KEY_MENU                 11                        #  Was: menu
+          KEY_SELECT               16                        #  Was: select
+          KEY_CANCEL               18                        #  Was: cancel
+          KEY_INFO                 20                        #  Was: guide
+    view                               22
+    tv_vcr                             23
+          KEY_RIGHT                24                        #  Was: right
+          KEY_UP                   26                        #  Was: up
+          KEY_AGAIN                27                        #  Was: recall
+          KEY_LEFT                 28                        #  Was: left
+          KEY_DOWN                 30                        #  Was: down
+          KEY_RECORD               31                        #  Was: record
+          KEY_PAUSE                32                        #  Was: pause
+          KEY_STOP                 33                        #  Was: stop
+    sys_info                           36
+          KEY_KPASTERISK           37                        #  Was: asterisk
+    pound                              38
+          KEY_POWER                39                        #  Was: power_off
+          KEY_SAT                  41                        #  Was: sat
+    dish_home                          52
+    sys_info2                          54
+    dish_home2                         56
+  end codes
+end remote
+
+### Remote definition for remotes using remote code 1 (0x000)
+### (Duplicated to allow a "dish" and a "dish1" remote name)
+begin remote
+  name dish1
+
+  flags SPACE_ENC|NO_HEAD_REP
+  eps 30
+  aeps 100
+
+  frequency 56000
+#  duty_cycle 32
+
+  one 440 1645
+  zero 440 2780
+
+  header 525 6045
+  ptrail 450
+  gap 6115
+
+  min_repeat 6
+
+  bits 6
+  post_data_bits 10
+
+  post_data 0x000
+
+  begin codes
+          KEY_INFO                 0                         #  Was: info
+          KEY_POWER                1                         #  Was: power_on
+          KEY_POWER                2                         #  Was: power
+          KEY_1                    4                         #  Was: 1
+          KEY_2                    5                         #  Was: 2
+          KEY_3                    6                         #  Was: 3
+          KEY_4                    8                         #  Was: 4
+          KEY_5                    9                         #  Was: 5
+          KEY_6                    10                        #  Was: 6
+          KEY_7                    12                        #  Was: 7
+          KEY_8                    13                        #  Was: 8
+          KEY_9                    14                        #  Was: 9
+          KEY_0                    17                        #  Was: 0
+          KEY_MENU                 11                        #  Was: menu
+          KEY_SELECT               16                        #  Was: select
+          KEY_CANCEL               18                        #  Was: cancel
+          KEY_INFO                 20                        #  Was: guide
+    view                               22
+    tv_vcr                             23
+          KEY_RIGHT                24                        #  Was: right
+          KEY_UP                   26                        #  Was: up
+          KEY_AGAIN                27                        #  Was: recall
+          KEY_LEFT                 28                        #  Was: left
+          KEY_DOWN                 30                        #  Was: down
+          KEY_RECORD               31                        #  Was: record
+          KEY_PAUSE                32                        #  Was: pause
+          KEY_STOP                 33                        #  Was: stop
+    sys_info                           36
+          KEY_KPASTERISK           37                        #  Was: asterisk
+    pound                              38
+          KEY_POWER                39                        #  Was: power_off
+          KEY_SAT                  41                        #  Was: sat
+    dish_home                          52
+    sys_info2                          54
+    dish_home2                         56
+  end codes
+end remote
+
+### Remote definition for remotes using remote code 2 (0x200)
+begin remote
+  name dish2
+
+  flags SPACE_ENC|NO_HEAD_REP
+  eps 30
+  aeps 100
+
+  frequency 56000
+#  duty_cycle 32
+
+  one 440 1645
+  zero 440 2780
+
+  header 525 6045
+  ptrail 450
+  gap 6115
+
+  min_repeat 6
+
+  bits 6
+  post_data_bits 10
+
+  post_data 0x200
+
+  begin codes
+          KEY_INFO                 0                         #  Was: info
+          KEY_POWER                1                         #  Was: power_on
+          KEY_POWER                2                         #  Was: power
+          KEY_1                    4                         #  Was: 1
+          KEY_2                    5                         #  Was: 2
+          KEY_3                    6                         #  Was: 3
+          KEY_4                    8                         #  Was: 4
+          KEY_5                    9                         #  Was: 5
+          KEY_6                    10                        #  Was: 6
+          KEY_7                    12                        #  Was: 7
+          KEY_8                    13                        #  Was: 8
+          KEY_9                    14                        #  Was: 9
+          KEY_0                    17                        #  Was: 0
+          KEY_MENU                 11                        #  Was: menu
+          KEY_SELECT               16                        #  Was: select
+          KEY_CANCEL               18                        #  Was: cancel
+          KEY_INFO                 20                        #  Was: guide
+    view                               22
+    tv_vcr                             23
+          KEY_RIGHT                24                        #  Was: right
+          KEY_UP                   26                        #  Was: up
+          KEY_AGAIN                27                        #  Was: recall
+          KEY_LEFT                 28                        #  Was: left
+          KEY_DOWN                 30                        #  Was: down
+          KEY_RECORD               31                        #  Was: record
+          KEY_PAUSE                32                        #  Was: pause
+          KEY_STOP                 33                        #  Was: stop
+    sys_info                           36
+          KEY_KPASTERISK           37                        #  Was: asterisk
+    pound                              38
+          KEY_POWER                39                        #  Was: power_off
+          KEY_SAT                  41                        #  Was: sat
+    dish_home                          52
+    sys_info2                          54
+    dish_home2                         56
+  end codes
+end remote
+
+### Remote definition for remotes using remote code 3 (0x100)
+begin remote
+  name dish3
+
+  flags SPACE_ENC|NO_HEAD_REP
+  eps 30
+  aeps 100
+
+  frequency 56000
+#  duty_cycle 32
+
+  one 440 1645
+  zero 440 2780
+
+  header 525 6045
+  ptrail 450
+  gap 6115
+
+  min_repeat 6
+
+  bits 6
+  post_data_bits 10
+
+  post_data 0x100
+
+  begin codes
+          KEY_INFO                 0                         #  Was: info
+          KEY_POWER                1                         #  Was: power_on
+          KEY_POWER                2                         #  Was: power
+          KEY_1                    4                         #  Was: 1
+          KEY_2                    5                         #  Was: 2
+          KEY_3                    6                         #  Was: 3
+          KEY_4                    8                         #  Was: 4
+          KEY_5                    9                         #  Was: 5
+          KEY_6                    10                        #  Was: 6
+          KEY_7                    12                        #  Was: 7
+          KEY_8                    13                        #  Was: 8
+          KEY_9                    14                        #  Was: 9
+          KEY_0                    17                        #  Was: 0
+          KEY_MENU                 11                        #  Was: menu
+          KEY_SELECT               16                        #  Was: select
+          KEY_CANCEL               18                        #  Was: cancel
+          KEY_INFO                 20                        #  Was: guide
+    view                               22
+    tv_vcr                             23
+          KEY_RIGHT                24                        #  Was: right
+          KEY_UP                   26                        #  Was: up
+          KEY_AGAIN                27                        #  Was: recall
+          KEY_LEFT                 28                        #  Was: left
+          KEY_DOWN                 30                        #  Was: down
+          KEY_RECORD               31                        #  Was: record
+          KEY_PAUSE                32                        #  Was: pause
+          KEY_STOP                 33                        #  Was: stop
+    sys_info                           36
+          KEY_KPASTERISK           37                        #  Was: asterisk
+    pound                              38
+          KEY_POWER                39                        #  Was: power_off
+          KEY_SAT                  41                        #  Was: sat
+    dish_home                          52
+    sys_info2                          54
+    dish_home2                         56
+  end codes
+end remote
+
+### Remote definition for remotes using remote code 4 (0x300)
+begin remote
+  name dish4
+
+  flags SPACE_ENC|NO_HEAD_REP
+  eps 30
+  aeps 100
+
+  frequency 56000
+#  duty_cycle 32
+
+  one 440 1645
+  zero 440 2780
+
+  header 525 6045
+  ptrail 450
+  gap 6115
+
+  min_repeat 6
+
+  bits 6
+  post_data_bits 10
+
+  post_data 0x300
+
+  begin codes
+          KEY_INFO                 0                         #  Was: info
+          KEY_POWER                1                         #  Was: power_on
+          KEY_POWER                2                         #  Was: power
+          KEY_1                    4                         #  Was: 1
+          KEY_2                    5                         #  Was: 2
+          KEY_3                    6                         #  Was: 3
+          KEY_4                    8                         #  Was: 4
+          KEY_5                    9                         #  Was: 5
+          KEY_6                    10                        #  Was: 6
+          KEY_7                    12                        #  Was: 7
+          KEY_8                    13                        #  Was: 8
+          KEY_9                    14                        #  Was: 9
+          KEY_0                    17                        #  Was: 0
+          KEY_MENU                 11                        #  Was: menu
+          KEY_SELECT               16                        #  Was: select
+          KEY_CANCEL               18                        #  Was: cancel
+          KEY_INFO                 20                        #  Was: guide
+    view                               22
+    tv_vcr                             23
+          KEY_RIGHT                24                        #  Was: right
+          KEY_UP                   26                        #  Was: up
+          KEY_AGAIN                27                        #  Was: recall
+          KEY_LEFT                 28                        #  Was: left
+          KEY_DOWN                 30                        #  Was: down
+          KEY_RECORD               31                        #  Was: record
+          KEY_PAUSE                32                        #  Was: pause
+          KEY_STOP                 33                        #  Was: stop
+    sys_info                           36
+          KEY_KPASTERISK           37                        #  Was: asterisk
+    pound                              38
+          KEY_POWER                39                        #  Was: power_off
+          KEY_SAT                  41                        #  Was: sat
+    dish_home                          52
+    sys_info2                          54
+    dish_home2                         56
+  end codes
+end remote
+
+### Remote definition for remotes using remote code 5 (0x080)
+begin remote
+  name dish5
+
+  flags SPACE_ENC|NO_HEAD_REP
+  eps 30
+  aeps 100
+
+  frequency 56000
+#  duty_cycle 32
+
+  one 440 1645
+  zero 440 2780
+
+  header 525 6045
+  ptrail 450
+  gap 6115
+
+  min_repeat 6
+
+  bits 6
+  post_data_bits 10
+
+  post_data 0x080
+
+  begin codes
+          KEY_INFO                 0                         #  Was: info
+          KEY_POWER                1                         #  Was: power_on
+          KEY_POWER                2                         #  Was: power
+          KEY_1                    4                         #  Was: 1
+          KEY_2                    5                         #  Was: 2
+          KEY_3                    6                         #  Was: 3
+          KEY_4                    8                         #  Was: 4
+          KEY_5                    9                         #  Was: 5
+          KEY_6                    10                        #  Was: 6
+          KEY_7                    12                        #  Was: 7
+          KEY_8                    13                        #  Was: 8
+          KEY_9                    14                        #  Was: 9
+          KEY_0                    17                        #  Was: 0
+          KEY_MENU                 11                        #  Was: menu
+          KEY_SELECT               16                        #  Was: select
+          KEY_CANCEL               18                        #  Was: cancel
+          KEY_INFO                 20                        #  Was: guide
+    view                               22
+    tv_vcr                             23
+          KEY_RIGHT                24                        #  Was: right
+          KEY_UP                   26                        #  Was: up
+          KEY_AGAIN                27                        #  Was: recall
+          KEY_LEFT                 28                        #  Was: left
+          KEY_DOWN                 30                        #  Was: down
+          KEY_RECORD               31                        #  Was: record
+          KEY_PAUSE                32                        #  Was: pause
+          KEY_STOP                 33                        #  Was: stop
+    sys_info                           36
+          KEY_KPASTERISK           37                        #  Was: asterisk
+    pound                              38
+          KEY_POWER                39                        #  Was: power_off
+          KEY_SAT                  41                        #  Was: sat
+    dish_home                          52
+    sys_info2                          54
+    dish_home2                         56
+  end codes
+end remote
+
+### Remote definition for remotes using remote code 6 (0x280)
+begin remote
+  name dish6
+
+  flags SPACE_ENC|NO_HEAD_REP
+  eps 30
+  aeps 100
+
+  frequency 56000
+#  duty_cycle 32
+
+  one 440 1645
+  zero 440 2780
+
+  header 525 6045
+  ptrail 450
+  gap 6115
+
+  min_repeat 6
+
+  bits 6
+  post_data_bits 10
+
+  post_data 0x280
+
+  begin codes
+          KEY_INFO                 0                         #  Was: info
+          KEY_POWER                1                         #  Was: power_on
+          KEY_POWER                2                         #  Was: power
+          KEY_1                    4                         #  Was: 1
+          KEY_2                    5                         #  Was: 2
+          KEY_3                    6                         #  Was: 3
+          KEY_4                    8                         #  Was: 4
+          KEY_5                    9                         #  Was: 5
+          KEY_6                    10                        #  Was: 6
+          KEY_7                    12                        #  Was: 7
+          KEY_8                    13                        #  Was: 8
+          KEY_9                    14                        #  Was: 9
+          KEY_0                    17                        #  Was: 0
+          KEY_MENU                 11                        #  Was: menu
+          KEY_SELECT               16                        #  Was: select
+          KEY_CANCEL               18                        #  Was: cancel
+          KEY_INFO                 20                        #  Was: guide
+    view                               22
+    tv_vcr                             23
+          KEY_RIGHT                24                        #  Was: right
+          KEY_UP                   26                        #  Was: up
+          KEY_AGAIN                27                        #  Was: recall
+          KEY_LEFT                 28                        #  Was: left
+          KEY_DOWN                 30                        #  Was: down
+          KEY_RECORD               31                        #  Was: record
+          KEY_PAUSE                32                        #  Was: pause
+          KEY_STOP                 33                        #  Was: stop
+    sys_info                           36
+          KEY_KPASTERISK           37                        #  Was: asterisk
+    pound                              38
+          KEY_POWER                39                        #  Was: power_off
+          KEY_SAT                  41                        #  Was: sat
+    dish_home                          52
+    sys_info2                          54
+    dish_home2                         56
+  end codes
+end remote
+
+### Remote definition for remotes using remote code 7 (0x180)
+begin remote
+  name dish7
+
+  flags SPACE_ENC|NO_HEAD_REP
+  eps 30
+  aeps 100
+
+  frequency 56000
+#  duty_cycle 32
+
+  one 440 1645
+  zero 440 2780
+
+  header 525 6045
+  ptrail 450
+  gap 6115
+
+  min_repeat 6
+
+  bits 6
+  post_data_bits 10
+
+  post_data 0x180
+
+  begin codes
+          KEY_INFO                 0                         #  Was: info
+          KEY_POWER                1                         #  Was: power_on
+          KEY_POWER                2                         #  Was: power
+          KEY_1                    4                         #  Was: 1
+          KEY_2                    5                         #  Was: 2
+          KEY_3                    6                         #  Was: 3
+          KEY_4                    8                         #  Was: 4
+          KEY_5                    9                         #  Was: 5
+          KEY_6                    10                        #  Was: 6
+          KEY_7                    12                        #  Was: 7
+          KEY_8                    13                        #  Was: 8
+          KEY_9                    14                        #  Was: 9
+          KEY_0                    17                        #  Was: 0
+          KEY_MENU                 11                        #  Was: menu
+          KEY_SELECT               16                        #  Was: select
+          KEY_CANCEL               18                        #  Was: cancel
+          KEY_INFO                 20                        #  Was: guide
+    view                               22
+    tv_vcr                             23
+          KEY_RIGHT                24                        #  Was: right
+          KEY_UP                   26                        #  Was: up
+          KEY_AGAIN                27                        #  Was: recall
+          KEY_LEFT                 28                        #  Was: left
+          KEY_DOWN                 30                        #  Was: down
+          KEY_RECORD               31                        #  Was: record
+          KEY_PAUSE                32                        #  Was: pause
+          KEY_STOP                 33                        #  Was: stop
+    sys_info                           36
+          KEY_KPASTERISK           37                        #  Was: asterisk
+    pound                              38
+          KEY_POWER                39                        #  Was: power_off
+          KEY_SAT                  41                        #  Was: sat
+    dish_home                          52
+    sys_info2                          54
+    dish_home2                         56
+  end codes
+end remote
+
+### Remote definition for remotes using remote code 8 (0x380)
+begin remote
+  name dish8
+
+  flags SPACE_ENC|NO_HEAD_REP
+  eps 30
+  aeps 100
+
+  frequency 56000
+#  duty_cycle 32
+
+  one 440 1645
+  zero 440 2780
+
+  header 525 6045
+  ptrail 450
+  gap 6115
+
+  min_repeat 6
+
+  bits 6
+  post_data_bits 10
+
+  post_data 0x380
+
+  begin codes
+          KEY_INFO                 0                         #  Was: info
+          KEY_POWER                1                         #  Was: power_on
+          KEY_POWER                2                         #  Was: power
+          KEY_1                    4                         #  Was: 1
+          KEY_2                    5                         #  Was: 2
+          KEY_3                    6                         #  Was: 3
+          KEY_4                    8                         #  Was: 4
+          KEY_5                    9                         #  Was: 5
+          KEY_6                    10                        #  Was: 6
+          KEY_7                    12                        #  Was: 7
+          KEY_8                    13                        #  Was: 8
+          KEY_9                    14                        #  Was: 9
+          KEY_0                    17                        #  Was: 0
+          KEY_MENU                 11                        #  Was: menu
+          KEY_SELECT               16                        #  Was: select
+          KEY_CANCEL               18                        #  Was: cancel
+          KEY_INFO                 20                        #  Was: guide
+    view                               22
+    tv_vcr                             23
+          KEY_RIGHT                24                        #  Was: right
+          KEY_UP                   26                        #  Was: up
+          KEY_AGAIN                27                        #  Was: recall
+          KEY_LEFT                 28                        #  Was: left
+          KEY_DOWN                 30                        #  Was: down
+          KEY_RECORD               31                        #  Was: record
+          KEY_PAUSE                32                        #  Was: pause
+          KEY_STOP                 33                        #  Was: stop
+    sys_info                           36
+          KEY_KPASTERISK           37                        #  Was: asterisk
+    pound                              38
+          KEY_POWER                39                        #  Was: power_off
+          KEY_SAT                  41                        #  Was: sat
+    dish_home                          52
+    sys_info2                          54
+    dish_home2                         56
+  end codes
+end remote
+
+### Remote definition for remotes using remote code 9 (0x040)
+begin remote
+  name dish9
+
+  flags SPACE_ENC|NO_HEAD_REP
+  eps 30
+  aeps 100
+
+  frequency 56000
+#  duty_cycle 32
+
+  one 440 1645
+  zero 440 2780
+
+  header 525 6045
+  ptrail 450
+  gap 6115
+
+  min_repeat 6
+
+  bits 6
+  post_data_bits 10
+
+  post_data 0x040
+
+  begin codes
+          KEY_INFO                 0                         #  Was: info
+          KEY_POWER                1                         #  Was: power_on
+          KEY_POWER                2                         #  Was: power
+          KEY_1                    4                         #  Was: 1
+          KEY_2                    5                         #  Was: 2
+          KEY_3                    6                         #  Was: 3
+          KEY_4                    8                         #  Was: 4
+          KEY_5                    9                         #  Was: 5
+          KEY_6                    10                        #  Was: 6
+          KEY_7                    12                        #  Was: 7
+          KEY_8                    13                        #  Was: 8
+          KEY_9                    14                        #  Was: 9
+          KEY_0                    17                        #  Was: 0
+          KEY_MENU                 11                        #  Was: menu
+          KEY_SELECT               16                        #  Was: select
+          KEY_CANCEL               18                        #  Was: cancel
+          KEY_INFO                 20                        #  Was: guide
+    view                               22
+    tv_vcr                             23
+          KEY_RIGHT                24                        #  Was: right
+          KEY_UP                   26                        #  Was: up
+          KEY_AGAIN                27                        #  Was: recall
+          KEY_LEFT                 28                        #  Was: left
+          KEY_DOWN                 30                        #  Was: down
+          KEY_RECORD               31                        #  Was: record
+          KEY_PAUSE                32                        #  Was: pause
+          KEY_STOP                 33                        #  Was: stop
+    sys_info                           36
+          KEY_KPASTERISK           37                        #  Was: asterisk
+    pound                              38
+          KEY_POWER                39                        #  Was: power_off
+          KEY_SAT                  41                        #  Was: sat
+    dish_home                          52
+    sys_info2                          54
+    dish_home2                         56
+  end codes
+end remote
+
+### Remote definition for remotes using remote code 10 (0x240)
+begin remote
+  name dish10
+
+  flags SPACE_ENC|NO_HEAD_REP
+  eps 30
+  aeps 100
+
+  frequency 56000
+#  duty_cycle 32
+
+  one 440 1645
+  zero 440 2780
+
+  header 525 6045
+  ptrail 450
+  gap 6115
+
+  min_repeat 6
+
+  bits 6
+  post_data_bits 10
+
+  post_data 0x240
+
+  begin codes
+          KEY_INFO                 0                         #  Was: info
+          KEY_POWER                1                         #  Was: power_on
+          KEY_POWER                2                         #  Was: power
+          KEY_1                    4                         #  Was: 1
+          KEY_2                    5                         #  Was: 2
+          KEY_3                    6                         #  Was: 3
+          KEY_4                    8                         #  Was: 4
+          KEY_5                    9                         #  Was: 5
+          KEY_6                    10                        #  Was: 6
+          KEY_7                    12                        #  Was: 7
+          KEY_8                    13                        #  Was: 8
+          KEY_9                    14                        #  Was: 9
+          KEY_0                    17                        #  Was: 0
+          KEY_MENU                 11                        #  Was: menu
+          KEY_SELECT               16                        #  Was: select
+          KEY_CANCEL               18                        #  Was: cancel
+          KEY_INFO                 20                        #  Was: guide
+    view                               22
+    tv_vcr                             23
+          KEY_RIGHT                24                        #  Was: right
+          KEY_UP                   26                        #  Was: up
+          KEY_AGAIN                27                        #  Was: recall
+          KEY_LEFT                 28                        #  Was: left
+          KEY_DOWN                 30                        #  Was: down
+          KEY_RECORD               31                        #  Was: record
+          KEY_PAUSE                32                        #  Was: pause
+          KEY_STOP                 33                        #  Was: stop
+    sys_info                           36
+          KEY_KPASTERISK           37                        #  Was: asterisk
+    pound                              38
+          KEY_POWER                39                        #  Was: power_off
+          KEY_SAT                  41                        #  Was: sat
+    dish_home                          52
+    sys_info2                          54
+    dish_home2                         56
+  end codes
+end remote
+
+### Remote definition for remotes using remote code 11 (0x140)
+begin remote
+  name dish11
+
+  flags SPACE_ENC|NO_HEAD_REP
+  eps 30
+  aeps 100
+
+  frequency 56000
+#  duty_cycle 32
+
+  one 440 1645
+  zero 440 2780
+
+  header 525 6045
+  ptrail 450
+  gap 6115
+
+  min_repeat 6
+
+  bits 6
+  post_data_bits 10
+
+  post_data 0x140
+
+  begin codes
+          KEY_INFO                 0                         #  Was: info
+          KEY_POWER                1                         #  Was: power_on
+          KEY_POWER                2                         #  Was: power
+          KEY_1                    4                         #  Was: 1
+          KEY_2                    5                         #  Was: 2
+          KEY_3                    6                         #  Was: 3
+          KEY_4                    8                         #  Was: 4
+          KEY_5                    9                         #  Was: 5
+          KEY_6                    10                        #  Was: 6
+          KEY_7                    12                        #  Was: 7
+          KEY_8                    13                        #  Was: 8
+          KEY_9                    14                        #  Was: 9
+          KEY_0                    17                        #  Was: 0
+          KEY_MENU                 11                        #  Was: menu
+          KEY_SELECT               16                        #  Was: select
+          KEY_CANCEL               18                        #  Was: cancel
+          KEY_INFO                 20                        #  Was: guide
+    view                               22
+    tv_vcr                             23
+          KEY_RIGHT                24                        #  Was: right
+          KEY_UP                   26                        #  Was: up
+          KEY_AGAIN                27                        #  Was: recall
+          KEY_LEFT                 28                        #  Was: left
+          KEY_DOWN                 30                        #  Was: down
+          KEY_RECORD               31                        #  Was: record
+          KEY_PAUSE                32                        #  Was: pause
+          KEY_STOP                 33                        #  Was: stop
+    sys_info                           36
+          KEY_KPASTERISK           37                        #  Was: asterisk
+    pound                              38
+          KEY_POWER                39                        #  Was: power_off
+          KEY_SAT                  41                        #  Was: sat
+    dish_home                          52
+    sys_info2                          54
+    dish_home2                         56
+  end codes
+end remote
+
+### Remote definition for remotes using remote code 12 (0x340)
+begin remote
+  name dish12
+
+  flags SPACE_ENC|NO_HEAD_REP
+  eps 30
+  aeps 100
+
+  frequency 56000
+#  duty_cycle 32
+
+  one 440 1645
+  zero 440 2780
+
+  header 525 6045
+  ptrail 450
+  gap 6115
+
+  min_repeat 6
+
+  bits 6
+  post_data_bits 10
+
+  post_data 0x340
+
+  begin codes
+          KEY_INFO                 0                         #  Was: info
+          KEY_POWER                1                         #  Was: power_on
+          KEY_POWER                2                         #  Was: power
+          KEY_1                    4                         #  Was: 1
+          KEY_2                    5                         #  Was: 2
+          KEY_3                    6                         #  Was: 3
+          KEY_4                    8                         #  Was: 4
+          KEY_5                    9                         #  Was: 5
+          KEY_6                    10                        #  Was: 6
+          KEY_7                    12                        #  Was: 7
+          KEY_8                    13                        #  Was: 8
+          KEY_9                    14                        #  Was: 9
+          KEY_0                    17                        #  Was: 0
+          KEY_MENU                 11                        #  Was: menu
+          KEY_SELECT               16                        #  Was: select
+          KEY_CANCEL               18                        #  Was: cancel
+          KEY_INFO                 20                        #  Was: guide
+    view                               22
+    tv_vcr                             23
+          KEY_RIGHT                24                        #  Was: right
+          KEY_UP                   26                        #  Was: up
+          KEY_AGAIN                27                        #  Was: recall
+          KEY_LEFT                 28                        #  Was: left
+          KEY_DOWN                 30                        #  Was: down
+          KEY_RECORD               31                        #  Was: record
+          KEY_PAUSE                32                        #  Was: pause
+          KEY_STOP                 33                        #  Was: stop
+    sys_info                           36
+          KEY_KPASTERISK           37                        #  Was: asterisk
+    pound                              38
+          KEY_POWER                39                        #  Was: power_off
+          KEY_SAT                  41                        #  Was: sat
+    dish_home                          52
+    sys_info2                          54
+    dish_home2                         56
+  end codes
+end remote
+
+### Remote definition for remotes using remote code 13 (0x0C0)
+begin remote
+  name dish13
+
+  flags SPACE_ENC|NO_HEAD_REP
+  eps 30
+  aeps 100
+
+  frequency 56000
+#  duty_cycle 32
+
+  one 440 1645
+  zero 440 2780
+
+  header 525 6045
+  ptrail 450
+  gap 6115
+
+  min_repeat 6
+
+  bits 6
+  post_data_bits 10
+
+  post_data 0x0C0
+
+  begin codes
+          KEY_INFO                 0                         #  Was: info
+          KEY_POWER                1                         #  Was: power_on
+          KEY_POWER                2                         #  Was: power
+          KEY_1                    4                         #  Was: 1
+          KEY_2                    5                         #  Was: 2
+          KEY_3                    6                         #  Was: 3
+          KEY_4                    8                         #  Was: 4
+          KEY_5                    9                         #  Was: 5
+          KEY_6                    10                        #  Was: 6
+          KEY_7                    12                        #  Was: 7
+          KEY_8                    13                        #  Was: 8
+          KEY_9                    14                        #  Was: 9
+          KEY_0                    17                        #  Was: 0
+          KEY_MENU                 11                        #  Was: menu
+          KEY_SELECT               16                        #  Was: select
+          KEY_CANCEL               18                        #  Was: cancel
+          KEY_INFO                 20                        #  Was: guide
+    view                               22
+    tv_vcr                             23
+          KEY_RIGHT                24                        #  Was: right
+          KEY_UP                   26                        #  Was: up
+          KEY_AGAIN                27                        #  Was: recall
+          KEY_LEFT                 28                        #  Was: left
+          KEY_DOWN                 30                        #  Was: down
+          KEY_RECORD               31                        #  Was: record
+          KEY_PAUSE                32                        #  Was: pause
+          KEY_STOP                 33                        #  Was: stop
+    sys_info                           36
+          KEY_KPASTERISK           37                        #  Was: asterisk
+    pound                              38
+          KEY_POWER                39                        #  Was: power_off
+          KEY_SAT                  41                        #  Was: sat
+    dish_home                          52
+    sys_info2                          54
+    dish_home2                         56
+  end codes
+end remote
+
+### Remote definition for remotes using remote code 14 (0x2C0)
+begin remote
+  name dish14
+
+  flags SPACE_ENC|NO_HEAD_REP
+  eps 30
+  aeps 100
+
+  frequency 56000
+#  duty_cycle 32
+
+  one 440 1645
+  zero 440 2780
+
+  header 525 6045
+  ptrail 450
+  gap 6115
+
+  min_repeat 6
+
+  bits 6
+  post_data_bits 10
+
+  post_data 0x2C0
+
+  begin codes
+          KEY_INFO                 0                         #  Was: info
+          KEY_POWER                1                         #  Was: power_on
+          KEY_POWER                2                         #  Was: power
+          KEY_1                    4                         #  Was: 1
+          KEY_2                    5                         #  Was: 2
+          KEY_3                    6                         #  Was: 3
+          KEY_4                    8                         #  Was: 4
+          KEY_5                    9                         #  Was: 5
+          KEY_6                    10                        #  Was: 6
+          KEY_7                    12                        #  Was: 7
+          KEY_8                    13                        #  Was: 8
+          KEY_9                    14                        #  Was: 9
+          KEY_0                    17                        #  Was: 0
+          KEY_MENU                 11                        #  Was: menu
+          KEY_SELECT               16                        #  Was: select
+          KEY_CANCEL               18                        #  Was: cancel
+          KEY_INFO                 20                        #  Was: guide
+    view                               22
+    tv_vcr                             23
+          KEY_RIGHT                24                        #  Was: right
+          KEY_UP                   26                        #  Was: up
+          KEY_AGAIN                27                        #  Was: recall
+          KEY_LEFT                 28                        #  Was: left
+          KEY_DOWN                 30                        #  Was: down
+          KEY_RECORD               31                        #  Was: record
+          KEY_PAUSE                32                        #  Was: pause
+          KEY_STOP                 33                        #  Was: stop
+    sys_info                           36
+          KEY_KPASTERISK           37                        #  Was: asterisk
+    pound                              38
+          KEY_POWER                39                        #  Was: power_off
+          KEY_SAT                  41                        #  Was: sat
+    dish_home                          52
+    sys_info2                          54
+    dish_home2                         56
+  end codes
+end remote
+
+### Remote definition for remotes using remote code 15 (0x1C0)
+begin remote
+  name dish15
+
+  flags SPACE_ENC|NO_HEAD_REP
+  eps 30
+  aeps 100
+
+  frequency 56000
+#  duty_cycle 32
+
+  one 440 1645
+  zero 440 2780
+
+  header 525 6045
+  ptrail 450
+  gap 6115
+
+  min_repeat 6
+
+  bits 6
+  post_data_bits 10
+
+  post_data 0x1C0
+
+  begin codes
+          KEY_INFO                 0                         #  Was: info
+          KEY_POWER                1                         #  Was: power_on
+          KEY_POWER                2                         #  Was: power
+          KEY_1                    4                         #  Was: 1
+          KEY_2                    5                         #  Was: 2
+          KEY_3                    6                         #  Was: 3
+          KEY_4                    8                         #  Was: 4
+          KEY_5                    9                         #  Was: 5
+          KEY_6                    10                        #  Was: 6
+          KEY_7                    12                        #  Was: 7
+          KEY_8                    13                        #  Was: 8
+          KEY_9                    14                        #  Was: 9
+          KEY_0                    17                        #  Was: 0
+          KEY_MENU                 11                        #  Was: menu
+          KEY_SELECT               16                        #  Was: select
+          KEY_CANCEL               18                        #  Was: cancel
+          KEY_INFO                 20                        #  Was: guide
+    view                               22
+    tv_vcr                             23
+          KEY_RIGHT                24                        #  Was: right
+          KEY_UP                   26                        #  Was: up
+          KEY_AGAIN                27                        #  Was: recall
+          KEY_LEFT                 28                        #  Was: left
+          KEY_DOWN                 30                        #  Was: down
+          KEY_RECORD               31                        #  Was: record
+          KEY_PAUSE                32                        #  Was: pause
+          KEY_STOP                 33                        #  Was: stop
+    sys_info                           36
+          KEY_KPASTERISK           37                        #  Was: asterisk
+    pound                              38
+          KEY_POWER                39                        #  Was: power_off
+          KEY_SAT                  41                        #  Was: sat
+    dish_home                          52
+    sys_info2                          54
+    dish_home2                         56
+  end codes
+end remote
+
+### Remote definition for remotes using remote code 16 (0x3C0)
+begin remote
+  name dish16
+
+  flags SPACE_ENC|NO_HEAD_REP
+  eps 30
+  aeps 100
+
+  frequency 56000
+#  duty_cycle 32
+
+  one 440 1645
+  zero 440 2780
+
+  header 525 6045
+  ptrail 450
+  gap 6115
+
+  min_repeat 6
+
+  bits 6
+  post_data_bits 10
+
+  post_data 0x3C0
+
+  begin codes
+          KEY_INFO                 0                         #  Was: info
+          KEY_POWER                1                         #  Was: power_on
+          KEY_POWER                2                         #  Was: power
+          KEY_1                    4                         #  Was: 1
+          KEY_2                    5                         #  Was: 2
+          KEY_3                    6                         #  Was: 3
+          KEY_4                    8                         #  Was: 4
+          KEY_5                    9                         #  Was: 5
+          KEY_6                    10                        #  Was: 6
+          KEY_7                    12                        #  Was: 7
+          KEY_8                    13                        #  Was: 8
+          KEY_9                    14                        #  Was: 9
+          KEY_0                    17                        #  Was: 0
+          KEY_MENU                 11                        #  Was: menu
+          KEY_SELECT               16                        #  Was: select
+          KEY_CANCEL               18                        #  Was: cancel
+          KEY_INFO                 20                        #  Was: guide
+    view                               22
+    tv_vcr                             23
+          KEY_RIGHT                24                        #  Was: right
+          KEY_UP                   26                        #  Was: up
+          KEY_AGAIN                27                        #  Was: recall
+          KEY_LEFT                 28                        #  Was: left
+          KEY_DOWN                 30                        #  Was: down
+          KEY_RECORD               31                        #  Was: record
+          KEY_PAUSE                32                        #  Was: pause
+          KEY_STOP                 33                        #  Was: stop
+    sys_info                           36
+          KEY_KPASTERISK           37                        #  Was: asterisk
+    pound                              38
+          KEY_POWER                39                        #  Was: power_off
+          KEY_SAT                  41                        #  Was: sat
+    dish_home                          52
+    sys_info2                          54
+    dish_home2                         56
+  end codes
+end remote
+

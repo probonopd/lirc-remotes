@@ -1,0 +1,71 @@
+#
+# this config file was automatically generated
+# using lirc-0.7.1pre2(any) on Thu Oct  5 22:45:26 2006
+#
+# contributed by Marc Tobias <splatterhead|gmx.de>
+#
+# brand:                       THOMSON
+# model no. of remote control: ROC740
+#
+# WICHTIG: Taste AUX1 auf TV mit ID 179 konfiguriert
+#
+# devices being controlled by this remote:
+#
+
+begin remote
+
+  name  Thomson_ROC740
+  bits           12
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           560  4450
+  zero          560  1930
+  ptrail        559
+  gap          42586
+  min_repeat      1
+  toggle_bit      5
+
+
+      begin codes
+          KEY_UP                   0x30B                     #  Was: Up
+          KEY_DOWN                 0x30D                     #  Was: Down
+          KEY_MENU                 0x331                     #  Was: Menu
+          KEY_OK                   0x30C                     #  Was: Ok
+          KEY_BACK                 0x31E                     #  Was: Back
+          KEY_LEFT                 0x336                     #  Was: Left
+          KEY_RIGHT                0x337                     #  Was: Right
+          KEY_RED                  0x339                     #  Was: Red
+          KEY_GREEN                0x33B                     #  Was: Green
+          KEY_YELLOW               0x338                     #  Was: Yellow
+          KEY_BLUE                 0x315                     #  Was: Blue
+          KEY_0                    0x30E                     #  Was: 0
+          KEY_1                    0x300                     #  Was: 1
+          KEY_2                    0x308                     #  Was: 2
+          KEY_3                    0x310                     #  Was: 3
+          KEY_4                    0x301                     #  Was: 4
+          KEY_5                    0x309                     #  Was: 5
+          KEY_6                    0x311                     #  Was: 6
+          KEY_7                    0x302                     #  Was: 7
+          KEY_8                    0x30A                     #  Was: 8
+          KEY_9                    0x312                     #  Was: 9
+          KEY_POWER                0x31D                     #  Was: PWR
+          KEY_VOLUMEUP             0x329                     #  Was: VOL+
+          KEY_VOLUMEDOWN           0x32A                     #  Was: VOL-
+          KEY_CHANNELUP            0x325                     #  Was: PR+
+          KEY_CHANNELDOWN          0x327                     #  Was: PR-
+          KEY_MUTE                 0x305                     #  Was: Mute
+          KEY_PLAY                 0x020                     #  Was: PLAY
+          KEY_STOP                 0x024                     #  Was: STOP
+          KEY_REWIND               0x01F                     #  Was: REW
+          KEY_FASTFORWARD          0x021                     #  Was: FFWD
+          KEY_PAUSE                0x022                     #  Was: PAUSE
+          KEY_RECORD               0x023                     #  Was: RECORD
+          AV		           0x318
+		
+      end codes
+
+end remote
+
+

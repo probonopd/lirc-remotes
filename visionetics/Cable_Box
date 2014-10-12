@@ -1,0 +1,53 @@
+#
+# this config file was automatically generated
+# using WinLIRC 0.6.5 (LIRC 0.6.1pre3) on Thu Apr 20 00:35:35 2006
+#
+# contributed by Tom Graham
+#
+# brand:             Visionetics
+# model:
+# supported devices: Cable Box
+#
+
+begin remote
+
+  name  Visionetics_Cable_Box
+  bits           16
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  header       8972  4550
+  one           538  1716
+  zero          538   586
+  ptrail        538
+  repeat       8986  2284
+  pre_data_bits   16
+  pre_data       0x61D6
+  gap          40153
+  toggle_bit_mask 0x0
+
+      begin codes
+          KEY_1                    0x807F                    #  Was: 1
+          KEY_2                    0x40BF                    #  Was: 2
+          KEY_3                    0xC03F                    #  Was: 3
+          KEY_4                    0x20DF                    #  Was: 4
+          KEY_5                    0xA05F                    #  Was: 5
+          KEY_6                    0x609F                    #  Was: 6
+          KEY_7                    0xE01F                    #  Was: 7
+          KEY_8                    0x10EF                    #  Was: 8
+          KEY_9                    0x906F                    #  Was: 9
+          KEY_0                    0x50AF                    #  Was: 0
+          KEY_OK                   0x708F                    #  Was: ok
+          KEY_VOLUMEUP             0xB847                    #  Was: volup
+          KEY_VOLUMEDOWN           0x08F7                    #  Was: voldown
+          KEY_CHANNELUP            0xE817                    #  Was: chup
+          KEY_CHANNELDOWN          0xC837                    #  Was: chdown
+          KEY_MUTE                 0xA857                    #  Was: mute
+          KEY_EXIT                 0x30CF                    #  Was: exit
+          KEY_POWER                0x48B7                    #  Was: power
+      end codes
+
+end remote
+
+

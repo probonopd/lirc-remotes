@@ -1,0 +1,83 @@
+#
+# this config file was automatically generated
+# using lirc-0.7.0(tekram) on Tue Feb  8 23:11:34 2005
+#
+# contributed by Alexey "Chryse" Ermakov <sick|gamefragtion.ru>
+#
+# brand:                       Sharp
+# model no. of remote control: G0742GE
+# devices being controlled by this remote: SHARP VCR VC-A62DT
+#
+
+begin remote
+
+  name  G0742GE
+  bits           15
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           252  1864
+  zero          252   806
+  ptrail        251
+  gap          67733
+  min_repeat      4
+  toggle_bit      0
+  toggle_mask  0x3ff
+
+
+      begin codes
+          OPERATE                  0x00000000000061A2
+          KEY_EJECTCD              0x0000000000006332        #  Was: EJECT
+          DISPLAY                  0x00000000000060C6
+          KEY_CLEAR                0x0000000000006012        #  Was: CLEAR
+          MEMORY                   0x0000000000006306
+          KEY_TIME                 0x00000000000060D2        #  Was: CLOCK
+          TIMER-ON/OFF             0x0000000000006262
+          PROG                     0x00000000000062E2
+          KEY_CHANNELDOWN          0x0000000000006122        #  Was: CHANNEL-
+          KEY_CHANNELUP            0x0000000000006222        #  Was: CHANNEL+
+          KEY_1                    0x0000000000006202        #  Was: 1
+          KEY_2                    0x0000000000006102        #  Was: 2
+          KEY_3                    0x0000000000006302        #  Was: 3
+          KEY_4                    0x0000000000006082        #  Was: 4
+          KEY_5                    0x0000000000006282        #  Was: 5
+          KEY_6                    0x0000000000006182        #  Was: 6
+          KEY_7                    0x0000000000006382        #  Was: 7
+          KEY_8                    0x0000000000006042        #  Was: 8
+          KEY_9                    0x0000000000006242        #  Was: 9
+          KEY_0                    0x0000000000006142        #  Was: 0
+          SP/LP                    0x00000000000063E2
+          ./..                     0x0000000000006342
+          KEY_SEARCH               0x00000000000063B2        #  Was: SEARCH
+          TRACKING<                0x0000000000006186
+          TRACKING>                0x0000000000006286
+          KEY_TIME                 0x00000000000061C2        #  Was: TIME
+          TIME-0                   0x00000000000063C2
+          C-LOCK                   0x00000000000062C2
+          KEY_RECORD               0x0000000000006052        #  Was: REC
+          KEY_STOP                 0x0000000000006392        #  Was: STOP
+          KEY_AGAIN                0x0000000000006022        #  Was: REPEAT
+          KEY_PAUSE                0x0000000000006292        #  Was: PAUSE
+          KEY_REWIND               0x0000000000006312        #  Was: REW
+          KEY_PLAY                 0x0000000000006112        #  Was: PLAY
+          KEY_FASTFORWARD          0x0000000000006212        #  Was: FF
+	  F.ADV                    0x0000000000006092
+          TV-OPERATE               0x00000000000041A2
+          TV-CHANNEL-              0x0000000000004122
+          TV-CHANNEL+              0x0000000000004222
+          TV-0                     0x0000000000004322
+          TV-TRACKING<             0x00000000000042A2
+          TV-TRACKING>             0x00000000000040A2
+          SHUTTLE0                 0x00000000000061D6
+          SHUTTLE-1                0x0000000000006256
+          SHUTTLE-2                0x0000000000006356
+          SHUTTLE+1                0x0000000000006016
+          SHUTTLE+2                0x0000000000006116
+          SHUTTLE+3                0x0000000000006096
+          SHUTTLE+4                0x0000000000006196
+          SHUTTLE+5                0x0000000000006056
+          SHUTTLE+6                0x0000000000006156
+      end codes
+
+end remote

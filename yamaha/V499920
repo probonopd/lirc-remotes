@@ -1,0 +1,63 @@
+#
+# this config file was automatically generated
+# using lirc-0.7.2(any) on Sun Feb 12 19:41:45 2006
+#
+# contributed by
+#
+# brand:                       Yamaha_RAX9
+# model no. of remote control: V499920
+# devices being controlled by this remote: AX-396, CDX-593, KX-393, TX-492 and more.
+#
+
+begin remote
+
+  name  Yamaha_V499920
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9059  4394
+  one           650  1591
+  zero          650   470
+  ptrail        649
+  repeat       9060  2151
+  pre_data_bits   16
+  pre_data       0x5EA1
+  gap          107628
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0xF807                    #  Was: on/off
+          KEY_RECORD               0x20DF                    #  Was: record
+          deck_a/b                 0x609F
+          tape_bwd                 0x807F
+          tape_fwd                 0x40BF
+          tape_play                0x00FF
+          tape_stop                0xC03F
+          tape_dir_a               0xE01F
+          tape_dir_b               0x02FD
+          cd_disc_skip             0xF20D
+          cd_bwd                   0xD02F
+          cd_fwd                   0x50AF
+          cd_play                  0x10EF
+          cd_search_bwd            0xB04F
+          cd_searc_fwd             0x30CF
+          cd_pause/stop            0x906F
+          tuner_preset-            0x8877
+          tuner_preset+            0x08F7
+          tuner_abcde              0x48B7
+          md                       0x9867
+          KEY_TAPE                 0x18E7                    #  Was: tape
+          cd/dvd                   0xA857
+          KEY_AUX                  0xE817                    #  Was: aux
+          phono                    0x28D7
+          KEY_TUNER                0x6897                    #  Was: tuner
+          KEY_VOLUMEDOWN           0xD827                    #  Was: volume-
+          KEY_VOLUMEUP             0x58A7                    #  Was: volume+
+      end codes
+
+end remote
+
+

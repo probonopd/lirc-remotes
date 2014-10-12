@@ -1,0 +1,77 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.6(default) on Mon May 10 23:08:49 2010
+#
+# contributed by
+#
+# brand: Pioneer
+# model no. of remote control:
+# devices being controlled by this remote: dbr s210f
+#
+
+begin remote
+
+  name  Pioneer_DBR-S210F
+  bits           32
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       8498  4212
+  one           519  1593
+  zero          519   529
+  ptrail        523
+  gap          88947
+  toggle_bit_mask 0x0
+
+      begin codes
+          KEY_1                    0x55AA7788 0xF50A847B
+          KEY_2                    0x55AA7788 0xF50A44BB
+          KEY_3                    0x55AA7788 0xF50AC43B
+          KEY_4                    0x55AA7788 0xF50A24DB
+          KEY_5                    0x55AA7788 0xF50AA45B
+          KEY_6                    0x55AA7788 0xF50A649B
+          KEY_7                    0x55AA7788 0xF50AE41B
+          KEY_8                    0x55AA7788 0xF50A14EB
+          KEY_9                    0x55AA7788 0xF50A946B
+          KEY_0                    0x55AA7788 0xF50A04FB
+          KEY_A                    0x55AA7788 0xF50A8C73
+          KEY_B                    0x55AA7788 0xF50A4CB3
+          KEY_C                    0x55AA7788 0xF50ACC33
+          KEY_D                    0x55AA7788 0xF50A2CD3
+          KEY_E                    0x55AA7788 0xF50AAC53
+          KEY_FAVORITES            0x55AA7788 0xF50A9C63
+          KEY_RECORD               0xD52A28D7
+          KEY_PAUSE                0xD52A18E7
+          KEY_STOP                 0xD52A6897
+          KEY_PLAY                 0xD52AE817
+          KEY_POWER                0x55AA7788 0xF50A54AB
+          KEY_OK                   0x55AAB748
+          KEY_ESC                  0x55AA7788 0xF50A5CA3
+          KEY_EPG                  0x55AA7788 0xF50A1CE3
+          KEY_PROGRAM              0x55AA7788 0xF50AB44B
+          X_KEY_PERSO              0x55AA7788                #  Was: KEY_PERSO
+          KEY_AUDIO                0x55AA7788 0xF50A06F9
+          KEY_VOLUMEUP             0x55AA50AF
+          KEY_VOLUMEDOWN           0x55AAD02F
+          KEY_FORWARD              0xD52A08F7
+          KEY_REWIND               0xD52A8877
+          KEY_UP                   0x55AA9768
+          KEY_DOWN                 0x55AA57A8
+          KEY_LEFT                 0x55AA37C8
+          KEY_RIGHT                0x55AAD728
+          KEY_CHANNELUP            0x55AA08F7
+          KEY_CHANNELDOWN          0x55AA8877
+          X_KEY_FREEZE             0x55AA7788                #  Was: KEY_FREEZE
+          KEY_MUTE                 0x55AA926D
+          X_KEY_PLUS               0x55AA7788                #  Was: KEY_PLUS
+          KEY_VCR                  0x55AAC837
+          KEY_POWER2               0xD52A38C7
+          X_KEY_POWER3             0x55AA38C7                #  Was: KEY_POWER3
+          KEY_SAT                  0x55AA7788 0xF50AEC13
+          X_KEY_SERVICE            0x55AA7788                #  Was: KEY_SERVICE
+      end codes
+
+end remote
+
+

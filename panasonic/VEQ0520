@@ -1,0 +1,45 @@
+#
+# this config file was automatically generated
+# using WinLIRC 0.6.4 (LIRC 0.6.1pre3) on Thu Nov 28 20:11:47 2002
+#
+# contributed by
+#
+# brand:             Panasonic
+# model:             VEQ0520
+# supported devices:
+#
+
+begin remote
+
+  name  Panasonic
+  bits           24
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  header        300  1239
+  one           300  1712
+  zero          300  4459
+  ptrail        300
+  gap          41590
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x0000000000AFF201        #  Was: Power
+          VUp                      0x0000000000AF7211
+          VDown                    0x0000000000AE7231
+          KEY_RECORD               0x0000000000AFDA04        #  Was: Rec
+          KEY_PAUSE                0x0000000000AF3A18        #  Was: Pause
+          StillAdv                 0x0000000000AF9A0C
+          KEY_STOP                 0x0000000000AFFA00        #  Was: Stop
+          KEY_REWIND               0x0000000000AF7A10        #  Was: Rew
+          KEY_FASTFORWARD          0x0000000000AE7A30        #  Was: Ff
+          KEY_PLAY                 0x0000000000AF5A14        #  Was: Play
+          KEY_SLOW                 0x0000000000AE1A3C        #  Was: Slow
+      end codes
+
+end remote
+
+
+

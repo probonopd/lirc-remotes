@@ -1,0 +1,74 @@
+#
+# this config file was automatically generated
+# using WinLIRC 0.6.5 (LIRC 0.6.1pre3) on Tue Oct 04 13:28:31 2005
+#
+# contributed by
+#
+# brand:             Panasonic
+# model:             N2QAHB000022
+# supported devices:
+#
+
+begin remote
+
+  name  Panasonic_N2QAHB000022
+  bits           32
+  flags SPACE_ENC
+  eps            50
+  aeps          100
+
+  header       3487  1694
+  one           449  1264
+  zero          449   387
+  ptrail        449
+  pre_data_bits   16
+  pre_data       0x4004
+  gap          73969
+  toggle_bit      0
+
+
+      begin codes
+          KEY_TV                   0x0100BCBD                #  Was: TV
+          AV                       0x0100A0A1
+          KEY_VOLUMEUP             0x01000405                #  Was: VOL+
+          KEY_VOLUMEDOWN           0x01008485                #  Was: VOL-
+          KEY_CHANNELUP            0x01002C2D                #  Was: P+
+          KEY_CHANNELDOWN          0x0100ACAD                #  Was: P-
+          KEY_VCR                  0x0900BCB5                #  Was: VCR
+          KEY_MENU                 0x0980FA73                #  Was: OSD
+          RESET                    0x09002A23
+          KEY_AGAIN                0x0900EFE6                #  Was: REPLAY
+          KEY_AUDIO                0x0900CCC5                #  Was: AUDIO
+          AV_LINK                  0x09006C65
+          TRACKING+                0x09002C25
+          TRACKING-                0x0900ACA5
+          KEY_SEARCH               0x0980B930                #  Was: SEARCH
+          KEY_PREVIOUS             0x0900929B                #  Was: PREV
+          KEY_NEXT                 0x0900525B                #  Was: NEXT
+          KEY_RECORD               0x09001019                #  Was: REC
+          KEY_MENU                 0x09806AE3                #  Was: MENU
+          KEY_EXIT                 0x098066EF                #  Was: EXIT
+          KEY_PLAY                 0x09005059                #  Was: PLAY
+          KEY_STOP                 0x09000009                #  Was: STOP
+          KEY_REWIND               0x09004049                #  Was: REW
+          KEY_FASTFORWARD          0x0900C0C9                #  Was: FFWD
+          KEY_OK                   0x09801A93                #  Was: OK
+          I-TIMER                  0x09A0FC55
+          KEY_PAUSE                0x09006069                #  Was: PAUSE
+          PROG                     0x09808009
+          KEY_CANCEL               0x09809019                #  Was: CANCEL
+          SP-LP-EP                 0x098050D9
+          TIMER                    0x09002D24
+          KEY_CHANNELUP            0x09800980                #  Was: CH+
+          KEY_CHANNELDOWN          0x09808900                #  Was: CH-
+          DATE+                    0x098049C0
+          DATE-                    0x0980C940
+          KEY_POWER                0x098029A0                #  Was: ON+
+          KEY_POWER                0x0980A920                #  Was: ON-
+          OFF+                     0x098069E0
+          OFF-                     0x0980E960
+      end codes
+
+end remote
+
+

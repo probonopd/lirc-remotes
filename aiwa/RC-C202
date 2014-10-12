@@ -1,0 +1,54 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.3 on Sat Oct 28 15:48:42 2000
+#
+# contributed by
+#
+# brand:             AIWA
+# model:             RC-C202
+# supported devices: CD player
+#
+
+begin remote
+
+  name  AIWA
+  bits           42
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9062  4440
+  one           611   511
+  zero          611  1636
+  ptrail        611
+  gap          107871
+  toggle_bit      0
+
+
+      begin codes
+          KEY_1                    0x00000247EDC07F80        #  Was: 1
+          KEY_2                    0x00000247EDC0BF40        #  Was: 2
+          KEY_3                    0x00000247EDC03FC0        #  Was: 3
+          KEY_4                    0x00000247EDC0DF20        #  Was: 4
+          KEY_5                    0x00000247EDC05FA0        #  Was: 5
+          KEY_6                    0x00000247EDC09F60        #  Was: 6
+          KEY_7                    0x00000247EDC01FE0        #  Was: 7
+          KEY_8                    0x00000247EDC0EF10        #  Was: 8
+          KEY_9                    0x00000247EDC06F90        #  Was: 9
+          KEY_0                    0x00000247EDC0AF50        #  Was: 0
+          KEY_10CHANNELSUP         0x00000247EDC02FD0        #  Was: +10
+          KEY_AGAIN                0x00000247EDC027D8        #  Was: repeat
+          display                  0x00000247EDC007F8
+          cont                     0x00000247EDC00FF0
+          random                   0x00000247EDC037C8
+          KEY_BACK                 0x00000247EDC06798        #  Was: back
+          KEY_STOP                 0x00000247EDC0A758        #  Was: stop
+          KEY_PLAY                 0x00000247EDC057A8        #  Was: play
+          KEY_OPEN                 0x00000247EDC0CF30        #  Was: open
+          KEY_FORWARD              0x00000247EDC0E718        #  Was: foward
+          KEY_POWER                0x00000247EDC04FB0        #  Was: on
+      end codes
+
+end remote
+
+

@@ -1,0 +1,93 @@
+#
+# contributed by 	DmitryStu at gmail dot com
+# this remote produce 12,15 and 20 bit codes
+# brand:             Sony
+# model:             RMT-831
+# supported devices: HANDYCAM
+#
+
+begin remote
+
+  name  Sony_RMT-831-12
+  bits           12
+  flags CONST_LENGTH
+  eps            25
+  aeps          100
+
+  header       2400   500
+  one          1300   500
+  zero          700   500
+  gap          42000
+  min_repeat      4
+  toggle_bit      0
+
+  frequency    40000
+
+      begin codes
+          SEARCH_REW			0x000EBC
+          SEARCH_FF			0x0006BC
+          KEY_REWIND               0x000D9C                  #  Was: REW
+          KEY_PLAYPAUSE            0x00059C                  #  Was: PLAY/PAUSE
+          KEY_STOP                 0x00019C                  #  Was: STOP
+          KEY_FASTFORWARD          0x00039C                  #  Was: FF
+          KEY_PAUSE                0x00099C                  #  Was: PAUSE
+          KEY_SLOW                 0x000C5C                  #  Was: SLOW
+          Z_SET_MEM			0x000E3C
+          DISPLAY			0x0005BC
+      end codes
+
+end remote
+
+begin remote
+  name  Sony_RMT-831-15
+  bits           15
+  flags CONST_LENGTH
+  eps            25
+  aeps          100
+
+  header       2400   500
+  one          1300   500
+  zero          700   500
+  gap          42000
+  min_repeat      4
+  toggle_bit      0
+
+  frequency    40000
+
+      begin codes
+          KEY_RECORD               0x004C9D                  #  Was: REC/STOP
+          KEY_IMAGES               0x00549D                  #  Was: PHOTO
+          TELE					0x002C9B
+          WIDE					0x006C9B
+	  SEARCH.M				0x005A9D
+      end codes
+
+
+end remote
+
+begin remote
+
+  name  Sony_RMT-831-20
+  bits           20
+  flags CONST_LENGTH
+  eps            25
+  aeps          100
+
+  header       2400   500
+  one          1300   500
+  zero          700   500
+  gap          42000
+  min_repeat      4
+  toggle_bit      0
+
+  frequency    40000
+
+      begin codes
+          INDEX					0x004B8F
+          MEMORY+				0x0D4B8F
+          MEMORY-				0x034B8F
+          INDEXPLAY				0x054B8F
+      end codes
+
+end remote
+

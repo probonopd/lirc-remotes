@@ -1,0 +1,89 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.1-CVS(default) on Sun Jul 23 17:16:07 2006
+#
+# contributed by Christoph Bartelmus
+#
+# brand:                       LG
+# model no. of remote control: 6711A20015N
+# devices being controlled by this remote: Six Sigma air conditioner
+#
+
+begin remote
+
+  name  LGE_6711A20015N
+  bits           20
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       8576  4224
+  one           640  1664
+  zero          640   640
+  ptrail        640
+  pre_data_bits   8
+  pre_data       0x88
+#actually this remote does not send any repeat signals!
+  gap          1000000
+  toggle_bit      0
+
+
+      begin codes
+          UN-JEON-SEON-TAEK_2      0x09801
+          UN-JEON-SEON-TAEK_1      0x09845
+          JEOL-JEON                0xC0095
+          GEO-JIM-YE-YAK_1         0x903C8
+          GEO-JIM-YE-YAK_2         0x90788
+          GEO-JIM-YE-YAK_3         0x90B48
+          GEO-JIM-YE-YAK_4         0x90F08
+          GEO-JIM-YE-YAK_5         0x912C8
+          GEO-JIM-YE-YAK_6         0x91688
+          GEO-JIM-YE-YAK_7         0x91A48
+          GEO-JIM-YE-YAK_OFF       0x90009
+          PA-WEO-NAENG-BANG        0x10089
+          PUNG-HYANG-SANG-HA       0x10001
+          UN-JEON/JEONG-JI_18      0x00347
+          UN-JEON/JEONG-JI_19      0x00448
+          UN-JEON/JEONG-JI_20      0x00549
+          UN-JEON/JEONG-JI_21      0x0064A
+          UN-JEON/JEONG-JI_22      0x0074B
+          UN-JEON/JEONG-JI_23      0x0084C
+          UN-JEON/JEONG-JI_24      0x0094D
+          UN-JEON/JEONG-JI_25      0x00A4E
+          UN-JEON/JEONG-JI_26      0x00B4F
+          UN-JEON/JEONG-JI_27      0x00C50
+          UN-JEON/JEONG-JI_28      0x00D51
+          UN-JEON/JEONG-JI_29      0x00E52
+          UN-JEON/JEONG-JI_30      0x00F53
+          UN-JEON/JEONG-JI_OFF     0xC0051
+          LOW_18                   0x0830B
+          LOW_19                   0x0840C
+          LOW_20                   0x0850D
+          LOW_21                   0x0860E
+          LOW_22                   0x0870F
+          LOW_23                   0x08800
+          LOW_24                   0x08901
+          LOW_25                   0x08A02
+          LOW_26                   0x08B03
+          LOW_27                   0x08C04
+          LOW_28                   0x08D05
+          LOW_29                   0x08E06
+          LOW_30                   0x08F07
+          HIGH_18                  0x0834F
+          HIGH_19                  0x08440
+          HIGH_20                  0x08541
+          HIGH_21                  0x08642
+          HIGH_22                  0x08743
+          HIGH_23                  0x08844
+          HIGH_24                  0x08945
+          HIGH_25                  0x08A46
+          HIGH_26                  0x08B47
+          HIGH_27                  0x08C48
+          HIGH_28                  0x08D49
+          HIGH_29                  0x08E4A
+          HIGH_30                  0x08F4B
+      end codes
+
+end remote
+
+

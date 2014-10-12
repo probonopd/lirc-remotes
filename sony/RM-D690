@@ -1,0 +1,67 @@
+# contributed by Pertti Sotkasiira pertti@sotkasiira.com
+#
+# brand: Sony
+# model no. of remote control: RM-D690
+# devices being controlled by this remote: Sony CD-player (general)
+#
+
+begin remote
+
+  name  RM-D690
+  bits           11
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       2474   524
+  one          1273   523
+  zero          674   523
+  ptrail       1272
+  gap          44896
+  min_repeat      3
+  toggle_bit      1
+
+
+      begin codes
+          KEY_1                    0x0000000000000008        #  Was: 1
+          KEY_2                    0x0000000000000008        #  Was: 2
+          KEY_3                    0x0000000000000208        #  Was: 3
+          KEY_4                    0x0000000000000208        #  Was: 4
+          KEY_5                    0x0000000000000108        #  Was: 5
+          KEY_6                    0x0000000000000108        #  Was: 6
+          KEY_7                    0x0000000000000308        #  Was: 7
+          KEY_8                    0x0000000000000308        #  Was: 8
+          KEY_9                    0x0000000000000088        #  Was: 9
+          KEY_0                    0x0000000000000028        #  Was: 10
+          KEY_1                    0x0000000000000028        #  Was: 11
+          KEY_2                    0x0000000000000228        #  Was: 12
+          KEY_3                    0x0000000000000228        #  Was: 13
+          KEY_4                    0x0000000000000128        #  Was: 14
+          KEY_5                    0x0000000000000128        #  Was: 15
+          KEY_6                    0x0000000000000328        #  Was: 16
+          KEY_7                    0x0000000000000048        #  Was: 17
+          KEY_8                    0x0000000000000048        #  Was: 18
+          KEY_9                    0x0000000000000348        #  Was: 19
+          KEY_0                    0x00000000000000A8        #  Was: 20
+          >20                      0x0000000000000328
+          continue                 0x00000000000001C8
+          shuffle                  0x0000000000000168
+          pgm                      0x00000000000003C8
+          KEY_OPEN                 0x0000000000000348        #  Was: open
+          KEY_AGAIN                0x00000000000001A8        #  Was: repeat
+          autospc                  0x0000000000000398
+          ams_rew                  0x0000000000000068
+          ams_fwd                  0x0000000000000068
+          fader                    0x00000000000003D8
+          KEY_PLAY                 0x0000000000000268        #  Was: play
+          KEY_PAUSE                0x00000000000000E8        #  Was: pause
+          KEY_STOP                 0x00000000000000E8        #  Was: stop
+          KEY_VOLUMEUP             0x0000000000000248        #  Was: vol+
+          KEY_VOLUMEDOWN           0x0000000000000248        #  Was: vol-
+          KEY_REWIND               0x0000000000000268        #  Was: rew
+          KEY_FORWARD              0x0000000000000168        #  Was: fwd
+          KEY_REWIND               0x00000000000002E8        #  Was: rew_slow
+          fwd_slow                 0x00000000000002E8
+      end codes
+
+end remote

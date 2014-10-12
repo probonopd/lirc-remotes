@@ -1,0 +1,80 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.2(default) on Wed Aug 15 12:42:46 2007
+#
+# contributed by Jerome Robert <jeromerobert|users.sf.net>
+#
+# brand: Shipped with HP-Pavilion-m7682.fr
+# model no. of remote control:
+# devices being controlled by this remote: Philips, eHome Infrared Transceiver
+#
+
+
+begin remote
+
+  name 	HP_Pavilion_m7682.fr
+  bits           13
+  flags RC6|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       2667   889
+  one           444   444
+  zero          444   444
+  pre_data_bits   24
+  pre_data       0x1BFF83
+  gap          105000
+  toggle_bit_mask 0x8000
+  rc6_mask    0x100000000
+
+      begin codes
+          KEY_BLUE                 0x1BA1                    #  Was: BLUE
+          KEY_YELLOW               0x1BA2                    #  Was: YELLOW
+          KEY_GREEN                0x1BA3                    #  Was: GREEN
+          KEY_RED                  0x1BA4                    #  Was: RED
+          KEY_TV                   0x1BA5                    #  Was: TV
+          PRINT                    0x1BB1
+          TV_RECORD                0x1BB7
+          KEY_INFO                 0x1BD9                    #  Was: GUIDE
+          TV_DIRECT                0x1BDA
+          KEY_DVD                  0x1BDB                    #  Was: DVD
+          KEY_PREVIOUS             0x1BDC                    #  Was: PREVIOUS
+          KEY_OK                   0x1BDD                    #  Was: OK
+          KEY_RIGHT                0x1BDE                    #  Was: RIGHT
+          KEY_LEFT                 0x1BDF                    #  Was: LEFT
+          KEY_DOWN                 0x1BE0                    #  Was: DOWN
+          KEY_UP                   0x1BE1                    #  Was: UP
+          KEY_NUMERIC_STAR         0x1BE2                    #  Was: \*
+          KEY_NUMERIC_POUND        0x1BE3                    #  Was: #
+          JUMP_PREVIOUS            0x1BE4
+          JUMP_NEXT                0x1BE5
+          KEY_STOP                 0x1BE6                    #  Was: STOP
+          KEY_PAUSE                0x1BE7                    #  Was: PAUSE
+          KEY_RECORD               0x1BE8                    #  Was: RECORD
+          KEY_PLAY                 0x1BE9                    #  Was: PLAY
+          FBW                      0x1BEA
+          KEY_FASTFORWARD          0x1BEB                    #  Was: FFW
+          CHANEL_M                 0x1BEC
+          CHANEL_P                 0x1BED
+          SOUND_M                  0x1BEE
+          SOUND_P                  0x1BEF
+          KEY_INFO                 0x1BF0                    #  Was: INFO
+          KEY_MUTE                 0x1BF1                    #  Was: MUTE
+          MEDIA_CENTER             0x1BF2
+          KEY_POWER                0x1BF3                    #  Was: POWER
+          KEY_ENTER                0x1BF4                    #  Was: ENTER
+          KEY_CLEAR                0x1BF5                    #  Was: CLEAR
+          KEY_9                    0x1BF6                    #  Was: 9
+          KEY_8                    0x1BF7                    #  Was: 8
+          KEY_7                    0x1BF8                    #  Was: 7
+          KEY_6                    0x1BF9                    #  Was: 6
+          KEY_5                    0x1BFA                    #  Was: 5
+          KEY_4                    0x1BFB                    #  Was: 4
+          KEY_3                    0x1BFC                    #  Was: 3
+          KEY_2                    0x1BFD                    #  Was: 2
+          KEY_1                    0x1BFE                    #  Was: 1
+      end codes
+
+end remote
+
+

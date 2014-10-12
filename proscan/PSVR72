@@ -1,0 +1,104 @@
+#
+# this config file was automatically generated
+# using lirc-WinLIRC 0.6 (LIRC 0.5.4pre9) on Wed Jul 05 07:35:12 2000
+#
+# contributed by
+#
+# brand:             proscan
+# model:             PSVR72
+# supported devices: VCR functions only
+#
+#  header       3826   3826    pronto
+#  one           474   1930
+#  zero		474   931
+#  ptrail	474
+# 
+#  header       4086   3861	lirc
+#  one           600   1830
+#  zero		600   825
+#  ptrail	630
+#
+# header       4086   3861	winlirc
+# one           600   1830
+# zero		600    825
+#  ptrail	630
+#
+#  header	4000	4000	real?
+#  one	         500	2000
+#  zero	         500	1000
+#  ptrail	 500
+#  gap	        8000
+#  frequency	57600
+#
+#  edit is pause then 0x0D192E6  then 0x0C193E6 headers in between, not pre data bits.
+#  the gap before the headers is about half the delay between repeats of pause.
+#  these codes might be configurable, edit should pause MULTIPLE VCRs.
+#  vol<	 3 pre bits 0x7		   0x000000000012E0D1  or 0x0F2E0D1 with no pre bits
+#  vol>	 3 pre bits 0x7		   0x00000000001270D0
+#  mute	 3 pre bits 0x7		   0x000000000013F0C0
+#  off is not on the remote (extended code decoded from data at www.remotecentral.com)
+
+begin remote
+
+  name  proscan-vcr
+  bits            20
+  flags SPACE_ENC
+  eps            45
+  aeps          100
+
+  header	4086	3861
+  one	         600	1830
+  zero	         600	 825
+  ptrail	 630
+  pre_data_bits	   4
+  pre_data	 0xE
+  gap	        7800
+  repeat_bit	   0
+  frequency	57600
+
+      begin codes
+
+          KEY_1                    0x00000000000311CE        #  Was: 1
+          KEY_2                    0x00000000000321CD        #  Was: 2
+          KEY_3                    0x00000000000331CC        #  Was: 3
+          KEY_4                    0x00000000000341CB        #  Was: 4
+          KEY_5                    0x00000000000351CA        #  Was: 5
+          KEY_6                    0x00000000000361C9        #  Was: 6
+          KEY_7                    0x00000000000371C8        #  Was: 7
+          KEY_8                    0x00000000000381C7        #  Was: 8
+          KEY_9                    0x00000000000391C6        #  Was: 9
+          KEY_0                    0x00000000000301CF        #  Was: 0
+          track+                   0x000000000000B1F4
+          track-                   0x000000000000A1F5
+          KEY_CHANNELUP            0x000000000002D1D2        #  Was: ch+
+          KEY_CHANNELDOWN          0x000000000002C1D3        #  Was: ch-
+          KEY_SEARCH               0x00000000000531AC        #  Was: search
+          goback                   0x00000000000271D8
+          KEY_PLAY                 0x00000000000151EA        #  Was: play
+	  reverse                  0x000000000001D1E2
+          KEY_FORWARD              0x000000000001C1E3        #  Was: forward
+          KEY_RECORD               0x00000000000171E8        #  Was: record
+          KEY_STOP                 0x000000000001F1E0        #  Was: stop
+          KEY_PAUSE                0x00000000000191E6        #  Was: pause
+	  fradv			   0x00000000000201DF
+          KEY_INFO                 0x000000000003C1C3        #  Was: info
+          KEY_MENU                 0x00000000000081F7        #  Was: menu
+          KEY_CLEAR                0x00000000000061F9        #  Was: clear
+          KEY_INFO                 0x000000000001A1E5        #  Was: guide
+          KEY_OK                   0x00000000000F410B        #  Was: ok
+          KEY_UP                   0x00000000000591A6        #  Was: up
+          KEY_DOWN                 0x00000000000581A7        #  Was: down
+          KEY_LEFT                 0x00000000000561A9        #  Was: left
+          KEY_RIGHT                0x00000000000571A8        #  Was: right
+	  speed			   0x00000000000461B9
+          KEY_LIGHTS_TOGGLE        0x000000000001E1E1        #  Was: light
+          KEY_POWER                0x000000000002A1D5        #  Was: power
+          KEY_POWER                0x000000000003A1C5        #  Was: on
+	  off			   0x000000000003B1C4
+	  input			   0x00000000000471B8
+	  antenna		   0x00000000000051FA
+      end codes
+
+end remote
+
+

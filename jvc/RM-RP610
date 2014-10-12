@@ -1,0 +1,55 @@
+#
+# this config file was automatically generated
+# using lirc-0.7.0(any) on Sun Feb 20 18:50:41 2005
+#
+# contributed by Vadim Shliakhov
+#
+# brand:                       JVC
+# model no. of remote control: RM-RP610
+# devices being controlled by this remote: RC-X610
+#
+
+begin remote
+
+  name  JVC_RM-RP610
+  bits           16
+  flags SPACE_ENC|NO_HEAD_REP|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       8477  4175
+  one           588  1519
+  zero          588   467
+  ptrail        586
+  gap          46744
+  min_repeat      1
+  toggle_bit      0
+
+
+      begin codes
+          KEY_1                    0x000000000000CD86        #  Was: 1
+          KEY_2                    0x000000000000CD46        #  Was: 2
+          KEY_3                    0x000000000000CDC6        #  Was: 3
+          KEY_4                    0x000000000000CD26        #  Was: 4
+          KEY_5                    0x000000000000CDA6        #  Was: 5
+          KEY_6                    0x000000000000CD66        #  Was: 6
+          KEY_7                    0x000000000000CDE6        #  Was: 7
+          KEY_8                    0x000000000000CD16        #  Was: 8
+          KEY_9                    0x000000000000CD96        #  Was: 9
+          KEY_0                    0x000000000000CD76        #  Was: 10
+          KEY_10CHANNELSUP         0x000000000000CDF6        #  Was: +10
+          KEY_AGAIN                0x000000000000CDDA        #  Was: REPEAT
+          RANDOM                   0x000000000000CD4E
+          INTRO                    0x000000000000CD12
+          MEMORY/CALL              0x000000000000CD56
+          KEY_REWIND               0x000000000000CD1A        #  Was: REW
+          KEY_FASTFORWARD          0x000000000000CD9A        #  Was: FF
+          KEY_STOP                 0x000000000000CDC2        #  Was: STOP
+          KEY_PLAY                 0x000000000000CD32        #  Was: PLAY
+          KEY_VOLUMEDOWN           0x000000000000C5F8        #  Was: VOL-
+          KEY_VOLUMEUP             0x000000000000C578        #  Was: VOL+
+      end codes
+
+end remote
+
+

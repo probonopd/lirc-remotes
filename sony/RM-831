@@ -1,0 +1,108 @@
+#
+# this config file was automatically generated
+# using WinLIRC 0.6.4 (LIRC 0.6.1pre3) on Sun Jan 26 01:56:44 2003
+#
+# contributed by
+#
+# brand:             SONY_RM-831
+# model:            
+# supported devices:
+#
+
+begin remote
+
+  name  SONY_RM-831
+  bits           11
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  header       2470   515
+  one           661   515
+  zero         1262   515
+  ptrail        661
+  gap          26187
+  toggle_bit      0
+
+
+      begin codes
+          KEY_MUTE                 0x00000000000006B7        #  Was: MUTE
+          KEY_POWER                0x00000000000002B7        #  Was: ON/STANDBY
+          KEY_TV                   0x0000000000000717        #  Was: TV
+          KEY_TEXT                 0x0000000000000017        #  Was: TELETEXT
+          INPUT                    0x00000000000002D7
+          OUTPUT                   0x00000000000004C7
+          KEY_1                    0x00000000000007F7        #  Was: 1
+          KEY_2                    0x00000000000003F7        #  Was: 2
+          KEY_3                    0x00000000000005F7        #  Was: 3
+          KEY_4                    0x00000000000001F7        #  Was: 4
+          KEY_5                    0x00000000000006F7        #  Was: 5
+          KEY_6                    0x00000000000002F7        #  Was: 6
+          KEY_7                    0x00000000000004F7        #  Was: 7
+          KEY_8                    0x00000000000000F7        #  Was: 8
+          KEY_9                    0x0000000000000777        #  Was: 9
+          KEY_0                    0x0000000000000377        #  Was: 0
+          KEY_102ND                0x0000000000000237        #  Was: -/--
+          KEY_C                    0x0000000000000477        #  Was: C
+          PIP                      0x0000000000000127
+          PIP_POSITION             0x0000000000000427
+          PIP_SWAP                 0x0000000000000027
+          PIP_SOURCE               0x00000000000000C7
+          KEY_RED                  0x0000000000000663        #  Was: RED
+          KEY_GREEN                0x0000000000000263        #  Was: GREEN
+          KEY_YELLOW               0x0000000000000463        #  Was: YELLOW
+          KEY_BLUE                 0x0000000000000063        #  Was: BLUE
+          TELETEXT_HOLD            0x0000000000000563
+          KEY_INFO                 0x0000000000000517        #  Was: INFO
+          KEY_SAT                  0x00000000000003A7        #  Was: SAT
+          KEY_VOLUMEUP             0x00000000000005B7        #  Was: VOLUME+
+          KEY_VOLUMEDOWN           0x00000000000001B7        #  Was: VOLUME-
+          PROGR+                   0x00000000000007B7
+          PROGR-                   0x00000000000003B7
+          PICTURE                  0x00000000000003C7
+          SOUND                    0x00000000000005C7
+          KEY_MENU                 0x00000000000007C7        #  Was: MENU
+          KEY_BACK                 0x0000000000000697        #  Was: BACK
+          KEY_UP                   0x0000000000000687        #  Was: UP
+          KEY_DOWN                 0x0000000000000287        #  Was: DOWN
+          KEY_OK                   0x00000000000002C7        #  Was: OK
+          VTR1_REW                 0x000000000000013B
+          VTR1_PLAY                0x000000000000053B
+          VTR1_FF                  0x000000000000063B
+          VTR1_ON/STANDBY          0x00000000000002BB
+          VTR1_STOP                0x000000000000073B
+          VTR1_PAUSE               0x000000000000033B
+          VTR1_REC                 0x000000000000023B
+          VTR1_PROGR+              0x00000000000007BB
+          VTR1_PROGR-              0x00000000000003BB
+          VTR2_REW                 0x0000000000000131
+          VTR2_PLAY                0x0000000000000531
+          VTR2_FF                  0x0000000000000631
+          VTR2_ON/STANDBY          0x00000000000002B1
+          VTR2_STOP                0x0000000000000731
+          VTR2_PAUSE               0x0000000000000331
+          VTR2_REC                 0x0000000000000231
+          VTR2_PROGR+              0x00000000000007B1
+          VTR2_PROGR-              0x00000000000003B1
+          VTR3_REW                 0x0000000000000132
+          VTR3_PLAY                0x0000000000000532
+          VTR3_FF                  0x0000000000000632
+          VTR3_ON/STANDBY          0x00000000000002B2
+          VTR3_STOP                0x0000000000000732
+          VTR3_PAUSE               0x0000000000000332
+          VTR3_REC                 0x0000000000000232
+          VTR3_PROGR+              0x00000000000007B2
+          VTR3_PROGR-              0x00000000000003B2
+          MDP_REW                  0x0000000000000139
+          MDP_PLAY                 0x0000000000000539
+          MDP_FF                   0x0000000000000639
+          MDP_ON/STANDBY           0x00000000000002B9
+          MDP_STOP                 0x0000000000000739
+          MDP_PAUSE                0x0000000000000339
+          MDP_PROGR+               0x0000000000000699
+          MDP_PROGR-               0x0000000000000299
+      end codes
+
+end remote
+
+

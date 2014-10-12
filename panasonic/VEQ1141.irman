@@ -1,0 +1,63 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.3(irman) on Fri Mar 23 21:14:25 2001
+#
+# contributed by Mariusz Bialonczyk <manio07@interia.pl>
+#
+# brand:             PANASONIC
+# model:             VEQ1141
+# supported devices:
+# note:	This remote came with my PANASONIC NV-J35 HQ VCR.
+#	The button NULL_TRANSMIT at end mean pushing
+#	TRANSMIT followed by SCANNER ON/OFF (i use it
+#	for shutdown, because of difficult access to the
+#	buttons). Tested on home-made UIR :).
+#
+
+begin remote
+
+  name  VEQ1141
+  bits           64
+  eps            30
+  aeps          100
+
+  one             0     0
+  zero            0     0
+  gap          229927
+  toggle_bit      0
+
+
+      begin codes
+          KEY_STOP                 0xFFFF400409000009        #  Was: STOP
+          KEY_PLAY                 0xFFFF400409005059        #  Was: PLAY/X2
+          VTR                      0xFFFF40040900BCB5
+          CLOCK/COUNTER            0xFFFF400409006A63
+          RESET/INDEX              0xFFFF400409002A23
+          MEMORY/REPEAT/SEARCH     0xFFFF40040900CAC3
+          REV.PLAY                 0xFFFF40040900D0D9
+          KEY_RECORD               0xFFFF400409001019        #  Was: REC
+          PAUSE/STILL              0xFFFF400409006069
+          STILL_ADV                0xFFFF400409003039
+          KEY_REWIND               0xFFFF400409004049        #  Was: REW
+          KEY_FASTFORWARD          0xFFFF40040900C0C9        #  Was: FF
+          KEY_SLOW                 0xFFFF40040900F0F9        #  Was: SLOW
+          SLOW+                    0xFFFF400409007178
+          SLOW-                    0xFFFF40040900F1F8
+          KEY_1                    0xFFFF400409000801        #  Was: 1
+          KEY_2                    0xFFFF400409008881        #  Was: 2
+          KEY_3                    0xFFFF400409004841        #  Was: 3
+          KEY_4                    0xFFFF40040900E8C1        #  Was: 4
+          KEY_5                    0xFFFF400409005042        #  Was: 5
+          KEY_6                    0xFFFF40040900A8A1        #  Was: 6
+          KEY_7                    0xFFFF40040908D398        #  Was: 7
+          KEY_8                    0xFFFF40040927A398        #  Was: 8
+          KEY_9                    0xFFFF400409001811        #  Was: 9
+          KEY_0                    0xFFFF400452012244        #  Was: 0
+          KEY_102ND                0xFFFF40040900DCD5        #  Was: -/--
+          TIME_SEARCH              0xFFFF40040900222B
+          MONITOR                  0xFFFF400409008980
+          NULL_TRANSMIT            0xFFFF400409080000
+      end codes
+
+end remote
+

@@ -1,0 +1,76 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.3(serial) on Thu Apr  5 02:23:08 2001
+#
+# contributed by
+#
+# brand:             Magnavox
+# model:            
+# supported devices: VCR VR9360
+#
+
+begin remote
+
+  name  VCR
+  bits           13
+  flags RC5|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one          1017   770
+  zero         1017   770
+  plead        1153
+  gap          113855
+  min_repeat      1
+  toggle_bit      2
+
+
+      begin codes
+          KEY_MUTE                 0x000000000000100D        #  Was: Mute
+          TvPower                  0x000000000000100C
+          KEY_POWER                0x000000000000114C        #  Was: Power
+          KEY_VOLUMEUP             0x0000000000001010        #  Was: VolumeUp
+          KEY_VOLUMEDOWN           0x0000000000001011        #  Was: VolumeDn
+          TvChUp                   0x0000000000001020
+          TvChDn                   0x0000000000001021
+          SkipSrch                 0x000000000000016A
+          KEY_PLAY                 0x0000000000001175        #  Was: Play
+          KEY_STOP                 0x0000000000001176        #  Was: Stop
+          KEY_REWIND               0x0000000000001172        #  Was: Rew
+          KEY_FASTFORWARD          0x0000000000001174        #  Was: FF
+          FrameAdvance             0x000000000000016B
+          KEY_PAUSE                0x0000000000001169        #  Was: Pause
+          KEY_1                    0x0000000000001141        #  Was: One
+          KEY_2                    0x0000000000001142        #  Was: Two
+          KEY_3                    0x0000000000001143        #  Was: Three
+          KEY_4                    0x0000000000001144        #  Was: Four
+          KEY_5                    0x0000000000001145        #  Was: Five
+          KEY_6                    0x0000000000001146        #  Was: Six
+          KEY_7                    0x0000000000001147        #  Was: Seven
+          KEY_8                    0x0000000000001148        #  Was: Eight
+          KEY_9                    0x0000000000001149        #  Was: Nine
+          KEY_0                    0x0000000000001140        #  Was: Zero
+          KEY_POWER                0x000000000000114A        #  Was: OneHundred
+          VcrChUp                  0x0000000000001160
+          VcrChDn                  0x0000000000001161
+          KEY_MENU                 0x000000000000115D        #  Was: Menu
+          KEY_SLOW                 0x0000000000001168        #  Was: Slow
+          Status                   0x000000000000114F
+          KEY_CLEAR                0x0000000000001171        #  Was: Clear
+          VarSlowUp                0x0000000000001166
+          VarSlowDn                0x0000000000001165
+          KEY_RECORD               0x0000000000001177        #  Was: Rec
+          Qtr                      0x0000000000001167
+          TrackUp                  0x000000000000014D
+          TrackDn                  0x000000000000014E
+          GoTo                     0x0000000000001173
+          Memo                     0x000000000000117B
+          Speed                    0x000000000000117A
+          VcrTv                    0x000000000000117E
+          KEY_2xPlay               0x000000000000116A        #  Was: 2xPlay
+      end codes
+
+end remote
+
+
+

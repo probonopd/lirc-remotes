@@ -1,0 +1,95 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.3(parallel) on Tue May 29 01:33:21 2001
+#
+# contributed by  Jordan Hazen <jnh@aug.com>
+#
+# brand:             Hughes
+# model:             HIRD-B2 DSS satellite receiver
+
+# First segment: Control buttons (all but numbers & channel up/down) --
+
+begin remote
+
+  name  b1
+  bits           26
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9176  4391
+  one           673  1591
+  zero          673   454
+  ptrail        672
+  repeat       9171  2145
+  pre_data_bits   3
+  pre_data       0x1
+  post_data_bits  3
+  post_data      0x7
+  gap          109121
+  toggle_bit      0
+
+
+      begin codes
+          KEY_LAST                 0x00000000021BED12        #  Was: last
+          KEY_INFO                 0x00000000021BE916        #  Was: guide
+          KEY_UP                   0x00000000021BF30C        #  Was: up
+          KEY_DOWN                 0x00000000021BE11E        #  Was: down
+          KEY_LEFT                 0x00000000021BE51A        #  Was: left
+          KEY_RIGHT                0x00000000021BFD02        #  Was: right
+          KEY_SELECT               0x00000000021BE31C        #  Was: select
+          action                   0x00000000021BEE11
+          KEY_LIST                 0x00000000021BF10E        #  Was: list
+          KEY_INFO                 0x00000000021BF906        #  Was: info
+          KEY_BACK                 0x00000000021BFE01        #  Was: back
+          KEY_POWER                0x00000000021BF50A        #  Was: power
+      end codes
+
+end remote
+
+# Second segment: Numbers, channel up/down --
+#  (couldn't get these to work without separating them into a separate 'remote'
+#   file)
+#
+# Despite the slow user interface of this old Hughes receiver, it can accept
+# full 3-digit channel numbers as fast as LIRC can send them.  So, sequences
+# like  'rc SEND_ONCE b2 8 3 8' work fine.  It will have changed channels
+# before the OSD catches up.
+
+begin remote
+
+  name  b2
+  bits           12
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9229  4355
+  one           695  1574
+  zero          695   428
+  ptrail        679
+  repeat       9170  2146
+  pre_data_bits   16
+  pre_data       0x30DF
+  post_data_bits  4
+  post_data      0xF
+  gap          108143
+  toggle_bit      0
+
+
+      begin codes
+          KEY_1                    0x0000000000000A05        #  Was: 1
+          KEY_2                    0x0000000000000609        #  Was: 2
+          KEY_3                    0x0000000000000E01        #  Was: 3
+          KEY_4                    0x000000000000010E        #  Was: 4
+          KEY_5                    0x0000000000000906        #  Was: 5
+          KEY_6                    0x000000000000050A        #  Was: 6
+          KEY_7                    0x0000000000000D02        #  Was: 7
+          KEY_8                    0x000000000000030C        #  Was: 8
+          KEY_9                    0x0000000000000B04        #  Was: 9
+          KEY_0                    0x000000000000020D        #  Was: 0
+          KEY_CHANNELDOWN          0x0000000000000C03        #  Was: ch-
+          KEY_CHANNELUP            0x000000000000040B        #  Was: ch+
+      end codes
+
+end remote

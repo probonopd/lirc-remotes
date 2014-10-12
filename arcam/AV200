@@ -1,0 +1,57 @@
+#
+# this config file was automatically generated
+# using lirc-0.7.0pre4(serial) on Fri Apr  9 21:49:59 2004
+#
+# contributed by
+#
+# brand:                       Arcam AV200
+# model no. of remote control:
+# devices being controlled by this remote:
+#
+
+begin remote
+
+  name  Arcam_AV200
+  bits           13
+  flags RC5|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           975   783
+  zero          975   783
+  plead        1007
+  gap          112277
+  toggle_bit      2
+
+      begin codes
+          KEY_POWER                0x0000000000001C0C        #  Was: power
+          KEY_SAT                  0x0000000000001400        #  Was: sat
+          KEY_DVD                  0x0000000000001C04        #  Was: dvd
+          KEY_VCR                  0x0000000000001406        #  Was: vcr
+          KEY_AUX                  0x0000000000001C08        #  Was: aux
+          KEY_TAPE                 0x0000000000001405        #  Was: tape
+          KEY_CD                   0x0000000000001C07        #  Was: cd
+          KEY_RADIO                0x0000000000001435        #  Was: fm
+          am                       0x0000000000001C34
+          KEY_INFO                 0x0000000000001437        #  Was: info
+          t-mode                   0x0000000000001C36
+          KEY_CHANNELDOWN          0x0000000000001439        #  Was: p-
+          KEY_CHANNELUP            0x0000000000001C38        #  Was: p+
+          KEY_1                    0x0000000000001402        #  Was: 5-1
+          KEY_SLEEP                0x0000000000001C2A        #  Was: sleep
+          test                     0x0000000000000418
+          KEY_OK                   0x0000000000000C17        #  Was: ok
+          KEY_LEFT                 0x0000000000000411        #  Was: left
+          KEY_RIGHT                0x0000000000000C10        #  Was: right
+          KEY_UP                   0x0000000000000416        #  Was: up
+          KEY_DOWN                 0x0000000000000C15        #  Was: down
+          trim                     0x0000000000001425
+          silent                   0x0000000000001C0D
+          KEY_MODE                 0x0000000000001420        #  Was: mode
+          KEY_VOLUMEUP             0x0000000000001C10        #  Was: vol+
+          KEY_VOLUMEDOWN           0x0000000000001411        #  Was: vol-
+          dyn                      0x0000000000001C3E
+      end codes
+
+end remote
+

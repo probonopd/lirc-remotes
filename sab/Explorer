@@ -1,0 +1,61 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.3(default) on Fri Dec  5 16:05:41 2008
+#
+# contributed by
+#
+# brand:    SAB
+# model no. of remote control:
+# devices being controlled by this remote:
+#
+
+begin remote
+
+  name  SAB_Explorer
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9000  4500
+  one           563  1687
+  zero          563   562
+  ptrail        563
+  repeat       9000  4500
+  pre_data_bits   16
+  pre_data       0x807F
+  gap          108000
+  toggle_bit_mask 0x0
+  frequency    38000
+  duty_cycle   33
+
+      begin codes
+          een                      0x6A95
+          twee                     0x5AA5
+          drie                     0x7A85
+          vier                     0xAA55
+          vijf                     0x9A65
+          zes                      0xBA45
+          zeven                    0x2AD5
+          nul                      0xD827
+          pup                      0x6897
+          pdown                    0xA857
+          vup                      0x7887
+          vdown                    0xB847
+          KEY_EPG                  0x58A7                    #  Was: epg
+          KEY_INFO                 0x28D7                    #  Was: info
+          KEY_MENU                 0x38C7                    #  Was: menu
+          KEY_OK                   0xA25D                    #  Was: ok
+          KEY_BACK                 0x42BD                    #  Was: back
+          KEY_EXIT                 0x52AD                    #  Was: exit
+          adown                    0x629D
+          aup                      0x18E7
+          aleft                    0x827D
+          aright                   0x926D
+          KEY_POWER                0xFA05                    #  Was: power
+          KEY_MUTE                 0xEA15                    #  Was: mute
+      end codes
+
+end remote
+
+

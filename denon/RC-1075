@@ -1,0 +1,55 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.4a(default) on Sun Aug 30 08:17:30 2009
+#
+# contributed by Maggie Edge
+#
+# brand:                       Denon
+# model no. of remote control: RC-1075
+# devices being controlled by this remote: Denon avr-1708
+#
+
+begin remote
+
+  name  Denon_RC-1075
+  bits           15
+  flags SPACE_ENC
+  eps            30
+  aeps          100
+
+  one           304  1777
+  zero          304   741
+  ptrail        270
+  gap          43802
+  toggle_bit_mask 0x0
+
+      begin codes
+          KEY_POWER                0x221C                    #  Was: On
+          Off                      0x211C
+          KEY_DVD                  0x231C                    #  Was: DVD_HDP
+          TV_CBL                   0x224C
+          KEY_VCR                  0x22CC                    #  Was: VCR
+          KEY_PLAY                 0x10E8                    #  Was: Play
+          KEY_STOP                 0x11E8                    #  Was: Stop
+          Skip_Faavorite           0x13A8
+          KEY_PAUSE                0x1328                    #  Was: Pause
+          KEY_VOLUMEUP             0x223C                    #  Was: Volume_up
+          KEY_VOLUMEDOWN           0x213C                    #  Was: Volume_down
+          KEY_REWIND               0x1368                    #  Was: Rewind
+          KEY_FORWARD              0x1168                    #  Was: Forward
+          KEY_SETUP                0x206C                    #  Was: Setup
+          KEY_MUTE                 0x203C                    #  Was: Mute
+          Night_Audio              0x1064
+          Display                  0x23EC
+          KEY_ENTER                0x201C                    #  Was: Enter
+          KEY_LEFT                 0x1BF8                    #  Was: Left
+          KEY_UP                   0x1B14                    #  Was: Up
+          KEY_RIGHT                0x22EC                    #  Was: Right
+          KEY_DOWN                 0x1894                    #  Was: Down
+          KEY_ENTER                0x21EC                    #  Was: Return
+          Dimmer                   0x1BEC
+      end codes
+
+end remote
+
+

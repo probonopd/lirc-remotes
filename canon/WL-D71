@@ -1,0 +1,65 @@
+# this config file was automatically generated
+# using lirc-0.6.0pre4 on Tue Feb 29 11:00:34 2000
+#
+# contributed by Christoph Bartelmus
+#
+# brand:             Canon
+# model:             WL-D71
+# supported devices: Digital Video Camcorder MV20
+#
+
+begin remote
+
+  name  CANON
+  bits           15
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9152  4444
+  one           648  1612
+  zero          648   480
+  ptrail        649
+  pre_data_bits   16
+  pre_data       0xA16E
+  post_data_bits  1
+  post_data      0x1
+  gap          108470
+  repeat_bit      0
+
+      begin codes
+          KEY_REWIND               0x000000000000205F        #  Was: rew
+          KEY_PLAY                 0x000000000000403F        #  Was: play
+          KEY_FASTFORWARD          0x000000000000007F        #  Was: ff
+          KEY_KPMINUS              0x000000000000057A        #  Was: -
+          KEY_STOP                 0x000000000000740B        #  Was: stop
+          KEY_KPPLUS               0x000000000000047B        #  Was: +
+          KEY_PAUSE                0x000000000000106F        #  Was: pause
+          KEY_SLOW                 0x000000000000502F        #  Was: slow
+          x2                       0x000000000000552A
+          start/stop               0x000000000000601F
+          KEY_ZOOMOUT              0x0000000000005C23
+          KEY_ZOOMIN               0x0000000000001C63
+          KEY_UP                   0x000000000000027D        #  Was: up
+          KEY_DOWN                 0x000000000000423D        #  Was: down
+          self_timer               0x000000000000245B
+          KEY_MENU                 0x000000000000522D        #  Was: menu
+          tv_screen                0x0000000000006C13
+          data_code                0x0000000000004639
+          d.effects                0x0000000000000A75
+          audio_monitor            0x0000000000004E31
+          set                      0x000000000000126D
+          KEY_POWER                0x000000000000720D        #  Was: on/off
+          st-1                     0x0000000000006E11
+          st-2                     0x0000000000002E51
+          search_select            0x0000000000001669
+          bwd                      0x0000000000003649
+          KEY_FORWARD              0x0000000000005629        #  Was: fwd
+          zero_set_memory          0x0000000000002659
+          audio_dub.               0x0000000000006619
+          remote_set               0x000000000000601F
+      end codes
+
+end remote
+
+

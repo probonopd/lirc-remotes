@@ -1,0 +1,68 @@
+#
+# this config file was automatically generated
+# using lirc-0.7.2(any) on Wed Feb 28 07:36:29 2007
+#
+# contributed by Markus Maerz
+#
+# brand:                                   Philips
+# model no. of remote control: 		   RT 174/101
+# devices being controlled by this remote: VR477
+#
+
+begin remote
+
+  name  Philips_RT174/101
+  bits           13
+  flags RC5|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           888   892
+  zero          888   892
+  plead         893
+  gap          114018
+  toggle_bit      2
+
+
+      begin codes
+          KEY_RECORD               0x1177                    #  Was: RECORD/OTR
+          KEY_SLEEP                0x114C                    #  Was: STANDBY
+          KEY_KPPLUS               0x1160                    #  Was: PLUS
+          KEY_KPMINUS              0x1161                    #  Was: MINUS
+          KEY_LEFT                 0x0155                    #  Was: LEFT
+          KEY_RIGHT                0x0156                    #  Was: RIGHT
+          TIMER                    0x115D
+          KEY_OK                   0x0157                    #  Was: OK
+          KEY_CLEAR                0x1171                    #  Was: CLEAR
+          KEY_SELECT               0x114B                    #  Was: SELECT
+          MONITOR                  0x017A
+          KEY_1                    0x1141                    #  Was: 1
+          KEY_2                    0x1142                    #  Was: 2
+          KEY_3                    0x1143                    #  Was: 3
+          KEY_4                    0x1144                    #  Was: 4
+          KEY_5                    0x1145                    #  Was: 5
+          KEY_6                    0x1146                    #  Was: 6
+          KEY_7                    0x1147                    #  Was: 7
+          KEY_8                    0x1148                    #  Was: 8
+          KEY_9                    0x1149                    #  Was: 9
+          KEY_0                    0x1140                    #  Was: 0
+          KEY_VOLUMEUP             0x1010                    #  Was: VOL+
+          KEY_VOLUMEDOWN           0x1011                    #  Was: VOL-
+          KEY_MUTE                 0x100D                    #  Was: MUTE
+          OFF                      0x100C
+          KEY_CHANNELUP            0x1020                    #  Was: P+
+          KEY_CHANNELDOWN          0x1021                    #  Was: P-
+          FBW                      0x1165
+          KEY_PLAY                 0x1175                    #  Was: PLAY
+          KEY_FASTFORWARD          0x1166                    #  Was: FFW
+          INDEX                    0x0170
+          KEY_STOP                 0x1176                    #  Was: STOP
+          STILL                    0x1169
+          SYSTEM                   0x014A
+          KEY_EJECTCD              0x116D                    #  Was: EJECT
+          SP/LP                    0x117A
+      end codes
+
+end remote
+
+

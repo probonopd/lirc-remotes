@@ -1,0 +1,66 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.3(default) on Sat Apr 11 17:38:47 2009
+#
+# contributed by zerstorer (Baptiste Jonglez, fr)
+#
+# brand:                       TEAC
+# model no. of remote control: RC-909
+# devices being controlled by this remote: CD/CASSETTE MICRO SYSTEM MC-D3
+#
+
+begin remote
+
+  name  TEAC_RC-909
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9134  4384
+  one           657  1596
+  zero          657   462
+  ptrail        641
+  repeat       9084  4413
+  pre_data_bits   26
+  pre_data       0x112176F
+  gap          107937
+  min_repeat      1
+  toggle_bit_mask 0x0
+
+      begin codes
+          KEY_POWER                0x00FF                    #  Was: Power
+          KEY_OPEN                 0xC837                    #  Was: Open/Close
+          KEY_1                    0x6897                    #  Was: 1
+          KEY_2                    0xE817                    #  Was: 2
+          KEY_3                    0x18E7                    #  Was: 3
+          KEY_4                    0x9867                    #  Was: 4
+          KEY_5                    0x58A7                    #  Was: 5
+          KEY_6                    0xD827                    #  Was: 6
+          KEY_7                    0x38C7                    #  Was: 7
+          KEY_8                    0xB847                    #  Was: 8
+          KEY_9                    0x7887                    #  Was: 9
+          KEY_0                    0xA857                    #  Was: 0
+          KEY_10CHANNELSUP         0xF807                    #  Was: +10
+          KEY_TAPE                 0x40BF                    #  Was: Tape
+          Tuner_(Band)             0xC03F
+          KEY_CD                   0x807F                    #  Was: CD
+          Intro_Check              0x28D7
+          FM_Mode                  0x48B7
+          Shuffle                  0xB04F
+          Time_Mode                0xF00F
+          Repeat/Preset_up         0x30CF
+          Memory/Time_set          0x08F7
+          KEY_PLAYPAUSE            0x10EF                    #  Was: Play/Pause
+          KEY_PREVIOUS             0xD02F                    #  Was: Previous
+          KEY_NEXT                 0x50AF                    #  Was: Next
+          KEY_STOP                 0x906F                    #  Was: Stop
+          KEY_VOLUMEUP             0xE01F                    #  Was: Vol+
+          KEY_VOLUMEDOWN           0x609F                    #  Was: Vol-
+          KEY_MUTE                 0x8877                    #  Was: Mute
+          EEPS                     0x708F
+      end codes
+
+end remote
+
+

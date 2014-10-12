@@ -1,0 +1,91 @@
+#
+# this config file was automatically generated
+# using lirc-WinLIRC 0.6 (LIRC 0.5.4pre9) on Sat May 05 10:31:08 2001
+#
+# contributed by
+#
+# brand:             Clarion
+# model:             RCB-130
+# supported devices:
+#
+
+begin remote
+
+  name  Clarion
+  bits           29
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  header       9061  4361
+  one           641   458
+  zero          641  1578
+  ptrail        641
+  post_data_bits  3
+  post_data      0x0
+  gap          43082
+  repeat_bit      0
+
+      begin codes
+          KEY_PLAY                 0x0000000013DF3DE2        #  Was: Play
+          KEY_STOP                 0x0000000013DF35EA        #  Was: Stop
+          KEY_FASTFORWARD          0x0000000013DF22FD
+          KEY_REWIND               0x0000000013DF32ED
+          KEY_VOLUMEUP             0x000000000BD6E4FB        #  Was: Vol-up
+          KEY_VOLUMEDOWN           0x000000000BD6E8F7        #  Was: Vol-Down
+          Arret                    0x0000000013DF2CF3
+          list-up                  0x0000000013DF2BF4
+          List-Down                0x0000000013DF2EF1
+      end codes
+
+end remote
+
+
+#
+# this config file was automatically generated
+# using lirc-0.7.0(serial) on Mon Feb 21 22:34:38 2005
+#
+# contributed by
+#
+# brand: 			Clarion
+# model no. of remote control: 	RCB-130
+# devices being controlled by this remote:
+#
+
+begin remote
+
+  name  clarion
+  bits           16
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  header       9061  4361
+  one           641  1578
+  zero          641   458
+  ptrail        641
+  pre_data_bits   16
+  pre_data       0x6106
+  gap          43082
+  toggle_bit      0
+
+
+      begin codes
+          func                     0xC03F
+          KEY_VOLUMEUP             0xD827                    #  Was: vol-up
+          KEY_PREVIOUS             0x6897                    #  Was: prev
+          KEY_PLAYPAUSE            0x10EF                    #  Was: play-pause
+          KEY_NEXT                 0xE817                    #  Was: next
+          KEY_VOLUMEDOWN           0xB847                    #  Was: vol-down
+          band                     0x50AF
+          KEY_MUTE                 0xA05F                    #  Was: mute
+          ta                       0x20DF
+          disp                     0x1CE3
+          ps/as                    0x8877
+          af                       0x18E7
+          pty                      0x9867
+      end codes
+
+end remote
+
+

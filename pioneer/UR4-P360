@@ -1,0 +1,107 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.6(act200l) on Wed Apr  7 18:14:45 2004
+#
+# contributed by william nolan (will|willnolan.com)
+#
+# number codes denoised and rationalized by joe pierce (joe|joepierce.org)
+#
+# brand:                       Time Warner Digital Cable
+# model no. of remote control:  UR4-P360 (http://www.twalbany.com/digitalentertainment/ur4-p360.php)
+# devices being controlled by this remote: Pioneer Voyager digital cable
+#                                          set top box
+# notes: I'm not sure if this remote is used by all TW digital cable boxes,
+# but this one works with the ones used by TW in the New York area.
+# I was able to capture the commands with an Actisys IR-200L but not able
+# to transmit with it.  I built the simple circuit in the LIRC documentation
+# and have been successfully using it to control the set top box ever since.
+
+begin remote
+
+  name  TWC_UR4-P360
+  bits           22
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       3337  3378
+  one           820  2540
+  zero          820   817
+  ptrail        820
+  gap          100786
+  toggle_bit      0
+
+  frequency    56000
+
+      begin codes
+          KEY_POWER                0x37C107                  #  Was: POWER
+          KEY_INFO                 0x36C127                  #  Was: GUIDE
+          KEY_MENU                 0x36F920                  #  Was: MENU
+          KEY_INFO                 0x36213B                  #  Was: INFO
+          KEY_UP                   0x36812F                  #  Was: UP
+          KEY_DOWN                 0x37A10B                  #  Was: DOWN
+          KEY_LEFT                 0x37810F                  #  Was: LEFT
+          KEY_RIGHT                0x364137                  #  Was: RIGHT
+          KEY_SELECT               0x366133                  #  Was: SELECT
+          KEY_PAGEUP               0x36D924                  #  Was: PAGEUP
+          KEY_PAGEDOWN             0x37D904                  #  Was: PAGEDOWN
+          KEY_HELP                 0x376912                  #  Was: HELP
+          KEY_SETUP                0x373918                  #  Was: SETTINGS
+          KEY_EXIT                 0x366932                  #  Was: EXIT
+          KEY_A                    0x37E902                  #  Was: A
+          KEY_B                    0x36193C                  #  Was: B
+          KEY_C                    0x37191C                  #  Was: C
+          KEY_LAST                 0x36E123                  #  Was: LAST
+          KEY_FAVORITES            0x37F101                  #  Was: FAV
+          DAYMINUS                 0x0E163D
+          DAYPLUS                  0x0FE603
+          KEY_CHANNELUP            0x377111                  #  Was: CHUP
+          KEY_CHANNELDOWN          0x36F121                  #  Was: CHDOWN
+          KEY_1                    0x36113D                  #  Was: 1
+          KEY_2                    0x37111D                  #  Was: 2
+          KEY_3                    0x36912D                  #  Was: 3
+          KEY_4                    0x37910D                  #  Was: 4
+          KEY_5                    0x365135                  #  Was: 5
+          KEY_6                    0x375115                  #  Was: 6
+          KEY_7                    0x36D125                  #  Was: 7
+          KEY_8                    0x37D105                  #  Was: 8
+          KEY_9                    0x363139                  #  Was: 9
+          KEY_0                    0x373119                  #  Was: 0
+          KEY_ENTER                0x363139                  #  Was: ENTER
+          KEY_REWIND               0x37291A                  #  Was: REW
+          KEY_PLAY                 0x37990C                  #  Was: PLAY
+          KEY_FASTFORWARD          0x36293A                  #  Was: FF
+          KEY_RECORD               0x375914                  #  Was: REC
+          KEY_STOP                 0x365934                  #  Was: STOP
+          KEY_PAUSE                0x374117                  #  Was: PAUSE
+      end codes
+
+end remote
+
+
+begin remote
+
+  name  TWC_UR4-P360-SONY
+  bits           11
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       2370   598
+  one          1179   598
+  zero          582   598
+  ptrail        582
+  gap          45000
+  min_repeat      2
+  toggle_bit      0
+
+
+      begin codes
+          KEY_VOLUMEUP             0x248                     #  Was: VOLUP
+          KEY_VOLUMEDOWN           0x648                     #  Was: VOLDOWN
+          KEY_MUTE                 0x148                     #  Was: MUTE
+      end codes
+
+end remote
+
+

@@ -1,0 +1,80 @@
+# this config file was automatically generated
+# using lirc-0.6.6(any) on Mon Apr 28 00:12:57 2003
+#
+# contributed by
+#
+# brand:                       Apex
+# model no. of remote control: DV-R200
+# devices being controlled by this remote:
+# 1) Apex AD-660 DVD player
+
+begin remote
+
+  name      DV-R200
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9042  4493
+  one           600  1655
+  zero          600   527
+  ptrail        601
+  repeat       9043  2236
+  pre_data_bits   16
+  pre_data       0x77
+  gap          108288
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x0000000000005AA5        #  Was: power
+          KEY_OPEN                 0x00000000000018E7        #  Was: openclose
+          KEY_TITLE                0x000000000000C23D        #  Was: title
+          KEY_AUDIO                0x00000000000042BD        #  Was: audio
+          KEY_SUBTITLE             0x000000000000827D        #  Was: sub-t
+          KEY_ANGLE                0x00000000000002FD        #  Was: angle
+          P/N                      0x00000000000022DD
+          KEY_ZOOM                 0x00000000000012ED        #  Was: zoom
+          KEY_VOLUMEUP             0x00000000000032CD        #  Was: vol+
+          KEY_VOLUMEDOWN           0x0000000000000AF5        #  Was: vol-
+          KEY_1                    0x000000000000E21D        #  Was: 1
+          KEY_2                    0x000000000000629D        #  Was: 2
+          KEY_3                    0x000000000000A25D        #  Was: 3
+          KEY_4                    0x000000000000D22D        #  Was: 4
+          KEY_5                    0x00000000000052AD        #  Was: 5
+          KEY_6                    0x000000000000926D        #  Was: 6
+          KEY_7                    0x000000000000F20D        #  Was: 7
+          KEY_8                    0x000000000000728D        #  Was: 8
+          KEY_9                    0x000000000000B24D        #  Was: 9
+          KEY_0                    0x000000000000CA35        #  Was: 0
+          KEY_10CHANNELSUP         0x0000000000004AB5        #  Was: +10
+          KEY_MUTE                 0x0000000000008A75        #  Was: mute
+          KEY_REWIND               0x000000000000EA15        #  Was: skipback
+          skipforward              0x0000000000006A95
+          rev                      0x000000000000AA55
+          KEY_FORWARD              0x0000000000002AD5        #  Was: fwd
+          KEY_STOP                 0x000000000000609F        #  Was: stop
+          KEY_PAUSE                0x0000000000001AE5        #  Was: pause
+          resume                   0x000000000000A05F
+          KEY_SETUP                0x000000000000D827        #  Was: setup
+          KEY_PLAY                 0x000000000000906F        #  Was: play
+          KEY_LEFT                 0x000000000000E01F        #  Was: left
+          KEY_RIGHT                0x000000000000B04F        #  Was: right
+          KEY_UP                   0x000000000000F00F        #  Was: up
+          KEY_DOWN                 0x000000000000D02F        #  Was: down
+          KEY_SLOW                 0x000000000000E817        #  Was: slow
+          step                     0x0000000000006897
+          KEY_AGAIN                0x00000000000028D7        #  Was: repeat
+          a-b_rpt                  0x000000000000A857
+          pbc_off                  0x000000000000C837
+          KEY_DVD                  0x00000000000048B7        #  Was: dvd_digest
+          goto                     0x00000000000008F7
+          display                  0x0000000000008877
+          shuffle                  0x000000000000C03F
+          program                  0x000000000000807F
+      end codes
+
+end remote
+
+

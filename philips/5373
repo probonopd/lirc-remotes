@@ -1,0 +1,152 @@
+# LIRC config file for Philips 5373
+# contributed by  Martin Schuster <Douglas@karanet.at>
+#
+# brand:                                   Philips
+# model no. of remote control:             5373
+# devices being controlled by this remote: very old VCR (&TV?)
+#
+# text beneath the batteries :  3131128 66160
+#                               AG00 8672
+#                               4822218 20391
+#
+# I've never used this RC with the device it was made for,
+# so I'm just guessing at the meanings of the buttons.
+# There's some kind of Shift-button at the left side of the
+# RC; it seems to increase the values by 0x1140
+# (this gives a total of 90 possible signals :)
+# All shifted buttons have an prefix of S_, so shifted [1] is
+# S_1. Only exception: The buttons in the last line have
+# names (as they also have symbols printed above)
+#
+# Important: There's an 1000 myF capacitor parallel to the
+# batteries; the RC seems to work w/o it, and in fact mine
+# has started to leak already (did I mention that it's quite
+# old?), so I removed it.
+#
+# Don't hestitate to email me if you have any questions or want
+# to say thanks :))
+
+begin remote
+
+  name  Philips_5373
+  bits           13
+  flags RC5|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           927   848
+  zero          927   848
+  plead        1041
+  gap          113358
+  min_repeat      2
+  toggle_bit      2
+
+
+      begin codes
+#	number block
+          KEY_1                    0x0000000000001001        #  Was: 1
+          KEY_2                    0x0000000000001002        #  Was: 2
+          KEY_3                    0x0000000000001003        #  Was: 3
+          KEY_4                    0x0000000000001004        #  Was: 4
+          KEY_5                    0x0000000000001005        #  Was: 5
+          KEY_6                    0x0000000000001006        #  Was: 6
+          KEY_7                    0x0000000000001007        #  Was: 7
+          KEY_8                    0x0000000000001008        #  Was: 8
+          KEY_9                    0x0000000000001009        #  Was: 9
+          KEY_0                    0x0000000000001000        #  Was: 0
+          KEY_1-                   0x000000000000100A        #  Was: 1-
+          CP                       0x000000000000100B
+          KEY_VOLUMEUP             0x0000000000001010        #  Was: VOLUME_UP
+          KEY_VOLUMEDOWN           0x0000000000001011        #  Was: VOLUME_DOWN
+
+#	main buttons
+          KEY_MUTE                 0x000000000000100D        #  Was: MUTE
+          KEY_POWER                0x000000000000100C        #  Was: POWER
+          I-II                     0x0000000000001023
+          KEY_GREEN                0x000000000000100E        #  Was: GREEN
+          STEREO                   0x0000000000001024
+
+#	double-buttons
+          BRIGHTNESS_UP            0x0000000000001012
+          BRIGHTNESS_DOWN          0x0000000000001013
+          CONTRAST_UP              0x0000000000001014
+          CONTRAST_DOWN            0x0000000000001015
+          BASS_UP                  0x0000000000001016
+          BASS_DOWN                0x0000000000001017
+          TREBLE_UP                0x0000000000001018
+          TREBLE_DOWN              0x0000000000001019
+          BALANCE_RIGHT            0x000000000000101A
+          BALANCE_LEFT             0x000000000000101B
+
+#	teletext
+          TT_OUT                   0x000000000000101D
+          TT_UPDOWN                0x000000000000102B
+          TT_X                     0x000000000000102D
+          KEY_TV                   0x000000000000103F        #  Was: TV
+#	next line
+          TT_PLAY                  0x000000000000101E
+          TT_INFO                  0x000000000000102C
+          TT_STOP                  0x0000000000001029
+          TT_TIME                  0x000000000000102A
+          TT_MIX                   0x000000000000102E
+          KEY_TEXT                 0x000000000000103C        #  Was: TELETEXT
+
+#	VCR control (unshifted)
+          KEY_RECORD               0x0000000000001037        #  Was: RECORD
+          KEY_BACK                 0x000000000000102F        #  Was: BACK
+          KEY_STOP                 0x0000000000001036        #  Was: STOP
+          KEY_PLAY                 0x0000000000001028        #  Was: PLAY
+          KEY_FORWARD              0x0000000000001035        #  Was: FORWARD
+          REVERSE                  0x0000000000001033
+
+#	VCR control (shifted)
+          KEY_NEXT                 0x0000000000001177        #  Was: SKIP
+          FAST_BACK                0x000000000000116F
+          KEY_DOWN                 0x0000000000001176        #  Was: DOWN
+          KEY_PLAY                 0x0000000000001168        #  Was: PLAY_3
+          KEY_FASTFORWARD          0x0000000000001175        #  Was: FAST_FORWARD
+
+#	SHIFTED codes
+          S_1                      0x0000000000001141
+          S_2                      0x0000000000001142
+          S_3                      0x0000000000001143
+          S_4                      0x0000000000001144
+          S_5                      0x0000000000001145
+          S_6                      0x0000000000001146
+          S_7                      0x0000000000001147
+          S_8                      0x0000000000001148
+          S_9                      0x0000000000001149
+          S_0                      0x0000000000001140
+          S_1-                     0x000000000000114A
+          S_CP                     0x000000000000114B
+          S_MUTE                   0x000000000000114D
+          S_POWER                  0x000000000000114C
+          S_GREEN                  0x000000000000114E
+          S_VOLUME_UP              0x0000000000001150
+          S_VOLUME_DOWN            0x0000000000001151
+          S_BRIGHTNESS_UP          0x0000000000001152
+          S_BRIGHTNESS_DOWN        0x0000000000001153
+          S_CONTRAST_UP            0x0000000000001154
+          S_CONTRAST_DOWN          0x0000000000001155
+          S_BASS_UP                0x0000000000001156
+          S_BASS_DOWN              0x0000000000001157
+          S_TREBLE_UP              0x0000000000001158
+          S_TREBLE_DOWN            0x0000000000001159
+          S_BALANCE_RIGHT          0x000000000000115A
+          S_BALANCE_LEFT           0x000000000000115B
+          S_TT_OUT                 0x000000000000115D
+          S_TT_PLAY                0x000000000000115E
+          S_I-II                   0x0000000000001163
+          S_STEREO                 0x0000000000001164
+          S_TT_UPDOWN              0x000000000000116B
+          S_TT_X                   0x000000000000116D
+          S_TT_INFO                0x000000000000116C
+          S_TT_STOP                0x0000000000001169
+          S_TT_TIME                0x000000000000116A
+          S_TT_MIX                 0x000000000000116E
+          S_TV                     0x000000000000117F
+          S_TELETEXT               0x000000000000117C
+          S_REVERSE                0x0000000000001173
+
+     end codes
+end remote

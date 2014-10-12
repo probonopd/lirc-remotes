@@ -1,0 +1,58 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.5(serial) on Tue Jul 23 23:17:52 2002
+#
+# contributed by
+#
+# brand:                       Sony
+# model no. of remote control: RM-D190
+# devices being controlled by this remote: CD Player
+#
+
+begin remote
+
+  name  RM-D190
+  bits           11
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       2450   572
+  one          1224   573
+  zero          626   573
+  ptrail       1224
+  gap          45000
+  min_repeat      3
+  toggle_bit      0
+
+
+      begin codes
+          KEY_AGAIN                0x00000000000001A8        #  Was: repeat
+          fader                    0x00000000000007D8
+          continue                 0x00000000000005C8
+          shuffle                  0x0000000000000568
+          pgm                      0x00000000000007C8
+          KEY_1                    0x0000000000000008        #  Was: 1
+          KEY_2                    0x0000000000000408        #  Was: 2
+          KEY_3                    0x0000000000000208        #  Was: 3
+          KEY_4                    0x0000000000000608        #  Was: 4
+          KEY_5                    0x0000000000000108        #  Was: 5
+          KEY_6                    0x0000000000000508        #  Was: 6
+          KEY_7                    0x0000000000000308        #  Was: 7
+          KEY_8                    0x0000000000000708        #  Was: 8
+          KEY_9                    0x0000000000000088        #  Was: 9
+          KEY_PLAY                 0x0000000000000268        #  Was: play
+          KEY_0                    0x0000000000000028        #  Was: 10
+          >10                      0x0000000000000728
+          KEY_PAUSE                0x00000000000004E8        #  Was: pause
+          KEY_PREVIOUS             0x0000000000000068        #  Was: |<<
+          KEY_NEXT                 0x0000000000000468        #  Was: >>|
+          KEY_STOP                 0x00000000000000E8        #  Was: stop
+          KEY_REWIND               0x0000000000000668        #  Was: <<
+          KEY_FORWARD              0x0000000000000168        #  Was: >>
+      end codes
+
+end remote
+
+
+

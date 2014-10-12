@@ -1,0 +1,463 @@
+# This file contains the receiver controls of the RM-PP411 remote. The
+# remote has two modes AV1 and AV2, the commands are the same but the set of
+# infrared signals are different. The receiver has to also be in the same
+# mode as the mode the remote is in order for the receiver to recognize the
+# remote's signals. A couple of the signals were not recognized by LIRC, so
+# I made a seperate "raw" record of those signals. In all, there are 4
+# remote definitions for the two modes for this remote, where it pertains to
+# controlling the receiver it came with. As for the multi-functionality of
+# the remotes, such as DVD and VCRs it could control, I did not attempt to
+# record these. If you compare the buttons on the remote with the recorded
+# buttons in this file, you'll notice there are some on the remote that aren't
+# here. The manual for the receiver listed which buttons pertain to the
+# receiver, which I recorded, and I ignored the rest.
+# YOU ONLY NEED THE TWO REMOTE DEFINITIONS FOR THE MODE YOUR RECEIVER IS IN!!!
+
+#
+# this config file was automatically generated
+# using lirc-0.7.1(serial) on Sun Aug 14 21:52:11 2005
+#
+# contributed by sschaefer1|woh.rr.com
+#
+# brand:			Sony
+# model no. of remote control:	RM-PP411
+# devices being controlled by this remote:
+#		Sony STR-DE865 Hi-Fi Receiver
+
+begin remote
+
+  name  sony_RM-PP411_receiver-AV1
+  bits           12
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       2429   582
+  one          1224   574
+  zero          631   574
+  gap          45152
+  toggle_bit      0
+
+
+      begin codes
+          KEY_VIDEO                0x421                     #  Was: VIDEO3
+          KEY_DVD                  0xBE1                     #  Was: DVD/LD
+          TV/SAT                   0x561
+          MD/TAPE                  0x961
+          CD/SACD                  0xA41
+          KEY_TUNER                0x841                     #  Was: TUNER
+          PHONO                    0x041
+          KEY_AUX                  0xB81                     #  Was: AUX
+          MULTI_CH                 0x4E1
+          MPX/DUAL                 0xE81
+          ANALOG_DIRECT            0x921
+          MUTING                   0x281
+          MASTER_VOL+              0x481
+          MASTER_VOL-              0xC81
+          KEY_POWER                0xCA1                     #  Was: ON_SCREEN
+          SYSTEM_STANDBY           0xA81
+      end codes
+
+end remote
+
+begin remote
+
+  name   sony_RM-PP411_receiver-AV1-raw
+  flags CONST_LENGTH|RAW_CODES
+  eps            30
+  aeps          100
+
+  ptrail          0
+  repeat     0     0
+  gap    45156
+
+      begin raw_codes
+
+          name PRESET/CH/D.SKIP+
+          KEY_9                    472                       #  Was: 2539
+          KEY_7                    464                       #  Was: 737
+          KEY_2                    489                       #  Was: 712
+          KEY_0                    470                       #  Was: 1340
+          KEY_3                     #  Was: 713             
+
+          name PRESET/CH/D.SKIP-
+          KEY_1                    500                       #  Was: 2511
+          KEY_1                    490                       #  Was: 711
+          KEY_0                    491                       #  Was: 710
+          KEY_1                    500                       #  Was: 1311
+          KEY_0                     #  Was: 710             
+
+          name MAIN_MENU
+          KEY_4                    526                       #  Was: 2484
+          KEY_4                    526                       #  Was: 1284
+          KEY_6                    524                       #  Was: 1286
+          KEY_3                    518                       #  Was: 683
+          KEY_8                    552                       #  Was: 1258
+          KEY_7                     #  Was: 1257            
+
+          name D.TUNING
+          KEY_0                    470                       #  Was: 2540
+          KEY_0                    471                       #  Was: 1340
+          KEY_8                    463                       #  Was: 738
+          KEY_0                    471                       #  Was: 1340
+          KEY_8                     #  Was: 738             
+
+          name SHIFT
+          KEY_5                    496                       #  Was: 2515
+          KEY_2                    490                       #  Was: 712
+          KEY_1                    490                       #  Was: 711
+          KEY_3                    497                       #  Was: 1313
+          KEY_1                     #  Was: 711             
+
+          name MODE-
+          KEY_3                    497                       #  Was: 2513
+          KEY_3                    498                       #  Was: 1313
+          KEY_3                    497                       #  Was: 1313
+          KEY_2                    489                       #  Was: 712
+          KEY_4                    496                       #  Was: 1314
+          KEY_2                     #  Was: 1312            
+
+          name MODE+
+          KEY_8                    472                       #  Was: 2538
+          KEY_0                    470                       #  Was: 1340
+          KEY_4                    496                       #  Was: 1314
+          KEY_3                    490                       #  Was: 713
+          KEY_9                    471                       #  Was: 1339
+          KEY_3                     #  Was: 1313            
+
+          name 2CH
+          KEY_0                    471                       #  Was: 2540
+          KEY_8                    463                       #  Was: 738
+          KEY_7                    464                       #  Was: 737
+          KEY_9                    463                       #  Was: 739
+          KEY_9                    471                       #  Was: 1339
+          KEY_0                     #  Was: 1340            
+
+          name up
+          KEY_3                    498                       #  Was: 2513
+          KEY_1                    490                       #  Was: 711
+          KEY_3                    497                       #  Was: 1313
+          KEY_0                    490                       #  Was: 710
+          KEY_4                    497                       #  Was: 1314
+          KEY_3                     #  Was: 1313            
+
+          name down
+          KEY_3                    497                       #  Was: 2513
+          KEY_0                    490                       #  Was: 710
+          KEY_3                    497                       #  Was: 1313
+          KEY_1                    491                       #  Was: 711
+          KEY_3                    497                       #  Was: 1313
+          KEY_3                     #  Was: 1313            
+
+          name right
+          KEY_0                    472                       #  Was: 2540
+          KEY_2                    490                       #  Was: 712
+          KEY_3                    497                       #  Was: 1313
+          KEY_1                    490                       #  Was: 711
+          KEY_3                    497                       #  Was: 1313
+          KEY_3                     #  Was: 1313            
+
+          name left
+          KEY_3                    498                       #  Was: 2513
+          KEY_6                    464                       #  Was: 736
+          KEY_4                    497                       #  Was: 1314
+          KEY_7                    464                       #  Was: 737
+          KEY_8                    472                       #  Was: 1338
+          KEY_9                     #  Was: 1339            
+
+          name SOURCE
+          KEY_0                    471                       #  Was: 2540
+          KEY_8                    464                       #  Was: 738
+          KEY_9                    471                       #  Was: 1339
+          KEY_8                    463                       #  Was: 738
+          KEY_9                    471                       #  Was: 1339
+          KEY_8                     #  Was: 738             
+
+          name TEST_TONE
+          KEY_9                    471                       #  Was: 2539
+          KEY_8                    462                       #  Was: 738
+          KEY_9                    463                       #  Was: 739
+          KEY_8                    464                       #  Was: 738
+          KEY_8                    472                       #  Was: 1338
+          KEY_9                     #  Was: 1339            
+
+          name PRESET
+          KEY_0                    471                       #  Was: 2540
+          KEY_0                    470                       #  Was: 1340
+          KEY_0                    470                       #  Was: 1340
+          KEY_7                    464                       #  Was: 737
+          KEY_0                    470                       #  Was: 1340
+          KEY_9                     #  Was: 1339            
+
+          name AUTO_DECoding
+          KEY_4                    497                       #  Was: 2514
+          KEY_3                    497                       #  Was: 1313
+          KEY_3                    488                       #  Was: 713
+          KEY_2                    490                       #  Was: 712
+          KEY_3                    497                       #  Was: 1313
+          KEY_3                     #  Was: 1313            
+
+          name ALT^1
+          KEY_9                    472                       #  Was: 2539
+          KEY_8                    464                       #  Was: 738
+          KEY_8                    463                       #  Was: 738
+          KEY_0                    470                       #  Was: 1340
+          KEY_7                     #  Was: 737             
+
+          name ALT^2
+          KEY_8                    472                       #  Was: 2538
+          KEY_7                    465                       #  Was: 737
+          KEY_2                    490                       #  Was: 712
+          KEY_7                    473                       #  Was: 1337
+          KEY_8                     #  Was: 738             
+
+          name ALT^3
+          KEY_5                    525                       #  Was: 2485
+          KEY_0                    491                       #  Was: 710
+          KEY_0                    491                       #  Was: 710
+          KEY_5                    526                       #  Was: 1285
+          KEY_0                     #  Was: 710             
+
+          name ALT^4
+          KEY_4                    527                       #  Was: 2484
+          KEY_5                    517                       #  Was: 685
+          KEY_4                    517                       #  Was: 684
+          KEY_4                    526                       #  Was: 1284
+          KEY_4                     #  Was: 684             
+
+          name ALT^5
+          KEY_3                    527                       #  Was: 2483
+          KEY_4                    526                       #  Was: 1284
+          KEY_4                    518                       #  Was: 684
+          KEY_4                    526                       #  Was: 1284
+          KEY_3                     #  Was: 683             
+
+          name ALT^6
+          KEY_4                    578                       #  Was: 2434
+          KEY_7                    553                       #  Was: 1257
+          KEY_6                    545                       #  Was: 656
+          KEY_5                    554                       #  Was: 1255
+          KEY_7                     #  Was: 657             
+
+          name ALT^7
+          KEY_3                    578                       #  Was: 2433
+          KEY_2                    578                       #  Was: 1232
+          KEY_5                    545                       #  Was: 655
+          KEY_3                    577                       #  Was: 1233
+          KEY_5                     #  Was: 655             
+
+          name ALT^8
+          KEY_4                    577                       #  Was: 2434
+          KEY_6                    554                       #  Was: 1256
+          KEY_2                    520                       #  Was: 682
+          KEY_4                    526                       #  Was: 1284
+          KEY_3                     #  Was: 683             
+
+          name ALT^9
+          KEY_1                    500                       #  Was: 2511
+          KEY_0                    491                       #  Was: 710
+          KEY_9                    492                       #  Was: 709
+          KEY_0                    500                       #  Was: 1310
+          KEY_0                     #  Was: 710             
+
+          name ALT^0/10
+          KEY_8                    473                       #  Was: 2538
+          KEY_7                    465                       #  Was: 737
+          KEY_7                    464                       #  Was: 737
+          KEY_8                    472                       #  Was: 1338
+          KEY_6                     #  Was: 736             
+
+      end raw_codes
+
+end remote
+
+begin remote
+
+  name  sony_RM-PP411_receiver-AV2
+  bits           15
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       2444   569
+  one          1260   542
+  zero          662   542
+  gap          45165
+  toggle_bit      0
+
+
+      begin codes
+          I/O                      0x540C
+          KEY_SLEEP                0x030C                    #  Was: SLEEP
+          KEY_VIDEO                0x220C                    #  Was: VIDEO1
+          KEY_VIDEO                0x3C0C                    #  Was: VIDEO2
+          KEY_VIDEO                0x210C                    #  Was: VIDEO3
+          KEY_DVD                  0x5F0C                    #  Was: DVD/LD
+          TV/SAT                   0x2B0C
+          MD/TAPE                  0x4B0C
+          CD/SACD                  0x520C
+          KEY_TUNER                0x420C                    #  Was: TUNER
+          PHONO                    0x020C
+          KEY_AUX                  0x5C0C                    #  Was: AUX
+          MULTI_CH                 0x270C
+          KEY_CYCLEWINDOWS         0x6F9E                    #  Was: SOURCE
+          TEST_TONE                0x290D
+          PRESET                   0x320D
+          AUTO_DECoding            0x710D
+          MPX/DUAL                 0x740C
+          ANALOG_DIRECT            0x490C
+          KEY_2CH                  0x410D                    #  Was: 2CH
+          MODE+                    0x3B0D
+          MODE-                    0x7B0D
+          MUTING                   0x140C
+          MASTER_VOL+              0x240C
+          MASTER_VOL-              0x640C
+          MAIN_MENU                0x770D
+          KEY_POWER                0x650C                    #  Was: ON_SCREEN
+          SYSTEM_STANDBY           0x7620
+      end codes
+
+end remote
+
+begin remote
+
+  name   sony_RM-PP411_receiver-AV2-raw
+  flags CONST_LENGTH|RAW_CODES
+  eps            30
+  aeps          100
+
+  ptrail          0
+  repeat     0     0
+  gap    45156
+
+      begin raw_codes
+
+          name PRESET/CH/D.SKIP+
+          KEY_5                    498                       #  Was: 2515
+          KEY_2                    490                       #  Was: 712
+          KEY_3                    488                       #  Was: 713
+          KEY_8                    473                       #  Was: 1338
+          KEY_3                     #  Was: 713             
+
+          name PRESET/CH/D.SKIP-
+          KEY_9                    472                       #  Was: 2539
+          KEY_3                    488                       #  Was: 713
+          KEY_7                    463                       #  Was: 737
+          KEY_8                    472                       #  Was: 1338
+          KEY_8                     #  Was: 738             
+
+          name D.TUNING
+          KEY_0                    473                       #  Was: 2540
+          KEY_9                    471                       #  Was: 1339
+          KEY_7                    465                       #  Was: 737
+          KEY_7                    473                       #  Was: 1337
+          KEY_8                     #  Was: 738             
+
+          name up
+          KEY_2                    469                       #  Was: 2542
+          KEY_8                    463                       #  Was: 738
+          KEY_8                    463                       #  Was: 738
+          KEY_9                    472                       #  Was: 1339
+          KEY_9                     #  Was: 739             
+
+          name down
+          KEY_9                    471                       #  Was: 2539
+          KEY_8                    463                       #  Was: 738
+          KEY_8                    464                       #  Was: 738
+          KEY_9                    471                       #  Was: 1339
+          KEY_8                     #  Was: 738             
+
+          name left
+          KEY_4                    497                       #  Was: 2514
+          KEY_1                    489                       #  Was: 711
+          KEY_4                    497                       #  Was: 1314
+          KEY_3                    497                       #  Was: 1313
+          KEY_2                     #  Was: 712             
+
+          name right
+          KEY_1                    471                       #  Was: 2541
+          KEY_8                    464                       #  Was: 738
+          KEY_9                    471                       #  Was: 1339
+          KEY_0                    470                       #  Was: 1340
+          KEY_8                     #  Was: 738             
+
+          name SHIFT
+          KEY_8                    473                       #  Was: 2538
+          KEY_7                    464                       #  Was: 737
+          KEY_2                    489                       #  Was: 712
+          KEY_3                    497                       #  Was: 1313
+          KEY_2                     #  Was: 712             
+
+          name ALT^1
+          KEY_9                    472                       #  Was: 2539
+          KEY_9                    463                       #  Was: 739
+          KEY_8                    463                       #  Was: 738
+          KEY_7                    473                       #  Was: 1337
+          KEY_7                     #  Was: 737             
+
+          name ALT^2
+          KEY_3                    499                       #  Was: 2513
+          KEY_1                    490                       #  Was: 711
+          KEY_1                    490                       #  Was: 711
+          KEY_1                    499                       #  Was: 1311
+          KEY_1                     #  Was: 711             
+
+          name ALT^3
+          KEY_0                    471                       #  Was: 2540
+          KEY_8                    464                       #  Was: 738
+          KEY_8                    464                       #  Was: 738
+          KEY_8                    472                       #  Was: 1338
+          KEY_8                     #  Was: 738             
+
+          name ALT^4
+          KEY_2                    500                       #  Was: 2512
+          KEY_1                    491                       #  Was: 711
+          KEY_1                    491                       #  Was: 711
+          KEY_1                    499                       #  Was: 1311
+          KEY_1                     #  Was: 711             
+
+          name ALT^5
+          KEY_3                    527                       #  Was: 2483
+          KEY_3                    527                       #  Was: 1283
+          KEY_3                    518                       #  Was: 683
+          KEY_3                    528                       #  Was: 1283
+          KEY_2                     #  Was: 682             
+
+          name ALT^6
+          KEY_2                    499                       #  Was: 2512
+          KEY_1                    499                       #  Was: 1311
+          KEY_1                    490                       #  Was: 711
+          KEY_0                    500                       #  Was: 1310
+          KEY_0                     #  Was: 710             
+
+          name ALT^7
+          KEY_0                    471                       #  Was: 2540
+          KEY_8                    471                       #  Was: 1338
+          KEY_8                    464                       #  Was: 738
+          KEY_0                    470                       #  Was: 1340
+          KEY_8                     #  Was: 738             
+
+          name ALT^8
+          KEY_1                    500                       #  Was: 2511
+          KEY_0                    501                       #  Was: 1310
+          KEY_0                    491                       #  Was: 710
+          KEY_4                    526                       #  Was: 1284
+          KEY_0                     #  Was: 710             
+
+          name ALT^9
+          KEY_1                    499                       #  Was: 2511
+          KEY_0                    492                       #  Was: 710
+          KEY_9                    493                       #  Was: 709
+          KEY_0                    500                       #  Was: 1310
+          KEY_0                     #  Was: 710             
+
+          name ALT^0/10
+          KEY_3                    598                       #  Was: 2413
+          KEY_0                    591                       #  Was: 610
+          KEY_0                    572                       #  Was: 630
+          KEY_1                    599                       #  Was: 1211
+          KEY_0                     #  Was: 630             
+
+      end raw_codes
+
+end remote

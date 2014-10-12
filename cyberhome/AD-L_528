@@ -1,0 +1,63 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.6(serial) on Sun Nov 10 09:50:33 2002
+#
+# contributed by Thorsten Dorsch
+#
+# brand: Cyberhome
+# model no. of remote control:
+# devices being controlled by this remote: AD-L 528 DVD Player
+#
+
+begin remote
+
+  name  cyberhome
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9053  4441
+  one           611  1634
+  zero          611   513
+  ptrail        609
+  repeat       9051  2197
+  pre_data_bits   16
+  pre_data       0x4EB3
+  gap          107898
+  toggle_bit      0
+
+
+      begin codes
+          KEY_UP                   0x00000000000022DD        #  Was: Up
+          KEY_DOWN                 0x000000000000B847        #  Was: Down
+          KEY_MENU                 0x000000000000E817        #  Was: Menu
+          KEY_OK                   0x0000000000003AC5        #  Was: Ok
+          KEY_BACK                 0x00000000000050AF        #  Was: Back
+          KEY_LEFT                 0x00000000000038C7        #  Was: Left
+          KEY_RIGHT                0x00000000000012ED        #  Was: Right
+          KEY_RED                  0x000000000000C03F        #  Was: Red
+          KEY_GREEN                0x00000000000020DF        #  Was: Green
+          KEY_YELLOW               0x000000000000A05F        #  Was: Yellow
+          KEY_BLUE                 0x000000000000A25D        #  Was: Blue
+          KEY_0                    0x000000000000926D        #  Was: 0
+          KEY_1                    0x000000000000C837        #  Was: 1
+          KEY_2                    0x00000000000008F7        #  Was: 2
+          KEY_3                    0x0000000000008877        #  Was: 3
+          KEY_4                    0x000000000000F00F        #  Was: 4
+          KEY_5                    0x00000000000030CF        #  Was: 5
+          KEY_6                    0x000000000000B04F        #  Was: 6
+          KEY_7                    0x000000000000D02F        #  Was: 7
+          KEY_8                    0x00000000000010EF        #  Was: 8
+          KEY_9                    0x000000000000906F        #  Was: 9
+          KEY_POWER                0x000000000000708F        #  Was: Power
+          KEY_VOLUMEUP             0x000000000000BA45        #  Was: Volume+
+          KEY_VOLUMEDOWN           0x000000000000F807        #  Was: Volume-
+          KEY_MUTE                 0x00000000000048B7        #  Was: Mute
+      end codes
+
+end remote
+
+
+
+

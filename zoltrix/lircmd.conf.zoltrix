@@ -1,0 +1,34 @@
+# 
+# lircmd config file
+# 
+
+PROTOCOL IntelliMouse
+
+# ACCELERATOR start max multiplier
+
+ACCELERATOR 2 30 5
+
+ACTIVATE * Source
+
+MOVE_N  * 2
+MOVE_NE * 3
+MOVE_E  * 6
+MOVE_SE * 9
+MOVE_S  * 8
+MOVE_SW * 7
+MOVE_W  * 4
+MOVE_NW * 1
+MOVE_IN * CH+
+MOVE_OUT * CH-
+
+BUTTON1_TOGGLE * 5
+BUTTON1_TOGGLE * Mute
+BUTTON2_TOGGLE * Shift
+BUTTON3_TOGGLE * Minimize
+
+BUTTON1_CLICK * Full_Screen
+BUTTON2_CLICK * TV
+BUTTON3_CLICK * Radio
+
+# BUTTONx_CLICK, BUTTONx_UP, BUTTONx_DOWN are also possible
+

@@ -1,0 +1,68 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.4(serial) on Fri Jan 18 01:49:33 2002
+#
+# contributed by Ulrich Mohr
+#
+# brand:                       	Yamaha-RAX2-VU07420
+# model no. of remote control: 	RAX-2 VU07420
+# supported devices:           	RX-395RDS (amp + rds tuner)
+#                               CDX-390 (cd)
+#      
+# same as VU07410, except added SLEEP button, missing TAPE2 button
+#
+
+
+begin remote
+
+  name  YAMAHA-RAX2
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9091  4407
+  one           629  1618
+  zero          629   497
+  ptrail        630
+  repeat       9089  2172
+  pre_data_bits   16
+  pre_data       0x5EA1
+  gap          107953
+  toggle_bit      0
+
+
+      begin codes
+          SELECT-AUX               0x000000000000E817
+          SELECT-TAPE              0x00000000000018E7
+          SELECT-TUNER             0x0000000000006897
+          SELECT-CD                0x000000000000A857
+          SELECT-PHONO             0x00000000000028D7
+          KEY_VOLUMEUP             0x00000000000058A7        #  Was: VOL+
+          KEY_VOLUMEDOWN           0x000000000000D827        #  Was: VOL-
+          KEY_POWER                0x000000000000F807        #  Was: POWER
+          TAPE-DIRA                0x000000000000E01F
+          TAPE-DIRB                0x00000000000002FD
+          TAPE-REC/PAUSE           0x00000000000020DF
+          TAPE-PLAY                0x00000000000000FF
+          TAPE-<<                  0x000000000000807F
+          TAPE->>                  0x00000000000040BF
+          TAPE-STOP                0x000000000000C03F
+          TAPE-A/B                 0x000000000000609F
+          TUNER-PRESET+            0x00000000000008F7
+          TUNER-PRESET-            0x0000000000008877
+          TUNER-ABCDE              0x00000000000048B7
+          CD-<<                    0x000000000000B04F
+          CD->>                    0x00000000000030CF
+          CD-|<<                   0x000000000000D02F
+          CD->>|                   0x00000000000050AF
+          CD-DISC                  0x000000000000F20D
+          CD-PLAY                  0x00000000000010EF
+          CD-STOP/PAUSE            0x000000000000906F
+          KEY_SLEEP                0x000000000000EA15        #  Was: SLEEP
+      end codes
+
+end remote
+
+
+

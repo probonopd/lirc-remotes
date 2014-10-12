@@ -1,0 +1,39 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.5(any) on Fri Apr  1 21:47:32 2005
+#
+# contributed by Nickolay Kondrashov
+#
+# brand: Genius
+# model no. of remote control: UNKNOWN
+# devices being controlled by this remote:
+# Genius SW-5.1 Home Theater (5.1 speakers)
+# ( see: http://www.geniusnet.com.tw/product/product-1.asp?pdtno=162 )
+
+begin remote
+
+  name  GENIUS_SW_5_1_HT
+  bits            8
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one          1202   484
+  zero          359  1327
+  ptrail        359
+  pre_data_bits   3
+  pre_data       0x6
+  gap          53977
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x50                      #  Was: POWER
+          KEY_MUTE                 0x48                      #  Was: MUTE
+          KEY_VOLUMEDOWN           0x88                      #  Was: VOL_DOWN
+          KEY_VOLUMEUP             0x90                      #  Was: VOL_UP
+      end codes
+
+end remote
+
+

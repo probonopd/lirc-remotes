@@ -1,0 +1,83 @@
+#
+# this config file was automatically generated
+# using WinLIRC 0.6.4 (LIRC 0.6.1pre3) on Fri Mar 14 20:08:57 2003
+#
+# contributed by Aleksey Esin <murr@ru.ru>
+#
+# brand: SONY
+# model: RMT-V153B
+# supported devices:
+#
+
+begin remote
+
+  name  SONY
+  bits           11
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  header       2445   527
+  one           663   527
+  zero         1232   527
+  ptrail        663
+  gap          24512
+  toggle_bit      0
+
+
+      begin codes
+          KEY_EJECTCD              0x00000000000004B2        #  Was: EJECT
+          KEY_POWER                0x00000000000002B2        #  Was: POWER_VID
+          KEY_MENU                 0x0000000000000262        #  Was: MENU
+          TIMERCLEAR               0x00000000000001C2
+          CURSORLEFT               0x00000000000005C2
+          CURSORRIGHT              0x00000000000003C2
+          CURSORUP                 0x00000000000005E2
+          CURSORDOWN               0x00000000000001E2
+          EXECUTE                  0x00000000000003A2
+          QUICKTIMER               0x00000000000005A2
+          DISPLAY                  0x0000000000000522
+          COUNTERRESET             0x00000000000004E2
+          KEY_CHANNELUP            0x00000000000007B2        #  Was: PROG_VID_UP
+          KEY_CHANNELDOWN          0x00000000000003B2        #  Was: PROG_VID_DOWN
+          KEY_1                    0x00000000000007F2        #  Was: 1
+          KEY_2                    0x00000000000003F2        #  Was: 2
+          KEY_3                    0x00000000000005F2        #  Was: 3
+          KEY_4                    0x00000000000001F2        #  Was: 4
+          KEY_5                    0x00000000000006F2        #  Was: 5
+          KEY_6                    0x00000000000002F2        #  Was: 6
+          KEY_7                    0x00000000000004F2        #  Was: 7
+          KEY_8                    0x00000000000000F2        #  Was: 8
+          KEY_9                    0x0000000000000772        #  Was: 9
+          KEY_0                    0x0000000000000372        #  Was: 0
+          KEY_102ND                0x0000000000000572        #  Was: -/--
+          INPUTSELECT              0x0000000000000062
+          SLOWMINUS                0x0000000000000412
+          SLOWPLUS                 0x0000000000000212
+          FRAMELEFT                0x0000000000000792
+          FRAMERIGHT               0x0000000000000392
+          LEFTSEARCH               0x0000000000000752
+          RIGHTSEARCH              0x0000000000000352
+          X2                       0x00000000000006B2
+          TRACKING                 0x00000000000000D2
+          NORMAL                   0x00000000000002E2
+          KEY_SLOW                 0x00000000000006E2        #  Was: SLOW
+          KEY_REWIND               0x0000000000000132        #  Was: REW
+          KEY_PLAY                 0x0000000000000532        #  Was: PLAY
+          KEY_FASTFORWARD          0x0000000000000632        #  Was: FF
+          KEY_PAUSE                0x0000000000000332        #  Was: PAUSE
+          KEY_STOP                 0x0000000000000732        #  Was: STOP
+          KEY_RECORD               0x0000000000000232        #  Was: REC
+          KEY_NEXT                 0x0000000000000222        #  Was: SKIP
+          KEY_POWER                0x00000000000002B7        #  Was: POWERTV
+          KEY_O                    0x0000000000000717        #  Was: O
+          TV/VIDEO                 0x00000000000002D7
+          KEY_VOLUMEUP             0x00000000000005B7        #  Was: VOLTVUP
+          KEY_VOLUMEDOWN           0x00000000000001B7        #  Was: VOLTVDOWN
+          KEY_CHANNELUP            0x00000000000007B7        #  Was: PROGTVUP
+          KEY_CHANNELDOWN          0x00000000000003B7        #  Was: PROGTVDOWN
+      end codes
+
+end remote
+
+

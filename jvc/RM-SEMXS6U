@@ -1,0 +1,117 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.5(any) on Wed Aug 21 23:54:28 2002
+#
+# contributed by Gerald Stieglbauer (gstiegl@cosy.sbg.ac.at)
+#
+# brand:                       JVC
+# model no. of remote control: RM-SEMXS6U
+# devices being controlled by this remote: Compact Component System MX-S6
+#
+# This remote control has some multiple buttons (namely the buttons "1" to
+# "+10"). This buttons can be switched by the buttons "Tuner", "CD 10Key"
+# (produces no signal), "Program" and "Panorama/Sea" (produces no signal).
+# After pressing the "Panorama/Sea" button the buttons "1" to "+10" have no
+# numerical character. In this case they stand for some sound effects like
+# "D.Club", "Hall" etc. The button "10" will be disabled in this mode.
+
+begin remote
+
+  name  JVC_RM-SEMXS6U
+  bits           16
+  flags SPACE_ENC|NO_HEAD_REP|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       8475  4157
+  one           574  1530
+  zero          574   478
+  ptrail        570
+  gap          46337
+  min_repeat      1
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x000000000000C5E8        #  Was: Power
+          AutoPowerOff             0x000000000000F586
+          WakeUp/Sleep             0x000000000000C5C0
+          KEY_TUNER                0x000000000000C5D0        #  Was: Tuner
+          X_KEY_1(Tuner)           0x000000000000C584        #  Was: KEY_1(Tuner)
+          X_KEY_2(Tuner)           0x000000000000C544        #  Was: KEY_2(Tuner)
+          X_KEY_3(Tuner)           0x000000000000C5C4        #  Was: KEY_3(Tuner)
+          X_KEY_4(Tuner)           0x000000000000C524        #  Was: KEY_4(Tuner)
+          X_KEY_5(Tuner)           0x000000000000C5A4        #  Was: KEY_5(Tuner)
+          X_KEY_6(Tuner)           0x000000000000C564        #  Was: KEY_6(Tuner)
+          X_KEY_7(Tuner)           0x000000000000C5E4        #  Was: KEY_7(Tuner)
+          X_KEY_8(Tuner)           0x000000000000C514        #  Was: KEY_8(Tuner)
+          X_KEY_9(Tuner)           0x000000000000C594        #  Was: KEY_9(Tuner)
+          X_KEY_0(Tuner)           0x000000000000C554        #  Was: KEY_0(Tuner)
+          +10(Tuner)               0x000000000000C5F4
+          KEY_CANCEL               0x000000000000CDB6        #  Was: Cancel
+          X_KEY_1(CD)              0x000000000000CD86        #  Was: KEY_1(CD)
+          X_KEY_2(CD)              0x000000000000CD46        #  Was: KEY_2(CD)
+          X_KEY_3(CD)              0x000000000000CDC6        #  Was: KEY_3(CD)
+          X_KEY_4(CD)              0x000000000000CD26        #  Was: KEY_4(CD)
+          X_KEY_5(CD)              0x000000000000CDA6        #  Was: KEY_5(CD)
+          X_KEY_6(CD)              0x000000000000CD66        #  Was: KEY_6(CD)
+          X_KEY_7(CD)              0x000000000000CDE6        #  Was: KEY_7(CD)
+          X_KEY_8(CD)              0x000000000000CD16        #  Was: KEY_8(CD)
+          X_KEY_9(CD)              0x000000000000CD96        #  Was: KEY_9(CD)
+          X_KEY_0(CD)              0x000000000000CD76        #  Was: KEY_0(CD)
+          X_KEY_0+(CD)             0x000000000000CDF6        #  Was: KEY_0+(CD)
+          Program                  0x000000000000CD56
+          X_KEY_1(Program)         0x000000000000CD86        #  Was: KEY_1(Program)
+          X_KEY_2(Program)         0x000000000000CD46        #  Was: KEY_2(Program)
+          X_KEY_3(Program)         0x000000000000CDC6        #  Was: KEY_3(Program)
+          X_KEY_4(Program)         0x000000000000CD26        #  Was: KEY_4(Program)
+          X_KEY_5(Program)         0x000000000000CDA6        #  Was: KEY_5(Program)
+          X_KEY_6(Program)         0x000000000000CD66        #  Was: KEY_6(Program)
+          X_KEY_7(Program)         0x000000000000CDE6        #  Was: KEY_7(Program)
+          X_KEY_8(Program)         0x000000000000CD16        #  Was: KEY_8(Program)
+          X_KEY_9(Program)         0x000000000000CD96        #  Was: KEY_9(Program)
+          X_KEY_0(Program)         0x000000000000CD76        #  Was: KEY_0(Program)
+          X_KEY_0+(Program)        0x000000000000CDF6        #  Was: KEY_0+(Program)
+          D.Club                   0x000000000000C583
+          Hall                     0x000000000000C543
+          Rock                     0x000000000000C585
+          Pops                     0x000000000000C545
+          Dome                     0x000000000000C5C3
+          BGM                      0x000000000000C523
+          Classic                  0x000000000000C5C5
+          Car                      0x000000000000C525
+          Cinema                   0x000000000000C5A3
+          H.Phone                  0x000000000000C5A5
+          SpeakerIn                0x000000000000F508
+          SpeakerAuto              0x000000000000F548
+          SpeakerOut               0x000000000000F588
+          Sea(On/Off)              0x000000000000C50C
+          Panorama(On/Off)         0x000000000000C5A6
+          MSEC                     0x000000000000C54A
+          Display                  0x000000000000C50E
+          Phono                    0x000000000000C53C
+          KEY_AUX                  0x000000000000C57C        #  Was: AUX
+          CDBackward               0x000000000000CD1A
+          CDForward                0x000000000000CD9A
+          CDEject                  0x000000000000CD22
+          CDStop                   0x000000000000CDC2
+          CDPlay                   0x000000000000CD32
+          DeckABackward            0x000000000000C1EA
+          DeckAForward             0x000000000000C16A
+          DeckAPlay(SideB)         0x000000000000C17A
+          DeckAStop                0x000000000000C1CA
+          DeckAPlay(SideA)         0x000000000000C1FA
+          DeckBBackward            0x000000000000C1E0
+          DeckBForward             0x000000000000C160
+          DeckBPlay(SideB)         0x000000000000C170
+          DeckBStop                0x000000000000C1C0
+          DeckBPlay(SideA)         0x000000000000C1F0
+          KEY_RECORD               0x000000000000C1B3        #  Was: RecPause
+          FadeMuting               0x000000000000C538
+          KEY_VOLUMEDOWN           0x000000000000C5F8        #  Was: Volume-
+          KEY_VOLUMEUP             0x000000000000C578        #  Was: Volume+
+      end codes
+
+end remote
+
+

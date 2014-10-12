@@ -1,0 +1,60 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.3pre3 on Mon Jan 15 16:40:32 2001
+#
+# contributed by Daniel Kratzert (dkratzert@gmx.de)
+#
+# brand:               Denon
+# model:               RC-174
+# supported devices:   AMPLIFIER DRA-385RD (+ CD, TAPE, TUNER)
+#
+
+begin remote
+
+  name  Denon
+  bits           15
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           319  1808
+  zero          319   734
+  ptrail        323
+  gap          67462
+  toggle_bit      0
+
+
+      begin codes
+          a/b                      0x0000000000001328
+          KEY_RECORD               0x00000000000013E8        #  Was: rec
+          KEY_PAUSE                0x00000000000012E8        #  Was: pause
+          KEY_STOP                 0x00000000000011E8        #  Was: stop
+          KEY_REWIND               0x0000000000001097        #  Was: rew<
+          KEY_REWIND               0x0000000000001168        #  Was: rew>
+          KEY_PLAY                 0x00000000000013A8        #  Was: play<
+          KEY_PLAY                 0x00000000000010E8        #  Was: play>
+          KEY_PREVIOUS             0x0000000000000A68        #  Was: |<<
+          KEY_NEXT                 0x0000000000000868        #  Was: >>|
+          random                   0x0000000000000958
+          KEY_AGAIN                0x0000000000000B57        #  Was: repeat
+          disksk                   0x0000000000000B58
+          cdpause                  0x0000000000000AE8
+          cdstop                   0x00000000000009E8
+          cdplay                   0x00000000000008E8
+          panel                    0x00000000000019F8
+          tape_mon                 0x00000000000018E8
+          tape2                    0x00000000000019E8
+          tape1                    0x0000000000001AE8
+          KEY_VIDEO                0x0000000000001B28        #  Was: video
+          KEY_TUNER                0x0000000000001A68        #  Was: tuner
+          KEY_CD                   0x0000000000001968        #  Was: cd
+          phono                    0x0000000000001868
+          preset+                  0x0000000000001A37
+          preset-                  0x0000000000001BC8
+          KEY_VOLUMEUP             0x0000000000001937        #  Was: volup
+          voldwn                   0x00000000000018C8
+      end codes
+
+end remote
+
+

@@ -1,0 +1,66 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.4(default) on Mon Apr 20 19:13:01 2009
+#
+# contributed by Ales Seifert
+#
+# brand: Genius
+# model no. of remote control: Genius-DVB-T32
+# devices being controlled by this remote: TVGo DVB-T32
+#
+
+begin remote
+
+  name  Genius-DVB-T32
+  bits           11
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           102  7466
+  zero          102  4940
+  ptrail        102
+  gap          121312
+  min_repeat      1
+  toggle_bit_mask 0x200
+
+      begin codes
+          KEY_INFO                 0x562
+          X_KEY_TV_AV              0x578                     #  Was: KEY_TV_AV
+          X_KEY_TV_RADIO           0x56E                     #  Was: KEY_TV_RADIO
+          KEY_POWER                0x55E
+          KEY_1                    0x575
+          KEY_2                    0x56D
+          KEY_3                    0x565
+          KEY_4                    0x55D
+          KEY_5                    0x574
+          KEY_6                    0x56C
+          KEY_7                    0x564
+          KEY_8                    0x55C
+          KEY_9                    0x573
+          KEY_0                    0x56B
+          KEY_RF                   0x55B
+          X_KEY_SCAN               0x560                     #  Was: KEY_SCAN
+          KEY_VOLUMEUP             0x572                     #  Was: VOLUME+
+          KEY_VOLUMEDOWN           0x577                     #  Was: VOLUME-
+          X_KEY_RCL                0x57C                     #  Was: KEY_RCL
+          KEY_EPG                  0x56F
+          KEY_RED                  0x563
+          KEY_GREEN                0x57B
+          KEY_YELLOW              0x566
+          KEY_BLUE                 0x576
+          KEY_EXIT                 0x559
+          KEY_MENU                 0x567
+          KEY_UP                   0x568
+          KEY_DOWN                 0x56A
+          KEY_LEFT                 0x571
+          KEY_RIGHT                0x561
+          KEY_OK                   0x569
+          KEY_MUTE                 0x558
+          KEY_FAV                  0x55F
+      end codes
+
+end remote
+
+
+

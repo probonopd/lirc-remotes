@@ -1,0 +1,83 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.5(serial) on Fri Aug  9 19:02:54 2002
+#
+# contributed by pujos.michael@laposte.net
+#
+# brand:                       denon
+# model no. of remote control: RC-818
+# devices being controlled by this remote: denon tape deck UCD-F07
+#					   denon cd player UDR-F07
+#					   denon receiver  UDRA-F07
+
+begin remote
+
+  name  denon_RC-818
+  bits           15
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           552  1543
+  zero          552   504
+  ptrail        553
+  gap          67329
+  min_repeat      1
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x0000000000001828        #  Was: power
+          reset                    0x00000000000010A8
+          KEY_RECORD               0x00000000000013E8        #  Was: rec/mute
+          KEY_SLEEP                0x0000000000001938        #  Was: sleep
+          taperev                  0x0000000000001368
+          tapefwd                  0x0000000000001168
+          tapestop                 0x00000000000011E8
+          tapeplayleft             0x00000000000013A8
+          tapeplayright            0x00000000000010E8
+          KEY_EDIT                 0x0000000000000838        #  Was: edit
+          random                   0x0000000000000958
+          KEY_AGAIN                0x00000000000008A8        #  Was: repeat
+          cdprevtrack              0x0000000000000A68
+          cdnexttrack              0x0000000000000868
+          side_a/b                 0x0000000000000B28
+          cdrev                    0x0000000000000B68
+          cdfwd                    0x0000000000000968
+          cdstop                   0x0000000000000A17
+          cdplay                   0x00000000000008E8
+          program                  0x0000000000000AC8
+          KEY_CANCEL               0x0000000000000A28        #  Was: cancel
+          direct                   0x0000000000000BA8
+          KEY_TUNER                0x0000000000001A68        #  Was: tuner
+          function                 0x0000000000001BE8
+          KEY_1                    0x0000000000001908        #  Was: 1
+          KEY_2                    0x0000000000001B08        #  Was: 2
+          KEY_3                    0x0000000000001888        #  Was: 3
+          KEY_4                    0x0000000000001A88        #  Was: 4
+          KEY_5                    0x0000000000001988        #  Was: 5
+          KEY_6                    0x0000000000001B88        #  Was: 6
+          KEY_7                    0x0000000000001848        #  Was: 7
+          KEY_8                    0x0000000000001A48        #  Was: 8
+          KEY_9                    0x0000000000001B18        #  Was: 9
+          KEY_0                    0x0000000000001898        #  Was: 10
+          presetdown               0x0000000000001BC8
+          presetup                 0x00000000000019C8
+          memo                     0x0000000000001A2C
+          KEY_10CHANNELSUP         0x0000000000001BD8        #  Was: +10
+          tuningdown               0x000000000000196C
+          tuningup                 0x0000000000001A6C
+          band                     0x0000000000001BAC
+          eon                      0x0000000000001BBC
+          KEY_VOLUMEUP             0x0000000000001AC8        #  Was: volumeup
+          rds                      0x000000000000192C
+          pty                      0x00000000000018AC
+          ct                       0x0000000000001B2C
+          panel                    0x00000000000019EC
+          KEY_VOLUMEDOWN           0x00000000000018C8        #  Was: volumedown
+      end codes
+
+end remote
+
+
+

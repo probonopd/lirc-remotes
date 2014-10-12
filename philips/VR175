@@ -1,0 +1,60 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.6(any) on Tue Sep 21 18:42:44 2004
+#
+# contributed by
+#
+# brand:                       Philips
+# model no. of remote control: VR175
+# devices being controlled by this remote:
+#
+
+begin remote
+
+  name  Philips_VR175
+  bits           13
+  flags RC5|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           868   907
+  zero          868   907
+  plead         874
+  gap          113479
+  min_repeat      2
+  toggle_bit      2
+
+
+      begin codes
+          KEY_KPPLUS               0x0000000000001160        #  Was: +
+          KEY_KPMINUS              0x0000000000001161        #  Was: -
+          KEY_PLAY                 0x0000000000001175        #  Was: play
+          KEY_STOP                 0x0000000000001176        #  Was: stop
+          KEY_FORWARD              0x0000000000001166        #  Was: forward
+          KEY_REWIND               0x0000000000001165        #  Was: backward
+          monitor                  0x000000000000017A
+          KEY_OK                   0x0000000000000157        #  Was: ok
+          KEY_0                    0x0000000000001140        #  Was: 0
+          KEY_1                    0x0000000000001141        #  Was: 1
+          KEY_2                    0x0000000000001142        #  Was: 2
+          KEY_3                    0x0000000000001143        #  Was: 3
+          KEY_4                    0x0000000000001144        #  Was: 4
+          KEY_5                    0x0000000000001145        #  Was: 5
+          KEY_6                    0x0000000000001146        #  Was: 6
+          KEY_7                    0x0000000000001147        #  Was: 7
+          KEY_8                    0x0000000000001148        #  Was: 8
+          KEY_9                    0x0000000000001149        #  Was: 9
+          KEY_SELECT               0x000000000000114B        #  Was: select
+          timer                    0x000000000000115D
+          KEY_CLEAR                0x0000000000001171        #  Was: clear
+          KEY_RECORD               0x0000000000001177        #  Was: record
+          KEY_SLEEP                0x000000000000114C        #  Was: standby
+          index                    0x0000000000000170
+          sp/lp                    0x000000000000117A
+          system                   0x000000000000014A
+          still                    0x0000000000001169
+      end codes
+
+end remote
+
+

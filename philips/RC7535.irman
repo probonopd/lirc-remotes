@@ -1,0 +1,65 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.4pre4(irman) on Fri Sep  7 23:57:04 2001
+#
+# contributed by Marco Solari <marcosolari@libero.it>
+#
+# brand:                       Philips
+# model no. of remote control: RC 7535
+# supported devices:           TV/TeleVideo/VCR
+#
+
+begin remote
+
+  name  PhilipsRC7535
+  bits           16
+  eps            30
+  aeps          100
+
+  one             0     0
+  zero            0     0
+  pre_data_bits   16
+  pre_data       0xFFFF
+  post_data_bits  32
+  post_data      0x0
+  gap          209891
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x0000000000005590        #  Was: POWER
+          ARROW_UP                 0x0000000000002BA0
+          ARROW_RIGHT              0x0000000000002BC0
+          ARROW_DOWN               0x0000000000002BB0
+          ARROW_LEFT               0x0000000000002BF0
+          KEY_RED                  0x0000000000002810        #  Was: RED
+          KEY_GREEN                0x0000000000002860        #  Was: GREEN
+          KEY_YELLOW               0x0000000000002870        #  Was: YELLOW
+          KEY_BLUE                 0x0000000000002840        #  Was: BLUE
+          GRAY                     0x0000000000002850
+          TELEVIDEO                0x0000000000005690
+          SMARTVIDEO               0x00000000000059F0
+          SMARTAUDIO               0x00000000000059E0
+          KEY_CHANNELUP            0x0000000000005750        #  Was: CHANNEL+
+          KEY_CHANNELDOWN          0x0000000000005740        #  Was: CHANNEL-
+          KEY_VOLUMEUP             0x0000000000005450        #  Was: VOLUME+
+          KEY_VOLUMEDOWN           0x0000000000005440        #  Was: VOLUME-
+          KEY_1                    0x0000000000005540        #  Was: 1
+          KEY_2                    0x0000000000005570        #  Was: 2
+          KEY_3                    0x0000000000005560        #  Was: 3
+          KEY_4                    0x0000000000005510        #  Was: 4
+          KEY_5                    0x0000000000005500        #  Was: 5
+          KEY_6                    0x0000000000005530        #  Was: 6
+          KEY_7                    0x0000000000005520        #  Was: 7
+          KEY_8                    0x00000000000055D0        #  Was: 8
+          KEY_9                    0x00000000000055C0        #  Was: 9
+          KEY_0                    0x0000000000005550        #  Was: 0
+          KEY_MUTE                 0x0000000000005580        #  Was: MUTE
+          P-P                      0x0000000000005770
+          KEY_KPPLUS               0x0000000000002980        #  Was: +
+          KEY_KPMINUS              0x0000000000002990        #  Was: -
+      end codes
+
+end remote
+
+

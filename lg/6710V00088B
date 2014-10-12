@@ -1,0 +1,82 @@
+#
+# this config file was automatically generated
+# using WinLIRC 0.6.5 (LIRC 0.6.1pre3) on Mon Dec 17 16:08:10 2007
+#
+# contributed by
+#
+# brand:             LG
+# model:             6710V00088B
+# supported devices: TV/VCR
+#
+
+begin remote
+
+  name  LG_6710V00088B
+  bits           32
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  header       9067  4396
+  one           584   519
+  zero          584  1666
+  ptrail        584
+  repeat       8982  2257
+  gap          39780
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x00000000DF20EF10        #  Was: Power
+          KEY_MUTE                 0x00000000DF206F90        #  Was: Mute
+          KEY_1                    0x00000000DF207788        #  Was: 1
+          KEY_2                    0x00000000DF20B748        #  Was: 2
+          KEY_3                    0x00000000DF2037C8        #  Was: 3
+          KEY_4                    0x00000000DF20D728        #  Was: 4
+          KEY_5                    0x00000000DF2057A8        #  Was: 5
+          KEY_6                    0x00000000DF209768        #  Was: 6
+          KEY_7                    0x00000000DF2017E8        #  Was: 7
+          KEY_8                    0x00000000DF20E718        #  Was: 8
+          KEY_9                    0x00000000DF206798        #  Was: 9
+          KEY_0                    0x00000000DF20F708        #  Was: 0
+          ARC                      0x00000000DF20619E
+          TV/AV                    0x00000000DF202FD0
+          Turbo_Sound              0x00000000DF201DE2
+          Turbo_Picture            0x00000000DF2015EA
+          KEY_MENU                 0x00000000DF203DC2        #  Was: Menu
+          KEY_OK                   0x00000000DF20DD22        #  Was: OK
+          Vol-/Left_Arrow          0x00000000DF203FC0
+          Vol+/Right_Arrow         0x00000000DF20BF40
+          PR+/Up_Arrow             0x00000000DF20FF00
+          PR-/Down_Arrow           0x00000000DF207F80
+          KEY_REWIND               0x000000008976BF40        #  Was: Rewind
+          KEY_PLAY                 0x000000008976EF10        #  Was: Play
+          KEY_FASTFORWARD          0x0000000089763FC0        #  Was: FastForward
+          P/Still                  0x0000000089762FD0
+          KEY_STOP                 0x0000000089767F80        #  Was: Stop
+          KEY_RECORD               0x0000000089766F90        #  Was: Record
+          I/II                     0x00000000DF20AF50
+          SSM                      0x00000000DF20B54A
+          KEY_LIST                 0x00000000DF2035CA        #  Was: LIST
+          PSM                      0x00000000DF204DB2
+          KEY_SLEEP                0x00000000DF208F70        #  Was: SLEEP
+          EYE/\*                   0x00000000DF2056A9        #  Was: EYE/\*
+          KEY_TEXT                 0x00000000DF20FB04        #  Was: TEXT
+          QVIEW                    0x00000000DF20A758
+          MIX                      0x00000000DF20DB24
+          KEY_TIME                 0x00000000DF209B64        #  Was: TIME
+          REVEAL                   0x00000000DF20AB54
+          KEY_MODE                 0x00000000DF20BB44        #  Was: MODE
+          SIZE                     0x00000000DF207B84
+          HOLD                     0x00000000DF202BD4
+          UPDATE                   0x00000000DF20F30C
+          INDEX                    0x00000000DF201BE4
+          orange                   0x00000000DF20FC03
+          KEY_GREEN                0x00000000DF203CC3        #  Was: green
+          KEY_YELLOW               0x00000000DF207C83        #  Was: yellow
+          KEY_BLUE                 0x00000000DF20BC43        #  Was: blue
+      end codes
+
+end remote
+
+

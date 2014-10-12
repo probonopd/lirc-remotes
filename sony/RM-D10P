@@ -1,0 +1,110 @@
+# contributed by Wolfgang Reichling (Wolfgang.Reichling@gmx.de)
+#
+# brand:             Sony
+# model:             rm-d10p
+# supported devices: Various Sony Minidisc Decks
+#
+
+begin remote
+
+  name  rm-d10p
+  bits           20
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       2441   554
+  one          1234   553
+  zero          637   553
+  gap          44695
+  repeat_bit      0
+  frequency    40000
+  min_repeat      2
+
+      begin codes
+          KEY_SPACE                0x0000000000004B86        #  Was: space
+          exclamation              0x0000000000084B86
+          doublequote              0x0000000000044B86
+          KEY_NUMERIC_POUND        0x00000000000C4B86        #  Was: hash
+          dollar                   0x0000000000024B86
+          percent                  0x00000000000A4B86
+          ampersand                0x0000000000064B86
+          apostrophe               0x00000000000E4B86
+          open_parenthesis         0x0000000000014B86
+          KEY_CLOSE                0x0000000000094B86        #  Was: close_parenthesis
+          asterick                 0x0000000000054B86
+          KEY_KPPLUS               0x00000000000D4B86        #  Was: plus
+          comma                    0x0000000000034B86
+          dash                     0x00000000000B4B86
+          period                   0x0000000000074B86
+          slash                    0x00000000000F4B86
+          colon                    0x000000000005CB86
+          semicolon                0x00000000000DCB86
+          lessthan                 0x000000000003CB86
+          greaterthan              0x000000000007CB86
+          question                 0x00000000000FCB86
+          KEY_0                    0x000000000000CB86        #  Was: 0
+          KEY_1                    0x000000000008CB86        #  Was: 1
+          KEY_2                    0x000000000004CB86        #  Was: 2
+          KEY_3                    0x00000000000CCB86        #  Was: 3
+          KEY_4                    0x000000000002CB86        #  Was: 4
+          KEY_5                    0x00000000000ACB86        #  Was: 5
+          KEY_6                    0x000000000006CB86        #  Was: 6
+          KEY_7                    0x00000000000ECB86        #  Was: 7
+          KEY_8                    0x000000000001CB86        #  Was: 8
+          KEY_9                    0x000000000009CB86        #  Was: 9
+          cap_a                    0x0000000000082B86
+          cap_b                    0x0000000000042B86
+          cap_c                    0x00000000000C2B86
+          cap_d                    0x0000000000022B86
+          cap_e                    0x00000000000A2B86
+          cap_f                    0x0000000000062B86
+          cap_g                    0x00000000000E2B86
+          cap_h                    0x0000000000012B86
+          cap_i                    0x0000000000092B86
+          cap_j                    0x0000000000052B86
+          cap_k                    0x00000000000D2B86
+          cap_l                    0x0000000000032B86
+          cap_m                    0x00000000000B2B86
+          cap_n                    0x0000000000072B86
+          cap_o                    0x00000000000F2B86
+          cap_p                    0x000000000000AB86
+          cap_q                    0x000000000008AB86
+          cap_r                    0x000000000004AB86
+          cap_s                    0x00000000000CAB86
+          cap_t                    0x000000000002AB86
+          cap_u                    0x00000000000AAB86
+          cap_v                    0x000000000006AB86
+          cap_w                    0x00000000000EAB86
+          cap_x                    0x000000000001AB86
+          cap_y                    0x000000000009AB86
+          cap_z                    0x000000000005AB86
+          KEY_A                    0x0000000000086B86        #  Was: a
+          KEY_B                    0x0000000000046B86        #  Was: b
+          KEY_C                    0x00000000000C6B86        #  Was: c
+          KEY_D                    0x0000000000026B86        #  Was: d
+          KEY_E                    0x00000000000A6B86        #  Was: e
+          KEY_F                    0x0000000000066B86        #  Was: f
+          KEY_G                    0x00000000000E6B86        #  Was: g
+          KEY_H                    0x0000000000016B86        #  Was: h
+          KEY_I                    0x0000000000096B86        #  Was: i
+          KEY_J                    0x0000000000056B86        #  Was: j
+          KEY_K                    0x00000000000D6B86        #  Was: k
+          KEY_L                    0x0000000000036B86        #  Was: l
+          KEY_M                    0x00000000000B6B86        #  Was: m
+          KEY_N                    0x0000000000076B86        #  Was: n
+          KEY_O                    0x00000000000F6B86        #  Was: o
+          KEY_P                    0x000000000000EB86        #  Was: p
+          KEY_Q                    0x000000000008EB86        #  Was: q
+          KEY_R                    0x000000000004EB86        #  Was: r
+          KEY_S                    0x00000000000CEB86        #  Was: s
+          KEY_T                    0x000000000002EB86        #  Was: t
+          KEY_U                    0x00000000000AEB86        #  Was: u
+          KEY_V                    0x000000000006EB86        #  Was: v
+          KEY_W                    0x00000000000EEB86        #  Was: w
+          KEY_X                    0x000000000001EB86        #  Was: x
+          KEY_Y                    0x000000000009EB86        #  Was: y
+          KEY_Z                    0x000000000005EB86        #  Was: z
+      end codes
+
+end remote

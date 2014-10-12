@@ -1,0 +1,82 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.3pre1(default) on Fri Aug 28 14:19:14 2009
+#
+# contributed by
+#
+# brand:                       JVC
+# model no. of remote control: LP21036-039
+# devices being controlled by this remote:
+#
+
+begin remote
+
+  name  JVC_LP21036-039
+  bits           16
+  flags SPACE_ENC|NO_HEAD_REP|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       8481  4153
+  one           602  1500
+  zero          602   455
+  ptrail        603
+  gap          46502
+  toggle_bit_mask 0x0
+
+      begin codes
+          clp21036-039             0xC230
+          KEY_POWER                0xC0E8                    #  Was: power
+          sp/ep                    0xC0B9
+          KEY_MENU                 0xC207                    #  Was: menu
+          KEY_MUTE                 0xC038                    #  Was: mute
+          tv/vcr                   0xC0C8
+          start+                   0xC213
+          stop+                    0xC253
+          date+                    0xC263
+          KEY_CHANNELUP            0xC298                    #  Was: channel+
+          start-                   0xC293
+          stop-                    0xC2D3
+          date-                    0xC2E3
+          KEY_CHANNELDOWN          0xC218                    #  Was: channel-
+          KEY_1                    0xC084                    #  Was: 1
+          KEY_2                    0xC044                    #  Was: 2
+          KEY_3                    0xC0C4                    #  Was: 3
+          program                  0xC283
+          KEY_4                    0xC024                    #  Was: 4
+          KEY_5                    0xC0A4                    #  Was: 5
+          KEY_6                    0xC064                    #  Was: 6
+          timer                    0xC2AC
+          KEY_7                    0xC0E4                    #  Was: 7
+          KEY_8                    0xC014                    #  Was: 8
+          KEY_9                    0xC094                    #  Was: 9
+          program_check            0xC2BC
+          KEY_CANCEL               0xC00E                    #  Was: cancel
+          KEY_0                    0xC004                    #  Was: 0
+          KEY_10CHANNELSUP         0xC08E                    #  Was: +10
+          KEY_RECORD               0xC20C                    #  Was: rec_link
+          KEY_REWIND               0xC2E0                    #  Was: rew
+          KEY_PLAY                 0xC230                    #  Was: play
+          KEY_FASTFORWARD          0xC260                    #  Was: ffw
+          KEY_STOP                 0xC2C0                    #  Was: stop
+          KEY_PAUSE                0xC2B0                    #  Was: pause
+          KEY_NEXT                 0xC2F3                    #  Was: skip
+          KEY_NEXT                 0xC273                    #  Was: skip+
+          KEY_SETUP                0xC2EC                    #  Was: setup
+          display                  0xC21C
+          KEY_VOLUMEUP             0xC21C                    #  Was: volume+
+          KEY_VOLUMEUP             0xC078                    #  Was: volume+
+          KEY_VOLUMEDOWN           0xC0F8                    #  Was: volume-
+          skip_search              0xC269
+          X_KEY_3dphonic           0xC2A9                    #  Was: KEY_3dphonic
+          KEY_ENTER                0xC23C                    #  Was: enter
+          KEY_UP                   0xC098                    #  Was: up
+          KEY_DOWN                 0xC018                    #  Was: down
+          KEY_LEFT                 0xC2A8                    #  Was: left
+          KEY_RIGHT                0xC228                    #  Was: right
+          display                  0xC21C
+      end codes
+
+end remote
+
+

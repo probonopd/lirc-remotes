@@ -1,0 +1,56 @@
+# brand:             Hitachi Fujian
+# model:             VM222
+# supported devices: TV
+#
+# contributed by DJ Eaton <zjgpa@noviota.virtualave.net>
+
+begin remote
+
+  name  HFTV
+  bits            8
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           277  1831
+  zero          277   777
+  ptrail        277
+  pre_data_bits   8
+  pre_data       0xE2
+  gap          46408
+  min_repeat      1
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x0000000000000040        #  Was: Power
+          KEY_AGAIN                0x00000000000000D8        #  Was: Recall
+          KEY_1                    0x0000000000000000        #  Was: 1
+          KEY_2                    0x0000000000000010        #  Was: 2
+          KEY_3                    0x0000000000000008        #  Was: 3
+          KEY_4                    0x0000000000000018        #  Was: 4
+          KEY_5                    0x0000000000000004        #  Was: 5
+          KEY_6                    0x0000000000000014        #  Was: 6
+          KEY_7                    0x000000000000000C        #  Was: 7
+          KEY_8                    0x000000000000001C        #  Was: 8
+          KEY_9                    0x0000000000000080        #  Was: 9
+          KEY_0                    0x0000000000000090        #  Was: 0
+          X_KEY_1#                 0x0000000000000088        #  Was: KEY_1#
+          X_KEY_2#                 0x0000000000000098        #  Was: KEY_2#
+          PMode                    0x00000000000000BC
+          PMode-                   0x000000000000003C
+          PMode+                   0x000000000000002C
+          KEY_VOLUMEUP             0x0000000000000044        #  Was: Vol+
+          KEY_VOLUMEDOWN           0x0000000000000054        #  Was: Vol-
+          KEY_CHANNELUP            0x0000000000000050        #  Was: Ch+
+          KEY_CHANNELDOWN          0x0000000000000048        #  Was: Ch-
+          KEY_MUTE                 0x000000000000004C        #  Was: Mute
+          Off-Timer                0x00000000000000E8
+          Timer                    0x00000000000000F8
+          T.Mod                    0x00000000000000F4
+          KEY_TIME                 0x00000000000000EC        #  Was: Clock
+      end codes
+
+end remote
+
+

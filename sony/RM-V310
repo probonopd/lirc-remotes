@@ -1,0 +1,111 @@
+# this config file has been tested  using
+#  WinLIRC 0.6.5 (LIRC 0.6.1pre3) on Sun Mar 07 14:21:20 2010
+#
+# contributed by Alan Robinson (http://hcidesign.com)
+#
+# brand:             Sony
+# model:             RM-V310-TV
+# supported devices: TV
+#
+# Note: not all remote 'modes' send IR codes for all the buttons.
+# Using TV, at least with the factory defaults, however, does work.
+# Read the Sony docs if you want the vol+ vol- buttons to change your
+# AMPlifier volume.
+
+
+begin remote
+
+  name  Sony_RM-V310-TV
+
+  bits           12
+  flags SPACE_ENC
+  eps            30
+  aeps          100
+
+  header       2503   486
+  one          1310   478
+  zero          715   478
+  gap          24070
+  min_repeat      2
+  toggle_bit      0
+
+
+      begin codes
+          BN1                        0x0000000000000010
+          BN2                        0x0000000000000810
+          BN3                        0x0000000000000410
+          BN4                        0x0000000000000C10
+          BN5                        0x0000000000000210
+          BN6                        0x0000000000000A10
+          BN7                        0x0000000000000610
+          BN8                        0x0000000000000E10
+          BN9                        0x0000000000000110
+          BNpower                    0x0000000000000A90
+          BNpip                      0x0000000000000DB0
+          BNent                      0x0000000000000D10
+          BN0                        0x0000000000000910
+          BNvol+                     0x0000000000000490
+          BNvol-                     0x0000000000000C90
+          BNtv_video                 0x0000000000000A50
+          BNinfo                     0x00000000000005D0
+          BNsleep                    0x00000000000006D0
+          BNch+                      0x0000000000000090
+          BNch-                      0x0000000000000890
+          BNmuting                   0x0000000000000290
+          BNrecall                   0x0000000000000DD0
+          BNup                       0x00000000000002F0
+          BNdown                     0x0000000000000AF0
+          BNleft                     0x00000000000002D0
+          BNright                    0x0000000000000CD0
+          BNmenu                     0x0000000000000070
+          BNok                       0x0000000000000A70
+          BNplay                     0x0000000000000FB0
+          BN<<                       0x00000000000009B0
+          BN>>                       0x00000000000001B0
+          BNpause                    0x00000000000003B0
+          BNstop                     0x00000000000007B0
+          BNrec                      0x00000000000005B0
+      end codes
+
+end remote
+
+
+#
+# this config file was automatically generated
+# using WinLIRC 0.6.5 (LIRC 0.6.1pre3) on Sun Mar 07 14:21:20 2010
+#
+#
+# brand:             Sony
+# model:             RM-V310-VCR
+# supported devices:
+#
+
+begin remote
+
+  name  Sony_RM-V310-VCR
+  bits           12
+  flags SPACE_ENC
+  eps            30
+  aeps          100
+
+  header       2503   486
+  one          1311   478
+  zero          714   478
+  gap          22797
+  min_repeat      2
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x0000000000000A9A        #  Was: power
+          KEY_PLAY                 0x000000000000059A        #  Was: play
+          KEY_REWIND               0x0000000000000D9A        #  Was: <<
+          KEY_FORWARD              0x000000000000039A        #  Was: >>
+          KEY_PAUSE                0x000000000000099A        #  Was: pause
+          KEY_STOP                 0x000000000000019A        #  Was: stop
+          KEY_RECORD               0x0000000000000B9A        #  Was: rec
+      end codes
+
+end remote
+
+

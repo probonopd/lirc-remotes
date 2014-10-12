@@ -1,0 +1,116 @@
+#
+#
+# contributed by P_awe_L pablozrudnika@wp.pl
+#
+# brand:             PC MAK/MINIMAK LASER/MINIMAK
+# model:             Value Infrared Remote Control
+# supported devices: PC MAK receiver
+#
+
+begin remote
+
+  name  PC_MAK
+  bits           8
+  flags SPACE_ENC|CONST_LENGTH
+  eps           15
+  aeps          100
+
+  one             0   833
+  zero          833     0
+  pre_data_bits   8
+  pre_data       0xAA
+  gap           100000
+  repeat_bit      0
+
+      begin codes
+          KEY_HOME                 0x0000000000000001        #  Was: HOME
+          ARROW_UP                 0x0000000000000002
+          KEY_PAGEUP               0x0000000000000003        #  Was: PG_UP
+          ARROW_LEFT               0x0000000000000004
+          KEY_ENTER                0x0000000000000005        #  Was: ENTER
+          ARROW_RIGHT              0x0000000000000006
+          KEY_END                  0x0000000000000007        #  Was: END
+          ARROW_DOWN               0x0000000000000008
+          KEY_PAGEDOWN             0x0000000000000009        #  Was: PG_DN
+          KEY_SPACE                0x000000000000000A        #  Was: SPACE
+          KEY_TAB                  0x000000000000000B        #  Was: TAB
+          KEY_ESC                  0x000000000000000C        #  Was: ESC
+          ALT                      0x000000000000000D
+          KEY_PLAY                 0x000000000000000E        #  Was: PLAYLIST
+          LOAD                     0x000000000000000F
+          MOUSE_N                  0x0000000000000010
+          MOUSE_NE                 0x0000000000000011
+          MOUSE_E                  0x0000000000000012
+          MOUSE_SE                 0x0000000000000013
+          MOUSE_S                  0x0000000000000014
+          MOUSE_SW                 0x0000000000000015
+          MOUSE_W                  0x0000000000000016
+          MOUSE_NW                 0x0000000000000017
+          KEY_F11                  0x0000000000000018        #  Was: FULLSCREEN
+          BUTTONL_DOWN             0x0000000000000019
+          BUTTONR_DOWN             0x000000000000001A
+          KEY_POWER                0x000000000000001B        #  Was: POWER
+          KEY_A                    0x000000000000001C        #  Was: A
+          KEY_B                    0x000000000000001D        #  Was: B
+          KEY_C                    0x000000000000001E        #  Was: C
+          KEY_D                    0x000000000000001F        #  Was: D
+          KEY_VOLUMEDOWN           0x0000000000000020        #  Was: VOL_DOWN
+          KEY_MUTE                 0x0000000000000021        #  Was: MUTE
+          KEY_VOLUMEUP             0x0000000000000022        #  Was: VOL_UP
+          KEY_PLAY                 0x0000000000000024        #  Was: PLAY
+          KEY_PREVIOUS             0x0000000000000026        #  Was: PREV
+          KEY_PAUSE                0x0000000000000027        #  Was: PAUSE
+          KEY_NEXT                 0x0000000000000028        #  Was: NEXT
+          SKIP_BACK                0x0000000000000029
+          KEY_STOP                 0x000000000000002A        #  Was: STOP
+          SKIP_FORW                0x000000000000002B
+          KEY_1                    0x0000000000000041        #  Was: 1
+          KEY_2                    0x0000000000000042        #  Was: 2
+          KEY_3                    0x0000000000000043        #  Was: 3
+          KEY_4                    0x0000000000000044        #  Was: 4
+          KEY_5                    0x0000000000000045        #  Was: 5
+          KEY_6                    0x0000000000000046        #  Was: 6
+          KEY_7                    0x0000000000000047        #  Was: 7
+          KEY_8                    0x0000000000000048        #  Was: 8
+          KEY_9                    0x0000000000000049        #  Was: 9
+          KEY_0                    0x000000000000004A        #  Was: 0
+          sTAB                     0x000000000000004B
+          sESC                     0x000000000000004C
+          sALT                     0x000000000000004D
+          sPLAYLIST                0x000000000000004E
+          KEY_TEXT                 0x000000000000004F        #  Was: TXT
+          sMOUSE_N                 0x0000000000000050
+          sMOUSE_NE                0x0000000000000051
+          sMOUSE_E                 0x0000000000000052
+          sMOUSE_SE                0x0000000000000053
+          sMOUSE_S                 0x0000000000000054
+          sMOUSE_SW                0x0000000000000055
+          sMOUSE_W                 0x0000000000000056
+          sMOUSE_NW                0x0000000000000057
+          sOK                      0x0000000000000058
+          BUTTONL_UP               0x0000000000000059
+          BUTTONR_UP               0x000000000000005A
+          KEY_EXIT                 0x000000000000005B        #  Was: EXIT
+          KEY_E                    0x000000000000005C        #  Was: E
+          KEY_F                    0x000000000000005D        #  Was: F
+          KEY_G                    0x000000000000005E        #  Was: G
+          KEY_H                    0x000000000000005F        #  Was: H
+          sVOL_DOWN                0x0000000000000060
+          sMUTE                    0x0000000000000061
+          sVOL_UP                  0x0000000000000062
+          sPLAY                    0x0000000000000064
+          sPREV                    0x0000000000000066
+          sPAUSE                   0x0000000000000067
+          sNEXT                    0x0000000000000068
+          KEY_ZOOMOUT              0x0000000000000069        #  Was: ZOOM-
+          KEY_HELP                 0x000000000000006A        #  Was: HELP
+          KEY_ZOOMIN               0x000000000000006B        #  Was: ZOOM+
+          MM_PLAY                  0x000000000000002F
+          MM_PREV                  0x0000000000000030
+          MM_NEXT                  0x0000000000000031
+          MM_PAUSE                 0x000000000000005F
+          MM_BACK                  0x0000000000000075
+	  MM_FORW                  0x0000000000000079
+      end codes
+
+end remote

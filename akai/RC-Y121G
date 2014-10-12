@@ -1,0 +1,70 @@
+#
+# this config file was automatically generated
+# using lirc-WinLIRC 0.6.1pre2 (LIRC 0.6.1pre2) on Thu Jan 24 00:30:53 2002
+#
+# contributed by
+#
+# brand: AKAI
+# model: RC-Y121G      
+# supported devices: ships with VS-G267
+#
+# added repeat (CB)
+
+begin remote
+
+  name  RC-Y121G
+  bits           15
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  header       9021  2201
+  one           566  1661
+  zero          566   536
+  ptrail        566
+  pre_data_bits   16
+  pre_data       0x91EE
+  post_data_bits  1
+  post_data      0x1
+  gap          38686
+  toggle_bit      0
+  repeat       9016  2250
+
+
+      begin codes
+          off                      0x000000000000641B
+          timer                    0x000000000000651A
+          KEY_1                    0x000000000000017E        #  Was: 1
+          KEY_2                    0x000000000000413E        #  Was: 2
+          KEY_3                    0x000000000000215E        #  Was: 3
+          KEY_4                    0x000000000000611E        #  Was: 4
+          KEY_5                    0x000000000000116E        #  Was: 5
+          KEY_6                    0x000000000000512E        #  Was: 6
+          KEY_7                    0x000000000000314E        #  Was: 7
+          KEY_8                    0x000000000000710E        #  Was: 8
+          KEY_9                    0x0000000000000976        #  Was: 9
+          KEY_TV                   0x000000000000740B        #  Was: tv
+          KEY_0                    0x0000000000004936        #  Was: 0
+          KEY_DELETE               0x000000000000354A        #  Was: delete
+          display                  0x000000000000453A
+          KEY_UP                   0x0000000000001D62        #  Was: up
+          showview                 0x0000000000005926
+          KEY_LEFT                 0x0000000000004D32        #  Was: left
+          KEY_OK                   0x000000000000057A        #  Was: ok
+          KEY_RIGHT                0x0000000000000D72        #  Was: right
+          KEY_MENU                 0x0000000000007906        #  Was: menu
+          KEY_DOWN                 0x0000000000005D22        #  Was: down
+          KEY_AUDIO                0x0000000000001966        #  Was: audio
+          KEY_RECORD               0x000000000000344B        #  Was: record
+          KEY_REWIND               0x000000000000205F        #  Was: rew
+          KEY_FASTFORWARD          0x000000000000403F        #  Was: ffw
+          speed                    0x0000000000006916
+          KEY_PAUSE                0x0000000000007807        #  Was: pause
+          KEY_STOP                 0x000000000000601F        #  Was: stop
+          KEY_PLAY                 0x000000000000304F        #  Was: play
+      end codes
+
+end remote
+
+
+

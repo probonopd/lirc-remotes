@@ -1,0 +1,99 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.6(default) on Sun May 23 11:36:43 2010
+#
+# contributed by gerard|delafond.org
+#
+# brand:                       Denon
+# model no. of remote control: RC-165
+# devices being controlled by this remote:Denon HiFi 110
+#
+
+begin remote
+
+  name  Denon_rc-165
+  bits           15
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           273  1825
+  zero          273   765
+  ptrail        273
+  gap          67538
+  toggle_bit_mask 0x0
+  toggle_mask    0x3FF
+
+      begin codes
+          KEY_POWER                0x1828
+          KEY_SLEEP                0x1938
+          KEY_FN                   0x1BE8
+#BEGIN OF CD SECTION
+          KEY_STOP                 0x09E8
+          KEY_PLAY                 0x08E8
+          KEY_PAUSE                0x0AE8
+          KEY_REWIND               0x0B68
+          KEY_FORWARD              0x0968
+          KEY_PREVIOUS             0x0A68
+          KEY_NEXT                 0x0868
+          KEY_1                    0x0908
+          KEY_2                    0x0B08
+          KEY_3                    0x0888
+          KEY_4                    0x0A88
+          KEY_5                    0x0988
+          KEY_6                    0x0B88
+          KEY_7                    0x0BB7
+          KEY_8                    0x0A48
+          KEY_9                    0x0948
+#BUTTON 10
+          KEY_102ND                0x0B48
+#BUTTON +10
+          KEY_FN_F10               0x08C8
+#DIRECT
+          KEY_DIRECTION            0x0BA8
+          KEY_PROGRAM              0x0AC8
+          KEY_CANCEL               0x0A28
+#TUNER SECTION
+#BAND
+          KEY_RADIO                0x1BAC
+          KEY_DOWN                 0x196C
+          KEY_UP                   0x1A6C
+#CT
+          KEY_LEFTCTRL             0x1B2C
+#RDS
+          KEY_RED                  0x192C
+#PRESET
+          KEY_SCROLLDOWN           0x1BC8
+          KEY_SCROLLUP             0x19C8
+#DECK 1
+#REW
+          KEY_FN_F1                0x13A8
+#FORWARD
+          KEY_FN_F2                0x10E8
+#FAST REW
+          KEY_FN_F3                0x1368
+#FAST FORWARD
+          KEY_FN_F4                0x1168
+#STOP
+          KEY_FN_F5                0x11E8
+#DECK 2
+#REW
+          KEY_FN_F6                0x1398
+#FORWARD
+          KEY_FN_F7                0x10D8
+#FAST REW
+          KEY_FN_F8                0x1358
+#FAST FORWARD
+          KEY_FN_F9                0x1158
+#STOP
+          KEY_FN_F10               0x11D8
+          KEY_RECORD               0x13D8
+#SDB (DYNAMIC BASS ?)
+          KEY_SOUND                0x095C
+          KEY_VOLUMEDOWN           0x18C8
+          KEY_VOLUMEUP             0x1AC8
+      end codes
+
+end remote
+
+

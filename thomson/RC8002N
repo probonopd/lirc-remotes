@@ -1,0 +1,69 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.3 (any) on May 12 2008
+#
+# contributed by Leon de Bruxelles
+#
+# brand: THOMSON
+# model no. of remote control: RC8002N
+# devices being controlled by this remote: VCR/TV
+#
+
+begin remote
+
+  name  Thomson_RC8002N
+  bits           12
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           576  4484
+  zero          576  1952
+  ptrail        577
+  gap          80284
+  toggle_bit_mask 0x80
+
+      begin codes
+          KEY_RED                  0x339                     #  Was: Red
+          KEY_GREEN                0x33B                     #  Was: Green
+          KEY_YELLOW               0x338                     #  Was: Yellow
+          KEY_BLUE                 0x315                     #  Was: Blue
+          Magenta                  0x31E
+          KEY_POWER                0x31D                     #  Was: Power
+          KEY_EXIT                 0x33E                     #  Was: Exit
+          KEY_MENU                 0x331                     #  Was: Menu
+          KEY_UP                   0x30B                     #  Was: Up
+          KEY_DOWN                 0x30D                     #  Was: Down
+          KEY_LEFT                 0x336                     #  Was: Left
+          KEY_RIGHT                0x337                     #  Was: Right
+          KEY_OK                   0x30C                     #  Was: OK
+          KEY_VOLUMEUP             0x329                     #  Was: Vol+
+          KEY_VOLUMEDOWN           0x32A                     #  Was: Vol-
+          KEY_CHANNELUP            0x325                     #  Was: PR+
+          KEY_CHANNELDOWN          0x327                     #  Was: PR-
+          KEY_MUTE                 0x305                     #  Was: Mute
+          Num_1                    0x300
+          Num_2                    0x308
+          Num_3                    0x310
+          Num_4                    0x301
+          Num_5                    0x309
+          Num_6                    0x311
+          Num_7                    0x302
+          Num_8                    0x30A
+          Num_9                    0x312
+          Num_0                    0x30E
+          AV                       0x318
+          Index                    0x03C
+          Reset_counter            0x03D
+          SP/LP                    0x005
+          KEY_REWIND               0x01F                     #  Was: Rew
+          KEY_PLAY                 0x020                     #  Was: Play
+          F_FWD                    0x021
+          KEY_RECORD               0x023                     #  Was: Rec
+          KEY_STOP                 0x024                     #  Was: Stop
+          KEY_PAUSE                0x022                     #  Was: Pause
+      end codes
+
+end remote
+
+

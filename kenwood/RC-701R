@@ -1,0 +1,76 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.3(serial) on Fri May 11 00:00:45 2001
+#
+# contributed by
+#
+# brand:             Kenwood
+# model:             RC-701R
+# supported devices:
+#
+
+begin remote
+
+  name  Kenwood_RC-701R
+  bits           24
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9183  4341
+  one           724  1525
+  zero          724   399
+  ptrail        726
+  repeat       9178  2097
+  pre_data_bits   8
+  pre_data       0x1D
+  gap          107970
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x000000000000B946        #  Was: Power
+          PTY                      0x00000000008039C6
+          RDS_DISP                 0x0000000000001AE5
+          TA_NEWS_INFO             0x00000000004003FC
+          KEY_1                    0x000000000000817E        #  Was: 1
+          KEY_2                    0x00000000000041BE        #  Was: 2
+          KEY_3                    0x000000000000C13E        #  Was: 3
+          KEY_4                    0x00000000000021DE        #  Was: 4
+          KEY_5                    0x000000000000A15E        #  Was: 5
+          KEY_6                    0x000000000000619E        #  Was: 6
+          KEY_7                    0x000000000000E11E        #  Was: 7
+          KEY_8                    0x00000000000011EE        #  Was: 8
+          KEY_9                    0x000000000000916E        #  Was: 9
+          KEY_0                    0x00000000000001FE        #  Was: 0
+          KEY_10CHANNELSUP         0x000000000000B04F        #  Was: +10
+          DISC_SKIP                0x00000000000010EF
+          SRS_3D                   0x000000000040AA55
+          EX.BASS                  0x000000000040EA15
+          EQ.ON/OFF                0x000000000000F00F
+          INPUT                    0x00000000008033CC
+          KEY_TIME                 0x000000000000708F        #  Was: TIME
+          RANDOM                   0x0000000000802BD4
+          KEY_AGAIN                0x00000000000033CC        #  Was: REPEAT
+          BAND                     0x000000000040609F
+          TUNING-                  0x00000000004040BF
+          TUNING+                  0x000000000040C03F
+          P.CALL-                  0x00000000004000FF
+          P.CALL+                  0x000000000040807F
+          KEY_TAPE                 0x000000000040A05F        #  Was: TAPE
+          CD_PLAYPAUSE             0x000000000040E01F
+          A/B                      0x00000000004010EF
+          KEY_STOP                 0x00000000004020DF        #  Was: STOP
+          KEY_MUTE                 0x00000000000039C6        #  Was: MUTE
+          KEY_MENU                 0x000000000020B946        #  Was: MENU
+          SET                      0x00000000002039C6
+          KEY_ENTER                0x0000000000805AA5        #  Was: ENTER
+          KEY_UP                   0x000000000000D926        #  Was: UP
+          KEY_DOWN                 0x00000000000059A6        #  Was: DOWN
+          KEY_LEFT                 0x0000000000808976        #  Was: LEFT
+          KEY_RIGHT                0x00000000008049B6        #  Was: RIGHT
+      end codes
+
+end remote
+
+

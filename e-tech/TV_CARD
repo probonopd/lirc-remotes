@@ -1,0 +1,66 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.5(serial) on Sun Mar 31 04:22:18 2002
+#
+# contributed by henk@god.dyndns.org
+#
+# brand: e-tech   http://www.e-tech.nu
+# model: noname (remote is slightly different from picture on web site)
+# supported devices: e-tech TV-Card, e-tech TV-Radio-card (likely),
+#	 fly98 clones (likely)
+#
+# This config is compatible with the FLY98-gpio version except for the
+# REV and FWD keys that miss on my remote
+#
+begin remote
+  name		FLY98
+  bits		16
+  flags		SPACE_ENC|CONST_LENGTH
+  eps		30
+  aeps		100
+
+  header	9019  4474
+  one           590  1656
+  zero          590   532
+  ptrail        578
+  repeat	9020  4475
+  pre_data_bits	26
+  pre_data	0x1A1F2F
+  gap		107852
+  toggle_bit	0
+
+      begin codes
+          KEY_0                    0x000000000000F00F        #  Was: 0
+          KEY_1                    0x000000000000C03F        #  Was: 1
+          KEY_2                    0x00000000000020DF        #  Was: 2
+          KEY_3                    0x000000000000A05F        #  Was: 3
+          KEY_4                    0x000000000000E01F        #  Was: 4
+          KEY_5                    0x00000000000010EF        #  Was: 5
+          KEY_6                    0x000000000000906F        #  Was: 6
+          KEY_7                    0x000000000000D02F        #  Was: 7
+          KEY_8                    0x00000000000030CF        #  Was: 8
+          KEY_9                    0x000000000000B04F        #  Was: 9
+          KEY_CANCEL               0x000000000000F807        #  Was: CANCEL
+          KEY_ENTER                0x00000000000008F7        #  Was: ENTER
+          KEY_MUTE                 0x000000000000D827        #  Was: MUTE
+	MOUSE_MODE		0x000000000000807F
+          KEY_F11                  0x00000000000040BF        #  Was: FULL_SCREEN
+          KEY_CHANNELDOWN          0x000000000000609F        #  Was: CHANNELS
+          KEY_VIDEO                0x0000000000008877        #  Was: VIDEO
+          KEY_UP                   0x000000000000708F        #  Was: UP
+          KEY_DOWN                 0x0000000000009867        #  Was: DOWN
+#	LEFT			0x00000000000048B7 see CHAN_PLUS
+          KEY_RIGHT                0x000000000000A857        #  Was: RIGHT
+	INC			0x00000000000050AF
+	DEC			0x0000000000006897
+#	CENTER			0x000000000000C837 see CHAN_MINUS
+          KEY_ESC                  0x00000000000058A7        #  Was: ESC
+          KEY_ENTER                0x00000000000018E7        #  Was: RETURN
+          KEY_MENU                 0x000000000000B847        #  Was: MENU
+          KEY_VOLUMEUP             0x00000000000028D7        #  Was: VOL_PLUS
+          KEY_VOLUMEDOWN           0x000000000000E817        #  Was: VOL_MINUS
+          KEY_CHANNELUP            0x00000000000048B7        #  Was: CHAN_PLUS
+          KEY_CHANNELDOWN          0x000000000000C837        #  Was: CHAN_MINUS
+          KEY_POWER                0x00000000000000FF        #  Was: POWER
+      end codes
+end remote

@@ -1,0 +1,64 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.5-CVS(parallel) on Thu Sep 13 21:00:23 2001
+#
+# contributed by Christoph Bartelmus
+#
+# brand:                       JVC
+# model no. of remote control: RM-SFSSD7R
+# devices being controlled by this remote: FS-SD5R
+#
+
+begin remote
+
+  name  RM-SFSSD7R
+  bits           16
+  flags SPACE_ENC|NO_HEAD_REP|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       8587  4221
+  one           596  1533
+  zero          596   478
+  ptrail        593
+  gap          46756
+  toggle_bit      0
+
+
+      begin codes
+          DIMMER                   0x000000000000CD4A
+          KEY_SLEEP                0x000000000000C5C0        #  Was: SLEEP
+          KEY_POWER                0x000000000000C5E8        #  Was: POWER
+          DISPLAY                  0x000000000000C50E
+          AUTO_PRESET              0x000000000000C5EE
+          FM_MODE                  0x000000000000C55A
+          PROGRAM                  0x000000000000CD56
+          RANDOM                   0x000000000000CD4E
+          KEY_AGAIN                0x000000000000CDDA        #  Was: REPEAT
+          AHB_PRO                  0x000000000000C5AE
+          DOOR_SLIDE               0x000000000000F515
+          CD_EJECT                 0x000000000000CD22
+          BASS                     0x000000000000C58C
+          TREBLE                   0x000000000000C5EC
+          KEY_CANCEL               0x000000000000CDB6        #  Was: CANCEL
+          PTY/EON                  0x000000000000F5A1
+          KEY_UP                   0x000000000000F503        #  Was: UP
+          DISPLAY_MODE             0x000000000000F5C1
+          KEY_LEFT                 0x000000000000F5C3        #  Was: LEFT
+          SET                      0x000000000000F589
+          KEY_RIGHT                0x000000000000F543        #  Was: RIGHT
+          FADE_MUTING              0x000000000000C538
+          KEY_DOWN                 0x000000000000F583        #  Was: DOWN
+          MD/AUX                   0x000000000000C57C
+          CD_PLAY                  0x000000000000CDD6
+          FM/AM                    0x000000000000C5D0
+          KEY_FORWARD              0x000000000000F5A0        #  Was: FWD
+          BWD                      0x000000000000F560
+          KEY_STOP                 0x000000000000CDC2        #  Was: STOP
+          KEY_KPPLUS               0x000000000000C578        #  Was: +
+          KEY_KPMINUS              0x000000000000C5F8        #  Was: -
+      end codes
+
+end remote
+
+

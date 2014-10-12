@@ -1,0 +1,200 @@
+#
+# this config file was hand-generated
+# using lirc-0.8.4a (imon) on Fri Nov  7 13:55:44 2008
+#
+# contributed by Jarod Wilson <jarod@wilsonet.com>
+#
+# brand:                       Antec Veris
+# model no. of remote control: RM200 (Rebadged iMon PAD)
+# devices being controlled by this remote:
+# 	-Antec Veris Multimedia Station Premiere
+# 	-Antec Veris Multimedia Station Elite, possibly
+#
+# nb: most codes appear to come in with an initial keypress value, as well as
+# a "this key is no longer being pressed" value, which is "key | 0x00004000"
+
+begin remote
+
+  name   Antec_Veris_RM200
+  bits                  64
+  eps                   30
+  aeps                 100
+
+  one              0     0
+  zero             0     0
+  gap               139998
+  ignore_mask 0x0000000000000301
+  min_repeat             1
+  toggle_bit             0
+
+      begin codes
+          KEY_EXIT                 0x2881d5b700000201 # AppExit
+          KEY_POWER                0x289115b700000201 # Power
+          KEY_RECORD               0x298115b700000201 # Record
+          KEY_PLAY                 0x2a8115b700000201 # Play
+          KEY_OPEN                 0x29b195b700000201 # Tray Open
+          KEY_REWIND               0x2a8195b700000201 # Rewind
+          KEY_PAUSE                0x2a9115b700000201 # Pause
+          KEY_FASTFORWARD          0x2b8115b700000201 # Fast Forward
+          KEY_PREVIOUS             0x2b9115b700000201 # Previous Chapter
+          KEY_STOP                 0x2b9715b700000201 # Stop
+          KEY_NEXT                 0x298195b700000201 # Next Chapter
+          KEY_ESC                  0x0200002900000201 # Esc
+          KEY_EJECTCD              0x299395b700000201 # Eject
+          AppLauncher              0x29b715b700000201 # App. Launcher
+          Go                       0x2ab195b700000201 # Go
+          TaskSwitcher             0x2a9395b700000201 # Task Switcher
+          KEY_MUTE                 0x2b9595b700000201 # Mute
+          KEY_VOLUMEUP             0x28a395b700000201 # VOL +
+          KEY_VOLUMEDOWN           0x28a595b700000201 # VOL -
+          KEY_CHANNELUP            0x289395b700000201 # CH +
+          KEY_CHANNELDOWN          0x288795b700000201 # CH -
+          Timer                    0x2b8395b700000201 # Timer
+          KEY_1                    0x0200001e00000201 # 1
+          KEY_2                    0x0200001f00000201 # 2
+          KEY_3                    0x0200002000000201 # 3
+          KEY_4                    0x0200002100000201 # 4
+          KEY_5                    0x0200002200000201 # 5
+          KEY_6                    0x0200002300000201 # 6
+          KEY_7                    0x0200002400000201 # 7
+          KEY_8                    0x0200002500000201 # 8
+          KEY_9                    0x0200002600000201 # 9
+          KEY_0                    0x0200002700000201 # 0
+          KEY_NUMERIC_STAR         0x0220002500000201        #  Was: Star
+          KEY_NUMERIC_POUND        0x0220002000000201        #  Was: Hash
+          KEY_VIDEO                0x2b8515b700000201 # Videos
+          KEY_AUDIO                0x299195b700000201 # Music
+          X_KEY_PHOTO              0x2ba115b700000201        #  Was: KEY_PHOTO
+          KEY_TV                   0x28a515b700000201 # TV
+          KEY_BOOKMARKS            0x288515b700000201 # Bookmark
+          Thumbnail                0x2ab715b700000201 # Thumbnail
+          KEY_ZOOM                 0x29a595b700000201        #  Was: Zoom
+          KEY_F11                  0x2aa395b700000201        #  Was: FullScreen
+          KEY_DVD                  0x29a395b700000201 # DVD
+          KEY_DVD                  0x29a295b700000201 # DVD, version 2
+          KEY_MENU                 0x2ba395b700000201 # Menu
+          KEY_MENU                 0x2ba385b700000201 # Menu, version 2
+          KEY_SUBTITLE             0x298595b700000201        #  Was: Subtitle
+          KEY_LANGUAGE             0x2b8595b700000201 # Audio
+          MouseKeyboard            0x299115b700000201 # Mouse/Keyboard
+# MouseKeyboard also spews 0100007f between press and release...
+          KEY_BACKSPACE            0x0200002a00000201 # Backspace
+          KEY_SELECT               0x0200002c00000201 # Select/Space
+# SelectSpace also spews 2b9115b7 and 289115b7 between press and release...
+          LeftMenu                 0x0280000000000201 # Left Menu
+          RightMenu                0x0200006500000201 # Right Menu
+          BTN_LEFT                 0x0101000000000201 # L. Click
+          BTN_LEFT                 0x0101008000000201 # L. Click, version 2
+# LeftClick flips to 01010001 when held
+          BTN_RIGHT                0x0102000000000201 # R. Click
+          BTN_RIGHT                0x0102008000000201 # R. Click, version 2
+# Un-click for both right and left is 01000000
+          KEY_ENTER                0x0200002800000201 # ENTER
+# Un-click for all 0x02foo buttons is 02000000
+          KEY_UP                   0x0100800000000201 # Pad Up
+          KEY_DOWN                 0x01007f0000000201 # Pad Down
+          KEY_LEFT                 0x0100008000000201 # Pad Left
+          KEY_RIGHT                0x0100007f00000201 # Pad Right
+      end codes
+
+end remote
+
+#
+# this config file was hand-generated
+# using lirc-0.8.4a (imon) on Fri Nov  7 13:55:44 2008
+#
+# contributed by Jarod Wilson <jarod@wilsonet.com>
+#
+# brand:                       Antec Veris
+# model no. of remote control: Multimedia Station Premiere Front Panel
+# devices being controlled by this remote:
+# 	-Antec Veris Multimedia Station Premiere
+#
+
+begin remote
+
+  name   Antec_Veris_Premiere
+  bits                  64
+  eps                   30
+  aeps                 100
+
+  one              0     0
+  zero             0     0
+  gap               139998
+  ignore_mask 0x0000000000000301
+  min_repeat             1
+  toggle_bit             0
+
+      begin codes
+# Front Panel Buttons
+          Go                       0x000000000f0002ee # Go
+          KEY_AUDIO                0x000000001f0002ee # Music
+          KEY_VIDEO                0x00000000200002ee # Videos
+          X_KEY_PHOTO              0x00000000210002ee        #  Was: KEY_PHOTO
+          KEY_DVD                  0x00000000270002ee # DVD
+#          KEY_TV                   gack. mine doesn't send *anything*, might be busted
+          KEY_PREVIOUS             0x00000000050002ee # Prev
+          KEY_REWIND               0x00000000070002ee # Rewind
+          KEY_STOP                 0x00000000040002ee # Stop
+          KEY_PLAYPAUSE            0x000000003c0002ee # Play/Pause
+          KEY_FASTFORWARD          0x00000000080002ee # F.Fwd
+          KEY_NEXT                 0x00000000060002ee # Next
+          KEY_RIGHT                0x00000001000002ee # Navigation Clockwise
+          KEY_LEFT                 0x00000100000002ee # Navigation Counter-Clockwise
+          KEY_SELECT               0x000000003d0002ee # Navigation Knob Push
+          KEY_VOLUMEUP             0x00010000000002ee # Volume Up (CW)
+          KEY_VOLUMEDOWN           0x01000000000002ee # Volume Down (CCW)
+          KEY_MUTE                 0x00000000010002ee # Mute (Volume Knob Push)
+      end codes
+
+end remote
+#
+# this config file was hand-generated
+# using lirc-0.8.5-CVS (imon) on Wed Jan 14 2009
+#
+# contributed by Michel Quercia <michel.quercia|prepas.org>
+#
+# brand:                       Antec Veris
+# model no. of remote control: RM100 (Rebadged iMon PAD)
+# devices being controlled by this remote:
+# 	-Antec Veris Fusion 350
+#
+# nb: most codes appear to come in with an initial keypress value, as well as
+# a "this key is no longer being pressed" value, which is "key | 0x00004000"
+
+begin remote
+
+  name   Antec_Veris_RM100
+  bits                  64
+  eps                   30
+  aeps                 100
+
+  one              0     0
+  zero             0     0
+  gap               139998
+  ignore_mask 0x0000000000000301
+  min_repeat             1
+  toggle_bit             0
+
+      begin codes
+          KEY_EXIT                 0x288195b700000101 # AppExit
+          KEY_POWER                0x289115b700000101 # Power
+          KEY_BACKSPACE            0x0200002a00000000 # Backspace
+          KEY_UP                   0x2aa515b700000101 # Pad Up
+          RightMenu                0x0200006500000000 # Right Menu
+          KEY_LEFT                 0x29a515b700000101 # Pad Left
+          KEY_ENTER                0x0200002800000000 # ENTER
+          KEY_RIGHT                0x2ba515b700000101 # Pad Right
+          KEY_VOLUMEUP             0x28a395b700000101 # VOL +
+          KEY_DOWN                 0x289515b700000101 # Pad Down
+          KEY_CHANNELUP            0x289395b700000101 # CH +
+          KEY_VOLUMEDOWN           0x28a595b700000101 # VOL -
+          KEY_MUTE                 0x2b9595b700000101 # Mute
+          KEY_CHANNELDOWN          0x288795b700000101 # CH -
+          KEY_REWIND               0x298315b700000101 # Rewind
+          KEY_PLAY                 0x2a8315b700000101 # Play
+          KEY_FASTFORWARD          0x2b8315b700000101 # Fast Forward
+          Go                       0x2ab195b700000101 # Go
+      end codes
+
+end remote

@@ -1,0 +1,79 @@
+#
+# this config file was automatically generated
+# using lirc-0.7.0-CVS(serial) on Thu Oct 28 23:36:42 2004
+#
+# contributed by Leo Weppelman
+#
+# brand: Revoy
+# model no. of remote control:  none found
+# devices being controlled by this remote: Revoy 2200
+#
+
+begin remote
+
+  name  Revoy2200
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       8997  4489
+  one           547  1696
+  zero          547   576
+  ptrail        556
+  repeat       8995  2249
+  pre_data_bits   16
+  pre_data       0x99
+  gap          107808
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x000000000000CA35        #  Was: power
+          KEY_OPEN                 0x000000000000E21D        #  Was: open
+          KEY_UP                   0x000000000000D22D        #  Was: up
+          KEY_LEFT                 0x0000000000004AB5        #  Was: left
+          KEY_ENTER                0x00000000000052AD        #  Was: enter
+          KEY_RIGHT                0x000000000000629D        #  Was: right
+          KEY_STOP                 0x0000000000008A75        #  Was: stop
+          KEY_DOWN                 0x000000000000926D        #  Was: down
+          KEY_PLAY                 0x000000000000A25D        #  Was: play
+          KEY_PREVIOUS             0x0000000000000AF5        #  Was: prev
+          KEY_NEXT                 0x000000000000F20D        #  Was: next
+          scb                      0x00000000000012ED
+          scf                      0x00000000000022DD
+          KEY_MENU                 0x000000000000C837        #  Was: menu
+          display                  0x000000000000728D
+          KEY_OK                   0x000000000000D02F        #  Was: ok
+          KEY_SETUP                0x000000000000E01F        #  Was: setup
+          KEY_1                    0x00000000000048B7        #  Was: 1
+          KEY_2                    0x000000000000708F        #  Was: 2
+          KEY_3                    0x00000000000050AF        #  Was: 3
+          KEY_4                    0x0000000000008877        #  Was: 4
+          KEY_5                    0x000000000000B04F        #  Was: 5
+          KEY_6                    0x000000000000906F        #  Was: 6
+          KEY_7                    0x00000000000008F7        #  Was: 7
+          KEY_8                    0x00000000000030CF        #  Was: 8
+          KEY_9                    0x00000000000010EF        #  Was: 9
+          KEY_0                    0x000000000000E817        #  Was: 0
+          clr                      0x000000000000F00F
+          a-b                      0x000000000000F807
+          KEY_TITLE                0x000000000000C03F        #  Was: title
+          KEY_MODE                 0x000000000000609F        #  Was: mode
+          KEY_SEARCH               0x000000000000A05F        #  Was: search
+          mark                     0x00000000000020DF
+          KEY_ENTER                0x0000000000002AD5        #  Was: return
+          KEY_PAUSE                0x00000000000032CD        #  Was: pause
+          game                     0x0000000000003AC5
+          KEY_ANGLE                0x00000000000002FD        #  Was: angle
+          sleft                    0x000000000000AA55
+          sright                   0x000000000000B24D
+          KEY_ZOOM                 0x000000000000BA45        #  Was: zoom
+          KEY_SUBTITLE             0x000000000000827D        #  Was: subtitle
+          KEY_VOLUMEDOWN           0x0000000000006A95        #  Was: vol-
+          KEY_VOLUMEUP             0x0000000000005AA5        #  Was: vol+
+          X_KEY_3d                 0x0000000000007A85        #  Was: KEY_3d
+          KEY_AUDIO                0x00000000000042BD        #  Was: audio
+      end codes
+
+end remote

@@ -1,0 +1,61 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.5(any) on Wed Jul 10 21:59:56 2002
+#
+# contributed by Bernd Gmeineder
+#
+# brand:                                   Commodore
+# model no. of remote control:             CDTV Remote Controller
+# devices being controlled by this remote: Commodore Dynamic Total Vision (CDTV)
+#
+
+begin remote
+
+  name  cdtv
+  bits           24
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9063  4434
+  one           451  1147
+  zero          451   348
+  ptrail        449
+  repeat       9063  2197
+  gap          62323
+  toggle_bit      0
+
+
+      begin codes
+          KEY_LEFT                 0x0000000000008FF7
+          KEY_RIGHT                0x0000000000004FFB
+          KEY_UP                   0x0000000000020FDF
+          KEY_DOWN                 0x0000000000010FEF
+          KEY_1                    0x0000000000001FFE        #  Was: 1
+          KEY_2                    0x0000000000021FDE        #  Was: 2
+          KEY_3                    0x0000000000011FEE        #  Was: 3
+          KEY_4                    0x0000000000009FF6        #  Was: 4
+          KEY_5                    0x0000000000029FD6        #  Was: 5
+          KEY_6                    0x0000000000019FE6        #  Was: 6
+          KEY_7                    0x0000000000005FFA        #  Was: 7
+          KEY_8                    0x0000000000025FDA        #  Was: 8
+          KEY_9                    0x0000000000015FEA        #  Was: 9
+          KEY_0                    0x0000000000039FC6        #  Was: 0
+          KEY_ESC                  0x0000000000031FCE        #  Was: escape
+          KEY_ENTER                0x0000000000035FCA        #  Was: enter
+          genlock                  0x0000000000022FDD
+          cdtv                     0x0000000000002FFD
+          KEY_POWER                0x0000000000012FED        #  Was: power
+          KEY_REWIND               0x0000000000032FCD        #  Was: rew
+          KEY_PLAYPAUSE            0x000000000000AFF5        #  Was: playpause
+          KEY_FASTFORWARD          0x000000000001AFE5        #  Was: ff
+          KEY_STOP                 0x000000000002AFD5        #  Was: stop
+          KEY_VOLUMEUP             0x0000000000006FF9        #  Was: vol_up
+          KEY_VOLUMEDOWN           0x000000000003AFC5        #  Was: vol_down
+          a_button                 0x0000000000080F7F
+          b_button                 0x0000000000040FBF
+      end codes
+
+end remote
+
+

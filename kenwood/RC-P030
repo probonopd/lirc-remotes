@@ -1,0 +1,65 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.3(serial) on Thu Jul 26 19:43:49 2001
+#
+# contributed by
+#
+# brand:             Kenwood
+# model:             RC-P030
+# supported devices: CD Player
+#
+
+begin remote
+
+  name  RC-P030
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9112  4430
+  one           635  1615
+  zero          635   491
+  ptrail        635
+  repeat       9113  2174
+  pre_data_bits   16
+  pre_data       0x6D92
+  gap          108460
+  toggle_bit      0
+
+
+      begin codes
+          KEY_EDIT                 0x00000000000052AD        #  Was: edit
+          check                    0x000000000000D827
+          KEY_CLEAR                0x00000000000058A7        #  Was: clear
+          KEY_POWER                0x0000000000008976        #  Was: power
+          KEY_1                    0x000000000000807F        #  Was: 1
+          KEY_2                    0x00000000000040BF        #  Was: 2
+          KEY_3                    0x000000000000C03F        #  Was: 3
+          peak_search              0x000000000000B14E
+          KEY_4                    0x00000000000020DF        #  Was: 4
+          KEY_5                    0x000000000000A05F        #  Was: 5
+          KEY_6                    0x000000000000609F        #  Was: 6
+          KEY_SPACE                0x00000000000042BD        #  Was: space
+          KEY_7                    0x000000000000E01F        #  Was: 7
+          KEY_8                    0x00000000000010EF        #  Was: 8
+          KEY_9                    0x000000000000906F        #  Was: 9
+          KEY_AGAIN                0x000000000000C23D        #  Was: repeat
+          KEY_BACK                 0x00000000000028D7        #  Was: back
+          KEY_FORWARD              0x000000000000A857        #  Was: forward
+          KEY_0                    0x00000000000000FF        #  Was: 0
+          KEY_10CHANNELSUP         0x00000000000050AF        #  Was: +10
+          KEY_LAST                 0x0000000000006897        #  Was: last
+          KEY_NEXT                 0x000000000000E817        #  Was: next
+          KEY_PLAY                 0x000000000000C837        #  Was: play
+          KEY_STOP                 0x0000000000008877        #  Was: stop
+          random                   0x000000000000F20D
+          KEY_UP                   0x000000000000926D        #  Was: up
+          KEY_DOWN                 0x00000000000012ED        #  Was: down
+          p.mode                   0x000000000000F807
+      end codes
+
+end remote
+
+
+

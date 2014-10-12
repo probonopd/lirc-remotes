@@ -1,0 +1,132 @@
+#------------------------------------------------------------------------------
+# contributed by     Tom Pritchard (tom.pritchard@cantab.net)       15-Aug-2002
+#------------------------------------------------------------------------------
+#
+# filename:		One-For-All
+# encoding:		shift encoded, RC-5
+# brand:             	(Philips)
+# model:            	(Made-up)
+#
+# remote model:		 URC-7510
+#
+# supported devices: TV (with Text-TV)
+#
+# Info:
+# -----
+#
+# This is a One-For-All URC-7510 remote.
+# Setup it up with the Philips barcode (0081) basic layout (ie power button, then magic)
+# But with the following codes programmed to the keys below: (See instructions on "Key Magic")
+#
+#	MENU		012
+#	BLUE		051
+#	GREEN		243
+#	RED		019
+#	YELLOW		115
+#	WHITE		211
+#	16:9		049
+#	UP		239
+#	DOWN		015
+#	LEFT		174
+#	RIGHT		206
+#	OK		110
+#
+# If you want any help working the translation between One-For-All codes and the
+# LIRC codes you see below, mail me - I spent some time working out how it was done!
+#
+#------------------------------------------------------------------------------
+
+begin remote
+
+  name  One-For-All
+  bits           11
+  flags SHIFT_ENC
+  eps            20
+  aeps            0
+
+  header          0     0
+  one           940   840
+  zero          940   840
+  ptrail          0
+  plead         940
+  foot            0     0
+  repeat          0     0
+  pre_data_bits   2
+  pre_data       0x02
+  post_data_bits  0
+  post_data      0x0
+  pre             0     0
+  post            0     0
+  gap          90000
+  repeat_bit      2
+
+      begin codes
+
+          KEY_0                    0x0000000000000000        #  Was: 0
+          KEY_1                    0x0000000000000001        #  Was: 1
+          KEY_2                    0x0000000000000002        #  Was: 2
+          KEY_3                    0x0000000000000003        #  Was: 3
+          KEY_4                    0x0000000000000004        #  Was: 4
+          KEY_5                    0x0000000000000005        #  Was: 5
+          KEY_6                    0x0000000000000006        #  Was: 6
+          KEY_7                    0x0000000000000007        #  Was: 7
+          KEY_8                    0x0000000000000008        #  Was: 8
+          KEY_9                    0x0000000000000009        #  Was: 9
+          KEY_102ND                0x000000000000000a        #  Was: -/--
+          X_KEY_0B                 0x000000000000000b        #  Was: KEY_0B
+          KEY_POWER                0x000000000000000c        #  Was: POWER
+          KEY_MUTE                 0x000000000000000d        #  Was: MUTE
+		PP				0x000000000000000e
+          KEY_MENU                 0x000000000000000f        #  Was: MENU
+          KEY_VOLUMEUP             0x0000000000000010        #  Was: VOL_UP
+          KEY_VOLUMEDOWN           0x0000000000000011        #  Was: VOL_DOWN
+		BRIGHT_PLUS			0x0000000000000012
+		BRIGHT_MINUS			0x0000000000000013
+		COLOR_PLUS			0x0000000000000014
+		COLOR_MINUS			0x0000000000000015
+          KEY_UP                   0x0000000000000016        #  Was: UP
+          KEY_DOWN                 0x0000000000000017        #  Was: DOWN
+          KEY_LEFT                 0x0000000000000018        #  Was: LEFT
+          KEY_RIGHT                0x0000000000000019        #  Was: RIGHT
+          KEY_OK                   0x000000000000001a        #  Was: OK
+          X_KEY_1B                 0x000000000000001b        #  Was: KEY_1B
+          X_KEY_1C                 0x000000000000001c        #  Was: KEY_1C
+		TEXT_MEMO_OUT			0x000000000000001d
+          X_KEY_1E                 0x000000000000001e        #  Was: KEY_1E
+          X_KEY_1F                 0x000000000000001f        #  Was: KEY_1F
+		PRG_UP				0x0000000000000020
+		PRG_DOWN 			0x0000000000000021
+		PRG_RECALL			0x0000000000000022
+          KEY_3                    0x0000000000000023        #  Was: 0x23
+          KEY_9                    0x0000000000000024        #  Was: 16:9
+          KEY_5                    0x0000000000000025        #  Was: 0x25
+          KEY_SLEEP                0x0000000000000026        #  Was: SLEEP
+          KEY_7                    0x0000000000000027        #  Was: 0x27
+          KEY_8                    0x0000000000000028        #  Was: 0x28
+		TEXT_DECREASE			0x0000000000000029
+		TEXT_TIME			0x000000000000002a
+		TEXT_INCREASE			0x000000000000002b
+		TEXT_REVEAL			0x000000000000002c
+		TEXT_SQUISH			0x000000000000002d
+		TEXT+TV				0x000000000000002e
+          X_KEY_2F                 0x000000000000002f        #  Was: KEY_2F
+          KEY_0                    0x0000000000000030        #  Was: 0X30
+		WHITE				0x0000000000000031
+          KEY_YELLOW               0x0000000000000032        #  Was: YELLOW
+          KEY_BLUE                 0x0000000000000034        #  Was: BLUE
+		TEXT_INDEX			0x0000000000000035
+          KEY_GREEN                0x0000000000000036        #  Was: GREEN
+          KEY_RED                  0x0000000000000037        #  Was: RED
+		A/V				0x0000000000000038
+          KEY_9                    0x0000000000000039        #  Was: 0X39
+          X_KEY_3a                 0x000000000000003a        #  Was: KEY_3a
+          X_KEY_3B                 0x000000000000003b        #  Was: KEY_3B
+          KEY_TEXT                 0x000000000000003c        #  Was: TEXT
+          X_KEY_3D                 0X000000000000003D        #  Was: KEY_3D
+          X_KEY_3E                 0X000000000000003E        #  Was: KEY_3E
+          KEY_TV                   0x000000000000003f        #  Was: TV
+
+	end codes
+end remote
+
+

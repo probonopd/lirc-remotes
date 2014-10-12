@@ -1,0 +1,86 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.1pre5(default) on Sun Dec 31 01:40:08 2006
+# by irrecord, using lirc_serial interface
+#
+# contributed by: Andrew L. Weekes
+#
+# brand: Leadtek / Winfast (supplied with Winfast DTV 1000 T in UK)
+# model no. of remote control: Y04G0004
+# devices being controlled by this remote: MythTV
+#
+
+begin remote
+
+  name  Leadtek_Y04G0004
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9049  4452
+  one           604  1642
+  zero          604   519
+  ptrail        602
+  repeat       9050  2206
+  pre_data_bits   16
+  pre_data       0xC03F
+  gap          107841
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x00FF                    #  Was: Power
+          KEY_TV                   0x6A95                    #  Was: TV
+          KEY_RADIO                0xEA15                    #  Was: FM
+          KEY_DVD                  0x1AE5                    #  Was: DVD
+          KEY_RED                  0xD22D                    #  Was: Red
+          KEY_GREEN                0x32CD                    #  Was: Green
+          KEY_YELLOW               0xB24D                    #  Was: Yellow
+          KEY_BLUE                 0x728D                    #  Was: Blue
+          KEY_TEXT                 0xF807                    #  Was: Teletext
+          KEY_SLEEP                0x02FD                    #  Was: Sleep
+          KEY_MUTE                 0x28D7                    #  Was: Mute
+          Bosskey                  0x926D
+          KEY_CANCEL               0x0AF5                    #  Was: Cancel
+          KEY_UP                   0x30CF                    #  Was: Up
+          Aspect                   0xC03F
+          KEY_LEFT                 0x10EF                    #  Was: Left
+          KEY_ENTER                0xC837                    #  Was: Enter
+          KEY_RIGHT                0x20DF                    #  Was: Right
+          KEY_MENU                 0xF20D                    #  Was: Menu
+          KEY_DOWN                 0x08F7                    #  Was: Down
+          Surf                     0x8A75
+          PreviousTrack            0x42BD
+          KEY_PLAY                 0xC23D                    #  Was: Play
+          KEY_NEXT                 0x22DD                    #  Was: NextTrack
+          KEY_INFO                 0x4AB5                    #  Was: Info
+          KEY_REWIND               0x2AD5                    #  Was: Rewind
+          KEY_STOP                 0x629D                    #  Was: Stop
+          KEY_FASTFORWARD          0xAA55                    #  Was: FastForward
+          KEY_LANGUAGE             0xCA35                    #  Was: Language
+          KEY_1                    0xA05F                    #  Was: 1
+          KEY_2                    0x609F                    #  Was: 2
+          KEY_3                    0xE01F                    #  Was: 3
+          KEY_4                    0x906F                    #  Was: 4
+          KEY_5                    0x50AF                    #  Was: 5
+          KEY_6                    0xD02F                    #  Was: 6
+          KEY_7                    0xB04F                    #  Was: 7
+          KEY_8                    0x708F                    #  Was: 8
+          KEY_9                    0xF00F                    #  Was: 9
+          KEY_0                    0x48B7                    #  Was: 0
+          KEY_DOT                  0x827D                    #  Was: .
+          KEY_DELETE               0x8877                    #  Was: Delete
+          KEY_VIDEO                0x7887                    #  Was: Video
+          KEY_AUDIO                0xD827                    #  Was: Audio
+          Display                  0x6897
+          SnapShot                 0x12ED
+          PIP                      0x52AD
+          KEY_RECORD               0x629D                    #  Was: REC_stop
+          KEY_RECORD               0xE21D                    #  Was: REC
+          TimeShift                0xA25D
+      end codes
+
+end remote
+
+

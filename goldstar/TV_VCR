@@ -1,0 +1,125 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.5(serial) on  Fri May 17 23:37:57 2002
+#
+# contributed by Tom Hudec <Tom.Hudec@ABBA.cz>
+#
+# brand:                       GoldStar
+# model no. of remote control: (not printed)
+# devices being controlled by this remote: VCR, TV
+#
+
+# TeleText buttons:
+#	=	TeleText on
+#	<=	prev page
+#	=>	next page (the button code is the same as -/--)
+#	=/	mixed view (TeleText text on TV background)
+#	=o	subpages
+#	=?	show hidden text
+#	=i	index
+#	=^	double-sized mode
+#	>=<	hold
+#	=X	hide
+#	=M	Fast-Text switch
+
+# TV part
+
+begin remote
+
+  name  GoldStar-TV
+  bits            6
+  flags RC5|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           899   783
+  zero          899   783
+  plead         962
+  pre_data_bits   7
+  pre_data       0x40
+  gap          107722
+  toggle_bit      2
+
+
+      begin codes
+          KEY_0                    0x0000                    #  Was: 0
+          KEY_1                    0x0001                    #  Was: 1
+          KEY_2                    0x0002                    #  Was: 2
+          KEY_3                    0x0003                    #  Was: 3
+          KEY_4                    0x0004                    #  Was: 4
+          KEY_5                    0x0005                    #  Was: 5
+          KEY_6                    0x0006                    #  Was: 6
+          KEY_7                    0x0007                    #  Was: 7
+          KEY_8                    0x0008                    #  Was: 8
+          KEY_9                    0x0009                    #  Was: 9
+          KEY_MUTE                 0x000d                    #  Was: MUTE
+          KEY_POWER                0x000c                    #  Was: POWER
+          KEY_TV                   0x003f                    #  Was: TV
+	AV		0x0038
+	LOOP		0x0022
+          KEY_102ND                0x000a                    #  Was: -/--
+	PP		0x000e
+          KEY_MENU                 0x003b                    #  Was: MENU
+          KEY_OK                   0x0025                    #  Was: OK
+          KEY_VOLUMEDOWN           0x0011                    #  Was: VOL-
+          KEY_VOLUMEUP             0x0010                    #  Was: VOL+
+          KEY_CHANNELDOWN          0x0021                    #  Was: PROG-
+          KEY_CHANNELUP            0x0020                    #  Was: PROG+
+	<=		0x000b
+	=		0x003c
+          KEY_RED                  0x0037                    #  Was: RED
+          KEY_GREEN                0x0036                    #  Was: GREEN
+          KEY_YELLOW               0x0032                    #  Was: YELLOW
+          KEY_BLUE                 0x0034                    #  Was: BLUE
+	=/		0x002e
+	=o		0x002a
+	=?		0x002c
+	=i		0x0035
+	=^		0x002b
+	>=<		0x0029
+	=X		0x002d
+	=M		0x003e
+      end codes
+
+end remote
+
+
+# VCR part
+
+begin remote
+
+  name  GoldStar-VCR
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       8539  4197
+  one           628  1467
+  zero          628   445
+  ptrail        639
+  repeat       8538  2028
+  pre_data_bits   16
+  pre_data       0x7689
+  gap          101851
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x28d7                    #  Was: POWER
+	SP/LP		0x12ed
+	LENGTH		0xd22d
+          KEY_PLAY                 0x52ad                    #  Was: START
+          KEY_CHANNELUP            0x18e7                    #  Was: CH+
+          KEY_CHANNELDOWN          0x9867                    #  Was: CH-
+          KEY_REWIND               0x40bf                    #  Was: REW
+          KEY_PLAY                 0x10ef                    #  Was: PLAY
+          KEY_FASTFORWARD          0xc03f                    #  Was: FF
+          KEY_PAUSE                0xd02f                    #  Was: PAUSE
+          KEY_STOP                 0x807f                    #  Was: STOP
+          KEY_RECORD               0x906f                    #  Was: REC
+      end codes
+
+end remote
+
+

@@ -1,0 +1,68 @@
+#
+# this config file was automatically generated
+# using lirc-0.7.0pre2(serial) on Sat Apr 24 19:06:50 2004
+#
+# contributed by christian studer <cstuder at existenz.ch>
+#
+# brand: Thomson                   
+# model no. of remote control: RCT 110D A1
+# devices being controlled by this remote: DVD/TV (Only DVD keys coded)
+#
+
+begin remote
+
+  name		Thomson_RCT110D_A1
+  bits           12
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           526  4555
+  zero          526  2021
+  ptrail        526
+  gap          79101
+  toggle_bit      5
+
+
+      begin codes
+          KEY_RED                  0x00000000000004B9        #  Was: RED
+          KEY_GREEN                0x000000000000041B        #  Was: GREEN
+          KEY_YELLOW               0x0000000000000494        #  Was: YELLOW
+          KEY_BLUE                 0x0000000000000415        #  Was: BLUE
+          VIOLET                   0x0000000000000497
+          KEY_ENTER                0x0000000000000429        #  Was: RETURN
+          KEY_MENU                 0x0000000000000499        #  Was: MENU
+          KEY_UP                   0x0000000000000434        #  Was: UP
+          KEY_DOWN                 0x00000000000004B5        #  Was: DOWN
+          KEY_LEFT                 0x0000000000000436        #  Was: LEFT
+          KEY_RIGHT                0x00000000000004B7        #  Was: RIGHT
+          KEY_OK                   0x0000000000000433        #  Was: OK
+          KEY_VOLUMEUP             0x00000000000003A9        #  Was: VOL+
+          KEY_VOLUMEDOWN           0x000000000000032A        #  Was: VOL-
+          KEY_MUTE                 0x0000000000000385        #  Was: MUTE
+          KEY_CHANNELUP            0x0000000000000427        #  Was: CH+
+          KEY_CHANNELDOWN          0x00000000000004A8        #  Was: CH-
+          KEY_1                    0x0000000000000400        #  Was: 1
+          KEY_2                    0x0000000000000488        #  Was: 2
+          KEY_3                    0x0000000000000410        #  Was: 3
+          KEY_4                    0x0000000000000481        #  Was: 4
+          KEY_5                    0x0000000000000409        #  Was: 5
+          KEY_6                    0x0000000000000491        #  Was: 6
+          KEY_7                    0x0000000000000402        #  Was: 7
+          KEY_8                    0x000000000000048A        #  Was: 8
+          KEY_9                    0x0000000000000412        #  Was: 9
+          KEY_0                    0x000000000000048E        #  Was: 0
+          KEY_CLEAR                0x000000000000043D        #  Was: CLEAR
+          KEY_ZOOM                 0x0000000000000423        #  Was: ZOOM
+          KEY_AGAIN                0x000000000000042C        #  Was: REPLAY
+          KEY_REWIND               0x000000000000041F        #  Was: REW
+          KEY_PLAY                 0x0000000000000420        #  Was: PLAY
+          KEY_FASTFORWARD          0x0000000000000421        #  Was: FFW
+          KEY_EJECTCD              0x0000000000000426        #  Was: EJECT
+          KEY_STOP                 0x0000000000000424        #  Was: STOP
+          KEY_PAUSE                0x0000000000000418        #  Was: PAUSE
+	  OFF                      0x000000000000041D
+	
+	end codes
+
+end remote

@@ -1,0 +1,63 @@
+#
+# this config file was automatically generated
+# using WinLIRC 0.6.4 (LIRC 0.6.1pre3) on Sun May 04 16:04:04 2003
+#
+# contributed by Christian Loepfe <cl1977@gmx.ch>
+#
+# brand:             Panasonic
+# model:             VEQ0552
+# supported devices: VCR
+#
+
+begin remote
+
+  name  Panasonic
+  bits           22
+  flags SPACE_ENC
+  eps            30
+  aeps          100
+
+  header       3703  3583
+  one           948   856
+  zero          948  2686
+  ptrail        948
+  gap          41100
+  toggle_bit      0
+
+
+      begin codes
+          VTR                      0x00000000002FF201
+          TIMER_REC                0x00000000002F221B
+          MEMORY_SEARCH            0x00000000002F6213
+          RESET_INDEX              0x00000000002E6233
+          CHECK_PROG               0x00000000000F960D
+          KEY_NEXT                 0x00000000000F4617        #  Was: NEXT
+          NR_1                     0x00000000002FEA02
+          NR_2                     0x00000000002EEA22
+          NR_3                     0x00000000002F6A12
+          NR_4                     0x00000000002E6A32
+          NR_5                     0x00000000002FAA0A
+          NR_6                     0x00000000002EAA2A
+          NR_7                     0x00000000002F2A1A
+          NR_8                     0x00000000002E2A3A
+          NR_9                     0x00000000002FCA06
+          NR_0                     0x00000000002ECA26
+          VPS                      0x00000000000F3E18
+          KEY_102ND                0x00000000002FB209        #  Was: -/--
+          KEY_PAUSE                0x00000000002F3A18        #  Was: PAUSE
+          KEY_STOP                 0x00000000002FFA00        #  Was: STOP
+          STILL_ADV                0x00000000002F9A0C
+          KEY_REWIND               0x00000000002F7A10        #  Was: REW
+          KEY_PLAY                 0x00000000002F5A14        #  Was: PLAY
+          KEY_FASTFORWARD          0x00000000002E7A30        #  Was: FF
+          SLOW-                    0x00000000002E123D
+          KEY_SLOW                 0x00000000002E1A3C        #  Was: SLOW
+          SLOW+                    0x00000000002F121D
+          x2                       0x00000000002F1A1C
+          REV_PLAY                 0x00000000002E5A34
+          INTRO_SCAN               0x00000000002FA20B
+      end codes
+
+end remote
+
+

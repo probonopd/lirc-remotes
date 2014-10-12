@@ -1,0 +1,59 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.5(any) on Sat Sep  7 17:14:10 2002
+#
+# contributed by Christian Nobis
+#
+# brand: Thomson
+# model no. of remote control: TC99
+# devices being controlled by this remote: TV, VT
+#
+
+begin remote
+
+  name  TV
+  bits           11
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           524  8056
+  zero          524  5193
+  ptrail        524
+  gap          137694
+  toggle_bit      2
+
+
+      begin codes
+          btn_red                  0x00000000000001F9
+          btn_green                0x00000000000001FB
+          btn_yellow               0x00000000000001F8
+          btn_blue                 0x00000000000001D5
+          btn_pink                 0x00000000000001DE
+          KEY_POWER                0x00000000000001DD        #  Was: power
+          display                  0x00000000000001FE
+          freeze                   0x00000000000001E6
+          KEY_ZOOMOUT              0x00000000000001FD        #  Was: zoom-
+          KEY_ZOOMIN               0x00000000000001FC        #  Was: zoom+
+          KEY_CHANNELDOWN          0x00000000000001E0        #  Was: pr-
+          KEY_CHANNELUP            0x00000000000001DF        #  Was: pr+
+          KEY_VOLUMEDOWN           0x00000000000001EA        #  Was: vol-
+          KEY_VOLUMEUP             0x00000000000001E9        #  Was: vol+
+          KEY_1                    0x00000000000001C0        #  Was: 1
+          KEY_2                    0x00000000000001C8        #  Was: 2
+          KEY_3                    0x00000000000001D0        #  Was: 3
+          KEY_4                    0x00000000000001C1        #  Was: 4
+          KEY_5                    0x00000000000001C9        #  Was: 5
+          KEY_6                    0x00000000000001D1        #  Was: 6
+          KEY_7                    0x00000000000001C2        #  Was: 7
+          KEY_8                    0x00000000000001CA        #  Was: 8
+          KEY_9                    0x00000000000001D2        #  Was: 9
+          KEY_0                    0x00000000000001CE        #  Was: 0
+          last_prog                0x00000000000001E5
+          KEY_MUTE                 0x00000000000001C5        #  Was: mute
+      end codes
+
+end remote
+
+
+

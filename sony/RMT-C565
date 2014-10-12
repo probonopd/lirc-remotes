@@ -1,0 +1,59 @@
+#
+# this config file was automatically generated
+# using lirc-0.7.0pre7(serial) on Thu Sep 23 23:42:54 2004
+#
+# contributed by Juan Ignacio Pumarino R.
+#
+# brand: Sony
+# model no. of remote control:  RMT-C565
+# devices being controlled by this remote: Sony CFD-DW565S
+#
+
+begin remote
+
+  name  Sony_RMT-C565
+  bits           15
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       2351   641
+  one          1177   635
+  zero          559   635
+  gap          45244
+  min_repeat      2
+  toggle_bit      0
+
+
+      begin codes
+          KEY_1                    0x0000000000000026        #  Was: 1
+          KEY_2                    0x0000000000004026        #  Was: 2
+          KEY_3                    0x0000000000002026        #  Was: 3
+          KEY_4                    0x0000000000006026        #  Was: 4
+          KEY_5                    0x0000000000001026        #  Was: 5
+          KEY_6                    0x0000000000005026        #  Was: 6
+          KEY_7                    0x0000000000003026        #  Was: 7
+          KEY_8                    0x0000000000007026        #  Was: 8
+          KEY_9                    0x0000000000000826        #  Was: 9
+          KEY_0                    0x0000000000001826        #  Was: 0
+          KEY_MODE                 0x0000000000004422        #  Was: Mode
+          >10                      0x0000000000005826
+          KEY_POWER                0x0000000000005422        #  Was: Power
+          Function                 0x0000000000007122
+          KEY_PLAY                 0x0000000000002626        #  Was: Play
+          KEY_PAUSE                0x0000000000004E26        #  Was: Pause
+          KEY_STOP                 0x0000000000000E26        #  Was: Stop
+          Band                     0x0000000000007B26
+          PrevTrack                0x0000000000000626
+          KEY_NEXT                 0x0000000000004626        #  Was: NextTrack
+          KEY_FASTFORWARD          0x0000000000006E26        #  Was: FastForward
+          KEY_REWIND               0x0000000000002E26        #  Was: Rewind
+          TuneUp                   0x0000000000006726
+          TuneDown                 0x0000000000001726
+          KEY_VOLUMEUP             0x0000000000002422        #  Was: VolUp
+          KEY_VOLUMEDOWN           0x0000000000006422        #  Was: VolDown
+      end codes
+
+end remote
+
+

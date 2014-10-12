@@ -1,0 +1,96 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.0(imon_pad) on Sun Apr  2 20:21:17 2006
+#
+# contributed by
+#
+# brand: iMON Knob SoundGraph
+# model no. of remote control: iMON Knob
+# devices being controlled by this remote: iMON Knob
+#
+
+begin remote
+
+  name  IMON_KNOB
+  bits           32
+  eps            30
+  aeps          100
+
+  one             0     0
+  zero            0     0
+  gap          119990
+  toggle_bit      0
+
+
+      begin codes
+          KEY_EXIT                 0x288195B7                #  Was: AppExit
+          KEY_POWER                0x289115B7                #  Was: Power
+          KEY_RECORD               0x298115B7                #  Was: Record
+          KEY_PLAY                 0x2A8115B7                #  Was: Play
+          KEY_OPEN                 0x29B195B7                #  Was: Open
+          KnobVolUp                0x000100FF
+          KnobVolDown              0x010000FF
+          KnobMute                 0x000008FF
+          KEY_REWIND               0x2A8195B7                #  Was: Rewind
+          KEY_PAUSE                0x2A9115B7                #  Was: Pause
+          KEY_FASTFORWARD          0x2B8115B7                #  Was: FastForward
+          PrevChapter              0x2B9115B7
+          KEY_STOP                 0x2B9715B7                #  Was: Stop
+          KEY_NEXT                 0x298195B7                #  Was: NextChapter
+          WindowsKey               0x2B8195B7
+          KEY_BACKSPACE            0x28A115B7                #  Was: Backspace
+          MouseKeyboard            0x299115B7
+          SelectSpace              0x2A9315B7
+          MouseMenu                0x28B715B7
+          BTN_RIGHT                0x688481B7                #  Was: MouseRightClick
+          KEY_ENTER                0x28A195B7                #  Was: Enter
+          BTN_LEFT                 0x688301B7                #  Was: MouseLeftClick
+          CursorLeft               0x6ABA81B7
+          CursorUp                 0x6902F9B7
+          CursorRight              0x68A281B7
+          CursorDown               0x6882A1B7
+          KEY_ESC                  0x2BB715B7                #  Was: Esc
+          KEY_EJECTCD              0x299395B7                #  Was: Eject
+          AppLauncher              0x29B715B7
+          MultiMon                 0x2AB195B7
+          TaskSwitcher             0x2A9395B7
+          KEY_MUTE                 0x2B9595B7                #  Was: Mute
+          KEY_VOLUMEUP             0x28A395B7                #  Was: VolUp
+          KEY_VOLUMEDOWN           0x28A595B7                #  Was: VolDown
+          KEY_CHANNELUP            0x289395B7                #  Was: ChUp
+          KEY_CHANNELDOWN          0x288795B7                #  Was: ChDown
+          Timer                    0x2B8395B7
+          KEY_1                    0x28B595B7                #  Was: 1
+          KEY_2                    0x2BB195B7                #  Was: 2
+          KEY_3                    0x28B195B7                #  Was: 3
+          KEY_4                    0x2A8595B7                #  Was: 4
+          KEY_5                    0x299595B7                #  Was: 5
+          KEY_6                    0x2AA595B7                #  Was: 6
+          KEY_7                    0x2B9395B7                #  Was: 7
+          KEY_8                    0x2A8515B7                #  Was: 8
+          KEY_9                    0x2AA115B7                #  Was: 9
+          ShiftTab                 0x28B515B7
+          KEY_0                    0x2BA595B7                #  Was: 0
+          KEY_TAB                  0x29A115B7                #  Was: Tab
+          MyMovie                  0x2B8515B7
+          MyMusic                  0x299195B7
+          MyPhoto                  0x2BA115B7
+          MyTV                     0x28A515B7
+          Bookmark                 0x288515B7
+          Thumbnail                0x2AB715B7
+          AspectRatio              0x29A595B7
+          KEY_F11                  0x2AA395B7                #  Was: FullScreen
+          MyDVD                    0x29A295B7
+          KEY_MENU                 0x2BA385B7                #  Was: Menu
+          Caption                  0x298595B7
+          KEY_LANGUAGE             0x2B8595B7                #  Was: Language
+# these codes may be wrong, but they were included in the first version of
+# this config file
+          KEY_0                    0x2BA595BF                #  Was: 0
+          KEY_NEXT                 0x298195BF                #  Was: NextChapter
+          Thumbnail                0x2AB715BF
+          KEY_F11                  0x2AA395BF                #  Was: FullScreen
+
+      end codes
+
+end remote

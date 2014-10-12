@@ -1,0 +1,75 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.0(serial) on Sat Aug  5 21:20:22 2006
+#
+# contributed by
+#
+# brand:  Philips
+# model no. of remote control: SRU 510
+# devices being controlled by this remote: TV
+#
+
+begin remote
+
+  name  Philips_SRU510
+  bits           13
+  flags RC5|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           882   803
+  zero          882   803
+  plead         905
+  gap          112766
+  toggle_bit      2
+
+
+      begin codes
+          KEY_POWER                0x100C                    #  Was: Power
+          KEY_RED                  0x002B                    #  Was: Red
+          KEY_GREEN                0x002C                    #  Was: Green
+          KEY_YELLOW               0x002D                    #  Was: Yellow
+          KEY_BLUE                 0x002E                    #  Was: Blue
+          AV                       0x1038
+          KEY_MUTE                 0x100D                    #  Was: Mute
+          KEY_RIGHT                0x0016                    #  Was: Right
+          KEY_LEFT                 0x0015                    #  Was: Left
+          KEY_UP                   0x0010                    #  Was: Up
+          KEY_DOWN                 0x0011                    #  Was: Down
+          KEY_MENU                 0x0012                    #  Was: Menu
+          KEY_OK                   0x0017                    #  Was: OK
+          KEY_BACK                 0x002F                    #  Was: Back
+          KEY_VOLUMEUP             0x1010                    #  Was: Vol+
+          KEY_VOLUMEDOWN           0x1011                    #  Was: Vol-
+          KEY_CHANNELUP            0x1020                    #  Was: Ch+
+          KEY_CHANNELDOWN          0x1021                    #  Was: Ch-
+          P<P                      0x1022
+          KEY_1                    0x1001                    #  Was: One
+          KEY_2                    0x1002                    #  Was: Two
+          KEY_3                    0x1003                    #  Was: Three
+          KEY_4                    0x1004                    #  Was: Four
+          KEY_5                    0x1005                    #  Was: Five
+          KEY_6                    0x1006                    #  Was: Six
+          KEY_7                    0x1007                    #  Was: Seven
+          KEY_8                    0x1008                    #  Was: Eight
+          KEY_9                    0x1009                    #  Was: Nine
+          KEY_0                    0x1000                    #  Was: Zero
+          KEY_102ND                0x100A                    #  Was: -/--
+          TextOnOff                0x103C
+          TextMix                  0x102E
+          TextOff                  0x103F
+          WideScreen               0x003E
+          Enlarge                  0x102B
+          TextHold                 0x1029
+          KEY_INFO                 0x100F                    #  Was: Info
+          KEY_SLEEP                0x1026                    #  Was: Sleep
+          Picture                  0x1015
+          KEY_INFO                 0x0038                    #  Was: Guide
+          KEY_SUBTITLE             0x1023                    #  Was: Subtitle
+          KEY_AUDIO                0x1014                    #  Was: Audio
+      end codes
+
+end remote
+
+
+

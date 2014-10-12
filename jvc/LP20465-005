@@ -1,0 +1,79 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.1 on Wed Aug  9 12:21:32 2000
+#
+# contributed by     Guy Hirson (guy@ghirson.demon.co.uk)
+#
+# brand:             jvc
+# model:             lp20465-005
+# supported devices: vcr
+#
+
+begin remote
+
+  name  jvc-lp20465-005-vcr
+  bits           16
+  flags SPACE_ENC|NO_HEAD_REP|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       8403  4233
+  one           475  1630
+  zero          475   577
+  ptrail        475
+  gap          46293
+  toggle_bit      0
+
+
+      begin codes
+          KEY_0                    0x000000000000C2CC        #  Was: 0
+          KEY_1                    0x000000000000C284        #  Was: 1
+          KEY_2                    0x000000000000C244        #  Was: 2
+          KEY_3                    0x000000000000C2C4        #  Was: 3
+          KEY_4                    0x000000000000C224        #  Was: 4
+          KEY_5                    0x000000000000C2A4        #  Was: 5
+          KEY_6                    0x000000000000C264        #  Was: 6
+          KEY_7                    0x000000000000C2E4        #  Was: 7
+          KEY_8                    0x000000000000C214        #  Was: 8
+          KEY_9                    0x000000000000C294        #  Was: 9
+          KEY_X                    0x000000000000C26C        #  Was: X
+          KEY_POWER                0x000000000000C2D0        #  Was: Power
+          KEY_AUDIO                0x000000000000C2E8        #  Was: AUDIO
+          Timer                    0x000000000000C2AC
+          Start+                   0x000000000000C213
+          Start-                   0x000000000000C293
+          Stop+                    0x000000000000C253
+          Stop-                    0x000000000000C2D3
+          Date+                    0x000000000000C263
+          Date-                    0x000000000000C2E3
+          KEY_CHANNELUP            0x000000000000C298        #  Was: Prog+
+          KEY_CHANNELDOWN          0x000000000000C218        #  Was: Prog-
+          TV/VCR                   0x000000000000C2C8
+          Timer?                   0x000000000000C2BC
+          --:--                    0x000000000000C21C
+          PROG                     0x000000000000C283
+          SP/LP                    0x000000000000C28C
+          DV                       0x000000000000C222
+          VHS                      0x000000000000C2C2
+          KEY_REWIND               0x000000000000C2E0        #  Was: <<
+          >                        0x000000000000C230
+          KEY_FORWARD              0x000000000000C260        #  Was: >>
+          KEY_NUMERIC_POUND        0x000000000000C2C0        #  Was: #
+          ||                       0x000000000000C2B0
+          KEY_V                    0x000000000000C298        #  Was: v
+          ^                        0x000000000000C218
+          KEY_PREVIOUS             0x000000000000C2A8        #  Was: |<<
+          KEY_NEXT                 0x000000000000C228        #  Was: >>|
+          KEY_MENU                 0x000000000000C2EC        #  Was: MENU
+          OK/START                 0x000000000000C23C
+          IN/OUT                   0x000000000000C27B
+          R.A.EDIT                 0x000000000000C2BB
+          l_shuttle                0x000000000000C2ED
+          r_shuttle                0x000000000000C21D
+          jog_cc                   0x000000000000C2F5
+          jog_cw                   0x000000000000C2B7
+          KEY_RECORD               0x000000000000C233        #  Was: rec
+      end codes
+
+end remote
+

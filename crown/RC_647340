@@ -1,0 +1,73 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.5(any) on Wed Jan 22 18:39:21 2003
+#
+# contributed by
+#
+# brand: Crown
+# model no. of remote control: RC 647340
+# devices being controlled by this remote:
+#
+
+begin remote
+
+  name  testinglirc.config
+  bits           13
+  flags RC5|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           955   834
+  zero          955   834
+  plead         948
+  gap          113876
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x000000000000100C        #  Was: POWER
+          KEY_MUTE                 0x000000000000180D        #  Was: mute
+          KEY_1                    0x0000000000001001        #  Was: 1
+          KEY_2                    0x0000000000001802        #  Was: 2
+          KEY_3                    0x0000000000001003        #  Was: 3
+          KEY_4                    0x0000000000001004        #  Was: 4
+          KEY_5                    0x0000000000001805        #  Was: 5
+          KEY_6                    0x0000000000001006        #  Was: 6
+          KEY_7                    0x0000000000001807        #  Was: 7
+          KEY_8                    0x0000000000001008        #  Was: 8
+          KEY_9                    0x0000000000001809        #  Was: 9
+          KEY_0                    0x0000000000001000        #  Was: 0
+          AV                       0x0000000000001838
+          KEY_102ND                0x000000000000100A        #  Was: -/--
+          TX                       0x000000000000183C
+          KEY_TV                   0x000000000000103F        #  Was: TV
+          KEY_CHANNELUP            0x0000000000001820        #  Was: ProgUp
+          KEY_CHANNELDOWN          0x0000000000001021        #  Was: ProgDown
+          KEY_VOLUMEUP             0x0000000000001810        #  Was: VolUp
+          KEY_VOLUMEDOWN           0x0000000000001011        #  Was: VolDown
+          KEY_SELECT               0x000000000000183B
+          KEY_STOP                 0x000000000000100E        #  Was: >|<
+          KEY_INFO                 0x000000000000180F        #  Was: INFO
+          TIMER                    0x0000000000001026
+          SYST                     0x000000000000183D
+          STORE                    0x0000000000001027
+          KEY_MENU                 0x000000000000180B        #  Was: MENU
+          P100                     0x0000000000001035
+          KEY_RED                  0x0000000000001837        #  Was: red
+          KEY_GREEN                0x0000000000001036        #  Was: green
+          KEY_YELLOW               0x0000000000001832        #  Was: yellow
+          KEY_BLUE                 0x0000000000001034        #  Was: blue
+          KEY_TIME                 0x000000000000182A        #  Was: CLOCK
+          UPDATE                   0x000000000000102D
+          MIX                      0x000000000000182E
+          DOUBLE                   0x000000000000102B
+          REVEAL                   0x000000000000182C
+          HOLD                     0x0000000000001029
+          STEREO                   0x000000000000182F
+          MONO                     0x0000000000001023
+          PS                       0x0000000000001824
+      end codes
+
+end remote
+
+

@@ -1,0 +1,68 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.6(serial) on Fri Oct 31 18:23:16 2003
+#
+# contributed by Pedro Werneck <pedro.werneck bol.com.br>
+#
+# brand:                       Toshiba
+# model no. of remote control:  VCR 2230
+# devices being controlled by this remote: X796 VCR
+#
+
+begin remote
+
+  name  VCR-2230
+  bits           32
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9123  4373
+  one           640  1608
+  zero          640   465
+  ptrail        614
+  repeat       9078  2170
+  gap          107747
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x0000000022DD48B7        #  Was: POWER
+          KEY_1                    0x0000000022DD807F        #  Was: 1
+          KEY_2                    0x0000000022DD40BF        #  Was: 2
+          KEY_3                    0x0000000022DDC03F        #  Was: 3
+          KEY_4                    0x0000000022DD20DF        #  Was: 4
+          KEY_5                    0x0000000022DDA05F        #  Was: 5
+          KEY_6                    0x0000000022DD609F        #  Was: 6
+          KEY_7                    0x0000000022DDE01F        #  Was: 7
+          KEY_8                    0x0000000022DD10EF        #  Was: 8
+          KEY_9                    0x0000000022DD906F        #  Was: 9
+          KEY_0                    0x0000000022DD50AF        #  Was: 0
+          INPUT_SELECT             0x0000000022DDFA05
+          KEY_MENU                 0x0000000022DD659A        #  Was: MENU
+          KEY_EJECTCD              0x0000000022DDAF50        #  Was: EJECT
+          TV/VCR                   0x0000000022DD8877
+          CM_SKIP                  0x0000000022DD55AA
+          KEY_MUTE                 0x0000000002FD08F7        #  Was: MUTE
+          KEY_CHANNELUP            0x0000000022DDD827        #  Was: CH_UP
+          KEY_CHANNELDOWN          0x0000000022DDF807        #  Was: CH_DOWN
+          KEY_VOLUMEUP             0x0000000022DDB24D        #  Was: VOL_UP
+          KEY_VOLUMEDOWN           0x0000000022DD8A75        #  Was: VOL_DOWN
+          KEY_ENTER                0x0000000022DD15EA        #  Was: ENTER
+          KEY_REWIND               0x0000000022DD9867        #  Was: REW
+          KEY_PLAY                 0x0000000022DDA857        #  Was: PLAY
+          KEY_FASTFORWARD          0x0000000022DDC837        #  Was: FF
+          KEY_RECORD               0x0000000022DD18E7        #  Was: REC
+          KEY_STOP                 0x0000000022DD28D7        #  Was: STOP
+          KEY_PAUSE                0x0000000022DD08F7        #  Was: PAUSE
+          KEY_SLOW                 0x0000000022DDB04F        #  Was: SLOW
+          SP/EP                    0x0000000022DDBA45
+          KEY_POWER                0x0000000022DDA956        #  Was: POWER_OFF
+          KEY_AGAIN                0x0000000022DD6F90        #  Was: REPEAT
+          VISS                     0x0000000022DD629D
+          KEY_CLEAR                0x0000000022DD956A        #  Was: CLEAR
+      end codes
+
+end remote
+
+

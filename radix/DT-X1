@@ -1,0 +1,68 @@
+#
+# this config file was automatically generated
+# using lirc-0.7.1(serial) on Sun Dec 23 08:51:21 2007
+#
+# Contributed by Carsten Beth (Carsten.Beth|gmx.de)
+#
+# Brand:                                   Radix
+# Model no. of remote control:             unknown
+# Devices being controlled by this remote: DVB-S receiver DT-X1
+#
+
+begin remote
+
+  name          RADIX_DT-X1
+  bits          16
+  flags         SPACE_ENC|CONST_LENGTH
+  eps           30
+  aeps          100
+
+  header        9124  4455
+  one           627  1631
+  zero          627   505
+  ptrail        631
+  repeat        9125  2197
+  pre_data_bits 16
+  pre_data      0xFE
+  gap           108539
+  toggle_bit    0
+
+  begin codes
+          KEY_POWER                0x00FF                    #  Was: POWER
+          KEY_EPG                  0x48B7                    #  Was: EPG
+          KEY_AUDIO                0x7887                    #  Was: MUSIC
+          KEY_MUTE                 0x28D7                    #  Was: MUTE
+          KEY_BACK                 0xA857                    #  Was: BACK
+          KEY_MENU                 0x9867                    #  Was: MENU
+          KEY_EXIT                 0x20DF                    #  Was: EXIT
+          KEY_RED                  0xF00F                    #  Was: RED
+          KEY_GREEN                0x926D                    #  Was: GREEN
+          KEY_YELLOW               0x6897                    #  Was: YELLOW
+          KEY_BLUE                 0x08F7                    #  Was: BLUE
+          KEY_SUBTITLE             0x42BD                    #  Was: SUBTITLE
+          KEY_LEFT                 0x8877                    #  Was: LEFT
+          KEY_RIGHT                0xB04F                    #  Was: RIGHT
+          KEY_UP                   0x58A7                    #  Was: UP
+          KEY_DOWN                 0xD827                    #  Was: DOWN
+          KEY_PAGEUP               0xE817                    #  Was: PAGE-UP
+          KEY_PAGEDOWN             0x38C7                    #  Was: PAGE-DOWN
+          KEY_OK                   0x10EF                    #  Was: OK
+          KEY_VOLUMEUP             0x12ED                    #  Was: VOL+
+          KEY_VOLUMEDOWN           0x22DD                    #  Was: VOL-
+          KEY_0                    0x708F                    #  Was: 0
+          KEY_1                    0xC03F                    #  Was: 1
+          KEY_2                    0x40BF                    #  Was: 2
+          KEY_3                    0x807F                    #  Was: 3
+          KEY_4                    0xE01F                    #  Was: 4
+          KEY_5                    0x609F                    #  Was: 5
+          KEY_6                    0xA05F                    #  Was: 6
+          KEY_7                    0xD02F                    #  Was: 7
+          KEY_8                    0x50AF                    #  Was: 8
+          KEY_9                    0x906F                    #  Was: 9
+      FREEZE                   0xC837
+          KEY_TEXT                 0x02FD                    #  Was: TELETEXT
+  end codes
+
+end remote
+
+

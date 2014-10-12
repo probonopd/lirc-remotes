@@ -1,0 +1,48 @@
+#
+# this config file was automatically generated
+# using lirc-0.7.2(serial) on Sat Nov 19 16:00:41 2005
+#
+# contributed by Nicola Trapletti aka PiKappa
+#
+# brand:                       Thomson
+# model no. of remote control: TM9258
+# devices being controlled by this remote:
+#
+
+begin remote
+
+  name  Thomson_TM9258
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9134  4423
+  one           662  1594
+  zero          662   470
+  ptrail        656
+  pre_data_bits   16
+  pre_data       0x1FF
+  gap          108460
+  toggle_bit      0
+
+
+      begin codes
+          KEY_CYCLEWINDOWS         0x01FE                    #  Was: source
+          soundEffect              0xC936
+          presDown                 0xB946
+          presUp                   0x39C6
+          band                     0x29D6
+          KEY_SELECT               0x9966                    #  Was: select
+          KEY_MODE                 0xA956                    #  Was: mode
+          trackBack                0x09F6
+          trackNext                0x31CE
+          KEY_PLAY                 0x21DE                    #  Was: play
+          KEY_STOP                 0x11EE                    #  Was: stop
+          KEY_VOLUMEDOWN           0xB14E                    #  Was: volDown
+          KEY_VOLUMEUP             0x8976                    #  Was: volUp
+      end codes
+
+end remote
+
+

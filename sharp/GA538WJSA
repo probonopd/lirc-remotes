@@ -1,0 +1,84 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.4a(usb_uirt_raw) on Sat Jul 18 16:43:14 2009
+#
+# contributed by anonymous
+#
+# brand:                       Sharp
+# model no. of remote control: GA538WJSA
+# devices being controlled by this remote: LCD TV : LC-42XD1E
+#
+
+begin remote
+
+  name  Sharp_GA538WJSA
+  bits           15
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           320  1650
+  zero          320   650
+  ptrail        321
+  gap          64241
+  toggle_bit_mask 0x0
+  toggle_mask    0x3FF
+  min_repeat    2
+
+      begin codes
+          KEY_POWER                0x41A2                    #  Was: POWER
+          KEY_TEXT                 0x40B2                    #  Was: TELETEXT
+          HIDDEN_TELETEXT          0x4072
+          KEY_SUBTITLE             0x3FE6                    #  Was: SUBTITLE
+          FREEZE_HOLD              0x4332
+          KEY_SUBTITLE             0x3ECE                    #  Was: SUBPAGE
+          TOP_BOTTOM_FULL          0x43B2
+          KEY_1                    0x4202                    #  Was: 1
+          KEY_2                    0x4102                    #  Was: 2
+          KEY_3                    0x4302                    #  Was: 3
+          KEY_4                    0x4082                    #  Was: 4
+          KEY_5                    0x4282                    #  Was: 5
+          KEY_6                    0x4182                    #  Was: 6
+          KEY_7                    0x4382                    #  Was: 7
+          KEY_8                    0x4042                    #  Was: 8
+          KEY_9                    0x4242                    #  Was: 9
+          FLASHBACK                0x4392
+          KEY_0                    0x4142                    #  Was: 0
+          INPUT_SOURCE             0x4322
+          DTV                      0x4416
+          KEY_EPG                  0x44E9                    #  Was: EPG
+          ESG                      0x4796
+          KEY_RADIO                0x4496                    #  Was: RADIO
+          SOUND_MODE               0x4062
+          KEY_MUTE                 0x43A2                    #  Was: MUTE
+          KEY_VOLUMEUP             0x40A2                    #  Was: VOLUME_UP
+          KEY_VOLUMEDOWN           0x42A2                    #  Was: VOLUME_DOWN
+          KEY_CHANNELUP            0x4222                    #  Was: CHANNEL_UP
+          KEY_CHANNELDOWN          0x4122                    #  Was: CHANNEL_DOWN
+          AV_MODE                  0x407E
+          SURROUND                 0x41DA
+          DTV_MENU                 0x4616
+          KEY_LIST                 0x4516                    #  Was: LIST
+          KEY_INFO                 0x4362                    #  Was: INFO
+          KEY_MENU                 0x458E                    #  Was: MENU
+          KEY_UP                   0x43AA                    #  Was: UP
+          KEY_DOWN                 0x4012                    #  Was: DOWN
+          KEY_LEFT                 0x43AE                    #  Was: LEFT
+          KEY_RIGHT                0x406E                    #  Was: RIGHT
+          KEY_OK                   0x412A                    #  Was: OK
+          BT_END                   0x42BE
+          KEY_ENTER                0x409E                    #  Was: RETURN
+          KEY_RED                  0x404A                    #  Was: RED
+          KEY_GREEN                0x424A                    #  Was: GREEN
+          KEY_YELLOW               0x414A                    #  Was: YELLOW
+          KEY_BLUE                 0x434A                    #  Was: BLUE
+          TRUD                     0x46EE
+          KEY_SLEEP                0x4162                    #  Was: SLEEP
+          WIDE_MODES               0x444E
+          OPC                      0x3F46
+          ACTION                   0x467E
+      end codes
+
+end remote
+
+

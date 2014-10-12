@@ -1,0 +1,134 @@
+#
+# this config file was hand-generated
+# using lirc-0.8.5 (imon) on Wed Jun 17 23:37:25 2009
+#
+# contributed by Jarod Wilson <jarod@wilsonet.com>
+#
+# brand:                       Philips
+# model no. of remote control: Windows Media Center Edition
+# devices being controlled by this remote:
+# 	-Antec Veris Multimedia Station Premiere & Elite
+# 	-iMON UltraBay, Touch, VFD, LCD (any recent iMON device)
+#
+# Note that these codes CANNOT be used with a standard mceusb
+# receivers, as they're decoded values passed along by the iMON
+# receiver, not the actual RC6 remote codes.
+#
+
+begin remote
+
+  name        MCE_via_iMON
+  bits                  64
+  eps                   30
+  aeps                 100
+
+  one              0     0
+  zero             0     0
+  gap               139998
+  ignore_mask 0x0000800000000fff
+  min_repeat             1
+  toggle_bit             0
+
+      begin codes
+          KEY_POWER               0x800f040c000002ae # Power
+          KEY_TV                  0x800f0446000002ae # MY TV
+          KEY_AUDIO               0x800f8447000002ae # MY MUSIC
+          X_KEY_PHOTO              0x800f8449000002ae        #  Was: KEY_PHOTO
+          KEY_VIDEO               0x800f044a000002ae # MY VIDEOS
+          KEY_STOP                0x800f8419000002ae # STOP
+          KEY_RECORD              0x800f0417000002ae # RECORD
+          KEY_PAUSE               0x800f8418000002ae # PAUSE
+          KEY_PLAY                0x800f0416000002ae # PLAY
+          KEY_REWIND              0x800f8415000002ae # REWIND
+          KEY_FASTFORWARD         0x800f0414000002ae # FORWARD
+          X_KEY_REPLAY             0x800f841b000002ae        #  Was: KEY_REPLAY
+          X_KEY_SKIP               0x800f041a000002ae        #  Was: KEY_SKIP
+          KEY_BACKSPACE           0x0200002a00000000 # BACK
+          KEY_INFO                0x800f040f000002ae # INFO/MORE
+          KEY_UP                  0x0200005200000000 # UP
+          KEY_DOWN                0x0200005100000000 # DOWN
+          KEY_LEFT                0x0200005000000000 # LEFT
+          KEY_RIGHT               0x0200004f00000000 # RIGHT
+          #KEY_OK                  0x0200002800000000 # OK -- same code as KEY_ENTER
+          KEY_VOLUMEUP            0x800f0410000002ae # Vol+
+          KEY_VOLUMEDOWN          0x800f8411000002ae # Vol-
+          WindowsMCE              0x800f040d000002ae # Big ugly windows logo
+          KEY_CHANNELUP           0x800f0412000002ae # Ch+
+          KEY_CHANNELDOWN         0x800f8413000002ae # Ch-
+          KEY_MUTE                0x800f840e000002ae # Mute
+          KEY_RECORD               0x800f0448000002ae        #  Was: RecordedTV
+          KEY_DVD                 0x800f8424000002ae # DVD MENU
+          KEY_INFO                 0x800f0426000002ae        #  Was: Guide
+          KEY_TV                   0x800f8425000002ae        #  Was: LiveTV
+          X_KEY_ONE                0x0200001e00000000        #  Was: KEY_ONE
+          X_KEY_TWO                0x0200001f00000000        #  Was: KEY_TWO
+          X_KEY_THREE              0x0200002000000000        #  Was: KEY_THREE
+          X_KEY_FOUR               0x0200002100000000        #  Was: KEY_FOUR
+          X_KEY_FIVE               0x0200002200000000        #  Was: KEY_FIVE
+          X_KEY_SIX                0x0200002300000000        #  Was: KEY_SIX
+          X_KEY_SEVEN              0x0200002400000000        #  Was: KEY_SEVEN
+          X_KEY_EIGHT              0x0200002500000000        #  Was: KEY_EIGHT
+          X_KEY_NINE               0x0200002600000000        #  Was: KEY_NINE
+          X_KEY_ZERO               0x0200002700000000        #  Was: KEY_ZERO
+          KEY_NUMERIC_STAR         0x0220002500000000        #  Was: Star
+          KEY_NUMERIC_POUND        0x0220002000000000        #  Was: Hash
+          KEY_DELETE              0x0200002900000000 # CLEAR/DELETE
+          KEY_ENTER               0x0200002800000000 # ENTER
+          KEY_RED                  0x800f845b000002ae        #  Was: Red
+          KEY_GREEN                0x800f845c000002ae        #  Was: Green
+          KEY_YELLOW               0x800f845d000002ae        #  Was: Yellow
+          KEY_BLUE                 0x800f845e000002ae        #  Was: Blue
+          Caption                 0x800f845a000002ae # Closed Caption/Teletext
+      end codes
+
+end remote
+
+#
+# this config file was hand-generated
+# using lirc-0.8.4a (imon) on Fri Nov  7 13:55:44 2008
+#
+# contributed by Jarod Wilson <jarod@wilsonet.com>
+#
+# brand:                       Antec Veris
+# model no. of remote control: Multimedia Station Premiere Front Panel
+# devices being controlled by this remote:
+# 	-Antec Veris Multimedia Station Premiere
+#
+
+begin remote
+
+  name   Antec_Veris_Premiere
+  bits                  64
+  eps                   30
+  aeps                 100
+
+  one              0     0
+  zero             0     0
+  gap               139998
+  ignore_mask 0x0000000000000301
+  min_repeat             1
+  toggle_bit             0
+
+      begin codes
+# Front Panel Buttons
+          Go                       0x000000000f0002ee # Go
+          KEY_AUDIO                0x000000001f0002ee # Music
+          KEY_VIDEO                0x00000000200002ee # Videos
+          X_KEY_PHOTO              0x00000000210002ee        #  Was: KEY_PHOTO
+          KEY_DVD                  0x00000000270002ee # DVD
+#          KEY_TV                   gack. mine doesn't send *anything*, might be busted
+          KEY_PREVIOUS             0x00000000050002ee # Prev
+          KEY_REWIND               0x00000000070002ee # Rewind
+          KEY_STOP                 0x00000000040002ee # Stop
+          KEY_PLAYPAUSE            0x000000003c0002ee # Play/Pause
+          KEY_FASTFORWARD          0x00000000080002ee # F.Fwd
+          KEY_NEXT                 0x00000000060002ee # Next
+          KEY_RIGHT                0x00000001000002ee # Navigation Clockwise
+          KEY_LEFT                 0x00000100000002ee # Navigation Counter-Clockwise
+          KEY_SELECT               0x000000003d0002ee # Navigation Knob Push
+          KEY_VOLUMEUP             0x00010000000002ee # Volume Up (CW)
+          KEY_VOLUMEDOWN           0x01000000000002ee # Volume Down (CCW)
+          KEY_MUTE                 0x00000000010002ee # Mute (Volume Knob Push)
+      end codes
+
+end remote

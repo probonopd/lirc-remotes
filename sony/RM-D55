@@ -1,0 +1,62 @@
+#
+# this config file was automatically generated
+# using lirc-0.7.0pre7(tekram) on Tue Jul 27 20:20:47 2004
+#
+# contributed by
+#
+# brand:                       Sony
+# model no. of remote control: RM-D55
+# devices being controlled by this remote: 5 disc changer CD player CDP-C50
+#
+
+begin remote
+
+  name  Sony_RM-D55
+  bits           12
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       2388   610
+  one          1186   617
+  zero          580   617
+  gap          44984
+  min_repeat      1
+  toggle_bit      0
+
+
+      begin codes
+          KEY_TIME                 0x0000000000000151        #  Was: time
+          shuffle                  0x0000000000000AD1
+          KEY_AGAIN                0x0000000000000351        #  Was: repeat
+          disc1                    0x0000000000000031
+          disc2                    0x0000000000000831
+          disc3                    0x0000000000000431
+          disc4                    0x0000000000000C31
+          disc5                    0x0000000000000231
+          KEY_1                    0x0000000000000011        #  Was: 1
+          KEY_2                    0x0000000000000811        #  Was: 2
+          KEY_3                    0x0000000000000411        #  Was: 3
+          KEY_4                    0x0000000000000C11        #  Was: 4
+          KEY_5                    0x0000000000000211        #  Was: 5
+          KEY_6                    0x0000000000000A11        #  Was: 6
+          KEY_7                    0x0000000000000611        #  Was: 7
+          KEY_8                    0x0000000000000E11        #  Was: 8
+          KEY_9                    0x0000000000000111        #  Was: 9
+          KEY_0                    0x0000000000000051        #  Was: 10
+          KEY_0+                   0x0000000000000E51        #  Was: 10+
+          KEY_PLAY                 0x00000000000004D1        #  Was: play
+          pgm                      0x0000000000000F91
+          check                    0x0000000000000B11
+          KEY_CLEAR                0x0000000000000F11        #  Was: clear
+          KEY_PAUSE                0x00000000000009D1        #  Was: pause
+          fback                    0x00000000000000D1
+          ffor                     0x00000000000008D1
+          KEY_STOP                 0x00000000000001D1        #  Was: stop
+          KEY_BACK                 0x0000000000000CD1        #  Was: back
+          for                      0x00000000000002D1
+      end codes
+
+end remote
+
+

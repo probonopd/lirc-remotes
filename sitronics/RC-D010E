@@ -1,0 +1,84 @@
+#
+# this config file was automatically generated
+# using WinLIRC 0.6.5 (LIRC 0.6.1pre3) on Thu Mar 15 14:58:28 2007
+#
+# contributed by
+#
+# brand:             Sitronics
+# model:             RC-D010E
+# supported devices:
+#
+
+begin remote
+
+  name  Sitronics_RC-D010E
+  bits           16
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  header       9004  4447
+  one           568  1670
+  zero          568   550
+  ptrail        568
+  repeat       9000  2191
+  pre_data_bits   16
+  pre_data       0xDF
+  gap          40933
+  toggle_bit_mask 0x0
+
+      begin codes
+          KEY_SLEEP                0x30CF                    #  Was: STANDBY
+          KEY_OPEN                 0xB04F                    #  Was: OPEN/CLOSE
+          PROG                     0x7887
+          KEY_1                    0x00FF                    #  Was: 1
+          KEY_2                    0x807F                    #  Was: 2
+          KEY_3                    0x40BF                    #  Was: 3
+          V-MODE                   0xF807
+          KEY_4                    0xC03F                    #  Was: 4
+          KEY_5                    0x20DF                    #  Was: 5
+          KEY_6                    0xA05F                    #  Was: 6
+          A-MODE                   0x38C7
+          KEY_7                    0x609F                    #  Was: 7
+          KEY_8                    0xE01F                    #  Was: 8
+          KEY_9                    0x10EF                    #  Was: 9
+          KEY_SETUP                0xB847                    #  Was: SETUP
+          GOTO                     0x906F
+          X_KEY_0+                 0x50AF                    #  Was: KEY_0+
+          KEY_0                    0xD02F                    #  Was: 0/10
+          KEY_TITLE                0x28D7                    #  Was: TITLE
+          KEY_MENU                 0xA857                    #  Was: MENU
+          KEY_AUDIO                0x6897                    #  Was: AUDIO
+          KEY_SUBTITLE             0xE817                    #  Was: SUBTITLE
+          KEY_ANGLE                0x18E7                    #  Was: ANGLE
+          KEY_UP                   0x08F7                    #  Was: UP
+          KEY_LEFT                 0x48B7                    #  Was: LEFT
+          KEY_ENTER                0x708F                    #  Was: ENTER
+          KEY_RIGHT                0xC837                    #  Was: RIGHT
+          KEY_DOWN                 0x8877                    #  Was: DOWN
+          STEP                     0x9867
+          KEY_AGAIN                0x58A7                    #  Was: REPEAT
+          A-B                      0xD827
+          SEEK_BACK                0x02FD
+          KEY_PLAY                 0x22DD                    #  Was: PLAY/STOP
+          KEY_PREVIOUS             0x42BD                    #  Was: PREVIOUS
+          SEEK_FORW                0x827D
+          KEY_STOP                 0xA25D                    #  Was: STOP
+          KEY_NEXT                 0xC23D                    #  Was: NEXT
+          KEY_VOLUMEUP             0x12ED                    #  Was: VOLUME+
+          KEY_KPPLUS               0x926D                    #  Was: KEY+
+          VIRTUAL                  0x52AD
+          KEY_MENU                 0xD22D                    #  Was: OSD
+          KEY_VOLUMEDOWN           0x32CD                    #  Was: VOLUME-
+          KEY_MINUS                0xB24D                    #  Was: KEY-
+          KEY_SLOW                 0x728D                    #  Was: SLOW
+          KEY_ZOOM                 0xF20D                    #  Was: ZOOM
+          KEY_MUTE                 0x0AF5                    #  Was: MUTE
+          L/R/ST                   0x8A75
+          EQ                       0x4AB5
+          S.EFFECT                 0xCA35
+      end codes
+
+end remote
+
+

@@ -1,0 +1,70 @@
+#
+# this config file was automatically generated
+# using lirc-0.7.0pre5(parallel) on Fri Oct  8 23:20:04 2004
+#
+# contributed by  Christoph Bartelmus
+#
+# brand:                       Watson
+# model no. of remote control: ?
+# devices being controlled by this remote: TV set FA 5150
+#
+
+begin remote
+
+  name  WATSON_FA_5150
+  bits           13
+  flags RC5|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           952   848
+  zero          952   848
+  plead         997
+  gap          114232
+  toggle_bit      2
+
+
+      begin codes
+          KEY_MUTE                 0x100D                    #  Was: MUTE
+          KEY_POWER                0x100C                    #  Was: POWER
+          PP                       0x100E
+          I-II                     0x1023
+          KEY_1                    0x1001                    #  Was: 1
+          KEY_2                    0x1002                    #  Was: 2
+          KEY_3                    0x1003                    #  Was: 3
+          KEY_4                    0x1004                    #  Was: 4
+          KEY_5                    0x1005                    #  Was: 5
+          KEY_6                    0x1006                    #  Was: 6
+          KEY_7                    0x1007                    #  Was: 7
+          KEY_8                    0x1008                    #  Was: 8
+          KEY_9                    0x1009                    #  Was: 9
+          KEY_0                    0x1000                    #  Was: 0
+          KEY_102ND                0x100A                    #  Was: --
+          P<P                      0x1022
+          KEY_MENU                 0x1030                    #  Was: MENU
+          KEY_INFO                 0x1012                    #  Was: INFO
+          KEY_CHANNELUP            0x1020                    #  Was: CH_UP
+          KEY_CHANNELDOWN          0x1021                    #  Was: CH_DOWN
+          <                        0x1015
+          >                        0x1016
+          KEY_VOLUMEDOWN           0x1011                    #  Was: VOL_DOWN
+          KEY_VOLUMEUP             0x1010                    #  Was: VOL_UP
+          SOUND                    0x1037
+          PICTURE                  0x1036
+          FEATURE                  0x1032
+          INSTALL                  0x1034
+          KEY_TV                   0x103F                    #  Was: TV
+          AV                       0x1038
+          KEY_F1                   0x103C                    #  Was: F1
+          KEY_F2                   0x102E                    #  Was: F2
+          KEY_F3                   0x102A                    #  Was: F3
+          KEY_F4                   0x1029                    #  Was: F4
+          KEY_F5                   0x102D                    #  Was: F5
+          KEY_F6                   0x102B                    #  Was: F6
+          KEY_F7                   0x102C                    #  Was: F7
+          KEY_F8                   0x102F                    #  Was: F8
+      end codes
+
+end remote
+
+

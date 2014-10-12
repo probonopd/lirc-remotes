@@ -1,0 +1,69 @@
+#
+# this config file was automatically generated
+# using WinLIRC 0.6.5 (LIRC 0.6.1pre3) on Thu Feb 05 14:09:39 2004
+#
+# contributed by ApxeoH aka s3ns0r - apx@bk.ru
+#
+# brand:             Toshiba
+# model:             VT-209W
+# supported devices: Video??
+#
+
+begin remote
+
+  name  Toshiba_VT-209W
+  bits           16
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  header       8964  4429
+  one           587   526
+  zero          587  1640
+  ptrail        587
+  repeat       8981  2179
+  pre_data_bits   16
+  pre_data       0xDD22
+  gap          40716
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x000000000000B748        #  Was: Power
+          Display                  0x0000000000003EC1
+          KEY_EJECTCD              0x00000000000050AF        #  Was: Eject
+          SP-LP                    0x00000000000045BA
+          KEY_1                    0x0000000000007F80        #  Was: 1
+          KEY_2                    0x000000000000BF40        #  Was: 2
+          KEY_3                    0x0000000000003FC0        #  Was: 3
+          KEY_4                    0x000000000000DF20        #  Was: 4
+          KEY_5                    0x0000000000005FA0        #  Was: 5
+          KEY_6                    0x0000000000009F60        #  Was: 6
+          KEY_7                    0x0000000000001FE0        #  Was: 7
+          KEY_8                    0x000000000000EF10        #  Was: 8
+          KEY_9                    0x0000000000006F90        #  Was: 9
+          KEY_0                    0x000000000000AF50        #  Was: 0
+          KEY_ENTER                0x0000000000002FD0        #  Was: Enter
+          L.select                 0x00000000000005FA
+          OSP                      0x000000000000C53A
+          KEY_RECORD               0x000000000000E718        #  Was: Rec
+          Timer                    0x0000000000000DF2
+          KEY_CANCEL               0x00000000000008F7        #  Was: Cancel
+          Counter                  0x0000000000009768
+          Index+                   0x0000000000008679
+          Index-                   0x00000000000006F9
+          KEY_PLAY                 0x00000000000057A8        #  Was: Play
+          KEY_STOP                 0x000000000000D728        #  Was: Stop
+          KEY_REWIND               0x0000000000006798        #  Was: Rew
+          KEY_FASTFORWARD          0x00000000000037C8        #  Was: FF
+          KEY_PAUSE                0x000000000000F708        #  Was: Pause
+          KEY_SLOW                 0x0000000000004FB0        #  Was: Slow
+          KEY_CHANNELUP            0x00000000000027D8        #  Was: Chan.up
+          KEY_CHANNELDOWN          0x00000000000007F8        #  Was: Chan.down
+          Shift.R                  0x0000000000004DB2
+          Shift.L                  0x000000000000758A
+      end codes
+
+end remote
+
+

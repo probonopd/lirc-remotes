@@ -1,0 +1,68 @@
+#
+# this config file was automatically generated
+# using lirc-0.5.4 on Sat Aug  7 19:17:05 1999
+#
+# contributed by Michael Bunk, bunk@imn.htwk-leipzig.de
+#
+# brand:             YAMAHA
+# model:             AX-960
+# supported devices: stereo equipment
+#
+
+begin remote
+
+  name  YAMAHA
+  bits           15
+  flags SPACE_ENC
+  eps            30
+  aeps          100                   
+  header       9126  4450
+  one           643   517
+  zero          643  1645
+  ptrail        643
+  pre_data_bits   16
+  pre_data       0xA15E
+  post_data_bits  1
+  post_data      0x0
+  gap          40117
+  repeat_bit      0
+
+      begin codes
+          KEY_POWER                0x00000000000003FC        #  Was: POWER
+          KEY_SLEEP                0x0000000000000AF5        #  Was: SLEEP
+          PHONO_PLAY_CUT           0x00000000000047B8
+          PHONO                    0x0000000000006B94
+          KEY_CD                   0x0000000000002BD4        #  Was: CD
+          CD_TRK_-                 0x00000000000017E8
+          CD_TRK_+                 0x00000000000057A8
+          CD_PLAY                  0x0000000000007788   
+          CD_REW                   0x00000000000027D8
+          CD_FWD                   0x0000000000006798
+          CD_PAUSE_STOP            0x00000000000037C8
+          CD_DISC_SKIP             0x00000000000006F9
+          TUNER_PRESET_-           0x0000000000003BC4
+          TUNER_PRESET_+           0x0000000000007B84
+          TUNER_ABCDE              0x0000000000005BA4
+          KEY_TUNER                0x0000000000004BB4        #  Was: TUNER
+          KEY_AUX                  0x0000000000000BF4        #  Was: AUX
+          EQ_PRESET_-              0x000000000000629D
+          EQ_PRESET_+              0x00000000000012ED
+          EQ_ON_FLAT               0x00000000000052AD
+          TAPE1                    0x000000000000738C
+          TAPE2                    0x00000000000033CC
+          TAPE_DIR_A               0x0000000000000FF0
+          TAPE_DECK_AB             0x0000000000004FB0
+          TAPE_DIR_B               0x0000000000007E81
+          TAPE_REW                 0x0000000000003FC0
+          TAPE_PLAY                0x0000000000007F80   
+          TAPE_FWD                 0x0000000000005FA0
+          TAPE_REC_PAUSE           0x0000000000006F90
+          TAPE_STOP                0x0000000000001FE0
+          TAPE_REC_MUTE            0x0000000000002FD0
+          KEY_VOLUMEUP             0x00000000000053AC        #  Was: VOL_UP
+          KEY_VOLUMEDOWN           0x00000000000013EC        #  Was: VOL_DOWN
+      end codes
+
+end remote
+                                              
+

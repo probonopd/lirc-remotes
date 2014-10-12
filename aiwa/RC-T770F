@@ -1,0 +1,58 @@
+#
+# this config file was automatically generated
+# using WinLIRC 0.6.5 (LIRC 0.6.1pre3) on Sat Jul 03 21:09:26 2004
+#
+# contributed by Francisco J. Villafañe (fvillafa|seznam.cz)
+#
+# hints about key names:
+#                        v stands for 'volume'
+#                        t stands for 'tuning'
+#                        cdp stands for 'cd player'
+#
+#
+# brand:             AIWA
+# model:             RC-T770F
+# supported devices: Stereo Component System CX-770
+#
+
+begin remote
+
+  name  AIWA
+  bits           16
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  header       8907  4561
+  one           518   605
+  zero          518  1723
+  ptrail        518
+  repeat       8914  4576
+  pre_data_bits   26
+  pre_data       0x3B7E240
+  gap          23117
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x000000000000DF20        #  Was: power
+          am                       0x0000000000007F80
+          KEY_RADIO                0x000000000000FF00        #  Was: fm
+          t_down                   0x0000000000005FA0
+          t_up                     0x0000000000003FC0
+          v_down                   0x000000000000EF10
+          v_up                     0x0000000000001FE0
+          cdp_program              0x000000000000AF50
+          cdp_stop                 0x0000000000004FB0
+          cdp_play                 0x0000000000002FD0
+          cdp_memory               0x000000000000CF30
+          cdp_bskip                0x0000000000000FF0
+          cdp_fskip                0x0000000000008F70
+          muting                   0x0000000000006F90
+          KEY_TAPE                 0x000000000000B748        #  Was: tape
+          phono                    0x0000000000007788
+      end codes
+
+end remote
+
+

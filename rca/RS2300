@@ -1,0 +1,57 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.1(iguanaIR) on Tue Oct 23 18:27:21 2007
+#
+# contributed by  Kyle Odell
+#
+# brand: RCA
+# model no. of remote control: RS2300
+# devices being controlled by this remote: RCA Stereo
+#
+
+begin remote
+
+  name  RCA_RS2300
+  bits           24
+  flags SPACE_ENC
+  eps            30
+  aeps          100
+
+  header       4004  3912
+  one           520  1910
+  zero          520   907
+  ptrail        522
+  gap          7921
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0xC2A3D5                  #  Was: power
+          KEY_CD                   0x83A7C5                  #  Was: CD
+          EQ                       0xCB234D
+          KEY_TUNER                0xC3A3C5                  #  Was: TUNER
+          XBASS                    0xC283D7
+          KEY_TAPE                 0x93A6C5                  #  Was: TAPE
+          KEY_OPEN                 0xC5A3A5                  #  Was: OPENCLOSE
+          KEY_AUX                  0xB3A4C5                  #  Was: AUX
+          KEY_VOLUMEUP             0xC2F3D0                  #  Was: volup
+          KEY_VOLUMEDOWN           0xC2E3D1                  #  Was: voldown
+          KEY_STOP                 0x81F7E0                  #  Was: stop
+          KEY_PLAYPAUSE            0x8157EA                  #  Was: playpause
+          prevtrack                0x8227DD
+          KEY_NEXT                 0x8207DF                  #  Was: nexttrack
+          KEY_RECORD               0x9176E8                  #  Was: RECORD
+          DISCSKIP                 0x84D7B2
+          KEY_AGAIN                0x80C7F3                  #  Was: REPEAT
+          SHUFFLE                  0x84A7B5
+          KEY_SLEEP                0xC213DE                  #  Was: SLEEP
+          FMST+                    0x8197E6
+          PRESETUP                 0xC203DF
+          INTRO                    0x9146EB
+          PRESETDOWN               0xC223DD
+          KEY_MUTE                 0xC3F3C0                  #  Was: MUTE
+      end codes
+
+end remote
+
+

@@ -1,0 +1,69 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.3pre1(iguanaIR) on Sun Mar 30 14:10:15 2008
+#
+# contributed by Chad Curvin and PauseLiveTV LLC
+#
+# brand: Panasonic Viera-42PZ700U 42" Plasma 1080P
+# model no. of remote control: "TV" in TV mode
+# devices being controlled by this remote:
+# Just the TV portion including menu and controls navigation
+
+begin remote
+
+  name  Panasonic_Viera-42PZ700U
+  bits           24
+  flags SPACE_ENC
+  eps            30
+  aeps          100
+
+  header       3503  1681
+  one           449  1255
+  zero          449   381
+  ptrail        450
+  pre_data_bits   24
+  pre_data       0x400401
+  gap          74158
+  toggle_bit_mask 0x0
+
+      begin codes
+          KEY_POWER                0x00BCBD                  #  Was: power
+          KEY_MENU                 0x004A4B                  #  Was: menu
+          tv/video                 0x00A0A1
+          KEY_EXIT                 0x9059C8                  #  Was: exit
+          KEY_ENTER                0x002B2A                  #  Was: return
+          KEY_SUBTITLE             0x90E574                  #  Was: sub-menu
+          KEY_UP                   0x005253                  #  Was: up
+          KEY_DOWN                 0x00D2D3                  #  Was: down
+          KEY_LEFT                 0x007273                  #  Was: left
+          KEY_RIGHT                0x00F2F3                  #  Was: right
+          KEY_OK                   0x009293                  #  Was: ok
+          KEY_R                    0x000E0F                  #  Was: r
+          KEY_G                    0x008E8F                  #  Was: g
+          KEY_B                    0x00CECF                  #  Was: b
+          KEY_Y                    0x004E4F                  #  Was: y
+          KEY_CHANNELUP            0x002C2D                  #  Was: ch+
+          KEY_CHANNELDOWN          0x00ACAD                  #  Was: ch-
+          KEY_VOLUMEUP             0x000405                  #  Was: vol+
+          KEY_VOLUMEDOWN           0x008485                  #  Was: vol-
+          aspect                   0x207B5A
+          KEY_FAVORITES            0x9075E4                  #  Was: favorite
+          KEY_AGAIN                0x009C9D                  #  Was: recall
+          KEY_MUTE                 0x004C4D                  #  Was: mute
+          KEY_1                    0x000809                  #  Was: 1
+          KEY_2                    0x008889                  #  Was: 2
+          KEY_3                    0x004849                  #  Was: 3
+          KEY_4                    0x00C8C9                  #  Was: 4
+          KEY_5                    0x002829                  #  Was: 5
+          KEY_6                    0x00A8A9                  #  Was: 6
+          KEY_7                    0x006869                  #  Was: 7
+          KEY_8                    0x00E8E9                  #  Was: 8
+          KEY_9                    0x001819                  #  Was: 9
+          KEY_0                    0x009899                  #  Was: 0
+          r-tune                   0x00ECED
+          KEY_CHANNELDOWN          0x900B9A                  #  Was: prog-
+      end codes
+
+end remote
+
+

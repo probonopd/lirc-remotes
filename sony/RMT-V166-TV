@@ -1,0 +1,73 @@
+#
+# this config file was automatically generated
+# using lirc-WinLIRC 0.6.1pre2 (LIRC 0.6.1pre2) on Thu Mar 07 19:48:31 2002
+#
+# contributed by Papapeti
+#
+# brand:             RMT-V166-TV
+# model:            
+# supported devices: Konfig gilt für Schalterstellung "TV"
+#
+
+begin remote
+
+  name  RMT-V166-TV
+  bits           11
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  header       2410   557
+  one           610   557
+  zero         1218   557
+  ptrail        610
+  gap          27185
+  toggle_bit      0
+
+
+      begin codes
+          KEY_EJECTCD              0x00000000000004B2        #  Was: eject
+          KEY_POWER                0x00000000000002B7        #  Was: on-off
+          tv/vtr                   0x00000000000002D7
+          KEY_MENU                 0x0000000000000262        #  Was: menu
+          timer-clear              0x00000000000001C2
+          cursor-up                0x00000000000005E2
+          cursor-down              0x00000000000001E2
+          cursor-left              0x00000000000005C2
+          cursor-right             0x00000000000003C2
+          execute                  0x00000000000003A2
+          KEY_1                    0x00000000000007F7        #  Was: 1
+          KEY_2                    0x00000000000003F7        #  Was: 2
+          KEY_3                    0x00000000000005F7        #  Was: 3
+          KEY_4                    0x00000000000001F7        #  Was: 4
+          KEY_5                    0x00000000000006F7        #  Was: 5
+          KEY_6                    0x00000000000002F7        #  Was: 6
+          KEY_7                    0x00000000000004F7        #  Was: 7
+          KEY_8                    0x00000000000000F7        #  Was: 8
+          KEY_9                    0x0000000000000777        #  Was: 9
+          KEY_0                    0x0000000000000377        #  Was: 0
+          KEY_102ND                0x0000000000000237        #  Was: -/--
+          KEY_VOLUMEUP             0x00000000000005B7        #  Was: vol+
+          KEY_VOLUMEDOWN           0x00000000000001B7        #  Was: vol-
+          KEY_CHANNELUP            0x00000000000007B7        #  Was: prog+
+          KEY_CHANNELDOWN          0x00000000000003B7        #  Was: prog-
+          counter-reset            0x00000000000004E2
+          frame                    0x0000000000000392
+          slow-                    0x0000000000000412
+          slow+                    0x0000000000000212
+          index-search-back        0x00000000000000A2
+          index-search-fwd         0x00000000000004A2
+          search-back              0x0000000000000752
+          search-fwd               0x0000000000000352
+          display                  0x0000000000000517
+          input-select             0x0000000000000062
+          KEY_RECORD               0x0000000000000232        #  Was: rec
+          KEY_PAUSE                0x0000000000000332        #  Was: pause
+          KEY_REWIND               0x0000000000000132        #  Was: rew
+          KEY_FASTFORWARD          0x0000000000000632        #  Was: ff
+          KEY_PLAY                 0x0000000000000532        #  Was: play
+          KEY_STOP                 0x0000000000000732        #  Was: stop
+      end codes
+
+end remote
+

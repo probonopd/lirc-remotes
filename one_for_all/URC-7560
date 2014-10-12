@@ -1,0 +1,191 @@
+# Code for One For All URC 7560
+#
+# CD -Code Magic 0000 / 1 Deadkey
+# Keymagic 222 --> yellow /no deadkeys
+#
+# VCR-Code Magic 0000 / 2 Deadkeys
+# Keymagic 111 --> yellow
+# Keymagic 222 --> blue /no deadkeys
+#
+# DVD-Code Magic 0490 / 4 Deadkeys
+# Keymagic 111 --> yellow /no deadkeys
+# Keymagic 222 --> red
+# Keymagic 333 --> 10
+# Keymagic 444 --> AV /no deadkeys
+#
+# see manual for one for all 6
+#
+# contributed by Volker Freydank (v.freydank@gmx.net)
+#
+# this config file was automatically generated
+# using WinLIRC 0.6.4 (LIRC 0.6.1pre3) on Sat Oct 12 11:52:39 2002
+#
+# contributed by
+#
+# brand:             CD
+# model:           
+# supported devices:
+#
+
+begin remote
+
+  name  CD
+  bits           11
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  header       2426   560
+  one          1214   560
+  zero          615   560
+  ptrail       1214
+  gap          24525
+  toggle_bit      0
+
+
+      begin codes
+          KEY_MENU                 0x00000000000007C8        #  Was: Menu
+          KEY_POWER                0x0000000000000548        #  Was: On
+          KEY_1                    0x0000000000000008        #  Was: 1
+          KEY_2                    0x0000000000000408        #  Was: 2
+          KEY_3                    0x0000000000000208        #  Was: 3
+          KEY_4                    0x0000000000000608        #  Was: 4
+          KEY_5                    0x0000000000000108        #  Was: 5
+          KEY_6                    0x0000000000000508        #  Was: 6
+          KEY_7                    0x0000000000000308        #  Was: 7
+          KEY_8                    0x0000000000000708        #  Was: 8
+          KEY_9                    0x0000000000000088        #  Was: 9
+          KEY_0                    0x0000000000000728        #  Was: 10
+          KEY_0                    0x0000000000000028        #  Was: 0
+          AV                       0x0000000000000568
+          MenuUp                   0x0000000000000768
+          MenuLeft                 0x00000000000005E8
+          KEY_VOLUMEDOWN           0x0000000000000648        #  Was: Vol-
+          KEY_CHANNELUP            0x0000000000000468        #  Was: ChannelUp
+          KEY_OK                   0x00000000000007D8        #  Was: OK
+          KEY_VOLUMEUP             0x0000000000000248        #  Was: Vol+
+          MenuRight                0x00000000000003E8
+          KEY_CHANNELDOWN          0x0000000000000068        #  Was: ChannelDown
+          MenuDown                 0x0000000000000368
+          KEY_REWIND               0x0000000000000668        #  Was: rewind
+          KEY_PLAY                 0x0000000000000268        #  Was: Play
+          KEY_PAUSE                0x00000000000004E8        #  Was: Pause
+          Forwaed                  0x0000000000000168
+          KEY_RED                  0x0000000000000788        #  Was: Red
+          KEY_GREEN                0x00000000000000E8        #  Was: Green
+          KEY_BLUE                 0x00000000000002B8        #  Was: Blue
+          KEY_YELLOW               0x00000000000004D8        #  Was: Yellow
+      end codes
+
+end remote
+
+begin remote
+
+  name  VCR
+  bits           24
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  header       3503  3429
+  one           877   832
+  zero          877  2570
+  ptrail        877
+  gap          34468
+  toggle_bit      0
+
+
+      begin codes
+          VCR_Menu                 0x0000000000E9516A
+          VCR_On                   0x0000000000EBE141
+          VCR_1                    0x0000000000E8117E
+          VCR_2                    0x0000000000E9E161
+          VCR_3                    0x0000000000EAE151
+          VCR_4                    0x0000000000E8E171
+          VCR_5                    0x0000000000EB6149
+          VCR_6                    0x0000000000E96169
+          VCR_7                    0x0000000000EA6159
+          VCR_8                    0x0000000000E86179
+          VCR_9                    0x0000000000EBA145
+          VCR_10                   0x0000000000C9036F
+          VCR_0                    0x0000000000E9A165
+          VCR_AV                   0x0000000000E8317C
+          VCR_MenuUp               0x0000000000EBD142
+          VCR_ChannelUp            0x0000000000EBD142
+          VCR_MenuLeft             0x0000000000E8217D
+          VCR_Vol-                 0x0000000000E9C163
+          VCR_OK                   0x0000000000E8C173
+          VCR_Vol+                 0x0000000000EBC143
+          VCR_MenuRigt             0x0000000000EA215D
+          VCR_ChannelDown          0x0000000000EBB144
+          VCR_MenuDown             0x0000000000EBB144
+          VCR_Rewind               0x0000000000EB314C
+          VCR_Play                 0x0000000000EAB154
+          VCR_Stop                 0x0000000000E8B174
+          VCR_Forward              0x0000000000EB7148
+          VCR_Red                  0x0000000000C88377
+          VCR_Green                0x0000000000EB114E
+#          VCR_Yellow               0x0000000000EA9156
+          VCR_Yellow               0x0000000000EAD152
+          VCR_Blue                 0x00000000006A6959
+          VCR_AV                   0x0000000000EBF140
+
+      end codes
+
+end remote
+
+begin remote
+
+  name  DVD
+  bits           16
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  header       3509  1698
+  one           449   395
+  zero          449  1268
+  ptrail        449
+  pre_data_bits   32
+  pre_data       0xBFFBF2FF
+  gap          74052
+  toggle_bit      0
+
+
+      begin codes
+          KEY_MENU                 0x000000000000FEF3        #  Was: DVD_Menu
+          KEY_DVD                  0x000000000000434E        #  Was: DVD_On
+          KEY_DVD                  0x000000000000F7FA        #  Was: DVD_1
+          KEY_DVD                  0x000000000000777A        #  Was: DVD_2
+          KEY_DVD                  0x000000000000B7BA        #  Was: DVD_3
+          KEY_DVD                  0x000000000000373A        #  Was: DVD_4
+          KEY_DVD                  0x000000000000D7DA        #  Was: DVD_5
+          KEY_DVD                  0x000000000000575A        #  Was: DVD_6
+          KEY_DVD                  0x000000000000979A        #  Was: DVD_7
+          KEY_DVD                  0x000000000000171A        #  Was: DVD_8
+          KEY_DVD                  0x000000000000E7EA        #  Was: DVD_9
+          KEY_DVD                  0x000000000000676A        #  Was: DVD_0
+          KEY_DVD                  0x0000000000005E53        #  Was: DVD_MenuUp
+          KEY_DVD                  0x000000000000ADA0        #  Was: DVD_ChannelUp
+          KEY_DVD                  0x0000000000001E13        #  Was: DVD_MenuLeft
+          KEY_DVD                  0x0000000000009E93        #  Was: DVD_Vol-
+          KEY_DVD                  0x0000000000009E93        #  Was: DVD_OK
+          KEY_DVD                  0x000000000000EEE3        #  Was: DVD_Vol+
+          KEY_DVD                  0x000000000000EEE3        #  Was: DVD_MenuRigt
+          KEY_DVD                  0x0000000000006D60        #  Was: DVD_ChannelDown
+          KEY_DVD                  0x0000000000009E93        #  Was: DVD_MenuDown
+          KEY_DVD                  0x000000000000DFD2        #  Was: DVD_Rewind
+          KEY_DVD                  0x000000000000AFA2        #  Was: DVD_Play
+          KEY_DVD                  0x0000000000009F92        #  Was: DVD_Stop
+          KEY_DVD                  0x0000000000005F52        #  Was: DVD_Forward
+          KEY_DVD                  0x000000000000FFF2        #  Was: DVD_Green
+          KEY_DVD                  0x000000000000F6FB        #  Was: DVD_Blue
+          KEY_DVD                  0x000000000000E8E5        #  Was: DVD_10
+          KEY_DVD                  0x000000000000DED3        #  Was: DVD_AV
+          KEY_DVD                  0x0000000000009A97        #  Was: DVD_Red
+          KEY_DVD                  0x000000000000B4B9        #  Was: DVD_Yellow
+      end codes
+
+end remote
+
+

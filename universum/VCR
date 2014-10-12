@@ -1,0 +1,74 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.2pre2 on Mon Aug 28 17:40:24 2000
+#
+# contributed by Hans-Hermann
+#
+# brand:             unknown (universum)
+# model:             ?
+# supported devices: video recorder (VR 2947)
+#
+
+begin remote
+
+  name  video
+  bits           15
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       8996  4393
+  one           615  1613
+  zero          615   502
+  ptrail        619
+  pre_data_bits   16
+  pre_data       0x1DE
+  post_data_bits  1
+  post_data      0x1
+  gap          107668
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x000000000000641B        #  Was: power
+          tv/vcr                   0x000000000000245B
+          KEY_EJECTCD              0x0000000000003946        #  Was: eject
+          KEY_1                    0x000000000000403F        #  Was: 1
+          KEY_2                    0x000000000000205F        #  Was: 2
+          KEY_3                    0x000000000000601F        #  Was: 3
+          KEY_4                    0x000000000000106F        #  Was: 4
+          KEY_5                    0x000000000000502F        #  Was: 5
+          KEY_6                    0x000000000000304F        #  Was: 6
+          KEY_7                    0x000000000000700F        #  Was: 7
+          KEY_8                    0x0000000000000877        #  Was: 8
+          KEY_9                    0x0000000000004837        #  Was: 9
+          KEY_0                    0x000000000000007F        #  Was: 0
+          prog.cfm                 0x0000000000000976
+          set-                     0x000000000000215E
+          set+                     0x000000000000413E
+          KEY_ENTER                0x000000000000512E        #  Was: enter
+          KEY_CANCEL               0x0000000000002956        #  Was: cancel
+          preset                   0x000000000000017E
+          aft/vps                  0x000000000000314E
+          fine-                    0x000000000000116E
+          fine+                    0x000000000000611E
+          auto                     0x000000000000255A
+          clock/counter            0x000000000000453A
+          memory                   0x0000000000006916
+          reset                    0x0000000000001966
+          KEY_AGAIN                0x000000000000443B        #  Was: repeat
+          index                    0x000000000000146B
+          KEY_SLOW                 0x0000000000007C03        #  Was: slow
+          KEY_RECORD               0x000000000000542B        #  Was: rec/qtr
+          KEY_REWIND               0x0000000000004C33        #  Was: rew
+          KEY_PLAY                 0x000000000000344B        #  Was: play
+          f.fwd                    0x0000000000000C73
+          pause/still              0x0000000000002C53
+          KEY_STOP                 0x000000000000740B        #  Was: stop
+          KEY_CHANNELDOWN          0x0000000000006817        #  Was: prog-
+          KEY_CHANNELUP            0x0000000000002857        #  Was: prog+
+      end codes
+
+end remote
+
+

@@ -1,0 +1,133 @@
+#
+# this config file was automatically generated
+# using WinLIRC 0.6.5 (LIRC 0.6.1pre3) on Fri Nov 20 00:39:18 2009
+#
+# contributed by
+#
+# brand:             Toshiba
+# model:             CT-90159
+# supported devices: DVD
+#
+
+begin remote
+
+  name  Toshiba_CT-90159_TV
+  bits           16
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  header       9050  4446
+  one           600   521
+  zero          600  1649
+  ptrail        600
+  repeat       9051  2205
+  pre_data_bits   16
+  pre_data       0xFD02
+  gap          40453
+  toggle_bit      0
+
+
+      begin codes
+          TV_VIDEO                 0x0000000000000FF0
+          KEY_AGAIN                0x000000000000C738        #  Was: RECALL
+          KEY_POWER                0x000000000000B748        #  Was: POWER
+          NUMBER_1                 0x0000000000007F80
+          NUMBER_2                 0x000000000000BF40
+          NUMBER_3                 0x0000000000003FC0
+          NUMBER_4                 0x000000000000DF20
+          NUMBER_5                 0x0000000000005FA0
+          NUMBER_6                 0x0000000000003FC0
+          NUMBER_7                 0x0000000000001FE0
+          NUMBER_4                 0x000000000000DF20
+          NUMBER_5                 0x0000000000005FA0
+          NUMBER_6                 0x0000000000009F60
+          NUMBER_8                 0x000000000000EF10
+          NUMBER_9                 0x0000000000006F90
+          NUMBER_100               0x000000000000AF50
+          NUMBER_0                 0x000000000000FF00
+          ENT                      0x00000000000017E8
+          KEY_FAVORITES            0x000000000000F609        #  Was: FAVORITE
+          PIC_SIZE                 0x000000000000D52A
+          ARROW_UP                 0x000000000000BE41
+          ARROW_DOWN               0x0000000000003EC1
+          ARROW_LEFT               0x00000000000047B8
+          ARROW_RIGHT              0x0000000000006798
+          KEY_MENU                 0x000000000000FE01        #  Was: DVD_MENU
+          KEY_ENTER                0x0000000000006E91        #  Was: ENTER
+          KEY_EXIT                 0x000000000000E51A        #  Was: EXIT
+          KEY_CHANNELUP            0x00000000000027D8        #  Was: CHANNEL_UP
+          KEY_CHANNELDOWN          0x00000000000007F8        #  Was: CHANNEL_DOWN
+          KEY_VOLUMEUP             0x000000000000A758        #  Was: VOLUME_UP
+          KEY_VOLUMEDOWN           0x0000000000008778        #  Was: VOLUME_DOWN
+          POP_DIR                  0x0000000000009B64
+          KEY_MUTE                 0x000000000000F708        #  Was: MUTE
+          KEY_SLEEP                0x00000000000057A8        #  Was: SLEEP
+          KEY_PAUSE                0x000000000000CD32        #  Was: PAUSE
+          KEY_STOP                 0x0000000000000DF2        #  Was: STOP
+          KEY_PLAY                 0x000000000000758A        #  Was: PLAY
+          SKIPPREV                 0x0000000000007788
+          SKIPNEXT                 0x00000000000035CA
+          frev                     0x0000000000002DD2
+          KEY_FASTFORWARD          0x000000000000AD52        #  Was: FFWD
+      end codes
+
+end remote
+
+
+begin remote
+
+  name  Toshiba_CT-90159_DVD
+  bits           32
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  header       9058  4441
+  one           606   515
+  zero          606  1643
+  ptrail        606
+  repeat       9063  2196
+  gap          40452
+  toggle_bit      0
+
+
+      begin codes
+          TV_VIDEO                 0x00000000FD020FF0
+          KEY_AGAIN                0x000000005DA29768        #  Was: RECALL
+          KEY_POWER                0x000000005DA2B748        #  Was: POWER_ON_OFF
+          NUMBER_0                 0x000000005DA2AF50
+          NUMBER_1                 0x000000005DA27F80
+          NUMBER_2                 0x000000005DA2BF40
+          NUMBER_3                 0x000000005DA23FC0
+          NUMBER_4                 0x000000005DA2DF20
+          NUMBER_5                 0x000000005DA25FA0
+          NUMBER_6                 0x000000005DA29F60
+          NUMBER_7                 0x000000005DA21FE0
+          NUMBER_8                 0x000000005DA2EF10
+          NUMBER_9                 0x000000005DA26F90
+          NUMBER_100               0x000000005DA25BA4
+          KEY_ENTER                0x000000005DA2DE21        #  Was: enter
+          Top_Menu                 0x000000005DA2847B
+          ARROWUP                  0x000000005DA2FE01
+          ARROWDOWN                0x000000005DA27E81
+          ARROWLEFT                0x000000005DA2758A
+          ARROWRIGHT               0x000000005DA24DB2
+          mark                     0x000000005DA27B84
+          KEY_CANCEL               0x000000005DA208F7        #  Was: cancel
+          VOLUME_UP_ignored        0x00000000FD02A758
+          VOLUME_DOWN_ignored      0x00000000FD028778
+          KEY_MUTE                 0x00000000FD02F708        #  Was: MUTE
+          KEY_PAUSE                0x000000005DA2FF00        #  Was: PAUSE
+          KEY_STOP                 0x000000005DA2D728        #  Was: STOP
+          KEY_PLAY                 0x000000005DA257A8        #  Was: PLAY
+          frev                     0x000000005DA26798
+          KEY_FASTFORWARD          0x000000005DA237C8        #  Was: ffwd
+          KEY_PREVIOUS             0x000000005DA23BC4        #  Was: prev
+          KEY_NEXT                 0x000000005DA2DB24        #  Was: next
+          KEY_POWER                0x000000005DA2B748        #  Was: POWER_ON_OFF
+      end codes
+
+end remote
+
+

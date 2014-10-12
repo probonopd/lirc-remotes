@@ -1,0 +1,84 @@
+#
+# this config file was manually created
+# using my brain, the internet, lots-O-research
+# and ir on Sun Nov 9 01:49:32 2008
+#
+# contributed by: me
+#             to: all those that wanted to know
+#
+# brand:                      		 Sonicview
+# model no. of remote control: 		 SV-360
+# devices being controlled by this remote: Sonicview FTA Receiver
+#
+# note: the buttons are arranged in the order they are in the manual,
+#       pretty much a top to bottom, left to right fashion on the remote. 
+
+
+begin remote
+
+  name  Sonicview_SV-360
+  bits           13
+  flags RC5|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           949   839
+  zero          949   839
+  plead         967
+  gap          114613
+  toggle_bit_mask 0x800
+
+      begin codes
+          KEY_POWER                0x13C1                    #  Was: power
+          signal                   0x13F4
+          KEY_SLEEP                0x13F1                    #  Was: sleep
+          KEY_MUTE                 0x13E3                    #  Was: mute
+          KEY_HELP                 0x13E7                    #  Was: help
+          user                     0x13D7
+          multi-picture            0x13F7
+          KEY_FAVORITES            0x13CD                    #  Was: fav
+          tv/radio                 0x13EC
+          usb                      0x13C3
+          KEY_SAT                  0x13DD                    #  Was: sat
+          find                     0x13FD
+          KEY_INFO                 0x13D9                    #  Was: guide
+          KEY_LAST                 0x13C5                    #  Was: last
+          KEY_MENU                 0x13F9                    #  Was: menu
+          KEY_EXIT                 0x13E5                    #  Was: exit
+          KEY_OK                   0x13F3                    #  Was: ok
+          KEY_PAGEUP               0x13DC                    #  Was: page-up
+          KEY_PAGEDOWN             0x13FC                    #  Was: page-down
+          KEY_UP                   0x13E1                    #  Was: up
+          KEY_DOWN                 0x13E9                    #  Was: down
+          KEY_LEFT                 0x13D1                    #  Was: left
+          KEY_RIGHT                0x13C9                    #  Was: right
+          KEY_INFO                 0x13EA                    #  Was: info
+          KEY_RECORD               0x13E2                    #  Was: record
+          KEY_AGAIN                0x13E6                    #  Was: repeat
+          KEY_REWIND               0x13F2                    #  Was: rewind
+          KEY_SLOW                 0x13C2                    #  Was: slow
+          KEY_FASTFORWARD          0x13CA                    #  Was: fast-forward
+          KEY_STOP                 0x13FA                    #  Was: stop
+          KEY_PLAY                 0x13D2                    #  Was: play
+          KEY_PAUSE                0x13C6                    #  Was: pause
+          KEY_RED                  0x13D6                    #  Was: red
+          KEY_GREEN                0x13F6                    #  Was: green
+          KEY_YELLOW               0x13CE                    #  Was: yellow
+          KEY_BLUE                 0x13EE                    #  Was: blue
+          KEY_1                    0x13E0                    #  Was: 1
+          KEY_2                    0x13D0                    #  Was: 2
+          KEY_3                    0x13F0                    #  Was: 3
+          KEY_4                    0x13C8                    #  Was: 4
+          KEY_5                    0x13E8                    #  Was: 5
+          KEY_6                    0x13D8                    #  Was: 6
+          KEY_7                    0x13F8                    #  Was: 7
+          KEY_8                    0x13C4                    #  Was: 8
+          KEY_9                    0x13E4                    #  Was: 9
+          KEY_0                    0x13C0                    #  Was: 0
+          KEY_AUDIO                0x13F5                    #  Was: audio
+          KEY_ZOOM                 0x13D5                    #  Was: zoom
+      end codes
+
+end remote
+
+

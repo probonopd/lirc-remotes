@@ -1,0 +1,62 @@
+# contributed by Bernardo Santos
+#
+# brand:             Gradiente
+# model:             D-10
+# supported devices:  Remote control for gradiente's D-10 DVD player.
+# Automatic generation didn`t work well so I had to
+# figure out the protocol myself. It is similar to the one
+# on the generic RECS80.conf config file.
+#
+
+begin remote
+
+  name  D-10
+  bits           11
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  one           270  7310
+  zero          270  4800
+  ptrail        270
+  toggle_bit    2
+  gap            49000
+
+
+      begin codes
+          KEY_POWER                0x000000000000075E        #  Was: POWER
+          KEY_EJECTCD              0x0000000000000766        #  Was: EJECT
+          KEY_ANGLE                0x000000000000076E        #  Was: ANGLE
+          INDEX                    0x000000000000075A
+          A-B                      0x000000000000075F
+          KEY_MUTE                 0x0000000000000758        #  Was: MUTE
+          KEY_1                    0x0000000000000775        #  Was: 1
+          KEY_2                    0x000000000000076D        #  Was: 2
+          KEY_3                    0x0000000000000765        #  Was: 3
+          KEY_4                    0x000000000000075D        #  Was: 4
+          KEY_5                    0x0000000000000774        #  Was: 5
+          KEY_6                    0x000000000000076C        #  Was: 6
+          KEY_7                    0x0000000000000764        #  Was: 7
+          KEY_8                    0x000000000000075C        #  Was: 8
+          KEY_9                    0x0000000000000773        #  Was: 9
+          KEY_0                    0x000000000000076B        #  Was: 0
+          KEY_MENU                 0x0000000000000767        #  Was: MENU
+          KEY_TITLE                0x0000000000000776        #  Was: TITLE
+          KEY_SUBTITLE             0x0000000000000763        #  Was: SUBTITLE
+          KEY_AUDIO                0x0000000000000760        #  Was: AUDIO
+          KEY_PAUSE                0x0000000000000759        #  Was: PAUSE
+          ACTIVE_MENU              0x000000000000076F
+          KEY_EXIT                 0x0000000000000770        #  Was: EXIT
+          UP_FW                    0x0000000000000768
+          LEFT_RW                  0x0000000000000771
+          OK_PLAY                  0x0000000000000769
+          RIGHT_FW                 0x0000000000000761
+          DOWN_RW                  0x000000000000076A
+          KEY_STOP                 0x0000000000000762        #  Was: STOP
+          SKIP_BACK                0x0000000000000777
+          SKIP_FORWARD             0x0000000000000772
+      end codes
+
+end remote
+
+

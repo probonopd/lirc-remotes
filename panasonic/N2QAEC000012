@@ -1,0 +1,56 @@
+#
+# this config file was automatically generated
+# using WinLIRC 0.6.5 (LIRC 0.6.1pre3) on Sun Sep 04 19:35:57 2005
+#
+# contributed by
+#
+# brand:             Panasonic
+# model:             N2QAEC000012
+# supported devices:
+#
+
+begin remote
+
+  name  Panasonic_N2QAEC000012
+  bits           24
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  header       3553  1662
+  one           486  1235
+  zero          486   361
+  ptrail        486
+  pre_data_bits   24
+  pre_data       0x40040E
+  gap          74566
+  toggle_bit      0
+
+
+      begin codes
+          KEY_MENU                 0x10EAF4                  #  Was: OSD
+          date/time                0x10E6F8
+          photo_shot               0x106678
+          start/stop               0x10332D
+          a.dub                    0x10908E
+          KEY_VOLUMEUP             0x104658                  #  Was: vol+
+          KEY_VOLUMEDOWN           0x10C6D8                  #  Was: vol-
+          KEY_REWIND               0x10405E                  #  Was: rew
+          KEY_PLAY                 0x10504E                  #  Was: play
+          KEY_FASTFORWARD          0x10C0DE                  #  Was: ff
+          still_adv                0x10E0FE
+          KEY_PAUSE                0x10607E                  #  Was: pause
+          KEY_STOP                 0x10001E                  #  Was: stop
+          still_adv>               0x10F0EE
+          var.search               0x90019F
+          KEY_MENU                 0x106A74                  #  Was: menu
+          KEY_ENTER                0x101A04                  #  Was: enter
+          cursor_left              0x90CB55
+          cursor_right             0x904BD5
+          cursor_up                0x900B95
+          cursor_down              0x908B15
+      end codes
+
+end remote
+
+

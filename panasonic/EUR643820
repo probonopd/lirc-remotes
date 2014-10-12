@@ -1,0 +1,61 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.5(any) on Mon Oct 13 16:46:20 2003
+#
+# contributed by
+#
+# brand:                       Panasonic
+# model no. of remote control: EUR643820
+# devices being controlled by this remote:
+#
+
+begin remote
+
+  name  Panasonic_EUR643820
+  bits           16
+  flags SPACE_ENC
+  eps            30
+  aeps          100
+
+  header       3533  1704
+  one           470  1268
+  zero          470   399
+  ptrail        474
+  pre_data_bits   32
+  pre_data       0x40040543
+  gap          74353
+  toggle_bit      0
+
+
+      begin codes
+          KEY_POWER                0x000000000000FDBB        #  Was: POWER
+          KEY_SLEEP                0x0000000000003D7B        #  Was: SLEEP
+          DISPLAY                  0x000000000000F1B7
+          TUNER_BAND               0x0000000000001D5B
+          TUNER_PRESET_TUNE_DOWN   0x0000000000001751
+          TUNER_PRESET_TUNE_UP     0x000000000000E7A1
+          MEMORY                   0x000000000000D197
+          TUNER_TUNING_DOWN        0x0000000000005711
+          TUNER_TUNING_UP          0x00000000000097D1
+          KEY_CANCEL               0x000000000000B1F7        #  Was: CANCEL
+          CD_PREV                  0x0000000000002167
+	  CD_NEXT                  0x000000000000A1E7
+          CD_RANDOM                0x0000000000004107
+          CD_CLEAR                 0x0000000000000147
+          CD_PLAY                  0x000000000000E1A7
+          CD_REPEAT                0x00000000000081C7
+          TAPE_REV_MODE            0x0000000000007533
+          TAPE_DECK                0x000000000000B5F3
+          TAPE_RECORD              0x0000000000002563
+          TAPE_REWIND              0x0000000000004503
+          TAPE_FORWARD             0x000000000000C583
+          TAPE_STOP                0x0000000000000543
+          TAPE_PLAY_REWIND         0x000000000000A5E3
+          TAPE_PLAY_FORWARD        0x0000000000006523
+          KEY_VOLUMEDOWN           0x0000000000008DCB        #  Was: VOLUME_DOWN
+          KEY_VOLUMEUP             0x0000000000000D4B        #  Was: VOLUME_UP
+      end codes
+
+end remote
+
+
