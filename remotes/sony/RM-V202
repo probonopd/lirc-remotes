@@ -1,0 +1,442 @@
+s config file was automatically generated
+# using lirc-0.8.3-CVS-pvr150-2(default) on Thu Oct  2 21:45:41 2008
+#
+# This is for the Sony RM-V202, a universal remote with a TV/VCR/CABLE/DVD switch. 
+# Not all buttons are functional in all modes.  Missing ones have been noted.  
+# Included code mappings:
+# TV code 001, 011
+# VCR code 035
+# CBL/SAT code 013, 016
+# DVD code 001, 012, 062
+
+# brand: Sony
+# model no. of remote control: RM-V202 (TV code 001)
+# devices being controlled by this remote:
+#
+# TV code 001 is missing the following key: Guide
+
+begin remote
+
+  name  RMV202_TV001
+  bits           12
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       2518   499
+  one          1263   539
+  zero          657   539
+  gap          44850
+  min_repeat      2
+  toggle_bit_mask 0x0
+
+      begin codes
+          Power                    0xA90
+          1                        0x010
+          2                        0x810
+          3                        0x410
+          4                        0xC10
+          5                        0x210
+          6                        0xA10
+          7                        0x610
+          8                        0xE10
+          9                        0x110
+          0                        0x910
+          PIP                      0xDB0
+          Ent                      0xD10
+          Vol+                     0x490
+          Vol-                     0xC90
+          Mute                     0x290
+          Ch+                      0x090
+          Ch-                      0x890
+          Recall                   0xDD0
+          TV_Video                 0xA50
+          Display                  0x5D0
+          Sleep                    0x6D0
+          Up                       0x2F0
+          Down                     0xAF0
+          Left                     0x2D0
+          Right                    0xCD0
+          Menu                     0x070
+          OK                       0xA70
+          Play                     0xFB0
+          Stop                     0x7B0
+          Rewind                   0x9B0
+          FFwd                     0x1B0
+          Pause                    0x3B0
+          Record                   0x5B0
+      end codes
+
+end remote
+
+
+# brand: Sony
+# model no. of remote control: RM-V202 (TV code 011)
+# devices being controlled by this remote:
+#
+# TV code 011 is missing the following keys:
+# ENT, Guide, Rewind, FFWD, Pause
+
+begin remote
+
+  name  RMV202_TV011
+  bits           13
+  flags RC5|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           937   823
+  zero          937   823
+  plead        1013
+  gap          113197
+  toggle_bit_mask 0x800
+
+      begin codes
+          Power                    0x100C
+          1                        0x1001
+          2                        0x1002
+          3                        0x1003
+          4                        0x1004
+          5                        0x1005
+          6                        0x1006
+          7                        0x1007
+          8                        0x1008
+          9                        0x1009
+          0                        0x1000
+          PIP                      0x103A
+          Vol+                     0x1010
+          Vol-                     0x1011
+          Mute                     0x100D
+          Ch+                      0x1020
+          Ch-                      0x1021
+          Recall                   0x1022
+          TV_Video                 0x1028
+          Display                  0x100F
+          Sleep                    0x1026
+          Up                       0x1020
+          Down                     0x1021
+          Left                     0x1011
+          Right                    0x1010
+          Menu                     0x103B
+          OK                       0x100F
+          Play                     0x1037
+          Stop                     0x102F
+      end codes
+
+end remote
+
+# brand: Sony
+# model no. of remote control: RM-V202 (VCR code 035)
+# devices being controlled by this remote:
+#
+# VCR code 035 is missing the following keys:
+# PIP, ENT, Vol+, Vol-, Mute, Recall, Guide
+
+begin remote
+
+  name  RMV202_VCR035
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9069  4413
+  one           626  1605
+  zero          626   502
+  ptrail        614
+  repeat       9070  2219
+  pre_data_bits   16
+  pre_data       0x7689
+  gap          107603
+  toggle_bit_mask 0x0
+
+      begin codes
+          Power                    0x28D7
+          1                        0xA05F
+          2                        0x609F
+          3                        0xE01F
+          4                        0x30CF
+          5                        0xB04F
+          6                        0x708F
+          7                        0xF00F
+          8                        0x38C7
+          9                        0xB847
+          0                        0x20DF
+          Ch+                      0x18E7
+          Ch-                      0x9867
+          TV_Video                 0xA857
+          Display                  0x7887
+          Sleep                    0x6A95
+          Up                       0x41BE
+          Down                     0x916E
+          Left                     0xC13E
+          Right                    0x09F6
+          Menu                     0x6897
+          OK                       0x718E
+          Rewind                   0x40BF
+          Play                     0x10EF
+          FFwd                     0xC03F
+          Stop                     0x807F
+          Pause                    0xD02F
+          Record                   0x906F
+      end codes
+
+end remote
+
+
+# brand: Sony
+# model no. of remote control: RM-V202 (CABLE/SAT code 013)
+# devices being controlled by this remote:
+#
+# CBL/SAT code 013 is missing the following keys:
+# PIP, TV/Video, Display, Sleep, 
+# the directional pad, and everything below that
+
+begin remote
+
+  name  RMV202_CBL013
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9070  4413
+  one           629  1602
+  zero          629   498
+  ptrail        620
+  repeat       9070  2216
+  pre_data_bits   16
+  pre_data       0x42BD
+  gap          107579
+  toggle_bit_mask 0x0
+
+      begin codes
+          Power                    0x48B7
+          1                        0x5AA5
+          2                        0xA857
+          3                        0x906F
+          4                        0xDA25
+          5                        0x28D7
+          6                        0xF00F
+          7                        0x58A7
+          8                        0x38C7
+          9                        0xB04F
+          0                        0xB847
+          Ent                      0xE21D
+          Ch+                      0x629D
+          Ch-                      0x926D
+          Recall                   0x728D
+      end codes
+
+end remote
+
+
+
+# brand: Sony
+# model no. of remote control: RM-V202 (CBL/SAT code 016)
+# devices being controlled by this remote:
+#
+# CBL/SAT code 016 is missing the following keys:
+# PIP, TV/Video, Display, Sleep, 
+# the directional pad, and everything below that
+
+begin remote
+
+  name   RMV202_CBL016
+  flags RAW_CODES|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  ptrail          0
+  repeat     0     0
+  gap          35867
+
+      begin raw_codes
+
+          name Power
+             1224     963    3380
+
+          name 1
+              208     143     150
+
+          name 2
+             1269     907    1189    1007    3356
+
+          name 3
+             1226     962    5559
+
+          name 4
+             1225     967    2288    2097    1175
+
+          name 5
+             1224     963    1198    1006    1175    1008
+             1173
+
+          name 6
+             1227     960    3379    1008    1172
+
+          name 7
+             1224     962    2288    1038    1155
+
+          name 8
+             1251     936    1198    1007    2265
+
+          name 9
+             1226     961    4471
+
+          name 0
+             1225     962    1198    1007    1174
+
+          name Ent
+             1236     951    3378    2101    1171
+
+          name Vol+
+            11349   12683     578    1905     591    1875
+              632    1821     691    1792     669     852
+              620
+
+          name Vol-
+            11648   12377     658    1822     661    1807
+              680    1803     684    1801     686     801
+              687
+
+          name Mute
+            11642   12372     656    1827     665    1818
+              674    1811     677    1807     675     814
+              676
+
+          name Ch+
+             1221     963    1199    1005    1176    1009
+             2274
+
+          name Ch-
+             1225     966    3379    1035    2237
+
+          name Recall
+             1278     908    2288    3191    1172
+
+      end raw_codes
+
+end remote
+
+# brand: Sony
+# model no. of remote control: RM-V202 (DVD code 012, 062)
+# As far as I can tell, code 012 and 062 are the same.
+# devices being controlled by this remote:
+#
+# DVD codes 012/062 are missing the following keys
+# Vol+, Vol-, Mute, Record
+
+begin remote
+
+  name  RMV202_DVD012
+  bits           13
+  flags RC6|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       2779   805
+  one           479   399
+  zero          479   399
+  pre_data_bits   8
+  pre_data       0x77
+  gap          99477
+  toggle_bit_mask 0x10000
+  rc6_mask    0x10000
+
+      begin codes
+          Power                    0x1BF3
+          1                        0x1BFE
+          2                        0x1BFD
+          3                        0x1BFC
+          4                        0x1BFB
+          5                        0x1BFA
+          6                        0x1BF9
+          7                        0x1BF8
+          8                        0x1BF7
+          9                        0x1BF6
+          0                        0x1BFF
+          PIP                      0x1B87
+          Ent                      0x1BA3
+          TV_Video                 0x1BB1
+          Display                  0x1BF0
+          Sleep                    0x1BB4
+          Ch+                      0x1BDF
+          Ch-                      0x1BDE
+          Recall                   0x1B8E
+          Up                       0x1BA7
+          Down                     0x1BA6
+          Left                     0x1BA5
+          Right                    0x1BA4
+          Menu                     0x1BAB
+          Guide                    0x1BC5
+          OK                       0x1BA3
+          Play                     0x1BD3
+          Stop                     0x1BCE
+          Rewind                   0x1BD6
+          FFwd                     0x1BD7
+          Pause                    0x1BCF
+      end codes
+
+end remote
+
+
+# brand: Sony
+# model no. of remote control: RM-V202 (DVD code 001)
+# devices being controlled by this remote:
+#
+# DVD code 001 is missing the following keys:
+# Vol+, Vol-, Mute, Record
+
+begin remote
+
+  name  RMV202_DVD001
+  bits           12
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       2501   517
+  one          1231   563
+  zero          634   563
+  post_data_bits  8
+  post_data      0x92
+  gap          44810
+  min_repeat      2
+  toggle_bit_mask 0x0
+
+      begin codes
+          Power                    0xA8B
+          1                        0x00B
+          2                        0x80B
+          3                        0x40B
+          4                        0xC0B
+          5                        0x20B
+          6                        0xA0B
+          7                        0x60B
+          8                        0xE0B
+          9                        0x10B
+          0                        0x90B
+          Ent                      0xD0B
+          PIP                      0xD0B
+          Ch+                      0x8CB
+          Ch-                      0x0CB
+          Recall                   0x58B
+          Up                       0x9EB
+          Down                     0x5EB
+          Left                     0xDEB
+          Right                    0x3EB
+          Menu                     0xD8B
+          Guide                    0xF0B
+          OK                       0xD0B
+          Play                     0x4CB
+          Stop                     0x1CB
+          Rewind                   0xCCB
+          FFwd                     0x2CB
+          Pause                    0x9CB
+      end codes
+
+end remote
+
+
+

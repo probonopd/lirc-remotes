@@ -1,0 +1,93 @@
+s config file was generated using lirc-0.8.2 with LIRC serial recceiver 
+# on Beaujolais Day 2007 (Nov. 15th 2007)
+#
+# Contributed by: Lothar Wiemann (lothar.wiemann [at] arcor.de)
+#
+# Brand:        T+A
+# Remote Model: F 100
+# Notes: 	If building a LIRC serial receiver:
+#		T+A remotes use a carrier frequency of 31.25 kHz.
+#		IR-receivers with 30...33 kHz will work best (eg. Vishay TSOP 1730)
+#		Std. 38 kHz receivers not recommended
+#		-----------------------------------------------------------------------
+#		The F100 uses a modified bi-phase code with header, start-bit, 9 data-bits, no toggle bits.
+#		The HEADER is 512us pulse / 2560 us pause
+#		The START bit is NOT bi-phase-coded ! It has a length of 1024us pulse / no pause (plead) 
+#		The DATA bits are standard bi-phase with 512us pulse/512us pause (one) or  512us pause/512us pulse (zero)	
+#
+#		Enjoy
+#		------------------------------------------------------------------------
+#
+
+begin remote
+
+  name  lircd.conf
+  bits            9
+  flags           RC5|CONST_LENGTH
+  eps             5
+  aeps            192
+
+  header          512  2560
+  one             512   512
+  zero            512   512
+  plead           1024
+  gap             130000
+  min_repeat      1
+  toggle_bit_mask 0x0
+
+      begin codes
+          ON_OFF                   0x1F7
+          SCL                      0x15F
+          DISC                     0x0E7
+          A1/PH                    0x017
+          A2/TV                    0x1C7
+          A3/TUN                   0x147
+          REC                      0x57
+          1                        0x02F
+          2                        0x1CF
+          3                        0x14F
+          4                        0x1EF
+          5                        0x1B7
+          6                        0x27
+          7                        0x77
+          8                        0x177
+          9                        0x037
+          0                        0x1E7
+          <>                       0x06B
+          Note                     0x09F
+          SRND                     0x047
+          Speaker                  0x167
+          VOL+                     0x1FF
+          VOL-                     0x0FF
+          UP                       0x5F
+          DOWN                     0xAF
+          LEFT                     0x12F
+          RIGHT                    0xD7
+          OK                       0xCF
+          |<<                      0x199
+          <<                       0x1A9
+          >>                       0x1A1
+          >>|                      0x191
+          Record                   0x141
+          Back/RPT                 0x4F
+          STOP                     0xDF
+          PLAY/PAUSE               0x16F
+          SYS_Menu                 0x139
+          VID_Menu                 0x73
+          AUD_Menu                 0x1AF
+          SRC_Menu                 0x107
+          RED                      0x1AB
+          GREEN                    0x1B3
+          YELLOW                   0x1C3
+          BLUE                     0x1CB
+          LIST                     0x1BB
+          STORE                    0x10F
+          (i)                      0x1A3
+          View                     0x1BF
+          F1                       0x6F
+          F2                       0x1DB
+          F3                       0x1A7
+          F4                       0x193
+      end codes
+
+end remote

@@ -1,0 +1,354 @@
+s config file was automatically generated
+# using lirc-0.7.1pre2(any) on Mon Oct  2 15:01:18 2006
+#
+# contributed by Jan Heitkoetter <devnull|heitkoetter.net>
+#
+# brand: Philips
+# model no. of remote control: RC4330/01H
+# devices being controlled by this remote: amplifier
+#
+
+begin remote
+
+  name  Philips_RC433001H_AMP
+  bits           13
+  flags RC5|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           919   851
+  zero          919   851
+  plead         952
+  gap          113384
+  toggle_bit      2
+
+
+      begin codes
+          Power                    0x144C
+          Vol+                     0x1410
+          Vol-                     0x1411
+          Mute                     0x140D
+      end codes
+
+end remote
+
+# this config file was automatically generated
+# using lirc-0.7.1pre2(any) on Mon Oct  2 15:02:59 2006
+#
+# contributed by Jan Heitkoetter <devnull|heitkoetter.net> 
+#
+# brand: Philips
+# model no. of remote control: RC4330/01H
+# devices being controlled by this remote: CD player
+#
+
+begin remote
+
+  name   Philips_RC433001H_CD
+  flags CONST_LENGTH|RAW_CODES
+  eps            30
+  aeps          100
+
+  ptrail          0
+  repeat     0     0
+  gap    113385
+
+      begin raw_codes
+
+          name Power
+              955     842    1816    1728    1816    1727
+             1817     842     930     843     927     843
+              928    1729     929     842    1817     841
+              930
+
+          name FastRewind
+              955     844     930     841     930     843
+             1817    1728    1815     842     928    1728
+              929     844    1815     843     929    1728
+             1816
+
+          name Stop
+              955     820    1839    1731    1812    1729
+             1816     843     929    1727     929     843
+             1817    1727     929     843    1816
+
+          name Play
+              950     845     929     821     952     842
+             1817    1727    1816     843     927    1729
+              928     845    1814    1728    1816    1728
+              927
+
+          name FastForward
+              953     844    1816    1728    1817    1727
+             1816     843     927    1728     929     842
+             1817    1728    1816     842     927
+
+          name Pause
+              953     844     928     844     930     843
+             1816    1726    1816     843     929    1727
+              929     843    1817     843     929     842
+              927     843     929
+
+      end raw_codes
+
+end remote
+
+# this config file was automatically generated
+# using lirc-0.7.1pre2(any) on Mon Oct  2 14:52:45 2006
+#
+# contributed by Jan Heitkoetter <devnull|heitkoetter.net> 
+#
+# brand: Philips
+# model no. of remote control: RC4330/01H
+# devices being controlled by this remote: DVD player
+#
+
+begin remote
+
+  name  Philips_RC433001H_DVD
+  bits           21
+  flags RC6|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       2726   848
+  one           458   419
+  zero          458   419
+  gap          106235
+  toggle_bit      0
+
+  rc6_mask    0x10000
+
+      begin codes
+          Power                    0x0EFBF3
+          FastRewind               0x0FFBD6
+          Stop                     0x0EFBCE
+          Play                     0x0FFBD3
+          FastForward              0x0EFBD7
+          Pause                    0x0FFBCF
+          Menu                     0x0EFBAB
+          OK                       0x0FFBA3
+          Up                       0x0EFBA7
+          Down                     0x0FFBA6
+          Left                     0x0EFBA5
+          Right                    0x0FFBA4
+          Audio                    0x0EFBB1
+          SubtitlingLanguage       0x0FFB8E
+          SubtitleSelection        0x0EFBB4
+          OSD                      0x0FFBF0
+      end codes
+
+end remote
+
+# this config file was automatically generated
+# using lirc-0.7.1pre2(any) on Mon Oct  2 14:57:57 2006
+#
+# contributed by Jan Heitkoetter <devnull|heitkoetter.net> 
+#
+# brand: Philips
+# model no. of remote control: RC4330/01H
+# devices being controlled by this remote: satellite receiver
+#
+
+begin remote
+
+  name  Philips_RC433001H_SAT
+  bits           21
+  flags RC6|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       2726   849
+  one           458   419
+  zero          458   419
+  gap          106235
+  toggle_bit      0
+
+  rc6_mask    0x10000
+
+      begin codes
+          Power                    0x0FD8F3
+          OK                       0x0ED8A3
+          Up                       0x0FD8A7
+          Down                     0x0ED8A6
+          Left                     0x0FD8A5
+          Right                    0x0ED8A4
+          Menu                     0x0FD8AB
+          Ch+                      0x0ED8DF
+          Ch-                      0x0FD8DE
+          1                        0x0ED8FE
+          2                        0x0FD8FD
+          3                        0x0ED8FC
+          4                        0x0FD8FB
+          5                        0x0ED8FA
+          6                        0x0FD8F9
+          7                        0x0ED8F8
+          8                        0x0FD8F7
+          9                        0x0ED8F6
+          0                        0x0FD8FF
+          OSD                      0x0ED8F0
+      end codes
+
+end remote
+
+# this config file was automatically generated
+# using lirc-0.7.1pre2(any) on Mon Oct  2 15:05:16 2006
+#
+# contributed by 
+#
+# brand:                       Philips
+# model no. of remote control: RC4330/01H
+# devices being controlled by this remote:
+#
+
+begin remote
+
+  name   Philips_RC433001H_TV
+  flags CONST_LENGTH|RAW_CODES
+  eps            30
+  aeps          100
+
+  ptrail          0
+  repeat     0     0
+  gap    106232
+
+      begin raw_codes
+
+          name Power
+             2727     849     486     839     458     419
+              458     421    1345    1303     458     421
+              458     420     457     422     457     419
+              458     421     458     419     458     422
+              456     420     457     422     457     420
+              457     422     911     373     510     839
+              457     419     486
+
+          name Peripherals
+             2729     851     486     838     458     419
+              460     419     458     859     928     404
+              459     419     458     420     457     422
+              457     420     457     421     457     421
+              458     420     458     419     458     421
+              901     407     486     394     484     838
+              460     419     458     418     486
+
+          name Surround
+             2726     830     506     841     457     420
+              458     419    1346    1304     458     419
+              458     421     458     419     458     422
+              457     419     456     421     459     419
+              458     422     901     407     486     393
+              486     838     457     420     457     420
+              903
+
+          name Red
+             2727     849     486     839     459     420
+              457     420     460     859     927     405
+              458     419     459     419     458     419
+              460     419     458     419     458     421
+              458     420     457     421     901     407
+              486     839     901     407     486     839
+              903
+
+          name Green
+             2724     831     505     839     460     419
+              458     419    1347    1304     457     420
+              458     421     457     420     458     421
+              457     420     457     422     456     420
+              457     422     901     387     506     839
+              901     409     485     393     485     838
+              486
+
+          name Yellow
+              273
+
+          name Blue
+             2727     828     507     839     458     421
+              458     397    1367    1305     460     418
+              457     422     458     419     458     419
+              460     419     458     419     459     420
+              458     418     903     408     486     391
+              485     839     458     421     458     419
+              458     421     486
+
+          name nexTView
+             2727     851     486     838     460     419
+              458     419     459     857     929     406
+              457     420     460     419     458     419
+              457     422     457     419     458     421
+              458     419     901     408     487     837
+              460     419     900     407     487     838
+              459     419     487
+
+          name Teletext
+             2727     850     486     839     457     422
+              458     419    1343    1305     460     419
+              458     419     460     419     458     421
+              458     419     458     419     459     419
+              458     419     460     420     901     409
+              484     393     486     391     485     839
+              457     421     486
+
+      end raw_codes
+
+end remote
+
+# this config file was automatically generated
+# using lirc-0.7.1pre2(any) on Mon Oct  2 14:45:31 2006
+#
+# contributed by Jan Heitkoetter <devnull|heitkoetter.net> 
+#
+# brand: Philips
+# model no. of remote control: RC4330/01H
+# devices being controlled by this remote: VCR
+#
+
+begin remote
+
+  name  Philips_RC433001H_VCR
+  bits           13
+  flags RC5|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           919   851
+  zero          919   851
+  plead         952
+  gap          113384
+  toggle_bit      2
+
+
+      begin codes
+          Power                    0x114C
+          Record                   0x1177
+          FastRewind               0x1172
+          Stop                     0x1176
+          Play                     0x1175
+          FastForward              0x1174
+          Pause                    0x1169
+          Menu                     0x0152
+          OK                       0x0157
+          Up                       0x0150
+          Down                     0x0151
+          Left                     0x0155
+          Right                    0x0156
+          Ch+                      0x1160
+          Ch-                      0x1161
+          1                        0x1141
+          2                        0x1142
+          3                        0x1143
+          4                        0x1144
+          5                        0x1145
+          6                        0x1146
+          7                        0x1147
+          8                        0x1148
+          9                        0x1149
+          0                        0x1140
+          OSD                      0x114F
+          Audio                    0x1163
+          Timer                    0x115D
+      end codes
+
+end remote
+
+

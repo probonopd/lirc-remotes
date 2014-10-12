@@ -1,0 +1,568 @@
+s config file was automatically generated
+# using lirc-0.6.6(serial) on Mon Oct  6 18:29:46 2003
+#
+# contributed by Joel Ebel
+#
+# brand:                       TIVO
+# model no. of remote control: This is for the Tivo with the DVR 1/2 switch
+
+# devices being controlled by this remote: Tivo Series 2 (maybe more)
+
+# This conf file allows the support of Tivo Series 2 remote.  In particular, 
+# it allows for the unique key definitions for each of the 39 keys when DVR 
+# Switch is in positon 1 or 2.  This essentially doubles the number of keys 
+# one can use just by toggling between DVR 1 and 2.  For example, an lircrc 
+# file can be programmed to execute one thing when the play button is pressed
+# when in DVR 1 mode and execute a different function when the same key is 
+# pressed when in DVR 2 mode.
+#
+# In order to use this, one must first set the remote.  Move the DVR SWITCH 
+# to 1.  Next, Press and hold the PAUSE and TiVo buttons simultaneously 
+# until the red light at the end of the remote control comes on, remains 
+# steady, and then stays on when you release the buttons.  Now press 1.
+# Do the same when switched to DVR 2 (assigning it to a number 2).  
+#
+# Now you can use the codes below.  All the functions which begin with a 1
+# are associated with the DVR1 switch and those prefixed with 2 are assoc
+# with DVR 2 switch.  Since the remote allows it to be programmed with any
+# number between 0 and 9 (zero is the default), all the codes are provided 
+# below,  A remote set to 0 will control any tivo, and a tivo set to
+# 0 will accept any remote.  
+
+# My lircrc file for MythTV with this remote can be found here:
+# http://home.comcast.net/~johnfdeluca/lircrc.txt
+
+
+
+
+begin remote
+
+  name  Tivo_S2
+  bits           32
+  flags SPACE_ENC|CONST_LENGTH
+  eps            20
+  aeps          200
+
+  header       9000  4500
+  one           562  1687
+  zero          562   562
+  ptrail        562
+  repeat       9000  2250
+  gap          108000
+  min_repeat      1
+  toggle_bit      0
+
+  frequency    38000
+
+      begin codes
+          TIVO                     0x00000000A10CE00F
+          TV_POWER                 0x00000000A10C0807
+          TV_INPUT                 0x00000000A10C2C03
+          WINDOW                   0x00000000A10C220D
+          LIVE_TV                  0x00000000A10C8807
+          INFO                     0x00000000A10CC807
+          GUIDE                    0x00000000A10C6C03
+          UP                       0x00000000A10C2807
+          LEFT                     0x00000000A10CE807
+          RIGHT                    0x00000000A10CA807
+          DOWN                     0x00000000A10C6807
+          SELECT                   0x00000000A10C9807
+          TH_DOWN                  0x00000000A10C1807
+          TH_UP                    0x00000000A10C5807
+          VOL_UP                   0x00000000A10C3807
+          VOL_DOWN                 0x00000000A10CB807
+          MUTE                     0x00000000A10CD807
+          RECORD                   0x00000000A10C040B
+          CH/PAGE_UP               0x00000000A10C7807
+          CH/PAGE_DOWN             0x00000000A10CF807
+          PLAY                     0x00000000A10C840B
+          REWIND                   0x00000000A10C440B
+          PAUSE                    0x00000000A10CC40B
+          FORWARD                  0x00000000A10C240B
+          SLOW                     0x00000000A10CA40B
+          REPLAY                   0x00000000A10C640B
+          JUMP                     0x00000000A10CE40B
+          1                        0x00000000A10C140B
+          2                        0x00000000A10C940B
+          3                        0x00000000A10C540B
+          4                        0x00000000A10CD40B
+          5                        0x00000000A10C340B
+          6                        0x00000000A10CB40B
+          7                        0x00000000A10C740B
+          8                        0x00000000A10CF40B
+          9                        0x00000000A10C0C03
+          CLEAR                    0x00000000A10C4C03
+          0                        0x00000000A10C8C03
+          ENTER/LAST               0x00000000A10CCC03
+          1_TIVO                     0x00000000A10CE08F
+          1_TV_POWER                 0x00000000A10C0887
+          1_TV_INPUT                 0x00000000A10C2C83
+          1_WINDOW                   0x00000000A10C228D
+          1_LIVE_TV                  0x00000000A10C8887
+          1_INFO                     0x00000000A10CC887
+          1_GUIDE                    0x00000000A10C6C83
+          1_UP                       0x00000000A10C2887
+          1_LEFT                     0x00000000A10CE887
+          1_RIGHT                    0x00000000A10CA887
+          1_DOWN                     0x00000000A10C6887
+          1_SELECT                   0x00000000A10C9887
+          1_TH_DOWN                  0x00000000A10C1887
+          1_TH_UP                    0x00000000A10C5887
+          1_VOL_UP                   0x00000000A10C3887
+          1_VOL_DOWN                 0x00000000A10CB887
+          1_MUTE                     0x00000000A10CD887
+          1_RECORD                   0x00000000A10C048B
+          1_CH/PAGE_UP               0x00000000A10C7887
+          1_CH/PAGE_DOWN             0x00000000A10CF887
+          1_PLAY                     0x00000000A10C848B
+          1_REWIND                   0x00000000A10C448B
+          1_PAUSE                    0x00000000A10CC48B
+          1_FORWARD                  0x00000000A10C248B
+          1_SLOW                     0x00000000A10CA48B
+          1_REPLAY                   0x00000000A10C648B
+          1_JUMP                     0x00000000A10CE48B
+          1_1                        0x00000000A10C148B
+          1_2                        0x00000000A10C948B
+          1_3                        0x00000000A10C548B
+          1_4                        0x00000000A10CD48B
+          1_5                        0x00000000A10C348B
+          1_6                        0x00000000A10CB48B
+          1_7                        0x00000000A10C748B
+          1_8                        0x00000000A10CF48B
+          1_9                        0x00000000A10C0C83
+          1_CLEAR                    0x00000000A10C4C83
+          1_0                        0x00000000A10C8C83
+          1_ENTER/LAST               0x00000000A10CCC83
+          2_TIVO                     0x00000000A10CE04F
+          2_TV_POWER                 0x00000000A10C0847
+          2_TV_INPUT                 0x00000000A10C2C43
+          2_WINDOW                   0x00000000A10C224D
+          2_LIVE_TV                  0x00000000A10C8847
+          2_INFO                     0x00000000A10CC847
+          2_GUIDE                    0x00000000A10C6C43
+          2_UP                       0x00000000A10C2847
+          2_LEFT                     0x00000000A10CE847
+          2_RIGHT                    0x00000000A10CA847
+          2_DOWN                     0x00000000A10C6847
+          2_SELECT                   0x00000000A10C9847
+          2_TH_DOWN                  0x00000000A10C1847
+          2_TH_UP                    0x00000000A10C5847
+          2_VOL_UP                   0x00000000A10C3847
+          2_VOL_DOWN                 0x00000000A10CB847
+          2_MUTE                     0x00000000A10CD847
+          2_RECORD                   0x00000000A10C044B
+          2_CH/PAGE_UP               0x00000000A10C7847
+          2_CH/PAGE_DOWN             0x00000000A10CF847
+          2_PLAY                     0x00000000A10C844B
+          2_REWIND                   0x00000000A10C444B
+          2_PAUSE                    0x00000000A10CC44B
+          2_FORWARD                  0x00000000A10C244B
+          2_SLOW                     0x00000000A10CA44B
+          2_REPLAY                   0x00000000A10C644B
+          2_JUMP                     0x00000000A10CE44B
+          2_1                        0x00000000A10C144B
+          2_2                        0x00000000A10C944B
+          2_3                        0x00000000A10C544B
+          2_4                        0x00000000A10CD44B
+          2_5                        0x00000000A10C344B
+          2_6                        0x00000000A10CB44B
+          2_7                        0x00000000A10C744B
+          2_8                        0x00000000A10CF44B
+          2_9                        0x00000000A10C0C43
+          2_CLEAR                    0x00000000A10C4C43
+          2_0                        0x00000000A10C8C43
+          2_ENTER/LAST               0x00000000A10CCC43
+          3_TIVO                     0x00000000A10CE0cF
+          3_TV_POWER                 0x00000000A10C08c7
+          3_TV_INPUT                 0x00000000A10C2Cc3
+          3_WINDOW                   0x00000000A10C22cD
+          3_LIVE_TV                  0x00000000A10C88c7
+          3_INFO                     0x00000000A10CC8c7
+          3_GUIDE                    0x00000000A10C6Cc3
+          3_UP                       0x00000000A10C28c7
+          3_LEFT                     0x00000000A10CE8c7
+          3_RIGHT                    0x00000000A10CA8c7
+          3_DOWN                     0x00000000A10C68c7
+          3_SELECT                   0x00000000A10C98c7
+          3_TH_DOWN                  0x00000000A10C18c7
+          3_TH_UP                    0x00000000A10C58c7
+          3_VOL_UP                   0x00000000A10C38c7
+          3_VOL_DOWN                 0x00000000A10CB8c7
+          3_MUTE                     0x00000000A10CD8c7
+          3_RECORD                   0x00000000A10C04cB
+          3_CH/PAGE_UP               0x00000000A10C78c7
+          3_CH/PAGE_DOWN             0x00000000A10CF8c7
+          3_PLAY                     0x00000000A10C84cB
+          3_REWIND                   0x00000000A10C44cB
+          3_PAUSE                    0x00000000A10CC4cB
+          3_FORWARD                  0x00000000A10C24cB
+          3_SLOW                     0x00000000A10CA4cB
+          3_REPLAY                   0x00000000A10C64cB
+          3_JUMP                     0x00000000A10CE4cB
+          3_1                        0x00000000A10C14cB
+          3_2                        0x00000000A10C94cB
+          3_3                        0x00000000A10C54cB
+          3_4                        0x00000000A10CD4cB
+          3_5                        0x00000000A10C34cB
+          3_6                        0x00000000A10CB4cB
+          3_7                        0x00000000A10C74cB
+          3_8                        0x00000000A10CF4cB
+          3_9                        0x00000000A10C0Cc3
+          3_CLEAR                    0x00000000A10C4Cc3
+          3_0                        0x00000000A10C8Cc3
+          3_ENTER/LAST               0x00000000A10CCCc3
+          4_TIVO                     0x00000000A10CE02F
+          4_TV_POWER                 0x00000000A10C0827
+          4_TV_INPUT                 0x00000000A10C2C23
+          4_WINDOW                   0x00000000A10C222D
+          4_LIVE_TV                  0x00000000A10C8827
+          4_INFO                     0x00000000A10CC827
+          4_GUIDE                    0x00000000A10C6C23
+          4_UP                       0x00000000A10C2827
+          4_LEFT                     0x00000000A10CE827
+          4_RIGHT                    0x00000000A10CA827
+          4_DOWN                     0x00000000A10C6827
+          4_SELECT                   0x00000000A10C9827
+          4_TH_DOWN                  0x00000000A10C1827
+          4_TH_UP                    0x00000000A10C5827
+          4_VOL_UP                   0x00000000A10C3827
+          4_VOL_DOWN                 0x00000000A10CB827
+          4_MUTE                     0x00000000A10CD827
+          4_RECORD                   0x00000000A10C042B
+          4_CH/PAGE_UP               0x00000000A10C7827
+          4_CH/PAGE_DOWN             0x00000000A10CF827
+          4_PLAY                     0x00000000A10C842B
+          4_REWIND                   0x00000000A10C442B
+          4_PAUSE                    0x00000000A10CC42B
+          4_FORWARD                  0x00000000A10C242B
+          4_SLOW                     0x00000000A10CA42B
+          4_REPLAY                   0x00000000A10C642B
+          4_JUMP                     0x00000000A10CE42B
+          4_1                        0x00000000A10C142B
+          4_2                        0x00000000A10C942B
+          4_3                        0x00000000A10C542B
+          4_4                        0x00000000A10CD42B
+          4_5                        0x00000000A10C342B
+          4_6                        0x00000000A10CB42B
+          4_7                        0x00000000A10C742B
+          4_8                        0x00000000A10CF42B
+          4_9                        0x00000000A10C0C23
+          4_CLEAR                    0x00000000A10C4C23
+          4_0                        0x00000000A10C8C23
+          4_ENTER/LAST               0x00000000A10CCC23
+          5_TIVO                     0x00000000A10CE0aF
+          5_TV_POWER                 0x00000000A10C08a7
+          5_TV_INPUT                 0x00000000A10C2Ca3
+          5_WINDOW                   0x00000000A10C22aD
+          5_LIVE_TV                  0x00000000A10C88a7
+          5_INFO                     0x00000000A10CC8a7
+          5_GUIDE                    0x00000000A10C6Ca3
+          5_UP                       0x00000000A10C28a7
+          5_LEFT                     0x00000000A10CE8a7
+          5_RIGHT                    0x00000000A10CA8a7
+          5_DOWN                     0x00000000A10C68a7
+          5_SELECT                   0x00000000A10C98a7
+          5_TH_DOWN                  0x00000000A10C18a7
+          5_TH_UP                    0x00000000A10C58a7
+          5_VOL_UP                   0x00000000A10C38a7
+          5_VOL_DOWN                 0x00000000A10CB8a7
+          5_MUTE                     0x00000000A10CD8a7
+          5_RECORD                   0x00000000A10C04aB
+          5_CH/PAGE_UP               0x00000000A10C78a7
+          5_CH/PAGE_DOWN             0x00000000A10CF8a7
+          5_PLAY                     0x00000000A10C84aB
+          5_REWIND                   0x00000000A10C44aB
+          5_PAUSE                    0x00000000A10CC4aB
+          5_FORWARD                  0x00000000A10C24aB
+          5_SLOW                     0x00000000A10CA4aB
+          5_REPLAY                   0x00000000A10C64aB
+          5_JUMP                     0x00000000A10CE4aB
+          5_1                        0x00000000A10C14aB
+          5_2                        0x00000000A10C94aB
+          5_3                        0x00000000A10C54aB
+          5_4                        0x00000000A10CD4aB
+          5_5                        0x00000000A10C34aB
+          5_6                        0x00000000A10CB4aB
+          5_7                        0x00000000A10C74aB
+          5_8                        0x00000000A10CF4aB
+          5_9                        0x00000000A10C0Ca3
+          5_CLEAR                    0x00000000A10C4Ca3
+          5_0                        0x00000000A10C8Ca3
+          5_ENTER/LAST               0x00000000A10CCCa3
+          6_TIVO                     0x00000000A10CE06F
+          6_TV_POWER                 0x00000000A10C0867
+          6_TV_INPUT                 0x00000000A10C2C63
+          6_WINDOW                   0x00000000A10C226D
+          6_LIVE_TV                  0x00000000A10C8867
+          6_INFO                     0x00000000A10CC867
+          6_GUIDE                    0x00000000A10C6C63
+          6_UP                       0x00000000A10C2867
+          6_LEFT                     0x00000000A10CE867
+          6_RIGHT                    0x00000000A10CA867
+          6_DOWN                     0x00000000A10C6867
+          6_SELECT                   0x00000000A10C9867
+          6_TH_DOWN                  0x00000000A10C1867
+          6_TH_UP                    0x00000000A10C5867
+          6_VOL_UP                   0x00000000A10C3867
+          6_VOL_DOWN                 0x00000000A10CB867
+          6_MUTE                     0x00000000A10CD867
+          6_RECORD                   0x00000000A10C046B
+          6_CH/PAGE_UP               0x00000000A10C7867
+          6_CH/PAGE_DOWN             0x00000000A10CF867
+          6_PLAY                     0x00000000A10C846B
+          6_REWIND                   0x00000000A10C446B
+          6_PAUSE                    0x00000000A10CC46B
+          6_FORWARD                  0x00000000A10C246B
+          6_SLOW                     0x00000000A10CA46B
+          6_REPLAY                   0x00000000A10C646B
+          6_JUMP                     0x00000000A10CE46B
+          6_1                        0x00000000A10C146B
+          6_2                        0x00000000A10C946B
+          6_3                        0x00000000A10C546B
+          6_4                        0x00000000A10CD46B
+          6_5                        0x00000000A10C346B
+          6_6                        0x00000000A10CB46B
+          6_7                        0x00000000A10C746B
+          6_8                        0x00000000A10CF46B
+          6_9                        0x00000000A10C0C63
+          6_CLEAR                    0x00000000A10C4C63
+          6_0                        0x00000000A10C8C63
+          6_ENTER/LAST               0x00000000A10CCC63
+          7_TIVO                     0x00000000A10CE0eF
+          7_TV_POWER                 0x00000000A10C08e7
+          7_TV_INPUT                 0x00000000A10C2Ce3
+          7_WINDOW                   0x00000000A10C22eD
+          7_LIVE_TV                  0x00000000A10C88e7
+          7_INFO                     0x00000000A10CC8e7
+          7_GUIDE                    0x00000000A10C6Ce3
+          7_UP                       0x00000000A10C28e7
+          7_LEFT                     0x00000000A10CE8e7
+          7_RIGHT                    0x00000000A10CA8e7
+          7_DOWN                     0x00000000A10C68e7
+          7_SELECT                   0x00000000A10C98e7
+          7_TH_DOWN                  0x00000000A10C18e7
+          7_TH_UP                    0x00000000A10C58e7
+          7_VOL_UP                   0x00000000A10C38e7
+          7_VOL_DOWN                 0x00000000A10CB8e7
+          7_MUTE                     0x00000000A10CD8e7
+          7_RECORD                   0x00000000A10C04eB
+          7_CH/PAGE_UP               0x00000000A10C78e7
+          7_CH/PAGE_DOWN             0x00000000A10CF8e7
+          7_PLAY                     0x00000000A10C84eB
+          7_REWIND                   0x00000000A10C44eB
+          7_PAUSE                    0x00000000A10CC4eB
+          7_FORWARD                  0x00000000A10C24eB
+          7_SLOW                     0x00000000A10CA4eB
+          7_REPLAY                   0x00000000A10C64eB
+          7_JUMP                     0x00000000A10CE4eB
+          7_1                        0x00000000A10C14eB
+          7_2                        0x00000000A10C94eB
+          7_3                        0x00000000A10C54eB
+          7_4                        0x00000000A10CD4eB
+          7_5                        0x00000000A10C34eB
+          7_6                        0x00000000A10CB4eB
+          7_7                        0x00000000A10C74eB
+          7_8                        0x00000000A10CF4eB
+          7_9                        0x00000000A10C0Ce3
+          7_CLEAR                    0x00000000A10C4Ce3
+          7_0                        0x00000000A10C8Ce3
+          7_ENTER/LAST               0x00000000A10CCCe3
+          8_TIVO                     0x00000000A10CE01F
+          8_TV_POWER                 0x00000000A10C0817
+          8_TV_INPUT                 0x00000000A10C2C13
+          8_WINDOW                   0x00000000A10C221D
+          8_LIVE_TV                  0x00000000A10C8817
+          8_INFO                     0x00000000A10CC817
+          8_GUIDE                    0x00000000A10C6C13
+          8_UP                       0x00000000A10C2817
+          8_LEFT                     0x00000000A10CE817
+          8_RIGHT                    0x00000000A10CA817
+          8_DOWN                     0x00000000A10C6817
+          8_SELECT                   0x00000000A10C9817
+          8_TH_DOWN                  0x00000000A10C1817
+          8_TH_UP                    0x00000000A10C5817
+          8_VOL_UP                   0x00000000A10C3817
+          8_VOL_DOWN                 0x00000000A10CB817
+          8_MUTE                     0x00000000A10CD817
+          8_RECORD                   0x00000000A10C041B
+          8_CH/PAGE_UP               0x00000000A10C7817
+          8_CH/PAGE_DOWN             0x00000000A10CF817
+          8_PLAY                     0x00000000A10C841B
+          8_REWIND                   0x00000000A10C441B
+          8_PAUSE                    0x00000000A10CC41B
+          8_FORWARD                  0x00000000A10C241B
+          8_SLOW                     0x00000000A10CA41B
+          8_REPLAY                   0x00000000A10C641B
+          8_JUMP                     0x00000000A10CE41B
+          8_1                        0x00000000A10C141B
+          8_2                        0x00000000A10C941B
+          8_3                        0x00000000A10C541B
+          8_4                        0x00000000A10CD41B
+          8_5                        0x00000000A10C341B
+          8_6                        0x00000000A10CB41B
+          8_7                        0x00000000A10C741B
+          8_8                        0x00000000A10CF41B
+          8_9                        0x00000000A10C0C13
+          8_CLEAR                    0x00000000A10C4C13
+          8_0                        0x00000000A10C8C13
+          8_ENTER/LAST               0x00000000A10CCC13
+          9_TIVO                     0x00000000A10CE09F
+          9_TV_POWER                 0x00000000A10C0897
+          9_TV_INPUT                 0x00000000A10C2C93
+          9_WINDOW                   0x00000000A10C229D
+          9_LIVE_TV                  0x00000000A10C8897
+          9_INFO                     0x00000000A10CC897
+          9_GUIDE                    0x00000000A10C6C93
+          9_UP                       0x00000000A10C2897
+          9_LEFT                     0x00000000A10CE897
+          9_RIGHT                    0x00000000A10CA897
+          9_DOWN                     0x00000000A10C6897
+          9_SELECT                   0x00000000A10C9897
+          9_TH_DOWN                  0x00000000A10C1897
+          9_TH_UP                    0x00000000A10C5897
+          9_VOL_UP                   0x00000000A10C3897
+          9_VOL_DOWN                 0x00000000A10CB897
+          9_MUTE                     0x00000000A10CD897
+          9_RECORD                   0x00000000A10C049B
+          9_CH/PAGE_UP               0x00000000A10C7897
+          9_CH/PAGE_DOWN             0x00000000A10CF897
+          9_PLAY                     0x00000000A10C849B
+          9_REWIND                   0x00000000A10C449B
+          9_PAUSE                    0x00000000A10CC49B
+          9_FORWARD                  0x00000000A10C249B
+          9_SLOW                     0x00000000A10CA49B
+          9_REPLAY                   0x00000000A10C649B
+          9_JUMP                     0x00000000A10CE49B
+          9_1                        0x00000000A10C149B
+          9_2                        0x00000000A10C949B
+          9_3                        0x00000000A10C549B
+          9_4                        0x00000000A10CD49B
+          9_5                        0x00000000A10C349B
+          9_6                        0x00000000A10CB49B
+          9_7                        0x00000000A10C749B
+          9_8                        0x00000000A10CF49B
+          9_9                        0x00000000A10C0C93
+          9_CLEAR                    0x00000000A10C4C93
+          9_0                        0x00000000A10C8C93
+          9_ENTER/LAST               0x00000000A10CCC93
+      end codes
+
+end remote
+
+
+
+#
+# this config file was automatically generated
+# using lirc-0.8.4a(default) on Sat Aug 29 23:23:30 2009
+#
+# contributed by Bruce Edge
+#
+# brand:                       Tivo
+# model no. of remote control: Tivo series 2
+# devices being controlled by this remote: Tivo series 2
+#
+
+begin remote
+
+  name  Tivo_S2_VOL
+  bits            4
+  flags SPACE_ENC
+  eps            30
+  aeps          100
+
+  header       2432   517
+  one          1250   572
+  zero          686   572
+  post_data_bits  8
+  post_data      0x81
+  gap          25350
+  toggle_bit_mask 0x0
+
+      begin codes
+          Mute                     0x2
+          Vol_up                   0x4
+          Vol_down                 0xC
+      end codes
+
+end remote
+
+begin remote
+
+  name  Tivo_S2_TV
+  bits            8
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           403  1986
+  zero          403   814
+  ptrail        375
+  pre_data_bits   8
+  pre_data       0xE2
+  gap          52924
+  toggle_bit_mask 0x0
+
+      begin codes
+          TV_power                 0x40
+          TV_input                 0x5C
+      end codes
+
+end remote
+
+begin remote
+
+  name  Tivo_S2
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9063  4455
+  one           586  1632
+  zero          586   519
+  ptrail        562
+  pre_data_bits   16
+  pre_data       0xA10C
+  gap          107777
+  toggle_bit_mask 0x0
+
+      begin codes
+          Window                   0x228D
+          Live_TV                  0x8887
+          Info                     0xC887
+          Guide                    0x6C83
+          Up                       0x2887
+          Down                     0x6887
+          Left                     0xE887
+          Right                    0xA887
+          Select                   0x9887
+          Thumbs_down              0x1887
+          Thumbs_up                0x5887
+          Record                   0x048B
+          Channel_up               0x7887
+          Channel_down             0xF887
+          Play                     0x848B
+          Rewind                   0x448B
+          Pause                    0xC48B
+          Forward                  0x248B
+          Slow                     0xA48B
+          Restart                  0x648B
+          Finish                   0xE48B
+          1                        0x148B
+          2                        0x948B
+          3                        0x548B
+          4                        0xD48B
+          5                        0x348B
+          6                        0xB48B
+          7                        0x748B
+          8                        0xF48B
+          9                        0x0C83
+          0                        0x8C83
+          Clear                    0x4C83
+          Enter                    0xCC83
+      end codes
+
+end remote
+
+
+

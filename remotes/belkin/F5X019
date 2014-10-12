@@ -1,0 +1,144 @@
+#This is a lirc configuration file that understands the IR codes for 
+# the XM Radio universal remote.  I use these codes to power on/off 
+# and set the channel on my OmyX.  These codes are common to many xmradios.
+#
+#Terry Klarich
+#Terry|klarich.net
+#
+# Please make this file available to others
+# by sending it to <lirc@bartelmus.de>
+#
+# this config file was automatically generated
+# using lirc-0.8.6(commandir) on Sun Jan 10 12:58:58 2010
+#
+# contributed by: "Terry Klarich" <terry|klarich.net>
+#
+# brand:                       belkin
+# model no. of remote control: F5X019
+# devices being controlled by this remote:  xmradio universal remote
+#
+
+begin remote
+
+  name  Belkin_F5X019
+  flags RAW_CODES|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  gap          112694
+
+      begin raw_codes
+
+          name KEY_POWER
+             1940     754    1020    1628     995     779
+             1893    1653     993     780    1899     785
+              993    1659     993     787    1901     785
+              993
+
+          name KEY_1
+             1937    1630    1018     758     994     781
+             1890    1656     990     782    1898     787
+              990     788    1012     766     992     787
+              991    1662     989
+
+          name key_2
+             2197     752    1019    1630     998     775
+             1896    1650     996     777    1903     780
+              998     781     997     781     997    1656
+             1904
+
+          name KEY_3
+             1940    1628    1018     757     995     780
+             1893    1653     993     780    1899     786
+              991     787     992     787     991    1662
+              991     789     991
+
+          name KEY_4
+             1939     755    1020    1629     994     779
+             1892    1654     992     781    1899     785
+              993     785     993    1660    1900     785
+              992
+
+          name KEY_5
+             1939    1630    1018     757    1017     757
+             1891    1655     992     782    1896     788
+              990     788     990    1663    1897    1663
+              988
+
+          name KEY_6
+             1936     757    1018    1630    1016     758
+             1913    1640    1014     758    1920     764
+             1014     764    1014    1639     992     788
+             1922
+
+          name KEY_7
+             1939    1629    1019     757    1016     758
+             1891    1655     998     775    1898     786
+              992     787     991    1661     991     788
+              992     795     991
+
+          name KEY_8
+             1943     751    1023    1625     996     777
+             1896    1649     997     776    1903     781
+              996    1658    1902     782     995     783
+              996
+
+          name KEY_9
+             1943    1625    1023     752     998     776
+             1897    1649     997     776    1902     783
+              995    1662    1904     782     995    1658
+              994
+
+          name KEY_0
+             1939     755    1021    1628    1002     771
+             1893    1653     993     780    1899     785
+              993     785     993     786     993    1041
+              737     786     993
+
+          name KEY_MUTE
+             1941     752    1022    1626     997     777
+             1895    1651     995     778    1901     783
+              994    1659     993     787    1901    1658
+              993
+
+          name KEY_SELECT
+             2202    1589    1093     698    1050     698
+             1952    1586    1072     698    1095     695
+             1930     719    1072     732    1047    1610
+             1050     723    1074
+
+          name KEY_UP
+             1788     874     910    1768     893     881
+             1765    1798     833     882     914     831
+             1818     905     887     869     912     924
+              852     876     915
+
+          name KEY_DOWN
+             1929     754    1031    1627    1029     739
+             1909    1632    1023     745    1028     742
+             1904     765    1003     779    1003     780
+             1003    1656    1002
+
+          name KEY_LEFT
+             1950    1585    1050     698    1072     699
+             1974    1565    1095     693    1052     719
+             1051     719    1930     740    1073     688
+             1070    1589    1070
+
+          name KEY_RIGHT
+             1951     732    1029    1628    1027     742
+             1905    1633    1026     742    1027     744
+             1027     745    1904     765    1026     756
+             1026     758    1025
+
+          name KEY_DIRECT
+             1946    1588    1095     696    1052     724
+             1929    1609    1049     720    1050     719
+             1929     741    1050     733    1050    1608
+             1925
+
+      end raw_codes
+
+end remote
+
+

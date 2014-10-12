@@ -1,0 +1,129 @@
+s config file was automatically generated
+# using lirc-0.8.2(iguanaIR) on Sat Jul 12 22:38:02 2008
+#
+# contributed by Timothy D. Morgan
+#  Complete codes, sane plus some oddballs in raw format
+#
+# brand: Apex Digital
+# model no. of remote control: Unknown
+# devices being controlled by this remote: 
+#    Apex Digital DT250 HTDV Converter Box
+#
+
+begin remote
+
+  name ApexDigital_DT250
+  bits           16
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9153  4493
+  one           539  1661
+  zero          539   584
+  ptrail        546
+  repeat       9050  2273
+  pre_data_bits   16
+  pre_data       0x30DF
+  gap          107795
+  toggle_bit_mask 0x0
+
+      begin codes
+          0                        0x20DF
+          1                        0xA05F
+          2                        0x609F
+          3                        0xE01F
+          4                        0x10EF
+          5                        0x906F
+          6                        0x50AF
+          7                        0xD02F
+          8                        0x30CF
+          9                        0xB04F
+          -                        0x6C93
+          Power                    0xA857
+          Menu                     0x0EF1
+          Exit                     0xF00F
+          Up                       0x40BF
+          Down                     0xC03F
+          OK                       0x18E7
+          Recall                   0x6897
+          Display                  0xC837
+          FAV+                     0x9867
+          FAV-                     0x08F7
+          FAV                      0x8877
+          Signal                   0xE817
+          Guide                    0x48B7
+          Zoom                     0x28D7
+          MTS                      0x26D9
+          CCD                      0x8679
+      end codes
+
+end remote
+
+begin remote
+
+  name ApexDigital_DT250_Oddball
+  flags RAW_CODES|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  ptrail          0
+  repeat  3584  3510
+  gap    108504
+
+      begin raw_codes
+
+          name Mute
+             3690    1728     533    1130     533    1109
+              533    1109     490     533     533    1109
+              490     533     533    1109     490     533
+              533    1109     490     533     490     533
+              533    1109     533    1109     490     533
+              533    1109     490     533     490     533
+              490     533     490     533     512    1130
+              533    1109     490     533     512    1130
+              490     618    3690    1728     490     533
+              512    1130     490     533     512    1130
+              512    1130     490     533     512    1130
+              490     533     512    1130     512    1130
+              512    1130     490     533     512    1130
+              490     533     512    1130     490     512
+              490
+
+          name Left
+             3711    1728     512    1152     512    1152
+              512    1152     512     512     512    1130
+              512     512     512    1130     512     512
+              512    1152     512     512     512     512
+              512    1152     512    1130     512     512
+              512    1130     512     512     512     512
+              512     512     512     512     512    1152
+              512    1152     512     512     512    1152
+              512     597    3690    1728     512     512
+              512    1130     512     512     512    1152
+              512    1130     512     512     512    1130
+              512     512     512     512     512    1130
+              512     512     512    1130     512     512
+              512     512     512    1130     512     469
+              512
+
+          name Right
+             3690    1728     512    1130     512    1130
+              512    1130     512     512     512    1130
+              512     512     512    1130     512     512
+              512    1130     512     512     512     512
+              512    1152     512    1130     512     512
+              512    1130     512     512     512     512
+              512     490     512     512     512    1130
+              512    1130     512     512     512    1130
+              512     597    3669    1728     512     512
+              512    1130     512     512     512    1152
+              512    1130     512     512     512    1130
+              512     490     512     490     512     490
+              512     490     512    1130     512    1130
+              512     512     512    1130     512     469
+              512
+
+      end raw_codes
+
+end remote

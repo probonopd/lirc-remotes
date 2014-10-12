@@ -1,0 +1,302 @@
+s config file was automatically generated
+# using lirc-0.6.6(serial) on Tue Feb 11 13:56:44 2003
+#
+# contributed by Larry Matter (lirc@matter.net)
+#
+# brand: Pinnacle PCTV remote on Homebrew IR receiver
+# model no. of remote control: 
+# devices being controlled by this remote:
+#
+
+#
+# This remote uses a simple 3 byte serial protocol at 1200 Baud. This
+# config file will not work with the original receiver, only with the
+# home-brew receiver (and vice versa). (CB)
+#
+
+begin remote
+
+  name PinnacleSysPCTVRemote
+  flags CONST_LENGTH|RAW_CODES
+  eps            30
+  aeps          100
+
+  ptrail          0
+  repeat     0     0
+  gap    99712
+
+      begin raw_codes
+
+          name 1
+             1732    6578     924    4062    1756    1569
+              923     739    2563    1595    1754
+
+          name 2
+             1756    6554     923     740     922    3231
+             1756     740    1754     740    1754    1572
+             1752
+
+          name 3
+             1756    6554    2589    1569     922    3233
+              922    1572    1729    1594    1731
+
+          name 4
+             1756    6555    3420     739     923     739
+              922    1572    2586     739     923    1569
+             1753
+
+          name 5
+             1756    6556     922     739    1755    3230
+              925     739     923     739     922     742
+              922    1569    1753
+
+          name 6
+             1732    6580     925    1569     922    1571
+              922    2401    1756    1569     923    1571
+             1754
+
+          name 7
+             1756    6554    1731     765     922     740
+             3418     739     921    2402     922    1571
+             1752
+
+          name 8
+             1756    6555     923    1571    1754     740
+              922     739     925     739    3416    2401
+             1754
+
+          name 9
+             1756    6557    1754     738    4248    1572
+              922     739    1755    2401    1754
+
+          name 0
+             1756    6554    5082     740    1754     740
+             1754     739     922    2401    1754
+
+          name Fullscreen
+             1756    6555    1754    3231     922     742
+              922     740     922     742     922    1569
+              922     742    1752
+
+          name Zoom
+             1754    6555    1754     742    1752    1571
+              923    1571    1754    3231    2586
+
+          name Power
+             1756    6554     899     765     922    1571
+              923     739    1753     742     920    3233
+              922     740    1754
+
+          name Preview
+             1754    6559    2583    5726    1752    2404
+              919     742    1752
+
+          name L
+             1756    6556     920    1574    2583    1571
+              922     742     920    4065    2584
+
+          name Info
+             1756    6555     924    1571     926     735
+             1757    2398     923    1571     922     740
+              924     740    1754
+
+          name vol+
+             1758    6554     922     740     924     740
+             3417    1569     922    1572     922    1569
+             2586
+
+          name vol-
+             1757    6556     922     741    1752    1574
+              920     741     920     742     922    3231
+             3418
+
+          name Mute
+             1756    6556     922     742     920     742
+              922    1571     922    1571    2584    3233
+             1754
+
+          name Chan_Last
+             1756    6554     925    1569    3418     742
+              920     742     918     742     923     739
+             1754     740    1754
+
+          name channel+
+             1756    6554    1755    4895     922     740
+              924    2399     924     740    2586
+
+          name channel-
+             1754    6556     922     740    4250    2400
+             2584    2401    2586
+
+          name Chan+Play
+             1756    6557     921    2401     925     739
+             2586     740     922    4893    1756
+
+          name Vol-REW
+             1756    6556    2586     740    1754    1571
+              922     739     922     740     922    3231
+             1756
+
+          name Vol+FF
+             1754    6559     919     742    2586    4063
+              922    1571     920    2403    1754
+
+          name middle
+             1754    6556    2586     742     920     742
+              921     740     922     742    1751     742
+              920    1572    2586
+
+          name Chan-Stop
+             1758    6554    1757    1571    2559    2426
+             1754    4062    1754
+
+          name Menu
+             1730    6580    4252     740    2583     740
+              922     740     921    2403    2586
+
+          name Next
+             1754    6555    1754    1572     922    4062
+              923     741    1755    1571    2583
+
+          name undo
+             1754    6557     897    3258     922     740
+              922    1572    1754    1569     924     739
+             2586
+
+          name Record
+             1730    6581    4250    1569    1755     739
+              922    2401    1755     739    1756
+
+          name pause
+             1756    6557     922     739     922    1572
+             3418     740     922     739     922     742
+              922     740    2586
+
+          name redo
+             1760    6552    3420    1570    1754    1569
+              899    1595    1756     737    2589
+
+          name Rewind
+             1733    6580    3420     740    2583    1571
+             1754    2401    3418
+
+          name Play
+             1756    6556    1754     739     924     740
+              922     740    1754     739     922     742
+              922    1570    3418
+
+          name Stop
+             1756    6557     922    4892     925    1571
+              923    1571     922     740    3418
+
+          name FForward
+             1756    6557    2586     742    2583     742
+              920     742     922    2423    4225
+
+          name F_TV
+             1756    6555     922     740    3418    3231
+             1756    1569    1754     742    1754
+
+          name F_Teletext
+             1755    6556    3418    2401     922    1569
+              924     740    1754     739     899     763
+             1756
+
+          name F_Radio
+             1756    6557    1754     739     922    1572
+             2586     742    1752     742     917     744
+              920     742    1752
+
+          name EPG
+             1733    6578     899    2427    1731     762
+             1731     763    3395    1595    2560
+
+      end raw_codes
+
+end remote
+
+#
+# this config file was automatically generated
+# using lirc-0.7.0-CVS(parallel) on Sat Aug 28 12:09:58 2004
+#
+# contributed by Markus Liljergren (mali0481|student.uu.se)
+#
+# brand:                       PINNACLE SYSTEMS
+# model no. of remote control: N/A
+# devices being controlled by this remote:
+# 
+# Pinnacle PCTV DELUXE (USB)
+#
+# This config file ONLY works with homebrew recievers, NOT
+# the original one.
+#
+
+#
+# You will have to use LIRC version newer than Sat Aug 28 12:09:58 2004
+# (first time included in 0.7.0pre8) to be able to fully use this
+# config file. (CB)
+#
+
+begin remote
+
+  name  PCTV_DELUXE_REMOTE
+  bits           24
+  flags CONST_LENGTH|SERIAL
+  eps            30
+  aeps          100
+
+  gap          99712
+  toggle_bit      0
+
+  baud            1200
+  serial_mode     8N1
+
+      begin codes
+          1                        0x0000000000FE7771
+          2                        0x0000000000FED572
+          3                        0x0000000000FE0473
+          4                        0x0000000000FE4074
+          5                        0x0000000000FE9175
+          6                        0x0000000000FE3376
+          7                        0x0000000000FEE277
+          8                        0x0000000000FEBB78
+          9                        0x0000000000FE6A79
+          0                        0x0000000000FEC87A
+          MAXIMIZE                 0x0000000000FEB66D
+          ZOOM                     0x0000000000FE5A5E
+          OFF                      0x0000000000FEC56F
+          P                        0x0000000000FE146E
+          L                        0x0000000000FE8B5F
+          I                        0x0000000000FE236B
+          VOL+                     0x0000000000FE6D5B
+          VOL-                     0x0000000000FEB14F
+          MUTE                     0x0000000000FE5D7C
+          CH_ROTATE                0x0000000000FEAB65
+          CH+                      0x0000000000FE9657
+          CH-                      0x0000000000FEC11C
+          CH-A                     0x0000000000FE295C
+          UP                       0x0000000000FEFF7F
+          LEFT                     0x0000000000FE8C7D
+          MIDDLE                   0x0000000000FEBC5A
+          RIGHT                    0x0000000000FE197B
+          DOWN                     0x0000000000FE2E7E
+          MENU                     0x0000000000FEF85D
+          >|                       0x0000000000FE1E59
+          JMP_BACK                 0x0000000000FE4756
+          REC                      0x0000000000FED867
+          PAUSE                    0x0000000000FEE555
+          JMP_FWD                  0x0000000000FE7053
+          REW                      0x0000000000FE604E
+          PLAY                     0x0000000000FEC24D
+          STOP                     0x0000000000FE574B
+          FFWD                     0x0000000000FEAC47
+          TV                       0x0000000000FE0966
+          TELETEXT                 0x0000000000FE5069
+          RADIO                    0x0000000000FEF26A
+          EPG                      0x0000000000FECF58
+      end codes
+
+end remote
+
+
+

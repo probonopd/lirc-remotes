@@ -1,0 +1,63 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.6(any) on Mon Nov 17 01:24:27 2003
+#
+# contributed by Thomas Georg <mail|thomasg.org>
+#
+# brand:                                        SEG CTV 3281-100 VTS
+# model no. of remote control:                  mitgelieferte RC
+# devices being controlled by this remote:      TV
+#
+
+begin remote
+
+  name  SEG_CTV_3281-100_VTS
+  bits           13
+  flags RC5|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           917   859
+  zero          917   859
+  plead         929
+  gap          113708
+  toggle_bit      2
+
+
+      begin codes
+          PP                       0x000000000000100E
+          KEY_POWER                0x000000000000100C        #  Was: POWER
+          KEY_1                    0x0000000000001001        #  Was: 1
+          KEY_2                    0x0000000000001002        #  Was: 2
+          KEY_3                    0x0000000000001003        #  Was: 3
+          KEY_4                    0x0000000000001004        #  Was: 4
+          KEY_5                    0x0000000000001005        #  Was: 5
+          KEY_6                    0x0000000000001006        #  Was: 6
+          KEY_7                    0x0000000000001007        #  Was: 7
+          KEY_8                    0x0000000000001008        #  Was: 8
+          KEY_9                    0x0000000000001009        #  Was: 9
+          P<P                      0x0000000000001022
+          KEY_0                    0x0000000000001000        #  Was: 0
+          KEY_102ND                0x000000000000100A        #  Was: --
+          KEY_M                    0x0000000000001030        #  Was: M
+          KEY_I                    0x0000000000001012        #  Was: i
+          I-II                     0x0000000000001023
+          KEY_MUTE                 0x000000000000100D        #  Was: MUTE
+          KEY_UP                   0x0000000000001020        #  Was: UP
+          KEY_DOWN                 0x0000000000001021        #  Was: DOWN
+          KEY_LEFT                 0x0000000000001015        #  Was: LEFT
+          KEY_RIGHT                0x0000000000001016        #  Was: RIGHT
+          KEY_OK                   0x0000000000001035        #  Was: OK
+          KEY_VOLUMEDOWN           0x0000000000001011        #  Was: V-
+          KEY_VOLUMEUP             0x0000000000001010        #  Was: V+
+          KEY_CHANNELDOWN          0x0000000000001021        #  Was: P-
+          KEY_CHANNELUP            0x0000000000001020        #  Was: P+
+          KEY_RED                  0x0000000000001037        #  Was: RED
+          KEY_GREEN                0x0000000000001036        #  Was: GREEN
+          KEY_YELLOW               0x0000000000001032        #  Was: YELLOW
+          KEY_BLUE                 0x0000000000001034        #  Was: BLUE
+          KEY_TEXT                 0x000000000000103C        #  Was: TEXT
+          KEY_TIME                 0x000000000000102A        #  Was: TIME
+          KEY_STOP                 0x0000000000001029        #  Was: STOP
+    end codes
+end remote

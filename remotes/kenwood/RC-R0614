@@ -1,0 +1,72 @@
+# this config file was made of the file RC-R0813.txt
+#
+# brand:                       Kenwood
+# model no. of remote control: RC-R0614
+# devices being controlled by this remote: Kenwood KRF-V7050D
+#
+
+begin remote
+
+  name  Kenwood_RC-R0614
+  bits           24
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9065  4480
+  one           580  1660
+  zero          580   550
+  ptrail        580
+  repeat       9060  2230
+  pre_data_bits   8
+  pre_data       0x1D
+  gap          108434
+  toggle_bit      0
+
+
+      begin codes
+        power       0x00B946
+        lstnmode    0x00fb04
+        mute        0x0039c6
+        vol+        0x00d926
+        vol-        0x0059a6
+        setup       0xc09867
+        sound       0x80ea15
+        up          0x80aa55
+        down        0x802ad5
+        left        0x4000ff
+        right       0x40807f
+        tunerev     0x4040bf
+        tunefwd     0x40c03f
+        band        0xc0609f
+        a/b         0x0010ef
+        auto        0x4020df
+        dvd6ch      0xc001fe
+        cd/dvd      0x0049b6
+        phono       0x0009f6
+        tuner       0x008976
+        video1      0x006996
+        video2      0x0040bf
+        video3      0xc0b847
+        md/tape     0x00a956
+        avaux       0x00c936
+        bass        0x40EA15
+	rdsdisp     0x001AE5
+	pty         0x8039C6
+	cine.eq     0x6012ED
+        
+        1       0x00817E
+        2       0x0041be
+        3       0x00c13e
+        4       0x0021de
+        5       0x00a15e
+        6       0x00619e
+        7       0x00e11e
+        8       0x0011ee
+        9       0x00916e
+        0       0x0001fe
+        +10     0x00b04f
+
+      end codes
+
+end remote

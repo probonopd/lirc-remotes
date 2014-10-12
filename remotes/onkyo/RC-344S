@@ -1,0 +1,81 @@
+#
+# this config file was automatically generated
+# using WinLIRC 0.6.4 (LIRC 0.6.1pre3) on Thu Aug 14 21:20:50 2003
+#
+# contributed by a little man big a big remote
+#
+# brand:             Onkyo
+# model:             RC-344S
+# supported devices:
+#
+
+begin remote
+
+  name  RC-344S
+  bits           24
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  header       9047  4369
+  one           655   459
+  zero          655  1579
+  ptrail        655
+  repeat       9060  2115
+  pre_data_bits   8
+  pre_data       0xB4
+  gap          38601
+  toggle_bit      0
+
+
+      begin codes
+          CD_PLAY                  0x00000000004927D8
+          CD_STOP                  0x000000000049C738
+          CD_PAUSE                 0x00000000004907F8
+          CD_NEXT_>|               0x00000000004947B8
+          CD_BACK_|<               0x0000000000498778
+          SURROUND_MODE            0x000000000049CD32
+          MUTING                   0x0000000000495FA0
+          CH-SEL                   0x0000000000C9DD22
+          LEVEL_UP                 0x0000000000C9BD42
+          LEVEL_DOWN               0x0000000000C93DC2
+          TEST-TONE                0x000000000049A659
+          VOLUME_HIGHER            0x000000000049BF40
+          VOLUME_LOWER             0x0000000000493FC0
+          DIMMER                   0x00000000004956A9
+          KEY_POWER                0x000000000049DF20        #  Was: POWER
+          KEY_SLEEP                0x00000000004945BA        #  Was: SLEEP
+          MULTI-CH-INPUT           0x0000000000C9DF20
+          MULTI-SOURCE             0x000000000049CC33
+          M-SOURCE_LEVEL_UP        0x000000000049BC43
+          M-SOURCE_LEVEL_DOWN      0x0000000000493CC3
+          TUNER_GROUP              0x000000000049AD52
+          TUNER_PRESET_<           0x0000000000497F80
+          TUNER_PRESET_>           0x000000000049FF00
+          INP-SEL_VIDEO-1          0x0000000000490FF0
+          INP-SEL_VIDEO-2          0x0000000000498F70
+          INP-SEL_VIDEO-3          0x0000000000494FB0
+          INP-SEL_TAPE-1           0x000000000049EF10
+          INP-SEL_TUNER            0x0000000000492FD0
+          INP-SEL_PHONO            0x000000000049AF50
+          INP-SEL_CD               0x0000000000496F90
+          INP-SEL_TAPE-2           0x0000000000491FE0
+          DECK-A_<                 0x0000000000490DF2
+          DECK-A_>                 0x0000000000498D72
+          DECK-A_REC/PAUSE         0x000000000049F50A
+          DECK-A_STOP              0x0000000000494DB2
+          DECK-A_<<                0x000000000049B54A
+          DECK-A_>>                0x000000000049758A
+          CD_DISC                  0x000000000049C53A
+          DECK-B_<                 0x0000000000499768
+          DECK-B_>                 0x00000000004957A8
+          DECK-B_REC/PAUSE         0x000000000049E718
+          DECK-B_STOP              0x00000000004937C8
+          DECK-B_<<                0x000000000049A758
+          DECK-B_>>                0x0000000000496798
+          SPEAKERS_MAIN            0x000000000049659A
+          SPEAKER_REMOTE           0x000000000049A55A
+      end codes
+
+end remote
+

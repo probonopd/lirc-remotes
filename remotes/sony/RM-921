@@ -1,0 +1,128 @@
+s config file was automatically generated
+# using WinLIRC 0.6.4 (LIRC 0.6.1pre3) on Fri Dec 13 19:42:42 2002
+#
+# contributed by Daniel Kapanadze <daniel@echo.ru>
+#
+# brand:       Sony
+# model:       RM-921
+# supported devices: Sony PFM-500 42" Plasma Screen
+#
+
+begin remote
+
+ name Sony-RM-921
+ bits      11
+ flags SPACE_ENC
+ eps      25
+ aeps     100
+
+ header    2440  513
+ one      660  513
+ zero     1258  513
+ ptrail    660
+ gap     26230
+ toggle_bit   0
+
+
+	begin codes
+
+	Muting		0x6B7
+	Display		0x517
+	Power		0x2B7
+	RGB1		0x1E7
+	RGB2		0x6E7
+	Line		0x7E7
+	Y-C		0x267
+	MTS-MPX         0x0B7
+	1		0x7F7
+	2		0x3F7
+	3		0x5F7
+	4		0x1F7
+	5		0x6F7
+	6		0x2F7
+	7		0x4F7
+	8		0x0F7
+	9		0x777
+	10		0x377
+	CH		0x177
+	Still		0x627
+	PowerOn		0x457
+	PowerOff	0x057
+	SelectUp	0x687
+	SelectDown	0x287
+	Menu		0x7C7
+	Enter		0x2C7
+	Volume+		0x5B7
+	Volume-		0x1B7
+	Channel+	0x7B7
+	Channel-	0x3B7
+
+	end codes
+
+end remote
+
+begin remote
+
+ name  Sony-RM-921
+ flags RAW_CODES
+ eps      25
+ aeps     100
+
+ ptrail     0
+ repeat   0   0
+ gap  21437
+
+
+   begin raw_codes
+
+     name YUV
+       2431   514   651   518   653   528
+       655   525  1253   524   656   526
+       653   528  1253   520   650   522
+       656   530  1253   524   655   522
+       655   527  1251   517   651   529
+       1256
+
+     name Zoom
+       2435   508  1252   525   656   519
+       1254   520  1255   521  1256   512
+       1253   510  1253   524   657   518
+       657   514  1255   513   655   520
+       658   524  1253   517   658   526
+       1256
+
+     name Degauss
+       2464   483   677   500  1278   497
+       1278   496  1279   499  1278   495
+       1278   495  1277   494   679   499
+       681   500  1277   497   679   498
+       681   500  1277   489   681   498
+       1281
+
+     name IDMode_On
+       2437   513   653   528   655   528
+       1251   527  1243   526  1252   520
+       1248   528  1248   528  1247   524
+       1248   526  1250   526   648   526
+       1255   525  1245   527  1255   517
+       655
+
+     name IDMode_Set
+       2441   504   656   525  1251   520
+       1251   527  1255   519  1253   531
+       1243   517  1252   517  1251   522
+       1253   518  1251   525   652   526
+       1247   525  1249   528  1248   523
+       655
+
+     name IDMode_Off
+       2454   498  1258   504   657   508
+       1255   505  1256   506  1262   499
+       1261   499  1265   506  1257   509
+       1258   502  1257   503   661   506
+       1262   508  1255   503  1258   505
+       660
+
+    end raw_codes
+
+end remote

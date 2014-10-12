@@ -1,0 +1,95 @@
+s remote can support different manufacturer's DVD, VCR, cable, and
+# satelite receivers, this file represents the TV mode only
+# the TV/SAT button is not recognized, so I recorded it in the "raw" mode,
+# in the TV mode the TV/SAT button toggles the AUTO VOLUME feature, at least
+# it does on the Sony KV-20FV10 television
+
+#
+# this config file was automatically generated
+# using lirc-0.7.1(serial) on Sun Aug 14 18:59:14 2005
+#
+# contributed by sschaefer1|woh.rr.com
+#
+# brand:			Sony
+# model no. of remote control:	RM-Y168 in the TV mode
+# devices being controlled by this remote:
+#		Sony KV-20FV10 (20 inch Trinitron color television)
+
+
+begin remote
+
+  name  Sony_RM-Y168_TV
+  bits           12
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       2408   573
+  one          1210   583
+  zero          610   583
+  gap          44840
+  min_repeat      2
+  toggle_bit      0
+
+
+      begin codes
+          ENTER                    0xD10
+          JUMP                     0xDD0
+          0                        0x910
+          9                        0x110
+          8                        0xE10
+          7                        0x610
+          6                        0xA10
+          5                        0x210
+          4                        0xC10
+          3                        0x410
+          2                        0x810
+          1                        0x010
+          DISPLAY                  0x5D0
+          MTS/SAP                  0xE90
+          SLEEP                    0x6D0
+          PICTURE_MODE             0x270
+          TV/VIDEO                 0xA50
+          SYSTEM_OFF               0xF41
+          MUTING                   0x290
+          POWER                    0xA90
+          up                       0x2F0
+          down                     0xAF0
+          left                     0x2D0
+          right                    0xCD0
+          center                   0xA70
+          MENU                     0x070
+          CH+                      0x090
+          CH-                      0x890
+          VOL+                     0x490
+          VOL-                     0xC90
+          RESET                    0x690
+       end codes
+
+end remote
+
+begin remote
+
+  name   Sony_RM-Y168_TV-raw
+  flags CONST_LENGTH|RAW_CODES
+  eps            30
+  aeps          100
+
+  ptrail          0
+  repeat     0     0
+  gap    44863
+
+      begin raw_codes
+
+          name TV/SAT_auto-volume-on/off
+             2472     507    1279     514    1278     515
+             1278     513    1279     513    1279     514
+              681     514     706     488     682     513
+              683     513    1278     514     681     514
+              681     513    1279     513     682     513
+             1279
+
+      end raw_codes
+
+end remote
+

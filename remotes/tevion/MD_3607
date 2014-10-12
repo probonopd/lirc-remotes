@@ -1,0 +1,60 @@
+#
+# this config file was automatically generated
+# using WinLIRC 0.6.4 (LIRC 0.6.1pre3) on Fri Mar 07 12:43:23 2003
+#
+# contributed by Benni Pfauth
+#
+# brand:             Tevion
+# model:             Md3607
+# supported devices: TV
+# devicenr: 010
+# Die Clock-Taste (ganz unten Mitte) kann Probleme machen.
+
+begin remote
+
+  name  TevionMd3607
+  bits           11
+  flags SPACE_ENC
+  eps            25
+  aeps          100
+
+  one           189  7438
+  zero          189  4888
+  ptrail        189
+  gap          46872
+  toggle_bit      0
+
+
+      begin codes
+          Taste1                   0x00000000000007DA
+          KEY_PLAY                 0x00000000000005F3        #  Was: Play
+          KEY_STOP                 0x00000000000007F6        #  Was: Stop
+          KEY_PAUSE                0x00000000000005C0        #  Was: Pause
+          KEY_BACK                 0x00000000000007F2        #  Was: Back
+          Vor                      0x00000000000005F4
+          Taste2                   0x00000000000007DB
+          Taste3                   0x00000000000005DC
+          Taste4                   0x00000000000007DD
+          Taste5                   0x00000000000005DE
+          Taste6                   0x00000000000007DF
+          Taste7                   0x00000000000005E0
+          Taste8                   0x00000000000007E1
+          Taste9                   0x00000000000005E2
+          KEY_VOLUMEUP             0x00000000000007C8        #  Was: VolumeUp
+          KEY_VOLUMEDOWN           0x00000000000005C7        #  Was: VolumeDown
+          KEY_CHANNELUP            0x00000000000007D9        #  Was: ChannelUp
+          KEY_CHANNELDOWN          0x00000000000005D8        #  Was: ChannelDown
+          Taste0                   0x00000000000007E3
+          AB-Taste                 0x00000000000005C2
+          AdvNum                   0x00000000000007E5
+          Stumm                    0x00000000000005C3
+          TurnOffOn                0x00000000000007C4
+          PauseVideoText           0x00000000000005D2
+          MixText                  0x00000000000007CF
+          KEY_RECORD               0x00000000000005CF        #  Was: Record
+          OffText                  0x00000000000007E6
+          KEY_POWER                0x00000000000005E7        #  Was: OnText
+          ShowClock                0x00000000000007E7
+      end codes
+end remote
+

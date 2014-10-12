@@ -1,0 +1,116 @@
+#
+# this config file was automatically generated
+# using lirc-0.8.3(iguanaIR) on Thu Apr  1 17:21:57 2010
+#
+# contributed by Hans de Jonge
+#
+# brand: Marantz
+# model no. of remote control: RC8000PM
+# devices being controlled by this remote: Marantz PM7000 amplifier
+#
+
+begin remote
+
+  name   Marantz_RC8000PM
+  flags RAW_CODES|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  ptrail          0
+  repeat     0     0
+  gap          113407
+
+      begin raw_codes
+
+          name POWER_ON
+              896     853    1792    1749    1792     874
+              874     874     874     874     874    4437
+              874     874     874    1749     896     832
+             1792     874     874     874     874     874
+              874     874     874     874     874     874
+              874    1770     896
+
+          name POWER_OFF
+              917     853     896     832     896     832
+             1792     874     874     874     874     874
+              874    4437     874     874     874    1770
+              896     853    1792     874     874     874
+              874     874     874     896     874     896
+              874    1770    1792
+
+          name AUX-1
+              896     853    1813    1728    1813     853
+              896     853     896     853     896    4416
+              896     853     896     853     896     853
+              896     853     896     853     874     874
+              896     853     896     853     896    1728
+              917     832    1813
+
+          name AUX-2
+              917     832     896     832     896     832
+             1813     832     896     853     896     853
+              896    4416     896     853     874     874
+              874     874     874     874     874     874
+              874     874     874     874     874     874
+              874    1749     896     832     917     832
+              896
+
+      end raw_codes
+
+end remote
+
+
+begin remote
+
+  name  Marantz_RC8000PM_RC-5
+  bits           13
+  flags RC5|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           897   859
+  zero          897   859
+  plead         916
+  gap          113407
+  toggle_bit_mask 0x800
+
+      begin codes
+          SOURCE_ON-OFF            0x140C
+          PHONO                    0x157F
+          CD                       0x1D3F
+          TUNER                    0x147F
+          CD-R                     0x1DFF
+          TAPE                     0x14BF
+          MD                       0x1DFF
+          1                        0x15C1
+          2                        0x1DC2
+          3                        0x15C3
+          4                        0x1DC4
+          5                        0x15C5
+          6                        0x1DC6
+          7                        0x15C7
+          8                        0x1DC8
+          9                        0x15C9
+          MINUS                    0x1DE1
+          0                        0x15C0
+          PLUS                     0x1DE0
+          MEMO                     0x15E9
+          SCROLL                   0x1DCF
+          CANCEL                   0x15FA
+          TEXT                     0x1DCB
+          TIME                     0x15CB
+          FAST_BCKPLAY             0x1DE1
+          PLAY                     0x15F5
+          FASTFWDPLAY              0x1DE0
+          REW                      0x15F2
+          FF                       0x1DF4
+          MUTE                     0x140D
+          VOLUME_UP                0x1C10
+          VOLUME_DOWN              0x1411
+          PAUSE                    0x1DF0
+          OPEN_CLOSE               0x15ED
+      end codes
+
+end remote
+
+

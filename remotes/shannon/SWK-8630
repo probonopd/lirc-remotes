@@ -1,0 +1,124 @@
+s config file was automatically generated
+# using lirc-0.7.0pre8(serial) on Sat May 14 22:46:39 2005
+#
+# contributed by: Tom Walsh <tom|openhardware.net>
+# brand: Philips
+# model no. of remote control:  SWK-8630
+# devices being controlled by this remote: Shannon (TuxScreen)
+#
+
+#
+# You will have to use LIRC version newer than Sat Jun 18 20:39:45 2005
+# (first time included in 0.7.2pre2) to be able to use this config file. (CB)
+#
+
+begin remote
+
+  name  SHANNON
+  bits            8
+  flags CONST_LENGTH|SERIAL
+  eps            30
+  aeps          100
+
+  one             0   781
+  zero          781     0
+  pre_data_bits   8
+  pre_data       0x94
+  gap          21872
+  toggle_bit      0
+
+  baud            1280
+  serial_mode     8O1
+
+      begin codes
+          a                        0x1E
+          b                        0x20
+          c                        0x12
+          d                        0x16
+          e                        0x17
+          f                        0x26
+          g                        0x23
+          h                        0x7B
+          i                        0x77
+          j                        0x7E
+          k                        0x76
+          l                        0x66
+          m                        0x7A
+          n                        0x78
+          o                        0x67
+          p                        0x6F
+          q                        0x1F
+          r                        0x27
+          s                        0x0E
+          t                        0x21
+          u                        0x7F
+          v                        0x22
+          w                        0x0F
+          x                        0x0A
+          y                        0x79
+          z                        0x1A
+          1                        0x1D
+          2                        0x0D
+          3                        0x15
+          4                        0x25
+          5                        0x24
+          6                        0x7C
+          7                        0x7D
+          8                        0x75
+          9                        0x65
+          0                        0x6D
+          -                        0x6C
+          =                        0x74
+          BACKSPACE                0x39
+          [                        0x69
+          ]                        0x71
+          \                        0x3E
+          ;                        0x6E
+          '                        0x6B
+          RETURN                   0x3A
+          ,                        0x72
+          .                        0x62
+          /                        0x68
+          RIGHT_SHIFT              0x32
+          LEFT_SHIFT               0x31
+          CAPSLOCK                 0x09
+          TAB                      0x19
+          SCREEN+                  0x29
+          SCREEN-                  0x04
+          BLANK                    0x2B
+          LEFT_CTRL                0x1C
+          LEFT_ALT                 0x18
+          SPACE                    0x38
+          RIGHT_ALT                0x28
+          `                        0x5C
+          RIGHT_CTRL               0x54
+          LEFT_ARROW               0x48
+          DOWN_ARROW               0x50
+          RIGHT_ARROW              0x58
+          UP_ARROW                 0x4B
+          ESC                      0x1B
+          F1                       0x0C
+          F2                       0x14
+          F3                       0x11
+          F4                       0x13
+          F5                       0x0B
+          F6                       0x3B
+          F7                       0x61
+          F8                       0x64
+          F9                       0x3C
+          F10                      0x3D
+          F11                      0x55
+          F12                      0x5D
+          F13                      0x52
+          PRINT_SCREEN             0x2D
+          NUM_LOCK                 0x2F
+          CALL_SERVER              0x4A
+          HOME                     0x4C
+          PAGE_UP                  0x4E
+          PAGE_DOWN                0x56
+          BOTTOM_END               0x5B
+      end codes
+
+end remote
+
+

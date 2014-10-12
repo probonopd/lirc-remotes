@@ -1,0 +1,97 @@
+s config file was automatically generated
+# using lirc-0.6.6(any) on Wed Nov 26 16:43:52 2003
+#
+# contributed by
+#
+# brand:                       Magnavox/Philips
+# model no. of remote control: PM435S
+# devices being controlled by this remote:
+#
+
+begin remote
+
+  name  Magnavox_PM435S
+  bits           32
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       9013  4434
+  one           600  1641
+  zero          600   516
+  ptrail        600
+  gap          111163
+  toggle_bit      0
+
+
+      begin codes
+          Power                    0x00000000A25D48B7
+          Chanup                   0x0000000001FCB847
+          chandown                 0x0000000001FCA857
+          Repeat                   0x0000000001FC7887
+          Subtitle                 0x0000000001FC42BD
+          Pip                      0x0000000001FC18E7
+          Toggle                   0x0000000001FC42BD
+          One                      0x0000000001FC708F
+          Two                      0x0000000001FCB04F
+          Three                    0x0000000001FC30CF
+          Four                     0x0000000001FC6A95
+          Five                     0x0000000001FCAA55
+          Six                      0x0000000001FC2AD5
+          Seven                    0x0000000001FC728D
+          Eight                    0x0000000001FCB24D
+          Nine                     0x0000000001FC32CD
+          Ent                      0x0000000001FC48B7
+          TvVcr                    0x0000000001FC02FD
+          Info                     0x0000000001FCC23D
+          Guide                    0x0000000001FC42BD
+          Up                       0x0000000001FCB847
+          Down                     0x0000000001FCA857
+          Left                     0x0000000001FC6897
+          Right                    0x0000000001FC28D7
+          OK                       0x0000000001FC48B7
+          Menu                     0x0000000001FC22DD
+          Quit                     0x0000000001FC926D
+          ScanBack                 0x0000000001FCFF00
+          ScanForward              0x0000000001FCFF00
+          Play                     0x0000000001FCFF00
+          Record                   0x0000000001FCFF00
+          Pause                    0x0000000001FCFF00
+          Stop                     0x0000000001FCFF00
+      end codes
+
+end remote
+
+begin remote
+
+  name  Magnavox_PM435S-RC5
+  flags CONST_LENGTH|RAW_CODES
+  eps            30
+  aeps          100
+
+  ptrail          0
+  repeat     0     0
+  gap    111163
+
+      begin raw_codes
+          name Voldown
+              934     837     880     862    1767     830
+              936     809     934     821     907     836
+              905     836     907    1704    1778     821
+              934     811     934    1676     937
+
+          name Volup
+              986     823    1751     847     909     833
+              910     832     909     833     910     846
+              881     860     880    1733    1754     846
+              909     833     934     808     934
+
+          name Mute
+              936     820     911     831    1782     844
+              910     832     885     844     911     831
+              911     831     911     831     911    1703
+              931     821    1783    1701     909
+      end raw_codes
+
+end remote
+

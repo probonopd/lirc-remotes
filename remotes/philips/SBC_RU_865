@@ -1,0 +1,60 @@
+#
+# this config file was automatically generated
+# using lirc-0.6.6(serial) on Tue Dec 23 16:46:21 2003
+#
+# contributed by Michel Verbraak (asbak|xs4all.nl)
+#
+# brand:                       PHILIPS
+# model no. of remote control: SBC RU 865
+# devices being controlled by this remote: VCR-2 (Code 0002)
+#
+
+begin remote
+
+  name  Philips_SBC_RU_865
+  bits           13
+  flags RC5|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  one           909   865
+  zero          909   865
+  plead         910
+  gap          112852
+  min_repeat      1
+  toggle_bit      2
+
+
+      begin codes
+          1                        0x0000000000001181
+          2                        0x0000000000001182
+          3                        0x0000000000001183
+          4                        0x0000000000001184
+          5                        0x0000000000001185
+          6                        0x0000000000001186
+          7                        0x0000000000001187
+          8                        0x0000000000001188
+          9                        0x0000000000001189
+          0                        0x0000000000001180
+          PROG+                    0x00000000000011A0
+          PROG-                    0x00000000000011A1
+          MENU                     0x0000000000000192
+          OK                       0x0000000000000197
+          UP                       0x0000000000000190
+          DOWN                     0x0000000000000191
+          LEFT                     0x0000000000000195
+          RIGHT                    0x0000000000000196
+          PLAY                     0x00000000000011B5
+          PAUSE                    0x00000000000011B0
+          REWIND                   0x00000000000011B2
+          FORWARD                  0x00000000000011B4
+          STOP                     0x00000000000011B6
+          RECORD                   0x00000000000011B7
+          10+                      0x000000000000118A
+          SCART                    0x00000000000011B8
+          PP                       0x00000000000011BA
+      end codes
+
+end remote
+
+
