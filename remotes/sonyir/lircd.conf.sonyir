@@ -1,0 +1,682 @@
+#
+# contributed by Eric Anderson
+#
+# brand: Sony PCVA-IR5U IR Receiver
+#
+
+
+#
+# Sony Gigapocket Remote "RM-GP4U"
+#
+
+begin remote
+  name  RM-GP4U
+  bits           32
+  eps            30
+  aeps          100
+
+  one             0     0
+  zero            0     0
+  gap          211982
+  toggle_bit      0
+
+  begin codes
+
+# Mode 1
+        KEY_VOLUMEUP            0x1ab212
+        KEY_VOLUMEDOWN          0x1ab213
+        KEY_CHANNELUP           0x1ab210
+        KEY_CHANNELDOWN         0x1ab211
+        KEY_MUTE                0x1ab214
+###     KEY_STANDBY             <special 1-byte code>
+        KEY_1                   0x1ab200
+        KEY_2                   0x1ab201
+        KEY_3                   0x1ab202
+        KEY_4                   0x1ab203
+        KEY_5                   0x1ab204
+        KEY_6                   0x1ab205
+        KEY_7                   0x1ab206
+        KEY_8                   0x1ab207
+        KEY_9                   0x1ab208
+        KEY_0                   0x1ab23e
+        X_KEY_JUMP              0x1ab23d                  #  Was: KEY_JUMP
+        KEY_ENTER               0x1ab23f
+
+        KEY_MENU                0x1ab243
+        X_KEY_START             0x1ab244                  #  Was: KEY_START
+        KEY_CLOSE               0x1ab245
+        X_KEY_FUNCTION          0x1ab227                  #  Was: KEY_FUNCTION
+        X_KEY_SIZE              0x1ab225                  #  Was: KEY_SIZE
+        KEY_AUDIO               0x1ab22b
+
+        KEY_ANGLE               0x1ab239
+        KEY_SUBTITLE            0x1ab229
+        KEY_DISPLAY             0x1ab226
+        X_KEY_TV_VIDEO          0x1ab224                  #  Was: KEY_TV_VIDEO
+
+        KEY_RECORD              0x1ab21d
+        X_KEY_REC_MODE          0x1ab228                  #  Was: KEY_REC_MODE
+        X_KEY_REC_STOP          0x1ab21e                  #  Was: KEY_REC_STOP
+
+        KEY_REWIND              0x1ab21b
+        KEY_FASTFORWARD         0x1ab21c
+        KEY_PREV                0x1ab21f
+        KEY_NEXT                0x1ab220
+
+        KEY_STOP                0x1ab218
+        KEY_PLAY                0x1ab21a
+        KEY_PAUSE               0x1ab219
+
+        KEY_MENU                0x1ab236
+        KEY_TITLE               0x1ab238
+        KEY_CANCEL              0x1ab235
+        X_KEY_RETURN            0x1ab237                  #  Was: KEY_RETURN
+
+        KEY_UP                  0x1ab230
+        KEY_DOWN                0x1ab231
+        KEY_LEFT                0x1ab232
+        KEY_RIGHT               0x1ab233
+        KEY_ENTER               0x1ab234
+
+# Mode 2
+        KEY_VOLUMEUP            0x1a3312
+        KEY_VOLUMEDOWN          0x1a3313
+        KEY_CHANNELUP           0x1a3310
+        KEY_CHANNELDOWN         0x1a3311
+        KEY_MUTE                0x1a3314
+        X_KEY_STANDBY           0x1a332c                  #  Was: KEY_STANDBY
+        KEY_1                   0x1a3300
+        KEY_2                   0x1a3301
+        KEY_3                   0x1a3302
+        KEY_4                   0x1a3303
+        KEY_5                   0x1a3304
+        KEY_6                   0x1a3305
+        KEY_7                   0x1a3306
+        KEY_8                   0x1a3307
+        KEY_9                   0x1a3308
+        KEY_0                   0x1a333e
+        X_KEY_JUMP              0x1a333d                  #  Was: KEY_JUMP
+        KEY_ENTER               0x1a333f
+
+        KEY_MENU                0x1a3343
+        X_KEY_START             0x1a3344                  #  Was: KEY_START
+        KEY_CLOSE               0x1a3345
+        X_KEY_FUNCTION          0x1a3327                  #  Was: KEY_FUNCTION
+        X_KEY_SIZE              0x1a3325                  #  Was: KEY_SIZE
+        KEY_AUDIO               0x1a332b
+
+        KEY_ANGLE               0x1a3339
+        KEY_SUBTITLE            0x1a3329
+        KEY_DISPLAY             0x1a3326
+        X_KEY_TV_VIDEO          0x1a3324                  #  Was: KEY_TV_VIDEO
+
+        KEY_RECORD              0x1a331d
+        X_KEY_REC_MODE          0x1a3328                  #  Was: KEY_REC_MODE
+        X_KEY_REC_STOP          0x1a331e                  #  Was: KEY_REC_STOP
+
+        KEY_REWIND              0x1a331b
+        KEY_FASTFORWARD         0x1a331c
+        KEY_PREV                0x1a331f
+        KEY_NEXT                0x1a3320
+
+        KEY_STOP                0x1a3318
+        KEY_PLAY                0x1a331a
+        KEY_PAUSE               0x1a3319
+
+        KEY_MENU                0x1a3336
+        KEY_TITLE               0x1a3338
+        KEY_CANCEL              0x1a3335
+        X_KEY_RETURN            0x1a3337                  #  Was: KEY_RETURN
+
+        KEY_UP                  0x1a3330
+        KEY_DOWN                0x1a3331
+        KEY_LEFT                0x1a3332
+        KEY_RIGHT               0x1a3333
+        KEY_ENTER               0x1a3334
+
+# Mode 3
+        KEY_VOLUMEUP            0x1a3b12
+        X_KEY_VOLUNEDOWN        0x1a3b13                  #  Was: KEY_VOLUNEDOWN
+        KEY_CHANNELUP           0x1a3b10
+        KEY_CHANNELDOWN         0x1a3b11
+        KEY_MUTE                0x1a3b14
+        X_KEY_STANDBY           0x1a3b2c                  #  Was: KEY_STANDBY
+        KEY_1                   0x1a3b00
+        KEY_2                   0x1a3b01
+        KEY_3                   0x1a3b02
+        KEY_4                   0x1a3b03
+        KEY_5                   0x1a3b04
+        KEY_6                   0x1a3b05
+        KEY_7                   0x1a3b06
+        KEY_8                   0x1a3b07
+        KEY_9                   0x1a3b08
+        KEY_0                   0x1a3b3e
+        X_KEY_JUMP              0x1a3b3d                  #  Was: KEY_JUMP
+        KEY_ENTER               0x1a3b3f
+
+        KEY_MENU                0x1a3b43
+        X_KEY_START              0x1a3b44                  #  Was: KEY_START
+        KEY_CLOSE               0x1a3b45
+        X_KEY_FUNCTION          0x1a3b27                  #  Was: KEY_FUNCTION
+        X_KEY_SIZE              0x1a3b25                  #  Was: KEY_SIZE
+        KEY_AUDIO               0x1a3b2b
+
+        KEY_ANGLE               0x1a3b39
+        KEY_SUBTITLE            0x1a3b29
+        KEY_DISPLAY             0x1a3b26
+        X_KEY_TV_VIDEO          0x1a3b24                  #  Was: KEY_TV_VIDEO
+
+        KEY_RECORD              0x1a3b1d
+        X_KEY_REC_MODE          0x1a3b28                  #  Was: KEY_REC_MODE
+        X_KEY_REC_STOP          0x1a3b1e                  #  Was: KEY_REC_STOP
+
+        KEY_REWIND              0x1a3b1b
+        KEY_FASTFORWARD         0x1a3b1c
+        KEY_PREV                0x1a3b1f
+        KEY_NEXT                0x1a3b20
+
+        KEY_STOP                0x1a3b18
+        KEY_PLAY                0x1a3b1a
+        KEY_PAUSE               0x1a3b19
+
+        KEY_MENU                0x1a3b36
+        KEY_TITLE               0x1a3b38
+        KEY_CANCEL              0x1a3b35
+        X_KEY_RETURN            0x1a3b37                  #  Was: KEY_RETURN
+
+        KEY_UP                  0x1a3b30
+        KEY_DOWN                0x1a3b31
+        KEY_LEFT                0x1a3b32
+        KEY_RIGHT               0x1a3b33
+        KEY_ENTER               0x1a3b34
+  end codes
+
+end remote
+
+#
+# contributed by Eric Anderson
+#
+# brand: Sony PCVA-IR5U IR Receiver
+#
+
+#
+# Sony Receiver Remote "RM-U304"
+#
+
+begin remote
+  name  RM-U304
+  bits           32
+  eps            30
+  aeps          100
+
+  one             0     0
+  zero            0     0
+  gap          211982
+  toggle_bit      0
+
+  begin codes
+        KEY_VOLUMEUP            0x100012
+        KEY_VOLUMEDOWN          0x100013
+        KEY_MUTE                0x100014
+
+        KEY_SLEEP               0x100060
+        KEY_POWER               0x100015
+
+# MODE SELECTS
+        KEY_VIDEO               0x100022
+        KEY_DVD                 0x10007d
+        X_KEY_TVSAT             0x10006a                  #  Was: KEY_TVSAT
+        X_KEY_MD_TAPE           0x100069                  #  Was: KEY_MD_TAPE
+        KEY_CD                  0x100025
+        KEY_TUNER               0x100021
+
+        X_KEY_INPUT              0x10025                   #  Was: KEY_INPUT
+
+# MODE VIDEO
+        KEY_1                   0x1c0000
+        KEY_2                   0x1c0001
+        KEY_3                   0x1c0002
+        KEY_4                   0x1c0003
+        KEY_5                   0x1c0004
+        KEY_6                   0x1c0005
+        KEY_7                   0x1c0006
+        KEY_8                   0x1c0007
+        KEY_9                   0x1c0008
+        KEY_0                   0x1c0014
+        KEY_ENTER               0x1c001b
+
+        KEY_PREV                0x1c0068
+        KEY_NEXT                0x1c0069
+        KEY_REWIND              0x1c003b
+        KEY_FASTFORWARD         0x1c003c
+        KEY_PLAY                0x1c003a
+        KEY_PAUSE               0x1c0039
+        KEY_STOP                0x1c0038
+
+        X_KEY_VIDEO_POWER       0x1c0015                  #  Was: KEY_VIDEO_POWER
+
+# MODE DVD/LD
+        KEY_MENU                0x1a491b
+        KEY_UP                  0x1a4979
+        KEY_DOWN                0x1a497a
+        KEY_LEFT                0x1a497b
+        KEY_RIGHT               0x1a497c
+        KEY_ENTER               0x1a490b
+        X_KEY_RETURN            0x1a490e                  #  Was: KEY_RETURN
+
+        KEY_PREV                0x1a4930
+        KEY_NEXT                0x1a4931
+        KEY_REWIND              0x1a4933
+        KEY_FASTFORWARD         0x1a4934
+        KEY_BACK                0x1a4954
+        KEY_PLAY                0x1a4932
+        KEY_PAUSE               0x1a4939
+        KEY_STOP                0x1a4938
+        X_KEY_DISK_SKIP         0x1a493f                  #  Was: KEY_DISK_SKIP
+
+        X_KEY_DVD_POWER         0x1a4915                  #  Was: KEY_DVD_POWER
+
+# MODE TV SAT
+        KEY_1                   0x10000
+        KEY_2                   0x10001
+        KEY_3                   0x10002
+        KEY_4                   0x10003
+        KEY_5                   0x10004
+        KEY_6                   0x10005
+        KEY_7                   0x10006
+        KEY_8                   0x10007
+        KEY_9                   0x10008
+        KEY_0                   0x10009
+        X_KEY_>10               0x1001d                   #  Was: KEY_>10
+        KEY_ENTER               0x1008b
+
+        X_KEY_AV_POWER          0x10015                   #  Was: KEY_AV_POWER
+
+        KEY_CHANNELUP           0x10010
+        KEY_CHANNELDOWN         0x10011
+
+# MODE MD/TAPE
+        KEY_1                   0xf0000
+        KEY_2                   0xf0001
+        KEY_3                   0xf0002
+        KEY_4                   0xf0003
+        KEY_5                   0xf0004
+        KEY_6                   0xf0005
+        KEY_7                   0xf0006
+        KEY_8                   0xf0007
+        KEY_9                   0xf0008
+        KEY_0                   0xf0009
+        X_KEY_>10               0xf000a                   #  Was: KEY_>10
+        KEY_ENTER               0xf003b
+
+        KEY_PREV                0xf0020
+        KEY_NEXT                0xf0021
+        KEY_REWIND              0xf002b
+        KEY_FASTFORWARD         0xf002c
+        KEY_PLAY                0xf002a
+        KEY_PAUSE               0xf0029
+        KEY_STOP                0xf0028
+
+        X_KEY_MD_TAPE_POWER     0xf0015                   #  Was: KEY_MD_TAPE_POWER
+
+# MODE CD
+        KEY_1                   0xe0000
+        KEY_2                   0xe0001
+        KEY_3                   0xe0002
+        KEY_4                   0xe0003
+        KEY_5                   0xe0004
+        KEY_6                   0xe0005
+        KEY_7                   0xe0006
+        KEY_8                   0xe0007
+        KEY_9                   0xe0008
+        KEY_0                   0xe0009
+        X_KEY_>10               0xe0027                   #  Was: KEY_>10
+        KEY_ENTER               0xe000a
+
+        KEY_REWIND              0x100033
+        KEY_FASTFORWARD         0x100034
+        KEY_BACK                0x100037
+        KEY_PLAY                0x100032
+        KEY_PAUSE               0x100039
+        KEY_STOP                0x100038
+
+        X_KEY_CD_POWER          0xe0015                   #  Was: KEY_CD_POWER
+
+# MODE TUNER
+        KEY_1                   0xd0000
+        KEY_2                   0xd0001
+        KEY_3                   0xd0002
+        KEY_4                   0xd0003
+        KEY_5                   0xd0004
+        KEY_6                   0xd0005
+        KEY_7                   0xd0006
+        KEY_8                   0xd0007
+        KEY_9                   0xd0008
+        KEY_0                   0xd0009
+        X_KEY_>10               0xd0033                   #  Was: KEY_>10
+        KEY_ENTER               0xd0053
+
+        KEY_CHANNELUP           0xd0010
+        KEY_CHANNELDOWN         0xd0011
+
+# Audio Controls
+        X_KEY_AFD               0x100447                  #  Was: KEY_AFD
+        X_KEY_2CH               0x100441                  #  Was: KEY_2CH
+        KEY_MODE                0x10046e
+
+        X_KEY_EQ_TONE           0x10044c                  #  Was: KEY_EQ_TONE
+        X_KEY_BASS_BOOST        0x10044d                  #  Was: KEY_BASS_BOOST
+        X_KEY_TEST_TONE         0x10044a                  #  Was: KEY_TEST_TONE
+        X_KEY_CURSOR_MODE       0x100477                  #  Was: KEY_CURSOR_MODE
+
+        X_KEY_MENU_LEFT         0x100472                  #  Was: KEY_MENU_LEFT
+        X_KEY_MENU_RIGHT        0x100473                  #  Was: KEY_MENU_RIGHT
+        X_KEY_-                 0x100474                  #  Was: KEY_-
+        X_KEY_+                 0x100475                  #  Was: KEY_+
+
+  end codes
+
+end remote
+#
+# contributed by Eric Anderson
+#
+# brand: Sony PCVA-IR5U IR Receiver
+#
+
+#
+# Sony TV Remote "RM-Y1004"
+#
+
+begin remote
+  name  RM-Y1004
+  bits           32
+  eps            30
+  aeps          100
+
+  one             0     0
+  zero            0     0
+  gap          211982
+  toggle_bit      0
+
+  begin codes
+        KEY_VOLUMEUP            0x100212
+        KEY_VOLUMEDOWN          0x100213
+
+# TV
+        KEY_UP                  0x10074
+        KEY_DOWN                0x10075
+        KEY_LEFT                0x10034
+        KEY_RIGHT               0x10033
+        KEY_ENTER               0x10065
+        KEY_1                   0x10000
+        KEY_2                   0x10001
+        KEY_3                   0x10002
+        KEY_4                   0x10003
+        KEY_5                   0x10004
+        KEY_6                   0x10005
+        KEY_7                   0x10006
+        KEY_8                   0x10007
+        KEY_9                   0x10008
+        KEY_0                   0x10009
+        KEY_ENTER               0x1000b
+        X_KEY_.                 0x17041d                  #  Was: KEY_.
+        X_KEY_ANTENNA           0x10024                   #  Was: KEY_ANTENNA
+        X_KEY_TV_VIDEO          0x10025                   #  Was: KEY_TV_VIDEO
+        X_KEY_TV_POWER          0x10015                   #  Was: KEY_TV_POWER
+        X_KEY_RESET             0x10016                   #  Was: KEY_RESET
+        X_KEY_MTS               0x10017                   #  Was: KEY_MTS
+
+# DVD/VCR
+        KEY_UP                  0x101078
+        KEY_DOWN                0x101079
+        KEY_LEFT                0x10107a
+        KEY_RIGHT               0x10107b
+        KEY_ENTER               0x10107c
+        KEY_1                   0x101000
+        KEY_2                   0x101001
+        KEY_3                   0x101002
+        KEY_4                   0x101003
+        KEY_5                   0x101004
+        KEY_6                   0x101005
+        KEY_7                   0x101006
+        KEY_8                   0x101007
+        KEY_9                   0x101008
+        KEY_0                   0x101009
+        KEY_ENTER               0x10100c
+        X_KEY_DVD_POWER         0x100215                  #  Was: KEY_DVD_POWER
+
+        KEY_PLAY                0x100602
+        KEY_REWIND              0x101033
+        KEY_FASTFORWARD         0x101034
+        KEY_PAUSE               0x100601
+        KEY_STOP                0x100600
+
+# SAT/CABLE
+        KEY_UP                  0x170572
+        KEY_DOWN                0x170573
+        KEY_LEFT                0x170575
+        KEY_RIGHT               0x170574
+        KEY_ENTER               0x170576
+        KEY_1                   0x170500
+        KEY_2                   0x170501
+        KEY_3                   0x170502
+        KEY_4                   0x170503
+        KEY_5                   0x170504
+        KEY_6                   0x170505
+        KEY_7                   0x170506
+        KEY_8                   0x170507
+        KEY_9                   0x170508
+        KEY_0                   0x170509
+        KEY_ENTER               0x17050b
+        X_KEY_SAT_POWER         0x170515                  #  Was: KEY_SAT_POWER
+
+        KEY_F1                  0x170431
+        KEY_F1                  0x100669
+        KEY_F2                  0x10103e
+        X_KEY_POWER_SAVING      0x170336                  #  Was: KEY_POWER_SAVING
+        X_KEY_SOUND_MODE        0x17047b                  #  Was: KEY_SOUND_MODE
+        KEY_SOUND               0x4051f
+        X_KEY_SPLIT             0x40577                   #  Was: KEY_SPLIT
+
+        X_KEY_GUIDE             0x1000e                   #  Was: KEY_GUIDE
+        X_KEY_RESET             0x10016                   #  Was: KEY_RESET
+        X_KEY_GUIDE             0x101019                  #  Was: KEY_GUIDE
+        KEY_FAVORITES           0x170376
+  end codes
+
+end remote
+#
+# contributed by Eric Anderson
+#
+# brand: Sony PCVA-IR5U IR Receiver
+#
+
+#
+# Sony TV Remote "RM-YD025"
+#
+
+begin remote
+  name  RM-YD025
+  bits           32
+  eps            30
+  aeps          100
+
+  one             0     0
+  zero            0     0
+  gap          211982
+  toggle_bit      0
+
+  begin codes
+        KEY_CHANNELUP           0x10010
+        KEY_CHANNELDOWN         0x10011
+        KEY_VOLUMEUP            0x10012
+        KEY_VOLUMEDOWN          0x10013
+        KEY_MUTE                0x10014
+
+        KEY_UP                  0x10074
+        KEY_DOWN                0x10075
+        KEY_LEFT                0x10034
+        KEY_RIGHT               0x10033
+        KEY_ENTER               0x10065
+        KEY_1                   0x10000
+        KEY_2                   0x10001
+        KEY_3                   0x10002
+        KEY_4                   0x10003
+        KEY_5                   0x10004
+        KEY_6                   0x10005
+        KEY_7                   0x10006
+        KEY_8                   0x10007
+        KEY_9                   0x10008
+        KEY_0                   0x10009
+        KEY_ENT                 0x1000b
+        X_KEY_.                 0x17041d                  #  Was: KEY_.
+
+        X_KEY_RETURN            0x170423                  #  Was: KEY_RETURN
+        X_KEY_TOOLS             0x170436                  #  Was: KEY_TOOLS
+        KEY_MENU                0x10060
+        X_KEY_CC                0x40590                   #  Was: KEY_CC
+        X_KEY_JUMP              0x1003b                   #  Was: KEY_JUMP
+
+        KEY_DISPLAY             0x1003a
+        KEY_SLEEP               0x10036
+        KEY_POWER               0x10015
+
+        KEY_FAVORITES           0x170376
+        X_KEY_PICTURE           0x10064                   #  Was: KEY_PICTURE
+        X_KEY_WIDE              0x4053d                   #  Was: KEY_WIDE
+        X_KEY_INPUT             0x10025                   #  Was: KEY_INPUT
+  end codes
+
+end remote
+#
+# contributed by Eric Anderson
+#
+# brand: Sony PCVA-IR5U IR Receiver
+#
+
+#
+# Sony TV Remote "RM-YD025"
+#
+
+begin remote
+  name  RM-YD025
+  bits           32
+  eps            30
+  aeps          100
+
+  one             0     0
+  zero            0     0
+  gap          211982
+  toggle_bit      0
+
+  begin codes
+        KEY_CHANNELUP           0x10010
+        KEY_CHANNELDOWN         0x10011
+        KEY_VOLUMEUP            0x10012
+        KEY_VOLUMEDOWN          0x10013
+        KEY_MUTE                0x10014
+
+        KEY_UP                  0x10074
+        KEY_DOWN                0x10075
+        KEY_LEFT                0x10034
+        KEY_RIGHT               0x10033
+        KEY_ENTER               0x10065
+        KEY_1                   0x10000
+        KEY_2                   0x10001
+        KEY_3                   0x10002
+        KEY_4                   0x10003
+        KEY_5                   0x10004
+        KEY_6                   0x10005
+        KEY_7                   0x10006
+        KEY_8                   0x10007
+        KEY_9                   0x10008
+        KEY_0                   0x10009
+        KEY_ENT                 0x1000b
+        KEY_.                   0x17041d
+
+        KEY_RETURN              0x170423
+        KEY_TOOLS               0x170436
+        KEY_MENU                0x10060
+        KEY_CC                  0x40590
+        KEY_JUMP                0x1003b
+
+        KEY_DISPLAY             0x1003a
+        KEY_SLEEP               0x10036
+        KEY_POWER               0x10015
+
+        KEY_FAVORITES           0x170376
+        KEY_PICTURE             0x10064
+        KEY_WIDE                0x4053d
+        KEY_INPUT               0x10025
+  end codes
+
+end remote
+#
+# contributed by Eric Anderson
+#
+# brand: Sony PCVA-IR5U IR Receiver
+#
+
+#
+# Sony BD Player Remote "RMT-B104A"
+#
+
+begin remote
+  name  RMT-B104A
+  bits           32
+  eps            30
+  aeps          100
+
+  one             0     0
+  zero            0     0
+  gap          211982
+  toggle_bit      0
+
+      begin codes
+        KEY_VOLUMEUP            0x010012
+        KEY_VOLUMEDOWN          0x010013
+        KEY_TIME                0x1ae228
+        KEY_1                   0x1ae200
+        KEY_2                   0x1ae201
+        KEY_3                   0x1ae202
+        KEY_4                   0x1ae203
+        KEY_5                   0x1ae204
+        KEY_6                   0x1ae205
+        KEY_7                   0x1ae206
+        KEY_8                   0x1ae207
+        KEY_9                   0x1ae208
+        KEY_0                   0x1ae209
+        KEY_AUDIO               0x1ae264
+        KEY_TITLE               0x1ae263
+        KEY_ANGLE               0x1ae265
+        X_KEY_RETURN            0x1ae243                  #  Was: KEY_RETURN
+        X_KEY_OPTIONS           0x1ae23f                  #  Was: KEY_OPTIONS
+        KEY_HOME                0x1ae242
+        KEY_LEFT                0x1ae23b
+        KEY_RIGHT               0x1ae23c
+        KEY_UP                  0x1ae239
+        KEY_DOWN                0x1ae23a
+        KEY_ENTER               0x1ae23d
+        KEY_PLAY                0x1ae21a
+        KEY_REWIND              0x1ae21b
+        KEY_FASTFORWARD         0x1ae21c
+        KEY_PREV                0x1ae257
+        KEY_NEXT                0x1ae256
+        X_KEY_REPLAY            0x1ae276                  #  Was: KEY_REPLAY
+        X_KEY_ADVANCE           0x1ae275                  #  Was: KEY_ADVANCE
+        X_KEY_TOP_MENU          0x1ae22c                  #  Was: KEY_TOP_MENU
+        X_KEY_POP_UP_MENU       0x1ae229                  #  Was: KEY_POP_UP_MENU
+        KEY_PAUSE               0x1ae219
+        KEY_DISPLAY             0x1ae241
+        KEY_STOP                0x1ae218
+        KEY_RED                 0x1ae267
+        KEY_GREEN               0x1ae268
+        KEY_BLUE                0x1ae266
+        KEY_YELLOW              0x1ae269
+        X_KEY_THEATER           0x170360                  #  Was: KEY_THEATER
+        X_KEY_INPUT             0x10025                   #  Was: KEY_INPUT
+        KEY_POWER               0x1ae215
+        X_KEY_TV_POWER          0x10015                   #  Was: KEY_TV_POWER
+      end codes
+end remote
+
