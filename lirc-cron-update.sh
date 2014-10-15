@@ -18,7 +18,7 @@ readonly BASE_URL='https://sf.net/p/lirc-remotes/code/ci/master/tree/remotes'
 readonly GIT_URL='git://git.code.sf.net/p/lirc/git'
 readonly GIT_REMOTES_URL='git://git.code.sf.net/p/lirc-remotes/code'
 readonly MARKDOWN="/usr/bin/markdown2-3.3 --extras=code-friendly"
-readonly BRANCH='work'
+readonly BRANCH='master'
 
 function enumerate()
 # Enumerates the remotes directory in $1  to # a simple csv list. Format is:
@@ -99,7 +99,8 @@ function make_table()
     IFS=';'
     while read dir lircd lircmd photo names timing raw; do
         echo '<tr>'
-        echo "<td><a href=\"$BASE_URL/$dir\">$dir</a></td>"
+        echo "<td><a href=\"$BASE_URL/$dir\">
+                   <img src="../html/folder.png"/></a></td>"
         echo "<td><a href=\"$BASE_URL/$dir/$lircd\">$lircd</a></td>"
         if [[ -n "$photo" && "$photo" != 'no_photo' ]]; then
             echo "<td><a href=\"$BASE_URL/$dir/$photo\">Photo</a></td>"
@@ -112,14 +113,14 @@ function make_table()
             echo "<td>&nbsp</td>"
         fi
         if [[ $timing == no* ]]; then
-            echo "<td>No</td>"
+            echo "<td><img src="../html/no.png"/></td>"
         else
-            echo "<td>Yes</td>"
+            echo "<td><img src="../html/yes.png"/></td>"
         fi
         if [[ $raw == no* ]]; then
-            echo "<td>no</td>"
+            echo "<td><img src="../html/no.png"/></td>"
         else
-            echo "<td>raw</td>"
+            echo "<td><img src="../html/yes.png"/></td>"
         fi
         if [[ -n "$lircmd"  && "$lircmd" != 'no_lircmd' ]]; then
             echo "<td><a href=\"$BASE_URL/$dir/$lircd\">$lircmd</a></td>"
