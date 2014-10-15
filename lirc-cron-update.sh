@@ -18,7 +18,7 @@ readonly BASE_URL='http://lirc.org/remotes'
 readonly GIT_URL='git://git.code.sf.net/p/lirc/git'
 readonly GIT_REMOTES_URL='git://git.code.sf.net/p/lirc-remotes/code'
 readonly MARKDOWN="/usr/bin/markdown2-3.3 --extras=code-friendly"
-readonly BRANCH='master'
+readonly BRANCH='work'
 
 function enumerate()
 # Enumerates the remotes directory in $1  to # a simple csv list. Format is:
