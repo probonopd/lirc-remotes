@@ -21,10 +21,9 @@ readonly MARKDOWN="/usr/bin/markdown2-3.3 --extras=code-friendly"
 readonly BRANCH='master'
 
 function enumerate()
-# Enumerates the remotes directory in current dir  to
-# a simple csv list. Format is:
+# Enumerates the remotes directory in $1  to # a simple csv list. Format is:
 #
-#     directory;lircd.conf;lircmd.conf;picture; names...
+#     directory;lircd.conf;lircmd.conf;picture; names;timing;raw
 #
 # Directory and lircd.conf are always present. The rest is optional.
 # The names part is the name header parameter for all remote defs
@@ -136,7 +135,7 @@ function make_table()
 
 
 # Setup
-##exec >$LOG_DIR/job.log 2>&1
+exec >$LOG_DIR/job.log 2>&1
 date
 cd $WORK_DIR
 
@@ -151,26 +150,27 @@ fi
 
 # Create remotes.list, remotes.yaml/pickle and remotes-table.html
 startdir=$PWD
-cd lirc-remotes/remotes
-enumerate . | iconv -f iso-8859-1 -t utf-8 > ../db/remotes.list
-make_dir < ../db/remotes.list > ../db/remotes.yaml
-pickle  ../db/remotes.yaml > ../db/remotes.pickle
-make_table ../db/remotes.list  ../html/head.html ../html/foot.html \
-    > ../db/remotes-table.html
+cd lirc-remotes
+enumerate remotes | iconv -f iso-8859-1 -t utf-8 > db/remotes.list
+make_dir < db/remotes.list > db/remotes.yaml
+pickle  db/remotes.yaml > db/remotes.pickle
+make_table db/remotes.list  html/head.html html/foot.html \
+    > db/remotes-table.html
 
 set -x
 cd $startdir/lirc-remotes
 
 $MARKDOWN index.md > index.html
-$MARKDOWN remotes-checklist.md > remotes-checklist.html
 
 # Upload to sourceforge
 sftp $SF_USER@web.sourceforge.net << EOF
-cd /home/project-web/lirc-remotes/hrdocs
+cd /home/project-web/lirc-remotes/htdocs
 put db/remotes-table.html
 put db/remotes.pickle
 put db/remotes.list
 put db/remotes.yaml
 put index.html
-put remotes-checklist.html
+quit
 EOF
+
+echo "Job completed at $(date)"
