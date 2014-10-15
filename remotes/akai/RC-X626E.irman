@@ -72,7 +72,7 @@ begin remote
 	  JOG_LEFT2                0x000000000000649B
 	  JOG_LEFT3                0x000000000000A45B
     	  JOG_LEFT4                0x00000000000024DB
-	  JOG_LEFT5                0x000000000000C43B	
+	  JOG_LEFT5                0x000000000000C43B
 	  JOG_LEFT6                0x00000000000044BB
 	  JOG_LEFT7                0x000000000000847B
           JOG_RIGHT1               0x000000000000946B
@@ -83,7 +83,7 @@ begin remote
           JOG_RIGHT6               0x000000000000748B
           JOG_RIGHT7               0x000000000000F40B
 	  JOG_LEFT_X               0x0000000000008C73
-          JOG_RIGHT_X              0x000000FFFFFDE7C0
+#          JOG_RIGHT_X              0x000000FFFFFDE7C0     Invalid!
   end codes
 
 end remote
