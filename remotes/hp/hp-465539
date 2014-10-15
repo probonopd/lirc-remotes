@@ -37,7 +37,7 @@
 
 begin remote
 
-  name  HP 465539-002
+  name  HP_465539-002
   bits            8
   flags RC6|CONST_LENGTH
   eps            30

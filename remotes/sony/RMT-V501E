@@ -77,7 +77,7 @@ end remote
 
       begin remote
 
-	  name  RMT-V501E DVD
+	  name  RMT-V501E_DVD
 	  bits            4
 	  flags SPACE_ENC|CONST_LENGTH
 	  eps            30

@@ -11,7 +11,7 @@
 
 begin remote
 
-  name  AVerMedia RM-H7
+  name  AVerMedia_RM-H7
   bits           16
   flags SPACE_ENC|CONST_LENGTH
   eps            30

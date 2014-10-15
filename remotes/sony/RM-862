@@ -14,7 +14,7 @@ begin remote
 
   name  Sony_RM-862.1
   bits           12
-  flags SPACE_ENC | CONST_LENGTH
+  flags SPACE_ENC|CONST_LENGTH
   eps            30
   aeps          100
 

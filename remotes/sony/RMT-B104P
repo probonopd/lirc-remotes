@@ -73,7 +73,7 @@ end remote
 
 begin remote
 
-  name   SONY B104P
+  name   SONY_B104P
   bits           12
   flags SPACE_ENC|CONST_LENGTH
   eps            30
