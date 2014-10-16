@@ -83,11 +83,11 @@ function make_table()
     foot=$3
 
     cat $head
-    echo '<table border="1">
+    echo '<table border="0">
         <tr>
-            <th>Where</th>
+            <th>&nbsp</th>
             <th>lircd.conf file</th>
-            <th>photo</th>
+            <th>&nbsp</th>
             <th>Supported remotes</th>
             <th>Timing</th>
             <th>Raw</th>
@@ -100,10 +100,11 @@ function make_table()
     while read dir lircd lircmd photo names timing raw; do
         echo '<tr>'
         echo "<td><a href=\"$BASE_URL/$dir\">
-                   <img src="../html/folder.png"/></a></td>"
-        echo "<td><a href=\"$BASE_URL/$dir/$lircd\">$lircd</a></td>"
+                   <img src="../html/folder.png"></a></td>"
+        echo "<td><a href=\"$BASE_URL/$dir/$lircd\">$dir/$lircd</a></td>"
         if [[ -n "$photo" && "$photo" != 'no_photo' ]]; then
-            echo "<td><a href=\"$BASE_URL/$dir/$photo\">Photo</a></td>"
+            echo "<td><a href=\"$BASE_URL/$dir/$photo\">
+		      <img src="../html/image.png"></a></td>"
         else
             echo "<td>&nbsp</td>"
         fi
@@ -113,17 +114,17 @@ function make_table()
             echo "<td>&nbsp</td>"
         fi
         if [[ $timing == no* ]]; then
-            echo "<td><img src="../html/no.png"/></td>"
+            echo "<td><img src="../html/no.png"></td>"
         else
-            echo "<td><img src="../html/yes.png"/></td>"
+            echo "<td><img src="../html/yes.png"></td>"
         fi
         if [[ $raw == no* ]]; then
-            echo "<td><img src="../html/no.png"/></td>"
+            echo "<td> No </td>"
         else
-            echo "<td><img src="../html/yes.png"/></td>"
+            echo "<td> Yes </td>"
         fi
-        if [[ -n "$lircmd"  && "$lircmd" != 'no_lircmd' ]]; then
-            echo "<td><a href=\"$BASE_URL/$dir/$lircd\">$lircmd</a></td>"
+        if [[ "$lircmd" != 'no_lircmd' ]]; then
+            echo "<td><a href=\"$BASE_URL/$dir/$lircmd\">$lircmd</a></td>"
         else
             echo "<td>&nbsp</td>"
         fi
