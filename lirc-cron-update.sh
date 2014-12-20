@@ -17,7 +17,7 @@ readonly WORK_DIR=${WORK_DIR:-'/usr/local/var/lirc-remotes'}
 readonly BASE_URL='https://sf.net/p/lirc-remotes/code/ci/master/tree/remotes'
 readonly GIT_URL='git://git.code.sf.net/p/lirc/git'
 readonly GIT_REMOTES_URL='git://git.code.sf.net/p/lirc-remotes/code'
-readonly MARKDOWN="/usr/bin/markdown2-3.3 --extras=code-friendly"
+readonly MARKDOWN="/usr/bin/markdown2 --extras=code-friendly"
 readonly BRANCH='master'
 
 function enumerate()
@@ -83,15 +83,16 @@ function make_table()
     foot=$3
 
     cat $head
+    echo '<h1> Remotes Database </h1>'
     echo '<table border="0">
         <tr>
+            <th align="left">&nbsp</th>
+            <th align="left">lircd.conf file</th>
             <th>&nbsp</th>
-            <th>lircd.conf file</th>
-            <th>&nbsp</th>
-            <th>Supported remotes</th>
-            <th>Timing</th>
-            <th>Raw</th>
-            <th>lircmd.conf</th>
+            <th align="left">Supported remotes</th>
+            <th align="left">Timing</th>
+            <th align="left">Raw</th>
+            <th align="left">lircmd.conf</th>
        </tr>'
 
 
@@ -124,7 +125,7 @@ function make_table()
             echo "<td> Yes </td>"
         fi
         if [[ "$lircmd" != 'no_lircmd' ]]; then
-            echo "<td><a href=\"$BASE_URL/$dir/$lircmd\">$lircmd</a></td>"
+            echo "<td><img src="../html/yes.png"></td>"
         else
             echo "<td>&nbsp</td>"
         fi
