@@ -17,7 +17,8 @@ readonly WORK_DIR=${WORK_DIR:-'/usr/local/var/lirc-remotes'}
 readonly BASE_URL='https://sf.net/p/lirc-remotes/code/ci/master/tree/remotes'
 readonly GIT_URL='git://git.code.sf.net/p/lirc/git'
 readonly GIT_REMOTES_URL='git://git.code.sf.net/p/lirc-remotes/code'
-readonly MARKDOWN="/usr/bin/markdown2 --extras=code-friendly"
+readonly MARKDOWN="$(  ls /usr/bin/markdown2* | head -1 ) \
+     --extras=code-friendly"
 readonly BRANCH='master'
 
 function enumerate()
@@ -163,7 +164,9 @@ make_table db/remotes.list  html/head.html html/foot.html \
 set -x
 cd $startdir/lirc-remotes
 
-$MARKDOWN index.md > index.html
+cat html/head.html > index.html
+$MARKDOWN index.md >> index.html
+cat html/foot.html >> index.html
 
 # Upload to sourceforge
 sftp $SF_USER@web.sourceforge.net << EOF
