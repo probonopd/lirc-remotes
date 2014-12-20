@@ -1,0 +1,17 @@
+a:link {color:#7070E0;}
+a:visited {color:#808080;}
+/* Netscape 4.x ignores this */
+a:active {color:#9090ff;}
+
+p,h1,h2,h3,h4,ul,ol,li,div,td,th,dt,dd,address,blockquote,nobr,b,i,center {font-family:Verdana,Arial,Lucida,Helvetica;}
+pre {font-family:monospace;}
+p {text-align:justify;}
+h1 {text-align:center;}
+hr {text-align:center;}
+
+.menu     {color:#C0C0C0;background-color:#000080;font-weight:bold;}
+.menuhead {color:#FFFFFF;
+	   background-color:#6060C0;
+	   font-weight:bold;
+	   text-align:center;}
+.working  {color:green;}
