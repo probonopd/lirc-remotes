@@ -15,7 +15,6 @@ readonly SF_USER=${SF_USER:-'alec_leamas'}
 readonly LOG_DIR=${LOG_DIR:-'/var/log/lirc-cron-update'}
 readonly WORK_DIR=${WORK_DIR:-'/usr/local/var/lirc-remotes'}
 readonly BASE_URL='https://sf.net/p/lirc-remotes/code/ci/master/tree/remotes'
-readonly GIT_URL='git://git.code.sf.net/p/lirc/git'
 readonly GIT_REMOTES_URL='git://git.code.sf.net/p/lirc-remotes/code'
 readonly MARKDOWN="$(  ls /usr/bin/markdown2* | head -1 ) \
      --extras=code-friendly"
