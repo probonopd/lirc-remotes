@@ -1,5 +1,7 @@
 ## The LIRC remote configurations project.
 
+Imported from http://sourceforge.net/p/lirc-remotes/code/ci/master/tree/ using https://import.github.com/
+
 The LIRC project is about managing IR remotes. For each remote used, there
 should be a configuration file. This project manages these files.
 
