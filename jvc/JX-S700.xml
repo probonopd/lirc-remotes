@@ -1,0 +1,69 @@
+<lircremotes creation-date="Wed Jul 22 23:04:12 2015" creator="" lircversion="0.8.6" lirc2xml_version="0.1.2" configfile="remotes/jvc/JX-S700.lircd.conf" decodeir_version="2.40">
+  <remote name="sw">
+    <lircdata type="SPACE_ENC" bits="6" flags="20496" eps="30" aeps="100" pthree="0" sthree="0" ptwo="0" stwo="0" pone="645" sone="1476" pzero="645" szero="422" plead="0" ptrail="642" pfoot="0" sfoot="0" prepeat="0" srepeat="0" pre_data_bits="8" pre_data="207" post_data_bits="2" post_data="1" pre_p="0" pre_s="0" post_p="0" post_s="0" gap="46630" gap2="0" repeat_gap="0" toggle_bit="0" toggle_bit_mask="0" min_repeat="3" min_code_repeat="0" freq="38000" duty_cycle="0" toggle_mask="0" rc6_mask="0" baud="0" bits_in_byte="0" parity="0" stop_bits="0" ignore_mask="0"/>
+    <code name="KEY_AUX" codeno="0x000000000000001D">
+      <decoding protocol="JVC" device="243" subdevice="-1" obc="174" hex0="138" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0149 009b 0019 0038 0019 0038 0019 0010 0019 0010 0019 0038 0019 0038 0019 0038 0019 0038 0019 0010 0019 0038 0019 0038 0019 0038 0019 0010 0019 0038 0019 0010 0019 0038 0018 0292</ccf>
+    </code>
+    <code name="KEY_AUDIO" codeno="0x000000000000002D">
+      <decoding protocol="JVC" device="243" subdevice="-1" obc="173" hex0="74" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0149 009b 0019 0038 0019 0038 0019 0010 0019 0010 0019 0038 0019 0038 0019 0038 0019 0038 0019 0038 0019 0010 0019 0038 0019 0038 0019 0010 0019 0038 0019 0010 0019 0038 0018 0292</ccf>
+    </code>
+    <code name="KEY_VIDEO" codeno="0x000000000000000D">
+      <decoding protocol="JVC" device="243" subdevice="-1" obc="172" hex0="202" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0149 009b 0019 0038 0019 0038 0019 0010 0019 0010 0019 0038 0019 0038 0019 0038 0019 0038 0019 0010 0019 0010 0019 0038 0019 0038 0019 0010 0019 0038 0019 0010 0019 0038 0018 02ba</ccf>
+    </code>
+    <code name="KEY_1" codeno="0x0000000000000021">
+      <decoding protocol="JVC" device="243" subdevice="-1" obc="161" hex0="122" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0149 009b 0019 0038 0019 0038 0019 0010 0019 0010 0019 0038 0019 0038 0019 0038 0019 0038 0019 0038 0019 0010 0019 0010 0019 0010 0019 0010 0019 0038 0019 0010 0019 0038 0018 02e2</ccf>
+    </code>
+    <code name="KEY_2" codeno="0x0000000000000011">
+      <decoding protocol="JVC" device="243" subdevice="-1" obc="162" hex0="186" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0149 009b 0019 0038 0019 0038 0019 0010 0019 0010 0019 0038 0019 0038 0019 0038 0019 0038 0019 0010 0019 0038 0019 0010 0019 0010 0019 0010 0019 0038 0019 0010 0019 0038 0018 02e2</ccf>
+    </code>
+    <code name="KEY_3" codeno="0x0000000000000031">
+      <decoding protocol="JVC" device="243" subdevice="-1" obc="163" hex0="58" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0149 009b 0019 0038 0019 0038 0019 0010 0019 0010 0019 0038 0019 0038 0019 0038 0019 0038 0019 0038 0019 0038 0019 0010 0019 0010 0019 0010 0019 0038 0019 0010 0019 0038 0018 02ba</ccf>
+    </code>
+    <code name="KEY_4" codeno="0x0000000000000009">
+      <decoding protocol="JVC" device="243" subdevice="-1" obc="164" hex0="218" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0149 009b 0019 0038 0019 0038 0019 0010 0019 0010 0019 0038 0019 0038 0019 0038 0019 0038 0019 0010 0019 0010 0019 0038 0019 0010 0019 0010 0019 0038 0019 0010 0019 0038 0018 02e2</ccf>
+    </code>
+    <code name="KEY_5" codeno="0x0000000000000029">
+      <decoding protocol="JVC" device="243" subdevice="-1" obc="165" hex0="90" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0149 009b 0019 0038 0019 0038 0019 0010 0019 0010 0019 0038 0019 0038 0019 0038 0019 0038 0019 0038 0019 0010 0019 0038 0019 0010 0019 0010 0019 0038 0019 0010 0019 0038 0018 02ba</ccf>
+    </code>
+    <code name="KEY_6" codeno="0x0000000000000019">
+      <decoding protocol="JVC" device="243" subdevice="-1" obc="166" hex0="154" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0149 009b 0019 0038 0019 0038 0019 0010 0019 0010 0019 0038 0019 0038 0019 0038 0019 0038 0019 0010 0019 0038 0019 0038 0019 0010 0019 0010 0019 0038 0019 0010 0019 0038 0018 02ba</ccf>
+    </code>
+    <code name="KEY_7" codeno="0x0000000000000039">
+      <decoding protocol="JVC" device="243" subdevice="-1" obc="167" hex0="26" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0149 009b 0019 0038 0019 0038 0019 0010 0019 0010 0019 0038 0019 0038 0019 0038 0019 0038 0019 0038 0019 0038 0019 0038 0019 0010 0019 0010 0019 0038 0019 0010 0019 0038 0018 0292</ccf>
+    </code>
+    <code name="dual" codeno="0x0000000000000015">
+      <decoding protocol="JVC" device="243" subdevice="-1" obc="170" hex0="170" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0149 009b 0019 0038 0019 0038 0019 0010 0019 0010 0019 0038 0019 0038 0019 0038 0019 0038 0019 0010 0019 0038 0019 0010 0019 0038 0019 0010 0019 0038 0019 0010 0019 0038 0018 02ba</ccf>
+    </code>
+    <code name="vmute" codeno="0x0000000000000018">
+      <decoding protocol="JVC" device="243" subdevice="-1" obc="134" hex0="158" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0149 009b 0019 0038 0019 0038 0019 0010 0019 0010 0019 0038 0019 0038 0019 0038 0019 0038 0019 0010 0019 0038 0019 0038 0019 0010 0019 0010 0019 0010 0019 0010 0019 0038 0018 02e2</ccf>
+    </code>
+    <code name="KEY_SELECT" codeno="0x0000000000000002">
+      <decoding protocol="JVC" device="243" subdevice="-1" obc="144" hex0="246" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0149 009b 0019 0038 0019 0038 0019 0010 0019 0010 0019 0038 0019 0038 0019 0038 0019 0038 0019 0010 0019 0010 0019 0010 0019 0010 0019 0038 0019 0010 0019 0010 0019 0038 0018 030a</ccf>
+    </code>
+    <code name="lock" codeno="0x0000000000000035">
+      <decoding protocol="JVC" device="243" subdevice="-1" obc="171" hex0="42" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0149 009b 0019 0038 0019 0038 0019 0010 0019 0010 0019 0038 0019 0038 0019 0038 0019 0038 0019 0038 0019 0038 0019 0010 0019 0038 0019 0010 0019 0038 0019 0010 0019 0038 0018 0292</ccf>
+    </code>
+    <code name="KEY_POWER" codeno="0x000000000000003A">
+      <decoding protocol="JVC" device="243" subdevice="-1" obc="151" hex0="22" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0149 009b 0019 0038 0019 0038 0019 0010 0019 0010 0019 0038 0019 0038 0019 0038 0019 0038 0019 0038 0019 0038 0019 0038 0019 0010 0019 0038 0019 0010 0019 0010 0019 0038 0018 0292</ccf>
+    </code>
+    <code name="loop" codeno="0x0000000000000005">
+      <decoding protocol="JVC" device="243" subdevice="-1" obc="168" hex0="234" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0149 009b 0019 0038 0019 0038 0019 0010 0019 0010 0019 0038 0019 0038 0019 0038 0019 0038 0019 0010 0019 0010 0019 0010 0019 0038 0019 0010 0019 0038 0019 0010 0019 0038 0018 02e2</ccf>
+    </code>
+  </remote>
+</lircremotes>

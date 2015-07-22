@@ -1,0 +1,9 @@
+<lircremotes creation-date="Wed Jul 22 23:04:07 2015" creator="" lircversion="0.8.6" lirc2xml_version="0.1.2" configfile="remotes/osram/OSRAM.lircd.conf" decodeir_version="2.40">
+  <remote name="OSRAM">
+    <lircdata type="SPACE_ENC" bits="12" flags="16" eps="30" aeps="100" pthree="0" sthree="0" ptwo="0" stwo="0" pone="1300" sone="360" pzero="460" szero="1250" plead="0" ptrail="0" pfoot="0" sfoot="0" prepeat="0" srepeat="0" pre_data_bits="0" pre_data="0" post_data_bits="0" post_data="0" pre_p="0" pre_s="0" post_p="0" post_s="0" gap="34680" gap2="0" repeat_gap="0" toggle_bit="0" toggle_bit_mask="0" min_repeat="0" min_code_repeat="0" freq="38000" duty_cycle="0" toggle_mask="0" rc6_mask="0" baud="0" bits_in_byte="0" parity="0" stop_bits="0" ignore_mask="0"/>
+    <code name="KEY_OK" codeno="0x0000000000000842">
+      <decoding protocol="F12" device="1" subdevice="0" obc="66" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000c 0000 0031 000e 0011 0030 0011 0030 0011 0030 0011 0030 0031 000e 0011 0030 0011 0030 0011 0030 0011 0030 0031 000e 0011 0526</ccf>
+    </code>
+  </remote>
+</lircremotes>

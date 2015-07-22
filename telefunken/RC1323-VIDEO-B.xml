@@ -1,0 +1,133 @@
+<lircremotes creation-date="Wed Jul 22 23:03:57 2015" creator="" lircversion="0.8.6" lirc2xml_version="0.1.2" configfile="remotes/telefunken/RC1323-VIDEO-B.lircd.conf" decodeir_version="2.40">
+  <remote name="Telefunken_RC1323-Video-B">
+    <lircdata type="SPACE_ENC" bits="12" flags="16400" eps="30" aeps="100" pthree="0" sthree="0" ptwo="0" stwo="0" pone="583" sone="4511" pzero="583" szero="1969" plead="0" ptrail="585" pfoot="0" sfoot="0" prepeat="0" srepeat="0" pre_data_bits="0" pre_data="0" post_data_bits="0" post_data="0" pre_p="0" pre_s="0" post_p="0" post_s="0" gap="80420" gap2="0" repeat_gap="0" toggle_bit="0" toggle_bit_mask="128" min_repeat="0" min_code_repeat="0" freq="38000" duty_cycle="0" toggle_mask="0" rc6_mask="0" baud="0" bits_in_byte="0" parity="0" stop_bits="0" ignore_mask="0"/>
+    <code name="OFF" codeno="0x000000000000011D">
+      <decoding protocol="Thomson" device="8" subdevice="-1" obc="46" hex0="136" hex1="196" hex2="-1" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 000d 0000 0016 004b 0016 004b 0016 004b 0016 00ab 0016 004b 0016 004b 0016 004b 0016 00ab 0016 00ab 0016 00ab 0016 004b 0016 00ab 0016 056b</ccf>
+    </code>
+    <code name="KEY_RED" codeno="0x0000000000000139">
+      <decoding protocol="Thomson" device="8" subdevice="-1" obc="39" hex0="24" hex1="140" hex2="-1" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 000d 0000 0016 004b 0016 004b 0016 004b 0016 00ab 0016 004b 0016 004b 0016 00ab 0016 00ab 0016 00ab 0016 004b 0016 004b 0016 00ab 0016 056b</ccf>
+    </code>
+    <code name="KEY_GREEN" codeno="0x000000000000013B">
+      <decoding protocol="Thomson" device="8" subdevice="-1" obc="55" hex0="16" hex1="136" hex2="-1" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 000d 0000 0016 004b 0016 004b 0016 004b 0016 00ab 0016 004b 0016 004b 0016 00ab 0016 00ab 0016 00ab 0016 004b 0016 00ab 0016 00ab 0016 050a</ccf>
+    </code>
+    <code name="KEY_YELLOW" codeno="0x0000000000000138">
+      <decoding protocol="Thomson" device="8" subdevice="-1" obc="7" hex0="28" hex1="142" hex2="-1" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 000d 0000 0016 004b 0016 004b 0016 004b 0016 00ab 0016 004b 0016 004b 0016 00ab 0016 00ab 0016 00ab 0016 004b 0016 004b 0016 004b 0016 05cc</ccf>
+    </code>
+    <code name="KEY_BLUE" codeno="0x0000000000000115">
+      <decoding protocol="Thomson" device="8" subdevice="-1" obc="42" hex0="168" hex1="212" hex2="-1" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 000d 0000 0016 004b 0016 004b 0016 004b 0016 00ab 0016 004b 0016 004b 0016 004b 0016 00ab 0016 004b 0016 00ab 0016 004b 0016 00ab 0016 05cc</ccf>
+    </code>
+    <code name="Status" codeno="0x000000000000011E">
+      <decoding protocol="Thomson" device="8" subdevice="-1" obc="30" hex0="132" hex1="194" hex2="-1" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 000d 0000 0016 004b 0016 004b 0016 004b 0016 00ab 0016 004b 0016 004b 0016 004b 0016 00ab 0016 00ab 0016 00ab 0016 00ab 0016 004b 0016 056b</ccf>
+    </code>
+    <code name="Timer" codeno="0x000000000000012B">
+      <decoding protocol="Thomson" device="8" subdevice="-1" obc="53" hex0="80" hex1="168" hex2="-1" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 000d 0000 0016 004b 0016 004b 0016 004b 0016 00ab 0016 004b 0016 004b 0016 00ab 0016 004b 0016 00ab 0016 004b 0016 00ab 0016 00ab 0016 056b</ccf>
+    </code>
+    <code name="Display/Menu" codeno="0x000000000000013E">
+      <decoding protocol="Thomson" device="8" subdevice="-1" obc="31" hex0="4" hex1="130" hex2="-1" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 000d 0000 0016 004b 0016 004b 0016 004b 0016 00ab 0016 004b 0016 004b 0016 00ab 0016 00ab 0016 00ab 0016 00ab 0016 00ab 0016 004b 0016 050a</ccf>
+    </code>
+    <code name="SP/LP" codeno="0x0000000000000105">
+      <decoding protocol="Thomson" device="8" subdevice="-1" obc="40" hex0="232" hex1="244" hex2="-1" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 000d 0000 0016 004b 0016 004b 0016 004b 0016 00ab 0016 004b 0016 004b 0016 004b 0016 004b 0016 004b 0016 00ab 0016 004b 0016 00ab 0016 062c</ccf>
+    </code>
+    <code name="Erase" codeno="0x000000000000013D">
+      <decoding protocol="Thomson" device="8" subdevice="-1" obc="47" hex0="8" hex1="132" hex2="-1" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 000d 0000 0016 004b 0016 004b 0016 004b 0016 00ab 0016 004b 0016 004b 0016 00ab 0016 00ab 0016 00ab 0016 00ab 0016 004b 0016 00ab 0016 050a</ccf>
+    </code>
+    <code name="Index" codeno="0x000000000000013C">
+      <decoding protocol="Thomson" device="8" subdevice="-1" obc="15" hex0="12" hex1="134" hex2="-1" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 000d 0000 0016 004b 0016 004b 0016 004b 0016 00ab 0016 004b 0016 004b 0016 00ab 0016 00ab 0016 00ab 0016 00ab 0016 004b 0016 004b 0016 056b</ccf>
+    </code>
+    <code name="Adjust" codeno="0x000000000000012C">
+      <decoding protocol="Thomson" device="8" subdevice="-1" obc="13" hex0="76" hex1="166" hex2="-1" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 000d 0000 0016 004b 0016 004b 0016 004b 0016 00ab 0016 004b 0016 004b 0016 00ab 0016 004b 0016 00ab 0016 00ab 0016 004b 0016 004b 0016 05cc</ccf>
+    </code>
+    <code name="tv/vcr" codeno="0x000000000000012D">
+      <decoding protocol="Thomson" device="8" subdevice="-1" obc="45" hex0="72" hex1="164" hex2="-1" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 000d 0000 0016 004b 0016 004b 0016 004b 0016 00ab 0016 004b 0016 004b 0016 00ab 0016 004b 0016 00ab 0016 00ab 0016 004b 0016 00ab 0016 056b</ccf>
+    </code>
+    <code name="av/audio" codeno="0x0000000000000118">
+      <decoding protocol="Thomson" device="8" subdevice="-1" obc="6" hex0="156" hex1="206" hex2="-1" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 000d 0000 0016 004b 0016 004b 0016 004b 0016 00ab 0016 004b 0016 004b 0016 004b 0016 00ab 0016 00ab 0016 004b 0016 004b 0016 004b 0016 062c</ccf>
+    </code>
+    <code name="KEY_1" codeno="0x0000000000000100">
+      <decoding protocol="Thomson" device="8" subdevice="-1" obc="0" hex0="252" hex1="254" hex2="-1" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 000d 0000 0016 004b 0016 004b 0016 004b 0016 00ab 0016 004b 0016 004b 0016 004b 0016 004b 0016 004b 0016 004b 0016 004b 0016 004b 0016 06ed</ccf>
+    </code>
+    <code name="KEY_2" codeno="0x0000000000000108">
+      <decoding protocol="Thomson" device="8" subdevice="-1" obc="4" hex0="220" hex1="238" hex2="-1" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 000d 0000 0016 004b 0016 004b 0016 004b 0016 00ab 0016 004b 0016 004b 0016 004b 0016 004b 0016 00ab 0016 004b 0016 004b 0016 004b 0016 068d</ccf>
+    </code>
+    <code name="KEY_3" codeno="0x0000000000000110">
+      <decoding protocol="Thomson" device="8" subdevice="-1" obc="2" hex0="188" hex1="222" hex2="-1" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 000d 0000 0016 004b 0016 004b 0016 004b 0016 00ab 0016 004b 0016 004b 0016 004b 0016 00ab 0016 004b 0016 004b 0016 004b 0016 004b 0016 068d</ccf>
+    </code>
+    <code name="KEY_4" codeno="0x0000000000000101">
+      <decoding protocol="Thomson" device="8" subdevice="-1" obc="32" hex0="248" hex1="252" hex2="-1" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 000d 0000 0016 004b 0016 004b 0016 004b 0016 00ab 0016 004b 0016 004b 0016 004b 0016 004b 0016 004b 0016 004b 0016 004b 0016 00ab 0016 068d</ccf>
+    </code>
+    <code name="KEY_5" codeno="0x0000000000000109">
+      <decoding protocol="Thomson" device="8" subdevice="-1" obc="36" hex0="216" hex1="236" hex2="-1" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 000d 0000 0016 004b 0016 004b 0016 004b 0016 00ab 0016 004b 0016 004b 0016 004b 0016 004b 0016 00ab 0016 004b 0016 004b 0016 00ab 0016 062c</ccf>
+    </code>
+    <code name="KEY_6" codeno="0x0000000000000111">
+      <decoding protocol="Thomson" device="8" subdevice="-1" obc="34" hex0="184" hex1="220" hex2="-1" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 000d 0000 0016 004b 0016 004b 0016 004b 0016 00ab 0016 004b 0016 004b 0016 004b 0016 00ab 0016 004b 0016 004b 0016 004b 0016 00ab 0016 062c</ccf>
+    </code>
+    <code name="KEY_7" codeno="0x0000000000000102">
+      <decoding protocol="Thomson" device="8" subdevice="-1" obc="16" hex0="244" hex1="250" hex2="-1" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 000d 0000 0016 004b 0016 004b 0016 004b 0016 00ab 0016 004b 0016 004b 0016 004b 0016 004b 0016 004b 0016 004b 0016 00ab 0016 004b 0016 068d</ccf>
+    </code>
+    <code name="KEY_8" codeno="0x000000000000010A">
+      <decoding protocol="Thomson" device="8" subdevice="-1" obc="20" hex0="212" hex1="234" hex2="-1" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 000d 0000 0016 004b 0016 004b 0016 004b 0016 00ab 0016 004b 0016 004b 0016 004b 0016 004b 0016 00ab 0016 004b 0016 00ab 0016 004b 0016 062c</ccf>
+    </code>
+    <code name="KEY_9" codeno="0x0000000000000112">
+      <decoding protocol="Thomson" device="8" subdevice="-1" obc="18" hex0="180" hex1="218" hex2="-1" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 000d 0000 0016 004b 0016 004b 0016 004b 0016 00ab 0016 004b 0016 004b 0016 004b 0016 00ab 0016 004b 0016 004b 0016 00ab 0016 004b 0016 062c</ccf>
+    </code>
+    <code name="KEY_0" codeno="0x000000000000010E">
+      <decoding protocol="Thomson" device="8" subdevice="-1" obc="28" hex0="196" hex1="226" hex2="-1" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 000d 0000 0016 004b 0016 004b 0016 004b 0016 00ab 0016 004b 0016 004b 0016 004b 0016 004b 0016 00ab 0016 00ab 0016 00ab 0016 004b 0016 05cc</ccf>
+    </code>
+    <code name="-/Down" codeno="0x000000000000012A">
+      <decoding protocol="Thomson" device="8" subdevice="-1" obc="21" hex0="84" hex1="170" hex2="-1" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 000d 0000 0016 004b 0016 004b 0016 004b 0016 00ab 0016 004b 0016 004b 0016 00ab 0016 004b 0016 00ab 0016 004b 0016 00ab 0016 004b 0016 05cc</ccf>
+    </code>
+    <code name="+/Up" codeno="0x0000000000000129">
+      <decoding protocol="Thomson" device="8" subdevice="-1" obc="37" hex0="88" hex1="172" hex2="-1" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 000d 0000 0016 004b 0016 004b 0016 004b 0016 00ab 0016 004b 0016 004b 0016 00ab 0016 004b 0016 00ab 0016 004b 0016 004b 0016 00ab 0016 05cc</ccf>
+    </code>
+    <code name="KEY_REWIND" codeno="0x000000000000011F">
+      <decoding protocol="Thomson" device="8" subdevice="-1" obc="62" hex0="128" hex1="192" hex2="-1" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 000d 0000 0016 004b 0016 004b 0016 004b 0016 00ab 0016 004b 0016 004b 0016 004b 0016 00ab 0016 00ab 0016 00ab 0016 00ab 0016 00ab 0016 050a</ccf>
+    </code>
+    <code name="KEY_PLAY" codeno="0x0000000000000120">
+      <decoding protocol="Thomson" device="8" subdevice="-1" obc="1" hex0="124" hex1="190" hex2="-1" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 000d 0000 0016 004b 0016 004b 0016 004b 0016 00ab 0016 004b 0016 004b 0016 00ab 0016 004b 0016 004b 0016 004b 0016 004b 0016 004b 0016 068d</ccf>
+    </code>
+    <code name="KEY_FASTFORWARD" codeno="0x0000000000000121">
+      <decoding protocol="Thomson" device="8" subdevice="-1" obc="33" hex0="120" hex1="188" hex2="-1" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 000d 0000 0016 004b 0016 004b 0016 004b 0016 00ab 0016 004b 0016 004b 0016 00ab 0016 004b 0016 004b 0016 004b 0016 004b 0016 00ab 0016 062c</ccf>
+    </code>
+    <code name="KEY_RECORD" codeno="0x0000000000000123">
+      <decoding protocol="Thomson" device="8" subdevice="-1" obc="49" hex0="112" hex1="184" hex2="-1" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 000d 0000 0016 004b 0016 004b 0016 004b 0016 00ab 0016 004b 0016 004b 0016 00ab 0016 004b 0016 004b 0016 004b 0016 00ab 0016 00ab 0016 05cc</ccf>
+    </code>
+    <code name="KEY_STOP" codeno="0x0000000000000124">
+      <decoding protocol="Thomson" device="8" subdevice="-1" obc="9" hex0="108" hex1="182" hex2="-1" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 000d 0000 0016 004b 0016 004b 0016 004b 0016 00ab 0016 004b 0016 004b 0016 00ab 0016 004b 0016 004b 0016 00ab 0016 004b 0016 004b 0016 062c</ccf>
+    </code>
+    <code name="KEY_PAUSE" codeno="0x0000000000000122">
+      <decoding protocol="Thomson" device="8" subdevice="-1" obc="17" hex0="116" hex1="186" hex2="-1" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 000d 0000 0016 004b 0016 004b 0016 004b 0016 00ab 0016 004b 0016 004b 0016 00ab 0016 004b 0016 004b 0016 004b 0016 00ab 0016 004b 0016 062c</ccf>
+    </code>
+  </remote>
+</lircremotes>

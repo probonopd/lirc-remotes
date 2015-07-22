@@ -1,0 +1,43 @@
+<lircremotes creation-date="Wed Jul 22 23:04:00 2015" creator="" lircversion="0.8.6" lirc2xml_version="0.1.2" configfile="remotes/schneider/SVC568RC.lircd.conf" decodeir_version="2.40">
+  <remote name="VCR">
+    <lircdata type="SPACE_ENC" bits="18" flags="16400" eps="30" aeps="100" pthree="0" sthree="0" ptwo="0" stwo="0" pone="898" sone="2593" pzero="898" szero="850" plead="0" ptrail="900" pfoot="0" sfoot="0" prepeat="0" srepeat="0" pre_data_bits="6" pre_data="5" post_data_bits="0" post_data="0" pre_p="0" pre_s="0" post_p="0" post_s="0" gap="104764" gap2="0" repeat_gap="0" toggle_bit="0" toggle_bit_mask="0" min_repeat="0" min_code_repeat="0" freq="38000" duty_cycle="0" toggle_mask="0" rc6_mask="0" baud="0" bits_in_byte="0" parity="0" stop_bits="0" ignore_mask="0"/>
+    <code name="KEY_POWER" codeno="0x0000000000001EBE">
+      <decoding protocol="Emerson" device="40" subdevice="-1" obc="32" hex0="248" hex1="249" hex2="250" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 001a 0000 0087 0083 0022 0020 0022 0020 0022 0020 0022 0063 0022 0020 0022 0063 0022 0020 0022 0020 0022 0020 0022 0020 0022 0020 0022 0063 0022 0063 0022 0063 0022 0063 0022 0020 0022 0063 0022 0020 0022 0063 0022 0063 0022 0063 0022 0063 0022 0063 0022 0020 0022 050c</ccf>
+    </code>
+    <code name="KEY_CHANNELDOWN" codeno="0x0000000000004EBB">
+      <decoding protocol="Emerson" device="40" subdevice="-1" obc="8" hex0="236" hex1="237" hex2="238" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 001a 0000 0087 0083 0022 0020 0022 0020 0022 0020 0022 0063 0022 0020 0022 0063 0022 0020 0022 0020 0022 0020 0022 0063 0022 0020 0022 0020 0022 0063 0022 0063 0022 0063 0022 0020 0022 0063 0022 0020 0022 0063 0022 0063 0022 0063 0022 0020 0022 0063 0022 0063 0022 050c</ccf>
+    </code>
+    <code name="KEY_CHANNELUP" codeno="0x0000000000002EBD">
+      <decoding protocol="Emerson" device="40" subdevice="-1" obc="16" hex0="244" hex1="245" hex2="246" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 001a 0000 0087 0083 0022 0020 0022 0020 0022 0020 0022 0063 0022 0020 0022 0063 0022 0020 0022 0020 0022 0020 0022 0020 0022 0063 0022 0020 0022 0063 0022 0063 0022 0063 0022 0020 0022 0063 0022 0020 0022 0063 0022 0063 0022 0063 0022 0063 0022 0020 0022 0063 0022 050c</ccf>
+    </code>
+    <code name="KEY_RECORD" codeno="0x0000000000016EA9">
+      <decoding protocol="Emerson" device="40" subdevice="-1" obc="26" hex0="164" hex1="165" hex2="166" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 001a 0000 0087 0083 0022 0020 0022 0020 0022 0020 0022 0063 0022 0020 0022 0063 0022 0020 0022 0063 0022 0020 0022 0063 0022 0063 0022 0020 0022 0063 0022 0063 0022 0063 0022 0020 0022 0063 0022 0020 0022 0063 0022 0020 0022 0063 0022 0020 0022 0020 0022 0063 0022 050c</ccf>
+    </code>
+    <code name="KEY_PLAY" codeno="0x0000000000014EAB">
+      <decoding protocol="Async7:1127-1215:5C.AD..6B.DB" device="173" subdevice="181" obc="107" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 5C AD AD B5 6B 6B DB" error=""/>
+      <decoding protocol="Emerson" device="40" subdevice="-1" obc="10" hex0="172" hex1="173" hex2="174" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 001a 0000 0087 0083 0022 0020 0022 0020 0022 0020 0022 0063 0022 0020 0022 0063 0022 0020 0022 0063 0022 0020 0022 0063 0022 0020 0022 0020 0022 0063 0022 0063 0022 0063 0022 0020 0022 0063 0022 0020 0022 0063 0022 0020 0022 0063 0022 0020 0022 0063 0022 0063 0022 050c</ccf>
+    </code>
+    <code name="KEY_REWIND" codeno="0x000000000000CEB3">
+      <decoding protocol="Async7:1127-1215:5C.AD..5B.DB" device="181" subdevice="181" obc="107" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 5C AD B5 B5 6B 5B DB" error=""/>
+      <decoding protocol="Emerson" device="40" subdevice="-1" obc="12" hex0="204" hex1="205" hex2="206" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 001a 0000 0087 0083 0022 0020 0022 0020 0022 0020 0022 0063 0022 0020 0022 0063 0022 0020 0022 0020 0022 0063 0022 0063 0022 0020 0022 0020 0022 0063 0022 0063 0022 0063 0022 0020 0022 0063 0022 0020 0022 0063 0022 0063 0022 0020 0022 0020 0022 0063 0022 0063 0022 050c</ccf>
+    </code>
+    <code name="f.fwd" codeno="0x0000000000008EB7">
+      <decoding protocol="Emerson" device="40" subdevice="-1" obc="4" hex0="220" hex1="221" hex2="222" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 001a 0000 0087 0083 0022 0020 0022 0020 0022 0020 0022 0063 0022 0020 0022 0063 0022 0020 0022 0020 0022 0063 0022 0020 0022 0020 0022 0020 0022 0063 0022 0063 0022 0063 0022 0020 0022 0063 0022 0020 0022 0063 0022 0063 0022 0020 0022 0063 0022 0063 0022 0063 0022 050c</ccf>
+    </code>
+    <code name="pause/still" codeno="0x0000000000034E8B">
+      <decoding protocol="Emerson" device="40" subdevice="-1" obc="11" hex0="44" hex1="45" hex2="46" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 001a 0000 0087 0083 0022 0020 0022 0020 0022 0020 0022 0063 0022 0020 0022 0063 0022 0063 0022 0063 0022 0020 0022 0063 0022 0020 0022 0020 0022 0063 0022 0063 0022 0063 0022 0020 0022 0063 0022 0020 0022 0020 0022 0020 0022 0063 0022 0020 0022 0063 0022 0063 0022 050c</ccf>
+    </code>
+    <code name="KEY_STOP" codeno="0x000000000000EEB1">
+      <decoding protocol="Emerson" device="40" subdevice="-1" obc="28" hex0="196" hex1="197" hex2="198" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 001a 0000 0087 0083 0022 0020 0022 0020 0022 0020 0022 0063 0022 0020 0022 0063 0022 0020 0022 0020 0022 0063 0022 0063 0022 0063 0022 0020 0022 0063 0022 0063 0022 0063 0022 0020 0022 0063 0022 0020 0022 0063 0022 0063 0022 0020 0022 0020 0022 0020 0022 0063 0022 050c</ccf>
+    </code>
+  </remote>
+</lircremotes>

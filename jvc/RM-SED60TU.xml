@@ -1,0 +1,197 @@
+<lircremotes creation-date="Wed Jul 22 23:04:11 2015" creator="" lircversion="0.8.6" lirc2xml_version="0.1.2" configfile="remotes/jvc/RM-SED60TU.lircd.conf" decodeir_version="2.40">
+  <remote name="JVC-RM-SED60TU">
+    <lircdata type="SPACE_ENC" bits="14" flags="20496" eps="40" aeps="300" pthree="0" sthree="0" ptwo="0" stwo="0" pone="473" sone="1633" pzero="473" szero="579" plead="0" ptrail="473" pfoot="0" sfoot="0" prepeat="0" srepeat="0" pre_data_bits="2" pre_data="3" post_data_bits="0" post_data="0" pre_p="0" pre_s="0" post_p="0" post_s="0" gap="46347" gap2="0" repeat_gap="0" toggle_bit="0" toggle_bit_mask="0" min_repeat="0" min_code_repeat="0" freq="38000" duty_cycle="0" toggle_mask="0" rc6_mask="0" baud="0" bits_in_byte="0" parity="0" stop_bits="0" ignore_mask="0"/>
+    <code name="Deck.Left" codeno="0x00000000000001E0">
+      <decoding protocol="JVC" device="131" subdevice="-1" obc="7" hex0="31" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 013e 00a2 0012 003e 0012 003e 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 003e 0012 003e 0012 003e 0012 003e 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 035f</ccf>
+    </code>
+    <code name="Deck.Right" codeno="0x0000000000000160">
+      <decoding protocol="JVC" device="131" subdevice="-1" obc="6" hex0="159" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 013e 00a2 0012 003e 0012 003e 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 003e 0012 0016 0012 003e 0012 003e 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 0387</ccf>
+    </code>
+    <code name="Deck.PlayLeft" codeno="0x0000000000000170">
+      <decoding protocol="JVC" device="131" subdevice="-1" obc="14" hex0="143" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 013e 00a2 0012 003e 0012 003e 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 003e 0012 0016 0012 003e 0012 003e 0012 003e 0012 0016 0012 0016 0012 0016 0012 0016 0012 035f</ccf>
+    </code>
+    <code name="Deck.Stop" codeno="0x00000000000001C0">
+      <decoding protocol="JVC" device="131" subdevice="-1" obc="3" hex0="63" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 013e 00a2 0012 003e 0012 003e 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 003e 0012 003e 0012 003e 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 0387</ccf>
+    </code>
+    <code name="Deck.PlayRight" codeno="0x00000000000001F0">
+      <decoding protocol="JVC" device="131" subdevice="-1" obc="15" hex0="15" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 013e 00a2 0012 003e 0012 003e 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 003e 0012 003e 0012 003e 0012 003e 0012 003e 0012 0016 0012 0016 0012 0016 0012 0016 0012 0337</ccf>
+    </code>
+    <code name="Deck.A" codeno="0x000000000000010B">
+      <decoding protocol="JVC" device="131" subdevice="-1" obc="208" hex0="244" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 013e 00a2 0012 003e 0012 003e 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 003e 0012 0016 0012 0016 0012 0016 0012 0016 0012 003e 0012 0016 0012 003e 0012 003e 0012 035f</ccf>
+    </code>
+    <code name="Deck.B" codeno="0x000000000000018B">
+      <decoding protocol="JVC" device="131" subdevice="-1" obc="209" hex0="116" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 013e 00a2 0012 003e 0012 003e 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 003e 0012 003e 0012 0016 0012 0016 0012 0016 0012 003e 0012 0016 0012 003e 0012 003e 0012 0337</ccf>
+    </code>
+    <code name="KEY_RECORD" codeno="0x00000000000001B3">
+      <decoding protocol="JVC" device="131" subdevice="-1" obc="205" hex0="76" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 013e 00a2 0012 003e 0012 003e 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 003e 0012 003e 0012 0016 0012 003e 0012 003e 0012 0016 0012 0016 0012 003e 0012 003e 0012 030f</ccf>
+    </code>
+    <code name="CD1.Play" codeno="0x0000000000000D9E">
+      <decoding protocol="JVC" device="179" subdevice="-1" obc="121" hex0="97" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 013e 00a2 0012 003e 0012 003e 0012 0016 0012 0016 0012 003e 0012 003e 0012 0016 0012 003e 0012 003e 0012 0016 0012 0016 0012 003e 0012 003e 0012 003e 0012 003e 0012 0016 0012 02bf</ccf>
+    </code>
+    <code name="CD2.Play" codeno="0x0000000000000D5E">
+      <decoding protocol="JVC" device="179" subdevice="-1" obc="122" hex0="161" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 013e 00a2 0012 003e 0012 003e 0012 0016 0012 0016 0012 003e 0012 003e 0012 0016 0012 003e 0012 0016 0012 003e 0012 0016 0012 003e 0012 003e 0012 003e 0012 003e 0012 0016 0012 02bf</ccf>
+    </code>
+    <code name="CD3.Play" codeno="0x0000000000000DDE">
+      <decoding protocol="JVC" device="179" subdevice="-1" obc="123" hex0="33" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 013e 00a2 0012 003e 0012 003e 0012 0016 0012 0016 0012 003e 0012 003e 0012 0016 0012 003e 0012 003e 0012 003e 0012 0016 0012 003e 0012 003e 0012 003e 0012 003e 0012 0016 0012 0297</ccf>
+    </code>
+    <code name="CD1.Open" codeno="0x0000000000000D19">
+      <decoding protocol="JVC" device="179" subdevice="-1" obc="152" hex0="230" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 013e 00a2 0012 003e 0012 003e 0012 0016 0012 0016 0012 003e 0012 003e 0012 0016 0012 003e 0012 0016 0012 0016 0012 0016 0012 003e 0012 003e 0012 0016 0012 0016 0012 003e 0012 030f</ccf>
+    </code>
+    <code name="CD2.Open" codeno="0x0000000000000D99">
+      <decoding protocol="JVC" device="179" subdevice="-1" obc="153" hex0="102" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 013e 00a2 0012 003e 0012 003e 0012 0016 0012 0016 0012 003e 0012 003e 0012 0016 0012 003e 0012 003e 0012 0016 0012 0016 0012 003e 0012 003e 0012 0016 0012 0016 0012 003e 0012 02e7</ccf>
+    </code>
+    <code name="CD3.Open" codeno="0x0000000000000D59">
+      <decoding protocol="JVC" device="179" subdevice="-1" obc="154" hex0="166" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 013e 00a2 0012 003e 0012 003e 0012 0016 0012 0016 0012 003e 0012 003e 0012 0016 0012 003e 0012 0016 0012 003e 0012 0016 0012 003e 0012 003e 0012 0016 0012 0016 0012 003e 0012 02e7</ccf>
+    </code>
+    <code name="CD.Next" codeno="0x0000000000000D9A">
+      <decoding protocol="JVC" device="179" subdevice="-1" obc="89" hex0="101" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 013e 00a2 0012 003e 0012 003e 0012 0016 0012 0016 0012 003e 0012 003e 0012 0016 0012 003e 0012 003e 0012 0016 0012 0016 0012 003e 0012 003e 0012 0016 0012 003e 0012 0016 0012 02e7</ccf>
+    </code>
+    <code name="CD.Play" codeno="0x0000000000000D32">
+      <decoding protocol="JVC" device="179" subdevice="-1" obc="76" hex0="205" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 013e 00a2 0012 003e 0012 003e 0012 0016 0012 0016 0012 003e 0012 003e 0012 0016 0012 003e 0012 0016 0012 0016 0012 003e 0012 003e 0012 0016 0012 0016 0012 003e 0012 0016 0012 030f</ccf>
+    </code>
+    <code name="CD.Prev" codeno="0x0000000000000D1A">
+      <decoding protocol="JVC" device="179" subdevice="-1" obc="88" hex0="229" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 013e 00a2 0012 003e 0012 003e 0012 0016 0012 0016 0012 003e 0012 003e 0012 0016 0012 003e 0012 0016 0012 0016 0012 0016 0012 003e 0012 003e 0012 0016 0012 003e 0012 0016 0012 030f</ccf>
+    </code>
+    <code name="CD.Stop" codeno="0x0000000000000DC2">
+      <decoding protocol="JVC" device="179" subdevice="-1" obc="67" hex0="61" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 013e 00a2 0012 003e 0012 003e 0012 0016 0012 0016 0012 003e 0012 003e 0012 0016 0012 003e 0012 003e 0012 003e 0012 0016 0012 0016 0012 0016 0012 0016 0012 003e 0012 0016 0012 030f</ccf>
+    </code>
+    <code name="CD.1" codeno="0x0000000000000D86">
+      <decoding protocol="JVC" device="179" subdevice="-1" obc="97" hex0="121" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 013e 00a2 0012 003e 0012 003e 0012 0016 0012 0016 0012 003e 0012 003e 0012 0016 0012 003e 0012 003e 0012 0016 0012 0016 0012 0016 0012 0016 0012 003e 0012 003e 0012 0016 0012 030f</ccf>
+    </code>
+    <code name="CD.2" codeno="0x0000000000000D46">
+      <decoding protocol="JVC" device="179" subdevice="-1" obc="98" hex0="185" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 013e 00a2 0012 003e 0012 003e 0012 0016 0012 0016 0012 003e 0012 003e 0012 0016 0012 003e 0012 0016 0012 003e 0012 0016 0012 0016 0012 0016 0012 003e 0012 003e 0012 0016 0012 030f</ccf>
+    </code>
+    <code name="CD.3" codeno="0x0000000000000DC6">
+      <decoding protocol="JVC" device="179" subdevice="-1" obc="99" hex0="57" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 013e 00a2 0012 003e 0012 003e 0012 0016 0012 0016 0012 003e 0012 003e 0012 0016 0012 003e 0012 003e 0012 003e 0012 0016 0012 0016 0012 0016 0012 003e 0012 003e 0012 0016 0012 02e7</ccf>
+    </code>
+    <code name="CD.4" codeno="0x0000000000000D26">
+      <decoding protocol="JVC" device="179" subdevice="-1" obc="100" hex0="217" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 013e 00a2 0012 003e 0012 003e 0012 0016 0012 0016 0012 003e 0012 003e 0012 0016 0012 003e 0012 0016 0012 0016 0012 003e 0012 0016 0012 0016 0012 003e 0012 003e 0012 0016 0012 030f</ccf>
+    </code>
+    <code name="CD.5" codeno="0x0000000000000DA6">
+      <decoding protocol="JVC" device="179" subdevice="-1" obc="101" hex0="89" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 013e 00a2 0012 003e 0012 003e 0012 0016 0012 0016 0012 003e 0012 003e 0012 0016 0012 003e 0012 003e 0012 0016 0012 003e 0012 0016 0012 0016 0012 003e 0012 003e 0012 0016 0012 02e7</ccf>
+    </code>
+    <code name="CD.6" codeno="0x0000000000000D66">
+      <decoding protocol="JVC" device="179" subdevice="-1" obc="102" hex0="153" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 013e 00a2 0012 003e 0012 003e 0012 0016 0012 0016 0012 003e 0012 003e 0012 0016 0012 003e 0012 0016 0012 003e 0012 003e 0012 0016 0012 0016 0012 003e 0012 003e 0012 0016 0012 02e7</ccf>
+    </code>
+    <code name="CD.7" codeno="0x0000000000000DE6">
+      <decoding protocol="JVC" device="179" subdevice="-1" obc="103" hex0="25" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 013e 00a2 0012 003e 0012 003e 0012 0016 0012 0016 0012 003e 0012 003e 0012 0016 0012 003e 0012 003e 0012 003e 0012 003e 0012 0016 0012 0016 0012 003e 0012 003e 0012 0016 0012 02bf</ccf>
+    </code>
+    <code name="CD.8" codeno="0x0000000000000D16">
+      <decoding protocol="JVC" device="179" subdevice="-1" obc="104" hex0="233" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 013e 00a2 0012 003e 0012 003e 0012 0016 0012 0016 0012 003e 0012 003e 0012 0016 0012 003e 0012 0016 0012 0016 0012 0016 0012 003e 0012 0016 0012 003e 0012 003e 0012 0016 0012 030f</ccf>
+    </code>
+    <code name="CD.9" codeno="0x0000000000000D96">
+      <decoding protocol="JVC" device="179" subdevice="-1" obc="105" hex0="105" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 013e 00a2 0012 003e 0012 003e 0012 0016 0012 0016 0012 003e 0012 003e 0012 0016 0012 003e 0012 003e 0012 0016 0012 0016 0012 003e 0012 0016 0012 003e 0012 003e 0012 0016 0012 02e7</ccf>
+    </code>
+    <code name="CD.10" codeno="0x0000000000000D76">
+      <decoding protocol="JVC" device="179" subdevice="-1" obc="110" hex0="137" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 013e 00a2 0012 003e 0012 003e 0012 0016 0012 0016 0012 003e 0012 003e 0012 0016 0012 003e 0012 0016 0012 003e 0012 003e 0012 003e 0012 0016 0012 003e 0012 003e 0012 0016 0012 02bf</ccf>
+    </code>
+    <code name="CD.+10" codeno="0x0000000000000DF6">
+      <decoding protocol="JVC" device="179" subdevice="-1" obc="111" hex0="9" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 013e 00a2 0012 003e 0012 003e 0012 0016 0012 0016 0012 003e 0012 003e 0012 0016 0012 003e 0012 003e 0012 003e 0012 003e 0012 003e 0012 0016 0012 003e 0012 003e 0012 0016 0012 0297</ccf>
+    </code>
+    <code name="KEY_1" codeno="0x0000000000000584">
+      <decoding protocol="JVC" device="163" subdevice="-1" obc="33" hex0="123" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 013e 00a2 0012 003e 0012 003e 0012 0016 0012 0016 0012 0016 0012 003e 0012 0016 0012 003e 0012 003e 0012 0016 0012 0016 0012 0016 0012 0016 0012 003e 0012 0016 0012 0016 0012 035f</ccf>
+    </code>
+    <code name="KEY_2" codeno="0x0000000000000544">
+      <decoding protocol="JVC" device="163" subdevice="-1" obc="34" hex0="187" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 013e 00a2 0012 003e 0012 003e 0012 0016 0012 0016 0012 0016 0012 003e 0012 0016 0012 003e 0012 0016 0012 003e 0012 0016 0012 0016 0012 0016 0012 003e 0012 0016 0012 0016 0012 035f</ccf>
+    </code>
+    <code name="KEY_3" codeno="0x00000000000005C4">
+      <decoding protocol="JVC" device="163" subdevice="-1" obc="35" hex0="59" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 013e 00a2 0012 003e 0012 003e 0012 0016 0012 0016 0012 0016 0012 003e 0012 0016 0012 003e 0012 003e 0012 003e 0012 0016 0012 0016 0012 0016 0012 003e 0012 0016 0012 0016 0012 0337</ccf>
+    </code>
+    <code name="KEY_4" codeno="0x0000000000000524">
+      <decoding protocol="JVC" device="163" subdevice="-1" obc="36" hex0="219" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 013e 00a2 0012 003e 0012 003e 0012 0016 0012 0016 0012 0016 0012 003e 0012 0016 0012 003e 0012 0016 0012 0016 0012 003e 0012 0016 0012 0016 0012 003e 0012 0016 0012 0016 0012 035f</ccf>
+    </code>
+    <code name="KEY_5" codeno="0x00000000000005A4">
+      <decoding protocol="JVC" device="163" subdevice="-1" obc="37" hex0="91" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 013e 00a2 0012 003e 0012 003e 0012 0016 0012 0016 0012 0016 0012 003e 0012 0016 0012 003e 0012 003e 0012 0016 0012 003e 0012 0016 0012 0016 0012 003e 0012 0016 0012 0016 0012 0337</ccf>
+    </code>
+    <code name="KEY_6" codeno="0x0000000000000564">
+      <decoding protocol="JVC" device="163" subdevice="-1" obc="38" hex0="155" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 013e 00a2 0012 003e 0012 003e 0012 0016 0012 0016 0012 0016 0012 003e 0012 0016 0012 003e 0012 0016 0012 003e 0012 003e 0012 0016 0012 0016 0012 003e 0012 0016 0012 0016 0012 0337</ccf>
+    </code>
+    <code name="KEY_7" codeno="0x00000000000005E4">
+      <decoding protocol="JVC" device="163" subdevice="-1" obc="39" hex0="27" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 013e 00a2 0012 003e 0012 003e 0012 0016 0012 0016 0012 0016 0012 003e 0012 0016 0012 003e 0012 003e 0012 003e 0012 003e 0012 0016 0012 0016 0012 003e 0012 0016 0012 0016 0012 030f</ccf>
+    </code>
+    <code name="KEY_8" codeno="0x0000000000000514">
+      <decoding protocol="JVC" device="163" subdevice="-1" obc="40" hex0="235" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 013e 00a2 0012 003e 0012 003e 0012 0016 0012 0016 0012 0016 0012 003e 0012 0016 0012 003e 0012 0016 0012 0016 0012 0016 0012 003e 0012 0016 0012 003e 0012 0016 0012 0016 0012 035f</ccf>
+    </code>
+    <code name="KEY_9" codeno="0x0000000000000594">
+      <decoding protocol="JVC" device="163" subdevice="-1" obc="41" hex0="107" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 013e 00a2 0012 003e 0012 003e 0012 0016 0012 0016 0012 0016 0012 003e 0012 0016 0012 003e 0012 003e 0012 0016 0012 0016 0012 003e 0012 0016 0012 003e 0012 0016 0012 0016 0012 0337</ccf>
+    </code>
+    <code name="KEY_0" codeno="0x0000000000000554">
+      <decoding protocol="JVC" device="163" subdevice="-1" obc="42" hex0="171" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 013e 00a2 0012 003e 0012 003e 0012 0016 0012 0016 0012 0016 0012 003e 0012 0016 0012 003e 0012 0016 0012 003e 0012 0016 0012 003e 0012 0016 0012 003e 0012 0016 0012 0016 0012 0337</ccf>
+    </code>
+    <code name="KEY_10CHANNELSUP" codeno="0x00000000000005F4">
+      <decoding protocol="JVC" device="163" subdevice="-1" obc="47" hex0="11" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 013e 00a2 0012 003e 0012 003e 0012 0016 0012 0016 0012 0016 0012 003e 0012 0016 0012 003e 0012 003e 0012 003e 0012 003e 0012 003e 0012 0016 0012 003e 0012 0016 0012 0016 0012 02e7</ccf>
+    </code>
+    <code name="SoundMode" codeno="0x000000000000051C">
+      <decoding protocol="JVC" device="163" subdevice="-1" obc="56" hex0="227" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 013e 00a2 0012 003e 0012 003e 0012 0016 0012 0016 0012 0016 0012 003e 0012 0016 0012 003e 0012 0016 0012 0016 0012 0016 0012 003e 0012 003e 0012 003e 0012 0016 0012 0016 0012 0337</ccf>
+    </code>
+    <code name="FadeMuting" codeno="0x0000000000000538">
+      <decoding protocol="JVC" device="163" subdevice="-1" obc="28" hex0="199" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 013e 00a2 0012 003e 0012 003e 0012 0016 0012 0016 0012 0016 0012 003e 0012 0016 0012 003e 0012 0016 0012 0016 0012 003e 0012 003e 0012 003e 0012 0016 0012 0016 0012 0016 0012 0337</ccf>
+    </code>
+    <code name="KEY_POWER" codeno="0x00000000000005E8">
+      <decoding protocol="JVC" device="163" subdevice="-1" obc="23" hex0="23" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 013e 00a2 0012 003e 0012 003e 0012 0016 0012 0016 0012 0016 0012 003e 0012 0016 0012 003e 0012 003e 0012 003e 0012 003e 0012 0016 0012 003e 0012 0016 0012 0016 0012 0016 0012 030f</ccf>
+    </code>
+    <code name="KEY_TUNER" codeno="0x00000000000005D0">
+      <decoding protocol="JVC" device="163" subdevice="-1" obc="11" hex0="47" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 013e 00a2 0012 003e 0012 003e 0012 0016 0012 0016 0012 0016 0012 003e 0012 0016 0012 003e 0012 003e 0012 003e 0012 0016 0012 003e 0012 0016 0012 0016 0012 0016 0012 0016 0012 0337</ccf>
+    </code>
+    <code name="KEY_VCR" codeno="0x0000000000000588">
+      <decoding protocol="JVC" device="163" subdevice="-1" obc="17" hex0="119" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 013e 00a2 0012 003e 0012 003e 0012 0016 0012 0016 0012 0016 0012 003e 0012 0016 0012 003e 0012 003e 0012 0016 0012 0016 0012 0016 0012 003e 0012 0016 0012 0016 0012 0016 0012 035f</ccf>
+    </code>
+    <code name="KEY_VOLUMEDOWN" codeno="0x00000000000005F8">
+      <decoding protocol="JVC" device="163" subdevice="-1" obc="31" hex0="7" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 013e 00a2 0012 003e 0012 003e 0012 0016 0012 0016 0012 0016 0012 003e 0012 0016 0012 003e 0012 003e 0012 003e 0012 003e 0012 003e 0012 003e 0012 0016 0012 0016 0012 0016 0012 02e7</ccf>
+    </code>
+    <code name="KEY_VOLUMEUP" codeno="0x0000000000000578">
+      <decoding protocol="JVC" device="163" subdevice="-1" obc="30" hex0="135" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 013e 00a2 0012 003e 0012 003e 0012 0016 0012 0016 0012 0016 0012 003e 0012 0016 0012 003e 0012 0016 0012 003e 0012 003e 0012 003e 0012 003e 0012 0016 0012 0016 0012 0016 0012 030f</ccf>
+    </code>
+    <code name="KEY_SLEEP" codeno="0x00000000000005C0">
+      <decoding protocol="JVC" device="163" subdevice="-1" obc="3" hex0="63" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 013e 00a2 0012 003e 0012 003e 0012 0016 0012 0016 0012 0016 0012 003e 0012 0016 0012 003e 0012 003e 0012 003e 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 035f</ccf>
+    </code>
+  </remote>
+</lircremotes>

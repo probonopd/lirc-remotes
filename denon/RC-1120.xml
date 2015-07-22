@@ -1,0 +1,219 @@
+<lircremotes creation-date="Wed Jul 22 23:04:16 2015" creator="" lircversion="0.8.6" lirc2xml_version="0.1.2" configfile="remotes/denon/RC-1120.lircd.conf" decodeir_version="2.40">
+  <remote name="DENON_RC1120_3">
+    <lircdata type="SPACE_ENC" bits="8" flags="16400" eps="30" aeps="100" pthree="0" sthree="0" ptwo="0" stwo="0" pone="1276" sone="508" pzero="677" szero="508" plead="0" ptrail="0" pfoot="0" sfoot="0" prepeat="0" srepeat="0" pre_data_bits="4" pre_data="10" post_data_bits="0" post_data="0" pre_p="0" pre_s="0" post_p="0" post_s="0" gap="44915" gap2="0" repeat_gap="0" toggle_bit="0" toggle_bit_mask="0" min_repeat="2" min_code_repeat="0" freq="38000" duty_cycle="0" toggle_mask="0" rc6_mask="0" baud="0" bits_in_byte="0" parity="0" stop_bits="0" ignore_mask="0"/>
+    <code name="TV_INPUT" codeno="0x0000000000000050">
+      <decoding protocol="Sony12" device="1" subdevice="-1" obc="37" hex0="164" hex1="165" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000d 0000 005e 0013 0030 0013 001a 0013 0030 0013 001a 0013 001a 0013 0030 0013 001a 0013 0030 0013 001a 0013 001a 0013 001a 0013 001a 03d5</ccf>
+    </code>
+    <code name="TV_POWER" codeno="0x0000000000000090">
+      <decoding protocol="Sony12" device="1" subdevice="-1" obc="21" hex0="168" hex1="169" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000d 0000 005e 0013 0030 0013 001a 0013 0030 0013 001a 0013 0030 0013 001a 0013 001a 0013 0030 0013 001a 0013 001a 0013 001a 0013 001a 03d5</ccf>
+    </code>
+  </remote>
+  <remote name="DENON_RC1120_1">
+    <lircdata type="SPACE_ENC" bits="15" flags="16400" eps="30" aeps="100" pthree="0" sthree="0" ptwo="0" stwo="0" pone="465" sone="1636" pzero="465" szero="585" plead="0" ptrail="427" pfoot="0" sfoot="0" prepeat="0" srepeat="0" pre_data_bits="0" pre_data="0" post_data_bits="0" post_data="0" pre_p="0" pre_s="0" post_p="0" post_s="0" gap="67308" gap2="0" repeat_gap="0" toggle_bit="0" toggle_bit_mask="0" min_repeat="0" min_code_repeat="0" freq="38000" duty_cycle="0" toggle_mask="0" rc6_mask="0" baud="0" bits_in_byte="0" parity="0" stop_bits="0" ignore_mask="0"/>
+    <code name="KEY_POWER" codeno="0x000000000000221C">
+      <decoding protocol="Denon{1}" device="2" subdevice="-1" obc="225" hex0="135" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 0012 0016 0012 003e 0012 0016 0012 0016 0012 0016 0012 003e 0012 0016 0012 0016 0012 0016 0012 0016 0012 003e 0012 003e 0012 003e 0012 0016 0012 0016 0010 06cf</ccf>
+    </code>
+    <code name="KEY_POWER" codeno="0x00000000000022E3">
+      <decoding protocol="Denon{2}" device="2" subdevice="-1" obc="226" hex0="71" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 0012 0016 0012 003e 0012 0016 0012 0016 0012 0016 0012 003e 0012 0016 0012 003e 0012 003e 0012 003e 0012 0016 0012 0016 0012 0016 0012 003e 0012 003e 0010 067f</ccf>
+    </code>
+    <code name="SRC_TV" codeno="0x00000000000021B3">
+      <decoding protocol="Denon{2}" device="2" subdevice="-1" obc="201" hex0="147" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 0012 0016 0012 003e 0012 0016 0012 0016 0012 0016 0012 0016 0012 003e 0012 003e 0012 0016 0012 003e 0012 003e 0012 0016 0012 0016 0012 003e 0012 003e 0010 067f</ccf>
+    </code>
+    <code name="SRC_TUNNER" codeno="0x000000000000228C">
+      <decoding protocol="Denon{1}" device="2" subdevice="-1" obc="197" hex0="163" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 0012 0016 0012 003e 0012 0016 0012 0016 0012 0016 0012 003e 0012 0016 0012 003e 0012 0016 0012 0016 0012 0016 0012 003e 0012 003e 0012 0016 0012 0016 0010 06cf</ccf>
+    </code>
+    <code name="SRC_VAUX" codeno="0x00000000000020CC">
+      <decoding protocol="Denon{1}" device="2" subdevice="-1" obc="204" hex0="51" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 0012 0016 0012 003e 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 003e 0012 003e 0012 0016 0012 0016 0012 003e 0012 003e 0012 0016 0012 0016 0010 06cf</ccf>
+    </code>
+    <code name="SRC_DVD" codeno="0x000000000000231C">
+      <decoding protocol="Denon{1}" device="2" subdevice="-1" obc="227" hex0="199" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 0012 0016 0012 003e 0012 0016 0012 0016 0012 0016 0012 003e 0012 003e 0012 0016 0012 0016 0012 0016 0012 003e 0012 003e 0012 003e 0012 0016 0012 0016 0010 06a7</ccf>
+    </code>
+    <code name="SRC_HDP" codeno="0x000000000000214C">
+      <decoding protocol="Denon{1}" device="2" subdevice="-1" obc="202" hex0="83" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 0012 0016 0012 003e 0012 0016 0012 0016 0012 0016 0012 0016 0012 003e 0012 0016 0012 003e 0012 0016 0012 0016 0012 003e 0012 003e 0012 0016 0012 0016 0010 06cf</ccf>
+    </code>
+    <code name="SRC_DVR" codeno="0x0000000000002233">
+      <decoding protocol="Denon{2}" device="2" subdevice="-1" obc="206" hex0="115" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 0012 0016 0012 003e 0012 0016 0012 0016 0012 0016 0012 003e 0012 0016 0012 0016 0012 0016 0012 003e 0012 003e 0012 0016 0012 0016 0012 003e 0012 003e 0010 06a7</ccf>
+    </code>
+    <code name="SRC_VCR" codeno="0x0000000000002133">
+      <decoding protocol="Denon{2}" device="2" subdevice="-1" obc="205" hex0="179" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 0012 0016 0012 003e 0012 0016 0012 0016 0012 0016 0012 0016 0012 003e 0012 0016 0012 0016 0012 003e 0012 003e 0012 0016 0012 0016 0012 003e 0012 003e 0010 06a7</ccf>
+    </code>
+    <code name="SRC_SATCBL" codeno="0x000000000000204C">
+      <decoding protocol="Denon{1}" device="2" subdevice="-1" obc="200" hex0="19" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 0012 0016 0012 003e 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 003e 0012 0016 0012 0016 0012 003e 0012 003e 0012 0016 0012 0016 0010 06f7</ccf>
+    </code>
+    <code name="BTN_VSEL" codeno="0x0000000000002393">
+      <decoding protocol="Denon{2}" device="2" subdevice="-1" obc="216" hex0="27" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 0012 0016 0012 003e 0012 0016 0012 0016 0012 0016 0012 003e 0012 003e 0012 003e 0012 0016 0012 0016 0012 003e 0012 0016 0012 0016 0012 003e 0012 003e 0010 067f</ccf>
+    </code>
+    <code name="BTN_INPUT_MODE" codeno="0x00000000000019B4">
+      <decoding protocol="Denon{1}" device="12" subdevice="-1" obc="182" hex0="109" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 0012 0016 0012 0016 0012 003e 0012 003e 0012 0016 0012 0016 0012 003e 0012 003e 0012 0016 0012 003e 0012 003e 0012 0016 0012 003e 0012 0016 0012 0016 0010 067f</ccf>
+    </code>
+    <code name="BTN_MULTEQ" codeno="0x000000000000111B">
+      <decoding protocol="Denon{2}" device="4" subdevice="-1" obc="157" hex0="185" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 0012 0016 0012 0016 0012 003e 0012 0016 0012 0016 0012 0016 0012 003e 0012 0016 0012 0016 0012 0016 0012 003e 0012 003e 0012 0016 0012 003e 0012 003e 0010 06a7</ccf>
+    </code>
+    <code name="BTN_MUTE" codeno="0x000000000000203C">
+      <decoding protocol="Denon{1}" device="2" subdevice="-1" obc="240" hex0="15" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 0012 0016 0012 003e 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 003e 0012 003e 0012 003e 0012 003e 0012 0016 0012 0016 0010 06cf</ccf>
+    </code>
+    <code name="BTN_HDMI_CONTROL" codeno="0x000000000000182B">
+      <decoding protocol="Denon{2}" device="12" subdevice="-1" obc="175" hex0="245" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 0012 0016 0012 0016 0012 003e 0012 003e 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 003e 0012 0016 0012 003e 0012 0016 0012 003e 0012 003e 0010 06a7</ccf>
+    </code>
+    <code name="BTN_UP" codeno="0x00000000000018EB">
+      <decoding protocol="Denon{2}" device="12" subdevice="-1" obc="163" hex0="197" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 0012 0016 0012 0016 0012 003e 0012 003e 0012 0016 0012 0016 0012 0016 0012 003e 0012 003e 0012 003e 0012 0016 0012 003e 0012 0016 0012 003e 0012 003e 0010 0657</ccf>
+    </code>
+    <code name="BTN_DOWN" codeno="0x0000000000001894">
+      <decoding protocol="Denon{1}" device="12" subdevice="-1" obc="164" hex0="37" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 0012 0016 0012 0016 0012 003e 0012 003e 0012 0016 0012 0016 0012 0016 0012 003e 0012 0016 0012 0016 0012 003e 0012 0016 0012 003e 0012 0016 0012 0016 0010 06cf</ccf>
+    </code>
+    <code name="BTN_LEFT" codeno="0x0000000000001BF8">
+      <decoding protocol="Denon{1}" device="12" subdevice="-1" obc="127" hex0="254" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 0012 0016 0012 0016 0012 003e 0012 003e 0012 0016 0012 003e 0012 003e 0012 003e 0012 003e 0012 003e 0012 003e 0012 003e 0012 0016 0012 0016 0012 0016 0010 0630</ccf>
+    </code>
+    <code name="BTN_RIGHT" codeno="0x00000000000022EC">
+      <decoding protocol="Denon{1}" device="2" subdevice="-1" obc="221" hex0="187" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 0012 0016 0012 003e 0012 0016 0012 0016 0012 0016 0012 003e 0012 0016 0012 003e 0012 003e 0012 003e 0012 0016 0012 003e 0012 003e 0012 0016 0012 0016 0010 067f</ccf>
+    </code>
+    <code name="BTN_ENTER" codeno="0x000000000000201C">
+      <decoding protocol="Denon{1}" device="2" subdevice="-1" obc="224" hex0="7" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 0012 0016 0012 003e 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 003e 0012 003e 0012 003e 0012 0016 0012 0016 0010 06f7</ccf>
+    </code>
+    <code name="KEY_VOLUMEUP" codeno="0x000000000000223C">
+      <decoding protocol="Denon{1}" device="2" subdevice="-1" obc="241" hex0="143" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 0012 0016 0012 003e 0012 0016 0012 0016 0012 0016 0012 003e 0012 0016 0012 0016 0012 0016 0012 003e 0012 003e 0012 003e 0012 003e 0012 0016 0012 0016 0010 06a7</ccf>
+    </code>
+    <code name="KEY_VOLUMEDOWN" codeno="0x000000000000213C">
+      <decoding protocol="Denon{1}" device="2" subdevice="-1" obc="242" hex0="79" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 0012 0016 0012 003e 0012 0016 0012 0016 0012 0016 0012 0016 0012 003e 0012 0016 0012 0016 0012 003e 0012 003e 0012 003e 0012 003e 0012 0016 0012 0016 0010 06a7</ccf>
+    </code>
+    <code name="BTN_SKIP" codeno="0x00000000000018CC">
+      <decoding protocol="Denon{1}" device="12" subdevice="-1" obc="204" hex0="51" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 0012 0016 0012 0016 0012 003e 0012 003e 0012 0016 0012 0016 0012 0016 0012 003e 0012 003e 0012 0016 0012 0016 0012 003e 0012 003e 0012 0016 0012 0016 0010 06a7</ccf>
+    </code>
+    <code name="BTN_STOP" codeno="0x0000000000001BAC">
+      <decoding protocol="Denon{1}" device="12" subdevice="-1" obc="215" hex0="235" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 0012 0016 0012 0016 0012 003e 0012 003e 0012 0016 0012 003e 0012 003e 0012 003e 0012 0016 0012 003e 0012 0016 0012 003e 0012 003e 0012 0016 0012 0016 0010 0657</ccf>
+    </code>
+    <code name="BTN_PAUSE" codeno="0x0000000000001ACC">
+      <decoding protocol="Denon{1}" device="12" subdevice="-1" obc="205" hex0="179" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 0012 0016 0012 0016 0012 003e 0012 003e 0012 0016 0012 003e 0012 0016 0012 003e 0012 003e 0012 0016 0012 0016 0012 003e 0012 003e 0012 0016 0012 0016 0010 067f</ccf>
+    </code>
+    <code name="BTN_PLAY" codeno="0x000000000000186C">
+      <decoding protocol="Denon{1}" device="12" subdevice="-1" obc="216" hex0="27" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 0012 0016 0012 0016 0012 003e 0012 003e 0012 0016 0012 0016 0012 0016 0012 0016 0012 003e 0012 003e 0012 0016 0012 003e 0012 003e 0012 0016 0012 0016 0010 06a7</ccf>
+    </code>
+    <code name="FAST_REVERSE" codeno="0x0000000000001A93">
+      <decoding protocol="Denon{2}" device="12" subdevice="-1" obc="218" hex0="91" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 0012 0016 0012 0016 0012 003e 0012 003e 0012 0016 0012 003e 0012 0016 0012 003e 0012 0016 0012 0016 0012 003e 0012 0016 0012 0016 0012 003e 0012 003e 0010 067f</ccf>
+    </code>
+    <code name="KEY_FASTFORWARD" codeno="0x0000000000001A6C">
+      <decoding protocol="Denon{1}" device="12" subdevice="-1" obc="217" hex0="155" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 0012 0016 0012 0016 0012 003e 0012 003e 0012 0016 0012 003e 0012 0016 0012 0016 0012 003e 0012 003e 0012 0016 0012 003e 0012 003e 0012 0016 0012 0016 0010 067f</ccf>
+    </code>
+    <code name="BTN_PREV" codeno="0x0000000000001AAC">
+      <decoding protocol="Denon{1}" device="12" subdevice="-1" obc="213" hex0="171" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 0012 0016 0012 0016 0012 003e 0012 003e 0012 0016 0012 003e 0012 0016 0012 003e 0012 0016 0012 003e 0012 0016 0012 003e 0012 003e 0012 0016 0012 0016 0010 067f</ccf>
+    </code>
+    <code name="BTN_NEXT" codeno="0x00000000000019AC">
+      <decoding protocol="Denon{1}" device="12" subdevice="-1" obc="214" hex0="107" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 0012 0016 0012 0016 0012 003e 0012 003e 0012 0016 0012 0016 0012 003e 0012 003e 0012 0016 0012 003e 0012 0016 0012 003e 0012 003e 0012 0016 0012 0016 0010 067f</ccf>
+    </code>
+    <code name="BTN_STD" codeno="0x0000000000002363">
+      <decoding protocol="Denon{2}" device="2" subdevice="-1" obc="228" hex0="39" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 0012 0016 0012 003e 0012 0016 0012 0016 0012 0016 0012 003e 0012 003e 0012 0016 0012 003e 0012 003e 0012 0016 0012 0016 0012 0016 0012 003e 0012 003e 0010 067f</ccf>
+    </code>
+    <code name="PAGE_DN" codeno="0x0000000000001813">
+      <decoding protocol="Denon{2}" device="12" subdevice="-1" obc="223" hex0="251" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 0012 0016 0012 0016 0012 003e 0012 003e 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 003e 0012 0016 0012 0016 0012 003e 0012 003e 0010 06cf</ccf>
+    </code>
+    <code name="KEY_PAGEUP" codeno="0x00000000000021EC">
+      <decoding protocol="Denon{1}" device="2" subdevice="-1" obc="222" hex0="123" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 0012 0016 0012 003e 0012 0016 0012 0016 0012 0016 0012 0016 0012 003e 0012 003e 0012 003e 0012 003e 0012 0016 0012 003e 0012 003e 0012 0016 0012 0016 0010 067f</ccf>
+    </code>
+    <code name="BTN_STD_CINEMA" codeno="0x000000000000115B">
+      <decoding protocol="Denon{2}" device="4" subdevice="-1" obc="149" hex0="169" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 0012 0016 0012 0016 0012 003e 0012 0016 0012 0016 0012 0016 0012 003e 0012 0016 0012 003e 0012 0016 0012 003e 0012 003e 0012 0016 0012 003e 0012 003e 0010 067f</ccf>
+    </code>
+    <code name="BTN_STD_MUSIC" codeno="0x000000000000125B">
+      <decoding protocol="Denon{2}" device="4" subdevice="-1" obc="150" hex0="105" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 0012 0016 0012 0016 0012 003e 0012 0016 0012 0016 0012 003e 0012 0016 0012 0016 0012 003e 0012 0016 0012 003e 0012 003e 0012 0016 0012 003e 0012 003e 0010 067f</ccf>
+    </code>
+    <code name="BTN_SIMU" codeno="0x000000000000219C">
+      <decoding protocol="Denon{1}" device="2" subdevice="-1" obc="230" hex0="103" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 0012 0016 0012 003e 0012 0016 0012 0016 0012 0016 0012 0016 0012 003e 0012 003e 0012 0016 0012 0016 0012 003e 0012 003e 0012 003e 0012 0016 0012 0016 0010 06a7</ccf>
+    </code>
+  </remote>
+  <remote name="DENON_RC1120_2">
+    <lircdata type="SPACE_ENC" bits="24" flags="16" eps="30" aeps="100" pthree="0" sthree="0" ptwo="0" stwo="0" pone="491" sone="1196" pzero="491" szero="356" plead="0" ptrail="481" pfoot="0" sfoot="0" prepeat="0" srepeat="0" pre_data_bits="24" pre_data="2771970" post_data_bits="0" post_data="0" pre_p="0" pre_s="0" post_p="0" post_s="0" gap="74554" gap2="0" repeat_gap="0" toggle_bit="0" toggle_bit_mask="0" min_repeat="4" min_code_repeat="0" freq="38000" duty_cycle="0" toggle_mask="0" rc6_mask="0" baud="0" bits_in_byte="0" parity="0" stop_bits="0" ignore_mask="0"/>
+    <code name="BTN_QUICK1" codeno="0x00000000008248C8">
+      <decoding protocol="Denon-K" device="4" subdevice="1" obc="292" hex0="183" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0032 0000 0083 003d 0013 000e 0013 000e 0013 002d 0013 000e 0013 002d 0013 000e 0013 002d 0013 000e 0013 000e 0013 002d 0013 000e 0013 000e 0013 002d 0013 002d 0013 000e 0013 000e 0013 000e 0013 000e 0013 000e 0013 000e 0013 000e 0013 000e 0013 002d 0013 000e 0013 002d 0013 000e 0013 000e 0013 000e 0013 000e 0013 000e 0013 002d 0013 000e 0013 000e 0013 002d 0013 000e 0013 000e 0013 002d 0013 000e 0013 000e 0013 000e 0013 002d 0013 002d 0013 000e 0013 000e 0013 002d 0013 000e 0013 000e 0013 000e 0012 0b11</ccf>
+    </code>
+    <code name="BTN_QUICK2" codeno="0x00000000008A48C0">
+      <decoding protocol="Denon-K" device="4" subdevice="1" obc="293" hex0="183" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0032 0000 0083 003d 0013 000e 0013 000e 0013 002d 0013 000e 0013 002d 0013 000e 0013 002d 0013 000e 0013 000e 0013 002d 0013 000e 0013 000e 0013 002d 0013 002d 0013 000e 0013 000e 0013 000e 0013 000e 0013 000e 0013 000e 0013 000e 0013 000e 0013 002d 0013 000e 0013 002d 0013 000e 0013 000e 0013 000e 0013 002d 0013 000e 0013 002d 0013 000e 0013 000e 0013 002d 0013 000e 0013 000e 0013 002d 0013 000e 0013 000e 0013 000e 0013 002d 0013 002d 0013 000e 0013 000e 0013 000e 0013 000e 0013 000e 0013 000e 0012 0b11</ccf>
+    </code>
+    <code name="BTN_QUICK3" codeno="0x00000000008648CC">
+      <decoding protocol="Denon-K" device="4" subdevice="1" obc="294" hex0="183" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0032 0000 0083 003d 0013 000e 0013 000e 0013 002d 0013 000e 0013 002d 0013 000e 0013 002d 0013 000e 0013 000e 0013 002d 0013 000e 0013 000e 0013 002d 0013 002d 0013 000e 0013 000e 0013 000e 0013 000e 0013 000e 0013 000e 0013 000e 0013 000e 0013 002d 0013 000e 0013 002d 0013 000e 0013 000e 0013 000e 0013 000e 0013 002d 0013 002d 0013 000e 0013 000e 0013 002d 0013 000e 0013 000e 0013 002d 0013 000e 0013 000e 0013 000e 0013 002d 0013 002d 0013 000e 0013 000e 0013 002d 0013 002d 0013 000e 0013 000e 0012 0b11</ccf>
+    </code>
+    <code name="BTN_SPEAKERS" codeno="0x000000000088840E">
+      <decoding protocol="Denon-K" device="4" subdevice="1" obc="529" hex0="123" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0032 0000 0083 003d 0013 000e 0013 000e 0013 002d 0013 000e 0013 002d 0013 000e 0013 002d 0013 000e 0013 000e 0013 002d 0013 000e 0013 000e 0013 002d 0013 002d 0013 000e 0013 000e 0013 000e 0013 000e 0013 000e 0013 000e 0013 000e 0013 000e 0013 002d 0013 000e 0013 002d 0013 000e 0013 000e 0013 000e 0013 002d 0013 000e 0013 000e 0013 000e 0013 002d 0013 000e 0013 000e 0013 000e 0013 000e 0013 002d 0013 000e 0013 000e 0013 000e 0013 000e 0013 000e 0013 000e 0013 002d 0013 002d 0013 002d 0013 000e 0012 0b11</ccf>
+    </code>
+    <code name="BTN_SLEEP" codeno="0x0000000000822CAC">
+      <decoding protocol="Denon-K" device="4" subdevice="1" obc="836" hex0="211" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0032 0000 0083 003d 0013 000e 0013 000e 0013 002d 0013 000e 0013 002d 0013 000e 0013 002d 0013 000e 0013 000e 0013 002d 0013 000e 0013 000e 0013 002d 0013 002d 0013 000e 0013 000e 0013 000e 0013 000e 0013 000e 0013 000e 0013 000e 0013 000e 0013 002d 0013 000e 0013 002d 0013 000e 0013 000e 0013 000e 0013 000e 0013 000e 0013 002d 0013 000e 0013 000e 0013 000e 0013 002d 0013 000e 0013 002d 0013 002d 0013 000e 0013 000e 0013 002d 0013 000e 0013 002d 0013 000e 0013 002d 0013 002d 0013 000e 0013 000e 0012 0b11</ccf>
+    </code>
+    <code name="SRC_IPOD" codeno="0x00000000008B34BD">
+      <decoding protocol="Denon-K" device="4" subdevice="1" obc="717" hex0="203" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0032 0000 0083 003d 0013 000e 0013 000e 0013 002d 0013 000e 0013 002d 0013 000e 0013 002d 0013 000e 0013 000e 0013 002d 0013 000e 0013 000e 0013 002d 0013 002d 0013 000e 0013 000e 0013 000e 0013 000e 0013 000e 0013 000e 0013 000e 0013 000e 0013 002d 0013 000e 0013 002d 0013 000e 0013 000e 0013 000e 0013 002d 0013 000e 0013 002d 0013 002d 0013 000e 0013 000e 0013 002d 0013 002d 0013 000e 0013 002d 0013 000e 0013 000e 0013 002d 0013 000e 0013 002d 0013 002d 0013 002d 0013 002d 0013 000e 0013 002d 0012 0b11</ccf>
+    </code>
+    <code name="SRC_SELECT" codeno="0x00000000008AD45C">
+      <decoding protocol="Denon-K" device="4" subdevice="1" obc="693" hex0="43" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0032 0000 0083 003d 0013 000e 0013 000e 0013 002d 0013 000e 0013 002d 0013 000e 0013 002d 0013 000e 0013 000e 0013 002d 0013 000e 0013 000e 0013 002d 0013 002d 0013 000e 0013 000e 0013 000e 0013 000e 0013 000e 0013 000e 0013 000e 0013 000e 0013 002d 0013 000e 0013 002d 0013 000e 0013 000e 0013 000e 0013 002d 0013 000e 0013 002d 0013 000e 0013 002d 0013 002d 0013 000e 0013 002d 0013 000e 0013 002d 0013 000e 0013 000e 0013 000e 0013 002d 0013 000e 0013 002d 0013 002d 0013 002d 0013 000e 0013 000e 0012 0b11</ccf>
+    </code>
+    <code name="BTN_DYNEQ" codeno="0x00000000008C44CA">
+      <decoding protocol="Denon-K" device="4" subdevice="1" obc="547" hex0="187" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0032 0000 0083 003d 0013 000e 0013 000e 0013 002d 0013 000e 0013 002d 0013 000e 0013 002d 0013 000e 0013 000e 0013 002d 0013 000e 0013 000e 0013 002d 0013 002d 0013 000e 0013 000e 0013 000e 0013 000e 0013 000e 0013 000e 0013 000e 0013 000e 0013 002d 0013 000e 0013 002d 0013 000e 0013 000e 0013 000e 0013 002d 0013 002d 0013 000e 0013 000e 0013 000e 0013 002d 0013 000e 0013 000e 0013 000e 0013 002d 0013 000e 0013 000e 0013 002d 0013 002d 0013 000e 0013 000e 0013 002d 0013 000e 0013 002d 0013 000e 0012 0b11</ccf>
+    </code>
+    <code name="BTN_DYNVOL" codeno="0x00000000008844CE">
+      <decoding protocol="Denon-K" device="4" subdevice="1" obc="545" hex0="187" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0032 0000 0083 003d 0013 000e 0013 000e 0013 002d 0013 000e 0013 002d 0013 000e 0013 002d 0013 000e 0013 000e 0013 002d 0013 000e 0013 000e 0013 002d 0013 002d 0013 000e 0013 000e 0013 000e 0013 000e 0013 000e 0013 000e 0013 000e 0013 000e 0013 002d 0013 000e 0013 002d 0013 000e 0013 000e 0013 000e 0013 002d 0013 000e 0013 000e 0013 000e 0013 000e 0013 002d 0013 000e 0013 000e 0013 000e 0013 002d 0013 000e 0013 000e 0013 002d 0013 002d 0013 000e 0013 000e 0013 002d 0013 002d 0013 002d 0013 000e 0012 0b11</ccf>
+    </code>
+    <code name="BTN_MENU" codeno="0x00000000008C40CE">
+      <decoding protocol="Denon-K" device="4" subdevice="1" obc="35" hex0="191" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0032 0000 0083 003d 0013 000e 0013 000e 0013 002d 0013 000e 0013 002d 0013 000e 0013 002d 0013 000e 0013 000e 0013 002d 0013 000e 0013 000e 0013 002d 0013 002d 0013 000e 0013 000e 0013 000e 0013 000e 0013 000e 0013 000e 0013 000e 0013 000e 0013 002d 0013 000e 0013 002d 0013 000e 0013 000e 0013 000e 0013 002d 0013 002d 0013 000e 0013 000e 0013 000e 0013 002d 0013 000e 0013 000e 0013 000e 0013 000e 0013 000e 0013 000e 0013 002d 0013 002d 0013 000e 0013 000e 0013 002d 0013 002d 0013 002d 0013 000e 0012 0b11</ccf>
+    </code>
+    <code name="BTN_SEARCH" codeno="0x00000000008EBC30">
+      <decoding protocol="Denon-K" device="4" subdevice="1" obc="983" hex0="67" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0032 0000 0083 003d 0013 000e 0013 000e 0013 002d 0013 000e 0013 002d 0013 000e 0013 002d 0013 000e 0013 000e 0013 002d 0013 000e 0013 000e 0013 002d 0013 002d 0013 000e 0013 000e 0013 000e 0013 000e 0013 000e 0013 000e 0013 000e 0013 000e 0013 002d 0013 000e 0013 002d 0013 000e 0013 000e 0013 000e 0013 002d 0013 002d 0013 002d 0013 000e 0013 002d 0013 000e 0013 002d 0013 002d 0013 002d 0013 002d 0013 000e 0013 000e 0013 000e 0013 000e 0013 002d 0013 002d 0013 000e 0013 000e 0013 000e 0013 000e 0012 0b11</ccf>
+    </code>
+    <code name="BTN_RETURN" codeno="0x00000000008440C6">
+      <decoding protocol="Denon-K" device="4" subdevice="1" obc="34" hex0="191" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0032 0000 0083 003d 0013 000e 0013 000e 0013 002d 0013 000e 0013 002d 0013 000e 0013 002d 0013 000e 0013 000e 0013 002d 0013 000e 0013 000e 0013 002d 0013 002d 0013 000e 0013 000e 0013 000e 0013 000e 0013 000e 0013 000e 0013 000e 0013 000e 0013 002d 0013 000e 0013 002d 0013 000e 0013 000e 0013 000e 0013 000e 0013 002d 0013 000e 0013 000e 0013 000e 0013 002d 0013 000e 0013 000e 0013 000e 0013 000e 0013 000e 0013 000e 0013 002d 0013 002d 0013 000e 0013 000e 0013 000e 0013 002d 0013 002d 0013 000e 0012 0b11</ccf>
+    </code>
+    <code name="BTN_DST" codeno="0x000000000088C842">
+      <decoding protocol="Denon-K" device="4" subdevice="1" obc="305" hex0="55" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0032 0000 0083 003d 0013 000e 0013 000e 0013 002d 0013 000e 0013 002d 0013 000e 0013 002d 0013 000e 0013 000e 0013 002d 0013 000e 0013 000e 0013 002d 0013 002d 0013 000e 0013 000e 0013 000e 0013 000e 0013 000e 0013 000e 0013 000e 0013 000e 0013 002d 0013 000e 0013 002d 0013 000e 0013 000e 0013 000e 0013 002d 0013 000e 0013 000e 0013 000e 0013 002d 0013 002d 0013 000e 0013 000e 0013 002d 0013 000e 0013 000e 0013 000e 0013 000e 0013 002d 0013 000e 0013 000e 0013 000e 0013 000e 0013 002d 0013 000e 0012 0b11</ccf>
+    </code>
+    <code name="BTN_RESTORER" codeno="0x00000000008244C4">
+      <decoding protocol="Denon-K" device="4" subdevice="1" obc="548" hex0="187" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0032 0000 0083 003d 0013 000e 0013 000e 0013 002d 0013 000e 0013 002d 0013 000e 0013 002d 0013 000e 0013 000e 0013 002d 0013 000e 0013 000e 0013 002d 0013 002d 0013 000e 0013 000e 0013 000e 0013 000e 0013 000e 0013 000e 0013 000e 0013 000e 0013 002d 0013 000e 0013 002d 0013 000e 0013 000e 0013 000e 0013 000e 0013 000e 0013 002d 0013 000e 0013 000e 0013 002d 0013 000e 0013 000e 0013 000e 0013 002d 0013 000e 0013 000e 0013 002d 0013 002d 0013 000e 0013 000e 0013 000e 0013 002d 0013 000e 0013 000e 0012 0b11</ccf>
+    </code>
+  </remote>
+</lircremotes>

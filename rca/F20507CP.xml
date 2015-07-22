@@ -1,0 +1,101 @@
+<lircremotes creation-date="Wed Jul 22 23:04:02 2015" creator="" lircversion="0.8.6" lirc2xml_version="0.1.2" configfile="remotes/rca/F20507CP.lircd.conf" decodeir_version="2.40">
+  <remote name="RCA-F20507CP">
+    <lircdata type="SPACE_ENC" bits="24" flags="4112" eps="30" aeps="100" pthree="0" sthree="0" ptwo="0" stwo="0" pone="429" sone="2031" pzero="429" szero="1048" plead="0" ptrail="897" pfoot="0" sfoot="0" prepeat="0" srepeat="0" pre_data_bits="0" pre_data="0" post_data_bits="0" post_data="0" pre_p="0" pre_s="0" post_p="0" post_s="0" gap="12390" gap2="0" repeat_gap="0" toggle_bit="0" toggle_bit_mask="0" min_repeat="0" min_code_repeat="0" freq="38000" duty_cycle="0" toggle_mask="0" rc6_mask="0" baud="0" bits_in_byte="0" parity="0" stop_bits="0" ignore_mask="0"/>
+    <code name="off" codeno="0x0000000000F3B0C4">
+      <decoding protocol="RCA-38(Old)" device="15" subdevice="-1" obc="59" hex0="59" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 001a 0000 0293 0097 0010 004d 0010 004d 0010 004d 0010 004d 0010 0028 0010 0028 0010 004d 0010 004d 0010 004d 0010 0028 0010 004d 0010 004d 0010 0028 0010 0028 0010 0028 0010 0028 0010 004d 0010 004d 0010 0028 0010 0028 0010 0028 0010 004d 0010 0028 0010 0028 0022 01d7</ccf>
+    </code>
+    <code name="KEY_POWER" codeno="0x0000000000F3A0C5">
+      <decoding protocol="RCA-38(Old)" device="15" subdevice="-1" obc="58" hex0="58" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 001a 0000 0293 0097 0010 004d 0010 004d 0010 004d 0010 004d 0010 0028 0010 0028 0010 004d 0010 004d 0010 004d 0010 0028 0010 004d 0010 0028 0010 0028 0010 0028 0010 0028 0010 0028 0010 004d 0010 004d 0010 0028 0010 0028 0010 0028 0010 004d 0010 0028 0010 004d 0022 01d7</ccf>
+    </code>
+    <code name="display" codeno="0x0000000000F3C0C3">
+      <decoding protocol="RCA-38(Old)" device="15" subdevice="-1" obc="60" hex0="60" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 001a 0000 0293 0097 0010 004d 0010 004d 0010 004d 0010 004d 0010 0028 0010 0028 0010 004d 0010 004d 0010 004d 0010 004d 0010 0028 0010 0028 0010 0028 0010 0028 0010 0028 0010 0028 0010 004d 0010 004d 0010 0028 0010 0028 0010 0028 0010 0028 0010 004d 0010 004d 0022 01d7</ccf>
+    </code>
+    <code name="reset" codeno="0x0000000000F120ED">
+      <decoding protocol="RCA-38(Old)" device="15" subdevice="-1" obc="18" hex0="18" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 001a 0000 0293 0097 0010 004d 0010 004d 0010 004d 0010 004d 0010 0028 0010 0028 0010 0028 0010 004d 0010 0028 0010 0028 0010 004d 0010 0028 0010 0028 0010 0028 0010 0028 0010 0028 0010 004d 0010 004d 0010 004d 0010 0028 0010 004d 0010 004d 0010 0028 0010 004d 0022 01d7</ccf>
+    </code>
+    <code name="KEY_PC" codeno="0x0000000000F270D8">
+      <decoding protocol="RCA-38(Old)" device="15" subdevice="-1" obc="39" hex0="39" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 001a 0000 0293 0097 0010 004d 0010 004d 0010 004d 0010 004d 0010 0028 0010 0028 0010 004d 0010 0028 0010 0028 0010 004d 0010 004d 0010 004d 0010 0028 0010 0028 0010 0028 0010 0028 0010 004d 0010 004d 0010 0028 0010 004d 0010 004d 0010 0028 0010 0028 0010 0028 0022 01d7</ccf>
+    </code>
+    <code name="KEY_1" codeno="0x0000000000F310CE">
+      <decoding protocol="RCA-38(Old)" device="15" subdevice="-1" obc="49" hex0="49" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 001a 0000 0293 0097 0010 004d 0010 004d 0010 004d 0010 004d 0010 0028 0010 0028 0010 004d 0010 004d 0010 0028 0010 0028 0010 0028 0010 004d 0010 0028 0010 0028 0010 0028 0010 0028 0010 004d 0010 004d 0010 0028 0010 0028 0010 004d 0010 004d 0010 004d 0010 0028 0022 01d7</ccf>
+    </code>
+    <code name="KEY_2" codeno="0x0000000000F320CD">
+      <decoding protocol="RCA-38(Old)" device="15" subdevice="-1" obc="50" hex0="50" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 001a 0000 0293 0097 0010 004d 0010 004d 0010 004d 0010 004d 0010 0028 0010 0028 0010 004d 0010 004d 0010 0028 0010 0028 0010 004d 0010 0028 0010 0028 0010 0028 0010 0028 0010 0028 0010 004d 0010 004d 0010 0028 0010 0028 0010 004d 0010 004d 0010 0028 0010 004d 0022 01d7</ccf>
+    </code>
+    <code name="KEY_3" codeno="0x0000000000F330CC">
+      <decoding protocol="RCA-38(Old)" device="15" subdevice="-1" obc="51" hex0="51" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 001a 0000 0293 0097 0010 004d 0010 004d 0010 004d 0010 004d 0010 0028 0010 0028 0010 004d 0010 004d 0010 0028 0010 0028 0010 004d 0010 004d 0010 0028 0010 0028 0010 0028 0010 0028 0010 004d 0010 004d 0010 0028 0010 0028 0010 004d 0010 004d 0010 0028 0010 0028 0022 01d7</ccf>
+    </code>
+    <code name="KEY_4" codeno="0x0000000000F340CB">
+      <decoding protocol="RCA-38(Old)" device="15" subdevice="-1" obc="52" hex0="52" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 001a 0000 0293 0097 0010 004d 0010 004d 0010 004d 0010 004d 0010 0028 0010 0028 0010 004d 0010 004d 0010 0028 0010 004d 0010 0028 0010 0028 0010 0028 0010 0028 0010 0028 0010 0028 0010 004d 0010 004d 0010 0028 0010 0028 0010 004d 0010 0028 0010 004d 0010 004d 0022 01d7</ccf>
+    </code>
+    <code name="KEY_5" codeno="0x0000000000F350CA">
+      <decoding protocol="RCA-38(Old)" device="15" subdevice="-1" obc="53" hex0="53" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 001a 0000 0293 0097 0010 004d 0010 004d 0010 004d 0010 004d 0010 0028 0010 0028 0010 004d 0010 004d 0010 0028 0010 004d 0010 0028 0010 004d 0010 0028 0010 0028 0010 0028 0010 0028 0010 004d 0010 004d 0010 0028 0010 0028 0010 004d 0010 0028 0010 004d 0010 0028 0022 01d7</ccf>
+    </code>
+    <code name="KEY_6" codeno="0x0000000000F360C9">
+      <decoding protocol="RCA-38(Old)" device="15" subdevice="-1" obc="54" hex0="54" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 001a 0000 0293 0097 0010 004d 0010 004d 0010 004d 0010 004d 0010 0028 0010 0028 0010 004d 0010 004d 0010 0028 0010 004d 0010 004d 0010 0028 0010 0028 0010 0028 0010 0028 0010 0028 0010 004d 0010 004d 0010 0028 0010 0028 0010 004d 0010 0028 0010 0028 0010 004d 0022 01d7</ccf>
+    </code>
+    <code name="KEY_7" codeno="0x0000000000F370C8">
+      <decoding protocol="RCA-38(Old)" device="15" subdevice="-1" obc="55" hex0="55" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 001a 0000 0293 0097 0010 004d 0010 004d 0010 004d 0010 004d 0010 0028 0010 0028 0010 004d 0010 004d 0010 0028 0010 004d 0010 004d 0010 004d 0010 0028 0010 0028 0010 0028 0010 0028 0010 004d 0010 004d 0010 0028 0010 0028 0010 004d 0010 0028 0010 0028 0010 0028 0022 01d7</ccf>
+    </code>
+    <code name="KEY_8" codeno="0x0000000000F380C7">
+      <decoding protocol="RCA-38(Old)" device="15" subdevice="-1" obc="56" hex0="56" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 001a 0000 0293 0097 0010 004d 0010 004d 0010 004d 0010 004d 0010 0028 0010 0028 0010 004d 0010 004d 0010 004d 0010 0028 0010 0028 0010 0028 0010 0028 0010 0028 0010 0028 0010 0028 0010 004d 0010 004d 0010 0028 0010 0028 0010 0028 0010 004d 0010 004d 0010 004d 0022 01d7</ccf>
+    </code>
+    <code name="KEY_9" codeno="0x0000000000F390C6">
+      <decoding protocol="RCA-38(Old)" device="15" subdevice="-1" obc="57" hex0="57" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 001a 0000 0293 0097 0010 004d 0010 004d 0010 004d 0010 004d 0010 0028 0010 0028 0010 004d 0010 004d 0010 004d 0010 0028 0010 0028 0010 004d 0010 0028 0010 0028 0010 0028 0010 0028 0010 004d 0010 004d 0010 0028 0010 0028 0010 0028 0010 004d 0010 004d 0010 0028 0022 01d7</ccf>
+    </code>
+    <code name="KEY_0" codeno="0x0000000000F300CF">
+      <decoding protocol="RCA-38(Old)" device="15" subdevice="-1" obc="48" hex0="48" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 001a 0000 0293 0097 0010 004d 0010 004d 0010 004d 0010 004d 0010 0028 0010 0028 0010 004d 0010 004d 0010 0028 0010 0028 0010 0028 0010 0028 0010 0028 0010 0028 0010 0028 0010 0028 0010 004d 0010 004d 0010 0028 0010 0028 0010 004d 0010 004d 0010 004d 0010 004d 0022 01d7</ccf>
+    </code>
+    <code name="KEY_CHANNELUP" codeno="0x0000000000F2D0D2">
+      <decoding protocol="RCA-38(Old)" device="15" subdevice="-1" obc="45" hex0="45" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 001a 0000 0293 0097 0010 004d 0010 004d 0010 004d 0010 004d 0010 0028 0010 0028 0010 004d 0010 0028 0010 004d 0010 004d 0010 0028 0010 004d 0010 0028 0010 0028 0010 0028 0010 0028 0010 004d 0010 004d 0010 0028 0010 004d 0010 0028 0010 0028 0010 004d 0010 0028 0022 01d7</ccf>
+    </code>
+    <code name="KEY_CHANNELDOWN" codeno="0x0000000000F2C0D3">
+      <decoding protocol="RCA-38(Old)" device="15" subdevice="-1" obc="44" hex0="44" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 001a 0000 0293 0097 0010 004d 0010 004d 0010 004d 0010 004d 0010 0028 0010 0028 0010 004d 0010 0028 0010 004d 0010 004d 0010 0028 0010 0028 0010 0028 0010 0028 0010 0028 0010 0028 0010 004d 0010 004d 0010 0028 0010 004d 0010 0028 0010 0028 0010 004d 0010 004d 0022 01d7</ccf>
+    </code>
+    <code name="KEY_VOLUMEUP" codeno="0x0000000000F2F0D0">
+      <decoding protocol="RCA-38(Old)" device="15" subdevice="-1" obc="47" hex0="47" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 001a 0000 0293 0097 0010 004d 0010 004d 0010 004d 0010 004d 0010 0028 0010 0028 0010 004d 0010 0028 0010 004d 0010 004d 0010 004d 0010 004d 0010 0028 0010 0028 0010 0028 0010 0028 0010 004d 0010 004d 0010 0028 0010 004d 0010 0028 0010 0028 0010 0028 0010 0028 0022 01d7</ccf>
+    </code>
+    <code name="KEY_VOLUMEDOWN" codeno="0x0000000000F2E0D1">
+      <decoding protocol="RCA-38(Old)" device="15" subdevice="-1" obc="46" hex0="46" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 001a 0000 0293 0097 0010 004d 0010 004d 0010 004d 0010 004d 0010 0028 0010 0028 0010 004d 0010 0028 0010 004d 0010 004d 0010 004d 0010 0028 0010 0028 0010 0028 0010 0028 0010 0028 0010 004d 0010 004d 0010 0028 0010 004d 0010 0028 0010 0028 0010 0028 0010 004d 0022 01d7</ccf>
+    </code>
+    <code name="vid+" codeno="0x0000000000F6409B">
+      <decoding protocol="RCA-38(Old)" device="15" subdevice="-1" obc="100" hex0="100" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 001a 0000 0293 0097 0010 004d 0010 004d 0010 004d 0010 004d 0010 0028 0010 004d 0010 004d 0010 0028 0010 0028 0010 004d 0010 0028 0010 0028 0010 0028 0010 0028 0010 0028 0010 0028 0010 004d 0010 0028 0010 0028 0010 004d 0010 004d 0010 0028 0010 004d 0010 004d 0022 01d7</ccf>
+    </code>
+    <code name="vid-" codeno="0x0000000000FE201D">
+      <decoding protocol="RCA-38(Old)" device="15" subdevice="-1" obc="226" hex0="226" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 001a 0000 0293 0097 0010 004d 0010 004d 0010 004d 0010 004d 0010 004d 0010 004d 0010 004d 0010 0028 0010 0028 0010 0028 0010 004d 0010 0028 0010 0028 0010 0028 0010 0028 0010 0028 0010 0028 0010 0028 0010 0028 0010 004d 0010 004d 0010 004d 0010 0028 0010 004d 0022 01d7</ccf>
+    </code>
+    <code name="setup+" codeno="0x0000000000F6509A">
+      <decoding protocol="RCA-38(Old)" device="15" subdevice="-1" obc="101" hex0="101" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 001a 0000 0293 0097 0010 004d 0010 004d 0010 004d 0010 004d 0010 0028 0010 004d 0010 004d 0010 0028 0010 0028 0010 004d 0010 0028 0010 004d 0010 0028 0010 0028 0010 0028 0010 0028 0010 004d 0010 0028 0010 0028 0010 004d 0010 004d 0010 0028 0010 004d 0010 0028 0022 01d7</ccf>
+    </code>
+    <code name="setup-" codeno="0x0000000000F180E7">
+      <decoding protocol="RCA-38(Old)" device="15" subdevice="-1" obc="24" hex0="24" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 001a 0000 0293 0097 0010 004d 0010 004d 0010 004d 0010 004d 0010 0028 0010 0028 0010 0028 0010 004d 0010 004d 0010 0028 0010 0028 0010 0028 0010 0028 0010 0028 0010 0028 0010 0028 0010 004d 0010 004d 0010 004d 0010 0028 0010 0028 0010 004d 0010 004d 0010 004d 0022 01d7</ccf>
+    </code>
+    <code name="KEY_MUTE" codeno="0x0000000000F3F0C0">
+      <decoding protocol="RCA-38(Old)" device="15" subdevice="-1" obc="63" hex0="63" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 001a 0000 0293 0097 0010 004d 0010 004d 0010 004d 0010 004d 0010 0028 0010 0028 0010 004d 0010 004d 0010 004d 0010 004d 0010 004d 0010 004d 0010 0028 0010 0028 0010 0028 0010 0028 0010 004d 0010 004d 0010 0028 0010 0028 0010 0028 0010 0028 0010 0028 0010 0028 0022 01d7</ccf>
+    </code>
+  </remote>
+</lircremotes>

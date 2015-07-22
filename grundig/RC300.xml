@@ -1,0 +1,77 @@
+<lircremotes creation-date="Wed Jul 22 23:04:14 2015" creator="" lircversion="0.8.6" lirc2xml_version="0.1.2" configfile="remotes/grundig/RC300.lircd.conf" decodeir_version="2.40">
+  <remote name="RC300">
+    <lircdata type="RAW_CODES" bits="0" flags="16385" eps="30" aeps="100" pthree="0" sthree="0" ptwo="0" stwo="0" pone="0" sone="0" pzero="0" szero="0" plead="0" ptrail="504" pfoot="0" sfoot="0" prepeat="0" srepeat="0" pre_data_bits="0" pre_data="0" post_data_bits="0" post_data="0" pre_p="0" pre_s="0" post_p="0" post_s="0" gap="135257" gap2="0" repeat_gap="0" toggle_bit="0" toggle_bit_mask="0" min_repeat="0" min_code_repeat="0" freq="38000" duty_cycle="0" toggle_mask="0" rc6_mask="0" baud="0" bits_in_byte="0" parity="0" stop_bits="0" ignore_mask="0"/>
+    <code name="1" codeno="0x0000000000000001">
+      <decoding protocol="Blaupunkt" device="0" subdevice="-1" obc="81" hex0="197" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0014 0000 0013 0065 0013 0015 0013 0015 0013 0015 0013 0015 0013 0015 0013 0015 0013 0015 0013 0015 0013 0015 0013 0310 0013 0065 0013 0015 0013 0029 0013 0015 0013 0015 0028 0029 0028 0029 0013 0015 0013 0d06</ccf>
+    </code>
+    <code name="2" codeno="0x0000000000000002">
+      <decoding protocol="Blaupunkt" device="0" subdevice="-1" obc="82" hex0="165" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0013 0000 0013 0065 0013 0015 0013 0015 0013 0015 0013 0015 0013 0015 0013 0015 0013 0015 0013 0015 0013 0015 0013 0310 0013 0065 0013 0029 0027 0029 0013 0015 0027 0029 0027 0029 0013 0015 0013 0d06</ccf>
+    </code>
+    <code name="3" codeno="0x0000000000000003">
+      <decoding protocol="Blaupunkt" device="0" subdevice="-1" obc="83" hex0="229" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0014 0000 0014 0065 0014 0014 0014 0015 0014 0015 0014 0014 0014 0015 0014 0015 0014 0014 0014 0014 0014 0015 0014 0310 0013 0065 0014 0014 0014 0014 0014 0028 0014 0014 0027 002a 0027 002a 0014 0014 0014 0d05</ccf>
+    </code>
+    <code name="4" codeno="0x0000000000000004">
+      <decoding protocol="Blaupunkt" device="0" subdevice="-1" obc="84" hex0="149" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0013 0000 0014 0065 0014 0015 0013 0015 0013 0016 0012 0016 0012 0016 0013 0016 0013 0015 0013 0015 0014 0014 0014 030f 0013 0066 0013 002a 0012 0016 0027 002a 0027 002a 0027 002a 0014 0014 0014 0d05</ccf>
+    </code>
+    <code name="5" codeno="0x0000000000000005">
+      <decoding protocol="Blaupunkt" device="0" subdevice="-1" obc="85" hex0="213" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0013 0000 0013 0066 0013 0015 0013 0015 0014 0014 0014 0014 0014 0014 0014 0014 0014 0014 0014 0015 0013 0014 0014 030f 0014 0065 0014 0014 0014 0028 0027 002a 0027 002a 0027 002a 0014 0014 0014 0d05</ccf>
+    </code>
+    <code name="6" codeno="0x0000000000000006">
+      <decoding protocol="Blaupunkt" device="0" subdevice="-1" obc="86" hex0="181" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0013 0000 0014 0065 0014 0014 0014 0014 0014 0015 0013 0014 0014 0014 0014 0015 0013 0014 0014 0014 0014 0014 0014 030f 0014 0065 0014 0028 0027 0016 0012 0029 0027 0029 0027 002a 0014 0014 0014 0d05</ccf>
+    </code>
+    <code name="7" codeno="0x0000000000000007">
+      <decoding protocol="Blaupunkt" device="0" subdevice="-1" obc="87" hex0="245" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0014 0000 0014 0065 0014 0014 0014 0014 0014 0014 0014 0014 0014 0014 0014 0014 0014 0014 0014 0014 0014 0014 0014 030f 0014 0065 0014 0014 0014 0014 0014 0014 0014 0029 0027 002a 0027 002a 0014 0014 0014 0d05</ccf>
+    </code>
+    <code name="8" codeno="0x0000000000000008">
+      <decoding protocol="Blaupunkt" device="0" subdevice="-1" obc="88" hex0="141" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0014 0000 0014 0064 0015 0013 0015 0013 0015 0013 0015 0013 0015 0013 0015 0013 0015 0013 0015 0013 0015 0013 0016 030d 0015 0063 0015 0027 0015 0013 0015 0013 0029 0013 0015 0027 0029 0027 0015 0013 0015 0d04</ccf>
+    </code>
+    <code name="9" codeno="0x0000000000000009">
+      <decoding protocol="Blaupunkt" device="0" subdevice="-1" obc="89" hex0="205" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0014 0000 0013 0065 0013 0015 0013 0015 0013 0015 0013 0015 0013 0015 0013 0015 0013 0015 0013 0015 0013 0015 0013 0310 0013 0065 0013 0015 0013 0029 0013 0015 0027 0015 0013 0029 0027 0029 0013 0015 0013 0d06</ccf>
+    </code>
+    <code name="0" codeno="0x000000000000000A">
+      <decoding protocol="Blaupunkt" device="0" subdevice="-1" obc="80" hex0="133" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0014 0000 0013 0065 0013 0015 0013 0015 0013 0015 0013 0015 0013 0015 0013 0015 0013 0015 0013 0015 0013 0015 0013 0310 0013 0065 0013 002a 0013 0015 0013 0015 0013 0015 0027 0029 0027 0029 0013 0015 0013 0d06</ccf>
+    </code>
+    <code name="P+" codeno="0x000000000000000B">
+      <decoding protocol="Blaupunkt" device="0" subdevice="-1" obc="106" hex0="171" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0013 0000 0013 0065 0013 0015 0013 0015 0013 0015 0013 0015 0013 0015 0013 0015 0013 0015 0013 0015 0013 0015 0013 0310 0013 0065 0013 0029 0027 0029 0027 0029 0027 0015 0013 0029 0013 0015 0013 0d06</ccf>
+    </code>
+    <code name="OK" codeno="0x000000000000000C">
+      <decoding protocol="Blaupunkt" device="0" subdevice="-1" obc="64" hex0="129" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0015 0000 0014 0065 0014 0014 0014 0014 0014 0014 0014 0014 0014 0014 0014 0014 0014 0014 0014 0014 0014 0014 0014 030f 0014 0065 0014 0028 0014 0014 0014 0014 0014 0014 0014 0014 0014 0014 0027 002a 0014 0014 0014 0d05</ccf>
+    </code>
+    <code name="P-" codeno="0x000000000000000D">
+      <decoding protocol="Blaupunkt" device="0" subdevice="-1" obc="107" hex0="235" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0014 0000 0013 0065 0013 0015 0013 0015 0013 0015 0013 0015 0013 0015 0013 0015 0013 0015 0013 0015 0013 0015 0013 0310 0013 0065 0013 0015 0013 0015 0013 0029 0027 0029 0027 0015 0013 0029 0013 0015 0013 0d06</ccf>
+    </code>
+    <code name="EAST" codeno="0x000000000000000E">
+      <decoding protocol="Blaupunkt{prefix}" device="-1" subdevice="-1" obc="-1" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0015 0000 0013 0065 0013 0015 0014 0015 0013 0015 0014 0015 0013 0015 0014 0014 0013 0015 0013 0015 0014 0014 0014 030f 0014 0065 0013 0015 0013 0029 0014 0014 0027 0029 0016 0013 0027 0029 0014 0014 0015 0005 0002 0cfe</ccf>
+    </code>
+    <code name="WEST" codeno="0x000000000000000F">
+      <decoding protocol="Blaupunkt" device="0" subdevice="-1" obc="72" hex0="137" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0014 0000 0013 0065 0013 0015 0013 0015 0013 0015 0013 0015 0013 0015 0013 0015 0013 0015 0013 0015 0013 0015 0013 0310 0013 0065 0013 0029 0013 0015 0013 0015 0027 0029 0013 0015 0027 0029 0013 0015 0013 0d06</ccf>
+    </code>
+    <code name="DISH" codeno="0x0000000000000010">
+      <decoding protocol="Blaupunkt" device="0" subdevice="-1" obc="92" hex0="157" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0014 0000 0014 0065 0014 0014 0014 0014 0014 0015 0014 0015 0014 0014 0014 0014 0014 0015 0014 0015 0014 0014 0014 0310 0014 0065 0014 0029 0014 0015 0027 0016 0012 0016 0013 0029 0027 002a 0013 0015 0013 0d06</ccf>
+    </code>
+    <code name="TV" codeno="0x0000000000000011">
+      <decoding protocol="Blaupunkt" device="0" subdevice="-1" obc="93" hex0="221" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0014 0000 0013 0066 0013 0015 0012 0016 0012 0016 0012 0016 0013 0015 0013 0015 0013 0015 0014 0014 0014 0014 0014 030f 0012 0066 0012 0016 0013 002a 0027 0015 0014 0014 0014 0028 0027 0029 0014 0014 0014 0d05</ccf>
+    </code>
+    <code name="POWER" codeno="0x0000000000000012">
+      <decoding protocol="Blaupunkt" device="0" subdevice="-1" obc="66" hex0="161" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0014 0000 0014 0065 0014 0014 0014 0014 0013 0015 0014 0014 0013 0015 0014 0014 0013 0015 0014 0015 0013 0015 0013 0310 0014 0065 0013 0029 0027 002a 0014 0015 0013 0015 0013 0015 0027 0029 0013 0015 0013 0d06</ccf>
+    </code>
+  </remote>
+</lircremotes>

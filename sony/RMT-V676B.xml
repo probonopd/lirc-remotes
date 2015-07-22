@@ -1,0 +1,201 @@
+<lircremotes creation-date="Wed Jul 22 23:03:58 2015" creator="" lircversion="0.8.6" lirc2xml_version="0.1.2" configfile="remotes/sony/RMT-V676B.lircd.conf" decodeir_version="2.40">
+  <remote name="RMT-V676B">
+    <lircdata type="SPACE_ENC" bits="9" flags="16" eps="20" aeps="100" pthree="0" sthree="0" ptwo="0" stwo="0" pone="728" sone="466" pzero="1325" szero="466" plead="0" ptrail="728" pfoot="0" sfoot="0" prepeat="0" srepeat="0" pre_data_bits="0" pre_data="0" post_data_bits="2" post_data="3" pre_p="0" pre_s="0" post_p="0" post_s="0" gap="25615" gap2="0" repeat_gap="0" toggle_bit="0" toggle_bit_mask="0" min_repeat="2" min_code_repeat="0" freq="38000" duty_cycle="0" toggle_mask="0" rc6_mask="0" baud="0" bits_in_byte="0" parity="0" stop_bits="0" ignore_mask="0"/>
+    <code name="KEY_1" codeno="0x00000000000001FE">
+      <decoding protocol="Sony12" device="2" subdevice="-1" obc="0" hex0="0" hex1="1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000d 0000 0062 0012 001c 0012 001c 0012 001c 0012 001c 0012 001c 0012 001c 0012 001c 0012 001c 0012 0032 0012 001c 0012 001c 0012 001c 03cd</ccf>
+    </code>
+    <code name="KEY_2" codeno="0x00000000000000FE">
+      <decoding protocol="Sony12" device="2" subdevice="-1" obc="1" hex0="128" hex1="129" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000d 0000 0062 0012 0032 0012 001c 0012 001c 0012 001c 0012 001c 0012 001c 0012 001c 0012 001c 0012 0032 0012 001c 0012 001c 0012 001c 03cd</ccf>
+    </code>
+    <code name="KEY_3" codeno="0x000000000000017E">
+      <decoding protocol="Sony12" device="2" subdevice="-1" obc="2" hex0="64" hex1="65" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000d 0000 0062 0012 001c 0012 0032 0012 001c 0012 001c 0012 001c 0012 001c 0012 001c 0012 001c 0012 0032 0012 001c 0012 001c 0012 001c 03cd</ccf>
+    </code>
+    <code name="ant" codeno="0x0000000000000156">
+      <decoding protocol="Sony12" device="2" subdevice="-1" obc="42" hex0="84" hex1="85" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000d 0000 0062 0012 001c 0012 0032 0012 001c 0012 0032 0012 001c 0012 0032 0012 001c 0012 001c 0012 0032 0012 001c 0012 001c 0012 001c 03cd</ccf>
+    </code>
+    <code name="pow" codeno="0x00000000000000AE">
+      <decoding protocol="Sony12" device="2" subdevice="-1" obc="21" hex0="168" hex1="169" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000d 0000 0062 0012 0032 0012 001c 0012 0032 0012 001c 0012 0032 0012 001c 0012 001c 0012 001c 0012 0032 0012 001c 0012 001c 0012 001c 03cd</ccf>
+    </code>
+    <code name="KEY_4" codeno="0x000000000000007E">
+      <decoding protocol="Sony12" device="2" subdevice="-1" obc="3" hex0="192" hex1="193" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000d 0000 0062 0012 0032 0012 0032 0012 001c 0012 001c 0012 001c 0012 001c 0012 001c 0012 001c 0012 0032 0012 001c 0012 001c 0012 001c 03cd</ccf>
+    </code>
+    <code name="KEY_5" codeno="0x00000000000001BE">
+      <decoding protocol="Sony12" device="2" subdevice="-1" obc="4" hex0="32" hex1="33" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000d 0000 0062 0012 001c 0012 001c 0012 0032 0012 001c 0012 001c 0012 001c 0012 001c 0012 001c 0012 0032 0012 001c 0012 001c 0012 001c 03cd</ccf>
+    </code>
+    <code name="KEY_6" codeno="0x00000000000000BE">
+      <decoding protocol="Sony12" device="2" subdevice="-1" obc="5" hex0="160" hex1="161" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000d 0000 0062 0012 0032 0012 001c 0012 0032 0012 001c 0012 001c 0012 001c 0012 001c 0012 001c 0012 0032 0012 001c 0012 001c 0012 001c 03cd</ccf>
+    </code>
+    <code name="sel" codeno="0x000000000000001A">
+      <decoding protocol="Sony12" device="2" subdevice="-1" obc="79" hex0="242" hex1="243" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000d 0000 0062 0012 0032 0012 0032 0012 0032 0012 0032 0012 001c 0012 001c 0012 0032 0012 001c 0012 0032 0012 001c 0012 001c 0012 001c 03cd</ccf>
+    </code>
+    <code name="vl+" codeno="0x000000000000016D">
+      <decoding protocol="Sony12" device="1" subdevice="-1" obc="18" hex0="72" hex1="73" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000d 0000 0062 0012 001c 0012 0032 0012 001c 0012 001c 0012 0032 0012 001c 0012 001c 0012 0032 0012 001c 0012 001c 0012 001c 0012 001c 03cd</ccf>
+    </code>
+    <code name="KEY_CHANNELUP" codeno="0x00000000000001EE">
+      <decoding protocol="Sony12" device="2" subdevice="-1" obc="16" hex0="8" hex1="9" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000d 0000 0062 0012 001c 0012 001c 0012 001c 0012 001c 0012 0032 0012 001c 0012 001c 0012 001c 0012 0032 0012 001c 0012 001c 0012 001c 03cd</ccf>
+    </code>
+    <code name="KEY_7" codeno="0x000000000000013E">
+      <decoding protocol="Sony12" device="2" subdevice="-1" obc="6" hex0="96" hex1="97" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000d 0000 0062 0012 001c 0012 0032 0012 0032 0012 001c 0012 001c 0012 001c 0012 001c 0012 001c 0012 0032 0012 001c 0012 001c 0012 001c 03cd</ccf>
+    </code>
+    <code name="KEY_8" codeno="0x000000000000003E">
+      <decoding protocol="Sony12" device="2" subdevice="-1" obc="7" hex0="224" hex1="225" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000d 0000 0062 0012 0032 0012 0032 0012 0032 0012 001c 0012 001c 0012 001c 0012 001c 0012 001c 0012 0032 0012 001c 0012 001c 0012 001c 03cd</ccf>
+    </code>
+    <code name="KEY_9" codeno="0x00000000000001DE">
+      <decoding protocol="Sony12" device="2" subdevice="-1" obc="8" hex0="16" hex1="17" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000d 0000 0062 0012 001c 0012 001c 0012 001c 0012 0032 0012 001c 0012 001c 0012 001c 0012 001c 0012 0032 0012 001c 0012 001c 0012 001c 03cd</ccf>
+    </code>
+    <code name="rcm" codeno="0x00000000000001CA">
+      <decoding protocol="Sony12" device="2" subdevice="-1" obc="88" hex0="26" hex1="27" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000d 0000 0062 0012 001c 0012 001c 0012 001c 0012 0032 0012 0032 0012 001c 0012 0032 0012 001c 0012 0032 0012 001c 0012 001c 0012 001c 03cd</ccf>
+    </code>
+    <code name="vl-" codeno="0x000000000000006D">
+      <decoding protocol="Sony12" device="1" subdevice="-1" obc="19" hex0="200" hex1="201" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000d 0000 0062 0012 0032 0012 0032 0012 001c 0012 001c 0012 0032 0012 001c 0012 001c 0012 0032 0012 001c 0012 001c 0012 001c 0012 001c 03cd</ccf>
+    </code>
+    <code name="KEY_CHANNELDOWN" codeno="0x00000000000000EE">
+      <decoding protocol="Sony12" device="2" subdevice="-1" obc="17" hex0="136" hex1="137" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000d 0000 0062 0012 0032 0012 001c 0012 001c 0012 001c 0012 0032 0012 001c 0012 001c 0012 001c 0012 0032 0012 001c 0012 001c 0012 001c 03cd</ccf>
+    </code>
+    <code name="KEY_0" codeno="0x00000000000000DE">
+      <decoding protocol="Sony12" device="2" subdevice="-1" obc="9" hex0="144" hex1="145" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000d 0000 0062 0012 0032 0012 001c 0012 001c 0012 0032 0012 001c 0012 001c 0012 001c 0012 001c 0012 0032 0012 001c 0012 001c 0012 001c 03cd</ccf>
+    </code>
+    <code name="ent" codeno="0x000000000000005E">
+      <decoding protocol="Sony12" device="2" subdevice="-1" obc="11" hex0="208" hex1="209" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000d 0000 0062 0012 0032 0012 0032 0012 001c 0012 0032 0012 001c 0012 001c 0012 001c 0012 001c 0012 0032 0012 001c 0012 001c 0012 001c 03cd</ccf>
+    </code>
+    <code name="dex" codeno="0x000000000000006A">
+      <decoding protocol="Sony12" device="2" subdevice="-1" obc="83" hex0="202" hex1="203" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000d 0000 0062 0012 0032 0012 0032 0012 001c 0012 001c 0012 0032 0012 001c 0012 0032 0012 001c 0012 0032 0012 001c 0012 001c 0012 001c 03cd</ccf>
+    </code>
+    <code name="mnu" codeno="0x000000000000009A">
+      <decoding protocol="Sony12" device="2" subdevice="-1" obc="77" hex0="178" hex1="179" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000d 0000 0062 0012 0032 0012 001c 0012 0032 0012 0032 0012 001c 0012 001c 0012 0032 0012 001c 0012 0032 0012 001c 0012 001c 0012 001c 03cd</ccf>
+    </code>
+    <code name="aup" codeno="0x000000000000017A">
+      <decoding protocol="Sony12" device="2" subdevice="-1" obc="66" hex0="66" hex1="67" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000d 0000 0062 0012 001c 0012 0032 0012 001c 0012 001c 0012 001c 0012 001c 0012 0032 0012 001c 0012 0032 0012 001c 0012 001c 0012 001c 03cd</ccf>
+    </code>
+    <code name="mon" codeno="0x000000000000002E">
+      <decoding protocol="Sony12" device="2" subdevice="-1" obc="23" hex0="232" hex1="233" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000d 0000 0062 0012 0032 0012 0032 0012 0032 0012 001c 0012 0032 0012 001c 0012 001c 0012 001c 0012 0032 0012 001c 0012 001c 0012 001c 03cd</ccf>
+    </code>
+    <code name="rst" codeno="0x000000000000013A">
+      <decoding protocol="Sony12" device="2" subdevice="-1" obc="70" hex0="98" hex1="99" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000d 0000 0062 0012 001c 0012 0032 0012 0032 0012 001c 0012 001c 0012 001c 0012 0032 0012 001c 0012 0032 0012 001c 0012 001c 0012 001c 03cd</ccf>
+    </code>
+    <code name="dta" codeno="0x000000000000014A">
+      <decoding protocol="Sony12" device="2" subdevice="-1" obc="90" hex0="90" hex1="91" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000d 0000 0062 0012 001c 0012 0032 0012 001c 0012 0032 0012 0032 0012 001c 0012 0032 0012 001c 0012 0032 0012 001c 0012 001c 0012 001c 03cd</ccf>
+    </code>
+    <code name="alf" codeno="0x0000000000000172">
+      <decoding protocol="Sony12" device="2" subdevice="-1" obc="98" hex0="70" hex1="71" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000d 0000 0062 0012 001c 0012 0032 0012 001c 0012 001c 0012 001c 0012 0032 0012 0032 0012 001c 0012 0032 0012 001c 0012 001c 0012 001c 03cd</ccf>
+    </code>
+    <code name="exe" codeno="0x00000000000000EA">
+      <decoding protocol="Sony12" device="2" subdevice="-1" obc="81" hex0="138" hex1="139" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000d 0000 0062 0012 0032 0012 001c 0012 001c 0012 001c 0012 0032 0012 001c 0012 0032 0012 001c 0012 0032 0012 001c 0012 001c 0012 001c 03cd</ccf>
+    </code>
+    <code name="art" codeno="0x00000000000000F2">
+      <decoding protocol="Sony12" device="2" subdevice="-1" obc="97" hex0="134" hex1="135" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000d 0000 0062 0012 0032 0012 001c 0012 001c 0012 001c 0012 001c 0012 0032 0012 0032 0012 001c 0012 0032 0012 001c 0012 001c 0012 001c 03cd</ccf>
+    </code>
+    <code name="tme" codeno="0x0000000000000072">
+      <decoding protocol="Sony12" device="2" subdevice="-1" obc="99" hex0="198" hex1="199" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000d 0000 0062 0012 0032 0012 0032 0012 001c 0012 001c 0012 001c 0012 0032 0012 0032 0012 001c 0012 0032 0012 001c 0012 001c 0012 001c 03cd</ccf>
+    </code>
+    <code name="mrk" codeno="0x00000000000001DA">
+      <decoding protocol="Sony12" device="2" subdevice="-1" obc="72" hex0="18" hex1="19" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000d 0000 0062 0012 001c 0012 001c 0012 001c 0012 0032 0012 001c 0012 001c 0012 0032 0012 001c 0012 0032 0012 001c 0012 001c 0012 001c 03cd</ccf>
+    </code>
+    <code name="ers" codeno="0x00000000000000DA">
+      <decoding protocol="Sony12" device="2" subdevice="-1" obc="73" hex0="146" hex1="147" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000d 0000 0062 0012 0032 0012 001c 0012 001c 0012 0032 0012 001c 0012 001c 0012 0032 0012 001c 0012 0032 0012 001c 0012 001c 0012 001c 03cd</ccf>
+    </code>
+    <code name="mem" codeno="0x00000000000001FA">
+      <decoding protocol="Sony12" device="2" subdevice="-1" obc="64" hex0="2" hex1="3" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000d 0000 0062 0012 001c 0012 001c 0012 001c 0012 001c 0012 001c 0012 001c 0012 0032 0012 001c 0012 0032 0012 001c 0012 001c 0012 001c 03cd</ccf>
+    </code>
+    <code name="adn" codeno="0x000000000000007A">
+      <decoding protocol="Sony12" device="2" subdevice="-1" obc="67" hex0="194" hex1="195" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000d 0000 0062 0012 0032 0012 0032 0012 001c 0012 001c 0012 001c 0012 001c 0012 0032 0012 001c 0012 0032 0012 001c 0012 001c 0012 001c 03cd</ccf>
+    </code>
+    <code name="trc" codeno="0x00000000000000B2">
+      <decoding protocol="Sony12" device="2" subdevice="-1" obc="101" hex0="166" hex1="167" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000d 0000 0062 0012 0032 0012 001c 0012 0032 0012 001c 0012 001c 0012 0032 0012 0032 0012 001c 0012 0032 0012 001c 0012 001c 0012 001c 03cd</ccf>
+    </code>
+    <code name="dub" codeno="0x00000000000001D2">
+      <decoding protocol="Sony12" device="2" subdevice="-1" obc="104" hex0="22" hex1="23" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000d 0000 0062 0012 001c 0012 001c 0012 001c 0012 0032 0012 001c 0012 0032 0012 0032 0012 001c 0012 0032 0012 001c 0012 001c 0012 001c 03cd</ccf>
+    </code>
+    <code name="lft" codeno="0x00000000000001E6">
+      <decoding protocol="Sony12" device="2" subdevice="-1" obc="48" hex0="12" hex1="13" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000d 0000 0062 0012 001c 0012 001c 0012 001c 0012 001c 0012 0032 0012 0032 0012 001c 0012 001c 0012 0032 0012 001c 0012 001c 0012 001c 03cd</ccf>
+    </code>
+    <code name="rgt" codeno="0x00000000000000E6">
+      <decoding protocol="Sony12" device="2" subdevice="-1" obc="49" hex0="140" hex1="141" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000d 0000 0062 0012 0032 0012 001c 0012 001c 0012 001c 0012 0032 0012 0032 0012 001c 0012 001c 0012 0032 0012 001c 0012 001c 0012 001c 03cd</ccf>
+    </code>
+    <code name="pse" codeno="0x00000000000000CE">
+      <decoding protocol="Sony12" device="2" subdevice="-1" obc="25" hex0="152" hex1="153" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000d 0000 0062 0012 0032 0012 001c 0012 001c 0012 0032 0012 0032 0012 001c 0012 001c 0012 001c 0012 0032 0012 001c 0012 001c 0012 001c 03cd</ccf>
+    </code>
+    <code name="KEY_RECORD" codeno="0x000000000000008E">
+      <decoding protocol="Sony12" device="2" subdevice="-1" obc="29" hex0="184" hex1="185" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000d 0000 0062 0012 0032 0012 001c 0012 0032 0012 0032 0012 0032 0012 001c 0012 001c 0012 001c 0012 0032 0012 001c 0012 001c 0012 001c 03cd</ccf>
+    </code>
+    <code name="sl-" codeno="0x0000000000000106">
+      <decoding protocol="Sony12" device="2" subdevice="-1" obc="62" hex0="124" hex1="125" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000d 0000 0062 0012 001c 0012 0032 0012 0032 0012 0032 0012 0032 0012 0032 0012 001c 0012 001c 0012 0032 0012 001c 0012 001c 0012 001c 03cd</ccf>
+    </code>
+    <code name="sl+" codeno="0x0000000000000086">
+      <decoding protocol="Sony12" device="2" subdevice="-1" obc="61" hex0="188" hex1="189" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000d 0000 0062 0012 0032 0012 001c 0012 0032 0012 0032 0012 0032 0012 0032 0012 001c 0012 001c 0012 0032 0012 001c 0012 001c 0012 001c 03cd</ccf>
+    </code>
+    <code name="sx2" codeno="0x00000000000001AE">
+      <decoding protocol="Sony12" device="2" subdevice="-1" obc="20" hex0="40" hex1="41" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000d 0000 0062 0012 001c 0012 001c 0012 0032 0012 001c 0012 0032 0012 001c 0012 001c 0012 001c 0012 0032 0012 001c 0012 001c 0012 001c 03cd</ccf>
+    </code>
+    <code name="hrw" codeno="0x0000000000000082">
+      <decoding protocol="Sony12" device="2" subdevice="-1" obc="125" hex0="190" hex1="191" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000d 0000 0062 0012 0032 0012 001c 0012 0032 0012 0032 0012 0032 0012 0032 0012 0032 0012 001c 0012 0032 0012 001c 0012 001c 0012 001c 03cd</ccf>
+    </code>
+    <code name="slt" codeno="0x00000000000001D6">
+      <decoding protocol="Sony12" device="2" subdevice="-1" obc="40" hex0="20" hex1="21" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000d 0000 0062 0012 001c 0012 001c 0012 001c 0012 0032 0012 001c 0012 0032 0012 001c 0012 001c 0012 0032 0012 001c 0012 001c 0012 001c 03cd</ccf>
+    </code>
+    <code name="KEY_REWIND" codeno="0x000000000000004E">
+      <decoding protocol="Sony12" device="2" subdevice="-1" obc="27" hex0="216" hex1="217" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000d 0000 0062 0012 0032 0012 0032 0012 001c 0012 0032 0012 0032 0012 001c 0012 001c 0012 001c 0012 0032 0012 001c 0012 001c 0012 001c 03cd</ccf>
+    </code>
+    <code name="ply" codeno="0x000000000000014E">
+      <decoding protocol="Sony12" device="2" subdevice="-1" obc="26" hex0="88" hex1="89" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000d 0000 0062 0012 001c 0012 0032 0012 001c 0012 0032 0012 0032 0012 001c 0012 001c 0012 001c 0012 0032 0012 001c 0012 001c 0012 001c 03cd</ccf>
+    </code>
+    <code name="faf" codeno="0x000000000000018E">
+      <decoding protocol="Sony12" device="2" subdevice="-1" obc="28" hex0="56" hex1="57" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000d 0000 0062 0012 001c 0012 001c 0012 0032 0012 0032 0012 0032 0012 001c 0012 001c 0012 001c 0012 0032 0012 001c 0012 001c 0012 001c 03cd</ccf>
+    </code>
+    <code name="srt" codeno="0x00000000000000D6">
+      <decoding protocol="Sony12" device="2" subdevice="-1" obc="41" hex0="148" hex1="149" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000d 0000 0062 0012 0032 0012 001c 0012 001c 0012 0032 0012 001c 0012 0032 0012 001c 0012 001c 0012 0032 0012 001c 0012 001c 0012 001c 03cd</ccf>
+    </code>
+    <code name="stp" codeno="0x00000000000001CE">
+      <decoding protocol="Sony12" device="2" subdevice="-1" obc="24" hex0="24" hex1="25" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000d 0000 0062 0012 001c 0012 001c 0012 001c 0012 0032 0012 0032 0012 001c 0012 001c 0012 001c 0012 0032 0012 001c 0012 001c 0012 001c 03cd</ccf>
+    </code>
+  </remote>
+</lircremotes>

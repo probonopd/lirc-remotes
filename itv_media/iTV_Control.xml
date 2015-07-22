@@ -1,0 +1,1176 @@
+<lircremotes creation-date="Wed Jul 22 23:04:12 2015" creator="" lircversion="0.8.6" lirc2xml_version="0.1.2" configfile="remotes/itv_media/iTV_Control.lircd.conf" decodeir_version="2.40">
+  <remote name="itvcontrol-frontside-cursors">
+    <lircdata type="RAW_CODES" bits="0" flags="1" eps="30" aeps="100" pthree="0" sthree="0" ptwo="0" stwo="0" pone="0" sone="0" pzero="0" szero="0" plead="0" ptrail="0" pfoot="0" sfoot="0" prepeat="0" srepeat="0" pre_data_bits="0" pre_data="0" post_data_bits="0" post_data="0" pre_p="0" pre_s="0" post_p="0" post_s="0" gap="2200" gap2="0" repeat_gap="0" toggle_bit="0" toggle_bit_mask="0" min_repeat="0" min_code_repeat="0" freq="38000" duty_cycle="0" toggle_mask="0" rc6_mask="0" baud="0" bits_in_byte="0" parity="0" stop_bits="0" ignore_mask="0"/>
+    <code name="b_upleft" codeno="0x0000000000000001">
+      <decoding protocol="Sejin-2-38" device="2" subdevice="-1" obc="0" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: delta = (-4,4); E=0, RMOBC unsupported" error=""/>
+      <ccf>0000 006d 0011 0000 0028 0021 0010 0021 0010 0021 0010 0015 0010 0008 0010 0045 0010 0021 0010 0021 001c 0021 0010 0021 0010 002d 0010 0015 0010 0021 0010 0021 0010 002d 0010 002d 0010 0054</ccf>
+    </code>
+    <code name="b_upright" codeno="0x0000000000000002">
+      <decoding protocol="Sejin-2-38" device="2" subdevice="-1" obc="0" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: delta = (4,4); E=0, RMOBC unsupported" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0021 0010 0021 0010 0015 0010 0008 0010 0021 0010 0021 0010 002d 0010 0015 0010 0021 0010 0021 0010 002d 0010 0015 0010 0021 0010 0021 0010 0045 0010 0021 0010 0054</ccf>
+    </code>
+    <code name="b_downleft" codeno="0x0000000000000003">
+      <decoding protocol="Sejin-2-38" device="2" subdevice="-1" obc="0" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: delta = (-4,-4); E=0, RMOBC unsupported" error=""/>
+      <ccf>0000 006d 0010 0000 0028 0021 0010 0021 0010 0021 0010 0015 0010 0008 0010 0045 0010 0021 0010 0021 001c 0045 0010 0021 0010 0021 001c 0021 0010 0021 0010 0045 0010 0008 0010 0054</ccf>
+    </code>
+    <code name="b_downright" codeno="0x0000000000000004">
+      <decoding protocol="Sejin-2-38" device="2" subdevice="-1" obc="0" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: delta = (4,-4); E=0, RMOBC unsupported" error=""/>
+      <ccf>0000 006d 0011 0000 0028 0021 0010 0021 0010 0021 0010 0015 0010 0008 0010 0021 0010 0021 0010 002d 0010 0015 0010 0045 0010 0021 0010 0021 001c 0021 0010 0021 0010 002d 0010 002d 0010 0054</ccf>
+    </code>
+    <code name="b_ok" codeno="0x0000000000000005">
+      <decoding protocol="Sejin-2-38" device="2" subdevice="-1" obc="1" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: Btn down (OBC=Btn nbr); E=0, RMOBC=256" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0021 0010 0021 0010 0015 0010 0015 0010 0015 0010 0021 0010 0021 0010 0021 0010 0021 0010 0021 0010 0021 0010 0021 0010 0021 0010 0021 0010 0039 0010 0008 0010 0054</ccf>
+    </code>
+    <code name="b_hoch" codeno="0x0000000000000006">
+      <decoding protocol="Sejin-2-38" device="2" subdevice="-1" obc="0" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: delta = (0,4); E=0, RMOBC=4100" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0021 0010 0021 0010 0015 0010 0008 0010 0021 0010 0021 0010 0021 0010 0021 0010 0021 0010 0021 0010 002d 0010 0015 0010 0021 0010 0021 0010 0039 0010 002d 0010 0054</ccf>
+    </code>
+    <code name="b_links" codeno="0x0000000000000007">
+      <decoding protocol="Sejin-2-38" device="2" subdevice="-1" obc="0" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: delta = (-4,0); E=0, RMOBC=6396" error=""/>
+      <ccf>0000 006d 0011 0000 0028 0021 0010 0021 0010 0021 0010 0015 0010 0008 0010 0045 0010 0021 0010 0021 001c 0021 0010 0021 0010 0021 0010 0021 0010 0021 0010 0021 0010 0021 0010 0039 0010 0054</ccf>
+    </code>
+    <code name="b_runter" codeno="0x0000000000000008">
+      <decoding protocol="Sejin-2-38" device="2" subdevice="-1" obc="0" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: delta = (0,-4); E=0, RMOBC=4348" error=""/>
+      <ccf>0000 006d 0011 0000 0028 0021 0010 0021 0010 0021 0010 0015 0010 0008 0010 0021 0010 0021 0010 0021 0010 0021 0010 0045 0010 0021 0010 0021 001c 0021 0010 0021 0010 0021 0010 0039 0010 0054</ccf>
+    </code>
+    <code name="b_rechts" codeno="0x0000000000000009">
+      <decoding protocol="Sejin-2-38" device="2" subdevice="-1" obc="0" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: delta = (4,0); E=0, RMOBC=6148" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0021 0010 0021 0010 0015 0010 0008 0010 0021 0010 0021 0010 002d 0010 0015 0010 0021 0010 0021 0010 0021 0010 0021 0010 0021 0010 0021 0010 0039 0010 002d 0010 0054</ccf>
+    </code>
+  </remote>
+  <remote name="itvcontrol-frontside-keys">
+    <lircdata type="RAW_CODES" bits="0" flags="1" eps="30" aeps="100" pthree="0" sthree="0" ptwo="0" stwo="0" pone="0" sone="0" pzero="0" szero="0" plead="0" ptrail="0" pfoot="0" sfoot="0" prepeat="0" srepeat="0" pre_data_bits="0" pre_data="0" post_data_bits="0" post_data="0" pre_p="0" pre_s="0" post_p="0" post_s="0" gap="10535" gap2="0" repeat_gap="0" toggle_bit="0" toggle_bit_mask="0" min_repeat="0" min_code_repeat="0" freq="38000" duty_cycle="0" toggle_mask="0" rc6_mask="0" baud="0" bits_in_byte="0" parity="0" stop_bits="0" ignore_mask="0"/>
+    <code name="b_menu" codeno="0x0000000000000001">
+      <decoding protocol="Sejin-1-38" device="88" subdevice="0" obc="126" hex0="126" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0021 0010 002d 0010 0008 0010 0021 0010 0021 0010 0021 0010 0021 0010 002d 0010 0039 0010 0021 0010 0015 0010 0008 0010 0021 0010 0021 0010 0039 0010 0190</ccf>
+    </code>
+    <code name="b_exit" codeno="0x0000000000000002">
+      <decoding protocol="Sejin-1-38" device="88" subdevice="0" obc="62" hex0="62" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0021 0010 002d 0010 0008 0010 0021 0010 0021 0010 0021 0010 0021 0010 0021 0010 0045 0010 0021 0010 0015 0010 0008 0010 0021 0010 0045 0010 0015 0010 0190</ccf>
+    </code>
+    <code name="b_p+" codeno="0x0000000000000003">
+      <decoding protocol="Sejin-1-38" device="88" subdevice="0" obc="56" hex0="56" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0021 0010 002d 0010 0008 0010 0021 0010 0021 0010 0021 0010 0021 0010 0021 0010 0045 0010 0015 0010 0008 0010 0021 0010 0021 0010 0039 0010 0008 0010 0190</ccf>
+    </code>
+    <code name="b_p-" codeno="0x0000000000000004">
+      <decoding protocol="Sejin-1-38" device="88" subdevice="0" obc="72" hex0="72" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0021 0010 002d 0010 0008 0010 0021 0010 0021 0010 0021 0010 0021 0010 002d 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0039 0010 0015 0010 0190</ccf>
+    </code>
+    <code name="b_vol+" codeno="0x0000000000000005">
+      <decoding protocol="Sejin-1-38" device="88" subdevice="0" obc="88" hex0="88" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0021 0010 002d 0010 0008 0010 0021 0010 0021 0010 0021 0010 0021 0010 002d 0010 0021 0010 002d 0010 0008 0010 0021 0010 0021 0010 0039 0010 0021 0010 0190</ccf>
+    </code>
+    <code name="b_vol-" codeno="0x0000000000000006">
+      <decoding protocol="Sejin-1-38" device="88" subdevice="0" obc="104" hex0="104" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0021 0010 002d 0010 0008 0010 0021 0010 0021 0010 0021 0010 0021 0010 002d 0010 002d 0010 0021 0010 0008 0010 0021 0010 0021 0010 0039 0010 002d 0010 0190</ccf>
+    </code>
+    <code name="b_record" codeno="0x0000000000000007">
+      <decoding protocol="Sejin-1-38" device="88" subdevice="0" obc="14" hex0="14" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0021 0010 002d 0010 0008 0010 0021 0010 0021 0010 0021 0010 0021 0010 0021 0010 0021 0010 0045 0010 0015 0010 0008 0010 0021 0010 0039 0010 002d 0010 0190</ccf>
+    </code>
+    <code name="b_power" codeno="0x0000000000000008">
+      <decoding protocol="Sejin-1-38" device="88" subdevice="0" obc="1" hex0="1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0021 0010 002d 0010 0008 0010 0021 0010 0021 0010 0021 0010 0021 0010 0021 0010 0021 0010 0021 0010 002d 0010 0015 0010 0021 0010 0045 0010 0015 0010 0190</ccf>
+    </code>
+    <code name="b_pause" codeno="0x0000000000000009">
+      <decoding protocol="Sejin-1-38" device="88" subdevice="0" obc="58" hex0="58" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0021 0010 002d 0010 0008 0010 0021 0010 0021 0010 0021 0010 0021 0010 0021 0010 0045 0010 0015 0010 0021 0010 0008 0010 0021 0010 0039 0010 0021 0010 0190</ccf>
+    </code>
+    <code name="b_rew" codeno="0x000000000000000A">
+      <decoding protocol="Sejin-1-38" device="88" subdevice="0" obc="40" hex0="40" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0021 0010 002d 0010 0008 0010 0021 0010 0021 0010 0021 0010 0021 0010 0021 0010 0039 0010 0021 0010 0008 0010 0021 0010 0021 0010 002d 0010 0039 0010 0190</ccf>
+    </code>
+    <code name="b_ff" codeno="0x000000000000000B">
+      <decoding protocol="Sejin-1-38" device="88" subdevice="0" obc="9" hex0="9" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0021 0010 002d 0010 0008 0010 0021 0010 0021 0010 0021 0010 0021 0010 0021 0010 0021 0010 0039 0010 0015 0010 0015 0010 0021 0010 002d 0010 002d 0010 0190</ccf>
+    </code>
+    <code name="b_play" codeno="0x000000000000000C">
+      <decoding protocol="Sejin-1-38" device="88" subdevice="0" obc="57" hex0="57" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0021 0010 002d 0010 0008 0010 0021 0010 0021 0010 0021 0010 0021 0010 0021 0010 0045 0010 0015 0010 0015 0010 0015 0010 0021 0010 0039 0010 0015 0010 0190</ccf>
+    </code>
+    <code name="b_stop" codeno="0x000000000000000D">
+      <decoding protocol="Sejin-1-38" device="88" subdevice="0" obc="73" hex0="73" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0021 0010 002d 0010 0008 0010 0021 0010 0021 0010 0021 0010 0021 0010 002d 0010 0015 0010 0039 0010 0015 0010 0015 0010 0021 0010 0039 0010 0021 0010 0190</ccf>
+    </code>
+    <code name="b_rot" codeno="0x000000000000000E">
+      <decoding protocol="Sejin-1-38" device="88" subdevice="0" obc="16" hex0="16" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0021 0010 002d 0010 0008 0010 0021 0010 0021 0010 0021 0010 0021 0010 0021 0010 002d 0010 0015 0010 0021 0010 0021 0010 0021 0010 0045 0010 0015 0010 0190</ccf>
+    </code>
+    <code name="b_gruen" codeno="0x000000000000000F">
+      <decoding protocol="Sejin-1-38" device="88" subdevice="0" obc="17" hex0="17" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0021 0010 002d 0010 0008 0010 0021 0010 0021 0010 0021 0010 0021 0010 0021 0010 002d 0010 0015 0010 002d 0010 0015 0010 0021 0010 0045 0010 0021 0010 0190</ccf>
+    </code>
+    <code name="b_blau" codeno="0x0000000000000010">
+      <decoding protocol="Sejin-1-38" device="88" subdevice="0" obc="48" hex0="48" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0011 0000 0028 0021 0010 0008 0010 0021 0010 002d 0010 0008 0010 0021 0010 0021 0010 0021 0010 0021 0010 0021 0010 0045 001c 0021 0010 0021 0010 0021 0010 0021 0010 0021 0010 0190</ccf>
+    </code>
+    <code name="b_gelb" codeno="0x0000000000000011">
+      <decoding protocol="Sejin-1-38" device="88" subdevice="0" obc="47" hex0="47" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0011 0000 0028 0021 0010 0008 0010 0021 0010 002d 0010 0008 0010 0021 0010 0021 0010 0021 0010 0021 0010 0021 0010 0039 0010 002d 0010 0021 001c 0021 0010 0045 0010 0015 0010 0190</ccf>
+    </code>
+    <code name="b_vt" codeno="0x0000000000000012">
+      <decoding protocol="Sejin-1-38" device="88" subdevice="0" obc="46" hex0="46" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0021 0010 002d 0010 0008 0010 0021 0010 0021 0010 0021 0010 0021 0010 0021 0010 0039 0010 002d 0010 0015 0010 0008 0010 0021 0010 0045 0010 0008 0010 0190</ccf>
+    </code>
+    <code name="b_0" codeno="0x0000000000000013">
+      <decoding protocol="Sejin-1-38" device="88" subdevice="0" obc="29" hex0="29" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0021 0010 002d 0010 0008 0010 0021 0010 0021 0010 0021 0010 0021 0010 0021 0010 002d 0010 0039 0010 0008 0010 0015 0010 0021 0010 0039 0010 002d 0010 0190</ccf>
+    </code>
+    <code name="b_1" codeno="0x0000000000000014">
+      <decoding protocol="Sejin-1-38" device="88" subdevice="0" obc="89" hex0="89" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0021 0010 002d 0010 0008 0010 0021 0010 0021 0010 0021 0010 0021 0010 002d 0010 0021 0010 002d 0010 0015 0010 0015 0010 0021 0010 0039 0010 002d 0010 0190</ccf>
+    </code>
+    <code name="b_2" codeno="0x0000000000000015">
+      <decoding protocol="Sejin-1-38" device="88" subdevice="0" obc="105" hex0="105" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0011 0000 0028 0021 0010 0008 0010 0021 0010 002d 0010 0008 0010 0021 0010 0021 0010 0021 0010 0021 0010 002d 0010 002d 0010 0021 0010 0015 0010 0015 0010 0021 0010 0045 001c 0190</ccf>
+    </code>
+    <code name="b_3" codeno="0x0000000000000016">
+      <decoding protocol="Sejin-1-38" device="88" subdevice="0" obc="121" hex0="121" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0021 0010 002d 0010 0008 0010 0021 0010 0021 0010 0021 0010 0021 0010 002d 0010 0039 0010 0015 0010 0015 0010 0015 0010 0021 0010 0045 0010 0008 0010 0190</ccf>
+    </code>
+    <code name="b_4" codeno="0x0000000000000017">
+      <decoding protocol="Sejin-1-38" device="88" subdevice="0" obc="28" hex0="28" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0011 0000 0028 0021 0010 0008 0010 0021 0010 002d 0010 0008 0010 0021 0010 0021 0010 0021 0010 0021 0010 0021 0010 002d 0010 0039 001c 0021 0010 0021 0010 0039 0010 0021 0010 0190</ccf>
+    </code>
+    <code name="b_5" codeno="0x0000000000000018">
+      <decoding protocol="Sejin-1-38" device="88" subdevice="0" obc="44" hex0="44" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0011 0000 0028 0021 0010 0008 0010 0021 0010 002d 0010 0008 0010 0021 0010 0021 0010 0021 0010 0021 0010 0021 0010 0039 0010 002d 001c 0021 0010 0021 0010 0039 0010 002d 0010 0190</ccf>
+    </code>
+    <code name="b_6" codeno="0x0000000000000019">
+      <decoding protocol="Sejin-1-38" device="88" subdevice="0" obc="60" hex0="60" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0010 0000 0028 0021 0010 0008 0010 0021 0010 002d 0010 0008 0010 0021 0010 0021 0010 0021 0010 0021 0010 0021 0010 0045 0010 0021 001c 0021 0010 0021 0010 0045 001c 0190</ccf>
+    </code>
+    <code name="b_7" codeno="0x000000000000001A">
+      <decoding protocol="Sejin-1-38" device="88" subdevice="0" obc="76" hex0="76" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0011 0000 0028 0021 0010 0008 0010 0021 0010 002d 0010 0008 0010 0021 0010 0021 0010 0021 0010 0021 0010 002d 0010 0015 0010 0045 001c 0021 0010 0021 0010 0045 0010 0008 0010 0190</ccf>
+    </code>
+    <code name="b_8" codeno="0x000000000000001B">
+      <decoding protocol="Sejin-1-38" device="88" subdevice="0" obc="92" hex0="92" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0011 0000 0028 0021 0010 0008 0010 0021 0010 002d 0010 0008 0010 0021 0010 0021 0010 0021 0010 0021 0010 002d 0010 0021 0010 0039 001c 0021 0010 0021 0010 0045 0010 0015 0010 0190</ccf>
+    </code>
+    <code name="b_9" codeno="0x000000000000001C">
+      <decoding protocol="Sejin-1-38" device="88" subdevice="0" obc="108" hex0="108" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0011 0000 0028 0021 0010 0008 0010 0021 0010 002d 0010 0008 0010 0021 0010 0021 0010 0021 0010 0021 0010 002d 0010 002d 0010 002d 001c 0021 0010 0021 0010 0045 0010 0021 0010 0190</ccf>
+    </code>
+    <code name="b_av" codeno="0x000000000000001D">
+      <decoding protocol="Sejin-1-38" device="88" subdevice="0" obc="23" hex0="23" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0011 0000 0028 0021 0010 0008 0010 0021 0010 002d 0010 0008 0010 0021 0010 0021 0010 0021 0010 0021 0010 0021 0010 002d 0010 0021 0010 0039 001c 0021 0010 002d 0010 0021 0010 0190</ccf>
+    </code>
+    <code name="b_---" codeno="0x000000000000001E">
+      <decoding protocol="Sejin-1-38" device="88" subdevice="0" obc="0" hex0="0" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0021 0010 002d 0010 0008 0010 0021 0010 0021 0010 0021 0010 0021 0010 0021 0010 0021 0010 0021 0010 0021 0010 0021 0010 0021 0010 0045 0010 0008 0010 0190</ccf>
+    </code>
+    <code name="b_select" codeno="0x000000000000001F">
+      <decoding protocol="Sejin-1-38" device="88" subdevice="32" obc="7" hex0="7" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0011 0000 0028 0021 0010 0008 0010 0021 0010 002d 0010 0008 0010 0021 0010 0039 0010 0008 0010 0021 0010 0021 0010 0021 0010 002d 0010 0039 001c 0021 0010 002d 0010 002d 0010 0190</ccf>
+    </code>
+    <code name="b_mute" codeno="0x0000000000000020">
+      <decoding protocol="Sejin-1-38" device="88" subdevice="0" obc="27" hex0="27" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0011 0000 0028 0021 0010 0008 0010 0021 0010 002d 0010 0008 0010 0021 0010 0021 0010 0021 0010 0021 0010 0021 0010 002d 0010 002d 0010 002d 001c 0021 0010 0039 0010 0015 0010 0190</ccf>
+    </code>
+  </remote>
+  <remote name="itvcontrol-keyboard-keys">
+    <lircdata type="RAW_CODES" bits="0" flags="1" eps="30" aeps="100" pthree="0" sthree="0" ptwo="0" stwo="0" pone="0" sone="0" pzero="0" szero="0" plead="0" ptrail="0" pfoot="0" sfoot="0" prepeat="0" srepeat="0" pre_data_bits="0" pre_data="0" post_data_bits="0" post_data="0" pre_p="0" pre_s="0" post_p="0" post_s="0" gap="77500" gap2="0" repeat_gap="0" toggle_bit="0" toggle_bit_mask="0" min_repeat="0" min_code_repeat="0" freq="38000" duty_cycle="0" toggle_mask="0" rc6_mask="0" baud="0" bits_in_byte="0" parity="0" stop_bits="0" ignore_mask="0"/>
+    <code name="b_alt" codeno="0x0000000000000001">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="8" obc="113" hex0="113" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0010 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0039 0010 0008 0010 002d 0010 0039 001c 002d 0010 0015 0010 0021 0010 0045 001c 0b81</ccf>
+    </code>
+    <code name="b_altgr" codeno="0x0000000000000002">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="4" obc="33" hex0="33" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 002d 0010 0015 0010 0021 0010 0039 0010 0008 0010 002d 0010 0015 0010 0021 0010 0021 0010 0045 0010 0b81</ccf>
+    </code>
+    <code name="b_strg" codeno="0x0000000000000003">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="2" obc="95" hex0="95" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0011 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0021 0010 0039 0010 0015 0010 0021 0010 0039 0010 0021 001c 0021 0010 0021 0010 0039 0010 0b81</ccf>
+    </code>
+    <code name="b_lshift" codeno="0x0000000000000004">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="32" obc="7" hex0="7" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0011 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0039 0010 0008 0010 0021 0010 0021 0010 0021 0010 002d 0010 0039 001c 0021 0010 002d 0010 0021 0010 0b81</ccf>
+    </code>
+    <code name="b_rshift" codeno="0x0000000000000005">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="16" obc="55" hex0="55" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0011 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 002d 0010 0015 0010 0021 0010 0021 0010 0045 0010 0008 0010 0039 001c 0021 0010 002d 0010 0039 0010 0b81</ccf>
+    </code>
+    <code name="b_caps" codeno="0x0000000000000006">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="64" obc="115" hex0="115" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0010 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 002d 0010 0015 0010 0021 0010 0021 0010 002d 0010 0039 001c 0045 001c 0021 0010 0039 0010 0021 0010 0b81</ccf>
+    </code>
+    <code name="b_backspace" codeno="0x0000000000000007">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="0" obc="76" hex0="76" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0010 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0021 0010 0021 0010 002d 0010 0015 0010 0045 001c 0021 0010 0021 0010 0045 001c 0b81</ccf>
+    </code>
+    <code name="b_ctrl_backspace" codeno="0x0000000000000008">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="2" obc="76" hex0="76" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0011 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0021 0010 0039 0010 0015 0010 0015 0010 0045 001c 0021 0010 0021 0010 0045 0010 0015 0010 0b81</ccf>
+    </code>
+    <code name="b_altgr_backspace" codeno="0x0000000000000009">
+      <ccf>0000 006d 0011 0000 0028 0021 0010 0008 0010 0015 0010 003d 0010 0008 0010 0021 0010 0021 0010 002d 0010 0015 0010 002d 0010 0015 0010 0045 001c 0021 0010 0021 0010 0021 0010 0021 0010 0b81</ccf>
+    </code>
+    <code name="b_alt_backspace" codeno="0x000000000000000A">
+      <ccf>0000 006d 0011 0000 0028 0021 0010 0008 0010 0015 0010 003d 0010 0010 0010 0021 0010 0021 0010 003d 0010 0008 0010 002d 0010 0015 0010 0045 001c 0021 0010 0021 0010 002d 0010 0015 0010 0b81</ccf>
+    </code>
+    <code name="b_tab" codeno="0x000000000000000B">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="0" obc="3" hex0="3" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0011 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0021 0010 0021 0010 0021 0010 0021 0010 0021 0010 0045 001c 0021 0010 0045 0010 0021 0010 0b81</ccf>
+    </code>
+    <code name="b_enter" codeno="0x000000000000000C">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="0" obc="11" hex0="11" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0011 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0021 0010 0021 0010 0021 0010 0021 0010 0039 0010 002d 001c 0021 0010 002d 0010 0039 0010 0b81</ccf>
+    </code>
+    <code name="b_esc" codeno="0x000000000000000D">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="0" obc="67" hex0="67" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0011 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0021 0010 0021 0010 002d 0010 0015 0010 0021 0010 0045 001c 0021 0010 0021 0010 0045 0010 0b81</ccf>
+    </code>
+    <code name="b_kdown" codeno="0x000000000000000E">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="0" obc="13" hex0="13" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0021 0010 0021 0010 0021 0010 0021 0010 0045 0010 0008 0010 0015 0010 0021 0010 0039 0010 0015 0010 0b81</ccf>
+    </code>
+    <code name="b_ctrl_kdown" codeno="0x000000000000000F">
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0021 0010 0039 0010 0008 0010 0021 0010 0045 0010 0010 0010 0015 0010 0021 0010 0039 0010 002d 0010 0b81</ccf>
+    </code>
+    <code name="b_kleft" codeno="0x0000000000000010">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="0" obc="60" hex0="60" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0011 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0021 0010 0021 0010 0021 0010 0045 0010 0021 001c 0021 0010 0021 0010 0039 0010 002d 0010 0b81</ccf>
+    </code>
+    <code name="b_ctrl_kleft" codeno="0x0000000000000011">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="2" obc="60" hex0="60" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0011 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0021 0010 0039 0010 0008 0010 0045 0010 0021 001c 0021 0010 0021 0010 0045 0010 0008 0010 0b81</ccf>
+    </code>
+    <code name="b_kright" codeno="0x0000000000000012">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="0" obc="78" hex0="78" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0021 0010 0021 0010 002d 0010 0015 0010 0045 0010 0015 0010 0008 0010 0021 0010 0045 0010 0015 0010 0b81</ccf>
+    </code>
+    <code name="b_ctrl_kright" codeno="0x0000000000000013">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="2" obc="78" hex0="78" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0021 0010 0039 0010 0015 0010 0015 0010 0045 0010 0015 0010 0008 0010 0021 0010 0021 0010 0021 0010 0b81</ccf>
+    </code>
+    <code name="b_kup" codeno="0x0000000000000014">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="0" obc="59" hex0="59" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0011 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0021 0010 0021 0010 0021 0010 0045 0010 0015 0010 002d 001c 0021 0010 0039 0010 0021 0010 0b81</ccf>
+    </code>
+    <code name="b_ctrl_kup" codeno="0x0000000000000015">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="2" obc="59" hex0="59" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0010 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0021 0010 0039 0010 0008 0010 0045 0010 0015 0010 002d 001c 0021 0010 0045 001c 0b81</ccf>
+    </code>
+    <code name="b_space" codeno="0x0000000000000016">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="0" obc="5" hex0="5" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0021 0010 0021 0010 0021 0010 0021 0010 002d 0010 0021 0010 0015 0010 0021 0010 0021 0010 002d 0010 0b81</ccf>
+    </code>
+    <code name="b_<" codeno="0x0000000000000017">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="0" obc="114" hex0="114" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0011 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0021 0010 0021 0010 002d 0010 0039 001c 0039 0010 0008 0010 0021 0010 002d 0010 0021 0010 0b81</ccf>
+    </code>
+    <code name="b_shift_<" codeno="0x0000000000000018">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="32" obc="114" hex0="114" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0011 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0039 0010 0008 0010 0021 0010 002d 0010 0039 001c 0039 0010 0008 0010 0021 0010 002d 0010 0039 0010 0b81</ccf>
+    </code>
+    <code name="b_rshift_<" codeno="0x0000000000000019">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="16" obc="114" hex0="114" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0011 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 002d 0010 0015 0010 0021 0010 002d 0010 0039 001c 0039 0010 0008 0010 0021 0010 002d 0010 002d 0010 0b81</ccf>
+    </code>
+    <code name="b_altgr_<" codeno="0x000000000000001A">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="4" obc="114" hex0="114" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0011 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 002d 0010 0015 0010 002d 0010 0039 001c 0039 0010 0008 0010 0021 0010 0039 0010 0015 0010 0b81</ccf>
+    </code>
+    <code name="b_," codeno="0x000000000000001B">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="0" obc="56" hex0="56" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0021 0010 0021 0010 0021 0010 0045 0010 0015 0010 0008 0010 0021 0010 0021 0010 002d 0010 0039 0010 0b81</ccf>
+    </code>
+    <code name="b_shift_," codeno="0x000000000000001C">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="32" obc="56" hex0="56" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0039 0010 0008 0010 0021 0010 0021 0010 0045 0010 0015 0010 0008 0010 0021 0010 0021 0010 0039 0010 0015 0010 0b81</ccf>
+    </code>
+    <code name="b_rshift_," codeno="0x000000000000001D">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="16" obc="56" hex0="56" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 002d 0010 0015 0010 0021 0010 0021 0010 0045 0010 0015 0010 0008 0010 0021 0010 0021 0010 0039 0010 0008 0010 0b81</ccf>
+    </code>
+    <code name="b_altgr_," codeno="0x000000000000001E">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="4" obc="56" hex0="56" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 002d 0010 0015 0010 0021 0010 0045 0010 0015 0010 0008 0010 0021 0010 0021 0010 0039 0010 002d 0010 0b81</ccf>
+    </code>
+    <code name="b_." codeno="0x000000000000001F">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="0" obc="57" hex0="57" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0021 0010 0021 0010 0021 0010 0045 0010 0015 0010 0015 0010 0015 0010 0021 0010 0039 0010 0008 0010 0b81</ccf>
+    </code>
+    <code name="b_shift_." codeno="0x0000000000000020">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="32" obc="57" hex0="57" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0039 0010 0008 0010 0021 0010 0021 0010 0045 0010 0015 0010 0015 0010 0015 0010 0021 0010 0039 0010 0021 0010 0b81</ccf>
+    </code>
+    <code name="b_rshift_." codeno="0x0000000000000021">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="16" obc="57" hex0="57" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 002d 0010 0015 0010 0021 0010 0021 0010 0045 0010 0015 0010 0015 0010 0015 0010 0021 0010 0039 0010 0015 0010 0b81</ccf>
+    </code>
+    <code name="b_altgr_." codeno="0x0000000000000022">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="4" obc="57" hex0="57" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0011 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 002d 0010 0015 0010 0021 0010 0045 0010 0015 0010 0015 0010 0015 0010 0021 0010 0045 001c 0b81</ccf>
+    </code>
+    <code name="b_f1" codeno="0x0000000000000023">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="0" obc="83" hex0="83" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0011 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0021 0010 0021 0010 002d 0010 0021 0010 0015 0010 0045 001c 0021 0010 002d 0010 0015 0010 0b81</ccf>
+    </code>
+    <code name="b_shift_f1" codeno="0x0000000000000024">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="32" obc="83" hex0="83" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0011 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0039 0010 0008 0010 0021 0010 002d 0010 0021 0010 0015 0010 0045 001c 0021 0010 002d 0010 002d 0010 0b81</ccf>
+    </code>
+    <code name="b_rshift_f1" codeno="0x0000000000000025">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="16" obc="83" hex0="83" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0011 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 002d 0010 0015 0010 0021 0010 002d 0010 0021 0010 0015 0010 0045 001c 0021 0010 002d 0010 0021 0010 0b81</ccf>
+    </code>
+    <code name="b_altgr_f1" codeno="0x0000000000000026">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="4" obc="83" hex0="83" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0011 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 002d 0010 0015 0010 002d 0010 0021 0010 0015 0010 0045 001c 0021 0010 0039 0010 0008 0010 0b81</ccf>
+    </code>
+    <code name="b_f2" codeno="0x0000000000000027">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="0" obc="82" hex0="82" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0021 0010 0021 0010 002d 0010 0021 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0045 0010 0b81</ccf>
+    </code>
+    <code name="b_shift_f2" codeno="0x0000000000000028">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="32" obc="82" hex0="82" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0039 0010 0008 0010 0021 0010 002d 0010 0021 0010 0015 0010 0039 0010 0008 0010 0021 0010 002d 0010 0021 0010 0b81</ccf>
+    </code>
+    <code name="b_rshift_f2" codeno="0x0000000000000029">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="16" obc="82" hex0="82" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 002d 0010 0015 0010 0021 0010 002d 0010 0021 0010 0015 0010 0039 0010 0008 0010 0021 0010 002d 0010 0015 0010 0b81</ccf>
+    </code>
+    <code name="b_altgr_f2" codeno="0x000000000000002A">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="4" obc="82" hex0="82" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 002d 0010 0015 0010 002d 0010 0021 0010 0015 0010 0039 0010 0008 0010 0021 0010 002d 0010 0039 0010 0b81</ccf>
+    </code>
+    <code name="b_f3" codeno="0x000000000000002B">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="0" obc="66" hex0="66" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0021 0010 0021 0010 002d 0010 0015 0010 0021 0010 0039 0010 0008 0010 0021 0010 0021 0010 0039 0010 0b81</ccf>
+    </code>
+    <code name="b_shift_f3" codeno="0x000000000000002C">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="32" obc="66" hex0="66" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0039 0010 0008 0010 0021 0010 002d 0010 0015 0010 0021 0010 0039 0010 0008 0010 0021 0010 002d 0010 0015 0010 0b81</ccf>
+    </code>
+    <code name="b_rshift_f3" codeno="0x000000000000002D">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="16" obc="66" hex0="66" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 002d 0010 0015 0010 0021 0010 002d 0010 0015 0010 0021 0010 0039 0010 0008 0010 0021 0010 0021 0010 0045 0010 0b81</ccf>
+    </code>
+    <code name="b_altgr_f3" codeno="0x000000000000002E">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="4" obc="66" hex0="66" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 002d 0010 0015 0010 002d 0010 0015 0010 0021 0010 0039 0010 0008 0010 0021 0010 002d 0010 002d 0010 0b81</ccf>
+    </code>
+    <code name="b_f4" codeno="0x000000000000002F">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="0" obc="84" hex0="84" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0021 0010 0021 0010 002d 0010 0021 0010 0021 0010 0015 0010 0021 0010 0021 0010 002d 0010 0021 0010 0b81</ccf>
+    </code>
+    <code name="b_shift_f4" codeno="0x0000000000000030">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="32" obc="84" hex0="84" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0039 0010 0008 0010 0021 0010 002d 0010 0021 0010 0021 0010 0015 0010 0021 0010 0021 0010 002d 0010 0039 0010 0b81</ccf>
+    </code>
+    <code name="b_rshift_f4" codeno="0x0000000000000031">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="16" obc="84" hex0="84" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 002d 0010 0015 0010 0021 0010 002d 0010 0021 0010 0021 0010 0015 0010 0021 0010 0021 0010 002d 0010 002d 0010 0b81</ccf>
+    </code>
+    <code name="b_altgr_f4" codeno="0x0000000000000032">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="4" obc="84" hex0="84" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 002d 0010 0015 0010 002d 0010 0021 0010 0021 0010 0015 0010 0021 0010 0021 0010 0039 0010 0015 0010 0b81</ccf>
+    </code>
+    <code name="b_f5" codeno="0x0000000000000033">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="0" obc="68" hex0="68" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0021 0010 0021 0010 002d 0010 0015 0010 002d 0010 0015 0010 0021 0010 0021 0010 002d 0010 0015 0010 0b81</ccf>
+    </code>
+    <code name="b_shift_f5" codeno="0x0000000000000034">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="32" obc="68" hex0="68" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0039 0010 0008 0010 0021 0010 002d 0010 0015 0010 002d 0010 0015 0010 0021 0010 0021 0010 002d 0010 002d 0010 0b81</ccf>
+    </code>
+    <code name="b_rshift_f5" codeno="0x0000000000000035">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="16" obc="68" hex0="68" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 002d 0010 0015 0010 0021 0010 002d 0010 0015 0010 002d 0010 0015 0010 0021 0010 0021 0010 002d 0010 0021 0010 0b81</ccf>
+    </code>
+    <code name="b_altgr_f5" codeno="0x0000000000000036">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="4" obc="68" hex0="68" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 002d 0010 0015 0010 002d 0010 0015 0010 002d 0010 0015 0010 0021 0010 0021 0010 0039 0010 0008 0010 0b81</ccf>
+    </code>
+    <code name="b_f6" codeno="0x0000000000000037">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="0" obc="72" hex0="72" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0021 0010 0021 0010 002d 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0039 0010 0008 0010 0b81</ccf>
+    </code>
+    <code name="b_shift_f6" codeno="0x0000000000000038">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="32" obc="72" hex0="72" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0039 0010 0008 0010 0021 0010 002d 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0039 0010 0021 0010 0b81</ccf>
+    </code>
+    <code name="b_rshift_f6" codeno="0x0000000000000039">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="16" obc="72" hex0="72" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 002d 0010 0015 0010 0021 0010 002d 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0039 0010 0015 0010 0b81</ccf>
+    </code>
+    <code name="b_altgr_f6" codeno="0x000000000000003A">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="4" obc="72" hex0="72" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0011 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 002d 0010 0015 0010 002d 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0045 001c 0b81</ccf>
+    </code>
+    <code name="b_f7" codeno="0x000000000000003B">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="0" obc="88" hex0="88" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0021 0010 0021 0010 002d 0010 0021 0010 002d 0010 0008 0010 0021 0010 0021 0010 0039 0010 0015 0010 0b81</ccf>
+    </code>
+    <code name="b_shift_f7" codeno="0x000000000000003C">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="32" obc="88" hex0="88" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0039 0010 0008 0010 0021 0010 002d 0010 0021 0010 002d 0010 0008 0010 0021 0010 0021 0010 0039 0010 002d 0010 0b81</ccf>
+    </code>
+    <code name="b_rshift_f7" codeno="0x000000000000003D">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="16" obc="88" hex0="88" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 002d 0010 0015 0010 0021 0010 002d 0010 0021 0010 002d 0010 0008 0010 0021 0010 0021 0010 0039 0010 0021 0010 0b81</ccf>
+    </code>
+    <code name="b_altgr_f7" codeno="0x000000000000003E">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="4" obc="88" hex0="88" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 002d 0010 0015 0010 002d 0010 0021 0010 002d 0010 0008 0010 0021 0010 0021 0010 0045 0010 0008 0010 0b81</ccf>
+    </code>
+    <code name="b_f8" codeno="0x000000000000003F">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="0" obc="73" hex0="73" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0021 0010 0021 0010 002d 0010 0015 0010 0039 0010 0015 0010 0015 0010 0021 0010 0039 0010 0015 0010 0b81</ccf>
+    </code>
+    <code name="b_shift_f8" codeno="0x0000000000000040">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="32" obc="73" hex0="73" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0039 0010 0008 0010 0021 0010 002d 0010 0015 0010 0039 0010 0015 0010 0015 0010 0021 0010 0039 0010 002d 0010 0b81</ccf>
+    </code>
+    <code name="b_rshift_f8" codeno="0x0000000000000041">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="16" obc="73" hex0="73" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 002d 0010 0015 0010 0021 0010 002d 0010 0015 0010 0039 0010 0015 0010 0015 0010 0021 0010 0039 0010 0021 0010 0b81</ccf>
+    </code>
+    <code name="b_altgr_f8" codeno="0x0000000000000042">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="4" obc="73" hex0="73" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 002d 0010 0015 0010 002d 0010 0015 0010 0039 0010 0015 0010 0015 0010 0021 0010 0045 0010 0008 0010 0b81</ccf>
+    </code>
+    <code name="b_f9" codeno="0x0000000000000043">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="0" obc="89" hex0="89" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0021 0010 0021 0010 002d 0010 0021 0010 002d 0010 0015 0010 0015 0010 0021 0010 0039 0010 0021 0010 0b81</ccf>
+    </code>
+    <code name="b_shift_f9" codeno="0x0000000000000044">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="32" obc="89" hex0="89" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0011 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0039 0010 0008 0010 0021 0010 002d 0010 0021 0010 002d 0010 0015 0010 0015 0010 0021 0010 0045 001c 0b81</ccf>
+    </code>
+    <code name="b_rshift_f9" codeno="0x0000000000000045">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="16" obc="89" hex0="89" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 002d 0010 0015 0010 0021 0010 002d 0010 0021 0010 002d 0010 0015 0010 0015 0010 0021 0010 0039 0010 002d 0010 0b81</ccf>
+    </code>
+    <code name="b_altgr_f9" codeno="0x0000000000000046">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="4" obc="89" hex0="89" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 002d 0010 0015 0010 002d 0010 0021 0010 002d 0010 0015 0010 0015 0010 0021 0010 0045 0010 0015 0010 0b81</ccf>
+    </code>
+    <code name="b_f10" codeno="0x0000000000000047">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="0" obc="121" hex0="121" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0011 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0021 0010 0021 0010 002d 0010 0039 0010 0015 0010 0015 0010 0015 0010 0021 0010 0045 001c 0b81</ccf>
+    </code>
+    <code name="b_shift_f10" codeno="0x0000000000000048">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="32" obc="121" hex0="121" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0039 0010 0008 0010 0021 0010 002d 0010 0039 0010 0015 0010 0015 0010 0015 0010 0021 0010 0045 0010 0015 0010 0b81</ccf>
+    </code>
+    <code name="b_rshift_f10" codeno="0x0000000000000049">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="16" obc="121" hex0="121" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 002d 0010 0015 0010 0021 0010 002d 0010 0039 0010 0015 0010 0015 0010 0015 0010 0021 0010 0045 0010 0008 0010 0b81</ccf>
+    </code>
+    <code name="b_altgr_f10" codeno="0x000000000000004A">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="4" obc="121" hex0="121" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 002d 0010 0015 0010 002d 0010 0039 0010 0015 0010 0015 0010 0015 0010 0021 0010 0021 0010 0021 0010 0b81</ccf>
+    </code>
+    <code name="b_f11" codeno="0x000000000000004B">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="0" obc="120" hex0="120" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0021 0010 0021 0010 002d 0010 0039 0010 0015 0010 0008 0010 0021 0010 0021 0010 0039 0010 002d 0010 0b81</ccf>
+    </code>
+    <code name="b_shift_f11" codeno="0x000000000000004C">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="32" obc="120" hex0="120" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0039 0010 0008 0010 0021 0010 002d 0010 0039 0010 0015 0010 0008 0010 0021 0010 0021 0010 0045 0010 0008 0010 0b81</ccf>
+    </code>
+    <code name="b_rshift_f11" codeno="0x000000000000004D">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="16" obc="120" hex0="120" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0011 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 002d 0010 0015 0010 0021 0010 002d 0010 0039 0010 0015 0010 0008 0010 0021 0010 0021 0010 0045 001c 0b81</ccf>
+    </code>
+    <code name="b_altgr_f11" codeno="0x000000000000004E">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="4" obc="120" hex0="120" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 002d 0010 0015 0010 002d 0010 0039 0010 0015 0010 0008 0010 0021 0010 0021 0010 0045 0010 0021 0010 0b81</ccf>
+    </code>
+    <code name="b_a" codeno="0x000000000000004F">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="0" obc="18" hex0="18" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0021 0010 0021 0010 0021 0010 002d 0010 0015 0010 0039 0010 0008 0010 0021 0010 0045 0010 0021 0010 0b81</ccf>
+    </code>
+    <code name="b_shift_a" codeno="0x0000000000000050">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="32" obc="18" hex0="18" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0039 0010 0008 0010 0021 0010 0021 0010 002d 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 002d 0010 0b81</ccf>
+    </code>
+    <code name="b_rshift_a" codeno="0x0000000000000051">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="16" obc="18" hex0="18" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 002d 0010 0015 0010 0021 0010 0021 0010 002d 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0021 0010 0b81</ccf>
+    </code>
+    <code name="b_alt_a" codeno="0x0000000000000052">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="8" obc="18" hex0="18" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0039 0010 0008 0010 0021 0010 002d 0010 0015 0010 0039 0010 0008 0010 0021 0010 002d 0010 0039 0010 0b81</ccf>
+    </code>
+    <code name="b_ctrl_a" codeno="0x0000000000000053">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="2" obc="18" hex0="18" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0021 0010 0039 0010 0008 0010 002d 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 002d 0010 0b81</ccf>
+    </code>
+    <code name="b_altgr_a" codeno="0x0000000000000054">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="4" obc="18" hex0="18" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 002d 0010 0015 0010 0021 0010 002d 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0045 0010 0b81</ccf>
+    </code>
+    <code name="b_aa" codeno="0x0000000000000055">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="0" obc="6" hex0="6" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0021 0010 0021 0010 0021 0010 0021 0010 002d 0010 002d 0010 0008 0010 0021 0010 0021 0010 0039 0010 0b81</ccf>
+    </code>
+    <code name="b_shift_aa" codeno="0x0000000000000056">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="32" obc="6" hex0="6" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0039 0010 0008 0010 0021 0010 0021 0010 0021 0010 002d 0010 002d 0010 0008 0010 0021 0010 002d 0010 0015 0010 0b81</ccf>
+    </code>
+    <code name="b_rshift_aa" codeno="0x0000000000000057">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="16" obc="6" hex0="6" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 002d 0010 0015 0010 0021 0010 0021 0010 0021 0010 002d 0010 002d 0010 0008 0010 0021 0010 0021 0010 0045 0010 0b81</ccf>
+    </code>
+    <code name="b_altgr_aa" codeno="0x0000000000000058">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="4" obc="6" hex0="6" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 002d 0010 0015 0010 0021 0010 0021 0010 002d 0010 002d 0010 0008 0010 0021 0010 002d 0010 002d 0010 0b81</ccf>
+    </code>
+    <code name="b_shift_altgr_aa" codeno="0x0000000000000059">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="36" obc="6" hex0="6" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0039 0010 0015 0010 0015 0010 0021 0010 0021 0010 002d 0010 002d 0010 0008 0010 0021 0010 0039 0010 0008 0010 0b81</ccf>
+    </code>
+    <code name="b_rshift_altgr_aa" codeno="0x000000000000005A">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="20" obc="6" hex0="6" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 002d 0010 0021 0010 0015 0010 0021 0010 0021 0010 002d 0010 002d 0010 0008 0010 0021 0010 002d 0010 0039 0010 0b81</ccf>
+    </code>
+    <code name="b_b" codeno="0x000000000000005B">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="0" obc="2" hex0="2" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0021 0010 0021 0010 0021 0010 0021 0010 0021 0010 0039 0010 0008 0010 0021 0010 0045 0010 0015 0010 0b81</ccf>
+    </code>
+    <code name="b_shift_b" codeno="0x000000000000005C">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="32" obc="2" hex0="2" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0039 0010 0008 0010 0021 0010 0021 0010 0021 0010 0021 0010 0039 0010 0008 0010 0021 0010 0021 0010 0021 0010 0b81</ccf>
+    </code>
+    <code name="b_rshift_b" codeno="0x000000000000005D">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="16" obc="2" hex0="2" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 002d 0010 0015 0010 0021 0010 0021 0010 0021 0010 0021 0010 0039 0010 0008 0010 0021 0010 0045 0010 0021 0010 0b81</ccf>
+    </code>
+    <code name="b_alt_b" codeno="0x000000000000005E">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="8" obc="2" hex0="2" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0039 0010 0008 0010 0021 0010 0021 0010 0021 0010 0039 0010 0008 0010 0021 0010 002d 0010 002d 0010 0b81</ccf>
+    </code>
+    <code name="b_ctrl_b" codeno="0x000000000000005F">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="2" obc="2" hex0="2" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0021 0010 0039 0010 0008 0010 0021 0010 0021 0010 0039 0010 0008 0010 0021 0010 0021 0010 0021 0010 0b81</ccf>
+    </code>
+    <code name="b_altgr_b" codeno="0x0000000000000060">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="4" obc="2" hex0="2" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 002d 0010 0015 0010 0021 0010 0021 0010 0021 0010 0039 0010 0008 0010 0021 0010 0021 0010 0039 0010 0b81</ccf>
+    </code>
+    <code name="b_c" codeno="0x0000000000000061">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="0" obc="52" hex0="52" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0021 0010 0021 0010 0021 0010 0045 0010 0008 0010 0015 0010 0021 0010 0021 0010 0021 0010 0045 0010 0b81</ccf>
+    </code>
+    <code name="b_shift_c" codeno="0x0000000000000062">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="32" obc="52" hex0="52" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0039 0010 0008 0010 0021 0010 0021 0010 0045 0010 0008 0010 0015 0010 0021 0010 0021 0010 002d 0010 0021 0010 0b81</ccf>
+    </code>
+    <code name="b_rshift_c" codeno="0x0000000000000063">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="16" obc="52" hex0="52" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 002d 0010 0015 0010 0021 0010 0021 0010 0045 0010 0008 0010 0015 0010 0021 0010 0021 0010 002d 0010 0015 0010 0b81</ccf>
+    </code>
+    <code name="b_alt_c" codeno="0x0000000000000064">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="8" obc="52" hex0="52" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0039 0010 0008 0010 0021 0010 0045 0010 0008 0010 0015 0010 0021 0010 0021 0010 0039 0010 002d 0010 0b81</ccf>
+    </code>
+    <code name="b_ctrl_c" codeno="0x0000000000000065">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="2" obc="52" hex0="52" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0021 0010 0039 0010 0008 0010 0045 0010 0008 0010 0015 0010 0021 0010 0021 0010 002d 0010 0021 0010 0b81</ccf>
+    </code>
+    <code name="b_altgr_c" codeno="0x0000000000000066">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="4" obc="52" hex0="52" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 002d 0010 0015 0010 0021 0010 0045 0010 0008 0010 0015 0010 0021 0010 0021 0010 002d 0010 0039 0010 0b81</ccf>
+    </code>
+    <code name="b_d" codeno="0x0000000000000067">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="0" obc="20" hex0="20" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0021 0010 0021 0010 0021 0010 002d 0010 0021 0010 0015 0010 0021 0010 0021 0010 0021 0010 002d 0010 0b81</ccf>
+    </code>
+    <code name="b_shift_d" codeno="0x0000000000000068">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="32" obc="20" hex0="20" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0039 0010 0008 0010 0021 0010 0021 0010 002d 0010 0021 0010 0015 0010 0021 0010 0021 0010 0021 0010 0045 0010 0b81</ccf>
+    </code>
+    <code name="b_rshift_d" codeno="0x0000000000000069">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="16" obc="20" hex0="20" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 002d 0010 0015 0010 0021 0010 0021 0010 002d 0010 0021 0010 0015 0010 0021 0010 0021 0010 0021 0010 0039 0010 0b81</ccf>
+    </code>
+    <code name="b_alt_d" codeno="0x000000000000006A">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="8" obc="20" hex0="20" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0039 0010 0008 0010 0021 0010 002d 0010 0021 0010 0015 0010 0021 0010 0021 0010 0039 0010 0015 0010 0b81</ccf>
+    </code>
+    <code name="b_ctrl_d" codeno="0x000000000000006B">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="2" obc="20" hex0="20" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0021 0010 0039 0010 0008 0010 002d 0010 0021 0010 0015 0010 0021 0010 0021 0010 0021 0010 0045 0010 0b81</ccf>
+    </code>
+    <code name="b_altgr_d" codeno="0x000000000000006C">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="4" obc="20" hex0="20" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 002d 0010 0015 0010 0021 0010 002d 0010 0021 0010 0015 0010 0021 0010 0021 0010 002d 0010 0021 0010 0b81</ccf>
+    </code>
+    <code name="b_e" codeno="0x000000000000006D">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="0" obc="36" hex0="36" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0021 0010 0021 0010 0021 0010 0039 0010 0015 0010 0015 0010 0021 0010 0021 0010 0021 0010 0039 0010 0b81</ccf>
+    </code>
+    <code name="b_shift_e" codeno="0x000000000000006E">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="32" obc="36" hex0="36" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0039 0010 0008 0010 0021 0010 0021 0010 0039 0010 0015 0010 0015 0010 0021 0010 0021 0010 002d 0010 0015 0010 0b81</ccf>
+    </code>
+    <code name="b_rshift_e" codeno="0x000000000000006F">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="16" obc="36" hex0="36" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 002d 0010 0015 0010 0021 0010 0021 0010 0039 0010 0015 0010 0015 0010 0021 0010 0021 0010 0021 0010 0045 0010 0b81</ccf>
+    </code>
+    <code name="b_alt_e" codeno="0x0000000000000070">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="8" obc="36" hex0="36" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0039 0010 0008 0010 0021 0010 0039 0010 0015 0010 0015 0010 0021 0010 0021 0010 0039 0010 0021 0010 0b81</ccf>
+    </code>
+    <code name="b_ctrl_e" codeno="0x0000000000000071">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="2" obc="36" hex0="36" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0021 0010 0039 0010 0008 0010 0039 0010 0015 0010 0015 0010 0021 0010 0021 0010 002d 0010 0015 0010 0b81</ccf>
+    </code>
+    <code name="b_altgr_e" codeno="0x0000000000000072">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="4" obc="36" hex0="36" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 002d 0010 0015 0010 0021 0010 0039 0010 0015 0010 0015 0010 0021 0010 0021 0010 002d 0010 002d 0010 0b81</ccf>
+    </code>
+    <code name="b_f" codeno="0x0000000000000073">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="0" obc="21" hex0="21" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0021 0010 0021 0010 0021 0010 002d 0010 0021 0010 0021 0010 0015 0010 0021 0010 0021 0010 0039 0010 0b81</ccf>
+    </code>
+    <code name="b_shift_f" codeno="0x0000000000000074">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="32" obc="21" hex0="21" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0039 0010 0008 0010 0021 0010 0021 0010 002d 0010 0021 0010 0021 0010 0015 0010 0021 0010 002d 0010 0015 0010 0b81</ccf>
+    </code>
+    <code name="b_rshift_f" codeno="0x0000000000000075">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="16" obc="21" hex0="21" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 002d 0010 0015 0010 0021 0010 0021 0010 002d 0010 0021 0010 0021 0010 0015 0010 0021 0010 0021 0010 0045 0010 0b81</ccf>
+    </code>
+    <code name="b_alt_f" codeno="0x0000000000000076">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="8" obc="21" hex0="21" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0039 0010 0008 0010 0021 0010 002d 0010 0021 0010 0021 0010 0015 0010 0021 0010 0039 0010 0021 0010 0b81</ccf>
+    </code>
+    <code name="b_ctrl_f" codeno="0x0000000000000077">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="2" obc="21" hex0="21" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0021 0010 0039 0010 0008 0010 002d 0010 0021 0010 0021 0010 0015 0010 0021 0010 002d 0010 0015 0010 0b81</ccf>
+    </code>
+    <code name="b_altgr_f" codeno="0x0000000000000078">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="4" obc="21" hex0="21" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=5, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 002d 0010 0015 0010 0021 0010 002d 0010 0021 0010 0021 0010 001c 0010 0021 0010 002d 0010 002d 0010 0b81</ccf>
+    </code>
+    <code name="b_g" codeno="0x0000000000000079">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="0" obc="85" hex0="85" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0021 0010 0021 0010 002d 0010 0021 0010 0021 0010 0021 0010 0015 0010 0021 0010 002d 0010 002d 0010 0b81</ccf>
+    </code>
+    <code name="b_shift_g" codeno="0x000000000000007A">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="32" obc="85" hex0="85" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0039 0010 0008 0010 0021 0010 002d 0010 0021 0010 0021 0010 0021 0010 0015 0010 0021 0010 0039 0010 0008 0010 0b81</ccf>
+    </code>
+    <code name="b_rshift_g" codeno="0x000000000000007B">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="16" obc="85" hex0="85" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 002d 0010 0015 0010 0021 0010 002d 0010 0021 0010 0021 0010 0021 0010 0015 0010 0021 0010 002d 0010 0039 0010 0b81</ccf>
+    </code>
+    <code name="b_alt_g" codeno="0x000000000000007C">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="8" obc="85" hex0="85" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0039 0010 0008 0010 002d 0010 0021 0010 0021 0010 0021 0010 0015 0010 0021 0010 0045 0010 0015 0010 0b81</ccf>
+    </code>
+    <code name="b_ctrl_g" codeno="0x000000000000007D">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="2" obc="85" hex0="85" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0021 0010 0039 0010 0015 0010 0021 0010 0021 0010 0021 0010 0015 0010 0021 0010 0039 0010 0008 0010 0b81</ccf>
+    </code>
+    <code name="b_altgr_g" codeno="0x000000000000007E">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="4" obc="85" hex0="85" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 002d 0010 0015 0010 002d 0010 0021 0010 0021 0010 0021 0010 0015 0010 0021 0010 0039 0010 0021 0010 0b81</ccf>
+    </code>
+    <code name="b_h" codeno="0x000000000000007F">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="0" obc="86" hex0="86" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0021 0010 0021 0010 002d 0010 0021 0010 0021 0010 002d 0010 0008 0010 0021 0010 002d 0010 0039 0010 0b81</ccf>
+    </code>
+    <code name="b_shift_h" codeno="0x0000000000000080">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="32" obc="86" hex0="86" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0039 0010 0008 0010 0021 0010 002d 0010 0021 0010 0021 0010 002d 0010 0008 0010 0021 0010 0039 0010 0015 0010 0b81</ccf>
+    </code>
+    <code name="b_rshift_h" codeno="0x0000000000000081">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="16" obc="86" hex0="86" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 002d 0010 0015 0010 0021 0010 002d 0010 0021 0010 0021 0010 002d 0010 0008 0010 0021 0010 0039 0010 0008 0010 0b81</ccf>
+    </code>
+    <code name="b_alt_h" codeno="0x0000000000000082">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="8" obc="86" hex0="86" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0039 0010 0008 0010 002d 0010 0021 0010 0021 0010 002d 0010 0008 0010 0021 0010 0045 0010 0021 0010 0b81</ccf>
+    </code>
+    <code name="b_ctrl_h" codeno="0x0000000000000083">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="2" obc="86" hex0="86" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0021 0010 0039 0010 0015 0010 0021 0010 0021 0010 002d 0010 0008 0010 0021 0010 0039 0010 0015 0010 0b81</ccf>
+    </code>
+    <code name="b_altgr_h" codeno="0x0000000000000084">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="4" obc="86" hex0="86" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 002d 0010 0015 0010 002d 0010 0021 0010 0021 0010 002d 0010 0008 0010 0021 0010 0039 0010 002d 0010 0b81</ccf>
+    </code>
+    <code name="b_i" codeno="0x0000000000000085">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="0" obc="40" hex0="40" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0021 0010 0021 0010 0021 0010 0039 0010 0021 0010 0008 0010 0021 0010 0021 0010 002d 0010 002d 0010 0b81</ccf>
+    </code>
+    <code name="b_shift_i" codeno="0x0000000000000086">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="32" obc="40" hex0="40" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0039 0010 0008 0010 0021 0010 0021 0010 0039 0010 0021 0010 0008 0010 0021 0010 0021 0010 0039 0010 0008 0010 0b81</ccf>
+    </code>
+    <code name="b_rshift_i" codeno="0x0000000000000087">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="16" obc="40" hex0="40" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 002d 0010 0015 0010 0021 0010 0021 0010 0039 0010 0021 0010 0008 0010 0021 0010 0021 0010 002d 0010 0039 0010 0b81</ccf>
+    </code>
+    <code name="b_alt_i" codeno="0x0000000000000088">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="8" obc="40" hex0="40" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0039 0010 0008 0010 0021 0010 0039 0010 0021 0010 0008 0010 0021 0010 0021 0010 0045 0010 0015 0010 0b81</ccf>
+    </code>
+    <code name="b_ctrl_i" codeno="0x0000000000000089">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="2" obc="40" hex0="40" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0021 0010 0039 0010 0008 0010 0039 0010 0021 0010 0008 0010 0021 0010 0021 0010 0039 0010 0008 0010 0b81</ccf>
+    </code>
+    <code name="b_altgr_i" codeno="0x000000000000008A">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="4" obc="40" hex0="40" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 002d 0010 0015 0010 0021 0010 0039 0010 0021 0010 0008 0010 0021 0010 0021 0010 0039 0010 0021 0010 0b81</ccf>
+    </code>
+    <code name="b_j" codeno="0x000000000000008B">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="0" obc="22" hex0="22" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0021 0010 0021 0010 0021 0010 002d 0010 0021 0010 002d 0010 0008 0010 0021 0010 0021 0010 0045 0010 0b81</ccf>
+    </code>
+    <code name="b_shift_j" codeno="0x000000000000008C">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="32" obc="22" hex0="22" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0039 0010 0008 0010 0021 0010 0021 0010 002d 0010 0021 0010 002d 0010 0008 0010 0021 0010 002d 0010 0021 0010 0b81</ccf>
+    </code>
+    <code name="b_rshift_j" codeno="0x000000000000008D">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="16" obc="22" hex0="22" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 002d 0010 0015 0010 0021 0010 0021 0010 002d 0010 0021 0010 002d 0010 0008 0010 0021 0010 002d 0010 0015 0010 0b81</ccf>
+    </code>
+    <code name="b_alt_j" codeno="0x000000000000008E">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="8" obc="22" hex0="22" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0039 0010 0008 0010 0021 0010 002d 0010 0021 0010 002d 0010 0008 0010 0021 0010 0039 0010 002d 0010 0b81</ccf>
+    </code>
+    <code name="b_ctrl_j" codeno="0x000000000000008F">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="2" obc="22" hex0="22" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0021 0010 0039 0010 0008 0010 002d 0010 0021 0010 002d 0010 0008 0010 0021 0010 002d 0010 0021 0010 0b81</ccf>
+    </code>
+    <code name="b_altgr_j" codeno="0x0000000000000090">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="4" obc="22" hex0="22" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 002d 0010 0015 0010 0021 0010 002d 0010 0021 0010 002d 0010 0008 0010 0021 0010 002d 0010 0039 0010 0b81</ccf>
+    </code>
+    <code name="b_k" codeno="0x0000000000000091">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="0" obc="24" hex0="24" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0021 0010 0021 0010 0021 0010 002d 0010 002d 0010 0008 0010 0021 0010 0021 0010 002d 0010 0021 0010 0b81</ccf>
+    </code>
+    <code name="b_shift_k" codeno="0x0000000000000092">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="32" obc="24" hex0="24" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0039 0010 0008 0010 0021 0010 0021 0010 002d 0010 002d 0010 0008 0010 0021 0010 0021 0010 002d 0010 0039 0010 0b81</ccf>
+    </code>
+    <code name="b_rshift_k" codeno="0x0000000000000093">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="16" obc="24" hex0="24" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 002d 0010 0015 0010 0021 0010 0021 0010 002d 0010 002d 0010 0008 0010 0021 0010 0021 0010 002d 0010 002d 0010 0b81</ccf>
+    </code>
+    <code name="b_alt_k" codeno="0x0000000000000094">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="8" obc="24" hex0="24" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0039 0010 0008 0010 0021 0010 002d 0010 002d 0010 0008 0010 0021 0010 0021 0010 0045 0010 0008 0010 0b81</ccf>
+    </code>
+    <code name="b_ctrl_k" codeno="0x0000000000000095">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="2" obc="24" hex0="24" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0021 0010 0039 0010 0008 0010 002d 0010 002d 0010 0008 0010 0021 0010 0021 0010 002d 0010 0039 0010 0b81</ccf>
+    </code>
+    <code name="b_altgr_k" codeno="0x0000000000000096">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="4" obc="24" hex0="24" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 002d 0010 0015 0010 0021 0010 002d 0010 002d 0010 0008 0010 0021 0010 0021 0010 0039 0010 0015 0010 0b81</ccf>
+    </code>
+    <code name="b_l" codeno="0x0000000000000097">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="0" obc="25" hex0="25" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0021 0010 0021 0010 0021 0010 002d 0010 002d 0010 0015 0010 0015 0010 0021 0010 002d 0010 002d 0010 0b81</ccf>
+    </code>
+    <code name="b_shift_l" codeno="0x0000000000000098">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="32" obc="25" hex0="25" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0039 0010 0008 0010 0021 0010 0021 0010 002d 0010 002d 0010 0015 0010 0015 0010 0021 0010 0039 0010 0008 0010 0b81</ccf>
+    </code>
+    <code name="b_rshift_l" codeno="0x0000000000000099">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="16" obc="25" hex0="25" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 002d 0010 0015 0010 0021 0010 0021 0010 002d 0010 002d 0010 0015 0010 0015 0010 0021 0010 002d 0010 0039 0010 0b81</ccf>
+    </code>
+    <code name="b_alt_l" codeno="0x000000000000009A">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="8" obc="25" hex0="25" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0039 0010 0008 0010 0021 0010 002d 0010 002d 0010 0015 0010 0015 0010 0021 0010 0045 0010 0015 0010 0b81</ccf>
+    </code>
+    <code name="b_ctrl_l" codeno="0x000000000000009B">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="2" obc="25" hex0="25" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0021 0010 0039 0010 0008 0010 002d 0010 002d 0010 0015 0010 0015 0010 0021 0010 0039 0010 0008 0010 0b81</ccf>
+    </code>
+    <code name="b_altgr_l" codeno="0x000000000000009C">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="4" obc="25" hex0="25" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 002d 0010 0015 0010 0021 0010 002d 0010 002d 0010 0015 0010 0015 0010 0021 0010 0039 0010 0021 0010 0b81</ccf>
+    </code>
+    <code name="b_m" codeno="0x000000000000009D">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="0" obc="54" hex0="54" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0021 0010 0021 0010 0021 0010 0045 0010 0008 0010 002d 0010 0008 0010 0021 0010 002d 0010 0021 0010 0b81</ccf>
+    </code>
+    <code name="b_shift_m" codeno="0x000000000000009E">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="32" obc="54" hex0="54" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0039 0010 0008 0010 0021 0010 0021 0010 0045 0010 0008 0010 002d 0010 0008 0010 0021 0010 002d 0010 0039 0010 0b81</ccf>
+    </code>
+    <code name="b_rshift_m" codeno="0x000000000000009F">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="16" obc="54" hex0="54" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 002d 0010 0015 0010 0021 0010 0021 0010 0045 0010 0008 0010 002d 0010 0008 0010 0021 0010 002d 0010 002d 0010 0b81</ccf>
+    </code>
+    <code name="b_alt_m" codeno="0x00000000000000A0">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="8" obc="54" hex0="54" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0039 0010 0008 0010 0021 0010 0045 0010 0008 0010 002d 0010 0008 0010 0021 0010 0045 0010 0008 0010 0b81</ccf>
+    </code>
+    <code name="b_ctrl_m" codeno="0x00000000000000A1">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="2" obc="54" hex0="54" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0021 0010 0039 0010 0008 0010 0045 0010 0008 0010 002d 0010 0008 0010 0021 0010 002d 0010 0039 0010 0b81</ccf>
+    </code>
+    <code name="b_altgr_m" codeno="0x00000000000000A2">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="4" obc="54" hex0="54" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 002d 0010 0015 0010 0021 0010 0045 0010 0008 0010 002d 0010 0008 0010 0021 0010 0039 0010 0015 0010 0b81</ccf>
+    </code>
+    <code name="b_n" codeno="0x00000000000000A3">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="0" obc="61" hex0="61" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0011 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0021 0010 0021 0010 0021 0010 0045 0010 0021 0010 0008 0010 0015 0010 0021 0010 0045 001c 0b81</ccf>
+    </code>
+    <code name="b_shift_n" codeno="0x00000000000000A4">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="32" obc="61" hex0="61" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0039 0010 0008 0010 0021 0010 0021 0010 0045 0010 0021 0010 0008 0010 0015 0010 0021 0010 0045 0010 0015 0010 0b81</ccf>
+    </code>
+    <code name="b_rshift_n" codeno="0x00000000000000A5">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="16" obc="61" hex0="61" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 002d 0010 0015 0010 0021 0010 0021 0010 0045 0010 0021 0010 0008 0010 0015 0010 0021 0010 0045 0010 0008 0010 0b81</ccf>
+    </code>
+    <code name="b_alt_n" codeno="0x00000000000000A6">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="8" obc="61" hex0="61" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0039 0010 0008 0010 0021 0010 0045 0010 0021 0010 0008 0010 0015 0010 0021 0010 002d 0010 0015 0010 0b81</ccf>
+    </code>
+    <code name="b_ctrl_n" codeno="0x00000000000000A7">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="2" obc="61" hex0="61" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0021 0010 0039 0010 0008 0010 0045 0010 0021 0010 0008 0010 0015 0010 0021 0010 0045 0010 0015 0010 0b81</ccf>
+    </code>
+    <code name="b_altgr_n" codeno="0x00000000000000A8">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="4" obc="61" hex0="61" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 002d 0010 0015 0010 0021 0010 0045 0010 0021 0010 0008 0010 0015 0010 0021 0010 0021 0010 0021 0010 0b81</ccf>
+    </code>
+    <code name="b_o" codeno="0x00000000000000A9">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="0" obc="41" hex0="41" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0021 0010 0021 0010 0021 0010 0039 0010 0021 0010 0015 0010 0015 0010 0021 0010 002d 0010 0039 0010 0b81</ccf>
+    </code>
+    <code name="b_shift_o" codeno="0x00000000000000AA">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="32" obc="41" hex0="41" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0039 0010 0008 0010 0021 0010 0021 0010 0039 0010 0021 0010 0015 0010 0015 0010 0021 0010 0039 0010 0015 0010 0b81</ccf>
+    </code>
+    <code name="b_rshift_o" codeno="0x00000000000000AB">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="16" obc="41" hex0="41" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 002d 0010 0015 0010 0021 0010 0021 0010 0039 0010 0021 0010 0015 0010 0015 0010 0021 0010 0039 0010 0008 0010 0b81</ccf>
+    </code>
+    <code name="b_alt_o" codeno="0x00000000000000AC">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="8" obc="41" hex0="41" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0039 0010 0008 0010 0021 0010 0039 0010 0021 0010 0015 0010 0015 0010 0021 0010 0045 0010 0021 0010 0b81</ccf>
+    </code>
+    <code name="b_ctrl_o" codeno="0x00000000000000AD">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="2" obc="41" hex0="41" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0021 0010 0039 0010 0008 0010 0039 0010 0021 0010 0015 0010 0015 0010 0021 0010 0039 0010 0015 0010 0b81</ccf>
+    </code>
+    <code name="b_altgr_o" codeno="0x00000000000000AE">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="4" obc="41" hex0="41" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 002d 0010 0015 0010 0021 0010 0039 0010 0021 0010 0015 0010 0015 0010 0021 0010 0039 0010 002d 0010 0b81</ccf>
+    </code>
+    <code name="b_oo" codeno="0x00000000000000AF">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="0" obc="27" hex0="27" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0011 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0021 0010 0021 0010 0021 0010 002d 0010 002d 0010 002d 001c 0021 0010 0039 0010 0008 0010 0b81</ccf>
+    </code>
+    <code name="b_shift_oo" codeno="0x00000000000000B0">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="32" obc="27" hex0="27" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0011 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0039 0010 0008 0010 0021 0010 0021 0010 002d 0010 002d 0010 002d 001c 0021 0010 0039 0010 0021 0010 0b81</ccf>
+    </code>
+    <code name="b_rshift_oo" codeno="0x00000000000000B1">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="16" obc="27" hex0="27" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0011 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 002d 0010 0015 0010 0021 0010 0021 0010 002d 0010 002d 0010 002d 001c 0021 0010 0039 0010 0015 0010 0b81</ccf>
+    </code>
+    <code name="b_altgr_oo" codeno="0x00000000000000B2">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="4" obc="27" hex0="27" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0010 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 002d 0010 0015 0010 0021 0010 002d 0010 002d 0010 002d 001c 0021 0010 0045 001c 0b81</ccf>
+    </code>
+    <code name="b_shift_altgr_oo" codeno="0x00000000000000B3">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="36" obc="27" hex0="27" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0011 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0039 0010 0015 0010 0015 0010 0021 0010 002d 0010 002d 0010 002d 001c 0021 0010 0045 0010 0015 0010 0b81</ccf>
+    </code>
+    <code name="b_p" codeno="0x00000000000000B4">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="0" obc="43" hex0="43" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0011 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0021 0010 0021 0010 0021 0010 0039 0010 0021 0010 002d 001c 0021 0010 0039 0010 0015 0010 0b81</ccf>
+    </code>
+    <code name="b_shift_p" codeno="0x00000000000000B5">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="32" obc="43" hex0="43" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0011 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0039 0010 0008 0010 0021 0010 0021 0010 0039 0010 0021 0010 002d 001c 0021 0010 0039 0010 002d 0010 0b81</ccf>
+    </code>
+    <code name="b_rshift_p" codeno="0x00000000000000B6">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="16" obc="43" hex0="43" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0011 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 002d 0010 0015 0010 0021 0010 0021 0010 0039 0010 0021 0010 002d 001c 0021 0010 0039 0010 0021 0010 0b81</ccf>
+    </code>
+    <code name="b_alt_p" codeno="0x00000000000000B7">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="8" obc="43" hex0="43" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0011 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0039 0010 0008 0010 0021 0010 0039 0010 0021 0010 002d 001c 0021 0010 0021 0010 002d 0010 0b81</ccf>
+    </code>
+    <code name="b_ctrl_p" codeno="0x00000000000000B8">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="2" obc="43" hex0="43" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0011 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0021 0010 0039 0010 0008 0010 0039 0010 0021 0010 002d 001c 0021 0010 0039 0010 002d 0010 0b81</ccf>
+    </code>
+    <code name="b_altgr_p" codeno="0x00000000000000B9">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="4" obc="43" hex0="43" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0011 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 002d 0010 0015 0010 0021 0010 0039 0010 0021 0010 002d 001c 0021 0010 0045 0010 0008 0010 0b81</ccf>
+    </code>
+    <code name="b_q" codeno="0x00000000000000BA">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="0" obc="34" hex0="34" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0021 0010 0021 0010 0021 0010 0039 0010 0008 0010 0039 0010 0008 0010 0021 0010 0021 0010 0021 0010 0b81</ccf>
+    </code>
+    <code name="b_shift_q" codeno="0x00000000000000BB">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="32" obc="34" hex0="34" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0039 0010 0008 0010 0021 0010 0021 0010 0039 0010 0008 0010 0039 0010 0008 0010 0021 0010 0021 0010 0039 0010 0b81</ccf>
+    </code>
+    <code name="b_rshift_q" codeno="0x00000000000000BC">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="16" obc="34" hex0="34" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 002d 0010 0015 0010 0021 0010 0021 0010 0039 0010 0008 0010 0039 0010 0008 0010 0021 0010 0021 0010 002d 0010 0b81</ccf>
+    </code>
+    <code name="b_alt_q" codeno="0x00000000000000BD">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="8" obc="34" hex0="34" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0039 0010 0008 0010 0021 0010 0039 0010 0008 0010 0039 0010 0008 0010 0021 0010 0039 0010 0008 0010 0b81</ccf>
+    </code>
+    <code name="b_ctrl_q" codeno="0x00000000000000BE">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="2" obc="34" hex0="34" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0021 0010 0039 0010 0008 0010 0039 0010 0008 0010 0039 0010 0008 0010 0021 0010 0021 0010 0039 0010 0b81</ccf>
+    </code>
+    <code name="b_altgr_q" codeno="0x00000000000000BF">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="4" obc="34" hex0="34" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 002d 0010 0015 0010 0021 0010 0039 0010 0008 0010 0039 0010 0008 0010 0021 0010 002d 0010 0015 0010 0b81</ccf>
+    </code>
+    <code name="b_r" codeno="0x00000000000000C0">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="0" obc="37" hex0="37" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0021 0010 0021 0010 0021 0010 0039 0010 0015 0010 0021 0010 0015 0010 0021 0010 0021 0010 0045 0010 0b81</ccf>
+    </code>
+    <code name="b_shift_r" codeno="0x00000000000000C1">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="32" obc="37" hex0="37" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0039 0010 0008 0010 0021 0010 0021 0010 0039 0010 0015 0010 0021 0010 0015 0010 0021 0010 002d 0010 0021 0010 0b81</ccf>
+    </code>
+    <code name="b_rshift_r" codeno="0x00000000000000C2">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="16" obc="37" hex0="37" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 002d 0010 0015 0010 0021 0010 0021 0010 0039 0010 0015 0010 0021 0010 0015 0010 0021 0010 002d 0010 0015 0010 0b81</ccf>
+    </code>
+    <code name="b_alt_r" codeno="0x00000000000000C3">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="8" obc="37" hex0="37" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0039 0010 0008 0010 0021 0010 0039 0010 0015 0010 0021 0010 0015 0010 0021 0010 0039 0010 002d 0010 0b81</ccf>
+    </code>
+    <code name="b_ctrl_r" codeno="0x00000000000000C4">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="2" obc="37" hex0="37" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0021 0010 0039 0010 0008 0010 0039 0010 0015 0010 0021 0010 0015 0010 0021 0010 002d 0010 0021 0010 0b81</ccf>
+    </code>
+    <code name="b_altgr_r" codeno="0x00000000000000C5">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="4" obc="37" hex0="37" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 002d 0010 0015 0010 0021 0010 0039 0010 0015 0010 0021 0010 0015 0010 0021 0010 002d 0010 0039 0010 0b81</ccf>
+    </code>
+    <code name="b_s" codeno="0x00000000000000C6">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="0" obc="19" hex0="19" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0011 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0021 0010 0021 0010 0021 0010 002d 0010 0015 0010 0045 001c 0021 0010 0021 0010 0021 0010 0b81</ccf>
+    </code>
+    <code name="b_shift_s" codeno="0x00000000000000C7">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="32" obc="19" hex0="19" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0011 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0039 0010 0008 0010 0021 0010 0021 0010 002d 0010 0015 0010 0045 001c 0021 0010 0021 0010 0039 0010 0b81</ccf>
+    </code>
+    <code name="b_rshift_s" codeno="0x00000000000000C8">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="16" obc="19" hex0="19" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0011 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 002d 0010 0015 0010 0021 0010 0021 0010 002d 0010 0015 0010 0045 001c 0021 0010 0021 0010 002d 0010 0b81</ccf>
+    </code>
+    <code name="b_alt_s" codeno="0x00000000000000C9">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="8" obc="19" hex0="19" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0011 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0039 0010 0008 0010 0021 0010 002d 0010 0015 0010 0045 001c 0021 0010 0039 0010 0008 0010 0b81</ccf>
+    </code>
+    <code name="b_ctrl_s" codeno="0x00000000000000CA">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="2" obc="19" hex0="19" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0011 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0021 0010 0039 0010 0008 0010 002d 0010 0015 0010 0045 001c 0021 0010 0021 0010 0039 0010 0b81</ccf>
+    </code>
+    <code name="b_altgr_s" codeno="0x00000000000000CB">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="4" obc="19" hex0="19" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0011 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 002d 0010 0015 0010 0021 0010 002d 0010 0015 0010 0045 001c 0021 0010 002d 0010 0015 0010 0b81</ccf>
+    </code>
+    <code name="b_t" codeno="0x00000000000000CC">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="0" obc="117" hex0="117" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0021 0010 0021 0010 002d 0010 0039 0010 0008 0010 0021 0010 0015 0010 0021 0010 0039 0010 0008 0010 0b81</ccf>
+    </code>
+    <code name="b_shift_t" codeno="0x00000000000000CD">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="32" obc="117" hex0="117" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0039 0010 0008 0010 0021 0010 002d 0010 0039 0010 0008 0010 0021 0010 0015 0010 0021 0010 0039 0010 0021 0010 0b81</ccf>
+    </code>
+    <code name="b_rshift_t" codeno="0x00000000000000CE">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="16" obc="117" hex0="117" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 002d 0010 0015 0010 0021 0010 002d 0010 0039 0010 0008 0010 0021 0010 0015 0010 0021 0010 0039 0010 0015 0010 0b81</ccf>
+    </code>
+    <code name="b_alt_t" codeno="0x00000000000000CF">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="8" obc="117" hex0="117" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0039 0010 0008 0010 002d 0010 0039 0010 0008 0010 0021 0010 0015 0010 0021 0010 0021 0010 0021 0010 0b81</ccf>
+    </code>
+    <code name="b_ctrl_t" codeno="0x00000000000000D0">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="2" obc="117" hex0="117" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0021 0010 0039 0010 0015 0010 0039 0010 0008 0010 0021 0010 0015 0010 0021 0010 0039 0010 0021 0010 0b81</ccf>
+    </code>
+    <code name="b_altgr_t" codeno="0x00000000000000D1">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="4" obc="117" hex0="117" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0011 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 002d 0010 0015 0010 002d 0010 0039 0010 0008 0010 0021 0010 0015 0010 0021 0010 0045 001c 0b81</ccf>
+    </code>
+    <code name="b_u" codeno="0x00000000000000D2">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="0" obc="38" hex0="38" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0021 0010 0021 0010 0021 0010 0039 0010 0015 0010 002d 0010 0008 0010 0021 0010 002d 0010 0015 0010 0b81</ccf>
+    </code>
+    <code name="b_shift_u" codeno="0x00000000000000D3">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="32" obc="38" hex0="38" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0039 0010 0008 0010 0021 0010 0021 0010 0039 0010 0015 0010 002d 0010 0008 0010 0021 0010 002d 0010 002d 0010 0b81</ccf>
+    </code>
+    <code name="b_rshift_u" codeno="0x00000000000000D4">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="16" obc="38" hex0="38" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 002d 0010 0015 0010 0021 0010 0021 0010 0039 0010 0015 0010 002d 0010 0008 0010 0021 0010 002d 0010 0021 0010 0b81</ccf>
+    </code>
+    <code name="b_alt_u" codeno="0x00000000000000D5">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="8" obc="38" hex0="38" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0011 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0039 0010 0008 0010 0021 0010 0039 0010 0015 0010 002d 0010 0008 0010 0021 0010 0045 001c 0b81</ccf>
+    </code>
+    <code name="b_ctrl_u" codeno="0x00000000000000D6">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="2" obc="38" hex0="38" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0021 0010 0039 0010 0008 0010 0039 0010 0015 0010 002d 0010 0008 0010 0021 0010 002d 0010 002d 0010 0b81</ccf>
+    </code>
+    <code name="b_altgr_u" codeno="0x00000000000000D7">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="4" obc="38" hex0="38" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 002d 0010 0015 0010 0021 0010 0039 0010 0015 0010 002d 0010 0008 0010 0021 0010 0039 0010 0008 0010 0b81</ccf>
+    </code>
+    <code name="b_uu" codeno="0x00000000000000D8">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="0" obc="9" hex0="9" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0021 0010 0021 0010 0021 0010 0021 0010 0039 0010 0015 0010 0015 0010 0021 0010 002d 0010 0021 0010 0b81</ccf>
+    </code>
+    <code name="b_shift_uu" codeno="0x00000000000000D9">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="32" obc="9" hex0="9" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0039 0010 0008 0010 0021 0010 0021 0010 0021 0010 0039 0010 0015 0010 0015 0010 0021 0010 002d 0010 0039 0010 0b81</ccf>
+    </code>
+    <code name="b_rshift_uu" codeno="0x00000000000000DA">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="16" obc="9" hex0="9" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 002d 0010 0015 0010 0021 0010 0021 0010 0021 0010 0039 0010 0015 0010 0015 0010 0021 0010 002d 0010 002d 0010 0b81</ccf>
+    </code>
+    <code name="b_altgr_uu" codeno="0x00000000000000DB">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="4" obc="9" hex0="9" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 002d 0010 0015 0010 0021 0010 0021 0010 0039 0010 0015 0010 0015 0010 0021 0010 0039 0010 0015 0010 0b81</ccf>
+    </code>
+    <code name="b_shift_altgr_uu" codeno="0x00000000000000DC">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="36" obc="9" hex0="9" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0039 0010 0015 0010 0015 0010 0021 0010 0021 0010 0039 0010 0015 0010 0015 0010 0021 0010 0039 0010 002d 0010 0b81</ccf>
+    </code>
+    <code name="b_rshift_altgr_uu" codeno="0x00000000000000DD">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="20" obc="9" hex0="9" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 002d 0010 0021 0010 0015 0010 0021 0010 0021 0010 0039 0010 0015 0010 0015 0010 0021 0010 0039 0010 0021 0010 0b81</ccf>
+    </code>
+    <code name="b_v" codeno="0x00000000000000DE">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="0" obc="53" hex0="53" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0021 0010 0021 0010 0021 0010 0045 0010 0008 0010 0021 0010 0015 0010 0021 0010 002d 0010 0015 0010 0b81</ccf>
+    </code>
+    <code name="b_shift_v" codeno="0x00000000000000DF">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="32" obc="53" hex0="53" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0039 0010 0008 0010 0021 0010 0021 0010 0045 0010 0008 0010 0021 0010 0015 0010 0021 0010 002d 0010 002d 0010 0b81</ccf>
+    </code>
+    <code name="b_rshift_v" codeno="0x00000000000000E0">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="16" obc="53" hex0="53" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 002d 0010 0015 0010 0021 0010 0021 0010 0045 0010 0008 0010 0021 0010 0015 0010 0021 0010 002d 0010 0021 0010 0b81</ccf>
+    </code>
+    <code name="b_alt_v" codeno="0x00000000000000E1">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="8" obc="53" hex0="53" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0011 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0039 0010 0008 0010 0021 0010 0045 0010 0008 0010 0021 0010 0015 0010 0021 0010 0045 001c 0b81</ccf>
+    </code>
+    <code name="b_ctrl_v" codeno="0x00000000000000E2">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="2" obc="53" hex0="53" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0021 0010 0039 0010 0008 0010 0045 0010 0008 0010 0021 0010 0015 0010 0021 0010 002d 0010 002d 0010 0b81</ccf>
+    </code>
+    <code name="b_altgr_v" codeno="0x00000000000000E3">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="4" obc="53" hex0="53" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 002d 0010 0015 0010 0021 0010 0045 0010 0008 0010 0021 0010 0015 0010 0021 0010 0039 0010 0008 0010 0b81</ccf>
+    </code>
+    <code name="b_w" codeno="0x00000000000000E4">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="0" obc="35" hex0="35" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0011 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0021 0010 0021 0010 0021 0010 0039 0010 0008 0010 0045 001c 0021 0010 0021 0010 002d 0010 0b81</ccf>
+    </code>
+    <code name="b_shift_w" codeno="0x00000000000000E5">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="32" obc="35" hex0="35" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0011 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0039 0010 0008 0010 0021 0010 0021 0010 0039 0010 0008 0010 0045 001c 0021 0010 0021 0010 0045 0010 0b81</ccf>
+    </code>
+    <code name="b_rshift_w" codeno="0x00000000000000E6">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="16" obc="35" hex0="35" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0011 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 002d 0010 0015 0010 0021 0010 0021 0010 0039 0010 0008 0010 0045 001c 0021 0010 0021 0010 0039 0010 0b81</ccf>
+    </code>
+    <code name="b_alt_w" codeno="0x00000000000000E7">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="8" obc="35" hex0="35" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0011 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0039 0010 0008 0010 0021 0010 0039 0010 0008 0010 0045 001c 0021 0010 0039 0010 0015 0010 0b81</ccf>
+    </code>
+    <code name="b_ctrl_w" codeno="0x00000000000000E8">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="2" obc="35" hex0="35" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0011 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0021 0010 0039 0010 0008 0010 0039 0010 0008 0010 0045 001c 0021 0010 0021 0010 0045 0010 0b81</ccf>
+    </code>
+    <code name="b_altgr_w" codeno="0x00000000000000E9">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="4" obc="35" hex0="35" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0011 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 002d 0010 0015 0010 0021 0010 0039 0010 0008 0010 0045 001c 0021 0010 002d 0010 0021 0010 0b81</ccf>
+    </code>
+    <code name="b_x" codeno="0x00000000000000EA">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="0" obc="51" hex0="51" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0010 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0021 0010 0021 0010 0021 0010 0045 001c 0045 001c 0021 0010 0021 0010 0039 0010 0b81</ccf>
+    </code>
+    <code name="b_shift_x" codeno="0x00000000000000EB">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="32" obc="51" hex0="51" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0010 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0039 0010 0008 0010 0021 0010 0021 0010 0045 001c 0045 001c 0021 0010 002d 0010 0015 0010 0b81</ccf>
+    </code>
+    <code name="b_rshift_x" codeno="0x00000000000000EC">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="16" obc="51" hex0="51" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0010 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 002d 0010 0015 0010 0021 0010 0021 0010 0045 001c 0045 001c 0021 0010 0021 0010 0045 0010 0b81</ccf>
+    </code>
+    <code name="b_alt_x" codeno="0x00000000000000ED">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="8" obc="51" hex0="51" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0010 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0039 0010 0008 0010 0021 0010 0045 001c 0045 001c 0021 0010 0039 0010 0021 0010 0b81</ccf>
+    </code>
+    <code name="b_ctrl_x" codeno="0x00000000000000EE">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="2" obc="51" hex0="51" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0010 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0021 0010 0039 0010 0008 0010 0045 001c 0045 001c 0021 0010 002d 0010 0015 0010 0b81</ccf>
+    </code>
+    <code name="b_altgr_x" codeno="0x00000000000000EF">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="4" obc="51" hex0="51" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0010 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 002d 0010 0015 0010 0021 0010 0045 001c 0045 001c 0021 0010 002d 0010 002d 0010 0b81</ccf>
+    </code>
+    <code name="b_y" codeno="0x00000000000000F0">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="0" obc="50" hex0="50" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0011 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0021 0010 0021 0010 0021 0010 0045 001c 0039 0010 0008 0010 0021 0010 0021 0010 002d 0010 0b81</ccf>
+    </code>
+    <code name="b_shift_y" codeno="0x00000000000000F1">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="32" obc="50" hex0="50" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0011 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0039 0010 0008 0010 0021 0010 0021 0010 0045 001c 0039 0010 0008 0010 0021 0010 0021 0010 0045 0010 0b81</ccf>
+    </code>
+    <code name="b_rshift_y" codeno="0x00000000000000F2">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="16" obc="50" hex0="50" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0011 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 002d 0010 0015 0010 0021 0010 0021 0010 0045 001c 0039 0010 0008 0010 0021 0010 0021 0010 0039 0010 0b81</ccf>
+    </code>
+    <code name="b_alt_y" codeno="0x00000000000000F3">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="8" obc="50" hex0="50" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0011 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0039 0010 0008 0010 0021 0010 0045 001c 0039 0010 0008 0010 0021 0010 0039 0010 0015 0010 0b81</ccf>
+    </code>
+    <code name="b_ctrl_y" codeno="0x00000000000000F4">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="2" obc="50" hex0="50" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0011 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0021 0010 0039 0010 0008 0010 0045 001c 0039 0010 0008 0010 0021 0010 0021 0010 0045 0010 0b81</ccf>
+    </code>
+    <code name="b-altgr_y" codeno="0x00000000000000F5">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="4" obc="50" hex0="50" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0011 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 002d 0010 0015 0010 0021 0010 0045 001c 0039 0010 0008 0010 0021 0010 002d 0010 0021 0010 0b81</ccf>
+    </code>
+    <code name="b_z" codeno="0x00000000000000F6">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="0" obc="118" hex0="118" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0021 0010 0021 0010 002d 0010 0039 0010 0008 0010 002d 0010 0008 0010 0021 0010 0039 0010 0015 0010 0b81</ccf>
+    </code>
+    <code name="b_shift_z" codeno="0x00000000000000F7">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="32" obc="118" hex0="118" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0039 0010 0008 0010 0021 0010 002d 0010 0039 0010 0008 0010 002d 0010 0008 0010 0021 0010 0039 0010 002d 0010 0b81</ccf>
+    </code>
+    <code name="b_rshift_z" codeno="0x00000000000000F8">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="16" obc="118" hex0="118" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 002d 0010 0015 0010 0021 0010 002d 0010 0039 0010 0008 0010 002d 0010 0008 0010 0021 0010 0039 0010 0021 0010 0b81</ccf>
+    </code>
+    <code name="b_alt_z" codeno="0x00000000000000F9">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="8" obc="118" hex0="118" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0039 0010 0008 0010 002d 0010 0039 0010 0008 0010 002d 0010 0008 0010 0021 0010 0021 0010 002d 0010 0b81</ccf>
+    </code>
+    <code name="b_ctrl_z" codeno="0x00000000000000FA">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="2" obc="118" hex0="118" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 0021 0010 0039 0010 0015 0010 0039 0010 0008 0010 002d 0010 0008 0010 0021 0010 0039 0010 002d 0010 0b81</ccf>
+    </code>
+    <code name="b_altgr_z" codeno="0x00000000000000FB">
+      <decoding protocol="Sejin-1-38" device="72" subdevice="4" obc="118" hex0="118" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E=0, no end frame" error=""/>
+      <ccf>0000 006d 0012 0000 0028 0021 0010 0008 0010 0015 0010 0039 0010 0008 0010 0021 0010 0021 0010 002d 0010 0015 0010 002d 0010 0039 0010 0008 0010 002d 0010 0008 0010 0021 0010 0045 0010 0008 0010 0b81</ccf>
+    </code>
+  </remote>
+</lircremotes>

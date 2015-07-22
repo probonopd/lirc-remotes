@@ -1,0 +1,157 @@
+<lircremotes creation-date="Wed Jul 22 23:04:00 2015" creator="" lircversion="0.8.6" lirc2xml_version="0.1.2" configfile="remotes/sharp/G0938CESA.lircd.conf" decodeir_version="2.40">
+  <remote name="Sharp_G0938CESA">
+    <lircdata type="SPACE_ENC" bits="15" flags="16400" eps="30" aeps="100" pthree="0" sthree="0" ptwo="0" stwo="0" pone="344" sone="1764" pzero="344" szero="709" plead="0" ptrail="344" pfoot="0" sfoot="0" prepeat="0" srepeat="0" pre_data_bits="0" pre_data="0" post_data_bits="0" post_data="0" pre_p="0" pre_s="0" post_p="0" post_s="0" gap="67474" gap2="0" repeat_gap="0" toggle_bit="0" toggle_bit_mask="0" min_repeat="5" min_code_repeat="0" freq="38000" duty_cycle="0" toggle_mask="0" rc6_mask="0" baud="0" bits_in_byte="0" parity="0" stop_bits="0" ignore_mask="0"/>
+    <code name="KEY_POWER" codeno="0x00000000000041A2">
+      <decoding protocol="Sharp{1}" device="1" subdevice="-1" obc="22" hex0="104" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 000d 0043 000d 001b 000d 001b 000d 001b 000d 001b 000d 001b 000d 0043 000d 0043 000d 001b 000d 0043 000d 001b 000d 001b 000d 001b 000d 0043 000d 001b 000d 06d6</ccf>
+    </code>
+    <code name="calendar" codeno="0x00000000000041BA">
+      <decoding protocol="Sharp{1}" device="1" subdevice="-1" obc="118" hex0="110" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 000d 0043 000d 001b 000d 001b 000d 001b 000d 001b 000d 001b 000d 0043 000d 0043 000d 001b 000d 0043 000d 0043 000d 0043 000d 001b 000d 0043 000d 001b 000d 0686</ccf>
+    </code>
+    <code name="program_timer" codeno="0x0000000000004262">
+      <decoding protocol="Sharp{1}" device="1" subdevice="-1" obc="25" hex0="152" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 000d 0043 000d 001b 000d 001b 000d 001b 000d 001b 000d 0043 000d 001b 000d 001b 000d 0043 000d 0043 000d 001b 000d 001b 000d 001b 000d 0043 000d 001b 000d 06d6</ccf>
+    </code>
+    <code name="message" codeno="0x0000000000004372">
+      <decoding protocol="Sharp{1}" device="1" subdevice="-1" obc="59" hex0="220" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 000d 0043 000d 001b 000d 001b 000d 001b 000d 001b 000d 0043 000d 0043 000d 001b 000d 0043 000d 0043 000d 0043 000d 001b 000d 001b 000d 0043 000d 001b 000d 0686</ccf>
+    </code>
+    <code name="KEY_LANGUAGE" codeno="0x000000000000407A">
+      <decoding protocol="Sharp{1}" device="1" subdevice="-1" obc="120" hex0="30" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 000d 0043 000d 001b 000d 001b 000d 001b 000d 001b 000d 001b 000d 001b 000d 001b 000d 0043 000d 0043 000d 0043 000d 0043 000d 001b 000d 0043 000d 001b 000d 06ae</ccf>
+    </code>
+    <code name="disp_del" codeno="0x0000000000004362">
+      <decoding protocol="Sharp{1}" device="1" subdevice="-1" obc="27" hex0="216" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 000d 0043 000d 001b 000d 001b 000d 001b 000d 001b 000d 0043 000d 0043 000d 001b 000d 0043 000d 0043 000d 001b 000d 001b 000d 001b 000d 0043 000d 001b 000d 06ae</ccf>
+    </code>
+    <code name="setup_move" codeno="0x0000000000004012">
+      <decoding protocol="Sharp{1}" device="1" subdevice="-1" obc="32" hex0="4" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 000d 0043 000d 001b 000d 001b 000d 001b 000d 001b 000d 001b 000d 001b 000d 001b 000d 001b 000d 001b 000d 0043 000d 001b 000d 001b 000d 0043 000d 001b 000d 0726</ccf>
+    </code>
+    <code name="KEY_KPMINUS" codeno="0x000000000000402A">
+      <decoding protocol="Sharp{1}" device="1" subdevice="-1" obc="80" hex0="10" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 000d 0043 000d 001b 000d 001b 000d 001b 000d 001b 000d 001b 000d 001b 000d 001b 000d 001b 000d 0043 000d 001b 000d 0043 000d 001b 000d 0043 000d 001b 000d 06fe</ccf>
+    </code>
+    <code name="KEY_KPPLUS" codeno="0x00000000000043CA">
+      <decoding protocol="Sharp{1}" device="1" subdevice="-1" obc="79" hex0="242" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 000d 0043 000d 001b 000d 001b 000d 001b 000d 001b 000d 0043 000d 0043 000d 0043 000d 0043 000d 001b 000d 001b 000d 0043 000d 001b 000d 0043 000d 001b 000d 0686</ccf>
+    </code>
+    <code name="KEY_1" codeno="0x0000000000004202">
+      <decoding protocol="Sharp{1}" device="1" subdevice="-1" obc="1" hex0="128" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 000d 0043 000d 001b 000d 001b 000d 001b 000d 001b 000d 0043 000d 001b 000d 001b 000d 001b 000d 001b 000d 001b 000d 001b 000d 001b 000d 0043 000d 001b 000d 0726</ccf>
+    </code>
+    <code name="KEY_1_abc" codeno="0x0000000000004202">
+      <decoding protocol="Sharp{1}" device="1" subdevice="-1" obc="1" hex0="128" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 000d 0043 000d 001b 000d 001b 000d 001b 000d 001b 000d 0043 000d 001b 000d 001b 000d 001b 000d 001b 000d 001b 000d 001b 000d 001b 000d 0043 000d 001b 000d 0726</ccf>
+    </code>
+    <code name="KEY_2" codeno="0x0000000000004102">
+      <decoding protocol="Sharp{1}" device="1" subdevice="-1" obc="2" hex0="64" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 000d 0043 000d 001b 000d 001b 000d 001b 000d 001b 000d 001b 000d 0043 000d 001b 000d 001b 000d 001b 000d 001b 000d 001b 000d 001b 000d 0043 000d 001b 000d 0726</ccf>
+    </code>
+    <code name="KEY_2_def" codeno="0x0000000000004102">
+      <decoding protocol="Sharp{1}" device="1" subdevice="-1" obc="2" hex0="64" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 000d 0043 000d 001b 000d 001b 000d 001b 000d 001b 000d 001b 000d 0043 000d 001b 000d 001b 000d 001b 000d 001b 000d 001b 000d 001b 000d 0043 000d 001b 000d 0726</ccf>
+    </code>
+    <code name="KEY_3" codeno="0x0000000000004302">
+      <decoding protocol="Sharp{1}" device="1" subdevice="-1" obc="3" hex0="192" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 000d 0043 000d 001b 000d 001b 000d 001b 000d 001b 000d 0043 000d 0043 000d 001b 000d 001b 000d 001b 000d 001b 000d 001b 000d 001b 000d 0043 000d 001b 000d 06fe</ccf>
+    </code>
+    <code name="KEY_3_ghi" codeno="0x0000000000004302">
+      <decoding protocol="Sharp{1}" device="1" subdevice="-1" obc="3" hex0="192" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 000d 0043 000d 001b 000d 001b 000d 001b 000d 001b 000d 0043 000d 0043 000d 001b 000d 001b 000d 001b 000d 001b 000d 001b 000d 001b 000d 0043 000d 001b 000d 06fe</ccf>
+    </code>
+    <code name="KEY_4" codeno="0x0000000000004082">
+      <decoding protocol="Sharp{1}" device="1" subdevice="-1" obc="4" hex0="32" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 000d 0043 000d 001b 000d 001b 000d 001b 000d 001b 000d 001b 000d 001b 000d 0043 000d 001b 000d 001b 000d 001b 000d 001b 000d 001b 000d 0043 000d 001b 000d 0726</ccf>
+    </code>
+    <code name="KEY_4_jkl" codeno="0x0000000000004082">
+      <decoding protocol="Sharp{1}" device="1" subdevice="-1" obc="4" hex0="32" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 000d 0043 000d 001b 000d 001b 000d 001b 000d 001b 000d 001b 000d 001b 000d 0043 000d 001b 000d 001b 000d 001b 000d 001b 000d 001b 000d 0043 000d 001b 000d 0726</ccf>
+    </code>
+    <code name="KEY_5" codeno="0x0000000000004282">
+      <decoding protocol="Sharp{1}" device="1" subdevice="-1" obc="5" hex0="160" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 000d 0043 000d 001b 000d 001b 000d 001b 000d 001b 000d 0043 000d 001b 000d 0043 000d 001b 000d 001b 000d 001b 000d 001b 000d 001b 000d 0043 000d 001b 000d 06fe</ccf>
+    </code>
+    <code name="KEY_5_mno" codeno="0x0000000000004282">
+      <decoding protocol="Sharp{1}" device="1" subdevice="-1" obc="5" hex0="160" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 000d 0043 000d 001b 000d 001b 000d 001b 000d 001b 000d 0043 000d 001b 000d 0043 000d 001b 000d 001b 000d 001b 000d 001b 000d 001b 000d 0043 000d 001b 000d 06fe</ccf>
+    </code>
+    <code name="KEY_6" codeno="0x0000000000004182">
+      <decoding protocol="Sharp{1}" device="1" subdevice="-1" obc="6" hex0="96" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 000d 0043 000d 001b 000d 001b 000d 001b 000d 001b 000d 001b 000d 0043 000d 0043 000d 001b 000d 001b 000d 001b 000d 001b 000d 001b 000d 0043 000d 001b 000d 06fe</ccf>
+    </code>
+    <code name="KEY_6_pqr" codeno="0x0000000000004182">
+      <decoding protocol="Sharp{1}" device="1" subdevice="-1" obc="6" hex0="96" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 000d 0043 000d 001b 000d 001b 000d 001b 000d 001b 000d 001b 000d 0043 000d 0043 000d 001b 000d 001b 000d 001b 000d 001b 000d 001b 000d 0043 000d 001b 000d 06fe</ccf>
+    </code>
+    <code name="KEY_7" codeno="0x0000000000004382">
+      <decoding protocol="Sharp{1}" device="1" subdevice="-1" obc="7" hex0="224" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 000d 0043 000d 001b 000d 001b 000d 001b 000d 001b 000d 0043 000d 0043 000d 0043 000d 001b 000d 001b 000d 001b 000d 001b 000d 001b 000d 0043 000d 001b 000d 06d6</ccf>
+    </code>
+    <code name="KEY_7_stu" codeno="0x0000000000004382">
+      <decoding protocol="Sharp{1}" device="1" subdevice="-1" obc="7" hex0="224" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 000d 0043 000d 001b 000d 001b 000d 001b 000d 001b 000d 0043 000d 0043 000d 0043 000d 001b 000d 001b 000d 001b 000d 001b 000d 001b 000d 0043 000d 001b 000d 06d6</ccf>
+    </code>
+    <code name="KEY_8" codeno="0x0000000000004042">
+      <decoding protocol="Sharp{1}" device="1" subdevice="-1" obc="8" hex0="16" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 000d 0043 000d 001b 000d 001b 000d 001b 000d 001b 000d 001b 000d 001b 000d 001b 000d 0043 000d 001b 000d 001b 000d 001b 000d 001b 000d 0043 000d 001b 000d 0726</ccf>
+    </code>
+    <code name="KEY_8_vwxyz" codeno="0x0000000000004042">
+      <decoding protocol="Sharp{1}" device="1" subdevice="-1" obc="8" hex0="16" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 000d 0043 000d 001b 000d 001b 000d 001b 000d 001b 000d 001b 000d 001b 000d 001b 000d 0043 000d 001b 000d 001b 000d 001b 000d 001b 000d 0043 000d 001b 000d 0726</ccf>
+    </code>
+    <code name="KEY_9" codeno="0x0000000000004242">
+      <decoding protocol="Sharp{1}" device="1" subdevice="-1" obc="9" hex0="144" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 000d 0043 000d 001b 000d 001b 000d 001b 000d 001b 000d 0043 000d 001b 000d 001b 000d 0043 000d 001b 000d 001b 000d 001b 000d 001b 000d 0043 000d 001b 000d 06fe</ccf>
+    </code>
+    <code name="KEY_9_mark" codeno="0x0000000000004242">
+      <decoding protocol="Sharp{1}" device="1" subdevice="-1" obc="9" hex0="144" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 000d 0043 000d 001b 000d 001b 000d 001b 000d 001b 000d 0043 000d 001b 000d 001b 000d 0043 000d 001b 000d 001b 000d 001b 000d 001b 000d 0043 000d 001b 000d 06fe</ccf>
+    </code>
+    <code name="KEY_0" codeno="0x0000000000004142">
+      <decoding protocol="Sharp{1}" device="1" subdevice="-1" obc="10" hex0="80" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 000d 0043 000d 001b 000d 001b 000d 001b 000d 001b 000d 001b 000d 0043 000d 001b 000d 0043 000d 001b 000d 001b 000d 001b 000d 001b 000d 0043 000d 001b 000d 06fe</ccf>
+    </code>
+    <code name="KEY_0_spanish" codeno="0x0000000000004142">
+      <decoding protocol="Sharp{1}" device="1" subdevice="-1" obc="10" hex0="80" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 000d 0043 000d 001b 000d 001b 000d 001b 000d 001b 000d 001b 000d 0043 000d 001b 000d 0043 000d 001b 000d 001b 000d 001b 000d 001b 000d 0043 000d 001b 000d 06fe</ccf>
+    </code>
+    <code name="KEY_0" codeno="0x0000000000004342">
+      <decoding protocol="Sharp{1}" device="1" subdevice="-1" obc="11" hex0="208" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 000d 0043 000d 001b 000d 001b 000d 001b 000d 001b 000d 0043 000d 0043 000d 001b 000d 0043 000d 001b 000d 001b 000d 001b 000d 001b 000d 0043 000d 001b 000d 06d6</ccf>
+    </code>
+    <code name="KEY_0_space" codeno="0x0000000000004342">
+      <decoding protocol="Sharp{1}" device="1" subdevice="-1" obc="11" hex0="208" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 000d 0043 000d 001b 000d 001b 000d 001b 000d 001b 000d 0043 000d 0043 000d 001b 000d 0043 000d 001b 000d 001b 000d 001b 000d 001b 000d 0043 000d 001b 000d 06d6</ccf>
+    </code>
+    <code name="KEY_CHANNELUP" codeno="0x0000000000004222">
+      <decoding protocol="Sharp{1}" device="1" subdevice="-1" obc="17" hex0="136" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 000d 0043 000d 001b 000d 001b 000d 001b 000d 001b 000d 0043 000d 001b 000d 001b 000d 001b 000d 0043 000d 001b 000d 001b 000d 001b 000d 0043 000d 001b 000d 06fe</ccf>
+    </code>
+    <code name="KEY_CHANNELDOWN" codeno="0x0000000000004122">
+      <decoding protocol="Sharp{1}" device="1" subdevice="-1" obc="18" hex0="72" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 000d 0043 000d 001b 000d 001b 000d 001b 000d 001b 000d 001b 000d 0043 000d 001b 000d 001b 000d 0043 000d 001b 000d 001b 000d 001b 000d 0043 000d 001b 000d 06fe</ccf>
+    </code>
+    <code name="KEY_VOLUMEUP" codeno="0x00000000000040A2">
+      <decoding protocol="Sharp{1}" device="1" subdevice="-1" obc="20" hex0="40" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 000d 0043 000d 001b 000d 001b 000d 001b 000d 001b 000d 001b 000d 001b 000d 0043 000d 001b 000d 0043 000d 001b 000d 001b 000d 001b 000d 0043 000d 001b 000d 06fe</ccf>
+    </code>
+    <code name="KEY_VOLUMEDOWN" codeno="0x00000000000042A2">
+      <decoding protocol="Sharp{1}" device="1" subdevice="-1" obc="21" hex0="168" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 000d 0043 000d 001b 000d 001b 000d 001b 000d 001b 000d 0043 000d 001b 000d 0043 000d 001b 000d 0043 000d 001b 000d 001b 000d 001b 000d 0043 000d 001b 000d 06d6</ccf>
+    </code>
+    <code name="KEY_MUTE" codeno="0x00000000000043A2">
+      <decoding protocol="Sharp{1}" device="1" subdevice="-1" obc="23" hex0="232" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 000d 0043 000d 001b 000d 001b 000d 001b 000d 001b 000d 0043 000d 0043 000d 0043 000d 001b 000d 0043 000d 001b 000d 001b 000d 001b 000d 0043 000d 001b 000d 06ae</ccf>
+    </code>
+    <code name="fback_clr" codeno="0x00000000000043D2">
+      <decoding protocol="Sharp{1}" device="1" subdevice="-1" obc="47" hex0="244" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 000d 0043 000d 001b 000d 001b 000d 001b 000d 001b 000d 0043 000d 0043 000d 0043 000d 0043 000d 001b 000d 0043 000d 001b 000d 001b 000d 0043 000d 001b 000d 0686</ccf>
+    </code>
+    <code name="ch_scan" codeno="0x00000000000040E2">
+      <decoding protocol="Sharp{1}" device="1" subdevice="-1" obc="28" hex0="56" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 000d 0043 000d 001b 000d 001b 000d 001b 000d 001b 000d 001b 000d 001b 000d 0043 000d 0043 000d 0043 000d 001b 000d 001b 000d 001b 000d 0043 000d 001b 000d 06d6</ccf>
+    </code>
+  </remote>
+</lircremotes>

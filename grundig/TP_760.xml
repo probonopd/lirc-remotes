@@ -1,0 +1,133 @@
+<lircremotes creation-date="Wed Jul 22 23:04:14 2015" creator="" lircversion="0.8.6" lirc2xml_version="0.1.2" configfile="remotes/grundig/TP_760.lircd.conf" decodeir_version="2.40">
+  <remote name="Grunding_TP_760">
+    <lircdata type="RAW_CODES" bits="0" flags="16385" eps="30" aeps="100" pthree="0" sthree="0" ptwo="0" stwo="0" pone="0" sone="0" pzero="0" szero="0" plead="0" ptrail="0" pfoot="0" sfoot="0" prepeat="0" srepeat="0" pre_data_bits="0" pre_data="0" post_data_bits="0" post_data="0" pre_p="0" pre_s="0" post_p="0" post_s="0" gap="135284" gap2="0" repeat_gap="0" toggle_bit="0" toggle_bit_mask="0" min_repeat="0" min_code_repeat="0" freq="38000" duty_cycle="0" toggle_mask="0" rc6_mask="0" baud="0" bits_in_byte="0" parity="0" stop_bits="0" ignore_mask="0"/>
+    <code name="POWER" codeno="0x0000000000000001">
+      <decoding protocol="Blaupunkt" device="0" subdevice="-1" obc="2" hex0="160" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0015 0000 0018 0061 0018 0010 0018 0011 0018 0011 0018 0011 0018 0011 0018 0011 0017 0011 0018 0011 0018 0011 0017 030b 0019 0060 0019 0024 002d 0024 0019 0010 0019 0010 0019 0010 0018 0010 0019 0010 0019 0010 0019 0d01</ccf>
+    </code>
+    <code name="1" codeno="0x0000000000000002">
+      <decoding protocol="Blaupunkt" device="0" subdevice="-1" obc="17" hex0="196" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0015 0000 0018 0061 0018 0011 0018 0011 0018 0011 0018 0012 0017 0011 0018 0011 0018 0011 0019 0010 0019 0010 0019 030a 0019 0061 0018 0010 0019 0024 0018 0010 0019 0010 002d 0024 0018 0011 0019 0010 0019 0010 0019 0d01</ccf>
+    </code>
+    <code name="2" codeno="0x0000000000000003">
+      <decoding protocol="Blaupunkt" device="0" subdevice="-1" obc="18" hex0="164" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0014 0000 0018 0061 0017 0011 0018 0011 0018 0011 0018 0011 0018 0010 0019 0010 0019 0010 0019 0010 0019 0010 0019 030b 0019 0060 0019 0025 002c 0024 0017 0011 002d 0024 0018 0011 0019 0010 0019 0010 0019 0d01</ccf>
+    </code>
+    <code name="3" codeno="0x0000000000000004">
+      <decoding protocol="Blaupunkt" device="0" subdevice="-1" obc="19" hex0="228" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0015 0000 0018 0060 0019 0010 0019 0010 0019 0010 0019 0010 0019 0010 0019 0010 0019 0010 0018 0010 0019 0010 0019 030a 0018 0061 0018 0011 0019 0010 0019 0024 0017 0011 002c 0025 0018 0011 0019 0010 0019 0010 0018 0d01</ccf>
+    </code>
+    <code name="4" codeno="0x0000000000000005">
+      <decoding protocol="Blaupunkt" device="0" subdevice="-1" obc="20" hex0="148" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0014 0000 0018 0060 0019 0010 0019 0010 0019 0010 0019 0010 0019 0010 0019 0010 0019 0010 0019 0010 0019 0010 0019 030a 0018 0061 0018 0025 0017 0011 002d 0024 002c 0025 0018 0011 0019 0010 0019 0010 0019 0d01</ccf>
+    </code>
+    <code name="5" codeno="0x0000000000000006">
+      <decoding protocol="Blaupunkt" device="0" subdevice="-1" obc="21" hex0="212" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0014 0000 0018 0060 0018 0010 0019 0010 0019 0010 0019 0010 0019 0010 0019 0010 0019 0010 0019 0010 0019 0010 0019 030b 0018 0061 0017 0011 0019 0024 002d 0024 002c 0025 0017 0011 0019 0010 0019 0010 0019 0d01</ccf>
+    </code>
+    <code name="6" codeno="0x0000000000000007">
+      <decoding protocol="Blaupunkt" device="0" subdevice="-1" obc="22" hex0="180" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0014 0000 0018 0060 0019 0010 0019 0010 0019 0010 0019 0010 0019 0010 0019 0010 0019 0010 0019 0010 0018 0010 0019 030b 0018 0060 0018 0026 002c 0010 0018 0024 002c 0026 0016 0011 0019 0010 0019 0010 0019 0d01</ccf>
+    </code>
+    <code name="7" codeno="0x0000000000000008">
+      <decoding protocol="Blaupunkt" device="0" subdevice="-1" obc="23" hex0="244" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0015 0000 0019 0060 0018 0010 0019 0010 0019 0010 0019 0010 0019 0010 0019 0010 0019 0010 0019 0010 0019 0010 0019 030b 0018 0061 0017 0011 0019 0010 0019 0010 0019 0024 002c 0025 0017 0011 0019 0010 0019 0010 0019 0d01</ccf>
+    </code>
+    <code name="8" codeno="0x0000000000000009">
+      <decoding protocol="Blaupunkt" device="0" subdevice="-1" obc="24" hex0="140" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0015 0000 0019 0060 0019 0010 0019 0010 0019 0010 0019 0010 0019 0010 0019 0010 0019 0010 0019 0010 0019 0010 0019 030a 0018 0061 0018 0025 0018 0011 0019 0010 002d 0010 0019 0025 0017 0011 0019 0010 0019 0010 0019 0d01</ccf>
+    </code>
+    <code name="9" codeno="0x000000000000000A">
+      <decoding protocol="Blaupunkt" device="0" subdevice="-1" obc="25" hex0="204" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0015 0000 0019 0060 0019 0010 0019 0010 0019 0010 0019 0010 0019 0010 0019 0010 0019 0010 0019 0010 0019 0010 0019 030a 0018 0061 0018 0011 0019 0024 0017 0011 002d 0010 0019 0025 0017 0011 0019 0010 0019 0010 0019 0d01</ccf>
+    </code>
+    <code name="0" codeno="0x000000000000000B">
+      <decoding protocol="Blaupunkt" device="0" subdevice="-1" obc="16" hex0="132" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0015 0000 0019 0060 0019 0010 0019 0010 0019 0010 0019 0010 0019 0010 0019 0010 0019 0010 0019 0010 0019 0010 0019 030a 0018 0061 0017 0025 0018 0011 0019 0010 0019 0010 002c 0024 0017 0011 0019 0010 0019 0010 0019 0d01</ccf>
+    </code>
+    <code name="P/C" codeno="0x000000000000000C">
+      <decoding protocol="Blaupunkt" device="0" subdevice="-1" obc="26" hex0="172" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0014 0000 0018 0060 0018 0010 0019 0010 0019 0010 0019 0010 0019 0010 0019 0010 0019 0010 0019 0010 0019 0010 0019 030b 0018 0061 0018 0026 002c 0025 002b 0011 0018 0025 0017 0011 0019 0010 0019 0010 0019 0d01</ccf>
+    </code>
+    <code name="PIP" codeno="0x000000000000000D">
+      <decoding protocol="Blaupunkt" device="0" subdevice="-1" obc="41" hex0="202" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0014 0000 0019 0060 0019 0010 0019 0010 0019 0010 0019 0010 0019 0010 0019 0010 0019 0010 0019 0010 0019 0010 0018 030b 0018 0060 0018 0011 0019 0024 0018 0011 002d 0024 002c 0025 0017 0011 0019 0010 0019 0d01</ccf>
+    </code>
+    <code name="16:9" codeno="0x000000000000000E">
+      <decoding protocol="Blaupunkt" device="0" subdevice="-1" obc="4" hex0="144" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0015 0000 0019 0060 0019 0010 0019 0010 0019 0010 0019 0010 0018 0010 0019 0010 0019 0010 0019 0010 0019 0010 0019 030a 0018 0061 0018 0025 0018 0011 002c 0025 0018 0011 0019 0010 0019 0010 0019 0010 0019 0010 0019 0d01</ccf>
+    </code>
+    <code name="IDTV" codeno="0x000000000000000F">
+      <decoding protocol="Blaupunkt" device="0" subdevice="-1" obc="5" hex0="208" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0015 0000 0018 0060 0019 0010 0019 0010 0019 0010 0019 0010 0019 0010 0019 000f 0019 0010 0019 0010 0019 0010 0019 030b 0018 0061 0018 0011 0019 0025 002b 0026 0017 0011 0019 0010 0018 0010 0019 0010 0019 0010 0019 0d01</ccf>
+    </code>
+    <code name="SPEAKER" codeno="0x0000000000000010">
+      <decoding protocol="Blaupunkt" device="0" subdevice="-1" obc="1" hex0="192" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0016 0000 0019 0060 0019 0010 0018 0010 0019 0010 0019 0010 0019 0010 0019 0010 0019 0010 0019 0010 0018 0010 0019 030b 0018 0061 0017 0010 0019 0025 0017 0011 0019 0010 0019 0010 0019 0010 0019 0010 0019 0010 0019 0010 0019 0d01</ccf>
+    </code>
+    <code name="AUX" codeno="0x0000000000000011">
+      <decoding protocol="Blaupunkt" device="0" subdevice="-1" obc="7" hex0="240" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0016 0000 0019 0060 0019 0010 0019 0010 0019 0010 0019 0010 0019 0010 0019 0010 0019 0010 0019 0010 0019 0010 0019 030a 0018 0061 0017 0011 0019 0010 0019 0010 0019 0024 0017 0011 0019 0010 0019 0010 0019 0010 0019 0010 0018 0d01</ccf>
+    </code>
+    <code name="INFORMATION" codeno="0x0000000000000012">
+      <decoding protocol="Blaupunkt" device="0" subdevice="-1" obc="45" hex0="218" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0014 0000 0019 0061 0018 0010 0019 0010 0019 0010 0019 0010 0019 0010 0019 0010 0019 0010 0019 0010 0019 0010 0019 030b 0018 0061 0017 0011 0019 0024 002c 0011 0018 0024 002c 0025 0019 0010 0019 0010 0018 0d01</ccf>
+    </code>
+    <code name="VIDEOTEXT" codeno="0x0000000000000013">
+      <decoding protocol="Blaupunkt" device="0" subdevice="-1" obc="48" hex0="134" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0015 0000 0019 0060 0019 0010 0019 0010 0019 0010 0019 0010 0019 0010 0019 0010 0019 0010 0019 0010 0019 0010 0019 030b 0018 0061 0018 0025 0018 0011 0019 0010 0019 0010 002c 0011 0019 0024 0019 0010 0019 0010 0019 0d01</ccf>
+    </code>
+    <code name="P+" codeno="0x0000000000000014">
+      <decoding protocol="Blaupunkt" device="0" subdevice="-1" obc="42" hex0="170" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0013 0000 0019 0060 0018 0011 0019 0010 0019 0010 0019 0010 0019 0010 0019 0010 0019 0010 0019 0010 0019 0010 0019 030a 0018 0061 0018 0025 002c 0025 002c 0025 002c 0025 0018 0010 0018 0011 0018 0d02</ccf>
+    </code>
+    <code name="P-" codeno="0x0000000000000015">
+      <decoding protocol="Blaupunkt" device="0" subdevice="-1" obc="43" hex0="234" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0014 0000 0019 0060 0018 0011 0019 0010 0019 0010 0019 0010 0019 0010 0019 0010 0019 0010 0019 0010 0019 0010 0019 030a 0018 0061 0017 0011 0019 0010 0019 0024 002c 0025 002c 0025 0019 0010 0017 0011 0018 0d01</ccf>
+    </code>
+    <code name="VOL+" codeno="0x0000000000000016">
+      <decoding protocol="Blaupunkt" device="0" subdevice="-1" obc="8" hex0="136" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0015 0000 0017 0061 0017 0011 0019 0010 0019 0010 0019 0010 0019 0010 0019 0010 0018 0010 0019 0010 0019 0010 0018 030b 0019 0060 0019 0024 0018 0010 0018 0012 002b 0025 0019 0010 0017 0011 0017 0011 0018 0011 0017 0d02</ccf>
+    </code>
+    <code name="VOL-" codeno="0x0000000000000017">
+      <decoding protocol="Blaupunkt" device="0" subdevice="-1" obc="9" hex0="200" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0015 0000 0017 0061 0018 0011 0019 0010 0019 0010 0019 0010 0019 0010 0019 0010 0019 0010 0019 0010 0019 0010 0019 030a 0019 0060 0019 0010 0018 0025 0019 0010 002b 0025 0019 0011 0017 0012 0017 0011 0017 0012 0017 0d02</ccf>
+    </code>
+    <code name="OK" codeno="0x0000000000000018">
+      <decoding protocol="Blaupunkt" device="0" subdevice="-1" obc="0" hex0="128" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0016 0000 0018 0061 0018 0011 0019 0010 0019 0010 0019 0010 0019 0010 0019 0010 0019 0010 0019 0010 0018 0010 0019 030b 0019 0060 0019 0025 0018 0010 0018 0011 0017 0011 0017 0012 0017 0011 0017 0012 0017 0011 0017 0011 0017 0d02</ccf>
+    </code>
+    <code name="BLUE" codeno="0x0000000000000019">
+      <decoding protocol="Blaupunkt" device="0" subdevice="-1" obc="46" hex0="186" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0014 0000 0018 0061 0018 0011 0019 0010 0019 0010 0019 0010 0019 0010 0019 0010 0018 0010 0019 0010 0018 0010 0019 030b 0019 0060 0019 0024 002c 0011 0018 0010 0018 0025 002b 0025 0018 0011 0017 0011 0017 0d02</ccf>
+    </code>
+    <code name="YELLOW" codeno="0x000000000000001A">
+      <decoding protocol="Blaupunkt" device="0" subdevice="-1" obc="59" hex0="238" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0015 0000 0018 0061 0017 0011 0019 0010 0019 0010 0019 0010 0019 0010 0019 0010 0018 0010 0019 0010 0019 0010 0018 030b 0019 0060 0018 0010 0018 0011 0018 0025 002b 0011 0018 0011 0018 0026 0017 0011 0017 0011 0018 0d02</ccf>
+    </code>
+    <code name="GREEN" codeno="0x000000000000001B">
+      <decoding protocol="Blaupunkt" device="0" subdevice="-1" obc="62" hex0="190" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0015 0000 0018 0062 0017 0011 0019 0010 0019 0010 0019 0010 0019 0010 0019 0010 0019 0010 0018 0010 0019 0010 0018 030a 0019 0060 0019 0024 002c 0011 0018 0010 0018 0011 0017 0012 0017 0025 0018 0011 0017 0011 0018 0d02</ccf>
+    </code>
+    <code name="RED" codeno="0x000000000000001C">
+      <decoding protocol="Blaupunkt" device="0" subdevice="-1" obc="58" hex0="174" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0014 0000 0018 0061 0017 0011 0019 0010 0019 0010 0019 0010 0019 0010 0019 0010 0018 0010 0019 0010 0019 0010 0019 030b 0019 0060 0018 0024 002c 0026 002b 0012 0017 0011 0017 0026 0017 0011 0018 0011 0017 0d02</ccf>
+    </code>
+    <code name="CONTRAST-" codeno="0x000000000000001D">
+      <decoding protocol="Blaupunkt" device="0" subdevice="-1" obc="13" hex0="216" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0015 0000 0018 0061 0017 0011 0019 0010 0019 0010 0019 0010 0019 0010 0019 0010 0018 0010 0019 0010 0018 0010 0019 030b 0019 0060 0019 0010 0018 0025 002c 0012 0017 0025 0018 0010 0018 0011 0017 0011 0017 0011 0017 0d02</ccf>
+    </code>
+    <code name="CONTRAST+" codeno="0x000000000000001E">
+      <decoding protocol="Blaupunkt" device="0" subdevice="-1" obc="12" hex0="152" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0015 0000 0018 0061 0017 0011 0019 0010 0019 0010 0019 0010 0019 0010 0019 0010 0019 0010 0018 0010 0018 0010 0019 030b 0019 0061 0018 0024 0019 0010 002b 0011 0018 0026 0018 0010 0017 0011 0017 0011 0017 0011 0017 0d02</ccf>
+    </code>
+    <code name="BRIGHTNESS-" codeno="0x000000000000001F">
+      <decoding protocol="Blaupunkt" device="0" subdevice="-1" obc="11" hex0="232" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0015 0000 0018 0061 0017 0011 0019 0010 0019 0010 0019 0010 0019 0010 0019 0010 0018 0010 0019 0010 0019 0010 0019 030a 0019 0060 0019 000f 0018 0011 0019 0025 002b 0025 0019 0010 0017 0011 0017 0011 0017 0012 0017 0d02</ccf>
+    </code>
+    <code name="BRIGHTNESS+" codeno="0x0000000000000020">
+      <decoding protocol="Blaupunkt" device="0" subdevice="-1" obc="10" hex0="168" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0014 0000 0018 0061 0018 0011 0019 0010 0019 0010 0019 0010 0019 0010 0019 0010 0019 0010 0019 0010 0019 0010 0018 030a 0019 0060 0019 0024 002c 0025 002c 0026 0018 0010 0017 0011 0017 0012 0017 0011 0018 0d02</ccf>
+    </code>
+  </remote>
+</lircremotes>

@@ -1,0 +1,109 @@
+<lircremotes creation-date="Wed Jul 22 23:04:13 2015" creator="" lircversion="0.8.6" lirc2xml_version="0.1.2" configfile="remotes/ice/TV.lircd.conf" decodeir_version="2.40">
+  <remote name="tv1045-1">
+    <lircdata type="SPACE_ENC" bits="17" flags="16400" eps="30" aeps="100" pthree="0" sthree="0" ptwo="0" stwo="0" pone="898" sone="2468" pzero="898" szero="791" plead="0" ptrail="903" pfoot="0" sfoot="0" prepeat="0" srepeat="0" pre_data_bits="6" pre_data="26" post_data_bits="1" post_data="1" pre_p="0" pre_s="0" post_p="0" post_s="0" gap="101137" gap2="0" repeat_gap="0" toggle_bit="0" toggle_bit_mask="0" min_repeat="0" min_code_repeat="0" freq="38000" duty_cycle="0" toggle_mask="0" rc6_mask="0" baud="0" bits_in_byte="0" parity="0" stop_bits="0" ignore_mask="0"/>
+    <code name="STAND-BY" codeno="0x000000000000A4B5">
+      <decoding protocol="Emerson" device="22" subdevice="-1" obc="10" hex0="172" hex1="173" hex2="174" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 001a 0000 0083 007e 0022 001e 0022 005e 0022 005e 0022 001e 0022 005e 0022 001e 0022 001e 0022 005e 0022 001e 0022 005e 0022 001e 0022 001e 0022 005e 0022 001e 0022 001e 0022 005e 0022 001e 0022 005e 0022 005e 0022 001e 0022 005e 0022 001e 0022 005e 0022 005e 0022 04df</ccf>
+    </code>
+    <code name="KEY_MUTE" codeno="0x00000000000004BF">
+      <decoding protocol="Emerson" device="22" subdevice="-1" obc="0" hex0="252" hex1="253" hex2="254" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 001a 0000 0083 007e 0022 001e 0022 005e 0022 005e 0022 001e 0022 005e 0022 001e 0022 001e 0022 001e 0022 001e 0022 001e 0022 001e 0022 001e 0022 005e 0022 001e 0022 001e 0022 005e 0022 001e 0022 005e 0022 005e 0022 005e 0022 005e 0022 005e 0022 005e 0022 005e 0022 04df</ccf>
+    </code>
+    <code name="CH1" codeno="0x00000000000014BE">
+      <decoding protocol="Emerson" device="22" subdevice="-1" obc="16" hex0="244" hex1="245" hex2="246" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 001a 0000 0083 007e 0022 001e 0022 005e 0022 005e 0022 001e 0022 005e 0022 001e 0022 001e 0022 001e 0022 001e 0022 001e 0022 005e 0022 001e 0022 005e 0022 001e 0022 001e 0022 005e 0022 001e 0022 005e 0022 005e 0022 005e 0022 005e 0022 005e 0022 001e 0022 005e 0022 04df</ccf>
+    </code>
+    <code name="CH2" codeno="0x00000000000114AE">
+      <decoding protocol="Async9:802-894:78.77..D7.FF" device="213" subdevice="93" obc="215" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 78 77 D7 D5 5D D7 DD D7 FF" error=""/>
+      <decoding protocol="Emerson" device="22" subdevice="-1" obc="17" hex0="116" hex1="117" hex2="118" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 001a 0000 0083 007e 0022 001e 0022 005e 0022 005e 0022 001e 0022 005e 0022 001e 0022 005e 0022 001e 0022 001e 0022 001e 0022 005e 0022 001e 0022 005e 0022 001e 0022 001e 0022 005e 0022 001e 0022 005e 0022 001e 0022 005e 0022 005e 0022 005e 0022 001e 0022 005e 0022 04df</ccf>
+    </code>
+    <code name="CH3" codeno="0x00000000000094B6">
+      <decoding protocol="Emerson" device="22" subdevice="-1" obc="18" hex0="180" hex1="181" hex2="182" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 001a 0000 0083 007e 0022 001e 0022 005e 0022 005e 0022 001e 0022 005e 0022 001e 0022 001e 0022 005e 0022 001e 0022 001e 0022 005e 0022 001e 0022 005e 0022 001e 0022 001e 0022 005e 0022 001e 0022 005e 0022 005e 0022 001e 0022 005e 0022 005e 0022 001e 0022 005e 0022 04df</ccf>
+    </code>
+    <code name="CH4" codeno="0x00000000000194A6">
+      <decoding protocol="Emerson" device="22" subdevice="-1" obc="19" hex0="52" hex1="53" hex2="54" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 001a 0000 0083 007e 0022 001e 0022 005e 0022 005e 0022 001e 0022 005e 0022 001e 0022 005e 0022 005e 0022 001e 0022 001e 0022 005e 0022 001e 0022 005e 0022 001e 0022 001e 0022 005e 0022 001e 0022 005e 0022 001e 0022 001e 0022 005e 0022 005e 0022 001e 0022 005e 0022 04df</ccf>
+    </code>
+    <code name="CH5" codeno="0x00000000000054BA">
+      <decoding protocol="Async9:802-894:78.77..D7.FF" device="215" subdevice="93" obc="215" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 78 77 57 D7 5D D7 77 D7 FF" error=""/>
+      <decoding protocol="Emerson" device="22" subdevice="-1" obc="20" hex0="212" hex1="213" hex2="214" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 001a 0000 0083 007e 0022 001e 0022 005e 0022 005e 0022 001e 0022 005e 0022 001e 0022 001e 0022 001e 0022 005e 0022 001e 0022 005e 0022 001e 0022 005e 0022 001e 0022 001e 0022 005e 0022 001e 0022 005e 0022 005e 0022 005e 0022 001e 0022 005e 0022 001e 0022 005e 0022 04df</ccf>
+    </code>
+    <code name="CH6" codeno="0x00000000000154AA">
+      <decoding protocol="Emerson" device="22" subdevice="-1" obc="21" hex0="84" hex1="85" hex2="86" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 001a 0000 0083 007e 0022 001e 0022 005e 0022 005e 0022 001e 0022 005e 0022 001e 0022 005e 0022 001e 0022 005e 0022 001e 0022 005e 0022 001e 0022 005e 0022 001e 0022 001e 0022 005e 0022 001e 0022 005e 0022 001e 0022 005e 0022 001e 0022 005e 0022 001e 0022 005e 0022 04df</ccf>
+    </code>
+    <code name="CH7" codeno="0x000000000000D4B2">
+      <decoding protocol="Emerson" device="22" subdevice="-1" obc="22" hex0="148" hex1="149" hex2="150" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 001a 0000 0083 007e 0022 001e 0022 005e 0022 005e 0022 001e 0022 005e 0022 001e 0022 001e 0022 005e 0022 005e 0022 001e 0022 005e 0022 001e 0022 005e 0022 001e 0022 001e 0022 005e 0022 001e 0022 005e 0022 005e 0022 001e 0022 001e 0022 005e 0022 001e 0022 005e 0022 04df</ccf>
+    </code>
+    <code name="CH8" codeno="0x000000000001D4A2">
+      <decoding protocol="Async9:802-894:78.77..D7.FF" device="119" subdevice="215" obc="117" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 78 77 D7 77 D7 75 57 D7 FF" error=""/>
+      <decoding protocol="Emerson" device="22" subdevice="-1" obc="23" hex0="20" hex1="21" hex2="22" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 001a 0000 0083 007e 0022 001e 0022 005e 0022 005e 0022 001e 0022 005e 0022 001e 0022 005e 0022 005e 0022 005e 0022 001e 0022 005e 0022 001e 0022 005e 0022 001e 0022 001e 0022 005e 0022 001e 0022 005e 0022 001e 0022 001e 0022 001e 0022 005e 0022 001e 0022 005e 0022 04df</ccf>
+    </code>
+    <code name="CH9" codeno="0x00000000000034BC">
+      <decoding protocol="Emerson" device="22" subdevice="-1" obc="24" hex0="228" hex1="229" hex2="230" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 001a 0000 0083 007e 0022 001e 0022 005e 0022 005e 0022 001e 0022 005e 0022 001e 0022 001e 0022 001e 0022 001e 0022 005e 0022 005e 0022 001e 0022 005e 0022 001e 0022 001e 0022 005e 0022 001e 0022 005e 0022 005e 0022 005e 0022 005e 0022 001e 0022 001e 0022 005e 0022 04df</ccf>
+    </code>
+    <code name="CH0" codeno="0x00000000000134AC">
+      <decoding protocol="Emerson" device="22" subdevice="-1" obc="25" hex0="100" hex1="101" hex2="102" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 001a 0000 0083 007e 0022 001e 0022 005e 0022 005e 0022 001e 0022 005e 0022 001e 0022 005e 0022 001e 0022 001e 0022 005e 0022 005e 0022 001e 0022 005e 0022 001e 0022 001e 0022 005e 0022 001e 0022 005e 0022 001e 0022 005e 0022 005e 0022 001e 0022 001e 0022 005e 0022 04df</ccf>
+    </code>
+    <code name="CH10" codeno="0x000000000000B4B4">
+      <decoding protocol="Emerson" device="22" subdevice="-1" obc="26" hex0="164" hex1="165" hex2="166" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 001a 0000 0083 007e 0022 001e 0022 005e 0022 005e 0022 001e 0022 005e 0022 001e 0022 001e 0022 005e 0022 001e 0022 005e 0022 005e 0022 001e 0022 005e 0022 001e 0022 001e 0022 005e 0022 001e 0022 005e 0022 005e 0022 001e 0022 005e 0022 001e 0022 001e 0022 005e 0022 04df</ccf>
+    </code>
+    <code name="CH20" codeno="0x000000000001B4A4">
+      <decoding protocol="Emerson" device="22" subdevice="-1" obc="27" hex0="36" hex1="37" hex2="38" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 001a 0000 0083 007e 0022 001e 0022 005e 0022 005e 0022 001e 0022 005e 0022 001e 0022 005e 0022 005e 0022 001e 0022 005e 0022 005e 0022 001e 0022 005e 0022 001e 0022 001e 0022 005e 0022 001e 0022 005e 0022 001e 0022 001e 0022 005e 0022 001e 0022 001e 0022 005e 0022 04df</ccf>
+    </code>
+    <code name="CH30" codeno="0x00000000000074B8">
+      <decoding protocol="Emerson" device="22" subdevice="-1" obc="28" hex0="196" hex1="197" hex2="198" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 001a 0000 0083 007e 0022 001e 0022 005e 0022 005e 0022 001e 0022 005e 0022 001e 0022 001e 0022 001e 0022 005e 0022 005e 0022 005e 0022 001e 0022 005e 0022 001e 0022 001e 0022 005e 0022 001e 0022 005e 0022 005e 0022 005e 0022 001e 0022 001e 0022 001e 0022 005e 0022 04df</ccf>
+    </code>
+    <code name="TVAV" codeno="0x00000000000164A9">
+      <decoding protocol="Emerson" device="22" subdevice="-1" obc="13" hex0="76" hex1="77" hex2="78" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 001a 0000 0083 007e 0022 001e 0022 005e 0022 005e 0022 001e 0022 005e 0022 001e 0022 005e 0022 001e 0022 005e 0022 005e 0022 001e 0022 001e 0022 005e 0022 001e 0022 001e 0022 005e 0022 001e 0022 005e 0022 001e 0022 005e 0022 001e 0022 001e 0022 005e 0022 005e 0022 04df</ccf>
+    </code>
+    <code name="KEY_SLEEP" codeno="0x000000000001A4A5">
+      <decoding protocol="Emerson" device="22" subdevice="-1" obc="11" hex0="44" hex1="45" hex2="46" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 001a 0000 0083 007e 0022 001e 0022 005e 0022 005e 0022 001e 0022 005e 0022 001e 0022 005e 0022 005e 0022 001e 0022 005e 0022 001e 0022 001e 0022 005e 0022 001e 0022 001e 0022 005e 0022 001e 0022 005e 0022 001e 0022 001e 0022 005e 0022 001e 0022 005e 0022 005e 0022 04df</ccf>
+    </code>
+    <code name="KEY_AGAIN" codeno="0x000000000001E4A1">
+      <decoding protocol="Emerson" device="22" subdevice="-1" obc="15" hex0="12" hex1="13" hex2="14" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 001a 0000 0083 007e 0022 001e 0022 005e 0022 005e 0022 001e 0022 005e 0022 001e 0022 005e 0022 005e 0022 005e 0022 005e 0022 001e 0022 001e 0022 005e 0022 001e 0022 001e 0022 005e 0022 001e 0022 005e 0022 001e 0022 001e 0022 001e 0022 001e 0022 005e 0022 005e 0022 04df</ccf>
+    </code>
+    <code name="PICTURE" codeno="0x00000000000104AF">
+      <decoding protocol="Emerson" device="22" subdevice="-1" obc="1" hex0="124" hex1="125" hex2="126" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 001a 0000 0083 007e 0022 001e 0022 005e 0022 005e 0022 001e 0022 005e 0022 001e 0022 005e 0022 001e 0022 001e 0022 001e 0022 001e 0022 001e 0022 005e 0022 001e 0022 001e 0022 005e 0022 001e 0022 005e 0022 001e 0022 005e 0022 005e 0022 005e 0022 005e 0022 005e 0022 04df</ccf>
+    </code>
+    <code name="PIC+" codeno="0x00000000000084B7">
+      <decoding protocol="Emerson" device="22" subdevice="-1" obc="2" hex0="188" hex1="189" hex2="190" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 001a 0000 0083 007e 0022 001e 0022 005e 0022 005e 0022 001e 0022 005e 0022 001e 0022 001e 0022 005e 0022 001e 0022 001e 0022 001e 0022 001e 0022 005e 0022 001e 0022 001e 0022 005e 0022 001e 0022 005e 0022 005e 0022 001e 0022 005e 0022 005e 0022 005e 0022 005e 0022 04df</ccf>
+    </code>
+    <code name="PIC-" codeno="0x00000000000184A7">
+      <decoding protocol="Emerson" device="22" subdevice="-1" obc="3" hex0="60" hex1="61" hex2="62" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 001a 0000 0083 007e 0022 001e 0022 005e 0022 005e 0022 001e 0022 005e 0022 001e 0022 005e 0022 005e 0022 001e 0022 001e 0022 001e 0022 001e 0022 005e 0022 001e 0022 001e 0022 005e 0022 001e 0022 005e 0022 001e 0022 001e 0022 005e 0022 005e 0022 005e 0022 005e 0022 04df</ccf>
+    </code>
+    <code name="KEY_CHANNELUP" codeno="0x00000000000024BD">
+      <decoding protocol="Emerson" device="22" subdevice="-1" obc="8" hex0="236" hex1="237" hex2="238" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 001a 0000 0083 007e 0022 001e 0022 005e 0022 005e 0022 001e 0022 005e 0022 001e 0022 001e 0022 001e 0022 001e 0022 005e 0022 001e 0022 001e 0022 005e 0022 001e 0022 001e 0022 005e 0022 001e 0022 005e 0022 005e 0022 005e 0022 005e 0022 001e 0022 005e 0022 005e 0022 04df</ccf>
+    </code>
+    <code name="KEY_CHANNELDOWN" codeno="0x00000000000124AD">
+      <decoding protocol="Async9:802-894:78.77..DD.FF" device="117" subdevice="93" obc="215" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 78 77 D7 75 5D D7 DD DD FF" error=""/>
+      <decoding protocol="Emerson" device="22" subdevice="-1" obc="9" hex0="108" hex1="109" hex2="110" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 001a 0000 0083 007e 0022 001e 0022 005e 0022 005e 0022 001e 0022 005e 0022 001e 0022 005e 0022 001e 0022 001e 0022 005e 0022 001e 0022 001e 0022 005e 0022 001e 0022 001e 0022 005e 0022 001e 0022 005e 0022 001e 0022 005e 0022 005e 0022 001e 0022 005e 0022 005e 0022 04df</ccf>
+    </code>
+    <code name="KEY_VOLUMEUP" codeno="0x000000000000C4B3">
+      <decoding protocol="Emerson" device="22" subdevice="-1" obc="6" hex0="156" hex1="157" hex2="158" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 001a 0000 0083 007e 0022 001e 0022 005e 0022 005e 0022 001e 0022 005e 0022 001e 0022 001e 0022 005e 0022 005e 0022 001e 0022 001e 0022 001e 0022 005e 0022 001e 0022 001e 0022 005e 0022 001e 0022 005e 0022 005e 0022 001e 0022 001e 0022 005e 0022 005e 0022 005e 0022 04df</ccf>
+    </code>
+    <code name="KEY_VOLUMEDOWN" codeno="0x000000000001C4A3">
+      <decoding protocol="Emerson" device="22" subdevice="-1" obc="7" hex0="28" hex1="29" hex2="30" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 001a 0000 0083 007e 0022 001e 0022 005e 0022 005e 0022 001e 0022 005e 0022 001e 0022 005e 0022 005e 0022 005e 0022 001e 0022 001e 0022 001e 0022 005e 0022 001e 0022 001e 0022 005e 0022 001e 0022 005e 0022 001e 0022 001e 0022 001e 0022 005e 0022 005e 0022 005e 0022 04df</ccf>
+    </code>
+  </remote>
+</lircremotes>

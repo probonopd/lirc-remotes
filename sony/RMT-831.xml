@@ -1,0 +1,87 @@
+<lircremotes creation-date="Wed Jul 22 23:03:58 2015" creator="" lircversion="0.8.6" lirc2xml_version="0.1.2" configfile="remotes/sony/RMT-831.lircd.conf" decodeir_version="2.40">
+  <remote name="Sony_RMT-831-12">
+    <lircdata type="??" bits="12" flags="16384" eps="25" aeps="100" pthree="0" sthree="0" ptwo="0" stwo="0" pone="1300" sone="500" pzero="700" szero="500" plead="0" ptrail="0" pfoot="0" sfoot="0" prepeat="0" srepeat="0" pre_data_bits="0" pre_data="0" post_data_bits="0" post_data="0" pre_p="0" pre_s="0" post_p="0" post_s="0" gap="42000" gap2="0" repeat_gap="0" toggle_bit="0" toggle_bit_mask="0" min_repeat="4" min_code_repeat="0" freq="40000" duty_cycle="0" toggle_mask="0" rc6_mask="0" baud="0" bits_in_byte="0" parity="0" stop_bits="0" ignore_mask="0"/>
+    <code name="SEARCH_REW" codeno="0x0000000000000EBC">
+      <decoding protocol="Sony12" device="7" subdevice="-1" obc="87" hex0="234" hex1="235" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0068 000d 0000 0060 0014 0034 0014 0034 0014 0034 0014 001c 0014 0034 0014 001c 0014 0034 0014 0034 0014 0034 0014 0034 0014 001c 0014 001c 0330</ccf>
+    </code>
+    <code name="SEARCH_FF" codeno="0x00000000000006BC">
+      <decoding protocol="Sony12" device="7" subdevice="-1" obc="86" hex0="106" hex1="107" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0068 000d 0000 0060 0014 001c 0014 0034 0014 0034 0014 001c 0014 0034 0014 001c 0014 0034 0014 0034 0014 0034 0014 0034 0014 001c 0014 001c 0348</ccf>
+    </code>
+    <code name="KEY_REWIND" codeno="0x0000000000000D9C">
+      <decoding protocol="Sony12" device="7" subdevice="-1" obc="27" hex0="216" hex1="217" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0068 000d 0000 0060 0014 0034 0014 0034 0014 001c 0014 0034 0014 0034 0014 001c 0014 001c 0014 0034 0014 0034 0014 0034 0014 001c 0014 001c 0348</ccf>
+    </code>
+    <code name="KEY_PLAYPAUSE" codeno="0x000000000000059C">
+      <decoding protocol="Sony12" device="7" subdevice="-1" obc="26" hex0="88" hex1="89" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0068 000d 0000 0060 0014 001c 0014 0034 0014 001c 0014 0034 0014 0034 0014 001c 0014 001c 0014 0034 0014 0034 0014 0034 0014 001c 0014 001c 0360</ccf>
+    </code>
+    <code name="KEY_STOP" codeno="0x000000000000019C">
+      <decoding protocol="Sony12" device="7" subdevice="-1" obc="24" hex0="24" hex1="25" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0068 000d 0000 0060 0014 001c 0014 001c 0014 001c 0014 0034 0014 0034 0014 001c 0014 001c 0014 0034 0014 0034 0014 0034 0014 001c 0014 001c 0378</ccf>
+    </code>
+    <code name="KEY_FASTFORWARD" codeno="0x000000000000039C">
+      <decoding protocol="Sony12" device="7" subdevice="-1" obc="28" hex0="56" hex1="57" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0068 000d 0000 0060 0014 001c 0014 001c 0014 0034 0014 0034 0014 0034 0014 001c 0014 001c 0014 0034 0014 0034 0014 0034 0014 001c 0014 001c 0360</ccf>
+    </code>
+    <code name="KEY_PAUSE" codeno="0x000000000000099C">
+      <decoding protocol="Sony12" device="7" subdevice="-1" obc="25" hex0="152" hex1="153" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0068 000d 0000 0060 0014 0034 0014 001c 0014 001c 0014 0034 0014 0034 0014 001c 0014 001c 0014 0034 0014 0034 0014 0034 0014 001c 0014 001c 0360</ccf>
+    </code>
+    <code name="KEY_SLOW" codeno="0x0000000000000C5C">
+      <decoding protocol="Sony12" device="7" subdevice="-1" obc="35" hex0="196" hex1="197" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0068 000d 0000 0060 0014 0034 0014 0034 0014 001c 0014 001c 0014 001c 0014 0034 0014 001c 0014 0034 0014 0034 0014 0034 0014 001c 0014 001c 0360</ccf>
+    </code>
+    <code name="Z_SET_MEM" codeno="0x0000000000000E3C">
+      <decoding protocol="Sony12" device="7" subdevice="-1" obc="71" hex0="226" hex1="227" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0068 000d 0000 0060 0014 0034 0014 0034 0014 0034 0014 001c 0014 001c 0014 001c 0014 0034 0014 0034 0014 0034 0014 0034 0014 001c 0014 001c 0348</ccf>
+    </code>
+    <code name="DISPLAY" codeno="0x00000000000005BC">
+      <decoding protocol="Sony12" device="7" subdevice="-1" obc="90" hex0="90" hex1="91" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0068 000d 0000 0060 0014 001c 0014 0034 0014 001c 0014 0034 0014 0034 0014 001c 0014 0034 0014 0034 0014 0034 0014 0034 0014 001c 0014 001c 0348</ccf>
+    </code>
+  </remote>
+  <remote name="Sony_RMT-831-15">
+    <lircdata type="??" bits="15" flags="16384" eps="25" aeps="100" pthree="0" sthree="0" ptwo="0" stwo="0" pone="1300" sone="500" pzero="700" szero="500" plead="0" ptrail="0" pfoot="0" sfoot="0" prepeat="0" srepeat="0" pre_data_bits="0" pre_data="0" post_data_bits="0" post_data="0" pre_p="0" pre_s="0" post_p="0" post_s="0" gap="42000" gap2="0" repeat_gap="0" toggle_bit="0" toggle_bit_mask="0" min_repeat="4" min_code_repeat="0" freq="40000" duty_cycle="0" toggle_mask="0" rc6_mask="0" baud="0" bits_in_byte="0" parity="0" stop_bits="0" ignore_mask="0"/>
+    <code name="KEY_RECORD" codeno="0x0000000000004C9D">
+      <decoding protocol="Sony15" device="185" subdevice="-1" obc="25" hex0="152" hex1="153" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0068 0010 0000 0060 0014 0034 0014 001c 0014 001c 0014 0034 0014 0034 0014 001c 0014 001c 0014 0034 0014 001c 0014 001c 0014 0034 0014 0034 0014 0034 0014 001c 0014 0034 02a0</ccf>
+    </code>
+    <code name="KEY_IMAGES" codeno="0x000000000000549D">
+      <decoding protocol="Sony15" device="185" subdevice="-1" obc="21" hex0="168" hex1="169" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0068 0010 0000 0060 0014 0034 0014 001c 0014 0034 0014 001c 0014 0034 0014 001c 0014 001c 0014 0034 0014 001c 0014 001c 0014 0034 0014 0034 0014 0034 0014 001c 0014 0034 02a0</ccf>
+    </code>
+    <code name="TELE" codeno="0x0000000000002C9B">
+      <decoding protocol="Sony15" device="217" subdevice="-1" obc="26" hex0="88" hex1="89" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0068 0010 0000 0060 0014 001c 0014 0034 0014 001c 0014 0034 0014 0034 0014 001c 0014 001c 0014 0034 0014 001c 0014 001c 0014 0034 0014 0034 0014 001c 0014 0034 0014 0034 02a0</ccf>
+    </code>
+    <code name="WIDE" codeno="0x0000000000006C9B">
+      <decoding protocol="Sony15" device="217" subdevice="-1" obc="27" hex0="216" hex1="217" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0068 0010 0000 0060 0014 0034 0014 0034 0014 001c 0014 0034 0014 0034 0014 001c 0014 001c 0014 0034 0014 001c 0014 001c 0014 0034 0014 0034 0014 001c 0014 0034 0014 0034 0288</ccf>
+    </code>
+    <code name="SEARCH.M" codeno="0x0000000000005A9D">
+      <decoding protocol="Sony15" device="185" subdevice="-1" obc="45" hex0="180" hex1="181" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0068 0010 0000 0060 0014 0034 0014 001c 0014 0034 0014 0034 0014 001c 0014 0034 0014 001c 0014 0034 0014 001c 0014 001c 0014 0034 0014 0034 0014 0034 0014 001c 0014 0034 0288</ccf>
+    </code>
+  </remote>
+  <remote name="Sony_RMT-831-20">
+    <lircdata type="??" bits="20" flags="16384" eps="25" aeps="100" pthree="0" sthree="0" ptwo="0" stwo="0" pone="1300" sone="500" pzero="700" szero="500" plead="0" ptrail="0" pfoot="0" sfoot="0" prepeat="0" srepeat="0" pre_data_bits="0" pre_data="0" post_data_bits="0" post_data="0" pre_p="0" pre_s="0" post_p="0" post_s="0" gap="42000" gap2="0" repeat_gap="0" toggle_bit="0" toggle_bit_mask="0" min_repeat="4" min_code_repeat="0" freq="40000" duty_cycle="0" toggle_mask="0" rc6_mask="0" baud="0" bits_in_byte="0" parity="0" stop_bits="0" ignore_mask="0"/>
+    <code name="INDEX" codeno="0x0000000000004B8F">
+      <decoding protocol="Sony20" device="26" subdevice="241" obc="32" hex0="4" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0068 0015 0000 0060 0014 001c 0014 001c 0014 001c 0014 001c 0014 001c 0014 0034 0014 001c 0014 001c 0014 0034 0014 001c 0014 0034 0014 0034 0014 0034 0014 001c 0014 001c 0014 001c 0014 0034 0014 0034 0014 0034 0014 0034 0198</ccf>
+    </code>
+    <code name="MEMORY+" codeno="0x00000000000D4B8F">
+      <decoding protocol="Sony20" device="26" subdevice="241" obc="43" hex0="212" hex1="-1" hex2="-1" hex3="-1" misc="+ 4 copies" error=""/>
+      <ccf>0000 0068 0069 0000 0060 0014 0034 0014 0034 0014 001c 0014 0034 0014 001c 0014 0034 0014 001c 0014 001c 0014 0034 0014 001c 0014 0034 0014 0034 0014 0034 0014 001c 0014 001c 0014 001c 0014 0034 0014 0034 0014 0034 0014 0034 0164 0060 0014 0034 0014 0034 0014 001c 0014 0034 0014 001c 0014 0034 0014 001c 0014 001c 0014 0034 0014 001c 0014 0034 0014 0034 0014 0034 0014 001c 0014 001c 0014 001c 0014 0034 0014 0034 0014 0034 0014 0034 0164 0060 0014 0034 0014 0034 0014 001c 0014 0034 0014 001c 0014 0034 0014 001c 0014 001c 0014 0034 0014 001c 0014 0034 0014 0034 0014 0034 0014 001c 0014 001c 0014 001c 0014 0034 0014 0034 0014 0034 0014 0034 0164 0060 0014 0034 0014 0034 0014 001c 0014 0034 0014 001c 0014 0034 0014 001c 0014 001c 0014 0034 0014 001c 0014 0034 0014 0034 0014 0034 0014 001c 0014 001c 0014 001c 0014 0034 0014 0034 0014 0034 0014 0034 0164 0060 0014 0034 0014 0034 0014 001c 0014 0034 0014 001c 0014 0034 0014 001c 0014 001c 0014 0034 0014 001c 0014 0034 0014 0034 0014 0034 0014 001c 0014 001c 0014 001c 0014 0034 0014 0034 0014 0034 0014 0034 0150</ccf>
+    </code>
+    <code name="MEMORY-" codeno="0x0000000000034B8F">
+      <decoding protocol="Sony20" device="26" subdevice="241" obc="44" hex0="52" hex1="-1" hex2="-1" hex3="-1" misc="+ 4 copies" error=""/>
+      <ccf>0000 0068 0069 0000 0060 0014 001c 0014 001c 0014 0034 0014 0034 0014 001c 0014 0034 0014 001c 0014 001c 0014 0034 0014 001c 0014 0034 0014 0034 0014 0034 0014 001c 0014 001c 0014 001c 0014 0034 0014 0034 0014 0034 0014 0034 017c 0060 0014 001c 0014 001c 0014 0034 0014 0034 0014 001c 0014 0034 0014 001c 0014 001c 0014 0034 0014 001c 0014 0034 0014 0034 0014 0034 0014 001c 0014 001c 0014 001c 0014 0034 0014 0034 0014 0034 0014 0034 017c 0060 0014 001c 0014 001c 0014 0034 0014 0034 0014 001c 0014 0034 0014 001c 0014 001c 0014 0034 0014 001c 0014 0034 0014 0034 0014 0034 0014 001c 0014 001c 0014 001c 0014 0034 0014 0034 0014 0034 0014 0034 017c 0060 0014 001c 0014 001c 0014 0034 0014 0034 0014 001c 0014 0034 0014 001c 0014 001c 0014 0034 0014 001c 0014 0034 0014 0034 0014 0034 0014 001c 0014 001c 0014 001c 0014 0034 0014 0034 0014 0034 0014 0034 017c 0060 0014 001c 0014 001c 0014 0034 0014 0034 0014 001c 0014 0034 0014 001c 0014 001c 0014 0034 0014 001c 0014 0034 0014 0034 0014 0034 0014 001c 0014 001c 0014 001c 0014 0034 0014 0034 0014 0034 0014 0034 0168</ccf>
+    </code>
+    <code name="INDEXPLAY" codeno="0x0000000000054B8F">
+      <decoding protocol="Sony20" device="26" subdevice="241" obc="42" hex0="84" hex1="-1" hex2="-1" hex3="-1" misc="+ 4 copies" error=""/>
+      <ccf>0000 0068 0069 0000 0060 0014 001c 0014 0034 0014 001c 0014 0034 0014 001c 0014 0034 0014 001c 0014 001c 0014 0034 0014 001c 0014 0034 0014 0034 0014 0034 0014 001c 0014 001c 0014 001c 0014 0034 0014 0034 0014 0034 0014 0034 017c 0060 0014 001c 0014 0034 0014 001c 0014 0034 0014 001c 0014 0034 0014 001c 0014 001c 0014 0034 0014 001c 0014 0034 0014 0034 0014 0034 0014 001c 0014 001c 0014 001c 0014 0034 0014 0034 0014 0034 0014 0034 017c 0060 0014 001c 0014 0034 0014 001c 0014 0034 0014 001c 0014 0034 0014 001c 0014 001c 0014 0034 0014 001c 0014 0034 0014 0034 0014 0034 0014 001c 0014 001c 0014 001c 0014 0034 0014 0034 0014 0034 0014 0034 017c 0060 0014 001c 0014 0034 0014 001c 0014 0034 0014 001c 0014 0034 0014 001c 0014 001c 0014 0034 0014 001c 0014 0034 0014 0034 0014 0034 0014 001c 0014 001c 0014 001c 0014 0034 0014 0034 0014 0034 0014 0034 017c 0060 0014 001c 0014 0034 0014 001c 0014 0034 0014 001c 0014 0034 0014 001c 0014 001c 0014 0034 0014 001c 0014 0034 0014 0034 0014 0034 0014 001c 0014 001c 0014 001c 0014 0034 0014 0034 0014 0034 0014 0034 0168</ccf>
+    </code>
+  </remote>
+</lircremotes>

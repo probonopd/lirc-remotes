@@ -1,0 +1,121 @@
+<lircremotes creation-date="Wed Jul 22 23:04:08 2015" creator="" lircversion="0.8.6" lirc2xml_version="0.1.2" configfile="remotes/one_for_all/URC-7562b.lircd.conf" decodeir_version="2.40">
+  <remote name="URC-7562">
+    <lircdata type="RAW_CODES" bits="0" flags="16385" eps="30" aeps="100" pthree="0" sthree="0" ptwo="0" stwo="0" pone="0" sone="0" pzero="0" szero="0" plead="0" ptrail="0" pfoot="0" sfoot="0" prepeat="0" srepeat="0" pre_data_bits="0" pre_data="0" post_data_bits="0" post_data="0" pre_p="0" pre_s="0" post_p="0" post_s="0" gap="113867" gap2="0" repeat_gap="0" toggle_bit="0" toggle_bit_mask="0" min_repeat="0" min_code_repeat="0" freq="38000" duty_cycle="0" toggle_mask="0" rc6_mask="0" baud="0" bits_in_byte="0" parity="0" stop_bits="0" ignore_mask="0"/>
+    <code name="Menu" codeno="0x0000000000000001">
+      <decoding protocol="Sony12" device="1" subdevice="-1" obc="96" hex0="6" hex1="7" hex2="-1" hex3="-1" misc="+ 2 copies" error=""/>
+      <ccf>0000 006d 0027 0000 005f 0014 001a 0014 0019 0014 001a 0013 0019 0014 0019 0014 0030 0015 002f 0014 0031 0013 001a 0013 001a 0013 001a 0013 0019 03e7 005f 0014 0019 0014 001a 0013 001a 0013 001a 0013 001a 0013 0031 0014 0030 0013 0030 0014 0019 0014 001a 0013 0019 0014 001a 03e6 005f 0013 001a 0013 0019 0014 001a 0013 0019 0014 001a 0013 0031 0013 0030 0014 0030 0014 001a 0013 0019 0014 0019 0014 001a 00cf</ccf>
+    </code>
+    <code name="Power" codeno="0x0000000000000002">
+      <decoding protocol="RC5" device="0" subdevice="-1" obc="12" hex0="204" hex1="205" hex2="206" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 000c 0000 0025 001e 0048 001f 0024 001e 0025 001e 0025 001e 0025 001e 0025 001e 0025 001e 0025 003e 0024 001f 0048 001e 0025 0d7a</ccf>
+    </code>
+    <code name="0" codeno="0x0000000000000003">
+      <decoding protocol="RC5" device="0" subdevice="-1" obc="0" hex0="252" hex1="253" hex2="254" hex3="-1" misc="no repeat: T=1" error=""/>
+      <ccf>0000 006d 000d 0000 0025 001e 0025 001e 0048 001e 0025 001e 0025 001e 0025 001e 0025 001e 0025 001e 0025 001e 0025 001e 0025 001e 0025 001e 0025 0d7a</ccf>
+    </code>
+    <code name="1" codeno="0x0000000000000004">
+      <decoding protocol="RC5" device="0" subdevice="-1" obc="1" hex0="248" hex1="249" hex2="250" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 000d 0000 0025 001f 0047 001f 0024 001f 0023 0020 0024 001f 0023 0020 0023 0020 0024 001f 0024 001f 0024 001f 0024 001f 0024 003e 0024 0d5b</ccf>
+    </code>
+    <code name="2" codeno="0x0000000000000005">
+      <decoding protocol="RC5" device="0" subdevice="-1" obc="2" hex0="244" hex1="245" hex2="246" hex3="-1" misc="no repeat: T=1" error=""/>
+      <ccf>0000 006d 000c 0000 0023 0021 0023 0020 0046 001f 0024 0020 0022 0020 0023 0020 0024 001f 0024 0020 0023 0020 0024 001f 0023 0040 0047 0d7b</ccf>
+    </code>
+    <code name="3" codeno="0x0000000000000006">
+      <decoding protocol="RC5" device="0" subdevice="-1" obc="3" hex0="240" hex1="241" hex2="242" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 000d 0000 0024 001f 0049 001d 0024 001f 0024 001f 0024 001f 0024 001f 0025 001e 0024 001f 0025 001e 0025 001e 0023 0040 0025 001e 0024 0d5b</ccf>
+    </code>
+    <code name="4" codeno="0x0000000000000007">
+      <decoding protocol="RC5" device="0" subdevice="-1" obc="4" hex0="236" hex1="237" hex2="238" hex3="-1" misc="no repeat: T=1" error=""/>
+      <ccf>0000 006d 000c 0000 0024 001f 0023 0020 0047 001f 0024 001f 0023 0020 0023 0021 0023 001f 0023 0020 0024 001f 0023 0040 0047 001f 0024 0d7b</ccf>
+    </code>
+    <code name="5" codeno="0x0000000000000008">
+      <decoding protocol="RC5" device="0" subdevice="-1" obc="5" hex0="232" hex1="233" hex2="234" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 000c 0000 0023 0020 0046 0021 0024 001f 0023 0020 0022 0021 0022 0021 0022 0021 0024 001f 0023 0020 0023 0041 0045 0040 0024 0d5b</ccf>
+    </code>
+    <code name="6" codeno="0x0000000000000009">
+      <decoding protocol="RC5" device="0" subdevice="-1" obc="7" hex0="224" hex1="225" hex2="226" hex3="-1" misc="no repeat: T=1" error=""/>
+      <ccf>0000 006d 000d 0000 0023 0020 0024 0020 0045 0021 0022 0021 0022 0021 0022 0021 0023 0020 0023 0020 0022 0021 0022 0040 0023 0021 0022 0021 0023 0d5b</ccf>
+    </code>
+    <code name="8" codeno="0x000000000000000A">
+      <decoding protocol="RC5" device="0" subdevice="-1" obc="8" hex0="220" hex1="221" hex2="222" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 000c 0000 0024 001f 0047 001f 0024 001f 0026 001e 0022 0020 0023 0020 0023 0020 0024 001f 0024 0040 0045 0020 0024 0020 0022 0d7c</ccf>
+    </code>
+    <code name="9" codeno="0x000000000000000B">
+      <decoding protocol="RC5" device="0" subdevice="-1" obc="9" hex0="216" hex1="217" hex2="218" hex3="-1" misc="no repeat: T=1" error=""/>
+      <ccf>0000 006d 000c 0000 0024 0020 0022 0021 0046 0020 0023 0020 0022 0021 0023 0020 0023 0020 0023 0020 0022 0041 0048 001e 0024 003f 0023 0d5b</ccf>
+    </code>
+    <code name="Back" codeno="0x000000000000000C">
+      <decoding protocol="RC5" device="0" subdevice="-1" obc="56" hex0="28" hex1="29" hex2="30" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 000c 0000 0023 0020 0047 001f 0023 0020 0023 0020 0025 001e 0023 0020 0025 003e 0025 001e 0024 0020 0045 0020 0023 0021 0024 0d7b</ccf>
+    </code>
+    <code name="Up" codeno="0x000000000000000D">
+      <decoding protocol="RC5" device="0" subdevice="-1" obc="25" hex0="152" hex1="153" hex2="154" hex3="-1" misc="no repeat: T=1" error=""/>
+      <ccf>0000 006d 000c 0000 0024 001f 0023 0020 0048 001e 0023 0020 0024 001f 0024 0020 0023 001f 0023 0041 0023 0020 0047 001f 0024 003f 0024 0d5b</ccf>
+    </code>
+    <code name="Down" codeno="0x000000000000000E">
+      <decoding protocol="RC5" device="0" subdevice="-1" obc="41" hex0="88" hex1="89" hex2="90" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 000b 0000 0025 001e 0048 001e 0025 001e 0025 001e 0025 001f 0024 001e 0024 003f 0048 003f 0047 001e 0025 003e 0025 0d5a</ccf>
+    </code>
+    <code name="Right" codeno="0x000000000000000F">
+      <decoding protocol="RC5" device="0" subdevice="-1" obc="18" hex0="180" hex1="181" hex2="182" hex3="-1" misc="no repeat: T=1" error=""/>
+      <ccf>0000 006d 000b 0000 0023 0020 0024 001f 0047 001f 0025 001e 0025 001e 0023 0021 0024 001e 0024 003f 0047 001f 0024 0040 0046 0d7b</ccf>
+    </code>
+    <code name="Left" codeno="0x0000000000000010">
+      <decoding protocol="RC5" device="0" subdevice="-1" obc="17" hex0="184" hex1="185" hex2="186" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 000c 0000 0025 001e 0048 001e 0025 001e 0025 001e 0025 001e 0025 001e 0024 001f 0025 003e 0048 001e 0025 001e 0025 003e 0025 0d5a</ccf>
+    </code>
+    <code name="Ok" codeno="0x0000000000000011">
+      <decoding protocol="Sony12" device="1" subdevice="-1" obc="20" hex0="40" hex1="41" hex2="-1" hex3="-1" misc="+ 2 copies" error=""/>
+      <ccf>0000 006d 0027 0000 005c 0016 0019 0014 0019 0015 0030 0013 0018 0015 0030 0015 0019 0014 0019 0014 002f 0015 0019 0014 001a 0014 0017 0015 0019 03e7 005d 0015 0019 0014 0019 0014 0030 0014 0019 0014 0030 0015 0017 0015 0019 0014 002f 0015 0019 0014 0019 0014 0019 0014 0018 03e8 005d 0015 001a 0013 0019 0014 0030 0014 0019 0014 0030 0014 0019 0014 0019 0015 002f 0014 0018 0015 0018 0016 0019 0013 0019 00d0</ccf>
+    </code>
+    <code name="Volume+" codeno="0x0000000000000012">
+      <decoding protocol="RC5" device="0" subdevice="-1" obc="16" hex0="188" hex1="189" hex2="190" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 000c 0000 0024 001f 0047 001f 0025 001e 0024 0020 0024 001f 0023 0020 0023 0020 0024 003f 0046 0020 0023 0020 0024 001f 0024 0d7b</ccf>
+    </code>
+    <code name="Volume-" codeno="0x0000000000000013">
+      <decoding protocol="RC5" device="0" subdevice="-1" obc="17" hex0="184" hex1="185" hex2="186" hex3="-1" misc="no repeat: T=1" error=""/>
+      <ccf>0000 006d 000c 0000 0023 0020 0023 0020 0047 001f 0024 001f 0024 0020 0024 0020 0022 0020 0024 003f 0046 0020 0024 001f 0024 003f 0023 0d5c</ccf>
+    </code>
+    <code name="Mute" codeno="0x0000000000000014">
+      <decoding protocol="RC5" device="0" subdevice="-1" obc="15" hex0="192" hex1="193" hex2="194" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 000d 0000 0025 001e 0047 001f 0024 001f 0025 001e 0025 001e 0025 001e 0025 001e 0024 001f 0025 003e 0025 001e 0025 001e 0025 001e 0025 0d5a</ccf>
+    </code>
+    <code name="Red" codeno="0x0000000000000015">
+      <decoding protocol="RC5" device="0" subdevice="-1" obc="55" hex0="32" hex1="33" hex2="34" hex3="-1" misc="no repeat: T=1" error=""/>
+      <ccf>0000 006d 000c 0000 0023 0020 0024 001f 0047 0020 0025 001d 0023 0021 0023 001f 0023 0040 0023 0020 0047 003f 0024 001f 0024 001f 0024 0d5b</ccf>
+    </code>
+    <code name="Green" codeno="0x0000000000000016">
+      <decoding protocol="RC5" device="0" subdevice="-1" obc="54" hex0="36" hex1="37" hex2="38" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 000b 0000 0024 0020 0046 001f 0023 0020 0023 0020 0024 001f 0023 0020 0024 003f 0024 001f 0047 003f 0025 001e 0046 0d7c</ccf>
+    </code>
+    <code name="Yellow" codeno="0x0000000000000017">
+      <decoding protocol="RC5" device="0" subdevice="-1" obc="50" hex0="52" hex1="53" hex2="54" hex3="-1" misc="no repeat: T=1" error=""/>
+      <ccf>0000 006d 000b 0000 0024 001f 0024 001f 0047 001f 0024 001f 0025 001e 0025 001e 0025 003e 0024 001f 0048 001e 0025 003e 0047 0d7b</ccf>
+    </code>
+    <code name="Blue" codeno="0x0000000000000018">
+      <decoding protocol="RC5" device="0" subdevice="-1" obc="52" hex0="44" hex1="45" hex2="46" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 000b 0000 0024 0020 0046 0020 0024 001e 0024 0020 0024 001e 0025 001e 0025 003e 0025 001e 0048 003e 0047 001f 0025 0d7a</ccf>
+    </code>
+    <code name="Stop" codeno="0x0000000000000019">
+      <decoding protocol="RC5" device="0" subdevice="-1" obc="63" hex0="0" hex1="1" hex2="2" hex3="-1" misc="no repeat: T=1" error=""/>
+      <ccf>0000 006d 000d 0000 0023 0020 0024 001f 0047 001f 0024 001f 0024 001f 0025 001e 0024 003f 0024 001f 0024 001f 0023 0020 0024 001f 0024 001f 0024 0d5b</ccf>
+    </code>
+    <code name="Play" codeno="0x000000000000001A">
+      <decoding protocol="RC5" device="0" subdevice="-1" obc="29" hex0="136" hex1="137" hex2="138" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 000c 0000 0024 001f 0048 001e 0025 001e 0024 001f 0025 001e 0025 001e 0024 001f 0025 003e 0024 001f 0025 001e 0048 003e 0024 0d5b</ccf>
+    </code>
+    <code name="Pause" codeno="0x000000000000001B">
+      <decoding protocol="RC5" device="0" subdevice="-1" obc="53" hex0="40" hex1="41" hex2="42" hex3="-1" misc="no repeat: T=1" error=""/>
+      <ccf>0000 006d 000b 0000 0025 001e 0024 001f 0047 001f 0023 0020 0024 001f 0024 001f 0024 003f 0024 001f 0047 003f 0046 0040 0024 0d5b</ccf>
+    </code>
+    <code name="Fastfwd" codeno="0x000000000000001C">
+      <decoding protocol="RC5" device="0" subdevice="-1" obc="61" hex0="8" hex1="9" hex2="10" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 000c 0000 0024 001f 0047 001f 0024 001f 0023 0020 0024 001f 0024 0020 0024 003f 0023 0020 0024 001f 0023 0020 0047 003f 0024 0d5b</ccf>
+    </code>
+    <code name="Fastrew" codeno="0x000000000000001D">
+      <decoding protocol="RC5" device="0" subdevice="-1" obc="26" hex0="148" hex1="149" hex2="150" hex3="-1" misc="no repeat: T=1" error=""/>
+      <ccf>0000 006d 000b 0000 0023 0021 0023 001f 0048 001e 0024 001f 0024 001f 0024 001f 0024 001f 0024 003f 0024 001f 0046 0040 0048 0d7a</ccf>
+    </code>
+  </remote>
+</lircremotes>

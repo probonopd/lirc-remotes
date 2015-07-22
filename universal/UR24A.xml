@@ -1,0 +1,97 @@
+<lircremotes creation-date="Wed Jul 22 23:03:55 2015" creator="" lircversion="0.8.6" lirc2xml_version="0.1.2" configfile="remotes/universal/UR24A.lircd.conf" decodeir_version="2.40">
+  <remote name="X10_Powerhouse_UR24A">
+    <lircdata type="SPACE_ENC" bits="16" flags="16400" eps="30" aeps="100" pthree="0" sthree="0" ptwo="0" stwo="0" pone="695" sone="1537" pzero="695" szero="421" plead="0" ptrail="702" pfoot="0" sfoot="0" prepeat="0" srepeat="0" pre_data_bits="16" pre_data="26010" post_data_bits="0" post_data="0" pre_p="0" pre_s="0" post_p="0" post_s="0" gap="108531" gap2="0" repeat_gap="0" toggle_bit="0" toggle_bit_mask="0" min_repeat="1" min_code_repeat="0" freq="38000" duty_cycle="0" toggle_mask="0" rc6_mask="0" baud="0" bits_in_byte="0" parity="0" stop_bits="0" ignore_mask="0"/>
+    <code name="VOLRIGHT" codeno="0x00000000000050AF">
+      <decoding protocol="NEC" device="166" subdevice="-1" obc="10" hex0="175" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0022 0000 0157 00a5 001a 0010 001a 003a 001a 003a 001a 0010 001a 0010 001a 003a 001a 0010 001a 003a 001a 003a 001a 0010 001a 0010 001a 003a 001a 003a 001a 0010 001a 003a 001a 0010 001a 0010 001a 003a 001a 0010 001a 003a 001a 0010 001a 0010 001a 0010 001a 0010 001a 003a 001a 0010 001a 003a 001a 0010 001a 003a 001a 003a 001a 003a 001a 003a 001b 0611</ccf>
+    </code>
+    <code name="VOLLEFT" codeno="0x000000000000D02F">
+      <decoding protocol="NEC" device="166" subdevice="-1" obc="11" hex0="47" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0022 0000 0157 00a5 001a 0010 001a 003a 001a 003a 001a 0010 001a 0010 001a 003a 001a 0010 001a 003a 001a 003a 001a 0010 001a 0010 001a 003a 001a 003a 001a 0010 001a 003a 001a 0010 001a 003a 001a 003a 001a 0010 001a 003a 001a 0010 001a 0010 001a 0010 001a 0010 001a 0010 001a 0010 001a 003a 001a 0010 001a 003a 001a 003a 001a 003a 001a 003a 001b 0611</ccf>
+    </code>
+    <code name="KEY_CHANNELUP" codeno="0x00000000000052AD">
+      <decoding protocol="NEC" device="166" subdevice="-1" obc="74" hex0="173" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0022 0000 0157 00a5 001a 0010 001a 003a 001a 003a 001a 0010 001a 0010 001a 003a 001a 0010 001a 003a 001a 003a 001a 0010 001a 0010 001a 003a 001a 003a 001a 0010 001a 003a 001a 0010 001a 0010 001a 003a 001a 0010 001a 003a 001a 0010 001a 0010 001a 003a 001a 0010 001a 003a 001a 0010 001a 003a 001a 0010 001a 003a 001a 003a 001a 0010 001a 003a 001b 0611</ccf>
+    </code>
+    <code name="CHDWN" codeno="0x000000000000D22D">
+      <decoding protocol="NEC" device="166" subdevice="-1" obc="75" hex0="45" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0022 0000 0157 00a5 001a 0010 001a 003a 001a 003a 001a 0010 001a 0010 001a 003a 001a 0010 001a 003a 001a 003a 001a 0010 001a 0010 001a 003a 001a 003a 001a 0010 001a 003a 001a 0010 001a 003a 001a 003a 001a 0010 001a 003a 001a 0010 001a 0010 001a 003a 001a 0010 001a 0010 001a 0010 001a 003a 001a 0010 001a 003a 001a 003a 001a 0010 001a 003a 001b 0611</ccf>
+    </code>
+    <code name="ENT" codeno="0x000000000000FF00">
+      <decoding protocol="NEC" device="166" subdevice="-1" obc="255" hex0="0" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0022 0000 0157 00a5 001a 0010 001a 003a 001a 003a 001a 0010 001a 0010 001a 003a 001a 0010 001a 003a 001a 003a 001a 0010 001a 0010 001a 003a 001a 003a 001a 0010 001a 003a 001a 0010 001a 003a 001a 003a 001a 003a 001a 003a 001a 003a 001a 003a 001a 003a 001a 003a 001a 0010 001a 0010 001a 0010 001a 0010 001a 0010 001a 0010 001a 0010 001a 0010 001b 0611</ccf>
+    </code>
+    <code name="KEY_LAST" codeno="0x0000000000004AB5">
+      <decoding protocol="NEC" device="166" subdevice="-1" obc="82" hex0="181" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0022 0000 0157 00a5 001a 0010 001a 003a 001a 003a 001a 0010 001a 0010 001a 003a 001a 0010 001a 003a 001a 003a 001a 0010 001a 0010 001a 003a 001a 003a 001a 0010 001a 003a 001a 0010 001a 0010 001a 003a 001a 0010 001a 0010 001a 003a 001a 0010 001a 003a 001a 0010 001a 003a 001a 0010 001a 003a 001a 003a 001a 0010 001a 003a 001a 0010 001a 003a 001b 0611</ccf>
+    </code>
+    <code name="A-B" codeno="0x000000000000F20D">
+      <decoding protocol="NEC" device="166" subdevice="-1" obc="79" hex0="13" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0022 0000 0157 00a5 001a 0010 001a 003a 001a 003a 001a 0010 001a 0010 001a 003a 001a 0010 001a 003a 001a 003a 001a 0010 001a 0010 001a 003a 001a 003a 001a 0010 001a 003a 001a 0010 001a 003a 001a 003a 001a 003a 001a 003a 001a 0010 001a 0010 001a 003a 001a 0010 001a 0010 001a 0010 001a 0010 001a 0010 001a 003a 001a 003a 001a 0010 001a 003a 001b 0611</ccf>
+    </code>
+    <code name="KEY_MUTE" codeno="0x0000000000007887">
+      <decoding protocol="NEC" device="166" subdevice="-1" obc="30" hex0="135" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0022 0000 0157 00a5 001a 0010 001a 003a 001a 003a 001a 0010 001a 0010 001a 003a 001a 0010 001a 003a 001a 003a 001a 0010 001a 0010 001a 003a 001a 003a 001a 0010 001a 003a 001a 0010 001a 0010 001a 003a 001a 003a 001a 003a 001a 003a 001a 0010 001a 0010 001a 0010 001a 003a 001a 0010 001a 0010 001a 0010 001a 0010 001a 003a 001a 003a 001a 003a 001b 0611</ccf>
+    </code>
+    <code name="KEY_PLAY" codeno="0x00000000000022DD">
+      <decoding protocol="NEC" device="166" subdevice="-1" obc="68" hex0="221" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0022 0000 0157 00a5 001a 0010 001a 003a 001a 003a 001a 0010 001a 0010 001a 003a 001a 0010 001a 003a 001a 003a 001a 0010 001a 0010 001a 003a 001a 003a 001a 0010 001a 003a 001a 0010 001a 0010 001a 0010 001a 003a 001a 0010 001a 0010 001a 0010 001a 003a 001a 0010 001a 003a 001a 003a 001a 0010 001a 003a 001a 003a 001a 003a 001a 0010 001a 003a 001b 0611</ccf>
+    </code>
+    <code name="KEY_STOP" codeno="0x00000000000042BD">
+      <decoding protocol="NEC" device="166" subdevice="-1" obc="66" hex0="189" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0022 0000 0157 00a5 001a 0010 001a 003a 001a 003a 001a 0010 001a 0010 001a 003a 001a 0010 001a 003a 001a 003a 001a 0010 001a 0010 001a 003a 001a 003a 001a 0010 001a 003a 001a 0010 001a 0010 001a 003a 001a 0010 001a 0010 001a 0010 001a 0010 001a 003a 001a 0010 001a 003a 001a 0010 001a 003a 001a 003a 001a 003a 001a 003a 001a 0010 001a 003a 001b 0611</ccf>
+    </code>
+    <code name="KEY_PAUSE" codeno="0x000000000000C23D">
+      <decoding protocol="NEC" device="166" subdevice="-1" obc="67" hex0="61" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0022 0000 0157 00a5 001a 0010 001a 003a 001a 003a 001a 0010 001a 0010 001a 003a 001a 0010 001a 003a 001a 003a 001a 0010 001a 0010 001a 003a 001a 003a 001a 0010 001a 003a 001a 0010 001a 003a 001a 003a 001a 0010 001a 0010 001a 0010 001a 0010 001a 003a 001a 0010 001a 0010 001a 0010 001a 003a 001a 003a 001a 003a 001a 003a 001a 0010 001a 003a 001b 0611</ccf>
+    </code>
+    <code name="KEY_REWIND" codeno="0x000000000000629D">
+      <decoding protocol="NEC" device="166" subdevice="-1" obc="70" hex0="157" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0022 0000 0157 00a5 001a 0010 001a 003a 001a 003a 001a 0010 001a 0010 001a 003a 001a 0010 001a 003a 001a 003a 001a 0010 001a 0010 001a 003a 001a 003a 001a 0010 001a 003a 001a 0010 001a 0010 001a 003a 001a 003a 001a 0010 001a 0010 001a 0010 001a 003a 001a 0010 001a 003a 001a 0010 001a 0010 001a 003a 001a 003a 001a 003a 001a 0010 001a 003a 001b 0611</ccf>
+    </code>
+    <code name="KEY_FASTFORWARD" codeno="0x000000000000A25D">
+      <decoding protocol="NEC" device="166" subdevice="-1" obc="69" hex0="93" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0022 0000 0157 00a5 001a 0010 001a 003a 001a 003a 001a 0010 001a 0010 001a 003a 001a 0010 001a 003a 001a 003a 001a 0010 001a 0010 001a 003a 001a 003a 001a 0010 001a 003a 001a 0010 001a 003a 001a 0010 001a 003a 001a 0010 001a 0010 001a 0010 001a 003a 001a 0010 001a 0010 001a 003a 001a 0010 001a 003a 001a 003a 001a 003a 001a 0010 001a 003a 001b 0611</ccf>
+    </code>
+    <code name="KEY_1" codeno="0x00000000000000FF">
+      <decoding protocol="NEC" device="166" subdevice="-1" obc="0" hex0="255" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0022 0000 0157 00a5 001a 0010 001a 003a 001a 003a 001a 0010 001a 0010 001a 003a 001a 0010 001a 003a 001a 003a 001a 0010 001a 0010 001a 003a 001a 003a 001a 0010 001a 003a 001a 0010 001a 0010 001a 0010 001a 0010 001a 0010 001a 0010 001a 0010 001a 0010 001a 0010 001a 003a 001a 003a 001a 003a 001a 003a 001a 003a 001a 003a 001a 003a 001a 003a 001b 0611</ccf>
+    </code>
+    <code name="KEY_2" codeno="0x000000000000807F">
+      <decoding protocol="NEC" device="166" subdevice="-1" obc="1" hex0="127" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0022 0000 0157 00a5 001a 0010 001a 003a 001a 003a 001a 0010 001a 0010 001a 003a 001a 0010 001a 003a 001a 003a 001a 0010 001a 0010 001a 003a 001a 003a 001a 0010 001a 003a 001a 0010 001a 003a 001a 0010 001a 0010 001a 0010 001a 0010 001a 0010 001a 0010 001a 0010 001a 0010 001a 003a 001a 003a 001a 003a 001a 003a 001a 003a 001a 003a 001a 003a 001b 0611</ccf>
+    </code>
+    <code name="KEY_3" codeno="0x00000000000040BF">
+      <decoding protocol="NEC" device="166" subdevice="-1" obc="2" hex0="191" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0022 0000 0157 00a5 001a 0010 001a 003a 001a 003a 001a 0010 001a 0010 001a 003a 001a 0010 001a 003a 001a 003a 001a 0010 001a 0010 001a 003a 001a 003a 001a 0010 001a 003a 001a 0010 001a 0010 001a 003a 001a 0010 001a 0010 001a 0010 001a 0010 001a 0010 001a 0010 001a 003a 001a 0010 001a 003a 001a 003a 001a 003a 001a 003a 001a 003a 001a 003a 001b 0611</ccf>
+    </code>
+    <code name="KEY_4" codeno="0x000000000000C03F">
+      <decoding protocol="NEC" device="166" subdevice="-1" obc="3" hex0="63" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0022 0000 0157 00a5 001a 0010 001a 003a 001a 003a 001a 0010 001a 0010 001a 003a 001a 0010 001a 003a 001a 003a 001a 0010 001a 0010 001a 003a 001a 003a 001a 0010 001a 003a 001a 0010 001a 003a 001a 003a 001a 0010 001a 0010 001a 0010 001a 0010 001a 0010 001a 0010 001a 0010 001a 0010 001a 003a 001a 003a 001a 003a 001a 003a 001a 003a 001a 003a 001b 0611</ccf>
+    </code>
+    <code name="KEY_5" codeno="0x00000000000020DF">
+      <decoding protocol="NEC" device="166" subdevice="-1" obc="4" hex0="223" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0022 0000 0157 00a5 001a 0010 001a 003a 001a 003a 001a 0010 001a 0010 001a 003a 001a 0010 001a 003a 001a 003a 001a 0010 001a 0010 001a 003a 001a 003a 001a 0010 001a 003a 001a 0010 001a 0010 001a 0010 001a 003a 001a 0010 001a 0010 001a 0010 001a 0010 001a 0010 001a 003a 001a 003a 001a 0010 001a 003a 001a 003a 001a 003a 001a 003a 001a 003a 001b 0611</ccf>
+    </code>
+    <code name="KEY_6" codeno="0x000000000000A05F">
+      <decoding protocol="NEC" device="166" subdevice="-1" obc="5" hex0="95" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0022 0000 0157 00a5 001a 0010 001a 003a 001a 003a 001a 0010 001a 0010 001a 003a 001a 0010 001a 003a 001a 003a 001a 0010 001a 0010 001a 003a 001a 003a 001a 0010 001a 003a 001a 0010 001a 003a 001a 0010 001a 003a 001a 0010 001a 0010 001a 0010 001a 0010 001a 0010 001a 0010 001a 003a 001a 0010 001a 003a 001a 003a 001a 003a 001a 003a 001a 003a 001b 0611</ccf>
+    </code>
+    <code name="KEY_7" codeno="0x000000000000609F">
+      <decoding protocol="NEC" device="166" subdevice="-1" obc="6" hex0="159" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0022 0000 0157 00a5 001a 0010 001a 003a 001a 003a 001a 0010 001a 0010 001a 003a 001a 0010 001a 003a 001a 003a 001a 0010 001a 0010 001a 003a 001a 003a 001a 0010 001a 003a 001a 0010 001a 0010 001a 003a 001a 003a 001a 0010 001a 0010 001a 0010 001a 0010 001a 0010 001a 003a 001a 0010 001a 0010 001a 003a 001a 003a 001a 003a 001a 003a 001a 003a 001b 0611</ccf>
+    </code>
+    <code name="KEY_8" codeno="0x000000000000E01F">
+      <decoding protocol="NEC" device="166" subdevice="-1" obc="7" hex0="31" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0022 0000 0157 00a5 001a 0010 001a 003a 001a 003a 001a 0010 001a 0010 001a 003a 001a 0010 001a 003a 001a 003a 001a 0010 001a 0010 001a 003a 001a 003a 001a 0010 001a 003a 001a 0010 001a 003a 001a 003a 001a 003a 001a 0010 001a 0010 001a 0010 001a 0010 001a 0010 001a 0010 001a 0010 001a 0010 001a 003a 001a 003a 001a 003a 001a 003a 001a 003a 001b 0611</ccf>
+    </code>
+    <code name="KEY_9" codeno="0x00000000000010EF">
+      <decoding protocol="NEC" device="166" subdevice="-1" obc="8" hex0="239" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0022 0000 0157 00a5 001a 0010 001a 003a 001a 003a 001a 0010 001a 0010 001a 003a 001a 0010 001a 003a 001a 003a 001a 0010 001a 0010 001a 003a 001a 003a 001a 0010 001a 003a 001a 0010 001a 0010 001a 0010 001a 0010 001a 003a 001a 0010 001a 0010 001a 0010 001a 0010 001a 003a 001a 003a 001a 003a 001a 0010 001a 003a 001a 003a 001a 003a 001a 003a 001b 0611</ccf>
+    </code>
+    <code name="KEY_0" codeno="0x000000000000906F">
+      <decoding protocol="NEC" device="166" subdevice="-1" obc="9" hex0="111" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0022 0000 0157 00a5 001a 0010 001a 003a 001a 003a 001a 0010 001a 0010 001a 003a 001a 0010 001a 003a 001a 003a 001a 0010 001a 0010 001a 003a 001a 003a 001a 0010 001a 003a 001a 0010 001a 003a 001a 0010 001a 0010 001a 003a 001a 0010 001a 0010 001a 0010 001a 0010 001a 0010 001a 003a 001a 003a 001a 0010 001a 003a 001a 003a 001a 003a 001a 003a 001b 0611</ccf>
+    </code>
+  </remote>
+</lircremotes>

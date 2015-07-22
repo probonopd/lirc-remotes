@@ -1,0 +1,29 @@
+<lircremotes creation-date="Wed Jul 22 23:04:00 2015" creator="" lircversion="0.8.6" lirc2xml_version="0.1.2" configfile="remotes/sencor/sencor_sfn9011sl.lircd.conf" decodeir_version="2.40">
+  <remote name="Sencor_SFN9011SL">
+    <lircdata type="SPACE_ENC" bits="16" flags="16400" eps="30" aeps="100" pthree="0" sthree="0" ptwo="0" stwo="0" pone="615" sone="1636" pzero="615" szero="510" plead="0" ptrail="616" pfoot="0" sfoot="0" prepeat="9063" srepeat="2197" pre_data_bits="16" pre_data="63" post_data_bits="0" post_data="0" pre_p="0" pre_s="0" post_p="0" post_s="0" gap="108100" gap2="0" repeat_gap="0" toggle_bit="0" toggle_bit_mask="0" min_repeat="0" min_code_repeat="0" freq="38000" duty_cycle="0" toggle_mask="0" rc6_mask="0" baud="0" bits_in_byte="0" parity="0" stop_bits="0" ignore_mask="0"/>
+    <code name="KEY_POWER" codeno="0x00000000000021DE">
+      <decoding protocol="NEC" device="0" subdevice="252" obc="132" hex0="222" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0022 0000 0158 00a9 0017 0013 0017 0013 0017 0013 0017 0013 0017 0013 0017 0013 0017 0013 0017 0013 0017 0013 0017 0013 0017 003e 0017 003e 0017 003e 0017 003e 0017 003e 0017 003e 0017 0013 0017 0013 0017 003e 0017 0013 0017 0013 0017 0013 0017 0013 0017 003e 0017 003e 0017 003e 0017 0013 0017 003e 0017 003e 0017 003e 0017 003e 0017 0013 0017 0644</ccf>
+    </code>
+    <code name="KEY_POWER2" codeno="0x00000000000001FE">
+      <decoding protocol="NEC" device="0" subdevice="252" obc="128" hex0="254" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0022 0000 0158 00a9 0017 0013 0017 0013 0017 0013 0017 0013 0017 0013 0017 0013 0017 0013 0017 0013 0017 0013 0017 0013 0017 003e 0017 003e 0017 003e 0017 003e 0017 003e 0017 003e 0017 0013 0017 0013 0017 0013 0017 0013 0017 0013 0017 0013 0017 0013 0017 003e 0017 003e 0017 003e 0017 003e 0017 003e 0017 003e 0017 003e 0017 003e 0017 0013 0017 0644</ccf>
+    </code>
+    <code name="KEY_SLEEP" codeno="0x000000000000619E">
+      <decoding protocol="NEC" device="0" subdevice="252" obc="134" hex0="158" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0022 0000 0158 00a9 0017 0013 0017 0013 0017 0013 0017 0013 0017 0013 0017 0013 0017 0013 0017 0013 0017 0013 0017 0013 0017 003e 0017 003e 0017 003e 0017 003e 0017 003e 0017 003e 0017 0013 0017 003e 0017 003e 0017 0013 0017 0013 0017 0013 0017 0013 0017 003e 0017 003e 0017 0013 0017 0013 0017 003e 0017 003e 0017 003e 0017 003e 0017 0013 0017 0644</ccf>
+    </code>
+    <code name="KEY_AUX" codeno="0x00000000000041BE">
+      <decoding protocol="NEC" device="0" subdevice="252" obc="130" hex0="190" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0022 0000 0158 00a9 0017 0013 0017 0013 0017 0013 0017 0013 0017 0013 0017 0013 0017 0013 0017 0013 0017 0013 0017 0013 0017 003e 0017 003e 0017 003e 0017 003e 0017 003e 0017 003e 0017 0013 0017 003e 0017 0013 0017 0013 0017 0013 0017 0013 0017 0013 0017 003e 0017 003e 0017 0013 0017 003e 0017 003e 0017 003e 0017 003e 0017 003e 0017 0013 0017 0644</ccf>
+    </code>
+    <code name="KEY_SLOW" codeno="0x000000000000E11E">
+      <decoding protocol="NEC" device="0" subdevice="252" obc="135" hex0="30" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0022 0000 0158 00a9 0017 0013 0017 0013 0017 0013 0017 0013 0017 0013 0017 0013 0017 0013 0017 0013 0017 0013 0017 0013 0017 003e 0017 003e 0017 003e 0017 003e 0017 003e 0017 003e 0017 003e 0017 003e 0017 003e 0017 0013 0017 0013 0017 0013 0017 0013 0017 003e 0017 0013 0017 0013 0017 0013 0017 003e 0017 003e 0017 003e 0017 003e 0017 0013 0017 0644</ccf>
+    </code>
+    <code name="KEY_MODE" codeno="0x000000000000A15E">
+      <decoding protocol="NEC" device="0" subdevice="252" obc="133" hex0="94" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0022 0000 0158 00a9 0017 0013 0017 0013 0017 0013 0017 0013 0017 0013 0017 0013 0017 0013 0017 0013 0017 0013 0017 0013 0017 003e 0017 003e 0017 003e 0017 003e 0017 003e 0017 003e 0017 003e 0017 0013 0017 003e 0017 0013 0017 0013 0017 0013 0017 0013 0017 003e 0017 0013 0017 003e 0017 0013 0017 003e 0017 003e 0017 003e 0017 003e 0017 0013 0017 0644</ccf>
+    </code>
+  </remote>
+</lircremotes>

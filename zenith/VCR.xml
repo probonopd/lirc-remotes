@@ -1,0 +1,105 @@
+<lircremotes creation-date="Wed Jul 22 23:03:53 2015" creator="" lircversion="0.8.6" lirc2xml_version="0.1.2" configfile="remotes/zenith/VCR.lircd.conf" decodeir_version="2.40">
+  <remote name="ZENITH_VCR">
+    <lircdata type="SPACE_ENC" bits="14" flags="16400" eps="30" aeps="100" pthree="0" sthree="0" ptwo="0" stwo="0" pone="692" sone="4908" pzero="692" szero="304" plead="0" ptrail="631" pfoot="0" sfoot="0" prepeat="0" srepeat="0" pre_data_bits="1" pre_data="1" post_data_bits="6" post_data="54" pre_p="0" pre_s="0" post_p="0" post_s="0" gap="179228" gap2="0" repeat_gap="0" toggle_bit="0" toggle_bit_mask="0" min_repeat="0" min_code_repeat="0" freq="38000" duty_cycle="0" toggle_mask="0" rc6_mask="0" baud="0" bits_in_byte="0" parity="0" stop_bits="0" ignore_mask="0"/>
+    <code name="KEY_POWER" codeno="0x0000000000002B6E">
+      <decoding protocol="Gap-692-3298-21?" device="107" subdevice="27" obc="109" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 6B.BB.D" error=""/>
+      <ccf>0000 006d 0016 0000 001a 00bb 001a 00bb 001a 000c 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 000c 0018 0dd7</ccf>
+    </code>
+    <code name="KEY_1" codeno="0x0000000000001DB5">
+      <decoding protocol="Gap-692-3298-21?" device="221" subdevice="22" obc="110" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: DD.D6.D" error=""/>
+      <ccf>0000 006d 0016 0000 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 000c 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 000c 0018 0dd7</ccf>
+    </code>
+    <code name="KEY_2" codeno="0x0000000000001DAE">
+      <decoding protocol="Gap-692-3298-21?" device="221" subdevice="26" obc="109" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: DD.BA.D" error=""/>
+      <ccf>0000 006d 0016 0000 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 000c 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 000c 0018 0dd7</ccf>
+    </code>
+    <code name="KEY_3" codeno="0x0000000000001DAD">
+      <decoding protocol="Gap-692-3298-21?" device="221" subdevice="26" obc="110" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: DD.DA.D" error=""/>
+      <ccf>0000 006d 0016 0000 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 000c 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 000c 0018 0dd7</ccf>
+    </code>
+    <code name="KEY_4" codeno="0x0000000000001D76">
+      <decoding protocol="Gap-692-3298-21?" device="93" subdevice="23" obc="109" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 5D.B7.D" error=""/>
+      <ccf>0000 006d 0016 0000 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 00bb 001a 000c 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 000c 0018 0dd7</ccf>
+    </code>
+    <code name="KEY_5" codeno="0x0000000000001D75">
+      <decoding protocol="Gap-692-3298-21?" device="93" subdevice="23" obc="110" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 5D.D7.D" error=""/>
+      <ccf>0000 006d 0016 0000 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 00bb 001a 000c 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 00bb 001a 000c 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 000c 0018 0dd7</ccf>
+    </code>
+    <code name="KEY_6" codeno="0x0000000000001D6E">
+      <decoding protocol="Gap-692-3298-21?" device="93" subdevice="27" obc="109" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 5D.BB.D" error=""/>
+      <ccf>0000 006d 0016 0000 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 00bb 001a 000c 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 000c 0018 0dd7</ccf>
+    </code>
+    <code name="KEY_7" codeno="0x0000000000001D6D">
+      <decoding protocol="Gap-692-3298-21?" device="93" subdevice="27" obc="110" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 5D.DB.D" error=""/>
+      <ccf>0000 006d 0016 0000 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 00bb 001a 000c 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 000c 0018 0dd7</ccf>
+    </code>
+    <code name="KEY_8" codeno="0x0000000000001BB6">
+      <decoding protocol="Gap-692-3298-21?" device="237" subdevice="22" obc="109" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: ED.B6.D" error=""/>
+      <decoding protocol="AirB8-3F.3F.BF.7E.7E.7E.7E.FE" device="7" subdevice="-1" obc="7" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0016 0000 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 000c 0018 0dd7</ccf>
+    </code>
+    <code name="KEY_9" codeno="0x0000000000001BB5">
+      <decoding protocol="Gap-692-3298-21?" device="237" subdevice="22" obc="110" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: ED.D6.D" error=""/>
+      <ccf>0000 006d 0016 0000 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 000c 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 000c 0018 0dd7</ccf>
+    </code>
+    <code name="KEY_0" codeno="0x0000000000001DB6">
+      <decoding protocol="Gap-692-3298-21?" device="221" subdevice="22" obc="109" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: DD.B6.D" error=""/>
+      <decoding protocol="AirB8-3F.BF.7E.7E.7E.7E.7E.FE" device="7" subdevice="-1" obc="7" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0016 0000 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 000c 0018 0dd7</ccf>
+    </code>
+    <code name="KEY_ENTER" codeno="0x0000000000001B76">
+      <decoding protocol="Gap-692-3298-21?" device="109" subdevice="23" obc="109" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 6D.B7.D" error=""/>
+      <decoding protocol="AirB8-3F.3F.3F.BF.7E.7E.7E.FE" device="7" subdevice="-1" obc="7" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0016 0000 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 000c 0018 0dd7</ccf>
+    </code>
+    <code name="KEY_CHANNELUP" codeno="0x0000000000002BB5">
+      <decoding protocol="Gap-692-3298-21?" device="235" subdevice="22" obc="110" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: EB.D6.D" error=""/>
+      <ccf>0000 006d 0016 0000 001a 00bb 001a 00bb 001a 000c 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 000c 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 000c 0018 0dd7</ccf>
+    </code>
+    <code name="KEY_CHANNELDOWN" codeno="0x0000000000002DB5">
+      <decoding protocol="Gap-692-3298-21?" device="219" subdevice="22" obc="110" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: DB.D6.D" error=""/>
+      <ccf>0000 006d 0016 0000 001a 00bb 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 000c 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 000c 0018 0dd7</ccf>
+    </code>
+    <code name="KEY_VOLUMEUP" codeno="0x0000000000002BAE">
+      <decoding protocol="Gap-692-3298-21?" device="235" subdevice="26" obc="109" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: EB.BA.D" error=""/>
+      <ccf>0000 006d 0016 0000 001a 00bb 001a 00bb 001a 000c 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 00bb 001a 000c 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 000c 0018 0dd7</ccf>
+    </code>
+    <code name="KEY_VOLUMEDOWN" codeno="0x0000000000002DAE">
+      <decoding protocol="Gap-692-3298-21?" device="219" subdevice="26" obc="109" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: DB.BA.D" error=""/>
+      <ccf>0000 006d 0016 0000 001a 00bb 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 000c 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 000c 0018 0dd7</ccf>
+    </code>
+    <code name="KEY_REWIND" codeno="0x0000000000002DAD">
+      <decoding protocol="Gap-692-3298-21?" device="219" subdevice="26" obc="110" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: DB.DA.D" error=""/>
+      <ccf>0000 006d 0016 0000 001a 00bb 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 000c 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 000c 0018 0dd7</ccf>
+    </code>
+    <code name="KEY_PLAY" codeno="0x0000000000002D75">
+      <decoding protocol="Gap-692-3298-21?" device="91" subdevice="23" obc="110" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 5B.D7.D" error=""/>
+      <ccf>0000 006d 0016 0000 001a 00bb 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 000c 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 00bb 001a 000c 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 000c 0018 0dd7</ccf>
+    </code>
+    <code name="KEY_FASTFORWARD" codeno="0x0000000000002B76">
+      <decoding protocol="Gap-692-3298-21?" device="107" subdevice="23" obc="109" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 6B.B7.D" error=""/>
+      <ccf>0000 006d 0016 0000 001a 00bb 001a 00bb 001a 000c 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 000c 0018 0dd7</ccf>
+    </code>
+    <code name="KEY_STOP" codeno="0x0000000000002D76">
+      <decoding protocol="Gap-692-3298-21?" device="91" subdevice="23" obc="109" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 5B.B7.D" error=""/>
+      <ccf>0000 006d 0016 0000 001a 00bb 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 000c 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 000c 0018 0dd7</ccf>
+    </code>
+    <code name="rev" codeno="0x0000000000002B6D">
+      <decoding protocol="Gap-692-3298-21?" device="107" subdevice="27" obc="110" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 6B.DB.D" error=""/>
+      <ccf>0000 006d 0016 0000 001a 00bb 001a 00bb 001a 000c 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 000c 0018 0dd7</ccf>
+    </code>
+    <code name="KEY_FORWARD" codeno="0x0000000000001B6D">
+      <decoding protocol="Gap-692-3298-21?" device="109" subdevice="27" obc="110" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 6D.DB.D" error=""/>
+      <decoding protocol="AirB8-3F.3F.3F.3F.3F.BF.7E.FE" device="7" subdevice="-1" obc="7" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0016 0000 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 000c 0018 0dd7</ccf>
+    </code>
+    <code name="KEY_PAUSE" codeno="0x0000000000001BAD">
+      <decoding protocol="Gap-692-3298-21?" device="237" subdevice="26" obc="110" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: ED.DA.D" error=""/>
+      <ccf>0000 006d 0016 0000 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 00bb 001a 000c 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 000c 0018 0dd7</ccf>
+    </code>
+    <code name="KEY_MUTE" codeno="0x0000000000002BAD">
+      <decoding protocol="Gap-692-3298-21?" device="235" subdevice="26" obc="110" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: EB.DA.D" error=""/>
+      <ccf>0000 006d 0016 0000 001a 00bb 001a 00bb 001a 000c 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 00bb 001a 000c 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 00bb 001a 000c 001a 00bb 001a 00bb 001a 000c 0018 0dd7</ccf>
+    </code>
+  </remote>
+</lircremotes>

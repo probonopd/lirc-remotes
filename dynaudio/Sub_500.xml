@@ -1,0 +1,69 @@
+<lircremotes creation-date="Wed Jul 22 23:04:15 2015" creator="" lircversion="0.8.6" lirc2xml_version="0.1.2" configfile="remotes/dynaudio/Sub_500.lircd.conf" decodeir_version="2.40">
+  <remote name="Dynaudio_Sub_500">
+    <lircdata type="RC5" bits="13" flags="16386" eps="30" aeps="100" pthree="0" sthree="0" ptwo="0" stwo="0" pone="875" sone="831" pzero="875" szero="831" plead="892" ptrail="0" pfoot="0" sfoot="0" prepeat="0" srepeat="0" pre_data_bits="0" pre_data="0" post_data_bits="0" post_data="0" pre_p="0" pre_s="0" post_p="0" post_s="0" gap="112758" gap2="0" repeat_gap="0" toggle_bit="0" toggle_bit_mask="2048" min_repeat="2" min_code_repeat="0" freq="38000" duty_cycle="0" toggle_mask="0" rc6_mask="0" baud="0" bits_in_byte="0" parity="0" stop_bits="0" ignore_mask="0"/>
+    <code name="KEY_POWER" codeno="0x000000000000104F">
+      <decoding protocol="RC5" device="1" subdevice="-1" obc="15" hex0="192" hex1="193" hex2="194" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 000c 0000 0022 0020 0043 0020 0021 0020 0021 0020 0021 0020 0021 003f 0043 0020 0021 003f 0021 0020 0021 0020 0021 0020 0021 0d50</ccf>
+    </code>
+    <code name="KEY_POWER" codeno="0x000000000000106A">
+      <decoding protocol="RC5" device="1" subdevice="-1" obc="42" hex0="84" hex1="85" hex2="86" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 000a 0000 0022 0020 0043 0020 0021 0020 0021 0020 0021 0020 0021 003f 0021 0020 0043 003f 0043 003f 0043 0d70</ccf>
+    </code>
+    <code name="ExtOn" codeno="0x0000000000001047">
+      <decoding protocol="RC5" device="1" subdevice="-1" obc="7" hex0="224" hex1="225" hex2="226" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 000c 0000 0022 0020 0043 0020 0021 0020 0021 0020 0021 0020 0021 003f 0043 0020 0021 0020 0021 003f 0021 0020 0021 0020 0021 0d50</ccf>
+    </code>
+    <code name="ExtOff" codeno="0x0000000000001045">
+      <decoding protocol="RC5" device="1" subdevice="-1" obc="5" hex0="232" hex1="233" hex2="234" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 000b 0000 0022 0020 0043 0020 0021 0020 0021 0020 0021 0020 0021 003f 0043 0020 0021 0020 0021 003f 0043 003f 0021 0d50</ccf>
+    </code>
+    <code name="Flat" codeno="0x0000000000001078">
+      <decoding protocol="RC5" device="1" subdevice="-1" obc="56" hex0="28" hex1="29" hex2="30" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 000c 0000 0022 0020 0043 0020 0021 0020 0021 0020 0021 0020 0021 003f 0021 0020 0021 0020 0021 0020 0043 0020 0021 0020 0021 0d70</ccf>
+    </code>
+    <code name="KEY_0_degrees" codeno="0x0000000000001046">
+      <decoding protocol="RC5" device="1" subdevice="-1" obc="6" hex0="228" hex1="229" hex2="230" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 000b 0000 0022 0020 0043 0020 0021 0020 0021 0020 0021 0020 0021 003f 0043 0020 0021 0020 0021 003f 0021 0020 0043 0d70</ccf>
+    </code>
+    <code name="KEY_0_degrees" codeno="0x000000000000105E">
+      <decoding protocol="RC5" device="1" subdevice="-1" obc="30" hex0="132" hex1="133" hex2="134" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 000b 0000 0022 0020 0043 0020 0021 0020 0021 0020 0021 0020 0021 003f 0043 003f 0021 0020 0021 0020 0021 0020 0043 0d70</ccf>
+    </code>
+    <code name="KEY_0_degrees" codeno="0x0000000000001050">
+      <decoding protocol="RC5" device="1" subdevice="-1" obc="16" hex0="188" hex1="189" hex2="190" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 000b 0000 0022 0020 0043 0020 0021 0020 0021 0020 0021 0020 0021 003f 0043 003f 0043 0020 0021 0020 0021 0020 0021 0d70</ccf>
+    </code>
+    <code name="KEY_0_degrees" codeno="0x0000000000001049">
+      <decoding protocol="RC5" device="1" subdevice="-1" obc="9" hex0="216" hex1="217" hex2="218" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 000b 0000 0022 0020 0043 0020 0021 0020 0021 0020 0021 0020 0021 003f 0043 0020 0021 003f 0043 0020 0021 003f 0021 0d50</ccf>
+    </code>
+    <code name="KEY_0Hz" codeno="0x0000000000001041">
+      <decoding protocol="RC5" device="1" subdevice="-1" obc="1" hex0="248" hex1="249" hex2="250" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 000c 0000 0022 0020 0043 0020 0021 0020 0021 0020 0021 0020 0021 003f 0043 0020 0021 0020 0021 0020 0021 0020 0021 003f 0021 0d50</ccf>
+    </code>
+    <code name="KEY_0Hz" codeno="0x0000000000001042">
+      <decoding protocol="RC5" device="1" subdevice="-1" obc="2" hex0="244" hex1="245" hex2="246" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 000b 0000 0022 0020 0043 0020 0021 0020 0021 0020 0021 0020 0021 003f 0043 0020 0021 0020 0021 0020 0021 003f 0043 0d70</ccf>
+    </code>
+    <code name="KEY_0Hz" codeno="0x0000000000001043">
+      <decoding protocol="RC5" device="1" subdevice="-1" obc="3" hex0="240" hex1="241" hex2="242" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 000c 0000 0022 0020 0043 0020 0021 0020 0021 0020 0021 0020 0021 003f 0043 0020 0021 0020 0021 0020 0021 003f 0021 0020 0021 0d50</ccf>
+    </code>
+    <code name="PresetA" codeno="0x000000000000107D">
+      <decoding protocol="RC5" device="1" subdevice="-1" obc="61" hex0="8" hex1="9" hex2="10" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 000c 0000 0022 0020 0043 0020 0021 0020 0021 0020 0021 0020 0021 003f 0021 0020 0021 0020 0021 0020 0021 0020 0043 003f 0021 0d50</ccf>
+    </code>
+    <code name="PresetB" codeno="0x0000000000001055">
+      <decoding protocol="RC5" device="1" subdevice="-1" obc="21" hex0="168" hex1="169" hex2="170" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 000a 0000 0022 0020 0043 0020 0021 0020 0021 0020 0021 0020 0021 003f 0043 003f 0043 003f 0043 003f 0021 0d50</ccf>
+    </code>
+    <code name="PresetC" codeno="0x0000000000001077">
+      <decoding protocol="RC5" device="1" subdevice="-1" obc="55" hex0="32" hex1="33" hex2="34" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 000c 0000 0022 0020 0043 0020 0021 0020 0021 0020 0021 0020 0021 003f 0021 0020 0021 0020 0043 003f 0021 0020 0021 0020 0021 0d50</ccf>
+    </code>
+    <code name="PresetD" codeno="0x0000000000001063">
+      <decoding protocol="RC5" device="1" subdevice="-1" obc="35" hex0="112" hex1="113" hex2="114" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 000c 0000 0022 0020 0043 0020 0021 0020 0021 0020 0021 0020 0021 003f 0021 0020 0043 0020 0021 0020 0021 003f 0021 0020 0021 0d50</ccf>
+    </code>
+  </remote>
+</lircremotes>

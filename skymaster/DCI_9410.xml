@@ -1,0 +1,145 @@
+<lircremotes creation-date="Wed Jul 22 23:03:59 2015" creator="" lircversion="0.8.6" lirc2xml_version="0.1.2" configfile="remotes/skymaster/DCI_9410.lircd.conf" decodeir_version="2.40">
+  <remote name="Skymaster_DCI_9410">
+    <lircdata type="SPACE_ENC" bits="11" flags="16400" eps="30" aeps="100" pthree="0" sthree="0" ptwo="0" stwo="0" pone="229" sone="7374" pzero="229" szero="4849" plead="0" ptrail="229" pfoot="0" sfoot="0" prepeat="0" srepeat="0" pre_data_bits="0" pre_data="0" post_data_bits="0" post_data="0" pre_p="0" pre_s="0" post_p="0" post_s="0" gap="121676" gap2="0" repeat_gap="0" toggle_bit="0" toggle_bit_mask="512" min_repeat="0" min_code_repeat="0" freq="38000" duty_cycle="0" toggle_mask="0" rc6_mask="0" baud="0" bits_in_byte="0" parity="0" stop_bits="0" ignore_mask="0"/>
+    <code name="KEY_MUTE" codeno="0x0000000000000558">
+      <decoding protocol="RECS80" device="5" subdevice="-1" obc="24" hex0="156" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=0 (229/5078/7603)" error=""/>
+      <ccf>0000 006d 000c 0000 0009 0118 0009 00b8 0009 0118 0009 00b8 0009 0118 0009 00b8 0009 0118 0009 0118 0009 00b8 0009 00b8 0009 00b8 0009 07dd</ccf>
+    </code>
+    <code name="KEY_POWER" codeno="0x000000000000055E">
+      <decoding protocol="RECS80" device="5" subdevice="-1" obc="30" hex0="132" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=0 (229/5078/7603)" error=""/>
+      <ccf>0000 006d 000c 0000 0009 0118 0009 00b8 0009 0118 0009 00b8 0009 0118 0009 00b8 0009 0118 0009 0118 0009 0118 0009 0118 0009 00b8 0009 071d</ccf>
+    </code>
+    <code name="KEY_TV" codeno="0x0000000000000566">
+      <decoding protocol="RECS80" device="5" subdevice="-1" obc="38" hex0="100" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=0 (229/5078/7603)" error=""/>
+      <ccf>0000 006d 000c 0000 0009 0118 0009 00b8 0009 0118 0009 00b8 0009 0118 0009 0118 0009 00b8 0009 00b8 0009 0118 0009 0118 0009 00b8 0009 077d</ccf>
+    </code>
+    <code name="TV/RAD" codeno="0x000000000000056E">
+      <decoding protocol="RECS80" device="5" subdevice="-1" obc="46" hex0="68" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=0 (229/5078/7603)" error=""/>
+      <ccf>0000 006d 000c 0000 0009 0118 0009 00b8 0009 0118 0009 00b8 0009 0118 0009 0118 0009 00b8 0009 0118 0009 0118 0009 0118 0009 00b8 0009 071d</ccf>
+    </code>
+    <code name="KEY_AUDIO" codeno="0x0000000000000576">
+      <decoding protocol="RECS80" device="5" subdevice="-1" obc="54" hex0="36" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=0 (229/5078/7603)" error=""/>
+      <ccf>0000 006d 000c 0000 0009 0118 0009 00b8 0009 0118 0009 00b8 0009 0118 0009 0118 0009 0118 0009 00b8 0009 0118 0009 0118 0009 00b8 0009 071d</ccf>
+    </code>
+    <code name="KEY_1" codeno="0x0000000000000575">
+      <decoding protocol="RECS80" device="5" subdevice="-1" obc="53" hex0="40" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=0 (229/5078/7603)" error=""/>
+      <ccf>0000 006d 000c 0000 0009 0118 0009 00b8 0009 0118 0009 00b8 0009 0118 0009 0118 0009 0118 0009 00b8 0009 0118 0009 00b8 0009 0118 0009 071d</ccf>
+    </code>
+    <code name="KEY_2" codeno="0x000000000000056D">
+      <decoding protocol="RECS80" device="5" subdevice="-1" obc="45" hex0="72" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=0 (229/5078/7603)" error=""/>
+      <ccf>0000 006d 000c 0000 0009 0118 0009 00b8 0009 0118 0009 00b8 0009 0118 0009 0118 0009 00b8 0009 0118 0009 0118 0009 00b8 0009 0118 0009 071d</ccf>
+    </code>
+    <code name="KEY_3" codeno="0x0000000000000565">
+      <decoding protocol="RECS80" device="5" subdevice="-1" obc="37" hex0="104" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=0 (229/5078/7603)" error=""/>
+      <ccf>0000 006d 000c 0000 0009 0118 0009 00b8 0009 0118 0009 00b8 0009 0118 0009 0118 0009 00b8 0009 00b8 0009 0118 0009 00b8 0009 0118 0009 077d</ccf>
+    </code>
+    <code name="KEY_4" codeno="0x000000000000055D">
+      <decoding protocol="RECS80" device="5" subdevice="-1" obc="29" hex0="136" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=0 (229/5078/7603)" error=""/>
+      <ccf>0000 006d 000c 0000 0009 0118 0009 00b8 0009 0118 0009 00b8 0009 0118 0009 00b8 0009 0118 0009 0118 0009 0118 0009 00b8 0009 0118 0009 071d</ccf>
+    </code>
+    <code name="KEY_5" codeno="0x0000000000000574">
+      <decoding protocol="RECS80" device="5" subdevice="-1" obc="52" hex0="44" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=0 (229/5078/7603)" error=""/>
+      <ccf>0000 006d 000c 0000 0009 0118 0009 00b8 0009 0118 0009 00b8 0009 0118 0009 0118 0009 0118 0009 00b8 0009 0118 0009 00b8 0009 00b8 0009 077d</ccf>
+    </code>
+    <code name="KEY_6" codeno="0x000000000000056C">
+      <decoding protocol="RECS80" device="5" subdevice="-1" obc="44" hex0="76" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=0 (229/5078/7603)" error=""/>
+      <ccf>0000 006d 000c 0000 0009 0118 0009 00b8 0009 0118 0009 00b8 0009 0118 0009 0118 0009 00b8 0009 0118 0009 0118 0009 00b8 0009 00b8 0009 077d</ccf>
+    </code>
+    <code name="KEY_7" codeno="0x0000000000000564">
+      <decoding protocol="RECS80" device="5" subdevice="-1" obc="36" hex0="108" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=0 (229/5078/7603)" error=""/>
+      <ccf>0000 006d 000c 0000 0009 0118 0009 00b8 0009 0118 0009 00b8 0009 0118 0009 0118 0009 00b8 0009 00b8 0009 0118 0009 00b8 0009 00b8 0009 07dd</ccf>
+    </code>
+    <code name="KEY_8" codeno="0x000000000000055C">
+      <decoding protocol="RECS80" device="5" subdevice="-1" obc="28" hex0="140" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=0 (229/5078/7603)" error=""/>
+      <ccf>0000 006d 000c 0000 0009 0118 0009 00b8 0009 0118 0009 00b8 0009 0118 0009 00b8 0009 0118 0009 0118 0009 0118 0009 00b8 0009 00b8 0009 077d</ccf>
+    </code>
+    <code name="KEY_9" codeno="0x0000000000000573">
+      <decoding protocol="RECS80" device="5" subdevice="-1" obc="51" hex0="48" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=0 (229/5078/7603)" error=""/>
+      <ccf>0000 006d 000c 0000 0009 0118 0009 00b8 0009 0118 0009 00b8 0009 0118 0009 0118 0009 0118 0009 00b8 0009 00b8 0009 0118 0009 0118 0009 071d</ccf>
+    </code>
+    <code name="KEY_TEXT" codeno="0x0000000000000563">
+      <decoding protocol="RECS80" device="5" subdevice="-1" obc="35" hex0="112" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=0 (229/5078/7603)" error=""/>
+      <ccf>0000 006d 000c 0000 0009 0118 0009 00b8 0009 0118 0009 00b8 0009 0118 0009 0118 0009 00b8 0009 00b8 0009 00b8 0009 0118 0009 0118 0009 077d</ccf>
+    </code>
+    <code name="KEY_0" codeno="0x000000000000056B">
+      <decoding protocol="RECS80" device="5" subdevice="-1" obc="43" hex0="80" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=0 (229/5078/7603)" error=""/>
+      <ccf>0000 006d 000c 0000 0009 0118 0009 00b8 0009 0118 0009 00b8 0009 0118 0009 0118 0009 00b8 0009 0118 0009 00b8 0009 0118 0009 0118 0009 071d</ccf>
+    </code>
+    <code name="KEY_SUBTITLE" codeno="0x0000000000000556">
+      <decoding protocol="RECS80" device="5" subdevice="-1" obc="22" hex0="164" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=0 (229/5078/7603)" error=""/>
+      <ccf>0000 006d 000c 0000 0009 0118 0009 00b8 0009 0118 0009 00b8 0009 0118 0009 00b8 0009 0118 0009 00b8 0009 0118 0009 0118 0009 00b8 0009 077d</ccf>
+    </code>
+    <code name="KEY_EPG" codeno="0x000000000000056F">
+      <decoding protocol="RECS80" device="5" subdevice="-1" obc="47" hex0="64" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=0 (229/5078/7603)" error=""/>
+      <ccf>0000 006d 000c 0000 0009 0118 0009 00b8 0009 0118 0009 00b8 0009 0118 0009 0118 0009 00b8 0009 0118 0009 0118 0009 0118 0009 0118 0009 06bd</ccf>
+    </code>
+    <code name="KEY_MENU" codeno="0x0000000000000567">
+      <decoding protocol="RECS80" device="5" subdevice="-1" obc="39" hex0="96" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=0 (229/5078/7603)" error=""/>
+      <ccf>0000 006d 000c 0000 0009 0118 0009 00b8 0009 0118 0009 00b8 0009 0118 0009 0118 0009 00b8 0009 00b8 0009 0118 0009 0118 0009 0118 0009 071d</ccf>
+    </code>
+    <code name="EXT" codeno="0x0000000000000570">
+      <decoding protocol="RECS80" device="5" subdevice="-1" obc="48" hex0="60" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=0 (229/5078/7603)" error=""/>
+      <ccf>0000 006d 000c 0000 0009 0118 0009 00b8 0009 0118 0009 00b8 0009 0118 0009 0118 0009 0118 0009 00b8 0009 00b8 0009 00b8 0009 00b8 0009 07dd</ccf>
+    </code>
+    <code name="ALT" codeno="0x0000000000000555">
+      <decoding protocol="RECS80" device="5" subdevice="-1" obc="21" hex0="168" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=0 (229/5078/7603)" error=""/>
+      <ccf>0000 006d 000c 0000 0009 0118 0009 00b8 0009 0118 0009 00b8 0009 0118 0009 00b8 0009 0118 0009 00b8 0009 0118 0009 00b8 0009 0118 0009 077d</ccf>
+    </code>
+    <code name="KEY_CHANNELUP" codeno="0x0000000000000568">
+      <decoding protocol="RECS80" device="5" subdevice="-1" obc="40" hex0="92" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=0 (229/5078/7603)" error=""/>
+      <ccf>0000 006d 000c 0000 0009 0118 0009 00b8 0009 0118 0009 00b8 0009 0118 0009 0118 0009 00b8 0009 0118 0009 00b8 0009 00b8 0009 00b8 0009 07dd</ccf>
+    </code>
+    <code name="KEY_OK" codeno="0x0000000000000569">
+      <decoding protocol="RECS80" device="5" subdevice="-1" obc="41" hex0="88" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=0 (229/5078/7603)" error=""/>
+      <ccf>0000 006d 000c 0000 0009 0118 0009 00b8 0009 0118 0009 00b8 0009 0118 0009 0118 0009 00b8 0009 0118 0009 00b8 0009 00b8 0009 0118 0009 077d</ccf>
+    </code>
+    <code name="KEY_CHANNELDOWN" codeno="0x000000000000056A">
+      <decoding protocol="RECS80" device="5" subdevice="-1" obc="42" hex0="84" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=0 (229/5078/7603)" error=""/>
+      <ccf>0000 006d 000c 0000 0009 0118 0009 00b8 0009 0118 0009 00b8 0009 0118 0009 0118 0009 00b8 0009 0118 0009 00b8 0009 0118 0009 00b8 0009 077d</ccf>
+    </code>
+    <code name="KEY_VOLUMEDOWN" codeno="0x0000000000000571">
+      <decoding protocol="RECS80" device="5" subdevice="-1" obc="49" hex0="56" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=0 (229/5078/7603)" error=""/>
+      <ccf>0000 006d 000c 0000 0009 0118 0009 00b8 0009 0118 0009 00b8 0009 0118 0009 0118 0009 0118 0009 00b8 0009 00b8 0009 00b8 0009 0118 0009 077d</ccf>
+    </code>
+    <code name="KEY_VOLUMEUP" codeno="0x0000000000000561">
+      <decoding protocol="RECS80" device="5" subdevice="-1" obc="33" hex0="120" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=0 (229/5078/7603)" error=""/>
+      <ccf>0000 006d 000c 0000 0009 0118 0009 00b8 0009 0118 0009 00b8 0009 0118 0009 0118 0009 00b8 0009 00b8 0009 00b8 0009 00b8 0009 0118 0009 07dd</ccf>
+    </code>
+    <code name="FREEZE" codeno="0x0000000000000560">
+      <decoding protocol="RECS80" device="5" subdevice="-1" obc="32" hex0="124" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=0 (229/5078/7603)" error=""/>
+      <ccf>0000 006d 000c 0000 0009 0118 0009 00b8 0009 0118 0009 00b8 0009 0118 0009 0118 0009 00b8 0009 00b8 0009 00b8 0009 00b8 0009 00b8 0009 083d</ccf>
+    </code>
+    <code name="KEY_PAGEDOWN" codeno="0x000000000000055F">
+      <decoding protocol="RECS80" device="5" subdevice="-1" obc="31" hex0="128" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=0 (229/5078/7603)" error=""/>
+      <ccf>0000 006d 000c 0000 0009 0118 0009 00b8 0009 0118 0009 00b8 0009 0118 0009 00b8 0009 0118 0009 0118 0009 0118 0009 0118 0009 0118 0009 06bd</ccf>
+    </code>
+    <code name="KEY_PAGEUP" codeno="0x000000000000055A">
+      <decoding protocol="RECS80" device="5" subdevice="-1" obc="26" hex0="148" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=0 (229/5078/7603)" error=""/>
+      <ccf>0000 006d 000c 0000 0009 0118 0009 00b8 0009 0118 0009 00b8 0009 0118 0009 00b8 0009 0118 0009 0118 0009 00b8 0009 0118 0009 00b8 0009 077d</ccf>
+    </code>
+    <code name="BROWSE" codeno="0x000000000000055B">
+      <decoding protocol="RECS80" device="5" subdevice="-1" obc="27" hex0="144" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=0 (229/5078/7603)" error=""/>
+      <ccf>0000 006d 000c 0000 0009 0118 0009 00b8 0009 0118 0009 00b8 0009 0118 0009 00b8 0009 0118 0009 0118 0009 00b8 0009 0118 0009 0118 0009 071d</ccf>
+    </code>
+    <code name="KEY_RED" codeno="0x0000000000000559">
+      <decoding protocol="RECS80" device="5" subdevice="-1" obc="25" hex0="152" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=0 (229/5078/7603)" error=""/>
+      <ccf>0000 006d 000c 0000 0009 0118 0009 00b8 0009 0118 0009 00b8 0009 0118 0009 00b8 0009 0118 0009 0118 0009 00b8 0009 00b8 0009 0118 0009 077d</ccf>
+    </code>
+    <code name="KEY_GREEN" codeno="0x0000000000000572">
+      <decoding protocol="RECS80" device="5" subdevice="-1" obc="50" hex0="52" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=0 (229/5078/7603)" error=""/>
+      <ccf>0000 006d 000c 0000 0009 0118 0009 00b8 0009 0118 0009 00b8 0009 0118 0009 0118 0009 0118 0009 00b8 0009 00b8 0009 0118 0009 00b8 0009 077d</ccf>
+    </code>
+    <code name="KEY_YELLOW" codeno="0x0000000000000562">
+      <decoding protocol="RECS80" device="5" subdevice="-1" obc="34" hex0="116" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=0 (229/5078/7603)" error=""/>
+      <ccf>0000 006d 000c 0000 0009 0118 0009 00b8 0009 0118 0009 00b8 0009 0118 0009 0118 0009 00b8 0009 00b8 0009 00b8 0009 0118 0009 00b8 0009 07dd</ccf>
+    </code>
+    <code name="KEY_BLUE" codeno="0x0000000000000577">
+      <decoding protocol="RECS80" device="5" subdevice="-1" obc="55" hex0="32" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=0 (229/5078/7603)" error=""/>
+      <ccf>0000 006d 000c 0000 0009 0118 0009 00b8 0009 0118 0009 00b8 0009 0118 0009 0118 0009 0118 0009 00b8 0009 0118 0009 0118 0009 0118 0009 06bd</ccf>
+    </code>
+    <code name="KEY_I" codeno="0x0000000000000554">
+      <decoding protocol="RECS80" device="5" subdevice="-1" obc="20" hex0="172" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=0 (229/5078/7603)" error=""/>
+      <ccf>0000 006d 000c 0000 0009 0118 0009 00b8 0009 0118 0009 00b8 0009 0118 0009 00b8 0009 0118 0009 00b8 0009 0118 0009 00b8 0009 00b8 0009 07dd</ccf>
+    </code>
+  </remote>
+</lircremotes>

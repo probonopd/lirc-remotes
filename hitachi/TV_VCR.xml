@@ -1,0 +1,45 @@
+<lircremotes creation-date="Wed Jul 22 23:04:13 2015" creator="" lircversion="0.8.6" lirc2xml_version="0.1.2" configfile="remotes/hitachi/TV_VCR.lircd.conf" decodeir_version="2.40">
+  <remote name="Hitachi">
+    <lircdata type="SPACE_ENC" bits="10" flags="16400" eps="30" aeps="100" pthree="0" sthree="0" ptwo="0" stwo="0" pone="299" sone="1807" pzero="299" szero="754" plead="0" ptrail="299" pfoot="0" sfoot="0" prepeat="0" srepeat="0" pre_data_bits="0" pre_data="0" post_data_bits="0" post_data="0" pre_p="0" pre_s="0" post_p="0" post_s="0" gap="25279" gap2="0" repeat_gap="0" toggle_bit="0" toggle_bit_mask="0" min_repeat="0" min_code_repeat="0" freq="38000" duty_cycle="0" toggle_mask="0" rc6_mask="0" baud="0" bits_in_byte="0" parity="0" stop_bits="0" ignore_mask="0"/>
+    <code name="KEY_CHANNELUP" codeno="0x000000000000024C">
+      <decoding protocol="Akai" device="1" subdevice="-1" obc="25" hex0="179" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000b 0000 000b 0045 000b 001d 000b 001d 000b 0045 000b 001d 000b 001d 000b 0045 000b 0045 000b 001d 000b 001d 000b 0185</ccf>
+    </code>
+    <code name="KEY_CHANNELDOWN" codeno="0x000000000000022C">
+      <decoding protocol="Akai" device="1" subdevice="-1" obc="26" hex0="211" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000b 0000 000b 0045 000b 001d 000b 001d 000b 001d 000b 0045 000b 001d 000b 0045 000b 0045 000b 001d 000b 001d 000b 0185</ccf>
+    </code>
+    <code name="KEY_STOP" codeno="0x0000000000000260">
+      <decoding protocol="Akai" device="1" subdevice="-1" obc="3" hex0="159" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000b 0000 000b 0045 000b 001d 000b 001d 000b 0045 000b 0045 000b 001d 000b 001d 000b 001d 000b 001d 000b 001d 000b 01ad</ccf>
+    </code>
+    <code name="KEY_REWIND" codeno="0x0000000000000270">
+      <decoding protocol="Akai" device="1" subdevice="-1" obc="7" hex0="143" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000b 0000 000b 0045 000b 001d 000b 001d 000b 0045 000b 0045 000b 0045 000b 001d 000b 001d 000b 001d 000b 001d 000b 0185</ccf>
+    </code>
+    <code name="F.FWD" codeno="0x0000000000000230">
+      <decoding protocol="Akai" device="1" subdevice="-1" obc="6" hex0="207" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000b 0000 000b 0045 000b 001d 000b 001d 000b 001d 000b 0045 000b 0045 000b 001d 000b 001d 000b 001d 000b 001d 000b 01ad</ccf>
+    </code>
+    <code name="KEY_PLAY" codeno="0x0000000000000218">
+      <decoding protocol="Akai" device="1" subdevice="-1" obc="12" hex0="231" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000b 0000 000b 0045 000b 001d 000b 001d 000b 001d 000b 001d 000b 0045 000b 0045 000b 001d 000b 001d 000b 001d 000b 01ad</ccf>
+    </code>
+    <code name="VISUAL" codeno="0x0000000000000278">
+      <decoding protocol="Akai" device="1" subdevice="-1" obc="15" hex0="135" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000b 0000 000b 0045 000b 001d 000b 001d 000b 0045 000b 0045 000b 0045 000b 0045 000b 001d 000b 001d 000b 001d 000b 015d</ccf>
+    </code>
+    <code name="KEY_SEARCH" codeno="0x0000000000000238">
+      <decoding protocol="Akai" device="1" subdevice="-1" obc="14" hex0="199" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000b 0000 000b 0045 000b 001d 000b 001d 000b 001d 000b 0045 000b 0045 000b 0045 000b 001d 000b 001d 000b 001d 000b 0185</ccf>
+    </code>
+    <code name="KEY_PAUSE" codeno="0x0000000000000258">
+      <decoding protocol="Akai" device="1" subdevice="-1" obc="13" hex0="167" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000b 0000 000b 0045 000b 001d 000b 001d 000b 0045 000b 001d 000b 0045 000b 0045 000b 001d 000b 001d 000b 001d 000b 0185</ccf>
+    </code>
+    <code name="F.ADV" codeno="0x0000000000000234">
+      <decoding protocol="Akai" device="1" subdevice="-1" obc="22" hex0="203" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000b 0000 000b 0045 000b 001d 000b 001d 000b 001d 000b 0045 000b 0045 000b 001d 000b 0045 000b 001d 000b 001d 000b 0185</ccf>
+    </code>
+  </remote>
+</lircremotes>

@@ -1,0 +1,97 @@
+<lircremotes creation-date="Wed Jul 22 23:04:07 2015" creator="" lircversion="0.8.6" lirc2xml_version="0.1.2" configfile="remotes/pace/PSR900.lircd.conf" decodeir_version="2.40">
+  <remote name="pace900">
+    <lircdata type="SPACE_ENC" bits="5" flags="16400" eps="30" aeps="100" pthree="0" sthree="0" ptwo="0" stwo="0" pone="666" sone="6948" pzero="666" szero="4414" plead="0" ptrail="673" pfoot="0" sfoot="0" prepeat="0" srepeat="0" pre_data_bits="6" pre_data="8" post_data_bits="0" post_data="0" pre_p="0" pre_s="0" post_p="0" post_s="0" gap="122772" gap2="0" repeat_gap="0" toggle_bit="0" toggle_bit_mask="512" min_repeat="0" min_code_repeat="0" freq="38000" duty_cycle="0" toggle_mask="0" rc6_mask="0" baud="0" bits_in_byte="0" parity="0" stop_bits="0" ignore_mask="0"/>
+    <code name="KEY_POWER" codeno="0x0000000000000010">
+      <decoding protocol="Gap-762-6347-12?" device="8" subdevice="-1" obc="8" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 88.0" error=""/>
+      <ccf>0000 006d 000d 0000 001d 0075 0019 00a8 0019 00a8 0019 0108 0019 00a8 0019 00a8 0019 00a8 0019 0108 0019 00a8 0019 00a8 0019 00a8 0019 00a8 001a 0882</ccf>
+    </code>
+    <code name="KEY_1--" codeno="0x000000000000000A">
+      <decoding protocol="Gap-762-6347-12?" device="8" subdevice="-1" obc="80" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 8.5" error=""/>
+      <ccf>0000 006d 000d 0000 001d 0075 0019 00a8 0019 00a8 0019 0108 0019 00a8 0019 00a8 0019 00a8 0019 00a8 0019 0108 0019 00a8 0019 0108 0019 00a8 001a 0822</ccf>
+    </code>
+    <code name="KEY_1" codeno="0x0000000000000001">
+      <decoding protocol="Gap-762-6347-12?" device="8" subdevice="-1" obc="128" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 8.8" error=""/>
+      <ccf>0000 006d 000d 0000 001d 0075 0019 00a8 0019 00a8 0019 0108 0019 00a8 0019 00a8 0019 00a8 0019 00a8 0019 00a8 0019 00a8 0019 00a8 0019 0108 001a 0882</ccf>
+    </code>
+    <code name="KEY_2" codeno="0x0000000000000002">
+      <decoding protocol="Gap-762-6347-12?" device="8" subdevice="-1" obc="64" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 8.4" error=""/>
+      <ccf>0000 006d 000d 0000 001d 0075 0019 00a8 0019 00a8 0019 0108 0019 00a8 0019 00a8 0019 00a8 0019 00a8 0019 00a8 0019 00a8 0019 0108 0019 00a8 001a 0882</ccf>
+    </code>
+    <code name="KEY_3" codeno="0x0000000000000003">
+      <decoding protocol="Gap-762-6347-12?" device="8" subdevice="-1" obc="192" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 8.C" error=""/>
+      <ccf>0000 006d 000d 0000 001d 0075 0019 00a8 0019 00a8 0019 0108 0019 00a8 0019 00a8 0019 00a8 0019 00a8 0019 00a8 0019 00a8 0019 0108 0019 0108 001a 0822</ccf>
+    </code>
+    <code name="KEY_4" codeno="0x0000000000000004">
+      <decoding protocol="Gap-762-6347-12?" device="8" subdevice="-1" obc="32" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 8.2" error=""/>
+      <ccf>0000 006d 000d 0000 001d 0075 0019 00a8 0019 00a8 0019 0108 0019 00a8 0019 00a8 0019 00a8 0019 00a8 0019 00a8 0019 0108 0019 00a8 0019 00a8 001a 0882</ccf>
+    </code>
+    <code name="KEY_5" codeno="0x0000000000000005">
+      <decoding protocol="Gap-762-6347-12?" device="8" subdevice="-1" obc="160" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 8.A" error=""/>
+      <ccf>0000 006d 000d 0000 001d 0075 0019 00a8 0019 00a8 0019 0108 0019 00a8 0019 00a8 0019 00a8 0019 00a8 0019 00a8 0019 0108 0019 00a8 0019 0108 001a 0822</ccf>
+    </code>
+    <code name="KEY_6" codeno="0x0000000000000006">
+      <decoding protocol="Gap-762-6347-12?" device="8" subdevice="-1" obc="96" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 8.6" error=""/>
+      <ccf>0000 006d 000d 0000 001d 0075 0019 00a8 0019 00a8 0019 0108 0019 00a8 0019 00a8 0019 00a8 0019 00a8 0019 00a8 0019 0108 0019 0108 0019 00a8 001a 0822</ccf>
+    </code>
+    <code name="KEY_7" codeno="0x0000000000000007">
+      <decoding protocol="Gap-762-6347-12?" device="8" subdevice="-1" obc="224" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 8.E" error=""/>
+      <ccf>0000 006d 000d 0000 001d 0075 0019 00a8 0019 00a8 0019 0108 0019 00a8 0019 00a8 0019 00a8 0019 00a8 0019 00a8 0019 0108 0019 0108 0019 0108 001a 07c1</ccf>
+    </code>
+    <code name="KEY_8" codeno="0x0000000000000008">
+      <decoding protocol="Gap-762-6347-12?" device="8" subdevice="-1" obc="16" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 8.1" error=""/>
+      <ccf>0000 006d 000d 0000 001d 0075 0019 00a8 0019 00a8 0019 0108 0019 00a8 0019 00a8 0019 00a8 0019 00a8 0019 0108 0019 00a8 0019 00a8 0019 00a8 001a 0882</ccf>
+    </code>
+    <code name="KEY_9" codeno="0x0000000000000009">
+      <decoding protocol="Gap-762-6347-12?" device="8" subdevice="-1" obc="144" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 8.9" error=""/>
+      <ccf>0000 006d 000d 0000 001d 0075 0019 00a8 0019 00a8 0019 0108 0019 00a8 0019 00a8 0019 00a8 0019 00a8 0019 0108 0019 00a8 0019 00a8 0019 0108 001a 0822</ccf>
+    </code>
+    <code name="KEY_0" codeno="0x0000000000000000">
+      <decoding protocol="Gap-762-6347-12?" device="8" subdevice="-1" obc="0" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 8.0" error=""/>
+      <ccf>0000 006d 000d 0000 001d 0075 0019 00a8 0019 00a8 0019 0108 0019 00a8 0019 00a8 0019 00a8 0019 00a8 0019 00a8 0019 00a8 0019 00a8 0019 00a8 001a 08e2</ccf>
+    </code>
+    <code name="KEY_AGAIN" codeno="0x000000000000001A">
+      <decoding protocol="Gap-762-6347-12?" device="8" subdevice="-1" obc="88" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 88.5" error=""/>
+      <ccf>0000 006d 000d 0000 001d 0075 0019 00a8 0019 00a8 0019 0108 0019 00a8 0019 00a8 0019 00a8 0019 0108 0019 0108 0019 00a8 0019 0108 0019 00a8 001a 07c1</ccf>
+    </code>
+    <code name="KEY_F" codeno="0x0000000000000019">
+      <decoding protocol="Gap-762-6347-12?" device="8" subdevice="-1" obc="152" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 88.9" error=""/>
+      <ccf>0000 006d 000d 0000 001d 0075 0019 00a8 0019 00a8 0019 0108 0019 00a8 0019 00a8 0019 00a8 0019 0108 0019 0108 0019 00a8 0019 00a8 0019 0108 001a 07c1</ccf>
+    </code>
+    <code name="KEY_LEFT" codeno="0x0000000000000016">
+      <decoding protocol="Gap-762-6347-12?" device="8" subdevice="-1" obc="104" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 88.6" error=""/>
+      <ccf>0000 006d 000d 0000 001d 0075 0019 00a8 0019 00a8 0019 0108 0019 00a8 0019 00a8 0019 00a8 0019 0108 0019 00a8 0019 0108 0019 0108 0019 00a8 001a 07c1</ccf>
+    </code>
+    <code name="KEY_MENU" codeno="0x0000000000000017">
+      <decoding protocol="Gap-762-6347-12?" device="8" subdevice="-1" obc="232" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 88.E" error=""/>
+      <ccf>0000 006d 000d 0000 001d 0075 0019 00a8 0019 00a8 0019 0108 0019 00a8 0019 00a8 0019 00a8 0019 0108 0019 00a8 0019 0108 0019 0108 0019 0108 001a 0761</ccf>
+    </code>
+    <code name="KEY_RIGHT" codeno="0x0000000000000011">
+      <decoding protocol="Gap-762-6347-12?" device="8" subdevice="-1" obc="136" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 88.8" error=""/>
+      <ccf>0000 006d 000d 0000 001d 0075 0019 00a8 0019 00a8 0019 0108 0019 00a8 0019 00a8 0019 00a8 0019 0108 0019 00a8 0019 00a8 0019 00a8 0019 0108 001a 0822</ccf>
+    </code>
+    <code name="display" codeno="0x000000000000001F">
+      <decoding protocol="Gap-762-6347-12?" device="8" subdevice="-1" obc="248" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 88.F" error=""/>
+      <ccf>0000 006d 000d 0000 001d 0075 0019 00a8 0019 00a8 0019 0108 0019 00a8 0019 00a8 0019 00a8 0019 0108 0019 0108 0019 0108 0019 0108 0019 0108 001a 0701</ccf>
+    </code>
+    <code name="tv/sat" codeno="0x0000000000000014">
+      <decoding protocol="Gap-762-6347-12?" device="8" subdevice="-1" obc="40" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 88.2" error=""/>
+      <ccf>0000 006d 000d 0000 001d 0075 0019 00a8 0019 00a8 0019 0108 0019 00a8 0019 00a8 0019 00a8 0019 0108 0019 00a8 0019 0108 0019 00a8 0019 00a8 001a 0822</ccf>
+    </code>
+    <code name="KEY_RADIO" codeno="0x000000000000000F">
+      <decoding protocol="Gap-762-6347-12?" device="8" subdevice="-1" obc="240" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 8.F" error=""/>
+      <ccf>0000 006d 000d 0000 001d 0075 0019 00a8 0019 00a8 0019 0108 0019 00a8 0019 00a8 0019 00a8 0019 00a8 0019 0108 0019 0108 0019 0108 0019 0108 001a 0761</ccf>
+    </code>
+    <code name="store" codeno="0x0000000000000013">
+      <decoding protocol="Gap-762-6347-12?" device="8" subdevice="-1" obc="200" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 88.C" error=""/>
+      <ccf>0000 006d 000d 0000 001d 0075 0019 00a8 0019 00a8 0019 0108 0019 00a8 0019 00a8 0019 00a8 0019 0108 0019 00a8 0019 00a8 0019 0108 0019 0108 001a 07c1</ccf>
+    </code>
+    <code name="norm" codeno="0x0000000000000015">
+      <decoding protocol="Gap-762-6347-12?" device="8" subdevice="-1" obc="168" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 88.A" error=""/>
+      <ccf>0000 006d 000d 0000 001d 0075 0019 00a8 0019 00a8 0019 0108 0019 00a8 0019 00a8 0019 00a8 0019 0108 0019 00a8 0019 0108 0019 00a8 0019 0108 001a 07c1</ccf>
+    </code>
+    <code name="KEY_MUTE" codeno="0x000000000000001E">
+      <decoding protocol="Gap-762-6347-12?" device="8" subdevice="-1" obc="120" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 88.7" error=""/>
+      <ccf>0000 006d 000d 0000 001d 0075 0019 00a8 0019 00a8 0019 0108 0019 00a8 0019 00a8 0019 00a8 0019 0108 0019 0108 0019 0108 0019 0108 0019 00a8 001a 0761</ccf>
+    </code>
+  </remote>
+</lircremotes>

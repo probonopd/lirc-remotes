@@ -1,0 +1,124 @@
+<lircremotes creation-date="Wed Jul 22 23:04:08 2015" creator="" lircversion="0.8.6" lirc2xml_version="0.1.2" configfile="remotes/nokia/DBOX.lircd.conf" decodeir_version="2.40">
+  <remote name="D-BOX">
+    <lircdata type="RC5" bits="8" flags="2" eps="10" aeps="300" pthree="0" sthree="0" ptwo="0" stwo="0" pone="450" sone="550" pzero="450" szero="550" plead="0" ptrail="0" pfoot="0" sfoot="0" prepeat="0" srepeat="0" pre_data_bits="1" pre_data="0" post_data_bits="8" post_data="197" pre_p="0" pre_s="0" post_p="0" post_s="0" gap="79500" gap2="0" repeat_gap="0" toggle_bit="0" toggle_bit_mask="0" min_repeat="0" min_code_repeat="0" freq="38000" duty_cycle="0" toggle_mask="0" rc6_mask="0" baud="0" bits_in_byte="0" parity="0" stop_bits="0" ignore_mask="0"/>
+    <code name="off" codeno="0x00000000000000CF">
+      <decoding protocol="NRC17{body}" device="92" subdevice="-1" obc="12" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000f 0000 0013 0060 0011 002a 0011 0015 0022 0015 0011 002a 0011 0015 0011 0015 0011 0015 0011 0015 0011 0015 0022 0015 0011 0015 0011 002a 0022 002a 0011 0bcd</ccf>
+    </code>
+    <code name="KEY_RADIO" codeno="0x00000000000000FB">
+      <decoding protocol="NRC17{body}" device="92" subdevice="-1" obc="32" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000f 0000 0013 0060 0011 002a 0011 0015 0011 0015 0011 0015 0011 0015 0022 002a 0011 0015 0011 0015 0011 0015 0022 0015 0011 0015 0011 002a 0022 002a 0011 0bcd</ccf>
+    </code>
+    <code name="KEY_TV" codeno="0x000000000000001B">
+      <decoding protocol="NRC17{body}" device="92" subdevice="-1" obc="39" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000f 0000 0013 0060 0011 0015 0011 0015 0011 0015 0011 002a 0011 0015 0022 002a 0011 0015 0011 0015 0011 0015 0022 0015 0011 0015 0011 002a 0022 002a 0011 0bcd</ccf>
+    </code>
+    <code name="KEY_1" codeno="0x000000000000007F">
+      <decoding protocol="NRC17{body}" device="92" subdevice="-1" obc="1" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 0013 0060 0011 0015 0011 002a 0011 0015 0011 0015 0011 0015 0011 0015 0011 0015 0011 0015 0011 0015 0011 0015 0022 0015 0011 0015 0011 002a 0022 002a 0011 0bcd</ccf>
+    </code>
+    <code name="KEY_2" codeno="0x00000000000000BF">
+      <decoding protocol="NRC17{body}" device="92" subdevice="-1" obc="2" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000f 0000 0013 0060 0011 002a 0022 002a 0011 0015 0011 0015 0011 0015 0011 0015 0011 0015 0011 0015 0011 0015 0022 0015 0011 0015 0011 002a 0022 002a 0011 0bcd</ccf>
+    </code>
+    <code name="KEY_3" codeno="0x000000000000003F">
+      <decoding protocol="NRC17{body}" device="92" subdevice="-1" obc="3" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 0013 0060 0011 0015 0011 0015 0011 002a 0011 0015 0011 0015 0011 0015 0011 0015 0011 0015 0011 0015 0011 0015 0022 0015 0011 0015 0011 002a 0022 002a 0011 0bcd</ccf>
+    </code>
+    <code name="KEY_4" codeno="0x00000000000000DF">
+      <decoding protocol="NRC17{body}" device="92" subdevice="-1" obc="4" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000f 0000 0013 0060 0011 002a 0011 0015 0022 002a 0011 0015 0011 0015 0011 0015 0011 0015 0011 0015 0011 0015 0022 0015 0011 0015 0011 002a 0022 002a 0011 0bcd</ccf>
+    </code>
+    <code name="KEY_5" codeno="0x000000000000005F">
+      <decoding protocol="NRC17{body}" device="92" subdevice="-1" obc="5" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000f 0000 0013 0060 0011 0015 0011 002a 0022 002a 0011 0015 0011 0015 0011 0015 0011 0015 0011 0015 0011 0015 0022 0015 0011 0015 0011 002a 0022 002a 0011 0bcd</ccf>
+    </code>
+    <code name="KEY_6" codeno="0x000000000000009F">
+      <decoding protocol="NRC17{body}" device="92" subdevice="-1" obc="6" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000f 0000 0013 0060 0011 002a 0022 0015 0011 002a 0011 0015 0011 0015 0011 0015 0011 0015 0011 0015 0011 0015 0022 0015 0011 0015 0011 002a 0022 002a 0011 0bcd</ccf>
+    </code>
+    <code name="KEY_7" codeno="0x000000000000001F">
+      <decoding protocol="NRC17{body}" device="92" subdevice="-1" obc="7" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 0013 0060 0011 0015 0011 0015 0011 0015 0011 002a 0011 0015 0011 0015 0011 0015 0011 0015 0011 0015 0011 0015 0022 0015 0011 0015 0011 002a 0022 002a 0011 0bcd</ccf>
+    </code>
+    <code name="KEY_8" codeno="0x00000000000000EF">
+      <decoding protocol="NRC17{body}" device="92" subdevice="-1" obc="8" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000f 0000 0013 0060 0011 002a 0011 0015 0011 0015 0022 002a 0011 0015 0011 0015 0011 0015 0011 0015 0011 0015 0022 0015 0011 0015 0011 002a 0022 002a 0011 0bcd</ccf>
+    </code>
+    <code name="KEY_9" codeno="0x000000000000006F">
+      <decoding protocol="NRC17{body}" device="92" subdevice="-1" obc="9" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000f 0000 0013 0060 0011 0015 0011 002a 0011 0015 0022 002a 0011 0015 0011 0015 0011 0015 0011 0015 0011 0015 0022 0015 0011 0015 0011 002a 0022 002a 0011 0bcd</ccf>
+    </code>
+    <code name="KEY_0" codeno="0x00000000000000FF">
+      <decoding protocol="NRC17{body}" device="92" subdevice="-1" obc="0" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 0013 0060 0011 002a 0011 0015 0011 0015 0011 0015 0011 0015 0011 0015 0011 0015 0011 0015 0011 0015 0011 0015 0022 0015 0011 0015 0011 002a 0022 002a 0011 0bcd</ccf>
+    </code>
+    <code name="KEY_MENU" codeno="0x0000000000000023">
+      <decoding protocol="NRC17{body}" device="92" subdevice="-1" obc="59" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000f 0000 0013 0060 0011 0015 0011 0015 0011 002a 0022 0015 0011 0015 0011 002a 0011 0015 0011 0015 0011 0015 0022 0015 0011 0015 0011 002a 0022 002a 0011 0bcd</ccf>
+    </code>
+    <code name="mark" codeno="0x00000000000000B5">
+      <decoding protocol="NRC17{body}" device="92" subdevice="-1" obc="82" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000d 0000 0013 0060 0011 002a 0022 002a 0011 0015 0022 002a 0022 002a 0011 0015 0011 0015 0022 0015 0011 0015 0011 002a 0022 002a 0011 0bcd</ccf>
+    </code>
+    <code name="opt" codeno="0x0000000000000055">
+      <decoding protocol="NRC17{body}" device="92" subdevice="-1" obc="85" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000d 0000 0013 0060 0011 0015 0011 002a 0022 002a 0022 002a 0022 002a 0011 0015 0011 0015 0022 0015 0011 0015 0011 002a 0022 002a 0011 0bcd</ccf>
+    </code>
+    <code name="KEY_INFO" codeno="0x000000000000004B">
+      <decoding protocol="NRC17{body}" device="92" subdevice="-1" obc="45" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000e 0000 0013 0060 0011 0015 0011 002a 0022 0015 0011 002a 0022 002a 0011 0015 0011 0015 0011 0015 0022 0015 0011 0015 0011 002a 0022 002a 0011 0bcd</ccf>
+    </code>
+    <code name="KEY_OK" codeno="0x00000000000000F3">
+      <decoding protocol="NRC17{body}" device="92" subdevice="-1" obc="48" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000f 0000 0013 0060 0011 002a 0011 0015 0011 0015 0011 0015 0022 0015 0011 002a 0011 0015 0011 0015 0011 0015 0022 0015 0011 0015 0011 002a 0022 002a 0011 0bcd</ccf>
+    </code>
+    <code name="KEY_VOLUMEUP" codeno="0x0000000000000097">
+      <decoding protocol="NRC17{body}" device="92" subdevice="-1" obc="22" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000e 0000 0013 0060 0011 002a 0022 0015 0011 002a 0022 002a 0011 0015 0011 0015 0011 0015 0011 0015 0022 0015 0011 0015 0011 002a 0022 002a 0011 0bcd</ccf>
+    </code>
+    <code name="KEY_VOLUMEDOWN" codeno="0x0000000000000017">
+      <decoding protocol="NRC17{body}" device="92" subdevice="-1" obc="23" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000f 0000 0013 0060 0011 0015 0011 0015 0011 0015 0011 002a 0022 002a 0011 0015 0011 0015 0011 0015 0011 0015 0022 0015 0011 0015 0011 002a 0022 002a 0011 0bcd</ccf>
+    </code>
+    <code name="vol_off" codeno="0x00000000000000EB">
+      <decoding protocol="NRC17{body}" device="92" subdevice="-1" obc="40" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000e 0000 0013 0060 0011 002a 0011 0015 0011 0015 0022 002a 0022 002a 0011 0015 0011 0015 0011 0015 0022 0015 0011 0015 0011 002a 0022 002a 0011 0bcd</ccf>
+    </code>
+    <code name="KEY_RIGHT" codeno="0x000000000000008B">
+      <decoding protocol="NRC17{body}" device="92" subdevice="-1" obc="46" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000e 0000 0013 0060 0011 002a 0022 0015 0011 0015 0011 002a 0022 002a 0011 0015 0011 0015 0011 0015 0022 0015 0011 0015 0011 002a 0022 002a 0011 0bcd</ccf>
+    </code>
+    <code name="KEY_UP" codeno="0x000000000000008F">
+      <decoding protocol="NRC17{body}" device="92" subdevice="-1" obc="14" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000f 0000 0013 0060 0011 002a 0022 0015 0011 0015 0011 002a 0011 0015 0011 0015 0011 0015 0011 0015 0011 0015 0022 0015 0011 0015 0011 002a 0022 002a 0011 0bcd</ccf>
+    </code>
+    <code name="KEY_DOWN" codeno="0x000000000000000F">
+      <decoding protocol="NRC17{body}" device="92" subdevice="-1" obc="15" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 0013 0060 0011 0015 0011 0015 0011 0015 0011 0015 0011 002a 0011 0015 0011 0015 0011 0015 0011 0015 0011 0015 0022 0015 0011 0015 0011 002a 0022 002a 0011 0bcd</ccf>
+    </code>
+    <code name="KEY_NEXT" codeno="0x00000000000000D5">
+      <decoding protocol="NRC17{body}" device="92" subdevice="-1" obc="84" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000d 0000 0013 0060 0011 002a 0011 0015 0022 002a 0022 002a 0022 002a 0011 0015 0011 0015 0022 0015 0011 0015 0011 002a 0022 002a 0011 0bcd</ccf>
+    </code>
+    <code name="KEY_PREVIOUS" codeno="0x0000000000000035">
+      <decoding protocol="NRC17{body}" device="92" subdevice="-1" obc="83" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000e 0000 0013 0060 0011 0015 0011 0015 0011 002a 0011 0015 0022 002a 0022 002a 0011 0015 0011 0015 0022 0015 0011 0015 0011 002a 0022 002a 0011 0bcd</ccf>
+    </code>
+    <code name="KEY_LEFT" codeno="0x000000000000000B">
+      <decoding protocol="NRC17{body}" device="92" subdevice="-1" obc="47" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000f 0000 0013 0060 0011 0015 0011 0015 0011 0015 0011 0015 0011 002a 0022 002a 0011 0015 0011 0015 0011 0015 0022 0015 0011 0015 0011 002a 0022 002a 0011 0bcd</ccf>
+    </code>
+    <code name="KEY_HELP" codeno="0x00000000000000BE">
+      <decoding protocol="NRC17{body}" device="92" subdevice="-1" obc="130" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000e 0000 0013 0060 0011 002a 0022 002a 0011 0015 0011 0015 0011 0015 0011 0015 0022 002a 0011 0015 0022 0015 0011 0015 0011 002a 0022 002a 0011 0bcd</ccf>
+    </code>
+  </remote>
+  <remote name="D-BOX">
+    <lircdata type="RC5" bits="8" flags="2" eps="10" aeps="300" pthree="0" sthree="0" ptwo="0" stwo="0" pone="450" sone="550" pzero="450" szero="550" plead="0" ptrail="0" pfoot="0" sfoot="0" prepeat="0" srepeat="0" pre_data_bits="1" pre_data="0" post_data_bits="8" post_data="0" pre_p="0" pre_s="0" post_p="0" post_s="0" gap="20000" gap2="0" repeat_gap="0" toggle_bit="0" toggle_bit_mask="0" min_repeat="0" min_code_repeat="0" freq="38000" duty_cycle="0" toggle_mask="0" rc6_mask="0" baud="0" bits_in_byte="0" parity="0" stop_bits="0" ignore_mask="0"/>
+    <code name="D-BOX" codeno="0x0000000000000080">
+      <decoding protocol="NRC17{prefix}" device="-1" subdevice="-1" obc="-1" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0011 0000 0013 0060 0011 002a 0022 0015 0011 0015 0011 0015 0011 0015 0011 0015 0011 0015 0011 0015 0011 0015 0011 0015 0011 0015 0011 0015 0011 0015 0011 0015 0011 0015 0011 02f8</ccf>
+    </code>
+  </remote>
+</lircremotes>

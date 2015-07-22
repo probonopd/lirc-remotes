@@ -1,0 +1,29 @@
+<lircremotes creation-date="Wed Jul 22 23:04:13 2015" creator="" lircversion="0.8.6" lirc2xml_version="0.1.2" configfile="remotes/irobot/Roomba_Discovery_4220.lircd.conf" decodeir_version="2.40">
+  <remote name="iRobot_Roomba_Discovery_4220">
+    <lircdata type="RAW_CODES" bits="0" flags="1" eps="30" aeps="100" pthree="0" sthree="0" ptwo="0" stwo="0" pone="0" sone="0" pzero="0" szero="0" plead="0" ptrail="0" pfoot="0" sfoot="0" prepeat="0" srepeat="0" pre_data_bits="0" pre_data="0" post_data_bits="0" post_data="0" pre_p="0" pre_s="0" post_p="0" post_s="0" gap="20054" gap2="0" repeat_gap="0" toggle_bit="0" toggle_bit_mask="0" min_repeat="0" min_code_repeat="0" freq="38000" duty_cycle="0" toggle_mask="0" rc6_mask="0" baud="0" bits_in_byte="0" parity="0" stop_bits="0" ignore_mask="0"/>
+    <code name="Power" codeno="0x0000000000000001">
+      <ccf>0000 006d 0008 0000 006d 0026 0023 006e 0022 006e 0022 006e 0069 0026 0023 006e 0069 0026 0023 02fa</ccf>
+    </code>
+    <code name="Spot" codeno="0x0000000000000002">
+      <ccf>0000 006d 0008 0000 0070 0022 0027 006a 0026 006a 0026 006a 0026 006a 006c 0024 0025 006c 0024 02fa</ccf>
+    </code>
+    <code name="Clean" codeno="0x0000000000000003">
+      <ccf>0000 006d 0008 0000 0070 0023 0025 006b 0024 006b 0024 006b 006d 0022 0027 006a 0025 006b 0025 02fa</ccf>
+    </code>
+    <code name="Max" codeno="0x0000000000000004">
+      <ccf>0000 006d 0008 0000 006c 0026 0023 006e 0022 006e 0022 006e 0022 006e 0069 0026 0023 006e 0069 02fa</ccf>
+    </code>
+    <code name="Clockwise" codeno="0x0000000000000005">
+      <ccf>0000 006d 0008 0000 006e 0024 0025 006c 0024 006c 0024 006c 0023 006d 0024 006c 006c 0024 006d 02fa</ccf>
+    </code>
+    <code name="Forward" codeno="0x0000000000000006">
+      <ccf>0000 006d 0008 0000 006d 0026 0024 006d 0022 006e 0022 006e 0022 006e 0022 006e 0069 0026 0024 02fa</ccf>
+    </code>
+    <code name="CounterClockwise" codeno="0x0000000000000007">
+      <ccf>0000 006d 0008 0000 006d 0026 0023 006e 0022 006e 0022 006e 0022 006e 0022 006e 0022 006e 0069 02fa</ccf>
+    </code>
+    <code name="Pause" codeno="0x0000000000000008">
+      <ccf>0000 006d 0008 0000 006c 0026 0023 006e 0022 006e 0022 006e 0069 0026 0023 006e 0022 006e 0069 02fa</ccf>
+    </code>
+  </remote>
+</lircremotes>

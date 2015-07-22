@@ -1,0 +1,161 @@
+<lircremotes creation-date="Wed Jul 22 23:04:00 2015" creator="" lircversion="0.8.6" lirc2xml_version="0.1.2" configfile="remotes/scientific_atlanta/Explorer_2000.lircd.conf" decodeir_version="2.40">
+  <remote name="SA2000">
+    <lircdata type="RAW_CODES" bits="0" flags="16385" eps="30" aeps="100" pthree="0" sthree="0" ptwo="0" stwo="0" pone="0" sone="0" pzero="0" szero="0" plead="0" ptrail="0" pfoot="0" sfoot="0" prepeat="0" srepeat="0" pre_data_bits="0" pre_data="0" post_data_bits="0" post_data="0" pre_p="0" pre_s="0" post_p="0" post_s="0" gap="100240" gap2="0" repeat_gap="0" toggle_bit="0" toggle_bit_mask="0" min_repeat="0" min_code_repeat="0" freq="58000" duty_cycle="0" toggle_mask="0" rc6_mask="0" baud="0" bits_in_byte="0" parity="0" stop_bits="0" ignore_mask="0"/>
+    <code name="MUTE" codeno="0x0000000000000001">
+      <decoding protocol="RC5" device="0" subdevice="-1" obc="13" hex0="200" hex1="201" hex2="202" hex3="-1" misc="no repeat: T=1" error=""/>
+      <ccf>0000 0047 000c 0000 0038 002f 0038 002f 006d 002d 0038 002e 0038 002e 0038 002e 0038 002e 0038 002e 0038 0061 0038 002f 006d 0060 003a 1145</ccf>
+    </code>
+    <code name="POWER" codeno="0x0000000000000002">
+      <decoding protocol="Panasonic_Old" device="27" subdevice="-1" obc="7" hex0="227" hex1="226" hex2="225" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0047 0018 0000 00c8 00bb 0034 008f 0034 008f 0034 002d 0034 008f 0034 008f 0035 008e 0034 008f 0034 008f 0034 002d 0034 002d 0035 002c 0035 002c 0035 002c 0034 008f 0034 002d 0034 002d 0034 002d 0034 002d 0034 002d 0032 0091 0034 008f 0034 008f 0034 0875</ccf>
+    </code>
+    <code name="GUIDE" codeno="0x0000000000000003">
+      <decoding protocol="Panasonic_Old" device="27" subdevice="-1" obc="6" hex0="99" hex1="98" hex2="97" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0047 0018 0000 00c5 00bf 0034 008f 0031 0092 0035 002c 0034 008f 0031 0092 0034 002d 0034 008f 0032 0091 0034 002d 0035 002c 0034 002d 0034 002d 0032 002f 0035 008e 0032 002f 0034 002d 0032 0091 0032 002f 0034 002d 0034 008f 0032 0091 0034 008f 0032 0877</ccf>
+    </code>
+    <code name="INFO" codeno="0x0000000000000004">
+      <decoding protocol="Panasonic_Old" device="27" subdevice="-1" obc="8" hex0="19" hex1="18" hex2="17" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0047 0018 0000 00c8 00bb 0035 008e 0035 008e 0035 002c 0037 008c 0035 008e 0035 002c 0034 002d 0035 002c 0037 008c 0035 002c 0035 002c 0035 002c 0035 002c 0035 008e 0035 002b 0034 002d 0035 008e 0035 008e 0035 008e 0035 002b 0035 008d 0035 008e 0035 0874</ccf>
+    </code>
+    <code name="UP" codeno="0x0000000000000005">
+      <decoding protocol="Panasonic_Old" device="27" subdevice="-1" obc="2" hex0="67" hex1="66" hex2="65" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0047 0018 0000 00c5 00bf 0035 008e 0035 008e 0035 002c 0035 008e 0035 008e 0035 002c 0035 008e 0035 002c 0034 002d 0035 002c 0035 002c 0037 002a 0034 002d 0035 008e 0035 002c 0035 002c 0035 008e 0035 002c 0035 008e 0035 008e 0035 008e 0035 008e 0035 0874</ccf>
+    </code>
+    <code name="DOWN" codeno="0x0000000000000006">
+      <decoding protocol="Panasonic_Old" device="27" subdevice="-1" obc="11" hex0="211" hex1="210" hex2="209" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0047 0018 0000 00c6 00bd 0034 008f 0035 008e 0035 002c 0035 008e 0035 008e 0035 008e 0035 008e 0035 002c 0035 008e 0035 002c 0034 002d 0035 002c 0035 002c 0035 008e 0035 002c 0035 002c 0034 002d 0034 002d 0035 008e 0035 002c 0034 008f 0035 008e 0035 0874</ccf>
+    </code>
+    <code name="LEFT" codeno="0x0000000000000007">
+      <decoding protocol="Panasonic_Old" device="27" subdevice="-1" obc="3" hex0="195" hex1="194" hex2="193" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0047 0018 0000 00c7 00bd 0035 008e 0036 008d 0035 002c 0035 008e 0035 008e 0035 008e 0035 008d 0035 002c 0035 002c 0037 002a 0035 002c 0035 002c 0035 002c 0037 008c 0035 002c 0034 002d 0035 002c 0035 002c 0035 008e 0035 008e 0035 008e 0035 008e 0035 0874</ccf>
+    </code>
+    <code name="RIGHT" codeno="0x0000000000000008">
+      <decoding protocol="Panasonic_Old" device="27" subdevice="-1" obc="4" hex0="35" hex1="34" hex2="33" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0047 0018 0000 00c7 00bd 0034 008f 0035 008d 0034 002d 0035 008e 0035 008e 0035 002c 0035 002c 0037 008c 0035 002c 0035 002c 0035 002c 0035 002c 0035 002c 0035 008e 0035 002c 0035 002c 0035 008e 0035 008e 0035 002b 0035 008e 0035 008e 0035 008e 0035 0874</ccf>
+    </code>
+    <code name="SELECT" codeno="0x0000000000000009">
+      <decoding protocol="Panasonic_Old" device="27" subdevice="-1" obc="12" hex0="51" hex1="50" hex2="49" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0047 0018 0000 00c7 00bd 0037 008c 0035 008e 0035 002c 0035 008e 0035 008e 0035 002c 0037 002a 0035 008e 0035 008e 0035 002c 0035 002c 0038 0029 0035 002c 0034 008f 0035 002c 0034 002d 0035 008e 0036 008d 0035 002c 0035 002c 0035 008e 0035 008e 0035 0874</ccf>
+    </code>
+    <code name="SETTINGS" codeno="0x000000000000000A">
+      <decoding protocol="Panasonic_Old" device="27" subdevice="-1" obc="57" hex0="159" hex1="158" hex2="157" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0047 0018 0000 00c5 00be 0033 0090 0035 008d 0035 002b 0035 008e 0035 008e 0035 008e 0035 002b 0035 002c 0034 008f 0035 008e 0035 008e 0035 002b 0034 002d 0035 008d 0035 002b 0036 002b 0034 002d 0035 008d 0035 008e 0035 002b 0034 002d 0034 002d 0035 0874</ccf>
+    </code>
+    <code name="EXIT" codeno="0x000000000000000B">
+      <decoding protocol="Panasonic_Old" device="27" subdevice="-1" obc="44" hex0="55" hex1="54" hex2="53" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0047 0018 0000 00c5 00be 0034 008f 0035 008d 0035 002c 0034 008f 0035 008d 0035 002b 0034 002d 0034 008f 0035 008e 0035 002c 0035 008e 0035 002b 0034 002d 0032 0090 0035 002b 0035 002b 0034 008f 0035 008e 0035 002b 0035 002b 0034 008f 0035 002c 0034 0875</ccf>
+    </code>
+    <code name="PGUP" codeno="0x000000000000000C">
+      <decoding protocol="Panasonic_Old" device="27" subdevice="-1" obc="54" hex0="111" hex1="110" hex2="109" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0047 0018 0000 00c7 00bd 0035 008e 0035 008e 0035 002b 0034 008f 0035 008e 0035 002b 0035 008e 0034 008f 0035 002b 0035 008e 0035 008e 0035 002c 0035 002c 0035 008e 0035 002b 0035 002b 0035 008e 0035 002c 0035 002c 0035 008e 0035 002b 0035 002c 0035 0874</ccf>
+    </code>
+    <code name="PGDN" codeno="0x000000000000000D">
+      <decoding protocol="Panasonic_Old" device="27" subdevice="-1" obc="55" hex0="239" hex1="238" hex2="237" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0047 0018 0000 00c5 00be 0035 008d 0035 008e 0035 002b 0034 008f 0034 008f 0035 008e 0035 008e 0035 008e 0035 002b 0034 008f 0034 008f 0035 002c 0034 002d 0035 008e 0035 002b 0035 002c 0034 002d 0034 002d 0034 002d 0035 008d 0035 002b 0035 002c 0034 0875</ccf>
+    </code>
+    <code name="VOLUP" codeno="0x000000000000000E">
+      <decoding protocol="RC5" device="0" subdevice="-1" obc="16" hex0="188" hex1="189" hex2="190" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 0047 000c 0000 003a 002d 006d 002d 003a 002d 003a 002d 003a 002d 003a 002d 003a 002d 003a 0060 006d 002d 003a 002d 003a 002d 003a 1178</ccf>
+    </code>
+    <code name="VOLDN" codeno="0x000000000000000F">
+      <decoding protocol="RC5" device="0" subdevice="-1" obc="17" hex0="184" hex1="185" hex2="186" hex3="-1" misc="no repeat: T=1" error=""/>
+      <ccf>0000 0047 000c 0000 003a 002d 0038 002f 006c 002f 0038 002e 003a 002d 003a 002d 003a 002d 003a 0060 006d 002d 003a 002d 0038 0061 0039 1145</ccf>
+    </code>
+    <code name="CHUP" codeno="0x0000000000000010">
+      <decoding protocol="Panasonic_Old" device="27" subdevice="-1" obc="29" hex0="187" hex1="186" hex2="185" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0047 0018 0000 00c6 00bd 0035 008e 0035 008e 0035 002c 0035 008e 0035 008e 0035 008e 0035 002c 0035 008e 0035 008e 0035 008e 0035 002c 0037 002a 0035 002c 0035 008e 0035 002c 0035 002c 0034 002d 0035 008e 0035 002c 0035 002c 0035 002c 0035 008e 0035 0874</ccf>
+    </code>
+    <code name="CHDN" codeno="0x0000000000000011">
+      <decoding protocol="Panasonic_Old" device="27" subdevice="-1" obc="30" hex0="123" hex1="122" hex2="121" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0047 0018 0000 00c6 00bd 0035 008e 0035 008e 0035 002c 0034 008f 0035 008e 0036 002b 0035 008e 0035 008e 0035 008e 0035 008e 0035 002c 0035 002c 0034 002d 0035 008e 0035 002c 0035 002c 0035 008e 0035 002c 0035 002c 0034 002d 0035 002c 0035 008e 0035 0874</ccf>
+    </code>
+    <code name="A" codeno="0x0000000000000012">
+      <decoding protocol="Panasonic_Old" device="27" subdevice="-1" obc="47" hex0="247" hex1="246" hex2="245" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0047 0018 0000 00c7 00bd 0035 008e 0035 008e 0035 002c 0035 008e 0035 008e 0035 008e 0035 008e 0035 008e 0035 008e 0035 002c 0035 008e 0035 002c 0035 002c 0035 008e 0035 002c 0035 002c 0035 002c 0035 002c 0037 002a 0035 002c 0035 008e 0035 002c 0037 0872</ccf>
+    </code>
+    <code name="B" codeno="0x0000000000000013">
+      <decoding protocol="Panasonic_Old" device="27" subdevice="-1" obc="48" hex0="15" hex1="14" hex2="13" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0047 0018 0000 00c5 00be 0035 008e 0034 008f 0034 002d 0034 008f 0034 0090 0033 002d 0035 002c 0034 002d 0034 002d 0035 008e 0034 008f 0035 002c 0034 002d 0034 008f 0034 002d 0034 002d 0035 008e 0034 008f 0034 008f 0034 008f 0034 002d 0035 002c 0034 0875</ccf>
+    </code>
+    <code name="C" codeno="0x0000000000000014">
+      <decoding protocol="Panasonic_Old" device="27" subdevice="-1" obc="49" hex0="143" hex1="142" hex2="141" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0047 0018 0000 00c5 00be 0034 008f 0034 008f 0034 002d 0035 008e 0034 008f 0034 008f 0034 002d 0034 002d 0034 002d 0034 008f 0034 008f 0035 002c 0034 002d 0034 008f 0034 002d 0034 002d 0032 002f 0035 008e 0035 008e 0032 0091 0034 002d 0034 002d 0035 0874</ccf>
+    </code>
+    <code name="1" codeno="0x0000000000000015">
+      <decoding protocol="Panasonic_Old" device="27" subdevice="-1" obc="16" hex0="11" hex1="10" hex2="9" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0047 0018 0000 00c7 00bd 0034 008f 0032 0091 0034 002d 0034 008f 0032 0091 0034 002d 0034 002d 0034 002d 0034 002d 0035 008e 0032 002f 0034 002d 0035 002c 0035 008e 0032 002f 0035 002c 0034 008f 0032 0091 0035 008e 0032 0091 0034 002d 0035 008e 0032 0877</ccf>
+    </code>
+    <code name="2" codeno="0x0000000000000016">
+      <decoding protocol="Panasonic_Old" device="27" subdevice="-1" obc="17" hex0="139" hex1="138" hex2="137" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0047 0018 0000 00c6 00bd 0035 008e 0032 0091 0034 002d 0035 008e 0032 0091 0035 008e 0031 0030 0034 002d 0035 002c 0034 008f 0032 002f 0035 002c 0034 002d 0032 0091 0032 002f 0034 002d 0034 002d 0032 0091 0032 0091 0034 008f 0032 002f 0034 008f 0032 0877</ccf>
+    </code>
+    <code name="3" codeno="0x0000000000000017">
+      <decoding protocol="Panasonic_Old" device="27" subdevice="-1" obc="18" hex0="75" hex1="74" hex2="73" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0047 0018 0000 00c5 00be 0035 008e 0034 008f 0034 002d 0034 008f 0034 008f 0035 002c 0034 008f 0034 002d 0034 002d 0034 008f 0034 002d 0035 002c 0034 002d 0034 008f 0034 002d 0034 002d 0034 008f 0034 002d 0034 008f 0034 008f 0035 002c 0037 008c 0034 0875</ccf>
+    </code>
+    <code name="4" codeno="0x0000000000000018">
+      <decoding protocol="Panasonic_Old" device="27" subdevice="-1" obc="19" hex0="203" hex1="202" hex2="201" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0047 0018 0000 00c6 00bd 0034 008f 0031 0092 0035 002c 0034 008f 0032 0091 0035 008e 0032 0091 0034 002d 0034 002d 0034 008f 0032 002f 0034 002d 0034 002d 0034 008f 0032 002f 0035 002c 0037 002a 0032 002f 0034 008f 0032 0091 0034 002d 0035 008e 0032 0877</ccf>
+    </code>
+    <code name="5" codeno="0x0000000000000019">
+      <decoding protocol="Panasonic_Old" device="27" subdevice="-1" obc="20" hex0="43" hex1="42" hex2="41" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0047 0018 0000 00c5 00be 0035 008e 0034 008f 0034 002d 0034 008f 0034 008f 0034 002d 0032 002f 0034 008f 0034 002d 0035 008e 0034 002d 0034 002d 0035 002c 0034 008f 0034 002d 0035 002c 0035 008e 0034 008f 0034 002d 0034 008f 0034 002d 0034 008f 0034 0875</ccf>
+    </code>
+    <code name="6" codeno="0x000000000000001A">
+      <decoding protocol="Panasonic_Old" device="27" subdevice="-1" obc="21" hex0="171" hex1="170" hex2="169" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0047 0018 0000 00c5 00be 0035 008e 0032 0091 0034 002d 0035 008e 0032 0091 0035 008e 0032 002f 0034 008f 0034 002d 0035 008e 0034 002d 0034 002d 0034 002d 0035 008e 0034 002d 0034 002d 0034 002d 0034 008f 0034 002d 0035 008e 0034 002d 0034 008f 0034 0875</ccf>
+    </code>
+    <code name="7" codeno="0x000000000000001B">
+      <decoding protocol="Panasonic_Old" device="27" subdevice="-1" obc="22" hex0="107" hex1="106" hex2="105" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0047 0018 0000 00c5 00be 0034 008f 0034 008f 0034 002d 0034 008f 0034 008f 0035 002c 0034 008f 0034 008f 0034 002d 0034 008f 0034 002d 0034 002d 0035 002c 0034 008f 0034 002d 0035 002c 0035 008e 0034 002d 0034 002d 0034 008f 0034 002d 0034 008f 0034 0875</ccf>
+    </code>
+    <code name="8" codeno="0x000000000000001C">
+      <decoding protocol="Panasonic_Old" device="27" subdevice="-1" obc="23" hex0="235" hex1="234" hex2="233" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0047 0018 0000 00c8 00bb 0034 008f 0032 0091 0034 002d 0034 008f 0032 0091 0034 008f 0032 0091 0034 008f 0032 002f 0038 008b 0032 002f 0035 002c 0034 002d 0034 008f 0032 002f 0035 002c 0034 002d 0035 002c 0035 002c 0034 008f 0032 002f 0034 008f 0034 0875</ccf>
+    </code>
+    <code name="9" codeno="0x000000000000001D">
+      <decoding protocol="Panasonic_Old" device="27" subdevice="-1" obc="24" hex0="27" hex1="26" hex2="25" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0047 0018 0000 00c6 00bd 0034 008f 0031 0092 0034 002d 0034 008f 0030 0093 0035 002c 0035 002c 0034 002d 0032 0091 0031 0092 0034 002d 0034 002d 0034 002d 0035 008e 0031 0030 0034 002d 0034 008f 0031 0092 0037 008c 0031 0030 0034 002d 0034 008f 0031 0878</ccf>
+    </code>
+    <code name="0" codeno="0x000000000000001E">
+      <decoding protocol="Panasonic_Old" device="27" subdevice="-1" obc="25" hex0="155" hex1="154" hex2="153" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0047 0018 0000 00c5 00be 0034 008f 0034 008f 0034 002d 0034 008f 0034 008f 0034 008f 0034 002d 0034 002d 0034 008f 0034 008f 0034 002d 0034 002d 0034 002d 0034 008f 0034 002d 0034 002d 0032 002f 0035 008e 0034 008f 0034 002d 0034 002d 0034 008f 0034 0875</ccf>
+    </code>
+    <code name="LAST" codeno="0x000000000000001F">
+      <decoding protocol="Panasonic_Old" device="27" subdevice="-1" obc="14" hex0="115" hex1="114" hex2="113" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0047 0018 0000 00c6 00bd 0034 008f 0035 008e 0034 002d 0034 008f 0010 00b3 0032 002f 0035 008e 0012 00b1 0034 008f 0034 002d 0035 002c 0034 002d 0034 002d 0034 008f 0034 002d 0034 002d 0034 008f 0010 0051 0034 002d 0034 002d 0034 008f 001a 00a9 0035 0874</ccf>
+    </code>
+    <code name="FAV" codeno="0x0000000000000020">
+      <ccf>0000 0047 001a 0000 00c7 00bd 0035 008e 0037 008c 0035 002c 0034 008f 0034 008f 0013 00b0 0034 008f 0016 0011 000a 0092 0034 008f 0016 00ad 0034 002d 0016 0010 000e 002d 0032 002f 0034 008f 002e 0033 0034 002d 0034 002d 0034 002d 0035 002c 0034 002d 0034 002d 0034 008f 0031 0878</ccf>
+    </code>
+    <code name="REW" codeno="0x0000000000000021">
+      <decoding protocol="Panasonic_Old" device="27" subdevice="-1" obc="41" hex0="151" hex1="150" hex2="149" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0047 0018 0000 00c6 00bd 0035 008e 0013 00b0 0034 002d 0035 008e 0034 008f 0035 008e 0031 0030 0035 002c 0034 008f 0031 0030 0035 008e 0031 0030 0034 002d 0035 008e 0031 0030 0034 002d 0034 002d 0034 008f 0031 0092 0034 002d 0035 008e 0030 0030 0034 0876</ccf>
+    </code>
+    <code name="PLAY" codeno="0x0000000000000022">
+      <decoding protocol="Panasonic_Old" device="27" subdevice="-1" obc="51" hex0="207" hex1="206" hex2="205" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0047 0018 0000 00c8 00bc 0035 008e 0034 008f 0035 002c 0034 008f 0035 008e 0037 008c 0034 008f 0035 002c 0035 002c 0035 008e 0035 008e 0035 002c 0035 002c 0037 008c 0037 002a 0037 002a 0035 002c 0035 002c 0035 008e 0035 008e 0035 002c 0037 002a 0035 0874</ccf>
+    </code>
+    <code name="FF" codeno="0x0000000000000023">
+      <ccf>0000 0047 0018 0000 00c6 00bd 0035 008e 0037 008c 0035 002c 0035 008e 0035 008e 0037 002a 0035 002c 0037 002a 0034 008f 0032 002f 0034 008f 0032 002f 0035 002c 0035 008e 0037 002a 0034 002d 0034 008f 0034 008f 0035 008e 0035 002c 0034 008f 000d 0054 0034 0875</ccf>
+    </code>
+    <code name="PAUSE" codeno="0x0000000000000024">
+      <decoding protocol="Panasonic_Old" device="27" subdevice="-1" obc="5" hex0="163" hex1="162" hex2="161" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0047 0018 0000 00c6 00bd 0034 008f 002e 0095 0034 002d 0035 008e 0031 0092 0034 008f 0032 002f 0035 008e 0031 0030 0034 002d 0034 002d 0034 002d 0034 002d 0034 008f 0031 0030 0035 002c 0035 002c 0034 008f 0031 0030 0035 008e 0031 0092 0034 008f 0031 0878</ccf>
+    </code>
+    <code name="STOP" codeno="0x0000000000000025">
+      <ccf>0000 0047 0019 0000 00c5 00be 0034 008f 0013 00b0 0034 002d 0034 008f 0017 0011 0008 0093 0034 002d 0034 002d 0034 008f 0010 0051 0034 008f 0010 00b3 0035 002c 0034 002d 0034 008f 0011 0050 0034 002d 0035 008e 001a 00a9 0035 002c 0032 0091 0013 004e 0034 002d 0035 0874</ccf>
+    </code>
+    <code name="REC" codeno="0x0000000000000026">
+      <decoding protocol="Panasonic_Old" device="27" subdevice="-1" obc="53" hex0="175" hex1="174" hex2="173" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0047 0018 0000 00c6 00bd 0035 008e 0035 008e 0037 002a 0037 008c 0034 008f 003a 0089 0037 002a 0034 008f 0035 002c 0035 008e 0034 008f 0034 002d 0035 002c 0034 008f 0037 002a 0035 002c 0034 002d 0035 008e 0035 002c 0037 008c 0035 002c 0035 002c 0034 0875</ccf>
+    </code>
+    <code name="BYPASS" codeno="0x0000000000000027">
+      <decoding protocol="Panasonic_Old" device="27" subdevice="-1" obc="13" hex0="179" hex1="178" hex2="177" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0047 0018 0000 00c8 00bb 0034 008f 0034 008f 0035 002c 0035 008e 0035 008e 0010 00b3 0034 002d 0034 008f 0034 008f 0035 002c 0034 002d 0037 002a 0035 002c 0035 008e 0034 002d 0035 002c 0032 002f 0034 008f 0034 002d 0034 002d 0034 008f 000f 00b4 0032 0877</ccf>
+    </code>
+    <code name="TV/VCR" codeno="0x0000000000000028">
+      <ccf>0000 0047 0021 0000 0485 00e3 0023 006d 0020 0070 0020 0070 0021 0036 0020 0036 0022 0034 0020 0036 0021 0036 0020 0036 0021 0070 0022 0035 0022 006e 0020 0036 0022 0034 0022 0035 0023 006d 0021 0070 0021 0070 0020 0070 001f 0071 0020 0070 0022 0035 0022 006e 0020 0036 003d 01ca 00d7 00e0 0022 006e 0022 006e 0022 006e 0020 0036 0022 0035 0013 0050</ccf>
+    </code>
+  </remote>
+</lircremotes>

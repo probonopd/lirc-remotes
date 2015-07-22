@@ -1,0 +1,113 @@
+<lircremotes creation-date="Wed Jul 22 23:04:12 2015" creator="" lircversion="0.8.6" lirc2xml_version="0.1.2" configfile="remotes/jerrold/MRC_500.lircd.conf" decodeir_version="2.40">
+  <remote name="Jerrold_MRC_500">
+    <lircdata type="SPACE_ENC" bits="5" flags="16" eps="30" aeps="100" pthree="0" sthree="0" ptwo="0" stwo="0" pone="114" sone="11635" pzero="114" szero="7788" plead="0" ptrail="112" pfoot="0" sfoot="0" prepeat="0" srepeat="0" pre_data_bits="0" pre_data="0" post_data_bits="0" post_data="0" pre_p="0" pre_s="0" post_p="0" post_s="0" gap="23527" gap2="0" repeat_gap="0" toggle_bit="0" toggle_bit_mask="0" min_repeat="1" min_code_repeat="0" freq="38000" duty_cycle="0" toggle_mask="0" rc6_mask="0" baud="0" bits_in_byte="0" parity="0" stop_bits="0" ignore_mask="0"/>
+    <code name="KEY_1" codeno="0x0000000000000017">
+      <decoding protocol="Jerrold" device="-1" subdevice="-1" obc="29" hex0="184" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0006 0000 0004 01ba 0004 0128 0004 01ba 0004 01ba 0004 01ba 0004 037e</ccf>
+    </code>
+    <code name="KEY_2" codeno="0x0000000000000016">
+      <decoding protocol="Jerrold" device="-1" subdevice="-1" obc="13" hex0="176" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0006 0000 0004 01ba 0004 0128 0004 01ba 0004 01ba 0004 0128 0004 037e</ccf>
+    </code>
+    <code name="KEY_3" codeno="0x0000000000000015">
+      <decoding protocol="Jerrold" device="-1" subdevice="-1" obc="21" hex0="168" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0006 0000 0004 01ba 0004 0128 0004 01ba 0004 0128 0004 01ba 0004 037e</ccf>
+    </code>
+    <code name="KEY_4" codeno="0x000000000000001B">
+      <decoding protocol="Jerrold" device="-1" subdevice="-1" obc="27" hex0="216" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0006 0000 0004 01ba 0004 01ba 0004 0128 0004 01ba 0004 01ba 0004 037e</ccf>
+    </code>
+    <code name="KEY_5" codeno="0x000000000000001A">
+      <decoding protocol="Jerrold" device="-1" subdevice="-1" obc="11" hex0="208" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0006 0000 0004 01ba 0004 01ba 0004 0128 0004 01ba 0004 0128 0004 037e</ccf>
+    </code>
+    <code name="KEY_6" codeno="0x0000000000000019">
+      <decoding protocol="Jerrold" device="-1" subdevice="-1" obc="19" hex0="200" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0006 0000 0004 01ba 0004 01ba 0004 0128 0004 0128 0004 01ba 0004 037e</ccf>
+    </code>
+    <code name="KEY_7" codeno="0x000000000000001F">
+      <decoding protocol="Jerrold" device="-1" subdevice="-1" obc="31" hex0="248" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0006 0000 0004 01ba 0004 01ba 0004 01ba 0004 01ba 0004 01ba 0004 037e</ccf>
+    </code>
+    <code name="KEY_8" codeno="0x000000000000001E">
+      <decoding protocol="Jerrold" device="-1" subdevice="-1" obc="15" hex0="240" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0006 0000 0004 01ba 0004 01ba 0004 01ba 0004 01ba 0004 0128 0004 037e</ccf>
+    </code>
+    <code name="KEY_9" codeno="0x000000000000001D">
+      <decoding protocol="Jerrold" device="-1" subdevice="-1" obc="23" hex0="232" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0006 0000 0004 01ba 0004 01ba 0004 01ba 0004 0128 0004 01ba 0004 037e</ccf>
+    </code>
+    <code name="KEY_0" codeno="0x0000000000000012">
+      <decoding protocol="Jerrold" device="-1" subdevice="-1" obc="9" hex0="144" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0006 0000 0004 01ba 0004 0128 0004 0128 0004 01ba 0004 0128 0004 037e</ccf>
+    </code>
+    <code name="KEY_SELECT" codeno="0x0000000000000003">
+      <decoding protocol="Jerrold" device="-1" subdevice="-1" obc="24" hex0="24" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0006 0000 0004 0128 0004 0128 0004 0128 0004 01ba 0004 01ba 0004 037e</ccf>
+    </code>
+    <code name="KEY_OK" codeno="0x0000000000000001">
+      <decoding protocol="Jerrold" device="-1" subdevice="-1" obc="16" hex0="8" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0006 0000 0004 0128 0004 0128 0004 0128 0004 0128 0004 01ba 0004 037e</ccf>
+    </code>
+    <code name="A/B" codeno="0x0000000000000018">
+      <decoding protocol="Jerrold" device="-1" subdevice="-1" obc="3" hex0="192" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0006 0000 0004 01ba 0004 01ba 0004 0128 0004 0128 0004 0128 0004 037e</ccf>
+    </code>
+    <code name="KEY_VOLUMEUP" codeno="0x000000000000000B">
+      <decoding protocol="Jerrold" device="-1" subdevice="-1" obc="26" hex0="88" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0006 0000 0004 0128 0004 01ba 0004 0128 0004 01ba 0004 01ba 0004 037e</ccf>
+    </code>
+    <code name="KEY_CHANNELUP" codeno="0x0000000000000014">
+      <decoding protocol="Jerrold" device="-1" subdevice="-1" obc="5" hex0="160" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0006 0000 0004 01ba 0004 0128 0004 01ba 0004 0128 0004 0128 0004 037e</ccf>
+    </code>
+    <code name="KEY_CHANNELDOWN" codeno="0x0000000000000010">
+      <decoding protocol="Jerrold" device="-1" subdevice="-1" obc="1" hex0="128" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0006 0000 0004 01ba 0004 0128 0004 0128 0004 0128 0004 0128 0004 037e</ccf>
+    </code>
+    <code name="KEY_VOLUMEDOWN" codeno="0x0000000000000007">
+      <decoding protocol="Jerrold" device="-1" subdevice="-1" obc="28" hex0="56" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0006 0000 0004 0128 0004 0128 0004 01ba 0004 01ba 0004 01ba 0004 037e</ccf>
+    </code>
+    <code name="KEY_CHANNELDOWN" codeno="0x000000000000000C">
+      <decoding protocol="Jerrold" device="-1" subdevice="-1" obc="6" hex0="96" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0006 0000 0004 0128 0004 01ba 0004 01ba 0004 0128 0004 0128 0004 037e</ccf>
+    </code>
+    <code name="FC" codeno="0x0000000000000011">
+      <decoding protocol="Jerrold" device="-1" subdevice="-1" obc="17" hex0="136" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0006 0000 0004 01ba 0004 0128 0004 0128 0004 0128 0004 01ba 0004 037e</ccf>
+    </code>
+    <code name="KEY_POWER" codeno="0x000000000000001C">
+      <decoding protocol="Jerrold" device="-1" subdevice="-1" obc="7" hex0="224" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0006 0000 0004 01ba 0004 01ba 0004 01ba 0004 0128 0004 0128 0004 037e</ccf>
+    </code>
+    <code name="KEY_MUTE" codeno="0x0000000000000009">
+      <decoding protocol="Jerrold" device="-1" subdevice="-1" obc="18" hex0="72" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0006 0000 0004 0128 0004 01ba 0004 0128 0004 0128 0004 01ba 0004 037e</ccf>
+    </code>
+    <code name="PCPM" codeno="0x0000000000000013">
+      <decoding protocol="Jerrold" device="-1" subdevice="-1" obc="25" hex0="152" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0006 0000 0004 01ba 0004 0128 0004 0128 0004 01ba 0004 01ba 0004 037e</ccf>
+    </code>
+    <code name="TCP" codeno="0x0000000000000000">
+      <decoding protocol="Jerrold" device="-1" subdevice="-1" obc="0" hex0="0" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0006 0000 0004 0128 0004 0128 0004 0128 0004 0128 0004 0128 0004 037e</ccf>
+    </code>
+    <code name="KEY_F" codeno="0x0000000000000004">
+      <decoding protocol="Jerrold" device="-1" subdevice="-1" obc="4" hex0="32" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0006 0000 0004 0128 0004 0128 0004 01ba 0004 0128 0004 0128 0004 037e</ccf>
+    </code>
+    <code name="Learn" codeno="0x0000000000000002">
+      <decoding protocol="Jerrold" device="-1" subdevice="-1" obc="8" hex0="16" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0006 0000 0004 0128 0004 0128 0004 0128 0004 01ba 0004 0128 0004 037e</ccf>
+    </code>
+    <code name="PRGM" codeno="0x0000000000000006">
+      <decoding protocol="Jerrold" device="-1" subdevice="-1" obc="12" hex0="48" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0006 0000 0004 0128 0004 0128 0004 01ba 0004 01ba 0004 0128 0004 037e</ccf>
+    </code>
+    <code name="KEY_DELETE" codeno="0x0000000000000005">
+      <decoding protocol="Jerrold" device="-1" subdevice="-1" obc="20" hex0="40" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0006 0000 0004 0128 0004 0128 0004 01ba 0004 0128 0004 01ba 0004 037e</ccf>
+    </code>
+  </remote>
+</lircremotes>

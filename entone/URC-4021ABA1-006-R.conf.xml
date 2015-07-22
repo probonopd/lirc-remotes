@@ -1,0 +1,145 @@
+<lircremotes creation-date="Wed Jul 22 23:04:14 2015" creator="" lircversion="0.8.6" lirc2xml_version="0.1.2" configfile="remotes/entone/URC-4021ABA1-006-R.conf" decodeir_version="2.40">
+  <remote name="ENTONE_URC-4021ABA1-006-R">
+    <lircdata type="RC6" bits="29" flags="16388" eps="30" aeps="100" pthree="0" sthree="0" ptwo="0" stwo="0" pone="386" sone="472" pzero="386" szero="472" plead="0" ptrail="0" pfoot="0" sfoot="0" prepeat="0" srepeat="0" pre_data_bits="0" pre_data="0" post_data_bits="0" post_data="0" pre_p="0" pre_s="0" post_p="0" post_s="0" gap="98401" gap2="0" repeat_gap="0" toggle_bit="0" toggle_bit_mask="0" min_repeat="0" min_code_repeat="0" freq="38000" duty_cycle="0" toggle_mask="0" rc6_mask="16777216" baud="0" bits_in_byte="0" parity="0" stop_bits="0" ignore_mask="0"/>
+    <code name="KEY_MENU" codeno="0x000000000319FBE0">
+      <decoding protocol="Replay" device="230" subdevice="4" obc="31" hex0="31" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 001a 0000 0061 0023 000f 0012 000f 0012 000f 0024 000f 0024 002c 0012 000f 0012 000f 0024 000f 0012 001d 0012 000f 0024 000f 0012 000f 0012 000f 0012 000f 0012 000f 0012 001d 0024 000f 0012 000f 0012 000f 0012 000f 0012 001d 0012 000f 0012 000f 0012 000f 0012 000f 0a57</ccf>
+    </code>
+    <code name="KEY_UP" codeno="0x000000000319FBDA">
+      <decoding protocol="Replay" device="230" subdevice="4" obc="37" hex0="37" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 0018 0000 0061 0023 000f 0012 000f 0012 000f 0024 000f 0024 002c 0012 000f 0012 000f 0024 000f 0012 001d 0012 000f 0024 000f 0012 000f 0012 000f 0012 000f 0012 000f 0012 001d 0024 000f 0012 000f 0012 000f 0012 001d 0024 000f 0012 001d 0024 001d 0a57</ccf>
+    </code>
+    <code name="KEY_INFO" codeno="0x000000000319FBEE">
+      <decoding protocol="Replay" device="230" subdevice="4" obc="17" hex0="17" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 0019 0000 0061 0023 000f 0012 000f 0012 000f 0024 000f 0024 002c 0012 000f 0012 000f 0024 000f 0012 001d 0012 000f 0024 000f 0012 000f 0012 000f 0012 000f 0012 000f 0012 001d 0024 000f 0012 000f 0012 000f 0012 000f 0012 001d 0024 000f 0012 000f 0012 001d 0a57</ccf>
+    </code>
+    <code name="KEY_LEFT" codeno="0x000000000319FBAD">
+      <decoding protocol="Replay" device="230" subdevice="4" obc="82" hex0="82" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 0018 0000 0061 0023 000f 0012 000f 0012 000f 0024 000f 0024 002c 0012 000f 0012 000f 0024 000f 0012 001d 0012 000f 0024 000f 0012 000f 0012 000f 0012 000f 0012 000f 0012 001d 0024 000f 0012 000f 0012 001d 0024 001d 0024 000f 0012 001d 0024 000f 0a45</ccf>
+    </code>
+    <code name="KEY_OK" codeno="0x000000000319FBAB">
+      <decoding protocol="Replay" device="230" subdevice="4" obc="84" hex0="84" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 0018 0000 0061 0023 000f 0012 000f 0012 000f 0024 000f 0024 002c 0012 000f 0012 000f 0024 000f 0012 001d 0012 000f 0024 000f 0012 000f 0012 000f 0012 000f 0012 000f 0012 001d 0024 000f 0012 000f 0012 001d 0024 001d 0024 001d 0024 000f 0012 000f 0a45</ccf>
+    </code>
+    <code name="KEY_RIGHT" codeno="0x000000000319FBAC">
+      <decoding protocol="Replay" device="230" subdevice="4" obc="83" hex0="83" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 0018 0000 0061 0023 000f 0012 000f 0012 000f 0024 000f 0024 002c 0012 000f 0012 000f 0024 000f 0012 001d 0012 000f 0024 000f 0012 000f 0012 000f 0012 000f 0012 000f 0012 001d 0024 000f 0012 000f 0012 001d 0024 001d 0024 000f 0012 001d 0012 000f 0a57</ccf>
+    </code>
+    <code name="KEY_BACK" codeno="0x000000000319FBB2">
+      <decoding protocol="Replay" device="230" subdevice="4" obc="77" hex0="77" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 0018 0000 0061 0023 000f 0012 000f 0012 000f 0024 000f 0024 002c 0012 000f 0012 000f 0024 000f 0012 001d 0012 000f 0024 000f 0012 000f 0012 000f 0012 000f 0012 000f 0012 001d 0024 000f 0012 000f 0012 001d 0024 000f 0012 001d 0012 000f 0024 001d 0a57</ccf>
+    </code>
+    <code name="KEY_DOWN" codeno="0x000000000319FBE7">
+      <decoding protocol="Replay" device="230" subdevice="4" obc="24" hex0="24" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 001a 0000 0061 0023 000f 0012 000f 0012 000f 0024 000f 0024 002c 0012 000f 0012 000f 0024 000f 0012 001d 0012 000f 0024 000f 0012 000f 0012 000f 0012 000f 0012 000f 0012 001d 0024 000f 0012 000f 0012 000f 0012 000f 0012 001d 0012 000f 0024 000f 0012 000f 0012 000f 0a45</ccf>
+    </code>
+    <code name="KEY_EXIT" codeno="0x000000000319FBE1">
+      <decoding protocol="Replay" device="230" subdevice="4" obc="30" hex0="30" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 001a 0000 0061 0023 000f 0012 000f 0012 000f 0024 000f 0024 002c 0012 000f 0012 000f 0024 000f 0012 001d 0012 000f 0024 000f 0012 000f 0012 000f 0012 000f 0012 000f 0012 001d 0024 000f 0012 000f 0012 000f 0012 000f 0012 001d 0012 000f 0012 000f 0012 000f 0024 000f 0a45</ccf>
+    </code>
+    <code name="KEY_STOP" codeno="0x000000000319FBF4">
+      <decoding protocol="Replay" device="230" subdevice="4" obc="11" hex0="11" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 0019 0000 0061 0023 000f 0012 000f 0012 000f 0024 000f 0024 002c 0012 000f 0012 000f 0024 000f 0012 001d 0012 000f 0024 000f 0012 000f 0012 000f 0012 000f 0012 000f 0012 001d 0024 000f 0012 000f 0012 000f 0012 000f 0012 000f 0012 001d 0024 001d 0012 000f 0a57</ccf>
+    </code>
+    <code name="KEY_PLAYPAUSE" codeno="0x000000000319FBB0">
+      <decoding protocol="Replay" device="230" subdevice="4" obc="79" hex0="79" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 0019 0000 0061 0023 000f 0012 000f 0012 000f 0024 000f 0024 002c 0012 000f 0012 000f 0024 000f 0012 001d 0012 000f 0024 000f 0012 000f 0012 000f 0012 000f 0012 000f 0012 001d 0024 000f 0012 000f 0012 001d 0024 000f 0012 001d 0012 000f 0012 000f 0012 000f 0a57</ccf>
+    </code>
+    <code name="KEY_RECORD" codeno="0x000000000319FBE6">
+      <decoding protocol="Replay" device="230" subdevice="4" obc="25" hex0="25" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 0019 0000 0061 0023 000f 0012 000f 0012 000f 0024 000f 0024 002c 0012 000f 0012 000f 0024 000f 0012 001d 0012 000f 0024 000f 0012 000f 0012 000f 0012 000f 0012 000f 0012 001d 0024 000f 0012 000f 0012 000f 0012 000f 0012 001d 0012 000f 0024 000f 0012 001d 0a57</ccf>
+    </code>
+    <code name="KEY_RED" codeno="0x000000000319FBF1">
+      <decoding protocol="Replay" device="230" subdevice="4" obc="14" hex0="14" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 001a 0000 0061 0023 000f 0012 000f 0012 000f 0024 000f 0024 002c 0012 000f 0012 000f 0024 000f 0012 001d 0012 000f 0024 000f 0012 000f 0012 000f 0012 000f 0012 000f 0012 001d 0024 000f 0012 000f 0012 000f 0012 000f 0012 000f 0012 001d 0012 000f 0012 000f 0024 000f 0a45</ccf>
+    </code>
+    <code name="KEY_GREEN" codeno="0x000000000319FBEA">
+      <decoding protocol="Replay" device="230" subdevice="4" obc="21" hex0="21" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 0018 0000 0061 0023 000f 0012 000f 0012 000f 0024 000f 0024 002c 0012 000f 0012 000f 0024 000f 0012 001d 0012 000f 0024 000f 0012 000f 0012 000f 0012 000f 0012 000f 0012 001d 0024 000f 0012 000f 0012 000f 0012 000f 0012 001d 0024 001d 0024 001d 0a57</ccf>
+    </code>
+    <code name="KEY_YELLOW" codeno="0x000000000319FBE3">
+      <decoding protocol="Replay" device="230" subdevice="4" obc="28" hex0="28" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 001a 0000 0061 0023 000f 0012 000f 0012 000f 0024 000f 0024 002c 0012 000f 0012 000f 0024 000f 0012 001d 0012 000f 0024 000f 0012 000f 0012 000f 0012 000f 0012 000f 0012 001d 0024 000f 0012 000f 0012 000f 0012 000f 0012 001d 0012 000f 0012 000f 0024 000f 0012 000f 0a45</ccf>
+    </code>
+    <code name="KEY_BLUE" codeno="0x000000000319FBDC">
+      <decoding protocol="Replay" device="230" subdevice="4" obc="35" hex0="35" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 0019 0000 0061 0023 000f 0012 000f 0012 000f 0024 000f 0024 002c 0012 000f 0012 000f 0024 000f 0012 001d 0012 000f 0024 000f 0012 000f 0012 000f 0012 000f 0012 000f 0012 001d 0024 000f 0012 000f 0012 000f 0012 001d 0024 000f 0012 000f 0012 001d 0012 000f 0a57</ccf>
+    </code>
+    <code name="KEY_VOLUMEUP" codeno="0x000000000319FBD4">
+      <decoding protocol="Replay" device="230" subdevice="4" obc="43" hex0="43" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 0018 0000 0061 0023 000f 0012 000f 0012 000f 0024 000f 0024 002c 0012 000f 0012 000f 0024 000f 0012 001d 0012 000f 0024 000f 0012 000f 0012 000f 0012 000f 0012 000f 0012 001d 0024 000f 0012 000f 0012 000f 0012 001d 0024 001d 0024 001d 0012 000f 0a57</ccf>
+    </code>
+    <code name="KEY_VOLUMEDOWN" codeno="0x000000000319FBE8">
+      <decoding protocol="Replay" device="230" subdevice="4" obc="23" hex0="23" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 0019 0000 0061 0023 000f 0012 000f 0012 000f 0024 000f 0024 002c 0012 000f 0012 000f 0024 000f 0012 001d 0012 000f 0024 000f 0012 000f 0012 000f 0012 000f 0012 000f 0012 001d 0024 000f 0012 000f 0012 000f 0012 000f 0012 001d 0024 001d 0012 000f 0012 000f 0a57</ccf>
+    </code>
+    <code name="KEY_EPG" codeno="0x000000000319FBD3">
+      <decoding protocol="Replay" device="230" subdevice="4" obc="44" hex0="44" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 0019 0000 0061 0023 000f 0012 000f 0012 000f 0024 000f 0024 002c 0012 000f 0012 000f 0024 000f 0012 001d 0012 000f 0024 000f 0012 000f 0012 000f 0012 000f 0012 000f 0012 001d 0024 000f 0012 000f 0012 000f 0012 001d 0024 001d 0012 000f 0024 000f 0012 000f 0a45</ccf>
+    </code>
+    <code name="KEY_MUTE" codeno="0x000000000319FBEB">
+      <decoding protocol="Replay" device="230" subdevice="4" obc="20" hex0="20" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 0019 0000 0061 0023 000f 0012 000f 0012 000f 0024 000f 0024 002c 0012 000f 0012 000f 0024 000f 0012 001d 0012 000f 0024 000f 0012 000f 0012 000f 0012 000f 0012 000f 0012 001d 0024 000f 0012 000f 0012 000f 0012 000f 0012 001d 0024 001d 0024 000f 0012 000f 0a45</ccf>
+    </code>
+    <code name="KEY_CHANNELUP" codeno="0x000000000319FBFD">
+      <decoding protocol="Replay" device="230" subdevice="4" obc="2" hex0="2" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 001a 0000 0061 0023 000f 0012 000f 0012 000f 0024 000f 0024 002c 0012 000f 0012 000f 0024 000f 0012 001d 0012 000f 0024 000f 0012 000f 0012 000f 0012 000f 0012 000f 0012 001d 0024 000f 0012 000f 0012 000f 0012 000f 0012 000f 0012 000f 0012 000f 0012 001d 0024 000f 0a45</ccf>
+    </code>
+    <code name="KEY_CHANNELDOWN" codeno="0x000000000319FBF6">
+      <decoding protocol="Replay" device="230" subdevice="4" obc="9" hex0="9" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 0019 0000 0061 0023 000f 0012 000f 0012 000f 0024 000f 0024 002c 0012 000f 0012 000f 0024 000f 0012 001d 0012 000f 0024 000f 0012 000f 0012 000f 0012 000f 0012 000f 0012 001d 0024 000f 0012 000f 0012 000f 0012 000f 0012 000f 0012 001d 0024 000f 0012 001d 0a57</ccf>
+    </code>
+    <code name="KEY_1" codeno="0x000000000319FBCA">
+      <decoding protocol="Replay" device="230" subdevice="4" obc="53" hex0="53" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 0018 0000 0061 0023 000f 0012 000f 0012 000f 0024 000f 0024 002c 0012 000f 0012 000f 0024 000f 0012 001d 0012 000f 0024 000f 0012 000f 0012 000f 0012 000f 0012 000f 0012 001d 0024 000f 0012 000f 0012 000f 0012 001d 0012 000f 0024 001d 0024 001d 0a57</ccf>
+    </code>
+    <code name="KEY_2" codeno="0x000000000319FBD1">
+      <decoding protocol="Replay" device="230" subdevice="4" obc="46" hex0="46" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 0019 0000 0061 0023 000f 0012 000f 0012 000f 0024 000f 0024 002c 0012 000f 0012 000f 0024 000f 0012 001d 0012 000f 0024 000f 0012 000f 0012 000f 0012 000f 0012 000f 0012 001d 0024 000f 0012 000f 0012 000f 0012 001d 0024 001d 0012 000f 0012 000f 0024 000f 0a45</ccf>
+    </code>
+    <code name="KEY_3" codeno="0x000000000319FBD8">
+      <decoding protocol="Replay" device="230" subdevice="4" obc="39" hex0="39" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 0019 0000 0061 0023 000f 0012 000f 0012 000f 0024 000f 0024 002c 0012 000f 0012 000f 0024 000f 0012 001d 0012 000f 0024 000f 0012 000f 0012 000f 0012 000f 0012 000f 0012 001d 0024 000f 0012 000f 0012 000f 0012 001d 0024 000f 0012 001d 0012 000f 0012 000f 0a57</ccf>
+    </code>
+    <code name="KEY_4" codeno="0x000000000319FBEC">
+      <decoding protocol="Replay" device="230" subdevice="4" obc="19" hex0="19" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 0019 0000 0061 0023 000f 0012 000f 0012 000f 0024 000f 0024 002c 0012 000f 0012 000f 0024 000f 0012 001d 0012 000f 0024 000f 0012 000f 0012 000f 0012 000f 0012 000f 0012 001d 0024 000f 0012 000f 0012 000f 0012 000f 0012 001d 0024 000f 0012 001d 0012 000f 0a57</ccf>
+    </code>
+    <code name="KEY_5" codeno="0x000000000319FBE5">
+      <decoding protocol="Replay" device="230" subdevice="4" obc="26" hex0="26" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 0019 0000 0061 0023 000f 0012 000f 0012 000f 0024 000f 0024 002c 0012 000f 0012 000f 0024 000f 0012 001d 0012 000f 0024 000f 0012 000f 0012 000f 0012 000f 0012 000f 0012 001d 0024 000f 0012 000f 0012 000f 0012 000f 0012 001d 0012 000f 0024 001d 0024 000f 0a45</ccf>
+    </code>
+    <code name="KEY_6" codeno="0x000000000319FBF3">
+      <decoding protocol="Replay" device="230" subdevice="4" obc="12" hex0="12" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 001a 0000 0061 0023 000f 0012 000f 0012 000f 0024 000f 0024 002c 0012 000f 0012 000f 0024 000f 0012 001d 0012 000f 0024 000f 0012 000f 0012 000f 0012 000f 0012 000f 0012 001d 0024 000f 0012 000f 0012 000f 0012 000f 0012 000f 0012 001d 0012 000f 0024 000f 0012 000f 0a45</ccf>
+    </code>
+    <code name="KEY_7" codeno="0x000000000319FBC9">
+      <decoding protocol="Replay" device="230" subdevice="4" obc="54" hex0="54" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 0019 0000 0061 0023 000f 0012 000f 0012 000f 0024 000f 0024 002c 0012 000f 0012 000f 0024 000f 0012 001d 0012 000f 0024 000f 0012 000f 0012 000f 0012 000f 0012 000f 0012 001d 0024 000f 0012 000f 0012 000f 0012 001d 0012 000f 0024 001d 0012 000f 0024 000f 0a45</ccf>
+    </code>
+    <code name="KEY_8" codeno="0x000000000319FBD0">
+      <decoding protocol="Replay" device="230" subdevice="4" obc="47" hex0="47" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 0019 0000 0061 0023 000f 0012 000f 0012 000f 0024 000f 0024 002c 0012 000f 0012 000f 0024 000f 0012 001d 0012 000f 0024 000f 0012 000f 0012 000f 0012 000f 0012 000f 0012 001d 0024 000f 0012 000f 0012 000f 0012 001d 0024 001d 0012 000f 0012 000f 0012 000f 0a57</ccf>
+    </code>
+    <code name="KEY_9" codeno="0x000000000319FBD7">
+      <decoding protocol="Replay" device="230" subdevice="4" obc="40" hex0="40" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 0019 0000 0061 0023 000f 0012 000f 0012 000f 0024 000f 0024 002c 0012 000f 0012 000f 0024 000f 0012 001d 0012 000f 0024 000f 0012 000f 0012 000f 0012 000f 0012 000f 0012 001d 0024 000f 0012 000f 0012 000f 0012 001d 0024 001d 0024 000f 0012 000f 0012 000f 0a45</ccf>
+    </code>
+    <code name="KEY_DOT" codeno="0x000000000319FBB7">
+      <decoding protocol="Replay" device="230" subdevice="4" obc="72" hex0="72" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 0019 0000 0061 0023 000f 0012 000f 0012 000f 0024 000f 0024 002c 0012 000f 0012 000f 0024 000f 0012 001d 0012 000f 0024 000f 0012 000f 0012 000f 0012 000f 0012 000f 0012 001d 0024 000f 0012 000f 0012 001d 0024 000f 0012 001d 0024 000f 0012 000f 0012 000f 0a45</ccf>
+    </code>
+    <code name="KEY_0" codeno="0x000000000319FBE4">
+      <decoding protocol="Replay" device="230" subdevice="4" obc="27" hex0="27" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 0019 0000 0061 0023 000f 0012 000f 0012 000f 0024 000f 0024 002c 0012 000f 0012 000f 0024 000f 0012 001d 0012 000f 0024 000f 0012 000f 0012 000f 0012 000f 0012 000f 0012 001d 0024 000f 0012 000f 0012 000f 0012 000f 0012 001d 0012 000f 0024 001d 0012 000f 0a57</ccf>
+    </code>
+    <code name="KEY_TEXT" codeno="0x000000000319FBB1">
+      <decoding protocol="Replay" device="230" subdevice="4" obc="78" hex0="78" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 0019 0000 0061 0023 000f 0012 000f 0012 000f 0024 000f 0024 002c 0012 000f 0012 000f 0024 000f 0012 001d 0012 000f 0024 000f 0012 000f 0012 000f 0012 000f 0012 000f 0012 001d 0024 000f 0012 000f 0012 001d 0024 000f 0012 001d 0012 000f 0012 000f 0024 000f 0a45</ccf>
+    </code>
+    <code name="KEY_POWER" codeno="0x000000000319FBF8">
+      <decoding protocol="Replay" device="230" subdevice="4" obc="7" hex0="7" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 001a 0000 0061 0023 000f 0012 000f 0012 000f 0024 000f 0024 002c 0012 000f 0012 000f 0024 000f 0012 001d 0012 000f 0024 000f 0012 000f 0012 000f 0012 000f 0012 000f 0012 001d 0024 000f 0012 000f 0012 000f 0012 000f 0012 000f 0012 000f 0012 001d 0012 000f 0012 000f 0a57</ccf>
+    </code>
+  </remote>
+</lircremotes>

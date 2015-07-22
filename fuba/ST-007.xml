@@ -1,0 +1,53 @@
+<lircremotes creation-date="Wed Jul 22 23:04:14 2015" creator="" lircversion="0.8.6" lirc2xml_version="0.1.2" configfile="remotes/fuba/ST-007.lircd.conf" decodeir_version="2.40">
+  <remote name="FubaST007">
+    <lircdata type="RAW_CODES" bits="0" flags="16385" eps="30" aeps="100" pthree="0" sthree="0" ptwo="0" stwo="0" pone="0" sone="0" pzero="0" szero="0" plead="0" ptrail="0" pfoot="0" sfoot="0" prepeat="0" srepeat="0" pre_data_bits="0" pre_data="0" post_data_bits="0" post_data="0" pre_p="0" pre_s="0" post_p="0" post_s="0" gap="50529" gap2="0" repeat_gap="0" toggle_bit="0" toggle_bit_mask="0" min_repeat="0" min_code_repeat="0" freq="38000" duty_cycle="0" toggle_mask="0" rc6_mask="0" baud="0" bits_in_byte="0" parity="0" stop_bits="0" ignore_mask="0"/>
+    <code name="ChannelUp" codeno="0x0000000000000001">
+      <decoding protocol="Akai" device="2" subdevice="-1" obc="52" hex0="233" hex1="-1" hex2="-1" hex3="-1" misc="+ 1 copy" error=""/>
+      <ccf>0000 006d 0016 0000 000c 001d 000b 0045 000b 001d 000b 001d 000b 001d 000b 0045 000b 001d 000b 0045 000b 0045 000b 001d 000b 0184 000c 001d 000b 0045 000b 001d 000b 001d 000b 001d 000b 0045 000b 001d 000b 0045 000b 0045 000b 001d 000b 0184</ccf>
+    </code>
+    <code name="ChannelDown" codeno="0x0000000000000002">
+      <decoding protocol="Akai" device="2" subdevice="-1" obc="40" hex0="245" hex1="-1" hex2="-1" hex3="-1" misc="+ 1 copy" error=""/>
+      <ccf>0000 006d 0016 0000 000c 001d 000b 0045 000b 001d 000b 001d 000b 001d 000b 001d 000b 0045 000b 001d 000b 0045 000b 001d 000b 01ac 000c 001d 000b 0045 000b 001d 000b 001d 000b 001d 000b 001d 000b 0045 000b 001d 000b 0045 000b 001d 000b 01ac</ccf>
+    </code>
+    <code name="FreqLevelInvert" codeno="0x0000000000000003">
+      <decoding protocol="Akai" device="2" subdevice="-1" obc="37" hex0="173" hex1="-1" hex2="-1" hex3="-1" misc="+ 1 copy" error=""/>
+      <ccf>0000 006d 0016 0000 000c 001d 000b 0045 000b 001d 000b 0045 000b 001d 000b 0045 000b 001d 000b 001d 000b 0045 000b 001d 000b 0184 000c 001d 000b 0045 000b 001d 000b 0045 000b 001d 000b 0045 000b 001d 000b 001d 000b 0045 000b 001d 000b 0184</ccf>
+    </code>
+    <code name="Mode" codeno="0x0000000000000004">
+      <decoding protocol="Akai" device="2" subdevice="-1" obc="42" hex0="213" hex1="-1" hex2="-1" hex3="-1" misc="+ 1 copy" error=""/>
+      <ccf>0000 006d 0016 0000 000c 001d 000b 0045 000b 001d 000b 001d 000b 0045 000b 001d 000b 0045 000b 001d 000b 0045 000b 001d 000b 0184 000c 001d 000b 0045 000b 001d 000b 001d 000b 0045 000b 001d 000b 0045 000b 001d 000b 0045 000b 001d 000b 0184</ccf>
+    </code>
+    <code name="DisplayUp" codeno="0x0000000000000005">
+      <decoding protocol="Akai" device="2" subdevice="-1" obc="49" hex0="185" hex1="-1" hex2="-1" hex3="-1" misc="+ 1 copy" error=""/>
+      <ccf>0000 006d 0016 0000 000c 001d 000b 0045 000b 001d 000b 0045 000b 001d 000b 001d 000b 001d 000b 0045 000c 0044 000b 001d 000b 0184 000c 001d 000b 0045 000b 001d 000b 0045 000c 001c 000b 001d 000b 001d 000b 0045 000b 0045 000b 001d 000b 0184</ccf>
+    </code>
+    <code name="DisplayDown" codeno="0x0000000000000006">
+      <decoding protocol="Akai" device="2" subdevice="-1" obc="60" hex0="225" hex1="-1" hex2="-1" hex3="-1" misc="+ 1 copy" error=""/>
+      <ccf>0000 006d 0016 0000 000c 001d 000b 0045 000b 001d 000b 001d 000b 001d 000b 0045 000b 0045 000b 0045 000b 0045 000b 001d 000b 015c 000c 001d 000b 0045 000b 001d 000b 001d 000b 001d 000b 0045 000b 0045 000b 0045 000b 0045 000b 001d 000b 015c</ccf>
+    </code>
+    <code name="W/N" codeno="0x0000000000000007">
+      <decoding protocol="Akai" device="2" subdevice="-1" obc="51" hex0="153" hex1="-1" hex2="-1" hex3="-1" misc="+ 1 copy" error=""/>
+      <ccf>0000 006d 0016 0000 000c 001d 000b 0045 000b 001d 000b 0045 000b 0045 000b 001d 000b 001d 000b 0045 000b 0045 000b 001d 000b 015c 000c 001d 000b 0045 000b 001d 000b 0045 000b 0045 000b 001d 000b 001d 000b 0045 000b 0045 000b 001d 000b 015c</ccf>
+    </code>
+    <code name="J17/50microseconds" codeno="0x0000000000000008">
+      <decoding protocol="Akai" device="2" subdevice="-1" obc="57" hex0="177" hex1="-1" hex2="-1" hex3="-1" misc="+ 1 copy" error=""/>
+      <ccf>0000 006d 0016 0000 000c 001d 000b 0045 000b 001d 000b 0045 000b 001d 000b 001d 000b 0045 000b 0045 000b 0045 000b 001d 000b 015c 000c 001d 000b 0045 000b 001d 000b 0045 000b 001d 000b 001d 000b 0045 000b 0045 000b 0045 000b 001d 000b 015c</ccf>
+    </code>
+    <code name="Autotune" codeno="0x0000000000000009">
+      <decoding protocol="Akai" device="2" subdevice="-1" obc="50" hex0="217" hex1="-1" hex2="-1" hex3="-1" misc="+ 1 copy" error=""/>
+      <ccf>0000 006d 0016 0000 000c 001d 000b 0045 000b 001d 000b 001d 000b 0045 000b 001d 000b 001d 000b 0045 000b 0045 000b 001d 000b 0184 000c 001d 000b 0045 000b 001d 000b 001d 000b 0045 000b 001d 000b 001d 000b 0045 000b 0045 000b 001d 000b 0184</ccf>
+    </code>
+    <code name="V/H" codeno="0x000000000000000A">
+      <decoding protocol="Akai" device="2" subdevice="-1" obc="56" hex0="241" hex1="-1" hex2="-1" hex3="-1" misc="+ 1 copy" error=""/>
+      <ccf>0000 006d 0016 0000 000c 001d 000b 0045 000b 001d 000b 001d 000b 001d 000b 001d 000b 0045 000b 0045 000b 0045 000b 001d 000b 0184 000c 001d 000b 0045 000b 001d 000b 001d 000b 001d 000b 001d 000b 0045 000b 0045 000b 0045 000b 001d 000b 0184</ccf>
+    </code>
+    <code name="Power" codeno="0x000000000000000B">
+      <decoding protocol="Akai" device="2" subdevice="-1" obc="44" hex0="229" hex1="-1" hex2="-1" hex3="-1" misc="+ 1 copy" error=""/>
+      <ccf>0000 006d 0016 0000 000c 001d 000b 0045 000b 001d 000b 001d 000b 001d 000b 0045 000b 0045 000b 001d 000b 0045 000b 001d 000b 0184 000c 001d 000b 0045 000b 001d 000b 001d 000b 001d 000b 0045 000b 0045 000b 001d 000b 0045 000b 001d 000b 0184</ccf>
+    </code>
+    <code name="Mute" codeno="0x000000000000000C">
+      <decoding protocol="Gap-349-5263-21?" device="0" subdevice="4" obc="0" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 0.4.0" error=""/>
+      <ccf>0000 006d 0016 0000 000d 001c 000c 0044 000c 001c 000c 0043 000d 0044 000c 001c 000c 0044 000c 0044 000c 0044 000c 001c 000c 0133 000d 001c 000c 0044 000c 001c 000c 0044 000c 0044 000c 001c 000c 0044 000c 0044 000c 0044 000c 001c 000c 0133</ccf>
+    </code>
+  </remote>
+</lircremotes>

@@ -1,0 +1,165 @@
+<lircremotes creation-date="Wed Jul 22 23:04:12 2015" creator="" lircversion="0.8.6" lirc2xml_version="0.1.2" configfile="remotes/itt/RC40.lircd.conf" decodeir_version="2.40">
+  <remote name="ITT">
+    <lircdata type="SPACE_ENC" bits="15" flags="16" eps="20" aeps="100" pthree="0" sthree="0" ptwo="0" stwo="0" pone="735" sone="1513" pzero="735" szero="391" plead="0" ptrail="735" pfoot="0" sfoot="0" prepeat="0" srepeat="0" pre_data_bits="16" pre_data="35955" post_data_bits="1" post_data="1" pre_p="0" pre_s="0" post_p="0" post_s="0" gap="37715" gap2="0" repeat_gap="0" toggle_bit="0" toggle_bit_mask="0" min_repeat="0" min_code_repeat="0" freq="38000" duty_cycle="0" toggle_mask="0" rc6_mask="0" baud="0" bits_in_byte="0" parity="0" stop_bits="0" ignore_mask="0"/>
+    <code name="KEY_1" codeno="0x000000000000106F">
+      <decoding protocol="NEC" device="49" subdevice="-1" obc="4" hex0="223" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0022 0000 015c 00a4 001c 0039 001c 000f 001c 000f 001c 000f 001c 0039 001c 0039 001c 000f 001c 000f 001c 000f 001c 0039 001c 0039 001c 0039 001c 000f 001c 000f 001c 0039 001c 0039 001c 000f 001c 000f 001c 0039 001c 000f 001c 000f 001c 000f 001c 000f 001c 000f 001c 0039 001c 0039 001c 000f 001c 0039 001c 0039 001c 0039 001c 0039 001c 0039 001c 0599</ccf>
+    </code>
+    <code name="KEY_2" codeno="0x000000000000502F">
+      <decoding protocol="NEC" device="49" subdevice="-1" obc="5" hex0="95" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0022 0000 015c 00a4 001c 0039 001c 000f 001c 000f 001c 000f 001c 0039 001c 0039 001c 000f 001c 000f 001c 000f 001c 0039 001c 0039 001c 0039 001c 000f 001c 000f 001c 0039 001c 0039 001c 0039 001c 000f 001c 0039 001c 000f 001c 000f 001c 000f 001c 000f 001c 000f 001c 000f 001c 0039 001c 000f 001c 0039 001c 0039 001c 0039 001c 0039 001c 0039 001c 0599</ccf>
+    </code>
+    <code name="KEY_3" codeno="0x000000000000304F">
+      <decoding protocol="NEC" device="49" subdevice="-1" obc="6" hex0="159" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0022 0000 015c 00a4 001c 0039 001c 000f 001c 000f 001c 000f 001c 0039 001c 0039 001c 000f 001c 000f 001c 000f 001c 0039 001c 0039 001c 0039 001c 000f 001c 000f 001c 0039 001c 0039 001c 000f 001c 0039 001c 0039 001c 000f 001c 000f 001c 000f 001c 000f 001c 000f 001c 0039 001c 000f 001c 000f 001c 0039 001c 0039 001c 0039 001c 0039 001c 0039 001c 0599</ccf>
+    </code>
+    <code name="KEY_4" codeno="0x000000000000700F">
+      <decoding protocol="NEC" device="49" subdevice="-1" obc="7" hex0="31" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0022 0000 015c 00a4 001c 0039 001c 000f 001c 000f 001c 000f 001c 0039 001c 0039 001c 000f 001c 000f 001c 000f 001c 0039 001c 0039 001c 0039 001c 000f 001c 000f 001c 0039 001c 0039 001c 0039 001c 0039 001c 0039 001c 000f 001c 000f 001c 000f 001c 000f 001c 000f 001c 000f 001c 000f 001c 000f 001c 0039 001c 0039 001c 0039 001c 0039 001c 0039 001c 0599</ccf>
+    </code>
+    <code name="KEY_5" codeno="0x0000000000001867">
+      <decoding protocol="NEC" device="49" subdevice="-1" obc="12" hex0="207" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0022 0000 015c 00a4 001c 0039 001c 000f 001c 000f 001c 000f 001c 0039 001c 0039 001c 000f 001c 000f 001c 000f 001c 0039 001c 0039 001c 0039 001c 000f 001c 000f 001c 0039 001c 0039 001c 000f 001c 000f 001c 0039 001c 0039 001c 000f 001c 000f 001c 000f 001c 000f 001c 0039 001c 0039 001c 000f 001c 000f 001c 0039 001c 0039 001c 0039 001c 0039 001c 0599</ccf>
+    </code>
+    <code name="KEY_6" codeno="0x0000000000005827">
+      <decoding protocol="NEC" device="49" subdevice="-1" obc="13" hex0="79" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0022 0000 015c 00a4 001c 0039 001c 000f 001c 000f 001c 000f 001c 0039 001c 0039 001c 000f 001c 000f 001c 000f 001c 0039 001c 0039 001c 0039 001c 000f 001c 000f 001c 0039 001c 0039 001c 0039 001c 000f 001c 0039 001c 0039 001c 000f 001c 000f 001c 000f 001c 000f 001c 000f 001c 0039 001c 000f 001c 000f 001c 0039 001c 0039 001c 0039 001c 0039 001c 0599</ccf>
+    </code>
+    <code name="KEY_7" codeno="0x0000000000003847">
+      <decoding protocol="NEC" device="49" subdevice="-1" obc="14" hex0="143" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0022 0000 015c 00a4 001c 0039 001c 000f 001c 000f 001c 000f 001c 0039 001c 0039 001c 000f 001c 000f 001c 000f 001c 0039 001c 0039 001c 0039 001c 000f 001c 000f 001c 0039 001c 0039 001c 000f 001c 0039 001c 0039 001c 0039 001c 000f 001c 000f 001c 000f 001c 000f 001c 0039 001c 000f 001c 000f 001c 000f 001c 0039 001c 0039 001c 0039 001c 0039 001c 0599</ccf>
+    </code>
+    <code name="KEY_8" codeno="0x0000000000007807">
+      <decoding protocol="NEC" device="49" subdevice="-1" obc="15" hex0="15" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0022 0000 015c 00a4 001c 0039 001c 000f 001c 000f 001c 000f 001c 0039 001c 0039 001c 000f 001c 000f 001c 000f 001c 0039 001c 0039 001c 0039 001c 000f 001c 000f 001c 0039 001c 0039 001c 0039 001c 0039 001c 0039 001c 0039 001c 000f 001c 000f 001c 000f 001c 000f 001c 000f 001c 000f 001c 000f 001c 000f 001c 0039 001c 0039 001c 0039 001c 0039 001c 0599</ccf>
+    </code>
+    <code name="KEY_9" codeno="0x0000000000001C63">
+      <decoding protocol="NEC" device="49" subdevice="-1" obc="28" hex0="199" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0022 0000 015c 00a4 001c 0039 001c 000f 001c 000f 001c 000f 001c 0039 001c 0039 001c 000f 001c 000f 001c 000f 001c 0039 001c 0039 001c 0039 001c 000f 001c 000f 001c 0039 001c 0039 001c 000f 001c 000f 001c 0039 001c 0039 001c 0039 001c 000f 001c 000f 001c 000f 001c 0039 001c 0039 001c 000f 001c 000f 001c 000f 001c 0039 001c 0039 001c 0039 001c 0599</ccf>
+    </code>
+    <code name="KEY_0" codeno="0x0000000000005C23">
+      <decoding protocol="NEC" device="49" subdevice="-1" obc="29" hex0="71" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0022 0000 015c 00a4 001c 0039 001c 000f 001c 000f 001c 000f 001c 0039 001c 0039 001c 000f 001c 000f 001c 000f 001c 0039 001c 0039 001c 0039 001c 000f 001c 000f 001c 0039 001c 0039 001c 0039 001c 000f 001c 0039 001c 0039 001c 0039 001c 000f 001c 000f 001c 000f 001c 000f 001c 0039 001c 000f 001c 000f 001c 000f 001c 0039 001c 0039 001c 0039 001c 0599</ccf>
+    </code>
+    <code name="OPERATE" codeno="0x000000000000007F">
+      <decoding protocol="NEC" device="49" subdevice="-1" obc="0" hex0="255" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0022 0000 015c 00a4 001c 0039 001c 000f 001c 000f 001c 000f 001c 0039 001c 0039 001c 000f 001c 000f 001c 000f 001c 0039 001c 0039 001c 0039 001c 000f 001c 000f 001c 0039 001c 0039 001c 000f 001c 000f 001c 000f 001c 000f 001c 000f 001c 000f 001c 000f 001c 000f 001c 0039 001c 0039 001c 0039 001c 0039 001c 0039 001c 0039 001c 0039 001c 0039 001c 0599</ccf>
+    </code>
+    <code name="TV-AUX" codeno="0x0000000000003C43">
+      <decoding protocol="NEC" device="49" subdevice="-1" obc="30" hex0="135" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0022 0000 015c 00a4 001c 0039 001c 000f 001c 000f 001c 000f 001c 0039 001c 0039 001c 000f 001c 000f 001c 000f 001c 0039 001c 0039 001c 0039 001c 000f 001c 000f 001c 0039 001c 0039 001c 000f 001c 0039 001c 0039 001c 0039 001c 0039 001c 000f 001c 000f 001c 000f 001c 0039 001c 000f 001c 000f 001c 000f 001c 000f 001c 0039 001c 0039 001c 0039 001c 0599</ccf>
+    </code>
+    <code name="SET_TIMER" codeno="0x000000000000215E">
+      <decoding protocol="NEC" device="49" subdevice="-1" obc="66" hex0="189" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0022 0000 015c 00a4 001c 0039 001c 000f 001c 000f 001c 000f 001c 0039 001c 0039 001c 000f 001c 000f 001c 000f 001c 0039 001c 0039 001c 0039 001c 000f 001c 000f 001c 0039 001c 0039 001c 000f 001c 0039 001c 000f 001c 000f 001c 000f 001c 000f 001c 0039 001c 000f 001c 0039 001c 000f 001c 0039 001c 0039 001c 0039 001c 0039 001c 000f 001c 0039 001c 0599</ccf>
+    </code>
+    <code name="VPS" codeno="0x0000000000007906">
+      <decoding protocol="NEC" device="49" subdevice="-1" obc="79" hex0="13" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0022 0000 015c 00a4 001c 0039 001c 000f 001c 000f 001c 000f 001c 0039 001c 0039 001c 000f 001c 000f 001c 000f 001c 0039 001c 0039 001c 0039 001c 000f 001c 000f 001c 0039 001c 0039 001c 0039 001c 0039 001c 0039 001c 0039 001c 000f 001c 000f 001c 0039 001c 000f 001c 000f 001c 000f 001c 000f 001c 000f 001c 0039 001c 0039 001c 000f 001c 0039 001c 0599</ccf>
+    </code>
+    <code name="TV_3X3" codeno="0x0000000000001D62">
+      <decoding protocol="NEC" device="49" subdevice="-1" obc="92" hex0="197" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0022 0000 015c 00a4 001c 0039 001c 000f 001c 000f 001c 000f 001c 0039 001c 0039 001c 000f 001c 000f 001c 000f 001c 0039 001c 0039 001c 0039 001c 000f 001c 000f 001c 0039 001c 0039 001c 000f 001c 000f 001c 0039 001c 0039 001c 0039 001c 000f 001c 0039 001c 000f 001c 0039 001c 0039 001c 000f 001c 000f 001c 000f 001c 0039 001c 000f 001c 0039 001c 0599</ccf>
+    </code>
+    <code name="CH_DN" codeno="0x000000000000205F">
+      <decoding protocol="NEC" device="49" subdevice="-1" obc="2" hex0="191" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0022 0000 015c 00a4 001c 0039 001c 000f 001c 000f 001c 000f 001c 0039 001c 0039 001c 000f 001c 000f 001c 000f 001c 0039 001c 0039 001c 0039 001c 000f 001c 000f 001c 0039 001c 0039 001c 000f 001c 0039 001c 000f 001c 000f 001c 000f 001c 000f 001c 000f 001c 000f 001c 0039 001c 000f 001c 0039 001c 0039 001c 0039 001c 0039 001c 0039 001c 0039 001c 0599</ccf>
+    </code>
+    <code name="KEY_CHANNELUP" codeno="0x000000000000403F">
+      <decoding protocol="NEC" device="49" subdevice="-1" obc="1" hex0="127" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0022 0000 015c 00a4 001c 0039 001c 000f 001c 000f 001c 000f 001c 0039 001c 0039 001c 000f 001c 000f 001c 000f 001c 0039 001c 0039 001c 0039 001c 000f 001c 000f 001c 0039 001c 0039 001c 0039 001c 000f 001c 000f 001c 000f 001c 000f 001c 000f 001c 000f 001c 000f 001c 000f 001c 0039 001c 0039 001c 0039 001c 0039 001c 0039 001c 0039 001c 0039 001c 0599</ccf>
+    </code>
+    <code name="DELETE_INDEX" codeno="0x000000000000552A">
+      <decoding protocol="NEC" device="49" subdevice="-1" obc="85" hex0="85" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0022 0000 015c 00a4 001c 0039 001c 000f 001c 000f 001c 000f 001c 0039 001c 0039 001c 000f 001c 000f 001c 000f 001c 0039 001c 0039 001c 0039 001c 000f 001c 000f 001c 0039 001c 0039 001c 0039 001c 000f 001c 0039 001c 000f 001c 0039 001c 000f 001c 0039 001c 000f 001c 000f 001c 0039 001c 000f 001c 0039 001c 000f 001c 0039 001c 000f 001c 0039 001c 0599</ccf>
+    </code>
+    <code name="ADD_INDEX" codeno="0x000000000000156A">
+      <decoding protocol="NEC" device="49" subdevice="-1" obc="84" hex0="213" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0022 0000 015c 00a4 001c 0039 001c 000f 001c 000f 001c 000f 001c 0039 001c 0039 001c 000f 001c 000f 001c 000f 001c 0039 001c 0039 001c 0039 001c 000f 001c 000f 001c 0039 001c 0039 001c 000f 001c 000f 001c 0039 001c 000f 001c 0039 001c 000f 001c 0039 001c 000f 001c 0039 001c 0039 001c 000f 001c 0039 001c 000f 001c 0039 001c 000f 001c 0039 001c 0599</ccf>
+    </code>
+    <code name="SEARCH_INDEX" codeno="0x0000000000004C33">
+      <decoding protocol="NEC" device="49" subdevice="-1" obc="25" hex0="103" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0022 0000 015c 00a4 001c 0039 001c 000f 001c 000f 001c 000f 001c 0039 001c 0039 001c 000f 001c 000f 001c 000f 001c 0039 001c 0039 001c 0039 001c 000f 001c 000f 001c 0039 001c 0039 001c 0039 001c 000f 001c 000f 001c 0039 001c 0039 001c 000f 001c 000f 001c 000f 001c 000f 001c 0039 001c 0039 001c 000f 001c 000f 001c 0039 001c 0039 001c 0039 001c 0599</ccf>
+    </code>
+    <code name="TAPE_REMAINING" codeno="0x000000000000512E">
+      <decoding protocol="NEC" device="49" subdevice="-1" obc="69" hex0="93" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0022 0000 015c 00a4 001c 0039 001c 000f 001c 000f 001c 000f 001c 0039 001c 0039 001c 000f 001c 000f 001c 000f 001c 0039 001c 0039 001c 0039 001c 000f 001c 000f 001c 0039 001c 0039 001c 0039 001c 000f 001c 0039 001c 000f 001c 000f 001c 000f 001c 0039 001c 000f 001c 000f 001c 0039 001c 000f 001c 0039 001c 0039 001c 0039 001c 000f 001c 0039 001c 0599</ccf>
+    </code>
+    <code name="KEY_RECORD" codeno="0x000000000000542B">
+      <decoding protocol="NEC" device="49" subdevice="-1" obc="21" hex0="87" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0022 0000 015c 00a4 001c 0039 001c 000f 001c 000f 001c 000f 001c 0039 001c 0039 001c 000f 001c 000f 001c 000f 001c 0039 001c 0039 001c 0039 001c 000f 001c 000f 001c 0039 001c 0039 001c 0039 001c 000f 001c 0039 001c 000f 001c 0039 001c 000f 001c 000f 001c 000f 001c 000f 001c 0039 001c 000f 001c 0039 001c 000f 001c 0039 001c 0039 001c 0039 001c 0599</ccf>
+    </code>
+    <code name="COUNTER_RESET" codeno="0x000000000000116E">
+      <decoding protocol="NEC" device="49" subdevice="-1" obc="68" hex0="221" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0022 0000 015c 00a4 001c 0039 001c 000f 001c 000f 001c 000f 001c 0039 001c 0039 001c 000f 001c 000f 001c 000f 001c 0039 001c 0039 001c 0039 001c 000f 001c 000f 001c 0039 001c 0039 001c 000f 001c 000f 001c 0039 001c 000f 001c 000f 001c 000f 001c 0039 001c 000f 001c 0039 001c 0039 001c 000f 001c 0039 001c 0039 001c 0039 001c 000f 001c 0039 001c 0599</ccf>
+    </code>
+    <code name="MEM" codeno="0x0000000000007C03">
+      <decoding protocol="NEC" device="49" subdevice="-1" obc="31" hex0="7" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0022 0000 015c 00a4 001c 0039 001c 000f 001c 000f 001c 000f 001c 0039 001c 0039 001c 000f 001c 000f 001c 000f 001c 0039 001c 0039 001c 0039 001c 000f 001c 000f 001c 0039 001c 0039 001c 0039 001c 0039 001c 0039 001c 0039 001c 0039 001c 000f 001c 000f 001c 000f 001c 000f 001c 000f 001c 000f 001c 000f 001c 000f 001c 0039 001c 0039 001c 0039 001c 0599</ccf>
+    </code>
+    <code name="KEY_REWIND" codeno="0x000000000000344B">
+      <decoding protocol="NEC" device="49" subdevice="-1" obc="22" hex0="151" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0022 0000 015c 00a4 001c 0039 001c 000f 001c 000f 001c 000f 001c 0039 001c 0039 001c 000f 001c 000f 001c 000f 001c 0039 001c 0039 001c 0039 001c 000f 001c 000f 001c 0039 001c 0039 001c 000f 001c 0039 001c 0039 001c 000f 001c 0039 001c 000f 001c 000f 001c 000f 001c 0039 001c 000f 001c 000f 001c 0039 001c 000f 001c 0039 001c 0039 001c 0039 001c 0599</ccf>
+    </code>
+    <code name="KEY_STOP" codeno="0x000000000000047B">
+      <decoding protocol="NEC" device="49" subdevice="-1" obc="16" hex0="247" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0022 0000 015c 00a4 001c 0039 001c 000f 001c 000f 001c 000f 001c 0039 001c 0039 001c 000f 001c 000f 001c 000f 001c 0039 001c 0039 001c 0039 001c 000f 001c 000f 001c 0039 001c 0039 001c 000f 001c 000f 001c 000f 001c 000f 001c 0039 001c 000f 001c 000f 001c 000f 001c 0039 001c 0039 001c 0039 001c 0039 001c 000f 001c 0039 001c 0039 001c 0039 001c 0599</ccf>
+    </code>
+    <code name="KEY_PAUSE" codeno="0x000000000000443B">
+      <decoding protocol="NEC" device="49" subdevice="-1" obc="17" hex0="119" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0022 0000 015c 00a4 001c 0039 001c 000f 001c 000f 001c 000f 001c 0039 001c 0039 001c 000f 001c 000f 001c 000f 001c 0039 001c 0039 001c 0039 001c 000f 001c 000f 001c 0039 001c 0039 001c 0039 001c 000f 001c 000f 001c 000f 001c 0039 001c 000f 001c 000f 001c 000f 001c 000f 001c 0039 001c 0039 001c 0039 001c 000f 001c 0039 001c 0039 001c 0039 001c 0599</ccf>
+    </code>
+    <code name="STEP" codeno="0x000000000000740B">
+      <decoding protocol="NEC" device="49" subdevice="-1" obc="23" hex0="23" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0022 0000 015c 00a4 001c 0039 001c 000f 001c 000f 001c 000f 001c 0039 001c 0039 001c 000f 001c 000f 001c 000f 001c 0039 001c 0039 001c 0039 001c 000f 001c 000f 001c 0039 001c 0039 001c 0039 001c 0039 001c 0039 001c 000f 001c 0039 001c 000f 001c 000f 001c 000f 001c 000f 001c 000f 001c 000f 001c 0039 001c 000f 001c 0039 001c 0039 001c 0039 001c 0599</ccf>
+    </code>
+    <code name="KEY_PLAY" codeno="0x0000000000006817">
+      <decoding protocol="NEC" device="49" subdevice="-1" obc="11" hex0="47" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0022 0000 015c 00a4 001c 0039 001c 000f 001c 000f 001c 000f 001c 0039 001c 0039 001c 000f 001c 000f 001c 000f 001c 0039 001c 0039 001c 0039 001c 000f 001c 000f 001c 0039 001c 0039 001c 0039 001c 0039 001c 000f 001c 0039 001c 000f 001c 000f 001c 000f 001c 000f 001c 000f 001c 000f 001c 0039 001c 000f 001c 0039 001c 0039 001c 0039 001c 0039 001c 0599</ccf>
+    </code>
+    <code name="KEY_REWIND" codeno="0x000000000000245B">
+      <decoding protocol="NEC" device="49" subdevice="-1" obc="18" hex0="183" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0022 0000 015c 00a4 001c 0039 001c 000f 001c 000f 001c 000f 001c 0039 001c 0039 001c 000f 001c 000f 001c 000f 001c 0039 001c 0039 001c 0039 001c 000f 001c 000f 001c 0039 001c 0039 001c 000f 001c 0039 001c 000f 001c 000f 001c 0039 001c 000f 001c 000f 001c 000f 001c 0039 001c 000f 001c 0039 001c 0039 001c 000f 001c 0039 001c 0039 001c 0039 001c 0599</ccf>
+    </code>
+    <code name="KEY_PLAY" codeno="0x000000000000146B">
+      <decoding protocol="NEC" device="49" subdevice="-1" obc="20" hex0="215" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0022 0000 015c 00a4 001c 0039 001c 000f 001c 000f 001c 000f 001c 0039 001c 0039 001c 000f 001c 000f 001c 000f 001c 0039 001c 0039 001c 0039 001c 000f 001c 000f 001c 0039 001c 0039 001c 000f 001c 000f 001c 0039 001c 000f 001c 0039 001c 000f 001c 000f 001c 000f 001c 0039 001c 0039 001c 000f 001c 0039 001c 000f 001c 0039 001c 0039 001c 0039 001c 0599</ccf>
+    </code>
+    <code name="KEY_FASTFORWARD" codeno="0x000000000000641B">
+      <decoding protocol="NEC" device="49" subdevice="-1" obc="19" hex0="55" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0022 0000 015c 00a4 001c 0039 001c 000f 001c 000f 001c 000f 001c 0039 001c 0039 001c 000f 001c 000f 001c 000f 001c 0039 001c 0039 001c 0039 001c 000f 001c 000f 001c 0039 001c 0039 001c 0039 001c 0039 001c 000f 001c 000f 001c 0039 001c 000f 001c 000f 001c 000f 001c 000f 001c 000f 001c 0039 001c 0039 001c 000f 001c 0039 001c 0039 001c 0039 001c 0599</ccf>
+    </code>
+    <code name="PIP" codeno="0x000000000000453A">
+      <decoding protocol="NEC" device="49" subdevice="-1" obc="81" hex0="117" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0022 0000 015c 00a4 001c 0039 001c 000f 001c 000f 001c 000f 001c 0039 001c 0039 001c 000f 001c 000f 001c 000f 001c 0039 001c 0039 001c 0039 001c 000f 001c 000f 001c 0039 001c 0039 001c 0039 001c 000f 001c 000f 001c 000f 001c 0039 001c 000f 001c 0039 001c 000f 001c 000f 001c 0039 001c 0039 001c 0039 001c 000f 001c 0039 001c 000f 001c 0039 001c 0599</ccf>
+    </code>
+    <code name="KEY_KPMINUS" codeno="0x0000000000000976">
+      <decoding protocol="NEC" device="49" subdevice="-1" obc="72" hex0="237" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0022 0000 015c 00a4 001c 0039 001c 000f 001c 000f 001c 000f 001c 0039 001c 0039 001c 000f 001c 000f 001c 000f 001c 0039 001c 0039 001c 0039 001c 000f 001c 000f 001c 0039 001c 0039 001c 000f 001c 000f 001c 000f 001c 0039 001c 000f 001c 000f 001c 0039 001c 000f 001c 0039 001c 0039 001c 0039 001c 000f 001c 0039 001c 0039 001c 000f 001c 0039 001c 0599</ccf>
+    </code>
+    <code name="KEY_KPPLUS" codeno="0x000000000000710E">
+      <decoding protocol="NEC" device="49" subdevice="-1" obc="71" hex0="29" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0022 0000 015c 00a4 001c 0039 001c 000f 001c 000f 001c 000f 001c 0039 001c 0039 001c 000f 001c 000f 001c 000f 001c 0039 001c 0039 001c 0039 001c 000f 001c 000f 001c 0039 001c 0039 001c 0039 001c 0039 001c 0039 001c 000f 001c 000f 001c 000f 001c 0039 001c 000f 001c 000f 001c 000f 001c 000f 001c 0039 001c 0039 001c 0039 001c 000f 001c 0039 001c 0599</ccf>
+    </code>
+    <code name="KEY_SLOW" codeno="0x0000000000002C53">
+      <decoding protocol="NEC" device="49" subdevice="-1" obc="26" hex0="167" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0022 0000 015c 00a4 001c 0039 001c 000f 001c 000f 001c 000f 001c 0039 001c 0039 001c 000f 001c 000f 001c 000f 001c 0039 001c 0039 001c 0039 001c 000f 001c 000f 001c 0039 001c 0039 001c 000f 001c 0039 001c 000f 001c 0039 001c 0039 001c 000f 001c 000f 001c 000f 001c 0039 001c 000f 001c 0039 001c 000f 001c 000f 001c 0039 001c 0039 001c 0039 001c 0599</ccf>
+    </code>
+    <code name="KEY_ZOOM" codeno="0x0000000000000D72">
+      <decoding protocol="NEC" device="49" subdevice="-1" obc="88" hex0="229" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0022 0000 015c 00a4 001c 0039 001c 000f 001c 000f 001c 000f 001c 0039 001c 0039 001c 000f 001c 000f 001c 000f 001c 0039 001c 0039 001c 0039 001c 000f 001c 000f 001c 0039 001c 0039 001c 000f 001c 000f 001c 000f 001c 0039 001c 0039 001c 000f 001c 0039 001c 000f 001c 0039 001c 0039 001c 0039 001c 000f 001c 000f 001c 0039 001c 000f 001c 0039 001c 0599</ccf>
+    </code>
+    <code name="KEY_3" codeno="0x000000000000750A">
+      <decoding protocol="NEC" device="49" subdevice="-1" obc="87" hex0="21" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0022 0000 015c 00a4 001c 0039 001c 000f 001c 000f 001c 000f 001c 0039 001c 0039 001c 000f 001c 000f 001c 000f 001c 0039 001c 0039 001c 0039 001c 000f 001c 000f 001c 0039 001c 0039 001c 0039 001c 0039 001c 0039 001c 000f 001c 0039 001c 000f 001c 0039 001c 000f 001c 000f 001c 000f 001c 000f 001c 0039 001c 000f 001c 0039 001c 000f 001c 0039 001c 0599</ccf>
+    </code>
+    <code name="M1" codeno="0x000000000000651A">
+      <decoding protocol="NEC" device="49" subdevice="-1" obc="83" hex0="53" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0022 0000 015c 00a4 001c 0039 001c 000f 001c 000f 001c 000f 001c 0039 001c 0039 001c 000f 001c 000f 001c 000f 001c 0039 001c 0039 001c 0039 001c 000f 001c 000f 001c 0039 001c 0039 001c 0039 001c 0039 001c 000f 001c 000f 001c 0039 001c 000f 001c 0039 001c 000f 001c 000f 001c 000f 001c 0039 001c 0039 001c 000f 001c 0039 001c 000f 001c 0039 001c 0599</ccf>
+    </code>
+    <code name="ART" codeno="0x0000000000004D32">
+      <decoding protocol="NEC" device="49" subdevice="-1" obc="89" hex0="101" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0022 0000 015c 00a4 001c 0039 001c 000f 001c 000f 001c 000f 001c 0039 001c 0039 001c 000f 001c 000f 001c 000f 001c 0039 001c 0039 001c 0039 001c 000f 001c 000f 001c 0039 001c 0039 001c 0039 001c 000f 001c 000f 001c 0039 001c 0039 001c 000f 001c 0039 001c 000f 001c 000f 001c 0039 001c 0039 001c 000f 001c 000f 001c 0039 001c 000f 001c 0039 001c 0599</ccf>
+    </code>
+  </remote>
+</lircremotes>

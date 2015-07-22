@@ -1,0 +1,109 @@
+<lircremotes creation-date="Wed Jul 22 23:04:16 2015" creator="" lircversion="0.8.6" lirc2xml_version="0.1.2" configfile="remotes/denon/RC-220.lircd.conf" decodeir_version="2.40">
+  <remote name="RC-220">
+    <lircdata type="SPACE_ENC" bits="5" flags="16400" eps="30" aeps="100" pthree="0" sthree="0" ptwo="0" stwo="0" pone="354" sone="1753" pzero="354" szero="691" plead="0" ptrail="354" pfoot="0" sfoot="0" prepeat="0" srepeat="0" pre_data_bits="5" pre_data="2" post_data_bits="5" post_data="8" pre_p="0" pre_s="0" post_p="0" post_s="0" gap="67101" gap2="0" repeat_gap="0" toggle_bit="0" toggle_bit_mask="0" min_repeat="1" min_code_repeat="0" freq="38000" duty_cycle="0" toggle_mask="0" rc6_mask="0" baud="0" bits_in_byte="0" parity="0" stop_bits="0" ignore_mask="0"/>
+    <code name="KEY_OPEN" codeno="0x0000000000000001">
+      <decoding protocol="Denon{1}" device="8" subdevice="-1" obc="80" hex0="10" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 000d 001a 000d 001a 000d 001a 000d 0043 000d 001a 000d 001a 000d 001a 000d 001a 000d 001a 000d 0043 000d 001a 000d 0043 000d 001a 000d 001a 000d 001a 000d 071c</ccf>
+    </code>
+    <code name="program" codeno="0x0000000000000016">
+      <decoding protocol="Denon{1}" device="8" subdevice="-1" obc="77" hex0="178" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 000d 001a 000d 001a 000d 001a 000d 0043 000d 001a 000d 0043 000d 001a 000d 0043 000d 0043 000d 001a 000d 001a 000d 0043 000d 001a 000d 001a 000d 001a 000d 06cb</ccf>
+    </code>
+    <code name="direct" codeno="0x000000000000001D">
+      <decoding protocol="Denon{1}" device="8" subdevice="-1" obc="87" hex0="234" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 000d 001a 000d 001a 000d 001a 000d 0043 000d 001a 000d 0043 000d 0043 000d 0043 000d 001a 000d 0043 000d 001a 000d 0043 000d 001a 000d 001a 000d 001a 000d 06a3</ccf>
+    </code>
+    <code name="KEY_1" codeno="0x0000000000000008">
+      <decoding protocol="Denon{1}" device="8" subdevice="-1" obc="66" hex0="66" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 000d 001a 000d 001a 000d 001a 000d 0043 000d 001a 000d 001a 000d 0043 000d 001a 000d 001a 000d 001a 000d 001a 000d 0043 000d 001a 000d 001a 000d 001a 000d 071c</ccf>
+    </code>
+    <code name="KEY_2" codeno="0x0000000000000018">
+      <decoding protocol="Denon{1}" device="8" subdevice="-1" obc="67" hex0="194" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 000d 001a 000d 001a 000d 001a 000d 0043 000d 001a 000d 0043 000d 0043 000d 001a 000d 001a 000d 001a 000d 001a 000d 0043 000d 001a 000d 001a 000d 001a 000d 06f3</ccf>
+    </code>
+    <code name="KEY_3" codeno="0x0000000000000004">
+      <decoding protocol="Denon{1}" device="8" subdevice="-1" obc="68" hex0="34" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 000d 001a 000d 001a 000d 001a 000d 0043 000d 001a 000d 001a 000d 001a 000d 0043 000d 001a 000d 001a 000d 001a 000d 0043 000d 001a 000d 001a 000d 001a 000d 071c</ccf>
+    </code>
+    <code name="KEY_4" codeno="0x0000000000000014">
+      <decoding protocol="Denon{1}" device="8" subdevice="-1" obc="69" hex0="162" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 000d 001a 000d 001a 000d 001a 000d 0043 000d 001a 000d 0043 000d 001a 000d 0043 000d 001a 000d 001a 000d 001a 000d 0043 000d 001a 000d 001a 000d 001a 000d 06f3</ccf>
+    </code>
+    <code name="KEY_5" codeno="0x000000000000000C">
+      <decoding protocol="Denon{1}" device="8" subdevice="-1" obc="70" hex0="98" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 000d 001a 000d 001a 000d 001a 000d 0043 000d 001a 000d 001a 000d 0043 000d 0043 000d 001a 000d 001a 000d 001a 000d 0043 000d 001a 000d 001a 000d 001a 000d 06f3</ccf>
+    </code>
+    <code name="KEY_6" codeno="0x000000000000001C">
+      <decoding protocol="Denon{1}" device="8" subdevice="-1" obc="71" hex0="226" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 000d 001a 000d 001a 000d 001a 000d 0043 000d 001a 000d 0043 000d 0043 000d 0043 000d 001a 000d 001a 000d 001a 000d 0043 000d 001a 000d 001a 000d 001a 000d 06cb</ccf>
+    </code>
+    <code name="KEY_7" codeno="0x0000000000000002">
+      <decoding protocol="Denon{1}" device="8" subdevice="-1" obc="72" hex0="18" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 000d 001a 000d 001a 000d 001a 000d 0043 000d 001a 000d 001a 000d 001a 000d 001a 000d 0043 000d 001a 000d 001a 000d 0043 000d 001a 000d 001a 000d 001a 000d 071c</ccf>
+    </code>
+    <code name="KEY_8" codeno="0x0000000000000012">
+      <decoding protocol="Denon{1}" device="8" subdevice="-1" obc="73" hex0="146" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 000d 001a 000d 001a 000d 001a 000d 0043 000d 001a 000d 0043 000d 001a 000d 001a 000d 0043 000d 001a 000d 001a 000d 0043 000d 001a 000d 001a 000d 001a 000d 06f3</ccf>
+    </code>
+    <code name="KEY_9" codeno="0x000000000000000A">
+      <decoding protocol="Denon{1}" device="8" subdevice="-1" obc="74" hex0="82" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 000d 001a 000d 001a 000d 001a 000d 0043 000d 001a 000d 001a 000d 0043 000d 001a 000d 0043 000d 001a 000d 001a 000d 0043 000d 001a 000d 001a 000d 001a 000d 06f3</ccf>
+    </code>
+    <code name="KEY_0" codeno="0x000000000000001A">
+      <decoding protocol="Denon{1}" device="8" subdevice="-1" obc="75" hex0="210" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 000d 001a 000d 001a 000d 001a 000d 0043 000d 001a 000d 0043 000d 0043 000d 001a 000d 0043 000d 001a 000d 001a 000d 0043 000d 001a 000d 001a 000d 001a 000d 06cb</ccf>
+    </code>
+    <code name="KEY_10CHANNELSUP" codeno="0x0000000000000006">
+      <decoding protocol="Denon{1}" device="8" subdevice="-1" obc="76" hex0="50" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 000d 001a 000d 001a 000d 001a 000d 0043 000d 001a 000d 001a 000d 001a 000d 0043 000d 0043 000d 001a 000d 001a 000d 0043 000d 001a 000d 001a 000d 001a 000d 06f3</ccf>
+    </code>
+    <code name="call" codeno="0x0000000000000009">
+      <decoding protocol="Denon{1}" device="8" subdevice="-1" obc="82" hex0="74" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 000d 001a 000d 001a 000d 001a 000d 0043 000d 001a 000d 001a 000d 0043 000d 001a 000d 001a 000d 0043 000d 001a 000d 0043 000d 001a 000d 001a 000d 001a 000d 06f3</ccf>
+    </code>
+    <code name="KEY_PLAY" codeno="0x0000000000000007">
+      <decoding protocol="Denon{1}" device="8" subdevice="-1" obc="92" hex0="58" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 000d 001a 000d 001a 000d 001a 000d 0043 000d 001a 000d 001a 000d 001a 000d 0043 000d 0043 000d 0043 000d 001a 000d 0043 000d 001a 000d 001a 000d 001a 000d 06cb</ccf>
+    </code>
+    <code name="KEY_PAUSE" codeno="0x0000000000000017">
+      <decoding protocol="Denon{1}" device="8" subdevice="-1" obc="93" hex0="186" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 000d 001a 000d 001a 000d 001a 000d 0043 000d 001a 000d 0043 000d 001a 000d 0043 000d 0043 000d 0043 000d 001a 000d 0043 000d 001a 000d 001a 000d 001a 000d 06a3</ccf>
+    </code>
+    <code name="KEY_STOP" codeno="0x000000000000000F">
+      <decoding protocol="Denon{1}" device="8" subdevice="-1" obc="94" hex0="122" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 000d 001a 000d 001a 000d 001a 000d 0043 000d 001a 000d 001a 000d 0043 000d 0043 000d 0043 000d 0043 000d 001a 000d 0043 000d 001a 000d 001a 000d 001a 000d 06a3</ccf>
+    </code>
+    <code name="KEY_VOLUMEUP" codeno="0x000000000000000E">
+      <decoding protocol="Denon{1}" device="8" subdevice="-1" obc="78" hex0="114" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 000d 001a 000d 001a 000d 001a 000d 0043 000d 001a 000d 001a 000d 0043 000d 0043 000d 0043 000d 001a 000d 001a 000d 0043 000d 001a 000d 001a 000d 001a 000d 06cb</ccf>
+    </code>
+    <code name="KEY_VOLUMEDOWN" codeno="0x000000000000001E">
+      <decoding protocol="Denon{1}" device="8" subdevice="-1" obc="79" hex0="242" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 000d 001a 000d 001a 000d 001a 000d 0043 000d 001a 000d 0043 000d 0043 000d 0043 000d 0043 000d 001a 000d 001a 000d 0043 000d 001a 000d 001a 000d 001a 000d 06a3</ccf>
+    </code>
+    <code name="KEY_NEXT" codeno="0x0000000000000003">
+      <decoding protocol="Denon{1}" device="8" subdevice="-1" obc="88" hex0="26" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 000d 001a 000d 001a 000d 001a 000d 0043 000d 001a 000d 001a 000d 001a 000d 001a 000d 0043 000d 0043 000d 001a 000d 0043 000d 001a 000d 001a 000d 001a 000d 06f3</ccf>
+    </code>
+    <code name="KEY_PREVIOUS" codeno="0x0000000000000013">
+      <decoding protocol="Denon{1}" device="8" subdevice="-1" obc="89" hex0="154" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 000d 001a 000d 001a 000d 001a 000d 0043 000d 001a 000d 0043 000d 001a 000d 001a 000d 0043 000d 0043 000d 001a 000d 0043 000d 001a 000d 001a 000d 001a 000d 06cb</ccf>
+    </code>
+    <code name="rep_all" codeno="0x0000000000000005">
+      <decoding protocol="Denon{1}" device="8" subdevice="-1" obc="84" hex0="42" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 000d 001a 000d 001a 000d 001a 000d 0043 000d 001a 000d 001a 000d 001a 000d 0043 000d 001a 000d 0043 000d 001a 000d 0043 000d 001a 000d 001a 000d 001a 000d 06f3</ccf>
+    </code>
+    <code name="rep_a-b" codeno="0x0000000000000015">
+      <decoding protocol="Denon{1}" device="8" subdevice="-1" obc="85" hex0="170" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 000d 001a 000d 001a 000d 001a 000d 0043 000d 001a 000d 0043 000d 001a 000d 0043 000d 001a 000d 0043 000d 001a 000d 0043 000d 001a 000d 001a 000d 001a 000d 06cb</ccf>
+    </code>
+    <code name="KEY_FORWARD" codeno="0x000000000000000B">
+      <decoding protocol="Denon{1}" device="8" subdevice="-1" obc="90" hex0="90" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 000d 001a 000d 001a 000d 001a 000d 0043 000d 001a 000d 001a 000d 0043 000d 001a 000d 0043 000d 0043 000d 001a 000d 0043 000d 001a 000d 001a 000d 001a 000d 06cb</ccf>
+    </code>
+    <code name="bwd" codeno="0x000000000000001B">
+      <decoding protocol="Denon{1}" device="8" subdevice="-1" obc="91" hex0="218" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 000d 001a 000d 001a 000d 001a 000d 0043 000d 001a 000d 0043 000d 0043 000d 001a 000d 0043 000d 0043 000d 001a 000d 0043 000d 001a 000d 001a 000d 001a 000d 06a3</ccf>
+    </code>
+  </remote>
+</lircremotes>

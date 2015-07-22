@@ -1,0 +1,129 @@
+<lircremotes creation-date="Wed Jul 22 23:04:05 2015" creator="" lircversion="0.8.6" lirc2xml_version="0.1.2" configfile="remotes/philips/RC5300.lircd.conf" decodeir_version="2.40">
+  <remote name="Philips_5300">
+    <lircdata type="RC5" bits="6" flags="16386" eps="30" aeps="100" pthree="0" sthree="0" ptwo="0" stwo="0" pone="948" sone="829" pzero="948" szero="829" plead="991" ptrail="0" pfoot="0" sfoot="0" prepeat="0" srepeat="0" pre_data_bits="7" pre_data="64" post_data_bits="0" post_data="0" pre_p="0" pre_s="0" post_p="0" post_s="0" gap="113795" gap2="0" repeat_gap="0" toggle_bit="0" toggle_bit_mask="2048" min_repeat="0" min_code_repeat="0" freq="38000" duty_cycle="0" toggle_mask="0" rc6_mask="0" baud="0" bits_in_byte="0" parity="0" stop_bits="0" ignore_mask="0"/>
+    <code name="KEY_1" codeno="0x0000000000000001">
+      <decoding protocol="RC5" device="0" subdevice="-1" obc="1" hex0="248" hex1="249" hex2="250" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 000d 0000 0026 0020 0048 0020 0024 0020 0024 0020 0024 0020 0024 0020 0024 0020 0024 0020 0024 0020 0024 0020 0024 0020 0024 003f 0024 0d51</ccf>
+    </code>
+    <code name="KEY_2" codeno="0x0000000000000002">
+      <decoding protocol="RC5" device="0" subdevice="-1" obc="2" hex0="244" hex1="245" hex2="246" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 000c 0000 0026 0020 0048 0020 0024 0020 0024 0020 0024 0020 0024 0020 0024 0020 0024 0020 0024 0020 0024 0020 0024 003f 0048 0d70</ccf>
+    </code>
+    <code name="KEY_3" codeno="0x0000000000000003">
+      <decoding protocol="RC5" device="0" subdevice="-1" obc="3" hex0="240" hex1="241" hex2="242" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 000d 0000 0026 0020 0048 0020 0024 0020 0024 0020 0024 0020 0024 0020 0024 0020 0024 0020 0024 0020 0024 0020 0024 003f 0024 0020 0024 0d51</ccf>
+    </code>
+    <code name="KEY_4" codeno="0x0000000000000004">
+      <decoding protocol="RC5" device="0" subdevice="-1" obc="4" hex0="236" hex1="237" hex2="238" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 000c 0000 0026 0020 0048 0020 0024 0020 0024 0020 0024 0020 0024 0020 0024 0020 0024 0020 0024 0020 0024 003f 0048 0020 0024 0d70</ccf>
+    </code>
+    <code name="KEY_5" codeno="0x0000000000000005">
+      <decoding protocol="RC5" device="0" subdevice="-1" obc="5" hex0="232" hex1="233" hex2="234" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 000c 0000 0026 0020 0048 0020 0024 0020 0024 0020 0024 0020 0024 0020 0024 0020 0024 0020 0024 0020 0024 003f 0048 003f 0024 0d51</ccf>
+    </code>
+    <code name="KEY_6" codeno="0x0000000000000006">
+      <decoding protocol="RC5" device="0" subdevice="-1" obc="6" hex0="228" hex1="229" hex2="230" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 000c 0000 0026 0020 0048 0020 0024 0020 0024 0020 0024 0020 0024 0020 0024 0020 0024 0020 0024 0020 0024 003f 0024 0020 0048 0d70</ccf>
+    </code>
+    <code name="KEY_7" codeno="0x0000000000000007">
+      <decoding protocol="RC5" device="0" subdevice="-1" obc="7" hex0="224" hex1="225" hex2="226" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 000d 0000 0026 0020 0048 0020 0024 0020 0024 0020 0024 0020 0024 0020 0024 0020 0024 0020 0024 0020 0024 003f 0024 0020 0024 0020 0024 0d51</ccf>
+    </code>
+    <code name="KEY_8" codeno="0x0000000000000008">
+      <decoding protocol="RC5" device="0" subdevice="-1" obc="8" hex0="220" hex1="221" hex2="222" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 000c 0000 0026 0020 0048 0020 0024 0020 0024 0020 0024 0020 0024 0020 0024 0020 0024 0020 0024 003f 0048 0020 0024 0020 0024 0d70</ccf>
+    </code>
+    <code name="KEY_9" codeno="0x0000000000000009">
+      <decoding protocol="RC5" device="0" subdevice="-1" obc="9" hex0="216" hex1="217" hex2="218" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 000c 0000 0026 0020 0048 0020 0024 0020 0024 0020 0024 0020 0024 0020 0024 0020 0024 0020 0024 003f 0048 0020 0024 003f 0024 0d51</ccf>
+    </code>
+    <code name="KEY_0" codeno="0x0000000000000000">
+      <decoding protocol="RC5" device="0" subdevice="-1" obc="0" hex0="252" hex1="253" hex2="254" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 000d 0000 0026 0020 0048 0020 0024 0020 0024 0020 0024 0020 0024 0020 0024 0020 0024 0020 0024 0020 0024 0020 0024 0020 0024 0020 0024 0d70</ccf>
+    </code>
+    <code name="KEY_1-" codeno="0x000000000000000A">
+      <decoding protocol="RC5" device="0" subdevice="-1" obc="10" hex0="212" hex1="213" hex2="214" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 000b 0000 0026 0020 0048 0020 0024 0020 0024 0020 0024 0020 0024 0020 0024 0020 0024 0020 0024 003f 0048 003f 0048 0d70</ccf>
+    </code>
+    <code name="KEY_VOLUMEDOWN" codeno="0x0000000000000011">
+      <decoding protocol="RC5" device="0" subdevice="-1" obc="17" hex0="184" hex1="185" hex2="186" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 000c 0000 0026 0020 0048 0020 0024 0020 0024 0020 0024 0020 0024 0020 0024 0020 0024 003f 0048 0020 0024 0020 0024 003f 0024 0d51</ccf>
+    </code>
+    <code name="KEY_VOLUMEUP" codeno="0x0000000000000010">
+      <decoding protocol="RC5" device="0" subdevice="-1" obc="16" hex0="188" hex1="189" hex2="190" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 000c 0000 0026 0020 0048 0020 0024 0020 0024 0020 0024 0020 0024 0020 0024 0020 0024 003f 0048 0020 0024 0020 0024 0020 0024 0d70</ccf>
+    </code>
+    <code name="KEY_MUTE" codeno="0x000000000000000D">
+      <decoding protocol="RC5" device="0" subdevice="-1" obc="13" hex0="200" hex1="201" hex2="202" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 000c 0000 0026 0020 0048 0020 0024 0020 0024 0020 0024 0020 0024 0020 0024 0020 0024 0020 0024 003f 0024 0020 0048 003f 0024 0d51</ccf>
+    </code>
+    <code name="KEY_POWER" codeno="0x000000000000000C">
+      <decoding protocol="RC5" device="0" subdevice="-1" obc="12" hex0="204" hex1="205" hex2="206" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 000c 0000 0026 0020 0048 0020 0024 0020 0024 0020 0024 0020 0024 0020 0024 0020 0024 0020 0024 003f 0024 0020 0048 0020 0024 0d70</ccf>
+    </code>
+    <code name="KEY_GREEN" codeno="0x000000000000000E">
+      <decoding protocol="RC5" device="0" subdevice="-1" obc="14" hex0="196" hex1="197" hex2="198" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 000c 0000 0026 0020 0048 0020 0024 0020 0024 0020 0024 0020 0024 0020 0024 0020 0024 0020 0024 003f 0024 0020 0024 0020 0048 0d70</ccf>
+    </code>
+    <code name="Contrast_down" codeno="0x0000000000000015">
+      <decoding protocol="RC5" device="0" subdevice="-1" obc="21" hex0="168" hex1="169" hex2="170" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 000b 0000 0026 0020 0048 0020 0024 0020 0024 0020 0024 0020 0024 0020 0024 0020 0024 003f 0048 003f 0048 003f 0024 0d51</ccf>
+    </code>
+    <code name="Contrast_up" codeno="0x0000000000000014">
+      <decoding protocol="RC5" device="0" subdevice="-1" obc="20" hex0="172" hex1="173" hex2="174" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 000b 0000 0026 0020 0048 0020 0024 0020 0024 0020 0024 0020 0024 0020 0024 0020 0024 003f 0048 003f 0048 0020 0024 0d70</ccf>
+    </code>
+    <code name="Brightness_down" codeno="0x0000000000000013">
+      <decoding protocol="RC5" device="0" subdevice="-1" obc="19" hex0="176" hex1="177" hex2="178" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 000c 0000 0026 0020 0048 0020 0024 0020 0024 0020 0024 0020 0024 0020 0024 0020 0024 003f 0048 0020 0024 003f 0024 0020 0024 0d51</ccf>
+    </code>
+    <code name="Brightness_up" codeno="0x0000000000000012">
+      <decoding protocol="RC5" device="0" subdevice="-1" obc="18" hex0="180" hex1="181" hex2="182" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 000b 0000 0026 0020 0048 0020 0024 0020 0024 0020 0024 0020 0024 0020 0024 0020 0024 003f 0048 0020 0024 003f 0048 0d70</ccf>
+    </code>
+    <code name="Search_programm" codeno="0x000000000000001E">
+      <decoding protocol="RC5" device="0" subdevice="-1" obc="30" hex0="132" hex1="133" hex2="134" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 000c 0000 0026 0020 0048 0020 0024 0020 0024 0020 0024 0020 0024 0020 0024 0020 0024 003f 0024 0020 0024 0020 0024 0020 0048 0d70</ccf>
+    </code>
+    <code name="Skip_back" codeno="0x000000000000002C">
+      <decoding protocol="RC5" device="0" subdevice="-1" obc="44" hex0="76" hex1="77" hex2="78" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 000b 0000 0026 0020 0048 0020 0024 0020 0024 0020 0024 0020 0024 0020 0024 003f 0048 003f 0024 0020 0048 0020 0024 0d70</ccf>
+    </code>
+    <code name="Skip_forw" codeno="0x000000000000002E">
+      <decoding protocol="RC5" device="0" subdevice="-1" obc="46" hex0="68" hex1="69" hex2="70" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 000b 0000 0026 0020 0048 0020 0024 0020 0024 0020 0024 0020 0024 0020 0024 003f 0048 003f 0024 0020 0024 0020 0048 0d70</ccf>
+    </code>
+    <code name="KEY_STOP" codeno="0x0000000000000029">
+      <decoding protocol="RC5" device="0" subdevice="-1" obc="41" hex0="88" hex1="89" hex2="90" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 000b 0000 0026 0020 0048 0020 0024 0020 0024 0020 0024 0020 0024 0020 0024 003f 0048 003f 0048 0020 0024 003f 0024 0d51</ccf>
+    </code>
+    <code name="KEY_ENTER" codeno="0x000000000000002A">
+      <decoding protocol="RC5" device="0" subdevice="-1" obc="42" hex0="84" hex1="85" hex2="86" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 000a 0000 0026 0020 0048 0020 0024 0020 0024 0020 0024 0020 0024 0020 0024 003f 0048 003f 0048 003f 0048 0d70</ccf>
+    </code>
+    <code name="KEY_RECORD" codeno="0x0000000000000037">
+      <decoding protocol="RC5" device="0" subdevice="-1" obc="55" hex0="32" hex1="33" hex2="34" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 000c 0000 0026 0020 0048 0020 0024 0020 0024 0020 0024 0020 0024 0020 0024 003f 0024 0020 0048 003f 0024 0020 0024 0020 0024 0d51</ccf>
+    </code>
+    <code name="KEY_BACK" codeno="0x000000000000002F">
+      <decoding protocol="RC5" device="0" subdevice="-1" obc="47" hex0="64" hex1="65" hex2="66" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 000c 0000 0026 0020 0048 0020 0024 0020 0024 0020 0024 0020 0024 0020 0024 003f 0048 003f 0024 0020 0024 0020 0024 0020 0024 0d51</ccf>
+    </code>
+    <code name="KEY_PAUSE" codeno="0x0000000000000036">
+      <decoding protocol="RC5" device="0" subdevice="-1" obc="54" hex0="36" hex1="37" hex2="38" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 000b 0000 0026 0020 0048 0020 0024 0020 0024 0020 0024 0020 0024 0020 0024 003f 0024 0020 0048 003f 0024 0020 0048 0d70</ccf>
+    </code>
+    <code name="KEY_PLAY" codeno="0x0000000000000028">
+      <decoding protocol="RC5" device="0" subdevice="-1" obc="40" hex0="92" hex1="93" hex2="94" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 000b 0000 0026 0020 0048 0020 0024 0020 0024 0020 0024 0020 0024 0020 0024 003f 0048 003f 0048 0020 0024 0020 0024 0d70</ccf>
+    </code>
+    <code name="Forw" codeno="0x0000000000000035">
+      <decoding protocol="RC5" device="0" subdevice="-1" obc="53" hex0="40" hex1="41" hex2="42" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 000b 0000 0026 0020 0048 0020 0024 0020 0024 0020 0024 0020 0024 0020 0024 003f 0024 0020 0048 003f 0048 003f 0024 0d51</ccf>
+    </code>
+    <code name="KEY_CLEAR" codeno="0x0000000000000033">
+      <decoding protocol="RC5" device="0" subdevice="-1" obc="51" hex0="48" hex1="49" hex2="50" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 000c 0000 0026 0020 0048 0020 0024 0020 0024 0020 0024 0020 0024 0020 0024 003f 0024 0020 0048 0020 0024 003f 0024 0020 0024 0d51</ccf>
+    </code>
+  </remote>
+</lircremotes>

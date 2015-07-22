@@ -1,0 +1,121 @@
+<lircremotes creation-date="Wed Jul 22 23:04:12 2015" creator="" lircversion="0.8.6" lirc2xml_version="0.1.2" configfile="remotes/jvc/JVC_4700.lircd.conf" decodeir_version="2.40">
+  <remote name="JVC_4700">
+    <lircdata type="SPACE_ENC" bits="16" flags="4112" eps="30" aeps="100" pthree="0" sthree="0" ptwo="0" stwo="0" pone="324" sone="2800" pzero="324" szero="1700" plead="0" ptrail="324" pfoot="0" sfoot="0" prepeat="0" srepeat="0" pre_data_bits="0" pre_data="0" post_data_bits="0" post_data="0" pre_p="0" pre_s="0" post_p="0" post_s="0" gap="6000" gap2="0" repeat_gap="0" toggle_bit="0" toggle_bit_mask="0" min_repeat="1" min_code_repeat="0" freq="38000" duty_cycle="0" toggle_mask="0" rc6_mask="0" baud="0" bits_in_byte="0" parity="0" stop_bits="0" ignore_mask="0"/>
+    <code name="tv/video" codeno="0x000000000000A3FF">
+      <decoding protocol="Dish_Network" device="0" subdevice="0" obc="23" hex0="92" hex1="-1" hex2="-1" hex3="-1" misc="+ 1 copy" error=""/>
+      <ccf>0000 006d 0023 0000 000d 00e4 000c 006a 000c 0041 000c 006a 000c 0041 000c 0041 000c 0041 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 00e4 000c 006a 000c 0041 000c 006a 000c 0041 000c 0041 000c 0041 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 00e4</ccf>
+    </code>
+    <code name="KEY_POWER" codeno="0x000000000000F7FF">
+      <decoding protocol="Dish_Network" device="0" subdevice="0" obc="2" hex0="8" hex1="-1" hex2="-1" hex3="-1" misc="+ 1 copy" error=""/>
+      <ccf>0000 006d 0023 0000 000d 00e4 000c 006a 000c 006a 000c 006a 000c 006a 000c 0041 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 00e4 000c 006a 000c 006a 000c 006a 000c 006a 000c 0041 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 00e4</ccf>
+    </code>
+    <code name="KEY_MENU" codeno="0x000000000000D3FF">
+      <decoding protocol="Dish_Network" device="0" subdevice="0" obc="11" hex0="44" hex1="-1" hex2="-1" hex3="-1" misc="+ 1 copy" error=""/>
+      <ccf>0000 006d 0023 0000 000d 00e4 000c 006a 000c 006a 000c 0041 000c 006a 000c 0041 000c 0041 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 00e4 000c 006a 000c 006a 000c 0041 000c 006a 000c 0041 000c 0041 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 00e4</ccf>
+    </code>
+    <code name="KEY_PAGEUP" codeno="0x000000000000C3EF">
+      <decoding protocol="Dish_Network" device="1" subdevice="0" obc="15" hex0="60" hex1="-1" hex2="-1" hex3="-1" misc="+ 1 copy" error=""/>
+      <ccf>0000 006d 0023 0000 000d 00e4 000c 006a 000c 006a 000c 0041 000c 0041 000c 0041 000c 0041 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 0041 000c 006a 000c 006a 000c 006a 000c 006a 000c 00e4 000c 006a 000c 006a 000c 0041 000c 0041 000c 0041 000c 0041 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 0041 000c 006a 000c 006a 000c 006a 000c 006a 000c 00e4</ccf>
+    </code>
+    <code name="KEY_PAGEDOWN" codeno="0x000000000000E3EF">
+      <decoding protocol="Dish_Network" device="1" subdevice="0" obc="7" hex0="28" hex1="-1" hex2="-1" hex3="-1" misc="+ 1 copy" error=""/>
+      <ccf>0000 006d 0023 0000 000d 00e4 000c 006a 000c 006a 000c 006a 000c 0041 000c 0041 000c 0041 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 0041 000c 006a 000c 006a 000c 006a 000c 006a 000c 00e4 000c 006a 000c 006a 000c 006a 000c 0041 000c 0041 000c 0041 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 0041 000c 006a 000c 006a 000c 006a 000c 006a 000c 00e4</ccf>
+    </code>
+    <code name="KEY_INFO" codeno="0x000000000000AFFF">
+      <decoding protocol="Dish_Network" device="0" subdevice="0" obc="20" hex0="80" hex1="-1" hex2="-1" hex3="-1" misc="+ 1 copy" error=""/>
+      <ccf>0000 006d 0023 0000 000d 00e4 000c 006a 000c 0041 000c 006a 000c 0041 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 00e4 000c 006a 000c 0041 000c 006a 000c 0041 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 00e4</ccf>
+    </code>
+    <code name="pointer_up" codeno="0x00000000000097FF">
+      <decoding protocol="Dish_Network" device="0" subdevice="0" obc="26" hex0="104" hex1="-1" hex2="-1" hex3="-1" misc="+ 1 copy" error=""/>
+      <ccf>0000 006d 0023 0000 000d 00e4 000c 006a 000c 0041 000c 0041 000c 006a 000c 0041 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 00e4 000c 006a 000c 0041 000c 0041 000c 006a 000c 0041 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 00e4</ccf>
+    </code>
+    <code name="pointer_left" codeno="0x0000000000008FFF">
+      <decoding protocol="Dish_Network" device="0" subdevice="0" obc="28" hex0="112" hex1="-1" hex2="-1" hex3="-1" misc="+ 1 copy" error=""/>
+      <ccf>0000 006d 0023 0000 000d 00e4 000c 006a 000c 0041 000c 0041 000c 0041 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 00e4 000c 006a 000c 0041 000c 0041 000c 0041 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 00e4</ccf>
+    </code>
+    <code name="pointer_right" codeno="0x0000000000009FFF">
+      <decoding protocol="Dish_Network" device="0" subdevice="0" obc="24" hex0="96" hex1="-1" hex2="-1" hex3="-1" misc="+ 1 copy" error=""/>
+      <ccf>0000 006d 0023 0000 000d 00e4 000c 006a 000c 0041 000c 0041 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 00e4 000c 006a 000c 0041 000c 0041 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 00e4</ccf>
+    </code>
+    <code name="pointer_down" codeno="0x00000000000087FF">
+      <decoding protocol="Dish_Network" device="0" subdevice="0" obc="30" hex0="120" hex1="-1" hex2="-1" hex3="-1" misc="+ 1 copy" error=""/>
+      <ccf>0000 006d 0023 0000 000d 00e4 000c 006a 000c 0041 000c 0041 000c 0041 000c 0041 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 00e4 000c 006a 000c 0041 000c 0041 000c 0041 000c 0041 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 00e4</ccf>
+    </code>
+    <code name="KEY_SELECT" codeno="0x000000000000BFFF">
+      <decoding protocol="Dish_Network" device="0" subdevice="0" obc="16" hex0="64" hex1="-1" hex2="-1" hex3="-1" misc="+ 1 copy" error=""/>
+      <ccf>0000 006d 0023 0000 000d 00e4 000c 006a 000c 0041 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 00e4 000c 006a 000c 0041 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 00e4</ccf>
+    </code>
+    <code name="KEY_AGAIN" codeno="0x00000000000093FF">
+      <decoding protocol="Dish_Network" device="0" subdevice="0" obc="27" hex0="108" hex1="-1" hex2="-1" hex3="-1" misc="+ 1 copy" error=""/>
+      <ccf>0000 006d 0023 0000 000d 00e4 000c 006a 000c 0041 000c 0041 000c 006a 000c 0041 000c 0041 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 00e4 000c 006a 000c 0041 000c 0041 000c 006a 000c 0041 000c 0041 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 00e4</ccf>
+    </code>
+    <code name="KEY_INFO" codeno="0x000000000000FFFF">
+      <decoding protocol="Gap-350-4724-34?" device="1" subdevice="0" obc="0" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 1.0.2.0.0" error=""/>
+      <ccf>0000 006d 0023 0000 000d 00e4 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 00e4 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 00e4</ccf>
+    </code>
+    <code name="view" codeno="0x000000000000A7FF">
+      <decoding protocol="Dish_Network" device="0" subdevice="0" obc="22" hex0="88" hex1="-1" hex2="-1" hex3="-1" misc="+ 1 copy" error=""/>
+      <ccf>0000 006d 0023 0000 000d 00e4 000c 006a 000c 0041 000c 006a 000c 0041 000c 0041 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 00e4 000c 006a 000c 0041 000c 006a 000c 0041 000c 0041 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 00e4</ccf>
+    </code>
+    <code name="KEY_CANCEL" codeno="0x000000000000B7FF">
+      <decoding protocol="Dish_Network" device="0" subdevice="0" obc="18" hex0="72" hex1="-1" hex2="-1" hex3="-1" misc="+ 1 copy" error=""/>
+      <ccf>0000 006d 0023 0000 000d 00e4 000c 006a 000c 0041 000c 006a 000c 006a 000c 0041 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 00e4 000c 006a 000c 0041 000c 006a 000c 006a 000c 0041 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 00e4</ccf>
+    </code>
+    <code name="sys_info" codeno="0x0000000000006FFF">
+      <decoding protocol="Dish_Network" device="0" subdevice="0" obc="36" hex0="144" hex1="-1" hex2="-1" hex3="-1" misc="+ 1 copy" error=""/>
+      <ccf>0000 006d 0023 0000 000d 00e4 000c 0041 000c 006a 000c 006a 000c 0041 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 00e4 000c 0041 000c 006a 000c 006a 000c 0041 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 00e4</ccf>
+    </code>
+    <code name="KEY_RECORD" codeno="0x00000000000083FF">
+      <decoding protocol="Dish_Network" device="0" subdevice="0" obc="31" hex0="124" hex1="-1" hex2="-1" hex3="-1" misc="+ 1 copy" error=""/>
+      <ccf>0000 006d 0023 0000 000d 00e4 000c 006a 000c 0041 000c 0041 000c 0041 000c 0041 000c 0041 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 00e4 000c 006a 000c 0041 000c 0041 000c 0041 000c 0041 000c 0041 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 00e4</ccf>
+    </code>
+    <code name="KEY_1" codeno="0x000000000000EFFF">
+      <decoding protocol="Dish_Network" device="0" subdevice="0" obc="4" hex0="16" hex1="-1" hex2="-1" hex3="-1" misc="+ 1 copy" error=""/>
+      <ccf>0000 006d 0023 0000 000d 00e4 000c 006a 000c 006a 000c 006a 000c 0041 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 00e4 000c 006a 000c 006a 000c 006a 000c 0041 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 00e4</ccf>
+    </code>
+    <code name="KEY_2" codeno="0x000000000000EBFF">
+      <decoding protocol="Dish_Network" device="0" subdevice="0" obc="5" hex0="20" hex1="-1" hex2="-1" hex3="-1" misc="+ 1 copy" error=""/>
+      <ccf>0000 006d 0023 0000 000d 00e4 000c 006a 000c 006a 000c 006a 000c 0041 000c 006a 000c 0041 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 00e4 000c 006a 000c 006a 000c 006a 000c 0041 000c 006a 000c 0041 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 00e4</ccf>
+    </code>
+    <code name="KEY_3" codeno="0x000000000000E7FF">
+      <decoding protocol="Dish_Network" device="0" subdevice="0" obc="6" hex0="24" hex1="-1" hex2="-1" hex3="-1" misc="+ 1 copy" error=""/>
+      <ccf>0000 006d 0023 0000 000d 00e4 000c 006a 000c 006a 000c 006a 000c 0041 000c 0041 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 00e4 000c 006a 000c 006a 000c 006a 000c 0041 000c 0041 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 00e4</ccf>
+    </code>
+    <code name="KEY_4" codeno="0x000000000000DFFF">
+      <decoding protocol="Dish_Network" device="0" subdevice="0" obc="8" hex0="32" hex1="-1" hex2="-1" hex3="-1" misc="+ 1 copy" error=""/>
+      <ccf>0000 006d 0023 0000 000d 00e4 000c 006a 000c 006a 000c 0041 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 00e4 000c 006a 000c 006a 000c 0041 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 00e4</ccf>
+    </code>
+    <code name="KEY_5" codeno="0x000000000000DBFF">
+      <decoding protocol="Dish_Network" device="0" subdevice="0" obc="9" hex0="36" hex1="-1" hex2="-1" hex3="-1" misc="+ 1 copy" error=""/>
+      <ccf>0000 006d 0023 0000 000d 00e4 000c 006a 000c 006a 000c 0041 000c 006a 000c 006a 000c 0041 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 00e4 000c 006a 000c 006a 000c 0041 000c 006a 000c 006a 000c 0041 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 00e4</ccf>
+    </code>
+    <code name="KEY_6" codeno="0x000000000000D7FF">
+      <decoding protocol="Dish_Network" device="0" subdevice="0" obc="10" hex0="40" hex1="-1" hex2="-1" hex3="-1" misc="+ 1 copy" error=""/>
+      <ccf>0000 006d 0023 0000 000d 00e4 000c 006a 000c 006a 000c 0041 000c 006a 000c 0041 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 00e4 000c 006a 000c 006a 000c 0041 000c 006a 000c 0041 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 00e4</ccf>
+    </code>
+    <code name="KEY_7" codeno="0x000000000000CFFF">
+      <decoding protocol="Dish_Network" device="0" subdevice="0" obc="12" hex0="48" hex1="-1" hex2="-1" hex3="-1" misc="+ 1 copy" error=""/>
+      <ccf>0000 006d 0023 0000 000d 00e4 000c 006a 000c 006a 000c 0041 000c 0041 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 00e4 000c 006a 000c 006a 000c 0041 000c 0041 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 00e4</ccf>
+    </code>
+    <code name="KEY_8" codeno="0x000000000000CBFF">
+      <decoding protocol="Dish_Network" device="0" subdevice="0" obc="13" hex0="52" hex1="-1" hex2="-1" hex3="-1" misc="+ 1 copy" error=""/>
+      <ccf>0000 006d 0023 0000 000d 00e4 000c 006a 000c 006a 000c 0041 000c 0041 000c 006a 000c 0041 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 00e4 000c 006a 000c 006a 000c 0041 000c 0041 000c 006a 000c 0041 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 00e4</ccf>
+    </code>
+    <code name="KEY_9" codeno="0x000000000000C7FF">
+      <decoding protocol="Dish_Network" device="0" subdevice="0" obc="14" hex0="56" hex1="-1" hex2="-1" hex3="-1" misc="+ 1 copy" error=""/>
+      <ccf>0000 006d 0023 0000 000d 00e4 000c 006a 000c 006a 000c 0041 000c 0041 000c 0041 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 00e4 000c 006a 000c 006a 000c 0041 000c 0041 000c 0041 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 00e4</ccf>
+    </code>
+    <code name="KEY_0" codeno="0x000000000000BBFF">
+      <decoding protocol="Dish_Network" device="0" subdevice="0" obc="17" hex0="68" hex1="-1" hex2="-1" hex3="-1" misc="+ 1 copy" error=""/>
+      <ccf>0000 006d 0023 0000 000d 00e4 000c 006a 000c 0041 000c 006a 000c 006a 000c 006a 000c 0041 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 00e4 000c 006a 000c 0041 000c 006a 000c 006a 000c 006a 000c 0041 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 00e4</ccf>
+    </code>
+    <code name="KEY_NUMERIC_STAR" codeno="0x0000000000006BFF">
+      <decoding protocol="Dish_Network" device="0" subdevice="0" obc="37" hex0="148" hex1="-1" hex2="-1" hex3="-1" misc="+ 1 copy" error=""/>
+      <ccf>0000 006d 0023 0000 000d 00e4 000c 0041 000c 006a 000c 006a 000c 0041 000c 006a 000c 0041 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 00e4 000c 0041 000c 006a 000c 006a 000c 0041 000c 006a 000c 0041 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 00e4</ccf>
+    </code>
+    <code name="KEY_NUMERIC_POUND" codeno="0x00000000000067FF">
+      <decoding protocol="Dish_Network" device="0" subdevice="0" obc="38" hex0="152" hex1="-1" hex2="-1" hex3="-1" misc="+ 1 copy" error=""/>
+      <ccf>0000 006d 0023 0000 000d 00e4 000c 0041 000c 006a 000c 006a 000c 0041 000c 0041 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 00e4 000c 0041 000c 006a 000c 006a 000c 0041 000c 0041 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 006a 000c 00e4</ccf>
+    </code>
+  </remote>
+</lircremotes>

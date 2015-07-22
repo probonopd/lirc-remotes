@@ -1,0 +1,113 @@
+<lircremotes creation-date="Wed Jul 22 23:04:14 2015" creator="" lircversion="0.8.6" lirc2xml_version="0.1.2" configfile="remotes/funai/V3EE_MK6.lircd.conf" decodeir_version="2.40">
+  <remote name="FUNAI-V3EE_MK6">
+    <lircdata type="SPACE_ENC" bits="18" flags="16" eps="25" aeps="100" pthree="0" sthree="0" ptwo="0" stwo="0" pone="922" sone="801" pzero="922" szero="2533" plead="0" ptrail="922" pfoot="0" sfoot="0" prepeat="0" srepeat="0" pre_data_bits="6" pre_data="58" post_data_bits="0" post_data="0" pre_p="0" pre_s="0" post_p="0" post_s="0" gap="33919" gap2="0" repeat_gap="0" toggle_bit="0" toggle_bit_mask="0" min_repeat="0" min_code_repeat="0" freq="38000" duty_cycle="0" toggle_mask="0" rc6_mask="0" baud="0" bits_in_byte="0" parity="0" stop_bits="0" ignore_mask="0"/>
+    <code name="FUNCTION" codeno="0x000000000003E141">
+      <decoding protocol="Emerson" device="40" subdevice="-1" obc="32" hex0="248" hex1="249" hex2="250" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 001a 0000 0087 0081 0023 001e 0023 001e 0023 001e 0023 0060 0023 001e 0023 0060 0023 001e 0023 001e 0023 001e 0023 001e 0023 001e 0023 0060 0023 0060 0023 0060 0023 0060 0023 001e 0023 0060 0023 001e 0023 0060 0023 0060 0023 0060 0023 0060 0023 0060 0023 001e 0023 0509</ccf>
+    </code>
+    <code name="KEY_EJECTCD" codeno="0x000000000001016F">
+      <decoding protocol="Emerson" device="40" subdevice="-1" obc="61" hex0="64" hex1="65" hex2="66" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 001a 0000 0087 0081 0023 001e 0023 001e 0023 001e 0023 0060 0023 001e 0023 0060 0023 0060 0023 001e 0023 0060 0023 0060 0023 0060 0023 0060 0023 0060 0023 0060 0023 0060 0023 001e 0023 0060 0023 001e 0023 001e 0023 0060 0023 001e 0023 001e 0023 001e 0023 001e 0023 0509</ccf>
+    </code>
+    <code name="KEY_1" codeno="0x000000000000117E">
+      <decoding protocol="Emerson" device="40" subdevice="-1" obc="31" hex0="4" hex1="5" hex2="6" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 001a 0000 0087 0081 0023 001e 0023 001e 0023 001e 0023 0060 0023 001e 0023 0060 0023 0060 0023 0060 0023 0060 0023 0060 0023 0060 0023 001e 0023 0060 0023 0060 0023 0060 0023 001e 0023 0060 0023 001e 0023 001e 0023 001e 0023 001e 0023 001e 0023 001e 0023 0060 0023 0509</ccf>
+    </code>
+    <code name="KEY_2" codeno="0x000000000001E161">
+      <decoding protocol="Emerson" device="40" subdevice="-1" obc="33" hex0="120" hex1="121" hex2="122" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 001a 0000 0087 0081 0023 001e 0023 001e 0023 001e 0023 0060 0023 001e 0023 0060 0023 0060 0023 001e 0023 001e 0023 001e 0023 001e 0023 0060 0023 0060 0023 0060 0023 0060 0023 001e 0023 0060 0023 001e 0023 001e 0023 0060 0023 0060 0023 0060 0023 0060 0023 001e 0023 0509</ccf>
+    </code>
+    <code name="KEY_3" codeno="0x000000000002E151">
+      <decoding protocol="Emerson" device="40" subdevice="-1" obc="34" hex0="184" hex1="185" hex2="186" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 001a 0000 0087 0081 0023 001e 0023 001e 0023 001e 0023 0060 0023 001e 0023 0060 0023 001e 0023 0060 0023 001e 0023 001e 0023 001e 0023 0060 0023 0060 0023 0060 0023 0060 0023 001e 0023 0060 0023 001e 0023 0060 0023 001e 0023 0060 0023 0060 0023 0060 0023 001e 0023 0509</ccf>
+    </code>
+    <code name="KEY_4" codeno="0x000000000000E171">
+      <decoding protocol="Emerson" device="40" subdevice="-1" obc="35" hex0="56" hex1="57" hex2="58" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 001a 0000 0087 0081 0023 001e 0023 001e 0023 001e 0023 0060 0023 001e 0023 0060 0023 0060 0023 0060 0023 001e 0023 001e 0023 001e 0023 0060 0023 0060 0023 0060 0023 0060 0023 001e 0023 0060 0023 001e 0023 001e 0023 001e 0023 0060 0023 0060 0023 0060 0023 001e 0023 0509</ccf>
+    </code>
+    <code name="KEY_5" codeno="0x0000000000036149">
+      <decoding protocol="Emerson" device="40" subdevice="-1" obc="36" hex0="216" hex1="217" hex2="218" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 001a 0000 0087 0081 0023 001e 0023 001e 0023 001e 0023 0060 0023 001e 0023 0060 0023 001e 0023 001e 0023 0060 0023 001e 0023 001e 0023 0060 0023 0060 0023 0060 0023 0060 0023 001e 0023 0060 0023 001e 0023 0060 0023 0060 0023 001e 0023 0060 0023 0060 0023 001e 0023 0509</ccf>
+    </code>
+    <code name="KEY_6" codeno="0x0000000000016169">
+      <decoding protocol="Emerson" device="40" subdevice="-1" obc="37" hex0="88" hex1="89" hex2="90" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 001a 0000 0087 0081 0023 001e 0023 001e 0023 001e 0023 0060 0023 001e 0023 0060 0023 0060 0023 001e 0023 0060 0023 001e 0023 001e 0023 0060 0023 0060 0023 0060 0023 0060 0023 001e 0023 0060 0023 001e 0023 001e 0023 0060 0023 001e 0023 0060 0023 0060 0023 001e 0023 0509</ccf>
+    </code>
+    <code name="KEY_7" codeno="0x0000000000026159">
+      <decoding protocol="Emerson" device="40" subdevice="-1" obc="38" hex0="152" hex1="153" hex2="154" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 001a 0000 0087 0081 0023 001e 0023 001e 0023 001e 0023 0060 0023 001e 0023 0060 0023 001e 0023 0060 0023 0060 0023 001e 0023 001e 0023 0060 0023 0060 0023 0060 0023 0060 0023 001e 0023 0060 0023 001e 0023 0060 0023 001e 0023 001e 0023 0060 0023 0060 0023 001e 0023 0509</ccf>
+    </code>
+    <code name="KEY_8" codeno="0x0000000000006179">
+      <decoding protocol="Emerson" device="40" subdevice="-1" obc="39" hex0="24" hex1="25" hex2="26" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 001a 0000 0087 0081 0023 001e 0023 001e 0023 001e 0023 0060 0023 001e 0023 0060 0023 0060 0023 0060 0023 0060 0023 001e 0023 001e 0023 0060 0023 0060 0023 0060 0023 0060 0023 001e 0023 0060 0023 001e 0023 001e 0023 001e 0023 001e 0023 0060 0023 0060 0023 001e 0023 0509</ccf>
+    </code>
+    <code name="KEY_9" codeno="0x000000000003A145">
+      <decoding protocol="Emerson" device="40" subdevice="-1" obc="40" hex0="232" hex1="233" hex2="234" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 001a 0000 0087 0081 0023 001e 0023 001e 0023 001e 0023 0060 0023 001e 0023 0060 0023 001e 0023 001e 0023 001e 0023 0060 0023 001e 0023 0060 0023 0060 0023 0060 0023 0060 0023 001e 0023 0060 0023 001e 0023 0060 0023 0060 0023 0060 0023 001e 0023 0060 0023 001e 0023 0509</ccf>
+    </code>
+    <code name="KEY_0" codeno="0x000000000001A165">
+      <decoding protocol="Emerson" device="40" subdevice="-1" obc="41" hex0="104" hex1="105" hex2="106" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 001a 0000 0087 0081 0023 001e 0023 001e 0023 001e 0023 0060 0023 001e 0023 0060 0023 0060 0023 001e 0023 001e 0023 0060 0023 001e 0023 0060 0023 0060 0023 0060 0023 0060 0023 001e 0023 0060 0023 001e 0023 001e 0023 0060 0023 0060 0023 001e 0023 0060 0023 001e 0023 0509</ccf>
+    </code>
+    <code name="CHTR-" codeno="0x000000000003B144">
+      <decoding protocol="Emerson" device="40" subdevice="-1" obc="8" hex0="236" hex1="237" hex2="238" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 001a 0000 0087 0081 0023 001e 0023 001e 0023 001e 0023 0060 0023 001e 0023 0060 0023 001e 0023 001e 0023 001e 0023 0060 0023 001e 0023 001e 0023 0060 0023 0060 0023 0060 0023 001e 0023 0060 0023 001e 0023 0060 0023 0060 0023 0060 0023 001e 0023 0060 0023 0060 0023 0509</ccf>
+    </code>
+    <code name="CHTR+" codeno="0x000000000003D142">
+      <decoding protocol="Emerson" device="40" subdevice="-1" obc="16" hex0="244" hex1="245" hex2="246" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 001a 0000 0087 0081 0023 001e 0023 001e 0023 001e 0023 0060 0023 001e 0023 0060 0023 001e 0023 001e 0023 001e 0023 001e 0023 0060 0023 001e 0023 0060 0023 0060 0023 0060 0023 001e 0023 0060 0023 001e 0023 0060 0023 0060 0023 0060 0023 0060 0023 001e 0023 0060 0023 0509</ccf>
+    </code>
+    <code name="KEY_REWIND" codeno="0x000000000003314C">
+      <decoding protocol="Async7:1101-1145:5C.AD..5B.DB" device="181" subdevice="181" obc="107" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 5C AD B5 B5 6B 5B DB" error=""/>
+      <decoding protocol="Emerson" device="40" subdevice="-1" obc="12" hex0="204" hex1="205" hex2="206" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 001a 0000 0087 0081 0023 001e 0023 001e 0023 001e 0023 0060 0023 001e 0023 0060 0023 001e 0023 001e 0023 0060 0023 0060 0023 001e 0023 001e 0023 0060 0023 0060 0023 0060 0023 001e 0023 0060 0023 001e 0023 0060 0023 0060 0023 001e 0023 001e 0023 0060 0023 0060 0023 0509</ccf>
+    </code>
+    <code name="KEY_PLAY" codeno="0x000000000002B154">
+      <decoding protocol="Async7:1101-1145:5C.AD..6B.DB" device="173" subdevice="181" obc="107" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 5C AD AD B5 6B 6B DB" error=""/>
+      <decoding protocol="Emerson" device="40" subdevice="-1" obc="10" hex0="172" hex1="173" hex2="174" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 001a 0000 0087 0081 0023 001e 0023 001e 0023 001e 0023 0060 0023 001e 0023 0060 0023 001e 0023 0060 0023 001e 0023 0060 0023 001e 0023 001e 0023 0060 0023 0060 0023 0060 0023 001e 0023 0060 0023 001e 0023 0060 0023 001e 0023 0060 0023 001e 0023 0060 0023 0060 0023 0509</ccf>
+    </code>
+    <code name="KEY_FASTFORWARD" codeno="0x0000000000037148">
+      <decoding protocol="Emerson" device="40" subdevice="-1" obc="4" hex0="220" hex1="221" hex2="222" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 001a 0000 0087 0081 0023 001e 0023 001e 0023 001e 0023 0060 0023 001e 0023 0060 0023 001e 0023 001e 0023 0060 0023 001e 0023 001e 0023 001e 0023 0060 0023 0060 0023 0060 0023 001e 0023 0060 0023 001e 0023 0060 0023 0060 0023 001e 0023 0060 0023 0060 0023 0060 0023 0509</ccf>
+    </code>
+    <code name="KEY_RECORD" codeno="0x0000000000029156">
+      <decoding protocol="Emerson" device="40" subdevice="-1" obc="26" hex0="164" hex1="165" hex2="166" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 001a 0000 0087 0081 0023 001e 0023 001e 0023 001e 0023 0060 0023 001e 0023 0060 0023 001e 0023 0060 0023 001e 0023 0060 0023 0060 0023 001e 0023 0060 0023 0060 0023 0060 0023 001e 0023 0060 0023 001e 0023 0060 0023 001e 0023 0060 0023 001e 0023 001e 0023 0060 0023 0509</ccf>
+    </code>
+    <code name="KEY_PAUSE" codeno="0x000000000000B174">
+      <decoding protocol="Emerson" device="40" subdevice="-1" obc="11" hex0="44" hex1="45" hex2="46" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 001a 0000 0087 0081 0023 001e 0023 001e 0023 001e 0023 0060 0023 001e 0023 0060 0023 0060 0023 0060 0023 001e 0023 0060 0023 001e 0023 001e 0023 0060 0023 0060 0023 0060 0023 001e 0023 0060 0023 001e 0023 001e 0023 001e 0023 0060 0023 001e 0023 0060 0023 0060 0023 0509</ccf>
+    </code>
+    <code name="KEY_STOP" codeno="0x000000000003114E">
+      <decoding protocol="Emerson" device="40" subdevice="-1" obc="28" hex0="196" hex1="197" hex2="198" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 001a 0000 0087 0081 0023 001e 0023 001e 0023 001e 0023 0060 0023 001e 0023 0060 0023 001e 0023 001e 0023 0060 0023 0060 0023 0060 0023 001e 0023 0060 0023 0060 0023 0060 0023 001e 0023 0060 0023 001e 0023 0060 0023 0060 0023 001e 0023 001e 0023 001e 0023 0060 0023 0509</ccf>
+    </code>
+    <code name="KEY_TIME" codeno="0x0000000000009176">
+      <decoding protocol="Emerson" device="40" subdevice="-1" obc="27" hex0="36" hex1="37" hex2="38" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 001a 0000 0087 0081 0023 001e 0023 001e 0023 001e 0023 0060 0023 001e 0023 0060 0023 0060 0023 0060 0023 001e 0023 0060 0023 0060 0023 001e 0023 0060 0023 0060 0023 0060 0023 001e 0023 0060 0023 001e 0023 001e 0023 001e 0023 0060 0023 001e 0023 001e 0023 0060 0023 0509</ccf>
+    </code>
+    <code name="MEMORY" codeno="0x000000000003514A">
+      <decoding protocol="Emerson" device="40" subdevice="-1" obc="20" hex0="212" hex1="213" hex2="214" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 001a 0000 0087 0081 0023 001e 0023 001e 0023 001e 0023 0060 0023 001e 0023 0060 0023 001e 0023 001e 0023 0060 0023 001e 0023 0060 0023 001e 0023 0060 0023 0060 0023 0060 0023 001e 0023 0060 0023 001e 0023 0060 0023 0060 0023 001e 0023 0060 0023 001e 0023 0060 0023 0509</ccf>
+    </code>
+    <code name="RESET" codeno="0x000000000000317C">
+      <decoding protocol="Emerson" device="40" subdevice="-1" obc="15" hex0="12" hex1="13" hex2="14" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 001a 0000 0087 0081 0023 001e 0023 001e 0023 001e 0023 0060 0023 001e 0023 0060 0023 0060 0023 0060 0023 0060 0023 0060 0023 001e 0023 001e 0023 0060 0023 0060 0023 0060 0023 001e 0023 0060 0023 001e 0023 001e 0023 001e 0023 001e 0023 001e 0023 0060 0023 0060 0023 0509</ccf>
+    </code>
+    <code name="PROG" codeno="0x000000000001516A">
+      <decoding protocol="Async9:829-915:78.75..D7.FF" device="215" subdevice="221" obc="215" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 78 75 77 D7 DD D7 75 D7 FF" error=""/>
+      <decoding protocol="Emerson" device="40" subdevice="-1" obc="21" hex0="84" hex1="85" hex2="86" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 001a 0000 0087 0081 0023 001e 0023 001e 0023 001e 0023 0060 0023 001e 0023 0060 0023 0060 0023 001e 0023 0060 0023 001e 0023 0060 0023 001e 0023 0060 0023 0060 0023 0060 0023 001e 0023 0060 0023 001e 0023 001e 0023 0060 0023 001e 0023 0060 0023 001e 0023 0060 0023 0509</ccf>
+    </code>
+    <code name="KEY_SELECT" codeno="0x000000000002515A">
+      <decoding protocol="Async9:829-915:78.75..D7.FF" device="215" subdevice="221" obc="215" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 78 75 D7 D7 DD D7 5D D7 FF" error=""/>
+      <decoding protocol="Emerson" device="40" subdevice="-1" obc="22" hex0="148" hex1="149" hex2="150" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 001a 0000 0087 0081 0023 001e 0023 001e 0023 001e 0023 0060 0023 001e 0023 0060 0023 001e 0023 0060 0023 0060 0023 001e 0023 0060 0023 001e 0023 0060 0023 0060 0023 0060 0023 001e 0023 0060 0023 001e 0023 0060 0023 001e 0023 001e 0023 0060 0023 001e 0023 0060 0023 0509</ccf>
+    </code>
+    <code name="PRESET" codeno="0x000000000003414B">
+      <decoding protocol="Emerson" device="40" subdevice="-1" obc="52" hex0="208" hex1="209" hex2="210" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 001a 0000 0087 0081 0023 001e 0023 001e 0023 001e 0023 0060 0023 001e 0023 0060 0023 001e 0023 001e 0023 0060 0023 001e 0023 0060 0023 0060 0023 0060 0023 0060 0023 0060 0023 001e 0023 0060 0023 001e 0023 0060 0023 0060 0023 001e 0023 0060 0023 001e 0023 001e 0023 0509</ccf>
+    </code>
+  </remote>
+</lircremotes>

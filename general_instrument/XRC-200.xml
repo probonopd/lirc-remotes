@@ -1,0 +1,344 @@
+<lircremotes creation-date="Wed Jul 22 23:04:14 2015" creator="" lircversion="0.8.6" lirc2xml_version="0.1.2" configfile="remotes/general_instrument/XRC-200.lircd.conf" decodeir_version="2.40">
+  <remote name="XRC-200">
+    <lircdata type="SPACE_ENC" bits="16" flags="16400" eps="30" aeps="100" pthree="0" sthree="0" ptwo="0" stwo="0" pone="474" sone="4471" pzero="474" szero="2246" plead="0" ptrail="493" pfoot="0" sfoot="0" prepeat="8919" srepeat="2218" pre_data_bits="0" pre_data="0" post_data_bits="0" post_data="0" pre_p="0" pre_s="0" post_p="0" post_s="0" gap="98506" gap2="0" repeat_gap="0" toggle_bit="0" toggle_bit_mask="0" min_repeat="0" min_code_repeat="0" freq="38000" duty_cycle="0" toggle_mask="0" rc6_mask="0" baud="0" bits_in_byte="0" parity="0" stop_bits="0" ignore_mask="0"/>
+    <code name="CBL_HELP" codeno="0x0000000000004C0D">
+      <decoding protocol="G.I. Cable{1}" device="0" subdevice="-1" obc="50" hex0="76" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0152 00a9 0012 0055 0012 00aa 0012 0055 0012 0055 0012 00aa 0012 00aa 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 00aa 0012 00aa 0012 0055 0012 00aa 0013 0420</ccf>
+    </code>
+    <code name="CBL_POWER" codeno="0x0000000000005006">
+      <decoding protocol="G.I. Cable{1}" device="0" subdevice="-1" obc="10" hex0="80" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0152 00a9 0012 0055 0012 00aa 0012 0055 0012 00aa 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 00aa 0012 00aa 0012 0055 0013 04c9</ccf>
+    </code>
+    <code name="CBL_MUTE" codeno="0x000000000000F008">
+      <decoding protocol="G.I. Cable{1}" device="0" subdevice="-1" obc="15" hex0="240" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0152 00a9 0012 00aa 0012 00aa 0012 00aa 0012 00aa 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 00aa 0012 0055 0012 0055 0012 0055 0013 0474</ccf>
+    </code>
+    <code name="CBL_PAGE+" codeno="0x0000000000005C0C">
+      <decoding protocol="G.I. Cable{1}" device="0" subdevice="-1" obc="58" hex0="92" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0152 00a9 0012 0055 0012 00aa 0012 0055 0012 00aa 0012 00aa 0012 00aa 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 00aa 0012 00aa 0012 0055 0012 0055 0013 0420</ccf>
+    </code>
+    <code name="CBL_PAGE-" codeno="0x000000000000DC04">
+      <decoding protocol="G.I. Cable{1}" device="0" subdevice="-1" obc="59" hex0="220" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0152 00a9 0012 00aa 0012 00aa 0012 0055 0012 00aa 0012 00aa 0012 00aa 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 00aa 0012 0055 0012 0055 0013 0420</ccf>
+    </code>
+    <code name="CBL_LOCK" codeno="0x0000000000006809">
+      <decoding protocol="G.I. Cable{1}" device="0" subdevice="-1" obc="22" hex0="104" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0152 00a9 0012 0055 0012 00aa 0012 00aa 0012 0055 0012 00aa 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 00aa 0012 0055 0012 0055 0012 00aa 0013 0474</ccf>
+    </code>
+    <code name="KEY_EXIT" codeno="0x000000000000480B">
+      <decoding protocol="G.I. Cable{1}" device="0" subdevice="-1" obc="18" hex0="72" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0152 00a9 0012 0055 0012 00aa 0012 0055 0012 0055 0012 00aa 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 00aa 0012 0055 0012 00aa 0012 00aa 0013 0474</ccf>
+    </code>
+    <code name="CBL_INFO" codeno="0x000000000000CC05">
+      <decoding protocol="G.I. Cable{1}" device="0" subdevice="-1" obc="51" hex0="204" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0152 00a9 0012 00aa 0012 00aa 0012 0055 0012 0055 0012 00aa 0012 00aa 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 00aa 0012 0055 0012 00aa 0013 0420</ccf>
+    </code>
+    <code name="CBL_UP" codeno="0x0000000000002C09">
+      <decoding protocol="G.I. Cable{1}" device="0" subdevice="-1" obc="52" hex0="44" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0152 00a9 0012 0055 0012 0055 0012 00aa 0012 0055 0012 00aa 0012 00aa 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 00aa 0012 0055 0012 0055 0012 00aa 0013 0474</ccf>
+    </code>
+    <code name="CBL_LEFT" codeno="0x0000000000006C0E">
+      <decoding protocol="G.I. Cable{1}" device="0" subdevice="-1" obc="54" hex0="108" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0152 00a9 0012 0055 0012 00aa 0012 00aa 0012 0055 0012 00aa 0012 00aa 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 00aa 0012 00aa 0012 00aa 0012 0055 0013 03cb</ccf>
+    </code>
+    <code name="CBL_OK" codeno="0x0000000000008807">
+      <decoding protocol="G.I. Cable{1}" device="0" subdevice="-1" obc="17" hex0="136" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0152 00a9 0012 00aa 0012 0055 0012 0055 0012 0055 0012 00aa 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 00aa 0012 00aa 0012 00aa 0013 0474</ccf>
+    </code>
+    <code name="CBL_RIGHT" codeno="0x000000000000EC06">
+      <decoding protocol="G.I. Cable{1}" device="0" subdevice="-1" obc="55" hex0="236" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0152 00a9 0012 00aa 0012 00aa 0012 00aa 0012 0055 0012 00aa 0012 00aa 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 00aa 0012 00aa 0012 0055 0013 03cb</ccf>
+    </code>
+    <code name="CBL_GUIDE" codeno="0x0000000000000C0B">
+      <decoding protocol="G.I. Cable{1}" device="0" subdevice="-1" obc="48" hex0="12" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0152 00a9 0012 0055 0012 0055 0012 0055 0012 0055 0012 00aa 0012 00aa 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 00aa 0012 0055 0012 00aa 0012 00aa 0013 0474</ccf>
+    </code>
+    <code name="CBL_DOWN" codeno="0x000000000000AC01">
+      <decoding protocol="G.I. Cable{1}" device="0" subdevice="-1" obc="53" hex0="172" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0152 00a9 0012 00aa 0012 0055 0012 00aa 0012 0055 0012 00aa 0012 00aa 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 00aa 0013 0474</ccf>
+    </code>
+    <code name="CBL_MENU" codeno="0x0000000000009806">
+      <decoding protocol="G.I. Cable{1}" device="0" subdevice="-1" obc="25" hex0="152" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0152 00a9 0012 00aa 0012 0055 0012 0055 0012 00aa 0012 00aa 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 00aa 0012 00aa 0012 0055 0013 0474</ccf>
+    </code>
+    <code name="CBL_VOL+" codeno="0x000000000000B00C">
+      <decoding protocol="G.I. Cable{1}" device="0" subdevice="-1" obc="13" hex0="176" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0152 00a9 0012 00aa 0012 0055 0012 00aa 0012 00aa 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 00aa 0012 00aa 0012 0055 0012 0055 0013 0474</ccf>
+    </code>
+    <code name="CBL_VOL-" codeno="0x0000000000007004">
+      <decoding protocol="G.I. Cable{1}" device="0" subdevice="-1" obc="14" hex0="112" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0152 00a9 0012 0055 0012 00aa 0012 00aa 0012 00aa 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 00aa 0012 0055 0012 0055 0013 04c9</ccf>
+    </code>
+    <code name="CBL_LAST" codeno="0x000000000000C803">
+      <decoding protocol="G.I. Cable{1}" device="0" subdevice="-1" obc="19" hex0="200" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0152 00a9 0012 00aa 0012 00aa 0012 0055 0012 0055 0012 00aa 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 00aa 0012 00aa 0013 0474</ccf>
+    </code>
+    <code name="CBL_FAV" codeno="0x000000000000A805">
+      <decoding protocol="G.I. Cable{1}" device="0" subdevice="-1" obc="21" hex0="168" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0152 00a9 0012 00aa 0012 0055 0012 00aa 0012 0055 0012 00aa 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 00aa 0012 0055 0012 00aa 0013 0474</ccf>
+    </code>
+    <code name="CBL_CHAN+" codeno="0x000000000000D00A">
+      <decoding protocol="G.I. Cable{1}" device="0" subdevice="-1" obc="11" hex0="208" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0152 00a9 0012 00aa 0012 00aa 0012 0055 0012 00aa 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 00aa 0012 0055 0012 00aa 0012 0055 0013 0474</ccf>
+    </code>
+    <code name="CBL_CHAN-" codeno="0x0000000000003002">
+      <decoding protocol="G.I. Cable{1}" device="0" subdevice="-1" obc="12" hex0="48" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0152 00a9 0012 0055 0012 0055 0012 00aa 0012 00aa 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 00aa 0012 0055 0013 051d</ccf>
+    </code>
+    <code name="CBL_STOP" codeno="0x0000000000009C02">
+      <decoding protocol="G.I. Cable{1}" device="0" subdevice="-1" obc="57" hex0="156" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0152 00a9 0012 00aa 0012 0055 0012 0055 0012 00aa 0012 00aa 0012 00aa 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 00aa 0012 0055 0013 0474</ccf>
+    </code>
+    <code name="CBL_PAUSE" codeno="0x000000000000F800">
+      <decoding protocol="G.I. Cable{1}" device="0" subdevice="-1" obc="31" hex0="248" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0152 00a9 0012 00aa 0012 00aa 0012 00aa 0012 00aa 0012 00aa 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0013 0474</ccf>
+    </code>
+    <code name="CBL_PLAY" codeno="0x0000000000001C0A">
+      <decoding protocol="G.I. Cable{1}" device="0" subdevice="-1" obc="56" hex0="28" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0152 00a9 0012 0055 0012 0055 0012 0055 0012 00aa 0012 00aa 0012 00aa 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 00aa 0012 0055 0012 00aa 0012 0055 0013 0474</ccf>
+    </code>
+    <code name="CBL_REW" codeno="0x0000000000007808">
+      <decoding protocol="G.I. Cable{1}" device="0" subdevice="-1" obc="30" hex0="120" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0152 00a9 0012 0055 0012 00aa 0012 00aa 0012 00aa 0012 00aa 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 00aa 0012 0055 0012 0055 0012 0055 0013 0474</ccf>
+    </code>
+    <code name="CBL_REC" codeno="0x0000000000008C03">
+      <decoding protocol="G.I. Cable{1}" device="0" subdevice="-1" obc="49" hex0="140" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0152 00a9 0012 00aa 0012 0055 0012 0055 0012 0055 0012 00aa 0012 00aa 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 00aa 0012 00aa 0013 0474</ccf>
+    </code>
+    <code name="CBL_FF" codeno="0x000000000000B804">
+      <decoding protocol="G.I. Cable{1}" device="0" subdevice="-1" obc="29" hex0="184" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0152 00a9 0012 00aa 0012 0055 0012 00aa 0012 00aa 0012 00aa 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 00aa 0012 0055 0012 0055 0013 0474</ccf>
+    </code>
+    <code name="CBL_A" codeno="0x000000000000E801">
+      <decoding protocol="G.I. Cable{1}" device="0" subdevice="-1" obc="23" hex0="232" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0152 00a9 0012 00aa 0012 00aa 0012 00aa 0012 0055 0012 00aa 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 00aa 0013 0474</ccf>
+    </code>
+    <code name="CBL_B" codeno="0x000000000000E40E">
+      <decoding protocol="G.I. Cable{1}" device="0" subdevice="-1" obc="39" hex0="228" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0152 00a9 0012 00aa 0012 00aa 0012 00aa 0012 0055 0012 0055 0012 00aa 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 00aa 0012 00aa 0012 00aa 0012 0055 0013 03cb</ccf>
+    </code>
+    <code name="CBL_C" codeno="0x0000000000001406">
+      <decoding protocol="G.I. Cable{1}" device="0" subdevice="-1" obc="40" hex0="20" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0152 00a9 0012 0055 0012 0055 0012 0055 0012 00aa 0012 0055 0012 00aa 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 00aa 0012 00aa 0012 0055 0013 04c9</ccf>
+    </code>
+    <code name="CBL_1" codeno="0x000000000000800F">
+      <decoding protocol="G.I. Cable{1}" device="0" subdevice="-1" obc="1" hex0="128" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0152 00a9 0012 00aa 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 00aa 0012 00aa 0012 00aa 0012 00aa 0013 0474</ccf>
+    </code>
+    <code name="CBL_2" codeno="0x0000000000004007">
+      <decoding protocol="G.I. Cable{1}" device="0" subdevice="-1" obc="2" hex0="64" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0152 00a9 0012 0055 0012 00aa 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 00aa 0012 00aa 0012 00aa 0013 04c9</ccf>
+    </code>
+    <code name="CBL_3" codeno="0x000000000000C00B">
+      <decoding protocol="G.I. Cable{1}" device="0" subdevice="-1" obc="3" hex0="192" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0152 00a9 0012 00aa 0012 00aa 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 00aa 0012 0055 0012 00aa 0012 00aa 0013 0474</ccf>
+    </code>
+    <code name="CBL_4" codeno="0x0000000000002003">
+      <decoding protocol="G.I. Cable{1}" device="0" subdevice="-1" obc="4" hex0="32" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0152 00a9 0012 0055 0012 0055 0012 00aa 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 00aa 0012 00aa 0013 051d</ccf>
+    </code>
+    <code name="CBL_5" codeno="0x000000000000A00D">
+      <decoding protocol="G.I. Cable{1}" device="0" subdevice="-1" obc="5" hex0="160" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0152 00a9 0012 00aa 0012 0055 0012 00aa 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 00aa 0012 00aa 0012 0055 0012 00aa 0013 0474</ccf>
+    </code>
+    <code name="CBL_6" codeno="0x0000000000006005">
+      <decoding protocol="G.I. Cable{1}" device="0" subdevice="-1" obc="6" hex0="96" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0152 00a9 0012 0055 0012 00aa 0012 00aa 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 00aa 0012 0055 0012 00aa 0013 04c9</ccf>
+    </code>
+    <code name="CBL_7" codeno="0x000000000000E009">
+      <decoding protocol="G.I. Cable{1}" device="0" subdevice="-1" obc="7" hex0="224" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0152 00a9 0012 00aa 0012 00aa 0012 00aa 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 00aa 0012 0055 0012 0055 0012 00aa 0013 0474</ccf>
+    </code>
+    <code name="CBL_8" codeno="0x0000000000001001">
+      <decoding protocol="G.I. Cable{1}" device="0" subdevice="-1" obc="8" hex0="16" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0152 00a9 0012 0055 0012 0055 0012 0055 0012 00aa 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 00aa 0013 0572</ccf>
+    </code>
+    <code name="CBL_9" codeno="0x000000000000900E">
+      <decoding protocol="G.I. Cable{1}" device="0" subdevice="-1" obc="9" hex0="144" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0152 00a9 0012 00aa 0012 0055 0012 0055 0012 00aa 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 00aa 0012 00aa 0012 00aa 0012 0055 0013 0474</ccf>
+    </code>
+    <code name="CBL_0" codeno="0x0000000000000000">
+      <decoding protocol="G.I. Cable{1}" device="0" subdevice="-1" obc="0" hex0="0" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0152 00a9 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0013 061b</ccf>
+    </code>
+    <code name="CBL_BYPASS" codeno="0x000000000000280D">
+      <decoding protocol="G.I. Cable{1}" device="0" subdevice="-1" obc="20" hex0="40" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0152 00a9 0012 0055 0012 0055 0012 00aa 0012 0055 0012 00aa 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 00aa 0012 00aa 0012 0055 0012 00aa 0013 0474</ccf>
+    </code>
+    <code name="CBL_MUSIC" codeno="0x000000000000080F">
+      <decoding protocol="G.I. Cable{1}" device="0" subdevice="-1" obc="16" hex0="8" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0152 00a9 0012 0055 0012 0055 0012 0055 0012 0055 0012 00aa 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 00aa 0012 00aa 0012 00aa 0012 00aa 0013 0474</ccf>
+    </code>
+  </remote>
+  <remote name="XRC-200">
+    <lircdata type="SPACE_ENC" bits="16" flags="16400" eps="30" aeps="100" pthree="0" sthree="0" ptwo="0" stwo="0" pone="474" sone="4471" pzero="474" szero="2246" plead="0" ptrail="493" pfoot="0" sfoot="0" prepeat="8919" srepeat="2218" pre_data_bits="0" pre_data="0" post_data_bits="0" post_data="0" pre_p="0" pre_s="0" post_p="0" post_s="0" gap="98506" gap2="0" repeat_gap="0" toggle_bit="0" toggle_bit_mask="0" min_repeat="0" min_code_repeat="0" freq="38000" duty_cycle="0" toggle_mask="0" rc6_mask="0" baud="0" bits_in_byte="0" parity="0" stop_bits="0" ignore_mask="0"/>
+    <code name="CBL_HELP" codeno="0x0000000000004C0D">
+      <decoding protocol="G.I. Cable{1}" device="0" subdevice="-1" obc="50" hex0="76" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0152 00a9 0012 0055 0012 00aa 0012 0055 0012 0055 0012 00aa 0012 00aa 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 00aa 0012 00aa 0012 0055 0012 00aa 0013 0420</ccf>
+    </code>
+    <code name="CBL_POWER" codeno="0x0000000000005006">
+      <decoding protocol="G.I. Cable{1}" device="0" subdevice="-1" obc="10" hex0="80" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0152 00a9 0012 0055 0012 00aa 0012 0055 0012 00aa 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 00aa 0012 00aa 0012 0055 0013 04c9</ccf>
+    </code>
+    <code name="CBL_MUTE" codeno="0x000000000000F008">
+      <decoding protocol="G.I. Cable{1}" device="0" subdevice="-1" obc="15" hex0="240" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0152 00a9 0012 00aa 0012 00aa 0012 00aa 0012 00aa 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 00aa 0012 0055 0012 0055 0012 0055 0013 0474</ccf>
+    </code>
+    <code name="CBL_PAGE+" codeno="0x0000000000005C0C">
+      <decoding protocol="G.I. Cable{1}" device="0" subdevice="-1" obc="58" hex0="92" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0152 00a9 0012 0055 0012 00aa 0012 0055 0012 00aa 0012 00aa 0012 00aa 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 00aa 0012 00aa 0012 0055 0012 0055 0013 0420</ccf>
+    </code>
+    <code name="CBL_PAGE-" codeno="0x000000000000DC04">
+      <decoding protocol="G.I. Cable{1}" device="0" subdevice="-1" obc="59" hex0="220" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0152 00a9 0012 00aa 0012 00aa 0012 0055 0012 00aa 0012 00aa 0012 00aa 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 00aa 0012 0055 0012 0055 0013 0420</ccf>
+    </code>
+    <code name="CBL_LOCK" codeno="0x0000000000006809">
+      <decoding protocol="G.I. Cable{1}" device="0" subdevice="-1" obc="22" hex0="104" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0152 00a9 0012 0055 0012 00aa 0012 00aa 0012 0055 0012 00aa 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 00aa 0012 0055 0012 0055 0012 00aa 0013 0474</ccf>
+    </code>
+    <code name="KEY_EXIT" codeno="0x000000000000480B">
+      <decoding protocol="G.I. Cable{1}" device="0" subdevice="-1" obc="18" hex0="72" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0152 00a9 0012 0055 0012 00aa 0012 0055 0012 0055 0012 00aa 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 00aa 0012 0055 0012 00aa 0012 00aa 0013 0474</ccf>
+    </code>
+    <code name="CBL_INFO" codeno="0x000000000000CC05">
+      <decoding protocol="G.I. Cable{1}" device="0" subdevice="-1" obc="51" hex0="204" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0152 00a9 0012 00aa 0012 00aa 0012 0055 0012 0055 0012 00aa 0012 00aa 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 00aa 0012 0055 0012 00aa 0013 0420</ccf>
+    </code>
+    <code name="CBL_UP" codeno="0x0000000000002C09">
+      <decoding protocol="G.I. Cable{1}" device="0" subdevice="-1" obc="52" hex0="44" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0152 00a9 0012 0055 0012 0055 0012 00aa 0012 0055 0012 00aa 0012 00aa 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 00aa 0012 0055 0012 0055 0012 00aa 0013 0474</ccf>
+    </code>
+    <code name="CBL_LEFT" codeno="0x0000000000006C0E">
+      <decoding protocol="G.I. Cable{1}" device="0" subdevice="-1" obc="54" hex0="108" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0152 00a9 0012 0055 0012 00aa 0012 00aa 0012 0055 0012 00aa 0012 00aa 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 00aa 0012 00aa 0012 00aa 0012 0055 0013 03cb</ccf>
+    </code>
+    <code name="CBL_OK" codeno="0x0000000000008807">
+      <decoding protocol="G.I. Cable{1}" device="0" subdevice="-1" obc="17" hex0="136" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0152 00a9 0012 00aa 0012 0055 0012 0055 0012 0055 0012 00aa 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 00aa 0012 00aa 0012 00aa 0013 0474</ccf>
+    </code>
+    <code name="CBL_RIGHT" codeno="0x000000000000EC06">
+      <decoding protocol="G.I. Cable{1}" device="0" subdevice="-1" obc="55" hex0="236" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0152 00a9 0012 00aa 0012 00aa 0012 00aa 0012 0055 0012 00aa 0012 00aa 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 00aa 0012 00aa 0012 0055 0013 03cb</ccf>
+    </code>
+    <code name="CBL_GUIDE" codeno="0x0000000000000C0B">
+      <decoding protocol="G.I. Cable{1}" device="0" subdevice="-1" obc="48" hex0="12" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0152 00a9 0012 0055 0012 0055 0012 0055 0012 0055 0012 00aa 0012 00aa 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 00aa 0012 0055 0012 00aa 0012 00aa 0013 0474</ccf>
+    </code>
+    <code name="CBL_DOWN" codeno="0x000000000000AC01">
+      <decoding protocol="G.I. Cable{1}" device="0" subdevice="-1" obc="53" hex0="172" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0152 00a9 0012 00aa 0012 0055 0012 00aa 0012 0055 0012 00aa 0012 00aa 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 00aa 0013 0474</ccf>
+    </code>
+    <code name="CBL_MENU" codeno="0x0000000000009806">
+      <decoding protocol="G.I. Cable{1}" device="0" subdevice="-1" obc="25" hex0="152" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0152 00a9 0012 00aa 0012 0055 0012 0055 0012 00aa 0012 00aa 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 00aa 0012 00aa 0012 0055 0013 0474</ccf>
+    </code>
+    <code name="CBL_VOL+" codeno="0x000000000000B00C">
+      <decoding protocol="G.I. Cable{1}" device="0" subdevice="-1" obc="13" hex0="176" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0152 00a9 0012 00aa 0012 0055 0012 00aa 0012 00aa 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 00aa 0012 00aa 0012 0055 0012 0055 0013 0474</ccf>
+    </code>
+    <code name="CBL_VOL-" codeno="0x0000000000007004">
+      <decoding protocol="G.I. Cable{1}" device="0" subdevice="-1" obc="14" hex0="112" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0152 00a9 0012 0055 0012 00aa 0012 00aa 0012 00aa 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 00aa 0012 0055 0012 0055 0013 04c9</ccf>
+    </code>
+    <code name="CBL_LAST" codeno="0x000000000000C803">
+      <decoding protocol="G.I. Cable{1}" device="0" subdevice="-1" obc="19" hex0="200" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0152 00a9 0012 00aa 0012 00aa 0012 0055 0012 0055 0012 00aa 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 00aa 0012 00aa 0013 0474</ccf>
+    </code>
+    <code name="CBL_FAV" codeno="0x000000000000A805">
+      <decoding protocol="G.I. Cable{1}" device="0" subdevice="-1" obc="21" hex0="168" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0152 00a9 0012 00aa 0012 0055 0012 00aa 0012 0055 0012 00aa 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 00aa 0012 0055 0012 00aa 0013 0474</ccf>
+    </code>
+    <code name="CBL_CHAN+" codeno="0x000000000000D00A">
+      <decoding protocol="G.I. Cable{1}" device="0" subdevice="-1" obc="11" hex0="208" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0152 00a9 0012 00aa 0012 00aa 0012 0055 0012 00aa 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 00aa 0012 0055 0012 00aa 0012 0055 0013 0474</ccf>
+    </code>
+    <code name="CBL_CHAN-" codeno="0x0000000000003002">
+      <decoding protocol="G.I. Cable{1}" device="0" subdevice="-1" obc="12" hex0="48" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0152 00a9 0012 0055 0012 0055 0012 00aa 0012 00aa 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 00aa 0012 0055 0013 051d</ccf>
+    </code>
+    <code name="CBL_STOP" codeno="0x0000000000009C02">
+      <decoding protocol="G.I. Cable{1}" device="0" subdevice="-1" obc="57" hex0="156" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0152 00a9 0012 00aa 0012 0055 0012 0055 0012 00aa 0012 00aa 0012 00aa 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 00aa 0012 0055 0013 0474</ccf>
+    </code>
+    <code name="CBL_PAUSE" codeno="0x000000000000F800">
+      <decoding protocol="G.I. Cable{1}" device="0" subdevice="-1" obc="31" hex0="248" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0152 00a9 0012 00aa 0012 00aa 0012 00aa 0012 00aa 0012 00aa 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0013 0474</ccf>
+    </code>
+    <code name="CBL_PLAY" codeno="0x0000000000001C0A">
+      <decoding protocol="G.I. Cable{1}" device="0" subdevice="-1" obc="56" hex0="28" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0152 00a9 0012 0055 0012 0055 0012 0055 0012 00aa 0012 00aa 0012 00aa 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 00aa 0012 0055 0012 00aa 0012 0055 0013 0474</ccf>
+    </code>
+    <code name="CBL_REW" codeno="0x0000000000007808">
+      <decoding protocol="G.I. Cable{1}" device="0" subdevice="-1" obc="30" hex0="120" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0152 00a9 0012 0055 0012 00aa 0012 00aa 0012 00aa 0012 00aa 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 00aa 0012 0055 0012 0055 0012 0055 0013 0474</ccf>
+    </code>
+    <code name="CBL_REC" codeno="0x0000000000008C03">
+      <decoding protocol="G.I. Cable{1}" device="0" subdevice="-1" obc="49" hex0="140" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0152 00a9 0012 00aa 0012 0055 0012 0055 0012 0055 0012 00aa 0012 00aa 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 00aa 0012 00aa 0013 0474</ccf>
+    </code>
+    <code name="CBL_FF" codeno="0x000000000000B804">
+      <decoding protocol="G.I. Cable{1}" device="0" subdevice="-1" obc="29" hex0="184" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0152 00a9 0012 00aa 0012 0055 0012 00aa 0012 00aa 0012 00aa 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 00aa 0012 0055 0012 0055 0013 0474</ccf>
+    </code>
+    <code name="CBL_A" codeno="0x000000000000E801">
+      <decoding protocol="G.I. Cable{1}" device="0" subdevice="-1" obc="23" hex0="232" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0152 00a9 0012 00aa 0012 00aa 0012 00aa 0012 0055 0012 00aa 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 00aa 0013 0474</ccf>
+    </code>
+    <code name="CBL_B" codeno="0x000000000000E40E">
+      <decoding protocol="G.I. Cable{1}" device="0" subdevice="-1" obc="39" hex0="228" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0152 00a9 0012 00aa 0012 00aa 0012 00aa 0012 0055 0012 0055 0012 00aa 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 00aa 0012 00aa 0012 00aa 0012 0055 0013 03cb</ccf>
+    </code>
+    <code name="CBL_C" codeno="0x0000000000001406">
+      <decoding protocol="G.I. Cable{1}" device="0" subdevice="-1" obc="40" hex0="20" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0152 00a9 0012 0055 0012 0055 0012 0055 0012 00aa 0012 0055 0012 00aa 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 00aa 0012 00aa 0012 0055 0013 04c9</ccf>
+    </code>
+    <code name="CBL_1" codeno="0x000000000000800F">
+      <decoding protocol="G.I. Cable{1}" device="0" subdevice="-1" obc="1" hex0="128" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0152 00a9 0012 00aa 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 00aa 0012 00aa 0012 00aa 0012 00aa 0013 0474</ccf>
+    </code>
+    <code name="CBL_2" codeno="0x0000000000004007">
+      <decoding protocol="G.I. Cable{1}" device="0" subdevice="-1" obc="2" hex0="64" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0152 00a9 0012 0055 0012 00aa 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 00aa 0012 00aa 0012 00aa 0013 04c9</ccf>
+    </code>
+    <code name="CBL_3" codeno="0x000000000000C00B">
+      <decoding protocol="G.I. Cable{1}" device="0" subdevice="-1" obc="3" hex0="192" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0152 00a9 0012 00aa 0012 00aa 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 00aa 0012 0055 0012 00aa 0012 00aa 0013 0474</ccf>
+    </code>
+    <code name="CBL_4" codeno="0x0000000000002003">
+      <decoding protocol="G.I. Cable{1}" device="0" subdevice="-1" obc="4" hex0="32" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0152 00a9 0012 0055 0012 0055 0012 00aa 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 00aa 0012 00aa 0013 051d</ccf>
+    </code>
+    <code name="CBL_5" codeno="0x000000000000A00D">
+      <decoding protocol="G.I. Cable{1}" device="0" subdevice="-1" obc="5" hex0="160" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0152 00a9 0012 00aa 0012 0055 0012 00aa 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 00aa 0012 00aa 0012 0055 0012 00aa 0013 0474</ccf>
+    </code>
+    <code name="CBL_6" codeno="0x0000000000006005">
+      <decoding protocol="G.I. Cable{1}" device="0" subdevice="-1" obc="6" hex0="96" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0152 00a9 0012 0055 0012 00aa 0012 00aa 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 00aa 0012 0055 0012 00aa 0013 04c9</ccf>
+    </code>
+    <code name="CBL_7" codeno="0x000000000000E009">
+      <decoding protocol="G.I. Cable{1}" device="0" subdevice="-1" obc="7" hex0="224" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0152 00a9 0012 00aa 0012 00aa 0012 00aa 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 00aa 0012 0055 0012 0055 0012 00aa 0013 0474</ccf>
+    </code>
+    <code name="CBL_8" codeno="0x0000000000001001">
+      <decoding protocol="G.I. Cable{1}" device="0" subdevice="-1" obc="8" hex0="16" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0152 00a9 0012 0055 0012 0055 0012 0055 0012 00aa 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 00aa 0013 0572</ccf>
+    </code>
+    <code name="CBL_9" codeno="0x000000000000900E">
+      <decoding protocol="G.I. Cable{1}" device="0" subdevice="-1" obc="9" hex0="144" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0152 00a9 0012 00aa 0012 0055 0012 0055 0012 00aa 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 00aa 0012 00aa 0012 00aa 0012 0055 0013 0474</ccf>
+    </code>
+    <code name="CBL_0" codeno="0x0000000000000000">
+      <decoding protocol="G.I. Cable{1}" device="0" subdevice="-1" obc="0" hex0="0" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0152 00a9 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0013 061b</ccf>
+    </code>
+    <code name="CBL_BYPASS" codeno="0x000000000000280D">
+      <decoding protocol="G.I. Cable{1}" device="0" subdevice="-1" obc="20" hex0="40" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0152 00a9 0012 0055 0012 0055 0012 00aa 0012 0055 0012 00aa 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 00aa 0012 00aa 0012 0055 0012 00aa 0013 0474</ccf>
+    </code>
+    <code name="CBL_MUSIC" codeno="0x000000000000080F">
+      <decoding protocol="G.I. Cable{1}" device="0" subdevice="-1" obc="16" hex0="8" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0152 00a9 0012 0055 0012 0055 0012 0055 0012 0055 0012 00aa 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 0055 0012 00aa 0012 00aa 0012 00aa 0012 00aa 0013 0474</ccf>
+    </code>
+  </remote>
+</lircremotes>

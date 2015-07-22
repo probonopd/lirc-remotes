@@ -1,0 +1,179 @@
+<lircremotes creation-date="Wed Jul 22 23:04:07 2015" creator="" lircversion="0.8.6" lirc2xml_version="0.1.2" configfile="remotes/panasat/IRD_DSD_1110.lircd.conf" decodeir_version="2.40">
+  <remote name="Panasat_IRD_DSD_1110">
+    <lircdata type="RAW_CODES" bits="0" flags="1" eps="30" aeps="100" pthree="0" sthree="0" ptwo="0" stwo="0" pone="0" sone="0" pzero="0" szero="0" plead="0" ptrail="0" pfoot="0" sfoot="0" prepeat="0" srepeat="0" pre_data_bits="0" pre_data="0" post_data_bits="0" post_data="0" pre_p="0" pre_s="0" post_p="0" post_s="0" gap="81424" gap2="0" repeat_gap="0" toggle_bit="0" toggle_bit_mask="0" min_repeat="0" min_code_repeat="0" freq="38000" duty_cycle="0" toggle_mask="0" rc6_mask="0" baud="0" bits_in_byte="0" parity="0" stop_bits="0" ignore_mask="0"/>
+    <code name="KEY_POWER" codeno="0x0000000000000001">
+      <decoding protocol="XMP-1" device="71" subdevice="17" obc="15" hex0="15" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 000a 0022 0008 005d 0008 0022 0008 006c 0008 0033 0008 0031 000a 0031 0008 0043 0008 01ee 000a 0022 0008 006a 000a 001d 0008 0022 000a 001d 0008 006c 0008 001d 000a 001d 0008 0c16</ccf>
+    </code>
+    <code name="KEY_TV" codeno="0x0000000000000002">
+      <decoding protocol="XMP-1" device="71" subdevice="17" obc="80" hex0="80" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 000a 0022 0008 005d 000b 001e 0008 006c 000a 0031 0008 0031 000a 0031 0008 0043 0008 01ee 000a 0020 000a 004c 0008 001d 000a 0022 0008 0037 000a 001d 0008 001d 0008 001d 000a 0c16</ccf>
+    </code>
+    <code name="KEY_RIGHTALT" codeno="0x0000000000000003">
+      <decoding protocol="XMP-1" device="71" subdevice="17" obc="81" hex0="81" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 000a 0022 0008 005d 0008 0022 000a 006a 000a 0030 000a 0031 0008 0033 0008 0041 000a 01ec 000b 0020 0008 0048 0008 001e 0008 0020 000a 0037 000a 0020 0008 001d 000a 001d 0008 0c16</ccf>
+    </code>
+    <code name="KEY_PROGRAM" codeno="0x0000000000000004">
+      <decoding protocol="XMP-1" device="71" subdevice="17" obc="39" hex0="39" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 000a 0022 0008 005d 0008 0022 0008 006c 0008 0031 000a 0031 0008 0033 0008 0041 000a 01ec 000a 0022 0008 0037 000a 001d 0008 0022 000a 0026 000a 0041 0008 001d 000a 001d 0008 0c16</ccf>
+    </code>
+    <code name="KEY_MUTE" codeno="0x0000000000000005">
+      <decoding protocol="Gap-350-8125-17?" device="0" subdevice="1" obc="0" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 0.1.0" error=""/>
+      <ccf>0000 006d 0012 0000 000a 0022 000a 005b 000a 0020 0008 006c 0008 0031 000a 0031 0008 0033 0008 0041 000a 01ec 000b 0020 000a 0026 000a 001d 0008 0022 0008 001d 000a 005b 000d 0019 0008 001d 0008 0c16</ccf>
+    </code>
+    <code name="KEY_LANGUAGE" codeno="0x0000000000000006">
+      <decoding protocol="XMP-1" device="71" subdevice="17" obc="82" hex0="82" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 000a 0022 000a 005b 000b 001e 0008 006c 0008 0031 000a 0031 0008 0033 0008 0041 000a 01ec 000a 0022 000a 0041 0008 001d 000a 0022 0008 0037 0008 0028 0008 001d 000a 001d 0008 0c16</ccf>
+    </code>
+    <code name="KEY_INFO" codeno="0x0000000000000007">
+      <decoding protocol="XMP-1" device="71" subdevice="17" obc="143" hex0="143" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 000a 0022 0008 005d 0008 0022 0008 006c 0008 0031 000a 0031 0008 0031 000a 0041 000a 01ec 000a 0022 0008 0043 0008 001d 000a 0020 000a 0046 000a 006a 0008 001d 000a 001d 0008 0c16</ccf>
+    </code>
+    <code name="KEY_EXIT" codeno="0x0000000000000008">
+      <decoding protocol="XMP-1" device="71" subdevice="17" obc="142" hex0="142" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 000b 0020 0008 005d 0008 0022 0008 006c 0008 0031 000a 0031 0008 0033 0008 0041 000a 01ec 000a 0022 0008 0048 0008 001d 000a 0020 000a 0046 0008 0067 000b 001b 0008 001d 000a 0c16</ccf>
+    </code>
+    <code name="KEY_F1" codeno="0x0000000000000009">
+      <ccf>0000 006d 0001 0000 000b 0c16</ccf>
+    </code>
+    <code name="KEY_F2" codeno="0x000000000000000A">
+      <ccf>0000 006d 0001 0000 000f 0c16</ccf>
+    </code>
+    <code name="KEY_TEXT" codeno="0x000000000000000B">
+      <decoding protocol="XMP-1" device="72" subdevice="18" obc="89" hex0="89" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 000a 0022 0008 0052 000a 0026 000a 006a 000a 0031 0008 0031 000a 0031 0008 0046 000a 01ec 000a 0022 0008 006c 0008 001d 000a 0026 000a 0037 0008 004c 0008 001d 000a 001d 0008 0c16</ccf>
+    </code>
+    <code name="KEY_RADIO" codeno="0x000000000000000C">
+      <decoding protocol="Gap-350-8125-17?" device="0" subdevice="1" obc="0" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 0.1.0" error=""/>
+      <ccf>0000 006d 0012 0000 000a 0022 0008 0052 000a 0026 000a 006a 000a 0031 0008 0031 000a 0031 0008 0046 000d 01e8 000a 0022 0008 001d 000a 001d 0008 0028 0008 0037 000a 0046 0008 001d 000a 001d 0008 0c16</ccf>
+    </code>
+    <code name="KEY_EPG" codeno="0x000000000000000D">
+      <decoding protocol="Gap-400-8125-17?" device="0" subdevice="1" obc="0" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 0.1.0" error=""/>
+      <ccf>0000 006d 0012 0000 000a 0022 0008 0052 000f 0020 000a 006a 000a 0031 0008 0031 000a 0031 000a 0044 000a 01ec 000a 0022 000a 0030 000a 001d 0008 0028 0008 0028 0008 0043 0008 001d 000a 001d 000a 0c16</ccf>
+    </code>
+    <code name="KEY_UP" codeno="0x000000000000000E">
+      <decoding protocol="XMP-1" device="72" subdevice="18" obc="141" hex0="141" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 000a 0022 0008 0052 000a 0026 0008 006c 0008 0031 000a 0031 0008 0031 000a 0046 0008 01ee 000a 0020 000a 0046 0008 001d 000a 0026 000a 0046 0008 0061 000a 001d 0008 001d 000a 0c16</ccf>
+    </code>
+    <code name="KEY_DOWN" codeno="0x000000000000000F">
+      <decoding protocol="Gap-400-8125-17?" device="0" subdevice="1" obc="0" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 0.1.0" error=""/>
+      <ccf>0000 006d 0012 0000 000b 0020 0008 0052 000a 0026 0008 006c 000f 002c 0008 0031 0008 0033 0008 0046 000a 01ec 000a 0022 0008 0067 0008 001d 000a 0026 000a 0046 0008 0043 0008 001d 000a 001d 0008 0c16</ccf>
+    </code>
+    <code name="KEY_LEFT" codeno="0x0000000000000010">
+      <decoding protocol="XMP-1" device="72" subdevice="18" obc="140" hex0="140" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 000b 0020 000a 0050 000a 0026 000a 006a 000a 0031 000a 0030 000a 0031 000a 0044 0008 01f0 0008 0022 0008 004e 0008 001d 0008 0028 0008 0048 0006 005d 0008 001d 000a 001d 0008 0c16</ccf>
+    </code>
+    <code name="KEY_RIGHT" codeno="0x0000000000000011">
+      <decoding protocol="XMP-1" device="72" subdevice="18" obc="136" hex0="136" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 000a 0022 0008 0052 000a 0026 000a 006a 000a 0031 0008 0031 000a 0031 0008 0048 0008 01ec 000a 0022 0008 0061 000a 001d 0008 0028 0008 0046 000a 0046 0008 001d 000a 001d 000a 0c16</ccf>
+    </code>
+    <code name="KEY_OK" codeno="0x0000000000000012">
+      <decoding protocol="XMP:138.333-292F44481A028B00" device="-1" subdevice="-1" obc="-1" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: (Cor)" error=""/>
+      <ccf>0000 006d 0012 0000 000a 0024 0006 0052 000a 0026 000a 006a 000a 0031 0008 0031 000a 0031 000a 0044 000a 01ec 000b 0020 000a 0050 000a 001d 0008 0028 0008 0046 000a 0056 000a 001d 0008 001d 000a 0c16</ccf>
+    </code>
+    <code name="KEY_CHANNELUP" codeno="0x0000000000000013">
+      <decoding protocol="XMP-1" device="72" subdevice="18" obc="134" hex0="134" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 000a 0022 0008 0052 000a 0026 000a 006a 000a 0031 0008 0031 0008 0033 0008 0046 000a 01ec 000a 0022 000a 006a 0008 001d 000a 0028 0008 0046 0008 003d 0008 001d 000a 001d 0008 0c16</ccf>
+    </code>
+    <code name="KEY_CHANNELDOWN" codeno="0x0000000000000014">
+      <decoding protocol="Gap-400-8125-17?" device="0" subdevice="1" obc="0" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 0.1.0" error=""/>
+      <ccf>0000 006d 0012 0000 000a 0022 000a 0050 000a 0026 000a 006a 000f 002a 000b 0030 000a 0031 0008 0046 000a 01ec 000a 0022 000a 001b 000a 001d 0008 0028 0008 0048 0008 0037 0008 001e 0008 001d 000a 0c16</ccf>
+    </code>
+    <code name="KEY_VOLUMEUP" codeno="0x0000000000000015">
+      <decoding protocol="XMP-1" device="72" subdevice="18" obc="131" hex0="131" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 000a 0022 0008 0052 000a 0026 000a 006a 000a 0031 0008 0031 000a 0031 0008 0046 000a 01ec 000a 0022 0008 0028 0008 001d 000a 0026 000a 0046 0008 002e 0008 001d 000a 001d 0008 0c16</ccf>
+    </code>
+    <code name="KEY_VOLUMEDOWN" codeno="0x0000000000000016">
+      <decoding protocol="XMP-1" device="72" subdevice="18" obc="132" hex0="132" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 000a 0022 0008 0052 000a 0028 0008 006a 000a 0031 0008 0031 000a 0031 0008 0046 000a 01ec 000a 0022 0008 0022 000a 001d 0008 0028 0008 0046 000a 0031 000a 001b 000a 001d 0008 0c16</ccf>
+    </code>
+    <code name="KEY_RED" codeno="0x0000000000000017">
+      <decoding protocol="XMP-1" device="72" subdevice="18" obc="64" hex0="64" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 000b 0020 000a 0050 000a 0026 000a 006a 0008 0033 0008 0031 0008 0033 0008 0046 000a 01ec 000a 0022 0008 004c 0008 001d 000a 0026 000a 0031 0008 001e 0008 001d 0008 001d 000a 0c16</ccf>
+    </code>
+    <code name="KEY_BLUE" codeno="0x0000000000000018">
+      <decoding protocol="Gap-400-8125-17?" device="0" subdevice="1" obc="0" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 0.1.0" error=""/>
+      <ccf>0000 006d 0012 0000 000b 0020 000a 0050 000f 0020 000a 006a 000a 0031 0008 0031 000a 0031 000a 0044 000a 01ec 000a 0022 0008 0046 000a 001d 0008 0028 0008 0031 000a 0022 0008 001d 0008 001e 0008 0c16</ccf>
+    </code>
+    <code name="KEY_YELLOW" codeno="0x0000000000000019">
+      <decoding protocol="XMP-1" device="72" subdevice="18" obc="67" hex0="67" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 000b 0020 000a 0050 000a 0026 000a 006a 000a 0031 000a 0030 000a 0031 000a 0044 000a 01ec 000a 0022 000a 003b 000a 001b 000a 0026 000a 0031 000a 002a 000a 001d 000a 001b 000a 0c16</ccf>
+    </code>
+    <code name="KEY_GREEN" codeno="0x000000000000001A">
+      <decoding protocol="XMP-1" device="72" subdevice="18" obc="68" hex0="68" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 000b 0020 000a 0050 000a 0026 000a 006a 000a 0030 000a 0031 000a 0030 000a 0046 000a 01ec 000a 0020 000a 0037 000a 001d 0008 0026 000a 0031 000a 0031 0008 001d 000a 001b 000a 0c16</ccf>
+    </code>
+    <code name="KEY_STOP" codeno="0x000000000000001B">
+      <decoding protocol="XMP-1" device="72" subdevice="18" obc="48" hex0="48" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 000a 0022 0008 0052 000a 0026 000a 006a 0008 0033 0008 0031 000a 0031 0008 0046 000a 01ec 000a 0022 0008 0052 0008 001d 000a 0026 000a 002c 000a 001d 0008 001d 0008 001e 0008 0c16</ccf>
+    </code>
+    <code name="KEY_REWIND" codeno="0x000000000000001C">
+      <decoding protocol="XMP-1" device="72" subdevice="18" obc="49" hex0="49" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 000b 0020 000a 0050 000a 0026 000a 006a 000a 0031 000a 0031 0008 0031 000a 0044 000a 01ec 000a 0022 000a 004a 000a 001d 0008 0028 0008 002c 000a 0020 000a 001d 000a 001b 000a 0c16</ccf>
+    </code>
+    <code name="KEY_PLAYPAUSE" codeno="0x000000000000001D">
+      <decoding protocol="XMP-1" device="72" subdevice="18" obc="50" hex0="50" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 000a 0022 000a 0050 000a 0026 000a 006a 000a 0031 0008 0031 000a 0031 0008 0048 0008 01ec 000a 0022 0008 0046 000a 001d 0008 0028 0008 002e 0008 0028 000a 001b 0008 001e 0008 0c16</ccf>
+    </code>
+    <code name="KEY_FORWARD" codeno="0x000000000000001E">
+      <decoding protocol="XMP-1" device="72" subdevice="18" obc="51" hex0="51" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 000a 0022 000a 0050 000a 0026 000a 006a 000a 0030 000a 0031 000a 0030 000b 0044 000a 01ec 0008 0022 000a 0041 000a 001d 0008 0028 000a 002a 000a 002c 000a 001d 000a 001b 000a 0c16</ccf>
+    </code>
+    <code name="KEY_RECORD" codeno="0x000000000000001F">
+      <decoding protocol="XMP-1" device="72" subdevice="18" obc="52" hex0="52" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 000b 0020 000a 0050 000a 0026 000a 006a 000a 0031 0008 0031 000a 0031 000a 0044 000a 01ec 000a 0022 000a 003b 000a 001b 000a 0026 000a 002c 000a 0030 000a 001d 000a 001b 000a 0c16</ccf>
+    </code>
+    <code name="KEY_1" codeno="0x0000000000000020">
+      <decoding protocol="XMP-1" device="72" subdevice="18" obc="1" hex0="1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 000a 0022 0008 0052 000a 0026 000a 006a 0008 0033 0008 0031 0008 0033 0008 0046 000a 01ec 000a 0022 000a 0059 000a 001d 0008 0028 0008 001e 0008 0020 000a 001d 0008 001d 000a 0c16</ccf>
+    </code>
+    <code name="KEY_2" codeno="0x0000000000000021">
+      <decoding protocol="Gap-450-8125-17?" device="0" subdevice="1" obc="0" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 0.1.0" error=""/>
+      <ccf>0000 006d 0012 0000 000b 0020 000a 0050 000a 0026 000a 006a 000a 0031 0008 0031 0008 0033 0008 0046 000a 01ec 000a 0022 0008 0057 0011 0013 000a 0026 0008 001e 0008 0026 000a 001d 0008 001d 000a 0c16</ccf>
+    </code>
+    <code name="KEY_3" codeno="0x0000000000000022">
+      <decoding protocol="XMP-1" device="72" subdevice="18" obc="3" hex0="3" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 000a 0022 0008 0052 000a 0028 0008 006a 0008 0033 0008 0031 0008 0033 0008 0046 000a 01ec 000a 0022 0008 0052 0008 001d 000a 0028 0008 001d 0008 002c 000a 001d 0008 001d 000a 0c16</ccf>
+    </code>
+    <code name="KEY_4" codeno="0x0000000000000023">
+      <decoding protocol="XMP-1" device="72" subdevice="18" obc="4" hex0="4" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 000b 0020 000a 0050 0008 0028 000a 006a 000a 0031 0008 0033 0008 0031 000a 0044 0008 01ee 000a 0022 000a 004a 000a 001d 0008 0028 0008 001d 000a 0031 0008 001d 000a 001d 0008 0c16</ccf>
+    </code>
+    <code name="KEY_5" codeno="0x0000000000000024">
+      <decoding protocol="XMP-1" device="72" subdevice="18" obc="5" hex0="5" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 000b 0020 000a 0050 000a 0026 000a 006a 0008 0033 000a 0031 0008 0031 000a 0044 000a 01ec 000a 0022 000a 0044 000a 001d 000a 0026 000a 001b 000a 0035 000a 001d 000a 001b 000a 0c16</ccf>
+    </code>
+    <code name="KEY_6" codeno="0x0000000000000025">
+      <decoding protocol="XMP-1" device="72" subdevice="18" obc="6" hex0="6" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 000b 0020 000a 0050 000a 0026 000a 006a 000a 0030 000a 0031 000a 0031 0008 0046 0008 01ee 000a 0020 000a 0041 000a 001d 000a 0026 000a 001b 000a 003b 000a 001d 000a 001b 000a 0c16</ccf>
+    </code>
+    <code name="KEY_7" codeno="0x0000000000000026">
+      <decoding protocol="Gap-450-8125-17?" device="0" subdevice="1" obc="0" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 0.1.0" error=""/>
+      <ccf>0000 006d 0012 0000 000b 0020 0008 0052 000a 0026 000a 006a 0011 002a 0008 0031 0008 0033 0008 0046 000a 01ec 000a 0022 0008 003d 0008 001d 000a 0026 000a 001d 0008 0041 000a 001d 0008 001d 000a 0c16</ccf>
+    </code>
+    <code name="KEY_8" codeno="0x0000000000000027">
+      <decoding protocol="XMP-1" device="72" subdevice="18" obc="8" hex0="8" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 000b 0020 000a 0050 000a 0026 000a 006a 000a 0031 000a 0031 0008 0031 000a 0044 000a 01ec 000a 0022 000a 0035 000a 001d 0008 0028 0008 001d 000a 0046 000a 001b 000a 001d 0008 0c16</ccf>
+    </code>
+    <code name="KEY_9" codeno="0x0000000000000028">
+      <decoding protocol="XMP-1" device="72" subdevice="18" obc="9" hex0="9" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 000b 0020 0008 0052 000a 0026 000a 006a 0008 0031 000a 0031 000a 0031 0008 0046 000a 01ec 000a 0020 000a 0031 0008 001d 000a 0026 000a 001d 0008 004c 000a 001d 0008 001d 000a 0c16</ccf>
+    </code>
+    <code name="KEY_MENU" codeno="0x0000000000000029">
+      <decoding protocol="XMP-1" device="72" subdevice="18" obc="37" hex0="37" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 000a 0022 000a 0050 000a 0026 000a 006a 000a 0031 0008 0031 000a 0031 0008 0046 000a 01ec 000a 0022 0008 003d 0008 001d 000a 0026 000a 0026 000a 0035 000a 001d 0008 001d 000a 0c16</ccf>
+    </code>
+    <code name="KEY_0" codeno="0x000000000000002A">
+      <decoding protocol="Gap-350-8125-17?" device="0" subdevice="1" obc="0" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 0.1.0" error=""/>
+      <ccf>0000 006d 0012 0000 000a 0022 0008 0052 000d 0022 000a 006a 000a 0031 0008 0031 000a 0031 0008 0046 000a 01ec 000a 0022 0008 0061 0008 001e 0008 0026 000a 001d 0008 001d 000a 001d 0008 001d 000a 0c16</ccf>
+    </code>
+    <code name="KEY_HELP" codeno="0x000000000000002B">
+      <decoding protocol="XMP-1" device="72" subdevice="18" obc="83" hex0="83" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 000a 0022 0008 0052 000a 0026 0008 006c 0008 0031 000a 0031 0008 0031 000a 0046 0008 01ee 000a 0020 000a 0037 0008 001d 000a 0026 000a 0035 000a 002c 000a 001d 0008 001d 000a 0c16</ccf>
+    </code>
+    <code name="KEY_AUX" codeno="0x000000000000002C">
+      <decoding protocol="Gap-350-8125-17?" device="0" subdevice="1" obc="0" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 0.1.0" error=""/>
+      <ccf>0000 006d 0012 0000 000a 0022 000a 0050 000d 0022 000a 006a 000a 0030 000a 0031 0008 0031 000a 0046 000a 01ec 000a 0020 000a 0067 000d 0017 000a 0026 000a 0035 000a 0050 000a 001d 0008 001d 000a 0c16</ccf>
+    </code>
+  </remote>
+</lircremotes>

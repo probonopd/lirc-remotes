@@ -1,0 +1,46 @@
+<lircremotes creation-date="Wed Jul 22 23:04:11 2015" creator="" lircversion="0.8.6" lirc2xml_version="0.1.2" configfile="remotes/kanam_accent/IR-100.lircd.conf" decodeir_version="2.40">
+  <remote name="Kanam_Accent_IR-100">
+    <lircdata type="??" bits="32" flags="0" eps="30" aeps="100" pthree="0" sthree="0" ptwo="0" stwo="0" pone="0" sone="0" pzero="0" szero="0" plead="0" ptrail="0" pfoot="0" sfoot="0" prepeat="0" srepeat="0" pre_data_bits="24" pre_data="9455170" post_data_bits="8" post_data="0" pre_p="0" pre_s="0" post_p="0" post_s="0" gap="188500" gap2="0" repeat_gap="0" toggle_bit="0" toggle_bit_mask="0" min_repeat="0" min_code_repeat="0" freq="38000" duty_cycle="0" toggle_mask="0" rc6_mask="0" baud="0" bits_in_byte="0" parity="0" stop_bits="0" ignore_mask="0"/>
+    <failedcode name="KEY_POWER" codeno="0x0000000062260942" length="0"/>
+    <failedcode name="KEY_EJECTCD" codeno="0x0000000062662409" length="0"/>
+    <failedcode name="KEY_1" codeno="0x0000000062662209" length="0"/>
+    <failedcode name="KEY_2" codeno="0x0000000022642209" length="0"/>
+    <failedcode name="KEY_3" codeno="0x0000000062641142" length="0"/>
+    <failedcode name="KEY_4" codeno="0x0000000062644209" length="0"/>
+    <failedcode name="KEY_5" codeno="0x0000000022624209" length="0"/>
+    <failedcode name="KEY_6" codeno="0x0000000062629142" length="0"/>
+    <failedcode name="KEY_7" codeno="0x0000000062628942" length="0"/>
+    <failedcode name="KEY_8" codeno="0x0000000022646409" length="0"/>
+    <failedcode name="KEY_9" codeno="0x0000000062646609" length="0"/>
+    <failedcode name="KEY_0" codeno="0x0000000022464226" length="0"/>
+    <failedcode name="win_key" codeno="0x0000000062664226" length="0"/>
+    <failedcode name="menu_key" codeno="0x0000000062660942" length="0"/>
+    <failedcode name="KEY_VOLUMEDOWN" codeno="0x0000000022896642" length="0"/>
+    <failedcode name="KEY_VOLUMEUP" codeno="0x0000000062622609" length="0"/>
+    <failedcode name="KEY_ESC" codeno="0x0000000022662609" length="0"/>
+    <failedcode name="KEY_UP" codeno="0x0000000022916642" length="0"/>
+    <failedcode name="KEY_CLOSE" codeno="0x0000000022994642" length="0"/>
+    <failedcode name="KEY_LEFT" codeno="0x0000000022994242" length="0"/>
+    <failedcode name="ent" codeno="0x0000000022892642" length="0"/>
+    <failedcode name="KEY_RIGHT" codeno="0x0000000022914642" length="0"/>
+    <failedcode name="KEY_PREVIOUS" codeno="0x0000000062996242" length="0"/>
+    <failedcode name="KEY_DOWN" codeno="0x0000000022192699" length="0"/>
+    <failedcode name="KEY_NEXT" codeno="0x0000000022660942" length="0"/>
+    <failedcode name="KEY_MUTE" codeno="0x0000000022622409" length="0"/>
+    <failedcode name="step" codeno="0x0000000062994C42" length="0"/>
+    <failedcode name="KEY_PLAY" codeno="0x0000000022246426" length="0"/>
+    <failedcode name="KEY_STOP" codeno="0x000000006246894C" length="0"/>
+    <failedcode name="winamp" codeno="0x0000000062426409" length="0"/>
+    <failedcode name="mediaplayer" codeno="0x0000000022664409" length="0"/>
+    <failedcode name="hdtv" codeno="0x0000000022992642" length="0"/>
+    <failedcode name="cdplayer" codeno="0x0000000062664609" length="0"/>
+    <failedcode name="windvd" codeno="0x0000000062992299" length="0"/>
+    <failedcode name="KEY_POWER" codeno="0x0000000062912242" length="0"/>
+    <failedcode name="internet" codeno="0x0000000062264626" length="0"/>
+    <failedcode name="KEY_EMAIL" codeno="0x0000000022998C99" length="0"/>
+    <failedcode name="b1" codeno="0x0000000022264426" length="0"/>
+    <failedcode name="b2" codeno="0x0000000022426209" length="0"/>
+    <failedcode name="b3" codeno="0x0000000062896442" length="0"/>
+    <failedcode name="b4" codeno="0x0000000022096642" length="0"/>
+  </remote>
+</lircremotes>

@@ -1,0 +1,105 @@
+<lircremotes creation-date="Wed Jul 22 23:03:58 2015" creator="" lircversion="0.8.6" lirc2xml_version="0.1.2" configfile="remotes/sony/RMT-DRS11.lircd.conf" decodeir_version="2.40">
+  <remote name="sony_rmt_drs11">
+    <lircdata type="SPACE_ENC" bits="19" flags="16400" eps="30" aeps="100" pthree="0" sthree="0" ptwo="0" stwo="0" pone="1191" sone="615" pzero="589" szero="615" plead="0" ptrail="590" pfoot="0" sfoot="0" prepeat="0" srepeat="0" pre_data_bits="0" pre_data="0" post_data_bits="0" post_data="0" pre_p="0" pre_s="0" post_p="0" post_s="0" gap="45183" gap2="0" repeat_gap="0" toggle_bit="0" toggle_bit_mask="0" min_repeat="3" min_code_repeat="0" freq="38000" duty_cycle="0" toggle_mask="0" rc6_mask="0" baud="0" bits_in_byte="0" parity="0" stop_bits="0" ignore_mask="0"/>
+    <code name="KEY_POWER" codeno="0x00000000000549D2">
+      <decoding protocol="Sony20" device="25" subdevice="37" obc="21" hex0="168" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0015 0000 005b 0017 002d 0017 0016 0017 002d 0017 0016 0017 002d 0017 0016 0017 0016 0017 002d 0017 0016 0017 0016 0017 002d 0017 002d 0017 002d 0017 0016 0017 002d 0017 0016 0017 0016 0017 002d 0017 0016 0017 0016 01f9</ccf>
+    </code>
+    <code name="tc_reset" codeno="0x00000000000319D2">
+      <decoding protocol="Sony20" device="25" subdevice="37" obc="70" hex0="98" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0015 0000 005b 0017 0016 0017 002d 0017 002d 0017 0016 0017 0016 0017 0016 0017 002d 0017 002d 0017 0016 0017 0016 0017 002d 0017 002d 0017 002d 0017 0016 0017 002d 0017 0016 0017 0016 0017 002d 0017 0016 0017 0016 01f9</ccf>
+    </code>
+    <code name="display" codeno="0x000000000002D9D2">
+      <decoding protocol="Sony20" device="25" subdevice="37" obc="90" hex0="90" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0015 0000 005b 0017 0016 0017 002d 0017 0016 0017 002d 0017 002d 0017 0016 0017 002d 0017 002d 0017 0016 0017 0016 0017 002d 0017 002d 0017 002d 0017 0016 0017 002d 0017 0016 0017 0016 0017 002d 0017 0016 0017 0016 01e2</ccf>
+    </code>
+    <code name="datacode" codeno="0x00000000000199D1">
+      <decoding protocol="Sony20" device="25" subdevice="69" obc="76" hex0="50" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0015 0000 005b 0017 0016 0017 0016 0017 002d 0017 002d 0017 0016 0017 0016 0017 002d 0017 002d 0017 0016 0017 0016 0017 002d 0017 002d 0017 002d 0017 0016 0017 002d 0017 0016 0017 0016 0017 0016 0017 002d 0017 0016 01f9</ccf>
+    </code>
+    <code name="search_select" codeno="0x000000000005A9D1">
+      <decoding protocol="Sony20" device="25" subdevice="69" obc="45" hex0="180" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0015 0000 005b 0017 002d 0017 0016 0017 002d 0017 002d 0017 0016 0017 002d 0017 0016 0017 002d 0017 0016 0017 0016 0017 002d 0017 002d 0017 002d 0017 0016 0017 002d 0017 0016 0017 0016 0017 0016 0017 002d 0017 0016 01e2</ccf>
+    </code>
+    <code name="srch_rew" codeno="0x00000000000759D2">
+      <decoding protocol="Sony20" device="25" subdevice="37" obc="87" hex0="234" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0015 0000 005b 0017 002d 0017 002d 0017 002d 0017 0016 0017 002d 0017 0016 0017 002d 0017 002d 0017 0016 0017 0016 0017 002d 0017 002d 0017 002d 0017 0016 0017 002d 0017 0016 0017 0016 0017 002d 0017 0016 0017 0016 01cb</ccf>
+    </code>
+    <code name="srch_fwd" codeno="0x00000000000359D2">
+      <decoding protocol="Sony20" device="25" subdevice="37" obc="86" hex0="106" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0015 0000 005b 0017 0016 0017 002d 0017 002d 0017 0016 0017 002d 0017 0016 0017 002d 0017 002d 0017 0016 0017 0016 0017 002d 0017 002d 0017 002d 0017 0016 0017 002d 0017 0016 0017 0016 0017 002d 0017 0016 0017 0016 01e2</ccf>
+    </code>
+    <code name="KEY_MENU" codeno="0x00000000000599D2">
+      <decoding protocol="Sony20" device="25" subdevice="37" obc="77" hex0="178" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0015 0000 005b 0017 002d 0017 0016 0017 002d 0017 002d 0017 0016 0017 0016 0017 002d 0017 002d 0017 0016 0017 0016 0017 002d 0017 002d 0017 002d 0017 0016 0017 002d 0017 0016 0017 0016 0017 002d 0017 0016 0017 0016 01e2</ccf>
+    </code>
+    <code name="set" codeno="0x00000000000459D2">
+      <decoding protocol="Sony20" device="25" subdevice="37" obc="81" hex0="138" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0015 0000 005b 0017 002d 0017 0016 0017 0016 0017 0016 0017 002d 0017 0016 0017 002d 0017 002d 0017 0016 0017 0016 0017 002d 0017 002d 0017 002d 0017 0016 0017 002d 0017 0016 0017 0016 0017 002d 0017 0016 0017 0016 01f9</ccf>
+    </code>
+    <code name="KEY_UP" codeno="0x00000000000219D2">
+      <decoding protocol="Sony20" device="25" subdevice="37" obc="66" hex0="66" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0015 0000 005b 0017 0016 0017 002d 0017 0016 0017 0016 0017 0016 0017 0016 0017 002d 0017 002d 0017 0016 0017 0016 0017 002d 0017 002d 0017 002d 0017 0016 0017 002d 0017 0016 0017 0016 0017 002d 0017 0016 0017 0016 0210</ccf>
+    </code>
+    <code name="KEY_DOWN" codeno="0x00000000000619D2">
+      <decoding protocol="Sony20" device="25" subdevice="37" obc="67" hex0="194" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0015 0000 005b 0017 002d 0017 002d 0017 0016 0017 0016 0017 0016 0017 0016 0017 002d 0017 002d 0017 0016 0017 0016 0017 002d 0017 002d 0017 002d 0017 0016 0017 002d 0017 0016 0017 0016 0017 002d 0017 0016 0017 0016 01f9</ccf>
+    </code>
+    <code name="idx_rew" codeno="0x000000000000A9D2">
+      <decoding protocol="Sony20" device="25" subdevice="37" obc="40" hex0="20" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0015 0000 005b 0017 0016 0017 0016 0017 0016 0017 002d 0017 0016 0017 002d 0017 0016 0017 002d 0017 0016 0017 0016 0017 002d 0017 002d 0017 002d 0017 0016 0017 002d 0017 0016 0017 0016 0017 002d 0017 0016 0017 0016 0210</ccf>
+    </code>
+    <code name="idx_fwd" codeno="0x000000000004A9D2">
+      <decoding protocol="Sony20" device="25" subdevice="37" obc="41" hex0="148" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0015 0000 005b 0017 002d 0017 0016 0017 0016 0017 002d 0017 0016 0017 002d 0017 0016 0017 002d 0017 0016 0017 0016 0017 002d 0017 002d 0017 002d 0017 0016 0017 002d 0017 0016 0017 0016 0017 002d 0017 0016 0017 0016 01f9</ccf>
+    </code>
+    <code name="x10th" codeno="0x00000000000229D2">
+      <decoding protocol="Sony20" device="25" subdevice="37" obc="34" hex0="68" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0015 0000 005b 0017 0016 0017 002d 0017 0016 0017 0016 0017 0016 0017 002d 0017 0016 0017 002d 0017 0016 0017 0016 0017 002d 0017 002d 0017 002d 0017 0016 0017 002d 0017 0016 0017 0016 0017 002d 0017 0016 0017 0016 0210</ccf>
+    </code>
+    <code name="x3rd" codeno="0x00000000000629D2">
+      <decoding protocol="Sony20" device="25" subdevice="37" obc="35" hex0="196" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0015 0000 005b 0017 002d 0017 002d 0017 0016 0017 0016 0017 0016 0017 002d 0017 0016 0017 002d 0017 0016 0017 0016 0017 002d 0017 002d 0017 002d 0017 0016 0017 002d 0017 0016 0017 0016 0017 002d 0017 0016 0017 0016 01f9</ccf>
+    </code>
+    <code name="x1" codeno="0x00000000000669D2">
+      <decoding protocol="Sony20" device="25" subdevice="37" obc="51" hex0="204" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0015 0000 005b 0017 002d 0017 002d 0017 0016 0017 0016 0017 002d 0017 002d 0017 0016 0017 002d 0017 0016 0017 0016 0017 002d 0017 002d 0017 002d 0017 0016 0017 002d 0017 0016 0017 0016 0017 002d 0017 0016 0017 0016 01e2</ccf>
+    </code>
+    <code name="x2" codeno="0x00000000000149D2">
+      <decoding protocol="Sony20" device="25" subdevice="37" obc="20" hex0="40" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0015 0000 005b 0017 0016 0017 0016 0017 002d 0017 0016 0017 002d 0017 0016 0017 0016 0017 002d 0017 0016 0017 0016 0017 002d 0017 002d 0017 002d 0017 0016 0017 002d 0017 0016 0017 0016 0017 002d 0017 0016 0017 0016 0210</ccf>
+    </code>
+    <code name="frame_rew" codeno="0x00000000000069D2">
+      <decoding protocol="Sony20" device="25" subdevice="37" obc="48" hex0="12" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0015 0000 005b 0017 0016 0017 0016 0017 0016 0017 0016 0017 002d 0017 002d 0017 0016 0017 002d 0017 0016 0017 0016 0017 002d 0017 002d 0017 002d 0017 0016 0017 002d 0017 0016 0017 0016 0017 002d 0017 0016 0017 0016 0210</ccf>
+    </code>
+    <code name="frame_fwd" codeno="0x00000000000469D2">
+      <decoding protocol="Sony20" device="25" subdevice="37" obc="49" hex0="140" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0015 0000 005b 0017 002d 0017 0016 0017 0016 0017 0016 0017 002d 0017 002d 0017 0016 0017 002d 0017 0016 0017 0016 0017 002d 0017 002d 0017 002d 0017 0016 0017 002d 0017 0016 0017 0016 0017 002d 0017 0016 0017 0016 01f9</ccf>
+    </code>
+    <code name="KEY_PAUSE" codeno="0x000000000004C9D2">
+      <decoding protocol="Sony20" device="25" subdevice="37" obc="25" hex0="152" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0015 0000 005b 0017 002d 0017 0016 0017 0016 0017 002d 0017 002d 0017 0016 0017 0016 0017 002d 0017 0016 0017 0016 0017 002d 0017 002d 0017 002d 0017 0016 0017 002d 0017 0016 0017 0016 0017 002d 0017 0016 0017 0016 01f9</ccf>
+    </code>
+    <code name="KEY_RECORD" codeno="0x000000000005C9D2">
+      <decoding protocol="Sony20" device="25" subdevice="37" obc="29" hex0="184" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0015 0000 005b 0017 002d 0017 0016 0017 002d 0017 002d 0017 002d 0017 0016 0017 0016 0017 002d 0017 0016 0017 0016 0017 002d 0017 002d 0017 002d 0017 0016 0017 002d 0017 0016 0017 0016 0017 002d 0017 0016 0017 0016 01e2</ccf>
+    </code>
+    <code name="KEY_REWIND" codeno="0x000000000006C9D2">
+      <decoding protocol="Sony20" device="25" subdevice="37" obc="27" hex0="216" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0015 0000 005b 0017 002d 0017 002d 0017 0016 0017 002d 0017 002d 0017 0016 0017 0016 0017 002d 0017 0016 0017 0016 0017 002d 0017 002d 0017 002d 0017 0016 0017 002d 0017 0016 0017 0016 0017 002d 0017 0016 0017 0016 01e2</ccf>
+    </code>
+    <code name="KEY_PLAY" codeno="0x000000000002C9D2">
+      <decoding protocol="Sony20" device="25" subdevice="37" obc="26" hex0="88" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0015 0000 005b 0017 0016 0017 002d 0017 0016 0017 002d 0017 002d 0017 0016 0017 0016 0017 002d 0017 0016 0017 0016 0017 002d 0017 002d 0017 002d 0017 0016 0017 002d 0017 0016 0017 0016 0017 002d 0017 0016 0017 0016 01f9</ccf>
+    </code>
+    <code name="KEY_STOP" codeno="0x000000000000C9D2">
+      <decoding protocol="Sony20" device="25" subdevice="37" obc="24" hex0="24" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0015 0000 005b 0017 0016 0017 0016 0017 0016 0017 002d 0017 002d 0017 0016 0017 0016 0017 002d 0017 0016 0017 0016 0017 002d 0017 002d 0017 002d 0017 0016 0017 002d 0017 0016 0017 0016 0017 002d 0017 0016 0017 0016 0210</ccf>
+    </code>
+    <code name="KEY_FASTFORWARD" codeno="0x000000000001C9D2">
+      <decoding protocol="Sony20" device="25" subdevice="37" obc="28" hex0="56" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0015 0000 005b 0017 0016 0017 0016 0017 002d 0017 002d 0017 002d 0017 0016 0017 0016 0017 002d 0017 0016 0017 0016 0017 002d 0017 002d 0017 002d 0017 0016 0017 002d 0017 0016 0017 0016 0017 002d 0017 0016 0017 0016 01f9</ccf>
+    </code>
+  </remote>
+</lircremotes>

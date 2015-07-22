@@ -1,0 +1,117 @@
+<lircremotes creation-date="Wed Jul 22 23:04:14 2015" creator="" lircversion="0.8.6" lirc2xml_version="0.1.2" configfile="remotes/grundig/TP_750C.lircd.conf" decodeir_version="2.40">
+  <remote name="TP-750C">
+    <lircdata type="RC5" bits="10" flags="16386" eps="5" aeps="300" pthree="0" sthree="0" ptwo="0" stwo="0" pone="512" sone="512" pzero="512" szero="512" plead="0" ptrail="0" pfoot="0" sfoot="0" prepeat="0" srepeat="0" pre_data_bits="0" pre_data="0" post_data_bits="0" post_data="0" pre_p="0" pre_s="0" post_p="0" post_s="0" gap="115940" gap2="0" repeat_gap="0" toggle_bit="0" toggle_bit_mask="0" min_repeat="0" min_code_repeat="0" freq="38000" duty_cycle="0" toggle_mask="0" rc6_mask="0" baud="0" bits_in_byte="0" parity="0" stop_bits="0" ignore_mask="0"/>
+    <code name="KEY_SLEEP" codeno="0x000000000000017F">
+      <decoding protocol="Blaupunkt{body}" device="0" subdevice="-1" obc="2" hex0="160" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000a 0000 0013 0061 0013 0027 0027 0027 0013 0013 0013 0013 0013 0013 0013 0013 0013 0013 0013 0013 0013 0f3c</ccf>
+    </code>
+    <code name="KEY_1" codeno="0x00000000000000EF">
+      <decoding protocol="Blaupunkt{body}" device="0" subdevice="-1" obc="17" hex0="196" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000a 0000 0013 0061 0013 0013 0013 0027 0013 0013 0013 0013 0027 0027 0013 0013 0013 0013 0013 0013 0013 0f3c</ccf>
+    </code>
+    <code name="KEY_2" codeno="0x000000000000016F">
+      <decoding protocol="Blaupunkt{body}" device="0" subdevice="-1" obc="18" hex0="164" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0009 0000 0013 0061 0013 0027 0027 0027 0013 0013 0027 0027 0013 0013 0013 0013 0013 0013 0013 0f3c</ccf>
+    </code>
+    <code name="KEY_3" codeno="0x000000000000006F">
+      <decoding protocol="Blaupunkt{body}" device="0" subdevice="-1" obc="19" hex0="228" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000a 0000 0013 0061 0013 0013 0013 0013 0013 0027 0013 0013 0027 0027 0013 0013 0013 0013 0013 0013 0013 0f3c</ccf>
+    </code>
+    <code name="KEY_4" codeno="0x00000000000001AF">
+      <decoding protocol="Blaupunkt{body}" device="0" subdevice="-1" obc="20" hex0="148" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0009 0000 0013 0061 0013 0027 0013 0013 0027 0027 0027 0027 0013 0013 0013 0013 0013 0013 0013 0f3c</ccf>
+    </code>
+    <code name="KEY_5" codeno="0x00000000000000AF">
+      <decoding protocol="Blaupunkt{body}" device="0" subdevice="-1" obc="21" hex0="212" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0009 0000 0013 0061 0013 0013 0013 0027 0027 0027 0027 0027 0013 0013 0013 0013 0013 0013 0013 0f3c</ccf>
+    </code>
+    <code name="KEY_6" codeno="0x000000000000012F">
+      <decoding protocol="Blaupunkt{body}" device="0" subdevice="-1" obc="22" hex0="180" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0009 0000 0013 0061 0013 0027 0027 0013 0013 0027 0027 0027 0013 0013 0013 0013 0013 0013 0013 0f3c</ccf>
+    </code>
+    <code name="KEY_7" codeno="0x000000000000002F">
+      <decoding protocol="Blaupunkt{body}" device="0" subdevice="-1" obc="23" hex0="244" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000a 0000 0013 0061 0013 0013 0013 0013 0013 0013 0013 0027 0027 0027 0013 0013 0013 0013 0013 0013 0013 0f3c</ccf>
+    </code>
+    <code name="KEY_8" codeno="0x00000000000001CF">
+      <decoding protocol="Blaupunkt{body}" device="0" subdevice="-1" obc="24" hex0="140" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000a 0000 0013 0061 0013 0027 0013 0013 0013 0013 0027 0013 0013 0027 0013 0013 0013 0013 0013 0013 0013 0f3c</ccf>
+    </code>
+    <code name="KEY_9" codeno="0x00000000000000CF">
+      <decoding protocol="Blaupunkt{body}" device="0" subdevice="-1" obc="25" hex0="204" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000a 0000 0013 0061 0013 0013 0013 0027 0013 0013 0027 0013 0013 0027 0013 0013 0013 0013 0013 0013 0013 0f3c</ccf>
+    </code>
+    <code name="KEY_0" codeno="0x00000000000001EF">
+      <decoding protocol="Blaupunkt{body}" device="0" subdevice="-1" obc="16" hex0="132" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000a 0000 0013 0061 0013 0027 0013 0013 0013 0013 0013 0013 0027 0027 0013 0013 0013 0013 0013 0013 0013 0f3c</ccf>
+    </code>
+    <code name="KEY_I" codeno="0x0000000000000097">
+      <decoding protocol="Blaupunkt{body}" device="0" subdevice="-1" obc="45" hex0="218" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0009 0000 0013 0061 0013 0013 0013 0027 0027 0013 0013 0027 0027 0027 0013 0013 0013 0013 0013 0f3c</ccf>
+    </code>
+    <code name="KEY_MUTE" codeno="0x00000000000000FF">
+      <decoding protocol="Blaupunkt{body}" device="0" subdevice="-1" obc="1" hex0="192" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000b 0000 0013 0061 0013 0013 0013 0027 0013 0013 0013 0013 0013 0013 0013 0013 0013 0013 0013 0013 0013 0013 0013 0f3c</ccf>
+    </code>
+    <code name="prg+" codeno="0x0000000000000157">
+      <decoding protocol="Blaupunkt{body}" device="0" subdevice="-1" obc="42" hex0="170" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0008 0000 0013 0061 0013 0027 0027 0027 0027 0027 0027 0027 0013 0013 0013 0013 0013 0f3c</ccf>
+    </code>
+    <code name="KEY_OK" codeno="0x00000000000001FF">
+      <decoding protocol="Blaupunkt{body}" device="0" subdevice="-1" obc="0" hex0="128" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000b 0000 0013 0061 0013 0027 0013 0013 0013 0013 0013 0013 0013 0013 0013 0013 0013 0013 0013 0013 0013 0013 0013 0f3c</ccf>
+    </code>
+    <code name="prg-" codeno="0x0000000000000057">
+      <decoding protocol="Blaupunkt{body}" device="0" subdevice="-1" obc="43" hex0="234" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0009 0000 0013 0061 0013 0013 0013 0013 0013 0027 0027 0027 0027 0027 0013 0013 0013 0013 0013 0f3c</ccf>
+    </code>
+    <code name="KEY_VOLUMEDOWN" codeno="0x00000000000000DF">
+      <decoding protocol="Blaupunkt{body}" device="0" subdevice="-1" obc="9" hex0="200" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000a 0000 0013 0061 0013 0013 0013 0027 0013 0013 0027 0027 0013 0013 0013 0013 0013 0013 0013 0013 0013 0f3c</ccf>
+    </code>
+    <code name="KEY_VOLUMEUP" codeno="0x00000000000001DF">
+      <decoding protocol="Blaupunkt{body}" device="0" subdevice="-1" obc="8" hex0="136" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000a 0000 0013 0061 0013 0027 0013 0013 0013 0013 0027 0027 0013 0013 0013 0013 0013 0013 0013 0013 0013 0f3c</ccf>
+    </code>
+    <code name="KEY_AUX" codeno="0x000000000000003F">
+      <decoding protocol="Blaupunkt{body}" device="0" subdevice="-1" obc="7" hex0="240" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000b 0000 0013 0061 0013 0013 0013 0013 0013 0013 0013 0027 0013 0013 0013 0013 0013 0013 0013 0013 0013 0013 0013 0f3c</ccf>
+    </code>
+    <code name="KEY_TEXT" codeno="0x00000000000001E7">
+      <decoding protocol="Blaupunkt{body}" device="0" subdevice="-1" obc="48" hex0="134" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000a 0000 0013 0061 0013 0027 0013 0013 0013 0013 0013 0013 0027 0013 0013 0027 0013 0013 0013 0013 0013 0f3c</ccf>
+    </code>
+    <code name="KEY_RED" codeno="0x0000000000000147">
+      <decoding protocol="Blaupunkt{body}" device="0" subdevice="-1" obc="58" hex0="174" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0009 0000 0013 0061 0013 0027 0027 0027 0027 0013 0013 0013 0013 0027 0013 0013 0013 0013 0013 0f3c</ccf>
+    </code>
+    <code name="KEY_GREEN" codeno="0x0000000000000107">
+      <decoding protocol="Blaupunkt{body}" device="0" subdevice="-1" obc="62" hex0="190" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000a 0000 0013 0061 0013 0027 0027 0013 0013 0013 0013 0013 0013 0013 0013 0027 0013 0013 0013 0013 0013 0f3c</ccf>
+    </code>
+    <code name="KEY_YELLOW" codeno="0x0000000000000047">
+      <decoding protocol="Blaupunkt{body}" device="0" subdevice="-1" obc="59" hex0="238" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000a 0000 0013 0061 0013 0013 0013 0013 0013 0027 0027 0013 0013 0013 0013 0027 0013 0013 0013 0013 0013 0f3c</ccf>
+    </code>
+    <code name="KEY_BLUE" codeno="0x0000000000000117">
+      <decoding protocol="Blaupunkt{body}" device="0" subdevice="-1" obc="46" hex0="186" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0009 0000 0013 0061 0013 0027 0027 0013 0013 0013 0013 0027 0027 0027 0013 0013 0013 0013 0013 0f3c</ccf>
+    </code>
+    <code name="color-" codeno="0x000000000000009F">
+      <decoding protocol="Blaupunkt{body}" device="0" subdevice="-1" obc="13" hex0="216" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000a 0000 0013 0061 0013 0013 0013 0027 0027 0013 0013 0027 0013 0013 0013 0013 0013 0013 0013 0013 0013 0f3c</ccf>
+    </code>
+    <code name="color+" codeno="0x000000000000019F">
+      <decoding protocol="Blaupunkt{body}" device="0" subdevice="-1" obc="12" hex0="152" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000a 0000 0013 0061 0013 0027 0013 0013 0027 0013 0013 0027 0013 0013 0013 0013 0013 0013 0013 0013 0013 0f3c</ccf>
+    </code>
+    <code name="KEY_LIGHTS_TOGGLE" codeno="0x000000000000005F">
+      <decoding protocol="Blaupunkt{body}" device="0" subdevice="-1" obc="11" hex0="232" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000a 0000 0013 0061 0013 0013 0013 0013 0013 0027 0027 0027 0013 0013 0013 0013 0013 0013 0013 0013 0013 0f3c</ccf>
+    </code>
+    <code name="KEY_LIGHTS_TOGGLE" codeno="0x000000000000015F">
+      <decoding protocol="Blaupunkt{body}" device="0" subdevice="-1" obc="10" hex0="168" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0009 0000 0013 0061 0013 0027 0027 0027 0027 0027 0013 0013 0013 0013 0013 0013 0013 0013 0013 0f3c</ccf>
+    </code>
+  </remote>
+</lircremotes>

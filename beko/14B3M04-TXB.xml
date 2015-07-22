@@ -1,0 +1,117 @@
+<lircremotes creation-date="Wed Jul 22 23:04:17 2015" creator="" lircversion="0.8.6" lirc2xml_version="0.1.2" configfile="remotes/beko/14B3M04-TXB.lircd.conf" decodeir_version="2.40">
+  <remote name="Beko">
+    <lircdata type="RAW_CODES" bits="0" flags="1" eps="50" aeps="100" pthree="0" sthree="0" ptwo="0" stwo="0" pone="0" sone="0" pzero="0" szero="0" plead="0" ptrail="0" pfoot="0" sfoot="0" prepeat="0" srepeat="0" pre_data_bits="0" pre_data="0" post_data_bits="0" post_data="0" pre_p="0" pre_s="0" post_p="0" post_s="0" gap="52039" gap2="0" repeat_gap="0" toggle_bit="0" toggle_bit_mask="0" min_repeat="0" min_code_repeat="0" freq="38000" duty_cycle="0" toggle_mask="0" rc6_mask="0" baud="0" bits_in_byte="0" parity="0" stop_bits="0" ignore_mask="0"/>
+    <code name="1" codeno="0x0000000000000001">
+      <decoding protocol="RECS80" device="7" subdevice="-1" obc="17" hex0="184" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=1 (556/5056/7532)" error=""/>
+      <ccf>0000 006d 000c 0000 0013 010b 0015 0109 0015 010a 0015 010a 0014 010b 0014 00ac 0014 010b 0014 00ac 0014 00ab 0014 00ab 0014 010b 0014 07b9</ccf>
+    </code>
+    <code name="2" codeno="0x0000000000000002">
+      <decoding protocol="RECS80" device="7" subdevice="-1" obc="18" hex0="180" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=0 (571/5056/7544)" error=""/>
+      <ccf>0000 006d 000c 0000 0014 010b 0016 00a8 0016 010a 0015 010a 0015 010a 0016 00ab 0015 010a 0015 00aa 0015 00aa 0014 010c 0014 00aa 0015 07b9</ccf>
+    </code>
+    <code name="3" codeno="0x0000000000000003">
+      <decoding protocol="RECS80" device="7" subdevice="-1" obc="19" hex0="176" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=1 (560/5036/7509)" error=""/>
+      <ccf>0000 006d 000c 0000 0014 010a 0015 010a 0015 0109 0015 010b 0015 010a 0015 00aa 0015 010a 0014 00aa 0015 00ab 0014 010a 0014 010b 0014 07b9</ccf>
+    </code>
+    <code name="4" codeno="0x0000000000000004">
+      <decoding protocol="RECS80" device="7" subdevice="-1" obc="20" hex0="172" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=0 (553/5039/7532)" error=""/>
+      <ccf>0000 006d 000c 0000 0014 010c 0014 00aa 0015 010a 0015 010b 0015 010b 0015 00aa 0014 010b 0015 00ab 0014 010a 0014 00aa 0015 00aa 0014 07b9</ccf>
+    </code>
+    <code name="5" codeno="0x0000000000000005">
+      <decoding protocol="RECS80" device="7" subdevice="-1" obc="21" hex0="168" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=1 (568/5047/7530)" error=""/>
+      <ccf>0000 006d 000c 0000 0014 010b 0015 0109 0016 0109 0015 010a 0015 010a 0015 00aa 0015 0109 0016 00aa 0014 010a 0015 00aa 0014 010a 0014 07b9</ccf>
+    </code>
+    <code name="6" codeno="0x0000000000000006">
+      <decoding protocol="RECS80" device="7" subdevice="-1" obc="22" hex0="164" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=0 (560/5054/7537)" error=""/>
+      <ccf>0000 006d 000c 0000 0013 010c 0015 00a9 0015 010a 0015 010a 0015 010a 0015 00ab 0015 010a 0015 00a9 0014 010b 0014 010a 0015 00aa 0015 07b9</ccf>
+    </code>
+    <code name="7" codeno="0x0000000000000007">
+      <decoding protocol="RECS80" device="7" subdevice="-1" obc="23" hex0="160" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=1 (566/5041/7515)" error=""/>
+      <ccf>0000 006d 000c 0000 0014 010b 0015 010a 0015 0109 0015 010b 0015 0109 0016 00aa 0015 010a 0014 00ab 0014 010a 0014 010b 0015 010a 0015 07b9</ccf>
+    </code>
+    <code name="8" codeno="0x0000000000000008">
+      <decoding protocol="RECS80" device="7" subdevice="-1" obc="24" hex0="156" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=0 (565/5060/7511)" error=""/>
+      <ccf>0000 006d 000c 0000 0013 010b 0015 00aa 0015 0109 0015 010b 0015 010a 0015 00aa 0015 010a 0015 0109 0015 00ab 0014 00ab 0015 00aa 0014 07b9</ccf>
+    </code>
+    <code name="9" codeno="0x0000000000000009">
+      <decoding protocol="RECS80" device="7" subdevice="-1" obc="25" hex0="152" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=1 (570/5033/7523)" error=""/>
+      <ccf>0000 006d 000c 0000 0014 010a 0016 0109 0016 0108 0015 010b 0015 010a 0015 00aa 0015 010a 0014 010b 0014 00aa 0014 00ab 0014 010a 0015 07b9</ccf>
+    </code>
+    <code name="0" codeno="0x000000000000000A">
+      <decoding protocol="RECS80" device="7" subdevice="-1" obc="16" hex0="188" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=0 (571/5042/7523)" error=""/>
+      <ccf>0000 006d 000c 0000 0014 010b 0016 00a9 0015 0109 0015 010b 0015 010a 0015 00aa 0014 010a 0014 00aa 0015 00aa 0014 00ab 0014 00aa 0015 07b9</ccf>
+    </code>
+    <code name="Power" codeno="0x000000000000000B">
+      <decoding protocol="RECS80" device="7" subdevice="-1" obc="32" hex0="124" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=1 (579/5061/7507)" error=""/>
+      <ccf>0000 006d 000c 0000 0014 010b 0016 0107 0016 0109 0016 0109 0016 0109 0015 010a 0015 00ab 0015 00aa 0015 00aa 0015 00ab 0014 00aa 0015 07b9</ccf>
+    </code>
+    <code name="Nul_SP" codeno="0x000000000000000C">
+      <decoding protocol="RECS80" device="7" subdevice="-1" obc="43" hex0="80" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=0 (567/5034/7511)" error=""/>
+      <ccf>0000 006d 000c 0000 0014 010b 0016 00aa 0015 0108 0015 010b 0015 0108 0015 010b 0015 00aa 0015 010a 0015 00a9 0015 010b 0015 0109 0015 07b9</ccf>
+    </code>
+    <code name="Sleep" codeno="0x000000000000000D">
+      <decoding protocol="RECS80" device="7" subdevice="-1" obc="41" hex0="88" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=1 (565/5033/7528)" error=""/>
+      <ccf>0000 006d 000c 0000 0014 010b 0015 0109 0015 0109 0015 010b 0014 010a 0014 010b 0014 00ab 0015 010a 0015 00aa 0014 00ab 0014 010a 0014 07b9</ccf>
+    </code>
+    <code name="Pr+" codeno="0x000000000000000E">
+      <decoding protocol="RECS80" device="7" subdevice="-1" obc="28" hex0="140" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=0 (577/5059/7533)" error=""/>
+      <ccf>0000 006d 000c 0000 0014 010b 0016 00a8 0015 0109 0015 0109 0016 0109 0016 00aa 0015 0109 0015 010a 0015 010a 0015 00aa 0015 00aa 0015 07b9</ccf>
+    </code>
+    <code name="Pr-" codeno="0x000000000000000F">
+      <decoding protocol="RECS80" device="7" subdevice="-1" obc="27" hex0="144" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=1 (577/5033/7520)" error=""/>
+      <ccf>0000 006d 000c 0000 0014 010a 0016 0109 0016 0108 0015 010b 0016 0109 0016 00a9 0015 0109 0016 0109 0015 00a9 0015 010a 0015 0109 0015 07b9</ccf>
+    </code>
+    <code name="Vol+" codeno="0x0000000000000010">
+      <decoding protocol="RECS80" device="7" subdevice="-1" obc="36" hex0="108" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=0 (568/5038/7529)" error=""/>
+      <ccf>0000 006d 000c 0000 0014 010b 0015 00a9 0016 0109 0015 010a 0015 0109 0015 010a 0015 00aa 0015 00aa 0014 010b 0015 00ab 0015 00aa 0015 07b9</ccf>
+    </code>
+    <code name="Vol-" codeno="0x0000000000000011">
+      <decoding protocol="RECS80" device="7" subdevice="-1" obc="37" hex0="104" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=1 (584/5048/7523)" error=""/>
+      <ccf>0000 006d 000c 0000 0014 010a 0016 0108 0016 0108 0016 010a 0016 0108 0016 010a 0016 00aa 0015 00a9 0015 010a 0015 00ab 0015 0109 0015 07b9</ccf>
+    </code>
+    <code name="TV/TX" codeno="0x0000000000000012">
+      <decoding protocol="RECS80" device="7" subdevice="-1" obc="49" hex0="56" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=0 (568/5033/7523)" error=""/>
+      <ccf>0000 006d 000c 0000 0014 010b 0015 00a9 0015 0108 0016 010a 0016 0109 0016 010a 0015 010a 0015 00aa 0015 00a9 0015 00ab 0014 010a 0015 07b9</ccf>
+    </code>
+    <code name="PP" codeno="0x0000000000000013">
+      <decoding protocol="RECS80" device="7" subdevice="-1" obc="35" hex0="112" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=1 (583/5044/7522)" error=""/>
+      <ccf>0000 006d 000c 0000 0014 010b 0015 0109 0016 0108 0015 010b 0015 0109 0016 010a 0016 00aa 0015 00aa 0015 00a9 0015 010a 0015 0109 0015 07b9</ccf>
+    </code>
+    <code name="White" codeno="0x0000000000000014">
+      <decoding protocol="RECS80" device="7" subdevice="-1" obc="38" hex0="100" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=0 (578/5036/7530)" error=""/>
+      <ccf>0000 006d 000c 0000 0013 010b 0016 00a8 0015 0109 0016 010a 0016 0108 0016 0109 0016 00aa 0015 00aa 0015 010a 0015 010a 0015 00aa 0015 07b9</ccf>
+    </code>
+    <code name="Red" codeno="0x0000000000000015">
+      <decoding protocol="RECS80" device="7" subdevice="-1" obc="44" hex0="76" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=1 (573/5056/7508)" error=""/>
+      <ccf>0000 006d 000c 0000 0014 0109 0016 0109 0016 0108 0015 010b 0015 0109 0015 010b 0015 00a9 0015 0109 0015 010a 0015 00ab 0015 00aa 0014 07b9</ccf>
+    </code>
+    <code name="Green" codeno="0x0000000000000016">
+      <decoding protocol="RECS80" device="7" subdevice="-1" obc="46" hex0="68" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=0 (568/5028/7520)" error=""/>
+      <ccf>0000 006d 000c 0000 0014 010b 0016 00a9 0015 0108 0015 010a 0016 0109 0015 010a 0015 00aa 0015 0109 0015 0109 0015 010a 0016 00a9 0015 07b9</ccf>
+    </code>
+    <code name="Yellow" codeno="0x0000000000000017">
+      <decoding protocol="RECS80" device="7" subdevice="-1" obc="51" hex0="48" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=1 (578/5035/7523)" error=""/>
+      <ccf>0000 006d 000c 0000 0014 010b 0015 0108 0016 0109 0016 0109 0015 010a 0016 010a 0015 0109 0015 00aa 0015 00aa 0014 010a 0015 010a 0015 07b9</ccf>
+    </code>
+    <code name="Blue" codeno="0x0000000000000018">
+      <decoding protocol="RECS80" device="7" subdevice="-1" obc="47" hex0="64" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=0 (580/5024/7510)" error=""/>
+      <ccf>0000 006d 000c 0000 0014 010b 0016 00a9 0016 0108 0016 010a 0016 0108 0015 010a 0015 00aa 0015 0109 0015 010a 0015 010a 0015 010a 0016 07b9</ccf>
+    </code>
+    <code name="Stop" codeno="0x0000000000000019">
+      <decoding protocol="RECS80" device="7" subdevice="-1" obc="6" hex0="228" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=1 (574/5052/7523)" error=""/>
+      <ccf>0000 006d 000c 0000 0014 010a 0016 0109 0016 0108 0016 010a 0016 0109 0016 00aa 0015 00ab 0015 00a9 0015 010a 0015 010a 0015 00aa 0015 07b9</ccf>
+    </code>
+    <code name="Rev" codeno="0x000000000000001A">
+      <decoding protocol="RECS80" device="7" subdevice="-1" obc="14" hex0="196" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=0 (572/5061/7527)" error=""/>
+      <ccf>0000 006d 000c 0000 0014 010c 0015 00a8 0016 0109 0015 010a 0016 0109 0016 00ab 0015 00aa 0015 0109 0015 0109 0015 010a 0015 00aa 0014 07b9</ccf>
+    </code>
+    <code name="Doub" codeno="0x000000000000001B">
+      <decoding protocol="RECS80" device="7" subdevice="-1" obc="7" hex0="224" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=1 (569/5037/7530)" error=""/>
+      <ccf>0000 006d 000c 0000 0014 010b 0016 0109 0016 0109 0015 010a 0016 010a 0015 00aa 0015 00aa 0015 00a9 0015 010a 0014 010b 0015 0109 0015 07b9</ccf>
+    </code>
+    <code name="Mix" codeno="0x000000000000001C">
+      <decoding protocol="RECS80" device="7" subdevice="-1" obc="10" hex0="212" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=0 (581/5037/7546)" error=""/>
+      <ccf>0000 006d 000c 0000 0014 010b 0015 00a9 0016 0109 0015 010a 0016 0109 0016 00aa 0015 00a9 0015 010a 0015 00aa 0014 010b 0015 00aa 0015 07b9</ccf>
+    </code>
+  </remote>
+</lircremotes>

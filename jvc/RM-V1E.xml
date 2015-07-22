@@ -1,0 +1,45 @@
+<lircremotes creation-date="Wed Jul 22 23:04:11 2015" creator="" lircversion="0.8.6" lirc2xml_version="0.1.2" configfile="remotes/jvc/RM-V1E.lircd.conf" decodeir_version="2.40">
+  <remote name="JVC_RM-V1E">
+    <lircdata type="SPACE_ENC" bits="8" flags="20496" eps="30" aeps="100" pthree="0" sthree="0" ptwo="0" stwo="0" pone="587" sone="1524" pzero="587" szero="470" plead="0" ptrail="587" pfoot="0" sfoot="0" prepeat="0" srepeat="0" pre_data_bits="8" pre_data="194" post_data_bits="0" post_data="0" pre_p="0" pre_s="0" post_p="0" post_s="0" gap="46141" gap2="0" repeat_gap="0" toggle_bit="0" toggle_bit_mask="0" min_repeat="8" min_code_repeat="0" freq="38000" duty_cycle="0" toggle_mask="0" rc6_mask="0" baud="0" bits_in_byte="0" parity="0" stop_bits="0" ignore_mask="0"/>
+    <code name="KEY_POWER" codeno="0x00000000000000D0">
+      <decoding protocol="JVC" device="67" subdevice="-1" obc="11" hex0="47" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0145 009d 0016 003a 0016 003a 0016 0012 0016 0012 0016 0012 0016 0012 0016 003a 0016 0012 0016 003a 0016 003a 0016 0012 0016 003a 0016 0012 0016 0012 0016 0012 0016 0012 0016 0350</ccf>
+    </code>
+    <code name="KEY_CHANNELUP" codeno="0x0000000000000098">
+      <decoding protocol="JVC" device="67" subdevice="-1" obc="25" hex0="103" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0145 009d 0016 003a 0016 003a 0016 0012 0016 0012 0016 0012 0016 0012 0016 003a 0016 0012 0016 003a 0016 0012 0016 0012 0016 003a 0016 003a 0016 0012 0016 0012 0016 0012 0016 0350</ccf>
+    </code>
+    <code name="KEY_CHANNELDOWN" codeno="0x0000000000000018">
+      <decoding protocol="JVC" device="67" subdevice="-1" obc="24" hex0="231" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0145 009d 0016 003a 0016 003a 0016 0012 0016 0012 0016 0012 0016 0012 0016 003a 0016 0012 0016 0012 0016 0012 0016 0012 0016 003a 0016 003a 0016 0012 0016 0012 0016 0012 0016 0378</ccf>
+    </code>
+    <code name="KEY_PLAY" codeno="0x0000000000000030">
+      <decoding protocol="JVC" device="67" subdevice="-1" obc="12" hex0="207" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0145 009d 0016 003a 0016 003a 0016 0012 0016 0012 0016 0012 0016 0012 0016 003a 0016 0012 0016 0012 0016 0012 0016 003a 0016 003a 0016 0012 0016 0012 0016 0012 0016 0012 0016 0378</ccf>
+    </code>
+    <code name="KEY_STOP" codeno="0x00000000000000C0">
+      <decoding protocol="JVC" device="67" subdevice="-1" obc="3" hex0="63" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0145 009d 0016 003a 0016 003a 0016 0012 0016 0012 0016 0012 0016 0012 0016 003a 0016 0012 0016 003a 0016 003a 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0378</ccf>
+    </code>
+    <code name="KEY_PAUSE" codeno="0x00000000000000B0">
+      <decoding protocol="JVC" device="67" subdevice="-1" obc="13" hex0="79" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0145 009d 0016 003a 0016 003a 0016 0012 0016 0012 0016 0012 0016 0012 0016 003a 0016 0012 0016 003a 0016 0012 0016 003a 0016 003a 0016 0012 0016 0012 0016 0012 0016 0012 0016 0350</ccf>
+    </code>
+    <code name="KEY_SEARCH" codeno="0x0000000000000069">
+      <decoding protocol="JVC" device="67" subdevice="-1" obc="150" hex0="150" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0145 009d 0016 003a 0016 003a 0016 0012 0016 0012 0016 0012 0016 0012 0016 003a 0016 0012 0016 0012 0016 003a 0016 003a 0016 0012 0016 003a 0016 0012 0016 0012 0016 003a 0016 0328</ccf>
+    </code>
+    <code name="KEY_FORWARD" codeno="0x0000000000000060">
+      <decoding protocol="JVC" device="67" subdevice="-1" obc="6" hex0="159" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0145 009d 0016 003a 0016 003a 0016 0012 0016 0012 0016 0012 0016 0012 0016 003a 0016 0012 0016 0012 0016 003a 0016 003a 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0378</ccf>
+    </code>
+    <code name="KEY_REWIND" codeno="0x00000000000000E0">
+      <decoding protocol="JVC" device="67" subdevice="-1" obc="7" hex0="31" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0145 009d 0016 003a 0016 003a 0016 0012 0016 0012 0016 0012 0016 0012 0016 003a 0016 0012 0016 003a 0016 003a 0016 003a 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0350</ccf>
+    </code>
+    <code name="KEY_RECORD" codeno="0x0000000000000033">
+      <decoding protocol="JVC" device="67" subdevice="-1" obc="204" hex0="204" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0012 0000 0145 009d 0016 003a 0016 003a 0016 0012 0016 0012 0016 0012 0016 0012 0016 003a 0016 0012 0016 0012 0016 0012 0016 003a 0016 003a 0016 0012 0016 0012 0016 003a 0016 003a 0016 0328</ccf>
+    </code>
+  </remote>
+</lircremotes>

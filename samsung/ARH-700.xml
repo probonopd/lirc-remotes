@@ -1,0 +1,53 @@
+<lircremotes creation-date="Wed Jul 22 23:04:01 2015" creator="" lircversion="0.8.6" lirc2xml_version="0.1.2" configfile="remotes/samsung/ARH-700.lircd.conf" decodeir_version="2.40">
+  <remote name="ARH-700">
+    <lircdata type="SPACE_ENC" bits="8" flags="16400" eps="30" aeps="100" pthree="0" sthree="0" ptwo="0" stwo="0" pone="647" sone="1595" pzero="647" szero="475" plead="0" ptrail="651" pfoot="0" sfoot="0" prepeat="0" srepeat="0" pre_data_bits="12" pre_data="2052" post_data_bits="0" post_data="0" pre_p="0" pre_s="0" post_p="0" post_s="0" gap="59834" gap2="0" repeat_gap="0" toggle_bit="0" toggle_bit_mask="0" min_repeat="1" min_code_repeat="0" freq="38000" duty_cycle="0" toggle_mask="0" rc6_mask="0" baud="0" bits_in_byte="0" parity="0" stop_bits="0" ignore_mask="0"/>
+    <code name="TIMER" codeno="0x00000000000000A4">
+      <decoding protocol="Samsung20" device="1" subdevice="8" obc="37" hex0="164" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0016 0000 00ae 00a6 0019 003d 0019 0012 0019 0012 0019 0012 0019 0012 0019 0012 0019 0012 0019 0012 0019 0012 0019 003d 0019 0012 0019 0012 0019 003d 0019 0012 0019 003d 0019 0012 0019 0012 0019 003d 0019 0012 0019 0012 0019 034b</ccf>
+    </code>
+    <code name="KEY_SLEEP" codeno="0x00000000000000E4">
+      <decoding protocol="Samsung20" device="1" subdevice="8" obc="39" hex0="228" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0016 0000 00ae 00a6 0019 003d 0019 0012 0019 0012 0019 0012 0019 0012 0019 0012 0019 0012 0019 0012 0019 0012 0019 003d 0019 0012 0019 0012 0019 003d 0019 003d 0019 003d 0019 0012 0019 0012 0019 003d 0019 0012 0019 0012 0019 0321</ccf>
+    </code>
+    <code name="TEMP+" codeno="0x000000000000004C">
+      <decoding protocol="Samsung20" device="1" subdevice="8" obc="50" hex0="76" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0016 0000 00ae 00a6 0019 003d 0019 0012 0019 0012 0019 0012 0019 0012 0019 0012 0019 0012 0019 0012 0019 0012 0019 003d 0019 0012 0019 0012 0019 0012 0019 003d 0019 0012 0019 0012 0019 003d 0019 003d 0019 0012 0019 0012 0019 034b</ccf>
+    </code>
+    <code name="TEMP-" codeno="0x000000000000008C">
+      <decoding protocol="Samsung20" device="1" subdevice="8" obc="49" hex0="140" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0016 0000 00ae 00a6 0019 003d 0019 0012 0019 0012 0019 0012 0019 0012 0019 0012 0019 0012 0019 0012 0019 0012 0019 003d 0019 0012 0019 0012 0019 003d 0019 0012 0019 0012 0019 0012 0019 003d 0019 003d 0019 0012 0019 0012 0019 034b</ccf>
+    </code>
+    <code name="FAN" codeno="0x000000000000009C">
+      <decoding protocol="Samsung20" device="1" subdevice="8" obc="57" hex0="156" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0016 0000 00ae 00a6 0019 003d 0019 0012 0019 0012 0019 0012 0019 0012 0019 0012 0019 0012 0019 0012 0019 0012 0019 003d 0019 0012 0019 0012 0019 003d 0019 0012 0019 0012 0019 003d 0019 003d 0019 003d 0019 0012 0019 0012 0019 0321</ccf>
+    </code>
+    <code name="COOL" codeno="0x000000000000003C">
+      <decoding protocol="Samsung20" device="1" subdevice="8" obc="60" hex0="60" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0016 0000 00ae 00a6 0019 003d 0019 0012 0019 0012 0019 0012 0019 0012 0019 0012 0019 0012 0019 0012 0019 0012 0019 003d 0019 0012 0019 0012 0019 0012 0019 0012 0019 003d 0019 003d 0019 003d 0019 003d 0019 0012 0019 0012 0019 0321</ccf>
+    </code>
+    <code name="HEAT" codeno="0x000000000000005C">
+      <decoding protocol="Samsung20" device="1" subdevice="8" obc="58" hex0="92" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0016 0000 00ae 00a6 0019 003d 0019 0012 0019 0012 0019 0012 0019 0012 0019 0012 0019 0012 0019 0012 0019 0012 0019 003d 0019 0012 0019 0012 0019 0012 0019 003d 0019 0012 0019 003d 0019 003d 0019 003d 0019 0012 0019 0012 0019 0321</ccf>
+    </code>
+    <code name="FAN_HIGH" codeno="0x00000000000000EC">
+      <decoding protocol="Samsung20" device="1" subdevice="8" obc="55" hex0="236" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0016 0000 00ae 00a6 0019 003d 0019 0012 0019 0012 0019 0012 0019 0012 0019 0012 0019 0012 0019 0012 0019 0012 0019 003d 0019 0012 0019 0012 0019 003d 0019 003d 0019 003d 0019 0012 0019 003d 0019 003d 0019 0012 0019 0012 0019 02f6</ccf>
+    </code>
+    <code name="FAN_MED" codeno="0x000000000000006C">
+      <decoding protocol="Samsung20" device="1" subdevice="8" obc="54" hex0="108" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0016 0000 00ae 00a6 0019 003d 0019 0012 0019 0012 0019 0012 0019 0012 0019 0012 0019 0012 0019 0012 0019 0012 0019 003d 0019 0012 0019 0012 0019 0012 0019 003d 0019 003d 0019 0012 0019 003d 0019 003d 0019 0012 0019 0012 0019 0321</ccf>
+    </code>
+    <code name="FAN_LOW" codeno="0x00000000000000AC">
+      <decoding protocol="Samsung20" device="1" subdevice="8" obc="53" hex0="172" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0016 0000 00ae 00a6 0019 003d 0019 0012 0019 0012 0019 0012 0019 0012 0019 0012 0019 0012 0019 0012 0019 0012 0019 003d 0019 0012 0019 0012 0019 003d 0019 0012 0019 003d 0019 0012 0019 003d 0019 003d 0019 0012 0019 0012 0019 0321</ccf>
+    </code>
+    <code name="SWING" codeno="0x0000000000000094">
+      <decoding protocol="Samsung20" device="1" subdevice="8" obc="41" hex0="148" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0016 0000 00ae 00a6 0019 003d 0019 0012 0019 0012 0019 0012 0019 0012 0019 0012 0019 0012 0019 0012 0019 0012 0019 003d 0019 0012 0019 0012 0019 003d 0019 0012 0019 0012 0019 003d 0019 0012 0019 003d 0019 0012 0019 0012 0019 034b</ccf>
+    </code>
+    <code name="KEY_POWER" codeno="0x00000000000000FC">
+      <decoding protocol="Samsung20" device="1" subdevice="8" obc="63" hex0="252" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0016 0000 00ae 00a6 0019 003d 0019 0012 0019 0012 0019 0012 0019 0012 0019 0012 0019 0012 0019 0012 0019 0012 0019 003d 0019 0012 0019 0012 0019 003d 0019 003d 0019 003d 0019 003d 0019 003d 0019 003d 0019 0012 0019 0012 0019 02cc</ccf>
+    </code>
+  </remote>
+</lircremotes>

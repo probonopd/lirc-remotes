@@ -1,0 +1,106 @@
+<lircremotes creation-date="Wed Jul 22 23:04:05 2015" creator="" lircversion="0.8.6" lirc2xml_version="0.1.2" configfile="remotes/panasonic/VSQ0407.lircd.conf" decodeir_version="2.40">
+  <remote name="Panasonic_VSQ0407">
+    <lircdata type="SPACE_ENC" bits="22" flags="16400" eps="30" aeps="100" pthree="0" sthree="0" ptwo="0" stwo="0" pone="962" sone="2696" pzero="962" szero="866" plead="0" ptrail="961" pfoot="0" sfoot="0" prepeat="0" srepeat="0" pre_data_bits="0" pre_data="0" post_data_bits="0" post_data="0" pre_p="0" pre_s="0" post_p="0" post_s="0" gap="109750" gap2="0" repeat_gap="0" toggle_bit="0" toggle_bit_mask="0" min_repeat="1" min_code_repeat="0" freq="38000" duty_cycle="0" toggle_mask="0" rc6_mask="0" baud="0" bits_in_byte="0" parity="0" stop_bits="0" ignore_mask="0"/>
+    <code name="VTR" codeno="0x0000000000100DFE">
+      <decoding protocol="Panasonic_Old" device="2" subdevice="-1" obc="32" hex0="7" hex1="6" hex2="5" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0018 0000 008e 0089 0025 0021 0025 0066 0025 0021 0025 0021 0025 0021 0025 0021 0025 0021 0025 0021 0025 0021 0025 0021 0025 0066 0025 0066 0025 0021 0025 0066 0025 0066 0025 0066 0025 0066 0025 0066 0025 0066 0025 0066 0025 0066 0025 0021 0025 061a</ccf>
+    </code>
+    <code name="KEY_1" codeno="0x00000000001015FD">
+      <decoding protocol="Panasonic_Old" device="2" subdevice="-1" obc="16" hex0="11" hex1="10" hex2="9" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0018 0000 008e 0089 0025 0021 0025 0066 0025 0021 0025 0021 0025 0021 0025 0021 0025 0021 0025 0021 0025 0021 0025 0066 0025 0021 0025 0066 0025 0021 0025 0066 0025 0066 0025 0066 0025 0066 0025 0066 0025 0066 0025 0066 0025 0021 0025 0066 0025 061a</ccf>
+    </code>
+    <code name="KEY_2" codeno="0x00000000001115DD">
+      <decoding protocol="Async8:867-975:78.57..77.F7" device="215" subdevice="221" obc="215" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 78 57 57 D7 DD D7 77 F7" error=""/>
+      <decoding protocol="Panasonic_Old" device="2" subdevice="-1" obc="17" hex0="139" hex1="138" hex2="137" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0018 0000 008e 0089 0025 0021 0025 0066 0025 0021 0025 0021 0025 0021 0025 0066 0025 0021 0025 0021 0025 0021 0025 0066 0025 0021 0025 0066 0025 0021 0025 0066 0025 0066 0025 0066 0025 0021 0025 0066 0025 0066 0025 0066 0025 0021 0025 0066 0025 061a</ccf>
+    </code>
+    <code name="KEY_3" codeno="0x00000000001095ED">
+      <decoding protocol="Async8:867-975:78.57..77.F7" device="215" subdevice="221" obc="119" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 78 57 5D D7 DD 77 77 F7" error=""/>
+      <decoding protocol="Panasonic_Old" device="2" subdevice="-1" obc="18" hex0="75" hex1="74" hex2="73" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0018 0000 008e 0089 0025 0021 0025 0066 0025 0021 0025 0021 0025 0021 0025 0021 0025 0066 0025 0021 0025 0021 0025 0066 0025 0021 0025 0066 0025 0021 0025 0066 0025 0066 0025 0066 0025 0066 0025 0021 0025 0066 0025 0066 0025 0021 0025 0066 0025 061a</ccf>
+    </code>
+    <code name="KEY_4" codeno="0x00000000001195CD">
+      <decoding protocol="Panasonic_Old" device="2" subdevice="-1" obc="19" hex0="203" hex1="202" hex2="201" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0018 0000 008e 0089 0025 0021 0025 0066 0025 0021 0025 0021 0025 0021 0025 0066 0025 0066 0025 0021 0025 0021 0025 0066 0025 0021 0025 0066 0025 0021 0025 0066 0025 0066 0025 0066 0025 0021 0025 0021 0025 0066 0025 0066 0025 0021 0025 0066 0025 061a</ccf>
+    </code>
+    <code name="KEY_5" codeno="0x00000000001055F5">
+      <decoding protocol="Panasonic_Old" device="2" subdevice="-1" obc="20" hex0="43" hex1="42" hex2="41" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0018 0000 008e 0089 0025 0021 0025 0066 0025 0021 0025 0021 0025 0021 0025 0021 0025 0021 0025 0066 0025 0021 0025 0066 0025 0021 0025 0066 0025 0021 0025 0066 0025 0066 0025 0066 0025 0066 0025 0066 0025 0021 0025 0066 0025 0021 0025 0066 0025 061a</ccf>
+    </code>
+    <code name="KEY_6" codeno="0x00000000001155D5">
+      <decoding protocol="Panasonic_Old" device="2" subdevice="-1" obc="21" hex0="171" hex1="170" hex2="169" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0018 0000 008e 0089 0025 0021 0025 0066 0025 0021 0025 0021 0025 0021 0025 0066 0025 0021 0025 0066 0025 0021 0025 0066 0025 0021 0025 0066 0025 0021 0025 0066 0025 0066 0025 0066 0025 0021 0025 0066 0025 0021 0025 0066 0025 0021 0025 0066 0025 061a</ccf>
+    </code>
+    <code name="KEY_7" codeno="0x000000000010D5E5">
+      <decoding protocol="Panasonic_Old" device="2" subdevice="-1" obc="22" hex0="107" hex1="106" hex2="105" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0018 0000 008e 0089 0025 0021 0025 0066 0025 0021 0025 0021 0025 0021 0025 0021 0025 0066 0025 0066 0025 0021 0025 0066 0025 0021 0025 0066 0025 0021 0025 0066 0025 0066 0025 0066 0025 0066 0025 0021 0025 0021 0025 0066 0025 0021 0025 0066 0025 061a</ccf>
+    </code>
+    <code name="KEY_8" codeno="0x000000000011D5C5">
+      <decoding protocol="Panasonic_Old" device="2" subdevice="-1" obc="23" hex0="235" hex1="234" hex2="233" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0018 0000 008e 0089 0025 0021 0025 0066 0025 0021 0025 0021 0025 0021 0025 0066 0025 0066 0025 0066 0025 0021 0025 0066 0025 0021 0025 0066 0025 0021 0025 0066 0025 0066 0025 0066 0025 0021 0025 0021 0025 0021 0025 0066 0025 0021 0025 0066 0025 061a</ccf>
+    </code>
+    <code name="KEY_9" codeno="0x00000000001035F9">
+      <decoding protocol="Panasonic_Old" device="2" subdevice="-1" obc="24" hex0="27" hex1="26" hex2="25" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0018 0000 008e 0089 0025 0021 0025 0066 0025 0021 0025 0021 0025 0021 0025 0021 0025 0021 0025 0021 0025 0066 0025 0066 0025 0021 0025 0066 0025 0021 0025 0066 0025 0066 0025 0066 0025 0066 0025 0066 0025 0066 0025 0021 0025 0021 0025 0066 0025 061a</ccf>
+    </code>
+    <code name="KEY_0" codeno="0x00000000001135D9">
+      <decoding protocol="Panasonic_Old" device="2" subdevice="-1" obc="25" hex0="155" hex1="154" hex2="153" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0018 0000 008e 0089 0025 0021 0025 0066 0025 0021 0025 0021 0025 0021 0025 0066 0025 0021 0025 0021 0025 0066 0025 0066 0025 0021 0025 0066 0025 0021 0025 0066 0025 0066 0025 0066 0025 0021 0025 0066 0025 0066 0025 0021 0025 0021 0025 0066 0025 061a</ccf>
+    </code>
+    <code name="KEY_1" codeno="0x000000000010B5E9">
+      <decoding protocol="Panasonic_Old" device="2" subdevice="-1" obc="26" hex0="91" hex1="90" hex2="89" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0018 0000 008e 0089 0025 0021 0025 0066 0025 0021 0025 0021 0025 0021 0025 0021 0025 0066 0025 0021 0025 0066 0025 0066 0025 0021 0025 0066 0025 0021 0025 0066 0025 0066 0025 0066 0025 0066 0025 0021 0025 0066 0025 0021 0025 0021 0025 0066 0025 061a</ccf>
+    </code>
+    <code name="KEY_2" codeno="0x000000000011B5C9">
+      <decoding protocol="Async8:867-975:78.57..5D.F7" device="119" subdevice="215" obc="119" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 78 57 77 77 D7 77 5D F7" error=""/>
+      <decoding protocol="Panasonic_Old" device="2" subdevice="-1" obc="27" hex0="219" hex1="218" hex2="217" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0018 0000 008e 0089 0025 0021 0025 0066 0025 0021 0025 0021 0025 0021 0025 0066 0025 0066 0025 0021 0025 0066 0025 0066 0025 0021 0025 0066 0025 0021 0025 0066 0025 0066 0025 0066 0025 0021 0025 0021 0025 0066 0025 0021 0025 0021 0025 0066 0025 061a</ccf>
+    </code>
+    <code name="KEY_3" codeno="0x00000000001075F1">
+      <decoding protocol="Panasonic_Old" device="2" subdevice="-1" obc="28" hex0="59" hex1="58" hex2="57" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0018 0000 008e 0089 0025 0021 0025 0066 0025 0021 0025 0021 0025 0021 0025 0021 0025 0021 0025 0066 0025 0066 0025 0066 0025 0021 0025 0066 0025 0021 0025 0066 0025 0066 0025 0066 0025 0066 0025 0066 0025 0021 0025 0021 0025 0021 0025 0066 0025 061a</ccf>
+    </code>
+    <code name="KEY_4" codeno="0x00000000001175D1">
+      <decoding protocol="Async8:867-975:78.57..57.F7" device="119" subdevice="215" obc="119" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 78 57 D7 77 D7 77 57 F7" error=""/>
+      <decoding protocol="Panasonic_Old" device="2" subdevice="-1" obc="29" hex0="187" hex1="186" hex2="185" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0018 0000 008e 0089 0025 0021 0025 0066 0025 0021 0025 0021 0025 0021 0025 0066 0025 0021 0025 0066 0025 0066 0025 0066 0025 0021 0025 0066 0025 0021 0025 0066 0025 0066 0025 0066 0025 0021 0025 0066 0025 0021 0025 0021 0025 0021 0025 0066 0025 061a</ccf>
+    </code>
+    <code name="KEY_5" codeno="0x000000000010F5E1">
+      <decoding protocol="Panasonic_Old" device="2" subdevice="-1" obc="30" hex0="123" hex1="122" hex2="121" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0018 0000 008e 0089 0025 0021 0025 0066 0025 0021 0025 0021 0025 0021 0025 0021 0025 0066 0025 0066 0025 0066 0025 0066 0025 0021 0025 0066 0025 0021 0025 0066 0025 0066 0025 0066 0025 0066 0025 0021 0025 0021 0025 0021 0025 0021 0025 0066 0025 061a</ccf>
+    </code>
+    <code name="KEY_6" codeno="0x000000000011F5C1">
+      <decoding protocol="Panasonic_Old" device="2" subdevice="-1" obc="31" hex0="251" hex1="250" hex2="249" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0018 0000 008e 0089 0025 0021 0025 0066 0025 0021 0025 0021 0025 0021 0025 0066 0025 0066 0025 0066 0025 0066 0025 0066 0025 0021 0025 0066 0025 0021 0025 0066 0025 0066 0025 0066 0025 0021 0025 0021 0025 0021 0025 0021 0025 0021 0025 0066 0025 061a</ccf>
+    </code>
+    <code name="KEY_RECORD" codeno="0x00000000001025FB">
+      <decoding protocol="Panasonic_Old" device="2" subdevice="-1" obc="8" hex0="19" hex1="18" hex2="17" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0018 0000 008e 0089 0025 0021 0025 0066 0025 0021 0025 0021 0025 0021 0025 0021 0025 0021 0025 0021 0025 0066 0025 0021 0025 0021 0025 0066 0025 0021 0025 0066 0025 0066 0025 0066 0025 0066 0025 0066 0025 0066 0025 0021 0025 0066 0025 0066 0025 061a</ccf>
+    </code>
+    <code name="KEY_REWIND" codeno="0x00000000001085EF">
+      <decoding protocol="Panasonic_Old" device="2" subdevice="-1" obc="2" hex0="67" hex1="66" hex2="65" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0018 0000 008e 0089 0025 0021 0025 0066 0025 0021 0025 0021 0025 0021 0025 0021 0025 0066 0025 0021 0025 0021 0025 0021 0025 0021 0025 0066 0025 0021 0025 0066 0025 0066 0025 0066 0025 0066 0025 0021 0025 0066 0025 0066 0025 0066 0025 0066 0025 061a</ccf>
+    </code>
+    <code name="KEY_FASTFORWARD" codeno="0x00000000001185CF">
+      <decoding protocol="Panasonic_Old" device="2" subdevice="-1" obc="3" hex0="195" hex1="194" hex2="193" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0018 0000 008e 0089 0025 0021 0025 0066 0025 0021 0025 0021 0025 0021 0025 0066 0025 0066 0025 0021 0025 0021 0025 0021 0025 0021 0025 0066 0025 0021 0025 0066 0025 0066 0025 0066 0025 0021 0025 0021 0025 0066 0025 0066 0025 0066 0025 0066 0025 061a</ccf>
+    </code>
+    <code name="PAUSE/STILL" codeno="0x000000000010C5E7">
+      <decoding protocol="Async8:867-975:78.57..DD.F7" device="213" subdevice="221" obc="119" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 78 57 DD D5 DD 77 DD F7" error=""/>
+      <decoding protocol="Panasonic_Old" device="2" subdevice="-1" obc="6" hex0="99" hex1="98" hex2="97" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0018 0000 008e 0089 0025 0021 0025 0066 0025 0021 0025 0021 0025 0021 0025 0021 0025 0066 0025 0066 0025 0021 0025 0021 0025 0021 0025 0066 0025 0021 0025 0066 0025 0066 0025 0066 0025 0066 0025 0021 0025 0021 0025 0066 0025 0066 0025 0066 0025 061a</ccf>
+    </code>
+    <code name="STILL_ADV" codeno="0x00000000001065F3">
+      <decoding protocol="Panasonic_Old" device="2" subdevice="-1" obc="12" hex0="51" hex1="50" hex2="49" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0018 0000 008e 0089 0025 0021 0025 0066 0025 0021 0025 0021 0025 0021 0025 0021 0025 0021 0025 0066 0025 0066 0025 0021 0025 0021 0025 0066 0025 0021 0025 0066 0025 0066 0025 0066 0025 0066 0025 0066 0025 0021 0025 0021 0025 0066 0025 0066 0025 061a</ccf>
+    </code>
+    <code name="KEY_PLAY" codeno="0x000000000010A5EB">
+      <decoding protocol="Panasonic_Old" device="2" subdevice="-1" obc="10" hex0="83" hex1="82" hex2="81" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0018 0000 008e 0089 0025 0021 0025 0066 0025 0021 0025 0021 0025 0021 0025 0021 0025 0066 0025 0021 0025 0066 0025 0021 0025 0021 0025 0066 0025 0021 0025 0066 0025 0066 0025 0066 0025 0066 0025 0021 0025 0066 0025 0021 0025 0066 0025 0066 0025 061a</ccf>
+    </code>
+    <code name="KEY_STOP" codeno="0x00000000001005FF">
+      <decoding protocol="Panasonic_Old" device="2" subdevice="-1" obc="0" hex0="3" hex1="2" hex2="1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0018 0000 008e 0089 0025 0021 0025 0066 0025 0021 0025 0021 0025 0021 0025 0021 0025 0021 0025 0021 0025 0021 0025 0021 0025 0021 0025 0066 0025 0021 0025 0066 0025 0066 0025 0066 0025 0066 0025 0066 0025 0066 0025 0066 0025 0066 0025 0066 0025 061a</ccf>
+    </code>
+  </remote>
+</lircremotes>

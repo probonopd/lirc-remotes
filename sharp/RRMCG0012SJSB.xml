@@ -1,0 +1,113 @@
+<lircremotes creation-date="Wed Jul 22 23:04:00 2015" creator="" lircversion="0.8.6" lirc2xml_version="0.1.2" configfile="remotes/sharp/RRMCG0012SJSB.lircd.conf" decodeir_version="2.40">
+  <remote name="Sharp_RRMCG0012SJSB">
+    <lircdata type="SPACE_ENC" bits="15" flags="16400" eps="30" aeps="100" pthree="0" sthree="0" ptwo="0" stwo="0" pone="275" sone="1829" pzero="275" szero="776" plead="0" ptrail="275" pfoot="0" sfoot="0" prepeat="0" srepeat="0" pre_data_bits="0" pre_data="0" post_data_bits="0" post_data="0" pre_p="0" pre_s="0" post_p="0" post_s="0" gap="67350" gap2="0" repeat_gap="0" toggle_bit="0" toggle_bit_mask="0" min_repeat="0" min_code_repeat="0" freq="38000" duty_cycle="0" toggle_mask="1023" rc6_mask="0" baud="0" bits_in_byte="0" parity="0" stop_bits="0" ignore_mask="0"/>
+    <code name="KEY_POWER" codeno="0x00000000000011A2">
+      <decoding protocol="Sharp{1}" device="4" subdevice="-1" obc="22" hex0="104" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 000a 001d 000a 001d 000a 0046 000a 001d 000a 001d 000a 001d 000a 0046 000a 0046 000a 001d 000a 0046 000a 001d 000a 001d 000a 001d 000a 0046 000a 001d 000a 06d6</ccf>
+    </code>
+    <code name="KEY_VOLUMEDOWN" codeno="0x00000000000012A2">
+      <decoding protocol="Sharp{2}" device="4" subdevice="-1" obc="21" hex0="168" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 000a 001d 000a 001d 000a 0046 000a 001d 000a 001d 000a 001d 000a 0046 000a 001d 000a 0046 000a 001d 000a 0046 000a 0046 000a 0046 000a 001d 000a 0046 000a 0686</ccf>
+    </code>
+    <code name="KEY_VOLUMEUP" codeno="0x00000000000010A2">
+      <decoding protocol="Sharp{1}" device="4" subdevice="-1" obc="20" hex0="40" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 000a 001d 000a 001d 000a 0046 000a 001d 000a 001d 000a 001d 000a 001d 000a 0046 000a 001d 000a 0046 000a 001d 000a 001d 000a 001d 000a 0046 000a 001d 000a 06fe</ccf>
+    </code>
+    <code name="KEY_CD" codeno="0x0000000000001362">
+      <decoding protocol="Sharp{2}" device="4" subdevice="-1" obc="27" hex0="216" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 000a 001d 000a 001d 000a 0046 000a 001d 000a 001d 000a 001d 000a 001d 000a 0046 000a 001d 000a 001d 000a 0046 000a 0046 000a 0046 000a 001d 000a 0046 000a 06ae</ccf>
+    </code>
+    <code name="KEY_TUNER" codeno="0x00000000000011B2">
+      <decoding protocol="Sharp{1}" device="4" subdevice="-1" obc="54" hex0="108" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 000a 001d 000a 001d 000a 0046 000a 001d 000a 001d 000a 001d 000a 0046 000a 0046 000a 001d 000a 0046 000a 0046 000a 001d 000a 001d 000a 0046 000a 001d 000a 06ae</ccf>
+    </code>
+    <code name="KEY_TAPE" codeno="0x0000000000001162">
+      <decoding protocol="Sharp{2}" device="4" subdevice="-1" obc="26" hex0="88" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 000a 001d 000a 001d 000a 0046 000a 001d 000a 001d 000a 0046 000a 001d 000a 0046 000a 001d 000a 001d 000a 0046 000a 0046 000a 0046 000a 001d 000a 0046 000a 0686</ccf>
+    </code>
+    <code name="BASS-" codeno="0x000000000000101A">
+      <decoding protocol="Sharp{1}" device="4" subdevice="-1" obc="96" hex0="6" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 000a 001d 000a 001d 000a 0046 000a 001d 000a 001d 000a 001d 000a 001d 000a 001d 000a 001d 000a 001d 000a 0046 000a 0046 000a 001d 000a 0046 000a 001d 000a 06fe</ccf>
+    </code>
+    <code name="BASS+" codeno="0x000000000000121A">
+      <decoding protocol="Sharp{2}" device="4" subdevice="-1" obc="97" hex0="134" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 000a 001d 000a 001d 000a 0046 000a 001d 000a 001d 000a 001d 000a 0046 000a 0046 000a 0046 000a 0046 000a 001d 000a 001d 000a 0046 000a 001d 000a 0046 000a 0686</ccf>
+    </code>
+    <code name="TREBLE-" codeno="0x00000000000010AA">
+      <decoding protocol="Sharp{1}" device="4" subdevice="-1" obc="84" hex0="42" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 000a 001d 000a 001d 000a 0046 000a 001d 000a 001d 000a 001d 000a 001d 000a 0046 000a 001d 000a 0046 000a 001d 000a 0046 000a 001d 000a 0046 000a 001d 000a 06d6</ccf>
+    </code>
+    <code name="TREBLE+" codeno="0x00000000000012AA">
+      <decoding protocol="Sharp{2}" device="4" subdevice="-1" obc="85" hex0="170" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 000a 001d 000a 001d 000a 0046 000a 001d 000a 001d 000a 001d 000a 0046 000a 001d 000a 0046 000a 001d 000a 0046 000a 001d 000a 0046 000a 001d 000a 0046 000a 06ae</ccf>
+    </code>
+    <code name="KEY_SLEEP" codeno="0x0000000000001046">
+      <decoding protocol="Sharp{1}" device="4" subdevice="-1" obc="136" hex0="17" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 000a 001d 000a 001d 000a 0046 000a 001d 000a 001d 000a 001d 000a 001d 000a 001d 000a 0046 000a 001d 000a 001d 000a 001d 000a 0046 000a 0046 000a 001d 000a 06fe</ccf>
+    </code>
+    <code name="TIMER" codeno="0x0000000000001386">
+      <decoding protocol="Sharp{2}" device="4" subdevice="-1" obc="135" hex0="225" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 000a 001d 000a 001d 000a 0046 000a 001d 000a 001d 000a 001d 000a 001d 000a 001d 000a 0046 000a 0046 000a 0046 000a 0046 000a 001d 000a 001d 000a 0046 000a 06ae</ccf>
+    </code>
+    <code name="KEY_TIME" codeno="0x0000000000001246">
+      <decoding protocol="Sharp{1}" device="4" subdevice="-1" obc="137" hex0="145" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 000a 001d 000a 001d 000a 0046 000a 001d 000a 001d 000a 0046 000a 001d 000a 001d 000a 0046 000a 001d 000a 001d 000a 001d 000a 0046 000a 0046 000a 001d 000a 06d6</ccf>
+    </code>
+    <code name="TAPE-RECSTOP" codeno="0x0000000000001052">
+      <decoding protocol="Sharp{2}" device="4" subdevice="-1" obc="40" hex0="20" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 000a 001d 000a 001d 000a 0046 000a 001d 000a 001d 000a 0046 000a 0046 000a 0046 000a 001d 000a 0046 000a 001d 000a 0046 000a 0046 000a 001d 000a 0046 000a 065e</ccf>
+    </code>
+    <code name="TAPE-STOP" codeno="0x0000000000001392">
+      <decoding protocol="Sharp{1}" device="4" subdevice="-1" obc="39" hex0="228" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 000a 001d 000a 001d 000a 0046 000a 001d 000a 001d 000a 0046 000a 0046 000a 0046 000a 001d 000a 001d 000a 0046 000a 001d 000a 001d 000a 0046 000a 001d 000a 06ae</ccf>
+    </code>
+    <code name="TAPE-PLAY" codeno="0x0000000000001112">
+      <decoding protocol="Sharp{2}" device="4" subdevice="-1" obc="34" hex0="68" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 000a 001d 000a 001d 000a 0046 000a 001d 000a 001d 000a 0046 000a 001d 000a 0046 000a 0046 000a 0046 000a 001d 000a 0046 000a 0046 000a 001d 000a 0046 000a 065e</ccf>
+    </code>
+    <code name="TAPE-REW" codeno="0x0000000000001312">
+      <decoding protocol="Sharp{1}" device="4" subdevice="-1" obc="35" hex0="196" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 000a 001d 000a 001d 000a 0046 000a 001d 000a 001d 000a 0046 000a 0046 000a 001d 000a 001d 000a 001d 000a 0046 000a 001d 000a 001d 000a 0046 000a 001d 000a 06d6</ccf>
+    </code>
+    <code name="TAPE-FWD" codeno="0x0000000000001212">
+      <decoding protocol="Sharp{2}" device="4" subdevice="-1" obc="33" hex0="132" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 000a 001d 000a 001d 000a 0046 000a 001d 000a 001d 000a 001d 000a 0046 000a 0046 000a 0046 000a 0046 000a 001d 000a 0046 000a 0046 000a 001d 000a 0046 000a 065e</ccf>
+    </code>
+    <code name="RANDOM/REPEAT" codeno="0x0000000000001172">
+      <decoding protocol="Sharp{1}" device="4" subdevice="-1" obc="58" hex0="92" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 000a 001d 000a 001d 000a 0046 000a 001d 000a 001d 000a 001d 000a 0046 000a 001d 000a 0046 000a 0046 000a 0046 000a 001d 000a 001d 000a 0046 000a 001d 000a 06ae</ccf>
+    </code>
+    <code name="KEY_CLEAR" codeno="0x0000000000001032">
+      <decoding protocol="Sharp{2}" device="4" subdevice="-1" obc="48" hex0="12" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 000a 001d 000a 001d 000a 0046 000a 001d 000a 001d 000a 0046 000a 0046 000a 0046 000a 0046 000a 001d 000a 001d 000a 0046 000a 0046 000a 001d 000a 0046 000a 065e</ccf>
+    </code>
+    <code name="MEMORY" codeno="0x0000000000001322">
+      <decoding protocol="Sharp{1}" device="4" subdevice="-1" obc="19" hex0="200" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 000a 001d 000a 001d 000a 0046 000a 001d 000a 001d 000a 0046 000a 0046 000a 001d 000a 001d 000a 0046 000a 001d 000a 001d 000a 001d 000a 0046 000a 001d 000a 06d6</ccf>
+    </code>
+    <code name="CD-STOP" codeno="0x0000000000001252">
+      <decoding protocol="Sharp{2}" device="4" subdevice="-1" obc="41" hex0="148" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 000a 001d 000a 001d 000a 0046 000a 001d 000a 001d 000a 001d 000a 0046 000a 0046 000a 001d 000a 0046 000a 001d 000a 0046 000a 0046 000a 001d 000a 0046 000a 0686</ccf>
+    </code>
+    <code name="CD-PLAY/PAUSE" codeno="0x00000000000013E2">
+      <decoding protocol="Sharp{1}" device="4" subdevice="-1" obc="31" hex0="248" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 000a 001d 000a 001d 000a 0046 000a 001d 000a 001d 000a 0046 000a 0046 000a 0046 000a 0046 000a 0046 000a 001d 000a 001d 000a 001d 000a 0046 000a 001d 000a 0686</ccf>
+    </code>
+    <code name="CD-REW" codeno="0x0000000000001012">
+      <decoding protocol="Sharp{2}" device="4" subdevice="-1" obc="32" hex0="4" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 000a 001d 000a 001d 000a 0046 000a 001d 000a 001d 000a 0046 000a 0046 000a 0046 000a 0046 000a 0046 000a 001d 000a 0046 000a 0046 000a 001d 000a 0046 000a 0636</ccf>
+    </code>
+    <code name="CD-FWD" codeno="0x0000000000001062">
+      <decoding protocol="Sharp{1}" device="4" subdevice="-1" obc="24" hex0="24" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 000a 001d 000a 001d 000a 0046 000a 001d 000a 001d 000a 001d 000a 001d 000a 001d 000a 0046 000a 0046 000a 001d 000a 001d 000a 001d 000a 0046 000a 001d 000a 06fe</ccf>
+    </code>
+    <code name="PRESET-" codeno="0x0000000000001122">
+      <decoding protocol="Sharp{2}" device="4" subdevice="-1" obc="18" hex0="72" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 000a 001d 000a 001d 000a 0046 000a 001d 000a 001d 000a 0046 000a 001d 000a 0046 000a 0046 000a 001d 000a 0046 000a 0046 000a 0046 000a 001d 000a 0046 000a 065e</ccf>
+    </code>
+    <code name="PRESET+" codeno="0x0000000000001222">
+      <decoding protocol="Sharp{1}" device="4" subdevice="-1" obc="17" hex0="136" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0010 0000 000a 001d 000a 001d 000a 0046 000a 001d 000a 001d 000a 0046 000a 001d 000a 001d 000a 001d 000a 0046 000a 001d 000a 001d 000a 001d 000a 0046 000a 001d 000a 06fe</ccf>
+    </code>
+  </remote>
+</lircremotes>

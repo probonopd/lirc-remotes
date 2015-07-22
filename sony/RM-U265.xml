@@ -1,0 +1,175 @@
+<lircremotes creation-date="Wed Jul 22 23:03:59 2015" creator="" lircversion="0.8.6" lirc2xml_version="0.1.2" configfile="remotes/sony/RM-U265.lircd.conf" decodeir_version="2.40">
+  <remote name="RM-U265">
+    <lircdata type="SPACE_ENC" bits="12" flags="16" eps="25" aeps="100" pthree="0" sthree="0" ptwo="0" stwo="0" pone="300" sone="1084" pzero="300" szero="1682" plead="0" ptrail="300" pfoot="0" sfoot="0" prepeat="0" srepeat="0" pre_data_bits="0" pre_data="0" post_data_bits="0" post_data="0" pre_p="0" pre_s="0" post_p="0" post_s="0" gap="28714" gap2="0" repeat_gap="0" toggle_bit="0" toggle_bit_mask="0" min_repeat="0" min_code_repeat="0" freq="38000" duty_cycle="0" toggle_mask="0" rc6_mask="0" baud="0" bits_in_byte="0" parity="0" stop_bits="0" ignore_mask="0"/>
+    <code name="KEY_VIDEO" codeno="0x0000000000000BBE">
+      <decoding protocol="Gap-300-1683-12?" device="2" subdevice="-1" obc="130" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 22.8" error=""/>
+      <decoding protocol="Sony12" device="8" subdevice="-1" obc="17" hex0="136" hex1="137" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000d 0000 000b 0029 000b 0040 000b 0029 000b 0029 000b 0029 000b 0040 000b 0029 000b 0029 000b 0029 000b 0029 000b 0029 000b 0040 000b 0443</ccf>
+    </code>
+    <code name="KEY_TV" codeno="0x0000000000000A9E">
+      <decoding protocol="Gap-300-1683-12?" device="10" subdevice="-1" obc="134" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 6A.8" error=""/>
+      <decoding protocol="Sony12" device="8" subdevice="-1" obc="53" hex0="172" hex1="173" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000d 0000 000b 0029 000b 0040 000b 0029 000b 0040 000b 0029 000b 0040 000b 0040 000b 0029 000b 0029 000b 0029 000b 0029 000b 0040 000b 0443</ccf>
+    </code>
+    <code name="tape/md" codeno="0x00000000000003BE">
+      <decoding protocol="Gap-300-1683-12?" device="3" subdevice="-1" obc="130" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 23.8" error=""/>
+      <decoding protocol="Sony12" device="8" subdevice="-1" obc="17" hex0="136" hex1="137" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000d 0000 000b 0040 000b 0040 000b 0029 000b 0029 000b 0029 000b 0040 000b 0029 000b 0029 000b 0029 000b 0029 000b 0029 000b 0040 000b 0443</ccf>
+    </code>
+    <code name="KEY_CD" codeno="0x00000000000005BE">
+      <decoding protocol="Gap-300-1683-12?" device="5" subdevice="-1" obc="130" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 25.8" error=""/>
+      <decoding protocol="Sony12" device="8" subdevice="-1" obc="18" hex0="72" hex1="73" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000d 0000 000b 0040 000b 0029 000b 0040 000b 0029 000b 0029 000b 0040 000b 0029 000b 0029 000b 0029 000b 0029 000b 0029 000b 0040 000b 0443</ccf>
+    </code>
+    <code name="KEY_TUNER" codeno="0x00000000000007BE">
+      <decoding protocol="Gap-300-1683-12?" device="1" subdevice="-1" obc="130" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 21.8" error=""/>
+      <decoding protocol="Sony12" device="8" subdevice="-1" obc="16" hex0="8" hex1="9" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000d 0000 000b 0040 000b 0029 000b 0029 000b 0029 000b 0029 000b 0040 000b 0029 000b 0029 000b 0029 000b 0029 000b 0029 000b 0040 000b 0443</ccf>
+    </code>
+    <code name="phono" codeno="0x0000000000000FBE">
+      <decoding protocol="Gap-300-1683-12?" device="0" subdevice="-1" obc="130" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 20.8" error=""/>
+      <decoding protocol="Sony12" device="8" subdevice="-1" obc="16" hex0="8" hex1="9" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000d 0000 000b 0029 000b 0029 000b 0029 000b 0029 000b 0029 000b 0040 000b 0029 000b 0029 000b 0029 000b 0029 000b 0029 000b 0040 000b 0443</ccf>
+    </code>
+    <code name="tuner-preset_down" codeno="0x0000000000000769">
+      <decoding protocol="Gap-300-1683-12?" device="1" subdevice="-1" obc="105" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 91.6" error=""/>
+      <decoding protocol="Sony12" device="6" subdevice="-1" obc="72" hex0="18" hex1="19" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000d 0000 000b 0040 000b 0029 000b 0029 000b 0029 000b 0040 000b 0029 000b 0029 000b 0040 000b 0029 000b 0040 000b 0040 000b 0029 000b 0443</ccf>
+    </code>
+    <code name="tuner-preset_up" codeno="0x0000000000000F69">
+      <decoding protocol="Gap-300-1683-12?" device="0" subdevice="-1" obc="105" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 90.6" error=""/>
+      <decoding protocol="Sony12" device="6" subdevice="-1" obc="72" hex0="18" hex1="19" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000d 0000 000b 0029 000b 0029 000b 0029 000b 0029 000b 0040 000b 0029 000b 0029 000b 0040 000b 0029 000b 0040 000b 0040 000b 0029 000b 0443</ccf>
+    </code>
+    <code name="tuner-shift" codeno="0x0000000000000329">
+      <decoding protocol="Gap-300-1683-12?" device="3" subdevice="-1" obc="107" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: B3.6" error=""/>
+      <decoding protocol="Sony12" device="6" subdevice="-1" obc="89" hex0="154" hex1="155" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000d 0000 000b 0040 000b 0040 000b 0029 000b 0029 000b 0040 000b 0040 000b 0029 000b 0040 000b 0029 000b 0040 000b 0040 000b 0029 000b 0443</ccf>
+    </code>
+    <code name="cd-play" codeno="0x0000000000000B2E">
+      <decoding protocol="Gap-300-1683-12?" device="2" subdevice="-1" obc="139" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: B2.8" error=""/>
+      <decoding protocol="Sony12" device="8" subdevice="-1" obc="89" hex0="154" hex1="155" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000d 0000 000b 0029 000b 0040 000b 0029 000b 0029 000b 0040 000b 0040 000b 0029 000b 0040 000b 0029 000b 0029 000b 0029 000b 0040 000b 0443</ccf>
+    </code>
+    <code name="cd-pause" codeno="0x000000000000062E">
+      <decoding protocol="Gap-300-1683-12?" device="9" subdevice="-1" obc="139" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: B9.8" error=""/>
+      <decoding protocol="Sony12" device="8" subdevice="-1" obc="92" hex0="58" hex1="59" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000d 0000 000b 0040 000b 0029 000b 0029 000b 0040 000b 0040 000b 0040 000b 0029 000b 0040 000b 0029 000b 0029 000b 0029 000b 0040 000b 0443</ccf>
+    </code>
+    <code name="cd-stop" codeno="0x0000000000000E2E">
+      <decoding protocol="Gap-300-1683-12?" device="8" subdevice="-1" obc="139" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: B8.8" error=""/>
+      <decoding protocol="Sony12" device="8" subdevice="-1" obc="92" hex0="58" hex1="59" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000d 0000 000b 0029 000b 0029 000b 0029 000b 0040 000b 0040 000b 0040 000b 0029 000b 0040 000b 0029 000b 0029 000b 0029 000b 0040 000b 0443</ccf>
+    </code>
+    <code name="cd-previous_track" codeno="0x0000000000000F2E">
+      <decoding protocol="Gap-300-1683-12?" device="0" subdevice="-1" obc="139" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: B0.8" error=""/>
+      <decoding protocol="Sony12" device="8" subdevice="-1" obc="88" hex0="26" hex1="27" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000d 0000 000b 0029 000b 0029 000b 0029 000b 0029 000b 0040 000b 0040 000b 0029 000b 0040 000b 0029 000b 0029 000b 0029 000b 0040 000b 0443</ccf>
+    </code>
+    <code name="cd-next_track" codeno="0x000000000000072E">
+      <decoding protocol="Gap-300-1683-12?" device="1" subdevice="-1" obc="139" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: B1.8" error=""/>
+      <decoding protocol="Sony12" device="8" subdevice="-1" obc="88" hex0="26" hex1="27" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000d 0000 000b 0040 000b 0029 000b 0029 000b 0029 000b 0040 000b 0040 000b 0029 000b 0040 000b 0029 000b 0029 000b 0029 000b 0040 000b 0443</ccf>
+    </code>
+    <code name="cd-d.skip" codeno="0x000000000000082E">
+      <decoding protocol="Gap-300-1683-12?" device="14" subdevice="-1" obc="139" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: BE.8" error=""/>
+      <decoding protocol="Sony12" device="8" subdevice="-1" obc="95" hex0="250" hex1="251" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000d 0000 000b 0029 000b 0040 000b 0040 000b 0040 000b 0040 000b 0040 000b 0029 000b 0040 000b 0029 000b 0029 000b 0029 000b 0040 000b 0443</ccf>
+    </code>
+    <code name="md-play" codeno="0x0000000000000AA1">
+      <decoding protocol="Gap-300-1683-12?" device="10" subdevice="-1" obc="122" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: AA.7" error=""/>
+      <decoding protocol="Sony12" device="7" subdevice="-1" obc="85" hex0="170" hex1="171" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000d 0000 000b 0029 000b 0040 000b 0029 000b 0040 000b 0029 000b 0040 000b 0029 000b 0040 000b 0040 000b 0040 000b 0040 000b 0029 000b 0443</ccf>
+    </code>
+    <code name="md-pause" codeno="0x00000000000006A1">
+      <decoding protocol="Gap-300-1683-12?" device="9" subdevice="-1" obc="122" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: A9.7" error=""/>
+      <decoding protocol="Sony12" device="7" subdevice="-1" obc="84" hex0="42" hex1="43" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000d 0000 000b 0040 000b 0029 000b 0029 000b 0040 000b 0029 000b 0040 000b 0029 000b 0040 000b 0040 000b 0040 000b 0040 000b 0029 000b 0443</ccf>
+    </code>
+    <code name="md-stop" codeno="0x0000000000000EA1">
+      <decoding protocol="Gap-300-1683-12?" device="8" subdevice="-1" obc="122" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: A8.7" error=""/>
+      <decoding protocol="Sony12" device="7" subdevice="-1" obc="84" hex0="42" hex1="43" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000d 0000 000b 0029 000b 0029 000b 0029 000b 0040 000b 0029 000b 0040 000b 0029 000b 0040 000b 0040 000b 0040 000b 0040 000b 0029 000b 0443</ccf>
+    </code>
+    <code name="md-previous_track" codeno="0x0000000000000FA1">
+      <decoding protocol="Gap-300-1683-12?" device="0" subdevice="-1" obc="122" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: A0.7" error=""/>
+      <decoding protocol="Sony12" device="7" subdevice="-1" obc="80" hex0="10" hex1="11" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000d 0000 000b 0029 000b 0029 000b 0029 000b 0029 000b 0029 000b 0040 000b 0029 000b 0040 000b 0040 000b 0040 000b 0040 000b 0029 000b 0443</ccf>
+    </code>
+    <code name="md-next_track" codeno="0x00000000000007A1">
+      <decoding protocol="Gap-300-1683-12?" device="1" subdevice="-1" obc="122" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: A1.7" error=""/>
+      <decoding protocol="Sony12" device="7" subdevice="-1" obc="80" hex0="10" hex1="11" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000d 0000 000b 0040 000b 0029 000b 0029 000b 0029 000b 0029 000b 0040 000b 0029 000b 0040 000b 0040 000b 0040 000b 0040 000b 0029 000b 0443</ccf>
+    </code>
+    <code name="tape.a-left" codeno="0x000000000000013E">
+      <decoding protocol="Gap-300-1683-12?" device="7" subdevice="-1" obc="131" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 37.8" error=""/>
+      <decoding protocol="Sony12" device="8" subdevice="-1" obc="27" hex0="216" hex1="217" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000d 0000 000b 0040 000b 0040 000b 0040 000b 0029 000b 0040 000b 0040 000b 0029 000b 0029 000b 0029 000b 0029 000b 0029 000b 0040 000b 0443</ccf>
+    </code>
+    <code name="tape.a-right" codeno="0x0000000000000B3E">
+      <decoding protocol="Gap-300-1683-12?" device="2" subdevice="-1" obc="131" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 32.8" error=""/>
+      <decoding protocol="Sony12" device="8" subdevice="-1" obc="25" hex0="152" hex1="153" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000d 0000 000b 0029 000b 0040 000b 0029 000b 0029 000b 0040 000b 0040 000b 0029 000b 0029 000b 0029 000b 0029 000b 0029 000b 0040 000b 0443</ccf>
+    </code>
+    <code name="tape.a-stop" codeno="0x0000000000000E3E">
+      <decoding protocol="Gap-300-1683-12?" device="8" subdevice="-1" obc="131" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 38.8" error=""/>
+      <decoding protocol="Sony12" device="8" subdevice="-1" obc="28" hex0="56" hex1="57" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000d 0000 000b 0029 000b 0029 000b 0029 000b 0040 000b 0040 000b 0040 000b 0029 000b 0029 000b 0029 000b 0029 000b 0029 000b 0040 000b 0443</ccf>
+    </code>
+    <code name="tape.a-rew" codeno="0x000000000000033E">
+      <decoding protocol="Gap-300-1683-12?" device="3" subdevice="-1" obc="131" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 33.8" error=""/>
+      <decoding protocol="Sony12" device="8" subdevice="-1" obc="25" hex0="152" hex1="153" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000d 0000 000b 0040 000b 0040 000b 0029 000b 0029 000b 0040 000b 0040 000b 0029 000b 0029 000b 0029 000b 0029 000b 0029 000b 0040 000b 0443</ccf>
+    </code>
+    <code name="tape.a-ff" codeno="0x0000000000000D3E">
+      <decoding protocol="Gap-300-1683-12?" device="4" subdevice="-1" obc="131" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 34.8" error=""/>
+      <decoding protocol="Sony12" device="8" subdevice="-1" obc="26" hex0="88" hex1="89" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000d 0000 000b 0029 000b 0029 000b 0040 000b 0029 000b 0040 000b 0040 000b 0029 000b 0029 000b 0029 000b 0029 000b 0029 000b 0040 000b 0443</ccf>
+    </code>
+    <code name="tape.b-left" codeno="0x0000000000000FB1">
+      <decoding protocol="Gap-300-1683-12?" device="0" subdevice="-1" obc="114" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 20.7" error=""/>
+      <decoding protocol="Sony12" device="7" subdevice="-1" obc="16" hex0="8" hex1="9" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000d 0000 000b 0029 000b 0029 000b 0029 000b 0029 000b 0029 000b 0040 000b 0029 000b 0029 000b 0040 000b 0040 000b 0040 000b 0029 000b 0443</ccf>
+    </code>
+    <code name="tape.b-right" codeno="0x0000000000000A71">
+      <decoding protocol="Gap-300-1683-12?" device="10" subdevice="-1" obc="113" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 1A.7" error=""/>
+      <decoding protocol="Sony12" device="7" subdevice="-1" obc="13" hex0="176" hex1="177" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000d 0000 000b 0029 000b 0040 000b 0029 000b 0040 000b 0040 000b 0029 000b 0029 000b 0029 000b 0040 000b 0040 000b 0040 000b 0029 000b 0443</ccf>
+    </code>
+    <code name="tape.b-stop" codeno="0x0000000000000E71">
+      <decoding protocol="Gap-300-1683-12?" device="8" subdevice="-1" obc="113" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 18.7" error=""/>
+      <decoding protocol="Sony12" device="7" subdevice="-1" obc="12" hex0="48" hex1="49" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000d 0000 000b 0029 000b 0029 000b 0029 000b 0040 000b 0040 000b 0029 000b 0029 000b 0029 000b 0040 000b 0040 000b 0040 000b 0029 000b 0443</ccf>
+    </code>
+    <code name="tape.b-rew" codeno="0x0000000000000271">
+      <decoding protocol="Gap-300-1683-12?" device="11" subdevice="-1" obc="113" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 1B.7" error=""/>
+      <decoding protocol="Sony12" device="7" subdevice="-1" obc="13" hex0="176" hex1="177" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000d 0000 000b 0040 000b 0040 000b 0029 000b 0040 000b 0040 000b 0029 000b 0029 000b 0029 000b 0040 000b 0040 000b 0040 000b 0029 000b 0443</ccf>
+    </code>
+    <code name="tape.b-ff" codeno="0x0000000000000C71">
+      <decoding protocol="Gap-300-1683-12?" device="12" subdevice="-1" obc="113" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 1C.7" error=""/>
+      <decoding protocol="Sony12" device="7" subdevice="-1" obc="14" hex0="112" hex1="113" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000d 0000 000b 0029 000b 0029 000b 0040 000b 0040 000b 0040 000b 0029 000b 0029 000b 0029 000b 0040 000b 0040 000b 0040 000b 0029 000b 0443</ccf>
+    </code>
+    <code name="bass.boost" codeno="0x0000000000000739">
+      <decoding protocol="Gap-300-1683-12?" device="1" subdevice="-1" obc="99" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 31.6" error=""/>
+      <decoding protocol="Sony12" device="6" subdevice="-1" obc="24" hex0="24" hex1="25" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000d 0000 000b 0040 000b 0029 000b 0029 000b 0029 000b 0040 000b 0040 000b 0029 000b 0029 000b 0029 000b 0040 000b 0040 000b 0029 000b 0443</ccf>
+    </code>
+    <code name="muting" codeno="0x0000000000000D7E">
+      <decoding protocol="Gap-300-1683-12?" device="4" subdevice="-1" obc="129" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 14.8" error=""/>
+      <decoding protocol="Sony12" device="8" subdevice="-1" obc="10" hex0="80" hex1="81" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000d 0000 000b 0029 000b 0029 000b 0040 000b 0029 000b 0040 000b 0029 000b 0029 000b 0029 000b 0029 000b 0029 000b 0029 000b 0040 000b 0443</ccf>
+    </code>
+    <code name="KEY_VOLUMEUP" codeno="0x0000000000000B7E">
+      <decoding protocol="Gap-300-1683-12?" device="2" subdevice="-1" obc="129" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 12.8" error=""/>
+      <decoding protocol="Sony12" device="8" subdevice="-1" obc="9" hex0="144" hex1="145" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000d 0000 000b 0029 000b 0040 000b 0029 000b 0029 000b 0040 000b 0029 000b 0029 000b 0029 000b 0029 000b 0029 000b 0029 000b 0040 000b 0443</ccf>
+    </code>
+    <code name="KEY_VOLUMEDOWN" codeno="0x000000000000037E">
+      <decoding protocol="Gap-300-1683-12?" device="3" subdevice="-1" obc="129" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 13.8" error=""/>
+      <decoding protocol="Sony12" device="8" subdevice="-1" obc="9" hex0="144" hex1="145" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000d 0000 000b 0040 000b 0040 000b 0029 000b 0029 000b 0040 000b 0029 000b 0029 000b 0029 000b 0029 000b 0029 000b 0029 000b 0040 000b 0443</ccf>
+    </code>
+  </remote>
+</lircremotes>

@@ -1,0 +1,140 @@
+<lircremotes creation-date="Wed Jul 22 23:04:13 2015" creator="" lircversion="0.8.6" lirc2xml_version="0.1.2" configfile="remotes/home_cable/HCC9300.lircd.conf" decodeir_version="2.40">
+  <remote name="homecable">
+    <lircdata type="SPACE_ENC" bits="6" flags="16400" eps="30" aeps="100" pthree="0" sthree="0" ptwo="0" stwo="0" pone="478" sone="1632" pzero="478" szero="570" plead="0" ptrail="472" pfoot="0" sfoot="0" prepeat="0" srepeat="0" pre_data_bits="5" pre_data="16" post_data_bits="4" post_data="0" pre_p="0" pre_s="0" post_p="0" post_s="0" gap="67625" gap2="0" repeat_gap="0" toggle_bit="0" toggle_bit_mask="0" min_repeat="1" min_code_repeat="0" freq="38000" duty_cycle="0" toggle_mask="0" rc6_mask="0" baud="0" bits_in_byte="0" parity="0" stop_bits="0" ignore_mask="0"/>
+    <code name="KEY_1" codeno="0x000000000000000E">
+      <decoding protocol="Gap-478-1579-15?" device="1" subdevice="-1" obc="7" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 81.3" error=""/>
+      <decoding protocol="Async10:207-212:FE.CE..CE.CE" device="254" subdevice="254" obc="254" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: FE CE CE CE FE FE FE CE CE CE" error=""/>
+      <ccf>0000 006d 0010 0000 0012 003e 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 003e 0012 003e 0012 003e 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 0701</ccf>
+    </code>
+    <code name="KEY_2" codeno="0x000000000000000A">
+      <decoding protocol="Gap-478-1579-15?" device="1" subdevice="-1" obc="5" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 81.2" error=""/>
+      <ccf>0000 006d 0010 0000 0012 003e 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 003e 0012 0016 0012 003e 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 0729</ccf>
+    </code>
+    <code name="KEY_3" codeno="0x000000000000000C">
+      <decoding protocol="Gap-478-1579-15?" device="1" subdevice="-1" obc="3" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 81.1" error=""/>
+      <decoding protocol="Async10:207-212:FE.CE..CE.FE" device="254" subdevice="254" obc="206" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: FE CE CE CE FE FE CE CE CE FE" error=""/>
+      <ccf>0000 006d 0010 0000 0012 003e 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 003e 0012 003e 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 0729</ccf>
+    </code>
+    <code name="KEY_4" codeno="0x000000000000002E">
+      <decoding protocol="Gap-478-1579-15?" device="33" subdevice="-1" obc="7" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: A1.3" error=""/>
+      <ccf>0000 006d 0010 0000 0012 003e 0012 0016 0012 0016 0012 0016 0012 0016 0012 003e 0012 0016 0012 003e 0012 003e 0012 003e 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 06d9</ccf>
+    </code>
+    <code name="KEY_5" codeno="0x000000000000002A">
+      <decoding protocol="Gap-478-1579-15?" device="33" subdevice="-1" obc="5" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: A1.2" error=""/>
+      <ccf>0000 006d 0010 0000 0012 003e 0012 0016 0012 0016 0012 0016 0012 0016 0012 003e 0012 0016 0012 003e 0012 0016 0012 003e 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 0701</ccf>
+    </code>
+    <code name="KEY_6" codeno="0x000000000000002C">
+      <decoding protocol="Gap-478-1579-15?" device="33" subdevice="-1" obc="3" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: A1.1" error=""/>
+      <ccf>0000 006d 0010 0000 0012 003e 0012 0016 0012 0016 0012 0016 0012 0016 0012 003e 0012 0016 0012 003e 0012 003e 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 0701</ccf>
+    </code>
+    <code name="KEY_7" codeno="0x000000000000001E">
+      <decoding protocol="Gap-478-1579-15?" device="65" subdevice="-1" obc="7" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: C1.3" error=""/>
+      <ccf>0000 006d 0010 0000 0012 003e 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 003e 0012 003e 0012 003e 0012 003e 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 06d9</ccf>
+    </code>
+    <code name="KEY_8" codeno="0x000000000000001A">
+      <decoding protocol="Gap-478-1579-15?" device="65" subdevice="-1" obc="5" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: C1.2" error=""/>
+      <ccf>0000 006d 0010 0000 0012 003e 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 003e 0012 003e 0012 0016 0012 003e 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 0701</ccf>
+    </code>
+    <code name="KEY_9" codeno="0x000000000000001C">
+      <decoding protocol="Gap-478-1579-15?" device="65" subdevice="-1" obc="3" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: C1.1" error=""/>
+      <ccf>0000 006d 0010 0000 0012 003e 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 003e 0012 003e 0012 003e 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 0701</ccf>
+    </code>
+    <code name="KEY_0" codeno="0x000000000000003A">
+      <decoding protocol="Gap-478-1579-15?" device="97" subdevice="-1" obc="5" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E1.2" error=""/>
+      <ccf>0000 006d 0010 0000 0012 003e 0012 0016 0012 0016 0012 0016 0012 0016 0012 003e 0012 003e 0012 003e 0012 0016 0012 003e 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 06d9</ccf>
+    </code>
+    <code name="C/Ku" codeno="0x000000000000003E">
+      <decoding protocol="Gap-478-1579-15?" device="97" subdevice="-1" obc="7" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E1.3" error=""/>
+      <decoding protocol="Async11:207-212:FE.CE..CE.CE" device="254" subdevice="254" obc="254" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: FE CE CE FE FE FE FE FE CE CE CE" error=""/>
+      <ccf>0000 006d 0010 0000 0012 003e 0012 0016 0012 0016 0012 0016 0012 0016 0012 003e 0012 003e 0012 003e 0012 003e 0012 003e 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 06b0</ccf>
+    </code>
+    <code name="Pol" codeno="0x000000000000003C">
+      <decoding protocol="Gap-478-1579-15?" device="97" subdevice="-1" obc="3" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E1.1" error=""/>
+      <decoding protocol="Async11:207-212:FE.CE..CE.FE" device="254" subdevice="254" obc="254" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: FE CE CE FE FE FE FE CE CE CE FE" error=""/>
+      <ccf>0000 006d 0010 0000 0012 003e 0012 0016 0012 0016 0012 0016 0012 0016 0012 003e 0012 003e 0012 003e 0012 003e 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 06d9</ccf>
+    </code>
+    <code name="KEY_UP" codeno="0x0000000000000008">
+      <decoding protocol="Gap-478-1579-15?" device="1" subdevice="-1" obc="1" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 81.0" error=""/>
+      <decoding protocol="Async9:207-212:FE.CE..CE.CE" device="206" subdevice="254" obc="206" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: FE CE CE CE FE CE CE CE CE" error=""/>
+      <ccf>0000 006d 0010 0000 0012 003e 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 003e 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 0752</ccf>
+    </code>
+    <code name="KEY_DOWN" codeno="0x0000000000000028">
+      <decoding protocol="Gap-478-1579-15?" device="33" subdevice="-1" obc="1" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: A1.0" error=""/>
+      <ccf>0000 006d 0010 0000 0012 003e 0012 0016 0012 0016 0012 0016 0012 0016 0012 003e 0012 0016 0012 003e 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 0729</ccf>
+    </code>
+    <code name="KEY_E" codeno="0x0000000000000018">
+      <decoding protocol="Gap-478-1579-15?" device="65" subdevice="-1" obc="1" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: C1.0" error=""/>
+      <ccf>0000 006d 0010 0000 0012 003e 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 003e 0012 003e 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 0729</ccf>
+    </code>
+    <code name="KEY_W" codeno="0x0000000000000038">
+      <decoding protocol="Gap-478-1579-15?" device="97" subdevice="-1" obc="1" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: E1.0" error=""/>
+      <decoding protocol="Async10:207-212:FE.CE..CE.CE" device="254" subdevice="254" obc="206" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: FE CE CE FE FE FE CE CE CE CE" error=""/>
+      <ccf>0000 006d 0010 0000 0012 003e 0012 0016 0012 0016 0012 0016 0012 0016 0012 003e 0012 003e 0012 003e 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 0701</ccf>
+    </code>
+    <code name="KEY_VOLUMEUP" codeno="0x0000000000000022">
+      <decoding protocol="Gap-478-1579-15?" device="33" subdevice="-1" obc="4" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 21.2" error=""/>
+      <ccf>0000 006d 0010 0000 0012 003e 0012 0016 0012 0016 0012 0016 0012 0016 0012 003e 0012 0016 0012 0016 0012 0016 0012 003e 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 0729</ccf>
+    </code>
+    <code name="KEY_VOLUMEDOWN" codeno="0x0000000000000026">
+      <decoding protocol="Gap-478-1579-15?" device="33" subdevice="-1" obc="6" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 21.3" error=""/>
+      <decoding protocol="Async10:207-212:FE.CE..CE.CE" device="206" subdevice="254" obc="254" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: FE CE CE FE CE FE FE CE CE CE" error=""/>
+      <ccf>0000 006d 0010 0000 0012 003e 0012 0016 0012 0016 0012 0016 0012 0016 0012 003e 0012 0016 0012 0016 0012 003e 0012 003e 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 0701</ccf>
+    </code>
+    <code name="View" codeno="0x0000000000000016">
+      <decoding protocol="Gap-478-1579-15?" device="65" subdevice="-1" obc="6" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 41.3" error=""/>
+      <ccf>0000 006d 0010 0000 0012 003e 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 003e 0012 0016 0012 003e 0012 003e 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 0701</ccf>
+    </code>
+    <code name="KEY_HELP" codeno="0x0000000000000012">
+      <decoding protocol="Gap-478-1579-15?" device="65" subdevice="-1" obc="4" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 41.2" error=""/>
+      <ccf>0000 006d 0010 0000 0012 003e 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 003e 0012 0016 0012 0016 0012 003e 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 0729</ccf>
+    </code>
+    <code name="KEY_SETUP" codeno="0x0000000000000014">
+      <decoding protocol="Gap-478-1579-15?" device="65" subdevice="-1" obc="2" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 41.1" error=""/>
+      <ccf>0000 006d 0010 0000 0012 003e 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 003e 0012 0016 0012 003e 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 0729</ccf>
+    </code>
+    <code name="KEY_TEXT" codeno="0x0000000000000010">
+      <decoding protocol="Gap-478-1579-15?" device="65" subdevice="-1" obc="0" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 41.0" error=""/>
+      <ccf>0000 006d 0010 0000 0012 003e 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 003e 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 0752</ccf>
+    </code>
+    <code name="Mesg" codeno="0x0000000000000036">
+      <decoding protocol="Gap-478-1579-15?" device="97" subdevice="-1" obc="6" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 61.3" error=""/>
+      <ccf>0000 006d 0010 0000 0012 003e 0012 0016 0012 0016 0012 0016 0012 0016 0012 003e 0012 003e 0012 0016 0012 003e 0012 003e 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 06d9</ccf>
+    </code>
+    <code name="KEY_NEXT" codeno="0x0000000000000032">
+      <decoding protocol="Gap-478-1579-15?" device="97" subdevice="-1" obc="4" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 61.2" error=""/>
+      <decoding protocol="Async10:207-212:FE.CE..CE.CE" device="254" subdevice="206" obc="254" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: FE CE CE FE FE CE FE CE CE CE" error=""/>
+      <ccf>0000 006d 0010 0000 0012 003e 0012 0016 0012 0016 0012 0016 0012 0016 0012 003e 0012 003e 0012 0016 0012 0016 0012 003e 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 0701</ccf>
+    </code>
+    <code name="Cncl" codeno="0x0000000000000034">
+      <decoding protocol="Gap-478-1579-15?" device="97" subdevice="-1" obc="2" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 61.1" error=""/>
+      <ccf>0000 006d 0010 0000 0012 003e 0012 0016 0012 0016 0012 0016 0012 0016 0012 003e 0012 003e 0012 0016 0012 003e 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 0701</ccf>
+    </code>
+    <code name="KEY_ENTER" codeno="0x0000000000000030">
+      <decoding protocol="Gap-478-1579-15?" device="97" subdevice="-1" obc="0" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 61.0" error=""/>
+      <decoding protocol="Async10:207-212:FE.CE..CE.FE" device="254" subdevice="206" obc="206" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: FE CE CE FE FE CE CE CE CE FE" error=""/>
+      <ccf>0000 006d 0010 0000 0012 003e 0012 0016 0012 0016 0012 0016 0012 0016 0012 003e 0012 003e 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 0729</ccf>
+    </code>
+    <code name="PLock" codeno="0x0000000000000001">
+      <decoding protocol="Gap-478-1579-15?" device="1" subdevice="-1" obc="8" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 1.4" error=""/>
+      <ccf>0000 006d 0010 0000 0012 003e 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 003e 0012 0016 0012 0016 0012 0016 0012 0016 0012 0752</ccf>
+    </code>
+    <code name="Call" codeno="0x0000000000000006">
+      <decoding protocol="Gap-478-1579-15?" device="1" subdevice="-1" obc="6" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 1.3" error=""/>
+      <ccf>0000 006d 0010 0000 0012 003e 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 003e 0012 003e 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 0729</ccf>
+    </code>
+    <code name="KEY_FAVORITES" codeno="0x0000000000000002">
+      <decoding protocol="Gap-478-1579-15?" device="1" subdevice="-1" obc="4" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 1.2" error=""/>
+      <decoding protocol="Async9:207-212:FE.CE..CE.CE" device="206" subdevice="206" obc="254" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: FE CE CE CE CE FE CE CE CE" error=""/>
+      <ccf>0000 006d 0010 0000 0012 003e 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 003e 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 0752</ccf>
+    </code>
+    <code name="KEY_MENU" codeno="0x0000000000000004">
+      <decoding protocol="Gap-478-1579-15?" device="1" subdevice="-1" obc="2" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 1.1" error=""/>
+      <ccf>0000 006d 0010 0000 0012 003e 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 003e 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 0752</ccf>
+    </code>
+    <code name="KEY_POWER" codeno="0x0000000000000020">
+      <decoding protocol="Gap-478-1579-15?" device="33" subdevice="-1" obc="0" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 21.0" error=""/>
+      <decoding protocol="Async9:207-212:FE.CE..CE.CE" device="254" subdevice="206" obc="206" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: FE CE CE FE CE CE CE CE CE" error=""/>
+      <ccf>0000 006d 0010 0000 0012 003e 0012 0016 0012 0016 0012 0016 0012 0016 0012 003e 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 0016 0012 0752</ccf>
+    </code>
+  </remote>
+</lircremotes>

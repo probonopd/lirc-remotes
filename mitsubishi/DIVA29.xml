@@ -1,0 +1,253 @@
+<lircremotes creation-date="Wed Jul 22 23:04:09 2015" creator="" lircversion="0.8.6" lirc2xml_version="0.1.2" configfile="remotes/mitsubishi/DIVA29.lircd.conf" decodeir_version="2.40">
+  <remote name="TV">
+    <lircdata type="SPACE_ENC" bits="7" flags="16" eps="20" aeps="200" pthree="0" sthree="0" ptwo="0" stwo="0" pone="300" sone="1950" pzero="300" szero="880" plead="0" ptrail="300" pfoot="0" sfoot="0" prepeat="0" srepeat="0" pre_data_bits="8" pre_data="226" post_data_bits="1" post_data="0" pre_p="0" pre_s="0" post_p="0" post_s="0" gap="21950" gap2="0" repeat_gap="0" toggle_bit="0" toggle_bit_mask="0" min_repeat="1" min_code_repeat="0" freq="40000" duty_cycle="0" toggle_mask="0" rc6_mask="0" baud="0" bits_in_byte="0" parity="0" stop_bits="0" ignore_mask="0"/>
+    <code name="KEY_CHANNELUP" codeno="0x0000000000000028">
+      <decoding protocol="Mitsubishi" device="71" subdevice="-1" obc="10" hex0="175" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0068 0011 0000 000c 004e 000c 004e 000c 004e 000c 0023 000c 0023 000c 0023 000c 004e 000c 0023 000c 0023 000c 004e 000c 0023 000c 004e 000c 0023 000c 0023 000c 0023 000c 0023 000c 036e</ccf>
+    </code>
+    <code name="KEY_CHANNELDOWN" codeno="0x0000000000000024">
+      <decoding protocol="Mitsubishi" device="71" subdevice="-1" obc="18" hex0="183" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0068 0011 0000 000c 004e 000c 004e 000c 004e 000c 0023 000c 0023 000c 0023 000c 004e 000c 0023 000c 0023 000c 004e 000c 0023 000c 0023 000c 004e 000c 0023 000c 0023 000c 0023 000c 036e</ccf>
+    </code>
+    <code name="KEY_VOLUMEUP" codeno="0x0000000000000022">
+      <decoding protocol="Mitsubishi" device="71" subdevice="-1" obc="34" hex0="187" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0068 0011 0000 000c 004e 000c 004e 000c 004e 000c 0023 000c 0023 000c 0023 000c 004e 000c 0023 000c 0023 000c 004e 000c 0023 000c 0023 000c 0023 000c 004e 000c 0023 000c 0023 000c 036e</ccf>
+    </code>
+    <code name="KEY_VOLUMEDOWN" codeno="0x000000000000002A">
+      <decoding protocol="Mitsubishi" device="71" subdevice="-1" obc="42" hex0="171" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0068 0011 0000 000c 004e 000c 004e 000c 004e 000c 0023 000c 0023 000c 0023 000c 004e 000c 0023 000c 0023 000c 004e 000c 0023 000c 004e 000c 0023 000c 004e 000c 0023 000c 0023 000c 036e</ccf>
+    </code>
+    <code name="KEY_POWER" codeno="0x0000000000000020">
+      <decoding protocol="Mitsubishi" device="71" subdevice="-1" obc="2" hex0="191" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0068 0011 0000 000c 004e 000c 004e 000c 004e 000c 0023 000c 0023 000c 0023 000c 004e 000c 0023 000c 0023 000c 004e 000c 0023 000c 0023 000c 0023 000c 0023 000c 0023 000c 0023 000c 036e</ccf>
+    </code>
+    <code name="KEY_1" codeno="0x0000000000000000">
+      <decoding protocol="Mitsubishi" device="71" subdevice="-1" obc="0" hex0="255" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0068 0011 0000 000c 004e 000c 004e 000c 004e 000c 0023 000c 0023 000c 0023 000c 004e 000c 0023 000c 0023 000c 0023 000c 0023 000c 0023 000c 0023 000c 0023 000c 0023 000c 0023 000c 036e</ccf>
+    </code>
+    <code name="KEY_2" codeno="0x0000000000000008">
+      <decoding protocol="Mitsubishi" device="71" subdevice="-1" obc="8" hex0="239" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0068 0011 0000 000c 004e 000c 004e 000c 004e 000c 0023 000c 0023 000c 0023 000c 004e 000c 0023 000c 0023 000c 0023 000c 0023 000c 004e 000c 0023 000c 0023 000c 0023 000c 0023 000c 036e</ccf>
+    </code>
+    <code name="KEY_3" codeno="0x0000000000000004">
+      <decoding protocol="Mitsubishi" device="71" subdevice="-1" obc="16" hex0="247" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0068 0011 0000 000c 004e 000c 004e 000c 004e 000c 0023 000c 0023 000c 0023 000c 004e 000c 0023 000c 0023 000c 0023 000c 0023 000c 0023 000c 004e 000c 0023 000c 0023 000c 0023 000c 036e</ccf>
+    </code>
+    <code name="KEY_4" codeno="0x000000000000000C">
+      <decoding protocol="Mitsubishi" device="71" subdevice="-1" obc="24" hex0="231" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0068 0011 0000 000c 004e 000c 004e 000c 004e 000c 0023 000c 0023 000c 0023 000c 004e 000c 0023 000c 0023 000c 0023 000c 0023 000c 004e 000c 004e 000c 0023 000c 0023 000c 0023 000c 036e</ccf>
+    </code>
+    <code name="KEY_5" codeno="0x0000000000000002">
+      <decoding protocol="Mitsubishi" device="71" subdevice="-1" obc="32" hex0="251" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0068 0011 0000 000c 004e 000c 004e 000c 004e 000c 0023 000c 0023 000c 0023 000c 004e 000c 0023 000c 0023 000c 0023 000c 0023 000c 0023 000c 0023 000c 004e 000c 0023 000c 0023 000c 036e</ccf>
+    </code>
+    <code name="KEY_6" codeno="0x000000000000000A">
+      <decoding protocol="Mitsubishi" device="71" subdevice="-1" obc="40" hex0="235" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0068 0011 0000 000c 004e 000c 004e 000c 004e 000c 0023 000c 0023 000c 0023 000c 004e 000c 0023 000c 0023 000c 0023 000c 0023 000c 004e 000c 0023 000c 004e 000c 0023 000c 0023 000c 036e</ccf>
+    </code>
+    <code name="KEY_7" codeno="0x0000000000000006">
+      <decoding protocol="Mitsubishi" device="71" subdevice="-1" obc="48" hex0="243" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0068 0011 0000 000c 004e 000c 004e 000c 004e 000c 0023 000c 0023 000c 0023 000c 004e 000c 0023 000c 0023 000c 0023 000c 0023 000c 0023 000c 004e 000c 004e 000c 0023 000c 0023 000c 036e</ccf>
+    </code>
+    <code name="KEY_8" codeno="0x000000000000000E">
+      <decoding protocol="Mitsubishi" device="71" subdevice="-1" obc="56" hex0="227" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0068 0011 0000 000c 004e 000c 004e 000c 004e 000c 0023 000c 0023 000c 0023 000c 004e 000c 0023 000c 0023 000c 0023 000c 0023 000c 004e 000c 004e 000c 004e 000c 0023 000c 0023 000c 036e</ccf>
+    </code>
+    <code name="KEY_9" codeno="0x0000000000000040">
+      <decoding protocol="Mitsubishi" device="71" subdevice="-1" obc="1" hex0="127" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0068 0011 0000 000c 004e 000c 004e 000c 004e 000c 0023 000c 0023 000c 0023 000c 004e 000c 0023 000c 004e 000c 0023 000c 0023 000c 0023 000c 0023 000c 0023 000c 0023 000c 0023 000c 036e</ccf>
+    </code>
+    <code name="KEY_0" codeno="0x0000000000000048">
+      <decoding protocol="Mitsubishi" device="71" subdevice="-1" obc="9" hex0="111" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0068 0011 0000 000c 004e 000c 004e 000c 004e 000c 0023 000c 0023 000c 0023 000c 004e 000c 0023 000c 004e 000c 0023 000c 0023 000c 004e 000c 0023 000c 0023 000c 0023 000c 0023 000c 036e</ccf>
+    </code>
+    <code name="KEY_1-" codeno="0x0000000000000044">
+      <decoding protocol="Mitsubishi" device="71" subdevice="-1" obc="17" hex0="119" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0068 0011 0000 000c 004e 000c 004e 000c 004e 000c 0023 000c 0023 000c 0023 000c 004e 000c 0023 000c 004e 000c 0023 000c 0023 000c 0023 000c 004e 000c 0023 000c 0023 000c 0023 000c 036e</ccf>
+    </code>
+    <code name="KEY_2-" codeno="0x000000000000004C">
+      <decoding protocol="Mitsubishi" device="71" subdevice="-1" obc="25" hex0="103" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0068 0011 0000 000c 004e 000c 004e 000c 004e 000c 0023 000c 0023 000c 0023 000c 004e 000c 0023 000c 004e 000c 0023 000c 0023 000c 004e 000c 004e 000c 0023 000c 0023 000c 0023 000c 036e</ccf>
+    </code>
+    <code name="KEY_MUTE" codeno="0x0000000000000026">
+      <decoding protocol="Mitsubishi" device="71" subdevice="-1" obc="50" hex0="179" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0068 0011 0000 000c 004e 000c 004e 000c 004e 000c 0023 000c 0023 000c 0023 000c 004e 000c 0023 000c 0023 000c 004e 000c 0023 000c 0023 000c 004e 000c 004e 000c 0023 000c 0023 000c 036e</ccf>
+    </code>
+    <code name="INPUT" codeno="0x000000000000002E">
+      <decoding protocol="Mitsubishi" device="71" subdevice="-1" obc="58" hex0="163" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0068 0011 0000 000c 004e 000c 004e 000c 004e 000c 0023 000c 0023 000c 0023 000c 004e 000c 0023 000c 0023 000c 004e 000c 0023 000c 004e 000c 004e 000c 004e 000c 0023 000c 0023 000c 036e</ccf>
+    </code>
+    <code name="DISPLAY" codeno="0x000000000000007C">
+      <decoding protocol="Mitsubishi" device="71" subdevice="-1" obc="31" hex0="7" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0068 0011 0000 000c 004e 000c 004e 000c 004e 000c 0023 000c 0023 000c 0023 000c 004e 000c 0023 000c 004e 000c 004e 000c 004e 000c 004e 000c 004e 000c 0023 000c 0023 000c 0023 000c 036e</ccf>
+    </code>
+    <code name="KEY_LAST" codeno="0x0000000000000078">
+      <decoding protocol="Mitsubishi" device="71" subdevice="-1" obc="15" hex0="15" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0068 0011 0000 000c 004e 000c 004e 000c 004e 000c 0023 000c 0023 000c 0023 000c 004e 000c 0023 000c 004e 000c 004e 000c 004e 000c 004e 000c 0023 000c 0023 000c 0023 000c 0023 000c 036e</ccf>
+    </code>
+    <code name="TURNLEFT" codeno="0x0000000000000056">
+      <decoding protocol="Mitsubishi" device="71" subdevice="-1" obc="53" hex0="83" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0068 0011 0000 000c 004e 000c 004e 000c 004e 000c 0023 000c 0023 000c 0023 000c 004e 000c 0023 000c 004e 000c 0023 000c 004e 000c 0023 000c 004e 000c 004e 000c 0023 000c 0023 000c 036e</ccf>
+    </code>
+    <code name="TURNRIGHT" codeno="0x000000000000005A">
+      <decoding protocol="Mitsubishi" device="71" subdevice="-1" obc="45" hex0="75" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0068 0011 0000 000c 004e 000c 004e 000c 004e 000c 0023 000c 0023 000c 0023 000c 004e 000c 0023 000c 004e 000c 0023 000c 004e 000c 004e 000c 0023 000c 004e 000c 0023 000c 0023 000c 036e</ccf>
+    </code>
+    <code name="KEY_TEXT" codeno="0x0000000000000030">
+      <decoding protocol="Mitsubishi" device="71" subdevice="-1" obc="6" hex0="159" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0068 0011 0000 000c 004e 000c 004e 000c 004e 000c 0023 000c 0023 000c 0023 000c 004e 000c 0023 000c 0023 000c 004e 000c 004e 000c 0023 000c 0023 000c 0023 000c 0023 000c 0023 000c 036e</ccf>
+    </code>
+    <code name="HOLD" codeno="0x0000000000000054">
+      <decoding protocol="Mitsubishi" device="71" subdevice="-1" obc="21" hex0="87" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0068 0011 0000 000c 004e 000c 004e 000c 004e 000c 0023 000c 0023 000c 0023 000c 004e 000c 0023 000c 004e 000c 0023 000c 004e 000c 0023 000c 004e 000c 0023 000c 0023 000c 0023 000c 036e</ccf>
+    </code>
+    <code name="INDEX" codeno="0x0000000000000032">
+      <decoding protocol="Mitsubishi" device="71" subdevice="-1" obc="38" hex0="155" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0068 0011 0000 000c 004e 000c 004e 000c 004e 000c 0023 000c 0023 000c 0023 000c 004e 000c 0023 000c 0023 000c 004e 000c 004e 000c 0023 000c 0023 000c 004e 000c 0023 000c 0023 000c 036e</ccf>
+    </code>
+    <code name="CANCEL/TIME" codeno="0x000000000000005C">
+      <decoding protocol="Mitsubishi" device="71" subdevice="-1" obc="29" hex0="71" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0068 0011 0000 000c 004e 000c 004e 000c 004e 000c 0023 000c 0023 000c 0023 000c 004e 000c 0023 000c 004e 000c 0023 000c 004e 000c 004e 000c 004e 000c 0023 000c 0023 000c 0023 000c 036e</ccf>
+    </code>
+    <code name="KEY_RED" codeno="0x000000000000007A">
+      <decoding protocol="Mitsubishi" device="71" subdevice="-1" obc="47" hex0="11" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0068 0011 0000 000c 004e 000c 004e 000c 004e 000c 0023 000c 0023 000c 0023 000c 004e 000c 0023 000c 004e 000c 004e 000c 004e 000c 004e 000c 0023 000c 004e 000c 0023 000c 0023 000c 036e</ccf>
+    </code>
+    <code name="KEY_GREEN" codeno="0x0000000000000076">
+      <decoding protocol="Mitsubishi" device="71" subdevice="-1" obc="55" hex0="19" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0068 0011 0000 000c 004e 000c 004e 000c 004e 000c 0023 000c 0023 000c 0023 000c 004e 000c 0023 000c 004e 000c 004e 000c 004e 000c 0023 000c 004e 000c 004e 000c 0023 000c 0023 000c 036e</ccf>
+    </code>
+    <code name="KEY_YELLOW" codeno="0x000000000000007E">
+      <decoding protocol="Mitsubishi" device="71" subdevice="-1" obc="63" hex0="3" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0068 0011 0000 000c 004e 000c 004e 000c 004e 000c 0023 000c 0023 000c 0023 000c 004e 000c 0023 000c 004e 000c 004e 000c 004e 000c 004e 000c 004e 000c 004e 000c 0023 000c 0023 000c 036e</ccf>
+    </code>
+    <code name="KEY_BLUE" codeno="0x0000000000000072">
+      <decoding protocol="Mitsubishi" device="71" subdevice="-1" obc="39" hex0="27" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0068 0011 0000 000c 004e 000c 004e 000c 004e 000c 0023 000c 0023 000c 0023 000c 004e 000c 0023 000c 004e 000c 004e 000c 004e 000c 0023 000c 0023 000c 004e 000c 0023 000c 0023 000c 036e</ccf>
+    </code>
+    <code name="SIZE" codeno="0x000000000000001A">
+      <decoding protocol="Mitsubishi" device="71" subdevice="-1" obc="44" hex0="203" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0068 0011 0000 000c 004e 000c 004e 000c 004e 000c 0023 000c 0023 000c 0023 000c 004e 000c 0023 000c 0023 000c 0023 000c 004e 000c 004e 000c 0023 000c 004e 000c 0023 000c 0023 000c 036e</ccf>
+    </code>
+    <code name="S\*\*\*\*" codeno="0x000000000000003A">
+      <decoding protocol="Mitsubishi" device="71" subdevice="-1" obc="46" hex0="139" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0068 0011 0000 000c 004e 000c 004e 000c 004e 000c 0023 000c 0023 000c 0023 000c 004e 000c 0023 000c 0023 000c 004e 000c 004e 000c 004e 000c 0023 000c 004e 000c 0023 000c 0023 000c 036e</ccf>
+    </code>
+    <code name="REVEAL" codeno="0x000000000000003E">
+      <decoding protocol="Mitsubishi" device="71" subdevice="-1" obc="62" hex0="131" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0068 0011 0000 000c 004e 000c 004e 000c 004e 000c 0023 000c 0023 000c 0023 000c 004e 000c 0023 000c 0023 000c 004e 000c 004e 000c 004e 000c 004e 000c 004e 000c 0023 000c 0023 000c 036e</ccf>
+    </code>
+    <code name="KEY_MODE" codeno="0x0000000000000052">
+      <decoding protocol="Mitsubishi" device="71" subdevice="-1" obc="37" hex0="91" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0068 0011 0000 000c 004e 000c 004e 000c 004e 000c 0023 000c 0023 000c 0023 000c 004e 000c 0023 000c 004e 000c 0023 000c 004e 000c 0023 000c 0023 000c 004e 000c 0023 000c 0023 000c 036e</ccf>
+    </code>
+    <code name="STORE" codeno="0x000000000000003C">
+      <decoding protocol="Mitsubishi" device="71" subdevice="-1" obc="30" hex0="135" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0068 0011 0000 000c 004e 000c 004e 000c 004e 000c 0023 000c 0023 000c 0023 000c 004e 000c 0023 000c 0023 000c 004e 000c 004e 000c 004e 000c 004e 000c 0023 000c 0023 000c 0023 000c 036e</ccf>
+    </code>
+    <code name="STATUS" codeno="0x0000000000000058">
+      <decoding protocol="Mitsubishi" device="71" subdevice="-1" obc="13" hex0="79" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0068 0011 0000 000c 004e 000c 004e 000c 004e 000c 0023 000c 0023 000c 0023 000c 004e 000c 0023 000c 004e 000c 0023 000c 004e 000c 004e 000c 0023 000c 0023 000c 0023 000c 0023 000c 036e</ccf>
+    </code>
+    <code name="BROWSE" codeno="0x0000000000000036">
+      <decoding protocol="Mitsubishi" device="71" subdevice="-1" obc="54" hex0="147" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0068 0011 0000 000c 004e 000c 004e 000c 004e 000c 0023 000c 0023 000c 0023 000c 004e 000c 0023 000c 0023 000c 004e 000c 004e 000c 0023 000c 004e 000c 004e 000c 0023 000c 0023 000c 036e</ccf>
+    </code>
+    <code name="PIP" codeno="0x0000000000000077">
+      <decoding protocol="Mitsubishi" device="71" subdevice="-1" obc="119" hex0="17" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0068 0011 0000 000c 004e 000c 004e 000c 004e 000c 0023 000c 0023 000c 0023 000c 004e 000c 0023 000c 004e 000c 004e 000c 004e 000c 0023 000c 004e 000c 004e 000c 004e 000c 0023 000c 036e</ccf>
+    </code>
+    <code name="KEY_CYCLEWINDOWS" codeno="0x000000000000007D">
+      <decoding protocol="Mitsubishi" device="71" subdevice="-1" obc="95" hex0="5" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0068 0011 0000 000c 004e 000c 004e 000c 004e 000c 0023 000c 0023 000c 0023 000c 004e 000c 0023 000c 004e 000c 004e 000c 004e 000c 004e 000c 004e 000c 0023 000c 004e 000c 0023 000c 036e</ccf>
+    </code>
+    <code name="POSITION" codeno="0x000000000000003B">
+      <decoding protocol="Mitsubishi" device="71" subdevice="-1" obc="110" hex0="137" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0068 0011 0000 000c 004e 000c 004e 000c 004e 000c 0023 000c 0023 000c 0023 000c 004e 000c 0023 000c 0023 000c 004e 000c 004e 000c 004e 000c 0023 000c 004e 000c 004e 000c 0023 000c 036e</ccf>
+    </code>
+    <code name="EXCHANGE" codeno="0x000000000000007F">
+      <decoding protocol="Mitsubishi" device="71" subdevice="-1" obc="127" hex0="1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0068 0011 0000 000c 004e 000c 004e 000c 004e 000c 0023 000c 0023 000c 0023 000c 004e 000c 0023 000c 004e 000c 004e 000c 004e 000c 004e 000c 004e 000c 004e 000c 004e 000c 0023 000c 036e</ccf>
+    </code>
+    <code name="STILL" codeno="0x0000000000000073">
+      <decoding protocol="Mitsubishi" device="71" subdevice="-1" obc="103" hex0="25" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0068 0011 0000 000c 004e 000c 004e 000c 004e 000c 0023 000c 0023 000c 0023 000c 004e 000c 0023 000c 004e 000c 004e 000c 004e 000c 0023 000c 0023 000c 004e 000c 004e 000c 0023 000c 036e</ccf>
+    </code>
+    <code name="KEY_MENU" codeno="0x0000000000000025">
+      <decoding protocol="Mitsubishi" device="71" subdevice="-1" obc="82" hex0="181" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0068 0011 0000 000c 004e 000c 004e 000c 004e 000c 0023 000c 0023 000c 0023 000c 004e 000c 0023 000c 0023 000c 004e 000c 0023 000c 0023 000c 004e 000c 0023 000c 004e 000c 0023 000c 036e</ccf>
+    </code>
+    <code name="KEY_UP" codeno="0x0000000000000013">
+      <decoding protocol="Mitsubishi" device="71" subdevice="-1" obc="100" hex0="217" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0068 0011 0000 000c 004e 000c 004e 000c 004e 000c 0023 000c 0023 000c 0023 000c 004e 000c 0023 000c 0023 000c 0023 000c 004e 000c 0023 000c 0023 000c 004e 000c 004e 000c 0023 000c 036e</ccf>
+    </code>
+    <code name="KEY_DOWN" codeno="0x000000000000001B">
+      <decoding protocol="Mitsubishi" device="71" subdevice="-1" obc="108" hex0="201" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0068 0011 0000 000c 004e 000c 004e 000c 004e 000c 0023 000c 0023 000c 0023 000c 004e 000c 0023 000c 0023 000c 0023 000c 004e 000c 004e 000c 0023 000c 004e 000c 004e 000c 0023 000c 036e</ccf>
+    </code>
+    <code name="KEY_LEFT" codeno="0x0000000000000049">
+      <decoding protocol="Mitsubishi" device="71" subdevice="-1" obc="73" hex0="109" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0068 0011 0000 000c 004e 000c 004e 000c 004e 000c 0023 000c 0023 000c 0023 000c 004e 000c 0023 000c 004e 000c 0023 000c 0023 000c 004e 000c 0023 000c 0023 000c 004e 000c 0023 000c 036e</ccf>
+    </code>
+    <code name="KEY_RIGHT" codeno="0x0000000000000041">
+      <decoding protocol="Mitsubishi" device="71" subdevice="-1" obc="65" hex0="125" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0068 0011 0000 000c 004e 000c 004e 000c 004e 000c 0023 000c 0023 000c 0023 000c 004e 000c 0023 000c 004e 000c 0023 000c 0023 000c 0023 000c 0023 000c 0023 000c 004e 000c 0023 000c 036e</ccf>
+    </code>
+    <code name="PREVMENU" codeno="0x0000000000000069">
+      <decoding protocol="Mitsubishi" device="71" subdevice="-1" obc="75" hex0="45" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0068 0011 0000 000c 004e 000c 004e 000c 004e 000c 0023 000c 0023 000c 0023 000c 004e 000c 0023 000c 004e 000c 004e 000c 0023 000c 004e 000c 0023 000c 0023 000c 004e 000c 0023 000c 036e</ccf>
+    </code>
+    <code name="KEY_ENTER" codeno="0x000000000000006F">
+      <decoding protocol="Mitsubishi" device="71" subdevice="-1" obc="123" hex0="33" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0068 0011 0000 000c 004e 000c 004e 000c 004e 000c 0023 000c 0023 000c 0023 000c 004e 000c 0023 000c 004e 000c 004e 000c 0023 000c 004e 000c 004e 000c 004e 000c 004e 000c 0023 000c 036e</ccf>
+    </code>
+    <code name="KEY_VIDEO" codeno="0x0000000000000066">
+      <decoding protocol="Mitsubishi" device="71" subdevice="-1" obc="51" hex0="51" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0068 0011 0000 000c 004e 000c 004e 000c 004e 000c 0023 000c 0023 000c 0023 000c 004e 000c 0023 000c 004e 000c 004e 000c 0023 000c 0023 000c 004e 000c 004e 000c 0023 000c 0023 000c 036e</ccf>
+    </code>
+    <code name="KEY_AUDIO" codeno="0x000000000000006E">
+      <decoding protocol="Mitsubishi" device="71" subdevice="-1" obc="59" hex0="35" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0068 0011 0000 000c 004e 000c 004e 000c 004e 000c 0023 000c 0023 000c 0023 000c 004e 000c 0023 000c 004e 000c 004e 000c 0023 000c 004e 000c 004e 000c 004e 000c 0023 000c 0023 000c 036e</ccf>
+    </code>
+    <code name="ST/MONO" codeno="0x0000000000000060">
+      <decoding protocol="Mitsubishi" device="71" subdevice="-1" obc="3" hex0="63" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0068 0011 0000 000c 004e 000c 004e 000c 004e 000c 0023 000c 0023 000c 0023 000c 004e 000c 0023 000c 004e 000c 004e 000c 0023 000c 0023 000c 0023 000c 0023 000c 0023 000c 0023 000c 036e</ccf>
+    </code>
+    <code name="COLOUR-SELECT" codeno="0x0000000000000018">
+      <decoding protocol="Mitsubishi" device="71" subdevice="-1" obc="12" hex0="207" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0068 0011 0000 000c 004e 000c 004e 000c 004e 000c 0023 000c 0023 000c 0023 000c 004e 000c 0023 000c 0023 000c 0023 000c 004e 000c 004e 000c 0023 000c 0023 000c 0023 000c 0023 000c 036e</ccf>
+    </code>
+    <code name="AUDIO-SELECT" codeno="0x0000000000000064">
+      <decoding protocol="Mitsubishi" device="71" subdevice="-1" obc="19" hex0="55" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0068 0011 0000 000c 004e 000c 004e 000c 004e 000c 0023 000c 0023 000c 0023 000c 004e 000c 0023 000c 004e 000c 004e 000c 0023 000c 0023 000c 004e 000c 0023 000c 0023 000c 0023 000c 036e</ccf>
+    </code>
+    <code name="DEGAUSS" codeno="0x0000000000000067">
+      <decoding protocol="Mitsubishi" device="71" subdevice="-1" obc="115" hex0="49" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0068 0011 0000 000c 004e 000c 004e 000c 004e 000c 0023 000c 0023 000c 0023 000c 004e 000c 0023 000c 004e 000c 004e 000c 0023 000c 0023 000c 004e 000c 004e 000c 004e 000c 0023 000c 036e</ccf>
+    </code>
+    <code name="DEMO" codeno="0x0000000000000031">
+      <decoding protocol="Mitsubishi" device="71" subdevice="-1" obc="70" hex0="157" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0068 0011 0000 000c 004e 000c 004e 000c 004e 000c 0023 000c 0023 000c 0023 000c 004e 000c 0023 000c 0023 000c 004e 000c 004e 000c 0023 000c 0023 000c 0023 000c 004e 000c 0023 000c 036e</ccf>
+    </code>
+    <code name="PRESET" codeno="0x0000000000000051">
+      <decoding protocol="Mitsubishi" device="71" subdevice="-1" obc="69" hex0="93" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0068 0011 0000 000c 004e 000c 004e 000c 004e 000c 0023 000c 0023 000c 0023 000c 004e 000c 0023 000c 004e 000c 0023 000c 004e 000c 0023 000c 0023 000c 0023 000c 004e 000c 0023 000c 036e</ccf>
+    </code>
+    <code name="BAND" codeno="0x0000000000000057">
+      <decoding protocol="Mitsubishi" device="71" subdevice="-1" obc="117" hex0="81" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0068 0011 0000 000c 004e 000c 004e 000c 004e 000c 0023 000c 0023 000c 0023 000c 004e 000c 0023 000c 004e 000c 0023 000c 004e 000c 0023 000c 004e 000c 004e 000c 004e 000c 0023 000c 036e</ccf>
+    </code>
+    <code name="AFT" codeno="0x0000000000000053">
+      <decoding protocol="Mitsubishi" device="71" subdevice="-1" obc="101" hex0="89" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0068 0011 0000 000c 004e 000c 004e 000c 004e 000c 0023 000c 0023 000c 0023 000c 004e 000c 0023 000c 004e 000c 0023 000c 004e 000c 0023 000c 0023 000c 004e 000c 004e 000c 0023 000c 036e</ccf>
+    </code>
+    <code name="KEY_NEXT" codeno="0x000000000000005B">
+      <decoding protocol="Mitsubishi" device="71" subdevice="-1" obc="109" hex0="73" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0068 0011 0000 000c 004e 000c 004e 000c 004e 000c 0023 000c 0023 000c 0023 000c 004e 000c 0023 000c 004e 000c 0023 000c 004e 000c 004e 000c 0023 000c 004e 000c 004e 000c 0023 000c 036e</ccf>
+    </code>
+    <code name="REALNAME" codeno="0x000000000000006D">
+      <decoding protocol="Mitsubishi" device="71" subdevice="-1" obc="91" hex0="37" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 0068 0011 0000 000c 004e 000c 004e 000c 004e 000c 0023 000c 0023 000c 0023 000c 004e 000c 0023 000c 004e 000c 004e 000c 0023 000c 004e 000c 004e 000c 0023 000c 004e 000c 0023 000c 036e</ccf>
+    </code>
+  </remote>
+</lircremotes>

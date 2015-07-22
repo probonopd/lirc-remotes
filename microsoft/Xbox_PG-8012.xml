@@ -1,0 +1,113 @@
+<lircremotes creation-date="Wed Jul 22 23:04:09 2015" creator="" lircversion="0.8.6" lirc2xml_version="0.1.2" configfile="remotes/microsoft/Xbox_PG-8012.lircd.conf" decodeir_version="2.40">
+  <remote name="xbox">
+    <lircdata type="RAW_CODES" bits="0" flags="1" eps="30" aeps="100" pthree="0" sthree="0" ptwo="0" stwo="0" pone="0" sone="0" pzero="0" szero="0" plead="0" ptrail="557" pfoot="0" sfoot="0" prepeat="0" srepeat="0" pre_data_bits="0" pre_data="0" post_data_bits="0" post_data="0" pre_p="0" pre_s="0" post_p="0" post_s="0" gap="10976" gap2="0" repeat_gap="0" toggle_bit="0" toggle_bit_mask="0" min_repeat="0" min_code_repeat="0" freq="38000" duty_cycle="0" toggle_mask="0" rc6_mask="0" baud="0" bits_in_byte="0" parity="0" stop_bits="0" ignore_mask="0"/>
+    <code name="DISPLAY" codeno="0x0000000000000001">
+      <decoding protocol="GXB" device="10" subdevice="-1" obc="17" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000f 0000 0014 0013 0038 0013 0015 0039 0038 0013 0015 0039 0016 0038 0015 003a 0015 0039 0038 0013 0015 0039 0015 0039 0014 003a 0038 0013 0037 0014 0014 01a1</ccf>
+    </code>
+    <code name="REVERSE" codeno="0x0000000000000002">
+      <decoding protocol="GXB" device="10" subdevice="-1" obc="33" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000f 0000 0016 0012 0039 0012 0014 003a 0039 0012 0014 003a 0014 003a 0015 0039 0038 0013 0014 003a 0014 003a 0014 003a 0015 0039 0038 0013 0038 0013 0014 01a1</ccf>
+    </code>
+    <code name="PLAY" codeno="0x0000000000000003">
+      <decoding protocol="GXB" device="10" subdevice="-1" obc="34" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000f 0000 0016 0012 0038 0013 0015 0039 0038 0013 0015 0039 0014 003a 0015 0039 0038 0013 0014 003a 0014 003a 0014 003a 0038 0013 0015 0039 0038 0013 0014 01a1</ccf>
+    </code>
+    <code name="FORWARD" codeno="0x0000000000000004">
+      <decoding protocol="GXB" device="10" subdevice="-1" obc="35" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000f 0000 0016 0011 003a 0011 0016 0039 0039 0011 0015 0039 0015 0039 0017 0038 003a 0011 0015 003a 0015 0039 0016 0038 003a 0011 0039 0012 0016 0038 0016 01a1</ccf>
+    </code>
+    <code name="SKIP-" codeno="0x0000000000000005">
+      <decoding protocol="GXB" device="10" subdevice="-1" obc="36" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000f 0000 0016 0012 0039 0012 0015 0038 003a 0012 0015 0038 0016 0038 0016 0038 003a 0012 0016 0038 0016 0038 003a 0012 0015 0038 0016 0038 003a 0012 0016 01a1</ccf>
+    </code>
+    <code name="STOP" codeno="0x0000000000000006">
+      <decoding protocol="GXB" device="10" subdevice="-1" obc="37" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000f 0000 0014 0013 0038 0013 0014 003a 0038 0013 0014 003a 0014 003a 0014 003a 0038 0013 0014 003a 0015 0039 0039 0012 0014 003a 0038 0013 0015 0039 0014 01a1</ccf>
+    </code>
+    <code name="PAUSE" codeno="0x0000000000000007">
+      <decoding protocol="GXB" device="10" subdevice="-1" obc="38" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000f 0000 0016 0011 003a 0012 0015 003a 0037 0013 0015 003a 0015 003a 0015 0038 0039 0013 0014 0039 0016 0038 0038 0014 0039 0011 0015 0039 0016 0039 0014 01a1</ccf>
+    </code>
+    <code name="SKIP+" codeno="0x0000000000000008">
+      <decoding protocol="GXB" device="10" subdevice="-1" obc="39" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000f 0000 0016 0011 0039 0012 0016 0038 0039 0012 0016 0038 0015 0039 0015 0039 0039 0012 0016 0038 0015 0039 0039 0012 003a 0011 0039 0013 0038 0012 0015 01a1</ccf>
+    </code>
+    <code name="TITLE" codeno="0x0000000000000009">
+      <decoding protocol="GXB" device="10" subdevice="-1" obc="65" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000f 0000 0015 0013 0037 0014 0015 0039 0038 0013 0015 0039 0014 003a 0039 0012 0014 003a 0015 0039 0014 003a 0014 003a 0014 003a 0038 0013 0038 0013 0014 01a1</ccf>
+    </code>
+    <code name="INFO" codeno="0x000000000000000A">
+      <decoding protocol="GXB" device="10" subdevice="-1" obc="66" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000f 0000 0016 0012 0038 0013 0015 0039 0037 0014 0015 0039 0014 003a 0038 0013 0015 0039 0014 003a 0014 003a 0015 0039 0039 0012 0014 003a 0038 0013 0014 01a1</ccf>
+    </code>
+    <code name="MENU" codeno="0x000000000000000B">
+      <decoding protocol="GXB" device="10" subdevice="-1" obc="67" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000f 0000 0015 0013 0038 0013 0014 003a 0039 0012 0014 003a 0015 0039 0038 0013 0015 0039 0014 003a 0015 0039 0014 003a 0039 0012 0039 0012 0014 003a 0014 01a1</ccf>
+    </code>
+    <code name="BACK" codeno="0x000000000000000C">
+      <decoding protocol="GXB" device="10" subdevice="-1" obc="68" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000f 0000 0015 0013 0038 0013 0014 003a 0038 0013 0014 0039 0015 003a 0038 0013 0014 003a 0013 003b 0014 003a 0038 0013 0015 0039 0015 0039 0039 0012 0016 01a1</ccf>
+    </code>
+    <code name="SELECT_UP" codeno="0x000000000000000D">
+      <decoding protocol="GXB" device="10" subdevice="-1" obc="18" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000f 0000 0015 0013 0039 0012 0015 0039 0039 0012 0014 003a 0014 003a 0014 003a 0014 003a 0038 0013 0015 0039 0015 0039 0038 0013 0014 003a 0037 0014 0014 01a1</ccf>
+    </code>
+    <code name="SELECT_DOWN" codeno="0x000000000000000E">
+      <decoding protocol="GXB" device="10" subdevice="-1" obc="22" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000f 0000 0013 0014 0039 0012 0014 003a 0038 0013 0014 003a 0014 003a 0015 0039 0015 0039 0038 0013 0014 003a 0039 0012 0039 0012 0014 003a 0015 0039 0014 01a1</ccf>
+    </code>
+    <code name="SELECT_LEFT" codeno="0x000000000000000F">
+      <decoding protocol="GXB" device="10" subdevice="-1" obc="19" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000f 0000 0015 0013 0038 0013 0014 003b 0039 0012 0014 003a 0015 0039 0014 003a 0015 0039 0038 0013 0015 0039 0014 003a 0038 0013 0038 0013 0014 003a 0015 01a1</ccf>
+    </code>
+    <code name="SELECT_RIGHT" codeno="0x0000000000000010">
+      <decoding protocol="GXB" device="10" subdevice="-1" obc="21" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000f 0000 0015 0013 0038 0013 0014 003a 0039 0012 0014 003a 0014 003a 0014 003a 0013 003b 0038 0013 0014 003a 0038 0013 0015 0039 0038 0013 0013 003b 0014 01a1</ccf>
+    </code>
+    <code name="SELECT_MIDDLE" codeno="0x0000000000000011">
+      <decoding protocol="GXB" device="10" subdevice="-1" obc="20" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000f 0000 0016 0012 0038 0013 0014 003a 0038 0013 0014 003a 0014 003a 0014 003a 0015 0039 0038 0013 0015 0039 0039 0012 0014 003a 0014 003a 0039 0012 0015 01a1</ccf>
+    </code>
+    <code name="1" codeno="0x0000000000000012">
+      <decoding protocol="GXB" device="10" subdevice="-1" obc="129" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000f 0000 0014 0013 0038 0013 0013 003b 0037 0014 0013 003b 0038 0013 0015 0039 0015 0039 0015 0039 0015 0039 0014 003a 0015 0039 0038 0013 0037 0014 0014 01a1</ccf>
+    </code>
+    <code name="2" codeno="0x0000000000000013">
+      <decoding protocol="GXB" device="10" subdevice="-1" obc="130" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000f 0000 0015 0013 0038 0013 0015 003a 0038 0013 0015 0039 0038 0013 0015 0039 0014 003a 0014 0039 0015 0039 0016 0039 0038 0013 0014 003a 0038 0012 0015 01a1</ccf>
+    </code>
+    <code name="3" codeno="0x0000000000000014">
+      <decoding protocol="GXB" device="10" subdevice="-1" obc="131" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000f 0000 0015 0013 0039 0011 0016 0039 0039 0012 0015 003a 0038 0012 0014 003b 0014 0039 0015 003a 0015 0039 0014 003a 0038 0013 0038 0013 0014 003a 0015 01a1</ccf>
+    </code>
+    <code name="4" codeno="0x0000000000000015">
+      <decoding protocol="GXB" device="10" subdevice="-1" obc="132" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000f 0000 0014 0013 0038 0013 0014 003a 0039 0012 0014 003a 0038 0013 0015 0039 0014 003a 0014 003a 0014 003a 0039 0012 0015 0039 0014 003a 0039 0012 0015 01a1</ccf>
+    </code>
+    <code name="5" codeno="0x0000000000000016">
+      <decoding protocol="GXB" device="10" subdevice="-1" obc="133" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000f 0000 0016 0011 003a 0011 0016 0038 003a 0011 0017 0037 003a 0011 0016 0038 0017 0037 0016 0038 0016 0038 003a 0011 0016 0038 003a 0011 0016 0038 0016 01a1</ccf>
+    </code>
+    <code name="6" codeno="0x0000000000000017">
+      <decoding protocol="GXB" device="10" subdevice="-1" obc="134" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000f 0000 0016 0011 003a 0011 0016 0038 003a 0011 0016 0039 0039 0011 0016 0038 0016 0038 0016 0038 0016 0038 003a 0011 003a 0012 0016 0038 0016 0038 0016 01a1</ccf>
+    </code>
+    <code name="7" codeno="0x0000000000000018">
+      <decoding protocol="GXB" device="10" subdevice="-1" obc="135" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000f 0000 0017 0011 003a 0011 0017 0037 003a 0011 0016 0038 003a 0011 0016 0038 0017 0037 0016 0038 0017 0037 003a 0011 003a 0011 003a 0011 003a 0011 0016 01a1</ccf>
+    </code>
+    <code name="8" codeno="0x0000000000000019">
+      <decoding protocol="GXB" device="10" subdevice="-1" obc="136" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000f 0000 0015 0012 0038 0013 0014 003a 0038 0013 0015 0039 0038 0013 0014 003a 0014 003a 0014 003a 0039 0012 0013 003b 0014 003a 0015 0039 0039 0012 0013 01a1</ccf>
+    </code>
+    <code name="9" codeno="0x000000000000001A">
+      <decoding protocol="GXB" device="10" subdevice="-1" obc="137" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000f 0000 0014 0013 0039 0012 0014 003b 0038 0013 0014 003a 0039 0012 0014 003a 0014 003a 0015 0039 0038 0013 0015 0039 0014 003a 0038 0013 0014 003a 0015 01a1</ccf>
+    </code>
+    <code name="0" codeno="0x000000000000001B">
+      <decoding protocol="GXB" device="10" subdevice="-1" obc="138" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 000f 0000 0016 0011 003a 0011 0016 0038 003a 0011 0016 0038 003a 0011 0016 0038 0016 0038 0016 0038 003a 0011 0016 0038 003a 0011 0016 0038 0016 0038 0016 01a1</ccf>
+    </code>
+  </remote>
+</lircremotes>

@@ -1,0 +1,109 @@
+<lircremotes creation-date="Wed Jul 22 23:04:16 2015" creator="" lircversion="0.8.6" lirc2xml_version="0.1.2" configfile="remotes/directv/HD20-100.lircd.conf" decodeir_version="2.40">
+  <remote name="DirecTV_HD20-100">
+    <lircdata type="RAW_CODES" bits="0" flags="1" eps="30" aeps="100" pthree="0" sthree="0" ptwo="0" stwo="0" pone="0" sone="0" pzero="0" szero="0" plead="0" ptrail="613" pfoot="0" sfoot="0" prepeat="0" srepeat="0" pre_data_bits="0" pre_data="0" post_data_bits="0" post_data="0" pre_p="0" pre_s="0" post_p="0" post_s="0" gap="29767" gap2="0" repeat_gap="0" toggle_bit="0" toggle_bit_mask="0" min_repeat="0" min_code_repeat="0" freq="38000" duty_cycle="0" toggle_mask="0" rc6_mask="0" baud="0" bits_in_byte="0" parity="0" stop_bits="0" ignore_mask="0"/>
+    <code name="1" codeno="0x0000000000000001">
+      <decoding protocol="DirecTV" device="12" subdevice="-1" obc="1" hex0="1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: Parm = 3" error=""/>
+      <ccf>0000 006d 000a 0000 00e4 002c 0030 002a 0019 0015 0019 0015 0019 0015 0019 0013 0019 002c 0019 0015 0019 002c 0017 046b</ccf>
+    </code>
+    <code name="2" codeno="0x0000000000000002">
+      <decoding protocol="DirecTV" device="12" subdevice="-1" obc="2" hex0="2" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: Parm = 3" error=""/>
+      <ccf>0000 006d 000a 0000 00e4 002a 0030 002c 0019 0015 0019 0015 0017 0015 0019 0015 0030 0015 0019 0015 002e 0015 0019 046b</ccf>
+    </code>
+    <code name="3" codeno="0x0000000000000003">
+      <decoding protocol="DirecTV" device="12" subdevice="-1" obc="3" hex0="3" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: Parm = 3" error=""/>
+      <ccf>0000 006d 000a 0000 00e4 002c 0030 002a 0019 0015 0019 0015 0019 0015 0019 0015 002e 002c 0019 0015 0030 002c 0017 046b</ccf>
+    </code>
+    <code name="4" codeno="0x0000000000000004">
+      <decoding protocol="DirecTV" device="12" subdevice="-1" obc="4" hex0="4" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: Parm = 3" error=""/>
+      <ccf>0000 006d 000a 0000 00e4 002c 0030 002c 0019 0013 0019 0015 0019 0015 0019 002c 0019 0013 0019 0015 0030 002c 0019 046b</ccf>
+    </code>
+    <code name="5" codeno="0x0000000000000005">
+      <decoding protocol="DirecTV" device="12" subdevice="-1" obc="5" hex0="5" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: Parm = 3" error=""/>
+      <ccf>0000 006d 000a 0000 00e4 002c 0030 002a 0019 0015 0019 0015 0019 0013 0019 002c 0019 002c 0019 002c 0017 0015 0019 046b</ccf>
+    </code>
+    <code name="6" codeno="0x0000000000000006">
+      <decoding protocol="DirecTV" device="12" subdevice="-1" obc="6" hex0="6" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: Parm = 3" error=""/>
+      <ccf>0000 006d 000a 0000 00e4 002c 0030 002c 0019 0013 0019 0015 0019 0015 0019 002c 002e 0015 0019 002c 0019 002c 0017 046b</ccf>
+    </code>
+    <code name="7" codeno="0x0000000000000007">
+      <decoding protocol="DirecTV" device="12" subdevice="-1" obc="7" hex0="7" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: Parm = 3" error=""/>
+      <ccf>0000 006d 000a 0000 00e4 002a 0030 002c 0019 0015 0019 0013 0019 0015 0019 002c 0030 002a 0019 002c 0030 0015 0019 046b</ccf>
+    </code>
+    <code name="8" codeno="0x0000000000000008">
+      <decoding protocol="DirecTV" device="12" subdevice="-1" obc="8" hex0="8" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: Parm = 3" error=""/>
+      <ccf>0000 006d 000a 0000 00e4 002c 0030 002a 0019 0015 0019 0015 0019 0015 002e 0015 0019 0015 0019 002c 002e 0015 0019 046b</ccf>
+    </code>
+    <code name="9" codeno="0x0000000000000009">
+      <decoding protocol="DirecTV" device="12" subdevice="-1" obc="9" hex0="9" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: Parm = 3" error=""/>
+      <ccf>0000 006d 000a 0000 00e4 002a 0031 002a 0019 0015 0019 0015 0019 0013 0030 0015 0019 002c 0019 002c 002e 002c 0019 046b</ccf>
+    </code>
+    <code name="0" codeno="0x000000000000000A">
+      <decoding protocol="DirecTV" device="12" subdevice="-1" obc="17" hex0="17" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: Parm = 3" error=""/>
+      <ccf>0000 006d 000a 0000 00e4 002c 0030 002c 0019 0013 0019 0015 0019 002c 0019 0015 0019 002a 0019 002c 0030 0015 0019 046b</ccf>
+    </code>
+    <code name="dash" codeno="0x000000000000000B">
+      <decoding protocol="DirecTV" device="12" subdevice="-1" obc="18" hex0="18" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: Parm = 3" error=""/>
+      <ccf>0000 006d 000a 0000 00e4 002a 0031 002a 0019 0015 0019 0015 0019 002a 0019 0015 0030 0015 0019 002a 0030 002c 0019 046b</ccf>
+    </code>
+    <code name="last" codeno="0x000000000000000C">
+      <decoding protocol="DirecTV" device="12" subdevice="-1" obc="15" hex0="15" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: Parm = 3" error=""/>
+      <ccf>0000 006d 000a 0000 00e4 002a 0031 002a 0019 0015 0019 0015 0019 0013 0030 002c 0030 002c 002e 002c 0019 0015 0019 046b</ccf>
+    </code>
+    <code name="guide" codeno="0x000000000000000D">
+      <decoding protocol="DirecTV" device="12" subdevice="-1" obc="40" hex0="40" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: Parm = 3" error=""/>
+      <ccf>0000 006d 000a 0000 00e4 002a 0031 002a 0019 0015 0019 0015 0030 0013 0030 0015 0019 0015 0019 0015 0017 0015 0019 046b</ccf>
+    </code>
+    <code name="up" codeno="0x000000000000000E">
+      <decoding protocol="DirecTV" device="12" subdevice="-1" obc="33" hex0="33" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: Parm = 3" error=""/>
+      <ccf>0000 006d 000a 0000 00e4 002a 0031 002a 0019 0015 0019 0015 0030 0013 0019 0015 0019 002c 0030 0013 0030 002c 0019 046b</ccf>
+    </code>
+    <code name="down" codeno="0x000000000000000F">
+      <decoding protocol="DirecTV" device="12" subdevice="-1" obc="34" hex0="34" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: Parm = 3" error=""/>
+      <ccf>0000 006d 000a 0000 00e4 002c 0030 002a 0019 0015 0019 0015 0030 0013 0019 0015 0030 0015 0030 002c 0017 0015 0019 046b</ccf>
+    </code>
+    <code name="left" codeno="0x0000000000000010">
+      <decoding protocol="DirecTV" device="12" subdevice="-1" obc="35" hex0="35" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: Parm = 3" error=""/>
+      <ccf>0000 006d 000a 0000 00e4 002c 0030 002c 0019 0013 001b 0013 0030 0015 0019 0015 0030 002a 0030 002c 0019 002c 0017 046b</ccf>
+    </code>
+    <code name="right" codeno="0x0000000000000011">
+      <decoding protocol="DirecTV" device="12" subdevice="-1" obc="36" hex0="36" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: Parm = 3" error=""/>
+      <ccf>0000 006d 000a 0000 00e4 002c 0030 002a 0019 0015 0019 0015 0030 0013 0019 002c 0019 0015 0030 002a 0019 002c 0019 046b</ccf>
+    </code>
+    <code name="select" codeno="0x0000000000000012">
+      <decoding protocol="DirecTV" device="12" subdevice="-1" obc="37" hex0="37" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: Parm = 3" error=""/>
+      <ccf>0000 006d 000a 0000 00e4 002c 0030 002a 001b 0013 0019 0015 0030 0015 0019 002a 0019 002c 0030 002c 002e 0015 0019 046b</ccf>
+    </code>
+    <code name="action" codeno="0x0000000000000013">
+      <decoding protocol="DirecTV" device="12" subdevice="-1" obc="41" hex0="41" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: Parm = 3" error=""/>
+      <ccf>0000 006d 000a 0000 00e4 002c 0030 002c 0019 0013 0019 0015 0030 0015 0030 0015 0017 002c 0019 0015 0019 002c 0019 046b</ccf>
+    </code>
+    <code name="list" codeno="0x0000000000000014">
+      <decoding protocol="DirecTV" device="12" subdevice="-1" obc="42" hex0="42" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: Parm = 3" error=""/>
+      <ccf>0000 006d 000a 0000 00e6 002a 0030 002c 0019 0013 0019 0015 0030 0015 0030 0015 002e 0015 0019 0015 0030 0015 0019 046b</ccf>
+    </code>
+    <code name="info" codeno="0x0000000000000015">
+      <decoding protocol="DirecTV" device="12" subdevice="-1" obc="46" hex0="46" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: Parm = 3" error=""/>
+      <ccf>0000 006d 000a 0000 00e4 002a 0030 002c 0019 0015 0019 0013 0030 0015 0030 002c 0030 0013 0019 002c 0019 002c 0019 046b</ccf>
+    </code>
+    <code name="back" codeno="0x0000000000000016">
+      <decoding protocol="DirecTV" device="12" subdevice="-1" obc="39" hex0="39" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: Parm = 3" error=""/>
+      <ccf>0000 006d 000a 0000 00e4 002c 0030 002c 0019 0013 001b 0013 0030 0015 0019 002c 002e 002c 0019 0015 0019 0015 0019 046b</ccf>
+    </code>
+    <code name="power" codeno="0x0000000000000017">
+      <decoding protocol="DirecTV" device="12" subdevice="-1" obc="128" hex0="128" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: Parm = 3" error=""/>
+      <ccf>0000 006d 000a 0000 00e4 002c 0030 002a 0019 0015 0030 0015 0019 0015 0019 0013 0019 0015 0030 002c 0030 0013 0019 046b</ccf>
+    </code>
+    <code name="exit" codeno="0x0000000000000018">
+      <decoding protocol="DirecTV" device="12" subdevice="-1" obc="38" hex0="38" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: Parm = 3" error=""/>
+      <ccf>0000 006d 000a 0000 00e4 002c 0030 002c 0019 0013 0019 0015 0030 0015 0019 002c 002e 0015 0030 002c 0030 002a 0019 046b</ccf>
+    </code>
+    <code name="ch-" codeno="0x0000000000000019">
+      <decoding protocol="DirecTV" device="12" subdevice="-1" obc="14" hex0="14" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: Parm = 3" error=""/>
+      <ccf>0000 006d 000a 0000 00e4 002a 0030 002c 0019 0015 0019 0013 0019 0015 0030 002c 0030 0015 002e 0015 0030 002c 0019 046b</ccf>
+    </code>
+    <code name="ch+" codeno="0x000000000000001A">
+      <decoding protocol="DirecTV" device="12" subdevice="-1" obc="13" hex0="13" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: Parm = 3" error=""/>
+      <ccf>0000 006d 000a 0000 00e4 002a 0031 002a 0019 0015 0019 0013 001b 0013 0030 002c 0019 002c 002e 0015 0030 0015 0019 046b</ccf>
+    </code>
+  </remote>
+</lircremotes>

@@ -1,0 +1,136 @@
+<lircremotes creation-date="Wed Jul 22 23:04:08 2015" creator="" lircversion="0.8.6" lirc2xml_version="0.1.2" configfile="remotes/one_for_all/URC-8203.lircd.conf" decodeir_version="2.40">
+  <remote name="OneForAll_URC-8203">
+    <lircdata type="RAW_CODES" bits="0" flags="16385" eps="30" aeps="100" pthree="0" sthree="0" ptwo="0" stwo="0" pone="0" sone="0" pzero="0" szero="0" plead="0" ptrail="0" pfoot="0" sfoot="0" prepeat="0" srepeat="0" pre_data_bits="0" pre_data="0" post_data_bits="0" post_data="0" pre_p="0" pre_s="0" post_p="0" post_s="0" gap="149789" gap2="0" repeat_gap="0" toggle_bit="0" toggle_bit_mask="0" min_repeat="0" min_code_repeat="0" freq="38000" duty_cycle="0" toggle_mask="0" rc6_mask="0" baud="0" bits_in_byte="0" parity="0" stop_bits="0" ignore_mask="0"/>
+    <code name="1" codeno="0x0000000000000001">
+      <decoding protocol="RC6-6-20" device="0" subdevice="0" obc="1" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 0019 0000 0065 0022 0012 0010 0012 0010 0012 0020 0012 0020 0022 0010 0012 0010 0011 0011 0011 0011 0012 0010 0011 0011 0011 0011 0011 0011 0012 0010 0011 0011 0011 0011 0012 0010 0012 0010 0011 0011 0011 0011 0011 0011 0011 0011 0011 0011 0011 0011 0022 1260</ccf>
+    </code>
+    <code name="2" codeno="0x0000000000000002">
+      <decoding protocol="RC6-6-20" device="0" subdevice="0" obc="2" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 0019 0000 0065 0022 0011 0011 0011 0011 0011 0021 0012 0020 0021 0011 0012 0010 0011 0011 0012 0010 0011 0011 0011 0011 0011 0011 0012 0010 0011 0011 0012 0010 0012 0010 0012 0010 0011 0011 0012 0010 0011 0011 0012 0010 0011 0011 0012 0010 0022 0020 0012 1250</ccf>
+    </code>
+    <code name="3" codeno="0x0000000000000003">
+      <decoding protocol="RC6-6-20" device="0" subdevice="0" obc="3" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 0019 0000 0066 0021 0012 0010 0012 0010 0011 0021 0012 0020 0022 0010 0011 0011 0011 0011 0011 0011 0012 0010 0011 0011 0011 0011 0011 0011 0011 0011 0012 0010 0012 0010 0011 0011 0011 0011 0012 0010 0011 0011 0012 0010 0011 0011 0012 0010 0023 0010 0011 1261</ccf>
+    </code>
+    <code name="4" codeno="0x0000000000000004">
+      <decoding protocol="RC6-6-20" device="0" subdevice="0" obc="4" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 0019 0000 0066 0021 0011 0011 0010 0012 0010 0022 0011 0021 0021 0012 0011 0011 0011 0011 0010 0012 0010 0012 0010 0012 0010 0012 0011 0011 0010 0012 0011 0011 0010 0012 0011 0011 0010 0012 0011 0011 0010 0011 0011 0011 0010 0012 0021 0022 0010 0012 0010 1252</ccf>
+    </code>
+    <code name="5" codeno="0x0000000000000005">
+      <decoding protocol="RC6-6-20" device="0" subdevice="0" obc="5" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 0018 0000 0066 0021 0011 0011 0012 0010 0012 0020 0011 0021 0021 0011 0011 0011 0012 0010 0011 0011 0012 0010 0011 0011 0011 0010 0011 0011 0011 0011 0011 0011 0011 0011 0011 0011 0012 0010 0012 0010 0012 0010 0011 0011 0011 0011 0021 0021 0022 1261</ccf>
+    </code>
+    <code name="6" codeno="0x0000000000000006">
+      <decoding protocol="RC6-6-20" device="0" subdevice="0" obc="6" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 0019 0000 0065 0022 0011 0011 0011 0011 0011 0021 0011 0021 0021 0011 0012 0010 0012 0010 0012 0010 0011 0011 0012 0010 0012 0010 0011 0010 0012 0010 0011 0011 0012 0010 0011 0011 0011 0011 0011 0011 0012 0010 0012 0010 0012 0010 0022 0010 0012 0020 0012 1250</ccf>
+    </code>
+    <code name="7" codeno="0x0000000000000007">
+      <decoding protocol="RC6-6-20" device="0" subdevice="0" obc="7" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 0019 0000 0066 0021 0012 0010 0011 0010 0011 0021 0012 0020 0022 0010 0012 0010 0011 0011 0011 0011 0011 0011 0012 000f 0012 0011 0011 0010 0011 0011 0012 0010 0011 0011 0011 0011 0011 0011 0012 0010 0011 0011 0011 0011 0011 0011 0022 0010 0012 0010 0011 1261</ccf>
+    </code>
+    <code name="8" codeno="0x0000000000000008">
+      <decoding protocol="RC6-6-20" device="0" subdevice="0" obc="8" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 0019 0000 0065 0022 0012 0010 0012 0010 0012 0020 0012 0020 0021 0011 0012 0010 0011 0011 0012 0010 0011 0011 0012 0010 0012 0010 0011 0011 0011 0011 0011 0011 0012 0010 0012 0010 0012 0010 0012 0010 0012 0010 0012 0010 0022 0020 0012 0010 0011 0011 0011 1251</ccf>
+    </code>
+    <code name="9" codeno="0x0000000000000009">
+      <decoding protocol="RC6-6-20" device="0" subdevice="0" obc="9" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 0018 0000 0065 0022 0011 0011 0012 0010 0011 0021 0011 0021 0021 0011 0012 0010 0011 0011 0012 0010 0012 0010 0012 0010 0011 0011 0012 0010 0011 0011 0011 0011 0011 0011 0012 0010 0012 0010 0011 0011 0012 0010 0011 0011 0022 0020 0012 0010 0022 1260</ccf>
+    </code>
+    <code name="menu" codeno="0x000000000000000A">
+      <decoding protocol="RC6-6-20" device="0" subdevice="0" obc="245" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 0017 0000 0065 0022 0012 0010 0011 0011 0011 0021 0012 0020 0021 0011 0012 0010 0012 0010 0012 0010 0011 0011 0012 0010 0011 0011 0011 0011 0011 0011 0011 0011 0012 0010 0011 0011 0022 0010 0012 0010 0011 0011 0011 0021 0022 0020 0022 1261</ccf>
+    </code>
+    <code name="back" codeno="0x000000000000000B">
+      <decoding protocol="RC6-6-20" device="0" subdevice="0" obc="131" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 0018 0000 0065 0022 0011 0011 0012 0010 0011 0021 0012 0020 0021 0011 0011 0011 0011 0011 0011 0011 0012 0010 0011 0011 0011 0011 0012 0010 0012 0010 0012 0010 0012 0010 0011 0011 0021 0021 0011 0011 0011 0011 0012 0010 0012 0010 0022 0010 0011 1261</ccf>
+    </code>
+    <code name="vol+" codeno="0x000000000000000C">
+      <decoding protocol="RC6-6-20" device="0" subdevice="0" obc="32" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 0019 0000 0065 0022 0011 0011 0012 000f 0012 0021 0011 0021 0023 0010 0011 0011 0011 0011 0011 0011 0012 0010 0012 0010 0012 0010 0011 0011 0012 0010 0012 0010 0011 0011 0011 0011 0011 0011 0011 0011 0022 0020 0011 0011 0012 0010 0012 0010 0012 0010 0012 1250</ccf>
+    </code>
+    <code name="vol-" codeno="0x000000000000000D">
+      <decoding protocol="RC6-6-20" device="0" subdevice="0" obc="33" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 0018 0000 0066 0021 0012 0010 0011 0010 0012 0020 0012 0020 0022 0010 0012 0010 0011 0011 0012 0010 0011 0011 0012 0010 0012 0010 0011 0011 0011 0011 0011 0011 0011 0011 0011 0011 0011 0011 0011 0011 0022 0021 0012 0010 0012 0010 0012 0010 0021 1261</ccf>
+    </code>
+    <code name="ok" codeno="0x000000000000000E">
+      <decoding protocol="RC6-6-20" device="0" subdevice="0" obc="92" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 0018 0000 0066 0021 0012 0010 0011 0011 0012 0020 0012 0020 0021 0011 0012 0010 0011 0011 0011 0010 0011 0011 0011 0011 0012 0010 0011 0011 0012 000f 0012 0010 0011 0011 0012 0010 0012 0010 0022 0020 0022 0010 0012 0010 0012 0020 0012 0010 0012 1250</ccf>
+    </code>
+    <code name="left" codeno="0x000000000000000F">
+      <decoding protocol="RC6-6-20" device="0" subdevice="0" obc="90" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 0017 0000 0065 0021 0012 0010 0012 0010 0011 0021 0012 0020 0023 0010 0012 0010 0011 0010 0012 0010 0012 0010 0011 0011 0011 0011 0011 0011 0011 0011 0012 0010 0012 0010 0012 0010 0011 0011 0022 0021 0022 0010 0012 0020 0022 0021 0012 1251</ccf>
+    </code>
+    <code name="right" codeno="0x0000000000000010">
+      <decoding protocol="RC6-6-20" device="0" subdevice="0" obc="91" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 0017 0000 0065 0022 0012 0010 0011 0011 0011 0021 0011 0021 0022 0010 0011 0011 0012 0010 0011 0011 0011 0011 0012 0010 0011 0010 0012 0010 0012 0010 0011 0011 0012 0010 0011 0011 0011 0011 0022 0020 0021 0011 0011 0021 0021 0011 0011 1262</ccf>
+    </code>
+    <code name="up" codeno="0x0000000000000011">
+      <decoding protocol="RC6-6-20" device="0" subdevice="0" obc="88" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 0018 0000 0067 0020 0012 0010 0011 0010 0011 0021 0011 0021 0023 000e 0012 0011 0011 0011 0011 0010 0012 0010 0011 0011 0012 0010 0011 0011 0011 0010 0011 0011 0012 0010 0011 0010 0011 0011 0023 0020 0022 0010 0011 0021 0012 0010 0011 0011 0012 1250</ccf>
+    </code>
+    <code name="down" codeno="0x0000000000000012">
+      <decoding protocol="RC6-6-20" device="0" subdevice="0" obc="89" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: T=0" error=""/>
+      <ccf>0000 006d 0017 0000 0066 0021 0012 0010 0012 0010 0012 0020 0011 0021 0022 0011 0012 0010 0011 0011 0011 0011 0011 0011 0012 0010 0012 0010 0011 0010 0012 0010 0011 0010 0012 0010 0011 0011 0011 0011 0023 0020 0022 0010 0012 0020 0012 0010 0022 1261</ccf>
+    </code>
+    <code name="play" codeno="0x0000000000000013">
+      <decoding protocol="Async7:1077-1132:5C.AD..6B.DB" device="173" subdevice="181" obc="107" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 5C AD AD B5 6B 6B DB" error=""/>
+      <decoding protocol="Emerson" device="40" subdevice="-1" obc="10" hex0="172" hex1="173" hex2="174" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 001a 0000 0080 007d 0020 001f 0021 001e 0020 001f 0021 005d 0020 001f 0021 005d 0020 001f 0021 005d 0020 001f 0021 005d 0021 001e 0021 001e 0020 005e 0021 005d 0020 005e 0020 001f 0021 005d 0020 001f 0020 005e 0020 001f 0021 005d 0021 001e 0020 005e 0021 005d 0021 0c3a</ccf>
+    </code>
+    <code name="rewind" codeno="0x0000000000000014">
+      <decoding protocol="Async7:1077-1129:5C.AD..5B.DB" device="181" subdevice="181" obc="107" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 5C AD B5 B5 6B 5B DB" error=""/>
+      <decoding protocol="Emerson" device="40" subdevice="-1" obc="12" hex0="204" hex1="205" hex2="206" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 001a 0000 0082 007b 0022 001e 0020 001f 0020 001f 0020 005e 0021 001e 0021 005e 0021 001e 0021 001e 0020 005e 0021 005d 0020 001f 0020 001f 0020 005e 0020 005e 0021 005d 0020 001f 0021 005d 0021 001e 0020 005e 0020 005e 0021 001e 0021 001e 0020 005e 0020 005e 0021 0c39</ccf>
+    </code>
+    <code name="forward" codeno="0x0000000000000015">
+      <decoding protocol="Emerson" device="40" subdevice="-1" obc="4" hex0="220" hex1="221" hex2="222" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 001a 0000 0081 007d 0020 001f 0020 001f 0020 001f 0021 005d 0020 001f 0020 005e 0021 001e 0021 001e 0021 005d 0020 001f 0021 001e 0021 001e 0020 005e 0021 005d 0021 005d 0021 001e 0021 005d 0021 001e 0020 005e 0020 005e 0020 001f 0021 005d 0020 005e 0021 005d 0020 0c3a</ccf>
+    </code>
+    <code name="pause" codeno="0x0000000000000016">
+      <decoding protocol="Emerson" device="40" subdevice="-1" obc="11" hex0="44" hex1="45" hex2="46" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 001a 0000 0080 007d 0020 0020 001f 001f 0020 001f 0020 005e 0020 001f 0020 005e 0021 005e 0020 005e 0020 0020 001f 005e 0021 001e 0020 001f 0020 005f 001f 005e 0021 005d 0020 001f 0021 005e 001f 0020 0020 001f 001f 001f 0020 005f 001f 0020 001f 005e 0021 005e 001f 0c3b</ccf>
+    </code>
+    <code name="stop" codeno="0x0000000000000017">
+      <decoding protocol="Emerson" device="40" subdevice="-1" obc="28" hex0="196" hex1="197" hex2="198" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 001a 0000 0082 007c 0021 001e 0020 001f 0020 001f 0021 005d 0021 001e 0020 005e 0021 001e 0020 001f 0020 005e 0020 005e 0021 005d 0020 001f 0020 005e 0020 005e 0021 005d 0020 001f 0021 005d 0020 001f 0021 005d 0021 005d 0020 001f 0021 001e 0020 001f 0021 005d 0020 0c3a</ccf>
+    </code>
+    <code name="rec" codeno="0x0000000000000018">
+      <decoding protocol="Emerson" device="40" subdevice="-1" obc="26" hex0="164" hex1="165" hex2="166" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 001a 0000 0081 007b 0021 001f 0020 001f 0021 001e 0021 005d 0020 001f 0020 005e 0020 001f 0020 005e 0021 001e 0020 005e 0021 005d 0020 001f 0020 005e 0021 005d 0020 005e 0020 001f 0021 005d 0021 001f 0021 005d 0020 001f 0021 005d 0020 001f 0020 001f 0021 005d 0020 0c3b</ccf>
+    </code>
+  </remote>
+  <remote name="OneForAll_URC-8203b">
+    <lircdata type="RAW_CODES" bits="0" flags="16385" eps="30" aeps="100" pthree="0" sthree="0" ptwo="0" stwo="0" pone="0" sone="0" pzero="0" szero="0" plead="0" ptrail="0" pfoot="0" sfoot="0" prepeat="0" srepeat="0" pre_data_bits="0" pre_data="0" post_data_bits="0" post_data="0" pre_p="0" pre_s="0" post_p="0" post_s="0" gap="200000" gap2="0" repeat_gap="0" toggle_bit="0" toggle_bit_mask="0" min_repeat="0" min_code_repeat="0" freq="38000" duty_cycle="0" toggle_mask="0" rc6_mask="0" baud="0" bits_in_byte="0" parity="0" stop_bits="0" ignore_mask="0"/>
+    <code name="red" codeno="0x0000000000000001">
+      <decoding protocol="Emerson" device="44" subdevice="-1" obc="57" hex0="96" hex1="97" hex2="98" hex3="-1" misc="no repeat" error=""/>
+      <decoding protocol="Gap-873-2506-13?" device="12" subdevice="-1" obc="243" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 6C.1E" error=""/>
+      <ccf>0000 006d 0029 0000 0081 007c 0022 001e 0020 001f 0020 005e 0021 005d 0020 001f 0021 005d 0020 005e 0021 001e 0020 001f 0020 005e 0020 005e 0020 005e 0021 005d 0021 005d 0021 001e 0020 001f 0020 005e 0020 001f 0021 001e 0021 005d 0020 005e 0020 001f 0020 001f 0021 001e 0021 057d 0081 007c 0021 001f 0020 001f 0020 005e 0021 005d 0020 001f 0021 005d 0020 005e 0021 001e 0020 001f 0021 005d 0020 005e 0021 005d 0020 005e 0020 07e3</ccf>
+    </code>
+    <code name="green" codeno="0x0000000000000002">
+      <decoding protocol="Emerson" device="44" subdevice="-1" obc="56" hex0="224" hex1="225" hex2="226" hex3="-1" misc="no repeat" error=""/>
+      <decoding protocol="Gap-875-2494-15?" device="44" subdevice="-1" obc="124" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 2C.3E" error=""/>
+      <ccf>0000 006d 002b 0000 0081 007d 0020 001f 0021 001e 0020 005e 0021 005e 0020 001f 0021 005d 0021 001e 0021 001e 0020 001f 0021 005d 0021 005d 0020 005e 0021 005d 0021 005d 0020 001f 0021 001e 0021 005d 0020 001f 0020 005e 0021 005d 0020 005e 0020 001f 0021 001e 0021 001e 0020 057e 0081 007d 0021 001e 0021 001e 0021 005d 0021 005e 0021 001e 0021 005d 0020 001f 0020 001f 0021 001e 0020 005e 0021 005d 0021 005d 0020 005e 0021 005d 0021 001e 0020 0765</ccf>
+    </code>
+    <code name="yellow" codeno="0x0000000000000003">
+      <decoding protocol="Emerson" device="44" subdevice="-1" obc="55" hex0="16" hex1="17" hex2="18" hex3="-1" misc="no repeat" error=""/>
+      <decoding protocol="Gap-874-2507-13?" device="12" subdevice="-1" obc="239" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: EC.1D" error=""/>
+      <ccf>0000 006d 0029 0000 0081 007d 0020 001f 0021 001e 0020 005e 0021 005d 0021 001e 0021 005d 0020 005e 0020 005e 0020 005e 0021 001e 0020 005e 0020 005e 0020 005e 0020 005e 0021 001e 0021 001e 0020 005e 0021 001e 0020 001f 0020 001f 0021 001e 0021 005d 0020 001f 0021 001e 0021 057d 0082 007b 0021 001f 0020 001f 0020 005e 0021 005d 0021 001e 0020 005e 0020 005e 0021 005d 0020 005e 0021 001e 0020 005e 0020 005e 0020 005e 0021 07a3</ccf>
+    </code>
+    <code name="blue" codeno="0x0000000000000004">
+      <decoding protocol="Emerson" device="44" subdevice="-1" obc="58" hex0="160" hex1="161" hex2="162" hex3="-1" misc="no repeat" error=""/>
+      <decoding protocol="Gap-874-2495-13?" device="12" subdevice="-1" obc="245" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: AC.1E" error=""/>
+      <ccf>0000 006d 0029 0000 0082 007b 0021 001f 0020 001f 0021 005d 0021 005d 0021 001e 0021 005d 0021 001e 0021 005d 0021 001e 0020 005e 0021 005d 0021 005d 0021 005d 0021 005d 0020 001f 0021 001e 0020 005e 0020 001f 0021 005d 0021 001e 0020 005e 0020 001f 0020 001f 0020 001f 0021 057d 0082 007c 0021 001e 0021 001e 0020 005e 0021 005d 0021 001e 0021 005d 0021 001e 0020 005e 0021 001f 0021 005d 0021 005d 0021 005d 0021 005d 0021 07e2</ccf>
+    </code>
+    <code name="0" codeno="0x0000000000000005">
+      <decoding protocol="Emerson" device="40" subdevice="-1" obc="41" hex0="104" hex1="105" hex2="106" hex3="-1" misc="no repeat" error=""/>
+      <decoding protocol="Gap-873-2508-14?" device="40" subdevice="-1" obc="233" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 68.3A" error=""/>
+      <ccf>0000 006d 002a 0000 0081 007c 0021 001f 0020 001f 0020 001f 0021 005d 0020 001f 0020 005e 0021 005d 0021 001e 0021 001e 0020 005e 0020 001f 0021 005d 0020 005e 0020 005e 0021 005e 0021 001e 0021 005d 0020 001f 0021 001f 0020 005e 0021 005d 0021 001e 0021 005d 0021 001e 0020 057e 0082 007b 0021 001f 0020 001f 0020 001f 0020 005e 0021 001e 0020 005e 0020 005e 0021 001e 0020 001f 0020 005e 0020 001f 0020 005e 0021 005d 0021 005d 0020 07e3</ccf>
+    </code>
+    <code name="power" codeno="0x0000000000000006">
+      <decoding protocol="Emerson" device="40" subdevice="-1" obc="32" hex0="248" hex1="249" hex2="250" hex3="-1" misc="no repeat" error=""/>
+      <decoding protocol="Gap-873-2494-16?" device="40" subdevice="-1" obc="120" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 28.78" error=""/>
+      <ccf>0000 006d 002c 0000 0082 007c 0020 001f 0020 001f 0020 001f 0020 005e 0020 001f 0021 005d 0021 001e 0021 001e 0020 001f 0021 001e 0020 001f 0021 005d 0021 005d 0020 005e 0020 005e 0021 001e 0020 005e 0021 001e 0021 005d 0020 005e 0021 005d 0021 005d 0020 005e 0020 001f 0020 057e 0082 007c 0020 001f 0020 001f 0021 001e 0021 005d 0020 001f 0021 005d 0021 001e 0020 001f 0021 001e 0020 001f 0021 001e 0020 005e 0020 005e 0020 005e 0021 005d 0021 001e 0020 07a3</ccf>
+    </code>
+  </remote>
+</lircremotes>

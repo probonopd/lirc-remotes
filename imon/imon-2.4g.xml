@@ -1,0 +1,66 @@
+<lircremotes creation-date="Wed Jul 22 23:04:13 2015" creator="" lircversion="0.8.6" lirc2xml_version="0.1.2" configfile="remotes/imon/imon-2.4g.lircd.conf" decodeir_version="2.40">
+  <remote name="lircd.conf.imon-2.4g-lt">
+    <lircdata type="??" bits="32" flags="0" eps="30" aeps="100" pthree="0" sthree="0" ptwo="0" stwo="0" pone="0" sone="0" pzero="0" szero="0" plead="0" ptrail="0" pfoot="0" sfoot="0" prepeat="0" srepeat="0" pre_data_bits="0" pre_data="0" post_data_bits="0" post_data="0" pre_p="0" pre_s="0" post_p="0" post_s="0" gap="115986" gap2="0" repeat_gap="0" toggle_bit="0" toggle_bit_mask="0" min_repeat="0" min_code_repeat="0" freq="38000" duty_cycle="0" toggle_mask="0" rc6_mask="0" baud="0" bits_in_byte="0" parity="0" stop_bits="0" ignore_mask="0"/>
+    <failedcode name="KEY_POWER" codeno="0x00000000BB4403FC" length="0"/>
+    <failedcode name="KEY_EXIT" codeno="0x00000000BB4431CE" length="0"/>
+    <failedcode name="REject" codeno="0x00000000BB4432CD" length="0"/>
+    <failedcode name="RAppLauncher" codeno="0x00000000BB4437C8" length="0"/>
+    <failedcode name="RTaskSwitcher" codeno="0x00000000BB4439C6" length="0"/>
+    <failedcode name="RBack" codeno="0x00000000BB443DC2" length="0"/>
+    <failedcode name="RSelect" codeno="0x00000000BB443FC0" length="0"/>
+    <failedcode name="RChannelUp" codeno="0x00000000BB443EC1" length="0"/>
+    <failedcode name="RChannelDown" codeno="0x00000000BB4443BC" length="0"/>
+    <failedcode name="RVolumeUp" codeno="0x00000000BB4445BA" length="0"/>
+    <failedcode name="RVolumeDown" codeno="0x00000000BB4444BB" length="0"/>
+    <failedcode name="RNext" codeno="0x00000000BB444CB3" length="0"/>
+    <failedcode name="RPrev" codeno="0x00000000BB444DB2" length="0"/>
+    <failedcode name="RFf" codeno="0x00000000BB444FB0" length="0"/>
+    <failedcode name="RRew" codeno="0x00000000BB444EB1" length="0"/>
+    <failedcode name="RI" codeno="0x00000000BB4450AF" length="0"/>
+    <failedcode name="RMute" codeno="0x00000000BB4449B6" length="0"/>
+    <failedcode name="RTv" codeno="0x00000000BB444AB5" length="0"/>
+    <failedcode name="RMenu" codeno="0x00000000BB444BB4" length="0"/>
+    <failedcode name="R1" codeno="0x00000000BB4434CB" length="0"/>
+    <failedcode name="R2" codeno="0x00000000BB4435CA" length="0"/>
+    <failedcode name="R3" codeno="0x00000000BB4436C9" length="0"/>
+    <failedcode name="R4" codeno="0x00000000BB443AC5" length="0"/>
+    <failedcode name="R5" codeno="0x00000000BB443BC4" length="0"/>
+    <failedcode name="R6" codeno="0x00000000BB443CC3" length="0"/>
+    <failedcode name="R7" codeno="0x00000000BB4440BF" length="0"/>
+    <failedcode name="R8" codeno="0x00000000BB4441BE" length="0"/>
+    <failedcode name="R9" codeno="0x00000000BB4442BD" length="0"/>
+    <failedcode name="RSkipBack" codeno="0x00000000BB4446B9" length="0"/>
+    <failedcode name="R0" codeno="0x00000000BB4447B8" length="0"/>
+    <failedcode name="RSkipFwd" codeno="0x00000000BB4448B7" length="0"/>
+    <failedcode name="KEY_EXIT" codeno="0x00000000BB4401FE" length="0"/>
+    <failedcode name="GEject" codeno="0x00000000BB4402FD" length="0"/>
+    <failedcode name="GAppLauncher" codeno="0x00000000BB4407F8" length="0"/>
+    <failedcode name="GTaskSwitcher" codeno="0x00000000BB4409F6" length="0"/>
+    <failedcode name="GBack" codeno="0x00000000BB440DF2" length="0"/>
+    <failedcode name="GSelect" codeno="0x00000000BB440FF0" length="0"/>
+    <failedcode name="GChannelUp" codeno="0x00000000BB440EF1" length="0"/>
+    <failedcode name="GChannelDown" codeno="0x00000000BB4413EC" length="0"/>
+    <failedcode name="GVolumeUp" codeno="0x00000000BB4415EA" length="0"/>
+    <failedcode name="GVolumeDown" codeno="0x00000000BB4414EB" length="0"/>
+    <failedcode name="GNext" codeno="0x00000000BB441CE3" length="0"/>
+    <failedcode name="GPrev" codeno="0x00000000BB441DE2" length="0"/>
+    <failedcode name="GFf" codeno="0x00000000BB441FE0" length="0"/>
+    <failedcode name="GRew" codeno="0x00000000BB441EE1" length="0"/>
+    <failedcode name="GI" codeno="0x00000000BB4420DF" length="0"/>
+    <failedcode name="GMute" codeno="0x00000000BB4419E6" length="0"/>
+    <failedcode name="GTv" codeno="0x00000000BB441AE5" length="0"/>
+    <failedcode name="GMenu" codeno="0x00000000BB441BE4" length="0"/>
+    <failedcode name="G1" codeno="0x00000000BB4404FB" length="0"/>
+    <failedcode name="G2" codeno="0x00000000BB4405FA" length="0"/>
+    <failedcode name="G3" codeno="0x00000000BB4406F9" length="0"/>
+    <failedcode name="G4" codeno="0x00000000BB440AF5" length="0"/>
+    <failedcode name="G5" codeno="0x00000000BB440BF4" length="0"/>
+    <failedcode name="G6" codeno="0x00000000BB440CF3" length="0"/>
+    <failedcode name="G7" codeno="0x00000000BB4410EF" length="0"/>
+    <failedcode name="G8" codeno="0x00000000BB4411EE" length="0"/>
+    <failedcode name="G9" codeno="0x00000000BB4412ED" length="0"/>
+    <failedcode name="GSkipBack" codeno="0x00000000BB4416E9" length="0"/>
+    <failedcode name="G0" codeno="0x00000000BB4417E8" length="0"/>
+    <failedcode name="GSkipFwd" codeno="0x00000000BB4418E7" length="0"/>
+  </remote>
+</lircremotes>

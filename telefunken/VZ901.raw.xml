@@ -1,0 +1,56 @@
+<lircremotes creation-date="Wed Jul 22 23:03:57 2015" creator="" lircversion="0.8.6" lirc2xml_version="0.1.2" configfile="remotes/telefunken/VZ901.raw" decodeir_version="2.40">
+  <remote name="VZ910">
+    <lircdata type="RAW_CODES" bits="0" flags="16385" eps="30" aeps="100" pthree="0" sthree="0" ptwo="0" stwo="0" pone="0" sone="0" pzero="0" szero="0" plead="0" ptrail="0" pfoot="0" sfoot="0" prepeat="0" srepeat="0" pre_data_bits="0" pre_data="0" post_data_bits="0" post_data="0" pre_p="0" pre_s="0" post_p="0" post_s="0" gap="52491" gap2="0" repeat_gap="0" toggle_bit="0" toggle_bit_mask="0" min_repeat="0" min_code_repeat="0" freq="38000" duty_cycle="0" toggle_mask="0" rc6_mask="0" baud="0" bits_in_byte="0" parity="0" stop_bits="0" ignore_mask="0"/>
+    <code name="FWD" codeno="0x0000000000000001">
+      <decoding protocol="Matsui" device="1" subdevice="-1" obc="6" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 367/1093-1120/2185-2213" error=""/>
+      <decoding protocol="Matsui" device="1" subdevice="-1" obc="6" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 346/1084-1121/2185-2190" error=""/>
+      <ccf>0000 006d 0016 0000 000e 0046 000d 001d 000d 001d 000d 001d 000d 0046 000d 0046 000d 001d 000d 001d 000d 001e 000c 001e 000c 01bc 000d 0046 000c 001d 000d 001d 000d 001d 000d 0046 000d 0046 000d 001e 000c 001d 000c 001e 000c 001d 000c 01bb</ccf>
+    </code>
+    <code name="PLAY" codeno="0x0000000000000002">
+      <decoding protocol="Matsui" device="1" subdevice="-1" obc="12" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 369/1090-1119/2187-2214" error=""/>
+      <decoding protocol="Matsui" device="1" subdevice="-1" obc="12" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 345/1094-1119/2185-2189" error=""/>
+      <ccf>0000 006d 0016 0000 000e 0046 000d 001d 000d 001d 000d 001d 000d 001c 000d 0046 000c 0047 000d 001d 000d 001e 000c 001e 000c 01bc 000d 0046 000d 001d 000d 001d 000d 001d 000d 001d 000d 0046 000d 0046 000d 001d 000d 001e 000c 001e 000c 01bb</ccf>
+    </code>
+    <code name="REC" codeno="0x0000000000000003">
+      <decoding protocol="Gap-400-6028-21?" device="0" subdevice="4" obc="0" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 0.4.0" error=""/>
+      <decoding protocol="Akai" device="1" subdevice="-1" obc="99" hex0="156" hex1="-1" hex2="-1" hex3="-1" misc="no repeat" error=""/>
+      <ccf>0000 006d 0016 0000 000f 0046 000d 001d 000d 001c 000d 0046 000d 0046 000c 001d 000c 001d 000c 001d 000c 0048 000b 0048 0009 016c 000c 0047 000c 001d 000c 001d 000c 0047 000c 0047 000c 001e 0009 0021 0009 0021 0009 004a 0009 004a 0009 016b</ccf>
+    </code>
+    <code name="STOP" codeno="0x0000000000000004">
+      <decoding protocol="Matsui" device="1" subdevice="-1" obc="3" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 344/1088-1096/2188-2213" error=""/>
+      <decoding protocol="Matsui" device="1" subdevice="-1" obc="3" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 345/1094-1095/2186-2190" error=""/>
+      <ccf>0000 006d 0016 0000 000d 0047 000d 001d 000d 001d 000c 0047 000c 0047 000c 001d 000c 001d 000d 001d 000c 001d 000c 001d 000d 01bc 000c 0047 000c 001d 000c 001d 000d 0046 000c 0047 000c 001d 000d 001d 000d 001d 000c 001d 000d 001d 000d 01bb</ccf>
+    </code>
+    <code name="BWD" codeno="0x0000000000000005">
+      <decoding protocol="Gap-367-6558-21?" device="0" subdevice="4" obc="0" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 0.4.0" error=""/>
+      <ccf>0000 006d 0016 0000 000e 0046 000d 001d 000d 001d 000d 0046 000d 0046 000d 0046 000d 001e 000c 001e 000c 001e 000c 001e 000c 0192 000d 0046 000d 001d 000d 001e 000c 0046 000d 0046 000d 0046 000d 001e 000c 001e 000c 001e 000c 001e 000c 0191</ccf>
+    </code>
+    <code name="STILL" codeno="0x0000000000000006">
+      <decoding protocol="Gap-365-6556-21?" device="0" subdevice="4" obc="0" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 0.4.0" error=""/>
+      <ccf>0000 006d 0016 0000 000e 0046 000d 001d 000d 001d 000d 0046 000d 001d 000c 0047 000d 0046 000d 001d 000d 001d 000d 001e 000c 0192 000c 0047 000c 001d 000d 001d 000d 0046 000d 001d 000c 0046 000d 0046 000d 001e 000c 001e 000c 001e 000c 0192</ccf>
+    </code>
+    <code name="CH_UP" codeno="0x0000000000000007">
+      <decoding protocol="Gap-367-6558-21?" device="0" subdevice="4" obc="0" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 0.4.0" error=""/>
+      <ccf>0000 006d 0016 0000 000e 0046 000d 001d 000d 001d 000d 0046 000d 001d 000d 001c 000d 0046 000d 0046 000d 001d 000d 001e 000c 0192 000c 0047 000d 001d 000d 001d 000d 0046 000d 001d 000d 001d 000c 0046 000d 0046 000d 001d 000c 001e 000c 0191</ccf>
+    </code>
+    <code name="CH_DOWN" codeno="0x0000000000000008">
+      <decoding protocol="Matsui" device="1" subdevice="-1" obc="24" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 369/1093-1119/2188-2214" error=""/>
+      <decoding protocol="Matsui" device="1" subdevice="-1" obc="24" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 345/1094-1120/2162-2189" error=""/>
+      <ccf>0000 006d 0016 0000 000e 0046 000d 001d 000d 001d 000d 001d 000d 001d 000c 001d 000d 0046 000d 0046 000d 001d 000d 001e 000c 01bc 000c 0047 000d 001d 000d 001d 000d 001d 000d 001d 000d 001d 000c 0046 000d 0046 000d 001e 000c 001e 000c 01bb</ccf>
+    </code>
+    <code name="VIDEO/TV" codeno="0x0000000000000009">
+      <decoding protocol="Gap-369-6560-21?" device="0" subdevice="4" obc="0" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 0.4.0" error=""/>
+      <ccf>0000 006d 0016 0000 000e 0046 000d 001d 000d 001d 000d 0046 000d 0046 000d 001d 000d 001d 000d 0046 000d 001d 000d 001e 000c 0192 000c 0047 000d 001d 000d 001d 000d 0046 000d 0046 000d 001d 000d 001d 000c 0046 000d 001e 000c 001d 000c 0191</ccf>
+    </code>
+    <code name="ON" codeno="0x000000000000000A">
+      <decoding protocol="Matsui" device="1" subdevice="-1" obc="5" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 369/1094-1116/2187-2207" error=""/>
+      <decoding protocol="Matsui" device="1" subdevice="-1" obc="5" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 345/1094-1119/2185-2189" error=""/>
+      <ccf>0000 006d 0016 0000 000e 0046 000d 001d 000d 001d 000d 0046 000d 001d 000d 0046 000d 001d 000d 001d 000c 001e 000c 001e 000c 01bc 000d 0046 000d 001d 000d 001d 000d 0046 000d 001d 000d 0046 000d 001d 000c 001e 000c 001e 000c 001e 000c 01bb</ccf>
+    </code>
+    <code name="OFF" codeno="0x000000000000000B">
+      <decoding protocol="Matsui" device="1" subdevice="-1" obc="10" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 368/1091-1119/2189-2207" error=""/>
+      <decoding protocol="Matsui" device="1" subdevice="-1" obc="10" hex0="-1" hex1="-1" hex2="-1" hex3="-1" misc="no repeat: 345/1093-1120/2162-2190" error=""/>
+      <ccf>0000 006d 0016 0000 000e 0046 000d 001d 000d 001d 000d 001d 000d 0046 000d 001d 000d 0046 000d 001d 000d 001d 000d 001e 000c 01bc 000d 0046 000c 001e 000d 001d 000d 001d 000d 0046 000d 001d 000c 0046 000d 001e 000c 001e 000c 001e 000c 01bb</ccf>
+    </code>
+  </remote>
+</lircremotes>
